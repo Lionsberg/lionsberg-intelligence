@@ -148,7 +148,7 @@ More: [System Requirements](System%20Requirements.md).
 2. Type `claude` and press Enter.
 3. Choose a colour theme. Pick the one you can read most easily.
 4. When asked how to sign in, choose option **1**, your **Claude subscription**.
-5. A browser opens. Sign in with the same account as Gate 2, the same way you made it (Google or Apple, if that is how). If it sends you an email, look in spam, or on your phone.
+5. A browser opens. Sign in with the same account as Gate 2, the same way you made it (Google or Apple, if that is how). If it sends you an email, look in spam, or on your phone. Use the same email you paid with. If the browser that opens is not the one you use for Claude, go back to the terminal, press **c** to copy the sign-in link, and paste it into the browser where you are signed in.
 6. When the browser says **You're all set up**, return to the terminal and press Enter.
 7. When it asks whether to trust this folder, first check that **Accessing workspace:** names your HQ. Then choose **Yes, I trust this folder**. Stay here; the next Gate begins in this window.
 
