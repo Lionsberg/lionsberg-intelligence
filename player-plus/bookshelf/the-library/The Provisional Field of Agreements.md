@@ -65,7 +65,7 @@ What the Game teaches and practises, who plays and who is asked to step away, ho
 1. **Say it at the table.** Most things mend there.
 2. **If the table is the trouble, bring in a host** who knows it but is not inside it.
 3. **If that fails, a mediator** both sides accept.
-4. **If mediation fails, binding arbitration.** Any other dispute arising from the Game or this page, between anyone taking part in it, is settled by final and binding arbitration before one neutral arbitrator, under the rules of [arbitration body], seated in [place], and not in court. The arbitrator applies this page and the law, may award what a court could award to one person, and hears no claim brought for a group. Costs are shared fairly, so that cost never keeps anyone from being heard. Judgment on the award may be entered in any court with jurisdiction.
+4. **If mediation fails, binding arbitration.** Any other dispute arising from the Game or this page is settled not in court but by one arbiter the parties choose together, whose decision is final and binding. Costs are shared fairly, so that cost never keeps anyone from being heard.
 
 Arbitration does not reach internal matters of the spirit, small-claims cases, or an urgent request to a court to prevent immediate harm.
 
