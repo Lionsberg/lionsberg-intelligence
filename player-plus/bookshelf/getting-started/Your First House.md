@@ -8,8 +8,8 @@ Create a new folder on your computer for your house. Remember: this folder must 
 
 The Quest's location, directly in your home folder:
 
-- **Mac:** `~/My Agents/`
-- **Windows:** `C:\Users\YourName\My Agents\`
+- **Mac:** `~/HQ/`
+- **Windows:** `C:\Users\YourName\HQ\`
 
 You may name it otherwise, but keep it directly in your home folder, not under Documents, which is often cloud-synced.
 

@@ -6,7 +6,7 @@ This chapter is the short version. The long one is the PKAI benchmark, the fulle
 
 ## What changes
 
-**More than one agent.** A second agent with a different temperament — a rigorous one beside a warm one, an archivist beside a chief of staff — living in the same `My Agents` folder with its own home, memory and charter. They share the HQ. They don't share a charter, and they never write each other's memory; if one learns something the other should know, it writes it down where the other will read it, and the other decides.
+**More than one agent.** A second agent with a different temperament — a rigorous one beside a warm one, an archivist beside a chief of staff — living in the same `HQ` folder with its own home, memory and charter. They share the HQ. They don't share a charter, and they never write each other's memory; if one learns something the other should know, it writes it down where the other will read it, and the other decides.
 
 **Foreground and background as a habit.** In a house it's an occasional trick. In a large house it's how the day runs: a foreground you're talking to, several background instances working jobs, each in its own scratch folder, each leaving a handoff. The [previous chapter](Foreground%20and%20Background.md) is the whole mechanism; a large house just runs it constantly.
 

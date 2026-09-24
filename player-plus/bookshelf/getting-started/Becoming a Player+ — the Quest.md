@@ -17,7 +17,7 @@ A [Quest](https://read.lionsberg.world/The_Field/Quest) is one real thing, done 
 
 In the Game, a Quest usually belongs to a Cell, for a season. This one you walk alone first, to learn the form before your table chooses one together. The lesson behind it is [Becoming a Player+](../player-plus-modules/01%20Becoming%20a%20Player%2B.md).
 
-Like every gate in [The Gates of LIØNSBERG](https://read.lionsberg.world/The_Field/The_Gates_of_LI%C3%98NSBERG), these are gates, not filters. Nothing is withheld, and nothing closes behind you. Stop between any two Gates and pick up where you left off. You do not walk alone: when something breaks or looks strange, ask the person who brought you, or bring it to your table.
+Like every gate in [The Gates of LIØNSBERG](https://read.lionsberg.world/The_Field/The_Gates_of_LI%C3%98NSBERG), these are gates, not filters. Nothing is withheld, and nothing closes behind you. Stop between any two Gates and pick up where you left off. You do not walk alone: when something breaks or looks strange, ask the person who brought you, or bring it to your table. If it helps them see, share your screen: one window, never the whole screen.
 
 **Your map.** Pioneers in a wilderness find some creeks already crossed. So will you. Each Gate ends with how you know you have passed it; if that is already true, tick it now and walk on.
 
@@ -129,7 +129,7 @@ More: [Installing Git](Installing%20Git.md).
 2. Skip the "Download for macOS" button. Scroll down to the **Terminal** option.
 3. Choose the **Native install** (the recommended one).
 4. Copy the command for your system with the page's **copy button**, not by selecting it with your mouse.
-5. Paste it into the terminal. Read it once. Press Return, and wait a minute or two.
+5. Paste it into the terminal. Read it once. Press Return, and wait a minute or two. It may look as if nothing is happening; it is working. Don't stop it and start again.
 6. If the installer ends with a setup note, do exactly what it says. On a Mac it usually gives one more line to copy; paste it into the same window and press Return. It will look as if nothing happened; that is correct.
 7. Close the terminal and open it again.
 
@@ -162,16 +162,16 @@ More: [Installing Git](Installing%20Git.md).
 
 *The place your agent lives: a folder holding its instructions, its memory, and everything you make together.*
 
-1. In your home folder, make a new folder called **My Agents**.
+1. In your home folder, make a new folder called **HQ**, short for headquarters: the home base for all your work with your agent.
    - **Mac:** in Finder, press Cmd+Shift+H, then File › New Folder.
    - **Windows:** in File Explorer, open `C:\Users\YourName\`, then New › Folder.
 2. Get the Player+ kit: a copy from the person who brought you, or go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and unzip it.
-3. Open the kit's **player-plus** folder and copy everything inside it into **My Agents**.
+3. Open the kit's **player-plus** folder and copy everything inside it into **HQ**.
 
 > [!warning]
 > Keep this folder out of iCloud, OneDrive, Dropbox and Google Drive. Two systems keeping history in one folder cause conflicts and loss. On many Windows computers OneDrive syncs Documents, which is why the folder goes directly in your home folder.
 
-**You have passed this Gate when** you open **My Agents** and see `START-HERE.md` and `CLAUDE.md` inside it.
+**You have passed this Gate when** you open **HQ** and see `START-HERE.md` and `CLAUDE.md` inside it.
 
 *The space is set apart and waiting. Tick Gate 7.*
 
@@ -184,8 +184,8 @@ More: [System Requirements](System%20Requirements.md).
 *You meet your agent. An [Agent](https://read.lionsberg.world/The_Field/Agent) is an AI that works for you and answers to you. You and your agents together are one [Player+](https://read.lionsberg.world/The_Field/Player+). You decide; it carries.*
 
 1. Open the terminal in your agent's home.
-   - **Mac:** type `cd ~/"My Agents"` and press Return. (`cd` means "go into this folder.")
-   - **Windows:** type `cd "$HOME\My Agents"` and press Enter.
+   - **Mac:** type `cd ~/HQ` and press Return. (`cd` means "go into this folder.") Or type `cd ` with a space, drag your HQ folder from Finder onto the terminal, and press Return.
+   - **Windows:** type `cd "$HOME\HQ"` and press Enter.
 2. Type `claude` and press Return.
 3. Open [START-HERE](../../START-HERE.md) and follow **Door 3**. It gives your first message word for word; copy it, paste it, press Return. Your agent reads its charter, the kit's waiver and the seed before it says anything.
 4. At every step, say yes, no, or "wait, explain."

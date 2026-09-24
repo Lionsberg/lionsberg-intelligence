@@ -6,7 +6,7 @@ By the end, you'll have:
 
 - **Claude Code**, the program your agent lives in, running in a terminal
 - **A comfortable terminal**, set up so everything is readable and easy to reach
-- **Your agent's home**, a folder called My Agents, and an agent that greets you
+- **Your agent's home**, a folder called HQ, and an agent that greets you
 - **A Markdown editor**, when you want one, for reading and writing your files alongside your agent
 
 Git is installed along the way. Your agent uses it quietly on your behalf to keep a safe history of everything you make; you never need to learn it.

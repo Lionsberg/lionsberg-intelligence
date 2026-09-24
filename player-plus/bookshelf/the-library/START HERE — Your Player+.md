@@ -31,8 +31,8 @@ If you have none of these, the Game does not wait for a machine: see *Other door
 | 4 | **The developer tools and Git** | `git --version` answers with a version number |
 | 5 | **Claude Code** — the native install, from code.claude.com | `claude --version` answers with a version number |
 | 6 | **Sign in** — with your Claude subscription | you have seen Claude Code waiting, and left it with `/exit` |
-| 7 | **Your agent's home** — a folder called **My Agents** in your home folder, holding the Player+ kit | you see `START-HERE.md` and `CLAUDE.md` inside it |
-| 8 | **First words** — Claude Code started in **My Agents**, and the first message from the kit's START-HERE, Door 3 | your agent greets you and asks who you are |
+| 7 | **Your agent's home** — a folder called **HQ** in your home folder, holding the Player+ kit | you see `START-HERE.md` and `CLAUDE.md` inside it |
+| 8 | **First words** — Claude Code started in **HQ**, and the first message from the kit's START-HERE, Door 3 | your agent greets you and asks who you are |
 
 **[Walk the Quest →](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md)** Each Gate there explains every command before you use it. The kit itself lives at [github.com/Lionsberg/lionsberg-intelligence](https://github.com/Lionsberg/lionsberg-intelligence), in the folder `player-plus/`; if the person who brought you handed you a copy, use theirs. The kit is plain files, and a copy on a thumb drive works exactly as well.
 

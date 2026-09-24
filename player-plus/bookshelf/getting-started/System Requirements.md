@@ -35,10 +35,10 @@ Allow an afternoon for the whole Quest; you may stop between any two Gates. On a
 
 Your agent's folder must **not** be inside iCloud, OneDrive, Dropbox, or any other cloud-synced folder. Your agent keeps its own version history with git, and having two sync systems watching the same folder causes conflicts and data loss.
 
-Your agent's home is a folder called **My Agents**, directly in your home folder:
+Your agent's home is a folder called **HQ**, directly in your home folder:
 
-- **Mac:** `~/My Agents/`
-- **Windows:** `C:\Users\YourName\My Agents\`
+- **Mac:** `~/HQ/`
+- **Windows:** `C:\Users\YourName\HQ\`
 
 > [!warning]
 > On many Windows machines, OneDrive syncs your Documents folder by default — which is exactly why the folder goes directly in `C:\Users\YourName\`, not under Documents.
