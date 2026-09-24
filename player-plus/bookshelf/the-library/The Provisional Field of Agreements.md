@@ -60,10 +60,6 @@ What the Game teaches and practises, who plays and who is asked to step away, ho
 
 Arbitration does not reach internal matters of the spirit, small-claims cases, or an urgent request to a court to prevent immediate harm.
 
-## Your information
-
-What you share is yours. Your name goes on the Roll only with your yes. No one passes on your contact details, your story or your words without your consent. A table that records says so first, and you may decline.
-
 ## How this page changes
 
 Anyone may propose a change, with a reason, at a turning. A change binds you only once you have been told and could say yes or leave in order. If any part cannot be enforced where you live, the rest stands.
