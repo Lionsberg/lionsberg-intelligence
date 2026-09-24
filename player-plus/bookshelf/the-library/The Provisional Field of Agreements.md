@@ -65,9 +65,9 @@ What the Game teaches and practises, who plays and who is asked to step away, ho
 1. **Say it at the table.** Most things mend there.
 2. **If the table is the trouble, bring in a host** who knows it but is not inside it.
 3. **If that fails, a mediator** both sides accept.
-4. **If mediation fails, binding arbitration.** Any other dispute arising from the Game or this page is settled not in court but by one arbiter the parties choose together, whose decision is final and binding. Costs are shared fairly, so that cost never keeps anyone from being heard.
+4. **If that still does not settle it, a trusted arbiter.** Together, choose one person you both trust, and agree beforehand that their decision is final. That is where it ends, not in court. Share the cost fairly, so that cost never keeps anyone from being heard.
 
-Arbitration does not reach internal matters of the spirit, small-claims cases, or an urgent request to a court to prevent immediate harm.
+Matters of the spirit are not for an arbiter; they are mended within the association. And nothing here stands in the way of urgent help when someone may be harmed.
 
 ## How this page changes
 
