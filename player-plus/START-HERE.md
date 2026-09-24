@@ -8,6 +8,8 @@ status: current best understanding, loosely held · improved each week
 
 *Five doors. Take the one that fits where you are. The Game comes first on every path; the agent comes at the wise right time.*
 
+**New to all of this?** Walk the Quest [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): eight Gates from your first yes to an agent that greets you, with every step on Mac and Windows. It ends at Door 3.
+
 ## Door 1 — you have a notebook and three people
 
 You are a complete player. Read the seed text's Part V (the Game) and Part XII (the words at the table); it is an evening. Say yes to the Invitation in your own words, to the person who gave you this. Gather your two or three. Choose one real thing for one season. Meet weekly at the same hour; each says what they did, the gap, what they will do, what they offer and ask; put something in the middle; tell one story; close in gratitude. At the season's turning fill the fourteen lines of the Season Sheet. Within a week, pass it on to two or three who are ready. Nothing below is required of you, ever.
@@ -20,7 +22,7 @@ Paste the seed text's Part V into a fresh conversation and ask it to say the Gam
 
 Make a folder for your agent's home. Copy everything in this `player-plus/` folder into it. Open your terminal in that folder and start Claude Code. Your first message:
 
-> Read CLAUDE.md, LINEAGE.md and WAIVER.md, then read bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md whole. Then greet me and ask what I am playing toward.
+> Read CLAUDE.md, LINEAGE.md and WAIVER.md, then read bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md whole. Then greet me, ask who I am, and ask what I am playing toward.
 
 Say yes, no, or "wait, explain" at each step. The charter names a headquarters folder (`{{HQ_PATH}}`); tell your agent where you keep your work, or say "here" and it will use this folder. The `memory/` and `sessions/` folders fill as you live in them. Your agent will take `skills/entering-the-field` before your first room and `skills/heads-up` for any live session; it copies a skill into `.claude/skills/` only when you say so.
 

@@ -2,6 +2,12 @@
 
 *Newest first. Each entry says what changed and why, so your agent can read a release and you two can decide what to take. Nothing here installs itself; `skills/pull-a-release` walks you through a pull.*
 
+## 3.2.0 — 2026-09-24
+
+- **Becoming a Player+**, a Quest of eight Gates, is the one path from your first yes to an agent that greets you: the account, the terminal, the developer tools and Git, Claude Code, signing in, your agent's home, and first words, on Mac and Windows, each Gate with a check you can see. START-HERE now points newcomers to it.
+- **The Provisional Field of Agreements** is on the shelf and read before stepping in.
+- Door 3's first message now has your agent ask who you are.
+
 ## 3.1.1 — 2026-09-23
 
 **The whole library on the shelf.**

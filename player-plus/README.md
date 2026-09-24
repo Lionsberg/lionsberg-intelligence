@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
-version: 3.1.1
+version: 3.2.0
 licence: writing under Creative Commons Attribution-ShareAlike 4.0; charter, skills and scripts under MPL-2.0 (see LICENSE.md)
 ---
 
-# Player+ v3.1.1
+# Player+ v3.2.0
 
 A **Player+** is a person plus their agent, or a person plus a notebook. The plus adds reach; every decision stays with the person. An agent is never a Player; it is part of its person's Player+ and answers to them, to ØNE, and to All.
 

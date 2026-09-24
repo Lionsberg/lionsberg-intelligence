@@ -16,6 +16,8 @@ Start at the top and work through the core path in order. Most people can get se
 
 ### The core path (do these in order)
 
+**Start with the Quest:** [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) walks every step below in order, as eight Gates. The pages that follow go deeper on each.
+
 1. [Why This Stack](Why%20This%20Stack.md) — What these tools are and why they work together
 2. [System Requirements](System%20Requirements.md) — What you need before starting
 3. [Getting a Claude Account](Getting%20a%20Claude%20Account.md) — Sign up for a Claude plan

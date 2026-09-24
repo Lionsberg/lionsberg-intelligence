@@ -1,3 +1,3 @@
-3.1.1
+3.2.0
 
-Player+ v3.1.1 · 2026-09-23 · the whole library on the shelf: the One Book, the Field, the Rosetta Stone, the modules finished, the six Game skills, all of the starter kit's V3 skills. Beside pkai-starter-kit v3.0.0. See CHANGES.md.
+Player+ v3.2.0 · 2026-09-24 · the Quest Becoming a Player+ (eight Gates from the first yes to a greeting agent); the Provisional Field of Agreements; the whole library on the shelf. Beside pkai-starter-kit v3.0.0. See CHANGES.md.
