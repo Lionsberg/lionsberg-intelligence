@@ -56,7 +56,7 @@ When you type a request to Claude Code, here's what happens:
 3. It responds with text, or makes the changes you asked for
 4. If it changed any files, you'll see the edits the next time you open them in your Markdown editor
 
-Claude Code works with the files on your computer directly. It doesn't upload your house to the cloud — it reads files from your local disk. The only time your files leave your computer is when you explicitly push to GitHub.
+Claude Code works with the files on your computer directly. Your house stays on your own disk; it is never uploaded as a whole. What your agent reads to help you — a file, a page, a note — is sent to Anthropic to be processed, the same as anything you type to Claude. Your files leave your computer as files only when you push them to GitHub.
 
 ## Tips for Getting Good Results
 

@@ -1,6 +1,6 @@
 # What you need
 
-Requirements and strong recommendations, in plain terms. If the "basics" lists feel comfortable, you're ready; your first conversation with your agent checks the rest with you.
+Requirements and strong recommendations, in plain terms. If the "basics" lists feel comfortable, you're ready. The Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>), walks you through getting everything else, one Gate at a time.
 
 ## Computer basics
 
@@ -14,17 +14,17 @@ Requirements and strong recommendations, in plain terms. If the "basics" lists f
 
 ## Claude account
 
-A **Claude Pro or Max** account from Anthropic. Claude Code — the tool your agent runs on — is included with both. One person, one account: the terms of service say so, and a shared account also means a shared view of everyone's sessions.
+A **Claude Pro** plan from Anthropic, which includes everything this path needs (Max works too). Claude Code, the tool your agent runs on, comes with it. Sign up at claude.ai, typed into your browser yourself. One person, one account: the terms of service say so, and a shared account also means a shared view of everyone's sessions.
 
 ## Computer intermediate
 
-- You can use a **terminal** — a simple, chat-like program on your computer. If you never have, that's genuinely fine: it's less scary than it looks, the getting-started shelf in this kit (`bookshelf/getting-started/`) teaches it from zero.
+- You can use a **terminal** — a simple, chat-like program on your computer. If you never have, that's genuinely fine: it's less scary than it looks, and the Quest teaches it from zero.
 
-## Version control (git): optional, strongly recommended
+## Git: required
 
-Git keeps quiet, safe snapshots of everything you and your agent make, so nothing can ever be lost. You don't need to learn it — your agent handles it — you only need to say yes to it when your agent asks.
+Git keeps quiet, safe snapshots of everything you and your agent make, so nothing can ever be lost. You don't need to learn it; your agent handles it. It only needs to be installed, which the Quest does at Gate 4 (on a Mac, with Apple's developer tools, which can take five to forty minutes).
 
-**One rule if you use git: keep git-managed folders out of OneDrive** (or any cloud-sync folder — Dropbox, Google Drive, iCloud Drive). Git and sync engines contend with each other and both lose. On Windows, Documents is often OneDrive-synced — in that case your headquarters goes at the top of your home folder instead. Ask your agent to check this with you.
+**One rule: keep your agent's home out of cloud-sync folders** — iCloud, OneDrive, Dropbox, Google Drive. Git and sync engines contend with each other and both lose. Your agent's home is a folder called **My Agents**, directly in your home folder. On many Windows computers Documents is synced by OneDrive, which is why the folder does not go there. Keep your headquarters, where your projects live, out of sync folders too; your agent will check this with you.
 
 ## The two surfaces
 
@@ -32,7 +32,7 @@ You'll work with your agent through two surfaces: a **chat surface** (where you 
 
 ### Chat surfaces
 
-- **A terminal** — the recommended path. Mac: Terminal.app works, and we strongly recommend upgrading to **iTerm2** (free and open source). Windows: **PowerShell** in **Windows Terminal**.
+- **A terminal** — the recommended path, and the one the Quest sets up. Mac: **iTerm2** (free and open source; the built-in Terminal works too). Windows: **PowerShell** in **Windows Terminal**.
 - **The Claude app on your phone**, through **Remote Control** (`/rc`) — the same session, continued from your phone. If you'll reach your agent mostly from a phone, tell it so at the start: there's a chapter and a skill for that path (`bookshelf/your-house/The Phone Path.md`, `skills/phone-path`).
 - *Other option, not recommended:* Claude Desktop (or Web/Mobile — all the same) natively. The problem is getting files in and out, via clunky git branches.
 - *Other option:* skip Claude Code and use Claude Cowork. We think that's harder.
@@ -47,5 +47,7 @@ You'll work with your agent through two surfaces: a **chat surface** (where you 
 The full treatment is `bookshelf/getting-started/Viewing Your Files.md`.
 
 ## Where to get help
+
+When something breaks or looks strange, ask the person who brought you, or bring it to your table. The troubleshooting page, `bookshelf/getting-started/Troubleshooting.md`, covers the common snags.
 
 Free and paid **PKAI workshops**, from the author of the starter kit, teach beyond this kit — and are a way to get set up with company rather than alone. Sign up for email updates at **https://peterkaminski.ai** to hear about workshops and new starter-kit releases.

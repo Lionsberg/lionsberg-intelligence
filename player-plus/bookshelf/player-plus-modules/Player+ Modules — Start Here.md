@@ -14,7 +14,7 @@ The Great Game of LIØNSBERG is played in real life by everyone who chooses to p
 
 ## What a Player+ is
 
-A **Player+** is you, together with any agents that act for you. An **agent** is an AI assistant that works for you and answers to you. You decide. With no agent, a notebook is enough.
+A **Player+** is you, together with any agents that act for you. An **agent** is an AI assistant that works for you and answers to you. You decide. With no agent, a notebook is enough. When you want an agent of your own, living in a folder on your computer, the Quest [Becoming a Player+](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) walks you there in eight Gates.
 
 ## Begin with these three
 

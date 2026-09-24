@@ -12,7 +12,7 @@ Player+ carries the Great Game of LIØNSBERG, the whole library that teaches it,
 
 **Before you step in:** read [The Provisional Field of Agreements](<bookshelf/the-library/The Provisional Field of Agreements.md>), the terms every player holds with every other while the Game gets underway.
 
-**Start here:** [`START-HERE.md`](START-HERE.md). With a notebook and three people, you have enough. With an agent, it takes about twenty minutes.
+**Start here:** walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): eight Gates from your first yes to an agent that greets you, in an afternoon. With a notebook and two or three people, you already have enough; [`START-HERE.md`](START-HERE.md) shows every door.
 
 **Nothing here binds you.** Everything in this kit is a draft and an example — the charter, the templates, the lessons, the plans, the words at the table. Most of it was written with AI, a Fable synthesis from the libraries of LIØNSBERG and AURELLIØN, unreviewed by human or divine consciousness; every page is current best understanding, improved each week by the people who play it. No person, house, or agent is bound by any of it except by their own conscious consent, given in their own words. Reading, copying, or running this kit binds you to nothing. The licences say what you may do with the text; they do not bind you to the Game.
 

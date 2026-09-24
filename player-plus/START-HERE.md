@@ -4,27 +4,37 @@ status: current best understanding, loosely held · improved each week
 
 # Start here
 
-*This kit lives at https://github.com/Lionsberg/lionsberg-intelligence in the folder `player-plus/`; the library it carries is read.lionsberg.world.*
+*A Player+ is a person plus their agent, or a person plus a notebook. The Game comes first on every path; the agent comes at the wise right time.*
 
-*Five doors. Take the one that fits where you are. The Game comes first on every path; the agent comes at the wise right time.*
+## The path most people take
 
-**New to all of this?** Walk the Quest [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): eight Gates from your first yes to an agent that greets you, with every step on Mac and Windows. It ends at Door 3.
+Walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): eight Gates, from your first yes to an agent that greets you, with every step shown for Mac and Windows. It takes an afternoon, and you may stop between any two Gates. Its last Gate brings you back to this page, to Door 3, for your agent's first words.
 
-## Door 1 — you have a notebook and three people
+*Before you begin, [`REQUIREMENTS.md`](REQUIREMENTS.md) says what you need.*
+
+## Other doors
+
+The Quest is the main road. If one of these doors fits where you are now, take it; every door leads into the same Game.
+
+## Door 1 — you have a notebook and two or three people
 
 You are a complete player. Read the seed text's Part V (the Game) and Part XII (the words at the table); it is an evening. Say yes to the Invitation in your own words, to the person who gave you this. Gather your two or three. Choose one real thing for one season. Meet weekly at the same hour; each says what they did, the gap, what they will do, what they offer and ask; put something in the middle; tell one story; close in gratitude. At the season's turning fill the fourteen lines of the Season Sheet. Within a week, pass it on to two or three who are ready. Nothing below is required of you, ever.
 
 ## Door 2 — you have a chat assistant and no terminal
 
-Paste the seed text's Part V into a fresh conversation and ask it to say the Game back to you in five plain sentences. Paste Part X and ask what it would be agreeing to as your agent. In a call, say "heads-up" and let it write the three parts in the conversation, asking you for the time. That is Player+ Modules 01–03 and 07, with no files at all.
+Paste the seed text's Part V into a fresh conversation and ask it to say the Game back to you in five plain sentences. Paste Part X and ask what it would be agreeing to as your agent. In a call, say "heads-up" and let it write the three parts in the conversation, asking you for the time. That is Player+ Modules 01–03 and 07, with no files at all. When you want an agent that remembers, walk the Quest.
 
-## Door 3 — you have Claude Code (or any harness that reads a CLAUDE.md) and want an agent that remembers
+## Door 3 — your agent's first words
 
-Make a folder for your agent's home. Copy everything in this `player-plus/` folder into it. Open your terminal in that folder and start Claude Code. Your first message:
+If you walked the Quest, you are at Gate 8: the terminal is open in **My Agents**, and Claude Code is waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **My Agents** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it; open your terminal there and start Claude Code.
+
+Copy this, paste it as your first message, and press Return:
 
 > Read CLAUDE.md, LINEAGE.md and WAIVER.md, then read bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md whole. Then greet me, ask who I am, and ask what I am playing toward.
 
-Say yes, no, or "wait, explain" at each step. The charter names a headquarters folder (`{{HQ_PATH}}`); tell your agent where you keep your work, or say "here" and it will use this folder. The `memory/` and `sessions/` folders fill as you live in them. Your agent will take `skills/entering-the-field` before your first room and `skills/heads-up` for any live session; it copies a skill into `.claude/skills/` only when you say so.
+Your agent reads before it says anything. When it greets you, tell it three things, one at a time: what you will call it; who you are and how you like to be spoken with; and what you are playing toward. At every step, say yes, no, or "wait, explain."
+
+It will also ask where you keep your work, which it calls your headquarters; tell it, or say "here" and it will use this folder. The `memory/` and `sessions/` folders fill as you live in them. Before your first room, your agent will offer the `entering-the-field` skill, and `heads-up` for any live session; it adds a skill only when you say so.
 
 ## Door 4 — you already have a house built from the PKAI starter kit
 
@@ -34,4 +44,6 @@ Say yes, no, or "wait, explain" at each step. The charter names a headquarters f
 
 That is also the Path. Read the seed. Keep the Turn with yourself: what you said you would do, the gap, what you will do. When someone you trust is ready, you have the seed to give them, and then you are two.
 
-*Before you begin with an agent, [`REQUIREMENTS.md`](REQUIREMENTS.md) says what you need.*
+---
+
+*This kit lives at https://github.com/Lionsberg/lionsberg-intelligence, in the folder `player-plus/`. The library it carries is at read.lionsberg.world.*

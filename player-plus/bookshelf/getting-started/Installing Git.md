@@ -1,6 +1,8 @@
 # Installing Git
 
-Git is the version-control system that tracks changes to your files and syncs them with GitHub. You need it installed on your computer before you can use Claude Code to manage your house.
+*Gate 4 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
+
+Git keeps a quiet, safe history of every file you and your agent make. It is required, and it only needs to be installed: your agent handles it for you from then on, and you never need to learn it.
 
 The installation is different on Mac and Windows. Follow the section for your platform.
 
@@ -8,43 +10,45 @@ The installation is different on Mac and Windows. Follow the section for your pl
 
 ## Mac
 
-On Mac, you install Git through Apple's Xcode Command Line Tools. This also installs other developer tools that Claude Code needs.
+On a Mac, Git comes with Apple's **Command Line Developer Tools**. They also bring other developer tools that Claude Code needs.
 
-### Step 1: Open Terminal
+### Step 1: Ask your Mac which Git it has
 
-Press **Cmd+Space** to open Spotlight, type **Terminal**, and press Enter. Terminal is a text-based interface that comes pre-installed on every Mac.
-
-### Step 2: Install Xcode Command Line Tools
-
-In Terminal, type this command and press Enter:
-
-```
-xcode-select --install
-```
-
-A dialogue box will appear asking you to install the command-line developer tools.
-
-> [!warning]
-> This dialogue often appears **behind** other windows and is easy to miss. If nothing seems to happen, check behind your open windows or look at your other displays.
-
-Click **Install**, then **Agree** to the license agreement. The download will start.
-
-> [!tip]
-> The time estimate shown during download is wildly inaccurate at first — it may say 16 hours. The actual download typically takes 10-15 minutes. The progress bar may also restart about two-thirds of the way through. This is normal.
-
-If you already have Xcode tools installed, you'll see a message saying so. That's fine — move on to the next step.
-
-### Step 3: Verify Git is installed
-
-After the Xcode tools finish installing, type this in Terminal and press Enter:
+In your terminal (iTerm2, from Gate 3), type this and press Return:
 
 ```
 git --version
 ```
 
-You should see a version number (like `git version 2.39.3`). If you do, Git is ready.
+If you see a version number (like `git version 2.39.3`), Git is already installed. Skip to Step 3.
 
-### Step 4 (Optional): Install Homebrew and the GitHub CLI
+### Step 2: Install the Command Line Developer Tools
+
+If a window offers to install the **Command Line Developer Tools**, click **Install**, then **Agree** to the license agreement.
+
+If no window appears and you see an error instead, type this and press Return; the window will come:
+
+```
+xcode-select --install
+```
+
+> [!warning]
+> This window often appears **behind** other windows and is easy to miss. If nothing seems to happen, check behind your open windows or look at your other displays.
+
+> [!tip]
+> Wait. It can take five to forty minutes, and the first time estimate is often wildly wrong: it may say 16 hours. The progress bar may also restart about two-thirds of the way through. This is normal.
+
+### Step 3: Verify Git is installed
+
+When the tools finish installing, type this and press Return:
+
+```
+git --version
+```
+
+You should see a version number (like `git version 2.39.3`). If you do, Git is ready, and you have passed Gate 4.
+
+### Step 4 (Optional, not needed for the Quest): Install Homebrew and the GitHub CLI
 
 Homebrew is a tool that makes it easy to install other tools on Mac. The GitHub CLI (`gh`) makes connecting to GitHub smoother.
 
@@ -62,7 +66,7 @@ Then install the GitHub CLI:
 brew install gh
 ```
 
-This is optional but recommended. It makes the GitHub authentication step (next page) simpler.
+This is optional. It makes connecting to GitHub simpler, if you ever want that (see [GitHub Account Setup](GitHub%20Account%20Setup.md)).
 
 ---
 
@@ -72,21 +76,25 @@ On Windows, you install Git for Windows. Its installer also bundles Git Bash, bu
 
 ### Step 1: Download Git for Windows
 
-Go to [git-scm.com](https://git-scm.com/) and click the download button.
+In your browser, go to **git-scm.com** and download Git for Windows.
 
 ### Step 2: Run the installer
 
 Run the downloaded installer. **Accept the default options all the way through** — the defaults are fine.
 
-### Step 3: Verify the installation
+### Step 3: Close the terminal and open it again
 
-Open **Windows Terminal** (it comes pre-installed on modern Windows), make sure you're on a **PowerShell** tab, and type:
+Close Windows Terminal and open it again, so it notices the new tool.
+
+### Step 4: Verify the installation
+
+Make sure you're on a **PowerShell** tab, and type:
 
 ```
 git --version
 ```
 
-You should see a version number. If Git isn't found, the installer didn't work — try downloading and running it again.
+You should see a version number (like `git version 2.39.3`). If Git isn't found, open a fresh PowerShell tab and try once more; if it still isn't found, the installer didn't finish — download and run it again.
 
 > [!tip]
 > Windows Terminal can host several kinds of tabs — PowerShell, Command Prompt, and the Git Bash that came along with the Git for Windows install. Use the **PowerShell** tab for everything in this guide, including running Claude Code.
@@ -95,4 +103,4 @@ You should see a version number. If Git isn't found, the installer didn't work �
 
 ## Next Step
 
-Move on to [GitHub Account Setup](GitHub%20Account%20Setup.md) to create your GitHub account and connect it to Git.
+Gate 5: [Installing Claude Code](Installing%20Claude%20Code.md). GitHub is optional, and can wait; [GitHub Account Setup](GitHub%20Account%20Setup.md) covers it when you want it.

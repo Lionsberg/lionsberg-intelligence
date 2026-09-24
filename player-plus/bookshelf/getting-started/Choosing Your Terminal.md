@@ -1,5 +1,7 @@
 # Choosing Your Terminal
 
+*Gate 3 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
+
 The terminal is where you'll actually talk to Claude Code — it's the window where you type and where your agent replies. You'll spend a lot of time looking at it, so it's worth two minutes now to make sure it's set up well.
 
 The built-in terminal on your computer works, but on both Mac and Windows there's a better option, and on Windows there's a real gotcha to fix before you go further. Follow the section for your platform.
@@ -12,18 +14,18 @@ The Mac comes with a Terminal app already installed, and it's fine to start with
 
 ### Step 1: Download iTerm2
 
-Go to [iterm2.com](https://iterm2.com/) and download the app. Unzip it and drag it into your Applications folder, the same way you'd install any Mac app.
+Go to **iterm2.com** and download the app. Open the downloaded file to unzip it, and move iTerm2 into your **Applications** folder. If it offers to move itself there, say yes.
 
 ### Step 2: Open it and use it
 
-Open iTerm2 the way you'd open any app — Spotlight (Cmd+Space), type **iTerm**, press Enter.
+Open iTerm2 the way you'd open any app — Spotlight (Cmd+Space), type **iTerm**, press Return.
 
 > [!tip]
 > The concrete win with iTerm2: selecting text with your mouse copies it automatically (no need to Cmd+C), and it gives you much more control over appearance — colors, transparency, font size — than the built-in Terminal app. Small thing, but you'll notice it every day.
 
 ### Step 3: Run terminal setup in Claude Code
 
-Once Claude Code is installed and running (see [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
+Later, once Claude Code is installed and running (Gate 5, [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
 
 ```
 /terminal-setup
@@ -45,9 +47,15 @@ On Windows, use **PowerShell** running inside **Windows Terminal** — Microsoft
 - **Windows 11:** Windows Terminal is already installed. Open the Start menu, type **Terminal**, and press Enter.
 - **Windows 10:** Install it free from the Microsoft Store — open the Store, search **Windows Terminal**, and click Install.
 
+Never get Windows Terminal from a website.
+
 ### Step 2: Open PowerShell inside it
 
-Windows Terminal opens with PowerShell as the default tab, so you're usually already there. If not, click the small down-arrow next to the `+` at the top of the window and choose **Windows PowerShell** from the list.
+Windows Terminal opens with PowerShell as the default tab, so you're usually already there: the tab says **PowerShell**. If not, click the small down-arrow next to the `+` at the top of the window and choose **Windows PowerShell** from the list.
+
+### Step 3: Switch to dark colours
+
+Do this now, before anything else: the next section shows how. Without it, some of your agent's words can be invisible.
 
 ---
 
@@ -70,7 +78,7 @@ This shows up as things like a numbered list that appears to have gaps in it, or
 
 ### Then tell Claude Code to use dark mode too
 
-Inside Claude Code, run:
+Once Claude Code is installed (Gate 5), run this inside it:
 
 ```
 /theme
@@ -83,10 +91,14 @@ and choose **dark**.
 
 ### Check yourself
 
-Once you've made both changes, ask your agent to print a numbered list with a few words in bold or highlighted. If every item is clearly visible and readable, you're set. If anything looks blank, missing, or washed-out, stop here and redo the color scheme steps above before going further — everything downstream in this kit assumes you can actually read what your agent sends you.
+Once Claude Code is running and you've made both changes, ask it to print a numbered list with a few words in bold or highlighted. If every item is clearly visible and readable, you're set. If anything looks blank, missing, or washed-out, stop here and redo the color scheme steps above before going further — everything downstream in this kit assumes you can actually read what your agent sends you.
 
 ---
 
+## A pop-up about your local network
+
+If a pop-up asks to let the terminal "find devices on your local network," choose **Don't Allow**.
+
 ## Next Step
 
-Move on to [Viewing Your Files](Viewing%20Your%20Files.md) to set up a Markdown editor alongside your terminal.
+Gate 4: [Installing Git](Installing%20Git.md). Later, when you want to read your files comfortably, [Viewing Your Files](Viewing%20Your%20Files.md) sets up a Markdown editor alongside your terminal.

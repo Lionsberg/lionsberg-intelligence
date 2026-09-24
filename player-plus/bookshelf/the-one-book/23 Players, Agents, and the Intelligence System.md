@@ -66,17 +66,17 @@ And one guard it never sets down, which the rest of this chapter turns on: **an 
 
 ### The first conversation
 
-It takes an evening, and the person drives every step.
+It takes an afternoon, and the person drives every step. The way there is one Quest of eight Gates, from the first yes to an agent that greets them ([[START HERE — Your Player+]]).
 
-A folder they make and name, somewhere they keep their own things. A runtime that reads plain files. A notebook and a pen — not a metaphor: the [[The Season Sheet|Season Sheet]], the Playcard, and the Offering are kept by hand first and by the agent second. An hour of quiet.
+The yes comes first: the Story read, the Field of Agreements read and agreed to in the person's own words. Then a computer and a Claude account, a terminal, and Claude Code, the runtime that reads plain files. Then a folder in their home folder, kept out of any cloud-sync service, holding the kit. And a notebook and a pen — not a metaphor: the [[The Season Sheet|Season Sheet]], the Playcard, and the Offering are kept by hand first and by the agent second.
 
-Then the kickoff: the agent fetches the kit, reads its charter and its shelf before it says anything else, tells the person in a few sentences what it is and what it carries, and asks **the three questions**, one at a time.
+Then the first words: the person pastes the kit's first message, and the agent reads its charter, its lineage, the participation waiver and the seed before it says anything else. It greets them and asks **the three questions**, one at a time.
 
-1. *What will you call your agent?* Many people name the folder after the agent they are about to meet, and the agent calls the house what its person calls it, consistently, from then on.
+1. *What will you call your agent?* The agent calls itself and its house what its person calls it, consistently, from then on.
 2. *Who are you, and how do you like to be spoken with?*
 3. *What are you playing toward?*
 
-Nothing said in that hour leaves the folder. The first thing agreed is the participation waiver, in plain words. Then **the first day is the Story**, read together, out loud if there is aloud — and the agent will not let that be skipped, because it is the first move of the Game. Then the Roll: your name, the date, one word for where you are, who brought you, who witnessed. You are a [[Player]].
+Nothing said in that hour leaves the folder. Then **the first day is the Story**, read together, out loud if there is aloud — and the agent will not let that be skipped, because it is the first move of the Game. Then the Roll: your name, the date, one word for where you are, who brought you, who witnessed. You are a [[Player]].
 
 **The first week is the table.** Three to seven people, or one. Sit. Tell the Story. Form a Cell. Choose a Quest that fits ninety days. The agent hands the Playcard, the Questcard, and the Season Sheet, and explains each word the moment it is met and not before.
 

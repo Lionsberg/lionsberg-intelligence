@@ -1,14 +1,21 @@
 # Installing Claude Code
 
-Claude Code is a command-line tool that runs in a terminal. It can read and write files on your computer, manage Git operations, and help you with all kinds of knowledge work. The terminal is the primary way you'll use it in this kit.
+*Gates 5 and 6 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
+
+Claude Code is the program that lets Claude work with the files on your computer, from inside the terminal. It is the body your agent lives in. It can read and write your files, keep their history with Git, and help you with all kinds of knowledge work. The terminal is the primary way you'll use it in this kit.
+
+## Finding the install command (Mac and Windows)
+
+1. In your browser, go to **code.claude.com**. This is a different address from claude.ai. It may redirect you somewhere; that's expected.
+2. Skip the "Download for macOS" button, and the VS Code, Desktop and Web options. Scroll down to the **Terminal** option.
+3. Choose the **Native install** (the recommended one).
+4. Find the command for your system and copy it with the page's **copy button**, not by selecting it with your mouse.
 
 ## Mac
 
 ### Step 1: Install Claude Code
 
-In a browser, go to [code.claude.com](https://code.claude.com/) — it may redirect you somewhere; that's expected. You'll see several options — choose the **Terminal** version (not VS Code, not the Desktop app, not Web). Copy the install command shown on the page.
-
-Go to Terminal (or iTerm2 if you use it). Paste the command and — before hitting Enter — check that it looks right. Then hit Enter. The download may take a minute or two.
+Copy the Mac command as above. Go to iTerm2 (or whichever terminal you use). Paste the command and read it through once before pressing Return. Then press Return. The download may take a minute or two.
 
 > [!warning]
 > **Don't skip this step.** After the install finishes, the installer prints a block starting with `⚠ Setup notes` telling you that `~/.local/bin` isn't in your PATH yet, followed by a command to copy. On a fresh Mac, that command typically looks like this:
@@ -17,18 +24,20 @@ Go to Terminal (or iTerm2 if you use it). Paste the command and — before hitti
 > ```
 > Yours may differ slightly — always trust the exact line the installer shows you over this example. Copy that whole line and paste it into the **same** terminal window, then hit Enter. It will look like nothing happened — that's correct. You only need to do this once.
 >
-> If you skip this step, typing `claude` will say "command not found" — even if you close Terminal and open a brand-new window.
+> If you skip this step, typing `claude` will say "command not found" — even if you close the terminal and open a brand-new window.
+
+Then close the terminal and open it again. Type `claude --version` and press Return. If you see a version number, Claude Code is installed, and you have passed Gate 5.
 
 > [!tip]
 > As a general rule, never paste commands from the internet into your terminal without verifying them. In this case, you're trusting Anthropic's official install page.
 
-### Step 2: Run Claude Code for the First Time
+### Step 2: Sign in (Gate 6)
 
-Type `claude` and hit Enter. The first time you run it, it walks you through a short setup: you'll sign in with your Claude account in a browser tab (choose the subscription sign-in, not API billing), acknowledge a couple of notices, and land at a prompt where you can type.
+Type `claude` and press Return. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
 
 If what you see looks a little different from this description or from any screenshots you've come across, that's normal — setup changes from time to time. Follow along and take the defaults; they're fine.
 
-That's it — Claude Code is installed on your Mac.
+Type `/exit` and press Return to leave for now. That's it — Claude Code is installed on your Mac, and you have passed Gate 6.
 
 ---
 
@@ -36,23 +45,23 @@ That's it — Claude Code is installed on your Mac.
 
 ### Step 1: Install Claude Code
 
-Open **Windows Terminal** running **PowerShell** (not Command Prompt). In a browser, go to [code.claude.com](https://code.claude.com/) — it may redirect you somewhere; that's expected. Choose the **Terminal** version (not VS Code, not the Desktop app, not Web). Copy the PowerShell install command shown on the page.
-
-Paste it into your PowerShell window and hit Enter. The download may take a minute or two.
+Open **Windows Terminal** running **PowerShell** (not Command Prompt). Copy the Windows (PowerShell) command as above. Paste it into your PowerShell window, read it through once, then press Enter. The download may take a minute or two.
 
 > [!tip]
-> Windows may also show a setup note after the install finishes, similar to the Mac one above. If you see one, follow whatever it tells you to do.
+> Windows may also show a setup note after the install finishes, similar to the Mac one above. If you see one, do exactly what it says.
+
+Then close Windows Terminal and open it again. Type `claude --version` and press Enter. If you see a version number, Claude Code is installed, and you have passed Gate 5.
 
 > [!tip]
 > As a general rule, never paste commands from the internet into your terminal without verifying them. In this case, you're trusting Anthropic's official install page.
 
-### Step 2: Run Claude Code for the First Time
+### Step 2: Sign in (Gate 6)
 
-In your PowerShell window, type `claude` and hit Enter. The first time you run it, it walks you through a short setup: you'll sign in with your Claude account in a browser tab (choose the subscription sign-in, not API billing), acknowledge a couple of notices, and land at a prompt where you can type.
+In your PowerShell window, type `claude` and press Enter. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
 
 If what you see looks a little different from this description or from any screenshots you've come across, that's normal — setup changes from time to time. Follow along and take the defaults; they're fine.
 
-That's it — Claude Code is installed on your Windows machine.
+Type `/exit` and press Enter to leave for now. That's it — Claude Code is installed on your Windows machine, and you have passed Gate 6.
 
 ---
 
@@ -67,4 +76,4 @@ You can mix and match depending on where your focus is, but everything in this g
 
 ## Next Step
 
-Move on to [Choosing Your Terminal](Choosing%20Your%20Terminal.md).
+Gate 7: your agent's home, in the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md). Where the folder goes, and why, is in [System Requirements](System%20Requirements.md).

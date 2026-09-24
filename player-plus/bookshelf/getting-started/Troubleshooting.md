@@ -4,17 +4,17 @@ Common problems and how to fix them. If you don't see your issue here, describe 
 
 ## Installation Issues
 
-### The Xcode tools dialogue disappeared (Mac)
+### The developer tools window disappeared (Mac)
 
 It's probably behind another window. Check all your displays and use Cmd+Tab to look for a "Software Update" or "Install" window.
 
-### The Xcode download time estimate is absurd (Mac)
+### The developer tools time estimate is absurd (Mac)
 
-Ignore the initial estimate — it may say 16 hours. The actual download typically takes 10-15 minutes. The progress bar may restart about two-thirds of the way through. This is normal.
+Ignore the initial estimate — it may say 16 hours. The actual install typically takes five to forty minutes. The progress bar may restart about two-thirds of the way through. This is normal.
 
 ### Claude Code says it can't find Git
 
-**Mac:** Make sure the Xcode Command Line Tools have finished installing. Open Terminal and run `git --version` to check.
+**Mac:** Make sure the Command Line Developer Tools have finished installing. In your terminal, run `git --version` to check; if you see an error, run `xcode-select --install` (see [Installing Git](Installing%20Git.md)).
 
 **Windows:** Install Git for Windows from [git-scm.com](https://git-scm.com/). Verify it in **Windows Terminal**, on a **PowerShell** tab, by running `git --version`.
 

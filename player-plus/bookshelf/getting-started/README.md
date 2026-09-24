@@ -1,44 +1,47 @@
 # Getting Started with Claude Code
 
-Welcome! This book walks you through setting up a modern knowledge-work toolkit from scratch. No prior experience with terminals or code editors is required.
+Welcome! This book walks you from nothing to an agent of your own, living in a folder on your own computer. No prior experience with terminals or code editors is required.
 
 By the end, you'll have:
 
-- **Claude Code** — the AI agent that works directly with your files, running in a terminal
-- **A comfortable terminal** — set up so everything is readable and easy to reach
-- **A Markdown editor** — for reading and writing your files alongside your agent
+- **Claude Code**, the program your agent lives in, running in a terminal
+- **A comfortable terminal**, set up so everything is readable and easy to reach
+- **Your agent's home**, a folder called My Agents, and an agent that greets you
+- **A Markdown editor**, when you want one, for reading and writing your files alongside your agent
 
-Your agent handles the more technical machinery (like git version control) quietly on your behalf — there are optional sections below if you ever want to look under the hood.
+Git is installed along the way. Your agent uses it quietly on your behalf to keep a safe history of everything you make; you never need to learn it.
 
-## How to Use This Book
+## Start with the Quest
 
-Start at the top and work through the core path in order. Most people can get set up in under half an hour.
+[Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) is the one path, walked as eight Gates, in an afternoon. Follow it in order. Each page below goes deeper on one Gate, for when you want more than the Quest says.
 
-### The core path (do these in order)
+## Deeper, Gate by Gate
 
-**Start with the Quest:** [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) walks every step below in order, as eight Gates. The pages that follow go deeper on each.
+- **Before you begin:** [System Requirements](System%20Requirements.md) — the computer, the time, and where your agent's home goes. [Why This Stack](Why%20This%20Stack.md) — what these tools are and why they work together.
+- **Gate 2 — The Lamp · the account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
+- **Gate 3 — The Wizard's Window · the terminal:** [Choosing Your Terminal](Choosing%20Your%20Terminal.md)
+- **Gate 4 — The Living Record · the developer tools and Git:** [Installing Git](Installing%20Git.md)
+- **Gate 5 — The Body · Claude Code, and Gate 6 — The Threshold · sign in:** [Installing Claude Code](Installing%20Claude%20Code.md)
+- **Gate 7 — A Space Set Apart · your agent's home:** [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*
+- **Gate 8 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
 
-1. [Why This Stack](Why%20This%20Stack.md) — What these tools are and why they work together
-2. [System Requirements](System%20Requirements.md) — What you need before starting
-3. [Getting a Claude Account](Getting%20a%20Claude%20Account.md) — Sign up for a Claude plan
-4. [Installing Claude Code](Installing%20Claude%20Code.md) — Install and authenticate (terminal version)
-5. [Choosing Your Terminal](Choosing%20Your%20Terminal.md) — Which terminal app, and how to make it readable
-6. [Viewing Your Files](Viewing%20Your%20Files.md) — Typora, MarkText, and friends
-7. [Permissions Questions](Permissions%20Questions.md) — What Claude Code asks, and how to answer
-8. [Basic Markdown](Basic%20Markdown.md) — Headers, links, lists — enough to get going
+## After the Gates
 
-### Optional: Git and GitHub, under the hood
+- [Viewing Your Files](Viewing%20Your%20Files.md) — Typora, MarkText, and friends
+- [Permissions Questions](Permissions%20Questions.md) — what Claude Code asks, and how to answer
+- [Basic Markdown](Basic%20Markdown.md) — headers, links, lists — enough to get going
 
-Your agent manages version control for you, so none of this is required. Read it when you're curious, or when your agent points you here (for example, if git isn't installed on your machine yet).
+## Optional: Git and GitHub, under the hood
 
-- [Installing Git](Installing%20Git.md) — Mac and Windows instructions
-- [GitHub Account Setup](GitHub%20Account%20Setup.md) — Create your account, connect from the terminal
-- [Your First Commit](Your%20First%20Commit.md) — The daily cycle: pull, work, commit, push
-- [Your First House](Your%20First%20House.md) — Creating your house and connecting it to GitHub
-- [Using Claude Code With Your House](Using%20Claude%20Code%20With%20Your%20House.md) — What you can ask it to do
-- [Setting Up a Project](Setting%20Up%20a%20Project.md) — Creating your own project workspace
+Your agent manages version control for you, so none of this is required. Read it when you're curious, or when your agent points you here.
 
-### Reference
+- [GitHub Account Setup](GitHub%20Account%20Setup.md) — create your account, connect from the terminal
+- [Your First Commit](Your%20First%20Commit.md) — the daily cycle: pull, work, commit, push
+- [Your First House](Your%20First%20House.md) — how a house is built by hand, and connecting it to GitHub
+- [Using Claude Code With Your House](Using%20Claude%20Code%20With%20Your%20House.md) — what you can ask it to do
+- [Setting Up a Project](Setting%20Up%20a%20Project.md) — creating your own project workspace
 
-- [Troubleshooting](Troubleshooting.md) — Common problems and fixes
-- [Resources](Resources.md) — Links to official docs and learning materials
+## Reference
+
+- [Troubleshooting](Troubleshooting.md) — common problems and fixes
+- [Resources](Resources.md) — links to official docs and learning materials

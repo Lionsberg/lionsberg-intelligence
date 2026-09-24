@@ -1,17 +1,17 @@
 # Your First House
 
-A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. START-HERE.md at the root of this kit walks Claude Code through building one for you, but this page covers the same ground by hand, for when you're curious how it's built or want to set one up yourself.
+A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gates 7 and 8, from the Player+ kit. This page covers the same ground by hand, for when you're curious how a house is built or want to set one up from nothing.
 
 ## Step 1: Create a Folder
 
-Create a new folder on your computer for your house. Remember: this folder must **not** be inside iCloud, OneDrive, Dropbox, or any cloud-synced folder.
+Create a new folder on your computer for your house. Remember: this folder must **not** be inside iCloud, OneDrive, Dropbox, Google Drive, or any cloud-synced folder.
 
-Good locations:
+The Quest's location, directly in your home folder:
 
-- **Mac:** `~/My Agents/my-agent/`
-- **Windows:** `C:\Users\YourName\My Agents\my-agent\`
+- **Mac:** `~/My Agents/`
+- **Windows:** `C:\Users\YourName\My Agents\`
 
-Name it whatever makes sense — many people name it after their agent.
+You may name it otherwise, but keep it directly in your home folder, not under Documents, which is often cloud-synced.
 
 ## Step 2: Ask Your Agent to Set Up Git
 
@@ -35,6 +35,8 @@ Claude Code will use the `gh` CLI to create the repository and push your files. 
 > If Claude Code says it can't find `gh`, you may need to install the GitHub CLI first. On Mac: `brew install gh`. On Windows: download from [cli.github.com](https://cli.github.com/).
 
 ## Step 4: Create a CLAUDE.md
+
+If you walked the Quest, your house already has its CLAUDE.md, your agent's charter from the Player+ kit; skip this step. It is for a house built from nothing.
 
 CLAUDE.md is a special file that tells Claude Code about your house — what it's for, how it's organized, and what conventions to follow. Without it, Claude has no context about your project.
 
