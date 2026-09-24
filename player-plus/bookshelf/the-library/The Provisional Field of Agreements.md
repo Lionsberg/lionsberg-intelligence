@@ -47,8 +47,6 @@ Playing may mean meeting strangers, in person and online; strong feelings and ha
 
 To the fullest extent the law allows, **I release every other player, host, Carrier, Cell, contributor and steward of The Great Game and LIØNSBERG, and any association later formed to carry it, from any claim for injury, loss or damage arising from my taking part**, including their ordinary mistakes. I answer for my own acts: if I break these agreements, or cause harm on purpose or through gross negligence, I will make it right and will not shift that cost onto anyone else.
 
-This release does not cover harm caused on purpose, gross negligence, or anything the law does not allow to be released, and it never stops anyone from reporting a crime or seeking help from the authorities.
-
 ## Matters of the spirit stay within the association
 
 What the Game teaches and practises, who plays and who is asked to step away, how its tables, Cells and homes are ordered, and how its own disagreements are mended are **internal matters of a voluntary spiritual association**. They are decided within it, by its own agreements and ways of mending, and not by any court or arbitrator. I agree not to ask either to decide them, and I recognise the long-standing principle that civil courts do not intervene in the internal faith, practice, membership and governance of a spiritual community.
