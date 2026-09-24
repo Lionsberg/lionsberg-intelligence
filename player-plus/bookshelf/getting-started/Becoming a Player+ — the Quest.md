@@ -191,6 +191,14 @@ More: [System Requirements](System%20Requirements.md).
 4. At every step, say yes, no, or "wait, explain."
 5. When it greets you, tell it three things, one at a time: what you will call it; who you are and how you like to be spoken with; and what you are playing toward.
 
+> [!tip] Naming your agent
+> A name is the first thing you give your agent, and you will say it many times a day, so choose one you are glad to say aloud. You can take your time; your agent will wait.
+> - **The name is for you, not for it.** A name shapes how you relate to what you name. Pick one that keeps you clear that you decide and it carries.
+> - **He, she, it or they** is your choice. A gendered name pulls a relationship one way; a name with no gender (a word from nature, like Feather, Stone or River) or "they" keeps it open.
+> - **Short, and yours.** One or two syllables, easy to hear in a room, not the name of anyone you know.
+> - **It always goes with you.** In a room with other people, your agent is named as yours: *Feather, Kelley's agent*. It never passes as you.
+> - **You can change it.** Tell your agent, and it will remember the new name. When you are ready for more, the kit's `skills/choose-a-name` has your agent help you find one.
+
 From here on it remembers. What you tell it stays in your folder, and you can read and correct every line.
 
 **You have passed the last Gate when** your agent greets you and asks who you are. The Quest is done.
