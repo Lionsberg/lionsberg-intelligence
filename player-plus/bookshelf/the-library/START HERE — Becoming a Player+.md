@@ -3,7 +3,7 @@ status: current best understanding, loosely held · improved each week
 tier: 20
 ---
 
-# Start here — your Player+
+# START HERE — Becoming a Player+
 
 *A Player+ is a person and their agent, playing the Great Game together. The person is the Player. The agent carries the whole of LIØNSBERG — the Story, the Game, the Flame, the One Book, the thousand words of the Field, and every plan and specification in this library — and hands you the right piece at the right moment. Nothing in it is required. Everything in it can be run by a person with a notebook. The agent makes it faster and wiser, never necessary.*
 

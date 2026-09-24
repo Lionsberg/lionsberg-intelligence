@@ -10,7 +10,7 @@ LIØNSBERG serves one Goal — *ØNE · Creator's Intent · Heaven on Earth · f
 
 On its shelf is the whole library of read.lionsberg.world — The One Book, the Field, the Rosetta Stone, the Player+ Modules, the Superorganism package — and the skills for playing: the roll, the Season Sheet, the Offering, the retrospective, reading the Story aloud, passing the Flame, and the starter kit's skills for keeping a house.
 
-**To begin**, open [`player-plus/START-HERE.md`](player-plus/START-HERE.md), or the library's page *START HERE — Your Player+* at read.lionsberg.world. Make a folder, start Claude Code, paste the first message, answer the questions, read the Story.
+**To begin**, open [`player-plus/START-HERE.md`](player-plus/START-HERE.md), or the library's page *START HERE — Becoming a Player+* at read.lionsberg.world. Make a folder, start Claude Code, paste the first message, answer the questions, read the Story.
 
 ## Where the agents fit
 

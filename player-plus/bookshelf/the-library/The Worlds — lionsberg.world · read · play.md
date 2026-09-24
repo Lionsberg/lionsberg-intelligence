@@ -34,7 +34,7 @@ Checked in the files as the library stands.
 | door → quarry | none, by the door's own standard — *the new never points back* | **absent by law**, not a defect |
 | library → door | a way back out to where a stranger arrives | **missing** |
 | library → Board | the Game being played, from the Game's own station | **missing** |
-| library → the kit's public home | the address in the kickoff message on [[START HERE — Your Player+]] | **present**, with its honest caveat |
+| library → the kit's public home | the address in the kickoff message on [[START HERE — Becoming a Player+]] | **present**, with its honest caveat |
 | library → quarry | the README's quarry line; the seed's Part XIII, with the repository named | **present** |
 | Board → library | the footer's *The library* | **present** |
 | Board → door | the footer's *The door* | **present** |
@@ -42,7 +42,7 @@ Checked in the files as the library stands.
 | kit → library | [[Player+ — README]], in prose: *its library at read.lionsberg.world* | **present**, prose only |
 | kit → quarry | the README, LINEAGE, and every chapter's sources | **present** |
 | kit → door, kit → Board | neither is named in the kit | **missing** (both) |
-| library → its own Toolkit page | [[START HERE — Your Player+]] from the sidebar and the front page | **missing** — the sidebar names the mirrored kit pages instead |
+| library → its own Toolkit page | [[START HERE — Becoming a Player+]] from the sidebar and the front page | **missing** — the sidebar names the mirrored kit pages instead |
 
 Nine links stand; seven are owed. The rule for closing them is the door's: *no link before its page has crossed* — a call with nowhere true to land is a held mark reading *coming soon*, never a link to somewhere else.
 
@@ -74,7 +74,7 @@ By proposal, soaked a week, accepted by the steward of a copy. Every Cell that p
 ## Open
 
 1. **The Player+ kit's public home.** The library already prints `github.com/Lionsberg/lionsberg-intelligence (the folder player-plus)` in the kickoff message a person pastes, with the caveat that the address may not answer yet. *Recommendation:* publish there, so the page is true the hour it is read; if another address is chosen, that same morning the kickoff message changes with it. Not yet set.
-2. **A domain for the kit.** Options: no domain, the git address alone; a fourth subdomain, `get.lionsberg.world`, as a one-page installer door; or a path inside the library, which is where [[START HERE — Your Player+]] already lives. *Recommendation:* the library page is the address — one place where the words live — and, if a spoken address is wanted for a room or a card, `get.lionsberg.world` as a redirect to that page and never a second copy of the words. A fourth subdomain that holds its own text would split the kit's instructions in two.
+2. **A domain for the kit.** Options: no domain, the git address alone; a fourth subdomain, `get.lionsberg.world`, as a one-page installer door; or a path inside the library, which is where [[START HERE — Becoming a Player+]] already lives. *Recommendation:* the library page is the address — one place where the words live — and, if a spoken address is wanted for a room or a card, `get.lionsberg.world` as a redirect to that page and never a second copy of the words. A fourth subdomain that holds its own text would split the kit's instructions in two.
 3. **Should the door link straight to START HERE?** *Recommendation:* not in the hero — the door's first minute belongs to the Story, and the agent is a rung-four tool handed to someone who has already said yes. One quiet line in the door's menu is lawful today, since the page has crossed. Revisit the moment the Little Book's own page crosses; the Little Book, not the kit, is what the Gates promise.
 4. **Where the Gate lives** — on the door, on the Board, or on a surface of its own — is open, and the Site Plan's three surfaces (world, library, engine) and these four public ones are two descriptions of one thing that have not yet been made one. [[The Site Plan]] is the elder page; this one says what the files show today.
 

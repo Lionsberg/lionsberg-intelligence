@@ -77,6 +77,6 @@ Anyone may propose a change, with a reason. A change binds you only once you hav
 
 Taking part is how you say yes. By joining a table, a Cell or a room of the Game, or by using the Player+ kit, you agree to this page, freely, as it stands on the day you take part. If you do not agree, please do not take part; you are always welcome to keep reading.
 
-You must be eighteen or older, or take part with a parent or guardian who has agreed to this page for you. You may leave in order at any time.
+You must be eighteen or older, or take part with a parent or guardian who has agreed to this page for you. You may leave in order at any time. Ongoing participation requires ongoing mutual consent.
 
 *CC BY-SA 4.0 · LIØNSBERG*

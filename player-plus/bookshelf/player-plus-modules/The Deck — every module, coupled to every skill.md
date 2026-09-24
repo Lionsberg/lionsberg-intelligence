@@ -143,6 +143,6 @@ Thirty-two folders. Twenty-two are the [[The Kit|kit]]'s, taken as they are; nin
 
 ---
 
-*Beside this page:* [[Player+ Modules — Start Here]] · [[The Deck Standard — Player+ Modules v0.1|The Deck Standard]] · [[START HERE — Your Player+]] · [[The Words in the Order You Meet Them]] · [[Player+ Modules]] · [[The Kit]] · [[Skill]] · [[Module]] · [[Lesson]]
+*Beside this page:* [[Player+ Modules — Start Here]] · [[The Deck Standard — Player+ Modules v0.1|The Deck Standard]] · [[START HERE — Becoming a Player+]] · [[The Words in the Order You Meet Them]] · [[Player+ Modules]] · [[The Kit]] · [[Skill]] · [[Module]] · [[Lesson]]
 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*

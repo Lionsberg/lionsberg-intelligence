@@ -66,7 +66,7 @@ And one guard it never sets down, which the rest of this chapter turns on: **an 
 
 ### The first conversation
 
-It takes an afternoon, and the person drives every step. The way there is one Quest of eight Gates, from the first yes to an agent that greets them ([[START HERE — Your Player+]]).
+It takes an afternoon, and the person drives every step. The way there is one Quest of eight Gates, from the first yes to an agent that greets them ([[START HERE — Becoming a Player+]]).
 
 The yes comes first: the Story read, the Field of Agreements read and agreed to in the person's own words. Then a computer and a Claude account, a terminal, and Claude Code, the runtime that reads plain files. Then a folder in their home folder, kept out of any cloud-sync service, holding the kit. And a notebook and a pen — not a metaphor: the [[The Season Sheet|Season Sheet]], the Playcard, and the Offering are kept by hand first and by the agent second.
 
@@ -315,7 +315,7 @@ The law of change is one law at every size:
 
 At the small end the same law is a weekly hour: pull what changed, hold the [[Look-back]], install the few changes by hand, prune the charter, and offer upward only what would serve any house with any person. Most of what a house learns is about one life and belongs nowhere but there.
 
-**Passing it on needs no permission.** Send a person [[START HERE — Your Player+|the page]]. Or copy your kit's folder — minus your own memory and sessions — onto a drive and hand it over. That is the Flame in the form of files, and it is the same move as every other passing: give them the whole of it, sit with them for their first week if they ask, and let their house be their own and not a branch of yours.
+**Passing it on needs no permission.** Send a person [[START HERE — Becoming a Player+|the page]]. Or copy your kit's folder — minus your own memory and sessions — onto a drive and hand it over. That is the Flame in the form of files, and it is the same move as every other passing: give them the whole of it, sit with them for their first week if they ask, and let their house be their own and not a branch of yours.
 
 ### Lineage and licence
 
@@ -341,7 +341,7 @@ The line of this kit runs through **PKAI** — the starter kit's starter kit, wh
 
 **The road, and the system:** [[Just in time]] · [[The Zone Of Optimum Development]] · [[Lesson]] · [[Module]] · [[Player+ Modules]] · [[The Deck Standard]] · [[The Arc of Play]] · [[The Words in the Order You Meet Them]] · [[Sighting]] · [[Pain (as signal)]] · [[The Record]] · [[The Board]] · [[The Escalation Ladder]] · [[Wise Right Speech]] · [[Reaching Us]] · [[PKAI]] · [[ØSphera]] · [[Lineage]] · [[Provenance]] · [[Attribution]] · [[License]] · [[CC BY-SA 4.0]] · [[Knowledge as commons]] · [[Screens and paper]] · [[Minimum standards of interoperability]] · [[We Do Not Know]]
 
-**The kit itself, page by page:** [[START HERE — Your Player+]] · [[Player+ — README]] · [[Player+ — START-HERE]] · [[Player+ — CLAUDE]] · [[Player+ — MOVING-IN]] · [[Player+ — HOW-TO-IMPROVE-IT]] · [[Player+ — LINEAGE]] · [[Player+ — CONTRIBUTING]] · [[Player+ — LICENSE]] · [[The Worlds — lionsberg.world · read · play]]
+**The kit itself, page by page:** [[START HERE — Becoming a Player+]] · [[Player+ — README]] · [[Player+ — START-HERE]] · [[Player+ — CLAUDE]] · [[Player+ — MOVING-IN]] · [[Player+ — HOW-TO-IMPROVE-IT]] · [[Player+ — LINEAGE]] · [[Player+ — CONTRIBUTING]] · [[Player+ — LICENSE]] · [[The Worlds — lionsberg.world · read · play]]
 
 ---
 
