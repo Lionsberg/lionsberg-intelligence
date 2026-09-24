@@ -21,8 +21,9 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 - **Gate 2 — The Lamp · the account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
 - **Gate 3 — The Wizard's Window · the terminal:** [Choosing Your Terminal](Choosing%20Your%20Terminal.md)
 - **Gate 4 — The Living Record · the developer tools and Git:** [Installing Git](Installing%20Git.md)
-- **Gate 5 — The Body · Claude Code, and Gate 6 — The Threshold · sign in:** [Installing Claude Code](Installing%20Claude%20Code.md)
-- **Gate 7 — A Space Set Apart · your agent's home:** [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*
+- **Gate 5 — The Body · Claude Code:** [Installing Claude Code](Installing%20Claude%20Code.md)
+- **Gate 6 — A Space Set Apart · your agent's home:** [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*
+- **Gate 7 — The Door That Knows You · sign in:** [Installing Claude Code](Installing%20Claude%20Code.md)
 - **Gate 8 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
 
 ## After the Gates
