@@ -41,7 +41,7 @@ We cannot promise to keep one another safe, and we will not pretend to. We make 
 
 Playing may mean meeting strangers, in person and online; strong feelings and hard questions of meaning and faith; travel, shared spaces and physical activity; giving time or money; and trusting people you have only just met. A Player+ agent means running AI software on your own machine, with the risks the kit's waiver sets out.
 
-**I take part voluntarily and accept these risks as my own.** I will care for my own health, safety, property and wellbeing, step off the mat whenever I need to, and seek professional help where I need it.
+**I take part voluntarily and accept these risks as my own.** I will care for myself: my own health, safety, property and wellbeing, stepping off the mat whenever I need to, and seeking professional help where I need it. I will care for the other players, as I would want to be cared for. And I will care for all beings, and for the world we share, in everything I do in the Game.
 
 ## Release, and my own acts
 
