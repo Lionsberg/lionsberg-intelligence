@@ -60,6 +60,16 @@ To the fullest extent the law allows, **I release every other player, host, Carr
 
 What the Game teaches and practises, who plays and who is asked to step away, how its tables, Cells and homes are ordered, and how its own disagreements are mended are **internal matters of a voluntary spiritual association**. They are decided within it, by its own agreements and ways of mending, and not by any court or arbitrator. I agree not to ask either to decide them, and I recognise the long-standing principle that civil courts do not intervene in the internal faith, practice, membership and governance of a spiritual community.
 
+## The Spirit of the Game
+
+Beneath every agreement on this page is one spirit, and it asks more of us than any rule can.
+
+- **Love, absolute and unconditional.** For yourself, for every other player, and for every being, including the ones you do not yet understand.
+- **Help one another.** No one wins alone. When a player stumbles, the table leans in.
+- **Do no harm.** And where harm is done, mend it.
+
+All of us helping all of us, and all things, rise to the fullness of our potential and flourish together in harmony. That is the Game.
+
 ## When something goes wrong
 
 1. **Say it at the table.** Most things mend there.
