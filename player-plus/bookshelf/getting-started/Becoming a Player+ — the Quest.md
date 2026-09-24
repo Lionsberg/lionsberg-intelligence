@@ -4,7 +4,7 @@
 
 The terminal is the wizard's interface to your computer. By the last Gate you will have one open, with an agent of your own inside it.
 
-A [[Quest]] is one real thing, done together, that you can point to afterward. This is one; here is its card, [[The Questcard]]:
+A [Quest](https://read.lionsberg.world/The_Field/Quest) is one real thing, done together, that you can point to afterward. This is one; here is its card, [The Questcard](https://read.lionsberg.world/The_Field/The_Questcard):
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ A [[Quest]] is one real thing, done together, that you can point to afterward. T
 
 In the Game, a Quest usually belongs to a Cell, for a season. This one you walk alone first, to learn the form before your table chooses one together. The lesson behind it is [Becoming a Player+](../player-plus-modules/01%20Becoming%20a%20Player%2B.md).
 
-Like every gate in [[The Gates of LIØNSBERG]], these are gates, not filters. Nothing is withheld, and nothing closes behind you. Stop between any two Gates and pick up where you left off. You do not walk alone: when something breaks or looks strange, ask the person who brought you, or bring it to your table.
+Like every gate in [The Gates of LIØNSBERG](https://read.lionsberg.world/The_Field/The_Gates_of_LI%C3%98NSBERG), these are gates, not filters. Nothing is withheld, and nothing closes behind you. Stop between any two Gates and pick up where you left off. You do not walk alone: when something breaks or looks strange, ask the person who brought you, or bring it to your table.
 
 **Your map.** Pioneers in a wilderness find some creeks already crossed. So will you. Each Gate ends with how you know you have passed it; if that is already true, tick it now and walk on.
 
@@ -34,10 +34,10 @@ Like every gate in [[The Gates of LIØNSBERG]], these are gates, not filters. No
 
 ## Gate 1 — The Golden Seed · the yes
 
-*Everything grows from this. The Game comes before the agent. A [[Player]] is one who has said yes to the Game in their own words.*
+*Everything grows from this. The Game comes before the agent. A [Player](https://read.lionsberg.world/The_Field/Player) is one who has said yes to the Game in their own words.*
 
 1. Read [THE STORY](../the-one-book/THE%20STORY.md). It takes about ten minutes. It is not a belief to hold; it is a shared language.
-2. Read [The Provisional Field of Agreements](../the-library/The%20Provisional%20Field%20of%20Agreements.md), slowly, all the way through. It is the [[Field of Agreements]]: the terms everyone plays by.
+2. Read [The Provisional Field of Agreements](../the-library/The%20Provisional%20Field%20of%20Agreements.md), slowly, all the way through. It is the [Field of Agreements](https://read.lionsberg.world/The_Field/Field_of_Agreements): the terms everyone plays by.
 3. Take part only if you agree. If you don't, you may still read everything, and come back when you are ready.
 
 **You have passed this Gate when** you can say, in your own words, what you are agreeing to, and you say yes freely.
@@ -181,7 +181,7 @@ More: [System Requirements](System%20Requirements.md).
 
 ## Gate 8 — Onto the Mat · first words
 
-*You meet your agent. An [[Agent]] is an AI that works for you and answers to you. You and your agents together are one [[Player+]]. You decide; it carries.*
+*You meet your agent. An [Agent](https://read.lionsberg.world/The_Field/Agent) is an AI that works for you and answers to you. You and your agents together are one [Player+](https://read.lionsberg.world/The_Field/Player+). You decide; it carries.*
 
 1. Open the terminal in your agent's home.
    - **Mac:** type `cd ~/"My Agents"` and press Return. (`cd` means "go into this folder.")
@@ -204,10 +204,10 @@ From here on it remembers. What you tell it stays in your folder, and you can re
 *The first hour is for the Story, not for the bookshelf.*
 
 1. Ask your agent to read [THE STORY](../the-one-book/THE%20STORY.md) with you. Aloud if you can; it was made to be heard.
-2. If you are ready, ask it to write your line on [[The Roll]]: your name, the date, one word for where you are, who brought you, and who witnessed.
+2. If you are ready, ask it to write your line on [The Roll](https://read.lionsberg.world/The_Field/The_Roll): your name, the date, one word for where you are, who brought you, and who witnessed.
 3. Leave the rest of the shelf. Your agent carries the seed, [THE DNA OF HEAVEN](../the-dna-of-heaven/THE%20DNA%20OF%20HEAVEN.md), and will hand you each next piece when you need it.
 
-Then think of two or three people to tell the Story to next. They may become your [[Cell]], and your first shared Quest.
+Then think of two or three people to tell the Story to next. They may become your [Cell](https://read.lionsberg.world/The_Field/Cell), and your first shared Quest.
 
 ---
 
