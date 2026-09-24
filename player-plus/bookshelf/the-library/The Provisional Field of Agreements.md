@@ -41,7 +41,7 @@ The Game is played to build a commons: knowledge, tools and forms that belong to
 
 - **Writing is shared under CC BY-SA 4.0.** Stories, pages, lessons, cards and plans made in the Game may be used, adapted and passed on by anyone, with credit, under the same freedom.
 - **Code is shared under MPL-2.0.** Skills, prompts, charters and software made in the Game stay open, and changes to them stay open too.
-- **We track provenance.** Ideas travel freely, under the Chatham House rule. Sources and lineages are named only with the source's consent.
+- **Tracking provenance.** Ideas travel freely, under the Chatham House rule. Sources and lineages are named only with the source's consent.
 - **We intend to federate everything we co-create.** In the spirit of the superorganism.earth articulation, what we build together — our works, our value, and the Cells and bodies that grow from the Game — is meant to federate into one living whole: sovereign to sovereign, with a voice and a share for every party that federates, and knowledge held in the commons by default. Federation is always an offering, never a condition. When its lasting forms exist, you will be asked, and you may say yes or no.
 
 ## Strong, not safe
