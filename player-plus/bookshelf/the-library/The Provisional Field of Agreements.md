@@ -66,15 +66,8 @@ Anyone may propose a change, with a reason. A change binds you only once you hav
 
 ## Saying yes
 
-I have read and understood this page. I am eighteen or older, or my parent or guardian agrees with me. I say yes freely, and I may leave in order at any time.
+Taking part is how you say yes. By joining a table, a Cell or a room of the Game, or by using the Player+ kit, you agree to this page, freely, as it stands on the day you take part. If you do not agree, please do not take part; you are always welcome to keep reading.
 
-| | |
-|---|---|
-| **Name** | |
-| **Date** | |
-| **One word for where I am** | |
-| **Brought by** | |
-| **Witnessed by** | |
-| **Parent or guardian (if under eighteen)** | |
+You must be eighteen or older, or take part with a parent or guardian who has agreed to this page for you. You may leave in order at any time.
 
 *CC BY-SA 4.0 · LIØNSBERG*
