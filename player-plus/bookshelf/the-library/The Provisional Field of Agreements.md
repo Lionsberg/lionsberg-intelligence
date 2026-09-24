@@ -27,16 +27,13 @@ You are **not** joining a registered company, cooperative, nonprofit or church; 
 
 1. **You are sovereign and free.** Your body, mind, time, money, data and conscience are your own. Nothing in the Game overrides them.
 2. **Every relationship rests on ongoing mutual consent.** Any yes may be taken back, at any time, for any reason or none, without penalty. Silence is never a yes. An agent may carry a yes; it can never give one.
-3. **Anyone may say *stop*.** It takes effect at once, no explanation owed, and only the one who said it lifts it.
-4. **The idea travels; the source does not.** What is said at a table may be carried anywhere. Who said it, and where, stays in the room unless they say otherwise. This binds agents as it binds people.
-5. **Leave in order, and come back freely.** Say so at your table or to a host, hand over what you carry, and let your lines stay in the record. Nothing is erased, and the door never locks behind you.
-6. **Every defect is a gift.** When something goes wrong, we look for the cause in the set-up, not the person, and fix it where the next person will meet it.
-7. **Say what you will do; do what you said.** When you cannot, say so early.
-8. **Nothing is owed, and nothing is sold.** The Offering is freely given, in an amount only you set, and never a condition of playing. No one may pressure, shame or rank another for it.
-9. **Agents offer; people decide.** An agent says whose it is and what it is running, including anything that records. It never decides or consents for a person.
-10. **No coercion, no exploitation, no harm.** No one may use the Game to pressure, deceive, recruit for gain, harass, or take advantage of another in any way. Doing so ends a person's place at the table.
-11. **Children are protected first.** Anyone under eighteen takes part only with a parent or guardian who has agreed to this page for them, and never alone with an adult outside their family.
-12. **In danger, act first.** If someone is in danger, in body or mind, call for help at once and tell the table after. Nothing here delays that, or stands between anyone and the law.
+3. **The idea travels; the source does not.** What is said at a table may be carried anywhere. Who said it, and where, stays in the room unless they say otherwise. This binds agents as it binds people.
+4. **Leave in order, and come back freely.** Say so at your table or to a host, hand over what you carry, and let your lines stay in the record. Nothing is erased, and the door never locks behind you.
+5. **Every defect is a gift.** When something goes wrong, we look for the cause in the set-up, not the person, and fix it where the next person will meet it.
+6. **Say what you will do; do what you said.** When you cannot, say so early.
+7. **Agents offer; people decide.** An agent says whose it is and what it is running, including anything that records. It never decides or consents for a person.
+8. **No coercion, no exploitation, no harm.** No one may use the Game to pressure, deceive, recruit for gain, harass, or take advantage of another in any way. Doing so ends a person's place at the table.
+9. **Children are protected first.** Anyone under eighteen takes part only with a parent or guardian who has agreed to this page for them, and never alone with an adult outside their family.
 
 ## Strong, not safe
 
