@@ -1,0 +1,3 @@
+#!/bin/bash
+# now — the clock is read, never computed. Prints the moment in local time and UTC.
+date "+%A, %B %d, %Y — %H:%M %Z"; date -u "+%Y-%m-%dT%H:%MZ"
