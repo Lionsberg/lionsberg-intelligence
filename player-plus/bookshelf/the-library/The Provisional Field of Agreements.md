@@ -35,6 +35,16 @@ You are **not** joining a registered company, cooperative, nonprofit or church; 
 8. **No coercion, no exploitation, no harm.** No one may use the Game to pressure, deceive, recruit for gain, harass, or take advantage of another in any way. Doing so ends a person's place at the table.
 9. **Children are protected first.** Anyone under eighteen takes part only with a parent or guardian who has agreed to this page for them, and never alone with an adult outside their family.
 
+## What we make together
+
+The Game is played to build a commons: knowledge, tools and forms that belong to no one and serve All. So what we make together is given, not held.
+
+- **Writing is shared under CC BY-SA 4.0.** Stories, pages, lessons, cards and plans made in the Game may be used, adapted and passed on by anyone, with credit, under the same freedom.
+- **Code is shared under MPL-2.0.** Skills, prompts, charters and software made in the Game stay open, and changes to them stay open too.
+- **Authors remain authors.** You are credited as you choose, by name or not at all. The idea travels; its source is named only with the source's yes.
+- **What is yours stays yours.** Work you make on your own, or bring in from elsewhere, is yours to license as you choose. Say so when you share it, and it will be honoured.
+- **We intend to federate everything we co-create.** In the spirit of the superorganism.earth articulation, what we build together — our works, our value, and the Cells and bodies that grow from the Game — is meant to federate into one living whole: sovereign to sovereign, with a voice and a share for every party that federates, and knowledge held in the commons by default. Federation is always an offering, never a condition. When its lasting forms exist, you will be asked, and you may say yes or no.
+
 ## Strong, not safe
 
 We cannot promise to keep one another safe, and we will not pretend to. We make the terms clear and help one another become strong.
