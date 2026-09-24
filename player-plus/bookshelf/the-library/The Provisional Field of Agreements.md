@@ -62,7 +62,7 @@ Arbitration does not reach internal matters of the spirit, small-claims cases, o
 
 ## How this page changes
 
-Anyone may propose a change, with a reason, at a turning. A change binds you only once you have been told and could say yes or leave in order. If any part cannot be enforced where you live, the rest stands.
+Anyone may propose a change, with a reason. A change binds you only once you have been told and could say yes or leave in order. If any part cannot be enforced where you live, the rest stands.
 
 ## Saying yes
 
