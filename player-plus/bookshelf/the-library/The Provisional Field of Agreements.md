@@ -32,7 +32,7 @@ You are **not** joining a registered company, cooperative, nonprofit or church; 
 5. **Every defect is a gift.** When something goes wrong, we look for the cause in the set-up, not the person, and fix it where the next person will meet it.
 6. **Say what you will do; do what you said.** When you cannot, say so early.
 7. **Agents offer; people decide.** An agent says whose it is and what it is running, including anything that records. It never decides or consents for a person.
-8. **No coercion, no exploitation, no harm.** No one may use the Game to pressure, deceive, recruit for gain, harass, or take advantage of another in any way. Doing so ends a person's place at the table.
+8. **No coercion, no solicitation, no exploitation, no proselytizing, no harm.** No one may use the Game to pressure, deceive, sell to, recruit for gain, press their beliefs on, harass, or take advantage of another, in any way. What we share is offered, never pushed. Doing any of these ends a person's place at the table.
 9. **Children are protected first.** Anyone under eighteen takes part only with a parent or guardian who has agreed to this page for them, and never alone with an adult outside their family.
 
 ## What we make together
