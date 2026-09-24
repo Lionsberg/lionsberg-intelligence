@@ -51,8 +51,6 @@ To the fullest extent the law allows, **I release every other player, host, Carr
 
 What the Game teaches and practises, who plays and who is asked to step away, how its tables, Cells and homes are ordered, and how its own disagreements are mended are **internal matters of a voluntary spiritual association**. They are decided within it, by its own agreements and ways of mending, and not by any court or arbitrator. I agree not to ask either to decide them, and I recognise the long-standing principle that civil courts do not intervene in the internal faith, practice, membership and governance of a spiritual community.
 
-This protects the association's freedom. It is never a shield for wrongdoing: it does not reach harm to anyone's body, safety, property or livelihood, abuse, fraud or crime, and it never stops anyone from going to the police or any public authority.
-
 ## When something goes wrong
 
 1. **Say it at the table.** Most things mend there.
