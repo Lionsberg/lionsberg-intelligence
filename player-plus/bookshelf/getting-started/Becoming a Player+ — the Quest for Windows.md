@@ -127,7 +127,7 @@ More: [Installing Git](Installing%20Git.md).
 
 1. In File Explorer, open your home folder, `C:\Users\YourName\`, and choose New › Folder. Name it **HQ**, short for headquarters: the home base for all your work with your agent.
 2. Get the Player+ kit: a copy from the person who brought you, or go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and unzip it.
-3. Open the kit's **player-plus** folder and copy everything inside it into **HQ**, the `.claude` folder too; it holds the kit's two permissions for the Dojo.
+3. Open the kit's **player-plus** folder. In File Explorer, choose **View › Show › Hidden items** so the faint `.claude` folder appears, then copy everything inside it into **HQ**, the `.claude` folder too; it holds the kit's two permissions for the Dojo.
 
 > [!warning]
 > HQ lives in your home folder, never inside OneDrive, iCloud, Dropbox or Google Drive. On many Windows computers Documents is really OneDrive: open HQ and check that the address bar does not say OneDrive.
