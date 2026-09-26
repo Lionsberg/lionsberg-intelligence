@@ -12,7 +12,7 @@ The word does not name a building. It names the relationship: wherever Spirit in
 
 It is load-bearing because it settles an argument before the argument starts. The old ordering reduced the body to a machine to be repaired, regulated, and worked — and once that is granted, extraction from a person and extraction from a watershed follow by the same logic. Naming the body a temple denies the premise at its root. What is revered is protected without being asked; what is owned is spent. [[Healing]], [[Nutrition]], [[Rest And Regeneration]], and [[Sleeping]] all follow from which of the two the body is taken to be.
 
-In play the word is used as a test rather than a decoration. Would this be done to a temple? Would this food, this schedule, this silence, this building, this chemical, this hour be offered to a dwelling of Spirit? A [[Cell]] that meets weekly can ask it of its own room; a person can ask it of their own week; a [[Community]] can ask it of the land it sits on. In the fully realized form the canon reaches for, hospitals become sanctuaries, clinics become communities, and every home is a place of care.
+In play the word is used as a test rather than a decoration. Would this be done to a temple? Would this food, this schedule, this silence, this building, this chemical, this hour be offered to a dwelling of Spirit? A [[Cell]] that meets weekly can ask it of its own room; a person can ask it of their own week; a [[Community]] can ask it of the land it sits on. In the fully realized form reached for here, hospitals become sanctuaries, clinics become communities, and every home is a place of care.
 
 The [[Kit of Parts]] and the making of [[Sacred spaces]] carry the built face of this; [[Vitality]] and [[Integration]] carry the inner face. The word bridges them, which is why it sits in this Pillar rather than in [[Architecture]].
 
@@ -20,5 +20,4 @@ The [[Kit of Parts]] and the making of [[Sacred spaces]] carry the built face of
 **Stands on:** [[Spirit]] · [[Embodiment]] · [[Reverence]]
 **Opens onto:** [[Vitality]] · [[Healing]] · [[Earth]] · [[Sacred spaces]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table (canon-grade as a definition, no page of its own) · *Pillar V — Sacred Health and Wellness*, Thesis 2 · lionsberg.wiki: *Temple*
-**Open:** *Temple* also appears in the canon as a place — the Roving Ark Temple Dojo — a built sense that this page does not carry.
+**Open:** *Temple* also appears elsewhere as a place — the Roving Ark Temple Dojo — a built sense that this page does not carry.

@@ -20,5 +20,4 @@ Made operational, it is most of what [[Pillar VIII — Sacred Science and Techno
 **Stands on:** [[Consciousness]] · [[ØNE]] · [[Metaphysics]] · [[Ontology]]
 **Opens onto:** [[The Involution and Evolution]] · [[Spirit Precedes Pattern]] · [[Sovereignty Of Consciousness]] · [[Divine Spark]] · [[Non-Local First, Local Follows]] · [[Pillar VIII — Sacred Science and Technology]] · [[We Do Not Know]] · [[Types Of Knowing]]
 **In play:** beyond — the assumption under the whole Lens, worth saying out loud once
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Consciousness Is Primary.md`
 **Open:** Stated as a foundation and never argued; the Card lists what follows from it, not what supports it. · The corpus elsewhere insists no article is locked except the ØNE, which sits awkwardly with calling this the floor everything rests on.

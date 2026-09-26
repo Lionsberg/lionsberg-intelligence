@@ -20,5 +20,4 @@ Two failure modes bracket the work: a Cell with no written way, which cannot sur
 **Stands on:** [[The LIØNSBERG Operating System]] · [[Field of Agreements]] · [[Cell]] · [[Minimum standards of interoperability]]
 **Opens onto:** [[The Turn]] · [[Roles]] · [[Consent-Based Decision-Making]] · [[Guard the Membrane]] · [[The first season]] · [[Organizations The LIØNSBERG Way]]
 **In play:** the table
-**Sources:** The LIØNSBERG Operating System, §1–§3 and §20 · `Govern Your Cells`, `Set Your Cadence`, `Properly Structure Your Cells` · The LIØNSBERG Playbook, Cross-Cutting · The DNA of Heaven, Part VII · lionsberg.wiki: The LIØNSBERG Operating System
 **Open:** The concept field cites a root page of this name; no such page exists. The meaning lives across the Operating System and the governing Plays.

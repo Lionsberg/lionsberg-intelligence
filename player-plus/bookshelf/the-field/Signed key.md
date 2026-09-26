@@ -20,5 +20,4 @@ Keys of this kind are also a reminder that trust and identity are different thin
 **Stands on:** [[The door]] · [[Room]] · [[Key]]
 **Opens onto:** [[Venue card]] · [[The open web]] · [[Sign]] · [[Trust]] · [[Widen]]
 **In play:** door
-**Sources:** Player+ Modules, *Before Your First Room*, *Venue Cards* · The DNA of Heaven, Part X (what the door checks).
 **Open:** none found.

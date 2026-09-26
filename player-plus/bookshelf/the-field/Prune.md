@@ -20,5 +20,4 @@ Weighting matters as much as cutting. Before a sharp correction from yesterday r
 **Stands on:** [[Charter]] · [[Look-back]] · [[Current Best Understanding]]
 **Opens onto:** [[Memory (agent)]] · [[Soak]] · [[Improvement log]] · [[Change log]] · [[Drift]]
 **In play:** beyond
-**Sources:** Player+ Modules, *The Agent Improvement Process*, *Agent Engineering* · The DNA of Heaven, Part VIII ("weight lessons by wisdom and truth, not recency").
 **Open:** none found.

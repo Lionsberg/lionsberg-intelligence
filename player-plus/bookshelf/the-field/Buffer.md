@@ -22,5 +22,4 @@ The same discipline runs at every scale: a Cell buffers before each promise it s
 **Stands on:** [[Float]] · [[Milestone]] · [[Honesty about time]] · [[Pull planning]]
 **Opens onto:** [[Critical Path]] · [[Bottleneck]] · [[Data Date]] · [[The Heartbeat]] · [[Kit of Parts]] · [[The 7 Year Window of Crisis and Opportunity]] · [[20 Year Generational Contingency]] · [[Kept as a share of made]]
 **In play:** Home — shown on the wall, consumed in the open
-**Sources:** `Projects/the term pages/Buffer.md` · `Projects/the term pages/Float.md`, `Bottleneck.md` (drafts) · `The Record`, `Temporal Markers` (wiki) · lionsberg.wiki: Float
-**Open:** The one-season rule — plan finishing a season ahead of each marker, the season between being the buffer — is an assertion on one page and has not been tested against a real season. · *Buffer* also names an ecological margin, a kindred sense held on other pages and never reconciled with this one.
+**Open:** The one-season rule — plan finishing a season ahead of each marker, the season between being the buffer — is an assertion on one page and has not been tested against a real season.*Buffer* also names an ecological margin, a kindred sense held on other pages and never reconciled with this one.

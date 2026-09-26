@@ -20,5 +20,4 @@ Its discipline is that the seats rotate like any other and are not honorary. A s
 **Stands on:** [[Governance]] · [[Covenant Across Time]] · [[Omniconsideration]]
 **Opens onto:** [[Living Systems Member]] · [[The Community Company]] · [[Representation]] · [[Stewardship]] · [[Guardianship]] · [[Wisdom Council]] · [[Protection Of Children]] · [[Generational Time]] · [[Ecology]]
 **In play:** Home · beyond — three chairs kept at every table that decides
-**Sources:** *The DNA of Heaven*, Part IV, §The Community Company · `The LIØNSBERG Community Guidebook` · `Seats at the Table`, named among the instruments under Pillar XI · lionsberg.wiki: Living Systems Member
 **Open:** Nothing states how a seat-holder is chosen, what standing their objection carries against a body's own preference, or how a seat is held honestly by someone who is not an expert in what they speak for.

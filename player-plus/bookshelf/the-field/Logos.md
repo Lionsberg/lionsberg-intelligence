@@ -22,5 +22,4 @@ In play, Logos is the reason a Cell can ask whether a way of working is *right* 
 **Stands on:** [[ØNE]] · [[Source]] · [[Creator's Intent]]
 **Opens onto:** [[Pattern]] · [[Alignment]] · [[Distortion]] · [[Inversion]] · [[Living Word]] · [[Sacred Order]]
 **In play:** Met at the table whenever a Cell asks whether a way of working is true rather than convenient, and on the Path as the test applied to anything received.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the Divine Pattern, Structure, Reason, and Order of Reality") · *Logos* (root page, three lines, no status) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Root And Trunk and Word Tools · *The Story of LIØNSBERG — Ontology* · lionsberg.wiki: *Logos*.
 **Open:** The root *Logos* page and the Lexicon entry do not disagree, but neither is developed; the working articulation is carried by the Pattern Language's one line ("the speaking of ØNE by which the cosmos has intelligible form") rather than by the page that bears the name.

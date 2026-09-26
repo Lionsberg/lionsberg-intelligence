@@ -18,5 +18,4 @@ Three things keep it honest. The milestone serves the work: when it is missed it
 **Stands on:** [[Pull planning]] · [[The activity table]] · [[The Intent]]
 **Opens onto:** [[Float]] · [[Critical Path]] · [[Honesty about time]] · [[Measure everything, manage to the milestones]] · [[Temporal markers apart from milestones]]
 **In play:** table · Home · beyond
-**Sources:** *Milestone* (the fullest treatment) · *Milestones* (wiki root page) · *The LIØNSBERG Operating System* §5 · *The LIØNSBERG Lexicon* §Orientation and Navigation · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Milestones**
 **Open:** In ordinary delivery a milestone often carries a duration or a payment; here it has neither.

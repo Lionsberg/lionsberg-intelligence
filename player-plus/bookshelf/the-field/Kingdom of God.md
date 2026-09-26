@@ -20,5 +20,4 @@ In play it is never a test at the door. It appears as the compass: does this mov
 **Stands on:** [[ØNE]] · [[Right Relationship]] · [[Sacred Order]]
 **Opens onto:** [[Heaven On Earth]] · [[Co-Creating Heaven]] · [[Eschaton]] · [[The compass question]]
 **In play:** Met at the door, in the Story's promise; met at the table in the compass question, every move.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the state and structure of Creation when all parts are aligned in Right Relationship... not a place, but a condition") · *Pillar I — Sacred Ontology and Metaphysics*, thesis 11 · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Word Tools · lionsberg.wiki: *Pillar I — Sacred Ontology and Metaphysics*.
 **Open:** The Lexicon's Pillar I table carries both *Heaven* and *Kingdom of God* as separate rows with near-identical definitions; nothing states whether they are one concept in two tongues or two.

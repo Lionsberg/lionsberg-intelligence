@@ -20,5 +20,4 @@ Its distortion is servility: the bow held so long the spine forgets how to strai
 **Stands on:** [[ØNE]] · [[Right Relationship]] · [[Beauty]]
 **Opens onto:** [[Kinship]] · [[Stewardship]] · [[Gratitude]] · [[Temple]]
 **In play:** table · Gate · beyond
-**Sources:** *Reverence* (a written root page in the emotional vocabulary) · *The LIØNSBERG Lexicon*, Pillar VI table · *The LIØNSBERG Pattern Language*, The Cardinal Values · lionsberg.wiki: *Reverence*
 **Open:** The concept field folds *Awe* in as an alias here while also carrying *Awe* as a concept of its own in the Pattern Language's emotional vocabulary, where the two are explicitly distinguished. The fold is flagged, not resolved.

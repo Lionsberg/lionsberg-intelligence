@@ -14,7 +14,7 @@ The same phrase governs three different moments, which is why it is a law of the
 
 **Growing.** A Circle that knows and trusts itself can bear great weather. That inner stability is what lets a real [[Quest]] be carried, what lets hard things be said at the table, and what makes everything downstream possible at all.
 
-**Spreading.** [[Pass The Flame|The flame passes]] at the pace of trust, never faster — and it always passes. Hand to hand, to the two or three who are ready, and not by broadcast.
+**Spreading.** [[Pass The Flame|The flame passes]] at the pace of trust, never faster — and it always passes. Hand to hand, to the three each Player brings when ready, and not by broadcast.
 
 The image beneath it is a tree: a Circle is a miniature tree of life springing from the Seed, and **the deeper the roots, the higher it can safely grow.** Grow roots first, then trunk, then branches, so that when the season of blossoming comes the tree can bear it. A tree forced upward falls in the first real weather.
 
@@ -26,5 +26,4 @@ It also sets the correct measure of haste. *Play with urgency, rest with intenti
 **Stands on:** [[Trust]] · [[Cell]] · [[Circle (as gathering)]] · [[Right Relationship]] · [[Commitment]]
 **Opens onto:** [[Seal the Circle]] · [[Form a Cell]] · [[Pass The Flame]] · [[The Flame Bearer's Path]] · [[Grow Your Cells]] · [[Circle Coherence]] · [[The First Few]] · [[Fibonacci Spread]] · [[The 3 Year Lag]] · [[Prescribed and discretionary trust]] · [[Weaving vs. Starting New]] · [[Islands of coherence to network]]
 **In play:** the table, from before the first gathering
-**Sources:** `LIØNSBERG Wiki Books/The Great Game of LIØNSBERG/The Great Game of LIØNSBERG.md` (canon-grade — three times: the sealing, the growth, the spread) · `The LIØNSBERG Quick Start Guide` · `The Game on One Page` · `…/Plays/Play — Pass the Flame` · `General Needs` · *THE DNA OF HEAVEN*
 **Open:** The phrase carries load in at least fifteen live files and has never had a page of its own. · Nothing says how a body *tells* whether trust has grown — the rule names a pace and gives no reading of it, so in practice it is judged by feel.

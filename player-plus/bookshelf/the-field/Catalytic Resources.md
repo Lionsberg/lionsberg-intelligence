@@ -18,5 +18,4 @@ It earns a name because of where it sits in the work. A Cell's blocked Quest pro
 **Stands on:** [[Constraint]] · [[Theory Of Constraints]] · [[Quest]] · [[General Needs]]
 **Opens onto:** [[Requests and offers]] · [[Fostering Ecosystemic Resource Flows]] · [[Shared Services, Infrastructure, and Support]] · [[Sponsorship]] · [[The Founder's Fund]] · [[Underwriting The New Economy]] · [[Knowledge as commons]] · [[Mutual Aid]] · [[Commons]] · [[Make-Ready Process]] · [[Issue]] · [[Guild]] · [[Apprenticeship]]
 **In play:** the table — named when a Cell's Quest stalls and the reason is an input rather than a will
-**Sources:** `Catalytic Resources` · `LIØNSBERG Platform`, `Ecclesia Led` · lionsberg.wiki: Catalytic Resources
 **Open:** The root page names four or five categories and no mechanism: how a Cell requests a catalytic resource, who decides, on what criteria, and what is owed afterward are all unwritten. The name is useful and the page behind it is not yet an instrument. · Whether catalytic capital is a gift, a loan, or a stake — and what happens to the resource when the Quest succeeds or fails — is nowhere addressed.

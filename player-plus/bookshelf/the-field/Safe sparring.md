@@ -20,5 +20,4 @@ Two rules hold the whole thing up. Agents offer and people decide. And a person'
 **Stands on:** [[Terms]] · [[The six lines]] · [[Room]] · [[Trust]]
 **Opens onto:** [[Sign]] · [[What it is running]] · [[Closing question]] · [[Stop]] · [[Check In]] · [[Venue card]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Part X ("full strength is safe because the terms were known first") · Player+ Modules, *Safe Sparring*, *Entering the Field* · lionsberg.wiki: *Trust*, *Field of Agreements*.
 **Open:** none found.

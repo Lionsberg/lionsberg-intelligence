@@ -20,5 +20,4 @@ In play, the ecoregion is also the natural scale for the seat that holds standin
 **Stands on:** [[Ecology]] · [[Biodiversity]] · [[Levels Of Scale]]
 **Opens onto:** [[Bioregion]] · [[Watershed]] · [[Community]] · [[Living Systems Member]] · [[Regeneration]]
 **In play:** Home · beyond
-**Sources:** *Ecoregion* (a written Card) · *The LIØNSBERG Pattern Language*, From Circle To Cosmos · *The Sovereign Path* · lionsberg.wiki: *Ecoregion*
-**Open:** The concept field folds *Georegion* in as an alias, but the canon carries a separate *Georegional* Card as a distinct rung above Bioregion. The fold is not obviously right and is flagged rather than resolved.
+**Open:** The concept field folds *Georegion* in as an alias, but a separate *Georegional* Card stands as a distinct rung above Bioregion. The fold is not obviously right and is flagged rather than resolved.

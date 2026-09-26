@@ -22,5 +22,4 @@ What it cannot be is directed. The whole thing rests on voluntary local initiati
 **Stands on:** [[Infrastructure]] · [[Consciousness]] · [[Education As Transformation]]
 **Opens onto:** [[Metaphysical DNA]] · [[The Elevation Initiative]] · [[The LIØNSBERG Academy]] · [[Knowledge as commons]] · [[Potential]] · [[Higher Order Functional Unity]] · [[Tipping Point Strategy]] · [[Pillar IV — Sacred Learning and Mastery]]
 **In play:** beyond — the answer to what a people should actually build first
-**Sources:** `LIØNSBERG Wiki Books/The Book of LIØNSBERG/Chapter 10 - The Quest for Unity/10.20 The Elevation Initiative…` (no page stands at its own name)
 **Open:** Named as a construct and never specified; nothing says what a piece of it would concretely be, or how one would know it had been built. · The claim that transforming consciousness transforms everything else *in the right order* is asserted and is the whole load-bearing bet.

@@ -18,5 +18,4 @@ In practice it sits on the first card beside the names and roles, is read aloud 
 **Stands on:** [[Vision]] · [[Field of Agreements]] · [[The Goal]]
 **Opens onto:** [[Pull planning]] · [[Quest]] · [[The plan of the whole]] · [[Stacking Up And Aligning]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §2 · *The LIØNSBERG Lexicon* §The Creative Cascade · *The DNA of Heaven*, Part XI — lionsberg.wiki page name: **The LIØNSBERG Operating System**
 **Open:** The Lexicon's *Intention* (the directed WHY, the unchanging rung of the Creative Cascade) and the OS's *Intent* (a body's one sentence) are close enough to be confused and are not the same term.

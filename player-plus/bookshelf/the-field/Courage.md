@@ -20,5 +20,4 @@ Courage is also social. It is far easier to stand when someone stands with you, 
 **Stands on:** [[Truth]] · [[Love]] · [[Integrity]] · [[Fear]]
 **Opens onto:** [[Speaking Truth In Love]] · [[Having Difficult Conversations]] · [[Composure Under Threat]] · [[We Do Not Know]] · [[Warrior]] · [[Whistleblower Protection]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *Courage* · *The LIØNSBERG Pattern Language — Synthesized*, Cardinal Values · the seed's Part VIII. lionsberg.wiki: Courage.
-**Open:** The root page is an early card sketch that links several values with no pages behind them. Nothing distinguishes courage from recklessness in the corpus; that line is drawn here from the surrounding Warrior discipline.
+**Open:** The root page is an early card sketch that links several values with no pages behind them. Nothing distinguishes courage from recklessness elsewhere; that line is drawn here from the surrounding Warrior discipline.

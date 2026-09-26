@@ -20,5 +20,4 @@ The canon holds the shape and not the specifics. It does not prescribe a diet, a
 **Stands on:** [[Temple]] · [[Reciprocity]] · [[Ecology]]
 **Opens onto:** [[Fasting]] · [[Vitality]] · [[Detoxification]] · [[Air · Water · Soil · Microbiome]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table · *Eating* (a drafted Pattern Card) · *Pillar V — Sacred Health and Wellness*, Theses 6 and 12 · lionsberg.wiki: *Eating*
 **Open:** The canon's page stands at *Eating*, the Lexicon's term is *Nutrition*; one canonical home has not been chosen between them.

@@ -20,5 +20,4 @@ In play a [[Cell]] meets it the first time a decision is made that not everyone 
 **Stands on:** [[Truth]] · [[Consent]] · [[Legitimacy]] · [[Trust]]
 **Opens onto:** [[Accountability]] · [[Decision Records]] · [[Oversight]] · [[Recourse]] · [[Elision]] · [[Chatham House]]
 **In play:** table — every decision, every record
-**Sources:** *Transparency* · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Recognition 4 · *The LIØNSBERG Lexicon*, Pillar II table · *The LIØNSBERG Operating System* §15, Card 7 · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Transparency
-**Open:** Transparency of reasoning and privacy of persons are both affirmed across the canon; no page yet states the boundary between them in operational terms.
+**Open:** Transparency of reasoning and privacy of persons are both affirmed; no page yet states the boundary between them in operational terms.

@@ -8,7 +8,7 @@ pillar: VI
 
 *The transformation of decay into fertility — death turned deliberately into the ground of the next life.*
 
-It is the plainest teaching in the Pillar and the one everybody can run. Put what has finished into a heap, keep it damp and turned, and in months it becomes the richest thing on the property. Nothing is added; what was thrown away becomes what feeds. Every compost pile is an altar in the sense the canon means it: an ordinary object that demonstrates a law.
+It is the plainest teaching in the Pillar and the one everybody can run. Put what has finished into a heap, keep it damp and turned, and in months it becomes the richest thing on the property. Nothing is added; what was thrown away becomes what feeds. Every compost pile is an altar in the sense meant here: an ordinary object that demonstrates a law.
 
 It is load-bearing because the same move is asked of a body of people at every scale. A failed [[Quest]] is composted by a [[Retrospective]] — the season's residue turned until it becomes ground for the next. [[Every Defect Is A Gift]] is compost stated as a discipline. [[Disbanding]] is compost at institutional scale: discrete birth and discrete death, with a body dissolved when its purpose has ended and its people, knowledge, and assets returned to the [[Commons]] rather than kept alive in a husk. Hospicing the old world rather than fighting it is compost at civilizational scale. A system that cannot compost its own endings accumulates zombies.
 
@@ -20,5 +20,4 @@ The honest edge: composting requires actually letting the thing die. A body that
 **Stands on:** [[Ecology]] · [[Regeneration]] · [[Living System]]
 **Opens onto:** [[Air · Water · Soil · Microbiome]] · [[Permaculture]] · [[Every Defect Is A Gift]] · [[Dying]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VI table · *Pillar VI — Sacred Ecology and Living Systems*, Narrative (*every compost pile is an altar*) · lionsberg.wiki: *Pillar VI — Sacred Ecology and Living Systems*
-**Open:** No canon page stands at *Compost*; the definition is a single Lexicon line and one line of the Pillar narrative. The institutional reading offered here is this page's synthesis, drawn from the canon's *discrete birth and discrete death*.
+**Open:** No page stood at *Compost* until now; the definition is a single Lexicon line and one line of the Pillar narrative. The institutional reading offered here is this page's synthesis, drawn from *discrete birth and discrete death*.

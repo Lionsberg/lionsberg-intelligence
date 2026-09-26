@@ -22,5 +22,4 @@ The whole idea is illuminated by an old story about a widow who gave two small c
 **Stands on:** [[Reciprocity]] · [[Gift]] · [[The Invitation]] · [[Trust]]
 **Opens onto:** [[Meaningful Monthly Contribution]] · [[The Founder's Fund]] · [[Voluntary Tithing]] · [[Meaningful Work]] · [[Participation]] · [[Belonging]] · [[Pillar III — Sacred Economy and CurrentSee]]
 **In play:** the door — the last move of joining, and the first move of membership
-**Sources:** `Meaningful Initial Contribution` (root page, stub — the five forms, the reciprocity argument, and the Founder's Fund instruction) · `Meaningful Monthly Contribution` (root page, stub) · `The Widow's Mite` (root page, a story) · lionsberg.wiki: Meaningful Initial Contribution
 **Open:** The page says the contribution is voluntary and also that each new participant *is invited to make one*; nothing states what happens if someone does not, which is the question a person without means will ask first. · No guidance exists on how a body should receive an offering it considers too large.

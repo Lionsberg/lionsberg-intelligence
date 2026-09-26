@@ -20,5 +20,4 @@ It also names what to do with the feeling of not-yet-understanding. [[Overwhelm]
 **Stands on:** [[Learning By Doing]] · [[Types Of Knowing]] · [[Shoshin]]
 **Opens onto:** [[The vocabulary ladder]] · [[The grandmother test]] · [[Overwhelm]] · [[We Do Not Know]] · [[Receiving Transmission]] · [[Resonance]] · [[The Zone Of Optimum Development]]
 **In play:** the door — and every time a Player meets a word they do not yet hold
-**Sources:** `The LIØNSBERG Quick Start Guide` · `Projects/The Guide 2026-09/The Guide — What It Is, and Its Place In, Throughout, and Beyond the ØNE Book` §3, which sets it beside the ladder as the pace rather than a contradiction · *The One Book — The Language* · lionsberg.wiki: The LIØNSBERG Quick Start Guide
 **Open:** Where the line falls between a word a Player may hold loosely and one they must actually understand before acting — a consent, a pledge, a commitment — is nowhere written.

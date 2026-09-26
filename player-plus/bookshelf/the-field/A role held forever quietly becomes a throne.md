@@ -22,5 +22,4 @@ What it protects is not only the body but the person in the seat. A role nobody 
 **Stands on:** [[Roles]] · [[Term Limits And Rotation]] · [[Structural Immunity]]
 **Opens onto:** [[The steering committee that dissolves itself]] · [[The Two-Coordinator Rhythm]] · [[Centralization Of Power]] · [[Institutional Idolatry]] · [[Servant Leadership]] · [[Impeachment]] · [[Separation Of Power]] · [[The three charts]] · [[Tender]]
 **In play:** the table — every season, when the seats are redrawn
-**Sources:** *The DNA of Heaven*, Part IV, §The Community Company · `Term Limits And Rotation` (wiki root) · `Structural Immunity`, in the Pattern Language synthesis · lionsberg.wiki: Term Limits And Rotation
 **Open:** Nothing states the length of a term, or what a small body does when there is genuinely no one else who can yet hold a seat.

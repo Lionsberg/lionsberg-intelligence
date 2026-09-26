@@ -20,5 +20,4 @@ Two disciplines keep the word honest. **A mission is written down**, because an 
 **Stands on:** [[Vision]] · [[Intention]] · [[The Goal]] · [[Purpose]]
 **Opens onto:** [[Quest]] · [[The Creative Cascade]] · [[Stacking Up And Aligning]] · [[Cell]] · [[Charter]] · [[LIØNSBERG Mission Control]] · [[Milestone]] · [[Every Quest Is A Project]]
 **In play:** the Room, where a body states what it is for; and the season, where the Mission becomes a Quest that can actually be run
-**Sources:** `Mission` (root page, stub — two lines defining it against Vision, Intention and Goal, and pointing onward) · `LIØNSBERG Mission` (root page) · `Vision`, `Intention` (root pages) · lionsberg.wiki: Mission
-**Open:** The root page is a definition and a redirect; the canon carries `Mission` and `LIØNSBERG Mission` as two pages and does not say whether the second is an instance of the first or its real home. · Distinct from [[LIØNSBERG Mission Control]], which is a room, not a mission.
+**Open:** The root page is a definition and a redirect; `Mission` and `LIØNSBERG Mission` stand as two pages, and whether the second is an instance of the first or its real home is not yet said. · Distinct from [[LIØNSBERG Mission Control]], which is a room, not a mission.

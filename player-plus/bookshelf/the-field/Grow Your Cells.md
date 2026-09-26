@@ -20,5 +20,4 @@ The measure is not size. A community with one Cell of twelve has one point of li
 **Stands on:** [[Cell]] · [[Self-Sustenance and Self-Replication]] · [[Trust]]
 **Opens onto:** [[Midwife a New Circle]] · [[Pass The Flame]] · [[Supercell]] · [[Welcome a Newcomer]] · [[Seal the Circle]] · [[Fibonacci Spread]]
 **In play:** the table
-**Sources:** `Grow Your Cells` · The LIØNSBERG Playbook, Federation — Play — Grow Your Circle · `The Twelve Words` 1 (canon-grade) · The DNA of Heaven, Part V · lionsberg.wiki: Grow Your Cells
-**Open:** The threshold differs between sources: the seed says a Cell divides at thirteen; `Grow Your Cells` says life thins beyond twelve to sixteen and preparation begins at ten to twelve.
+**Settled:** Cell size is settled (2026-09-26) as one statement: three to thirteen people; optimally four to seven. A Cell divides past thirteen; preparation for the split begins at ten to twelve.

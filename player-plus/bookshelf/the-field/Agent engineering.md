@@ -20,5 +20,4 @@ The work goes well with four in the room: two people and two agents, one of whom
 **Stands on:** [[Charter]] · [[Set-up]] · [[Zero Blame Environment]] · [[Every Defect Is A Gift]]
 **Opens onto:** [[Hypothesize]] · [[Change log]] · [[Drift]] · [[Improvement log]] · [[Register]] · [[Memory (agent)]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Agent Engineering*, *Advanced Agent Engineering* · The DNA of Heaven, Part VIII · lionsberg.wiki: *Zero Blame Environment*, *Continuous Improvement*, *Every Defect Is A Gift*.
 **Open:** none found.

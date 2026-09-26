@@ -18,5 +18,4 @@ How it is played. Each person names an offer and an ask in their round at [[The 
 **Stands on:** [[The Turn]] · [[Commitment]] · [[Sovereignty]]
 **Opens onto:** [[The Season Sheet]] · [[The Board]] · [[The weekly door]] · [[Issue]] · [[The Offering]] · [[Mutual Aid]] · [[Home Cell]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §14 · *The Season Sheet*, lines 10–11 (current best understanding) · The DNA of Heaven, Part VII — "Requests, Offers, Commitments are the only things that cross a membrane" · lionsberg.wiki: **The Season Sheet**
 **Open:** Nothing states what happens to a request that no level can answer; the plain reading is that it stays visible until it is answered or withdrawn.

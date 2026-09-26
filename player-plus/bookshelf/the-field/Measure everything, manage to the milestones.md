@@ -18,5 +18,4 @@ The standing caution is the single-metric rule: the wise right path is never a n
 **Stands on:** [[Milestone]] · [[Honesty about time]] · [[The Record]]
 **Opens onto:** [[Kept as a share of made]] · [[The Score]] · [[Float]] · [[Value]] · [[Navigation]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §5 · *Float* and *Milestone* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Milestones**
 **Open:** none found.

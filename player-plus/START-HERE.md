@@ -18,7 +18,7 @@ The Quest is the main road. If one of these doors fits where you are now, take i
 
 ## Door 1 — you have a notebook and two or three people
 
-You are a complete player. Read the seed text's Part V (the Game) and Part XII (the words at the table); it is an evening. Say yes to the Invitation in your own words, to the person who gave you this. Gather your two or three. Choose one real thing for one season. Meet weekly at the same hour; each says what they did, the gap, what they will do, what they offer and ask; put something in the middle; tell one story; close in gratitude. At the season's turning fill the fourteen lines of the Season Sheet. Within a week, pass it on to two or three who are ready. Nothing below is required of you, ever.
+You are a complete player. Read the seed text's Part V (the Game) and Part XII (the words at the table); it is an evening. Say yes to the Invitation in your own words, to the person who gave you this. Gather your two or three. Choose one real thing for one season. Meet weekly at the same hour; each says what they did, the gap, what they will do, what they offer and ask; put something in the middle; tell one story; close in gratitude. At the season's turning fill the fourteen lines of the Season Sheet. Within three days, pass it on: bring your three, people not already playing, who are ready. Nothing below is required of you, ever.
 
 ## Door 2 — you have a chat assistant and no terminal
 
@@ -26,7 +26,7 @@ Paste the seed text's Part V into a fresh conversation and ask it to say the Gam
 
 ## Door 3 — your agent's first words
 
-If you walked the Quest, you are at Gate 8: the terminal is open in **HQ**, and Claude Code is waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it; open your terminal there and start Claude Code.
+If you walked the Quest, you are at Gate 8: the terminal is open in **HQ**, and Claude Code is waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open your terminal there and start Claude Code.
 
 Copy this, paste it as your first message, and press Return:
 
@@ -35,6 +35,14 @@ Copy this, paste it as your first message, and press Return:
 Your agent reads before it says anything. When it greets you, tell it three things, one at a time: what you will call it; who you are and how you like to be spoken with; and what you are playing toward. At every step, say yes, no, or "wait, explain."
 
 It will also ask where you keep your work, which it calls your headquarters; tell it, or say "here" and it will use this folder. The `memory/` and `sessions/` folders fill as you live in them. Before your first room, your agent will offer the `entering-the-field` skill, and `heads-up` for any live session; it adds a skill only when you say so.
+
+## After the Quest — your first room, your friends
+
+- [The Dojo Card](<bookshelf/working-with-other-houses/The Dojo Card.md>): your first time in a room with your agent, and the room card you approve once.
+- [Tips for Working With Your Agent](<bookshelf/with-your-agent/Tips for Working With Your Agent.md>): a living page, added to at every Jam.
+- [Bringing Your Friends In](<bookshelf/getting-started/Bringing Your Friends In.md>): each one teach one, invite when you are ready (starting now), and the ladder for when you are stuck. Why it matters: [the chart of the first three percent](<bookshelf/the-one-book/29 The Plan — the first three percent.md#the-chart>), from eight Players to two hundred and fifty million by the Winter Solstice of 2026, measured daily on the rings of the Cycles of Growth, and moved through them by every new Player bringing their three within three days of their own yes.
+- [The Strategy and Plan — How to Read It](bookshelf/the-one-book/28%20The%20Strategy%20and%20Plan.md): the whole LIØNSBERG Strategy and Plan, for when you want the depth behind the chart.
+- For your agent, before a Jam: [Playing in a Jam](<bookshelf/working-with-other-houses/Playing in a Jam.md>) and [Closing Out Sessions](<bookshelf/working-with-other-houses/Closing Out Sessions.md>).
 
 ## Door 4 — you already have a house built from the PKAI starter kit
 

@@ -20,5 +20,4 @@ What the section is for, practically, is orientation. A reader who knows these w
 **Stands on:** [[The LIØNSBERG Lexicon]] · [[Limit Statement]] · [[The Ineffable]] · [[Meta]]
 **Opens onto:** [[ØNE]] · [[All]] · [[Transcendence]] · [[Immanence]] · [[Levels of Abstraction]] · [[The Creative Cascade]] · [[Do Not Concretize the Absolute]] · [[Heaven On Earth]] · [[Hell On Earth]]
 **In play:** beyond
-**Sources:** The LIØNSBERG Lexicon, "Boundaries and Limits of Conception" (the section is a list of named entries, most without bodies) · lionsberg.wiki: *The LIØNSBERG Lexicon*
 **Open:** many of the section's entries are links to pages that do not yet exist — of eight sampled, two had bodies — so the boundary is presently drawn by names more than by articulations. *Limit Statement*, which governs how the whole section should be read, is among the missing.

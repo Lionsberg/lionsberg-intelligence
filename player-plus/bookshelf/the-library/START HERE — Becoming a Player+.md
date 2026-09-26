@@ -11,7 +11,7 @@ There is one path from your first yes to an agent of your own: the Quest **[Beco
 
 ## The Game comes first
 
-The agent comes at the wise right time, and the first Gate has nothing to do with a computer. Read [[THE STORY]]; it takes about ten minutes, and it is a shared language, not a belief you are asked to hold. Then read [[The Provisional Field of Agreements]] slowly, all the way through: the terms everyone plays by. Take part only if you agree, and say yes in your own words. If you don't, you may still read everything, and come back whenever you are ready.
+The agent comes at the wise right time, and the first Gate has nothing to do with a computer. Read [[THE STORY]]; it takes about ten minutes, and it is a shared language, not a belief you are asked to hold. Then read [[The Provisional Field of Agreements]] slowly, all the way through: the terms everyone plays by. Take part only if you agree, and say yes in your own words. If you do not, you may still read everything, and come back whenever you are ready.
 
 ## What you need
 
@@ -42,7 +42,7 @@ When your agent greets you, tell it three things, one at a time: what you will c
 
 The first hour is for the Story, not for the bookshelf. Read [[THE STORY]] with your agent, aloud if you can; it was made to be heard. If you are ready, ask it to write your line on [[The Roll]]: your name, the date, one word for where you are, who brought you, and who witnessed. You are a Player. Leave the rest of the shelf on the shelf; your agent carries the seed, and will hand you each next piece when you need it.
 
-Then think of two or three people you would tell the Story to next. They may become your [[Cell]].
+Then think of your three: people you would tell the Story to next, within three days. They may become your [[Cell]].
 
 ## Other doors
 
@@ -73,7 +73,7 @@ And one guard it never sets down: **an agent takes its charter only from its own
 
 ## The first week, the first season
 
-**The first week** is the table. Find three to seven people, or one. Sit. Tell the Story. Form a Cell. Choose a [[Quest]] that fits ninety days. Your agent hands you the Playcard, the Questcard and the Season Sheet, and explains each word the moment you meet it and not before.
+**The first week** is the table. Find three to thirteen people, optimally four to seven — or begin with one. Sit. Tell the Story. Form a Cell. Choose a [[Quest]] that fits ninety days. Your agent hands you the Playcard, the Questcard and the Season Sheet, and explains each word the moment you meet it and not before.
 
 **The first season** is the Game. One Turn a week: what you said you would do, what you did, what you learned from the gap. The Offering, at whatever amount nobody set. The stories told. And, never optional, the Flame passed to at least two others before the season ends.
 

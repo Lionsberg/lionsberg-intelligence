@@ -20,5 +20,4 @@ The test's last clause matters as much as the first. *Can hand you a gift, a req
 **Stands on:** [[Minimum standards of interoperability]] · [[The Record]] · [[An address]] · [[Interoperability]]
 **Opens onto:** [[The Roll]] · [[The Playcard]] · [[Sighting]] · [[The door and the standing hour]] · [[The face (a holon's first page)]] · [[Federation]] · [[Pass The Flame]]
 **In play:** Home — run between two Cells, out loud, with the files on the table
-**Sources:** `Projects/The Kit 2026-09/The Minimum Standards of Interoperability — What a Holon Carries to Be a Cell (the Kit, v0)`, §*What "meets the standard" means, as a test* (frontmatter marks it a proposal awaiting proofread) · `The LIØNSBERG Operating System` §18, the seven standards · lionsberg.wiki: Minimum Standards of Interoperability
 **Open:** The test is written once, in one page, and no Cell has yet run it on another; whether the six questions are the right six is untested. · Nothing says what a Cell does about a question it cannot answer but does not wish to — the test assumes openness rather than choosing it.

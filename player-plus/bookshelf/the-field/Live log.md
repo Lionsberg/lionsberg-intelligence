@@ -22,5 +22,4 @@ A Player+ keeps the log only as long as the session, and keeps it first: the age
 **Stands on:** [[Heads-up]] · [[The clock is read, never computed]] · [[Room]]
 **Opens onto:** [[Ask]] · [[Play by Play]] · [[The Record]] · [[Retrospective]] · [[Story]]
 **In play:** Room
-**Sources:** Player+ Modules, *The Heads-up and the Play by Play* · The DNA of Heaven, Parts X and XII ("the live log with the time read from a clock").
 **Open:** none found.

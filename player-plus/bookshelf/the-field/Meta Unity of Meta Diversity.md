@@ -20,5 +20,4 @@ The discipline it demands is restraint: to keep asking whether a proposed unifor
 **Stands on:** [[Higher Order Functional Unity]] · [[Holofractal Omnifederation]] · [[The Three Supreme Agreements]] · [[ØNE Body]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[Navigating Difference]] · [[Tribe]] · [[Cross-Cultural Pattern Translation]] · [[General Pattern, Specific Application]] · [[Federations vs Empires]]
 **In play:** beyond · Room · door
-**Sources:** `Pass The Flame`, Ch 7 (drafted chapter) · `All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23`, §3.1 (inventory, ore) · `The LIØNSBERG Operating System`, Minimum Standards of Interoperability · lionsberg.wiki: no page stands at this name
 **Open:** No page exists at this name; the phrase appears within a book chapter and a pattern inventory, and the treatment here is a reading of both alongside the interoperability standards, which nowhere cite it.

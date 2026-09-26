@@ -20,5 +20,4 @@ In the Game this ring is consulted rather than read through. A Cell hits a real 
 **Stands on:** [[Ring 1 - The Seed]] · [[Twelve Irreducible Elements]] · [[The Core Pattern]]
 **Opens onto:** [[Ring 3 - The Living Proof]] · [[The LIØNSBERG Pattern Language]] · [[Structural Immunity]] · [[Selectively Permeable Membrane]] · [[The Constitutional Recognitions]] · [[The Anti-Patterns]]
 **In play:** table
-**Sources:** *LIØNSBERG 101*, §Ring 2 · *Twelve Irreducible Elements* · *The Core Pattern* — lionsberg.wiki · the seed text *The DNA of Heaven*, Part IV (the failure logic is stated there element by element).
 **Open:** The ring is named in *LIØNSBERG 101* with a page count;

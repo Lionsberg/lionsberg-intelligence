@@ -20,5 +20,4 @@ The Game takes the third route. It does not try to out-compete the trap on the t
 **Stands on:** [[System]] · [[The Meta Crisis]] · [[Scarcity]]
 **Opens onto:** [[Tragedy of the Commons]] · [[Systemic Failure Modes]] · [[Collapse]] · [[The Pattern Governs, Not People]] · [[Islands of Coherence]] · [[Federations vs Empires]] · [[Commons]] · [[The Way Out]]
 **In play:** the Story — read at the door, when a newcomer asks why good people keep producing a world nobody chose
-**Sources:** `Multi-Polar Traps` · `Tragedy of the Commons`, `Systemic Failure Modes` (root pages) · lionsberg.wiki: Multi-Polar Traps
-**Open:** The root page carries the received definition and no LIØNSBERG reading; the three exits and the Game's choice among them are synthesis from the strategy material. · Nothing in the canon addresses the hardest case — a trap whose participants can prevent anyone leaving for a different game.
+**Open:** Nothing yet addresses the hardest case — a trap whose participants can prevent anyone leaving for a different game.

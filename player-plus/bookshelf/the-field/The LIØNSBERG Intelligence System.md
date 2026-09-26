@@ -22,5 +22,4 @@ Improvement runs both ways: agents improve from use, general learnings fold up i
 **Stands on:** [[Agent]] · [[The Kit]] · [[The Lens]] · [[HoloFractal]]
 **Opens onto:** [[Artificial Intelligence]] · [[Agent engineering]] · [[An agent speaks in its own name]] · [[Memory (agent)]] · [[Off switch]] · [[Language model]] · [[PKAI]] · [[Player+]] · [[Guide]] · [[On translating]]
 **In play:** beside the Player — the layer that accompanies a person through the Path, and may be declined entirely
-**Sources:** `LIØNSBERG Intelligence System/LIØNSBERG Intelligence System` · lionsberg.wiki: LIØNSBERG Intelligence System
-**Open:** The page names Personal Agents, Cell Agents and a translation instrument as existing pages; how much of that is built and how much is intended is not marked anywhere. · *Agent-optional, always* is a strong commitment with no stated test, and nothing in the canon checks whether a given capability has quietly become agent-dependent. · Inbound links were not counted.
+**Open:** The page names Personal Agents, Cell Agents and a translation instrument as existing pages; how much of that is built and how much is intended is not marked anywhere.*Agent-optional, always* is a strong commitment with no stated test, and nothing checks whether a given capability has quietly become agent-dependent. · Inbound links were not counted.

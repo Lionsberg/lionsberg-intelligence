@@ -22,5 +22,4 @@ The canon holds it as a single borrowed definition with no articulation of its o
 **Stands on:** [[Emergence]] · [[Higher Order Functional Unity]] · [[Integrated Delivery]] · [[Reciprocity]]
 **Opens onto:** [[Coherence]] · [[Design To The Goal]] · [[Genius]] · [[The waterfall]] · [[Federation]] · [[Cross-Functional Integration]] · [[Theory Of Constraints]]
 **In play:** beyond
-**Sources:** *Synergy* (root page, stub — a single quoted definition, credited to Open Civics) · *THE DNA OF HEAVEN* Part VII · lionsberg.wiki: Synergy
 **Open:** The canon carries a borrowed definition and no LIØNSBERG articulation; nothing states how a claimed synergy is verified.

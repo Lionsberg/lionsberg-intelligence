@@ -18,5 +18,4 @@ How it is used. Start from the need you actually have, not from the shelf you ha
 **Stands on:** [[General Pattern, Specific Application]] · [[Polycentric Implementation of Shared Solutions]] · [[One canonical home per concept]]
 **Opens onto:** [[Play]] · [[The LIØNSBERG Toolkit]] · [[The LIØNSBERG Pattern Language]] · [[The LIØNSBERG Workshop]] · [[Knowledge as commons]] · [[Gaps Not Yet Closed]]
 **In play:** table · Home · beyond
-**Sources:** *General Needs* (root page; states the law of non-redundancy and marks each need *in hand* or *to forge*) · *The LIØNSBERG Playbook*, "Every Play answers a need in the General Needs register" · lionsberg.wiki: **General Needs**
-**Open:** Many instruments the register points to are templates whose own status is unmarked; the register asserts a completeness the corpus does not yet have. · Several entries point at pages with older names (*Circle Card Template*, *Quests*, *Proposals*) that the current cards have superseded.
+**Open:** Many instruments the register points to are templates whose own status is unmarked; the register asserts a completeness not yet reached. · Several entries point at pages with older names (*Circle Card Template*, *Quests*, *Proposals*) that the current cards have superseded.

@@ -20,5 +20,4 @@ The honest consequence: the instrument degrades when the practice lapses, and it
 **Stands on:** [[The Daily Way]] · [[Embodiment]] · [[Discipline]] · [[The Energetic Anatomy]]
 **Opens onto:** [[The Practice Cadence]] · [[Breath]] · [[Lapse Is Honored, Pretence Is Tragic]] · [[The Four Layers Of Shielding]] · [[Focused Attention As Discipline]] · [[Spontaneous Wise Right Action]] · [[The Standing]] · [[Wellness]]
 **In play:** the day — every day, at whatever depth this season allows
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.4 Cultivation` · `The Daily Way` (canon-grade — held here at its deepest tier) · lionsberg.wiki: The Sacred Warrior Guidebook
-**Open:** The chapter points to most of its practices by name and says the substance is transmitted in person rather than written; so the calibration is legible from the page and the practices largely are not. · Many of the named practices resolve to pages that do not exist in the canon.
+**Open:** The chapter points to most of its practices by name and says the substance is transmitted in person rather than written; so the calibration is legible from the page and the practices largely are not. · Many of the named practices resolve to pages that do not exist yet.

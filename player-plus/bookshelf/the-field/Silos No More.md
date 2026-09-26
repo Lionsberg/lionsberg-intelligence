@@ -20,5 +20,4 @@ The failure this guards against is old and well-documented: local optimization d
 **Stands on:** [[Integrated Delivery]] · [[Cross-Functional Integration]] · [[Knowledge as commons]]
 **Opens onto:** [[Design To The Goal]] · [[Polycentric Implementation of Shared Solutions]] · [[Shared Services, Infrastructure, and Support]] · [[The Meta Project]] · [[Communication Debt]] · [[One canonical home per concept]]
 **In play:** Home · beyond
-**Sources:** the Pattern Language inventory, convention patterns (ore; named in a list, body not written) · The LIØNSBERG Book of Conventions (canon-grade for its role) · The DNA of Heaven, Part VII · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** the name is listed among the convention patterns and has no page and no body anywhere; the reading above is inferred from the production pattern it belongs to, and should be checked against whatever the pattern's author intended.

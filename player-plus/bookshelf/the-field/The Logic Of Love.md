@@ -19,5 +19,4 @@ That is why this is called a law rather than a virtue. A virtue is a quality som
 **Stands on:** [[Love]] · [[ØNE]] · [[Right Relationship]]
 **Opens onto:** [[Justice]] · [[Values]] · [[Omniconsideration]] · [[Covenant Across Time]] · [[The Three Supreme Agreements]] · [[Reciprocity]]
 **In play:** At the table, when two good moves conflict; at the Room and beyond, as the standing argument for why sovereign bodies federate rather than compete.
-**Sources:** `Logic of Love` · `Love` (root, canon-grade) · `Values` (root — the universal-values argument this rests on) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24` · `Pass The Flame`, Ch. 3. lionsberg.wiki: **Logic of Love**.
 **Open:** The root page still points at `LIØNSBERG Manifesto` and `New Vision and Plan` as the place its values are set out; both are older framings that the Pattern Language and the Pillars have since superseded.

@@ -20,5 +20,4 @@ A Player+ keeps the log daily, in plain text they own, and treats it as the floo
 **Stands on:** [[Every Defect Is A Gift]] · [[Zero Blame Environment]] · [[Continuous Improvement]] · [[Agent engineering]]
 **Opens onto:** [[Look-back]] · [[Charter]] · [[Soak]] · [[Prune]] · [[Change log]] · [[House]]
 **In play:** beyond
-**Sources:** Player+ Modules, *The Agent Improvement Process*, *Agent Engineering* · The DNA of Heaven, Parts VII and VIII (the defect log, closed only when its fix sits where the work will meet it) · lionsberg.wiki: *Every Defect Is A Gift*, *Zero Blame Environment*, *Continuous Improvement*.
 **Open:** none found.

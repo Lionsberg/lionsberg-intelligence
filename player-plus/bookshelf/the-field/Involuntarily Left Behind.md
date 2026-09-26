@@ -20,5 +20,4 @@ It also sets the pace. A body that measures itself by how far its front has got 
 **Stands on:** [[None Of Us Until All Of Us]] · [[Dignity]] · [[Consent]]
 **Opens onto:** [[The Way Out]] · [[Liberation and Exodus]] · [[The Train of Civilization]] · [[Welcoming The Stranger]] · [[Screens and paper]] · [[The grandmother test]] · [[Protection Of Children]] · [[Mutual Aid]] · [[Equal Opportunity For All]]
 **In play:** beyond — the test every plan of the whole is held to
-**Sources:** `Archive/Archive — Ore Mined Before Deletion.md`, the mission mined in one line · `FROM the Old TO the New` (wiki) · lionsberg.wiki: The Caves
 **Open:** Exists as one mined sentence and is asserted nowhere else; nothing states who is responsible for noticing that someone has been left, or at what scale that noticing is even possible.

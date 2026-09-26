@@ -20,5 +20,4 @@ At a table it is one question, asked of each other and not only by a teacher: *w
 **Stands on:** [[Learning]] · [[Wise Eldership]] · [[Discernment]]
 **Opens onto:** [[Just in time]] · [[Lesson]] · [[Apprenticeship]] · [[Learning By Doing]] · [[Guide]] · [[Curriculum]] · [[Belt Progression]]
 **In play:** table · door · Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Education As Transformation (canon-grade list; named, no card — ore) · Player+ Modules *Lexicon* — *just in time*, *lesson* · *The DNA of Heaven*, Part VIII · lionsberg.wiki: The Zone Of Optimum Development
-**Open:** Ore — named in the Pattern Language with no card. The phrase is close kin to the developmental psychology idea of a zone of proximal development; the canon neither cites that lineage nor disclaims it.
+**Open:** Ore — named in the Pattern Language with no card. The phrase is close kin to the developmental psychology idea of a zone of proximal development; that lineage is neither cited nor disclaimed.

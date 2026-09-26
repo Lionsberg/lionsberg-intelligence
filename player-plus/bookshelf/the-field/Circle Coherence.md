@@ -22,5 +22,4 @@ It is named as the gathered Circle in the Playbook chart and in the Pattern Lang
 **Stands on:** [[Coherence]] · [[Circle]] · [[Weave Spirit, Hearts, and Minds]] · [[Trust]]
 **Opens onto:** [[The Turn]] · [[Check In]] · [[Consent-Based Decision-Making]] · [[Associative And Dissociative Energy]] · [[Dialogos]] · [[Sensing The Field]] · [[The Season Sheet]] · [[Higher Order Functional Unity]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Playbook* (§Operations, The Gathered Circle) · *THE DNA OF HEAVEN* Part V · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named under two names with no Card; nothing states how a Circle knows it has reached coherence, or what it does when it has not.

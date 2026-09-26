@@ -20,5 +20,4 @@ pillar: —
 **Stands on:** [[Circle]] · [[Cell]] · [[Circle Coherence]] · [[Why Three To Thirteen]]
 **Opens onto:** [[The Warrior Pair]] · [[The Dojo's Five Disciplines]] · [[Form a Cell]] · [[Midwife a New Circle]] · [[The Two-Coordinator Rhythm]] · [[Field of Agreements]] · [[The Practice Cadence]] · [[Supercell]]
 **In play:** the table — how a gathering becomes a body, and what it takes years to become
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.2 The Warrior Circle` · `Cell` (canon-grade) · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The five capacities are stated as what a mature body has and given no measure, so a body cannot tell where on the curve it is. · The canon distinguishes a [[Circle (as gathering)]] from a [[Cell]] that actually functions; this chapter uses *Circle* for both and does not mark the difference.

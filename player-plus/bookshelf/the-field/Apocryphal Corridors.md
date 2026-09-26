@@ -22,5 +22,4 @@ Its own source is the strongest argument for it and against its use there: the c
 **Stands on:** [[We Do Not Know]] · [[Provenance]] · [[The seven-part UnVeiling form]]
 **Opens onto:** [[Guardrails Encountered]] · [[Gaps Not Yet Closed]] · [[Patterns Pending Articulation]] · [[Limit Statement]] · [[Hypothesize]] · [[The Field (of the Book), and the law of no loss]] · [[Discernment]] · [[Navigating Towards Truth]]
 **In play:** the Workshop — where a lead goes when it is interesting and unsupported
-**Sources:** `LIØNSBERG Wiki Books/The 66 Most Protected and Distorted Narratives/The False Flags That Shaped the Modern World.md` §7 (outline-grade)
 **Open:** The contents of the register in its source are the book's least supported material and are not carried here. · Nothing states who keeps the wall, or what happens when something in the corridor is cited elsewhere as though established — which is the failure the register exists to prevent.

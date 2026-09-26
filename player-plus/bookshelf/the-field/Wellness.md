@@ -20,5 +20,4 @@ Wellness is not the wellness industry. It is not a product, not a status, not an
 **Stands on:** [[Healing]] · [[Vitality]] · [[Right Relationship]]
 **Opens onto:** [[Integration]] · [[Mental Health]] · [[Rest And Regeneration]] · [[Ecology]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table · *Wellbeing* (a short value statement) · *Pillar V — Sacred Health and Wellness*, Theses 4 and 12 · lionsberg.wiki: *Wellbeing*
 **Open:** The canon holds the concept under *Wellbeing* at the root and *Wellness* in the Lexicon; the two pages have not been cohered.

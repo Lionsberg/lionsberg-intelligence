@@ -18,5 +18,4 @@ How it is kept. Weekly on [[The Circle's Scorecard]], seasonally on the sheet, a
 **Stands on:** [[The Record]] · [[The Circle's Scorecard]] · [[Kept as a share of made]]
 **Opens onto:** [[The Board]] · [[The Season Sheet]] · [[The Offering]] · [[TimeEnergy]] · [[Value]] · [[The Pledge]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §12 · *The Circle's Scorecard*, season totals (current best understanding) · *The Pledge* (root page) · lionsberg.wiki: **The Gameboard**, **The Circle's Scorecard**
 **Open:** The Operating System's list (kept, flames, stories, value, TEA) and the Scorecard's totals (commitments, flames, stories, Offering, people) are not the same five; *value* and *Offering* are not reconciled anywhere. · Who may see a Cell's Score outside its home is not stated.

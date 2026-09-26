@@ -20,5 +20,4 @@ For a player the Pillar arrives as a question, not a doctrine: *what do you actu
 **Stands on:** [[ØNE]] · [[The Goal]] · [[Source]] · [[Logos]]
 **Opens onto:** [[Metaphysics]] · [[Ontology]] · [[Theology]] · [[Philosophy]] · [[The Creative Cascade]] · [[The Great Story]]
 **In play:** Met at the table when a Cell asks what its Quest is finally for, and again at the Gate, where a player's own account of Reality is invited rather than examined.
-**Sources:** *Pillar I — Sacred Ontology and Metaphysics* (the Pillars book; no status line, mature) · *The 12 Pillars of LIØNSBERG* (the hub) · *The LIØNSBERG Lexicon*, Pillar I section · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: *Pillar I — Sacred Ontology and Metaphysics*.
 **Open:** The Lexicon and the Pillars book give slightly different one-line headings for this Pillar ("ReAligning Humanity" vs "ReAligning All"); the book's wording is used here.

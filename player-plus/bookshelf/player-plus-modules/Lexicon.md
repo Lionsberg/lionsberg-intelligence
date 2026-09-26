@@ -226,7 +226,7 @@ library-status: current best understanding, loosely held · improved each week
 
 ## P
 
-**Pass the Flame** — The fifth of the Five Moves: share the invitation with the two or three you know are ready, so that new groups begin. It is not optional. *Also:* Pass The Flame, passing the flame. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Pass The Flame.
+**Pass the Flame** — The fifth of the Five Moves: share the invitation with your three — people not already playing, whom you know are ready — within three days, so that new groups begin. It is not optional. *Also:* Pass The Flame, passing the flame. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Pass The Flame.
 
 **PKAI** — The group whose people build personal AI assistants that live in ordinary files their owner keeps, and who host the Dyad Jams. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
 

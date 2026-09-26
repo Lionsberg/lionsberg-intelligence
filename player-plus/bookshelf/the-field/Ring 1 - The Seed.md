@@ -20,5 +20,4 @@ In the Game a Cell meets this ring not as reading but as diagnosis. When somethi
 **Stands on:** [[Ring 0 - ØNE]] · [[The Core Pattern]] · [[Twelve Irreducible Elements]]
 **Opens onto:** [[Ring 2 - The Pattern Unfolded]] · [[The Pattern of Cooperation]] · [[The Pattern of Production]] · [[The Golden Seed]] · [[The Seed In One Sentence]]
 **In play:** door
-**Sources:** *LIØNSBERG 101*, §Ring 1 · *Twelve Irreducible Elements* · *The Core Pattern* — lionsberg.wiki · the seed text *The DNA of Heaven*, Part IV.
 **Open:** The 144 Gates describe the twelve as *eight of Cooperation and four of Production*, which matches; the seed text and the Core Pattern agree on the twelve names.

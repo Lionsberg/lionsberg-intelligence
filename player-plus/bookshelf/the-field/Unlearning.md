@@ -20,5 +20,4 @@ What makes it survivable is that the ground is not empty while the floor is lift
 **Stands on:** [[We Do Not Know]] · [[Truth]] · [[Discernment]] · [[Current Best Understanding]]
 **Opens onto:** [[Learning]] · [[The Caves]] · [[The Wilderness]] · [[Trauma]] · [[Shoshin]] · [[Zero Blame Environment]]
 **In play:** Gate · table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IV — *Unlearning* (canon-grade; one line) · *Pillar IV — Sacred Learning and Mastery*, Overview and narrative (canon-grade — education as conditioning in the old order) · *We Do Not Know* (Cards) · *The LIØNSBERG Pattern Language — Synthesized*, Education As Transformation (canon-grade list) · *The 144 Gates of Initiation*, Movements 2 and 5 · lionsberg.wiki: Unlearning
 **Open:** none found.

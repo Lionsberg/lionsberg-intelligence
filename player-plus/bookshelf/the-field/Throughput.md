@@ -19,5 +19,4 @@ In play, throughput is why Quests are asked to stack up and align rather than me
 **Stands on:** [[The Goal]] · [[Value]] · [[Integrated Delivery]]
 **Opens onto:** [[Value]] · [[Waste]] · [[Critical Path]] · [[Theory Of Constraints]] · [[Design To The Goal]] · [[Stacking Up And Aligning]] · [[Kept as a share of made]]
 **In play:** At the table, in whether the Quest moved anything; at Home and Room, in how many Cells' work is compared without ranking the Cells; beyond, as the measure of the whole.
-**Sources:** `Throughput` · `Throughput Of The Goal` · `Throughput of The Goal` (Card) · `Value` (root — Value as throughput) · `The LIØNSBERG Lexicon`, Pillar III. lionsberg.wiki: **Throughput Of The Goal**.
 **Open:** Three pages carry the idea — `Throughput`, `Throughput Of The Goal`, and a Card of nearly the same name — with no stated precedence; the term is also borrowed from Lean and Theory of Constraints without the borrowing being marked on the root page.

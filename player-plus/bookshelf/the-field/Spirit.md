@@ -19,5 +19,4 @@ The Spirit that has to be present is named plainly: love for ØNE, one another, 
 **Stands on:** [[ØNE]] · [[Love]] · [[Source]]
 **Opens onto:** [[Spirit Precedes Pattern]] · [[Pattern]] · [[Weave Spirit, Hearts, and Minds]] · [[Coherence]] · [[Attunement]] · [[Resonance]] · [[Discernment]]
 **In play:** At the door, as the thing a newcomer feels before they understand anything; at the table, as the move before the plan; at every rung beyond, as the first thing to check when a body is technically correct and quietly dying.
-**Sources:** `Spirit` · `Spirit Precedes Pattern` · `Ring 0 - ØNE` (LIØNSBERG 101) · `The LIØNSBERG Lexicon`, Pillar I · `Twelve Irreducible Elements`. lionsberg.wiki: **Spirit**.
 **Open:** The root page is a stub pointing to `Central Animating Spirit`; the live articulation is in the Card and in Ring 0, and the two use "Spirit" at different altitudes (the animating quality of any system, and the Spirit of ØNE) without saying so.

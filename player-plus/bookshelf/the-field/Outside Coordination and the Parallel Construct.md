@@ -24,5 +24,4 @@ The source's account comes from a 2023 dialogue with an AI assistant; its reason
 **Stands on:** [[The Existing Order]] · [[Self Organizing]] · [[Circle]]
 **Opens onto:** [[Islands of Coherence]] · [[The Ark and the Bridge]] · [[Demonstrate before advocating]] · [[Pre-Collapse Proaction vs Post-Collapse Reaction]] · [[New Wine Requires New Wineskins]] · [[Anti-Fragility]] · [[Hospicing the Old Systems]] · [[The Noah Plan]]
 **In play:** beyond — why a Cell forms at all, rather than joining something
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance…/6.1 Why Outside Coordination is Necessary.md` (a 2023 AI dialogue)
 **Open:** Says nothing about the cases where working inside an institution is the wiser move, and those exist. · A parallel construct is also how a movement isolates itself; nothing in the source addresses the difference.

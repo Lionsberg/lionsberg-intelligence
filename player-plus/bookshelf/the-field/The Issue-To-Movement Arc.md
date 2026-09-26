@@ -26,5 +26,4 @@ It is also only half of catalysis: this is what a movement is *about* and how it
 **Stands on:** [[Issue]] · [[The Movement]] · [[Forward-Looking Story]]
 **Opens onto:** [[Tipping Point Strategy]] · [[The First Three Percent]] · [[Pass The Flame]] · [[Demonstrate before advocating]] · [[Federation]] · [[The Whisper Campaign]] · [[Naming]] · [[Meta Opportunity]]
 **In play:** the table — run once a season, to find which phase the work is actually in
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Issue-To-Movement Arc.md`
 **Open:** The Card places this corpus's own work in the final phase; that is a self-assessment, not a measurement. · Nothing says how to tell a stall from a phase that is simply taking its time.

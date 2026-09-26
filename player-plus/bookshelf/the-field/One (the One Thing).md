@@ -22,5 +22,4 @@ The chapter itself is four lines: the counsel, and then two phrases carried from
 **Stands on:** [[ØNE]] · [[Truth]] · [[Meaning]]
 **Opens onto:** [[A Few]] · [[Structure of Value]] · [[Rule Number One]] · [[The ØNE That Unites The Many, By Definition]] · [[Ultimate Unity]] · [[Union]] · [[The Goal]] · [[Coherence]] · [[One of the Ones of the ØNE]]
 **In play:** the Gate — and again at every point where two highest things are quietly being served
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/1. One.md` · the same book's chapters 8 and 11, where the argument from coherence is made at length · lionsberg.wiki: The Wisdom of the Way
 **Open:** The chapter is four lines and carries the claim as assertion; the argument for it is made two chapters later and is not cross-linked from here. · The book's own index page is titled *Untitled* and carries a single line, so the chapter is reached by filename rather than by any written order.

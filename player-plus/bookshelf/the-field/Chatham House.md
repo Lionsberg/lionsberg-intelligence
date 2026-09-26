@@ -20,5 +20,4 @@ Chatham House is one face of the membrane that lets truth and warmth flow in whi
 **Stands on:** [[Knowledge as commons]] · [[Consent]] · [[Selectively Permeable Membrane]] · [[Terms]]
 **Opens onto:** [[Elision]] · [[Attribution]] · [[Provenance]] · [[Closing question]] · [[The six lines]] · [[Venue card]] · [[Field of Agreements]]
 **In play:** Room
-**Sources:** Chatham House Rule · The DNA of Heaven, Part VIII · the Player+ Modules' room terms — *Entering the Field*, *Safe Sparring*, *Jam Conventions* · lionsberg.wiki: *Chatham House Rule*
 **Open:** whether a house's name counts as a source is not settled: current practice names houses and traditions freely, and persons only by their own yes.

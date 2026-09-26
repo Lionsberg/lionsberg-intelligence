@@ -20,5 +20,4 @@ A Cell meets this immediately and physically. Where you sit changes what you say
 **Stands on:** [[Logos]] · [[Design]] · [[Beauty]] · [[Pattern]]
 **Opens onto:** [[Sacred spaces]] · [[Infrastructure]] · [[Sacred Geometry]] · [[Human-Scaling]] · [[Threshold]] · [[Stewarded Form]]
 **In play:** the Home · the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table · *Pillar IX — Sacred Architecture and Design*, theses 1–5 and the narrative (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Sacred Architecture gap (ore). lionsberg.wiki: Architecture.
-**Open:** The Pattern Language lists the seven-or-more pattern cards of sacred place among its unwritten gaps; the Pillar page carries vision and no craft. The systems sense of *architecture*, used throughout the corpus, is not defined anywhere as such.
+**Open:** The Pattern Language lists the seven-or-more pattern cards of sacred place among its unwritten gaps; the Pillar page carries vision and no craft. The systems sense of *architecture* is not defined anywhere as such.

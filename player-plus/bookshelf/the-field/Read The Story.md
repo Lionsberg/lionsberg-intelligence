@@ -16,11 +16,10 @@ It is *read* rather than agreed to. Nobody is asked to believe it or to sign any
 
 And it does not finish. The Story is returned to — differently at each stage of the Path, differently once a person has played a season and has something of their own in it. Which is how the third move follows from the first: what is passed on is not the rules but the Story, told by someone it happened to ([[Pass The Flame]] · [[Share the Stories]] · [[Your Story Woven Into Meta Story]] · [[Testimony]]).
 
-Its two siblings both carry pages of their own; this is the one that did not, which is why the entry ramp reads as two moves in most of the corpus ([[Play]] · [[Enter The Game]] · [[The Great Game]]).
+Its two siblings both carry pages of their own; this is the one that did not, which is why the entry ramp reads as two moves in most tellings ([[Play]] · [[Enter The Game]] · [[The Great Game]]).
 
 **Also called:** read the Story
 **Stands on:** [[Story]] · [[The Story of LIØNSBERG]] · [[The Invitation]]
 **Opens onto:** [[Play]] · [[Pass The Flame]] · [[Enter The Game]] · [[The door]] · [[Our Story]] · [[The Great Story]] · [[Storytelling]] · [[Welcome a Newcomer]] · [[The Sovereign Path]]
 **In play:** the door — the first move, before anything is joined
-**Sources:** `Read The Story` (root page, stub — one sentence naming it as the shared narrative universe the Game unfolds in) · `The Story of LIØNSBERG` (root page) · `Pass The Flame` (root page) · lionsberg.wiki: Read The Story
-**Open:** Three inbound links for one of the three named entry moves, while its two siblings are carried throughout the corpus; the ramp is lopsided in the canon as it stands. · Nothing says which telling of the Story a newcomer should be given, and the corpus holds several of very different lengths.
+**Open:** Three inbound links for one of the three named entry moves, while its two siblings are carried throughout; the ramp is lopsided as it stands. · Nothing says which telling of the Story a newcomer should be given, and several of very different lengths exist.

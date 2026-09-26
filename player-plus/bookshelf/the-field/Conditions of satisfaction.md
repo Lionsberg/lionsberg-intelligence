@@ -18,5 +18,4 @@ They nest. A task's conditions belong to the Quest or [[Milestone]] it serves, a
 **Stands on:** [[Commitment]] · [[Feature · Deliverable · Task]]
 **Opens onto:** [[Quality]] · [[The gap]] · [[Kept as a share of made]] · [[Cross-Functional Integration]]
 **In play:** table · Home · beyond
-**Sources:** *Conditions of Satisfaction* (the fullest treatment) · *The LIØNSBERG Operating System* §13 · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Conditions of Satisfaction**
 **Open:** Distinct from the cosmological *Conditions* of the Creative Field, and from a governance design's own criteria, which are an application rather than the term.

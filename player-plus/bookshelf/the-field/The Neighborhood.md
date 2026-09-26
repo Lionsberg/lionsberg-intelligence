@@ -20,5 +20,4 @@ Hold it apart from the Cell. A Cell is purposive and may span a city; a Neighbor
 **Stands on:** [[Cell]] · [[Levels Of Scale]] · [[Kinship]] · [[Mutual Aid]]
 **Opens onto:** [[The Village]] · [[Community]] · [[The Microlocality]] · [[Guard the Membrane]] · [[Islands of coherence to network]]
 **In play:** beyond the table
-**Sources:** `Neighborhood`, a Card of LIØNSBERG, Earth, and the Cosmos · `Levels of Scale` (canon-grade) · The Sovereign Path, Holofractal Scaling · The DNA of Heaven, Part IV · lionsberg.wiki: Neighborhood
 **Open:** none found.

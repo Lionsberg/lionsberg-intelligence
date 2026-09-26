@@ -20,5 +20,4 @@ The tension it holds is real rather than rhetorical. The Sovereign did do the wo
 **Stands on:** [[Conduit]] · [[ØNE]] · [[Aligned Will]] · [[Right Relationship]]
 **Opens onto:** [[Spontaneous Wise Right Action]] · [[The Dark Initiate Failure Mode]] · [[Lineage]] · [[The Golden Calf]] · [[Gratitude]] · [[Rest And Regeneration]]
 **In play:** Gate
-**Sources:** *The Act Of Release* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: The Act Of Release
 **Open:** none found

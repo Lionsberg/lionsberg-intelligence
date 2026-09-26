@@ -6,7 +6,7 @@ pillar: X
 ---
 # Self Defense
 
-*Before reading: this page holds a doctrine of last resort, written down so that it can be examined and corrected, not so that it can be acted on. Nothing here is advice, a licence, or a call to act; the law of the place you live governs you; the Game asks nothing of anyone but consent. Read [[05 The Pattern and the Way|The Pattern and the Way]] first.*
+*Before reading: this page holds a doctrine of last resort, written down so that it can be examined and corrected, not so that it can be acted on. Nothing here is advice, a licence, or a call to act; the law of the place you live governs you; the Game asks nothing of anyone but consent. Read [[04 The Pattern and the Way|The Pattern and the Way]] first.*
 
 *The permitted ground of force — standing against harm to oneself or to those one stands with.*
 
@@ -16,11 +16,10 @@ Three limits come with the permission. It is **bounded by sufficiency** — the 
 
 Self defence is also not only physical. A sovereign defends against capture of their attention, their record, their name, and their word — and most of that defence is a [[Boundary]] stated plainly rather than anything dramatic. The Old World's most effective harms are rarely the ones that arrive as violence.
 
-The hardest case is the one the canon names and does not write: preemption of imminent harm, where waiting for the harm to begin is itself a failure of protection. That is where the discipline is genuinely difficult, where the honest answer is that a trained community with witnesses decides better than a frightened individual alone, and where nothing in the corpus currently offers more than that.
+The hardest case is preemption of imminent harm, where waiting for the harm to begin is itself a failure of protection. That is where the discipline is genuinely difficult, where the honest answer is that a trained community with witnesses decides better than a frightened individual alone, and where nothing offers more than that, for now.
 
 **Also called:** defence of self and others
 **Stands on:** [[The Sacred Use Of Force]] · [[Guardianship]] · [[Sovereignty]] · [[Boundary]]
 **Opens onto:** [[Restraint As The Refusal To Act]] · [[Composure Under Threat]] · [[Warrior]] · [[Shield]] · [[The Sacred War]] · [[Containment Of The Dangerous Sovereign]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, The War section · *Pillar X — Sacred Guardianship and Order*, theses 4, 7, 8 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · the seed's Part X. lionsberg.wiki: Self Defense.
 **Open:** The concept list cites a root page *Self Defense*; no file of that name exists in the wiki — the nearest holdings are the Lexicon's War section and the Warrior domain's force patterns, which is what is cited here instead. *Protective Preemption Of Imminent Harm* is named in that domain with no card.

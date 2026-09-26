@@ -18,5 +18,4 @@ Two neighbours are often confused with it. A bottleneck is the resource whose ca
 **Stands on:** [[The look-ahead]] · [[The activity table]]
 **Opens onto:** [[Make-Ready Process]] · [[Commitment]] · [[SHOULD-CAN-WILL-DID]] · [[Theory Of Constraints]] · [[Issue]]
 **In play:** table · Home
-**Sources:** *Constraint* (the fullest treatment) · *The LIØNSBERG Operating System* §7, Card 4 · *The LIØNSBERG Pattern Language — Synthesized* (Element 11) · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Constraint**
 **Open:** Two live senses of the one word — the make-ready sense kept here, and the Theory of Constraints sense, which the drafts hand to *bottleneck*.

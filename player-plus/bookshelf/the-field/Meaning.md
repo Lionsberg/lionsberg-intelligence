@@ -20,5 +20,4 @@ A body can therefore build for it. Opportunities for real relationship, real gro
 **Stands on:** [[Values]] · [[Purpose]] · [[The Zone Of Optimum Development]]
 **Opens onto:** [[Meaningful Work]] · [[Story]] · [[Mythos]] · [[Belonging]] · [[Quest]] · [[A Day Well Lived]] · [[Wellness]] · [[Mental Health]] · [[Pillar VII — Sacred Culture, Art, and Story]]
 **In play:** the daily practice, and the seasonal look-back — when a Player asks whether the season they just spent was spent on what they say they care about
-**Sources:** `Meaning` (root page, stub — one sentence, giving the values-alignment-and-zone definition this page opens out) · `Zone Of Optimum Development` (root page) · lionsberg.wiki: Meaning
 **Open:** The root page is a single values-sheet sentence; everything beyond that definition here is synthesis from the surrounding canon and from general understanding, and it is thin. · The canon uses *meaning* in a second sense — the semantic content of a word or page — which is a different concept and lives with [[Language]] and [[Semantic Capture]].

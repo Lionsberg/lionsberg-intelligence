@@ -20,5 +20,4 @@ In the Game the lineages are what a Cell reaches for when its own experiment fee
 **Stands on:** [[The Core Pattern]] · [[Twelve Irreducible Elements]] · [[The Emergence of the Core Pattern]] · [[Education As Transformation]]
 **Opens onto:** [[Ring 3 - The Living Proof]] · [[FSx]] · [[Capital Subordinate To Purpose]] · [[Self-Sustenance and Self-Replication]] · [[Instantiation]] · [[Provenance]]
 **In play:** door · beyond
-**Sources:** *The Core Pattern* (canon-grade; the eight lineages are its own list) · *Mondragon* · *Mondragon — Proof That It Is Possible* · *Before and Beyond Mondragon* · *LIØNSBERG 101*, §Ring 3 — lionsberg.wiki · the seed text *The DNA of Heaven*, Part IV and Part XIII.
 **Open:** The Core Pattern's list names AA and the Benedictines where the field's row names Quakers; the two lists overlap and are not identical, and neither states which is authoritative.

@@ -22,5 +22,4 @@ And it is shared. We are tied up in one cloak of destiny: if I am rising you are
 **Stands on:** [[Becoming]] · [[The Goal]] · [[Destiny]] · [[InterExistence]]
 **Opens onto:** [[Patterns of Death]] · [[The Pattern That Works]] · [[The Anti-Patterns]] · [[Drift]] · [[Collapse]] · [[Regeneration]] · [[None Of Us Until All Of Us]] · [[The compass question]] · [[Heaven On Earth]] · [[Hell On Earth]]
 **In play:** every move — it is what the compass question is measuring; and the look-back, where direction rather than position is assessed
-**Sources:** `Spiraling Up`, `Spiraling Down` (root pages; both are a single link to the chapter, with no body at either name) · `The Book of LIØNSBERG` 3.13, *Spiraling Up or Down* · lionsberg.wiki: Spiraling Up
-**Open:** The concept lives in one chapter and has no page of its own in the canon, despite being one of the most-linked ideas in it. · The chapter names four families — Patterns of Life, Death, Success, Failure — and an Anti-Goal, none of which is written anywhere.
+**Open:** The concept lives in one chapter and has no page of its own, despite being one of the most-linked ideas in it. · The chapter names four families — Patterns of Life, Death, Success, Failure — and an Anti-Goal, none of which is written anywhere.

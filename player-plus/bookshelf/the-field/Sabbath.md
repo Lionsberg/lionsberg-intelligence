@@ -20,5 +20,4 @@ The larger cousin of sabbath is [[Jubilee]]: the periodic reset at the scale of 
 **Stands on:** [[Rest And Regeneration]] · [[Rhythm]] · [[Time]] · [[Silence And Stillness As The Ground]]
 **Opens onto:** [[Jubilee]] · [[The Daily Way]] · [[Season]] · [[Celebration]] · [[Stop]] · [[Whistleblower Protection]] · [[Healing]]
 **In play:** table · Home
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XII term *Sabbath* (canon-grade) · `Pillar XII — Sacred Time, Rhythm, and Celebration`, Theses 5 and 11 (canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, §Specific Sacred Practices — *Rest And Regeneration · Jubilee · Tithing · Fasting · Vigil* (partial gap) and §Structural Immunity (the andon cord) · lionsberg.wiki: no page stands at this name
 **Open:** No page named *Sabbath* exists; the term lives in the Lexicon table and the Pillar's theses. · Nothing states which day, how long, or whether a body keeps sabbath together or severally — deliberately, perhaps, but not said.

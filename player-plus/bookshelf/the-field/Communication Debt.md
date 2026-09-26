@@ -18,5 +18,4 @@ It is also why the record is written for readers who are not present. A line any
 **Stands on:** [[The Record]] · [[The Heartbeat]]
 **Opens onto:** [[Bottom Line Up Front]] · [[Project Management]] · [[Issue]] · [[Sensemaking]]
 **In play:** table · Home · Room
-**Sources:** *Communication* (wiki root page, thin; a definition of outreach tools rather than of the debt) · *The LIØNSBERG Lexicon* §Tribe of Tribes, which names Communication Debt · *The LIØNSBERG Operating System* §12 and §15 — lionsberg.wiki page name: **Communication**
 **Open:** No page carries *Communication Debt*; it exists as a Lexicon entry only, and the articulation above is a synthesis.

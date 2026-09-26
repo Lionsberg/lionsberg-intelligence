@@ -22,5 +22,4 @@ The Seat for the Whole is the one most easily mistaken for control. It carries n
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Field of Agreements]] · [[Omniconsideration]] · [[Dignity]]
 **Opens onto:** [[Living Systems Member]] · [[Covenant Across Time]] · [[The reciprocal stake and voice in the Whole]] · [[Consent-Based Decision-Making]] · [[Charter]] · [[Wisdom Council]] · [[Generational Time]] · [[Community Company]] · [[Stewardship]]
 **In play:** the table, whenever the decision is weighty
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/Seats at the Table.md` · `…/Toolkit/The Rhythm of Gatherings.md` · `…/Community Company Charter — Template`, Section 4
 **Open:** No page says how a seat-holder is chosen, how long they hold it, or what happens when the human holding the Living Systems seat and the human holding the Future Generations seat disagree. · Whether the holder may block a proposal on the seat's behalf, or only speak to it, is unstated.

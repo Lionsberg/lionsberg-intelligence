@@ -18,5 +18,4 @@ The pattern is old and tested. *Organize a group to do something, elect two coor
 **Stands on:** [[Roles]] · [[Servant Leadership]] · [[Term Limits And Rotation]] · [[Cell]]
 **Opens onto:** [[Host]] · [[Keeper]] · [[Scribe]] · [[The Turn]] · [[Seal the Circle]] · [[Structural Immunity]]
 **In play:** the table
-**Sources:** The LIØNSBERG Operating System §3 · `Choose Your Roles` · The LIØNSBERG Playbook, Play — Govern Your Circle · `Circle` (canon-grade, the Arizmendi line) · The DNA of Heaven, Part V · lionsberg.wiki: Choose Your Roles
 **Open:** The canon says *coordinators*, the Little Book and the Operating System say *hosts*; both are in live use for the same pair.

@@ -20,5 +20,4 @@ Its violation has a characteristic taste: a person becoming a means. When a body
 **Stands on:** [[ØNE]] · [[One of the Ones of the ØNE]] · [[Sovereignty Of Consciousness]] · [[Love]]
 **Opens onto:** [[Consent]] · [[Participation]] · [[Equal Opportunity For All]] · [[Belonging]] · [[Protection Of Children]] · [[Navigating Difference]] · [[Elision]]
 **In play:** door · table · Room
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XI term *Dignity* (canon-grade) · `Dignity` (root page) · `Pillar XI — Sacred Society and Justice`, Thesis 6 (canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, the Constitutional Recognitions (canon-grade) · `Seats at the Table` (Toolkit, written): the foundational rule · lionsberg.wiki: Dignity
 **Open:** Dignity is stated for conscious beings; whether and how it extends to living systems, to the unborn, and to artificial agents is handled by the seats at the table rather than by any statement about worth, and the two treatments have not been joined.

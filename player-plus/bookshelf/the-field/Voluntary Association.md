@@ -20,5 +20,4 @@ Light-touch governance is a discipline, not an absence. The lightest workable st
 **Stands on:** [[Consent]] · [[Agreement]] · [[Withdrawal Of Consent]] · [[Field of Agreements]] · [[Sovereignty]]
 **Opens onto:** [[Cell]] · [[Guild]] · [[Support Group]] · [[Private Ecclesiastical Voluntary Membership Association]] · [[FSx]] · [[Selectively Permeable Membrane]]
 **In play:** door · table
-**Sources:** `Voluntary Association` (root page) and `Voluntary Association` (Card in *LIØNSBERG, Earth, and the Cosmos*) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, §Scales · `The LIØNSBERG Playbook`, §Foundation · `The LIØNSBERG Community Guidebook`, the ladder of legal tiers beginning at Tier 0 · lionsberg.wiki: Voluntary Association
 **Open:** Two pages stand at this name — a root page and a Card — and they have not been reconciled. · The relation between a voluntary association and the Private Ecclesiastical Voluntary Membership Association, which shares much of the name, is nowhere stated.

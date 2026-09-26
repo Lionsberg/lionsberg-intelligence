@@ -20,5 +20,4 @@ The two kinds are named; the naming is not settled, and the field carries it as 
 **Stands on:** [[Player]] · [[Agent]] · [[Accountability]] · [[Consciousness]]
 **Opens onto:** [[Principal]] · [[Authorized]] · [[Stop]] · [[Sign]] · [[Wise Right Speech]]
 **In play:** beyond
-**Sources:** The DNA of Heaven, Parts VII, VIII and X · Player+ Modules, *Lexicon* (the entry for *agent*) · lionsberg.wiki: *Conscious Agent*, *Sovereign Agent*.
-**Open:** the names for the two kinds of Actor are held loosely; no canon page yet carries *Actor* in this sense.
+**Open:** the names for the two kinds of Actor are held loosely; no page yet carries *Actor* in this sense.

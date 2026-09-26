@@ -20,5 +20,4 @@ Trust is also why the door works. Full strength is safe in a room because the te
 **Stands on:** [[Integrity]] · [[Commitment]] · [[Truth]] · [[Transparency]] · [[A word given is a word kept]]
 **Opens onto:** [[Kept as a share of made]] · [[The Turn]] · [[Zero Blame Environment]] · [[Consent]] · [[Belonging]] · [[The Flame]] · [[Reconciliation]]
 **In play:** table · door · Room
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XI term *Trust* (canon-grade) · `Trust` (root page) and `Trust — refinement proposal` (the term pages, a proposal) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, §Cardinal Values · `Zero Blame Environment` (root page) · lionsberg.wiki: Trust
 **Open:** A refinement proposal for the `Trust` term page stands unmerged beside the root page; the two have not been reconciled. · The link between trust and the reliability number is drawn here from the Operating System's practice; no page states it as a definition.

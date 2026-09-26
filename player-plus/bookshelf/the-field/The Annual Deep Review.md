@@ -22,5 +22,4 @@ The year is also where a body can see the things only a year shows: who walked t
 **Stands on:** [[The Beacon]] · [[Charter]] · [[Consent]] · [[Rhythm]] · [[Retrospective]]
 **Opens onto:** [[OmniSpection]] · [[The Monthly Synthesis]] · [[Season]] · [[The LIØNSBERG Calendar]] · [[Generational Time]] · [[Jubilee]] · [[Celebration]] · [[Field of Agreements]] · [[Do Not Concretize the Absolute]] · [[The Three-Year Formation]]
 **In play:** the table, once a year
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/The Rhythm of Gatherings.md` · `…/Step 1 — Forming a Steering Committee.md`, §A Founding Rhythm
 **Open:** No page gives the review a shape or a length, and none says whether it sits at a solstice, an equinox, or the body's own founding date. · Whether ratification needs the same standard of consent as any other decision, or a higher one, is unstated.

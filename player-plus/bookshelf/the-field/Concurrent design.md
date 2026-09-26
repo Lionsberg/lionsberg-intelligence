@@ -18,5 +18,4 @@ Set-based practice belongs with it: carry several viable options further than fe
 **Stands on:** [[Cross-Functional Integration]] · [[Integrated Project Delivery]] · [[Design To The Goal]]
 **Opens onto:** [[Quality]] · [[Pull planning]] · [[Plans and Specifications]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized* (Element 9, where concurrent design is named) · *The Economic Case For IPD* — lionsberg.wiki page name: **Integrated Delivery**
 **Open:** Named without a page of its own; the fullest description is a paragraph inside the IPD case.

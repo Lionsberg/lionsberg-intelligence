@@ -19,5 +19,4 @@ And it hands the reader their own authority at the outset rather than at the end
 **Stands on:** [[ØNE]] · [[Spirit]] · [[Spirit Precedes Pattern]]
 **Opens onto:** [[The Rings]] · [[Ring 1 - The Seed]] · [[Twelve Irreducible Elements]] · [[The Emergence of the Core Pattern]] · [[Love]] · [[The Three Supreme Agreements]]
 **In play:** At the door, as the first page of the shortest introduction; beyond, as the centre a reader is told to return to whenever they lose the way.
-**Sources:** `Ring 0 - ØNE` (LIØNSBERG 101 — the opening ring) · `LIØNSBERG 101` (the ring structure) · `Spirit Precedes Pattern` · `ØNE` · `The Core Pattern`. lionsberg.wiki: **Ring 0 - ØNE**.
 **Open:** The rings are numbered 0 through 5 in LIØNSBERG 101, while the Path, the Volumes, and the Pillars each carry their own numbering of the same material; a reader meeting two of these at once has no page telling them how the numberings relate.

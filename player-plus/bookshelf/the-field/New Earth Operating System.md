@@ -20,5 +20,4 @@ The scale of the name should not obscure how it is adopted. Nobody installs a ci
 **Stands on:** [[The Core Pattern]] · [[Twelve Irreducible Elements]] · [[System of Systems]] · [[The Goal]]
 **Opens onto:** [[The LIØNSBERG Operating System]] · [[Field of Agreements]] · [[Minimum standards of interoperability]] · [[The first season]] · [[The Promised Land]]
 **In play:** beyond the table
-**Sources:** *New Earth Operating System* (root page — a one-line redirect to *New Operating System*) · *The LIØNSBERG Operating System v0* · *The LIØNSBERG Operating System - Overview* · the seed's Part VII and Part XI. lionsberg.wiki: New Earth Operating System.
 **Open:** The root page named here contains nothing but a pointer elsewhere; the substance is carried by the Operating System book and its overview. Whether *New Earth Operating System* and *The LIØNSBERG Operating System* are one name for one thing is not settled in the sources.

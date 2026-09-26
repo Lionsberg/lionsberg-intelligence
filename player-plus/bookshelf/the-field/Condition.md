@@ -22,5 +22,4 @@ Readiness belongs to standing, not to being human: a person, a Cell, an agent, o
 **Stands on:** [[Actor]] · [[Load]] · [[Sovereignty]]
 **Opens onto:** [[Position]] · [[Requests and offers]] · [[The Board]] · [[The Heartbeat]] · [[Rest And Regeneration]] · [[Capacity]] · [[LIØNSBERG Mission Control]]
 **In play:** the table — one word each, at the gathering
-**Sources:** `Projects/the term pages/Condition.md` (the vocabulary is marked a proposal) · `LIØNSBERG Mission Control.md` (wiki root) · `Projects/the term pages/Position.md`, `Load.md` (drafts) · lionsberg.wiki: LIØNSBERG Mission Control
-**Open:** The canon holds a larger, older *Conditions* — circumstance, the state a Quest is born into — and this small vocabulary must never be read onto it. · *Conditions of satisfaction* shares the word and describes the work, not the worker.
+**Open:** The canon holds a larger, older *Conditions* — circumstance, the state a Quest is born into — and this small vocabulary must never be read onto it.*Conditions of satisfaction* shares the word and describes the work, not the worker.

@@ -20,5 +20,4 @@ In play the Game builds it in without ceremony: **two of you host each season, a
 **Stands on:** [[Structural Immunity]] · [[Servant Leadership]] · [[Roles]] · [[Accountability]]
 **Opens onto:** [[The Two-Coordinator Rhythm]] · [[Impeachment]] · [[Centralization Of Power]] · [[Delegation]] · [[Wise Eldership]] · [[Education As Transformation]]
 **In play:** table — at each season's turning, when roles are chosen again
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Structural Immunity (named) · *The LIØNSBERG Playbook*, Play — Choose Your Roles (invokes Rotation and Roles As Service) · *Structural Immunity* (root page; Mondragon's no-campaigning and biennial trust renewal) · *THE DNA OF HEAVEN* Part IV (*a role held forever quietly becomes a throne*) · lionsberg.wiki: Structural Immunity
-**Open:** Named as a Pattern with no card. No canon page states an actual term length, or what happens to a role nobody else can yet carry.
+**Open:** Named as a Pattern with no card. No page states an actual term length, or what happens to a role nobody else can yet carry.

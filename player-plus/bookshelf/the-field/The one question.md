@@ -18,5 +18,4 @@ How it is played. Ask it before, not after. Ask it of the specific move, not of 
 **Stands on:** [[The Goal]] · [[Heaven On Earth]] · [[Hell On Earth]] · [[The Lens]]
 **Opens onto:** [[Choose a Quest]] · [[How we win]] · [[The Playcard]] · [[Critical Path]] · [[Discernment]] · [[Wisdom]]
 **In play:** door · table · Gate · Home · Room · beyond
-**Sources:** *The Game at the Table*, §The One Question (current best understanding) · *The Playcard*, front (current best understanding) · the Player+ Modules lexicon · The DNA of Heaven, Part I, "The one question" · lionsberg.wiki: **The Game at the Table**
-**Open:** The second question — *is this the highest thing we could do right now* — stands as an editorial note in the canon chapter and as settled text in the seed; it is carried here as the seed states it, and it has no page of its own.
+**Open:** Whether the second question — *is this the highest thing we could do right now* — is fully settled or still a note beside the compass question is unresolved; it is carried here as stated, and it has no page of its own.

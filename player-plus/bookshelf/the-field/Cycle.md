@@ -20,5 +20,4 @@ The cycles that a life turns on — the passages of birth, coming of age, bondin
 **Stands on:** [[Rhythm]] · [[Time]] · [[Regeneration]] · [[Living System]]
 **Opens onto:** [[Season]] · [[OmniSpection]] · [[Tightly Coupled Learning and Action]] · [[Rites of Passage]] · [[Generational Time]] · [[Compost]] · [[The Loop That Has No End]]
 **In play:** table · Home · Gate
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XII term *Cycle* (canon-grade) · `Pillar XII — Sacred Time, Rhythm, and Celebration`, Thesis 3 (canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Calendar, Cycle, Time* (ore) · `Seasonal OmniSpection` (root page) · lionsberg.wiki: no page stands at this name
 **Open:** No page named *Cycle* exists; the multi-year cycles are listed among the calendar gaps with no body. · The Pillar's Thesis 3 calls linear time an illusion; the planning instruments of the Operating System are linear by construction, and no page addresses how both hold at once.

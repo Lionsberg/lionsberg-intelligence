@@ -20,5 +20,4 @@ The instrument is the economic half of a wider discipline: contribution recorded
 **Stands on:** [[Gift]] · [[Proof-of-contribution]] · [[The waterfall]] · [[The asset lock]]
 **Opens onto:** [[Voluntary Tithing]] · [[Commons]] · [[Term Limits And Rotation]] · [[Underwriting The New Economy]] · [[Capital Subordinate To Purpose]]
 **In play:** Home
-**Sources:** *Where Value Flows* (The LIØNSBERG Community Guidebook, Toolkit) · *The Founder's Fund* (wiki root) · *The DNA of Heaven*, Part IV · lionsberg.wiki: The Founder's Fund
 **Open:** Two different instruments share this name. The root page describes a standing fund resourced by new members' opening contributions, sustaining named early leaders and initiatives; the Guidebook describes a ledger inside one body's own waterfall. The seed carries the Guidebook's sense, and this page follows the seed. Nothing reconciles them, and the root page names an individual — a detail of an early instance, not part of the pattern.

@@ -20,5 +20,4 @@ Reality also carries a warning in this Field: it does not have edges, it has gra
 **Stands on:** [[ØNE]] · [[Logos]] · [[Being]]
 **Opens onto:** [[Truth]] · [[Epistemology]] · [[Current Best Understanding]] · [[The Living Gradient]] · [[Cosmos]]
 **In play:** Met at the table weekly, in Sensemaking — the honest reading of where we actually are, which is the only place a Cell can move from.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the totality of what is, seen and unseen, structured by Logos") · *Reality* (root page) · *The Living Gradient* (root page, mature) · lionsberg.wiki: *Reality*.
 **Open:** The Lexicon says Reality is "akin to Universe, Creation, and Cosmos," which blurs four rows that the root pages keep distinct; the distinction is preserved here and the Lexicon line flagged rather than followed.

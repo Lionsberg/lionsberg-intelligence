@@ -8,7 +8,7 @@ pillar: X
 
 *Two checks on anyone who holds the capacity to destroy: if you have begun to want the engagement, you are drifting — and the successful field is the one where destruction was never required.*
 
-**The first tell is the wanting.** Not the act — the appetite. If, at any point in the training or the years after it, a guardian notices anticipation rising when the field calls for force, the instruction is to stop: return to the daily practices, return to the Elder, return to the Vow. The canon is precise about why this is the tell rather than one warning among many. The one who ends badly is not the one who lacked skill; it is the one who completed the training and kept the capacity after the wanting had quietly replaced the willingness ([[The Dark Initiate Failure Mode]]).
+**The first tell is the wanting.** Not the act — the appetite. If, at any point in the training or the years after it, a guardian notices anticipation rising when the field calls for force, the instruction is to stop: return to the daily practices, return to the Elder, return to the Vow. It is precise about why this is the tell rather than one warning among many. The one who ends badly is not the one who lacked skill; it is the one who completed the training and kept the capacity after the wanting had quietly replaced the willingness ([[The Dark Initiate Failure Mode]]).
 
 The same tell has a public face. Returning from engagement to applause is treated as a failure — either of the engagement or of what the wider body was taught about it. A body that celebrates its own destructive acts has begun to arrange for occasions to celebrate ([[The Funeral Of Destruction]]).
 
@@ -22,5 +22,4 @@ The posture underneath is simple and is stated as a comparison: the guardian wis
 **Stands on:** [[Restraint As The Refusal To Act]] · [[The Warrior's Vow]] · [[Composure Under Threat]] · [[Discernment]]
 **Opens onto:** [[The Four Conditions For Destructive Force]] · [[The Funeral Of Destruction]] · [[The Dark Initiate Failure Mode]] · [[Peace]] · [[Drift]] · [[The Sacred Use Of Force]] · [[Guardianship]]
 **In play:** the daily practice — a question asked of oneself, not of anyone else
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.8 Destruction`, §The Refusal Of Glory and §The Capacity Held In Reserve · lionsberg.wiki: The Sacred Warrior Guidebook
-**Open:** The second tell is unmeasurable by construction — a body cannot count the engagements that never happened — so the canon offers a criterion that cannot be audited and does not say what to use instead.
+**Open:** The second tell is unmeasurable by construction — a body cannot count the engagements that never happened — so the criterion offered cannot be audited, and nothing says what to use instead.

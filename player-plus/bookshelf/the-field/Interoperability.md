@@ -22,5 +22,4 @@ Everything above that minimum stays free. That is the whole bargain, and it is w
 **Stands on:** [[Pattern]] · [[Sovereignty At Every Scale]] · [[Federation]] · [[Interface]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[Kit of Parts]] · [[Instantiation]] · [[The same card shape]] · [[On translating]] · [[The Season Sheet]]
 **In play:** the door · the table · beyond
-**Sources:** *Interoperability* (root page, canon-grade) · *Minimum Standards of Interoperability* (canon-grade) · *The LIØNSBERG Operating System v0* §18, the seven standards · *The LIØNSBERG Lexicon*, Meta Layer and Key Terms (canon-grade) · the seed's Part VII. lionsberg.wiki: Interoperability.
 **Open:** The Pattern Language lists *Interoperability* among its unwritten gaps while two mature root pages already carry it — the gap register is out of date here.

@@ -18,5 +18,4 @@ It is run in the ordinary hour. At [[The Heartbeat]] each person says what they 
 **Stands on:** [[Commitment]] · [[The Record]] · [[Zero Blame Environment]]
 **Opens onto:** [[Kept as a share of made]] · [[A3 Reports]] · [[Every Defect Is A Gift]] · [[Retrospective]] · [[Tightly Coupled Learning and Action]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §11–12 · The Seven Moves, Move 4 · *Commitment* · *The DNA of Heaven*, Parts V and VII — lionsberg.wiki page name: **The Record**
 **Open:** none found.

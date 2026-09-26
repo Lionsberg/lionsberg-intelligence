@@ -27,5 +27,4 @@ One rule governs every rung: *does this structure serve our Purpose?* If yes, ke
 **Stands on:** [[Sovereignty]] · [[Field of Agreements]] · [[Subsidiarity]] · [[Purpose]] · [[Voluntary Association]]
 **Opens onto:** [[Private Ecclesiastical Voluntary Membership Association]] · [[FSx]] · [[Organizations The LIØNSBERG Way]] · [[Community Company]] · [[Federation]] · [[Selectively Permeable Membrane]] · [[Capital Subordinate To Purpose]] · [[The asset lock]] · [[Stewardship body]] · [[Constitutional Protection Of Purpose]]
 **In play:** table, when the handshake will no longer carry it
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Step 2 — Establishing Legal Agency and Personhood.md` · `Properly Structure Your Cells` · `Corporate Structure`
 **Open:** The tiers are named as a natural ladder, but no body in the record has yet been observed climbing it, so the rungs are a design rather than a finding. · Shared legal infrastructure is offered as a service to a sovereign body and never as a parent over it — *service flows downward, authority flows upward* — and how that line is held in law, rather than in text, is unwritten.

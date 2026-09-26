@@ -9,6 +9,8 @@ status: current best understanding, loosely held · improved each week
 
 ---
 
+**Successful growth depends on commitments kept, not on yeses gathered.**
+
 ## Why it exists
 
 Every body that plays together needs a [[Field of Agreements]]: the terms that let everyone bring their full strength, because the terms were known before the first move. A dojo has one, signed at the door.
@@ -19,9 +21,9 @@ Until lasting agreements are written and ratified, this page is the Field. When 
 
 ## What this is, and what it is not
 
-You are stepping into a game and a shared practice: small Cells of an emerging Superorganism, acting as if Heaven on Earth is possible and playing toward it together. No belief is required. The Story is offered as a shared language and a mythic frame, not as a creed.
+You are stepping into a game and a shared practice: small [[Cell|Cells]] of an emerging Superorganism, acting as if Heaven on Earth is possible and playing toward it together. A Cell is three to thirteen people; optimally four to seven. No one waits to be ready or for a Cell to mature: the first Cells are imaginal cells, which begin, find one another, and become the parts of one body. No belief is required. The Story is offered as a shared language and a mythic frame, not as a creed.
 
-You are **not** joining a registered company, cooperative, nonprofit or church; nobody can sign, take money or promise anything on behalf of "the Game" or "LIØNSBERG". You are **not** becoming an employee, contractor, partner, investor or owner, and playing earns no wage, share or claim. Nothing said at a table, by a person or an agent, is medical, psychological, legal, financial or tax advice; seek qualified help where you need it. And you do **not** give up your sovereignty by associating: every player and every Cell remains sovereign and free.
+You are **not** joining a registered company, cooperative, nonprofit or church; nobody can sign, take money or promise anything on behalf of "the Game" or "LIØNSBERG". The Game names roles and functions, never persons: who holds a role at any time is a separate question, and no one is the mechanism by who they are. You are **not** becoming an employee, contractor, partner, investor or owner, and playing earns no wage, share or claim. Nothing said at a table, by a person or an agent, is medical, psychological, legal, financial or tax advice; seek qualified help where you need it. And you do **not** give up your sovereignty by associating: every player and every Cell remains sovereign and free.
 
 ## The agreements
 
@@ -30,10 +32,11 @@ You are **not** joining a registered company, cooperative, nonprofit or church; 
 3. **The idea travels; the source does not.** What is said at a table may be carried anywhere. Who said it, and where, stays in the room unless they say otherwise. This binds agents as it binds people.
 4. **Leave in order, and come back freely.** Say so at your table or to a host, hand over what you carry, and let your lines stay in the record. Nothing is erased, and the door never locks behind you.
 5. **Every defect is a gift.** When something goes wrong, we look for the cause in the set-up, not the person, and fix it where the next person will meet it.
-6. **Say what you will do; do what you said.** When you cannot, say so early.
-7. **Agents offer; people decide.** An agent says whose it is and what it is running, including anything that records. It never decides or consents for a person.
-8. **No coercion, no solicitation, no exploitation, no proselytizing, no harm.** No one may use the Game to pressure, deceive, sell to, recruit for gain, press their beliefs on, harass, or take advantage of another, in any way. What we share is offered, never pushed.
-9. **Children are protected first.** Anyone under eighteen takes part only with a parent or guardian who has agreed to this page for them, and never alone with an adult outside their family.
+6. **Say what you will do; do what you said; learn from the gap.** When you cannot, say so early. A commitment is kept or not, and both are said plainly; trust in a person grows from commitments kept, never from commitments claimed.
+7. **The Pledge is your word, and it is kept or not.** You take [[The Pledge]] in your own words, where someone can hear it, and it is written on [[The Roll]] with who brought you and who witnessed. For the first three percent, the Pledge includes the commitment to bring in three people not already playing within three days of your own yes ([[Pass The Flame]]); three is the minimum, never a cap. Whether it was kept is written there too, by the people who saw it, never inferred.
+8. **Agents offer; people decide.** An agent says whose it is and what it is running, including anything that records. It never decides or consents for a person.
+9. **No coercion, no solicitation, no exploitation, no proselytizing, no harm.** No one may use the Game to pressure, deceive, sell to, recruit for gain, press their beliefs on, harass, or take advantage of another, in any way. What we share is offered, never pushed.
+10. **Children are protected first.** Anyone under eighteen takes part only with a parent or guardian who has agreed to this page for them, and never alone with an adult outside their family.
 
 ## What we make together
 
@@ -70,6 +73,18 @@ Beneath every agreement on this page is one spirit, and it asks more of us than 
 
 All of us helping all of us, and all things, rise to the fullness of our potential and flourish together in harmony. That is the Game.
 
+## When you need guidance
+
+Every question climbs one ladder, a rung at a time ([[Asking for Guidance — the Ladder and the Request For Guidance]]):
+
+1. **Your own agent first.** Most questions end there.
+2. **The Cells you are part of.**
+3. **A Request For Guidance, from one of your Cells to the body,** fielded by the RFG Cell, one of the body's Guide Cells, which brings in the others whose domain it touches.
+
+Guidance does not bind the one who asked; your Cell remains the decider. Onboarding questions climb the same ladder, and onboarding office hours are kept for what the walk together cannot untangle.
+
+The body's shared channels move in three steps: Discord first, then Buzz, then Sovereign Comms, each tested and each retired in proper order ([[Channels]]). These agreements hold on every one of them.
+
 ## When something goes wrong
 
 1. **Say it at the table.** Most things mend there.
@@ -85,7 +100,7 @@ Anyone may propose a change, with a reason. A change binds you only once you hav
 
 ## Saying yes
 
-Taking part is how you say yes. By joining a table, a Cell or a room of the Game, or by using the Player+ kit, you agree to this page, freely, as it stands on the day you take part. If you do not agree, please do not take part; you are always welcome to keep reading.
+Taking part is how you say yes. By taking the Pledge, by joining a table, a Cell or a room of the Game, or by using the Player+ kit, you agree to this page, freely, as it stands on the day you take part. If you do not agree, please do not take part; you are always welcome to keep reading.
 
 You must be eighteen or older, or take part with a parent or guardian who has agreed to this page for you. You may leave in order at any time. Ongoing participation requires ongoing mutual consent.
 

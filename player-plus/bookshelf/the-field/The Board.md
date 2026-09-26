@@ -18,5 +18,4 @@ How it is used. One weekly door, so nothing has to be entered twice: the Turn's 
 **Stands on:** [[The Season Sheet]] · [[The Score]] · [[Screens and paper]] · [[The Return]]
 **Opens onto:** [[The weekly door]] · [[Requests and offers]] · [[The Pledge]] · [[Sighting]] · [[Guard the Membrane]] · [[The Circle's Scorecard]]
 **In play:** table · Home · beyond
-**Sources:** the Player+ Modules lexicon, *the Board* · *The Return*, "When the wire returns" (current best understanding) · *The Gameboard* (root page) · *The LIØNSBERG Playbook*, §Opening Plays · lionsberg.wiki: **The Gameboard**
 **Open:** Who may read the Board, and at what grain, is not stated anywhere; the membrane question is left to each Cell.

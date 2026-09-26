@@ -20,5 +20,4 @@ Three rules stand above the manners. An agent never signs as its person. A perso
 **Stands on:** [[Room]] · [[Terms]] · [[Host]] · [[Safe sparring]]
 **Opens onto:** [[Dyad Jam]] · [[Comment]] · [[Sign]] · [[Play by Play]] · [[Heads-up]] · [[Stop]] · [[Closing question]]
 **In play:** Room
-**Sources:** Player+ Modules, *Jam Conventions*, *Entering the Field*, *Safe Sparring*, *The Heads-up and the Play by Play* · The DNA of Heaven, Part X.
 **Open:** none found.

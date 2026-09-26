@@ -18,11 +18,10 @@ Every being has to carry their own sovereignty and their own right relationship 
 
 What the pair rules out is the comfortable middle position: that one is merely being helpful, or merely being agreeable. The test is the same on both sides — *whose responsibility is this, and who is actually carrying it?* ([[Accountability]], [[Delegation]], [[Agency, not ownership]], [[Subsidiarity]].)
 
-These are the clearest statement in the corpus of how sovereignty is actually lost, and the reason so much of the canon's structure exists: consent at the door, the freedom to leave, decisions held at the smallest competent scale, and authority that can be recalled ([[Primacy Of Consent]], [[Subsidiarity Of Authority]], [[The Way Out]]).
+These are the clearest statement here of how sovereignty is actually lost, and the reason so much of this structure exists: consent at the door, the freedom to leave, decisions held at the smallest competent scale, and authority that can be recalled ([[Primacy Of Consent]], [[Subsidiarity Of Authority]], [[The Way Out]]).
 
 **Also called:** the two sins · taking and giving away
 **Stands on:** [[Sovereignty]] · [[Sovereignty Of Consciousness]] · [[Accountability]] · [[Consent]]
 **Opens onto:** [[Manufactured Dependency]] · [[Centralization Of Power]] · [[Subsidiarity]] · [[Delegation]] · [[Agency, not ownership]] · [[Servant Leadership]] · [[The Way Out]] · [[Dignity]]
 **In play:** the table — asked of any decision one person is about to make for another
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Book of Meditations/Meditation 50` · lionsberg.wiki: The LIØNSBERG Book of Meditations
-**Open:** Two sentences of canon. Nothing addresses the cases where taking responsibility for another is right — the child, the unconscious, the person in crisis — which the canon elsewhere insists on. The line between care and the first sin is not drawn anywhere.
+**Open:** Two sentences stated and no more. Nothing addresses the cases where taking responsibility for another is right — the child, the unconscious, the person in crisis — which is insisted on elsewhere here. The line between care and the first sin is not drawn anywhere.

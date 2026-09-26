@@ -20,5 +20,4 @@ The Pledge a player makes at [[Initiation]] is said in this currency too: the ti
 **Stands on:** [[Time]] · [[Energy]] · [[Value]] · [[Sovereignty]]
 **Opens onto:** [[LUV]] · [[The Offering]] · [[Proof-of-contribution]] · [[The Pledge]] · [[The Turn]]
 **In play:** table · door
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *TimeEnergy* (canon-grade) · *TEA Bank* (wiki, the term pages) · *LIØNSBERG Currency* (wiki root) · Player+ Modules *Lexicon* — *TEA Card*, *the Pledge* · *The DNA of Heaven*, Part XII · lionsberg.wiki: TimeEnergy
 **Open:** The canon's *Level Of Commitment* page warns that accounting for time on task is a failure mode — a caution standing against the TEA Bank that built on it. Unresolved; both are carried.

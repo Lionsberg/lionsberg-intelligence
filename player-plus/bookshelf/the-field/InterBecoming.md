@@ -14,7 +14,7 @@ It changes what development is for. Under a separate-things picture, raising one
 
 Two practical readings follow. **Helping is not charity** — a body that lifts what is near it is doing its own developmental work, which is why the movement's rule about spending strength on those behind is not altruism but arithmetic ([[Do The Hard Work Ourselves To Make It Easier For Those Who Come After]], [[Voluntary Tithing]]). And **the ceiling is shared** — a person cannot rise indefinitely inside a body that is not rising, which is the honest reason isolation eventually stops working, however capable the isolate ([[There Is No Solo Phase]], [[Circle Coherence]], [[The Living Gradient]]).
 
-It extends past people, on the corpus's account: to the living world, to the bodies we belong to, and to whatever else is becoming alongside ([[Inter-Kingdom Relationship]], [[Living System]], [[Reverence]], [[Kinship]]).
+It extends past people: to the living world, to the bodies we belong to, and to whatever else is becoming alongside ([[Inter-Kingdom Relationship]], [[Living System]], [[Reverence]], [[Kinship]]).
 
 Two bullets in an unwritten chapter, and the word is a coinage. What is written above is drawn from those two uses and from the concept it is the active form of.
 
@@ -22,5 +22,4 @@ Two bullets in an unwritten chapter, and the word is a coinage. What is written 
 **Stands on:** [[InterExistence]] · [[Becoming]] · [[Co-Creation]]
 **Opens onto:** [[Cultivating Healthy Interdependencies]] · [[None Of Us Until All Of Us]] · [[Mutual Aid]] · [[There Is No Solo Phase]] · [[The Living Gradient]] · [[Inter-Kingdom Relationship]] · [[Synergy]] · [[The Sacred Ascent]]
 **In play:** the table — the reason a Cell's own growth includes the growth of the Cells near it
-**Sources:** `LIØNSBERG Wiki Books/The Great UnVeiling/The Great UnVeiling.md`, chs. 46 and 56 (outline — two bullets, no body)
 **Open:** Two bullets; the term is a coinage and is nowhere defined. · Nothing distinguishes it from interexistence beyond the shift to a verb, and whether that is one concept or two is unresolved.

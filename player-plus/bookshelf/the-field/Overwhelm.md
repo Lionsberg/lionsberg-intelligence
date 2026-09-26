@@ -22,5 +22,4 @@ There is a second sense, and it belongs beside the first rather than under it. O
 **Stands on:** [[Load]] · [[Capacity]] · [[Pain (as signal)]]
 **Opens onto:** [[Stop]] · [[Sensing comes before understanding]] · [[The Zone Of Optimum Development]] · [[Rest And Regeneration]] · [[Mutual Aid]] · [[Peace]] · [[Awe]] · [[Silence And Stillness As The Ground]] · [[Resource Leveling]]
 **In play:** the door — and any week the load crosses the line
-**Sources:** `Overwhelm.md` (wiki root) · `Archive/Archive — Ore Mined Before Deletion.md`, the ore of *A Note on Overwhelm* · lionsberg.wiki: Overwhelm
-**Open:** Two senses share the page and the canon has not joined them: a design signal about load, and a sacred signal on first contact with something whole. They are not the same experience and both are carried here.
+**Open:** Two senses share the page and are not yet joined: a design signal about load, and a sacred signal on first contact with something whole. They are not the same experience and both are carried here.

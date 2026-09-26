@@ -20,5 +20,4 @@ The test of whether chronos is serving or answer is simple enough to apply weekl
 **Stands on:** [[Time]] · [[Measurement]] · [[Discipline]]
 **Opens onto:** [[Kairos]] · [[The clock is read, never computed]] · [[Minutes are the one unit]] · [[Honesty about time]] · [[Critical Path]] · [[Milestone]] · [[The turnings]]
 **In play:** table · beyond
-**Sources:** `Chronos` (a developed treatment including the Chronos/Kairos table and the redemption of Chronos) · `The LIØNSBERG Lexicon`, Pillar XII term *Chronos* (canon-grade) · `The LIØNSBERG Operating System`, the minimum standards and honesty about time · `The Clock of the Game` (Little Book chapter, current best understanding) · lionsberg.wiki: Chronos
 **Open:** The `Chronos` page calls measured time *artificially imposed* and an illusion, while the Game's clock is a solar almanac treated as authoritative; the redemption section reconciles them in principle but no page carries the practical version. · Several pages the article links — The Eternal Now, Artificially Imposed Time, Chronocratic — were not opened here.

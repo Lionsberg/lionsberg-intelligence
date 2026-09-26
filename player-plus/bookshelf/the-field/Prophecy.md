@@ -20,5 +20,4 @@ The canon's honest note: the Voice section names prophesying among several beaut
 **Stands on:** [[Revelation]] · [[Logos]] · [[Discernment]]
 **Opens onto:** [[Conduit]] · [[Transmission]] · [[Mythos]] · [[Forward-Looking Story]]
 **In play:** Met at the table in the story told each week — the ordinary form; the larger register is not asked of anyone.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the transmission of divine vision and direction from Spirit through an aligned vessel") · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Voice And Hands and the Energetic Layer · lionsberg.wiki: *Pillar I — Sacred Ontology and Metaphysics*.
 **Open:** The Concept Field names *Prophesying* among concepts that are "beautiful names in the Voice section with no body and no invoking Play," kept as ore and due for removal if nothing calls them by the next pass.

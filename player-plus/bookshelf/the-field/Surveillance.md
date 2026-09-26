@@ -20,5 +20,4 @@ What replaces it is the discipline already in the field. Transparency runs *upwa
 **Stands on:** [[Kontrolle]] · [[Consent]] · [[Trust]] · [[Technology]]
 **Opens onto:** [[Technology Sovereignty]] · [[Selectively Permeable Membrane]] · [[Guard the Membrane]] · [[Transparency]] · [[Guardianship]] · [[The Final Order]]
 **In play:** the door · beyond
-**Sources:** *Pillar X — Sacred Guardianship and Order*, thesis 9 (canon-grade) · *Pillar VIII — Sacred Science and Technology*, narrative (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Technology Assessment gap (ore) · *The Final Order* · the seed's Part IV and Part X. lionsberg.wiki: Surveillance.
 **Open:** Named as ore in the gap register with no body. the treatment it does receive sits inside *The Final Order*, a page whose register is prophetic rather than analytic.

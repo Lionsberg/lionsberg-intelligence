@@ -22,5 +22,4 @@ The word is used twice in this Field and the senses are not the same. Here it me
 **Stands on:** [[Vitality]] · [[Discipline]] · [[The Daily Way]] · [[Right Relationship]]
 **Opens onto:** [[Moving]] · [[Walking]] · [[Sleeping]] · [[Nutrition]] · [[Wellness]] · [[Stewardship]] · [[Pillar V — Sacred Health and Wellness]]
 **In play:** the Gate — the least glamorous thing a person can begin with, and one of the few they can begin with today
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Pattern Language/Patterns/Tending.md` (drafted Pattern Card) · the same Language's *Patterns Pending Articulation* (working document) · lionsberg.wiki: Tending
-**Open:** The card names specific cleansing protocols from particular traditions and says the practitioner and their healer decide; nothing in the canon guards a reader against pursuing them unguided. · The Pillar V page the card points to is titled *Health and Healing* there and *Health and Wellness* at the hub; the divergence is unresolved.
+**Open:** The card names specific cleansing protocols from particular traditions and says the practitioner and their healer decide; nothing here guards a reader against pursuing them unguided. · The Pillar V page the card points to is titled *Health and Healing* there and *Health and Wellness* at the hub; the divergence is unresolved.

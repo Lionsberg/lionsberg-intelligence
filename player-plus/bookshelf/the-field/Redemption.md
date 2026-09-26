@@ -20,5 +20,4 @@ In play it is deliberately small and frequent. [[Apologizing]] is a named practi
 **Stands on:** [[Sin]] · [[Right Relationship]] · [[Forgiveness]]
 **Opens onto:** [[Atonement]] · [[Reconciliation]] · [[Justice]] · [[Healing]] · [[The Return]]
 **In play:** Met at the table when a tension is mended, and at the door again when someone who left comes back.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the sacred process of restoring Right Relationship and wholeness") · *At-One-Ment* (root page, on setting things right) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Voice And Hands · lionsberg.wiki: *At-One-Ment*.
 **Open:** No page carries Redemption; it is one Lexicon line, and the practices that would make it operational sit in Pillars II and XI under other names.

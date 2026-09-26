@@ -20,5 +20,4 @@ For a Cell, praxis is the weekly form of the Game itself: say what you will do, 
 **Stands on:** [[Learning]] · [[Embodiment]] · [[Learning By Doing]] · [[The Reciprocal Opening of Being and Doing]]
 **Opens onto:** [[Mastery]] · [[Retrospective]] · [[Tightly Coupled Learning and Action]] · [[Continuous Improvement]] · [[Do the Work]] · [[The gap]]
 **In play:** table · Gate
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IV — *Praxis* (canon-grade; one line) · *Pillar IV — Sacred Learning and Mastery*, transition 4 (canon-grade) · *Continuous Improvement* / *Attend, Plan, Act, Learn, Improve Cycle* (wiki root) · *The DNA of Heaven*, Parts I and V (the third move) · lionsberg.wiki: Praxis
 **Open:** *The Reciprocal Opening of Being and Doing* is named in the Lexicon's Key Terms and in Pass The Flame but has no page; it carries the same sense at a wider register and is listed as ore.

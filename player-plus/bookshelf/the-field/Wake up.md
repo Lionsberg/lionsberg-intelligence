@@ -18,5 +18,4 @@ How it is played. Read [[The Story of LIØNSBERG]], or hear it from the person w
 **Stands on:** [[Awakening]] · [[The Caves]] · [[The Meta Crisis]] · [[The compass question]]
 **Opens onto:** [[Form a Cell]] · [[The Invitation]] · [[Cross The Threshold]] · [[The Decision]]
 **In play:** door
-**Sources:** The DNA of Heaven, Parts II and V — the Moment, the Why · *Pass The Flame*, Ch5 · *The Story of LIØNSBERG — The Sacred Arc*, movement VI · lionsberg.wiki: **Awakening**, **The Caves**
 **Open:** The concept list cites this as seed move 1 at `SEED §4.1`; the seed file now in hand is *THE DNA OF HEAVEN* and is organized in Parts, not numbered sections, and it does not carry *Wake up* as a numbered move. The move is real in the Story and at the door; its home as a *move of the Game* is not currently written anywhere verified. · Whether waking is a move of the Game or the condition of entering it is undecided.

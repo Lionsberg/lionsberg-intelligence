@@ -20,5 +20,4 @@ Its disciplines follow directly. Release work at the pace the narrow place can t
 **Stands on:** [[Flow]] · [[Throughput]] · [[Value Stream Mapping]]
 **Opens onto:** [[Bottleneck]] · [[Limiting Factor]] · [[Work In Progress]] · [[Pull planning]] · [[Make-Ready Process]] · [[The Board]] · [[Work Deck]] · [[Waste]] · [[Last Planner System]] · [[Networks of Commitments]] · [[Just in time]]
 **In play:** Home — walked once, then watched weekly
-**Sources:** `Value Stream Mapping`, `Flow`, `Throughput` (wiki) · `Projects/the term pages/Bottleneck.md` · lionsberg.wiki: Value Stream Mapping
 **Open:** an earlier grouping folds it into value-stream mapping as an alias, which loses the distinction from the network of promises that is the point of the term.

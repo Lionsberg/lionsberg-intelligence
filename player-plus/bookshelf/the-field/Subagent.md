@@ -20,5 +20,4 @@ The word collides squarely outside this vocabulary, where a subagent is a licens
 **Stands on:** [[Agent Archetype]] · [[Agent]] · [[Delegation]]
 **Opens onto:** [[Fleet]] · [[Sovereign Agent]] · [[General Agent]] · [[Committor]] · [[Condition]] · [[Position]] · [[An agent speaks in its own name]] · [[Instrument]]
 **In play:** Home — spawned, used, and gone inside one afternoon
-**Sources:** `Projects/the term pages/Subagent.md` · `Projects/the term pages/Agent Archetype.md`, `Fleet.md`, `Sovereign Agent.md` (drafts) · lionsberg.wiki: Delegation
 **Open:** The same referent was drafted three times in one week under three names, which the page reads as the clearest sign it was needed; which name the whole adopts is unsettled. · Whether such a run may hold a role at all, or only a task, is undecided.

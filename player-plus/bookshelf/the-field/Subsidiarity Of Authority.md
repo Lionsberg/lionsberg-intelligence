@@ -20,5 +20,4 @@ Structurally, subsidiarity is one of the main immunities against [[Centralizatio
 **Stands on:** [[Sovereignty Of Consciousness]] · [[Sovereignty At Every Scale]] · [[Subsidiarity]]
 **Opens onto:** [[Holofractal Omnifederation]] · [[Consent-Based Decision-Making]] · [[Stewardship body]] · [[The Two-Stake Principle]] · [[Centralization Of Power]] · [[Levels Of Scale]] · [[The Constitutional Recognitions]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Levels of Scale* (Card, canon-grade) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Subsidiarity
-**Open:** Named as a Recognition with no articulation; *Subsidiarity* is separately flagged in the canon's own ledger as a keystone concept without a page.
+**Open:** Named as a Recognition with no articulation; *Subsidiarity* is separately flagged, in the working ledger, as a keystone concept without a page.

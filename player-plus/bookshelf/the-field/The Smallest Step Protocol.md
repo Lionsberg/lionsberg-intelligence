@@ -32,5 +32,4 @@ And it is a *named* protocol on purpose. Someone in a freeze cannot invent a pra
 **Stands on:** [[Anxiety as Default-On]] · [[Commitment]] · [[Do the Work]]
 **Opens onto:** [[Breath]] · [[Harvest and Close]] · [[SHOULD-CAN-WILL-DID]] · [[Overwhelm]] · [[Motivational States]] · [[Choose a Quest]] · [[Rest And Regeneration]] · [[Each Being Is a Sovereign Healer]]
 **In play:** Home — reached for in the hour when nothing else is reachable
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Smallest Step Protocol.md`
 **Open:** The Card explains the effect with a specific neurochemical mechanism it does not source; the practice stands without it. · It offers no guidance on when a person needs help rather than a protocol, which is the case it is nearest to.

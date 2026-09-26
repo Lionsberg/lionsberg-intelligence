@@ -20,5 +20,4 @@ In play a [[Cell]] meets it whenever something goes wrong: the question is not o
 **Stands on:** [[Wisdom]] · [[Discernment]] · [[Subsidiarity]] · [[Justice]]
 **Opens onto:** [[Sanction]] · [[Remedy]] · [[The Escalation Ladder]] · [[Consent-Based Decision-Making]] · [[Right Use of Power]]
 **In play:** table — in the sizing of every response
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Meaningful Objection* (root page; span of impact and the consent-to-consensus gradient) · *The LIØNSBERG Playbook*, Play — Identify And Solve An Issue · lionsberg.wiki: Meaningful Objection
 **Open:** One Lexicon row and one Play invocation; no page. *Span of impact* is used as the calibration measure but is nowhere defined.

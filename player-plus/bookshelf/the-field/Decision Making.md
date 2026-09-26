@@ -20,5 +20,4 @@ In play, a [[Cell]] decides most things in a minute at the weekly [[The Turn]]. 
 **Stands on:** [[Consent]] · [[Discernment]] · [[Sovereignty]] · [[Proposal]] · [[Participation]]
 **Opens onto:** [[Consent-Based Decision-Making]] · [[Advantage Based Decision Making]] · [[Decision Records]] · [[Stewardship body]] · [[Subsidiarity]] · [[Guidance]] · [[Meaningful Objection]]
 **In play:** table — weekly, and at every turning
-**Sources:** *Decision Making* (the spark and inner guide; discernment and consent around proposals) · *The LIØNSBERG Operating System* §15 · *The LIØNSBERG Playbook*, the Deciding and Organizing plays · lionsberg.wiki: Decision Making
 **Open:** The root page is a short statement of principle rather than a method; the operational articulation lives in the Operating System and the Playbook, which do not point back to it.

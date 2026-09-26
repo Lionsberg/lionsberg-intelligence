@@ -22,5 +22,4 @@ The honest counterweight: limited liability also lets ordinary people take risks
 **Stands on:** [[Economy]] · [[Power]] · [[Necessity Of Accountability]]
 **Opens onto:** [[The asset lock]] · [[Compressed Pay Ratios]] · [[Agency, not ownership]] · [[Capital Subordinate To Purpose]] · [[Mondragon]] · [[The Community Company]] · [[Extraction Of Wealth]] · [[The Two-Stake Principle]]
 **In play:** beyond — the question asked of any structure a Cell is about to incorporate into
-**Sources:** `LIØNSBERG Wiki Books/Aliens, Fascists, and Giants/23. The Corrupt, Fraudulent, and Deceitful Existing Order.md`
 **Open:** The source narrates a particular chartered company and does not generalise; the abstraction here is this page's. · It calls the legal form immoral and attributes that judgment to a third party; the judgment is not carried, only the asymmetry. · No alternative is specified that keeps the protective function while removing the asymmetry.

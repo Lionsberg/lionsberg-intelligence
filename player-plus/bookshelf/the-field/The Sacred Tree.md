@@ -20,7 +20,7 @@ A tree is the right picture for this body because a tree is one organism that is
 
 **Fruit.** The tangible outcomes — wisdom, healing, regeneration — given away freely. And every fruit carries seeds of its own, which is the part that makes the metaphor more than decorative: the tree's output is not a product but the next tree ([[Regeneration]] · [[Healing]] · [[Self-Sustenance and Self-Replication]] · [[Grow Your Cells]] · [[Gift]]).
 
-At the heart of it is [[The Golden Seed]] — the inception, integrity and code of the whole, planted with intention. From one origin comes the whole diverse potential of [[ØNE Body]]. And a tree grows in rings: each cycle of growth marks progress, resilience and expanded capacity, which is how the canon reads its own cycles ([[LIØNSBERG Cycles of Growth and Cycle Time]] · [[Cycle]] · [[The Rings]]).
+At the heart of it is [[The Golden Seed]] — the inception, integrity and code of the whole, planted with intention. From one origin comes the whole diverse potential of [[ØNE Body]]. And a tree grows in rings: each cycle of growth marks progress, resilience and expanded capacity — the pattern behind its own cycles ([[LIØNSBERG Cycles of Growth and Cycle Time]] · [[Cycle]] · [[The Rings]]).
 
 The invitation at the end is the practical part. Everyone is asked to contribute somewhere on the tree — strengthening the roots with wisdom, the trunk with resolve, giving birth to a new branch, or being a leaf that turns inspiration into action. All four are the tree ([[The Invitation]] · [[Roles]] · [[Choose a Quest]]).
 
@@ -28,5 +28,4 @@ The invitation at the end is the practical part. Everyone is asked to contribute
 **Stands on:** [[The Golden Seed]] · [[ØNE Body]] · [[Metaphor]] · [[Living System]]
 **Opens onto:** [[Self-Sustenance and Self-Replication]] · [[LIØNSBERG Cycles of Growth and Cycle Time]] · [[Grow Your Cells]] · [[The Rings]] · [[Federation]] · [[Regeneration]] · [[The Divine Symphony]] · [[Pillar VII — Sacred Culture, Art, and Story]]
 **In play:** the door — a picture of the whole that a person can hold before they understand any of its parts
-**Sources:** `The Sacred Tree` · `The Golden Seed` (root page) · lionsberg.wiki: The Sacred Tree
 **Open:** The metaphor has no account of pruning, deadwood, disease or the fall of a branch, which every real tree has and which the body will need. · It names `The Body` as its referent, a term the Field carries as [[ØNE Body]] and as [[Cell of Cells]]; the three are not reconciled.

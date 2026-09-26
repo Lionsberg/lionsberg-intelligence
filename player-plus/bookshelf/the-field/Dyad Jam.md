@@ -20,5 +20,4 @@ The form comes from the house that built the first personal agents and hosts the
 **Stands on:** [[Jam]] · [[Player+]] · [[Room]] · [[PKAI]]
 **Opens onto:** [[Agent engineering]] · [[Look-back]] · [[Second reader]] · [[Venue card]] · [[House]] · [[Player+ Modules]]
 **In play:** Room
-**Sources:** Player+ Modules, *Lexicon*, *Start Here*, *Agent Engineering*, *The Agent Improvement Process* · The DNA of Heaven, Part XIII (the carrier's form follows the starter kit's starter kit and his house's practices for agents in rooms).
 **Open:** none found.

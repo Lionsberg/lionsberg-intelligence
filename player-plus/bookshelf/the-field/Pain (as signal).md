@@ -22,5 +22,4 @@ An agent has a narrow part here. It may notice what its person actually said and
 **Stands on:** [[Sighting]] · [[Wellness]] · [[Right Relationship]]
 **Opens onto:** [[Ask]] · [[Requests and offers]] · [[Stop]] · [[Mend a Tension]] · [[Check In]] · [[The Way Out]]
 **In play:** table · Home
-**Sources:** The DNA of Heaven, Parts V and XII ("Pain, a request for help that requires a response"; "the Circle acts first and records later") · Player+ Modules, *An Agent That Attends to You* · lionsberg.wiki: *Pain, Perceived Pain, and Change*.
-**Open:** the field's own row reads pain as "a signal that something hurts, answered by someone"; the seed says "a request for help that requires a response". The seed stands. No canon page yet holds this sense of the word.
+**Open:** the field's own row reads pain as "a signal that something hurts, answered by someone"; the seed says "a request for help that requires a response". The seed stands. No page yet holds this sense of the word.

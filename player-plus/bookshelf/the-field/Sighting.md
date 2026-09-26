@@ -22,5 +22,4 @@ An agent may help shape a sighting and may carry it where its person says, and i
 **Stands on:** [[Every Defect Is A Gift]] · [[The Record]] · [[Sensemaking]]
 **Opens onto:** [[Pain (as signal)]] · [[Proposal]] · [[Issue]] · [[The Season Sheet]] · [[Bard]] · [[Improvement log]]
 **In play:** table · Home
-**Sources:** The DNA of Heaven, Part XII (the words handed in the Game) · lionsberg.wiki: *Every Defect Is A Gift*, *Identifying And Solving Issues*.
-**Open:** no canon page yet holds the word; it is named in the seed's word list and not yet articulated, and the boundary between a sighting, an issue and a proposal is not drawn anywhere.
+**Open:** no page yet holds the word; it is named in the seed's word list and not yet articulated, and the boundary between a sighting, an issue and a proposal is not drawn anywhere.

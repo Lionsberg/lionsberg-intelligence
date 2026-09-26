@@ -18,7 +18,6 @@ Used well, it pairs with showing before doing: the gate is where the sample is s
 
 **Also called:** phases and gates
 **Stands on:** [[Pull planning]] · [[Work Breakdown Structure]] · [[Show-Before-Doing Protocol]]
-**Opens onto:** [[Disposition Categories]] · [[Milestone]] · [[The look-ahead]] · [[Constraint]] · [[Progressive canonization]] · [[Weave, don't delete]]
+**Opens onto:** [[Disposition Categories]] · [[Milestone]] · [[The look-ahead]] · [[Constraint]] · [[Progressive canonization]] · [[Weave, do not delete]]
 **In play:** table · beyond
-**Sources:** Phase 2 — The Audit Ledger, its method and disposition legend · lionsberg.wiki: *The Great Weaving — Concept Ledger*
 **Open:** named as a working decision of one project and never generalized; how it relates to the seasonal rhythm every Cell already runs, which is its own kind of gate, is unaddressed.

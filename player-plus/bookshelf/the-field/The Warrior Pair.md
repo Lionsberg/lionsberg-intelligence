@@ -20,5 +20,4 @@ The pair is not mandatory in every season, and it is named as foundational at so
 **Stands on:** [[Cell]] · [[Trust]] · [[Right Relationship]] · [[Circle Coherence]]
 **Opens onto:** [[Pair Formation And Pair Ending]] · [[The Circle's Shared Field, And How Circles Form]] · [[The Warrior-Healer Pair, And The Deferral]] · [[Why Three To Thirteen]] · [[Dyad Jam]] · [[The Two-Coordinator Rhythm]] · [[Mutual Aid]] · [[Second reader]]
 **In play:** the table — the rung below it
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.1 The Warrior Pair` · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The canon's ladder of scales runs individual → Circle → Community with no pair in it; this chapter is the only place the rung is named. Whether the pair is a scale in the holarchy or a practice inside the Circle is not settled. · The field claims about what two coherent people generate together are asserted, not evidenced; the working disciplines beneath them stand on their own.

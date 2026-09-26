@@ -22,5 +22,4 @@ The usable form is one question, asked whenever the hours are going into repair:
 **Stands on:** [[Patterns And Containers]] · [[Hospicing the Old Systems]] · [[The Old Operating System]]
 **Opens onto:** [[Weaving vs. Starting New]] · [[The Voluntary Leap Forward]] · [[Mondragon]] · [[Disbanding]] · [[Design To The Goal]] · [[Ideological Capture]] · [[Demonstrate before advocating]] · [[Propagate; do not scale]]
 **In play:** the table — asked whenever a Cell is tempted to fix something instead of build
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/New Wine Requires New Wineskins.md`
 **Open:** Stated so strongly that it can license abandoning institutions that people still depend on; the Card names the rare successful reformer and does not say how to tell that case in advance. · It sits in tension with [[Weaving vs. Starting New]], which counsels joining what exists rather than founding another thing; nothing reconciles the two.

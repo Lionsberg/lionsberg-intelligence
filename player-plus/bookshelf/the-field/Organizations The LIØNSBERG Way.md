@@ -20,5 +20,4 @@ The one thing no tier may quietly undo: the body cannot be owned, bought, or cas
 **Stands on:** [[Agency, not ownership]] · [[Field of Agreements]] · [[One Purpose Above All]] · [[Capital Subordinate To Purpose]]
 **Opens onto:** [[FSx]] · [[The asset lock]] · [[Constitutional Protection Of Purpose]] · [[Private Ecclesiastical Voluntary Membership Association]] · [[Federation]] · [[Establishing Your Cellular Operating System and Way]]
 **In play:** beyond the table
-**Sources:** `Properly Structure Your Cells` · `Corporate Structure` and `Organizations The LIØNSBERG Way` · The LIØNSBERG Community Guidebook, `Step 2 — Establishing Legal Agency and Personhood` · The DNA of Heaven, Part IV · lionsberg.wiki: Properly Structure Your Cells
 **Open:** The FSx vehicle was still under counsel's review when the seed was written — shape settled, vehicle open. · The community-scale body the seed calls the *Community Company* has no row of its own in this field.

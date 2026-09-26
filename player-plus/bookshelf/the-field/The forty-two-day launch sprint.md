@@ -18,5 +18,4 @@ It is an example, drafted, not a case study of something completed. Read it as a
 **Stands on:** [[The first season]] · [[Pull planning]] · [[The Heartbeat]]
 **Opens onto:** [[Constraint]] · [[Kept as a share of made]] · [[Stewardship body]] · [[The Record]]
 **In play:** table
-**Sources:** *The LIØNSBERG Operating System* §21, which presents it as the book's first worked example — lionsberg.wiki page name: **The LIØNSBERG Operating System**
-**Open:** Written as an illustration rather than as a report of something that happened; no outcome is recorded anywhere in the canon.
+**Open:** Written as an illustration rather than as a report of something that happened; no outcome is recorded anywhere.

@@ -20,5 +20,4 @@ At the table the word is smaller and concrete: a keeper keeps the record, and th
 **Stands on:** [[The Way]] · [[Lineage]] · [[Wise Eldership]] · [[Stewardship]]
 **Opens onto:** [[Keeper]] · [[The Triadic Discipline]] · [[Shoshin]] · [[Institutional Idolatry]] · [[The Pattern Governs, Not People]] · [[Belt Progression]] · [[Pass The Flame]] · [[The Record]]
 **In play:** Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.1, backlog) · the Player+ modules Lexicon (keepers) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named with no articulation; the word carries a small operational sense (the one who keeps a Cell's record) and a large one (those who hold and repair the Way), and nothing states whether they are one role.

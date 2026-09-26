@@ -61,7 +61,7 @@ Welcome to the adventure of a lifetime.
 There is a place at the table for all.   
 The future is in (y)our hands. 
 
-The [Request For Guidance Form] is a gateway to **what's next**.  
+The [Request For Guidance Form] is a gateway to **what is next**.  
 
 With loving respect and care, 
 

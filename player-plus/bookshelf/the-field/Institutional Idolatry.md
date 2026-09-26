@@ -20,5 +20,4 @@ This is [[Ideological Capture]]'s sibling: the same capture with a body rather t
 **Stands on:** [[The Anti-Patterns]] · [[Inversion]] · [[Purpose]] · [[Legitimacy]]
 **Opens onto:** [[The Pattern Governs, Not People]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Disbanding]] · [[The Golden Calf]] · [[Ideological Capture]] · [[Constitutional Protection Of Purpose]] · [[Lineage]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *Lineage Without Capture* (drafted Card) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as an Anti-Pattern with no articulation; nothing states who may judge that a Body should dissolve, or how.

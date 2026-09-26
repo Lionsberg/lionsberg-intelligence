@@ -10,7 +10,7 @@ pillar: Pillar VIII — Sacred Science and Technology
 
 The systems sense is the familiar one: the collective behaviour of components producing outcomes greater than the sum of individual actions. A Circle behaves in ways no member decided. A Body coheres in ways no one designed. This is a foundational claim for anything that intends to work without a controller, and it is why the Way builds conditions rather than outputs.
 
-The canon adds a second sense that is not merely systems language. Emergence is the process by which the new arrives in [[Reality]], and we are participants in which future, out of all the possible ones, actually comes. The phrase the canon uses for the pull of it — *that which is trying to emerge* — names something with direction rather than a random resolution of forces. The aim then follows: co-create the conditions that let the best possible future emerge through us all, by the way of being we choose.
+A second sense applies that is not merely systems language. Emergence is the process by which the new arrives in [[Reality]], and we are participants in which future, out of all the possible ones, actually comes. The phrase for the pull of it — *that which is trying to emerge* — names something with direction rather than a random resolution of forces. The aim then follows: co-create the conditions that let the best possible future emerge through us all, by the way of being we choose.
 
 The tension it holds is emergence against control. What emerges cannot be commanded into existence; what is commanded is not emergent. A Body that tries to specify its outcome gets what it specified, which is always smaller than what could have arrived. A Body that specifies nothing gets whatever the loudest current produces. The discipline is between: tend the conditions, hold the Goal, and let the form arrive.
 
@@ -20,5 +20,4 @@ Its nearest kin here are structural. [[Stigmergy]] is one mechanism by which coo
 **Stands on:** [[Living System]] · [[Co-Creation]] · [[Creation]] · [[Complex Adaptive Living System]]
 **Opens onto:** [[Stigmergy]] · [[Coherence]] · [[Synergy]] · [[Islands of Coherence]] · [[Anti-Fragility]] · [[Design To The Goal]] · [[The Creative Cascade]]
 **In play:** beyond
-**Sources:** *Emergence* · *The LIØNSBERG Lexicon* (§Key Terms) · lionsberg.wiki: Emergence
-**Open:** The canon page links a chain of concepts — progressive realization, progressive articulation, potential futures — most of which have no pages.
+**Open:** This page links a chain of concepts — progressive realization, progressive articulation, potential futures — most of which have no pages.

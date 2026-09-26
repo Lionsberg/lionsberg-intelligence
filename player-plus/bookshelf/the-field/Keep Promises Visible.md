@@ -20,5 +20,4 @@ In play it is one line each: who, what, by when. It is read at [[The Turn]], whe
 **Stands on:** [[Commitment]] · [[Trust]] · [[Zero Blame Environment]] · [[The Turn]]
 **Opens onto:** [[The Commitment Tracker]] · [[The states of a commitment]] · [[The Life of a Commitment]] · [[Consciously Breaking Commitments]] · [[Networks of Commitments]] · [[Complete and Declare]] · [[Last Planner System]] · [[A word given is a word kept]] · [[Every Defect Is A Gift]]
 **In play:** the table, every week
-**Sources:** `Play — Keep Promises Visible`, in The LIØNSBERG Playbook's Questing Plays · `Play — Run the Weekly Turn` · lionsberg.wiki: The LIØNSBERG Playbook
 **Open:** The card names no instrument, while the Field carries several that would serve it; nothing says which a first-season Cell should reach for. · The Playbook's Chart names a *Percent Promises Kept* measure that no written page defines.

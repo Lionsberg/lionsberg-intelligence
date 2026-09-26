@@ -20,5 +20,4 @@ Types are added when the Game meets a thing that wants holding in one hand, and 
 **Stands on:** [[The same card shape]] · [[The Record]] · [[Screens and paper]]
 **Opens onto:** [[The Playcard]] · [[Work Card]] · [[Work Deck]] · [[The Concept Card]] · [[The Questcard]] · [[Pattern Card]] · [[The Deck Standard]] · [[Top card]] · [[TimeEnergy]]
 **In play:** the table — every object the Game holds is one of these
-**Sources:** `Card Types.md` (wiki root) · `Projects/the term pages/Work Card.md`, `Work Deck.md` (drafts) · *The Playcard*, Little Book chapter (current best understanding) · lionsberg.wiki: Card Types
 **Open:** The Playcard's two live senses — received and never filled in, or filled at each Turn — mean the type's own definition is unsettled ([[The Playcard stack]]). · The page names further types as near (a Story Card, a Request Card, a Role Card) and none exists.

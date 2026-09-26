@@ -20,5 +20,4 @@ The translation of it into a Body's life is simple: ask what one thing, if it mo
 **Stands on:** [[Value]] · [[Throughput]] · [[System]] · [[The Pattern of Production]]
 **Opens onto:** [[Make-Ready Process]] · [[Constraint]] · [[Critical Path]] · [[Float]] · [[Waste]] · [[Value Stream Mapping]] · [[Integrated Delivery]] · [[Design To The Goal]]
 **In play:** table
-**Sources:** *The LIØNSBERG Lexicon* (§The System) · *Value Stream Mapping* (root page) · *THE DNA OF HEAVEN* Part VII · lionsberg.wiki: Value Stream Mapping
 **Open:** The Theory of Constraints is named as lineage in the Lexicon and has no page of its own; the constraint practices are written under the Operating System without naming the theory they come from.

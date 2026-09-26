@@ -20,5 +20,4 @@ In a shared space the discipline becomes concrete: an agent carries a [[Venue ca
 **Stands on:** [[Ethics]] · [[Sovereignty]] · [[Consent]] · [[Right Use of Power]] · [[Actor]]
 **Opens onto:** [[Agent]] · [[Player+]] · [[Principal]] · [[Charter]] · [[Venue card]] · [[Safety check]] · [[An agent speaks in its own name]] · [[Notebook form]]
 **In play:** the door · the Room · the table
-**Sources:** *Pillar VIII — Sacred Science and Technology*, thesis 7 (canon-grade) · the seed's Part X · the Player+ Modules and their Lexicon · *The LIØNSBERG Pattern Language — Synthesized*, Technology Assessment gap (ore). lionsberg.wiki: Artificial Intelligence.
 **Open:** The Pattern Language lists *Artificial Intelligence* as an unwritten gap while the Kit already runs a live articulation; the sacred governance of AI is also named in the seed's own Part III as work nobody has written. Both statements are true of different layers and no page says so.

@@ -20,5 +20,4 @@ It has a limit worth saying plainly. It governs vocabulary, not depth. The Way g
 **Stands on:** [[A Word on Words]] · [[The vocabulary ladder]] · [[Welcoming The Stranger]]
 **Opens onto:** [[The Guide's four renderings]] · [[Sensing comes before understanding]] · [[On translating]] · [[The door]] · [[Bottom Line Up Front]] · [[Word Tools]]
 **In play:** the door — run on every surface before a stranger meets it
-**Sources:** `Projects/The Guide 2026-09/The Guide — What It Is, and Its Place In, Throughout, and Beyond the ØNE Book` §3 (records the Big Room's own first minute failing the test it set for itself) · *The Big Room at the Equinox — Build Spec and First Minute* (design pass) · lionsberg.wiki: The Twelve Words
 **Open:** Nobody is named as the one who runs it, and a test with no owner is a test that is quoted rather than performed.

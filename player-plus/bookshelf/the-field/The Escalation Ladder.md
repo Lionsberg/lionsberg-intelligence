@@ -20,5 +20,4 @@ Beside the ladder stands the other motion, which is not escalation at all: anyon
 **Stands on:** [[Issue]] · [[Subsidiarity]] · [[Supercell]] · [[Stewardship body]]
 **Opens onto:** [[Mend a Tension]] · [[Wise Eldership]] · [[Guidance]] · [[Conflict Transformation]] · [[Stop]] · [[The Return]]
 **In play:** beyond the table
-**Sources:** `Identifying And Solving Issues` · The LIØNSBERG Playbook, Operations — Play — Identify and Solve the Issue, Play — Engage Conflict · Pass The Flame, ch. VII (the ladder to the stewardship council of the next body) · The LIØNSBERG Operating System §15–§16 · lionsberg.wiki: Identifying And Solving Issues
 **Open:** Named in several places, articulated in none; Pass The Flame describes it in the older *first and second degree group* vocabulary.

@@ -20,5 +20,4 @@ Authorization is not the same as a venue card. The card says what an agent may d
 **Stands on:** [[Principal]] · [[Consent]] · [[Authority]] · [[Player+]]
 **Opens onto:** [[Venue card]] · [[Widen]] · [[Charter]] · [[Sign]] · [[Safety check]] · [[Trust]]
 **In play:** Room · beyond
-**Sources:** The DNA of Heaven, Part X · Player+ Modules, *Jam Conventions*, *Becoming a Player+*, *Daily Life* · lionsberg.wiki: *Authority*, *Sovereignty*, *Player*.
 **Open:** none found.

@@ -22,5 +22,4 @@ Which is why this corpus builds parallel rather than waits, and why the phrase *
 **Stands on:** [[Collapse]] · [[The Window]] · [[The Meta Crisis]]
 **Opens onto:** [[Outside Coordination and the Parallel Construct]] · [[Hospicing the Old Systems]] · [[The Asymmetry of Consequences]] · [[Islands of Coherence]] · [[The Ark and the Bridge]] · [[The Collapse-Ascension Nexus]] · [[Critically Effective Time Limit]] · [[The Noah Plan]]
 **In play:** the door — the answer to *why not wait and see?*
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance…/4.2 Pre-Collapse Proaction vs. Post-Collapse Reaction.md` (a 2023 AI dialogue)
 **Open:** All figures are 2023 speculative estimates from a language model and are not carried here. · The framing treats collapse as a single event with a before and an after; a long uneven decline, which is at least as likely, is not addressed and would change the argument.

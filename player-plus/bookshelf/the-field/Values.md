@@ -19,5 +19,4 @@ They are universal in the sense that they are found written on hearts and in the
 **Stands on:** [[ØNE]] · [[Love]] · [[The Goal]]
 **Opens onto:** [[Truth]] · [[Justice]] · [[Stewardship]] · [[Wisdom]] · [[Goodness]] · [[Field of Agreements]] · [[Value]] · [[Axiology]]
 **In play:** At the door, in what a room states before anyone joins it; at the table, in how a hard choice is settled; beyond, as what makes a stranger's body recognisable as kin.
-**Sources:** `Values` · `Universal Values` (root) · `Love` (root, canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Cardinal Values · `The DNA of Heaven`. lionsberg.wiki: **Values**.
 **Open:** The root page lists thirteen core values; the Pattern Language names a shorter cardinal set; the seed names five plus the word-kept floor. All three are live and none supersedes the others in writing.

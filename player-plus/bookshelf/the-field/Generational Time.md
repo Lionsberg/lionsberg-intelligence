@@ -20,5 +20,4 @@ These are honestly ore. Generational time, precessional time, galactic time, cos
 **Stands on:** [[Time]] · [[Cycle]] · [[Covenant Across Time]] · [[Stewardship]] · [[Cosmos]]
 **Opens onto:** [[The Time Horizons]] · [[The LIØNSBERG Calendar]] · [[20 Year Generational Contingency]] · [[Constitutional Protection Of Purpose]] · [[The Three-Year Formation]] · [[The Eternal Divine Play]] · [[Inter-Kingdom Relationship]]
 **In play:** beyond · Home
-**Sources:** `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Calendar, Cycle, Time* — generational, precessional, galactic and cosmic time listed (ore) and §Recognitions, *Covenant Across Time* · `Seats at the Table` (Toolkit, written; the seat for future generations) · `20 Year Generational Contingency` (root page) · lionsberg.wiki: no page stands at this name
 **Open:** Ore throughout: none of the long scales has a page. · Covenant Across Time is stated as a recognition no body amends, and also has no page; the concept is load-bearing and unwritten at both ends.

@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 06
+chapter: 6
 ---
 
-# 06 The Daily Way — the baseline practice
+# The Daily Way — the baseline practice
 
 *The day is the smallest complete unit of a life lived consciously. This is how it is walked: the stillness under everything, the breath, the energy, the form, the body — and the practice itself, set down in full, so that anyone holding this page can begin tomorrow morning and keep it for a lifetime.*
 
@@ -286,7 +286,7 @@ A great deal of the Way is walked alone, and none of it is walked in isolation.
 
 **The pair.** Two people who practice together generate a coherence neither holds alone, and the corpus names this as a scale in its own right — the rung between the person and the Circle that most ladders skip. What a pair does that a solo practitioner cannot: train against real resistance; see each other's blind spots, since the field one cannot read of themselves is plainly visible to the other; hold witness between gatherings; and practice contemplatively in a way that needs two. It has disciplines. Each keeps their own sovereign centre, their own practice, their own wider life — a pair that has become co-dependent has drifted out of partnership into entanglement. Correction is given without self-elevation and received without defense, which is what makes a pair operationally valuable rather than merely comfortable. And it has an ending protocol, which almost nothing else in the old world does: mutual acknowledgment, a final clearing, an honest accounting of what was given, received, and left unfinished, a witnessed closure, and right relationship continuing after the working partnership ends.
 
-**The Cell's practice.** Three to thirteen people, best at four to seven — three because it is the smallest triangulated field, thirteen because beyond it not everyone can hold everyone else in direct relationship. Past thirteen a Circle spawns rather than enlarges. A Circle's shared field matures: a Circle three years old holds more than a new one, in perceptual reach, in steadiness, in the quality of its discernment, and in its capacity to stay present to something difficult for longer than any one member could.
+**The Cell's practice.** Three to thirteen people, optimally four to seven — three because it is the smallest triangulated field, thirteen because beyond it not everyone can hold everyone else in direct relationship. Past thirteen a Circle spawns rather than enlarges. A Circle's shared field matures: a Circle three years old holds more than a new one, in perceptual reach, in steadiness, in the quality of its discernment, and in its capacity to stay present to something difficult for longer than any one member could.
 
 What a Cell actually does together, in practice:
 
@@ -369,7 +369,7 @@ The company: [[Cell]] · [[Circle]] · [[Circle Coherence]] · [[Community]] · 
 
 The stream that binds capacity: [[The Warrior's Vow]] · [[The Sacred Use Of Force]] · [[The Threefold Capacity]] · [[The 300]] · [[Planetary Light Grid]].
 
-Where this chapter sits: [[01 The Spirit]] · [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[05 The Pattern and the Way]] · [[11 Pillar IV — Sacred Learning and Mastery]] · [[12 Pillar V — Sacred Health and Wellness]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[20 The Experience — from the first door to what lies beyond]] · [[21 In Every Future — what to do in each case]] · [[25 The Words]].
+Where this chapter sits: [[01 The Spirit]] · [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[04 The Pattern and the Way]] · [[11 Pillar IV — Sacred Learning and Mastery]] · [[12 Pillar V — Sacred Health and Wellness]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[20 The Experience — from the first door to what lies beyond]] · [[21 In Every Future — what to do in each case]] · [[31 The Words]].
 
 ---
 
@@ -409,3 +409,4 @@ Where this chapter sits: [[01 The Spirit]] · [[THE STORY]] · [[THE GAME]] · [
 ---
 
 *The day is the smallest complete unit of a life. Tomorrow morning, before anything: one breath, one thanks, seven minutes, one line. That is the whole beginning, and there is no other one.*
+

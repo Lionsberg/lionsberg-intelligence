@@ -22,5 +22,4 @@ The discipline the page asks for is to hold both halves at once. Extract only th
 **Stands on:** [[Technology Is Not Neutral]] · [[Kontrolle]] · [[Liberation]]
 **Opens onto:** [[The Digital Panopticon]] · [[Programmable Money]] · [[Technology Sovereignty]] · [[The Window]] · [[Artificial Intelligence]] · [[The Collapse-Ascension Nexus]] · [[Tipping Point Strategy]] · [[The open web]]
 **In play:** beyond — and at the table, in every tool a Cell chooses to depend on
-**Sources:** `LIØNSBERG Wiki Books/Most People Have No Idea What Is Coming/6.4 Liberation or Total Kontrolle.md` · `6.3`
 **Open:** The dark half is described with more specificity and more confidence than the bright half, which is a tell worth noticing in a page about balance. · That a technology amplifies intention is asserted and is not true of all of them; some have a grain.

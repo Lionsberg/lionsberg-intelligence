@@ -18,5 +18,4 @@ Addresses are grown, not assigned. A Cell numbers the Cells it helps birth in th
 **Stands on:** [[The Player]] · [[Cell]] · [[Home Cell]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[The same card shape]] · [[The Record]] · [[The plan of the whole]]
 **In play:** Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §18.4 · *Address* (the fullest treatment, including the lineage scheme) — lionsberg.wiki page name: **Address**
 **Open:** The lineage-path scheme is a draft proposal and has not been walked through.

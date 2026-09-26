@@ -20,5 +20,4 @@ In play, a [[Cell]] does not need one; its final decider is the table. A [[Super
 **Stands on:** [[Stewardship]] · [[Subsidiarity]] · [[Sacred Trust]] · [[Accountability]] · [[Legitimacy]]
 **Opens onto:** [[Wisdom Council]] · [[Decision Making]] · [[Guidance]] · [[Prescribed and discretionary trust]] · [[The Intervention Council]] · [[Term Limits And Rotation]]
 **In play:** beyond — the last place a decision lands, and rarely
-**Sources:** *The LIØNSBERG Operating System* §16, *Stewardship* · *THE DNA OF HEAVEN* Parts IV and VII · *Wisdom Council* (root page; the nearest older articulation) · lionsberg.wiki: The LIØNSBERG Operating System
 **Open:** How a stewardship body is chosen, how large it may be, how long its members serve, and how it is itself held accountable are unwritten. Its relationship to the older [[Wisdom Council]] — the same organ under two names, or two organs — is unresolved.

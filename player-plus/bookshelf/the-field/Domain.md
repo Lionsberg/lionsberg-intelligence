@@ -20,5 +20,4 @@ Domains emerge from the bottom up, beginning with the person, and each is govern
 **Stands on:** [[Sovereignty]] · [[Authority]] · [[Consent]] · [[Holarchy]]
 **Opens onto:** [[Selectively Permeable Membrane]] · [[Field of Agreements]] · [[Commons]] · [[Jurisdiction]] · [[Subsidiarity]] · [[Delegation]] · [[Holofractal Omnifederation]]
 **In play:** table — the moment a Cell writes down what it is responsible for
-**Sources:** *Domains of Responsibility and Authority* (the functional list and the integration list) · *Domain* (root page; three lines, a pointer) · *The LIØNSBERG Lexicon*, Pillar II table · *Holofractal Omnifederation* · *THE DNA OF HEAVEN* Parts III–IV · lionsberg.wiki: Domains of Responsibility and Authority
 **Open:** Two pages carry the concept under two names (*Domain*, three lines; *Domains of Responsibility and Authority*, the substance). The seed counts twenty-four Action Domains and twenty-four Integration Domains; the root page lists nine and twelve. The counts are not reconciled.

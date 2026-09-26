@@ -12,7 +12,7 @@ Every being flows from one Source and belongs to one family and community of lif
 
 The two are not separate systems. A right without a corresponding responsibility is a claim on somebody unnamed; a responsibility without a corresponding right is servitude. Held together they describe one relationship, seen from the receiving side and from the giving side ([[Reciprocity]] · [[Right Relationship]] · [[The Two-Stake Principle]]).
 
-The canon's own move is the ordering, and it inverts the ordinary one twice over.
+The move here is the ordering, and it inverts the ordinary one twice over.
 
 **Rights extend first to the weakest and most vulnerable.** Where the old logic lets rights accumulate where power already is, here the first test of any arrangement is what it does for those least able to insist on anything ([[Protection Of Children]] · [[Seats at the Table]] · [[Universal Rights]]).
 
@@ -24,5 +24,4 @@ Those two sentences together are what the pairing is *for*. They convert a symme
 **Stands on:** [[ØNE]] · [[Dignity]] · [[Love]] · [[Kinship]]
 **Opens onto:** [[Universal Rights]] · [[Universal Responsibilities]] · [[Right Use of Power]] · [[Justice]] · [[Protection Of Children]] · [[Servant Leadership]] · [[Equal Opportunity For All]] · [[Pillar XI — Sacred Society and Justice]]
 **In play:** the table, when a proposal is tested; the Room and beyond, when a body decides where its protection and its burden fall
-**Sources:** `Rights and Responsibilities` · `Universal Rights`, `Universal Responsibilities` (root pages) · lionsberg.wiki: Rights and Responsibilities
-**Open:** *Strongest and most capable* is never defined, and a duty assigned by an undefined measure is easy to evade and easy to abuse; the canon leaves it to judgment. · The page dates the extension of rights to All at the opening of the new millennium without saying by whom or where.
+**Open:** *Strongest and most capable* is never defined, and a duty assigned by an undefined measure is easy to evade and easy to abuse; it is left to judgment. · The page dates the extension of rights to All at the opening of the new millennium without saying by whom or where.

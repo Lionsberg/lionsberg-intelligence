@@ -26,5 +26,4 @@ It is load-bearing because it is the whole plan on one page, which is what makes
 **Stands on:** [[The Goal]] · [[Creator's Intent]] · [[Vision]] · [[Values]]
 **Opens onto:** [[The Timeline]] · [[The Invitation]] · [[The nomination laws]] · [[The Calling of the Ecclesia]] · [[The First Three Percent]] · [[Demonstrate before advocating]] · [[Attraction, not promotion]] · [[Propagate; do not scale]] · [[The Movement]] · [[A word given is a word kept]]
 **In play:** the door — read once, answered in one's own words
-**Sources:** *The DNA of Heaven*, Part XI · *The Little Book of the Great Game*, second draft — *The Plan* (current best understanding) · `LIØNSBERG Wiki Books/The LIØNSBERG Strategy and Plan of Action` · lionsberg.wiki: The First Three Percent
 **Open:** The Timeline half is marked a draft and its first marker is already recorded as missed. · Nothing states what happens to someone who gives their word and names nobody, or who names three people none of whom are named by anyone else.

@@ -20,5 +20,4 @@ The rule is easy to apply in practice. When a page is made, name its volume befo
 **Stands on:** [[The Sacred Codex]] · [[One canonical home per concept]] · [[Lexicon · Pattern Language · Playbook]]
 **Opens onto:** [[Wiki Is Primary And Standalone]] · [[Disposition Categories]] · [[Progressive canonization]] · [[The Living Library]] · [[Link concepts, not coordinates]]
 **In play:** beyond
-**Sources:** The Sovereign Path, where each volume opens · lionsberg.wiki: *The Great Weaving — Concept Ledger*
 **Open:** the volume list itself is not settled — the home of one volume is claimed differently by two pages, and another is named with no file behind it. A rule that every page belongs to a volume needs the volumes to be agreed first.

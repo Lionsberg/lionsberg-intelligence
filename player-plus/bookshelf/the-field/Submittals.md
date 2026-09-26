@@ -20,5 +20,4 @@ Its rhythm is the turning. Submittals gather across the season, are read togethe
 **Stands on:** [[Proposal]] · [[Nucleus]] · [[Current Best Understanding]] · [[Continuous Improvement]]
 **Opens onto:** [[The edition]] · [[The Season Sheet]] · [[Curation]] · [[Knowledge as commons]] · [[Minimum standards of interoperability]] · [[Polycentric Implementation of Shared Solutions]] · [[Process (and the Process List)]] · [[LIØNSBERG Mission Control]]
 **In play:** Home · beyond — written at the table, read at the turning
-**Sources:** `Projects/the term pages/Nucleus.md` · `Submittals.md` (wiki root; three sentences, and those tied to one commercial platform) · `LIØNSBERG Mission Control.md` · `Process For Submittals`, on the process list · lionsberg.wiki: Submittals
 **Open:** The canon's own page describes the practice entirely in terms of one commercial platform and a trained project manager, which is the opposite of the paper floor everything else here assumes. · Nothing states who reads the gathered submittals, or by what standard one is adopted into an edition.

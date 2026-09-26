@@ -20,5 +20,4 @@ The canon names the principle clearly and leaves the mechanics thin — the Lexi
 **Stands on:** [[HoloFractal]] · [[Holarchy]] · [[Fractal]] · [[Sovereignty At Every Scale]] · [[Subsidiarity]]
 **Opens onto:** [[Total Nested Holarchy Of Sovereignties]] · [[Holofractal Omnifederation]] · [[Federation]] · [[Democratic Self-Governance Through Shared Agreements and Wise Eldership]] · [[Levels Of Scale]]
 **In play:** beyond — recognized the first time a player sits at a table one level up and finds it familiar
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II and §Key Terms · *Pillar II — Sacred Governance and Stewardship* · *Total Nested Holarchy of Sovereignties* (root page) · lionsberg.wiki: The LIØNSBERG Lexicon
 **Open:** No page of its own; the concept is carried by its neighbours. The field list itself judges *HoloFractal* to add little on its own beyond [[Holarchy]] and [[Fractal]] — kept because the governance pages compound it.

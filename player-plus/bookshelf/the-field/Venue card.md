@@ -20,5 +20,4 @@ Give every card an end: a date, or "when this jam closes". After that the agent 
 **Stands on:** [[Selectively Permeable Membrane]] · [[The door]] · [[Room]] · [[Agent]]
 **Opens onto:** [[Narrow]] · [[Widen]] · [[Authorized]] · [[Key]] · [[The open web]] · [[Safe sparring]] · [[Terms]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Part X · Player+ Modules, *Venue Cards*, *Before Your First Room* · lionsberg.wiki: *Selectively Permeable Membrane*, *Field of Agreements*.
 **Open:** none found.

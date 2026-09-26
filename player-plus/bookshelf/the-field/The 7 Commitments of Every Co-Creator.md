@@ -12,11 +12,10 @@ pillar: —
 
 It is load-bearing because it is the shortest complete answer to *what am I actually agreeing to*. A person can read it in a minute, weigh it honestly, and say yes or no with their eyes open — which is the only kind of yes worth anything ([[Consent]], [[The Invitation]], [[Field of Agreements]]).
 
-Its tone is deliberate, and the canon states it: these are not burdens but invitations, and what is offered alongside them is the tools, the guidance, and the company needed to keep them. A list of obligations handed to someone standing alone is a different document entirely ([[Mutual Aid]], [[ØNE Body]], [[The Force For Good]]).
+Its tone is deliberate: these are not burdens but invitations, and what is offered alongside them is the tools, the guidance, and the company needed to keep them. A list of obligations handed to someone standing alone is a different document entirely ([[Mutual Aid]], [[ØNE Body]], [[The Force For Good]]).
 
 **Also called:** the seven commitments
 **Stands on:** [[Field of Agreements]] · [[The Three Supreme Agreements]] · [[Consent]]
 **Opens onto:** [[The Invitation]] · [[The Pledge]] · [[Voluntary Tithing]] · [[The Offering]] · [[Pass The Flame]] · [[The Sacred Ascent]] · [[Federation]] · [[Minimum standards of interoperability]] · [[Welcome to LIØNSBERG]] · [[Cell]]
 **In play:** the door — read once, affirmed in one's own words
-**Sources:** `LIØNSBERG Wiki Blogs/Jordan Nicholas/The Seven Commitments of Every Co-Creator` (a mature articulation held in a blog folder; author's voice preserved) · lionsberg.wiki: Field of Agreements
-**Open:** It has no canonical home; the canon's own ledger records the promotion as pending. · Its fourth commitment fixes a number of hours a week, where the canon's own Offering says plainly that nobody sets your amount; the two are unreconciled.
+**Open:** It has no canonical home; the ledger records the promotion as pending. · Its fourth commitment fixes a number of hours a week, where the Offering says plainly that nobody sets your amount; the two are unreconciled.

@@ -22,5 +22,4 @@ Its mirror is worth naming with it, because this word gets used carelessly. The 
 **Stands on:** [[Perception]] · [[Fear]] · [[The Meta Crisis]]
 **Opens onto:** [[The Lahaina Principle]] · [[The 20-Risk-Factor Model]] · [[Confidence Intervals on Collapse]] · [[The Dashboard of Civilization]] · [[Ontological Shock]] · [[The Practice Cadence]] · [[Discernment]] · [[The Asymmetry of Consequences]]
 **In play:** the door — the thing a warning has to get past, including your own
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance…/3.2` and `4.12` (a 2023 AI dialogue) · `Most People Have No Idea What Is Coming` 3.2
-**Open:** Named as the twentieth risk factor and given a sentence; no mechanism or evidence is offered, and the term has a contested literature behind it the corpus does not engage. · Used in the sources mainly to explain why others disagree, which is the least honest use available.
+**Open:** Named as the twentieth risk factor and given a sentence; no mechanism or evidence is offered, and the term has a contested literature behind it that goes unengaged. · Used mainly to explain why others disagree, which is the least honest use available.

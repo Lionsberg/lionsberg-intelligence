@@ -18,5 +18,4 @@ What a Cell actually touches of this Pillar in its first season is small and con
 **Stands on:** [[ØNE]] · [[Value]] · [[Right Relationship]] · [[Commons]] · [[Capital Subordinate To Purpose]]
 **Opens onto:** [[Economy]] · [[The waterfall]] · [[Voluntary Tithing]] · [[LUV]] · [[TimeEnergy]] · [[The asset lock]] · [[Integrated Delivery]]
 **In play:** table · Home · beyond
-**Sources:** *Pillar III — Sacred Economy and CurrentSee* (the 12 Pillars book; canon-grade — summary, twelve theses, narrative) · *The LIØNSBERG Lexicon*, Pillar III table (canon-grade; titled *Sacred Economy* there) · *The DNA of Heaven*, Parts III and IV · lionsberg.wiki: Pillar III — Sacred Economy and CurrentSee
-**Open:** The Lexicon names this Pillar *Sacred Economy*; the Pillars book names it *Sacred Economy and CurrentSee*. The book's name is used here. *CurrentSee* itself has no page of its own anywhere in the corpus.
+**Open:** The Lexicon names this Pillar *Sacred Economy*; the Pillars book names it *Sacred Economy and CurrentSee*. The book's name is used here. *CurrentSee* itself has no page of its own anywhere.

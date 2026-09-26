@@ -20,5 +20,4 @@ What is unwritten here is substantial: the seven pattern cards of place, and [[I
 **Stands on:** [[Right Relationship]] · [[Living System]] · [[InterExistence]] · [[Earth]]
 **Opens onto:** [[Ecology]] · [[Bioregion]] · [[Regeneration]] · [[Living Systems Member]] · [[Kinship]]
 **In play:** table · Home · beyond
-**Sources:** *Pillar VI — Sacred Ecology and Living Systems* (canon-grade) · *The 12 Pillars of LIØNSBERG* · *The LIØNSBERG Lexicon*, Pillar VI table · lionsberg.wiki: *Pillar VI — Sacred Ecology and Living Systems*
 **Open:** The Pillar page titles its own theses *Sacred Ecology and InterBeing* while the hub and the Lexicon title the Pillar *Sacred Ecology and Living Systems*.

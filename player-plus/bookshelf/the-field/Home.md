@@ -20,5 +20,4 @@ Where it collides: in the wider world a home is a dwelling, and the Story says �
 **Stands on:** [[Home Cell]] · [[Cell]] · [[Belonging]] · [[Consent]]
 **Opens onto:** [[Supercell]] · [[The Playcard]] · [[The Circle Sheet]] · [[Welcome a Newcomer]] · [[The Way Out]]
 **In play:** Home
-**Sources:** `The Twelve Words` 10, in The Little Book of the Great Game (canon-grade) · `Home`, the term pages · The DNA of Heaven, Part V · lionsberg.wiki: The Twelve Words
 **Open:** The canon's `Home` draft predates this distinction and uses *Home* for the body that hears a Cell's season — the sense now carried by [[Home Cell]]. Read it as the older word.

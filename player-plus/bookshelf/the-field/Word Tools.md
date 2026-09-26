@@ -12,7 +12,7 @@ The practice began as a defence. In the old world the most important words a peo
 
 The working rule: **one working name per wisdom; the others honored as aliases.** When two names point at the same thing, one is chosen for use and the rest are kept and linked, so nobody's tradition is erased and nobody has to argue about spelling to be understood. When two similar names point at genuinely distinct wisdoms, both are kept, and the distinction is written down. *Sachchidananda*, *Logos*, and *Creator's Intent* are three faces of [[ØNE]] that three tongues made precise; none is the truth, and each points well from where its tradition stood.
 
-The names are scaffolding. They fall away when the Reality is met directly. This is why the canon keeps a word for the limit of words ([[The Ineffable]]) and a page for why every definition is a fingerpost ([[Essences, Renderings, And Ineffable Referents]]) — and why it can say of its own vocabulary that the word that can be named is not the thing.
+The names are scaffolding. They fall away when the Reality is met directly. This is why a word marks the limit of words ([[The Ineffable]]), and a page marks why every definition is a fingerpost ([[Essences, Renderings, And Ineffable Referents]]) — and why, of its own vocabulary, the word that can be named is not the thing.
 
 At the table this becomes simple: when two of us use a word we mean the same thing, and when we find we do not, we say so, and we fix the word rather than each other. Word Tools is what makes [[The Twelve Words]] a floor instead of a fence — the words come at the pace the road needs them, and there is no fixed number of them.
 
@@ -20,5 +20,4 @@ At the table this becomes simple: when two of us use a word we mean the same thi
 **Stands on:** [[ØNE]] · [[The Ineffable]] · [[A Word on Words]] · [[Truth]]
 **Opens onto:** [[Naming Forms]] · [[Lineage]] · [[Semantic Capture]] · [[The Twelve Words]] · [[On translating]] · [[Sachchidananda]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Word Tool* (canon-grade) · *THE DNA OF HEAVEN* Parts I and XII · lionsberg.wiki: Word Tool
-**Open:** The list names the concept plural (*Word Tools*); the canon page is singular (*Word Tool*).
+**Open:** The list names the concept plural (*Word Tools*); the root page is singular (*Word Tool*).

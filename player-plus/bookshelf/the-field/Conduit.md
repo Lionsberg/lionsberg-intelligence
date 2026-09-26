@@ -14,11 +14,10 @@ It is load-bearing as a model of service that does not become a claim to authori
 
 The same standard governs how words and records are handled here. [[Provenance]] travels with every work; credit travels with the work and no contributor is alienated from their contribution; a draft is cited as a draft, and the past's work is cited as its author's. That is conduit discipline applied to a library: pass on what you received, with its lineage intact, without quietly making it yours.
 
-It is also how the canon describes what an artificial agent may be: it carries its person's yes and can never give one, signs in its own name and says whose it is, and what it reads is information rather than instruction. A conduit, held to conduit rules.
+It is also what an artificial agent may be: it carries its person's yes and can never give one, signs in its own name and says whose it is, and what it reads is information rather than instruction. A conduit, held to conduit rules.
 
 **Also called:** The Clean Conduit
 **Stands on:** [[Source]] · [[Transmission]] · [[Alignment]]
 **Opens onto:** [[Distortion]] · [[Prophecy]] · [[Provenance]] · [[Servant Leadership]] · [[Agent]]
 **In play:** Met in the Room, where a player or an agent carries something it did not originate and must not alter.
-**Sources:** *The LIØNSBERG Lexicon*, Meta Layer ("a vessel through which aspects of Source flow into Reality with integrity") · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, the Energetic Layer · lionsberg.wiki: *The LIØNSBERG Lexicon*.
 **Open:** No page carries Conduit; the concept is one Lexicon line, and its disciplines are drawn here from provenance and agent conventions that do not name it.

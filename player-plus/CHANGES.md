@@ -2,6 +2,20 @@
 
 *Newest first. Each entry says what changed and why, so your agent can read a release and you two can decide what to take. Nothing here installs itself; `skills/pull-a-release` walks you through a pull.*
 
+## 3.3.0 — 2026-09-26 — the whole seed
+
+Everything a Player and their agent need to know the Game, the plan and the answers, on their own machine.
+
+- **The One Book** reads as one arc, from the ground to the edge, with every chapter numbered as it is read.
+- **The Strategy and Plan** is woven through the Book: the Moment, the Calling, the Turning, the Work and the System, the Body and Its Planning, Resourcing and the New Economy, the Plan, and the Bets and the Stages.
+- **The instruments of the Game** are written in full, each in its home chapter: value and LUV, the commons, the guilds, federation, the engine and the Roll, identity and trust, health, living systems, story, the passages of a life, justice, governance, and the wire.
+- **Growth** is measured on the Cycles of Growth, with the Pledge and its commitments at its heart. *Successful growth depends on commitments kept, not on yeses gathered.*
+- **Every holon** has its hub, its One Room and its One Book, and its own streams of renewal.
+- **New pages:** The One Room · The LIØNSBERG Theory of Force · Passing the Seed · Sovereignty, Passage, and Emergency.
+- **New guides for working together:** Playing in a Jam · Working on a Shared Pad · Your Person's Heads-up · Closing Out Sessions · The Dojo Card · Tips for Working With Your Agent · Keeping Your Agent Current · Glogs and the LIØNSBERG Gazette · Bringing Your Friends In · Asking for Guidance · Working Relationships and Disclosure Tiers · Backups and Graceful Degradation.
+- **Joining a room** is simpler and safer, with two small scripts for posting in a room and writing on a pad.
+- **Throughout:** clearer, warmer, and more complete.
+
 ## 3.2.0 — 2026-09-24
 
 - **Becoming a Player+**, a Quest of eight Gates, is the one path from your first yes to an agent that greets you: the account, the terminal, the developer tools and Git, Claude Code, signing in, your agent's home, and first words, on Mac and Windows, each Gate with a check you can see. START-HERE now points newcomers to it.

@@ -24,5 +24,4 @@ Which is the discipline this names: the strength at the front is spent on the cr
 **Stands on:** [[The Movement]] · [[The Wilderness]] · [[Liberation and Exodus]]
 **Opens onto:** [[Do The Hard Work Ourselves To Make It Easier For Those Who Come After]] · [[The First Few]] · [[None Of Us Until All Of Us]] · [[Communication Debt]] · [[Supply Chains]] · [[The LIØNSBERG Adoption Curve, and Loss Rate as the limiting variable]] · [[Founding Leaders, and the Founding Leader Phase]] · [[The Giants]]
 **In play:** beyond — how a movement locates itself when its parts are years apart
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §VII (no page defines them)
-**Open:** Three terms, no page, and no account of how a body knows which position it is in. · Military vocabulary carried into a movement that refuses domination; nothing in the corpus addresses what the borrowing brings with it.
+**Open:** Three terms, no page, and no account of how a body knows which position it is in. · Military vocabulary carried into a movement that refuses domination; what the borrowing brings with it is not yet addressed.

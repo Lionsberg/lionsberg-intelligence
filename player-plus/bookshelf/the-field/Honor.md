@@ -20,5 +20,4 @@ It is also given, not only earned. To honor another — the elders, the ancestor
 **Stands on:** [[Integrity]] · [[Truth]] · [[Commitment]] · [[Dignity]]
 **Opens onto:** [[Trust]] · [[A word given is a word kept]] · [[The gap]] · [[Wise Eldership]] · [[Covenant Across Time]] · [[Reverence]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *Pillar X — Sacred Guardianship and Order*, the narrative on choosing guardians (canon-grade) · *The LIØNSBERG Operating System v0* §18.7 · the seed's Part XI, the Values. lionsberg.wiki: Honor.
-**Open:** One Lexicon line, no page. Nothing in the corpus separates honor from [[Integrity]], and the two entries could reasonably be folded into one concept.
+**Open:** One Lexicon line, no page. Nothing yet separates honor from [[Integrity]], and the two entries could reasonably be folded into one concept.

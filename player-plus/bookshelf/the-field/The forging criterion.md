@@ -22,5 +22,4 @@ The criterion is the instrument-level form of what [[The Architecture Of A Way]]
 **Stands on:** [[The Architecture Of A Way]] · [[Learning By Doing]] · [[Pattern]] · [[Play]] · [[Embodiment]]
 **Opens onto:** [[The Forge]] · [[One tool, every scale]] · [[The LIØNSBERG Toolkit]] · [[Instrument]] · [[Quality]] · [[Plays Are Riffs; Patterns Are The Notes]] · [[Shu-ha-ri]] · [[The Zone Of Optimum Development]] · [[Just in time]] · [[Design]] · [[Prototype]]
 **In play:** wherever an instrument is designed, and whenever one is judged
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG System Toolkit/The LIØNSBERG Toolkit.md`, §The Instruments and the Music · `The LIØNSBERG Pattern Language` · `The LIØNSBERG Playbook`
 **Open:** The criterion names a test and nothing names how to run it; no page says who judges a tool well-forged, or at what point in real play. · Whether an instrument that fails the criterion should be repaired or withdrawn is unstated, and the corpus carries several tools that predate the criterion and have never been measured against it.

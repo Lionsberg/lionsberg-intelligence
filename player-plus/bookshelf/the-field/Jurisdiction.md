@@ -14,11 +14,10 @@ It is load-bearing in two directions at once. Without a stated edge, bodies reac
 
 In the Game jurisdiction is set by the same act that creates a body: sovereigns associate, a [[Domain]] appears, a [[Selectively Permeable Membrane]] bounds it, and a [[Field of Agreements]] says what the members have given the body leave to decide. Anything outside that is a [[Proposal]], a request, or an offer — never an instruction. When a matter genuinely spans two bodies, it goes to the smallest table that contains both, which is [[Subsidiarity]] doing its work.
 
-The canon holds jurisdiction as a Lexicon definition rather than a developed practice; how disputes over jurisdiction are actually settled between neighbouring bodies is named across the corpus but not yet written. Treat what follows from the definition as sound and the procedure as unbuilt.
+Jurisdiction is held as a Lexicon definition rather than a developed practice; how disputes over jurisdiction are actually settled between neighbouring bodies is named but not yet written. Treat what follows from the definition as sound and the procedure as unbuilt.
 
 **Also called:** scope · bounds
 **Stands on:** [[Domain]] · [[Authority]] · [[Subsidiarity]] · [[Field of Agreements]] · [[Logos]]
 **Opens onto:** [[Mandate]] · [[Selectively Permeable Membrane]] · [[Arbitration]] · [[Adjudication]] · [[Federation]] · [[Proportionality]]
 **In play:** table — the first question asked of any proposal that touches another body
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Domains of Responsibility and Authority* · *The LIØNSBERG Operating System* §15 · lionsberg.wiki: The LIØNSBERG Lexicon
 **Open:** No root page exists for Jurisdiction; the term lives only as one Lexicon row.

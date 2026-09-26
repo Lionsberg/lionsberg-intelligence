@@ -20,5 +20,4 @@ Use the word to meet someone where they are. Do not build on it.
 **Stands on:** [[Economy]] · [[Value]] · [[Capital Subordinate To Purpose]]
 **Opens onto:** [[The asset lock]] · [[The waterfall]] · [[Commons]] · [[FSx]] · [[Extraction Of Wealth]] · [[Underwriting The New Economy]]
 **In play:** beyond
-**Sources:** *Post-Capitalist* (wiki root; stub — three lines quoted from Open Civics, no LIØNSBERG articulation) · *Pillar III — Sacred Economy and CurrentSee* (canon-grade — the substantive position) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Post-Capitalist
 **Open:** The concept field's own first pass judged this row **not load-bearing** and proposed excluding it, on the ground that *Capital Subordinate To Purpose* and the waterfall carry the substance. The page is written as a bridge term and should be removed if nothing comes to depend on it.

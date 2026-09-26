@@ -16,11 +16,10 @@ The accountability it proposes is citizen-led rather than institutional: oversig
 
 And the last move is the one most such frameworks never make: make it playable. If the relation between what a household spends its time on and what results can be modelled and shown, then a child can see it — and a goal-set that only a ministry can read is not a goal-set for everyone ([[The Great Game]], [[The Board]], [[The grandmother test]], [[Conditions of Acceptance]]).
 
-**The goals themselves are not enumerated anywhere in the corpus.** What exists is the design of a framework and the argument for it; the set it would contain has not been written, and no indicator has been specified ([[Gaps Not Yet Closed]], [[Work In Progress]], [[We Do Not Know]]).
+**The goals themselves are not enumerated anywhere.** What exists is the design of a framework and the argument for it; the set it would contain has not been written, and no indicator has been specified ([[Gaps Not Yet Closed]], [[Work In Progress]], [[We Do Not Know]]).
 
 **Also called:** the IDGs
 **Stands on:** [[The Goal]] · [[Design To The Goal]] · [[Measure everything, manage to the milestones]]
 **Opens onto:** [[Throughput]] · [[Pillars of Society]] · [[The 12 Pillars as the Work Breakdown Structure]] · [[The Record]] · [[Monitoring, Evaluation, and Continuous Improvement]] · [[Integrated Delivery]] · [[The Dashboard of Civilization]] · [[The Great Game]]
 **In play:** beyond — the frame a locality would measure itself against
-**Sources:** `LIØNSBERG Wiki Books/Beyond The Meta Crisis/16.5.10 A Measurable and Accountable Way To Bring Heaven to Earth.md` and `16.5.8`
 **Open:** No goals, no indicators, no thresholds — the framework exists and its contents do not. · The chapter's own file name and its heading differ. · It proposes real-time gathering of information on human and environmental conditions and a bounded system controlling who may use the tools; both raise questions about consent and about who decides, and neither is addressed.

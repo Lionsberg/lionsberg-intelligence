@@ -20,5 +20,4 @@ Without it, Cells work in isolation, Quests do not aggregate, effort is duplicat
 **Stands on:** [[Twelve Irreducible Elements]] · [[Value]] · [[Throughput]] · [[One Purpose Above All]]
 **Opens onto:** [[The Pattern of Production]] · [[Networks of Commitments]] · [[Tightly Coupled Learning and Action]] · [[Design To The Goal]] · [[Flow]] · [[The Meta Project]] · [[The LIØNSBERG Operating System]]
 **In play:** table · Home · beyond
-**Sources:** *Integrated Delivery* (wiki root; canon-grade — the ninth element, the evidence, why irreducible) · *Twelve Irreducible Elements* and *The Core Pattern* (canon-grade) · *The LIØNSBERG Lexicon*, Pillar III (canon-grade; one line) · *The Program Delivery Guide* (the cited research) · *The DNA of Heaven*, Part VII · lionsberg.wiki: Integrated Delivery
 **Open:** The Lexicon files Integrated Delivery under Pillar III (economy); the Core Pattern files it under the Pattern of Production. Both are true; the concept straddles the partition.

@@ -22,5 +22,4 @@ It is cheap, which is why it is easy to skip, and it is the first thing to go wh
 **Stands on:** [[Mastery Of Emotions]] · [[Reciprocity]] · [[The Daily Way]]
 **Opens onto:** [[The Turn]] · [[The Offering]] · [[Joy]] · [[Awe]] · [[Lineage]] · [[Attribution]] · [[Celebration]] · [[The Benediction]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Daily Way* (Card, written) · *THE DNA OF HEAVEN* Parts V and VIII · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** none found

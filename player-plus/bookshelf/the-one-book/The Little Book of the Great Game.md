@@ -34,7 +34,7 @@ Not a summary of it, not an advertisement for it, not the first chapter of somet
 
 Somebody handed you this. That is the only way it moves. There is no broadcast, no campaign, no centre, no office, no membership, nothing to join and nobody to apply to. Someone who knows you thought you were ready, and they were probably right.
 
-What is being asked of you is small and it is real: read this, say out loud whether you will play, name the two or three people you would most trust to help lead your community through what is coming, and hand this book on to the people you love. Everything else follows from that, and none of it can be done for you.
+What is being asked of you is small and it is real: read this, say out loud whether you will play, name the three people you would most trust to help lead your community through what is coming, and hand this book on to the people you love. Everything else follows from that, and none of it can be done for you.
 
 We are working toward this December's solstice. Not because a date is magic, but because the hour is late, the old world's clocks are not ours to read, and a people that has not found itself before the heavy weather has to find itself in it.
 
@@ -280,7 +280,7 @@ A chorus simple enough for any child to sing
 > *PLAY THE GAME*
 > *PASS THE FLAME*
 > *Pierce The Darkness*
-> *And We'll Walk Each Other Home*
+> *And We will Walk Each Other Home*
 
 THE SONG is the WHISPER
 You sing it low, under your breath, as you walk out
@@ -351,7 +351,7 @@ Here is the plan. It is not complicated.
 
 Every person on Earth, invited by someone they trust. Not by a broadcast. By a hand.
 
-**Why three in a hundred.** Three in every hundred is enough to turn a people — three hundred in every ten thousand, and a few hundred million on Earth. When that many are awake, connected, and playing, the rest of a people follows the way water follows a channel already cut. It has happened before, in smaller worlds and smaller times. It has not yet happened at the scale of a world. ([[Tipping Point Strategy]].)
+**Why three in a hundred.** Three in every hundred is enough to turn a people — three hundred in every ten thousand, and two hundred and fifty million on Earth. When that many are awake, connected, and playing, the rest of a people follows the way water follows a channel already cut. It has happened before, in smaller worlds and smaller times. It has not yet happened at the scale of a world. ([[Tipping Point Strategy]].)
 
 **Who they are.** They are not chosen by any centre. They are called out by the people who know them best: the ones you have watched carry a hard thing faithfully, the ones you would trust to lead your street, your village, your town through what is coming.
 
@@ -360,8 +360,8 @@ Every person on Earth, invited by someone they trust. Not by a broadcast. By a h
 1. **Read this book.** An hour, or an evening at a table with people you love.
 2. **Give your word, in your own words, where someone can hear it:** *I will play.* Nobody is governed who has not agreed, and silence is never a yes.
 3. **Write your line** — your name as you choose it, the date, the word you gave, who brought you, who witnessed — in your own book. It goes on a Cell's [[The Roll|Roll]] the night a table hears you say it, not before.
-4. **Name your two or three, when you are ready — soon, not someday.** The people you would most trust to help lead your community through what is coming. Not family by default. Not the famous. Not the loud. The faithful — people you have watched navigate hardship. You cannot name yourself, and anyone campaigning to be named has disqualified themselves by campaigning. If you cannot think of three, the work is to go find them.
-5. **When you are ready, give this book to someone you trust,** whole, so they can do the same. Not a pitch, and not a broadcast.
+4. **Name your three, within two days.** The people you would most trust to help lead your community through what is coming. Not family by default. Not the famous. Not the loud. The faithful — people you have watched navigate hardship. You cannot name yourself, and anyone campaigning to be named has disqualified themselves by campaigning. If you cannot think of three, the work is to go find them.
+5. **When you are ready, give this book to someone you trust,** whole, so they can do the same. Not a pitch, and not a broadcast. You do not wait for your Cell to mature; you may begin now.
 
 That is all, and the rest follows from it. When three people have named the same person, that person receives [[The Invitation|the Invitation]] — this book, carried by the hands that named them.
 
@@ -369,9 +369,9 @@ That is all, and the rest follows from it. When three people have named the same
 
 **What you become is a Player.** Not appointed, not approved, not admitted. Entered. ([[Player]].)
 
-**Those who accept form a Cell.** Three to thirteen people who choose to walk together, by name — best at four to seven. A [[Circle (as gathering)|Circle]] is a gathering: people who have met, who like each other, who have promised nothing. A **Cell** is a Circle that plays: it has agreed out loud how it will treat one another, it holds a Quest, it keeps a week, it passes the Flame. The Circle is the form; the Cell is the function. Holding the two words apart keeps *Cell* meaning something a stranger can rely on, and keeps the door of *Circle* wide, so that nobody has to promise a season before they have had an evening.
+**Those who accept form a Cell.** Three to thirteen people who choose to walk together, by name — optimally four to seven. A [[Circle (as gathering)|Circle]] is a gathering: people who have met, who like each other, who have promised nothing. A **Cell** is a Circle that plays: it has agreed out loud how it will treat one another, it holds a Quest, it keeps a week, it passes the Flame. The Circle is the form; the Cell is the function. Holding the two words apart keeps *Cell* meaning something a stranger can rely on, and keeps the door of *Circle* wide, so that nobody has to promise a season before they have had an evening.
 
-**By when.** We are working toward the December solstice — about ninety days from the day the Game opens. Because the hour is late. The door does not close behind anyone, and nobody is refused for arriving later.
+**By when.** We are working toward the December solstice — about ninety days from the day the Game opens. Because the hour is late. We do everything in our power to be three in a hundred by then — Cycle 40 of the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]] — and we measure where we are daily: the ring we stand on and days per ring, against [[29 The Plan — the first three percent#The chart|the chart]]. The door does not close behind anyone, and nobody is refused for arriving later.
 
 **Why this way.** Broadcasts gather watchers. Hands gather workers. The ones who should lead are known to their own, not to us. And a people that has called out its own leaders cannot be beheaded, bought, or fooled by anyone naming leaders for it.
 
@@ -427,11 +427,11 @@ When two moves both pass, the older players ask a second question: *Is this the 
 
 ### The five moves, at the table
 
-1. **[[Form a Cell]].** Three to thirteen people who choose to walk together, by name, and best at four to seven. Give it a name. Agree, out loud, how you will treat each other. Two of you host each season, and the hosting passes around. At thirteen a Cell divides into two, the way a cell does, and both go on.
+1. **[[Form a Cell]].** Three to thirteen people who choose to walk together, by name, and optimally four to seven. Give it a name. Agree, out loud, how you will treat each other. Two of you host each season, and the hosting passes around. At thirteen a Cell divides into two, the way a cell does, and both go on.
 2. **[[Choose a Quest]].** One real thing, for one season, that your Cell can do together and point to afterward. Real, near, and yours.
 3. **Learn and grow.** Each week, each of you says what you will do. The next week, each says whether you did it, and what you learned from the difference. That is the whole discipline of the Game: *say what you will do; do what you said; learn from the gap.*
 4. **[[Share the Stories|Share your stories]].** Every Quest becomes a [[Story|story]], and the story travels further than you can.
-5. **[[Pass The Flame]].** Each of you carries the Game to the two or three people you know are ready, within a week. They form their own Cell, not a branch of yours. Then there are two Cells, and the fire is loose in the world.
+5. **[[Pass The Flame]].** Each of you carries the Game to your three — people not already playing, whom you know are ready — within three days. Three is the least, never the most. They form their own Cell, not a branch of yours. Then there are two Cells, and the fire is loose in the world.
 
 Those are [[The Five Moves|the five]] anyone can start with tonight.
 
@@ -486,7 +486,7 @@ When a member is in danger, in body or in mind, the Cell acts first and records 
 
 ### What the Game asks of you
 
-At the least: come to the table each week; say what you will do and do it, or say why not; put something in the middle; tell one story a season; carry the Flame to two or three.
+At the least: come to the table each week; say what you will do and do it, or say why not; put something in the middle; tell one story a season; carry the Flame to your three.
 
 More is welcome and is never required. Nothing binds without your own word, and your word is the whole Game.
 
@@ -506,17 +506,17 @@ The Flame is not a document, a programme, or a campaign. It is the Game itself, 
 
 **The law.** If your Cell gathers, grows, and serves but never passes the Flame forward, the movement dies with you — not as a punishment, but as the nature of living things. The fruit of the tree contains new seeds. A pattern that is not passed forward is a pattern that has not yet been fully received. And fire has a property nothing else has: when you share it, you do not diminish your own. **The Flame grows by being given away.**
 
-**Within seven days.** Within a week of receiving this yourself, pass it on. Do not wait until your Cell is perfect, or until you feel qualified, or until you have all the answers. The naming begins in your *first gathering*, not later: before that first gathering is over, name your two or three and write the names down. If the week has already passed, begin where you are. The door does not close.
+**Within three days.** Within three days of your own yes, pass it on: your three say yes within three days, and then each of their three-day clocks begins. Do not wait until your Cell is perfect, or until you feel qualified, or until you have all the answers. The naming begins in your *first gathering*, not later: before that first gathering is over, name your three and write the names down. If the days have already passed, begin where you are. The door does not close.
 
-**The two or three.** You are not looking for people to convince. You are looking for people who are already awake — who already sense the urgency of this hour, already feel something shifting, already search for others who understand, already carry gifts they long to offer. They do not need to be persuaded. They need to be found. When you hand it to them, the resonance will be immediate, or it will not be. Both outcomes are right. **Attraction, not promotion. Always.**
+**Your three.** Three is the minimum, never a cap: if you know more of the wise right people, keep inviting them. And for the first three percent the first passing is crucial — bringing in your three, not already playing, is part of what makes you count as a Player. You are not looking for people to convince. You are looking for people who are already awake — who already sense the urgency of this hour, already feel something shifting, already search for others who understand, already carry gifts they long to offer. They do not need to be persuaded. They need to be found. When you hand it to them, the resonance will be immediate, or it will not be. Both outcomes are right. **Attraction, not promotion. Always.**
 
 **What you hand them.** The whole of it — not a summary, not a pitch. Tell them the Story in your own voice, as it was told to you. Tell them your own story: what your Cell has done and what it has meant. Sit with them for their first week if they ask. What you say when you hand it over can be as plain as this: *here is a story, here is a game, and here is a flame.*
 
 **Their Cell is their own.** Not a branch of yours, not a sub-committee: a new, complete, self-governing expression of the pattern, in their own voice, their own people, their own place. But you are their **Carrier** — the one who brought them the Flame, and that never changes. And your Cell is their first **Home**: the body that hears their season, keeps a copy of their sheets, and helps when something is wrong. Then the two Cells begin to coordinate, and when three or more have become one another's home, they are a supercell.
 
-**The double helix.** Every person in a Cell is also part of a second Cell — the one they form with the two or three they invite. You are the link between the Cell that received you and the Cell you will birth, and you carry the full pattern in both. That is not delegation and it is not recruitment. It is the oldest pattern of life: a living thing reproducing itself.
+**The double helix.** Every person in a Cell is also part of a second Cell — the one they form with the three they invite. You are the link between the Cell that received you and the Cell you will birth, and you carry the full pattern in both. That is not delegation and it is not recruitment. It is the oldest pattern of life: a living thing reproducing itself.
 
-**The arithmetic.** One becomes two, two become four, four become eight — a week or two per cycle, each player carrying to at least one more. Doubling is patient at first and then it is not. The arithmetic is an assumption and not a measurement, and it says only this: if the Flame is passed faithfully and quickly, nothing else is needed. **Propagate; do not scale.** Nothing grows by making the centre larger. One Cell planting the next is the only mechanism that ever could.
+**The arithmetic.** The body grows on the rings of the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]] — one, two, three, five, eight, thirteen, each ring the sum of the two before — and the rings are the measure: the ring we stand on and days per ring, read daily. For the first three percent the tactic that moves the body through them is your three, people not already playing, within three days; three is the minimum, never a cap. Each generation of three moves the body about two and a quarter rings. Growth is patient at first and then it is not. The arithmetic is an assumption and not a measurement, and it says only this: if the Flame is passed faithfully and quickly, nothing else is needed. **Propagate; do not scale.** Nothing grows by making the centre larger. One Cell planting the next is the only mechanism that ever could.
 
 You know who they are. You have the Flame, you have this book, and you have your own living experience of what a table can be. **That is enough.**
 
@@ -664,9 +664,9 @@ What belonged to the table stays with the table. The Offering that gathered ther
 
 **The Values.** Truth · Love · Justice · Stewardship · Wisdom — and beneath them, the one that makes the Game possible: *a word given is a word kept, or a gap learned from, without blame.*
 
-**The Strategy.** Call out the first three percent by the trust of their own people. Form them into Cells that live. Let the Cells do real work, season by season, and tell what happened. Let every Cell plant the next. Fund the early seasons from our own tables. Hospice the old world rather than fight it — a body that contests power becomes a faction and inherits a faction's enemies; a body that builds gets to keep taking people in from every side of every quarrel. Build the new alongside, so that everyone has somewhere to go. Steward the world rather than own it.
+**The Strategy.** Call out the first three percent by the trust of their own people. Form them into Cells that live. Let the Cells do real work, season by season, and tell what happened. Let every Player, when ready, plant the next. Fund the early seasons from our own tables. Hospice the old world rather than fight it — a body that contests power becomes a faction and inherits a faction's enemies; a body that builds gets to keep taking people in from every side of every quarrel. Build the new alongside, so that everyone has somewhere to go. Steward the world rather than own it.
 
-**The Timeline.** The Game opens at the September equinox of 2026. The first three percent — nominally two hundred and fifty million people, gathered by the arithmetic of life, one, one, two, three, five, eight, each Cell passing the Flame to the next — connected and empowered as early as we are able; the December solstice of 2026 is the first marker on that road, not its end. Everyone who desires, invited — reached by a hand and not by a broadcast — by 2030. About three years of formation for each. The Covenant, and the greatest celebration and [[Jubilee]] in history, at the December solstice of 2033, or the day the last cohort has crossed. Then twenty years to regenerate the Earth, and after that the Story continues, into worlds and ages we will not see. ([[The Timeline]].)
+**The Timeline.** The Game opens at the September equinox of 2026. The first three percent — two hundred and fifty million people, gathered from eight Players, every new Player bringing their three — people not already playing — as their first passing of the Flame, aiming within three days of their own yes ([[29 The Plan — the first three percent#The chart|the chart]]) — connected and empowered by the December solstice of 2026, the first marker on that road and not its end; we do everything in our power to meet it, and measure where we are daily on the rings of the Cycles of Growth. After the first three percent, the Flame passes to the wise right people at the wise right time, as they awaken and are ready. Everyone who desires, invited — reached by a hand and not by a broadcast — by 2030. About three years of formation for each. The Covenant, and the greatest celebration and [[Jubilee]] in history, at the December solstice of 2033, or the day the last cohort has crossed. Then twenty years to regenerate the Earth, and after that the Story continues, into worlds and ages we will not see. ([[The Timeline]].)
 
 Two things about every date here, said plainly. A **marker** is a date the sky gives — a solstice, an equinox. It arrives whether or not anything is finished, and nobody can move it. A **milestone** is a date the work gives — a thing finished, to a stated quality, by a day a particular person gave their word for. When a marker passes and the work is not done, we say so plainly, find out why, and redraw the plan *before* moving any date. What kills a plan is never lateness; it is quietly moving the end date so that nobody notices ([[Honesty about time]]).
 
@@ -698,7 +698,7 @@ THE FIVE MOVES
 2  Choose a Quest     one real thing, this season
 3  Learn and grow     say it · do it · learn from the gap
 4  Share your stories
-5  Pass the Flame     to the two or three who are ready
+5  Pass the Flame     to your three who are ready
 
 ANYONE MAY SAY STOP.
 

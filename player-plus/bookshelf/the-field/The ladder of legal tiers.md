@@ -20,5 +20,4 @@ When a body does meet the old world, the shape it reaches for is a fractal sover
 **Stands on:** [[Voluntary Association]] · [[Sovereignty]] · [[Consent]]
 **Opens onto:** [[FSx]] · [[The asset lock]] · [[The six capitals]] · [[The Community Company]] · [[Constitutional Protection Of Purpose]] · [[Jurisdiction]] · [[Private Ecclesiastical Voluntary Membership Association]] · [[Legitimacy]]
 **In play:** beyond the table — chosen when a body first meets law or money
-**Sources:** *The DNA of Heaven*, Part IV, §The Community Company and §The legal form (the ladder is named among the instruments under Pillar II) · `The LIØNSBERG Community Guidebook`, Step 2 · `Fair Shares Commons` (wiki) · lionsberg.wiki: Sovereignty
 **Open:** The tiers above Tier 0 are referred to as a ladder and nowhere enumerated. · The legal vehicle is recorded as still under review by counsel at the time of writing, and no jurisdiction's form has been settled.

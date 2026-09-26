@@ -20,5 +20,4 @@ Its outward face is structural and local. Guardianship is decentralized: communi
 **Stands on:** [[Justice]] · [[Right Relationship]] · [[Logos]] · [[Love]]
 **Opens onto:** [[Guardianship]] · [[Order]] · [[Warrior]] · [[The Sacred Use Of Force]] · [[Boundary]] · [[Peace]] · [[Integrity]]
 **In play:** the door · the table · beyond
-**Sources:** *Pillar X — Sacred Guardianship and Order* (canon-grade) · *The 12 Pillars of LIØNSBERG* hub (canon-grade) · *The LIØNSBERG Lexicon*, Pillar X table · *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · the seed's Part III. lionsberg.wiki: Pillar X — Sacred Guardianship and Order.
 **Open:** The Pillar page titles its own thesis list *Sacred Security and Proper Order* while the page and the Lexicon are titled *Sacred Guardianship and Order*. The Pillar's named instrument in the seed is the Sacred Warrior's guidebook, which does not exist as a written volume.

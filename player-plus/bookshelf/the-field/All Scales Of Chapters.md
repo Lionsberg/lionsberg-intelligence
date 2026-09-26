@@ -20,5 +20,4 @@ The consequence for anyone feeling small: there is no scale at which participati
 **Stands on:** [[The Story of LIØNSBERG]] · [[HoloFractal]] · [[Levels Of Scale]] · [[Holarchy]]
 **Opens onto:** [[Share the Stories]] · [[Your Story Woven Into Meta Story]] · [[Storytelling]] · [[The Great Story]] · [[Pass The Flame]] · [[Co-Creation]] · [[The 144 Gates of Initiation]]
 **In play:** the table — whenever a Circle tells where it has been
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/All Scales Of Chapters.md` (Card, settled)
-**Open:** The Card's scale list is one of several enumerations of scale in the corpus and does not match the locality ladder the field carries elsewhere. · Nothing says who, if anyone, keeps the composing — whether chapters gather somewhere or only exist where they are told.
+**Open:** This scale list is one of several enumerations of scale and does not match the locality ladder the field carries elsewhere. · Nothing says who, if anyone, keeps the composing — whether chapters gather somewhere or only exist where they are told.

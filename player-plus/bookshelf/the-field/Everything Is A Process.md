@@ -20,11 +20,10 @@ Naming something a process is a small, unglamorous move with four consequences, 
 
 **It becomes measurable.** Where the work repeats, the gap between what was intended and what happened can be seen, and the flow through it can be watched for [[Waste]] and [[Constraint]].
 
-The danger the claim carries is bureaucracy, and the corpus answers it in one line: write only the vital few, keep each to a page, hold them all as [[Current Best Understanding]] rather than as law. The purpose is never a manual; it is that a body under pressure reaches for something of its own rather than for the habits of the old world.
+The danger the claim carries is bureaucracy, answered in one line: write only the vital few, keep each to a page, hold them all as [[Current Best Understanding]] rather than as law. The purpose is never a manual; it is that a body under pressure reaches for something of its own rather than for the habits of the old world.
 
 **Also called:** everything is a process · the process half
 **Stands on:** [[Everything Is A Project]] · [[Continuous Improvement]] · [[Current Best Understanding]] · [[Quality]]
 **Opens onto:** [[Our Core Ways]] · [[Protocol]] · [[Value Stream Mapping]] · [[Waste]] · [[Theory Of Constraints]] · [[Make-Ready Process]] · [[Measurement]] · [[Every Defect Is A Gift]] · [[Improvement log]] · [[A3 Reports]] · [[Plans and Specifications]]
 **In play:** table · Room · Home
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG System Toolkit/Everything Is A Process.md` (stub — the page is four lines and three links to templates that carry the body it lacks) · `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/Our Core Ways.md` · `Everything Is A Project`
-**Open:** The canon states the claim in one sentence and then points at three process templates; the reasoning on this page is drawn from *Our Core Ways* and from the lean disciplines the corpus carries elsewhere, not from a written treatment under this title. · The field carries the project half twice and carried the process half nowhere.
+**Open:** The claim is stated in one sentence elsewhere, pointing at three process templates; the reasoning on this page is drawn from *Our Core Ways* and from the lean disciplines carried elsewhere, not from a written treatment under this title. · The field carries the project half twice and carried the process half nowhere.

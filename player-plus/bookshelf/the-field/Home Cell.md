@@ -16,9 +16,8 @@ What a home does each turning is ordinary and specific. It receives one card fro
 
 The [[Carrier]] never changes; the home can. A Cell may leave one home for another with the new body's [[Consent]], and re-homing is written down with its date, so the address changes and the history does not. *Home* alone is a different word: your own place inside your Home Cell ([[Home]]).
 
-**Also called:** your first · the body that hears your season
+**Also called:** your first Home (retired name) · the body that hears your season
 **Stands on:** [[Cell]] · [[Carrier]] · [[The Flame]] · [[Consent]] · [[Trust]]
 **Opens onto:** [[Home]] · [[Supercell]] · [[Cell of Cells]] · [[The Season Sheet]] · [[The Way Up]] · [[The Return]] · [[Midwife a New Circle]] · [[The Escalation Ladder]]
 **In play:** Home
-**Sources:** `The Twelve Words` 10, in The Little Book of the Great Game (canon-grade) · `Home`, the term pages · The LIØNSBERG Operating System §17 · The DNA of Heaven, Part V · lionsberg.wiki: The Twelve Words
-**Open:** No canon page yet stands at the name *Home Cell*; the meaning lives in the Twelve Words and in the older `Home` draft. · `OS` §17 still calls the body above a Cell a *ring*.
+**Open:** No page yet stands at the name *Home Cell*; the meaning lives in the Twelve Words and in the older `Home` draft. · `OS` §17 still calls the body above a Cell a *ring*.

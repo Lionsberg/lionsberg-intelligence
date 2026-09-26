@@ -20,5 +20,4 @@ The floor is the practical answer, and it is old: everything essential degrades 
 **Stands on:** [[Sovereignty]] · [[Sovereignty At Every Scale]] · [[Technology]] · [[Withdrawal Of Consent]]
 **Opens onto:** [[Surveillance]] · [[Interoperability]] · [[Notebook form]] · [[Screens and paper]] · [[Key]] · [[Hosted service]] · [[The turnings]]
 **In play:** the table · the Room · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Technology Assessment And Sovereignty (ore — named, no bodies written) · *Pillar VIII — Sacred Science and Technology* (canon-grade) · the Player+ Modules on keys and hosted services · the seed's Part VII and Part XII. lionsberg.wiki: Technology Sovereignty.
 **Open:** Every name in this family is ore: listed in the gap register with no page behind it. The Pattern Language itself asks whether food, energy, communications, and transport should each be treated together with their sovereignty as one concern, and leaves the question open.

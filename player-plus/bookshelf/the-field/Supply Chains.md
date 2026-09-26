@@ -20,5 +20,4 @@ The repair is not autarky, which is poverty by another name. It is knowing the l
 **Stands on:** [[Economy]] · [[Constraint]] · [[Throughput]] · [[Infrastructure]]
 **Opens onto:** [[Theory Of Constraints]] · [[Critical Path]] · [[Flow]] · [[Anti-Fragility]] · [[Manufactured Dependency]] · [[Bioregion]] · [[Fostering Ecosystemic Resource Flows]] · [[Technology Sovereignty]] · [[Pillar III — Sacred Economy and CurrentSee]]
 **In play:** the Room and beyond, when a body maps what it actually depends on; and the plan, when a line of supply turns out to be the binding constraint
-**Sources:** `Supply Chains` (root page, stub — two lines, linking the concept to the critical chain and to Throughput of the Goal) · `Theory Of Constraints`, `Throughput` (root pages) · lionsberg.wiki: Supply Chains
 **Open:** The root page is a pointer, not a treatment; everything above beyond the critical-chain link is synthesis from general understanding and from the surrounding canon. · The canon spells the neighbour term *Critical Chain*, which the Field's path vocabulary distinguishes from [[Critical Path]]; the stub uses them interchangeably.

@@ -20,5 +20,4 @@ In play, a [[Cell]]'s first agreement is usually spoken before anything is writt
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Logos]] · [[Truth]]
 **Opens onto:** [[Field of Agreements]] · [[Covenant]] · [[Law]] · [[Commitment]] · [[Mutual Consent]] · [[Decision Records]]
 **In play:** table — made in the first hour, revisited every season
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Template For Agreement With One And All - Temporal* · *Domains of Responsibility and Authority* (root page; make agreements explicit so they can be improved) · *THE DNA OF HEAVEN* Parts IV–V · lionsberg.wiki: Template For Agreement With One And All - Temporal
 **Open:** The only dedicated canon artefact is a template, not an articulation; *Agreement* has no page of its own.

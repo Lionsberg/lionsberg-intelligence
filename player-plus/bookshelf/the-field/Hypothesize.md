@@ -20,5 +20,4 @@ The habit travels beyond agents. Any change to how a Cell works can be stated th
 **Stands on:** [[Agent engineering]] · [[Tightly Coupled Learning and Action]] · [[Set-up]]
 **Opens onto:** [[Change log]] · [[Soak]] · [[Drift]] · [[Improvement log]] · [[Look-back]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Agent Engineering*, *Advanced Agent Engineering* · The DNA of Heaven, Part IV (Tightly Coupled Learning and Action).
 **Open:** none found.

@@ -25,7 +25,7 @@ When something looks strange, ask your table. If it helps them see, share one wi
 
 1. Read [THE STORY](../the-one-book/THE%20STORY.md). About ten minutes. Not a belief to hold; a shared language.
 2. Read [The Provisional Field of Agreements](../the-library/The%20Provisional%20Field%20of%20Agreements.md), slowly, all the way through. It is the [Field of Agreements](https://read.lionsberg.world/The_Field/Field_of_Agreements): the terms everyone plays by.
-3. Take part only if you agree. If you don't, you may still read everything, and come back when ready.
+3. Take part only if you agree. If you do not, you may still read everything, and come back when ready.
 
 **You have passed this Gate when** you can say, in your own words, what you are agreeing to, and you say yes freely.
 
@@ -56,14 +56,14 @@ More: [Getting a Claude Account](Getting%20a%20Claude%20Account.md).
 1. Go to **iterm2.com** and download iTerm2.
 2. Open the download to unzip it. If iTerm2 offers to move itself to **Applications**, say yes; otherwise drag it there yourself.
 3. Open it: press Cmd+Space, type **iTerm**, press Return.
-4. If it asks to "find devices on your local network," choose **Don't Allow**.
+4. If it asks to "find devices on your local network," choose **Do not Allow**.
 
 **You have passed this Gate when** the window is open and a cursor blinks, waiting for you.
 
 *The window is open and listening. Tick Gate 3.*
 
 > [!warning]
-> The terminal is a workshop full of power tools. Type freely, but never press Return on a command you don't understand. Every command here is explained before you use it.
+> The terminal is a workshop full of power tools. Type freely, but never press Return on a command you do not understand. Every command here is explained before you use it.
 
 > [!tip] Two keys that look alike
 > **Cmd+C** copies. **Ctrl+C** stops whatever the terminal is running. Reach for Ctrl+C only when you mean to stop something.
@@ -78,7 +78,7 @@ More: [Choosing Your Terminal](Choosing%20Your%20Terminal.md).
 
 1. In iTerm, type `git --version` and press Return. It asks which Git you have.
 2. If a window offers to install the **command line developer tools**, click **Install**, then **Agree**. If you see an error instead, type `xcode-select --install` and press Return; the window will come.
-3. Wait. It can take five to forty minutes; the first estimate is often wildly wrong. It can look idle; don't stop it.
+3. Wait. It can take five to forty minutes; the first estimate is often wildly wrong. It can look idle; do not stop it.
 
 This window may appear on its own earlier, whenever something asks for a developer tool. Say **Install** and let it run.
 
@@ -101,7 +101,7 @@ More: [Installing Git](Installing%20Git.md).
 2. Skip the "Download for macOS" button. Scroll down to the **Terminal** option.
 3. Choose the **Native install** (the recommended one).
 4. Copy the command with the page's **copy button**, not by selecting it with your mouse.
-5. Paste it into iTerm. Press Return, and wait. For a minute or two it may look idle; it is working. Don't stop it.
+5. Paste it into iTerm. Press Return, and wait. For a minute or two it may look idle; it is working. Do not stop it.
 6. When it says **Installation complete**, read on before you do anything else. This is the crossing most people miss.
 
 **The setup note.** Under "Installation complete" the installer prints a setup note. In it is one light-grey line that begins with `echo` and ends with `&& source ~/.zshrc`. It usually reads:
@@ -128,7 +128,7 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 
 1. In Finder, press Cmd+Shift+H to open your home folder, then choose File › New Folder. Name it **HQ**, short for headquarters: the home base for all your work with your agent.
 2. Get the Player+ kit: a copy from the person who brought you, or go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and unzip it.
-3. Open the kit's **player-plus** folder and copy everything inside it into **HQ**.
+3. Open the kit's **player-plus** folder. Press Cmd+Shift+. (the full stop) so hidden items show; a faint `.claude` folder appears, holding the kit's two permissions for the Dojo. Copy everything inside **player-plus**, `.claude` too, into **HQ**.
 
 > [!warning]
 > HQ lives in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive. Desktop and Documents often sync to iCloud; your home folder does not.
@@ -150,7 +150,7 @@ More: [System Requirements](System%20Requirements.md).
 3. Choose a colour theme. Pick the one you can read most easily.
 4. When asked how to sign in, choose option **1**, your **Claude subscription**.
 5. A browser opens. Sign in with the same account as Gate 2, the same way you made it (Google or Apple, if that is how). If it sends you an email, look in spam, or on your phone.
-6. When the browser says **You're all set up**, return to iTerm and press Return.
+6. When the browser says **You are all set up**, return to iTerm and press Return.
 7. When it asks whether to trust this folder, first check that **Accessing workspace:** names your HQ. Then choose **Yes, I trust this folder**. Stay here; the next Gate begins in this window.
 
 **You have passed this Gate when** Claude Code is open in your HQ, waiting for you to type.
@@ -191,12 +191,15 @@ From here on it remembers, in your folder, where you can read and correct every 
 2. If you are ready, ask it to write your line on [The Roll](https://read.lionsberg.world/The_Field/The_Roll): your name, the date, one word for where you are, who brought you, and who witnessed.
 3. Leave the rest of the shelf. Your agent carries the seed, [THE DNA OF HEAVEN](../the-dna-of-heaven/THE%20DNA%20OF%20HEAVEN.md), and hands you each next piece when you need it.
 
-Then think of two or three people to tell the Story to next. They may become your [Cell](https://read.lionsberg.world/The_Field/Cell), and your first shared Quest.
+Then think of your three: people to tell the Story to next, within three days. They may become your [Cell](https://read.lionsberg.world/The_Field/Cell), and your first shared Quest. [Bringing Your Friends In](Bringing%20Your%20Friends%20In.md) says how to walk the Gates beside them.
+
+> [!tip] Your first Dojo
+> At your first Dojo, a room where Players bring their agents to play together, your agent may be held from posting in the room's chat. That is a safety layer in Claude Code protecting you, not the room. Give the go in your own words, one plain sentence that names the action: *"Post this hello to the room chat now."* If it is still held, ask it to explain the problem and propose the solution. [The Dojo Card](../working-with-other-houses/The%20Dojo%20Card.md) has the rest.
 
 ---
 
 ## If something is different
 
-Screens change. If what you see doesn't match this page, you are not doing it wrong. Look in [Troubleshooting](Troubleshooting.md), or bring it to your table; every question makes the path clearer for the next person.
+Screens change. If what you see does not match this page, you are not doing it wrong. Look in [Troubleshooting](Troubleshooting.md), or bring it to your table; every question makes the path clearer for the next person.
 
 *CC BY-SA 4.0 · LIØNSBERG*

@@ -44,7 +44,7 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 |---|---|
 | `read-the-story-aloud` | Reads THE STORY with a person or a table, at their pace, one plain line for each new word, and silence after. |
 | `the-roll` | Takes a person's line on the Roll at the Gate, in their own word, once, and never edits it. |
-| `pass-the-flame` | Helps a person give the whole Seed, in person, to the two or three they know are ready. |
+| `pass-the-flame` | Helps a person give the whole Seed, in person, to their three who are ready, within three days. |
 | `the-offering` | Keeps the weekly Offering: free, counted honestly, no amounts set and no names kept. |
 | `the-retrospective` | Drafts the weekly look-back in its three sections, from the record, by someone who did not do the work. |
 | `the-season-sheet-by-hand` | Holds the fourteen-line Season Sheet at each turning, kept by hand first and by the agent second. |

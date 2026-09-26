@@ -16,11 +16,10 @@ Both chains are enumerated rather than gestured at, which is what makes this an 
 
 Each one-way failure is named, and both are recognisable. **Downward only** produces a body where instruction arrives, nothing returns, and the people at the top gradually govern a picture rather than a place. **Upward only** produces reports going nowhere, no coordination, and the parts unable to act together on anything ([[Subsidiarity]], [[Centralization Of Power]], [[Oversight]]).
 
-The rule for a member is stated in one line: *what you sense, report; what arrives from above, integrate.* The vertical flow exists only if each person participates in it — it is not a system property that can be installed, and the canon adds the sentence that makes it safe to do: **the wider body wants to be told** ([[Operate At The Scale You Were Prepared For]], [[Whistleblower Protection]], [[Stop]]).
+The rule for a member is stated in one line: *what you sense, report; what arrives from above, integrate.* The vertical flow exists only if each person participates in it — it is not a system property that can be installed, and it is said plainly here, as the sentence that makes it safe to do: **the wider body wants to be told** ([[Operate At The Scale You Were Prepared For]], [[Whistleblower Protection]], [[Stop]]).
 
 **Also called:** the two-way flow · up and down the scales
 **Stands on:** [[Levels Of Scale]] · [[The Two-Stake Principle]] · [[Subsidiarity]] · [[Federation]]
 **Opens onto:** [[The Seven-Tier Engagement Escalation]] · [[Operate At The Scale You Were Prepared For]] · [[The Escalation Ladder]] · [[Requests and offers]] · [[Centralization Of Power]] · [[Oversight]] · [[Wisdom Council]] · [[Communication Debt]]
 **In play:** the table · beyond the table — what this body sends up, and what it does with what comes down
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.7 Coordinating Across Scales`, §How Transmission Flows Across Scales · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** Both chains are described and no cadence, format, or minimum is given for either; a flow with no rhythm attached is the one that lapses first. · Nothing says what a lower body does when what comes down is wrong.

@@ -20,5 +20,4 @@ Two safeguards keep it from being merely throwing people in. The work must sit i
 **Stands on:** [[Praxis]] · [[Education As Transformation]] · [[Types Of Knowing]]
 **Opens onto:** [[Quest]] · [[Apprenticeship]] · [[The Zone Of Optimum Development]] · [[Do the Work]] · [[Retrospective]] · [[Every Defect Is A Gift]] · [[Zero Blame Environment]]
 **In play:** table · Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Education As Transformation (canon-grade list; named, no card — ore) · *Pillar IV — Sacred Learning and Mastery*, transition 4 (canon-grade) · *Education As Transformation* (wiki root; canon-grade — students in live businesses, junior cooperatives, Quests as learning) · *The DNA of Heaven*, Part V · lionsberg.wiki: Learning By Doing
 **Open:** Ore — named in the Pattern Language with no card behind it. The articulation here is cohered from the Pillar's fourth transition, the Mondragon pedagogy, and the Game's own structure.

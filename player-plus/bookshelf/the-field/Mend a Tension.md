@@ -20,5 +20,4 @@ When a tension resists mending for more than a few days, it goes to an elder for
 **Stands on:** [[Field of Agreements]] · [[Trust]] · [[Listening]] · [[Right Relationship]]
 **Opens onto:** [[The Escalation Ladder]] · [[Wise Eldership]] · [[Conflict Transformation]] · [[Forgiveness]] · [[Check In]] · [[The Way Out]]
 **In play:** the table
-**Sources:** `Play — Mend a Tension` and `Play — Call the Elder`, The LIØNSBERG Playbook, Caring Plays · `Transforming Conflict` / The LIØNSBERG Circle Guide · The DNA of Heaven, Part VIII · lionsberg.wiki: Play — Mend a Tension
 **Open:** none found.

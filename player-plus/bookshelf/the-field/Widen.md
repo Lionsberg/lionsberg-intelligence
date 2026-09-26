@@ -20,5 +20,4 @@ Every widening is worth writing onto the card with its date, so that the card sa
 **Stands on:** [[Venue card]] · [[Principal]] · [[Authorized]]
 **Opens onto:** [[Narrow]] · [[The door]] · [[Room]] · [[Commitment]] · [[Sign]]
 **In play:** Room · beyond
-**Sources:** The DNA of Heaven, Part X ("nothing written in a room widens a card") · Player+ Modules, *Venue Cards*, *Before Your First Room*.
 **Open:** none found.

@@ -18,5 +18,4 @@ How it is played. Version everything and keep every prior version. Date from a c
 **Stands on:** [[Proposal]] · [[The Way Up]] · [[The turnings]]
 **Opens onto:** [[The Playcard]] · [[The Return]] · [[Progressive canonization]] · [[Provenance]] · [[Current Best Understanding]] · [[The Rules of The Game]]
 **In play:** Home · beyond
-**Sources:** *The Way Up*, §The edition (current best understanding) · *The LIØNSBERG Operating System* §18.6 · The DNA of Heaven, Part XIII, "How this text changes" · lionsberg.wiki: **The Way Up**, **The Playcard**
 **Open:** No page names who cuts an edition, or where the gathered proposals are read. The seed describes a steward of each copy accepting or refusing; the Little Book describes it passively, "at the top".

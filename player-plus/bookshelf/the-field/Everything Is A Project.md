@@ -18,5 +18,4 @@ Held badly it becomes bureaucracy: forms for things that needed a sentence, and 
 **Stands on:** [[The Meta Project]] · [[Work Breakdown Structure]] · [[Quest]]
 **Opens onto:** [[The activity table]] · [[Conditions of satisfaction]] · [[Stacking Up And Aligning]] · [[Project Management]]
 **In play:** table · Home · beyond
-**Sources:** *Everything Is A Project* (wiki root page; a long, repetitive articulation of the convention) · *Everything Is A Project* (card, LIØNSBERG, Earth, and the Cosmos) · *The LIØNSBERG Lexicon* — lionsberg.wiki page name: **Everything Is A Project**
 **Open:** The root page's language — master plan, programme of action, budgets and oversight — reads as an older, more managerial articulation than the rest of the domain; the convention survives the translation, the framing should be re-read.

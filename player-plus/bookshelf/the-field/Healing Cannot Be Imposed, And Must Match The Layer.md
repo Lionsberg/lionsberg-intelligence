@@ -8,7 +8,7 @@ pillar: V
 
 *Two rules for anyone who mends: it requires the other's consent — as a clause of the vow, not as advice — and it has to be applied at the layer the wound is actually on.*
 
-**Consent, and it is enforceable.** Even healing — the canon says *perhaps especially* healing — cannot be imposed on the unwilling. What is offered must be received. Someone who heals without consent has violated the protection of the unwilling that their vow already binds them to, which moves this out of the register of good manners and into the register of things a body can hold someone to ([[Consent]], [[Mutual Consent]], [[The Warrior's Vow]]).
+**Consent, and it is enforceable.** Even healing — perhaps especially healing — cannot be imposed on the unwilling. What is offered must be received. Someone who heals without consent has violated the protection of the unwilling that their vow already binds them to, which moves this out of the register of good manners and into the register of things a body can hold someone to ([[Consent]], [[Mutual Consent]], [[The Warrior's Vow]]).
 
 The hard case is named rather than dodged: the one who refuses keeps the right to refuse. The one who offered may grieve the refusal and does not override it. That is the whole test, and it is a real cost — which is exactly why it is written as a clause rather than left to the judgment of whoever is convinced they are helping ([[Sovereignty]], [[Dignity]]).
 
@@ -22,5 +22,4 @@ The parallel with consent is exact and worth holding: consent is withdrawn at th
 **Stands on:** [[Consent]] · [[Healing]] · [[Sovereignty]] · [[Right Relationship]]
 **Opens onto:** [[The Warrior As Restorer]] · [[The Warrior-Healer Pair, And The Deferral]] · [[The Five Warrior-Context Wounds]] · [[Root Causes]] · [[Sensing The Field]] · [[Withdrawal Of Consent]] · [[Trauma]] · [[Mental Health]]
 **In play:** the Room — before anything is offered to anyone
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.7 Healing`, §Healing Others · `The Warrior's Vow` · lionsberg.wiki: The Sacred Warrior Guidebook
-**Open:** The canon gives no guidance for the person who cannot consent — unconscious, a child, in crisis — which is precisely where the rule is hardest and where most bodies actually face it. · Nothing states who adjudicates a claim that healing was imposed.
+**Open:** No guidance is given for the person who cannot consent — unconscious, a child, in crisis — which is precisely where the rule is hardest and where most bodies actually face it. · Nothing states who adjudicates a claim that healing was imposed.

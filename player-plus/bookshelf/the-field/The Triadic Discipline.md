@@ -22,5 +22,4 @@ Applied to the [[The LIØNSBERG Pattern Language]] itself, the triad is how the 
 **Stands on:** [[Continuous Improvement]] · [[Every Defect Is A Gift]] · [[Current Best Understanding]]
 **Opens onto:** [[The Living System Triple Loop]] · [[How A Pattern Enters The Language]] · [[OmniSpection]] · [[Retrospective]] · [[Gaps Not Yet Closed]] · [[Prune]]
 **In play:** table
-**Sources:** *The Filling and Removing Dialectic* (expanded to the triad 2026-05-22) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: The Filling and Removing Dialectic
 **Open:** The Card's filename still carries the dyadic name while its body carries the triad; the rename is recorded as held, not done.

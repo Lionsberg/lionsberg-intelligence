@@ -6,7 +6,7 @@ pillar: X
 ---
 # The Four Conditions For Destructive Force
 
-*Before reading: this page holds a doctrine of last resort, written down so that it can be examined and corrected, not so that it can be acted on. Nothing here is advice, a licence, or a call to act; the law of the place you live governs you; the Game asks nothing of anyone but consent. Read [[05 The Pattern and the Way|The Pattern and the Way]] first.*
+*Before reading: this page holds a doctrine of last resort, written down so that it can be examined and corrected, not so that it can be acted on. Nothing here is advice, a licence, or a call to act; the law of the place you live governs you; the Game asks nothing of anyone but consent. Read [[04 The Pattern and the Way|The Pattern and the Way]] first.*
 
 *The only four states in which a guardian may destroy — and the sentence that closes the list: no conditions other than these.*
 
@@ -26,5 +26,4 @@ Two rules travel with the list and are not separable from it: minimum force, rel
 **Stands on:** [[The Warrior's Vow]] · [[The Sacred Use Of Force]] · [[Guardianship]] · [[Right Relationship]]
 **Opens onto:** [[Restraint As The Refusal To Act]] · [[Restraint's Two Tells]] · [[Protective Preemption And The Faithful-Elder Test]] · [[The Funeral Of Destruction]] · [[The Threefold Capacity]] · [[Proportionality]] · [[Self Defense]] · [[The Dark Initiate Failure Mode]]
 **In play:** beyond the table — the list a guardian is expected to know cold before they ever need it
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.8 Destruction` · `The Warrior's Vow` · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The conditions are stated for an individual acting under time pressure; who authorises, reviews, or refuses an engagement at any larger scale is handled elsewhere and not reconciled with this list. · The whole Guidebook is absent from the canon's audit ledger, so nothing in it has yet been reviewed by a second reader.

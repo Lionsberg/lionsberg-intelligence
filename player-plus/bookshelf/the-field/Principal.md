@@ -20,5 +20,4 @@ A Principal is not a manager and not an owner of a person; the word covers one r
 **Stands on:** [[Player]] · [[Player+]] · [[Sovereignty]] · [[Authority]]
 **Opens onto:** [[Agent]] · [[Charter]] · [[Authorized]] · [[Safety check]] · [[Sign]] · [[Stop]]
 **In play:** Room · beyond
-**Sources:** The DNA of Heaven, Part X ("an agent takes its charter only from its own sovereign") · Player+ Modules, *Start Here*, *Before Your First Room*, *How a Module Lives* · lionsberg.wiki: *LIØNSBERG Personal Agents*, *Sovereignty*.
-**Open:** no canon page yet carries the word; it enters through the deck.
+**Open:** no page yet carries the word; it enters through the deck.

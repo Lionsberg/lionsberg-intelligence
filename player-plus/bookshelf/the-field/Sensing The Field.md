@@ -16,11 +16,10 @@ The Pattern restores the middle: field-sensing as trained operational capacity, 
 
 It is load-bearing for anyone whose role requires reading what is not said — the one holding a contested space, the healer reading a client, the teacher reading a student, anyone reading a room. Most of what a group is actually doing is not in its minutes.
 
-What is read is described in the canon through its own vocabulary: [[The Energetic Anatomy]] as the map of the instrument, [[Associative And Dissociative Energy]] as the first distinction drawn, and [[Sovereignty In The Populated Field]] as the discipline that lets one read without being taken.
+What is read has its own vocabulary: [[The Energetic Anatomy]] as the map of the instrument, [[Associative And Dissociative Energy]] as the first distinction drawn, and [[Sovereignty In The Populated Field]] as the discipline that lets one read without being taken.
 
 **Also called:** The Field · The Field Is Populated
 **Stands on:** [[Silence And Stillness As The Ground]] · [[Focused Attention As Discipline]] · [[The Sovereign]] · [[Discernment]]
 **Opens onto:** [[Sovereignty In The Populated Field]] · [[The Energetic Anatomy]] · [[Associative And Dissociative Energy]] · [[Receiving Transmission]] · [[Composure Under Threat]] · [[Sensemaking]] · [[Circle Coherence]]
 **In play:** Room
-**Sources:** *Sensing The Field* (drafted Pattern Card) · *The Field Is Populated* (drafted Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Sensing The Field
 **Open:** The Card asks that readings be tested and does not say against what, beyond rational discernment; no corroboration practice is written.

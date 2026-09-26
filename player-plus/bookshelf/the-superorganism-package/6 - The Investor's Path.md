@@ -77,7 +77,7 @@ Class I (Investor) standing at Layer III per [[III - The Ecosystem Holding Chart
 
 ### 5. Place capital. Deploy. Report. Live in the rhythm.
 
-Your capital enters the sub-fund(s) you've selected. The sub-fund deploys to federated operating entities at Layer VII per its Investment Mandate. Returns flow back per Capital Gains Dynamics, Dividend Sharing Dynamics, and Cross-Fund Ergodic Pool redistribution, capped at IS-1's per-investor maximum. Reporting reaches you per the cadence in your Federation Agreement, in all six capitals.
+Your capital enters the sub-fund(s) you have selected. The sub-fund deploys to federated operating entities at Layer VII per its Investment Mandate. Returns flow back per Capital Gains Dynamics, Dividend Sharing Dynamics, and Cross-Fund Ergodic Pool redistribution, capped at IS-1's per-investor maximum. Reporting reaches you per the cadence in your Federation Agreement, in all six capitals.
 
 You participate in Annual General Meetings of the Holding Company and the Resourcing Pool at Summer Solstice. You witness the federation's growth across seasons. You may choose to add capital, redirect across sub-funds, withdraw at the agreed cadence, or remain placed across long arcs.
 
@@ -91,7 +91,7 @@ The 7% cap is a structural commitment to non-extraction. In practice:
 - **Where the federation generates less than 7%**, you receive what is generated, plus the Cross-Fund Ergodic Pool's buffering. The cap is a ceiling, not a floor — there is no guarantee.
 - **You may voluntarily subordinate** to a lower cap, longer commitment, or different priority in exchange for impact alignment, sub-fund mandate, or other non-financial considerations. This is honored per Federation Agreement.
 - **Aggregation across sub-funds** prevents the cap being gamed by spreading capital. The cap applies to your total federated holdings, not per fund.
-- **Asset Lock applies.** You may receive (a) return of invested principal plus (b) capped returns. You may not receive distributions exceeding these. On withdrawal or death, principal is returned per exit provisions; any capital you've committed under your Personal Asset Lock (per [[VIII - The FSx Individual Template]] §F) flows to FSx-compatible bodies serving your Self-Driver.
+- **Asset Lock applies.** You may receive (a) return of invested principal plus (b) capped returns. You may not receive distributions exceeding these. On withdrawal or death, principal is returned per exit provisions; any capital you have committed under your Personal Asset Lock (per [[VIII - The FSx Individual Template]] §F) flows to FSx-compatible bodies serving your Self-Driver.
 
 The 7% cap is the ceiling at which **mission alignment outranks return maximization**. If you find this cap unacceptable, the federation is not your fit — and that is honored. There are many vehicles in the world that maximize returns. The federation is structurally not one of them.
 
@@ -121,7 +121,7 @@ The Ergodic Pool is **not a tax** and **not a subsidy**. It is a **risk-sharing 
 By signing the Federation Agreements and placing capital, you receive:
 
 - **Capped returns** per IS-1 (default 7% per year aggregate).
-- **A diversified portfolio** across the sub-fund(s) you've chosen, ergodically pooled with all other sub-funds.
+- **A diversified portfolio** across the sub-fund(s) you have chosen, ergodically pooled with all other sub-funds.
 - **Multi-capital reporting** in all six capitals — your Natural, Individual, Social, Intellectual, Manufactured, and Financial returns, separately tracked.
 - **Governance voice** in both the Holding Company (Layer III) and the Resourcing Pool (Layer IV), at the weights specified in §5 of each Charter.
 - **Membership in the spiritual association** at Layer II.

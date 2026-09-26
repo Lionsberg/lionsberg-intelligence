@@ -24,5 +24,4 @@ That is where the leverage comes from. A small body cannot out-fight a vast arra
 **Stands on:** [[Root Causes]] · [[Theory Of Constraints]] · [[The Meta Crisis]]
 **Opens onto:** [[Structural Immunity]] · [[The Old Operating System]] · [[The Three-Layered Adversary]] · [[The Total Nested Holarchy of Issues]] · [[Limiting Factor]] · [[Critical Path]] · [[Withdrawal Of Consent]] · [[The Giants]]
 **In play:** the table — asked when a Cell keeps solving the same problem
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Meta Dragon.md`
-**Open:** The Card extends the doctrine to a claimed spiritual layer behind visible power; that extension is the corpus's claim and is not established. · Nothing says how to tell a real generator from a satisfying explanation, which is the failure mode of every root-cause discipline.
+**Open:** The Card extends the doctrine to a claimed spiritual layer behind visible power; that extension is a claim and is not established. · Nothing says how to tell a real generator from a satisfying explanation, which is the failure mode of every root-cause discipline.

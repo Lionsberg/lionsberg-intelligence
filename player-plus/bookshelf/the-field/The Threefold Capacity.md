@@ -22,5 +22,4 @@ The same holds at ordinary scale. Ending a project, closing a body, releasing a 
 **Stands on:** [[Warrior]] · [[The Sacred Use Of Force]] · [[Healing]] · [[Creativity]]
 **Opens onto:** [[Restraint As The Refusal To Act]] · [[Disbanding]] · [[Dying]] · [[Compost]] · [[The Dark Initiate Failure Mode]] · [[Guardianship]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · *All Patterns — Master Consolidated Inventory* §4.14 · *Pillar X — Sacred Guardianship and Order*, thesis 6 (canon-grade). lionsberg.wiki: The Threefold Capacity.
 **Open:** Named twice with no card written. *The Funeral Of Destruction* and *The Willing Laying Down Of Life* are listed beside it, equally unwritten; how a community decides who may hold the third capacity is not addressed anywhere.

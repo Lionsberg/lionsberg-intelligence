@@ -22,5 +22,4 @@ The canon's own summary claim — that a fully coherent lattice is **"virtually 
 **Stands on:** [[Planetary Light Grid]] · [[Federation]] · [[Structural Immunity]] · [[Lineage]]
 **Opens onto:** [[The Grid's Geometry And Its Gaps]] · [[The Six Grid Disciplines]] · [[The Community's Three Vulnerabilities]] · [[The Four Warrior-Guild Capture Modes]] · [[Kontrolle]] · [[Collapse]] · [[Islands of Coherence]] · [[The Practice Cadence]]
 **In play:** beyond the table — the annual self-examination of any distributed body
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.5 Planetary Light Grids`, §Why The Grid Wins and §The Operational Reality · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** "Virtually impenetrable" is asserted and not carried here. · The chapter's estimate of how many people currently hold these disciplines worldwide is given as a range spanning an order of magnitude, with no method; it is the book's own 2026 guess and is not repeated on this page. · The threat picture rests on the book's unsourced account of hostile factions; the four-against-four mapping holds against ordinary predation regardless.

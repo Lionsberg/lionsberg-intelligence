@@ -19,5 +19,4 @@ In play, Value is the test a [[Quest]] is chosen by and the reason a body can de
 **Stands on:** [[The Goal]] · [[Throughput]] · [[Values]]
 **Opens onto:** [[Waste]] · [[Economy]] · [[Wealth]] · [[TimeEnergy]] · [[LUV]] · [[The waterfall]] · [[Integrated Delivery]] · [[Value Stream Mapping]]
 **In play:** At the table, in whether a Quest is worth a season; at Home and Room, in how contribution is recognised; beyond, as what an economy is reorganised around.
-**Sources:** `Value` (wiki root, canon-grade, long — the economic, systems, and meta-system lenses) · `Throughput` and `Waste` (roots) · `Sacred Value` (Card) · `Pillar III — Sacred Economy and CurrentSee` · `The DNA of Heaven`. lionsberg.wiki: **Value**.
 **Open:** The root page runs the customer-and-payment framing alongside the throughput framing without reconciling them; read carelessly, the first licenses exactly the market logic the second is written to replace.

@@ -20,5 +20,4 @@ It is local and dated, which is what distinguishes it from a vision of the world
 **Stands on:** [[Vision]] · [[Driver]] · [[The Goal]] · [[Purpose]] · [[Forward-Looking Story]]
 **Opens onto:** [[Quest]] · [[Season]] · [[The Annual Deep Review]] · [[Milestone]] · [[The Time Horizons]] · [[Design To The Goal]] · [[Community Company]] · [[The 10 Year Grand Strategy]] · [[The Locality]]
 **In play:** the seasonal turning, and the annual one
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/From Driver to Quests.md` · `…/Toolkit/The Rhythm of Gatherings.md`
 **Open:** The Beacon and [[The 10 Year Grand Strategy]] share a horizon and are not the same instrument — one is a local body's own ten years, the other the whole body's; no page relates them. · Nothing says what a body does when ten years pass and the Beacon is half-reached.

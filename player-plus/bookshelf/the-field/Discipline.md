@@ -20,5 +20,4 @@ And it is not the opposite of rest. Rest and regeneration are part of the practi
 **Stands on:** [[Integrity]] · [[Aligned Will]] · [[The Sovereign]] · [[Order]]
 **Opens onto:** [[The Daily Way]] · [[Composure Under Threat]] · [[Mastery]] · [[Rest And Regeneration]] · [[Commitment]] · [[Shu-ha-ri]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *Self Discipline* · *Pillar X — Sacred Guardianship and Order*, thesis 5 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Cultivation · the seed's Part V. lionsberg.wiki: Discipline · Self Discipline.
 **Open:** The root page is general-knowledge material with no LIØNSBERG articulation and no link to the Daily Way, which is where the practice actually lives.

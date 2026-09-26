@@ -20,5 +20,4 @@ The turnings are also the Calendar's four solar anchors, and where a community g
 **Stands on:** [[Time]] · [[Rhythm]] · [[Earth]] · [[Cosmos]]
 **Opens onto:** [[Season]] · [[The Clock of the Game]] · [[The Season Sheet]] · [[OmniSpection]] · [[Temporal markers apart from milestones]] · [[The edition]] · [[The LIØNSBERG Calendar]] · [[Celebration]]
 **In play:** table · Home · beyond
-**Sources:** `The Clock of the Game` (Little Book chapter, current best understanding; the table of the next eight turnings) · `The LIØNSBERG Operating System` §9 and §18 · `The LIØNSBERG Calendar` (Card, written) · `Seasonal OmniSpection` (root page) · lionsberg.wiki: The Clock of the Game
 **Open:** The Clock's table of turning dates is per-edition and ages; it carries eight and must be renewed, which is stated but has no owner. · The Calendar Card adds twenty-four lunar inflection points beside the four solar turnings; the Game's clock is solar only, and no page says whether the lunar points bind anything.

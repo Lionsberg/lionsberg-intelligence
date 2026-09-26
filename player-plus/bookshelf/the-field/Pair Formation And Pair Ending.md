@@ -14,13 +14,12 @@ pillar: XI
 
 Beside these runs the boundary rule: **a pair is not a merger.** Each keeps their own centre, their own practice, their own wider relationships, their own walk. A pair that has become co-dependent has left pair work for entanglement ([[Boundary]], [[Selectively Permeable Membrane]]).
 
-**Ending.** Pairs end — cleanly, complicatedly, or for reasons neither will understand until later — and the canon gives the sequence rather than leaving it to be improvised in a difficult week. **Mutual acknowledgement** that the work has completed its season. **A final clearing** of what the joint work left. **An honest accounting** — what was given, what received, what was not completed, what each carries forward ([[Retrospective]], [[The gap]]). **Witnessed closure**, at minimum by an Elder and ideally by the Circle, so the wider body knows the pair has completed ([[Brought-by · witnessed-by]], [[Seal the Circle]]). **Continued right relationship** — the working partnership ends; the friendship or kinship does not ([[Disbanding]], [[The Act Of Release]]).
+**Ending.** Pairs end — cleanly, complicatedly, or for reasons neither will understand until later — and a sequence is given rather than leaving it to be improvised in a difficult week. **Mutual acknowledgement** that the work has completed its season. **A final clearing** of what the joint work left. **An honest accounting** — what was given, what received, what was not completed, what each carries forward ([[Retrospective]], [[The gap]]). **Witnessed closure**, at minimum by an Elder and ideally by the Circle, so the wider body knows the pair has completed ([[Brought-by · witnessed-by]], [[Seal the Circle]]). **Continued right relationship** — the working partnership ends; the friendship or kinship does not ([[Disbanding]], [[The Act Of Release]]).
 
-A pair ended cleanly can re-form later. One ended badly is harder to re-form, because the residue has to be dealt with first. This is the corpus's only clean-ending protocol for a working partnership, and nothing about it is specific to any one craft.
+A pair ended cleanly can re-form later. One ended badly is harder to re-form, because the residue has to be dealt with first. This is the only clean-ending protocol for a working partnership, and nothing about it is specific to any one craft.
 
 **Also called:** how a pair forms and how it ends
 **Stands on:** [[The Warrior Pair]] · [[Consent]] · [[Sovereignty]] · [[Field of Agreements]]
 **Opens onto:** [[Disbanding]] · [[The Act Of Release]] · [[Seal the Circle]] · [[Conflict Transformation]] · [[The Way Out]] · [[Retrospective]] · [[Boundary]] · [[Mend a Tension]]
 **In play:** the table — read before two people begin, and again when one of them senses the season closing
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.1 The Warrior Pair`, §How The Pair Forms and §When The Pair Breaks · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** Both sequences assume the two agree that the season has ended. Nothing addresses the one-sided ending — the most common kind — or what the one who wants to continue is owed.

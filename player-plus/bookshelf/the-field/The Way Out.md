@@ -20,5 +20,4 @@ And the floor beneath all of it: some seasons are hard, and a Cell may hold some
 **Stands on:** [[Consent]] · [[Withdrawal Of Consent]] · [[Sovereignty]] · [[The Circle Sheet]]
 **Opens onto:** [[Mend a Tension]] · [[Home Cell]] · [[Supercell]] · [[The Season Sheet]] · [[Welcome a Newcomer]] · [[Conflict Transformation]]
 **In play:** table · Home
-**Sources:** *The Way Out*, Little Book chapter (current best understanding · "the floor of care and justice; three sentences a Circle can carry") · *The LIØNSBERG Playbook*, §Caring · The DNA of Heaven, Part V · lionsberg.wiki: **The Way Out**
 **Open:** The chapter says a Cell that cannot find a home is *resting, not playing*; nothing says how long a body may rest before it is no longer part of the Game, or whether that question should be asked at all.

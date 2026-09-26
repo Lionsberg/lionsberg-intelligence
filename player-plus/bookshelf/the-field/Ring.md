@@ -6,7 +6,7 @@ pillar: —
 ---
 # Ring
 
-*The earlier word for a [[Supercell]] — three or more Cells that have become one another's home — still live in several canon pages.*
+*The earlier word for a [[Supercell]] — three or more Cells that have become one another's home — still in occasional use.*
 
 Before the word changed, the body above a Cell was a Ring: no office, no officer, no money beyond what its Cells sent inward, and no command over any of them. Three or more Cells that came to know one another, by place or by shared [[Quest]], formed one, and the Ring became the home of each; rings formed rings. Everything that articulation says about the evening, the page, and the sums is still exactly what a supercell does — only the name was set aside.
 
@@ -18,5 +18,4 @@ The name persists in live text, which is why it is worth keeping a page. The Ope
 **Stands on:** [[Cell]] · [[Home Cell]]
 **Opens onto:** [[Supercell]] · [[Cell of Cells]] · [[The Season Sheet]] · [[The Way Up]] · [[First Degree Groups]]
 **In play:** beyond the table
-**Sources:** The LIØNSBERG Operating System §17 · `A Ring of Ten Circles`, in The Little Book of the Great Game · `Ring`, the term pages · `The Twelve Words` 11 (canon-grade; records the change) · lionsberg.wiki: Ring
 **Open:** A known divergence, flagged and unresolved: two live words for one body until the pages that say *ring* are revised.

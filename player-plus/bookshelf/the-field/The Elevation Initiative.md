@@ -20,5 +20,4 @@ Its claim on priority is blunt: whether enough people can form themselves fast e
 **Stands on:** [[Metaphysical Infrastructure]] · [[Education As Transformation]] · [[Potential]]
 **Opens onto:** [[The LIØNSBERG Academy]] · [[The LIØNSBERG Educational Model]] · [[Metaphysical DNA]] · [[Wellness]] · [[Healing]] · [[Higher Order Functional Unity]] · [[The Three-Year Formation]] · [[Tipping Point Strategy]]
 **In play:** beyond — the shape of what a locality builds when it builds for people rather than for traffic
-**Sources:** `LIØNSBERG Wiki Books/The Book of LIØNSBERG/Chapter 10 - The Quest for Unity/10.20 The Elevation Initiative…`
 **Open:** The corpus's own audit asks of the standalone book of this name whether it is an operational programme or an aspiration, and marks the question unanswered; a section of it is flagged as named-only. · Nothing states the relation between this and the Academy, which appears to be the same thing under a different name.

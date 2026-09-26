@@ -20,5 +20,4 @@ At a table this is the discipline of the [[Quest]]. Choose one real thing for on
 **Stands on:** [[The Goal]] · [[Twelve Irreducible Elements]] · [[The Pattern of Production]] · [[Design]]
 **Opens onto:** [[Set-Based Design]] · [[Advantage Based Decision Making]] · [[Quality]] · [[Conditions of satisfaction]] · [[Integrated Delivery]] · [[Quest]]
 **In play:** the table · the Room
-**Sources:** *Twelve Irreducible Elements*, Element 10 (canon-grade) · *The Core Pattern*, Element 10 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Production Architecture (canon-grade) · the seed's Part IV. lionsberg.wiki: Design To The Goal.
 **Open:** The Element is stated in one line in three places and articulated at length in none; *Target Value Design* is named as its lineage without a page.

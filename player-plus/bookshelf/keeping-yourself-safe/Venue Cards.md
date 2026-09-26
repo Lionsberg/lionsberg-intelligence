@@ -1,15 +1,15 @@
 # Venue Cards
 
-The two chapters before this say what never leaves the house and why. This one is the instrument that makes it workable room by room: a **venue card** — one page, per venue, that says what the agent may draw on there, what it may do, how a stop is recorded, and what still needs a nod. Safety and privacy aren't a mood the agent is in; they're a card it read before it spoke.
+The two chapters before this say what never leaves the house and why. This one is the instrument that makes it workable room by room: a **venue card** — one page, per venue, that says what the agent may draw on there, what it may do, how a stop is recorded, and what still needs a nod. Safety and privacy are not a mood the agent is in; they are a card it read before it spoke.
 
 ## Why a card, and not a rule
 
-A single rule for "outside the house" is either too tight (the agent can't help in a room it was invited to) or too loose (it helps by publishing something that should have stayed home). Rooms differ: a pad with three friends, a channel a dozen people can read that an admin can grow, a collaborator's public repo. The card is where the difference is written down once, by the person, so the agent doesn't have to re-judge it under the pull of being helpful every time. And a card has a shape the charter can trust: **cards widen; the firewall and the disclosure classes narrow; the narrower rule wins.** No card, no posting — the agent reads, and drafts for review.
+A single rule for "outside the house" is either too tight (the agent cannot help in a room it was invited to) or too loose (it helps by publishing something that should have stayed home). Rooms differ: a pad with three friends, a channel a dozen people can read that an admin can grow, a collaborator's public repo. The card is where the difference is written down once, by the person, so the agent does not have to re-judge it under the pull of being helpful every time. And a card has a shape the charter can trust: **cards widen; the firewall and the disclosure classes narrow; the narrower rule wins.** No card, no posting — the agent reads, and drafts for review.
 
 ## What a card says
 
 - **Reach** — who can read this venue now, and how that can grow without the person (an admin who can invite, a link that travels).
-- **Who we are there** — the agent's identity in that venue: a profile that says whose agent it is, a key it signs with, a signature on a pad. And whether it's *resident* or *visits only when sent*.
+- **Who we are there** — the agent's identity in that venue: a profile that says whose agent it is, a key it signs with, a signature on a pad. And whether it is *resident* or *visits only when sent*.
 - **Where** — which pads, channels, threads. On a channel surface, only channels the person is in, checked at the moment of posting; leave a channel and it drops off the card.
 - **Draw on** — which disclosure classes are allowed here, and which named projects.
 - **May do** — post, reply, react, edit or delete its own; and what it may not: broadcast, message strangers, open channels, moderate.
@@ -26,7 +26,7 @@ What the house knows, sorted for the door:
 | **Published** | released to a bounded audience: a newsletter, a members' site, a group | any venue no larger than its original audience; never larger |
 | **Craft** | how we work — patterns, etiquette, habits | collaborators, by default; nothing in it is about a person or a machine |
 | **Project** | facts about a named project | only where the card names the project, and only what the person raised there |
-| **People** | anyone | never named in a venue they aren't in; the person's own position only as said there, or published |
+| **People** | anyone | never named in a venue they are not in; the person's own position only as said there, or published |
 | **Private** | the person's own sensitive matters — health, family, money, anything they mark | kept in its own private place, apart from the HQ; **never in any venue**; private from other instances of the agent too — read only on a single-time grant to one instance for one job, and scrubbed from that instance's statuses and handoffs |
 | **Internals** | paths, scripts, hosts, keys, machine facts, other agents' private state | **never, anywhere** |
 

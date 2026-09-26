@@ -22,5 +22,4 @@ The figure applies at every scale, which is the part worth carrying. Every body 
 **Stands on:** [[Authority]] · [[Legitimacy]] · [[The Caves]] · [[Kontrolle]]
 **Opens onto:** [[Withdrawal Of Consent]] · [[Liberation and Exodus]] · [[Institutional Idolatry]] · [[Visible Power Structures]] · [[The Fall]] · [[Cross The Threshold]] · [[The Way Out]] · [[Wake up]]
 **In play:** the Story, at the threshold — the moment a reader sees that leaving does not require permission
-**Sources:** `The Old Authorities` (root page, stub — names the figure and points at the chapter) · `The Book of LIØNSBERG`, Chapter 1.9 · `The Caves` (Story material) · lionsberg.wiki: The Old Authorities
 **Open:** The root page is a pointer with two inbound links; the reading above is drawn from the surrounding Story material rather than from a written treatment, and the chapter it points at should be read before this page is trusted.

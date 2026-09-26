@@ -18,5 +18,4 @@ In practice it needs three plain things: a place where issues and solutions meet
 **Stands on:** [[Subsidiarity]] · [[Knowledge as commons]] · [[Plans and Specifications]]
 **Opens onto:** [[Shared Services, Infrastructure, and Support]] · [[Continuous Improvement]] · [[Everything Is A Project]]
 **In play:** Home · beyond
-**Sources:** *The LIØNSBERG Lexicon* §Problems, Needs, and Aspirations, which names Shared Solutions, General Solutions and Issues and Solutions Marketplaces · *37. Voluntary, Local, and Polycentric Implementation* and *89. Polycentric Instantiation* (144 Threads) · *The DNA of Heaven*, Part IV — lionsberg.wiki page name: **Polycentric Implementation of Shared Solutions**
 **Open:** No root page exists at this name; the nearest bodies are the two 144 Threads pages, which are thread-length rather than articulated.

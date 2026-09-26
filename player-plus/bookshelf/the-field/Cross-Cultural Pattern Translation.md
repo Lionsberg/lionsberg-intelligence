@@ -14,11 +14,10 @@ Two failures sit either side. Imposition carries the clothing with the wisdom an
 
 The disciplines that make a faithful crossing possible are already held: [[Word Tools]] says that many tongues honed different names for the same Reality and none of them is the Reality; [[Lineage]] says a faithful walker of one stream can recognize the same [[Logos]] in another's vocabulary; [[On translating]] says the words change and the lines keep their order, so that a sheet written in one language can still be read in another. The structural floor is the same: the same card shape, the same week, the same turnings kept by the sun, the same numbered lines ([[Minimum standards of interoperability]]).
 
-The feedback half matters as much. A Pattern localized well returns something the original did not have, and the Language is richer for it. This is named in the canon as a gap in self-maintenance — the practice is asserted and the process is not written.
+The feedback half matters as much. A Pattern localized well returns something the original did not have, and the Language is richer for it. This is named as a gap in self-maintenance — the practice is asserted and the process is not written.
 
 **Also called:** Pattern Localization And Adaptation
 **Stands on:** [[General Pattern, Specific Application]] · [[Word Tools]] · [[Instantiation]]
 **Opens onto:** [[On translating]] · [[Minimum standards of interoperability]] · [[How A Pattern Enters The Language]] · [[Lineage]] · [[Culture]] · [[Navigating Difference]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Parts VII and XII · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as a needed Pattern with no body; nothing states who judges whether a localization has kept the Pattern or lost it.

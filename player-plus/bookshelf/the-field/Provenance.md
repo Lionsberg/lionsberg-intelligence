@@ -10,7 +10,7 @@ pillar: —
 
 Four lines at the foot of a thing keep its trail warm. *Grown from* — the works it descends from. *Shaped by* — the houses and traditions that formed it. *Played in* — the rooms where it took shape. *Shared under* — the licence it travels beneath. They take a minute to write, and they hand the next maker a map back to everything that taught you.
 
-Provenance is also how status is read. A draft is cited as a draft; a proposal is named as a proposal; the past's work is cited as its author's, not quietly absorbed into the present's. Declarative voice is earned by a recorded decision, so a page that speaks as settled is making a checkable claim about its own history. Where a text selects or condenses from a larger body, it says so, and where a canon page and an answer differ, it says which one it followed.
+Provenance is also how status is read. A draft is cited as a draft; a proposal is named as a proposal; the past's work is cited as its author's, not quietly absorbed into the present's. Declarative voice is earned by a recorded decision, so a page that speaks as settled is making a checkable claim about its own history. Where a text selects or condenses from a larger body, it says so, and where a page and an answer differ, it says which one it followed.
 
 None of this is a claim on what came through you. Lineage is carried as thanks, not as ownership; the naming of traditions, houses and works comes first, and a person's name appears only by their own yes. A work that is renewed or joined with another carries every ancestry forward — dropping the old lineage when a new version ships is the common failure and the one that costs the most.
 
@@ -18,7 +18,6 @@ Provenance never thins. Each version is kept, changes carry their why and their 
 
 **Also called:** lineage, Canonical Destination and Provenance
 **Stands on:** [[Knowledge as commons]] · [[Lineage]] · [[Everything Is Current Best Understanding]]
-**Opens onto:** [[Attribution]] · [[License]] · [[CC BY-SA 4.0]] · [[Weave, don't delete]] · [[Progressive canonization]] · [[Chatham House]] · [[Change log]]
+**Opens onto:** [[Attribution]] · [[License]] · [[CC BY-SA 4.0]] · [[Weave, do not delete]] · [[Progressive canonization]] · [[Chatham House]] · [[Change log]]
 **In play:** Room · beyond
-**Sources:** *Gratitude, Lineage and Licensing*, Player+ Modules · The DNA of Heaven, Part IV and Part XIII · The Great Weaving — Concept Ledger, the disciplines · lionsberg.wiki: *The Great Weaving — Concept Ledger*
 **Open:** the four lines and the wiki's archival provenance are the same discipline in two vocabularies and have not been reconciled into one statement.

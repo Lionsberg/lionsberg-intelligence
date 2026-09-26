@@ -20,5 +20,4 @@ Applied within every Integration Domain and stewarded by the guilds of every Act
 **Stands on:** [[Right Relationship]] · [[Justice]] · [[Love]] · [[InterExistence]] · [[ØNE Body]]
 **Opens onto:** [[Society]] · [[Community]] · [[Trust]] · [[Dignity]] · [[Reconciliation]] · [[Belonging]] · [[Higher Order Functional Unity]] · [[Covenant Across Time]]
 **In play:** door · table · Home · beyond
-**Sources:** `Pillar XI — Sacred Society and Justice` (canon-grade; twelve theses and narrative) · `The 12 Pillars of LIØNSBERG` (canon-grade) · `The LIØNSBERG Lexicon`, Pillar XI table of twelve terms (canon-grade) · `Seats at the Table` (Community Guidebook Toolkit, written) · lionsberg.wiki: Pillar XI — Sacred Society and Justice
 **Open:** The Pillar page names restorative justice as the way forward but no page carries the containment of a sovereign who cannot be allowed to continue; it is named only as a gap. · The Lexicon seats *Culture*, *Circle*, *Justice*, *Participation* and *Integration* under this Pillar while the field's list files them elsewhere; the overlap is real and unreconciled.

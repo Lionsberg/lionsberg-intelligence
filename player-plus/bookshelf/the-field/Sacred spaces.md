@@ -20,5 +20,4 @@ What a Cell can do now is small and real. Notice which of these functions your b
 **Stands on:** [[Architecture]] · [[Community]] · [[Design]] · [[Atmosphere]]
 **Opens onto:** [[Threshold]] · [[The Hub]] · [[Temple]] · [[Dying]] · [[Human-Scaling]] · [[The Village]]
 **In play:** the Home · beyond the table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Gaps — Sacred Architecture (ore — named as a list, no cards written) · *Pillar IX — Sacred Architecture and Design*, the narrative's list of places (canon-grade) · the seed's Part III. lionsberg.wiki: Sacred spaces.
 **Open:** Ore. Twelve names in one line of a gaps register, with no card, no inbound use, and no statement of which are essential versus illustrative. The seed names "the seven pattern cards of place" as work nobody has written — a count that does not match the twelve names listed.

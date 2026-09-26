@@ -17,7 +17,6 @@ The distinction runs deeper than strategy. Founding language puts a person at th
 
 **Also called:** Weaving, not founding
 **Stands on:** [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[InterExistence]] · [[ØNE]]
-**Opens onto:** [[The LIØNSBERG Offering]] · [[Federation]] · [[Holofractal Omnifederation]] · [[Kit of Parts]] · [[Weave, don't delete]] · [[Instantiation]] · [[Sovereignty At Every Scale]]
+**Opens onto:** [[The LIØNSBERG Offering]] · [[Federation]] · [[Holofractal Omnifederation]] · [[Kit of Parts]] · [[Weave, do not delete]] · [[Instantiation]] · [[Sovereignty At Every Scale]]
 **In play:** At the Room, when two houses meet and must decide whether to merge, federate, or go on separately; beyond, as the argument offered to anyone about to start their own thing.
-**Sources:** `The Great Weaving — Concept Ledger`, Disciplines §3 and §A.3 · `LIØNSBERG Is A Prototype, Not The Eternal Essence` (Card — The Wise Move) · `Federate With LIØNSBERG` (wiki root — noted in the Ledger as needing reframing to this posture). lionsberg.wiki: **The Great Weaving — Concept Ledger**.
 **Open:** No page exists at this name; the framing lives in a Ledger discipline and inside one Card. The Ledger also records that `Federate With LIØNSBERG` still treats this body as the singular option, which contradicts the posture stated here.

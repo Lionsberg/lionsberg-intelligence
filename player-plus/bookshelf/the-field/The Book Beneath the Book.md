@@ -20,5 +20,4 @@ It is not the same ladder as the seed's three tiers of seed, kit and canon; that
 **Stands on:** [[The Story of LIØNSBERG]] · [[The One Book]] · [[Levels of Abstraction]]
 **Opens onto:** [[The Sacred Arc]] · [[The turn (of a Movement), and its chapters]] · [[The Field (of the Book), and the law of no loss]] · [[The vocabulary ladder]] · [[Progressive Illumination]] · [[The three tiers]] · [[The Guide's four renderings]] · [[Conditions of Acceptance]]
 **In play:** the door — how a person is met at whatever depth they arrive with
-**Sources:** `LIØNSBERG Wiki Books/The One Book/The One Book — The Telling.md`, §The Book Beneath the Book
 **Open:** Distinct from the seed's three tiers and from the four renderings the Guide keeps; three depth-ladders now exist and none is reconciled with the others. · Nothing states how fidelity between levels is checked — whether a compression that has drifted from its depths would be caught, and by whom.

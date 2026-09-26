@@ -20,5 +20,4 @@ What obstructs flow is worth naming, because the obstructions are usually delibe
 **Stands on:** [[Energy]] · [[Value]] · [[Living System]]
 **Opens onto:** [[Throughput]] · [[Waste]] · [[Integrated Delivery]] · [[Fostering Ecosystemic Resource Flows]] · [[Exchange]] · [[Theory Of Constraints]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III and Key Terms — *Flow* (canon-grade; one line) · *Value* (wiki root) · *Continuous Improvement* (wiki root) · *Fostering Ecosystemic Resource Flows* (wiki root) · lionsberg.wiki: Flow
 **Open:** none found.

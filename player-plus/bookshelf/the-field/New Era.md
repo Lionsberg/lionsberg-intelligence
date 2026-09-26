@@ -22,5 +22,4 @@ Its risk is the one every named future carries: a description written in the pas
 **Stands on:** [[Heaven On Earth]] · [[The Goal]] · [[Self-Governing, Self-Sustaining, and Self-Replicating]] · [[Liberation]]
 **Opens onto:** [[The 10 Year Grand Strategy]] · [[The 3 Year Lag]] · [[Islands of Coherence]] · [[Co-Creating Heaven]] · [[Citizenship]] · [[The Eternal Divine Play]] · [[Generational Time]]
 **In play:** beyond · Gate
-**Sources:** `New Era` (written as a retrospective description of the era underway) · `The LIØNSBERG Lexicon`, §Timing — *New Era / New Millennium* · `The Systems And Infrastructure Of The New Era` (root page) · `The 3 Year Lag` (root page; the inauguration as Phase III) · lionsberg.wiki: New Era
 **Open:** The `New Era` page is written in the past tense as though describing a completed future; nothing on it marks it as a vision rather than a record. · `New Millennium` is paired with this term in the Lexicon and has no page.

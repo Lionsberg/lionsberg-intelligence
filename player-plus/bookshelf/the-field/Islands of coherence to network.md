@@ -20,5 +20,4 @@ The failure mode is either half alone: islands that never link stay charming and
 **Stands on:** [[Islands of Coherence]] · [[Cell]] · [[Coherence]] · [[Trust]]
 **Opens onto:** [[Connect and Collaborate With Other Cells]] · [[Supercell]] · [[Islands, Hubs, Grid]] · [[The Movement]] · [[The First Three Percent]] · [[Tipping Point Strategy]]
 **In play:** beyond
-**Sources:** `Groundswell` (stub) · `Islands of Coherence` (a one-paragraph capture with outside citations) · The LIØNSBERG Pattern Language, The New World · The DNA of Heaven, Part II · lionsberg.wiki: Islands of Coherence
-**Open:** Both canon pages are thin; the linking move itself is described in the Plays rather than in either page.
+**Open:** Both pages are thin; the linking move itself is described in the Plays rather than in either page.

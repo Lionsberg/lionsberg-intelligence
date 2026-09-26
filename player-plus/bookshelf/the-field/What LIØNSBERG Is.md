@@ -20,5 +20,4 @@ What the refusals buy is the ability to be joined without being converted to. A 
 **Stands on:** [[ØNE]] · [[Pattern]] · [[The Lens]] · [[The Goal]]
 **Opens onto:** [[The LIØNSBERG Function]] · [[LIØNSBERG]] · [[The Foundational Truth]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[The Way]] · [[Meta Unity of Meta Diversity]] · [[The Invitation]] · [[All Scales Of Chapters]]
 **In play:** the door — the answer given when a stranger asks
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/What LIØNSBERG Is.md` (Card, settled)
-**Open:** Several pages in the corpus answer this question in different words and none is named as the home of the answer. · The across-worlds claim sits inside a definition that otherwise needs no cosmology, and nothing states whether it is load-bearing.
+**Open:** Several pages answer this question in different words and none is named as the home of the answer. · The across-worlds claim sits inside a definition that otherwise needs no cosmology, and nothing states whether it is load-bearing.

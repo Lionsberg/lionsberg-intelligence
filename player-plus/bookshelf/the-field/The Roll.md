@@ -20,5 +20,4 @@ Leaving is written the same way it was entered. Anyone may go, in peace, at any 
 **Stands on:** [[Consent]] · [[The Invitation]] · [[The Flame]] · [[Carrier]] · [[The Record]]
 **Opens onto:** [[The Gate]] · [[Brought-by · witnessed-by]] · [[Player]] · [[The Pledge]] · [[An address]] · [[Signed key]] · [[The Way Out]]
 **In play:** Gate — the first line a Player writes
-**Sources:** *The Minimum Standards of Interoperability — What a Holon Carries to Be a Cell* (Projects, Kit v0, 2026-09-12) · The DNA of Heaven, Parts V, IX and XII · *The Little Book of the Great Game*, the Invitation (current best understanding)
 **Open:** Whether a person may stand on the Roll with no name at all, and what a Cell does with a line whose witness has since left, is written nowhere.

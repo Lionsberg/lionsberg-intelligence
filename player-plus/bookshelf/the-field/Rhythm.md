@@ -22,5 +22,4 @@ A rhythm is kept by being kept. It survives one person's absence, a bad week, an
 **Stands on:** [[Time]] · [[Cycle]] · [[Logos]] · [[Discipline]]
 **Opens onto:** [[The Turn]] · [[The Daily Way]] · [[Season]] · [[The turnings]] · [[The LIØNSBERG Calendar]] · [[The Heartbeat]] · [[Sabbath]] · [[Ritual]]
 **In play:** table · Home · door
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XII term *Rhythm* (canon-grade) · `Pillar XII — Sacred Time, Rhythm, and Celebration`, Thesis 2 (canon-grade) · `The Rhythm of Gatherings` (Community Guidebook Toolkit, written; the cadence table and the weekly agenda) · `The Sovereign Path`, *The Rhythms That Hold The Walk* · `The LIØNSBERG Playbook`, §Opening Plays · lionsberg.wiki: no page stands at this name
 **Open:** No page named *Rhythm* exists; the operative articulations are the Toolkit's cadence table and the Sovereign Path's rhythms, which name overlapping but not identical sets of beats. · The Sovereign Path adds a dawn stillness wave to the daily rhythm that the Guidebook's cadence does not carry.

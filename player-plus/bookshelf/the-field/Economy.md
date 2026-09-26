@@ -18,5 +18,4 @@ At the scale of a Cell this is not abstract. A Cell that cannot say where its mo
 **Stands on:** [[Value]] · [[Throughput]] · [[Waste]] · [[Right Relationship]] · [[Flow]]
 **Opens onto:** [[The waterfall]] · [[Exchange]] · [[Gift]] · [[Reciprocity]] · [[Wealth]] · [[Abundance]] · [[LUV]]
 **In play:** table · Home · beyond
-**Sources:** *Value* (wiki root) · *Pillar III — Sacred Economy and CurrentSee* (canon-grade) · *The LIØNSBERG Lexicon*, Pillar III (canon-grade) · *Where Value Flows* (Community Guidebook Toolkit) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Value
 **Open:** The root *Value* page argues value is what a customer will pay for; the Lexicon and the seed say value is throughput of the Goal regardless of payment. The second reading governs here; the first is kept as the bridge into ordinary markets.

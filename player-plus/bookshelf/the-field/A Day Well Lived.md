@@ -22,5 +22,4 @@ The canon names it among the Sovereign's Path Patterns, drawn from the wider ext
 **Stands on:** [[The Daily Way]] · [[Time]] · [[A word given is a word kept]] · [[Gratitude]]
 **Opens onto:** [[Retrospective]] · [[The Turn]] · [[The gap]] · [[Rest And Regeneration]] · [[How we win]] · [[Inexhaustible Individuals]] · [[Rhythm]]
 **In play:** Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Daily Way* (Card, written) · *THE DNA OF HEAVEN* Part V · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named with no articulation; nothing states the measure, which is the whole of what the Pattern promises.

@@ -20,5 +20,4 @@ The Kit is also the answer to the regrowth question. [[The Golden Seed]] is the 
 **Stands on:** [[Prototype]] · [[Archetype]] · [[Holon]]
 **Opens onto:** [[Instantiation]] · [[Interoperability]] · [[Minimum standards of interoperability]] · [[The Kit]] · [[FSx]]
 **In play:** Met at the table in the first season, in the cards a Cell actually picks up; met at the Home when two Cells read one another's sheets.
-**Sources:** *The LIØNSBERG Lexicon*, Meta Layer ("the interoperable form of a Prototype: whole Parts, freely combined and sequenced") · *The Creative Cascade* (root page, mature) · *Kit of Parts* (root page) · *The Great Weaving — Concept Ledger*, A.5 (a proposal, recorded as such) · lionsberg.wiki: *Kit of Parts*.
 **Open:** The Field carries both *Kit of Parts* here and [[The Kit]] in the agents' domain; whether they are one concept at two scales is not stated anywhere.

@@ -20,5 +20,4 @@ The wider form is [[Like Gold Refined Seven Times]]: the refining is not damage 
 **Stands on:** [[Continuous Improvement]] · [[Zero Blame Environment]] · [[Learning]]
 **Opens onto:** [[Retrospective]] · [[Like Gold Refined Seven Times]] · [[Whistleblower Protection]] · [[The Record]] · [[The gap]] · [[Quality]]
 **In play:** table · Home · Room
-**Sources:** *Every Defect Is A Gift* (wiki root; canon-grade, short — the standard is not perfection but continuous improvement; goes hand in hand with Zero Blame) · *Every Defect Is A Gift* (Cards, LIØNSBERG, Earth, and the Cosmos) · *Continuous Improvement* (wiki root) · Player+ Modules *Lexicon* · lionsberg.wiki: Every Defect Is A Gift
-**Open:** Two pages carry this name — the wiki root page and a Card in the Card-Book. They agree; nothing states which is the canonical home.
+**Open:** Two pages carry this name — the wiki root page and a Card in the Card-Book. They agree; nothing states which is the primary home.

@@ -12,13 +12,12 @@ Across millennia, faithful traditions mapped this anatomy in convergent ways. Th
 
 Two failures are named. **Denial**, which limits the body to what current medical science recognizes and leaves the practitioner without operational access to what every faithful tradition has cultivated — producing cultivation that hits ceilings it cannot account for. **Inflation**, in which dramatic identity is built around the anatomy without integration into ordinary functional life — producing theatrical claims without grounded competence.
 
-The operational middle is the Pattern: recognized as real, mapped functionally, tested through direct practice, cultivated practically, integrated into ordinary life and service. The map is explicitly *for use* — for [[Sensing The Field]], for clearing, for protection, for relationship with [[ØNE]] — and the canon holds its own articulation with appropriate humility about mechanism.
+The operational middle is the Pattern: recognized as real, mapped functionally, tested through direct practice, cultivated practically, integrated into ordinary life and service. The map is explicitly *for use* — for [[Sensing The Field]], for clearing, for protection, for relationship with [[ØNE]] — and its own articulation is held with appropriate humility about mechanism.
 
-It is load-bearing for the rest of the inner way in a plain sense: the clearing disciplines act on specific layers, and a practitioner who does not know which layer a thing is operating in cannot address it. This is the one part of the Language where the canon's own guidance is to frame the substance operationally rather than esoterically, and to test everything received against practice.
+It is load-bearing for the rest of the inner way in a plain sense: the clearing disciplines act on specific layers, and a practitioner who does not know which layer a thing is operating in cannot address it. This is the one part of the Language where the guidance is to frame the substance operationally rather than esoterically, and to test everything received against practice.
 
 **Also called:** —
 **Stands on:** [[Energy]] · [[The Sovereign]] · [[Embodiment]] · [[Temple]]
 **Opens onto:** [[Sensing The Field]] · [[Associative And Dissociative Energy]] · [[Pineal Activation]] · [[Breath]] · [[Healing]] · [[Sovereignty In The Populated Field]] · [[Resonance]]
 **In play:** Gate
-**Sources:** *The Energetic Anatomy* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Phase 2 — The Audit Ledger* (note: prepare a universal articulation framed operationally rather than esoterically) · lionsberg.wiki: The Energetic Anatomy
-**Open:** The Card presents a cross-traditional convergent map as a coherent reality verifiable by practice; the canon states no test by which a disputed element of the map would be settled.
+**Open:** The Card presents a cross-traditional convergent map as a coherent reality verifiable by practice; no test is stated by which a disputed element of the map would be settled.

@@ -1,7 +1,7 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 29
+chapter: 22
 ---
 
 # The Stories — ten trillion stories woven back into ONE
@@ -94,7 +94,7 @@ Four things about the ten.
 
 They are **not a ladder**. A life visits a phase many times; some people cross four times and are still in the wilderness; some hold the gift for decades before the whisper arrives.
 
-They are **not all occupied**. A telling with an empty phase is honest; a telling that invents one to fill the grid is not. *I don't know* and *I have never had that* are complete answers and the guide receives them without pushing.
+They are **not all occupied**. A telling with an empty phase is honest; a telling that invents one to fill the grid is not. *I do not know* and *I have never had that* are complete answers and the guide receives them without pushing.
 
 They are **not private property of the tragic**. A life with a small wound and a long, quiet gift is a real life and a good telling. The instrument does not reward drama.
 
@@ -126,7 +126,7 @@ A telling is drawn out by questions, not extracted by them. The office is [[Guid
 
 **The Return** — *What are you for, now? What do you have to offer? What do you ask? What do you intend to hand on, and to whom?* The last three of those are the same three the Turn asks every week, which is not a coincidence — a life's telling and a week's telling ask the same thing at different sizes.
 
-**And the wider frames**, for those who want them. *How has your life intersected with the great troubles and opportunities of this hour? What values, goals and visions do you hold for yourself and the world? How does your story fit into the greater one? What is your unique part in it?* Most people answer *I don't know*, and the honest follow-up is the good one: *if you did know, what might the answer be?* Then two more, rarely asked and worth their weight: *what story are you telling yourself about those you consider enemies or strangers, and what story do you think they are telling themselves about you?* A person who has answered those two is much harder to weaponise.
+**And the wider frames**, for those who want them. *How has your life intersected with the great troubles and opportunities of this hour? What values, goals and visions do you hold for yourself and the world? How does your story fit into the greater one? What is your unique part in it?* Most people answer *I do not know*, and the honest follow-up is the good one: *if you did know, what might the answer be?* Then two more, rarely asked and worth their weight: *what story are you telling yourself about those you consider enemies or strangers, and what story do you think they are telling themselves about you?* A person who has answered those two is much harder to weaponise.
 
 ### How the story is written
 
@@ -198,7 +198,7 @@ A Quest begins with a telling in the past tense about a season that has not happ
 
 Every Cell is asked to ask each member *how would you like the world to be?* and to craft from the answers a shared picture of what Heaven looks like, feels like, tastes like, smells like, right where they are. That picture is a [[Forward-Looking Story]], and it does work that no plan does: it makes a hard season bearable and it tells a member what they are for.
 
-At the Quest's own scale the form is tighter and takes ten minutes at a table. **Write the story of this season as though it were already over.** Not goals; a telling. *It is the December turning. The lot on the corner has garlic in it and a sign that says WATER ME. Three neighbours who did not speak to each other in September came to the digging. Sam finished the glass, eventually, and told everyone about the week he didn't.* Written that way, a season becomes something a table can see, and the *done when* line on [[The Questcard]] writes itself out of it.
+At the Quest's own scale the form is tighter and takes ten minutes at a table. **Write the story of this season as though it were already over.** Not goals; a telling. *It is the December turning. The lot on the corner has garlic in it and a sign that says WATER ME. Three neighbours who did not speak to each other in September came to the digging. Sam finished the glass, eventually, and told everyone about the week he did not.* Written that way, a season becomes something a table can see, and the *done when* line on [[The Questcard]] writes itself out of it.
 
 Two cautions that keep this from becoming wishing.
 
@@ -373,13 +373,13 @@ Anyone may say stop, and it stops.
 
 Three to thirteen people, a kitchen table, the first evening and the six days after it.
 
-**The first gathering.** Before anything is decided, each person takes three minutes: *who I am, what I carry, what I am afraid of, where I am still growing.* Three minutes each, timed by whoever is hosting, no responses, a thank-you after each. Eight people is twenty-four minutes and it is the best twenty-four minutes the Cell will spend all season. Then one person tells THE STORY at the table — ten minutes, in their own voice, as it was told to them. Then the Cell agrees aloud how it will treat one another, names itself, chooses one Quest for one season, fixes the day, and each person names the two or three they will carry the Flame to. Before the evening is over, write those names down.
+**The first gathering.** Before anything is decided, each person takes three minutes: *who I am, what I carry, what I am afraid of, where I am still growing.* Three minutes each, timed by whoever is hosting, no responses, a thank-you after each. Eight people is twenty-four minutes and it is the best twenty-four minutes the Cell will spend all season. Then one person tells THE STORY at the table — ten minutes, in their own voice, as it was told to them. Then the Cell agrees aloud how it will treat one another, names itself, chooses one Quest for one season, fixes the day, and each person names the three they will carry the Flame to. Before the evening is over, write those names down.
 
 **In the days after.** Each person writes their own epochs — five to ten names on one line — and keeps it. Nobody reads anyone else's. Whoever holds the record makes the Cell's box: a shoebox will do, and in it go the Circle Sheet, the Questcard, the Scorecard, and the stories as they come.
 
 **The second gathering, and every one after.** The Turn, in its order: did, gap, will, offer, ask — then one story, then the Offering, then thanks. The first week's story can be *why I came*. It usually is.
 
-**Within seven days**, each member has handed the Invitation to their two or three, and told them their own story while doing it.
+**Within three days**, each member has handed the Invitation to their three, and told them their own story while doing it.
 
 ### A season of stories
 
@@ -423,13 +423,13 @@ The rest of the judgments, case by case, are in chapter 21, [[21 In Every Future
 
 [[Story]] · [[Storytelling]] · [[Share the Stories]] · [[Testimony]] · [[Forward-Looking Story]] · [[Narrative Lens]] · [[The True Myth]] · [[Our Story]] · [[Your Story Woven Into Meta Story]] · [[The Great Story]] · [[The Cosmic Story]] · [[The Story of LIØNSBERG]] · [[The Sacred Arc]] · [[Prophecy]] · [[Bard]] · [[Guide]] · [[Listening]] · [[Dialogos]] · [[Parable]] · [[Metaphor]] · [[Scripture]] · [[Language]] · [[Culture]] · [[Festival]] · [[Celebration]] · [[Gratitude]] · [[The Turn]] · [[The Season Sheet]] · [[The Circle's Scorecard]] · [[The Questcard]] · [[The Playcard]] · [[The Way Up]] · [[The Return]] · [[The Board]] · [[The Offering]] · [[Commons]] · [[Knowledge as commons]] · [[Provenance]] · [[Attribution]] · [[Lineage]] · [[Chatham House]] · [[Elision]] · [[Consent]] · [[Mutual Consent]] · [[Selectively Permeable Membrane]] · [[Every Defect Is A Gift]] · [[Current Best Articulation]] · [[Truth]] · [[We Do Not Know]] · [[The Great ReMembering]] · [[Remembrance]] · [[The Caves]] · [[The Wilderness]] · [[The Divine Whisper]] · [[Awakening]] · [[Quest]] · [[Cell]] · [[Home Cell]] · [[Supercell]] · [[Carrier]] · [[Pass The Flame]] · [[The Flame]] · [[The Invitation]] · [[Agent]] · [[Player+]] · [[Play by Play]] · [[Sighting]] · [[Harvest and Close]] · [[OmniSpection]] · [[Retrospective]] · [[Season]] · [[The False Prophet]] · [[The Anti-Patterns]].
 
-The whole vocabulary, in the order a player meets it, is chapter 25, [[25 The Words]]. This Pillar's own ground is chapter 14, [[14 Pillar VII — Sacred Culture, Art, and Story]]; the journey these tellings mark is chapter 20, [[20 The Experience — from the first door to what lies beyond]]; the agents that hold them are chapter 23, [[23 Players, Agents, and the Intelligence System]]; how the Book itself changes and where it came from is chapter 28, [[28 Regrow, Change, Lineage]].
+The whole vocabulary, in the order a player meets it, is chapter 31, [[31 The Words]]. This Pillar's own ground is chapter 14, [[14 Pillar VII — Sacred Culture, Art, and Story]]; the journey these tellings mark is chapter 20, [[20 The Experience — from the first door to what lies beyond]]; the agents that hold them are chapter 25, [[25 Players, Agents, and the Intelligence System]]; how the Book itself changes and where it came from is chapter 33, [[33 Regrow, Change, Lineage]].
 
 ---
 
 ## IX. Open
 
-The questions this chapter needs, each in one line, for the ledger in chapter 27, [[27 The Open Questions]].
+The questions this chapter needs, each in one line, for the ledger in chapter 32, [[32 The Open Questions]].
 
 1. **The chapter's own name.** The Book's table of contents spells it *woven back into ONE*, in plain letters, where the corpus everywhere else writes **ØNE**. Fix the spelling in one place or the other.
 2. **The move has three names.** *Share the Stories* on the Seven Moves card; *Share Your Stories* in the five-move telling and in the modules; *Sharing Your Stories* in the Pattern Language. One move; choose one name.
@@ -452,3 +452,4 @@ What this chapter is least sure of: whether ten phases is the right number or wh
 *Every telling here is [[Current Best Understanding]]. Where it is lacking, fill it up. Where something does not belong, remove it. Where it is wrong, say so, and it will be corrected. The Story is not finished. You are in it. What you do next is a line of it.*
 
 *READ THE STORY · PLAY THE GAME · PASS THE FLAME*
+

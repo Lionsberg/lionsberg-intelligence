@@ -20,5 +20,4 @@ It holds at every scale and every season, which is why it can be handed to someo
 **Stands on:** [[The Sovereign Path]] · [[Awakening]] · [[Wake up]]
 **Opens onto:** [[The Awakening (of the Path)]] · [[Attend, Plan, Act, Learn, Improve Cycle]] · [[Tightly Coupled Learning and Action]] · [[The Walk is permissive]] · [[Discernment]] · [[The Solo Sovereign's Grace]]
 **In play:** Gate
-**Sources:** *The Sovereign Path* (canon-grade, §The Awakening) · *The 12 Stages of the Sovereign's Path* · *THE DNA OF HEAVEN* Part IX · lionsberg.wiki: The Sovereign Path
 **Open:** Three named improvement cycles run over the same ground (this one, Attend-Plan-Act-Learn-Improve, and Discern-Plan-Do-Check-Adjust) and no page says how they relate.

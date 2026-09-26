@@ -16,11 +16,10 @@ Remove it and the system fails in one of three ways. Complete but unfederated no
 
 Its anatomy is exact and worth memorizing: each time sovereigns associate, four things emerge together — a [[Domain]], a [[Selectively Permeable Membrane]], a [[Field of Agreements]], and a [[Commons]]. The holofractal unit is the [[Cell]]: governance, economy, formation, mission, and replication all operating at human scale. A Cell that can do all five carries the full DNA and depends on no centre.
 
-The worked examples the canon leans on are the Benedictine houses, the early house churches, the twelve-step groups, and [[Mondragon]] — whose federated core of about sixty people serves hundreds of organizations, and serves rather than controls.
+The worked examples this leans on are the Benedictine houses, the early house churches, the twelve-step groups, and [[Mondragon]] — whose federated core of about sixty people serves hundreds of organizations, and serves rather than controls.
 
 **Also called:** Federate Everything · Omnifederation
 **Stands on:** [[Holon]] · [[Fractal]] · [[Sovereignty At Every Scale]] · [[Cell]] · [[Consent]]
 **Opens onto:** [[Federation]] · [[Federations vs Empires]] · [[Domain]] · [[Field of Agreements]] · [[Commons]] · [[Fractal Commonsing]] · [[Total Nested Holarchy Of Sovereignties]] · [[Self-Sustenance and Self-Replication]]
 **In play:** beyond — met when a Cell first connects with another Cell
-**Sources:** *Holofractal Omnifederation* (root page; states it is the second irreducible element) · *Twelve Irreducible Elements* · *The Core Pattern* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Holofractal Omnifederation
 **Open:** none found.

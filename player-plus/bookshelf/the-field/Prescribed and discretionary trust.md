@@ -18,5 +18,4 @@ It is read in company with [[Guidance]] and [[Stewardship body]]: the stewards s
 **Stands on:** [[Stewardship body]] · [[Subsidiarity]] · [[Zero Blame Environment]]
 **Opens onto:** [[Guidance]] · [[Project Management]] · [[Field of Agreements]] · [[Decision Records]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §16 · *Project Management Hygiene* (wiki root page, which makes the same point about experienced versus new teams) — lionsberg.wiki page name: **The LIØNSBERG Operating System**
 **Open:** The OS gives this a paragraph; no page develops it, and the balance is nowhere made measurable.

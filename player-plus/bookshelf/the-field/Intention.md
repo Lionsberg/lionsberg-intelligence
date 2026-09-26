@@ -19,5 +19,4 @@ The invariance has a limit worth stating. What does not change is the Intent its
 **Stands on:** [[ØNE]] · [[Creator's Intent]] · [[The Goal]]
 **Opens onto:** [[Commander's Intent]] · [[The Creative Cascade]] · [[Vision]] · [[One Purpose Above All]] · [[Purpose]] · [[Worthy Goal]] · [[The Intent]]
 **In play:** At the table, as the first question before a Quest is chosen; at the Room, as what a body restates when its plans all have to change; beyond, as the thread that survives every replan.
-**Sources:** `Intention` (wiki root, canon-grade) · `Creator's Intent` (root) · `The LIØNSBERG Lexicon`, the Creative Cascade · `Essences, Renderings, And Ineffable Referents` · `The DNA of Heaven`. lionsberg.wiki: **Intention**.
 **Open:** none found; the root page is the single mature articulation and cites its own sources.

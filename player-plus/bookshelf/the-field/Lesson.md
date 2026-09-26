@@ -20,5 +20,4 @@ Beside a lesson stand its neighbours in the settled language: lessons compose in
 **Stands on:** [[Just in time]] · [[Learning By Doing]] · [[Notebook form]]
 **Opens onto:** [[Module]] · [[Player+ Modules]] · [[Top card]] · [[Skill]] · [[Capability]] · [[Capacity]] · [[Belt Progression]] · [[Shu-ha-ri]]
 **In play:** door · beyond
-**Sources:** Player+ Modules, *Start Here*, *How a Module Lives*, *The Deck Standard* · The DNA of Heaven, Parts VIII and XII · lionsberg.wiki: *Education As Transformation*, *The LIØNSBERG Belt System*.
 **Open:** none found.

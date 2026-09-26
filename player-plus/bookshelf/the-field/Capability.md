@@ -20,5 +20,4 @@ A capability is not a promise. It says a thing is within reach; whether it will 
 **Stands on:** [[Lesson]] · [[Player+]] · [[Skill]]
 **Opens onto:** [[Capacity]] · [[Module]] · [[Venue card]] · [[Requests and offers]] · [[Belt Progression]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Lexicon*, *Start Here*, *How a Module Lives* · The DNA of Heaven, Part XII · lionsberg.wiki: *The LIØNSBERG Belt System*.
 **Open:** none found.

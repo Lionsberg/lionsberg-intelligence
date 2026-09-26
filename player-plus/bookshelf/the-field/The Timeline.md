@@ -14,11 +14,10 @@ Three things about it are as important as the dates. It is **a draft** and says 
 
 It is load-bearing because a body with no dates cannot be late, and a body that cannot be late cannot learn. Naming a moment makes the gap between intention and reality measurable, which is uncomfortable and is the point. The first marker on this arc is already recorded as missed, and the arc is better for saying so ([[Honesty about time]], [[The gap]], [[Milestone]]).
 
-It must be read as an estimate and never as a measurement, and never as a promise made on anyone else's behalf. Of its markers only the Jubilee is carried elsewhere in the canon with any weight; the rest are one page's proposal. A timeline held as prophecy becomes the thing people defend instead of the Goal ([[Do Not Concretize the Absolute]], [[The 3 Year Lag]]).
+It must be read as an estimate and never as a measurement, and never as a promise made on anyone else's behalf. Of its markers only the Jubilee is carried elsewhere with any weight; the rest are one page's proposal. A timeline held as prophecy becomes the thing people defend instead of the Goal ([[Do Not Concretize the Absolute]], [[The 3 Year Lag]]).
 
 **Also called:** the arc · the draft timeline
 **Stands on:** [[The Plan]] · [[The Clock of the Game]] · [[Milestone]]
 **Opens onto:** [[The First Three Percent]] · [[Jubilee]] · [[Covenant]] · [[The Three-Year Formation]] · [[20 Year Generational Contingency]] · [[The 7 Year Window of Crisis and Opportunity]] · [[Honesty about time]] · [[Regeneration]] · [[Temporal markers apart from milestones]]
 **In play:** Home · beyond — on the wall of the big room, with the spending of its slack shown
-**Sources:** *The DNA of Heaven*, Part XI · `LIØNSBERG Mission Control.md` (wiki root; the same markers on the wall) · `Covenant and Jubilee — December 2033` (wiki) · lionsberg.wiki: The First Three Percent
-**Open:** Only the 2033 Jubilee is carried elsewhere in the canon; the other markers are asserted in one place and nowhere derived. · The first marker is already missed, and nothing states what a missed marker does to the ones after it.
+**Open:** Only the 2033 Jubilee is carried elsewhere with any weight; the other markers are asserted in one place and nowhere derived. · The first marker is already missed, and nothing states what a missed marker does to the ones after it.

@@ -20,5 +20,4 @@ Nothing here forbids one person helping another with resources and being made wh
 **Stands on:** [[Money]] · [[Scarcity]]
 **Opens onto:** [[Jubilee]] · [[The asset lock]] · [[Capital Subordinate To Purpose]] · [[Compressed Pay Ratios]] · [[Extraction Of Wealth]] · [[Manufactured Dependency]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Usury* (canon-grade; one line) · *Pillar III — Sacred Economy and CurrentSee*, Theses 5 and 9 (canon-grade) · *Where Value Flows* (Community Guidebook Toolkit) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Usury
-**Open:** No canon page states a general position on lending at interest between sovereigns; only the capped return inside a Community Company is specified (given there as an example ceiling, not a rule).
+**Open:** No general position on lending at interest between sovereigns is yet stated; only the capped return inside a Community Company is specified (given there as an example ceiling, not a rule).

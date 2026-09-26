@@ -20,5 +20,4 @@ At the technical layer the same principle produces [[Interoperability]]: agree t
 **Stands on:** [[Boundary]] · [[System]] · [[Design]] · [[Consent]]
 **Opens onto:** [[Selectively Permeable Membrane]] · [[Interoperability]] · [[Conditions of satisfaction]] · [[Requests and offers]] · [[The door]]
 **In play:** the door · the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII and Pillar IX tables · *Interoperability* (root page, canon-grade) · *The LIØNSBERG Operating System v0*, quality at the handoff · the seed's Part IV and Part VII. lionsberg.wiki: Interface.
 **Open:** The Lexicon defines *Interface* twice, once under Pillar VIII as a membrane for information and once under Pillar IX as a relational surface; the two lines have not been folded into one.

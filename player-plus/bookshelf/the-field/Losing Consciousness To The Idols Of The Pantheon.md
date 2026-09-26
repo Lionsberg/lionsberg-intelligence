@@ -22,5 +22,4 @@ The canon describes the lower drives that take the controls in figurative langua
 **Stands on:** [[Consciousness]] · [[Fear]] · [[The Dual-Axis Energy Model]] · [[Mastery Of Emotions]]
 **Opens onto:** [[Green, Yellow, Red — And Its Calibration]] · [[Composure Under Threat]] · [[Breath]] · [[The Proper Orientation And Stance]] · [[Form Practice, And Beyond Form]] · [[Trauma]] · [[Addiction]] · [[Discernment]]
 **In play:** the Room — and any moment a person notices they have gone small
-**Sources:** `LIØNSBERG Wiki Books/A Way Beyond Fear, Anxiety, and Depression/2.4 Losing Consciousness` · lionsberg.wiki: A Way Beyond Fear, Anxiety, And Depression
 **Open:** The chapter's figurative language does mechanistic work it cannot bear; this page carries the access mechanism and marks the figure as a figure. · The canon has carded the recovery move — counting back up into consciousness — without carding the failure it recovers from; the pair belongs together.

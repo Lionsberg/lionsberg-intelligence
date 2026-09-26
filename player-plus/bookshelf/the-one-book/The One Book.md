@@ -31,9 +31,18 @@ Every page carries the same mark: *Current best understanding, loosely held · i
 **The ground**
 1. [[01 The Spirit]] — ØNE, the Goal, the Three Supreme Agreements, the one question
 2. [[THE STORY]] — the Story of LIØNSBERG
+
+31. [[02 The Moment]] — where we stand: the gauges, the machinery beneath them, the Caves seen as one architecture, and why this hour is unlike any before it
+
 3. [[THE GAME]] — the Great Game: the five moves, the Turn, the Season, the cards, the body
 4. [[THE FLAME — the Book|THE FLAME]] — the Flame, and the Invitation
-5. [[05 The Pattern and the Way]] — the Twelve Irreducible Elements, the Recognitions, the Anti-Patterns, the culture
+
+33. [[03 The Calling]] — how a whole people is invited: the Ecclesia, the Invitation, the welcome, and the pace of the calling once the first three percent stand
+
+5. [[04 The Pattern and the Way]] — the Twelve Irreducible Elements, the Recognitions, the Anti-Patterns, the culture
+
+32. [[05 The Turning — consciousness, healing and wholeness at every scale]] — consciousness, healing, and wholeness at every scale: the heart of the strategy, in full
+
 6. [[06 The Daily Way — the baseline practice]] — meditation, chi gong, the martial way, the breath, the body, the day: the practice every Player keeps, fully articulated
 
 **The Twelve Pillars, and the ØNE at the center** — each chapter carries the Pillar's meaning, its current best understanding, its plan, its specifications, its instruments, and the first Cell's moves in it
@@ -55,18 +64,27 @@ Every page carries the same mark: *Current best understanding, loosely held · i
 20. [[20 The Experience — from the first door to what lies beyond]] — the door, the table, the Gate, Home, the Rooms, the Season, the Path and its Gates, the Sacred Ascent, Convergence, and what lies beyond
 21. [[21 In Every Future — what to do in each case]] — the distribution of futures, the cases with their judgments preset, and the pages to open when nothing else works: **if the lights are out, open here**
 
-29. [[29 The Stories — ten trillion stories woven back into ONE]] — share your story: the phases of a life and what arises in each; the story of every Quest; the flywheel of resourcing and engagement; the tapestry
+29. [[22 The Stories — ten trillion stories woven back into ONE]] — share your story: the phases of a life and what arises in each; the story of every Quest; the flywheel of resourcing and engagement; the tapestry
 
 **The build**
-22. [[22 Building — the Pattern of Production]] — IPD, the Operating System, could · should · can · will · did
-23. [[23 Players, Agents, and the Intelligence System]] — Player+, the guard, the swarm
-24. [[24 The Plan — the first three percent]] — the five pages, the first season, 144 · 300 · 3,000, [[The Reweaving Web]]
-25. [[25 The Words]] — the Twenty, the Two Hundred, the Thousand, and [[The Rosetta Stone]]
+22. [[23 Building — the Pattern of Production]] — IPD, the Operating System, could · should · can · will · did
+
+34. [[24 The Work and the System]] — how large the work is, how it breaks down across the twelve Pillars, and the system of systems that carries it at every scale
+
+23. [[25 Players, Agents, and the Intelligence System]] — Player+, the guard, the swarm
+
+35. [[26 The Body and Its Planning]] — the organs of the body from Player to planet, how it governs and replicates itself, and how it plans without a master plan
+36. [[27 Resourcing and the New Economy]] — how the work is resourced, from the Offering at the table to the redirection of a civilization's weapons and waste
+30. [[28 The Strategy and Plan]] — the Goal and the moment, the turning of consciousness, wholeness at every scale, the work and the body, the plan by phase, every future, and how to hold it
+
+24. [[29 The Plan — the first three percent]] — the five pages, the first season, 144 · 300 · 3,000, [[The Reweaving Web]]
+37. [[30 The Bets and the Stages]] — the road from opening to Jubilee, staged by the rings, the load-bearing bets, and what would show each wrong
+
+25. [[31 The Words]] — the Twenty, the Two Hundred, the Thousand, and [[The Rosetta Stone]]
 
 **The edge**
-26. [[26 The Instruments the Canon Lacks]] — what a civilization needs that is not yet written, as current best understanding
-27. [[27 The Open Questions]] — the decisions not yet made, each teed up: the decision, three options, a recommendation
-28. [[28 Regrow, Change, Lineage]] — how to regrow the whole from any size, how this Book changes, and where it came from
+27. [[32 The Open Questions]] — the decisions not yet made, each teed up: the decision, three options, a recommendation
+28. [[33 Regrow, Change, Lineage]] — how to regrow the whole from any size, how this Book changes, and where it came from
 
 ## The one question
 

@@ -20,5 +20,4 @@ In play, this is the single question at the centre of the deciding round: *does 
 **Stands on:** [[Consent]] · [[Range Of Tolerance]] · [[Wisdom]] · [[Discernment]] · [[The Goal]]
 **Opens onto:** [[Consent-Based Decision-Making]] · [[Proposal]] · [[Decision Making]] · [[Speaking Truth In Love]] · [[Stop]] · [[Whistleblower Protection]]
 **In play:** table — in the deciding round, every week one is brought
-**Sources:** *Meaningful Objection* (the moral obligation, the framing rule, the span-of-impact gradient) · *Consent* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Governance · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Meaningful Objection
 **Open:** none found.

@@ -20,5 +20,4 @@ So the peaceable body is not the one with nothing to argue about. It is the one 
 **Stands on:** [[Justice]] · [[Truth]] · [[Right Relationship]] · [[Love]]
 **Opens onto:** [[Guardianship]] · [[Order]] · [[Conflict Transformation]] · [[Reconciliation]] · [[Warrior]] · [[Restraint As The Refusal To Act]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *Pillar X — Sacred Guardianship and Order*, thesis 1 and the closing (canon-grade) · *Shalom* · *The LIØNSBERG Pattern Language — Synthesized*, Sacred Warrior Domain. lionsberg.wiki: Peace · Shalom.
 **Open:** *Shalom* has the fuller page and *Peace* the Lexicon line; neither names the other, and which is the canonical home is unsettled.

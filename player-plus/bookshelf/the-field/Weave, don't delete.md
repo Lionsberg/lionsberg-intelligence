@@ -4,7 +4,7 @@ tier: 1000
 domain: Words and Conventions
 pillar: VII
 ---
-# Weave, don't delete
+# Weave, do not delete
 
 *Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased.*
 
@@ -20,5 +20,4 @@ It is also the answer to the temptation of a clean start. Weaving, not founding:
 **Stands on:** [[One canonical home per concept]] · [[Provenance]] · [[Weaving vs. Starting New]]
 **Opens onto:** [[Disposition Categories]] · [[Progressive canonization]] · [[Knowledge as commons]] · [[Attribution]] · [[Lineage]] · [[Every Defect Is A Gift]]
 **In play:** beyond
-**Sources:** The Great Weaving — Concept Ledger, discipline 6 and discipline 3 · Phase 2 — The Audit Ledger, disposition method · lionsberg.wiki: *The Great Weaving — Concept Ledger*
 **Open:** *archive* is named as a disposition but the archive's own location and rules are not described anywhere; a body following this today has to invent where archived-with-provenance lives.

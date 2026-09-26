@@ -16,11 +16,10 @@ It runs in both directions. Downward, a domain is composed of smaller domains, e
 
 And *secured* is the right word: a domain with an unbroken chain cannot be quietly captured, because there is no unattended place to stand ([[Structural Immunity]], [[Guardianship]], [[Guard the Membrane]]).
 
-One bullet in an unwritten chapter, and the corpus's clearest statement that responsibility is what secures a domain rather than surveillance of it.
+The clearest statement here: responsibility is what secures a domain, rather than surveillance of it.
 
 **Also called:** the unbroken chain · mapping responsibility and authority
 **Stands on:** [[Authority derived from responsibility]] · [[Integrity]] · [[Domain]]
 **Opens onto:** [[Accountability]] · [[Right Use of Power]] · [[Subsidiarity]] · [[Roles]] · [[Oversight]] · [[Total Nested Holarchy Of Sovereignties]] · [[Structural Immunity]] · [[Power Over]]
 **In play:** the table — mapped once for any domain a Cell takes on
-**Sources:** `LIØNSBERG Wiki Books/The Great UnVeiling/The Great UnVeiling.md`, ch. 59 (outline — one bullet)
 **Open:** One bullet in an unwritten chapter; everything above is reconstruction. · No method is given for mapping a chain, and nothing says what to do about a link nobody will take.

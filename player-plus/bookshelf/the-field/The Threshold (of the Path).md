@@ -8,7 +8,7 @@ pillar: Pillar IV — Sacred Learning and Mastery
 
 *The Path begins outside the books. A link arrives, a door opens, and a person is standing in the world before they have read a word about it.*
 
-This is the deliberate inversion. Most systems ask to be studied and then entered; here the world is met first and the corpus opens later. Someone is dropped into it and must immediately begin to observe, orient, decide, and act. Three texts hold this moment and no more than three: the first encounter that arrives from another person, the deeper welcome that follows, and the guide to the first ninety minutes. Everything else waits.
+This is the deliberate inversion. Most systems ask to be studied and then entered; here the world is met first and the books open later. Someone is dropped into it and must immediately begin to observe, orient, decide, and act. Three texts hold this moment and no more than three: the first encounter that arrives from another person, the deeper welcome that follows, and the guide to the first ninety minutes. Everything else waits.
 
 The threshold is load-bearing because it is where most arrivals are lost. A whole curriculum handed over at the door is a wall; one thing handed over when you are about to need it is a door. So the door is kept narrow on purpose — what is asked here is not comprehension but presence, and the standing question is not *do you agree* but *is there something here for you*. Nobody is governed who has not agreed; silence is never a yes; and anyone may set it down gently and go on their way. The Gate does not close behind them either.
 
@@ -20,5 +20,4 @@ In the Game the Threshold is the first two stages of [[The 12 Stages of the Sove
 **Stands on:** [[The Golden Seed]] · [[The Invitation]] · [[Consent]] · [[The Sovereign Path]]
 **Opens onto:** [[The Gates of LIØNSBERG]] · [[Welcome to LIØNSBERG]] · [[The LIØNSBERG Quick Start Guide]] · [[The Awakening (of the Path)]] · [[The Decision]] · [[Cross The Threshold]] · [[Field of Agreements]]
 **In play:** door
-**Sources:** *The Sovereign Path*, §The Threshold (canon-grade) · *The 12 Stages of the Sovereign's Path*, Stages 1–2 · *The LIØNSBERG Playbook*, §Threshold — lionsberg.wiki · the seed text *The DNA of Heaven*, Part V (The Invitation, and the door).
 **Open:** *Threshold* is also a term under Pillar IX (architecture) and a stage name within the 144 Gates; three senses share the word. This page is the Path's sense only.

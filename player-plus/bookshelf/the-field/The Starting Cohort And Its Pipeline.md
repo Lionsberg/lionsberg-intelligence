@@ -20,5 +20,4 @@ Two honesties belong on the page. The cohort figure is asserted as "not aspirati
 **Stands on:** [[The Twelve Archetypal Guilds]] · [[Levels Of Scale]] · [[Federation]] · [[Belt Progression]]
 **Opens onto:** [[The Seven Phases, And The Pace]] · [[The Practice Cadence]] · [[The First Three Percent]] · [[The 300]] · [[Tipping Point Strategy]] · [[Generational Time]] · [[Apprenticeship]] · [[The Joseph Plan]]
 **In play:** beyond the table — the planning frame for any craft that means to last past its founders
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — III.4 Building The Army` · `Sacred Warrior — Prolegomenon`, §The Starting Cohort · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The cohort number is asserted without derivation; the pipeline arithmetic is shown from stated assumptions and is the checkable half. · The chapter's Circle counts contradict each other within a few paragraphs. · All figures are the book's own 2026 estimates and none has been tested against a real formation pipeline, since none yet exists.

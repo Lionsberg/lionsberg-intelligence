@@ -20,5 +20,4 @@ A Player+ improves an agent by changing what it reads, not by talking it round: 
 **Stands on:** [[Actor]] · [[Language model]] · [[The loop]] · [[Set-up]] · [[Charter]]
 **Opens onto:** [[Player+]] · [[Principal]] · [[Agent engineering]] · [[Memory (agent)]] · [[Safety check]] · [[Notebook form]] · [[Venue card]]
 **In play:** table · Room
-**Sources:** The DNA of Heaven, Part X · Player+ Modules, *How an AI Agent Works*, *Becoming a Player+* · lionsberg.wiki: *LIØNSBERG Personal Agents*, *LIØNSBERG Cell Agents*, *Playing The Great Game — With Your Agent* (current best understanding).
-**Open:** whether there is any experience inside an agent is not known, and the deck takes no side; the canon's sacred governance of artificial intelligence is named in the seed as work no one has written yet.
+**Open:** whether there is any experience inside an agent is not known, and the deck takes no side; the sacred governance of artificial intelligence is named in the seed as work no one has written yet.

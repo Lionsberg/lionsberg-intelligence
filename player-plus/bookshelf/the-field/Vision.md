@@ -19,5 +19,4 @@ In play, Vision is made rather than announced. Every [[Cell]] asks each member *
 **Stands on:** [[Heaven On Earth]] · [[The Goal]] · [[Wisdom]]
 **Opens onto:** [[Quest]] · [[Milestone]] · [[Sensemaking]] · [[Values]] · [[Intention]] · [[Storytelling]] · [[Worthy Goal]]
 **In play:** At the table, in the first season, as the picture every member contributes to; at Home and Room, as what makes two Cells' plans comparable; beyond, as the plan of the whole.
-**Sources:** `Vision` (wiki root, canon-grade) · `The LIØNSBERG Operating System` §2 · `The LIØNSBERG Lexicon`, Vision/Aim/Goal · `The DNA of Heaven`. lionsberg.wiki: **Vision**.
 **Open:** The root page still routes through `New Vision and Plan` as the living articulation; the Operating System and the Little Book now carry the operative practice, and the older page has not been reconciled to them.

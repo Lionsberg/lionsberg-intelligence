@@ -72,7 +72,7 @@ This is optional. It makes connecting to GitHub simpler, if you ever want that (
 
 ## Windows
 
-On Windows, you install Git for Windows. Its installer also bundles Git Bash, but that's just along for the ride — Claude Code itself runs in **PowerShell inside Windows Terminal**, not Git Bash.
+On Windows, you install Git for Windows. Its installer also bundles Git Bash, but that is just along for the ride — Claude Code itself runs in **PowerShell inside Windows Terminal**, not Git Bash.
 
 ### Step 1: Download Git for Windows
 
@@ -88,13 +88,13 @@ Close Windows Terminal and open it again, so it notices the new tool.
 
 ### Step 4: Verify the installation
 
-Make sure you're on a **PowerShell** tab, and type:
+Make sure you are on a **PowerShell** tab, and type:
 
 ```
 git --version
 ```
 
-You should see a version number (like `git version 2.39.3`). If Git isn't found, open a fresh PowerShell tab and try once more; if it still isn't found, the installer didn't finish — download and run it again.
+You should see a version number (like `git version 2.39.3`). If Git is not found, open a fresh PowerShell tab and try once more; if it still is not found, the installer did not finish — download and run it again.
 
 > [!tip]
 > Windows Terminal can host several kinds of tabs — PowerShell, Command Prompt, and the Git Bash that came along with the Git for Windows install. Use the **PowerShell** tab for everything in this guide, including running Claude Code.

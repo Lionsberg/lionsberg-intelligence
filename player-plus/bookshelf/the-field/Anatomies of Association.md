@@ -18,11 +18,10 @@ pillar: —
 
 The diagnostic is in what happens when one is missing, and each failure has its own signature. A body with a domain but no membrane **bleeds out** — anyone can take anything, and nothing can be relied on. A body with a membrane but no agreements **drifts** — it knows who is in and not what being in means. A body with no commons has **nothing to hand forward**, which is why it ends when its founders tire ([[Pass The Flame]], [[Covenant Across Time]]).
 
-It repeats at every size, which is what makes it worth learning once. A Circle has all four. So does a neighbourhood, a federation, a bioregion, and — on the corpus's account — a person ([[Levels Of Scale]], [[Holofractal Omnifederation]], [[Fractal]], [[Cell]]). Other elements appear at particular scales; these four appear at all of them.
+It repeats at every size, which is what makes it worth learning once. A Circle has all four. So does a neighbourhood, a federation, a bioregion, and a person ([[Levels Of Scale]], [[Holofractal Omnifederation]], [[Fractal]], [[Cell]]). Other elements appear at particular scales; these four appear at all of them.
 
 **Also called:** the anatomy of any association · domain, membrane, agreements, commons
 **Stands on:** [[Voluntary Association]] · [[Field of Agreements]] · [[Commons]] · [[Selectively Permeable Membrane]]
 **Opens onto:** [[Domain]] · [[Guard the Membrane]] · [[Cell]] · [[Circle]] · [[Holofractal Omnifederation]] · [[Commons-Tending]] · [[Higher Order Agreements]] · [[Twelve Irreducible Elements]]
 **In play:** the table — run over a Cell at its founding, and again whenever it feels loose
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Anatomies of Association.md`
-**Open:** The four overlap the longer list of irreducible elements the corpus carries elsewhere, and nothing states the relation between the two enumerations. · The claim that an individual being has all four is asserted and not worked through.
+**Open:** The four overlap the longer list of irreducible elements carried elsewhere, and nothing states the relation between the two enumerations. · The claim that an individual being has all four is asserted and not worked through.

@@ -20,5 +20,4 @@ Its discipline is that it is written by the Actor, in the Actor's own home, in p
 **Stands on:** [[Charter]] · [[Actor]] · [[Roles]] · [[Trust]]
 **Opens onto:** [[Condition]] · [[Position]] · [[Sovereign Agent]] · [[Cell+]] · [[Player+]] · [[The Record]] · [[TimeEnergy]] · [[Delegation]] · [[Memory (agent)]]
 **In play:** Home — written once, turned at the season
-**Sources:** `Projects/the term pages/Actor Charter.md` (marked on its own page as a proposed coinage) · `Player Card Template` (wiki) · `Making And Securing Commitments` (wiki root) · lionsberg.wiki: Roles
-**Open:** The page frames *Actor* as a coinage layered above *Player*, which sits against the canon's own older and wider *sovereign and autonomous actor*; the narrow sense should sit under the wide one rather than over it. · Its provisioning field is described as an open gap that nothing yet fills.
+**Open:** The page frames *Actor* as a coinage layered above *Player*, which sits against the older and wider *sovereign and autonomous actor*; the narrow sense should sit under the wide one rather than over it. · Its provisioning field is described as an open gap that nothing yet fills.

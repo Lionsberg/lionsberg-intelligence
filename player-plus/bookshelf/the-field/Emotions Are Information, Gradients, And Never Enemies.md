@@ -18,11 +18,10 @@ That second claim does real work. Treating feelings as discrete states makes peo
 
 Which relocates the whole problem. There is no such thing as a bad feeling to be managed; there is a river reading the landscape, and the practice is to keep it moving ([[Feel → Allow → Read → Name → Ask → Move → Release]], [[Interfeeling]]).
 
-The two mirror failures the canon names are both dams: **suppression**, refusing to feel, which buries the signal in the body; and **captivity**, feeling fully and then identifying with the wave until reactivity replaces discernment.
+The two mirror failures are both dams: **suppression**, refusing to feel, which buries the signal in the body; and **captivity**, feeling fully and then identifying with the wave until reactivity replaces discernment.
 
 **Also called:** information, gradients, no enemies
 **Stands on:** [[Mastery Of Emotions]] · [[The Living Gradient]] · [[Word Tools]] · [[Sovereignty]]
 **Opens onto:** [[Feel → Allow → Read → Name → Ask → Move → Release]] · [[The Seven-Field Emotion Page Pattern]] · [[Interfeeling]] · [[Distortion]] · [[Fear]] · [[Grief]] · [[Anger]] · [[Joy]]
 **In play:** the day · the Room — any time someone is asked how they are
-**Sources:** `Emotion` (root page — the full statement) · `LIØNSBERG Wiki Books/The LIØNSBERG Book of Emotions` (the book's front matter) · `Mastery Of Emotions` (drafted Pattern Card) · lionsberg.wiki: Emotion
-**Open:** The canon's [[Mastery Of Emotions]] carries the information claim and not the gradient or the gift-and-distortion claims; this page carries all three, and the two pages have not been reconciled. · The audit ledger still describes the Book of Emotions as a seed-stage list of names, which the book no longer is.
+**Open:** [[Mastery Of Emotions]] carries the information claim and not the gradient or the gift-and-distortion claims; this page carries all three, and the two pages have not been reconciled. · The audit ledger still describes the Book of Emotions as a seed-stage list of names, which the book no longer is.

@@ -28,5 +28,4 @@ It is also why the Way claims to be teachable across domains at all: if every do
 **Stands on:** [[Mastery]] · [[Praxis]] · [[The Practice Cadence]]
 **Opens onto:** [[Shu-ha-ri]] · [[Belt Progression]] · [[The Sacred Spiral — Not a Circle]] · [[Mastery Of Emotions]] · [[Apprenticeship]] · [[Curriculum]] · [[The dans, and Mastery at 5th Dan]] · [[Continuous Improvement]]
 **In play:** the table — run against any practice that has stopped moving
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Five-Fold Pattern of Mastery.md`
-**Open:** The Card says the same pattern appears elsewhere as four-, six- or seven-fold and that five is chosen for clarity; that is a drafting decision presented as an inheritance. · Nothing distinguishes this cycle from the corpus's other learning cycles, which have different names and different counts.
+**Open:** The Card says the same pattern appears elsewhere as four-, six- or seven-fold and that five is chosen for clarity; that is a drafting decision presented as an inheritance. · Nothing distinguishes this cycle from the other learning cycles held elsewhere, which have different names and different counts.

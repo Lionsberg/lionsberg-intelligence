@@ -18,5 +18,4 @@ How it is played. Surface candidates from the weave; test each against the one q
 **Stands on:** [[Quest]] · [[The one question]] · [[Weave Spirit, Hearts, and Minds]] · [[Consent-Based Decision-Making]]
 **Opens onto:** [[The Questcard]] · [[Do the Work]] · [[Every Quest Is A Project]] · [[Stacking Up And Aligning]] · [[Season]]
 **In play:** table
-**Sources:** *The Seven Moves*, move 3 · *The Questcard* (current best understanding) · *The LIØNSBERG Operating System* §10 · The DNA of Heaven, Part V · lionsberg.wiki: **Quest**, **The Questcard**
 **Open:** The Playbook names a Play and a Pattern of the same name; Whether a Quest is chosen at the turning only, or whenever the last one is done, is not stated.

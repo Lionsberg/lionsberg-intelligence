@@ -24,5 +24,4 @@ The earthly proof that it is possible is told with its wounds rather than as a t
 **Stands on:** [[Community]] · [[Sovereignty At Every Scale]] · [[Consent]] · [[Charter]]
 **Opens onto:** [[The three seats]] · [[The ladder of legal tiers]] · [[The steering committee that dissolves itself]] · [[The six capitals]] · [[The asset lock]] · [[FSx]] · [[Mondragon]] · [[Federation]] · [[Term Limits And Rotation]] · [[The 300]]
 **In play:** beyond the table — the body a locality forms
-**Sources:** *The DNA of Heaven*, Part IV, §The Community Company · `The LIØNSBERG Community Guidebook` (Prolegomenon and Steps 1–6) · `Mondragon — Proof That It Is Possible`, `Before and Beyond Mondragon` (wiki) · lionsberg.wiki: Mondragon
 **Open:** The nine charter sections are referred to and not enumerated anywhere in the sources read. · The ten-thousand figure is a design estimate and not a measurement, and nothing states what a place of two thousand or of a million does instead.

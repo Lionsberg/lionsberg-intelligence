@@ -22,5 +22,4 @@ The production half ([[The Pattern of Production]]) is what turns cooperation in
 **Stands on:** [[The Core Pattern]] · [[Twelve Irreducible Elements]] · [[Sovereignty]] · [[Consent]]
 **Opens onto:** [[One Purpose Above All]] · [[Holofractal Omnifederation]] · [[Sovereignty At Every Scale]] · [[Democratic Self-Governance Through Shared Agreements and Wise Eldership]] · [[Capital Subordinate To Purpose]] · [[Education As Transformation]] · [[Self-Sustenance and Self-Replication]] · [[Structural Immunity]] · [[The Pattern of Production]]
 **In play:** table
-**Sources:** *Twelve Irreducible Elements* (canon-grade) · *The Core Pattern* (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Twelve Irreducible Elements
 **Open:** The Pattern Language lists the eight cooperative Elements under partly different names than the Core Pattern (Element 5 as *Economy And Stewardship*, Element 7 as *Communication And Culture*), and its ordering of 5–7 differs.

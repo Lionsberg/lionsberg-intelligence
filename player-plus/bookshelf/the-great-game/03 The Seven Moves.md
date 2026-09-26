@@ -8,7 +8,7 @@
 2. **Choose a Quest.** Together, one tangible act of goodwill for the season ahead: real, achievable, meaningful, shared.
 3. **Learn and Grow.** Do the work, week by week. *Say what you will do; do what you said; learn from the difference.* The oldest discipline in the world, and the place where trust is built.
 4. **Share Your Stories.** Harvest each Quest into a Story and tell it where others can find it. Every Story is a prophesy of greater things to come.
-5. **Pass the Flame.** When your Circle has found its rhythm, each member names the two or three they know are ready and shares the Invitation, hand to hand. The fruit carries the seed.
+5. **Pass the Flame.** When your Circle has found its rhythm, each member names their three — people not already playing, whom they know are ready — and shares the Invitation, hand to hand, within three days. The fruit carries the seed.
 
 Before the first move there is the move you have already made: waking up, seeing the world as it truly is, and refusing to look away.
 
@@ -20,7 +20,7 @@ Before the first move there is the move you have already made: waking up, seeing
 4. **Do the Work.** Discern, plan, act, keep promises, produce results.
 5. **Celebrate, Learn and Improve.** Retrospect, refine, continuously improve everything. It sits before the Stories because what is celebrated and refined is what becomes worth telling.
 6. Share the Stories
-7. Pass the Flame, within one week, to the two or three you know are ready.
+7. Pass the Flame, within three days, to your three who are ready.
 
 The seven are the five with the breath drawn in: *Learn and Grow* opened into doing and improving, and the weaving named before the choosing. Neither list is a project plan. They are the breath of the Circle, one full cycle of inhale and exhale, run on every cycle, daily, weekly, seasonally, and across lifetimes, deepening with practice.
 

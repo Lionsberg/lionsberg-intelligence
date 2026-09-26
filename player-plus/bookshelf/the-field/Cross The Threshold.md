@@ -18,5 +18,4 @@ How it is played. Read or hear the Story. Take the Seed. Say what you are steppi
 **Stands on:** [[The Invitation]] · [[Wake up]] · [[The Decision]] · [[Spirit Precedes Pattern]]
 **Opens onto:** [[Enter The Game]] · [[Form a Cell]] · [[The Pledge]] · [[The Daily Way]] · [[The Threshold (of the Path)]] · [[Receive The Seed]]
 **In play:** door · Gate
-**Sources:** *The LIØNSBERG Playbook*, §Your First Moves and §The Playbook Chart · *The Sovereign Path*, §The Threshold · The DNA of Heaven, Part IX · lionsberg.wiki: **The LIØNSBERG Playbook**, **The Sovereign Path**
 **Open:** the Chart row and the First Moves list are what is verified. The Gate of the Game (the door) and the Gates of Initiation on the Path are different things and are easily confused; the seed says so explicitly.

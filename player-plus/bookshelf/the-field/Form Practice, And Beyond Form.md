@@ -14,7 +14,7 @@ Six functions, running simultaneously. **Body-patterning** — the body learns t
 
 The diagnostic function is the checkable one and the most immediately useful: a form is a mirror that does not flatter, available daily, and it reports a specific gap rather than a general feeling.
 
-**Beyond form** is the stage past thorough absorption. In the moment, the form is no longer performed — the person *is* the form, and the right action arrives composed out of the pattern-vocabulary the years deposited in the body ([[Spontaneous Wise Right Action]]). The canon is careful about what the forgetting means: **not erasure — absorption so complete that conscious recall is unnecessary.** The alternative reading, that forms are for beginners and may be dropped early, is the misreading the phrase invites and the canon closes.
+**Beyond form** is the stage past thorough absorption. In the moment, the form is no longer performed — the person *is* the form, and the right action arrives composed out of the pattern-vocabulary the years deposited in the body ([[Spontaneous Wise Right Action]]). What the forgetting means is precise: **not erasure — absorption so complete that conscious recall is unnecessary.** The alternative reading, that forms are for beginners and may be dropped early, is the misreading the phrase invites, and it is closed here.
 
 Two honest limits. Most people take many years to reach this in even one form, most never reach it in all their forms, and masters often reach it in one or two over a lifetime. And the reaching is not the point; the walking is — the reaching is what arrives when the walking has been sustained ([[Shu-ha-ri]], [[Mastery]], [[The Practice Cadence]]).
 
@@ -22,5 +22,4 @@ Two honest limits. Most people take many years to reach this in even one form, m
 **Stands on:** [[Pattern]] · [[Discipline]] · [[Embodiment]] · [[Shu-ha-ri]]
 **Opens onto:** [[Techniques Are Patterns, Forms Are Plays]] · [[Spontaneous Wise Right Action]] · [[The Ten Universal Principles Across Streams]] · [[Mastery]] · [[The Practice Cadence]] · [[Shoshin's Five Signs And Five Disciplines]] · [[Ritual]] · [[The Realization Arc]]
 **In play:** the daily practice — and any craft with a repeated sequence at its centre
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.9 Form And Beyond Form`, §Why Form Matters and §Beyond Form · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** [[Shu-ha-ri]] carries the same three-stage movement in a different vocabulary, and neither page acknowledges the other. · Nothing states how a practitioner or a teacher can tell absorption from abandonment, which is the distinction the whole page turns on.

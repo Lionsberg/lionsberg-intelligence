@@ -20,5 +20,4 @@ The strongest kind of key does the opposite work: a signed key proves who someon
 **Stands on:** [[Selectively Permeable Membrane]] · [[Venue card]] · [[The door]]
 **Opens onto:** [[Signed key]] · [[Hosted service]] · [[Set-up]] · [[Authorized]] · [[Narrow]]
 **In play:** Room · beyond
-**Sources:** Player+ Modules, *Before Your First Room*, *Venue Cards* · The DNA of Heaven, Part X · lionsberg.wiki: *Selectively Permeable Membrane*.
 **Open:** none found.

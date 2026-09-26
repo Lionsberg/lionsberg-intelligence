@@ -20,5 +20,4 @@ What it refuses is the claim that beauty is an extra to be added when the budget
 **Stands on:** [[Logos]] · [[Beauty]] · [[Design]] · [[Living System]]
 **Opens onto:** [[Architecture]] · [[Design]] · [[Infrastructure]] · [[Object]] · [[Sacred spaces]] · [[Stewarded Form]] · [[Threshold]]
 **In play:** the Home · beyond the table
-**Sources:** *Pillar IX — Sacred Architecture and Design* (canon-grade) · *The 12 Pillars of LIØNSBERG* hub (canon-grade) · *The LIØNSBERG Lexicon*, Pillar IX table · the seed's Part III. lionsberg.wiki: Pillar IX — Sacred Architecture and Design.
 **Open:** The Lexicon titles the table *Sacred Architecture and Design* and the book's thesis list titles itself *Sacred Architecture and Built Environment*; the book's page name is used here. The Pillar's named instrument in the seed is the [[Kit of Parts]], which lives in another domain of the field.

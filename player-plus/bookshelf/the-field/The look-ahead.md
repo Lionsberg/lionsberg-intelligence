@@ -18,5 +18,4 @@ It is run at [[The Heartbeat]], rolled forward one week each time, in the same h
 **Stands on:** [[Pull planning]] · [[The activity table]] · [[The Heartbeat]]
 **Opens onto:** [[Constraint]] · [[Make-Ready Process]] · [[SHOULD-CAN-WILL-DID]] · [[Commitment]] · [[Requests and offers]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §7 · *The LIØNSBERG Pattern Language — Synthesized* (Element 11; *Look-Ahead Planning* named, body not yet written) · *Constraint* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Look-Ahead Planning**
 **Open:** *Look-Ahead Planning* is named in the Pattern Language inventory without a page of its own.

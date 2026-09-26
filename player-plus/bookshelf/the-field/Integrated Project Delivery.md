@@ -18,5 +18,4 @@ It also carries a warning of its own: laws and contracts are the faintest restra
 **Stands on:** [[Integrated Delivery]] · [[Lean Project Delivery]] · [[The Program Delivery Guide]]
 **Opens onto:** [[Networks of Commitments]] · [[Pull planning]] · [[Last Planner System]] · [[Cross-Functional Integration]] · [[Concurrent design]] · [[Kept as a share of made]]
 **In play:** beyond
-**Sources:** *The Economic Case For IPD* and *The Code Of Integrated Delivery* · *The Five Big Ideas Of Integrated Delivery* (wiki root page) · *Integrated Delivery* (wiki root page, the ninth irreducible element) · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **The Economic Case For IPD**
 **Open:** A dozen near-duplicate Integrated Delivery pages stand at the root of the wiki; they repeat one another more than they differ, and no one of them is marked as the home.

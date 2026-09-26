@@ -20,5 +20,4 @@ At the table Becoming is measured, gently, by the gap: what I said, what I did, 
 **Stands on:** [[Being]] · [[Doing]] · [[Awakening]]
 **Opens onto:** [[The Sovereign Path]] · [[Mastery]] · [[Coming Home]] · [[The Living Gradient]] · [[Embodiment]]
 **In play:** Met at the table weekly in the gap, and on the Path across seasons and years, where it is the thing actually being formed.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the process of evolving toward fullness of Being") · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, The Sovereign And The Path · *The Living Gradient* (root page, mature) · lionsberg.wiki: *Becoming*.
 **Open:** none found.

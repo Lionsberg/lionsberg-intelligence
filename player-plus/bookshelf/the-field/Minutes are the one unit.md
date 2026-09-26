@@ -20,5 +20,4 @@ Read with the rest of the conventions, the rule is simply that every surface is 
 **Stands on:** [[TimeEnergy]] · [[The Record]] · [[Work]]
 **Opens onto:** [[The clock is read, never computed]] · [[Throughput]] · [[Value]] · [[The activity table]] · [[Float]] · [[Screens and paper]]
 **In play:** table · Room
-**Sources:** the seed text's conventions section as recorded in the concept field (`SEED` §12) · The LIØNSBERG Operating System, the activity table and the Record · lionsberg.wiki: *The LIØNSBERG Operating System*
 **Open:** the current seed text does not restate this convention; it survives from an earlier draft of that text. It should either be restored to the seed or retired. It is also silent on what a notebook-only Cell does, where minutes are more ceremony than help.

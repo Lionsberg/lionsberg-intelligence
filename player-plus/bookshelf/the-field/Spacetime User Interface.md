@@ -10,7 +10,7 @@ pillar: VIII
 
 An interface is not a lie. The icons on a screen are not the machine, and nobody is deceived by them; they are a compressed, actionable presentation of something far more complicated, shaped by what the user needs to be able to do. The proposal here is that space, time, objects, and separateness may be that: a presentation fitted to an organism that had to survive, rather than a picture of what is ([[Reality]], [[Consciousness]], [[Interface]]).
 
-It is held as a reading, not a finding. It sits in a live and unsettled conversation — in physics, in the study of perception, and in contemplative traditions that reached similar conclusions by other means — and the canon's honest position is that the question is open ([[Epistemology]], [[Boundary of Knowing]], [[We Do Not Know]], [[Science]]).
+It is held as a reading, not a finding. It sits in a live and unsettled conversation — in physics, in the study of perception, and in contemplative traditions that reached similar conclusions by other means — and the honest position is that the question is open ([[Epistemology]], [[Boundary of Knowing]], [[We Do Not Know]], [[Science]]).
 
 What it does, held carefully, is loosen the grip of a particular kind of certainty: that what is obviously so, is finally so. The usefulness of the interface is exactly why it is convincing; a presentation that did not work would have been discarded long ago. So the fact that something feels self-evidently real is evidence that the interface is good, and not evidence about what is behind it ([[The Veil of Finitude and Forgetting]], [[Types Of Knowing]], [[Mystery]]).
 
@@ -20,5 +20,4 @@ It carries two warnings, and the second is the serious one. A thing may be an in
 **Stands on:** [[Reality]] · [[Consciousness]] · [[Metaphysics]]
 **Opens onto:** [[Boundary of Knowing]] · [[The Veil of Finitude and Forgetting]] · [[Types Of Knowing]] · [[Mystery]] · [[Apparent Individuation]] · [[Ontology]] · [[Science]] · [[Embodiment]] · [[Sovereignty Of Consciousness]]
 **In play:** beyond — a lens held lightly, never a licence
-**Sources:** `Reality`, `Consciousness` (wiki root; both recorded as load-bearing and thin) · lionsberg.wiki: Reality
-**Open:** Name only in the canon; this is a first articulation and asserts nothing about physics.
+**Open:** Name only; this is a first articulation and asserts nothing about physics.

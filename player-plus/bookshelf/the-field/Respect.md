@@ -12,7 +12,7 @@ Respect is owed, not awarded. It is the behavioural face of [[Dignity]]: if wort
 
 It shows in small, checkable things rather than in sentiment. Listening before answering, and listening as though the other might be right ([[Listening]] · [[Dialogos]]). Using the name and the words someone uses for themselves ([[Naming]] · [[Author's Voice Is Sovereign]]). Keeping a word given to someone with no power to enforce it ([[A word given is a word kept]]). Asking rather than assuming, and taking a no as a full answer ([[Consent]] · [[Boundary]]). Leaving another's writing where they put it and commenting beside it rather than over it ([[Comment]]).
 
-It extends past the people in the room. The canon owes it to those who are not present, to those not yet born, and to the living systems that have no voice at the table at all — which is why the seats exist ([[Seats at the Table]] · [[Reverence]] · [[Ecology]]).
+It extends past the people in the room. Respect is owed to those who are not present, to those not yet born, and to the living systems that have no voice at the table at all — which is why the seats exist ([[Seats at the Table]] · [[Reverence]] · [[Ecology]]).
 
 Respect has an honest limit, and naming it keeps the word from going soft: it is owed to every being, but it does not oblige anyone to grant trust, access, or a place at their table. A body may hold someone in full dignity and still keep them outside the membrane, and doing both at once is a skill ([[Guard the Membrane]] · [[Trust]] · [[Containment Of The Dangerous Sovereign]]).
 
@@ -20,5 +20,4 @@ Respect has an honest limit, and naming it keeps the word from going soft: it is
 **Stands on:** [[Dignity]] · [[Love]] · [[Right Relationship]]
 **Opens onto:** [[Reverence]] · [[Honor]] · [[Listening]] · [[Consent]] · [[Belonging]] · [[Welcoming The Stranger]] · [[Non-Violence]] · [[Virtues]] · [[Pillar XI — Sacred Society and Justice]]
 **In play:** the door and the table — in how a newcomer is met, and in how disagreement is carried once they are inside
-**Sources:** `Respect` (root page, stub — the values-sheet definition) · `Virtues` (root page, stub) · `Non-Violence` · lionsberg.wiki: Respect
-**Open:** The root page is one generic sentence; the distinction between respect owed and trust earned, and the limit clause above, are synthesis and are not written anywhere in the canon.
+**Open:** The root page is one generic sentence; the distinction between respect owed and trust earned, and the limit clause above, are synthesis and are not written anywhere else.

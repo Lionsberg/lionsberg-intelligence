@@ -20,5 +20,4 @@ The deeper form of the discipline is a question rather than a rule, and it belon
 **Stands on:** [[Speaking Truth In Love]] · [[The Silence That Speaks]] · [[Listening]] · [[Register]]
 **Opens onto:** [[Guide]] · [[Bard]] · [[Bottom Line Up Front]] · [[Charter]] · [[Actor]] · [[Value]] · [[Waste]]
 **In play:** table · Room · beyond
-**Sources:** The DNA of Heaven, Part VIII ("No one has a silence rule; each role carries a speech rule of its own: the one thing first, depth pullable") · Player+ Modules, *Advanced Agent Engineering* (registers) · lionsberg.wiki: *Speaking Truth In Love*, *The Silence That Speaks*, *Bottom Line Up Front*.
-**Open:** held as current best understanding and not yet written into any canon page; the speech rules of the named offices are not yet set down.
+**Open:** held as current best understanding and not yet written into any page; the speech rules of the named offices are not yet set down.

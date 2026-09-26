@@ -22,5 +22,4 @@ Read together, the three say something about what governance at this scale is ac
 **Stands on:** [[Community]] · [[Structural Immunity]] · [[Federation]] · [[Wisdom Council]]
 **Opens onto:** [[The Four Warrior-Guild Capture Modes]] · [[Why Three Percent — The Two-Sided Bound]] · [[Conflict Transformation]] · [[The Escalation Ladder]] · [[Ideological Capture]] · [[Centralization Of Power]] · [[Mend a Tension]] · [[The Twelve Archetypal Guilds]]
 **In play:** beyond the table — the annual question a federated body asks of itself
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.3 The Warrior Community`, §The Community's Vulnerability · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The three are named and the protections are deferred to another chapter's guild-level list; nothing is written at community scale specifically. · No indicator is given for fragmentation, which is the one of the three that is genuinely hard to see from inside.

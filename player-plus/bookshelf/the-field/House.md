@@ -20,5 +20,4 @@ Houses meet in rooms, and that is where the care is needed. What happens inside 
 **Stands on:** [[Player+]] · [[Sovereignty]] · [[Lineage]]
 **Opens onto:** [[Look-back]] · [[Improvement log]] · [[The Kit]] · [[ØSphera]] · [[PKAI]] · [[Dyad Jam]] · [[Chatham House]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Lexicon*, *The Agent Improvement Process*, *How a Module Lives* · The DNA of Heaven, Parts VIII and XIII.
 **Open:** how a house relates to a Cell — whether one can be the other — is not said anywhere yet.

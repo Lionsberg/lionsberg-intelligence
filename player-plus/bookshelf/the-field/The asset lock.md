@@ -20,5 +20,4 @@ It is one of three locks that travel together: the asset lock on wealth, [[Const
 **Stands on:** [[Capital Subordinate To Purpose]] · [[Commons]] · [[Structural Immunity]]
 **Opens onto:** [[The waterfall]] · [[The Founder's Fund]] · [[Constitutional Protection Of Purpose]] · [[FSx]] · [[Usury]] · [[Extraction Of Wealth]]
 **In play:** Home · beyond
-**Sources:** *Where Value Flows* (Community Guidebook Toolkit) · *The LIØNSBERG Pattern Language — Synthesized*, Structural Immunity (canon-grade list; *Asset Locks* named) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Where Value Flows
-**Open:** There is no dedicated canon page for the asset lock; its articulation lives inside the Guidebook toolkit. The exact legal vehicle was still under counsel's review when the seed was written — the shape is treated as settled, the vehicle as open.
+**Open:** There is no dedicated page for the asset lock; its articulation lives inside the Guidebook toolkit. The exact legal vehicle was still under counsel's review when the seed was written — the shape is treated as settled, the vehicle as open.

@@ -20,5 +20,4 @@ The failure mode it implies is specific and worth watching for. Coherence that h
 **Stands on:** [[ØNE]] · [[Spirit]] · [[Coherence]] · [[Alignment]]
 **Opens onto:** [[Coherence Without Dogma]] · [[Resonance]] · [[ØNE Body]] · [[Sovereignty]] · [[Circle Coherence]] · [[Islands of coherence to network]] · [[The Fundamental Tone]] · [[Institutional Idolatry]]
 **In play:** the table — the reason a Circle needs no ruler, and the thing to check when it drifts
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Cohering Spirit.md` (Card, settled)
-**Open:** The claim that honest orientation converges is asserted and is the whole load-bearing bet of a centreless architecture; nothing states what to do when two bodies both orienting honestly diverge irreconcilably. · *Central Animating Spirit* is the same idea under a different name in another book and the two are not joined anywhere.
+**Open:** The claim that honest orientation converges is asserted and is the whole load-bearing bet of a centreless architecture; nothing states what to do when two bodies both orienting honestly diverge irreconcilably.*Central Animating Spirit* is the same idea under a different name in another book and the two are not joined anywhere.

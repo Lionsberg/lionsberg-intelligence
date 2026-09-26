@@ -20,5 +20,4 @@ The rhythm that protects the handover is provisional-now, ratified-later: adopt 
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Field of Agreements]] · [[Legitimacy]] · [[Trust]]
 **Opens onto:** [[Community Company]] · [[Charter]] · [[Driver]] · [[Term Limits And Rotation]] · [[Centralization Of Power]] · [[Institutional Idolatry]] · [[The Act Of Release]] · [[Disbanding]] · [[Roles]]
 **In play:** the first table, once
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Step 1 — Forming a Steering Committee.md` · `…/Toolkit/Steering Committee Starter Kit.md` · *THE DNA OF HEAVEN*, Part IV
-**Open:** Nothing in the corpus names *who decides* that the wider body is ready to govern itself, nor what happens if the founding circle disagrees that the moment has come. · The four-to-seven range is the page's own rule of thumb, an estimate rather than a measurement.
+**Open:** Nothing names *who decides* that the wider body is ready to govern itself, nor what happens if the founding circle disagrees that the moment has come. · The four-to-seven range is the page's own rule of thumb, an estimate rather than a measurement.

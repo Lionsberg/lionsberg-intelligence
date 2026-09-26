@@ -20,5 +20,4 @@ In play a [[Cell]] delegates every time it chooses [[Roles]]: someone keeps the 
 **Stands on:** [[Authority]] · [[Accountability]] · [[Domain]] · [[Sovereignty]] · [[Sacred Trust]]
 **Opens onto:** [[Roles]] · [[Subsidiarity]] · [[Representation]] · [[Mandate]] · [[Term Limits And Rotation]] · [[Servant Leadership]]
 **In play:** table — the week roles are chosen
-**Sources:** *Delegation* (root page; one line — a member may delegate decision-making authority to another they trust) · *Functional Accountability Chart* (root page; states it was renamed) · *The LIØNSBERG Lexicon*, Pillar II table · lionsberg.wiki: Delegation
 **Open:** The root page carries only the person-to-person sense; the Lexicon carries only the level-to-level sense. Neither page mentions the other, and no page states how delegated authority is reclaimed.

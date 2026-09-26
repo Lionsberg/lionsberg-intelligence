@@ -20,5 +20,4 @@ It is load-bearing because it settles what kind of authority the Pattern has. No
 **Stands on:** [[The Core Pattern]] · [[Pattern]] · [[Logos]]
 **Opens onto:** [[Twelve Irreducible Elements]] · [[The LIØNSBERG Pattern Language]] · [[The Golden Seed]] · [[Nucleus]] · [[HoloFractal]] · [[Sacred Geometry]] · [[Archetype]] · [[The Creative Cascade]] · [[Essences, Renderings, And Ineffable Referents]] · [[Emanation]]
 **In play:** beyond — what the Pattern claims to be a reading of
-**Sources:** *The DNA of Heaven*, Part IV, on the twelve elements found independently across traditions · `The Core Pattern`, `Twelve Irreducible Elements` (wiki) · lionsberg.wiki: The Core Pattern
 **Open:** The canon holds the name and nothing else; this is a first articulation assembled from the pages around it. · Whether the claim is metaphysical — that there is a code — or methodological — that convergence across traditions is strong evidence — is nowhere distinguished, and they are very different claims.

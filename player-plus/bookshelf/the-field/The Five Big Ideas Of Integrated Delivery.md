@@ -8,7 +8,7 @@ pillar: —
 
 *Five lines, worked out where lean ideas met construction, that the whole production half of the Way rests on.*
 
-**Collaborate. Really collaborate.** The repetition is the content. Almost every body says it collaborates and means that it holds meetings and shares documents while each part still optimises for itself. Real collaboration means deciding together, early, when the decisions are still open — which costs more at the front and far less everywhere after ([[Cross-Functional Integration]] · [[The Big Room]] · [[Concurrent design]] · [[Set-Based Design]]).
+**Collaborate. Really collaborate.** The repetition is the content. Almost every body says it collaborates and means that it holds meetings and shares documents while each part still optimises for itself. Real collaboration means deciding together, early, when the decisions are still open — which costs more at the front and far less everywhere after ([[Cross-Functional Integration]] · [[The One Room]] · [[Concurrent design]] · [[Set-Based Design]]).
 
 **Increase Right Relationship among all participants.** The relationships are not the soft accompaniment to the work; they are the medium the work travels through. A body whose people trust each other moves information fast and truthfully, and a body whose people do not cannot be fixed by better process ([[Right Relationship]] · [[Trust]] · [[Zero Blame Environment]]).
 
@@ -18,11 +18,10 @@ pillar: —
 
 **Tightly couple learning with action.** Learning separated from doing becomes documentation nobody reads; doing separated from learning repeats itself. Held together, every action is also an experiment and every lesson lands where it will be used ([[Tightly Coupled Learning and Action]] · [[Learning By Doing]] · [[Continuous Improvement]] · [[Every Defect Is A Gift]]).
 
-The five are received rather than invented here, and the canon says so. What the canon adds is scale: the same five, applied not to a building but to a civilization ([[Integrated Delivery]] · [[Integrated Project Delivery]] · [[Lean Project Delivery]]).
+The five are received rather than invented here. What is added is scale: the same five, applied not to a building but to a civilization ([[Integrated Delivery]] · [[Integrated Project Delivery]] · [[Lean Project Delivery]]).
 
 **Also called:** the Five Big Ideas
 **Stands on:** [[Integrated Delivery]] · [[Lean Project Delivery]] · [[Right Relationship]]
-**Opens onto:** [[Networks of Commitments]] · [[Cross-Functional Integration]] · [[Tightly Coupled Learning and Action]] · [[Theory Of Constraints]] · [[The Big Room]] · [[Last Planner System]] · [[The Structure Of Integrated Delivery]] · [[Silos No More]]
+**Opens onto:** [[Networks of Commitments]] · [[Cross-Functional Integration]] · [[Tightly Coupled Learning and Action]] · [[Theory Of Constraints]] · [[The One Room]] · [[Last Planner System]] · [[The Structure Of Integrated Delivery]] · [[Silos No More]]
 **In play:** the Room and beyond — the five tests any way of working together is measured against
-**Sources:** `The Five Big Ideas Of Integrated Delivery` (root page, canon-grade — five numbered lines with their lineage named) · `Integrated Delivery`, `What Is Integrated Delivery`, `Why Integrated Delivery` (root pages) · lionsberg.wiki: The Five Big Ideas Of Integrated Delivery
-**Open:** The canon states the five and never works any of them at the scale of a Cell; the readings above are synthesis from the surrounding delivery material. · The page carries only four inbound links, which is far fewer than its load-bearing role suggests.
+**Open:** The five are stated and never worked at the scale of a Cell; the readings above are synthesis from the surrounding delivery material. · The page carries only four inbound links, which is far fewer than its load-bearing role suggests.

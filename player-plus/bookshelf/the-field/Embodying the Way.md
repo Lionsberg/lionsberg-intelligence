@@ -20,5 +20,4 @@ The movement is also where the Game itself appears in the Story. The architects 
 **Stands on:** [[The Great ReMembering]] · [[The Way]] · [[Embodiment]] · [[Praxis]]
 **Opens onto:** [[Co-Creating Heaven]] · [[The Daily Way]] · [[The Great Game of LIØNSBERG]] · [[Spontaneous Wise Right Action]] · [[The Sacred Ascent]] · [[Mastery]]
 **In play:** table · Gate
-**Sources:** *The Story of LIØNSBERG — The Sacred Arc*, Movement X (canon-grade) · *The Story of LIØNSBERG* (canon-grade) · *The LIØNSBERG Pattern Language, synthesized*, §Root And Trunk — lionsberg.wiki · the seed text *The DNA of Heaven*, Parts II, V and VIII.
 **Open:** The movement's name and the Pillar I term [[Embodiment]] are close enough to be confused; the movement is collective and historical, the term is personal and ontological.

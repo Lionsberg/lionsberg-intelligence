@@ -20,5 +20,4 @@ In play, most players never meet law as such. They meet the [[Field of Agreement
 **Stands on:** [[Field of Agreements]] · [[Logos]] · [[Agreement]] · [[Consent]] · [[Justice]]
 **Opens onto:** [[The LIØNSBERG Constitution]] · [[Remedy]] · [[Sanction]] · [[Adjudication]] · [[Separation Of Power]] · [[Constitutional Protection Of Purpose]]
 **In play:** beyond — met as the few general things every table keeps
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Pillar II — Sacred Governance and Stewardship* (the narrative on law divorced from love) · *The LIØNSBERG Constitution* · *Pass The Flame* Ch9 · lionsberg.wiki: The LIØNSBERG Lexicon
 **Open:** No page of its own. The relationship between a local Field of Agreements and any general law — which prevails, and how a conflict is resolved — is unwritten.

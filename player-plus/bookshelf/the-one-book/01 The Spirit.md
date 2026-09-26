@@ -1,7 +1,7 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 01
+chapter: 1
 ---
 
 # The Spirit
@@ -28,9 +28,9 @@ Two words in that sentence are being used in a particular way, and both are hand
 
 And there is a way of pursuing that aim, which also fits in a sentence.
 
-**The Great Game.** All of us, together, walking out of the confinement the old world built, crossing the unmapped stretch that lies beyond it, and making every place we touch a little more like Heaven. It is called a Game because a game is the one human form that holds a real aim, agreed rules, voluntary entry, a visible score, and joy in the playing — and that a child, a village, or a civilization can join without anyone being conscripted. Nobody is governed here who has not agreed. Silence is never a yes. Anyone may leave, in peace, at any hour. The whole of how it is played is [[THE GAME]]; the shortest true version is this: a few people who trust each other agree to meet every week, each says what they will do and then whether they did it, they choose one real thing to finish together in a season, they tell the truth about how it went, and they hand the same simple practice on to two or three others who are ready.
+**The Great Game.** All of us, together, walking out of the confinement the old world built, crossing the unmapped stretch that lies beyond it, and making every place we touch a little more like Heaven. It is called a Game because a game is the one human form that holds a real aim, agreed rules, voluntary entry, a visible score, and joy in the playing — and that a child, a village, or a civilization can join without anyone being conscripted. Nobody is governed here who has not agreed. Silence is never a yes. Anyone may leave, in peace, at any hour. The whole of how it is played is [[THE GAME]]; the shortest true version is this: a few people who trust each other agree to meet every week, each says what they will do and then whether they did it, they choose one real thing to finish together in a season, they tell the truth about how it went, and they hand the same simple practice on to three others who are ready.
 
-Three of those words will recur, so take them now. A **[[Cell]]** is three to thirteen people — best at four to seven — who choose to walk together, by name. A **[[Quest]]** is one real thing a Cell does in one season and can point to afterward. The **[[The Flame|Flame]]** is the Game itself, carried by one person to another who is ready; nothing here spreads any other way.
+Three of those words will recur, so take them now. A **[[Cell]]** is three to thirteen people — optimally four to seven — who choose to walk together, by name. A **[[Quest]]** is one real thing a Cell does in one season and can point to afterward. The **[[The Flame|Flame]]** is the Game itself, carried by one person to another who is ready; nothing here spreads any other way.
 
 ### Why now
 
@@ -208,7 +208,7 @@ Because Spirit comes first, the Pattern is servant and never idol. Use your disc
 
 That is the permission slip at the centre of this whole Book, and it is given deliberately, before any of the structure arrives. You are not being handed a system to comply with. You are being handed a current best understanding to test against your own life, and the authority to correct it where it is wrong. A body that cannot be corrected by the Spirit has already made an idol of itself — and that idol will be shaped exactly like this Book.
 
-The full grammar of the Pattern, and the culture that speaks it, is [[05 The Pattern and the Way]].
+The full grammar of the Pattern, and the culture that speaks it, is [[04 The Pattern and the Way]].
 
 ---
 
@@ -304,7 +304,7 @@ Not all of us will make it to the other side. That is said plainly because a sto
 > *PLAY THE GAME*
 > *PASS THE FLAME*
 > *Pierce The Darkness*
-> *And We'll Walk Each Other Home*
+> *And We will Walk Each Other Home*
 
 Never forget: sing the song, pass the Flame, and keep your feet on the Path.
 
@@ -320,7 +320,7 @@ Never forget: sing the song, pass the Flame, and keep your feet on the Path.
 
 **The words the hour is made of:** [[Hell On Earth]] · [[The Meta Crisis]] · [[Collapse]] · [[The Caves]] · [[Kontrolle]] · [[The Divine Whisper]] · [[The Wilderness]] · [[The Promised Land]] · [[The First Three Percent]] · [[The Golden Seed]].
 
-**Where to go from here:** [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[05 The Pattern and the Way]] · [[06 The Daily Way — the baseline practice]] · [[07 ØNE — the Center]] · [[20 The Experience — from the first door to what lies beyond]] · [[21 In Every Future — what to do in each case]] · [[24 The Plan — the first three percent]] · [[The Little Book of the Great Game]] · [[The DNA of Heaven]].
+**Where to go from here:** [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[04 The Pattern and the Way]] · [[06 The Daily Way — the baseline practice]] · [[07 ØNE — the Center]] · [[20 The Experience — from the first door to what lies beyond]] · [[21 In Every Future — what to do in each case]] · [[29 The Plan — the first three percent]] · [[The Little Book of the Great Game]] · [[The DNA of Heaven]].
 
 ---
 
@@ -349,3 +349,4 @@ Never forget: sing the song, pass the Flame, and keep your feet on the Path.
 **What was overridden, and why.** The prior draft of this ground framed the appearance of separation as a *sacred veiling* and stated the Goal's totality as a demand. This chapter carries the freedom rather than the veiling — the open door and its cost belong to the centre chapter and to the Story, where the telling can do what a summary cannot — and states the Goal as a direction that can be walked from anywhere, because a first chapter that opens with a demand loses the reader it was written for. The prior draft's finest lines are carried where they are truer than anything new: the four sayings and their order, the refusals, the three ways of knowing, the one warning, and the plain fact that a being in direct communion with the ground of its own consciousness cannot be owned.
 
 **Held most loosely.** That the eight-part opening holds together for a reader who has genuinely never heard of any of this — the passage from *what this is* to *ØNE* is the steepest step in the Book and may want a gentler stair. That stating what each Agreement protects does not quietly convert three lines of love into three lines of defensive doctrine. And that the closing section is right to say plainly that not all of us will make it, this early, on the first page a person reads after the door.
+

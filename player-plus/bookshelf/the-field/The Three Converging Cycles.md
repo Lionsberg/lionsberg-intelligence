@@ -24,5 +24,4 @@ What does not depend on the arithmetic is the structural point: several things o
 **Stands on:** [[The Meta Crisis]] · [[Cycle]] · [[Collapse]]
 **Opens onto:** [[The Bronze Age Parallel]] · [[The Cycles of Civilizations and the Signs of Winter]] · [[The Collapse-Ascension Nexus]] · [[The Window]] · [[The Long Night]] · [[The Old Operating System]] · [[Generational Time]] · [[New Era]]
 **In play:** beyond — the answer to *empires have always fallen*
-**Sources:** `LIØNSBERG Wiki Books/Most People Have No Idea What Is Coming/9.1 Why This Time Is Different.md`
 **Open:** Cycle lengths are estimates and the periodisation is contested as a historical method. · The three cycles are drawn from different bodies of scholarship that do not agree with one another, and the chapter does not say so.

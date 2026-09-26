@@ -20,5 +20,4 @@ It is not a reason to withhold. Everything is open and nothing is locked; the or
 **Stands on:** [[Lesson]] · [[The Zone Of Optimum Development]] · [[Player+ Modules]]
 **Opens onto:** [[Module]] · [[Guide]] · [[The Arc of Play]] · [[A Word on Words]] · [[Agent]]
 **In play:** door · table
-**Sources:** Player+ Modules, *Start Here*, *Lexicon* · The DNA of Heaven, Parts VIII and X · lionsberg.wiki: *Playing The Great Game — With Your Agent* (current best understanding).
 **Open:** none found.

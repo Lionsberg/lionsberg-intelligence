@@ -16,11 +16,10 @@ The hour sits inside the wider frame rather than replacing it. [[The Daily Way]]
 
 What fills the hour is the Sovereign's own: stillness, breath, movement, sacred reading, martial or energetic discipline, the work of clearing. The Pattern names the container, not the content.
 
-It is named once in the canon's cultivation list, with nothing written behind it.
+It is named once in the cultivation list, with nothing written behind it.
 
 **Also called:** —
 **Stands on:** [[The Daily Way]] · [[Silence And Stillness As The Ground]] · [[Discipline]]
 **Opens onto:** [[Focused Attention As Discipline]] · [[Breath]] · [[Belt Progression]] · [[The Sacred Ascent]] · [[Mastery]] · [[Spontaneous Wise Right Action]]
 **In play:** Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Daily Way* (Card, written) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named with no articulation, and its relation to the Daily Way's three tiers is nowhere stated; the hour may be the Devoted tier under another name.

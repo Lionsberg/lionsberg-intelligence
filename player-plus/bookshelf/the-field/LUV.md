@@ -18,5 +18,4 @@ The state of it should be said plainly. The principle is held; the ledger is not
 **Stands on:** [[TimeEnergy]] · [[Value]] · [[Proof-of-contribution]] · [[Commons]]
 **Opens onto:** [[Compressed Pay Ratios]] · [[Exchange]] · [[Reciprocity]] · [[Voluntary Tithing]] · [[Money]]
 **In play:** table · Home · beyond
-**Sources:** *LUV — LIØNSBERG Units of Value* (Cards, LIØNSBERG, Earth, and the Cosmos) · *LIØNSBERG Currency* (wiki root) · *TEA Bank* (the term pages) · *The LIØNSBERG Lexicon*, Pillar III (canon-grade — the one-line definition) · *The DNA of Heaven*, Part XII · lionsberg.wiki: LUV — LIØNSBERG Units of Value
 **Open:** Compressed ratios are given as 7:1 on the LUV card and as an unnumbered principle elsewhere. The TEA Bank's formula (periods × size) departs from "one period = one unit" on the Units of Value page; that departure is unsettled.

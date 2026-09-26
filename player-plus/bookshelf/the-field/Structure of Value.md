@@ -16,11 +16,10 @@ From that follows the chapter's chain. If the structure is not united by one hig
 
 Two consequences make it practical. The first is diagnostic: if you want to know a person's or a body's real structure of value, do not read the statement — watch what they noticed and what they spent themselves on, because attention is downstream of value ([[Spending Attention]], [[Keep Promises Visible]]). The second is corrective: because the structure shapes perception, you cannot simply observe your way to a better one. It is changed by changing what you hold highest, and then the seeing follows ([[Spirit Precedes Pattern]], [[Attunement]], [[The Living Gradient]]).
 
-It is also what redefines [[Value]] itself in this corpus. What counts as worth producing is not given by a market or by preference; it follows from what is held good, which is why the economic pages and the spiritual ones here turn out to be one argument ([[Value]], [[Throughput]], [[Waste]]).
+It is also what redefines [[Value]] itself here. What counts as worth producing is not given by a market or by preference; it follows from what is held good, which is why the economic pages and the spiritual ones here turn out to be one argument ([[Value]], [[Throughput]], [[Waste]]).
 
 **Also called:** the structure of one's values · what you can perceive
 **Stands on:** [[Values]] · [[Perception]] · [[ØNE]] · [[Holarchy]]
 **Opens onto:** [[Spending Attention]] · [[Value]] · [[One (the One Thing)]] · [[The three nested holarchies — Issues, Opportunities, Goals]] · [[Axiology]] · [[Coherence]] · [[Integrity]] · [[The Living Gradient]] · [[Values as Living Gradients]] · [[Narrative Lens]] · [[Perception]]
 **In play:** beyond, and at the table whenever two goods are in conflict and the body discovers it has never said which one yields
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/8. Spending Attention.md` and `/11. Spending Energy.md`, where the term is load-bearing · `The LIØNSBERG System of Values` · lionsberg.wiki: The Wisdom of the Way
-**Open:** The term is used as though defined and is defined nowhere; both chapters that lean on it assume the reader already holds it. · The *Meta Value* it resolves to is named repeatedly across the corpus and has no page of its own.
+**Open:** The term is used as though defined and is defined nowhere; both chapters that lean on it assume the reader already holds it. · The *Meta Value* it resolves to is named repeatedly and has no page of its own.

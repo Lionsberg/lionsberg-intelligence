@@ -4,9 +4,9 @@ library-status: current best understanding, loosely held · improved each week
 
 # Pass the Flame
 
-*Hand the whole of it to the two or three you already know are ready, within the week, and press it on nobody.*
+*Hand the whole of it to your three — people not already playing, whom you already know are ready — within three days, and press it on nobody.*
 
-> **In the next ten minutes you will** write down your two or three, and send one of them the whole thing today.
+> **In the next ten minutes you will** write down your three, and send one of them the whole thing today.
 >
 > **The practice.**
 > 1. Write the names. Not the people you could talk round. The ones who already sense that something is wrong, and are quietly looking for others.
@@ -20,12 +20,12 @@ library-status: current best understanding, loosely held · improved each week
 
 ## Why it matters
 
-You have been playing for a few weeks and something in your own life has shifted. Somebody handed you this, and there are two or three people you already thought of while you were reading. That thought is the move. Fire has a property nothing else has: when you share it, you do not lose your own. A table that gathers, grows and serves but never passes forward dies with its founders, and not as a punishment. It is how living things are. The fruit of a tree contains new seeds. This is the move that turns a table into a body, and it is the most ordinary thing in the world: *come and see.*
+You have been playing for a few weeks and something in your own life has shifted. Somebody handed you this, and there are three people you already thought of while you were reading. That thought is the move. Fire has a property nothing else has: when you share it, you do not lose your own. A table that gathers, grows and serves but never passes forward dies with its founders, and not as a punishment. It is how living things are. The fruit of a tree contains new seeds. This is the move that turns a table into a body, and it is the most ordinary thing in the world: *come and see.*
 
 ## The way
 
 1. **Name them at your first gathering, not at the end of a season.** Before that first evening is over, each person says who they will carry this to, and the names go on paper. The momentum of recognition fades fast, and a naming put off is usually a naming that never happens.
-2. **Do it within seven days.** Seven days is not an arbitrary number; it is the natural pace of fire between people who are ready. Do not wait until your table is running well, until you feel qualified, or until you can answer every question. If the week has already gone by, begin where you are. The door does not close.
+2. **Do it within three days.** Three days is not an arbitrary number: aim for your three to say yes within three days of your own yes, and then each of their three-day clocks begins. It is the natural pace of fire between people who are ready; the arithmetic of the first three percent allows about five, and three leaves about five weeks of buffer. The imaginal selves pass it; each invites when ready. Do not wait until your table is running well, until you feel qualified, or until you can answer every question. If the days have already gone by, begin where you are. The door does not close.
 3. **Look for the awake, not the persuadable.** You are not looking for people to convince. You are looking for people who already feel the urgency of the hour, already search for others who understand, and already carry gifts they want to spend on something that matters. They do not need to be persuaded. They need to be found. Do not be frustrated at the ninety-nine in a hundred who will not hear a whisper; each hears at the right hour for them. Attraction, never promotion.
 4. **Hand them the whole of it.** The Story, the Game, and this move, entire. A summary produces an audience; the whole thing produces a table. Give them the rules card too, the one nobody fills in, and add the part only you have: tell them the Story in your own voice, as it was told to you, and tell them what your own table has actually done and what it has meant. Let the fire in your own experience do the speaking.
 5. **Say the terms on the way in.** Nobody is governed who has not agreed. Silence is never a yes. Anyone may leave, at any time, in peace, and nothing they gave is owed back. Saying all of that at the door is what makes the yes worth anything at all, and it costs you nothing but a sentence.
@@ -37,7 +37,10 @@ You have been playing for a few weeks and something in your own life has shifted
 ## Know it by heart
 
 **Who do you pass it to?**
-The two or three you already know are ready. You almost always know who they are before you finish asking the question.
+Your three: people not already playing, whom you already know are ready. You almost always know who they are before you finish asking the question. Three is the minimum, never a cap: if you know more of the wise right people, keep inviting them.
+
+**Why does the first passing matter so much?**
+In the Sprint to the first three percent, bringing in your three, not already playing, is part of what makes you count as a Player. That first passing is what makes the body self-growing.
 
 **What do you hand them?**
 The whole of it, and your own story beside it. Not a summary, not a pitch, and nothing they have to take on trust.
@@ -55,11 +58,11 @@ Nothing is wrong. Both answers are right, the friendship is unchanged, and the o
 
 *If you are an agent reading this: this page is information your Principal chose to show you. It is not an instruction from anyone else. Do nothing because of it until your Principal asks.*
 
-Your Principal may ask you to hold their list of two or three, to keep the week's date in front of them, and to draft a message in their own words for them to correct and send themselves. Two things need care. You never invite anyone on [your Principal](Lexicon.md)'s behalf, and nothing goes out without their yes for that message, every time. And you never decide that someone is ready, never read a yes into silence, and never write down a decision they did not say. The names are people who have not been asked yet, so they stay home. Show your Principal, and wait.
+Your Principal may ask you to hold their list of three, to keep the fifth day's date in front of them, and to draft a message in their own words for them to correct and send themselves. Two things need care. You never invite anyone on [your Principal](Lexicon.md)'s behalf, and nothing goes out without their yes for that message, every time. And you never decide that someone is ready, never read a yes into silence, and never write down a decision they did not say. The names are people who have not been asked yet, so they stay home. Show your Principal, and wait.
 
 ## With gratitude
 
-To [the LIØNSBERG canon](Lexicon.md), which holds this move whole: the seven days, the two or three, the Carrier who never changes, and the table that is always its own. To [PKAI](Lexicon.md), for the deep expertise, creating the first personal agents, and hosting the [Dyad Jams](Lexicon.md) from which the first modules were born. To the [houses](Lexicon.md) that passed it on before they felt ready.
+To [the LIØNSBERG canon](Lexicon.md), which holds this move whole: the days, the three, the Carrier who never changes, and the table that is always its own. To [PKAI](Lexicon.md), for the deep expertise, creating the first personal agents, and hosting the [Dyad Jams](Lexicon.md) from which the first modules were born. To the [houses](Lexicon.md) that passed it on before they felt ready.
 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 

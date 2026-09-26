@@ -20,5 +20,4 @@ The chapter carries the counsel through reading, which is where the cost is easi
 **Stands on:** [[A Few]] · [[The 20%]] · [[Discernment]] · [[The Goal]]
 **Opens onto:** [[Spending Attention]] · [[Spending Time · Units of Time]] · [[Out of the Antilibrary, a Library]] · [[Critical Path]] · [[The Daily Way]] · [[Aim Before You Act]] · [[Keep Promises Visible]] · [[Honesty about time]] · [[Memento Mori]]
 **In play:** the daily practice, and the table when a week's promises are made
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/7. Attend To The Most Important Things First.md` (two carried sayings on reading) · the same book's chapters 2, 3, 8 and 14 · lionsberg.wiki: The Wisdom of the Way
 **Open:** The corpus has no page for the most important thing of a day; the one page in the Field bearing those initials carries a software licence and not this sense. · The chapter offers no method for ordering when two things are genuinely first, which is the ordinary case.

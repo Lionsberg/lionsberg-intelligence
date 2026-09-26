@@ -22,5 +22,4 @@ And the diagnostic is usable today, on anything. When an account of a conflict m
 **Stands on:** [[Kontrolle]] · [[Fear]] · [[Identity]]
 **Opens onto:** [[The Game of Empire and Oligarchy]] · [[Navigating Difference]] · [[Reconciliation]] · [[The Golden Thread]] · [[No False-Oppositional Framings]] · [[Multi-Polar Traps]] · [[Control Of Information]] · [[Welcoming The Stranger]]
 **In play:** the table — read against any account that makes the other side unintelligible
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §VI
 **Open:** The source names a modern form of this by a contested political label; the mechanism is carried here and the label is not. · Nothing distinguishes a division maintained by someone from a difference that is simply real, and the distinction decides whether reconciliation is the right move.

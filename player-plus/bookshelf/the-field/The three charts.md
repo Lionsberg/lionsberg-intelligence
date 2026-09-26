@@ -24,5 +24,4 @@ They are also redrawn at the turning. The charts are a photograph of a season, n
 **Stands on:** [[Accountability]] · [[Roles]] · [[Domain]] · [[Governance]]
 **Opens onto:** [[Cell Types]] · [[Process (and the Process List)]] · [[Term Limits And Rotation]] · [[Delegation]] · [[Subsidiarity Of Authority]] · [[Span of Control]] · [[Guild]] · [[Mandate]]
 **In play:** Home — kept current by every body, redrawn at the turning
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG System Toolkit/Function Chart.md` and `Role Chart.md` (the content is the canon's, the names are recent) · `Cell Types.md` · `LIØNSBERG Process List.md` (a list of fifteen processes) · lionsberg.wiki: Function Chart
 **Open:** The Process Chart has no page of its own, only mentions on the other two. · The templates the charts refer to still carry their former names.

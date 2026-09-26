@@ -12,7 +12,7 @@ Everything consciously created — a meal, a dwelling, a community, a civilizati
 
 The Cascade is not a one-way waterfall; it is a circulation. Every Instantiation compromises the Ideal to some degree — local conditions demand it — and *the compromise is the data*. What was compromised, why, and what was learned flows back up into the Prototype so every future Instantiation inherits it, and further up where the learning reshapes the concept itself. Descending, the Cascade embodies intention; ascending, it perfects understanding.
 
-Three disciplines make the return flow real, and the canon draws them from delivery practice rather than aspiration: lessons embed at the exact point in the Prototype where they were discovered, attached to the part itself and never filed in a separate archive; the feedback loop is itself stewarded and improved; and learning couples to action in the same breath rather than in reviews months after the decisions that mattered.
+Three disciplines make the return flow real, drawn from delivery practice rather than aspiration: lessons embed at the exact point in the Prototype where they were discovered, attached to the part itself and never filed in a separate archive; the feedback loop is itself stewarded and improved; and learning couples to action in the same breath rather than in reviews months after the decisions that mattered.
 
 It is load-bearing as the spine of all making in this Field, and it is [[Fractal]] — every rung contains cascades within it, and the descent is pulled by real need rather than pushed from a blueprint. Its own discipline is the guard: every named Ideal, Archetype, and Prototype is a made thing; worshipped, it becomes an idol; declared final, a cage.
 
@@ -20,5 +20,4 @@ It is load-bearing as the spine of all making in this Field, and it is [[Fractal
 **Stands on:** [[Intention]] · [[Logos]] · [[Emanation]]
 **Opens onto:** [[Ideal]] · [[Archetype]] · [[Prototype]] · [[Kit of Parts]] · [[Instantiation]] · [[Current Best Understanding]]
 **In play:** Met in the System whenever something is designed and built; met at the table when a Cell writes down what it had to compromise and sends it home.
-**Sources:** *The Creative Cascade* (root page, mature, no status line) · *The LIØNSBERG Lexicon*, Meta Layer (the Cascade table) · lionsberg.wiki: *The Creative Cascade*.
 **Open:** none found.

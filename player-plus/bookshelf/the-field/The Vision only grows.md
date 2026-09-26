@@ -20,7 +20,6 @@ It sits at the centre of [[The Board]] for the same reason: the *why* is what a 
 
 **Also called:** the Vision is never pruned · a bigger bouquet
 **Stands on:** [[Vision]] · [[The Board]] · [[Commons]] · [[Belonging]] · [[Meta Unity of Meta Diversity]]
-**Opens onto:** [[Quest]] · [[The Beacon]] · [[Prune]] · [[Weave, don't delete]] · [[Weaving vs. Starting New]] · [[Choose a Quest]] · [[Season]] · [[Co-Creation]] · [[The Goal]] · [[Holofractal Omnifederation]] · [[Inexhaustible Individuals]]
+**Opens onto:** [[Quest]] · [[The Beacon]] · [[Prune]] · [[Weave, do not delete]] · [[Weaving vs. Starting New]] · [[Choose a Quest]] · [[Season]] · [[Co-Creation]] · [[The Goal]] · [[Holofractal Omnifederation]] · [[Inexhaustible Individuals]]
 **In play:** the Board, and every seasonal choosing
-**Sources:** `LIØNSBERG Wiki Books/The Great Game of LIØNSBERG/The Great Game of LIØNSBERG.md`, §The Board · `The Gameboard` · `…/Community Guidebook/Toolkit/From Driver to Quests.md`
 **Open:** The canon states this in a single clause and never says what happens to a contribution that is incompatible with another, rather than merely additional. · Whether anything may ever leave the Vision — a dream withdrawn by the one who brought it, say — is unaddressed.

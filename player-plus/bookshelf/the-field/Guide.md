@@ -16,11 +16,10 @@ A Player+ meets the Guide twice. As a person: the one who greets, orients, and h
 
 Guiding is not gatekeeping. Nothing is locked, no lesson is withheld, and anyone may read ahead as far as they like; the ordering is a service offered, and a person who wants the whole of it at once is given the whole of it.
 
-The office is named in the seed and has no page of its own in the canon yet; what is written here is the seed's own description, translated, and held loosely until the offices are set down properly.
+The office is named in the seed and has no page of its own yet; what is written here is the seed's own description, translated, and held loosely until the offices are set down properly.
 
 **Also called:** the office of orientation
 **Stands on:** [[The Zone Of Optimum Development]] · [[Just in time]] · [[A Word on Words]]
 **Opens onto:** [[Bard]] · [[Reaching Us]] · [[The Arc of Play]] · [[Lesson]] · [[The Twelve Words]] · [[Welcome a Newcomer]]
 **In play:** door · Gate
-**Sources:** The DNA of Heaven, Parts VIII and XII · Player+ Modules, *Advanced Agent Engineering* (the guide among the archetypes), *Start Here* · lionsberg.wiki: *AURELLIØN's Guide to LIØNSBERG*, *The Arc of Play*.
-**Open:** no canon page yet holds the office; the Guide, the Bard and the keeper are named in the seed's word list and not yet articulated.
+**Open:** no page yet holds the office; the Guide, the Bard and the keeper are named in the seed's word list and not yet articulated.

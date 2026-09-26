@@ -232,8 +232,8 @@ tier: 200
 - [[Celebrate, Learn, and Improve]] — *Move five: retrospect, refine, and mark what was good — because what is celebrated and refined is what becomes worth telling.*
 - [[Choose a Quest]] — *Move three: one real thing, for one season, that your Cell can do together and point to afterward. Real, near, and yours.*
 - [[Do the Work]] — *Move four: discern, plan, act, keep promises, produce results. Say what you will do; do what you said; learn from the gap.*
-- [[Form a Cell]] — *Move one: three to thirteen people who choose to walk together, by name, and best at four to seven.*
-- [[Pass The Flame]] — *Move seven, never optional: within a week, carry the Game to the two or three you know are ready. Their Cell is their own, not a branch of yours.*
+- [[Form a Cell]] — *Move one: three to thirteen people who choose to walk together, by name, and optimally four to seven.*
+- [[Pass The Flame]] — *Move seven, never optional: within three days, carry the Game to your three who are ready. Their Cell is their own, not a branch of yours.*
 - [[Share the Stories]] — *Move six: every Quest becomes a story, and the story travels further than you can.*
 - [[The Board]] — *The one public picture of the whole Game: who is playing, what they are questing, where it is going, and why.*
 - [[The Circle Sheet]] — *Who we are: name, place, people, who carried the Flame to us, who hears our season, and how a stranger reaches us.*

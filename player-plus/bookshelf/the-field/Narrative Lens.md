@@ -20,5 +20,4 @@ The discipline that keeps this from relativism: lenses differ, reality does not.
 **Stands on:** [[Story]] · [[The Lens]] · [[Culture]]
 **Opens onto:** [[Forward-Looking Story]] · [[The True Myth]] · [[Sensemaking]] · [[Dialogos]]
 **In play:** table · Room
-**Sources:** *Story* (a written root page) · *The LIØNSBERG Lexicon*, Story and Perception sections · *LIØNSBERG Narrative Universe* (a written root page) · *Pass The Flame*, Ch 6 · lionsberg.wiki: *LIØNSBERG Narrative Universe*
 **Open:** The canon carries *Narrative Lens*, *Narrative Framework*, *Narrative Structure*, and *Narrative Universe* as four names; the last is a large page about a storytelling architecture and is not a synonym for the other three. The fold here may be too wide.

@@ -16,11 +16,10 @@ The forces are real on both sides and the Pattern does not pretend otherwise. Co
 
 At the scale of a Body this is the same discipline that keeps an articulation from hardening into doctrine — the posture underneath [[Current Best Understanding]] and the personal form of the refusal of [[Ideological Capture]]. It is also what keeps [[Lineage]] honorable: a lineage held with beginner's mind can be loved and still questioned.
 
-The related image the canon keeps beside it is the uncarved block — the state in which nothing is fixed and anything is still possible. And the discipline that makes it practicable rather than merely admired: *break the form only after you can hold it* ([[Shu-ha-ri]]).
+The related image kept beside it is the uncarved block — the state in which nothing is fixed and anything is still possible. And the discipline that makes it practicable rather than merely admired: *break the form only after you can hold it* ([[Shu-ha-ri]]).
 
 **Also called:** State Of The Uncarved Block · Beginner's mind
 **Stands on:** [[The Sovereign]] · [[Current Best Understanding]] · [[Mystery]] · [[Learning]]
 **Opens onto:** [[Ideological Capture]] · [[Lineage]] · [[Shu-ha-ri]] · [[Unlearning]] · [[We Do Not Know]] · [[Focused Attention As Discipline]] · [[Mastery]]
 **In play:** Gate
-**Sources:** *Shoshin* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Shoshin
 **Open:** none found

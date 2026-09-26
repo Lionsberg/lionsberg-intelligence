@@ -19,5 +19,4 @@ The Play is not aimless. It is the medium through which all things move toward [
 **Stands on:** [[ØNE]] · [[The Goal]] · [[The Sacred Arc]]
 **Opens onto:** [[The Great Game]] · [[The Sacred Ascent]] · [[The Sovereign Path]] · [[The Loop That Has No End]] · [[Co-Creating Heaven]] · [[The Great ReMembering]] · [[Convergence]]
 **In play:** At the Gate, as the threshold the Ascent opens into; beyond, as the frame in which a completed life is a completed chapter rather than an ending.
-**Sources:** `The Eternal Divine Play` (wiki root, mature) · `The Story of LIØNSBERG — The Sacred Arc`, Movement XII (canon-grade) · `The Sovereign Path`, stage 12 · `The Sacred Ascent`. lionsberg.wiki: **The Eternal Divine Play**.
 **Open:** The root page links `The Eternal Divine Play Closes The Sacred Ascent` and a Movement 12 guidebook companion; both are referenced more often than they are written, so the threshold between Ascent and Play is named in several places and articulated in none.

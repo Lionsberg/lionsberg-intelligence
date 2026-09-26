@@ -22,5 +22,4 @@ The near neighbour is the [[Field of Agreements]], and the difference is worth k
 **Stands on:** [[Consent]] · [[Field of Agreements]] · [[Agreement]] · [[Voluntary Association]]
 **Opens onto:** [[Governance]] · [[Charter]] · [[Decision Making]] · [[Conflict Transformation]] · [[We Do Not Tolerate]] · [[Circle Coherence]] · [[Agreement]] · [[Pillar II — Sacred Governance and Stewardship]]
 **In play:** the door, where a newcomer reads them before joining; the table, where they are used; the look-back, where they are revised
-**Sources:** `Rules of Participation` · `Template For Rules of Participation` (root page, an instrument) · `Field of Agreements` (root page) · lionsberg.wiki: Rules of Participation
-**Open:** The root page and the Field of Agreements overlap heavily and neither says how they relate; the distinction drawn above is a reading, not the canon's own. · The canon promises "guidance and best practices" for writing them and the guidance is a template sheet, not a practice.
+**Open:** The root page and the Field of Agreements overlap heavily and neither says how they relate; the distinction drawn above is a reading, not a settled one. · "Guidance and best practices" for writing them is promised, and the guidance given is a template sheet, not a practice.

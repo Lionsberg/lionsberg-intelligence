@@ -20,5 +20,4 @@ The root page for this concept is four lines and points straight to [[ØNE]]; th
 **Stands on:** [[ØNE]] · [[The Ineffable]]
 **Opens onto:** [[Logos]] · [[Creation]] · [[Emanation]] · [[Divine Spark]] · [[Revelation]]
 **In play:** Met at the door, in the first line of the Story, and again in the daily practice of [[Silence And Stillness As The Ground]]; nothing is asked of a player's belief at either rung.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the uncreated Origin and Fount of all that is") · *Source* (root page, four lines, redirects to ØNE) · *The ØNE — Eternal Source, Center, and Fulfillment of All* · lionsberg.wiki: *Source*.
 **Open:** The root *Source* page is a pointer, not an articulation;

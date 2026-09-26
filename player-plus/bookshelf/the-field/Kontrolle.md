@@ -20,5 +20,4 @@ Its terminal phase is what has been called [[Full Spectrum Dominance]]: total ce
 **Stands on:** [[The Fall]] · [[Evil]] · [[Inversion]] · [[Trauma]]
 **Opens onto:** [[The Caves]] · [[The Three-Layered Adversary]] · [[Full Spectrum Dominance]] · [[The Final Order]] · [[Fraud In The Inception]] · [[Hell On Earth]] · [[Withdrawal Of Consent]]
 **In play:** door · Gate
-**Sources:** *Kontrolle* · *The LIØNSBERG Pattern Language, synthesized*, §The Old World · *Threshold to Movement I — Awakening in the Caves of Kontrolle* · *The Caves* — lionsberg.wiki · the seed text *The DNA of Heaven*, Parts I and II.
-**Open:** *The Kontrolle Matrix* is referenced as the structural articulation but has no page yet; the layers above are the fullest statement that exists. · The dimensional layer is asserted in the canon and is not evidenced there in the way the other layers are; it is carried here as the canon's claim, flagged.
+**Open:** *The Kontrolle Matrix* is referenced as the structural articulation but has no page yet; the layers above are the fullest statement that exists. · The dimensional layer is asserted and not evidenced in the way the other layers are; carried here flagged as such.

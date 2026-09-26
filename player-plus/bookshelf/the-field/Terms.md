@@ -20,5 +20,4 @@ Terms are not reopened inside the room, and there is no cooling-off afterward. W
 **Stands on:** [[The six lines]] · [[Room]] · [[Field of Agreements]] · [[Consent]]
 **Opens onto:** [[Declare]] · [[Closing question]] · [[Safe sparring]] · [[Elision]] · [[Chatham House]] · [[License]] · [[Hosted service]]
 **In play:** door · Room
-**Sources:** Player+ Modules, *Entering the Field*, *Safe Sparring*, *Before Your First Room* · The DNA of Heaven, Parts VIII and X ("where they differ, the strictest stated governs the room; reading is disclosure").
 **Open:** none found.

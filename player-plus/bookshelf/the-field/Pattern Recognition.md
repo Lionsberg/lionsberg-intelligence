@@ -20,5 +20,4 @@ For a Cell this is weekly and ordinary. At [[The Turn]] each person says what th
 **Stands on:** [[Logos]] · [[Pattern]] · [[Discernment]] · [[Science]]
 **Opens onto:** [[Pattern Card]] · [[General Pattern, Specific Application]] · [[Retrospective]] · [[Sensemaking]] · [[System]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table · *Pillar VIII — Sacred Science and Technology*, theses 1 and 5 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Meta-Architecture and Disciplines · the seed's Part IV. lionsberg.wiki: Pattern Recognition.
 **Open:** *Pattern-Speaking* comes from the Pattern Language's verb-coinage sweep, most of which has no body; the Lexicon line is the only articulation with use behind it.

@@ -20,5 +20,4 @@ Nothing in the Turn requires a chairman. The two hosts hold the room and the hos
 **Stands on:** [[Commitment]] · [[Cell]] · [[The Record]] · [[Rhythm]]
 **Opens onto:** [[The Heartbeat]] · [[The eight movements]] · [[Check In]] · [[Harvest and Close]] · [[The Questcard]] · [[The Circle's Scorecard]] · [[The Offering]] · [[The weekly door]] · [[Season]]
 **In play:** table
-**Sources:** *The Twelve Words*, word 4 (current best understanding) · *The Game at the Table*, §The week (current best understanding) · *The LIØNSBERG Operating System* §8 · the Player+ Modules lexicon, *the Turn*, and *The Weekly Turn* module · The DNA of Heaven, Part V · lionsberg.wiki: **The Twelve Words**, **The Game at the Table**
 **Open:** Two shapes are live: the four-part round of the Little Book and the eight movements of the module. They are compatible but not reconciled on any page. · Word 4 in the Little Book links onward to a template rather than to a page for the Turn itself.

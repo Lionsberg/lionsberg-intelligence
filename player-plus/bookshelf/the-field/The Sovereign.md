@@ -18,11 +18,10 @@ pillar: Pillar V — Sacred Health and Wellness
 
 **The Sovereign's Heart** is the trained emotional instrument: each emotion read as information about the field, felt fully, responded to, and released when its work is done.
 
-The five facings are one being, and the Way is walked with all five or not at all. This is where nearly all of the canon's drafted Cards live — about fifty-five of them, almost entirely the Sovereign's inner way. The cooperation and production wisdom is named and largely uncarded. The inner instrument is the part of the Language that has actually been written.
+The five facings are one being, and the Way is walked with all five or not at all. This is where nearly all of the drafted Cards live — about fifty-five of them, almost entirely the Sovereign's inner way. The cooperation and production wisdom is named and largely uncarded. The inner instrument is the part of the Language that has actually been written.
 
 **Also called:** The Sovereign's Body · Breath · Mind · Spirit · Heart
 **Stands on:** [[Sovereignty]] · [[Embodiment]] · [[The Sovereign Path]] · [[Sovereignty Of Consciousness]]
 **Opens onto:** [[The Daily Way]] · [[Breath]] · [[Focused Attention As Discipline]] · [[Aligned Will]] · [[Mastery Of Emotions]] · [[The Energetic Anatomy]] · [[Shoshin]] · [[Spontaneous Wise Right Action]]
 **In play:** Gate
-**Sources:** *The Sovereign's Body* · *The Sovereign's Breath* · *The Sovereign's Mind* · *The Sovereign's Spirit* (drafted Pattern Cards) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Sovereign Path* (canon-grade) · lionsberg.wiki: The Sovereign's Body
-**Open:** The canon's ledger records *Sovereign* as one name carrying three live referents — a quality, the person, and the structural principle — with the address unresolved.
+**Open:** The ledger records *Sovereign* as one name carrying three live referents — a quality, the person, and the structural principle — with the address unresolved.

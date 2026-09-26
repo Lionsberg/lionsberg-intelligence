@@ -20,5 +20,4 @@ In play it is why the card has the same shape at every level, upper half common 
 **Stands on:** [[Holarchy]] · [[Fractal]] · [[Holon]]
 **Opens onto:** [[Holofractal Omnifederation]] · [[HoloFractal Governance]] · [[Holofractal Scaling]] · [[Levels Of Scale]]
 **In play:** Met at the table in the shape of the Playcard, and at the Home when a Cell reads a supercell's card and recognises its own.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I and Pillar II (the *HoloFractal* row is present but empty) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Holarchy* and *Holon* (root pages) · lionsberg.wiki: *Holofractal Omnifederation*.
 **Open:** The Concept Field notes that on its own the compound adds no distinct meaning beyond Holarchy plus Fractal, and keeps it only because the governance pages compound it. Its Lexicon row is empty; no page defines it directly.

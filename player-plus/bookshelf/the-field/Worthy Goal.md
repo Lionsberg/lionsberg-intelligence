@@ -19,5 +19,4 @@ The test of worthiness is the same compass, asked of an aim rather than a move: 
 **Stands on:** [[The Goal]] · [[The compass question]] · [[Vision]]
 **Opens onto:** [[Quest]] · [[Intention]] · [[One Purpose Above All]] · [[Throughput]] · [[Stacking Up And Aligning]] · [[Purpose]]
 **In play:** At the door, when someone asks what they would actually be signing up for; at the table, when a Cell chooses what it is for beyond this season's Quest.
-**Sources:** `Worthy Goal` · `The Goal` (root) · `Throughput Of The Goal` (root) · `The LIØNSBERG Lexicon`, Vision/Aim/Goal · `The DNA of Heaven`. lionsberg.wiki: **Worthy Goal**.
 **Open:** The root page equates the worthy goal with the Meta Goal itself, which loses the distinction that makes the term useful — a chosen aim between the received Goal and a season's Quest.

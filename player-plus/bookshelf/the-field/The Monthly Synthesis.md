@@ -24,5 +24,4 @@ It is a synthesis rather than a review because the work is to *put together* —
 **Stands on:** [[The Turn]] · [[Rhythm]] · [[Field of Agreements]] · [[Retrospective]] · [[Circle Coherence]]
 **Opens onto:** [[OmniSpection]] · [[Season]] · [[The Annual Deep Review]] · [[Quest]] · [[Issue]] · [[The Circle's Scorecard]] · [[Look-back]] · [[Drift]] · [[Green, yellow, red]]
 **In play:** table, once a month
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/The Rhythm of Gatherings.md` · `…/Step 4 — Learning to Play The New Game.md` · *THE DNA OF HEAVEN*, Part V
 **Open:** No page gives the Monthly Synthesis a shape — how long it runs, who convenes it, whether it replaces a weekly gathering or sits beside one. Only its three questions are written. · Its relationship to the [[The Circle's Scorecard|Scorecard]], which reports monthly-ish signals weekly, is unstated.

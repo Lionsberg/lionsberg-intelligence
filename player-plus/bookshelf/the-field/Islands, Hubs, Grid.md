@@ -18,5 +18,4 @@ The topology is the same shape as everything else here: complete wholes, federat
 **Stands on:** [[Islands of Coherence]] · [[The Hub]] · [[Federation]] · [[Levels Of Scale]]
 **Opens onto:** [[Islands of coherence to network]] · [[The Joseph Plan]] · [[The Noah Plan]] · [[The Planet]] · [[The Movement]] · [[The Wilderness]]
 **In play:** beyond
-**Sources:** The LIØNSBERG Pattern Language, The New World (ore — named as a topology, not articulated) · `The Hub Network Topology` Card · `Islands of Coherence` · The DNA of Heaven, Part IV · lionsberg.wiki: The Hub Network Topology
 **Open:** Named as a triad in one inventory; no page articulates the three stages together. The sequencing stated here is a reading, not an answer.

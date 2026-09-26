@@ -22,5 +22,4 @@ The word is used six times in a single chapter of its source and defined nowhere
 **Stands on:** [[Truth]] · [[Goodness]] · [[Wisdom]] · [[The Great Story]]
 **Opens onto:** [[Degree of Domain Independence]] · [[ReHarvesting the Great Traditions]] · [[Meta Unity of Meta Diversity]] · [[Convergent Streams of Discovery]] · [[The Ten Universal Principles Across Streams]] · [[Share the Stories]] · [[Cross-Cultural Pattern Translation]] · [[Navigating Difference]]
 **In play:** the table — what a Circle is looking for when it shares stories across difference
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame - Illuminating the Way Beyond the Meta Crisis.md` §V and §VI
 **Open:** Never defined in its source; this page is reconstructed from use. · The convergence claim is asserted and is the kind that confirms itself if the weavers select which threads to weave.

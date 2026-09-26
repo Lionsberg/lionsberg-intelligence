@@ -20,5 +20,4 @@ At the table these arrive small. A commitment moves could, should, can, will, di
 **Stands on:** [[The Core Pattern]] · [[Twelve Irreducible Elements]] · [[The Pattern of Cooperation]] · [[Value]]
 **Opens onto:** [[Integrated Delivery]] · [[Design To The Goal]] · [[Networks of Commitments]] · [[Tightly Coupled Learning and Action]] · [[SHOULD-CAN-WILL-DID]] · [[Make-Ready Process]] · [[The LIØNSBERG Operating System]] · [[Theory Of Constraints]]
 **In play:** table
-**Sources:** *Twelve Irreducible Elements* (canon-grade) · *The Core Pattern* (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Part VII · lionsberg.wiki: Twelve Irreducible Elements
 **Open:** none found

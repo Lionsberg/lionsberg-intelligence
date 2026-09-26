@@ -19,5 +19,4 @@ In play, Wisdom is the second question after the compass — *is this the highes
 **Stands on:** [[Truth]] · [[Values]] · [[Love]]
 **Opens onto:** [[Discernment]] · [[The compass question]] · [[Wise Eldership]] · [[Mastery]] · [[We Do Not Know]] · [[Retrospective]] · [[Shu-ha-ri]]
 **In play:** At the table, in the sequencing of good moves; at the Gate, as what the walk is actually cultivating; at the Room, as what a stalled Circle asks its elders for.
-**Sources:** `Wisdom` · `Values` (root) · `The LIØNSBERG Lexicon`, Pillars I and IV · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Cardinal Values · `The LIØNSBERG Playbook`. lionsberg.wiki: **Wisdom**.
 **Open:** The root page is a short value-statement; the operative articulations (wise right discernment, wise eldership, the wise right thing) live scattered across the Pattern Language and Playbook without a single home.

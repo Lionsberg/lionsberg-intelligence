@@ -22,5 +22,4 @@ Its guard is that names are witnessed and never credentialed. Nobody issues stan
 **Stands on:** [[Event]] · [[The Record]] · [[Trust]] · [[Testimony]]
 **Opens onto:** [[The event kinds]] · [[Sighting]] · [[The eight kinds of Sighting]] · [[The Life of a Commitment]] · [[Brought-by · witnessed-by]] · [[The Roll]] · [[Attribution]] · [[Provenance]]
 **In play:** the table — said by a second voice, written the same evening
-**Sources:** `Projects/the term pages/Event.md` · `Projects/the term pages/The Life of a Commitment.md` · `Projects/The Kit 2026-09/The Minimum Standards…`, the Roll row · lionsberg.wiki: The Record
 **Open:** Whether the receiver's closing word is *witnessed* or *kept* is undecided, and the two are not the same act — one vouches, the other accepts. · Nothing states what a witness owes if what they vouched for turns out to be untrue.

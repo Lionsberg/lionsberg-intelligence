@@ -16,11 +16,10 @@ Rest belongs inside it rather than opposite it. [[Rest And Regeneration]] is nam
 
 The failure it is nearest to is worth naming, because they look alike from outside. Burnout is usually produced by the same profile — high output, long hours, a serious calling — and its cause is the ego carrying what was never its weight, or the Body treating one person as a single point of failure. The Pattern's structural answer is that commitments run Cell to Cell so that the critical chain never rests on one person, and that no one is carried who has not chosen to walk.
 
-It is named in the canon among the Sovereign's Path Patterns and in the Warrior backlog, with nothing written behind it.
+It is named among the Sovereign's Path Patterns and in the Warrior backlog, with nothing written behind it.
 
 **Also called:** —
 **Stands on:** [[Aligned Will]] · [[The Act Of Release]] · [[The Sovereign]] · [[Rest And Regeneration]]
 **Opens onto:** [[Spontaneous Wise Right Action]] · [[Composure Under Threat]] · [[A Day Well Lived]] · [[Networks of Commitments]] · [[Wellness]] · [[Sabbath]]
 **In play:** Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.1, backlog) · lionsberg.wiki: The LIØNSBERG Pattern Language
-**Open:** Named with no articulation; a capacity phrased as inexhaustibility sits unreconciled with the canon's own insistence on rest, and nothing distinguishes it from the profile that precedes collapse.
+**Open:** Named with no articulation; a capacity phrased as inexhaustibility sits unreconciled with the insistence elsewhere on rest, and nothing distinguishes it from the profile that precedes collapse.

@@ -20,5 +20,4 @@ Two kits stand side by side rather than one above the other: that one, and the G
 **Stands on:** [[The Kit]] · [[Lineage]] · [[Attribution]] · [[House]]
 **Opens onto:** [[Dyad Jam]] · [[Agent]] · [[Charter]] · [[Skill]] · [[Player+ Modules]] · [[Knowledge as commons]]
 **In play:** beyond
-**Sources:** The DNA of Heaven, Part XIII ("the carrier's form follows the upstream starter kit and that house's practices for agents in rooms") · Player+ Modules, *Lexicon*, *Becoming a Player+*, *Before Your First Room*, and the gratitude line every lesson carries.
 **Open:** none found.

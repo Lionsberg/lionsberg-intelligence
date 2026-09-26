@@ -24,5 +24,4 @@ It is one of a family: the ordering of loves sits beside the ordering of goals, 
 **Stands on:** [[Love]] · [[ØNE]] · [[Order]]
 **Opens onto:** [[The Orders]] · [[One Purpose Above All]] · [[Worthy Goal]] · [[Idols Of The Pantheon]] · [[The Golden Calf]] · [[Do Not Concretize the Absolute]] · [[Awe]] · [[Prioritizing]]
 **In play:** the table — asked of a life, and of a Cell's attachments, at every deep review
-**Sources:** `LIØNSBERG Wiki Books/The Book of LIØNSBERG/Chapter 11…/11.12 The Ordo Amoris - The Order of Loves.md` (the corpus's audit instructs that the Latin name be kept)
 **Open:** The argument establishes that *something* most worthy belongs at the top; identifying it is done by elimination and not by demonstration. · Nothing says how a person would notice their own order is wrong before it breaks something.

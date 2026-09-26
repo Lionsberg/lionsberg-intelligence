@@ -4,7 +4,7 @@ tier: 1000
 domain: Pillar X — Sacred Guardianship and Order
 pillar: X
 ---
-# The Seven Virtues When It's All On The Line
+# The Seven Virtues When It is All On The Line
 
 *Seven pairs for moments of great consequence — each pairing a capacity with the counterweight that keeps it from running away.*
 
@@ -24,9 +24,8 @@ pillar: X
 
 **The pairing is the instrument.** Any single virtue, pursued alone under pressure, becomes its own failure — courage becomes recklessness, resolve becomes rigidity, integrity becomes cruelty, presence becomes paralysis. Each pair holds a capacity with the thing that keeps it honest, which is why the list is seven pairs rather than fourteen items.
 
-**Also called:** how to be when it's all on the line
+**Also called:** how to be when it is all on the line
 **Stands on:** [[Integrity]] · [[Courage]] · [[Wisdom]] · [[Love]]
 **Opens onto:** [[Composure Under Threat]] · [[Restraint As The Refusal To Act]] · [[Stewardship]] · [[Kairos]] · [[The Refining]] · [[Servant Leadership]] · [[Faith]] · [[Meta Opportunity]]
 **In play:** beyond the table — the page to read before the hardest meeting of the year
-**Sources:** `LIØNSBERG Wiki Books/When It's All On The Line - A Guide to Living Like It Matters/3.2 How To Be When It's All On The Line` · lionsberg.wiki: When It's All On The Line
 **Open:** The chapter is written in a high register and offers no practice for any of the seven; what is here is a set of names and their counterweights, not a training. · Most of the surrounding book is an unwritten outline, and the same file carries two incompatible plans for it.

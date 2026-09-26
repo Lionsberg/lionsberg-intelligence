@@ -18,5 +18,4 @@ It is run again, not once: at each turning a body re-pulls from its milestones, 
 **Stands on:** [[Milestone]] · [[The Intent]] · [[Networks of Commitments]]
 **Opens onto:** [[The activity table]] · [[Critical Path]] · [[Float]] · [[The look-ahead]] · [[SHOULD-CAN-WILL-DID]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §4 · *The LIØNSBERG Pattern Language — Synthesized* (Element 11, Networks Of Commitments) · *The Economic Case For IPD* · *Activity* and *Float* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Pull Planning**
 **Open:** The canon names *Pull Planning* as a pattern with a body only inside larger pages; no single root page carries it.

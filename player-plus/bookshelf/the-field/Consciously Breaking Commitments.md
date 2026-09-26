@@ -18,5 +18,4 @@ It is run inside the rhythm and not only at the edges: the moment confidence goe
 **Stands on:** [[Commitment]] · [[Conditions of satisfaction]] · [[Zero Blame Environment]]
 **Opens onto:** [[The gap]] · [[The Record]] · [[Honesty about time]] · [[Requests and offers]]
 **In play:** table · Home
-**Sources:** *Consciously Breaking Commitments* (wiki root page — the page exists with a title and no body) · *The LIØNSBERG Operating System* §11 · *Commitment* — lionsberg.wiki page name: **Consciously Breaking Commitments**
-**Open:** The canon page is empty; everything above is drawn from the OS and the term draft, and the wording is not yet agreed anywhere.
+**Open:** The wording above is drawn from the OS and the term draft, and is not yet agreed anywhere.

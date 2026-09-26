@@ -14,7 +14,7 @@ Applied, it cuts in both directions. A tool that watches people without their co
 
 Two things it protects at once. It lets a body **harvest from everywhere** without dissolving into everything, because the criterion travels with it. And it stops old patterns being inherited **by accident** — which is how they are almost always inherited, carried in on the back of something comfortable ([[The Old Operating System]], [[The Anti-Patterns]], [[Weaving vs. Starting New]]).
 
-It pairs with the discipline of doing: the test says *what* to fill and what to remove; the triadic practice of filling, improving and removing says *how* ([[The Triadic Discipline]], [[Prune]], [[Weave, don't delete]]).
+It pairs with the discipline of doing: the test says *what* to fill and what to remove; the triadic practice of filling, improving and removing says *how* ([[The Triadic Discipline]], [[Prune]], [[Weave, do not delete]]).
 
 Its honest danger is the danger of any clean binary. A confident body can use it to discard whatever is inconvenient and call the discarding discernment — so the test is worth most when it is run against something the one running it likes ([[Second reader]], [[Meaningful Objection]], [[We Do Not Know]]).
 
@@ -22,5 +22,4 @@ Its honest danger is the danger of any clean binary. A confident body can use it
 **Stands on:** [[Heaven On Earth]] · [[Discernment]] · [[The compass question]]
 **Opens onto:** [[The Triadic Discipline]] · [[Prune]] · [[ReHarvesting the Great Traditions]] · [[The Anti-Patterns]] · [[Technology Is Not Neutral]] · [[Weaving vs. Starting New]] · [[Belonging]] · [[The forging criterion]]
 **In play:** the table — run over any tool, term, or habit a Cell is about to adopt
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Test of Belonging.md`
 **Open:** The test presumes a settled picture of the world being made; where that picture is contested, the test returns whatever the one applying it already believed. · Nothing says who applies it, or what recourse exists for a thing excluded by it.

@@ -20,11 +20,10 @@ A Circle needs no hierarchy and does benefit from knowing who is doing what. The
 
 The discipline attached is one line and governs all four: *roles exist to serve the Circle functionally, not to confer status.* They rotate seasonally. They are offered as archetypes a gathering may draw on rather than as posts to be filled, and a Cell does not need one of each ([[Roles]], [[Term Limits And Rotation]], [[Servant Leadership]]).
 
-Two rosters are live in the canon and they are not the same four. The Game's ordinary run of a Cell names two hosts for the season, a [[Keeper]] of the record, a [[Scribe]], and a [[Carrier]] for each new Cell planted; the Circle Guide names these. They overlap at the Scribe, and the Guide's Connector and the Game's Carrier are close cousins.
+Two rosters are live and they are not the same four. The Game's ordinary run of a Cell names two hosts for the season, a [[Keeper]] of the record, a [[Scribe]], and a [[Carrier]] for each new Cell planted; the Circle Guide names these. They overlap at the Scribe, and the Guide's Connector and the Game's Carrier are close cousins.
 
 **Also called:** the Circle Guide's roles · roles lightly held
 **Stands on:** [[Roles]] · [[Servant Leadership]] · [[Cell]] · [[Term Limits And Rotation]]
 **Opens onto:** [[Host]] · [[Keeper]] · [[Scribe]] · [[Carrier]] · [[The Two-Coordinator Rhythm]] · [[The Turn]] · [[Pass The Flame]] · [[Resource the Work]] · [[The Board]] · [[Recognitions Are Not Titles To Be Sought]]
 **In play:** the table — named after a few weeks of play, not on the first day
-**Sources:** `The LIØNSBERG Circle Guide`, §Roles (Lightly Held), held within The LIØNSBERG Playbook (five roles and the one discipline) · `Play — Choose and Rotate Roles` · lionsberg.wiki: The LIØNSBERG Circle Guide
-**Open:** Two role rosters run in the canon — this one and the Game's hosts, Keeper, Scribe and Carrier — and no page reconciles them. · The Guide gives no handover form, and a role held lightly still has to be put down in a way the next holder can pick up.
+**Open:** Two role rosters run — this one and the Game's hosts, Keeper, Scribe and Carrier — and no page reconciles them. · The Guide gives no handover form, and a role held lightly still has to be put down in a way the next holder can pick up.

@@ -20,5 +20,4 @@ In play a [[Cell]] meets it as a question in the middle of a disagreement: *is t
 **Stands on:** [[Sovereignty]] · [[Authority]] · [[Domain]] · [[Jurisdiction]]
 **Opens onto:** [[Consent-Based Decision-Making]] · [[Stewardship body]] · [[The Escalation Ladder]] · [[Federation]] · [[Proportionality]] · [[Centralization Of Power]]
 **In play:** table — every time a group asks whose decision this is
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, the Constitutional Recognitions (recognition 2) · *The LIØNSBERG Lexicon*, Pillar II table · *The LIØNSBERG Operating System* §§15–16 · *THE DNA OF HEAVEN* Part IV, *Consent* · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** No root page carries Subsidiarity; it lives as a Lexicon row, a recognition, and a line in several Plays. *Competent* is nowhere defined — who judges competence when two levels disagree is unwritten.

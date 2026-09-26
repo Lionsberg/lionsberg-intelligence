@@ -20,5 +20,4 @@ And it is the floor under safety. When a member is in danger, in body or in mind
 **Stands on:** [[Selectively Permeable Membrane]] · [[Consent]] · [[Sovereignty]] · [[Field of Agreements]]
 **Opens onto:** [[Domain]] · [[Commons]] · [[Requests and offers]] · [[Welcome a Newcomer]] · [[The Way Out]] · [[Chatham House]] · [[Connect and Collaborate With Other Cells]]
 **In play:** the door
-**Sources:** `Play — Guard the Membrane`, The LIØNSBERG Playbook, Caring Plays (its Safety and Privacy guide still to be forged) · `Selectively Permeable Membrane` (canon-grade) · The DNA of Heaven, Part IV · lionsberg.wiki: Selectively Permeable Membrane
-**Open:** The concept field cites a root page *Establishing Selectively Permeable Membranes*; no such page exists — the canon home is `Selectively Permeable Membrane` and the Play card.
+**Open:** The concept field cites a root page *Establishing Selectively Permeable Membranes*; no such page exists — the home is `Selectively Permeable Membrane` and the Play card.

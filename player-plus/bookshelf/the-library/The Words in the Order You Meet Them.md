@@ -30,9 +30,9 @@ The ladder has six rungs. Each names its words, its lessons, its cards, and the 
 
 **Words, in their order:** [[Cell]] (and a [[Circle]], the gathering that is not yet one) · [[Quest]] · [[Commitment]] · [[The Turn|Turn]] · [[Season]] · a story · [[The Offering|Offering]] · [[Carrier]] · [[Home Cell]] · [[Supercell]] · [[Proposal]]; and for the child who asks, ØNE and Heaven again.
 **What you read:** the Little Book of the Great Game: the Story told at the table, the Game at the table, the five moves, the week, the season, the cards.
-**What you do:** form the Cell and name it; agree aloud how you will treat one another; choose one Quest for one season; fix the day; hold the first Turn (did · gap · will · offer · ask · story · Offering · thanks); mark the Circle's Scorecard; within a week, each name the two or three who are ready.
+**What you do:** form the Cell and name it; agree aloud how you will treat one another; choose one Quest for one season; fix the day; hold the first Turn (did · gap · will · offer · ask · story · Offering · thanks); mark the Circle's Scorecard; within three days, each name their three who are ready.
 **Cards:** the [[The Playcard|Playcard]] received; the [[The Questcard|Questcard]]; the Circle's [[The Circle's Scorecard|Scorecard]]; the [[The Circle Sheet|Circle Sheet]].
-**Lessons:** *Entering the Field* (the six lines you said yes to) · *Play the Game* · *The Weekly Turn* · *Daily Life*.
+**Lessons:** *Entering the Field* (the six lines you said yes to)*Play the Game**The Weekly Turn**Daily Life*.
 
 ## Rung 3 — The Gate
 
@@ -41,7 +41,7 @@ The ladder has six rungs. Each names its words, its lessons, its cards, and the 
 **Words:** [[Player]] · [[The Roll]] · brought by, witnessed by · your six (the three you would most trust to help lead your own place, and the three you would trust anywhere) · [[The Pledge]] · [[Sovereignty|Sovereign]] · [[Player+]].
 **What you read:** the Field of Agreements in full; the Pledge.
 **What you do:** give your word on the Roll; name your three within two days; choose how you are named; if you have an agent, it carries your yes and can never give one.
-**Lessons:** *Before Your First Room* · *Gratitude, Lineage and Licensing* (what you create stays yours and joins the commons).
+**Lessons:** *Before Your First Room**Gratitude, Lineage and Licensing* (what you create stays yours and joins the commons).
 
 ## Rung 4 — Home
 
@@ -50,7 +50,7 @@ The ladder has six rungs. Each names its words, its lessons, its cards, and the 
 **Words:** [[Home]] · [[The Season Sheet|Season Sheet]] · [[The Way Up]] · [[The Way Out]] · [[The Return]] · [[Value]] · [[TimeEnergy|TEA]] · [[LUV]] · [[Request]] · [[Offer]] · kept as a share of made · [[OmniSpection]] · [[Selectively Permeable Membrane]] · [[Field of Agreements]] · [[Commons]] · [[Consent]] · [[Meaningful Objection]].
 **What you read:** the seed text's Part V (the Game, whole) and Part VII (Building); Where Value Flows; the Season Sheet's fourteen lines.
 **What you do:** keep the Turn for a season; fill the Season Sheet at the turning; send it to your home; make and keep commitments Cell to Cell; hold the season's OmniSpection; pass the Flame and become a Carrier.
-**Lessons:** *The Heads-up and the Play by Play* (if you play with an agent) · *Structuring a Cell — LIØNSBERG FSx* · *The Agent Improvement Process*.
+**Lessons:** *The Heads-up and the Play by Play* (if you play with an agent)*Structuring a Cell — LIØNSBERG FSx**The Agent Improvement Process*.
 
 ## Rung 5 — The Room
 
@@ -59,7 +59,7 @@ The ladder has six rungs. Each names its words, its lessons, its cards, and the 
 **Words:** [[Superorganism]] · [[Community]] · [[The 300]] · [[Community Company]] · [[Levels of Scale]] · [[Chatham House|Chatham House Rule]] · [[Elision]] · venue card · safe sparring · posture · [[Stop]] · [[Sighting]] · [[Pain (as signal)|Pain]] · [[The Board]] · [[Work Card]] · [[Integrated Delivery]] · [[Stewardship]] · [[Wise Eldership|Eldership]] · [[Seats at the Table]].
 **What you read:** the seed text's Part IV (the Pattern: the Twelve Irreducible Elements, the Seven Recognitions, the Anti-Patterns; the Community Company; the legal form); the Community Guidebook; the Operating System.
 **What you do:** federate: three Cells become one another's home; found the community body with its steering committee that dissolves itself; carry the Season Sheets up; propose by edition; steward the commons; keep the room's terms at the door.
-**Lessons:** *Venue Cards* · *Safe Sparring* · *Jam Conventions* · *How a Module Lives* · *An Agent That Attends to You*.
+**Lessons:** *Venue Cards**Safe Sparring**Jam Conventions**How a Module Lives**An Agent That Attends to You*.
 
 ## Rung 6 — Beyond
 
@@ -68,7 +68,7 @@ The ladder has six rungs. Each names its words, its lessons, its cards, and the 
 **Words:** the Twelve Pillars by name · the Twelve Irreducible Elements by name · the Seven Constitutional Recognitions · the nine Anti-Patterns · [[The Sovereign Path|The Sovereign's Path]] and its twelve stages · [[The 144 Gates of Initiation|The 144 Gates]] · [[The Sacred Ascent]] · [[Belt Progression|Belt]] · [[Cosmic Locality]] · [[FSx]] · [[The Meta Project]] · [[The Window]] · [[The First Three Percent]]; and the whole Lexicon, one page each.
 **What you read:** the One Book; the Pattern Language; the Pillars and their plans and specifications; Pass The Flame whole; the Story at every depth.
 **What you do:** walk the Path; take up a Pillar's work in a guild, in a place, in a tradition; write down what you built so the next community need not begin again; improve the seed by proposal, weekly.
-**Lessons:** *Agent Engineering* · *Advanced Agent Engineering* · *Read the Story* · *Pass the Flame*.
+**Lessons:** *Agent Engineering**Advanced Agent Engineering**Read the Story**Pass the Flame*.
 
 ## Three sizes of the whole
 

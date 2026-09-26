@@ -20,5 +20,4 @@ And the way up is also the way down: each turning, a home sends back one page �
 **Stands on:** [[The Season Sheet]] · [[Home Cell]] · [[Host]] · [[Supercell]]
 **Opens onto:** [[The Return]] · [[Proposal]] · [[The edition]] · [[The Offering]] · [[Voluntary Tithing]] · [[Requests and offers]] · [[The plan of the whole]]
 **In play:** table · Home · beyond
-**Sources:** *The Way Up*, Little Book chapter (current best understanding · "how sheets, stories, and proposals travel, and how the rules change") · *The Season Sheet* (current best understanding) · The DNA of Heaven, Part V · lionsberg.wiki: **The Way Up**
 **Open:** The chapter says *ring* where the word is now [[Supercell]]. · How many levels the sheets actually climb, and who reads at the top, is illustrated (four levels, a town of ten thousand) rather than fixed.

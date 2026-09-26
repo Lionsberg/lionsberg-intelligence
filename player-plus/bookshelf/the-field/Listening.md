@@ -20,5 +20,4 @@ The canon also holds its counterpart: that not every moment asks for speech, and
 **Stands on:** [[Right Relationship]] · [[Focused Attention As Discipline]] · [[Sensing The Field]]
 **Opens onto:** [[Speaking Truth In Love]] · [[Having Difficult Conversations]] · [[Asking Questions]] · [[Dialogos]] · [[Meaningful Objection]] · [[The Silence That Speaks]] · [[Check In]] · [[Testimony]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.3, backlog) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as the first voice discipline with no articulation; no Card exists for any Pattern in the Voice section.

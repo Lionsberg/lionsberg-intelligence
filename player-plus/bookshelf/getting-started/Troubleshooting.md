@@ -1,18 +1,18 @@
 # Troubleshooting
 
-Common problems and how to fix them. If you don't see your issue here, describe it to Claude Code — it can often diagnose and fix problems for you.
+Common problems and how to fix them. If you do not see your issue here, describe it to Claude Code — it can often diagnose and fix problems for you.
 
 ## Installation Issues
 
 ### The developer tools window disappeared (Mac)
 
-It's probably behind another window. Check all your displays and use Cmd+Tab to look for a "Software Update" or "Install" window.
+It is probably behind another window. Check all your displays and use Cmd+Tab to look for a "Software Update" or "Install" window.
 
 ### The developer tools time estimate is absurd (Mac)
 
 Ignore the initial estimate — it may say 16 hours. The actual install typically takes five to forty minutes. The progress bar may restart about two-thirds of the way through. This is normal.
 
-### Claude Code says it can't find Git
+### Claude Code says it cannot find Git
 
 **Mac:** Make sure the Command Line Developer Tools have finished installing. In your terminal, run `git --version` to check; if you see an error, run `xcode-select --install` (see [Installing Git](Installing%20Git.md)).
 
@@ -20,18 +20,18 @@ Ignore the initial estimate — it may say 16 hours. The actual install typicall
 
 ### Windows: `git` is not recognized as an internal or external command
 
-Git for Windows isn't installed, or you need a fresh PowerShell tab so it picks up the updated PATH. Install Git for Windows from [git-scm.com](https://git-scm.com/), then open a new PowerShell tab in Windows Terminal and try again.
+Git for Windows is not installed, or you need a fresh PowerShell tab so it picks up the updated PATH. Install Git for Windows from [git-scm.com](https://git-scm.com/), then open a new PowerShell tab in Windows Terminal and try again.
 
 ## GitHub Issues
 
 ### I get a 404 when visiting a GitHub repository
 
 This usually means one of three things:
-1. You haven't created a GitHub account yet
-2. You aren't logged in to GitHub
-3. The repository is private and you haven't been given access
+1. You have not created a GitHub account yet
+2. You are not logged in to GitHub
+3. The repository is private and you have not been given access
 
-If someone shared a repo link with you and you're getting a 404, make sure you're logged in and check your GitHub notifications for an invitation. GitHub shows a misleading 404 instead of telling you to log in or accept an invite.
+If someone shared a repo link with you and you are getting a 404, make sure you are logged in and check your GitHub notifications for an invitation. GitHub shows a misleading 404 instead of telling you to log in or accept an invite.
 
 ### Git asks for my password and rejects it
 
@@ -55,9 +55,9 @@ Or use the habit of saying "pull and push" together to avoid this.
 
 ### "Nothing to commit"
 
-You haven't made any changes since your last commit. This is fine — not an error.
+You have not made any changes since your last commit. This is fine — not an error.
 
-### Files I don't want are being tracked by Git
+### Files I do not want are being tracked by Git
 
 Ask Claude Code to update your `.gitignore` file:
 

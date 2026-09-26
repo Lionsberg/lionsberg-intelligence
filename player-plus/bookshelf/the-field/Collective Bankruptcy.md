@@ -24,5 +24,4 @@ And the hardest part, which the chapter puts as a question rather than an answer
 **Stands on:** [[Jubilee]] · [[Money]] · [[Usury]]
 **Opens onto:** [[Collective Inheritance]] · [[Forgiveness]] · [[The Endgame Cascade]] · [[Community Land and Equity Trusts]] · [[UBROR — Universal Basic Opportunity and Responsibility]] · [[Underwriting The New Economy]] · [[The Act Of Release]] · [[Covenant]]
 **In play:** beyond — the frame beneath any serious talk of a reset
-**Sources:** `LIØNSBERG Wiki Books/An Alternative to Apocalypse - The New Covenant/Chapter 13 - Debt, Property, and Economic Reset.md` §II.3 (interrogative throughout)
-**Open:** The chapter asks the question and supplies no mechanism. · The phrase collides with [[Collective Inheritance]], which carries a different and unrelated sense elsewhere in the corpus. · Nothing addresses what happens to the ordinary people whose savings and pensions *are* the claims being released.
+**Open:** The chapter asks the question and supplies no mechanism. · The phrase collides with [[Collective Inheritance]], which carries a different and unrelated sense elsewhere here. · Nothing addresses what happens to the ordinary people whose savings and pensions *are* the claims being released.

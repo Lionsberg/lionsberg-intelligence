@@ -22,5 +22,4 @@ A body that does this becomes more resilient and more inventive, and its coheren
 **Stands on:** [[Meta Unity of Meta Diversity]] · [[Sovereignty]] · [[Coherence]] · [[Consent]]
 **Opens onto:** [[Conflict Transformation]] · [[Navigating Difference]] · [[Minimum standards of interoperability]] · [[Federation]] · [[Synergy]] · [[Dialogos]] · [[Meaningful Objection]] · [[Circle Coherence]] · [[Pillar II — Sacred Governance and Stewardship]]
 **In play:** the table, when two members want two different next moves and neither is wrong; and the Room, when two Cells' paths part
-**Sources:** `Transforming Divergence` · `Minimum Standards of Interoperability` (root page) · lionsberg.wiki: Transforming Divergence
-**Open:** The page is written as principles and practices without a case; there is no worked example anywhere in the canon of a divergence actually transformed, and no account of what to do when the higher unity is not found.
+**Open:** The page is written as principles and practices without a case; there is no worked example anywhere of a divergence actually transformed, and no account of what to do when the higher unity is not found.

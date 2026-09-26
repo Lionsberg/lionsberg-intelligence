@@ -22,7 +22,6 @@ The floor is one file a person reads with no machine at all. Any Actor may keep 
 
 **Also called:** the heads-up display · the Doing side and the Becoming side
 **Stands on:** [[The Board]] · [[The Record]] · [[LIØNSBERG Mission Control]] · [[Transparency]]
-**Opens onto:** [[The Big Room]] · [[The look-ahead]] · [[Work Deck]] · [[The Game Engine]] · [[The Score]] · [[The Sovereign Path]] · [[Condition]] · [[Load]] · [[LIØNSBERG Honor System]] · [[Screens and paper]]
+**Opens onto:** [[The One Room]] · [[The look-ahead]] · [[Work Deck]] · [[The Game Engine]] · [[The Score]] · [[The Sovereign Path]] · [[Condition]] · [[Load]] · [[LIØNSBERG Honor System]] · [[Screens and paper]]
 **In play:** Home — read by one person, one Cell, or a whole body, at any scale
-**Sources:** `Projects/the term pages/The HUD.md` · `LIØNSBERG Mission Control.md` (wiki root) · `Projects/the term pages/Work Deck.md`, `The Game Engine.md` (drafts) · lionsberg.wiki: LIØNSBERG Mission Control
-**Open:** The Becoming side shows honour and a score for a person; nothing states what of it any other person may see, or how that is consented to. · The look-ahead window on this page is wider than the canon's own make-ready horizon, and the widening is a proposal.
+**Open:** The Becoming side shows honour and a score for a person; nothing states what of it any other person may see, or how that is consented to. · The look-ahead window on this page is wider than the standard make-ready horizon, and the widening is a proposal.

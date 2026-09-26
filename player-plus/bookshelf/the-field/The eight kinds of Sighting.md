@@ -18,5 +18,4 @@ The set is deliberately open at the edges and closed in the middle: a Cell may f
 **Stands on:** [[Sighting]] · [[Every Defect Is A Gift]] · [[Zero Blame Environment]]
 **Opens onto:** [[Witness]] · [[Pain (as signal)]] · [[Issue]] · [[Requests and offers]] · [[Proposal]] · [[The Game Interface]] · [[The event kinds]]
 **In play:** table · Home · Room — handed in from wherever it was met
-**Sources:** *The Game Interface — The Names of Its Parts* (term page) · *The Bug Report — Every Defect Is a Gift, as a Sighting* (Projects, process v0) · The DNA of Heaven, Part XII
 **Open:** The set marks itself open on its own page: whether *gift* is the right word for a defect handed in, and whether the eight are the right eight, is undecided. · Whether a sighting given by a stranger with no name on [[The Roll]] is accepted, and how it is thanked, is also open.

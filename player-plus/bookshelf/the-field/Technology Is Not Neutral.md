@@ -22,5 +22,4 @@ The test is not whether a technology is new or old, digital or handmade. It is w
 **Stands on:** [[Technology]] · [[Discernment]] · [[Values]] · [[Consciousness]] · [[Pillar VIII — Sacred Science and Technology]]
 **Opens onto:** [[Technology Sovereignty]] · [[Artificial Intelligence]] · [[The forging criterion]] · [[One tool, every scale]] · [[Weaponry To Livingry]] · [[Surveillance]] · [[Manufactured Dependency]] · [[Off switch]] · [[Notebook form]] · [[Screens and paper]] · [[Ephemeralization]] · [[Design]] · [[Innovation]] · [[Capability]]
 **In play:** table — before anything is adopted
-**Sources:** `LIØNSBERG Wiki Books/The 12 Pillars of LIØNSBERG/Pillar VIII — Sacred Science and Technology.md`, Thesis 5 (ore — one line; Theses 2, 6 and 7 carry the adjacent claims) · `The LIØNSBERG Constitution`, Article IX.8
 **Open:** The canon states the thesis in a sentence and gives no test; the discernment it requires has no instrument, and the field's [[Technology]] row carries none either. · The Constitution builds a legal consequence on this claim and is itself an unapproved skeleton, so the strongest downstream use of the thesis rests on the weakest source.

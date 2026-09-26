@@ -20,5 +20,4 @@ The seven are held as the current best articulation rather than as a closed set 
 **Stands on:** [[The Way]] · [[Spirit Precedes Pattern]] · [[Ontology]] · [[The LIØNSBERG Pattern Language]]
 **Opens onto:** [[The Embodied Form Teaches]] · [[Shoshin]] · [[OmniSpection]] · [[Ideological Capture]] · [[Pass The Flame]] · [[Types Of Knowing]] · [[Continuous Improvement]] · [[Lineage]]
 **In play:** beyond
-**Sources:** *The Architecture Of A Way* (drafted Pattern Card) · *The Embodied Form Teaches* (drafted Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: The Architecture Of A Way
-**Open:** The list carries *The Embodied Form Teaches* as an also-called; the two are separate drafted Cards making different claims, and the canon does not fold them.
+**Open:** The list carries *The Embodied Form Teaches* as an also-called; the two are separate drafted Cards making different claims, and they are not folded together.

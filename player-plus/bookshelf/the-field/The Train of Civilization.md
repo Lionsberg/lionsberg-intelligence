@@ -20,5 +20,4 @@ It is load-bearing because it is the shortest telling of the whole Story, and it
 **Stands on:** [[The Story of LIØNSBERG]] · [[Metaphor]] · [[Collapse]]
 **Opens onto:** [[The Chasm]] · [[The Caves]] · [[The Wilderness]] · [[EuCatastrophe]] · [[Involuntarily Left Behind]] · [[The Way Out]] · [[The Promised Land]] · [[Mass Wilderness]] · [[Storytelling]]
 **In play:** the door — the Story in one sentence
-**Sources:** `Archive/Archive — Ore Mined Before Deletion.md`, the one-page Story (the ore notes that the Telling does not yet carry the image) · lionsberg.wiki: The Caves
 **Open:** The image exists only as ore mined from a deleted page; the Story as currently told does not use it, and nothing has decided whether it should.

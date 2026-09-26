@@ -22,5 +22,4 @@ Like its twin, it names a facing and not a person: whoever depends on one promis
 **Stands on:** [[Commitment]] · [[Committor]] · [[Conditions of satisfaction]]
 **Opens onto:** [[The Life of a Commitment]] · [[The states of a commitment]] · [[Networks of Commitments]] · [[Witness]] · [[Trust]] · [[Zero Blame Environment]] · [[Meta Game]]
 **In play:** the table — whoever's own plan leans on someone else's *I will*
-**Sources:** `Projects/the term pages/Committee.md` · `Making And Securing Commitments` (wiki root; the eighth element, quoted there in full) · `Meta Game` (wiki root — the pair at the scale of a package of work) · lionsberg.wiki: Making And Securing Commitments
-**Open:** The word collides squarely with everyday English and has to be glossed at every use; the canon carries a *standing committee* as a title with nothing written behind it, so the live collision is with ordinary speech rather than with another defined sense.
+**Open:** The word collides squarely with everyday English and has to be glossed at every use; a *standing committee* is carried as a title with nothing written behind it, so the live collision is with ordinary speech rather than with another defined sense.

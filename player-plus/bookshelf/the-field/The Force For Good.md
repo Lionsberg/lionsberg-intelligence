@@ -20,5 +20,4 @@ Its posture toward those who turn is restorative. Anyone who sees the pattern an
 **Stands on:** [[The Movement]] · [[Guardianship]] · [[The Warrior's Vow]] · [[Integrity]]
 **Opens onto:** [[The Sacred War]] · [[The Three-Layered Adversary]] · [[Warrior]] · [[Withdrawal Of Consent]] · [[Tipping Point Strategy]] · [[The Wilderness]]
 **In play:** beyond
-**Sources:** `The Force For Good`, a Card of LIØNSBERG, Earth, and the Cosmos · The LIØNSBERG Pattern Language, The New World and Sacred Warrior · The LIØNSBERG Lexicon, The War · lionsberg.wiki: The Force For Good
 **Open:** The Card's dated phases — substantial by 2030, largely stood down by 2040 — are a captured projection, not an agreed plan.

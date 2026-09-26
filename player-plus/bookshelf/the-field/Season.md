@@ -20,5 +20,4 @@ At a kitchen table a season is a Quest, thirteen Turns, and one sheet. At a worl
 **Stands on:** [[The turnings]] · [[Rhythm]] · [[Cycle]] · [[Time]]
 **Opens onto:** [[Quest]] · [[The Season Sheet]] · [[OmniSpection]] · [[The Turn]] · [[The Circle's Scorecard]] · [[The Way Up]] · [[90 Day Sprint]] · [[The LIØNSBERG Calendar]]
 **In play:** table · Home · beyond
-**Sources:** `The Clock of the Game` (Little Book chapter, current best understanding) · `The Twelve Words` (word 5) · `The LIØNSBERG Lexicon`, Pillar XII term *Season* (canon-grade) · `The LIØNSBERG Operating System` §9 · `Season` · `The Seasons of the Great Game` (the almanac) · lionsberg.wiki: Season · The Seasons of the Great Game
 **Open:** The Little Book names four things done at a turning (count · tell · choose · fill the sheet); the Operating System names five, adding *re-pull the plan from the milestones* and saying *send its card* rather than *fill the Season Sheet*. The four-item form is the one at the table; the five-item form assumes a plan above it. · The term page draft at `Season` has not been reviewed or merged.

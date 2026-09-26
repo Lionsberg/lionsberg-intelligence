@@ -18,5 +18,4 @@ How it is used. Rewrite the bottom of the card at each [[The Turn]] and tick las
 **Stands on:** [[Quest]] · [[Commitment]] · [[Choose a Quest]]
 **Opens onto:** [[The Circle's Scorecard]] · [[The Record]] · [[The Turn]] · [[The Return]] · [[Do the Work]] · [[Kept as a share of made]]
 **In play:** table
-**Sources:** *The Questcard*, Little Book chapter (current best understanding) · *The LIØNSBERG Operating System* §10, Card 5 · the Player+ Modules lexicon, *Questcard* · lionsberg.wiki: **The Questcard**
 **Open:** The Operating System's Card 5 adds *who holds it*, which the paper card does not have a line for.

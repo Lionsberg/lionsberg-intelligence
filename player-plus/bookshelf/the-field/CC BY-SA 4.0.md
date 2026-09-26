@@ -20,5 +20,4 @@ The seed text and the shared writing of this body are offered under this licence
 **Stands on:** [[License]] · [[Knowledge as commons]] · [[Commons]]
 **Opens onto:** [[Attribution]] · [[MIT]] · [[Provenance]] · [[Constitutional Protection Of Purpose]] · [[The asset lock]]
 **In play:** Room · beyond
-**Sources:** the Player+ Modules' Lexicon and *Gratitude, Lineage and Licensing* · The DNA of Heaven, licence line · lionsberg.wiki: *The Little Book of the Great Game*
-**Open:** the canon as a whole has no single stated licence; the Little Book states one for itself, and the seed text follows it. What licence covers the wiki's older pages has not been settled.
+**Open:** no single licence covers everything; the Little Book states one for itself, and the seed text follows it. What licence covers the rest has not been settled.

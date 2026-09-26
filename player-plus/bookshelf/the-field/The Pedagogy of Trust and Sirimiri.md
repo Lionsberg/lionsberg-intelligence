@@ -22,5 +22,4 @@ The cost is patience. What it buys is people who can safely be trusted to found 
 **Stands on:** [[Education As Transformation]] · [[Mondragon]] · [[Wise Eldership]] · [[The pace of trust]]
 **Opens onto:** [[Apprenticeship]] · [[Cohort-Learning]] · [[The Three-Year Formation]] · [[The LIØNSBERG Educational Model]] · [[The ReMembering Stance]] · [[Soak]] · [[The Zone Of Optimum Development]] · [[Learning By Doing]]
 **In play:** the table — how anyone here is actually formed, and the pace a guide keeps
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Pedagogy of Trust and Sirimiri.md`
 **Open:** The method is slow by design, which makes it hard to reconcile with a plan that speaks of a narrow window; nothing addresses the tension. · Trusting a learner before evidence is stated as a posture with no account of what happens when the trust is misplaced.

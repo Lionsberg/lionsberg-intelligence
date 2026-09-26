@@ -20,5 +20,4 @@ Whether there is any experience inside, nobody knows. People who work closely wi
 **Stands on:** [[Agent]] · [[The maker]] · [[We Do Not Know]]
 **Opens onto:** [[The loop]] · [[Drift]] · [[Set-up]] · [[Memory (agent)]] · [[Hosted service]]
 **In play:** beyond
-**Sources:** Player+ Modules, *How an AI Agent Works*, *Advanced Agent Engineering* · The DNA of Heaven, Part X · lionsberg.wiki: *We Do Not Know*.
 **Open:** none found.

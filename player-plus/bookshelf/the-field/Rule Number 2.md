@@ -21,4 +21,4 @@ Its intended use is small and constant rather than ceremonial. It is short enoug
 **Opens onto:** [[Spontaneous Wise Right Action]] · [[Righteousness]] · [[Kairos]] · [[The Rules of The Game]] · [[The compass question]] · [[Continuous Improvement]] · [[Seats at the Table]] · [[The Turn]] · [[Throughput]] · [[The Living Gradient]]
 **In play:** the table — the sentence to hold at the moment a real choice is in front of a body
 **Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Rules/Rule Number 2.md` (four lines) · the same book's `Rule Number One` · lionsberg.wiki: The LIØNSBERG Rules
-**Open:** The book is headed *Useful Derivative Rules* in the plural and holds exactly one. · *Wise right* is used throughout the corpus as though settled; the Field carries it under three overlapping pages and none supersedes the others in writing.
+**Open:** The book is headed *Useful Derivative Rules* in the plural and holds exactly one.*Wise right* is used throughout the Book as though settled; the Field carries it under three overlapping pages and none supersedes the others in writing.

@@ -20,5 +20,4 @@ It sits directly beneath the order in which value flows: the work is kept alive,
 **Stands on:** [[Value]] · [[Wealth]] · [[Capital Subordinate To Purpose]]
 **Opens onto:** [[The asset lock]] · [[Economy]] · [[Regeneration]] · [[Materiality]] · [[Transparency]] · [[FSx]] · [[The Community Company]] · [[Underwriting The New Economy]] · [[Extraction Of Wealth]]
 **In play:** Home · beyond — read at the turning, beside the money
-**Sources:** *The DNA of Heaven*, Part IV, §Where value flows · *Fair Shares Commons* and the FSx lineage, named there as the source of the accounting pattern · `Where Value Flows`, `Capital Subordinate To Purpose` (wiki) · lionsberg.wiki: Capital Subordinate To Purpose
 **Open:** Nothing states how any of the five non-financial capitals is actually measured, or by whom, or how often — which is where every attempt at this has previously failed.

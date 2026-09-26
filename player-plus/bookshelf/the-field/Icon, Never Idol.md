@@ -22,5 +22,4 @@ The canon then applies it to itself: this body is not the Way, only an instantia
 **Stands on:** [[Word Tools]] · [[The Ineffable]] · [[Instantiation]] · [[Gnosis]]
 **Opens onto:** [[Idolatry (of the word and of the doctrine)]] · [[Do Not Concretize the Absolute]] · [[Current Best Articulation]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Limit Statement]] · [[Prototype]] · [[Truth To ØNE, Errors To Us]] · [[Essences, Renderings, And Ineffable Referents]]
 **In play:** the Workshop — held over everything this body writes, including this page
-**Sources:** `LIØNSBERG Wiki Books/Martial Arts Guide/1.11 Non-Propositional Knowing` · `The Sacred Warrior Guidebook — Prolegomenon`, §How The Way Is Known · lionsberg.wiki: Rediscovering The Way - A Guide For The Warrior Spirit
 **Open:** The degree of faithfulness is offered as a measure and no way of assessing it is given — nothing says how two renderings would be compared, or by whom. · The canon's related pages treat icon and idol as a binary; the gradient is this chapter's addition and is not carried anywhere else.

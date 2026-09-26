@@ -22,5 +22,4 @@ Its failure mode is the obvious one and should be held with it. *Who* can become
 **Stands on:** [[Capacity]] · [[The First Three Percent]] · [[Commitment]]
 **Opens onto:** [[The Calling of the Ecclesia]] · [[The LIØNSBERG Academy]] · [[Metaphysical Infrastructure]] · [[The First Few]] · [[Choose a Quest]] · [[Pass The Flame]] · [[Sponsorship]] · [[Servant Leadership]]
 **In play:** the table — the first question asked of any new piece of work
-**Sources:** `LIØNSBERG Wiki Books/The Great UnVeiling/The Great UnVeiling.md`, ch. 60 (outline — one paragraph)
-**Open:** One paragraph; nothing addresses how a body answers *who* when the answer is nobody yet. · The phrase is in common use elsewhere in a narrower business sense; the corpus does not distinguish its use from that one.
+**Open:** One paragraph; nothing addresses how a body answers *who* when the answer is nobody yet. · The phrase is in common use elsewhere in a narrower business sense; no distinction is drawn here between that use and this one.

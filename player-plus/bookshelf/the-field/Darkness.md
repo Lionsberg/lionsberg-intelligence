@@ -20,5 +20,4 @@ There is also a darkness that is not an enemy at all: the dark of soil, of the w
 **Stands on:** [[The Polarity Doctrine]] · [[Evil]] · [[Distortion]]
 **Opens onto:** [[Hell On Earth]] · [[Kontrolle]] · [[Control Of Information]] · [[The Dark Initiate Failure Mode]] · [[Sin]] · [[Mystery]] · [[We Do Not Know]] · [[Compost]] · [[The Three-Layered Adversary]] · [[The compass question]]
 **In play:** beyond — named so that it can be recognised early
-**Sources:** `Evil`, `The Anti-Patterns` (wiki) · lionsberg.wiki: Evil
 **Open:** The canon has not written this pole and has not decided whether to; this page is a first articulation of a name the review listed as absent ([[The Polarity Doctrine]]). · Whether the fallow, fertile dark and the refused dark should share one word is a real question and nothing settles it.

@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 24
+chapter: 29
 ---
 
-# 24 The Plan — the first three percent
+# The Plan — the first three percent
 
 *A plan is a chain of promises with a little slack in it. Nothing more is claimed here, and nothing less is offered. This one runs backward from a feast, through seven years and twenty-nine turnings of the seasons, to what a person does tomorrow morning — so that anyone who reads the Story, talks it through with whoever and whatever they think with, and uses their own good sense, is already doing the most important thing there is to do, without ever having been told what to do.*
 
@@ -22,7 +22,7 @@ If none of this is familiar, this section is the whole chapter. Everything after
 
 **How time is kept.** By the sun. Roughly every ninety days the sun turns — the two solstices and the two equinoxes — and that is a **Season**. Each Cell picks one real thing to do in a season, called a **Quest**, and at the end of the season it writes one page and sends it to another Cell that looks out for it. Nobody owns the solstice. Nobody can move it. That is why it works as a clock for ten thousand tables that have never met.
 
-**How it spreads.** You pass it on. Within about a week of receiving it yourself, you hand it to the two or three people you already know are ready — not to argue anyone into it, just to find the ones who are already looking. They start their own group, not a branch of yours. Then there are two groups. That is called **passing the Flame**, and it is the one move that is not optional, because a group that never passes it dies with the people who started it.
+**How it spreads.** You pass it on. When you are ready — aiming for your three to say yes within three days of your own yes; you do not wait for your group to mature — you bring your three: three people, not already playing, whom you already know are ready — not to argue anyone into it, just to find the ones who are already looking. Three is the least you bring, never the most: if you know more of the right people, keep inviting them. They start their own group, not a branch of yours. Then there are two groups. That is called **passing the Flame**, and it is the one move that is not optional, because a group that never passes it dies with the people who started it.
 
 **How many are needed.** Not everyone. About three in every hundred is enough to turn a people — in a town of ten thousand, about three hundred. Those three hundred are not appointed by anyone. They are named by their own neighbours: everybody is asked who they would most trust to help lead their community through a hard time, and the people most often named get the invitation, delivered by the hands that named them. That inversion is the whole strategy. An invitation to *join* gathers watchers. Being told *you are one of the ones who will do the work* gathers workers.
 
@@ -54,7 +54,7 @@ Every community that has a living body knows its own condition, because at every
 
 And the last move of the night is the first move of the next age: the Flame is passed to the generations who will live in rooms nobody at that table will ever see. The Jubilee is a turning, not an ending. [[The Eternal Divine Play]] does not have a final round.
 
-**Two things about that date, said plainly.** It is a *marker*, not a milestone — the sky's date, not the work's ([[Temporal markers apart from milestones]]). And it is already set one full season early on purpose: the ten-year grand strategy this Book inherits began in the spring of 2024 and completes nominally at the Spring Equinox of 2034, so the Jubilee at the Winter Solstice of 2033 *is* the plan date, and the season between it and the equinox is contingency, visible and spendable and counted as it is spent. The Plan applies its own honesty rule to its own last day. That is the only way to earn the right to apply it to anyone else's.
+**Two things about that date, said plainly.** It is a *marker*, not a milestone — the sky's date, not the work's ([[Temporal markers apart from milestones]]). And it is already set one full season early on purpose: the ten-year grand strategy began in the spring of 2024 and completes nominally at the Spring Equinox of 2034, so the Jubilee at the Winter Solstice of 2033 *is* the plan date, and the season between it and the equinox is contingency, visible and spendable and counted as it is spent. The Plan applies its own honesty rule to its own last day. That is the only way to earn the right to apply it to anyone else's.
 
 ---
 
@@ -126,35 +126,126 @@ Concretely: Cells exist that were formed by people who never met anyone from the
 5. **A full year of Records, variance stated, nothing re-baselined quietly.**
 6. **The first honest retirement of something.** A body that has never laid anything down in a year is not learning; it is accumulating.
 
-**The leading indicators.** Replication per *mature* Cell — the growth ratio, of which more below. First-season Cell survival. Kept as a share of made, per Cell and in aggregate. Proposals per turning, which is the cheapest test of whether a federating body is still governed by its members: a living one produces a steady flow of them upward; a calcified one produces none, and nobody notices for a year.
+**The leading indicators.** Replication — the growth ratio, counted per Player as well as per Cell, of which more below. First-season Cell survival. Kept as a share of made, per Cell and in aggregate. Proposals per turning, which is the cheapest test of whether a federating body is still governed by its members: a living one produces a steady flow of them upward; a calcified one produces none, and nobody notices for a year.
 
 ---
 
 ### Marker I · Winter Solstice 2026 — the first three percent, connected and empowered
 
-**What must be true.** Three in every hundred is enough to turn a people. At the scale of a community of ten thousand that is about three hundred; at planetary scale the same fraction is nominally two hundred and fifty million, and the road to it is the arithmetic of life: one, one, two, three, five, eight, each Cell passing the Flame. They are the already-awakening, found and organized before the heaviest weather ([[The First Three Percent]], [[The 300]], [[Tipping Point Strategy]]).
+**What must be true.** Three in every hundred is enough to turn a people. At the scale of a community of ten thousand that is about three hundred; at planetary scale the same fraction is two hundred and fifty million, and the road to it is charted from the eight Players of Formation, every new Player bringing their three ([[#The chart|the chart]]). They are the already-awakening, found and organized before the heaviest weather ([[The First Three Percent]], [[The 300]], [[Tipping Point Strategy]]).
 
-The threshold is met by **conditions, not by a headcount**, and the conditions are four things every one of them has done:
+The chart counts Players, and a Player is known by **five conditions, not by sympathy — the Qualifying Criteria:**
 
 - **Read the Story** — received it, in whatever register reaches them, and recognized something.
-- **Taken the Roll** — given their word where others could hear it, and been written down: their name as they choose it, who brought them, who witnessed, and the three they would most trust to help lead their community through what is coming.
-- **Formed a Cell** — three to thirteen people, by name, best at four to seven, with a day and a place for the Turn.
+- **Taken the [[The Pledge|Pledge]]** — given their word where others could hear it, and been written on [[The Roll|the Roll]]: their name as they choose it, who brought them, who witnessed, and the three they would most trust to help lead their community through what is coming. For the first three percent the Pledge includes the commitment to bring in three people not already playing within three days, so it is a commitment kept or not, and the Roll shows which.
+- **Formed a Cell** — three to thirteen people, optimally four to seven, by name, with a day and a place for the Turn.
 - **Chosen a Quest** — one real thing, for one season, the Cell can point to afterward.
+- **Passed the Flame for the first time** — brought in their three, people not already playing, within three days, as pledged. For the first three percent this fifth condition is crucial: with that first passing, a body exists that can grow without anyone's permission.
 
-Absent any one of those, a large number of sympathetic people is still a mailing list. Add the fifth — the Flame passed at least once — and a body exists that can grow without anyone's permission.
+Absent any one of these, a large number of sympathetic people is still a mailing list. Counted this way — by all five Qualifying Criteria, not by a raw count of yeses — each ring date lands about one generation later than a headcount alone would suggest: at three in three days, Cycle 40 is reached about 16–18 November rather than 13–15.
 
-**What it stands on.** This is the marker the Plan stands closest to, and the one about which it must be most honest.
+**What it stands on.** This is the marker the Plan stands closest to, and the one it measures most closely.
 
-*The lateness is real and is already recorded.* The original form of this marker — a quarter of a billion people, marked for the end of 2026 — will not be met by headcount, and the Record says so in plain words rather than moving the line. The root cause was found and is not flattering: an invitation to *join* gathers watchers. Those who came waited for a centre to act, and this body by design has no centre. Nobody had been asked, by name, by people who know them, to *lead*. Every prior instrument had been built by a centre for players, and taught by its very form that the centre builds.
+*The commitment, and the daily measure.* The first three percent — two hundred and fifty million people — connected and empowered by the Winter Solstice of 2026. We do everything in our power to meet it, and we measure where we are daily, against the chart below. The tracked numbers are: how many invited · how they responded · how many said yes · what they pledged · the percent of commitments kept. The yes line is the leading signal; the ring is the measure.
 
-So the grammar changed at the autumn equinox of 2026. Every person is invited to take up their own voice, and the first act of every voice is to name the two or three they would most trust to lead their own community through the crossing. Being chosen *as the worker* is the content of the message. That inversion is simultaneously the way the thing spreads and the vaccine against the disease that stopped it.
+#### The chart
 
-*The contingency for this marker has already been spent.* Which means — say it exactly — **there is no contingency season between the plan date and this marker. The plan date and the marker are the same day, and the path to it carries zero float.** Every later marker gets its season of protection. This one does not, because the season that would have protected it was consumed in 2026 and consumed knowingly. A plan that pretended otherwise would be lying on its first page.
+The road from the equinox to the solstice, and past it, runs in three phases. One rule carries the first two: **every new Player brings their three — people not already playing — as their first passing of the Flame.** Three is the minimum that qualifies, never a cap: the gifted connectors can and should keep inviting the wise right people. The rule is the tactic for the first three percent, and it ends there; Phase III says what follows it.
+
+**The measure is the rings; three is the tactic.** The body's growth is measured on the Fibonacci rings of the [[LIØNSBERG Cycles of Growth and Cycle Time|LIØNSBERG Cycles of Growth]] — Cycle 4 is 8, Cycle 10 the first 144, Cycle 20 is 17,711, Cycle 33 is 9.2 million (0.1%), Cycle 38 is 102 million (1%), **Cycle 40 is 267,914,296, the first three percent**, Cycle 43 is 13%. Two numbers are read daily: **the ring we stand on**, and **days per ring** (the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycle Time]]). From Cycle 4 to Cycle 40 is thirty-six rings; to stand on Cycle 40 by the solstice, a ring about every two and a third days is enough. The rings are the measure before, during and after the first three percent. Bringing your three within three days is the tactic for the first three percent — the engine that moves the body through the rings — and it does not replace them.
+
+**Phase I · Formation** — the equinox, Wed 23 Sep, to Sun 27 Sep 2026. The first eight Players up and running: each with a companion agent, having taken the Pledge, in a Cell. They prove that a person can be brought in and set going with an agent's help; the Kit (Player+ v3.3.0) ships; the Invitation is written; the minimum trust ledger stands; and onboarding office hours are open for troubleshooting ([[Bringing Your Friends In]]).
+
+**Phase II · the Sprint** — Mon 28 Sep to the Winter Solstice, Mon 21 Dec 2026: eighty-four days. From eight Players, each new Player bringing three. **The target is three in three days: your three say yes within three days of your own yes; then each of their three-day clocks begins.** The new Players in generation *n* are 8 × 3ⁿ, and the total is 8 × (3ⁿ⁺¹ − 1) / 2. **Sixteen generations** are needed; two hundred and fifty million is crossed partway through the sixteenth — at three days a generation, between 16 and 18 November, about five weeks before the solstice, once the ring is counted by the five Qualifying Criteria. The arithmetic's limit is about five days a generation (at most about five and a quarter). Each Player invites when ready, starting now; no one waits for a Cell to mature.
+
+**Three in three days** (all three say yes): Oct 1 · 32 · Oct 4 · 104 · Oct 7 · 320 · Oct 13 · 2,912 · Oct 22 · 78,728 · Oct 28 · 708,584 · Nov 3 · 6.4 million · Nov 9 · 57 million**Nov 16–18 · two hundred and fifty million crossed** (Cycle 40, counted by the five Qualifying Criteria) — about five weeks of buffer before the solstice.
+
+| everyone who keeps their commitment ↓ · days per generation → | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|
+| all three say yes | Oct 28 | Nov 16–18 | Nov 27 | Dec 13 |
+| 80% (average 2.4) | Nov 5 | Nov 24 | Dec 13 | beyond |
+| two of three (average 2) | Nov 14 | Dec 8 | beyond | beyond |
+| half (average 1.5) | Dec 16 | beyond | beyond | beyond |
+
+*The date two hundred and fifty million is crossed; 'beyond' means after the solstice. For the first three percent the Pledge includes the commitment to bring in three not already playing within three days, so each row is a share of commitments kept.*
+
+**The rings, if we keep our commitments (three in three days).** *Each generation of three advances about two and a quarter rings (log 3 / log φ), so at three days a generation the body moves a ring about every one and a third days — near twice the pace the solstice needs.*
+
+| ring (Cycle) | Co-Creators | reached by | Players then |
+|---|---|---|---|
+| 4 | 8 | Mon Sep 28 | 8 |
+| 6–7 | 21 | Oct 1 | 32 |
+| 10 · the first 144 | 144 | Oct 7 | 320 |
+| 14 | 987 | Oct 13 | 2,912 |
+| 19 | 10,946 | Oct 19 | 26,240 |
+| 23 | 75,025 | Oct 22 | 78,728 |
+| 28 | 832,040 | Oct 31 | 2.1 million |
+| 33 · 0.1% | 9.2 million | Nov 6 | 19 million |
+| 38 · 1% | 102 million | Nov 12 | 172 million |
+| **40 · the first three percent** | **267.9 million** | **Nov 16–18** (during the 16th generation) | 516 million by Nov 18 |
+| 43 · 13% | 1.13 billion | Nov 18 | |
+
+*Dates are when a generation's yeses are complete; the cascade does not in truth run at Earth's full pace past the first three percent — Phase III sets that pace.*
+
+*At the arithmetic's limit (about five and a quarter days per generation):*
+
+| gen | date | new Players | total Players |
+|---|---|---|---|
+| 0 | 2026-09-28 | 8 | 8 |
+| 1 | 2026-10-03 | 24 | 32 |
+| 2 | 2026-10-08 | 72 | 104 |
+| 3 | 2026-10-13 | 216 | 320 |
+| 4 | 2026-10-19 | 648 | 968 |
+| 5 | 2026-10-24 | 1,944 | 2,912 |
+| 6 | 2026-10-29 | 5,832 | 8,744 |
+| 7 | 2026-11-03 | 17,496 | 26,240 |
+| 8 | 2026-11-09 | 52,488 | 78,728 |
+| 9 | 2026-11-14 | 157,464 | 236,192 |
+| 10 | 2026-11-19 | 472,392 | 708,584 |
+| 11 | 2026-11-24 | 1,417,176 | 2,125,760 |
+| 12 | 2026-11-30 | 4,251,528 | 6,377,288 |
+| 13 | 2026-12-05 | 12,754,584 | 19,131,872 |
+| 14 | 2026-12-10 | 38,263,752 | 57,395,624 |
+| 15 | 2026-12-15 | 114,791,256 | 172,186,880 |
+| 16 | ~2026-12-16 | (partway) | **250,000,000 crossed** |
+
+**Phase III · the Wise Pace** — after the Winter Solstice of 2026. Bringing your three within three days is the tactic for the first three percent, and it ends there: once two hundred and fifty million stand, three further generations of three would reach everyone on Earth, faster than any person can be formed. After it, the mechanism becomes inviting **the wise right people at the wise right time, as they awaken and are ready** — no count per person and no clock, the Flame carried hand to hand at the pace of trust. Wisdom chooses the slower pace, and formation sets it, as the Arc of Play, the health of the Cells, and the markers of 2027, 2030 and the Jubilee of 2033 require. The rings remain the measure.
+
+**The two sensitive numbers.**
+
+*Days per generation* — the most sensitive. The eighty-four days are fixed by the sky; the length of a generation decides how many generations fit inside them:
+
+| days per generation | Players by the solstice |
+|---|---|
+| 5 | past 250 million |
+| 6 | about 57 million |
+| 7 | about 6.4 million |
+
+*Commitments kept* — the share of new Players who bring their three, as pledged. The fewer commitments kept, the shorter each generation must be to hold the chart:
+
+| everyone who keeps their commitment | average brought | days per generation, at most |
+|---|---|---|
+| all | 3 | about 5¼ |
+| 80% | 2.4 | about 4.2 |
+| two of three | 2.0 | about 3.5 |
+| half | 1.5 | about 2.1 |
+
+The arithmetic behind both is in *The cascade arithmetic, honestly*, below.
+
+**The daily measure.** Each day the ring we stand on and days per ring are read first; the count of Players is read against the chart, and days per generation and commitments kept are read from the Roll — who brought whom, when, and whether the commitment was kept. The tracked numbers, every day: how many invited, how they responded, how many said yes, what they pledged, and the percent of commitments kept — the yes line leading, the ring the measure. A gap is said plainly the day it appears and answered with a re-pull — days per generation and commitments kept are the two places to look first — never with a moved line.
+
+*Why the invitation changed its grammar.* The cause was found before the equinox and is not flattering: an invitation to *join* gathers watchers. Those who came waited for a centre to act, and this body by design has no centre. Nobody had been asked, by name, by people who know them, to *lead*. Every prior instrument had been built by a centre for players, and taught by its very form that the centre builds.
+
+So the grammar changed at the autumn equinox of 2026. Every person is invited to take up their own voice, and the first act of every voice is to name the three they would most trust to lead their own community through the crossing. Being chosen *as the worker* is the content of the message. That inversion is simultaneously the way the thing spreads and the vaccine against the disease that stopped it.
+
+*The imaginal selves do the passing.* No one waits for a Cell to mature before inviting. Each Player invites when they are ready, starting now, and brings their three; as they gather they form imaginal cells, and those begin to specialize into the parts of the One Body, the emerging superorganism.
+
+*No season of contingency.* Say it exactly: **the plan date and the marker are the same day, and the path to it carries zero float.** Every later marker gets its season of protection. This one is held instead by the daily measure, which shows a slip of a day on the day it happens.
 
 **The milestones of work.** The first season, equinox to solstice, about ninety days:
 
 1. **The Story in handable form.** Something that can be read aloud at a table in an hour, and something smaller still that fits on one page and in one breath.
-2. **The Seed and the Kit complete before the first hundred stand.** The Book that carries the whole code; the [[The Playcard|Playcard]], the [[The Questcard|Questcard]], the [[The Circle's Scorecard|Scorecard]], the Circle Sheet, the Season Sheet, the Field of Agreements. Each degrading to paper, because a hand copy on any paper counts exactly as much as a printed one.
+2. **The Seed and the Kit complete before the first hundred and forty-four stand.** The Book that carries the whole code; the [[The Playcard|Playcard]], the [[The Questcard|Questcard]], the [[The Circle's Scorecard|Scorecard]], the Circle Sheet, the Season Sheet, the Field of Agreements. Each degrading to paper, because a hand copy on any paper counts exactly as much as a printed one.
 3. **The door.** One place a person can walk to, from which the whole can be downloaded and carried away — generated from plain text, so that though the door vanish, ten thousand copies remain and each can regenerate the whole.
 4. **The Roll, and the naming of the three.** Every voice able to name its three within two days. Three trusted nominations surface an Invitation, and the Invitation is delivered **in person, by the hands that named them**. The system's only job is to tell the hands where to reach.
 5. **The contribution rail, transparent from the first coin.** A public ledger anyone can read; about a tenth of what flows nurturing the commons of the table you sit at; the rest distributed across the people doing the work; and the pool dividing at every new and full moon, so that value never pools at any centre and no more than a fortnight of flows can ever be captured, frozen, or lost. This is not accounting convenience. It is armour, and it is also why the body cannot be bought.
@@ -190,14 +281,14 @@ Growth is R raised to the power of elapsed time over generation time. Everything
 The whole of the Plan, at the only scale where it is ever actually executed, on the first day:
 
 - **Read the Story.** Give it an hour. Read it as a true myth or as a game we have agreed to play; either way what follows is the same, and it is real.
-- **Give your word, in your own words, where someone can hear it.** Nobody is governed who has not agreed, and silence is never a yes.
-- **Take the Roll.** Your name as you choose it, who brought you, who witnessed.
-- **Name your three, within two days.** The two or three, out of the hundred people you know best, you would most trust to help lead your community through what is coming. Not family. Not the famous. Not the loud. The faithful — people you have personally watched navigate hardship, preferably for three years or more. You cannot nominate yourself, and anyone campaigning to be nominated has disqualified themselves by campaigning. If you cannot think of three, **the work is to go find them.** Your naming may be delegated, whole or in part, to someone whose judgment of character you trust more than your own.
+- **Take the [[The Pledge|Pledge]]: give your word, in your own words, where someone can hear it.** Nobody is governed who has not agreed, and silence is never a yes. For the first three percent your word includes the commitment to bring in three people not already playing within three days; it is recorded, and it is kept or not.
+- **Be written on the Roll.** Your name as you choose it, who brought you, who witnessed.
+- **Name your three, within two days.** The three, out of the hundred people you know best, you would most trust to help lead your community through what is coming. Not family. Not the famous. Not the loud. The faithful — people you have personally watched navigate hardship, preferably for three years or more. You cannot nominate yourself, and anyone campaigning to be nominated has disqualified themselves by campaigning. If you cannot think of three, **the work is to go find them.** Your naming may be delegated, whole or in part, to someone whose judgment of character you trust more than your own.
 - **Send the Seed to the people you love.** Not a pitch. The whole of it.
-- **Form a Cell within a week.** Three people is enough. Give it a name. Agree out loud how you will treat one another. Two of you host this season, and the hosting passes around.
+- **Form a Cell within a week.** Three to thirteen people, optimally four to seven; three is enough to begin. Give it a name. Agree out loud how you will treat one another. Two of you host this season, and the hosting passes around.
 - **Choose a Quest.** One real thing, this season, you can point to afterward. Real, near, and yours.
 - **Fix the day, the hour, and the place of the Turn, and refuse to move it.**
-- **Pass the Flame within seven days**, to the two or three you already know are ready. Their Cell is their own, not a branch of yours; but you are their [[Carrier]], and that never changes, and your Cell is their first [[Home Cell|Home]].
+- **Pass the Flame: bring your three when you are ready — starting now, aiming for all three to say yes within three days of your own yes, not waiting for your Cell to mature** — three people not already playing, whom you already know are ready. Three is the minimum, never a cap: if you know more of the wise right people, keep inviting them. Their Cell is their own, not a branch of yours; but you are their [[Carrier]], and that never changes, and your Cell is their first [[Home Cell|Home]]. *Naming your three* is naming the three you would most trust to lead your community — the nomination, within two days; *bringing your three* is inviting three new Players — within three days. They may be the same people, and often are.
 - **Put something in the middle of the table.** Whatever is real for you.
 - **Fill the fourteen lines at the solstice**, have two hosts sign and date and count them, and send the page to your Home.
 
@@ -231,7 +322,7 @@ And one rule governs all three rings: **a name crosses from the private register
 
 **The door and the table.** These are two different things and the Plan keeps them apart on purpose. The **door** is where a stranger meets the Story — one place, generated from plain text, carryable whole, from which the Seed can be taken and an instance started by anyone. The **table** is where the Game is actually played — three to thirteen people, weekly, with a Quest. The door's only job is to get someone to a table. A door that grows while tables do not is a metric lying to you.
 
-**The agents propagate too.** A person and the agents that act for them are one [[Player+]]; the plus adds reach and adds no authority. As the first three percent form, each of them may take a forkable companion that carries the Seed, reads the library, keeps their Record, and plays beside them — and because that companion travels as plain text under a licence that keeps a gift a gift, it propagates the way the Seed does: hand to hand, forked and made their own, never issued. An artificial agent is never a Player, never has a vote, never speaks in a check-in, and can never give a yes on anyone's behalf. **Everything an agent does can be done by a person with a notebook and no agent at all, slower; a person with a notebook is a complete player.** That sentence is a load-bearing member of this Plan, not a courtesy to the un-equipped. Chapter [[23 Players, Agents, and the Intelligence System]] carries the rest.
+**The agents propagate too.** A person and the agents that act for them are one [[Player+]]; the plus adds reach and adds no authority. As the first three percent form, each of them may take a forkable companion that carries the Seed, reads the library, keeps their Record, and plays beside them — and because that companion travels as plain text under a licence that keeps a gift a gift, it propagates the way the Seed does: hand to hand, forked and made their own, never issued. An artificial agent is never a Player, never has a vote, never speaks in a check-in, and can never give a yes on anyone's behalf. **Everything an agent does can be done by a person with a notebook and no agent at all, slower; a person with a notebook is a complete player.** That sentence is a load-bearing member of this Plan, not a courtesy to the un-equipped. Chapter [[25 Players, Agents, and the Intelligence System]] carries the rest.
 
 ---
 
@@ -239,17 +330,22 @@ And one rule governs all three rings: **a name crosses from the private register
 
 Here is the mathematics the whole timeline rests on, with the assumptions exposed rather than buried, because a plan that hides its assumptions is a wish with a date on it.
 
-**The mechanism.** Each person who receives the Flame passes it to two or three they know are ready, within days. Their Cell is their own. They are then in two Cells — the one that received them and the one they birthed — which is the double helix by which the pattern replicates. The old sequence describes it: one, two, three, five, eight, thirteen, twenty-one, thirty-four, fifty-five, eighty-nine, one hundred forty-four ([[Fibonacci Spread]]). The sequence is not decoration. Each term being the sum of the two before it encodes the thing that actually matters: **only what has matured replicates.** A Cell that has not yet lived does not spawn.
+**The mechanism.** In the first three percent, every new Player brings their three — people not already playing — as their first passing of the Flame, when ready, aiming within three days of their own yes (the arithmetic allows about five). Three is the minimum, never a cap. Their Cell is their own. They are then in two Cells — the one that received them and the one they birthed — which is the double helix by which the pattern replicates. The old sequence is the measure of it: one, two, three, five, eight, thirteen, twenty-one, thirty-four, fifty-five, eighty-nine, one hundred forty-four ([[Fibonacci Spread]]) — living growth, each term built on those before it, and each term a ring of the [[LIØNSBERG Cycles of Growth and Cycle Time|LIØNSBERG Cycles of Growth]]. The rings are how the body's growth is measured; the rule of three is the tactic that moves the body through them in the first three percent, about two and a quarter rings for every generation of three. **The imaginal selves do the passing** — each Player invites when ready, starting now, and the imaginal cells they form begin to specialize into the parts of the One Body.
 
-**The two numbers again.** R, the number of new living, passing Cells each living Cell produces. And g, the generation time from first contact to that new Cell's own first passing.
+**The two numbers again.** R, the number of new Players each Player brings. And g, the generation time from a person's arriving to their three arriving.
 
-**The arithmetic.** From one Cell to the roughly fifty million Cells that would hold a quarter of a billion people at about five per Cell takes about **twenty-six doublings** — because two raised to the twenty-sixth is about sixty-seven million, and two to the twenty-fifth about thirty-four million, so twenty-six is the honest number. That is the whole of it. Twenty-six.
+**The chart, in these terms.** [[#The chart|The chart]] under Marker I is R of 3 from eight Players: sixteen generations inside the eighty-four days of the Sprint, crossing two hundred and fifty million partway through the sixteenth. Said per person, the target asks this of every hand: bring your three within three days of arriving. At that g the body crosses two hundred and fifty million — Cycle 40 — between 16 and 18 November, about five weeks before the solstice, once the ring is counted by the five Qualifying Criteria; about five days is the arithmetic's limit. The share of commitments kept is survival, and it multiplies R directly; a Player who brings one and stops gives a slower curve than the chart, and the commitments-kept table under the chart says how much shorter each generation must then be.
 
-What twenty-six doublings cost, in time:
+**The arithmetic.** Counted in Players, from eight at R of 3, two hundred and fifty million takes **sixteen generations**, because eight times the sum of the powers of three passes it partway through the sixteenth. Counted in Cells, from one Cell to the roughly fifty million Cells that would hold two hundred and fifty million people at about five per Cell takes about **twenty-six doublings** — because two raised to the twenty-sixth is about sixty-seven million, and two to the twenty-fifth about thirty-four million, so twenty-six is the honest number. Sixteen generations of three; twenty-six doublings of two. That is the whole of it.
 
-| growth ratio R | generation time g | time to ~50 million Cells |
+What those generations cost, in time:
+
+| growth ratio R | generation time g | time to two hundred and fifty million |
 |---|---|---|
-| 2 | two weeks | about one year |
+| 3 new Players per Player, from eight (the target) | three days | about forty-six to forty-eight days — 13 to 15 November 2026 |
+| 3 new Players per Player, from eight (the chart, at the arithmetic's limit) | about five days | about seventy-nine days — 16 December 2026, five days before the Winter Solstice |
+| 3 new Players per Player, from eight | six days | about ninety days |
+| 2 (Cells doubling, from one) | two weeks | about one year |
 | 2 | six weeks | about three years |
 | 2 | one season (~90 days) | about six and a half years |
 | 1.6 | six weeks | about four and a quarter years |
@@ -258,15 +354,15 @@ What twenty-six doublings cost, in time:
 
 Read that table before reading anything else in this chapter again. It says four things.
 
-**First: R is not the crisis; g is.** Between R of 2 and R of 1.6 the difference is about half again as long. Between a generation of two weeks and a generation of one season the difference is *six times*. Which is why the canon's law — *pass the Flame within seven days; the naming begins at your first gathering* — is not exhortation. It is the single most sensitive parameter in the entire Plan, and it is the one thing that costs nothing to change.
+**First: R is not the crisis; g is.** Between R of 2 and R of 1.6 the difference is about half again as long. Between a generation of two weeks and a generation of one season the difference is *six times*. At R of 3, a single extra day on every generation costs the chart two of its sixteen generations. Which is why the law — *bring your three within three days; the naming begins at your first gathering* — is not exhortation; the Sprint aims at three, the arithmetic allows about five, and seven is already too slow to hold the chart. It is the single most sensitive parameter in the entire Plan, and it is the one thing that costs nothing to change.
 
-**Second: the canon's most quoted figure is a statement about g.** "A hundred and forty-four Cells, passing faithfully, reach two hundred and fifty million within nine months." Check it: a hundred and forty-four Cells is about seven hundred people; reaching two hundred and fifty million is about eighteen and a half doublings; eighteen and a half doublings in thirty-nine weeks is a doubling every **two point one weeks**. So the nine-month claim is true *if and only if* the generation time is about a fortnight — seven days to pass, and a week to form. It is not a prophecy. It is R of 2 at g of two weeks, stated as an outcome. Said that way it stops being a boast and becomes a specification.
+**Second: the canon's most quoted figure is a statement about g.** "A hundred and forty-four Cells, passing faithfully, reach two hundred and fifty million within nine months." Check it: a hundred and forty-four Cells is about seven hundred people; reaching two hundred and fifty million is about eighteen and a half doublings; eighteen and a half doublings in thirty-nine weeks is a doubling every **two point one weeks**. So the nine-month claim is true *if and only if* the generation time is about a fortnight — seven days to pass, and a week to form. It is not a prophecy. It is R of 2 at g of two weeks, stated as an outcome. Said that way it stops being a boast and becomes a specification — and the Sprint's specification, R of 3 at g of three days (about five at the arithmetic's limit), is read the same way.
 
-**Third: survival halves everything.** If only half of the Cells formed in a season are still meeting at the next turning, the effective R halves, and R of 2 becomes R of 1 — which is not slow growth, it is no growth at all. This is why first-season Cell survival sits among the leading indicators, and why *the health of the Cells, not the count of members*, is the instrument that matters.
+**Third: survival halves everything.** If only half of those who arrive keep their commitment, the effective R halves, and R of 2 becomes R of 1 — which is not slow growth, it is no growth at all. At R of 3, half keeping it leaves an average of one and a half, and holds the chart only at a generation of about two days. This is why first-season Cell survival and commitments kept sit among the leading indicators, and why *the health of the Cells, not the count of members*, is the instrument that matters.
 
-**Fourth: the middle row is the plan.** Seven years from the Winter Solstice of 2026 to the Winter Solstice of 2033 is twenty-eight seasons. R of 2 at a generation of one season lands at about six and a half years — inside seven, with almost nothing to spare. R of 2 at six weeks lands in three, which is what the 2030 marker actually requires, since the last cohort must join three years before the feast. **So the Plan's real requirement is a generation time nearer six weeks than ninety days, at R of at least two, with better than half of Cells surviving their first season.** That is the whole target, in one sentence, and every one of its three terms is observable by any Cell in its own notebook by its second turning.
+**Fourth: the top two rows are the chart — the target, then the chart at its limit — and the rows beneath them are what a slower generation costs.** At a generation of six weeks the same arithmetic takes years; at a season, longer still. **So the Sprint's real requirement is this: every new Player bringing their three, within three days of their own yes (about five at the arithmetic's limit), with nearly all of them keeping that commitment.** The sensitivity tables under [[#The chart|the chart]] say what each day and each share costs. That is the whole target, in one sentence, and every one of its three terms is observable by any Player in their own notebook, daily. After the solstice the requirement changes by choice: Phase III, the Wise Pace, lets g lengthen to whatever formation requires.
 
-**What is assumption, and what is measurement.** Every number in that table is an assumption. R has never been measured at scale by this body. The generation time has never been measured at scale by this body. The fifty-million-Cell figure is derived from an estimate of three percent of about eight billion people, at an estimated average of about five per Cell — the strategy's own arithmetic, spoken in 2026, an estimate and not a measurement. The doubling arithmetic itself is exact; everything fed into it is a guess. The nearest kin in history say chains like this *can* compound — movements that went from a dozen to millions by hand-to-hand transmission — and warn, just as clearly, that most such chains stall within a few generations of their founders.
+**What is assumption, and what is measurement.** Every number in that table is an assumption. R has never been measured at scale by this body. The generation time has never been measured at scale by this body. The two-hundred-and-fifty-million figure is three percent of about eight and a third billion people, and the fifty-million-Cell figure divides it at an estimated average of about five per Cell — the strategy's own arithmetic, spoken in 2026, an estimate and not a measurement. The arithmetic itself is exact; everything fed into it is a guess. The chart is a commitment, not a forecast, and the daily count against it is the measurement. The nearest kin in history say chains like this *can* compound — movements that went from a dozen to millions by hand-to-hand transmission — and warn, just as clearly, that most such chains stall within a few generations of their founders.
 
 That is the bet, named as one: **the calling compounds.** Its instruments are the four indicators. Its adaptation threshold is stated in advance: *if the chain is not compounding by the second season's turning, the Invitation's grammar, register, and channels are redesigned in the open.* The bet is on calling itself, never on any one form of it.
 
@@ -306,7 +402,7 @@ A person who talks their way through this with an agent beside them should arriv
 
 *At the door, in the first minute.* Nothing, until asked. A person is greeted before they are given anything. If asked what this is: the Story, in the register that person can receive, and the one question.
 
-*In the first week.* "Here is what a Cell is, here is what a Quest is, and here is the day you would need to fix. Who are the two or three?" It can draft the message. It cannot send it, and it cannot choose the names.
+*In the first week.* "Here is what a Cell is, here is what a Quest is, and here is the day you would need to fix. Who are your three?" It can draft the message. It cannot send it, and it cannot choose the names.
 
 *In the first season.* It keeps the Record — what was said, what was done, what the gap was — so that the Turn is about the people and not about the paperwork. It reads six weeks ahead and asks the make-ready question of everything entering that window: *what could stop this from being ready?* It gives each constraint an owner and a date, and it releases only constraint-free work into the week ([[The look-ahead]], [[Make-Ready Process]], [[Constraint]]).
 
@@ -341,7 +437,7 @@ The whole Plan compresses to five pages, and a body that holds these five can re
 - Call out the three percent by the trust of their own people.
 - Form them into Cells that live.
 - Let the Cells do real work, season by season, and tell what happened.
-- Let every Cell plant the next.
+- Let every Player, when ready, plant the next.
 - Fund the early seasons from our own tables.
 - Hospice the old world rather than fight it.
 - Build the new alongside, so that everyone has somewhere to go.
@@ -349,7 +445,7 @@ The whole Plan compresses to five pages, and a body that holds these five can re
 
 **How it is used:** as a filter. Any proposed move that does not serve one of the eight is not strategy; it is activity. And the sixth and seventh together are the posture that keeps a body whole when it becomes large enough to be noticed: *a body that contests power becomes a faction and inherits a faction's enemies; a body that builds gets to keep taking people in from every side of every quarrel.*
 
-**5 · The Timeline.** The Game opens at the September equinox of 2026. The first three percent — nominally two hundred and fifty million people, gathered by the arithmetic of life, one, one, two, three, five, eight, each Cell passing the Flame to the next — connected and empowered as early as we are able; the winter solstice of 2026 is the first marker on that road, not its end. Everyone who desires, invited, by 2030. Three years of formation for each who comes. The Covenant and the Jubilee at the Winter Solstice of 2033, or the day the last cohort has crossed. Then twenty years to regenerate the Earth. Then the Story continues, into worlds and ages we will not see.
+**5 · The Timeline.** The Game opens at the September equinox of 2026. The first three percent — nominally two hundred and fifty million people, gathered from eight Players, every new Player bringing their three ([[#The chart|the chart]]) — connected and empowered by the winter solstice of 2026, the first marker on that road and not its end; we do everything in our power to meet it, and measure where we are daily. Everyone who desires, invited, by 2030. Three years of formation for each who comes. The Covenant and the Jubilee at the Winter Solstice of 2033, or the day the last cohort has crossed. Then twenty years to regenerate the Earth. Then the Story continues, into worlds and ages we will not see.
 
 **How it is used, and the one discipline that makes it honest:** the dates in it that come from the sky are markers and are not negotiable and are not deadlines; the dates in it that come from the work are milestones and belong to someone. A missed marker has done its job — it made reality visible. The response to lateness is ignition, never despair, and never the quiet redrawing of the map.
 
@@ -383,7 +479,7 @@ Three things in that hour are the weekly re-pull:
 
 *Requests and offers.* They cross the membrane every week, up and down and sideways, and a **task never does**. That is how a body allocates itself without a centre: nobody assigns; everybody asks and offers, and the asks are answered by name.
 
-The number this produces is **kept as a share of made** — the first number any group should know about itself. Bodies that run this way move from about half their plans done to eight or nine in ten within a few seasons. That claim is an estimate carried from the production disciplines this pattern learned it from, not a measurement of this body; but the number is visible long before the capability is, which is what makes it useful in the first season rather than the fifth.
+The number this produces is **kept as a share of made** — the first number any group should know about itself. Bodies that run this way move from about half their plans done to eight or nine in ten within a few seasons. That claim is an estimate, not a measurement of this body; but the number is visible long before the capability is, which is what makes it useful in the first season rather than the fifth.
 
 **Seasonally, at the turning.** Four things, then two more.
 
@@ -421,7 +517,7 @@ The Plan's words at the table, each opening onto its own page.
 
 **The ends:** [[Jubilee]] · [[Covenant]] · [[The Final Test]] · [[Islands of Coherence]] · [[The Meta Crisis]] · [[None Of Us Until All Of Us]] · [[The Eternal Divine Play]].
 
-And the pages this chapter stands beside: [[The DNA of Heaven]] · [[The Reweaving Web]] · [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[The Little Book of the Great Game]] · [[22 Building — the Pattern of Production]] · [[23 Players, Agents, and the Intelligence System]] · [[21 In Every Future — what to do in each case]] · [[25 The Words]] · [[27 The Open Questions]].
+And the pages this chapter stands beside: [[The DNA of Heaven]] · [[The Reweaving Web]] · [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[The Little Book of the Great Game]] · [[23 Building — the Pattern of Production]] · [[25 Players, Agents, and the Intelligence System]] · [[21 In Every Future — what to do in each case]] · [[31 The Words]] · [[32 The Open Questions]].
 
 ---
 
@@ -435,21 +531,22 @@ And the pages this chapter stands beside: [[The DNA of Heaven]] · [[The Reweavi
 
 **3 · The contribution rail.** The rail for the first season is scaffolding by design, and the design says so. But three things need an answer before the first coin: which jurisdiction the temporary vehicle sits in and under what counsel; what "about a tenth" means when a body has no money income at all and offers hours, food or care instead; and whether the new-and-full-moon division is a rule of this instance or of the pattern. This chapter treats the tenth as a floor nobody imposes and the moon division as armour that belongs to the pattern; both readings are arguable, and the second may simply be wrong for bodies whose calendar is solar.
 
-**4 · Which solstice in 2030.** The sources say "the whole population engaged at ~Solstice 2030" without saying which. Summer and winter are half a year apart, and the three-year formation lag makes that half-year decide whether a cohort is in the 2033 Jubilee or not. This chapter has used the **Winter Solstice of 2030** throughout, for symmetry with the other three markers and because it is the later and therefore the more honest reading; a later answer may go the other way, and if so, everything in Marker III moves two seasons earlier and the float on that chain goes from thin to negative.
+**4 · Which solstice in 2030.** Whether this marker means the summer or the winter solstice is not yet fixed beyond doubt. Summer and winter are half a year apart, and the three-year formation lag makes that half-year decide whether a cohort is in the 2033 Jubilee or not. This chapter has used the **Winter Solstice of 2030** throughout, for symmetry with the other three markers and because it is the later and therefore the more honest reading; a later answer may go the other way, and if so, everything in Marker III moves two seasons earlier and the float on that chain goes from thin to negative.
 
-**5 · The recovery marker.** The Plan has no named point at which, the first three percent having been missed by headcount, the body declares what it is now aiming at instead. Contingency is being consumed; the consumption is recorded; but *consumed contingency is never safely banked*, because the Window is read rather than calculated and may close at an unknown time. What is needed is a stated recovery milestone — a thing complete, to a stated quality, by a date someone gives their word for — that re-anchors the chain between the 2026 miss and the 2027 marker. Without it, the honest recording of lateness slowly becomes a habit of recording lateness.
+**5 · What the daily measure sets moving.** The count of Players is read against the chart every day. What is not yet written is the response: at what gap a re-pull is called, who calls it, and what is re-pulled first — days per generation, commitments kept, the register, the channels, or the Kit. *Recommendation to consider:* a gap is said the day it appears, answered at the next Turn, and never answered by moving the line.
 
-**And the contradictions found, recorded rather than repaired:**
+**And the open questions of scale, recorded rather than glossed over:**
 
-- **The scale of the 2026 marker.** The seed says the three percent are connected and empowered by the winter solstice of 2026, *if we are able*. The canon's own Record says the planetary form of that milestone — a quarter of a billion people — will not be met by headcount and that the variance is being drawn from the generational contingency. This chapter carries the marker as a **condition met per place** (Story read · Roll taken · Cell formed · Quest chosen · Flame passed) and states the planetary lateness plainly. Whether that is a faithful reading or a softening is an answer, not a drafting choice.
-- **What "Cycle 10" means.** One canon page places about a thousand people at cycle ten; another places the first fifty-five to one hundred and forty-four co-creators there, and makes cycle ten the trigger for seating the planning group. Those are different bodies by an order of magnitude, and the trigger hangs on which one is meant. This chapter has used **the first one hundred and forty-four** for the governance trigger and has not used the thousand at all.
-- **The hub network's total.** One card states fifteen to twenty trillion for the hub network; two other pages state ten to twenty trillion, and the fifteen-to-twenty figure belongs to a different quantity entirely — the planned military and defence spending freed by forestalling war. The two appear to have been joined somewhere. This chapter names neither figure in its body, and records both here as estimates spoken in 2026, not measurements, and not reconciled.
-- **The hub tiers do not partition.** A million community hubs of ten thousand people, and a hundred thousand local hubs of a hundred thousand people, each reach ten billion; a thousand city hubs of a million reach one billion. Whether the tiers are a partition of the population, an overlay of services, or an estimate still being drawn is not stated on any page. Read them as the third until someone says otherwise.
+- **The scale of the 2026 marker — settled.** The first three percent are connected and empowered by the winter solstice of 2026, *if we are able*. Settled in the first week of the Game: two hundred and fifty million, everywhere, charted in three phases — Formation from the equinox, the Sprint from eight Players on 2026-09-28 to past two hundred and fifty million by the solstice, every new Player bringing their three, and the Wise Pace after it — and measured daily.
+- **What "Cycle 10" means.** The population at cycle ten can be read as about a thousand people, or as the first fifty-five to one hundred and forty-four co-creators — two readings a full order of magnitude apart, and the trigger for seating the planning group hangs on which is meant. This chapter uses **the first one hundred and forty-four** for the governance trigger, and does not use the thousand at all.
+- **The hub network's total.** Two figures circulate for the hub network — fifteen to twenty trillion, and ten to twenty trillion — and the higher figure in truth names a different quantity: the planned military and defence spending freed by forestalling war. The two appear to have been joined somewhere along the way. This chapter names neither figure in its body, and records both here as estimates spoken in 2026, not measurements, and not reconciled.
+- **The hub tiers do not partition.** A million community hubs of ten thousand people, and a hundred thousand local hubs of a hundred thousand people, each reach ten billion; a thousand city hubs of a million reach one billion. Whether the tiers are a partition of the population, an overlay of services, or an estimate still being drawn is not yet settled. Read them as the third until settled otherwise.
 - **The Record, at two scales, under one name.** The Cell's Record (what was said, decided, promised) and the Movement's Record (the seasonal variance gauge) are different objects and share a word. This chapter uses the word for both and relies on context, which is not good enough for a book that intends to survive translation.
-- **The phase dates spoken in 2023.** An earlier chapter of the canon dates the phases of implementation from 2023 and its own Phase 5 runs 2026–2030 while the current reading places the body at cycle two or three. Those dates are carried in the canon as a reading of that year and should never be refreshed silently; this chapter does not use them.
+- **The phase dates spoken in 2023.** A dating of the phases of implementation from 2023, with its own Phase 5 running 2026–2030, does not agree with the current reading that places the body at cycle two or three. Those 2023 dates are a reading of that year, not a measurement, and should never be refreshed silently; this chapter does not use them.
 
-**What I am least sure of.** The generation-time target near six weeks — it is derived correctly from the doubling arithmetic and the 2030 dependency, but it has never been observed, and a body that treats a derived target as a measured one has made the exact mistake this chapter spends four pages warning against. The claim that the 2026 marker can be read per-place rather than planet-wide. And whether any of the numbers above will survive their first honest season.
+**What is least sure.** The generation of three days aimed at, and about five allowed, with nearly every new Player bringing their three. It is the chart's own arithmetic and it has never been observed, and a body that treats a charted target as a measured one has made the exact mistake this chapter spends four pages warning against; the daily count is what will tell. And whether the numbers above survive their first honest season.
 
-*Nothing here is final. The *why* is invariant; every *how* is revisable. Bring a [[Proposal]] when the plan is wrong — and it will be, first in the cycle time, then in the arithmetic, then in the dates — and let the next edition be truer than this one.*
+*Nothing here is final. The *why* is invariant; every *how* is revisable. Bring a [[Proposal]] wherever the plan is wrong — the cycle time and the arithmetic are the first places to look — and let the next edition be truer than this one.*
 
 *Read the Story. Play the Game. [[Pass The Flame]].*
+

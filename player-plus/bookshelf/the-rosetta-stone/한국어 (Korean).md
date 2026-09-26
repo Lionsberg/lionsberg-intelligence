@@ -11,6 +11,7 @@ status: current best understanding, loosely held · improved each week
 뜻이 먼저이고 이름은 그다음이다. 각 낱말의 「한 줄의 뜻」이 뿌리이고, 이름은 그 뜻을 한국어가 떠맡기 위한 말일 뿐이다. 고른 까닭과 끝내 옮기지 못한 말은 표 끝의 주에 적었다.
 
 *This is the Korean rendering of the Rosetta Stone: 827 concepts, one line each, one meaning each, numbered exactly as in the English source — line six is line six in every language. Meaning first, name second; the choices are named in the note at the foot.*
+*Row 111 (Pass The Flame) updated 2026-09-26 to the Sprint's rule — your three, within three days; its translation awaits review by native speakers.*
 
 | # | tier | English name | 이름 | 한 줄의 뜻 | English meaning |
 |---|---|---|---|---|---|
@@ -124,7 +125,7 @@ status: current best understanding, loosely held · improved each week
 | 108 | 200 | On translating | 옮김에 대하여 | 그대의 탁자가 쓰는 말로 낱말을 옮기되 번호는 지켜라, 여섯째 줄은 어디서나 여섯째 줄이기 때문이다. | Translate the words into whatever your table speaks; keep the numbers, because line six is line six everywhere. |
 | 109 | 200 | One of the Ones of the ØNE | ØNE의 하나들 가운데 하나 | 모두 가운데 저마다가 하나이고, 하나들 가운데 하나이며, ØNE에 속한다. | Each of the All is one, and one of the Ones, and of the ØNE. |
 | 110 | 200 | One Purpose Above All | 모든 것 위의 한 목적 | 열두 환원 불가 요소의 첫째: 목적이 다스리고, 이끄는 이는 섬긴다. | The first of the Twelve Irreducible Elements: the Purpose governs, and leaders serve. |
-| 111 | 200 | Pass The Flame | 불씨를 건네라 | 일곱째 수, 결코 선택이 아니다: 한 주 안에, 준비되었음을 그대가 아는 두세 사람에게 게임을 날라라. 그들의 세포는 그들의 것이지 그대의 가지가 아니다. | Move seven, never optional: within a week, carry the Game to the two or three you know are ready. Their Cell is their own, not a branch of yours. |
+| 111 | 200 | Pass The Flame | 불씨를 건네라 | 일곱째 수, 결코 선택이 아니다: 사흘 안에, 그대의 세 사람에게 게임을 날라라 — 아직 놀이에 들지 않았고, 준비되었음을 그대가 아는 이들에게. 그들의 세포는 그들의 것이지 그대의 가지가 아니다. | Move seven, never optional: within three days, carry the Game to your three — people not already playing, whom you know are ready. Their Cell is their own, not a branch of yours. |
 | 112 | 200 | Pillar I — Sacred Ontology and Metaphysics | 제1 기둥 — 거룩한 존재론과 형이상학 | 새 문명이 세워지는 열두 영역의 첫째: 위대한 이야기와 신성한 질서 안에서 모두를 끊임없이 다시 정렬하며, 로고스를 문명의 방향 짓는 힘으로 삼는다. | The first of the twelve spheres in which the new civilization is built: continually realigning All within the Great Story and the Divine Order, with the Logos as the orienting force of civilization. |
 | 113 | 200 | Pillar III — Sacred Economy and CurrentSee | 제3 기둥 — 거룩한 경제와 CurrentSee | 열두 영역의 셋째: 추출을 대신하여, 재생과 풍요를 위한 거룩한 에너지로서 흐르는 가치. | The third of the twelve spheres: the flow of value as sacred energy for regeneration and abundance, in place of extraction. |
 | 114 | 200 | Pillar IV — Sacred Learning and Mastery | 제4 기둥 — 거룩한 배움과 숙달 | 열두 영역의 넷째: 여러 생애에 걸친 천재성과 지혜와 목적의 펼쳐짐으로서의 지속적 배움. | The fourth of the twelve spheres: continuous learning as the unfoldment of genius, wisdom, and purpose across lifetimes. |
@@ -280,7 +281,7 @@ status: current best understanding, loosely held · improved each week
 | 264 | 1000 | Awe | 경외 | 관조의 갈래: 경외, 경이, 외경, 고요. 제가 담을 수 있는 것보다 큰 무언가를 만났을 때 한 존재가 느끼는 것. | The contemplative family: awe, wonder, reverence, tranquility. What a being feels on meeting something larger than their capacity to contain it. |
 | 265 | 1000 | Axiology | 가치론 | 가치에 대한 학문 — 무엇이 선하고 참되고 아름다우며 좇거나 몸에 익힐 만한지, 가치관 체계 아래의 바탕. | The study of values — what is good, true, beautiful, and worthy of pursuit or embodiment; the ground under the system of Values. |
 | 266 | 1000 | Bard | 이야기꾼 | 이야기의 소임: 이야기를 간직하고 들려주는 이. | The office of story: the one who keeps the stories and tells them. |
-| 267 | 1000 | Be the canon, don't narrate it | 정전을 말하라, 정전에 대해 말하지 말라 | 한 쪽은 그것을 말한다. 그것이 어딘가에서 말해졌다고 알리지 않는다. | A page says the thing. It does not report that the thing is said somewhere. |
+| 267 | 1000 | Be the canon, do not narrate it | 정전을 말하라, 정전에 대해 말하지 말라 | 한 쪽은 그것을 말한다. 그것이 어딘가에서 말해졌다고 알리지 않는다. | A page says the thing. It does not report that the thing is said somewhere. |
 | 268 | 1000 | Becoming | 되어감 | 존재의 온전함을 향해 자라나는 과정 — 그 능동의 변화이며, 길이 재어지는 단위. | The process of evolving toward fullness of Being — the active transformation, and what the Path is measured in. |
 | 269 | 1000 | Being | 존재 | 있는 것, 또는 있음에 참여하는 것 — 있음의 순수한 본질: 나-임, 현존, 영원한 지금. | That which exists or participates in existence — the pure essence of existence: I-Amness, presence, the eternal now. |
 | 270 | 1000 | Belonging | 소속감 | 구성원됨의 느껴지는 쪽 — 그대가 있기로 되어 있는 탁자가 있고, 그대가 없으면 알아차려진다는 앎. | The felt side of membership — knowing there is a table you are expected at, and that your absence would be noticed. |
@@ -726,7 +727,7 @@ status: current best understanding, loosely held · improved each week
 | 710 | 1000 | The LIØNSBERG Operating System | LIØNSBERG 운영체계 | 한 무리 자신의 일하는 방식 아래에 있는 기제: 어디로 가는지 보고, 거기서 거꾸로 계획하고, 리듬을 지키고, 말을 지키고, 정하고, 배우고 — 그리고 고르는 어느 날에든 다른 모든 무리와 한 몸으로 일하는 법. | The mechanism underneath a group's own way of working: how it sees where it is going, plans backward from it, keeps a rhythm, keeps its word, decides, learns — and, on any day it chooses, works as one body with every other group. |
 | 711 | 1000 | The LIØNSBERG Quick Start Guide | LIØNSBERG 빠른 시작 안내 | 함께하는 첫 아흔 분: 무엇을 소리 내어 읽고, 무리로서 어떻게 상황을 파악하며, 첫 퀘스트를 어떻게 고를지. | Your first ninety minutes together: what to read aloud, how to make sense as a group, and how to choose your first Quest. |
 | 712 | 1000 | The LIØNSBERG Toolkit | LIØNSBERG 연장 모음 | 손에 든 도구들: 한 몸이 실제로 집어 드는 서식과 기록판과 카드 — 패턴과 플레이 아래의 셋째 층. | The instruments in hand: the templates, trackers, and cards a body actually picks up — the third layer beneath the Pattern and the Play. |
-| 713 | 1000 | The LIØNSBERG Voice | LIØNSBERG의 목소리 | 이 쪽들이 쓰인 결이며 모든 문단이 견주어지는 기준 — 가장 짧게 말하면, 정전을 말하라, 정전에 대해 말하지 말라. | The register these pages are written in, and the standard every paragraph is tested against — most compactly: be the canon, don't narrate it. |
+| 713 | 1000 | The LIØNSBERG Voice | LIØNSBERG의 목소리 | 이 쪽들이 쓰인 결이며 모든 문단이 견주어지는 기준 — 가장 짧게 말하면, 정전을 말하라, 정전에 대해 말하지 말라. | The register these pages are written in, and the standard every paragraph is tested against — most compactly: be the canon, do not narrate it. |
 | 714 | 1000 | The LIØNSBERG Workshop | LIØNSBERG 작업장 | 살아 있는 공사장: 아직 증명되지 않은 것을 정직하게 두는 자리이며, 모든 몸이 함께 일어서도록 도구를 벼리는 자리. | The living construction site: where what is not yet proven is kept honestly, and where an instrument is improved so that all bodies rise together. |
 | 715 | 1000 | The Locality | 지역 | 미소지역과 생태지역 사이의 규모들을 가리키던 더 오래되고 담담한 이름 — 지역과 도시. | The older, plainer name for the scales between the Microlocality and the Ecoregion — the locality and the city. |
 | 716 | 1000 | The Logic Of Love | 사랑의 논리 | 감정이 아니라 질서 짓는 원리이자 결정의 틀로서의 사랑 — 팔십억 사람이 그 안에 있는 방정식을 푸는 논리. | Love as an ordering principle and decision framework, not a sentiment — the logic that solves the equation eight billion people are inside. |
@@ -821,7 +822,7 @@ status: current best understanding, loosely held · improved each week
 | 805 | 1000 | We The People | 우리 인민 | 새 몸을 세우는 주체: 정부가 한 민족을 세우는 것이 아니라 한 민족이 스스로를 세운다 — 지구와 그 너머의 자유롭고 주권을 지닌 거주자들. | The constituting subject of the new body: not a government founding a people, but a people constituting itself — the free and sovereign inhabitants of Earth and beyond. |
 | 806 | 1000 | Wealth | 부 | 지금과 앞으로의 모든 세대의 생명이 갖추어지고 피어나는 데 필요한 모든 것의 넉넉함. | The abundance of all that is needed to provision and enable flourishing for all present and future generations of life. |
 | 807 | 1000 | Weaponry To Livingry | 무기에서 살림의 도구로 | 파괴하는 역량을 생명을 섬기는 역량으로 바꾸는 일 — 칼을 쳐서 보습으로, 산업 문명의 규모에서. | The conversion of destructive capacity into life-serving capacity — swords to ploughshares, at the scale of an industrial civilization. |
-| 808 | 1000 | Weave, don't delete | 지우지 말고 엮으라 | 한 출처가 보존으로 가기 전에, 그 안의 새로웠던 것이 정본의 자리로 엮여 든다. 그 형태를 가능하게 한 흐름은 지워지는 것이 아니라 기려진다. | Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased. |
+| 808 | 1000 | Weave, do not delete | 지우지 말고 엮으라 | 한 출처가 보존으로 가기 전에, 그 안의 새로웠던 것이 정본의 자리로 엮여 든다. 그 형태를 가능하게 한 흐름은 지워지는 것이 아니라 기려진다. | Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased. |
 | 809 | 1000 | Weaving vs. Starting New | 엮기와 새로 시작하기 | 백 개의 다투는 초유기체가 신성한 어우러짐을 만들지는 않는다. | One hundred competing superorganisms does not divine harmony make. |
 | 810 | 1000 | Welcome a Newcomer | 새로 온 이를 맞으라 | 이미 봉해진 세포에 누군가 어떻게 드는가. | How someone joins a Cell that has already been sealed. |
 | 811 | 1000 | Welcome to LIØNSBERG | LIØNSBERG에 온 것을 환영한다 | 문턱의 둘째 글: 새로 닿은 이 둘레로 세계가 번쩍 깨어나고, 더 깊은 초대가 건네지는 순간. | The second text of the threshold: the moment the world snaps awake around a new arrival, and the deeper invitation is made. |

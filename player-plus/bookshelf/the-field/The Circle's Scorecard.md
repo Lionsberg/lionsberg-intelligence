@@ -20,5 +20,4 @@ And what the numbers are not: a ranking. A Cell of four that kept six of seven h
 **Stands on:** [[Commitment]] · [[The Record]] · [[The Turn]]
 **Opens onto:** [[Kept as a share of made]] · [[The Score]] · [[The Season Sheet]] · [[The Board]] · [[The Offering]] · [[The Flame]]
 **In play:** table
-**Sources:** *The Circle's Scorecard*, Little Book chapter (current best understanding · "the season tally; the paper form of the Score on the Board") · the Player+ Modules lexicon, *Scorecard* · lionsberg.wiki: **The Circle's Scorecard**
-**Open:** The witness rule (a second voice before a commitment counts as kept) appears here and nowhere else in the corpus; the Operating System's Record does not mention it.
+**Open:** The witness rule (a second voice before a commitment counts as kept) appears here and nowhere else; the Operating System's Record does not mention it.

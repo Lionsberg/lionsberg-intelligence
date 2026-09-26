@@ -20,5 +20,4 @@ The office is named in the seed and carries a further discipline: no one has a s
 **Stands on:** [[Story]] · [[Storytelling]] · [[Testimony]]
 **Opens onto:** [[Guide]] · [[Wise Right Speech]] · [[Play by Play]] · [[The Season Sheet]] · [[Harvest and Close]] · [[Sighting]]
 **In play:** table
-**Sources:** The DNA of Heaven, Parts II, V, VIII and XII · Player+ Modules, *Advanced Agent Engineering* (the bard among the archetypes), *The Heads-up and the Play by Play* · lionsberg.wiki: *The Story of LIØNSBERG*, *Share Your Stories*.
-**Open:** no canon page yet holds the office; it is named in the seed's word list and not yet articulated.
+**Open:** the office is named and not yet fully articulated.

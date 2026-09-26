@@ -19,5 +19,4 @@ The practice is short. Hold the articulations lightly. Return to the direct enco
 **Stands on:** [[ØNE]] · [[The Ineffable]] · [[Essences, Renderings, And Ineffable Referents]]
 **Opens onto:** [[The Eternally Nameless]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Truth To ØNE, Errors To Us]] · [[Institutional Idolatry]] · [[The Golden Calf]] · [[Current Best Articulation]] · [[Structural Immunity]]
 **In play:** At the door, as the reason no creed is required to enter; at the table, when a word starts being defended rather than used; beyond, as the discipline that lets this body meet other traditions without conquest.
-**Sources:** `ØNE` · `The Great Weaving — Concept Ledger` §A.1 (names this as the mature content of the ØNE Card) · `Essences, Renderings, And Ineffable Referents` · `Values` (wiki root — the Absolute should not be articulated or concretized). lionsberg.wiki: **ØNE**.
 **Open:** The discipline has no page of its own; A page named `Concretizing The Absolute` is linked from the Card but was not found in the wiki.

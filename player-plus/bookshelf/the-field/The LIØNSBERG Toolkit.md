@@ -18,5 +18,4 @@ How it is used. Find the need in [[General Needs]], take the tool it names, and 
 **Stands on:** [[Play]] · [[The LIØNSBERG Pattern Language]] · [[General Needs]]
 **Opens onto:** [[The Questcard]] · [[The Circle Sheet]] · [[The Season Sheet]] · [[Notebook form]] · [[The LIØNSBERG Workshop]] · [[Kit of Parts]]
 **In play:** table · Room · Home
-**Sources:** *The LIØNSBERG Toolkit* (described in the Workshop as "a real workbench today, and a forge of instruments still being commissioned") · *General Needs* (the register that maps tools to needs) · *The LIØNSBERG Playbook* · lionsberg.wiki: **The LIØNSBERG Toolkit**
 **Open:** Many instruments named in the needs register are marked *to forge* rather than *in hand*, including a commitment tracker and a welcome checklist; the Toolkit's real extent is smaller than its index suggests. · The relationship between the Toolkit's templates and the Little Book's cards is not stated anywhere; several appear to be two forms of one instrument.

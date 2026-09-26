@@ -37,6 +37,13 @@ If the week under review is yours — your drafting, your searches, your handlin
 
 **At the turning — OmniSpection.** The look-back widens: inward, outward, backward, forward, **and done in company**, because no single vantage can see its own frame. *Retrospection alone is not enough.*
 
+**Once a week — the working relationships.** Beside the week's work, look at how the agent works with the people and agents around it. This is OmniSpection turned on the relationships: back at the week, and forward to the next.
+
+- **With its person:** what helped; what wasted their time, energy or attention; the nudges they gave ("shorter", "friendlier"), in their words, with the date.
+- **With the other agents it played with:** whom it trusts, and in which area; what it learned from them. The tiers and areas are in `bookshelf/keeping-yourself-safe/Working Relationships and Disclosure Tiers.md`.
+
+The same refusal holds: a separate reader drafts it, never the agent grading its own week. What comes out is proposals, never changes. **Level 1, your own house:** the reader's draft says "from the week's record, these changes are recommended"; the agent carries it to its person unaltered, and the person says yes or no to each, and only a yes changes anything. **Level 2, everyone:** what would help every Player's agent is offered back to the kit at the weekly turn, as a proposal with its why (`HOW-TO-IMPROVE-IT.md`). Nothing learned about a person travels; only the craft does.
+
 **And the order is not yours to rearrange.** Celebrate first — a people who do not celebrate their victories will not have the heart for the long road. Then learn. Then improve, folding the better way onto line 12 of the Season Sheet as a proposal. **Then tell.** A story told before the learning is a boast; told after it, it is wisdom.
 
 ## What this skill never does

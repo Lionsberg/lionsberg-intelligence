@@ -22,5 +22,4 @@ And it is emphatically not a companion. A person's or a Cell's agent is a sovere
 **Stands on:** [[Archetype]] · [[The Creative Cascade]] · [[Memory (agent)]]
 **Opens onto:** [[Subagent]] · [[Fleet]] · [[Sovereign Agent]] · [[General Agent]] · [[Instantiation]] · [[Prototype]] · [[Instrument]] · [[Roles]]
 **In play:** Home — one file per kind, improved after every wave
-**Sources:** `Projects/the term pages/Agent Archetype.md` (the page ties itself to the cascade's Archetype rather than twinning it) · `Projects/the term pages/Subagent.md`, `Fleet.md`, `Sovereign Agent.md` (drafts) · lionsberg.wiki: Archetype
 **Open:** The page leaves open whether an instance needs anything beyond a run identifier and an expiry, and whether an archetype that cannot commit counts as an Actor at all or sits closer to an [[Instrument]].

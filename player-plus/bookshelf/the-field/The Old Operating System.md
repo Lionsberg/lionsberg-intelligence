@@ -20,5 +20,4 @@ The prescription follows directly. [[Dying|Hospicing]] the old world is not only
 **Stands on:** [[Kontrolle]] · [[The Existing Order]] · [[The Meta Crisis]] · [[System]]
 **Opens onto:** [[New Earth Operating System]] · [[The LIØNSBERG Operating System]] · [[Unlearning]] · [[The Three-Year Formation]] · [[Dying]] · [[Scarcity]] · [[Multi-Polar Traps]] · [[The First Three Percent]] · [[Manufactured Dependency]]
 **In play:** the table — named when a Cell notices itself rebuilding what it left
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Old Operating System.md`
 **Open:** The Card's list of defaults is asserted rather than derived, and no test is given for whether a given behaviour belongs to the imposed layer or the operative one. · It claims a sufficient critical mass without saying how the shift would be observed.

@@ -18,6 +18,5 @@ In play, the discipline is short. Hold every articulation as current best. Trust
 **Also called:** the rendering · CBA
 **Stands on:** [[Current Best Understanding]] · [[The Ineffable]] · [[Essences, Renderings, And Ineffable Referents]]
 **Opens onto:** [[Provenance]] · [[Progressive canonization]] · [[Every Defect Is A Gift]] · [[The LIØNSBERG Voice]] · [[Work In Progress]] · [[Proposal]]
-**In play:** At the table, whenever someone's clumsy sentence is treated as though it were a clumsy thought; at the Room, in how a page's status is read; beyond, as the reason the corpus is never finished.
-**Sources:** `Current Best Articulation` · `Current Best Understanding` (wiki root, canon-grade) · `Essences, Renderings, And Ineffable Referents` · `The LIØNSBERG Lexicon`, Meta Layer. lionsberg.wiki: **Current Best Articulation**.
+**In play:** At the table, whenever someone's clumsy sentence is treated as though it were a clumsy thought; at the Room, in how a page's status is read; beyond, as the reason the work is never finished.
 **Open:** The Card leans on `The LIØNSBERG Meta Science` and `No Canonical Homes Only ØNE Is Canonized` as governing disciplines;

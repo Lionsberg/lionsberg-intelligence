@@ -22,5 +22,4 @@ In its source the section's contents are assertions about named platforms and se
 **Stands on:** [[Provenance]] · [[Navigating Towards Truth]] · [[The seven-part UnVeiling form]]
 **Opens onto:** [[Apocryphal Corridors]] · [[Gaps Not Yet Closed]] · [[Control Of Information]] · [[We Do Not Know]] · [[Requirement Of Transparency]] · [[The Record]] · [[Discernment]] · [[Second reader]]
 **In play:** the Workshop — a section kept in any serious inquiry
-**Sources:** `LIØNSBERG Wiki Books/The 66 Most Protected and Distorted Narratives/The False Flags That Shaped the Modern World.md` §6 (outline-grade)
 **Open:** The section as used in its source contains claims about named companies and services; those are the source's and are not carried. · Nothing states how a reader distinguishes an obstruction from an ordinary refusal, which is what the section's honesty depends on.

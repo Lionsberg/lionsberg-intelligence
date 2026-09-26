@@ -8,7 +8,7 @@ pillar: —
 
 *Attending to a few must never conflict with the imperative to extend boundless love to All — and the reconciliation is that the few are served in service of All.*
 
-Three chapters of counsel say: concentrate. Know a few things deeply, find the fifth that carries the rest, put your capacity where it converts ([[A Few]], [[The 20%]]). That counsel has a moral shadow, and this chapter is where the canon turns and looks straight at it. If you concentrate on a few people, a few places, a few problems — what exactly have you said about everyone else?
+Three chapters of counsel say: concentrate. Know a few things deeply, find the fifth that carries the rest, put your capacity where it converts ([[A Few]], [[The 20%]]). That counsel has a moral shadow, and here the reckoning turns and looks straight at it. If you concentrate on a few people, a few places, a few problems — what exactly have you said about everyone else?
 
 The shadow is not imaginary. Every doctrine of focus has been used to justify a circle of concern with a fence around it, and the fence always has the same defence: we are being effective. So the paradox is named rather than softened. Concentration is necessary, because attention is finite and a love that attends to nothing in particular attends to nothing ([[Spending Attention]], [[Love]]). Boundless love is also necessary, and is not a feeling but an obligation that extends past any circle ([[All]], [[Omniconsideration]], [[Universal Rights]]).
 
@@ -20,5 +20,4 @@ The test is usable, which is the point of stating it so plainly. It fails the mo
 **Stands on:** [[All]] · [[Love]] · [[A Few]] · [[The Goal]]
 **Opens onto:** [[Omniconsideration]] · [[The 20%]] · [[Spending Attention]] · [[The compass question]] · [[Co-Creating Heaven]] · [[Knowledge as commons]] · [[Selectively Permeable Membrane]] · [[Ideological Capture]] · [[Universal Rights]] · [[First, Do No Harm]]
 **In play:** the table and beyond — the check run on any decision to concentrate, at any scale
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/4. The All.md` · the same book's chapters 2, 3 and 8 · lionsberg.wiki: The Wisdom of the Way
-**Open:** The chapter is three lines and states the reconciliation without working any case; every hard instance — triage, scarcity, who is not served this season — is left unwritten. · *The All* also names a broader concept in this Field; this page carries only the reconciliation.
+**Open:** The chapter is three lines and states the reconciliation without working any case; every hard instance — triage, scarcity, who is not served this season — is left unwritten.*The All* also names a broader concept in this Field; this page carries only the reconciliation.

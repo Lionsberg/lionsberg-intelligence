@@ -20,5 +20,4 @@ In practice it is one of the standing doors any Actor may walk to, beside the pr
 **Stands on:** [[Guidance]] · [[Asking Questions]] · [[Current Best Understanding]] · [[Knowledge as commons]]
 **Opens onto:** [[Guide Cells]] · [[Requests and offers]] · [[Proposal]] · [[Issue]] · [[Decision Records]] · [[LIØNSBERG Mission Control]] · [[Process (and the Process List)]]
 **In play:** Home · beyond — one of the five doors of the big room
-**Sources:** `Request For Guidance.md` (wiki root) · `Process For Requests For Guidance`, `LIØNSBERG Process List` · `Guide Cells.md` · `LIØNSBERG Mission Control.md`, §the desks · lionsberg.wiki: Request For Guidance
 **Open:** Nothing states what a body does when a request is sent and no answer comes, or how an exchange is retired when its guidance is later shown to be wrong.

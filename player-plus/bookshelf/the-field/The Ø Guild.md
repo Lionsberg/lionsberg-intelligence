@@ -24,5 +24,4 @@ The letter does the same work as the function: the slash that marks the Source a
 **Stands on:** [[Guild]] · [[The Twelve Archetypal Guilds]] · [[ØNE Body]]
 **Opens onto:** [[The Five Archetypal Ways]] · [[Belt Progression]] · [[The dans, and Mastery at 5th Dan]] · [[Mastery]] · [[Holofractal Omnifederation]] · [[The 144 Gates of Initiation]] · [[The Architecture Of A Way]] · [[Higher Order Functional Unity]]
 **In play:** beyond — met when a body notices one craft beginning to govern the others
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Ø Guild.md` (Card, settled)
 **Open:** The Card counts twelve archetypal Guilds and five archetypal Ways in the same architecture without reconciling the two numbers. · A function with no council and no roster has no way to be held to account, and the Card does not address it. · Only one of the craft guidebooks it depends on exists.

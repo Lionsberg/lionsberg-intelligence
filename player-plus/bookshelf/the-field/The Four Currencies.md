@@ -22,5 +22,4 @@ Money, possessions, status and title are derivative — records of how the four 
 **Stands on:** [[TimeEnergy]] · [[Energy]] · [[Time]] · [[Sacrifice]]
 **Opens onto:** [[Focused Attention As Discipline]] · [[Time-Energy Accounting]] · [[The TEA Card]] · [[Voluntary Tithing]] · [[Money]] · [[The six capitals]] · [[Rest And Regeneration]] · [[The Act Of Release]]
 **In play:** the table — the four questions behind every commitment a Player makes
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Four Currencies.md`
 **Open:** The corpus elsewhere pairs time and energy as one unit and counts attention separately again; the enumerations do not agree. · The Card's claim that time is denser at higher presence is offered as verifiable by practice and has no test attached. · Whether sacrifice is a currency or the act of spending the other three is not settled.

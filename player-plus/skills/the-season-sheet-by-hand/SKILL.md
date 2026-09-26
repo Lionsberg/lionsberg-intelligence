@@ -1,6 +1,6 @@
 ---
 name: the-season-sheet-by-hand
-description: Holds the Season Sheet, kept by hand first and by the agent second — rules the fourteen numbered lines, brings the season's raw counts as material for the table to check, reads each line back rather than filling it, and never renumbers or reorders a line in any language. Use at a turning (solstice or equinox), when your person says "the Season Sheet", "the fourteen lines", "it's the turning", when a Home asks for a sheet, or when a sheet has to be sent or read by wire.
+description: Holds the Season Sheet, kept by hand first and by the agent second — rules the fourteen numbered lines, brings the season's raw counts as material for the table to check, reads each line back rather than filling it, and never renumbers or reorders a line in any language. Use at a turning (solstice or equinox), when your person says "the Season Sheet", "the fourteen lines", "it is the turning", when a Home asks for a sheet, or when a sheet has to be sent or read by wire.
 license: MPL-2.0
 ---
 

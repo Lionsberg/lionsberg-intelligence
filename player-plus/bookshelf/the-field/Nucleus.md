@@ -20,5 +20,4 @@ The biological witness is exact. Every cell of a body carries the same genome; a
 **Stands on:** [[Cell]] · [[The Golden Seed]] · [[The Record]] · [[HoloFractal]]
 **Opens onto:** [[The Playcard]] · [[Submittals]] · [[The Season Sheet]] · [[Kit of Parts]] · [[Cell Types]] · [[Self-Sustenance and Self-Replication]] · [[The edition]] · [[Minimum standards of interoperability]]
 **In play:** Home — what a Cell would carry out of a burning house
-**Sources:** `Projects/the term pages/Nucleus.md` (the name is marked a proposal until the whole takes it up) · `The Golden Seed` (wiki root) · `Cell` (canon-grade) · lionsberg.wiki: The Golden Seed
-**Open:** The page states that the Playcard is Seed, received and never filled in, which stands against the seed's own filled-and-stacked card ([[The Playcard stack]]). · Two root pages carry the Golden Seed's name and are unreconciled. · *Nucleus* is a proposed name and nothing has adopted it.
+**Open:** The page states that the Playcard is Seed, received and never filled in, which stands against the seed's own filled-and-stacked card ([[The Playcard stack]]). · Two root pages carry the Golden Seed's name and are unreconciled.*Nucleus* is a proposed name and nothing has adopted it.

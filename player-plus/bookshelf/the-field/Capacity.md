@@ -20,5 +20,4 @@ Knowing the difference keeps a Cell honest when it commits. A commitment is give
 **Stands on:** [[Capability]] · [[Player+]] · [[Commitment]]
 **Opens onto:** [[Belt Progression]] · [[Mastery]] · [[Lesson]] · [[Kept as a share of made]] · [[Cell]]
 **In play:** table · beyond
-**Sources:** Player+ Modules, *Lexicon*, *Start Here* · The DNA of Heaven, Parts VII, VIII and XII · lionsberg.wiki: *The LIØNSBERG Belt System*, *Continuous Improvement*.
 **Open:** none found.

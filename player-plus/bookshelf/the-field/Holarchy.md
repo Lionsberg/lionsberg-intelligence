@@ -22,5 +22,4 @@ In play it is why a [[Supercell]] is a home and not a head office, and why nobod
 **Stands on:** [[Holon]] · [[Sacred Order]] · [[ØNE]]
 **Opens onto:** [[HoloFractal]] · [[Holofractal Omnifederation]] · [[Subsidiarity]] · [[Levels Of Scale]] · [[Total Nested Holarchy Of Sovereignties]]
 **In play:** Met at the Home and the Supercell, where a Cell learns that being held is not being settled.
-**Sources:** *Holarchy* (root page, mature, no status line) · *The LIØNSBERG Lexicon*, Pillar I ("a nested system of wholes within wholes") · *Holon* (root page) · lionsberg.wiki: *Holarchy*.
 **Open:** none found.

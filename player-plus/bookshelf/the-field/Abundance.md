@@ -20,5 +20,4 @@ A Cell meets this in the smallest way in its first season. Several people put so
 **Stands on:** [[Creator's Intent]] · [[Regeneration]] · [[Flow]] · [[Commons]]
 **Opens onto:** [[Scarcity]] · [[Wealth]] · [[Gift]] · [[Voluntary Tithing]] · [[Fostering Ecosystemic Resource Flows]] · [[Jubilee]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Abundance* (canon-grade; one line) · *Pillar III — Sacred Economy and CurrentSee*, Theses 2–4 and the narrative (canon-grade) · *Voluntary Tithing* (wiki root; canon-grade — the observed growth of contribution) · *Fostering Ecosystemic Resource Flows* (wiki root) · lionsberg.wiki: Abundance
 **Open:** none found.

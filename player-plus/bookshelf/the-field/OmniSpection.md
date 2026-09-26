@@ -20,5 +20,4 @@ Four turnings make a year of lived wisdom. A movement of thousands of Circles, e
 **Stands on:** [[Retrospective]] · [[Sensemaking]] · [[Current Best Understanding]]
 **Opens onto:** [[Season]] · [[Dialogos]] · [[Continuous Improvement]] · [[The Season Sheet]] · [[Pass The Flame]]
 **In play:** table · Home · beyond
-**Sources:** *OmniSpection* (a written root page) · *Seasonal OmniSpection* (a written root page) · *The LIØNSBERG Pattern Language*, Communication And Culture, and Meta-Architecture · *The LIØNSBERG Playbook* · lionsberg.wiki: *OmniSpection*
 **Open:** Two pages carry this — *OmniSpection* (the discipline) and *Seasonal OmniSpection* (the rhythm) — with overlapping content and no stated relationship between them.

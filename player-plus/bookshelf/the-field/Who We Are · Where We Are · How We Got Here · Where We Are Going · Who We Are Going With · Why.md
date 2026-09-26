@@ -20,5 +20,4 @@ They are asked at every scale and asked again as things change — a person at a
 **Stands on:** [[Story]] · [[The Story of LIØNSBERG]] · [[Identity]]
 **Opens onto:** [[Sensemaking]] · [[Vision]] · [[Navigation]] · [[Orientation and Onboarding Process]] · [[The Circle Sheet]] · [[The Sacred Arc]] · [[Worthy Goal]]
 **In play:** door · table
-**Sources:** The LIØNSBERG Lexicon, Story section, entry 91 (named as a set, each question linked, bodies mostly unwritten) · Pass The Flame, chapter 4 · lionsberg.wiki: *The Story of LIØNSBERG*
 **Open:** the six are stated as a set but no page holds them together with their answers; each is a link, and a reader following them finds identity articulated and the other five thin.

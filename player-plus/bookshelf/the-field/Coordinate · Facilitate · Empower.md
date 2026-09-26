@@ -20,5 +20,4 @@ It is load-bearing because it is a test that can be applied in the moment, by an
 **Stands on:** [[Subsidiarity]] · [[Servant Leadership]] · [[Sovereignty At Every Scale]]
 **Opens onto:** [[Delegation]] · [[Span of Control]] · [[Stigmergy]] · [[The Meta Project]] · [[Meta Game]] · [[Centralization Of Power]] · [[Polycentric Implementation of Shared Solutions]] · [[Capability]] · [[Silos No More]]
 **In play:** Home — asked of oneself, before organising anything
-**Sources:** `LIØNSBERG Wiki Blogs/the starter kit's Journal/Coordinate, Facilitate, Empower` (a 2022 journal post marked by its author as a writing fragment; author's voice preserved) · lionsberg.wiki: Subsidiarity
 **Open:** A fragment of a few lines, never developed; nothing states how to tell the three apart in a case where more than one applies, which is most cases.

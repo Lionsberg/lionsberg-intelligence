@@ -20,5 +20,4 @@ The loop is also why a set-up problem shows as a stall: the model proposed somet
 **Stands on:** [[Language model]] · [[Set-up]] · [[Agent]]
 **Opens onto:** [[Safety check]] · [[Authorized]] · [[The maker]] · [[Skill]] · [[Venue card]]
 **In play:** beyond
-**Sources:** Player+ Modules, *How an AI Agent Works*, *Becoming a Player+*, *Jam Conventions* · The DNA of Heaven, Part X.
 **Open:** none found.

@@ -20,5 +20,4 @@ The failure modes are worth naming because both are common. The elder collapses 
 **Stands on:** [[The LIØNSBERG Voice]] · [[Language]] · [[Wisdom]]
 **Opens onto:** [[Guide]] · [[Bard]] · [[Wise Eldership]] · [[Storytelling]]
 **In play:** table · Room · beyond
-**Sources:** *The Posture — Wise Elder at the Fire, General of Cosmic Armies* (a Card) · *The LIØNSBERG Voice* · *The LIØNSBERG Pattern Language*, Story, Voice, Culture, Art · lionsberg.wiki: *The Posture — Wise Elder at the Fire, General of Cosmic Armies*
 **Open:** The canon's Card capitalizes the title differently from the Pattern Language's link to it; the concept field carries the Pattern Language's form. Same concept, two names on disk.

@@ -30,5 +30,4 @@ The move is the same at every intensity and on every band; only the pace changes
 **Stands on:** [[Mastery Of Emotions]] · [[Emotions Are Information, Gradients, And Never Enemies]] · [[Sovereignty]] · [[Attunement]]
 **Opens onto:** [[Interfeeling]] · [[The Seven-Field Emotion Page Pattern]] · [[The Act Of Release]] · [[Fear]] · [[Grief]] · [[Anger]] · [[The compass question]] · [[Check In]]
 **In play:** the day · the Room · the table
-**Sources:** `Emotion` (root page — the seven steps) · `LIØNSBERG Wiki Books/The LIØNSBERG Book of Emotions` (the book's front matter) · `Mastery Of Emotions` (drafted Pattern Card — four beats: feel, read, respond, release) · lionsberg.wiki: Emotion
 **Open:** The canon states this move in three lengths and they do not agree: seven steps on the root page, **six** in the book's own front matter — which omits *release*, the step the root page calls as important as the first — and four beats on the Pattern Card. The seven-step form is carried here as the fullest; the divergence is unresolved.

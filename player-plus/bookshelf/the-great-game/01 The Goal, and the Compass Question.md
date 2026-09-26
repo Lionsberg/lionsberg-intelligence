@@ -4,7 +4,7 @@
 
 **The Goal** is ØNE. Creator's Intent. Heaven. *Here, now, everywhere, for everyone, forever.* It is the single highest, overarching and uniting aim that contains within itself and orders every other goal: the total integrated wellbeing, development and right relationship of all generations of life and consciousness. It is a direction and a way of being, always closer and never finished, like tending a garden or climbing a mountain or loving more deeply each year. The Way is the Goal, and the Goal is the Way.
 
-We already know what Heaven looks like; it is written on our hearts. Children fed, loved, laughing and free. Elders honored. Rivers running clear. Meaningful work and genuine belonging for every person. Strangers welcomed, enemies reconciled, wounds healed. A five-year-old recognizes it instantly: she points at anything hurting and asks, *"Can't we help?"*
+We already know what Heaven looks like; it is written on our hearts. Children fed, loved, laughing and free. Elders honored. Rivers running clear. Meaningful work and genuine belonging for every person. Strangers welcomed, enemies reconciled, wounds healed. A five-year-old recognizes it instantly: she points at anything hurting and asks, *"Cannot we help?"*
 
 **The compass question.** Every move in the Game is measured by one question, asked before the move:
 

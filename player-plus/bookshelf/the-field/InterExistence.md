@@ -20,5 +20,4 @@ In play it is the reason a [[Cell]] is a cell *of* something from its first week
 **Stands on:** [[ØNE]] · [[ØNE Body]] · [[Creation]]
 **Opens onto:** [[Right Relationship]] · [[Omniconsideration]] · [[Holon]] · [[Holofractal Omnifederation]] · [[Kinship]]
 **In play:** Met at the door, where a new Cell learns it has a Home and a Carrier; met at the table each week in the Offering.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the web of relational InterExistence in which All beings participate") · *Mutual Indwelling* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Root And Trunk · lionsberg.wiki: *Mutual Indwelling*.
 **Open:** Three names — InterBeing, InterExistence, Mutual Indwelling — are used for one concept across the Lexicon, the Pattern Language, and the root page, with no page stating which is the working name.

@@ -20,5 +20,4 @@ Two conditions make the difference between anti-fragility and simply being damag
 **Stands on:** [[Every Defect Is A Gift]] · [[Continuous Improvement]] · [[Structural Immunity]] · [[Living System]]
 **Opens onto:** [[Tightly Coupled Learning and Action]] · [[Retrospective]] · [[The Triadic Discipline]] · [[Composure Under Threat]] · [[Regeneration]] · [[Emergence]] · [[The Refining]]
 **In play:** beyond
-**Sources:** *Anti-Fragility* · *Resilience* (root page) · *Structural Immunity* · *Phase 2 — The Audit Ledger* (antifragility named for the substrate) · lionsberg.wiki: Anti-Fragility
-**Open:** *Resilience* is carried as an also-called while the canon's own page defines anti-fragility precisely by its difference from resilience.
+**Open:** *Resilience* is carried as an also-called while anti-fragility is defined precisely by its difference from resilience.

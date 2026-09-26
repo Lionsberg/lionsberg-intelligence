@@ -18,5 +18,4 @@ They are held lightly. Asking *why* five times by rote stops at symptoms; invest
 **Stands on:** [[The gap]] · [[Zero Blame Environment]] · [[Tightly Coupled Learning and Action]]
 **Opens onto:** [[Every Defect Is A Gift]] · [[Retrospective]] · [[Continuous Improvement]] · [[Quality]]
 **In play:** table · Home
-**Sources:** *Root Cause Analysis And The 5 Whys* (carries its own critique of rote use) · *The LIØNSBERG Pattern Language — Synthesized* (Element 12, where A3 Reports, Lessons Learned and Stop-Keep-Start are named) · *The LIØNSBERG Operating System* §13 — lionsberg.wiki page name: **Root Cause Analysis And The 5 Whys**
 **Open:** *A3 Reports* itself is a named instrument with no page of its own; only the five whys is written out.

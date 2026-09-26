@@ -22,5 +22,4 @@ At a table: a Cell's companion must read thirty pages before its human can judge
 **Stands on:** [[Agent Archetype]] · [[Subagent]] · [[Delegation]] · [[Second reader]]
 **Opens onto:** [[General Agent]] · [[Sovereign Agent]] · [[Instrument]] · [[Provenance]] · [[Semantic Capture]] · [[Every Defect Is A Gift]] · [[Wise Right Speech]] · [[Holon]]
 **In play:** Home — sent, read, and dissolved inside one sitting
-**Sources:** `Projects/the term pages/Fleet.md` · `Projects/the term pages/Subagent.md`, `General Agent.md`, `Agent Archetype.md` (drafts) · lionsberg.wiki: Delegation
 **Open:** The page names its own caution: this word, like the others in its family, names how one substrate happens to work today and is liable to be renamed when the substrate changes. · The canon carries a very loud unrelated *fleet* in its cosmic lore, hierarchical and permanent — the opposite of this in every respect.

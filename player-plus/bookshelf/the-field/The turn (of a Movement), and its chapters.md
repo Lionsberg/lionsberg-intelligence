@@ -22,5 +22,4 @@ The shape generalises past books. Any body that has more to say than a newcomer 
 **Stands on:** [[The One Book]] · [[Levels of Abstraction]] · [[The vocabulary ladder]]
 **Opens onto:** [[The Turn]] · [[The Book Beneath the Book]] · [[The face (a holon's first page)]] · [[Bottom Line Up Front]] · [[Every Page Lives Within A Volume]] · [[The Layered Architecture]] · [[Semantic Capture]]
 **In play:** the Workshop — the shape anything long is written in
-**Sources:** `LIØNSBERG Wiki Books/The One Book/The One Book.md`, §The shape of the Book
-**Open:** **Word collision:** the field's [[The Turn]] is the weekly gathering; this is a unit of reading, and nothing in the corpus acknowledges the clash. · Nothing states how a turn is kept faithful to chapters that keep changing beneath it.
+**Open:** **Word collision:** the field's [[The Turn]] is the weekly gathering; this is a unit of reading, and nothing yet acknowledges the clash. · Nothing states how a turn is kept faithful to chapters that keep changing beneath it.

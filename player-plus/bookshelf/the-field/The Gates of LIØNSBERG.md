@@ -20,5 +20,4 @@ What is offered is freely given. Nothing must be believed, no identity surrender
 **Stands on:** [[The Golden Seed]] · [[The Invitation]] · [[The Threshold (of the Path)]]
 **Opens onto:** [[Welcome to LIØNSBERG]] · [[The 144 Gates of Initiation]] · [[The 72 Gates of the Sacred Ascent]] · [[The Eternal Divine Play]] · [[The Story of LIØNSBERG]] · [[Cell]] · [[Pass The Flame]]
 **In play:** door
-**Sources:** *The Gates of LIØNSBERG* · *The Sovereign Path*, §The Threshold (canon-grade) — lionsberg.wiki · the seed text *The DNA of Heaven*, Part V and Part XIII.
 **Open:** The field's row cites `root/The Gates of LIØNSBERG` and the Sovereign Path links the same concept as *README*; the wiki keeps both, and which is the canonical home is unstated. · The singular *Gate* — the Game's door, through which anyone may leave in peace — is a different thing from these Gates and from the 144.

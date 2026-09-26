@@ -18,5 +18,4 @@ How it is kept. Gather weekly, the same day if you can. Roll the look-ahead each
 **Stands on:** [[The Turn]] · [[Rhythm]] · [[Cell]]
 **Opens onto:** [[Season]] · [[The turnings]] · [[The Clock of the Game]] · [[The Daily Way]] · [[Minimum standards of interoperability]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §8 · *The Game at the Table*, §The week (current best understanding) · *The Sovereign Path*, §Rhythms · The DNA of Heaven, Part V · lionsberg.wiki: **The LIØNSBERG Operating System**
 **Open:** *Heartbeat* and *Turn* are used interchangeably across the Operating System, the Little Book, and the modules; the field reads Heartbeat as the body-scale view of the Turn, which no page states outright.

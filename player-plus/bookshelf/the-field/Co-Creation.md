@@ -20,5 +20,4 @@ In play it is the most ordinary thing at the table: each person says what they w
 **Stands on:** [[Creation]] · [[Consciousness]] · [[Creator's Intent]]
 **Opens onto:** [[Divine Participation]] · [[The Creative Cascade]] · [[Co-Creating Heaven]] · [[Embodiment]]
 **In play:** Met at the table from the first week — the commitment, the Offering, the Quest — and named again at the Gate, where a player chooses to be a maker rather than a watcher.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("participatory unfolding of the Will of the ØNE through All") · *Co-Creation* (root page) · *Pillar I — Sacred Ontology and Metaphysics*, Narrative · lionsberg.wiki: *Co-Creation*.
 **Open:** none found.

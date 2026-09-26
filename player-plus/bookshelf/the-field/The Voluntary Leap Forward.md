@@ -22,5 +22,4 @@ It is personal before it is collective. A Circle can be the catching arms; it ca
 **Stands on:** [[The Meta Crisis as Push, The Goal as Pull]] · [[Consent]] · [[The Decision]] · [[Threshold]]
 **Opens onto:** [[Cross The Threshold]] · [[The Threshold (of the Path)]] · [[Rites of Passage]] · [[The Wilderness]] · [[Initiation]] · [[Ontological Shock]] · [[The Asymmetry of Consequences]] · [[The Invitation]]
 **In play:** the door — the moment a Player stops considering and enters
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Voluntary Leap Forward.md`
 **Open:** The Card calls the leap irrevocable and also describes people returning to old structures for tactical reasons; what exactly is irrevocable is not pinned down. · The three-sign test names no way to tell genuine confirmation from wishful certainty, which is the failure mode it most needs to guard.

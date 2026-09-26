@@ -19,5 +19,4 @@ In the Game, Heaven is what a [[Cell]] describes when each member is asked *how 
 **Stands on:** [[ØNE]] · [[The Goal]] · [[Right Relationship]] · [[Love]]
 **Opens onto:** [[The compass question]] · [[Hell On Earth]] · [[Vision]] · [[Worksite Earth]] · [[The Promised Land]] · [[Co-Creating Heaven]] · [[Quest]]
 **In play:** At the door, as the answer to *what are we playing toward*; at the table, as the Vision every Quest is cut from; at each Gate of the Path, as the condition being embodied rather than awaited.
-**Sources:** `Heaven On Earth` · `Heaven and Hell as Co-Created Trajectories` · `Heaven Here and Nøw` (root) · `The 12 Pillars of LIØNSBERG` · `The Twelve Words` (Little Book) · `The DNA of Heaven`. lionsberg.wiki: **Heaven On Earth**.
 **Open:** The root page treats Heaven as Vision, Intention, and Goal at once; the Card treats it as the terminus of a trajectory. Both hold, but a reader meeting only one will mistake a pole for a place.

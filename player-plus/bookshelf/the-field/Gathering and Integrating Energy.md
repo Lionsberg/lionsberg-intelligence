@@ -16,11 +16,10 @@ The warning the chapter gives is specific and worth carrying plainly: the things
 
 Two things keep it from becoming fearfulness. Testing is not avoidance: the point is discernment about what to take in, not a life narrowed to the safe ([[Dangerous But Good]], [[Courage]]). And the capacity grows by use — the ability to sense and test opens reciprocally as a person practises, cleanses and gains skill, so a beginner's poor readings are the expected starting condition rather than a verdict ([[Attunement]], [[Shoshin]], [[The Living Gradient]]).
 
-The chapter also makes the link the canon cares most about: being discerning about the energies you interact with is the cornerstone of ceasing to harm yourself — and therefore of ceasing to fuel what harms everyone ([[First, Do No Harm]]). What is gathered here is spent in the chapter that follows, where work that produces throughput of the Goal is [[Value]] and the rest is [[Waste]].
+The chapter also makes the link that matters most: being discerning about the energies you interact with is the cornerstone of ceasing to harm yourself — and therefore of ceasing to fuel what harms everyone ([[First, Do No Harm]]). What is gathered here is spent in the chapter that follows, where work that produces throughput of the Goal is [[Value]] and the rest is [[Waste]].
 
 **Also called:** testing the energy of a thing · gathering energy
 **Stands on:** [[Energy]] · [[Discernment]] · [[Vitality]] · [[Perception]]
 **Opens onto:** [[Associative And Dissociative Energy]] · [[Waste]] · [[First, Do No Harm]] · [[Nutrition]] · [[Sleeping]] · [[Moving]] · [[Rest And Regeneration]] · [[Sensing The Field]] · [[Attunement]] · [[TimeEnergy]] · [[Distortion]] · [[Spending Attention]]
 **In play:** the daily practice — at every meal, every feed, every invitation, every yes
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/10. Gathering and Integrating Energy.md` · the same book's chapters 5, 8 and 11 · lionsberg.wiki: The Wisdom of the Way
-**Open:** The chapter names types and polarities of energy, centres of association and dissociation, and an energy-work practice through which the sensing capacity opens; none of the three is described anywhere the chapter points to. · *Everything Is Energy* is invoked as an established claim and has no page.
+**Open:** The chapter names types and polarities of energy, centres of association and dissociation, and an energy-work practice through which the sensing capacity opens; none of the three is described anywhere the chapter points to.*Everything Is Energy* is invoked as an established claim and has no page.

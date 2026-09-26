@@ -18,5 +18,4 @@ Two disciplines keep it honest. The handoff, because the successor is the custom
 **Stands on:** [[Conditions of satisfaction]] · [[Design To The Goal]]
 **Opens onto:** [[A3 Reports]] · [[Every Defect Is A Gift]] · [[The gap]] · [[Continuous Improvement]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §13 · *The LIØNSBERG Pattern Language — Synthesized* (Elements 10 and 12; *First Run Studies* named, body not yet written) · *The Economic Case For IPD* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Quality**
 **Open:** *First Run Studies* is named in the Pattern Language inventory without a page of its own.

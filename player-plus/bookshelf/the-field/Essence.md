@@ -22,5 +22,4 @@ The concept is a single Lexicon line; the field around it is carried by the page
 **Stands on:** [[ØNE]] · [[Logos]] · [[Being]]
 **Opens onto:** [[Purpose]] · [[Archetype]] · [[Ideal]] · [[Essences, Renderings, And Ineffable Referents]]
 **In play:** Met at the table when a Cell names itself and its Quest; met on the Path when a player begins to see what only they can carry.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("core nature or divine blueprint of a being; underlies differentiation within the ØNE") · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Word Tools · lionsberg.wiki: *Essence*.
 **Open:** No root page or Card carries Essence on its own; everything above is drawn from one Lexicon line plus the concepts that lean on it. The relationship between Essence and [[Archetype]] is asserted in The Creative Cascade but never worked through.

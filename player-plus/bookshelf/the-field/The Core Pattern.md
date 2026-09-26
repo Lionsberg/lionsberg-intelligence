@@ -14,7 +14,7 @@ It is not a theory. The same pattern was found independently by a Basque priest 
 
 The Core Pattern is load-bearing as a *regrowth kernel*. Millions of words stand behind it, and millions of words cannot be passed hand to hand. If the library is lost and this page survives, a Circle can rebuild from it: name the Elements as Cards, keep the Turn, write down what you discover. That is the design intent — the Seed, not the forest.
 
-It is also the sharpest instrument for diagnosis. The Elements are an integrated system rather than a menu: remove any one and the whole degrades in a predictable way, and the canon names each failure. A Body in trouble can usually find its trouble by asking which Element has gone quiet.
+It is also the sharpest instrument for diagnosis. The Elements are an integrated system rather than a menu: remove any one and the whole degrades in a predictable way, and each failure is named. A Body in trouble can usually find its trouble by asking which Element has gone quiet.
 
 All twelve emanate from [[ØNE]]. The Elements are the DNA; [[ØNE]] is the Source of the DNA; what is being built on Earth is one [[Instantiation]] of it.
 
@@ -22,5 +22,4 @@ All twelve emanate from [[ØNE]]. The Elements are the DNA; [[ØNE]] is the Sour
 **Stands on:** [[ØNE]] · [[Spirit Precedes Pattern]] · [[Love]] · [[The Goal]]
 **Opens onto:** [[Twelve Irreducible Elements]] · [[The Pattern of Cooperation]] · [[The Pattern of Production]] · [[The Constitutional Recognitions]] · [[The Seed In One Sentence]] · [[The Emergence of the Core Pattern]] · [[The Golden Seed]]
 **In play:** beyond
-**Sources:** *The Core Pattern* (canon-grade) · *Twelve Irreducible Elements* (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The Core Pattern
 **Open:** The Core Pattern page presents the twelve Elements without the seven Recognitions; the 12+7 framing is stated in the Pattern Language. The two pages are consistent but not identical in scope.

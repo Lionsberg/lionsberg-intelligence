@@ -24,5 +24,4 @@ Every key traces to a living person. An agent writes only under a delegation whi
 **Stands on:** [[The Record]] · [[Signed key]] · [[An address]] · [[Provenance]]
 **Opens onto:** [[The event kinds]] · [[Witness]] · [[Commitment]] · [[Key]] · [[Nucleus]] · [[Decision Records]] · [[Interoperability]] · [[The Game Engine]] · [[Sighting]]
 **In play:** the table · Home — one dated line, signed, per thing that happened
-**Sources:** `Projects/the term pages/Event.md` · `The Record Protocol — Events, Addresses, Replication, and the Calculable Holarchy` (spec v0) · `The Record` (wiki) · lionsberg.wiki: The Record
 **Open:** The paper floor — hand-signed dated lines with page numbers for links — is described and has never been run by anyone. · Nothing states how a person revokes a key that has been lost or taken, or what becomes of the lines it already signed.

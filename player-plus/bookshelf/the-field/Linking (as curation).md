@@ -18,7 +18,6 @@ And the human half is not optional. What a person adds when they link is a *read
 
 **Also called:** linking · linking to curate
 **Stands on:** [[Curation]] · [[Link concepts, not coordinates]] · [[Knowledge as commons]]
-**Opens onto:** [[The Incipient Link]] · [[The Living Library]] · [[One canonical home per concept]] · [[Weave, don't delete]] · [[Pattern Recognition]] · [[The Field]] · [[Wiki Is Primary And Standalone]] · [[Naming]]
+**Opens onto:** [[The Incipient Link]] · [[The Living Library]] · [[One canonical home per concept]] · [[Weave, do not delete]] · [[Pattern Recognition]] · [[The Field]] · [[Wiki Is Primary And Standalone]] · [[Naming]]
 **In play:** Home — twenty minutes, by whoever noticed
-**Sources:** `LIØNSBERG Wiki Blogs/the starter kit's Journal/Curation Example — 'community currency'` (a 2022 journal post; *linking, one of the true strengths of wiki* — author's voice preserved) · *The DNA of Heaven*, Part IV, §Knowledge as commons · lionsberg.wiki: Knowledge As Commons
-**Open:** Named in a single demonstration post; the canon carries the practice everywhere and states it nowhere as a convention of its own.
+**Open:** Named in a single demonstration post; the practice is carried everywhere and stated nowhere as a convention of its own.

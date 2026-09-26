@@ -20,5 +20,4 @@ For a Cell this is ordinary. Guard the membrane on purpose: decide what is visib
 **Stands on:** [[Love]] · [[Stewardship]] · [[Right Relationship]] · [[Integrity]]
 **Opens onto:** [[Warrior]] · [[The Sacred Use Of Force]] · [[Restraint As The Refusal To Act]] · [[Withdrawal Of Consent]] · [[Guard the Membrane]] · [[Boundary]] · [[Stop]]
 **In play:** the door · the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *Pillar X — Sacred Guardianship and Order*, theses 6, 8, 9, 10 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · the seed's Part V, the floor beneath all of it. lionsberg.wiki: Guardianship.
-**Open:** The five-rung ladder is stated as such in the seed and assembled from scattered Warrior-domain names in the Pattern Language; no canon page sets it out in order.
+**Open:** The five-rung ladder is stated as such in the seed and assembled from scattered Warrior-domain names in the Pattern Language; no page yet sets it out in order.

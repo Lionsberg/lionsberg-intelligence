@@ -20,5 +20,4 @@ Its practical genius is that it asks the smallest possible thing and makes it co
 **Stands on:** [[Silence And Stillness As The Ground]] · [[The Daily Way]] · [[Intention]] · [[Coherence]]
 **Opens onto:** [[Aligned Will]] · [[Sensing The Field]] · [[Heaven On Earth]] · [[The Turn]] · [[Holofractal Scaling]] · [[The Sacred Ascent]]
 **In play:** Gate
-**Sources:** *The Coherent Divine Intention Wave* (Card, written) · *The Daily Way* (Card, written) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: The Coherent Divine Intention Wave
 **Open:** none found

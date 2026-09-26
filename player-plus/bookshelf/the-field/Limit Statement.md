@@ -20,5 +20,4 @@ The practical use is small and constant. A page about something ineffable says s
 **Stands on:** [[The Ineffable]] · [[Essences, Renderings, And Ineffable Referents]] · [[Word Tools]] · [[Mystery]]
 **Opens onto:** [[Boundaries and Limits of Conception]] · [[Do Not Concretize the Absolute]] · [[The Eternally Nameless]] · [[Current Best Articulation]] · [[Mythos]] · [[A Word on Words]]
 **In play:** beyond
-**Sources:** The LIØNSBERG Lexicon, Boundaries and Limits of Conception, entry 80 (the entry is a name and a link, with no body) · The LIØNSBERG Lexicon, Meta Layer · lionsberg.wiki: *The LIØNSBERG Lexicon*
-**Open:** no page stands at *Limit Statement* or *Limit Stories* in the canon; the term is named in the Lexicon's outermost list and articulated nowhere. The sense given here is drawn from the Meta Layer's own statement about its renderings.
+**Open:** no page stands at *Limit Statement* or *Limit Stories*; the term is named in the Lexicon's outermost list and articulated nowhere. The sense given here is drawn from the Meta Layer's own statement about its renderings.

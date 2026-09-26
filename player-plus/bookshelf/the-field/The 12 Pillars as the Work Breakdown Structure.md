@@ -22,5 +22,4 @@ Stated once in its source, with no worked example. Two questions it does not ans
 **Stands on:** [[Work Breakdown Structure]] · [[Pillars of Society]] · [[Quest]]
 **Opens onto:** [[Choose a Quest]] · [[The Zone Of Optimum Development]] · [[Measure everything, manage to the milestones]] · [[The Record]] · [[Fostering Ecosystemic Resource Flows]] · [[Every Quest Is A Project]] · [[The Aim Cascade]] · [[Silos No More]]
 **In play:** the table — when a Cell places its quest, and at the season's harvest
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §VII
 **Open:** No example exists of a real quest placed on the structure. · Quests that span several domains are unaddressed, and most real ones do. · Who reads the aggregate, in a body with no centre, is unstated.

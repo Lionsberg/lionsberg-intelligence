@@ -20,5 +20,4 @@ Its failure is rarely dramatic. It goes in small increments: a commitment made t
 **Stands on:** [[Truth]] · [[Honor]] · [[Commitment]] · [[Right Relationship]]
 **Opens onto:** [[Trust]] · [[The gap]] · [[Kept as a share of made]] · [[A word given is a word kept]] · [[Transparency]] · [[Accountability]] · [[Warrior]]
 **In play:** the table · the Room · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Cardinal Values (canon-grade) · *Pillar X — Sacred Guardianship and Order*, the narrative on choosing guardians (canon-grade) · the seed's Part V and Part VII. lionsberg.wiki: Integrity.
 **Open:** Integrity is listed as a cardinal value and as a Pillar X term without either page defining how it differs from [[Honor]]; the two lines are close enough to be one concept.

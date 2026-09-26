@@ -22,5 +22,4 @@ Stated once, as mechanism, with no instrument. No template for a personal consti
 **Stands on:** [[The New Covenant]] · [[Field of Agreements]] · [[Consent]]
 **Opens onto:** [[The LIØNSBERG Constitution]] · [[Covenant]] · [[Voluntary Association]] · [[Higher Order Agreements]] · [[Form a Cell]] · [[Charter]] · [[The Pledge]] · [[Seal the Circle]]
 **In play:** the door — how a person actually enters, before any Cell is formed
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame - Illuminating the Way Beyond the Meta Crisis.md` §VII, §IV (no instrument exists)
 **Open:** No template for the personal constitution, and it is the load-bearing artefact. · Nothing states what the incorporation refers to, given that the covenant is held to be unwritten. · No conflict rule between a person's own agreements and the shared covenant.

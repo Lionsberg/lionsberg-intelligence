@@ -14,11 +14,10 @@ It is why membership in the Game reaches past one's own table. From the first da
 
 It composes with the immediate neighbours in the architecture. [[Subsidiarity Of Authority]] says where a decision belongs; the two stakes say who must care about it. [[Holofractal Scaling]] says each scale is complete; the two stakes keep completeness from becoming isolation. [[Design To The Goal]] and the discipline of optimizing for the Whole rather than the pieces are the production-side expression of the same thing.
 
-Its standing should be said: the principle is named repeatedly across the Pattern Language, the FSx section, and the Playbook chart, and the canon's own ledger lists it among the architecture anchors that have no page. It is a keystone that has been pointed at from many directions and never written.
+Its standing should be said: the principle is named repeatedly across the Pattern Language, the FSx section, and the Playbook chart, and the ledger here lists it among the architecture anchors that have no page. It is a keystone that has been pointed at from many directions and never written.
 
 **Also called:** —
 **Stands on:** [[Holofractal Omnifederation]] · [[Holofractal Scaling]] · [[Accountability]] · [[InterExistence]]
 **Opens onto:** [[Subsidiarity Of Authority]] · [[Federations vs Empires]] · [[The Season Sheet]] · [[Stacking Up And Aligning]] · [[Design To The Goal]] · [[Levels Of Scale]] · [[Federation]]
 **In play:** Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Playbook* (§Federation, Playbook Chart) · *The Great Weaving — Concept Ledger* (architecture anchors without pages) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
-**Open:** Named in at least four places and articulated in none; the canon's ledger records it as a keystone still to be born.
+**Open:** Named in at least four places and articulated in none; the ledger records it as a keystone still to be born.

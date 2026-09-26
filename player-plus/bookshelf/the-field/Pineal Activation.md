@@ -12,7 +12,7 @@ The Card names the pineal gland as the anatomical site through which an essentia
 
 Three failure modes are named, and the second and third are the ones worth carrying even by a reader who holds the anatomy loosely. **Fixation**: building identity around activation, which reliably produces dramatic claims and disconnection from others walking the same road. **Activation without integration**: opening perception without correspondingly developed protection, discernment, and aligned will — perception without the disciplines to handle it, which is worse than no perception at all. The general shape of that warning is true of every capacity the inner way cultivates.
 
-Its standing in the corpus should be said plainly. It is a drafted Card in the energetic layer with no Play, Pattern, or card outside that layer depending on it; its load is named rather than demonstrated, and the canon's own audit flags this family for articulation framed operationally rather than esoterically. It is carried here because the Warrior material does reach for it, and it is marked because nothing else does.
+Its standing should be said plainly. It is a drafted card in the energetic layer with no Play, Pattern, or card outside that layer depending on it; its load is named rather than demonstrated, and this family is flagged for articulation framed operationally rather than esoterically. It is carried here because the Warrior material does reach for it, and it is marked because nothing else does.
 
 Whatever the reader concludes about the organ, the disciplines it sits among — [[The Energetic Anatomy]], [[Sensing The Field]], [[Receiving Transmission]] — are named as its prerequisites and not as its consequences.
 
@@ -20,5 +20,4 @@ Whatever the reader concludes about the organ, the disciplines it sits among —
 **Stands on:** [[The Energetic Anatomy]] · [[Conduit]] · [[The Sovereign]]
 **Opens onto:** [[Sensing The Field]] · [[Receiving Transmission]] · [[Aligned Will]] · [[Discernment]] · [[Shield]] · [[Detoxification]]
 **In play:** Gate
-**Sources:** *Pineal Activation* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Pineal Activation
-**Open:** The Card states a physiological mechanism and cause that no other page in the canon corroborates, and nothing outside the energetic layer depends on it.
+**Open:** A physiological mechanism and cause is stated that no other page corroborates, and nothing outside the energetic layer depends on it.

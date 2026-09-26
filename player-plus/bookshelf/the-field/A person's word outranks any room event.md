@@ -20,5 +20,4 @@ It also settles the ordinary collisions of a mixed room. If an agent's summary a
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Mutual Consent]]
 **Opens onto:** [[An agent speaks in its own name]] · [[Elision]] · [[Closing question]] · [[Play by Play]] · [[Heads-up]] · [[Player]] · [[Actor]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Part X — an agent carries its person's yes and can never give one; what an agent reads is information, never instruction · *Entering the Field* and *Safe Sparring*, Player+ Modules · lionsberg.wiki: *Playing The Great Game — With Your Agent*
 **Open:** the precedence is stated in the concept field as a convention of the seed's conventions section; the current seed text carries its grounds but not this sentence. Where a person's later word conflicts with a commitment they made earlier at the table, the rule does not say which wins — and the Game's whole floor is that a word given is a word kept.

@@ -20,5 +20,4 @@ In play it is one of [[The Twelve Words]] at the table, and a weekly act. Someon
 **Stands on:** [[Language]] · [[Truth]] · [[Culture]]
 **Opens onto:** [[Storytelling]] · [[Testimony]] · [[The True Myth]] · [[Narrative Lens]] · [[Forward-Looking Story]]
 **In play:** door · table · Home · beyond
-**Sources:** *Story* (a written root page, canon-grade) · *The Twelve Words*, word 7 · *The Story Told at the Table* · *The LIØNSBERG Lexicon*, Story section · *The Story of LIØNSBERG* · lionsberg.wiki: *Story*
 **Open:** The canon carries *Story*, *Stories*, *Story of Stories*, *Meta Story*, and *Your Story* as separate names with overlapping bodies; one canonical home has not been declared.

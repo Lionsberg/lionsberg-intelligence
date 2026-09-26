@@ -20,5 +20,4 @@ Beside its neighbours it is precise. A [[Guild]] shares practice across many gro
 **Stands on:** [[Cell]] · [[Current Best Understanding]] · [[Cell Types]] · [[Guidance]]
 **Opens onto:** [[Request For Guidance]] · [[Guild]] · [[Wisdom Council]] · [[Council]] · [[Knowledge as commons]] · [[Curation]] · [[Subsidiarity]]
 **In play:** Home · beyond — wherever a Cell needs to know something it does not hold
-**Sources:** `Guide Cells.md` (wiki root) · `Cell Types.md` (wiki root) · `Request For Guidance.md`, `Process For Requests For Guidance` · lionsberg.wiki: Guide Cells
 **Open:** Who decides who belongs to a Guide Cell, and with what legitimacy, is unanswered — it is the same open question a neighbouring body has raised about domain communities, and the two have not been mapped to each other. · Nothing states what happens when two Guide Cells in adjacent domains give contradictory guidance.

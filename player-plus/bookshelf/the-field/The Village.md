@@ -20,5 +20,4 @@ It is also the natural unit of standing alone. When something larger fails, a Vi
 **Stands on:** [[The Neighborhood]] · [[Cell]] · [[Trust]] · [[Levels Of Scale]]
 **Opens onto:** [[Community]] · [[The Microlocality]] · [[The 300]] · [[Holofractal Omnifederation]] · [[Stacking Up And Aligning]]
 **In play:** beyond the table
-**Sources:** `Village`, a Card of LIØNSBERG, Earth, and the Cosmos · `Levels of Scale` (canon-grade) · The LIØNSBERG Playbook, Foundation · The Sovereign Path (canon-grade) · The DNA of Heaven, Part IV · lionsberg.wiki: Village
 **Open:** none found.

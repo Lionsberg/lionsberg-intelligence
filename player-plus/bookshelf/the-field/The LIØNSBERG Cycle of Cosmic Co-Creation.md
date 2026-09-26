@@ -19,5 +19,4 @@ It is held as a draft. The Cycle is intended to be inter-informed by the layered
 **Stands on:** [[ØNE]] · [[Logos]] · [[The Eternally Nameless]]
 **Opens onto:** [[The Golden Seed]] · [[Instantiation]] · [[Pass The Flame]] · [[Story]] · [[Purpose]] · [[Weaving vs. Starting New]] · [[The Cosmic Body]] · [[Fibonacci]]
 **In play:** Beyond the table — met by those planting a new instance in a new place or tradition and wanting to know what comes in what order.
-**Sources:** `The LIØNSBERG Cycle of Cosmic Co-Creation` · `The Great Weaving — Concept Ledger` §A.8 · `25. The Cycle of Cosmic Co-Creation` (the narrative form). lionsberg.wiki: **The LIØNSBERG Cycle of Cosmic Co-Creation**.
 **Open:** The Ledger records a second file at the same name as "referenced but missing", and marks a distillation Card as still to be authored; the root page's stage numbering starts at 0 and has not been reconciled with the narrative chapter's ordering.

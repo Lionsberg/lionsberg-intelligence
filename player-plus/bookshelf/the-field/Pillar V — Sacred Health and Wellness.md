@@ -20,5 +20,4 @@ This is the least finished of the twelve. The healers' guidebook does not yet ex
 **Stands on:** [[The Goal]] · [[Right Relationship]] · [[Living System]] · [[Temple]]
 **Opens onto:** [[Healing]] · [[Wellness]] · [[Regeneration]] · [[Rest And Regeneration]] · [[Mental Health]]
 **In play:** table · Home · beyond
-**Sources:** *Pillar V — Sacred Health and Wellness* (canon-grade) · *The 12 Pillars of LIØNSBERG* (canon-grade) · *The LIØNSBERG Lexicon*, Pillar V table · lionsberg.wiki: *Pillar V — Sacred Health and Wellness*
 **Open:** The canon names this Pillar two ways — *Sacred Health and Wellness* on the Pillar page and the Pillars hub, *Sacred Health and Healing* in the Lexicon and in the Pillar page's own theses. Not resolved here.

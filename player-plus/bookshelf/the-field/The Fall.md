@@ -20,5 +20,4 @@ In the Game the Fall is met personally long before it is met cosmically. A playe
 **Stands on:** [[The Veil of Finitude and Forgetting]] · [[ØNE Body]] · [[One of the Ones of the ØNE]] · [[The Sacred Arc]]
 **Opens onto:** [[Kontrolle]] · [[The Caves]] · [[Hell On Earth]] · [[Evil]] · [[Sin]] · [[Awakening]]
 **In play:** door · Gate
-**Sources:** *The Story of LIØNSBERG — The Sacred Arc*, Movement V (canon-grade) · *The Story of LIØNSBERG* (canon-grade) · *Kontrolle* — lionsberg.wiki · the seed text *The DNA of Heaven*, Part II.
 **Open:** No standalone page for *The Fall* exists at the wiki root; the movement is held inside the Arc and the long telling. · The relationship between the Fall as told here and [[Sin]] as a Pillar I term is named in both places and cohered in neither.

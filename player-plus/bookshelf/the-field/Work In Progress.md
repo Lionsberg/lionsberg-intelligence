@@ -20,5 +20,4 @@ The senses are one condition at two scales. An unfinished world is carried the w
 **Stands on:** [[Everything Is Current Best Understanding]] · [[Networks of Commitments]] · [[Flow]]
 **Opens onto:** [[Progressive canonization]] · [[The look-ahead]] · [[Commitment]] · [[The Turn]] · [[The Board]] · [[Like Gold Refined Seven Times]] · [[Every Defect Is A Gift]]
 **In play:** table · beyond
-**Sources:** Work In Progress (the page carries both senses) · The LIØNSBERG Lexicon header, which marks itself a work in progress · lionsberg.wiki: *Work In Progress*
 **Open:** none found.

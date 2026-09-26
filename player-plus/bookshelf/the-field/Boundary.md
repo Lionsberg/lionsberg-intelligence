@@ -22,5 +22,4 @@ At the table it is ordinary and daily: what I will do and what I will not, said 
 **Stands on:** [[Sovereignty]] · [[Consent]] · [[Guardianship]] · [[Integrity]]
 **Opens onto:** [[Selectively Permeable Membrane]] · [[Guard the Membrane]] · [[Withdrawal Of Consent]] · [[The Way Out]] · [[Threshold]] · [[Shield]]
 **In play:** the door · the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *The Boundary* · *The LIØNSBERG Pattern Language — Synthesized*, Sovereign And Path · the seed's Part IV, the membrane and the freedom to leave. lionsberg.wiki: Boundary · The Boundary.
 **Open:** Two distinct senses share this name — the personal limit and the Old-World crossing — and the root page carries only the second. Nothing states which is the canonical home of the word.

@@ -14,11 +14,10 @@ For this body it is not an analogy but the operating assumption. A [[Cell]] is s
 
 Three conditions make it work rather than merely hoped for. **Local rules simple enough to be actually followed** — the reason the Game's core is short and copyable ([[The Core Pattern]] · [[The Twelve Words]]). **Feedback that reaches the part quickly enough to change its next move** — the weekly rhythm and the visible record ([[The Turn]] · [[The Record]] · [[Retrospective]]). And **freedom to act without permission**, because a part that must ask upward is not interacting locally at all ([[Consent]] · [[Voluntary Association]]).
 
-The honest limit belongs on the page: self-organization produces *an* order, not necessarily a good one. Panics, cartels, mobs and captures are all self-organized. What decides which order appears is the local rule the parts are running, which is exactly why the canon spends so much of itself on the pattern rather than on the structure — the pattern is the rule, and the rule is the only steering there is ([[Spirit Precedes Pattern]] · [[The Pattern That Works]] · [[The Anti-Patterns]]).
+The honest limit belongs on the page: self-organization produces *an* order, not necessarily a good one. Panics, cartels, mobs and captures are all self-organized. What decides which order appears is the local rule the parts are running, which is exactly why so much attention goes to the pattern rather than to the structure — the pattern is the rule, and the rule is the only steering there is ([[Spirit Precedes Pattern]] · [[The Pattern That Works]] · [[The Anti-Patterns]]).
 
 **Also called:** spontaneous order · self-organization
 **Stands on:** [[Living System]] · [[Complex Adaptive Living System]] · [[Emergence]]
 **Opens onto:** [[Stigmergy]] · [[Self-Governing, Self-Sustaining, and Self-Replicating]] · [[Holofractal Omnifederation]] · [[Subsidiarity]] · [[The Core Pattern]] · [[Fractal]] · [[Islands of Coherence]] · [[Pillar VI — Sacred Ecology and Living Systems]]
 **In play:** the Room and beyond — the reason a Cell is not told what to do and the body still coheres
-**Sources:** `Self Organizing` · `Stigmergy`, `Emergence` (root pages) · lionsberg.wiki: Self Organizing
-**Open:** The root page is received definition only; the three conditions and the limit clause are synthesis. · The canon also carries `Self Organization` and `Self Governing` as separate root names covering overlapping ground, and none of them points at the others.
+**Open:** The root page is received definition only; the three conditions and the limit clause are synthesis. · This body of writing also carries `Self Organization` and `Self Governing` as separate root names covering overlapping ground, and none of them points at the others.

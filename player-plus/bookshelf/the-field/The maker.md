@@ -20,5 +20,4 @@ None of this is cause for suspicion of any particular company. It is simply the 
 **Stands on:** [[Language model]] · [[Set-up]] · [[Hosted service]]
 **Opens onto:** [[Drift]] · [[Safety check]] · [[What it is running]] · [[Key]] · [[Sovereignty]]
 **In play:** beyond
-**Sources:** Player+ Modules, *How an AI Agent Works*, *Before Your First Room*, *An Agent That Attends to You* · The DNA of Heaven, Part X.
 **Open:** none found.

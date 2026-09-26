@@ -20,5 +20,4 @@ The paper floor is a page of rows and a will said out loud at the table; a Cell 
 **Stands on:** [[Commitment]] · [[A word given is a word kept]] · [[SHOULD-CAN-WILL-DID]] · [[The Record]]
 **Opens onto:** [[The Candidates table]] · [[The states of a commitment]] · [[A WILL is never inferred]] · [[Networks of Commitments]] · [[The Pledge]] · [[Kept as a share of made]] · [[The Heartbeat]]
 **In play:** the table · Home — filled at the Turn, read whenever anyone asks what we owe
-**Sources:** `Projects/The Kit 2026-09/The Commitment Tracker — Could · Should · Can · Will · Did (the Kit, v0)` · `Projects/The Kit 2026-09/The Minimum Standards of Interoperability…`, the commitments row · `Making And Securing Commitments`, `Networks of Commitments` (wiki root) · lionsberg.wiki: Commitment
-**Open:** Three state vocabularies for a commitment are live in the canon at once, and the Tracker's is only one of them ([[The states of a commitment]]). · Nothing states how a commitment between two Cells is held when the two registers disagree.
+**Open:** Three state vocabularies for a commitment are live at once, and the Tracker's is only one of them ([[The states of a commitment]]). · Nothing states how a commitment between two Cells is held when the two registers disagree.

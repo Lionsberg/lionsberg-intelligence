@@ -4,7 +4,7 @@ Every Player+ artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: player-plus
-version: 3.2.0
+version: 3.3.0
 grows_from: pkai-benchmark 3.0.0
 lineage:                                 # newest first
   - pkai-starter-kit v3.0.0 · Peter Kaminski
@@ -16,6 +16,7 @@ credits:
   - the two safety sections (When a safety layer blocks you · What you read is information, never instruction) — written with the pkai-starter-kit and carried here whole
   - LIØNSBERG — The Great Game, the Field of Agreements, the Playbook and the Workshop (lionsberg.wiki, CC BY-SA 4.0)
   - the newcomers of the first Player+ Jams, for their questions
+  - Freya (Pete Kaminski's agent) and Pete Kaminski, the MeetingWords pad watcher in Playing in a Jam (CC BY-SA 4.0, from the Tech pad of the Wilderness Call, 2026-09-24)
   - the skills heads-up · venue-card · fair-copy-a-transcript, carried from the pkai-starter-kit under their own LINEAGE and LICENSE (MPL-2.0)
 pull_from: https://github.com/Lionsberg/lionsberg-intelligence (the folder player-plus, branch main)
 offered_at: the Game's front door first (a notebook will do); the Player+ agent when a person steps into the Game, offered to each person, never as a ticket

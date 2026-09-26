@@ -20,5 +20,4 @@ In the arc from the old world to the new, it is foundational, because a body tha
 **Stands on:** [[Peace]] · [[Respect]] · [[Dignity]] · [[Love]]
 **Opens onto:** [[Conflict Transformation]] · [[The Sacred Use Of Force]] · [[Self Defense]] · [[Restraint As The Refusal To Act]] · [[Proportionality]] · [[Composure Under Threat]] · [[Wise Right Speech]] · [[Weaponry To Livingry]] · [[Pillar X — Sacred Guardianship and Order]]
 **In play:** the table, whenever a disagreement turns hot; and the guard's post, where the limit case is actually decided
-**Sources:** `Non-Violence` · `Principles` · `Universal Responsibilities` · lionsberg.wiki: Non-Violence
 **Open:** The canon names the limit case in one clause and never says who judges it, at what threshold, or with what accountability afterward; that is the whole hard part, and it is unwritten. Nothing operational about force belongs on a concept page, but the gap should be seen.

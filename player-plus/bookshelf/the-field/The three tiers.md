@@ -20,5 +20,4 @@ In the Game the tiers are what someone holding the door chooses between. Hand th
 **Stands on:** [[The Golden Seed]] · [[The Kit]] · [[Instantiation]] · [[Kit of Parts]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[Player+ Modules]] · [[The Sacred Codex]] · [[The Rings]] · [[Knowledge as commons]] · [[The LIØNSBERG Operating System]]
 **In play:** door · table · Home
-**Sources:** the seed text *The DNA of Heaven*, Part XV as cited by the field (the three tiers are stated in the Seed rather than in the wiki) · *Player+ Modules Lexicon* (the Kit) — ØSphera, CC BY-SA 4.0.
 **Open:** The concept is the seed text's and has no wiki page; the field's citation points at a section number in an earlier seed edition, and the current seed text carries the three tiers in its own Part on the Plan and the Kit. Cited as a draft.

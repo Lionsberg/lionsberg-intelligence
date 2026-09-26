@@ -20,5 +20,4 @@ The door is a membrane, not a hole. What crosses it is decided on purpose: a bod
 **Stands on:** [[Cell]] · [[The Turn]] · [[Rhythm]] · [[Selectively Permeable Membrane]]
 **Opens onto:** [[The face (a holon's first page)]] · [[Welcoming The Stranger]] · [[Reaching Us]] · [[Guard the Membrane]] · [[The Heartbeat]] · [[Host]] · [[Room]]
 **In play:** table · Home
-**Sources:** *The Minimum Standards of Interoperability — What a Holon Carries to Be a Cell* (Projects, Kit v0, 2026-09-12) · The DNA of Heaven, Part V
 **Open:** Nothing says what a Cell does when its standing hour stops suiting its members — whether the hour is changed by consent, by season, or not at all.

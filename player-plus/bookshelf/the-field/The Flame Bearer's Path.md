@@ -8,7 +8,7 @@ pillar: —
 
 *Passing the flame, seen from the giver's side: the one who shares the Seed becomes a different person than the one who only received it.*
 
-[[Pass The Flame]] is usually described mechanically — send the link, name the two or three, do it within the week. That is the structure. The experience is something else, and it is where the transformation actually happens.
+[[Pass The Flame]] is usually described mechanically — send the link, name your three, do it within three days. That is the structure. The experience is something else, and it is where the transformation actually happens.
 
 Receiving is a moment of **recognition**: you see yourself in what you are reading. Sharing is a moment of **generation**: you become a node in how the pattern travels. The act changes the one who performs it, and four things are noticed in the performing.
 
@@ -28,5 +28,4 @@ The arithmetic that follows is the ordinary arithmetic of living things — one 
 **Stands on:** [[Pass The Flame]] · [[The Flame]] · [[The Invitation]] · [[Trust]] · [[Sovereignty]]
 **Opens onto:** [[Carrier]] · [[The 1-Day to 1-Week Threshold]] · [[The Solo Sovereign's Grace]] · [[Fibonacci Spread]] · [[Fibonacci]] · [[The First Few]] · [[Midwife a New Circle]] · [[Identity]] · [[Becoming]] · [[The Player]] · [[Transmission]] · [[The Charge Of The Receiver]]
 **In play:** alone, and then at a friend's table
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Experience/The Flame Bearer's Path.md` · `…/The 1-Day to 1-Week Threshold.md` · `Pass The Flame` · `…/Plays/Play — Pass the Flame`
 **Open:** *Every awakening soul on Earth within forty to fifty cycles* is the source page's arithmetic, an illustration of doubling rather than a projection of anything observed. · The field's rows for [[Pass The Flame]], [[The Flame]] and [[Carrier]] carry the act and the relation; the giver's own transformation sits in none of them, which is why this is a separate page and not a section.

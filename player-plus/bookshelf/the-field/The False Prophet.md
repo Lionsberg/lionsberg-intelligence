@@ -20,5 +20,4 @@ The structural answers are the ones that do not depend on judging a person corre
 **Stands on:** [[The Anti-Patterns]] · [[Discernment]] · [[Inversion]]
 **Opens onto:** [[The Golden Calf]] · [[Necessity Of Accountability]] · [[Manufactured Dependency]] · [[We Have Heard]] · [[The Pattern Governs, Not People]] · [[Lineage]] · [[Servant Leadership]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *Lineage Without Capture* (drafted Card) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
-**Open:** Named as an Anti-Pattern with no articulation; the canon names *Prophecy* as a genuine Pattern and gives no test distinguishing it from this one.
+**Open:** Named as an Anti-Pattern with no articulation; *Prophecy* is named as a genuine Pattern and no test distinguishes it from this one.

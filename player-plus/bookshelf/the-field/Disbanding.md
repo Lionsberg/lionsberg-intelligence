@@ -18,7 +18,6 @@ In play, most Cells will retire a role, a practice, or a working group long befo
 
 **Also called:** Discrete Birth And Discrete Death · dissolution
 **Stands on:** [[Legitimacy]] · [[Accountability]] · [[Stewardship]] · [[Structural Immunity]]
-**Opens onto:** [[Impeachment]] · [[The Way Out]] · [[Institutional Idolatry]] · [[Term Limits And Rotation]] · [[Council]] · [[Weave, don't delete]]
+**Opens onto:** [[Impeachment]] · [[The Way Out]] · [[Institutional Idolatry]] · [[Term Limits And Rotation]] · [[Council]] · [[Weave, do not delete]]
 **In play:** beyond — at the end of a purpose, not at the end of patience
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *The LIØNSBERG Playbook*, Foundation plays (*Discrete Birth And Discrete Death*, invoked by Play — Create Or Join A Voluntary Association) · *THE DNA OF HEAVEN* Part IV, the Community Company's six steps · lionsberg.wiki: The LIØNSBERG Playbook
 **Open:** No page; a Lexicon row and a Play invocation. What happens to a disbanded body's [[Commons]] — who inherits it, and on what terms — is unwritten, which is the question an asset lock exists to answer.

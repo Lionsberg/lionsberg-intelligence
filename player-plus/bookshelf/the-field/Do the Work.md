@@ -18,5 +18,4 @@ How it is played. Plan backward from the end, not forward from today. Roll a loo
 **Stands on:** [[Commitment]] · [[Quest]] · [[Networks of Commitments]] · [[Tightly Coupled Learning and Action]]
 **Opens onto:** [[The Record]] · [[The gap]] · [[Kept as a share of made]] · [[Celebrate, Learn, and Improve]] · [[The Turn]] · [[Issue]] · [[Requests and offers]]
 **In play:** table · beyond
-**Sources:** *The Seven Moves*, move 4 · *The LIØNSBERG Operating System* §§11–13 · The DNA of Heaven, Parts V and VII · lionsberg.wiki: **Networks of Commitments**, **Consciously Breaking Commitments**
 **Open:** The five-move form folds this into *Learn and grow*, which makes the production disciplines easy to lose at a small table; no page yet says which of them a three-person Cell actually needs.

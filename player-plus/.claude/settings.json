@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash scripts/room-post.sh:*)",
+      "Bash(bash scripts/pad-write.sh:*)"
+    ]
+  }
+}

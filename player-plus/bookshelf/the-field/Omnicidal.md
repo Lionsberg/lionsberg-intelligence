@@ -24,5 +24,4 @@ Used twice in its source and never defined.
 **Stands on:** [[Patterns of Death]] · [[The Meta Crisis]] · [[Living System]]
 **Opens onto:** [[Hospicing the Old Systems]] · [[New Wine Requires New Wineskins]] · [[Systemic Failure Modes]] · [[Biodiversity]] · [[Trickle-Up Collapse]] · [[Evil]] · [[Proportionality]] · [[The Meta Dragon]]
 **In play:** beyond — the judgment made before a body decides whether to reform something or leave it
-**Sources:** `LIØNSBERG Wiki Books/The Greatest Fraud, Deception, and Existential Threat in History`
 **Open:** Undefined in its source, and the definition here is reconstruction. · No threshold is given, and without one the word does rhetorical work it has not earned.

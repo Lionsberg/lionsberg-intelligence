@@ -20,5 +20,4 @@ The tension is long cycle against short. Attention is built on the slow loop and
 **Stands on:** [[Silence And Stillness As The Ground]] · [[The Sovereign]] · [[Consciousness]] · [[Discipline]]
 **Opens onto:** [[Sensing The Field]] · [[Shoshin]] · [[Mastery Of Emotions]] · [[Discernment]] · [[The One Hour A Day Practice]] · [[Surveillance]] · [[Technology Sovereignty]]
 **In play:** Gate
-**Sources:** *Focused Attention As Discipline* (drafted Pattern Card) · *Sustained Presence* · *The Relationship To Thought* (drafted Cards) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Focused Attention As Discipline
 **Open:** none found

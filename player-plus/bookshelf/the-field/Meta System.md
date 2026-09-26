@@ -18,5 +18,4 @@ For practical use it breaks into nested sub-systems — the living system, the h
 **Stands on:** [[The Meta Project]] · [[Work]]
 **Opens onto:** [[The LIØNSBERG Operating System]] · [[Minimum standards of interoperability]] · [[Levels Of Scale]]
 **In play:** beyond
-**Sources:** *Meta System* (wiki root page) · *The LIØNSBERG Lexicon* §The System and §Boundaries and Limits of Conception — lionsberg.wiki page name: **Meta System**
 **Open:** none found.

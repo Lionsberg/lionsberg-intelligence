@@ -20,5 +20,4 @@ What is asked for at the close is elision: a line taken out on purpose, noted on
 **Stands on:** [[The six lines]] · [[Terms]] · [[Host]] · [[Elision]]
 **Opens onto:** [[Room]] · [[Safe sparring]] · [[Play by Play]] · [[Harvest and Close]] · [[Retrospective]]
 **In play:** Room
-**Sources:** Player+ Modules, *Entering the Field*, *Safe Sparring*, *Jam Conventions* · The DNA of Heaven, Part VIII (elision, not enclosure) · lionsberg.wiki: *Elision*, *Chatham House Rule*.
 **Open:** none found.

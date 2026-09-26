@@ -10,7 +10,7 @@ Someone invited you, and you may not yet know to what. Here it is in three minut
 
 ## The Great Game
 
-The Great Game of LIØNSBERG is played in real life by everyone who chooses to play. Its [rulebook](Lexicon.md) gives the aim: "All of us, together, making every place we touch a little more like [Heaven](Lexicon.md)." Groups of three to thirteen, called Cells, meet weekly and choose one act of goodwill each [season](Lexicon.md): the ninety or so days between one solstice or equinox and the next. That chosen act is a Quest: one real, reachable piece of good work the group does together and can point to afterward. The [Five Moves](Lexicon.md) are the five things such a group does, in order: Form [a Cell](Lexicon.md) (gather your three to thirteen), [Choose a Quest](Lexicon.md), [Learn and Grow](Lexicon.md) (meet weekly: say what you will do, do what you said, learn from the difference), Share Your Stories (tell plainly what happened) and Pass the Flame (invite the two or three you know are ready, so new groups form). The whole of it fits on The Game on One Page.
+The Great Game of LIØNSBERG is played in real life by everyone who chooses to play. Its [rulebook](Lexicon.md) gives the aim: "All of us, together, making every place we touch a little more like [Heaven](Lexicon.md)." Groups of three to thirteen, called Cells, meet weekly and choose one act of goodwill each [season](Lexicon.md): the ninety or so days between one solstice or equinox and the next. That chosen act is a Quest: one real, reachable piece of good work the group does together and can point to afterward. The [Five Moves](Lexicon.md) are the five things such a group does, in order: Form [a Cell](Lexicon.md) (gather your three to thirteen), [Choose a Quest](Lexicon.md), [Learn and Grow](Lexicon.md) (meet weekly: say what you will do, do what you said, learn from the difference), Share Your Stories (tell plainly what happened) and Pass the Flame (invite your three who are ready, within three days, so new groups form). The whole of it fits on The Game on One Page.
 
 ## What a Player+ is
 
@@ -40,7 +40,7 @@ The rest are here when you need them. Nobody does them all at once.
 *In the Game*
 - **[Read the Story](18%20Read%20the%20Story.md)**: read the Story aloud with someone, and let it land.
 - **[Play the Game](19%20Play%20the%20Game.md)**: hold the whole Game on one page, and send your first invitation.
-- **[Pass the Flame](20%20Pass%20the%20Flame.md)**: hand the whole of it to the two or three you know are ready.
+- **[Pass the Flame](20%20Pass%20the%20Flame.md)**: hand the whole of it to your three who are ready.
 - **[Structuring a Cell](17%20Structuring%20a%20Cell%20%E2%80%94%20LI%C3%98NSBERG%20FSx.md)**: know what your Cell already is, and what to put on paper only when the work asks for it.
 - **[The Weekly Turn](15%20The%20Weekly%20Turn.md)**: learn how the Game breathes in and out each week, and what your Circle sends through the one weekly door.
 - **[Daily Life](16%20Daily%20Life.md)**: shape one day so it serves your week, with one small card that stays yours.

@@ -20,5 +20,4 @@ The Ground does not need permission to be present. It is always already here. Th
 **Stands on:** [[ØNE]] · [[The Ineffable]] · [[The Sovereign]] · [[Peace]]
 **Opens onto:** [[The Daily Way]] · [[The Coherent Divine Intention Wave]] · [[Focused Attention As Discipline]] · [[Sensing The Field]] · [[Receiving Transmission]] · [[The Silence That Speaks]] · [[Rest And Regeneration]]
 **In play:** Gate
-**Sources:** *Silence And Stillness As The Ground* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Daily Way* (Card, written) · lionsberg.wiki: Silence And Stillness As The Ground
 **Open:** The Card is filed and cited under two names — *Silence And Stillness As The Ground* and *Stillness As The Floor* — and several other Cards link the second.

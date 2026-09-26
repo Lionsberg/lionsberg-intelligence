@@ -14,11 +14,10 @@ Certain levels are thresholds where the *mode of coherence changes* rather than 
 
 Two further claims matter. There is **no true bottom and no true top**: a person is already a superorganism of cells and fields, every "elementary" level has turned out to be another federation of smaller patterns, and every apparent summit has revealed itself as a subsystem the moment perception widened. And the ladder does not exhaust the Body: four cross-cutting axes — [[Guild]], [[Tribe]], [[Species]], [[Voluntary Association]] — federate across places and generations and are not scales at all.
 
-The canon holds its own map lightly and says so: the categories are not the reality; hold them as tools and not idols; when the wise right thing in this Circle, this place, this season contradicts the articulation, do the wise right thing and rejoin the map when it serves again.
+This map is held lightly, and plainly so: the categories are not the reality; hold them as tools and not idols; when the wise right thing in this Circle, this place, this season contradicts the articulation, do the wise right thing and rejoin the map when it serves again.
 
 **Also called:** The scale ladder
 **Stands on:** [[Holarchy]] · [[HoloFractal]] · [[Living System]] · [[Sovereignty At Every Scale]]
 **Opens onto:** [[Holofractal Scaling]] · [[The Two-Stake Principle]] · [[Subsidiarity Of Authority]] · [[Levels of Abstraction]] · [[Bioregion]] · [[The 300]] · [[Supercell]] · [[Complex Adaptive Living System]]
 **In play:** beyond
-**Sources:** *Levels of Scale* (Card, canon-grade) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Sovereign Path* (§Holofractal Scaling) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Levels of Scale
 **Open:** The Card's ladder and the seed text's differ at the lower rungs (the Card places the Neighborhood between Village and Circle; the seed text omits it and places the Community after the Microlocality). · The Locality and the City appear in some listings and not in the canonical table.

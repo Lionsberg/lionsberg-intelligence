@@ -24,5 +24,4 @@ It is not a jurisdiction. Political lines are one overlay on a place and never i
 **Stands on:** [[Holon]] · [[ØNE Body]] · [[General Pattern, Specific Application]] · [[Levels Of Scale]]
 **Opens onto:** [[Bioregion]] · [[The Locality]] · [[The Microlocality]] · [[Watershed]] · [[Instantiation]] · [[FSx]] · [[Minimum standards of interoperability]] · [[Selectively Permeable Membrane]] · [[Holarchy]] · [[Spirit Precedes Pattern]]
 **In play:** Home — wherever a Cell actually sits
-**Sources:** `Projects/the term pages/Cosmic Locality.md` (the page records that no page and no inbound link held this name before it) · `Levels of Scale`, `Localities`, `Individual And Local` (wiki; the nearest neighbours) · `Bioregion` (wiki root) · lionsberg.wiki: Levels of Scale
-**Open:** The page attributes the term and its core sense to a source it does not quote, and the wording could not be verified from the canon alone. Read the attribution as the page's own claim until it is checked. · The structure it says unfolds in a locality is itself still a draft concept held outside the canon.
+**Open:** The page attributes the term and its core sense to a source it does not quote, and the wording could not be verified. Read the attribution as the page's own claim until it is checked. · The structure it says unfolds in a locality is itself still a draft concept, not yet settled.

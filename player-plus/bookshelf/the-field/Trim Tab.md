@@ -14,11 +14,10 @@ The figure answers the most common objection anyone raises at the door: *what di
 
 It is load-bearing for the whole strategy. Three in a hundred is enough to turn a people. One Cell planting the next is the only mechanism by which anything has ever spread at the pace of trust. Propagate, do not scale — nothing grows by making the centre larger. Each of these is the same arithmetic: find the place where a little force moves a lot, and apply it steadily rather than heroically.
 
-For a person, the trim tab is usually the nearest real thing: a [[Quest]] small enough to finish in a season and close enough to touch, a word kept, a flame carried to two or three. For a body, it is the constraint on the [[Critical Path]] — the one blockage whose removal releases everything behind it. In both cases the discipline is the same: find the small lever, not the big one.
+For a person, the trim tab is usually the nearest real thing: a [[Quest]] small enough to finish in a season and close enough to touch, a word kept, a flame carried to three. For a body, it is the constraint on the [[Critical Path]] — the one blockage whose removal releases everything behind it. In both cases the discipline is the same: find the small lever, not the big one.
 
 **Also called:** the small lever
 **Stands on:** [[Ephemeralization]] · [[Sovereignty]] · [[Emergence]]
 **Opens onto:** [[The First Three Percent]] · [[Tipping Point Strategy]] · [[Fibonacci Spread]] · [[Critical Path]] · [[Islands of Coherence]]
 **In play:** the table · beyond
-**Sources:** *Trim Tab* · *The LIØNSBERG Pattern Language — Synthesized*, The New World · the seed's Part VI and Part XI. lionsberg.wiki: Trim Tab.
 **Open:** The root page links *Vessel of Society*, a page named nowhere else in the field. The list carries *Trim Tab* under Pillar VIII though its use is strategic rather than technical.

@@ -16,11 +16,10 @@ It is load-bearing because it makes stopping cheap and therefore possible. Where
 
 Escalation here is not failure; the work stays valid while it is being answered. Only genuine non-resolution halts anything.
 
-It must be held apart from its larger sibling. The canon already carries the andon cord as a governance mechanism — any member of a body may raise an alarm at corruption, capture, or drift, and is protected rather than punished ([[Structural Immunity]], [[Whistleblower Protection]]). That is a matter of a body's integrity. This is the small, clocked, everyday pull at the work in front of you. Same root, different scale, and they should not be collapsed.
+It must be held apart from its larger sibling. The andon cord is already carried as a governance mechanism — any member of a body may raise an alarm at corruption, capture, or drift, and is protected rather than punished ([[Structural Immunity]], [[Whistleblower Protection]]). That is a matter of a body's integrity. This is the small, clocked, everyday pull at the work in front of you. Same root, different scale, and they should not be collapsed.
 
 **Also called:** the pull · the cord
 **Stands on:** [[Stop]] · [[Every Defect Is A Gift]] · [[Zero Blame Environment]] · [[Quality]]
 **Opens onto:** [[Structural Immunity]] · [[Whistleblower Protection]] · [[The Escalation Ladder]] · [[Issue]] · [[Sighting]] · [[The guard]] · [[The Record]] · [[Safety check]]
 **In play:** the table — pulled where the work is, answered on the puller's own clock
-**Sources:** `Projects/the term pages/Andon.md` · `Structural Immunity`, in the Pattern Language synthesis · `Every Defect Is A Gift`, `Zero Blame Environment` (wiki root) · lionsberg.wiki: Structural Immunity
-**Open:** The page's own history is a defect worth carrying: a file of unknown provenance occupied its output path and asserted that the canon had never claimed the word, while the canon's live pattern synthesis already held the Andon Cord. The collision was missed, then repaired; where the original text came from is unresolved. · Nothing states what a window should be when a Cell meets weekly and the pull is on a Tuesday.
+**Open:** Nothing states what a window should be when a Cell meets weekly and the pull is on a Tuesday.

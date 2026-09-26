@@ -18,5 +18,4 @@ It is ore, and honestly so. The axis is named, its place in the architecture is 
 **Stands on:** [[Levels Of Scale]] · [[Kinship]] · [[Ecology]]
 **Opens onto:** [[Guild]] · [[Tribe]] · [[Voluntary Association]] · [[Living Systems Member]] · [[Inter-Kingdom Relationship]] · [[Biodiversity]]
 **In play:** beyond
-**Sources:** `Species`, a Card of LIØNSBERG, Earth, and the Cosmos (ore) · `Levels of Scale` (canon-grade, the four cross-cutting axes) · The LIØNSBERG Playbook, Cross-Cutting · The DNA of Heaven, Part IV · lionsberg.wiki: Species
 **Open:** How a Species is represented at a body's table is named as a gap and not yet written.

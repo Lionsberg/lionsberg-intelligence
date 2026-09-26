@@ -20,5 +20,4 @@ A Cell does not need a ratio. A Cell needs [[The Offering]] and honesty about ho
 **Stands on:** [[Capital Subordinate To Purpose]] · [[Structural Immunity]] · [[Dignity]]
 **Opens onto:** [[The waterfall]] · [[The asset lock]] · [[LUV]] · [[Extraction Of Wealth]] · [[Transparency]]
 **In play:** Home · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Economy and Stewardship and Structural Immunity (canon-grade lists; named, not articulated) · *LUV — LIØNSBERG Units of Value* (Cards) · *Mondragon* (wiki; the lineage) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Compressed Pay Ratios
-**Open:** 7:1 appears once, on a card marked `captured`, attributed to the FairShares Commons tradition rather than settled for LIØNSBERG. No canon page sets a ratio as binding, and no page says at what scale the ratio is measured (a Cell, a Company, a federation).
+**Open:** 7:1 appears once, on a card marked `captured`, attributed to the FairShares Commons tradition rather than settled for LIØNSBERG. No page sets a ratio as binding, and no page says at what scale the ratio is measured (a Cell, a Company, a federation).

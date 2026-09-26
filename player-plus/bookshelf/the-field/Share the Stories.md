@@ -18,5 +18,4 @@ How it is played. Weekly, someone tells one story at [[The Turn]] and the teller
 **Stands on:** [[Story]] · [[Testimony]] · [[Celebrate, Learn, and Improve]] · [[The LIØNSBERG Voice]]
 **Opens onto:** [[Pass The Flame]] · [[The Season Sheet]] · [[The Board]] · [[The Return]] · [[Storytelling]]
 **In play:** table · Home · beyond
-**Sources:** *The Seven Moves*, move 6 · *The Season Sheet*, line 9 (current best understanding) · Pattern Language, §Story · the Player+ Modules lexicon, *Share Your Stories* · The DNA of Heaven, Parts II and V · lionsberg.wiki: **Story**, **The Season Sheet**
 **Open:** Three names are live for the same move — *Share the Stories*, *Share Your Stories*, *Sharing Your Stories* — across the card, the modules, and the Pattern Language. · Nothing yet says who may retell a Circle's story outside the body, or on whose consent.

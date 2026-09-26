@@ -20,5 +20,4 @@ Its discipline is that the deck is small and adversarial. A hundred easy cases p
 **Stands on:** [[The Game Engine]] · [[Work Deck]] · [[Interoperability]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[The guard]] · [[Every Defect Is A Gift]] · [[Screens and paper]] · [[Technology Sovereignty]] · [[The edition]]
 **In play:** Home · beyond — run by whoever builds an engine, before anyone relies on it
-**Sources:** `Projects/the term pages/The Game Engine.md` · lionsberg.wiki: Float
 **Open:** Named once, never written; no cards, no answers, and no statement of who publishes the deck or how a correction to it travels.

@@ -20,5 +20,4 @@ The honest caution is that coherence is not the same as being right. A tightly f
 **Stands on:** [[Complex Adaptive Living System]] · [[Emergence]] · [[Coherence]]
 **Opens onto:** [[The First Three Percent]] · [[Islands, Hubs, Grid]] · [[Pass The Flame]] · [[The Movement]]
 **In play:** Home · beyond
-**Sources:** *Islands of Coherence* (a short root page, drawn from Open Civics and linked to outside sources) · *The Little Book of the Great Game*, the Moment · lionsberg.wiki: *Islands of Coherence*
-**Open:** The root page is a quoted definition with two external links and no LIØNSBERG articulation; the reading here connects it to the Strategy, which the canon implies but does not state on that page. The concept field also carries *Islands of coherence to network* as a separate row under the Cell domain.
+**Open:** The root page is a quoted definition with two external links and no LIØNSBERG articulation; the reading here connects it to the Strategy, which is implied but not stated on that page. The concept field also carries *Islands of coherence to network* as a separate row under the Cell domain.

@@ -19,5 +19,4 @@ In play, this is what is handed across when another house asks what this is. It 
 **Stands on:** [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Weaving vs. Starting New]] · [[Truth To ØNE, Errors To Us]]
 **Opens onto:** [[The Golden Seed]] · [[Kit of Parts]] · [[Federation]] · [[FSx]] · [[The Kit]] · [[Instantiation]] · [[Gaps Not Yet Closed]]
 **In play:** At the Room and beyond — met by a house or an institution weighing federation, not by a player at the table.
-**Sources:** `The Great Weaving — Concept Ledger` §A.7 (canonical home proposed, voice disciplines listed) · `LIØNSBERG Is A Prototype, Not The Eternal Essence` (Card) · `An Ecosystem, Prototype, And Kit Of Parts` (wiki root). lionsberg.wiki: **The Great Weaving — Concept Ledger**.
 **Open:** No page exists at this name, and the Ledger offers two candidate titles. The Ledger also names cross-repository references that expect this page to exist; until it does, the offering is made in fragments and the "what is not yet written" half is not stated anywhere publicly.

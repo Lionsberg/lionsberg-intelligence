@@ -8,7 +8,7 @@ name: pass-the-flame
 version: 0.1.0
 sits_on: LIØNSBERG Player+ 3.1.0
 lineage:
-  - "THE FLAME (the law, the seven days, the two or three, what you hand them, their Cell is their own, the double helix, the arithmetic of life, attraction not promotion)"
+  - "THE FLAME (the law, the seven days, the two or three — carried here as three days and three, the minimum and never a cap, what you hand them, their Cell is their own, the double helix, the arithmetic of life, attraction not promotion)"
   - "Pass The Flame (the library's concept field — move seven, never optional; the only mechanism of spread the body has; count it on the Scorecard and name the new Cells on line 7)"
   - "Carrier (the library's concept field — it never changes; a Carrier gains no authority over the Cell they lit, only a relationship with it)"
   - "The One Book, 21 In Every Future — what to do in each case, THE PAGE — *The Flame passed by hand* (the seven steps reproduced here)"

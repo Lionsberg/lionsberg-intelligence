@@ -14,11 +14,10 @@ It is load-bearing because it is precisely the area where movements fail catastr
 
 In the Game, the protections that already apply are general rather than specific: a sponsor holds no authority over a sponsee's relationships; roles rotate because a role held forever becomes a throne; anyone may say stop and it takes effect at once; a person may leave at any time, in peace. These are the right instruments and they are not addressed to this. In the System, the unanswered questions are concrete: how a tension of this kind is raised without exposing the person raising it, how asymmetry of standing is handled when the parties are willing, and what a body does when the answer is containment.
 
-This is written down as a significant gap, and the corpus says so directly. The names listed as patterns needed — sexual sovereignty, sexual healing, right sexual relationship, pair-bonding, release of bond, protection of children — have no bodies. What is offered above is the general law applied, not a settled practice, and it should be read as the beginning of a conversation rather than the end of one.
+This is written down as a significant gap, and it is said so directly. The names listed as patterns needed — sexual sovereignty, sexual healing, right sexual relationship, pair-bonding, release of bond, protection of children — have no bodies. What is offered above is the general law applied, not a settled practice, and it should be read as the beginning of a conversation rather than the end of one.
 
 **Also called:** Right Sexual Relationship · Pair-Bonding · Release Of Bond
 **Stands on:** [[Sovereignty]] · [[Consent]] · [[Mutual Consent]] · [[Dignity]] · [[Gaps Not Yet Closed]]
 **Opens onto:** [[Family]] · [[Protection Of Children]] · [[Withdrawal Of Consent]] · [[Structural Immunity]] · [[Healing]] · [[Containment Of The Dangerous Sovereign]] · [[Stop]]
 **In play:** Home · table
-**Sources:** `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Sexuality, Eros, And Intimate Union* (ore) · `The LIØNSBERG Lexicon`, Pillar XI (canon-grade, for the underlying dignity and consent terms) · `Sponsorship` (root page, for the no-authority guardrail) · lionsberg.wiki: no page stands at this name
-**Open:** Ore only: every pattern named in this area is unwritten. · No instrument anywhere in the corpus addresses harm arising from asymmetry of standing between consenting adults inside a body, which is the failure mode the historical record actually shows.
+**Open:** Ore only: every pattern named in this area is unwritten. · No instrument anywhere addresses harm arising from asymmetry of standing between consenting adults inside a body, which is the failure mode the historical record actually shows.

@@ -20,5 +20,4 @@ This is the strategic use of a word the field also carries at personal scale, wh
 **Stands on:** [[Withdrawal Of Consent]] · [[Dying]] · [[The Existing Order]] · [[Means]]
 **Opens onto:** [[Liberation and Exodus]] · [[Compost]] · [[Grief]] · [[The Ark and the Bridge]] · [[Welcoming The Stranger]] · [[Non-Violence]] · [[The Way Out]] · [[New Earth Operating System]] · [[The Old Operating System]]
 **In play:** beyond — the Movement's posture toward what is ending; at the table, in how a Cell speaks of what it left
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Hospicing the Old Systems.md`
 **Open:** The field folds *hospicing* into [[Dying]] as a Pillar V word; this strategic sense is a second live use of the same term and the two are not reconciled anywhere. · Nothing states what to do where an old system's collapse would kill people faster than any alternative can be built — hospice assumes a survivable rate of dying.

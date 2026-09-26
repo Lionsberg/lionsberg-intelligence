@@ -22,5 +22,4 @@ Where an agent prepares it, two things need care. If it cannot tell the hour, it
 **Stands on:** [[The Daily Way]] · [[The compass question]] · [[Ask]] · [[Commitment]]
 **Opens onto:** [[Day shape]] · [[Heads-up]] · [[The Turn]] · [[Quest]] · [[Off switch]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Daily Life*, *An Agent That Attends to You* · The DNA of Heaven, Part V (the daily Way) · lionsberg.wiki: *The Daily Way* pages named in the deck's gratitude.
 **Open:** none found.

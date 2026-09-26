@@ -22,5 +22,4 @@ Two failures come from getting the sides backwards. A leader who competes *insid
 **Stands on:** [[Mutual Aid]] · [[Mondragon]] · [[The Pattern of Cooperation]]
 **Opens onto:** [[Federation]] · [[Guard the Membrane]] · [[Compressed Pay Ratios]] · [[Underwriting The New Economy]] · [[Anti-Fragility]] · [[Multi-Polar Traps]] · [[Federations vs Empires]] · [[Trade]]
 **In play:** the table — asked when a Cell decides how to meet a body outside itself
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Cooperate Internally, Compete Externally.md`
-**Open:** Sits uneasily beside the corpus's refusal of false-oppositional framings and its instruction to build rather than to fight; nothing says when outperforming a rival becomes fighting it. · The claim that cooperative ownership produced market superiority is drawn from one federation's history and is stated without its counter-cases.
+**Open:** Sits uneasily beside the refusal of false-oppositional framings and the instruction to build rather than to fight; nothing says when outperforming a rival becomes fighting it. · The claim that cooperative ownership produced market superiority is drawn from one federation's history and is stated without its counter-cases.

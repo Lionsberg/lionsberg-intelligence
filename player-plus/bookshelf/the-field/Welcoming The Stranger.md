@@ -20,5 +20,4 @@ This is honestly marked as a gap, and the gap is large. What exists is the postu
 **Stands on:** [[Love]] · [[Dignity]] · [[Selectively Permeable Membrane]] · [[Right Relationship]] · [[Gaps Not Yet Closed]]
 **Opens onto:** [[Migration]] · [[Welcome a Newcomer]] · [[The door]] · [[Guard the Membrane]] · [[Mutual Aid]] · [[Belonging]] · [[None Of Us Until All Of Us]]
 **In play:** door · table · Home
-**Sources:** `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Migration, Refuge, The Stranger* (ore) and §Specific Sacred Practices, where *Hospitality* is listed among partially surfaced practices · `The Little Book of the Great Game — Second Draft`, the door · lionsberg.wiki: no page stands at this name
 **Open:** Ore only: the names — welcoming the refugee, welcoming the stranger, the stranger at the gate, hospitality — are listed as patterns needed, with no bodies written. · Nothing states how the obligations of hospitality relate to the consent required at the door; the reading offered here is a synthesis, not an answer.

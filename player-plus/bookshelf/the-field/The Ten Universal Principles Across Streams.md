@@ -8,7 +8,7 @@ pillar: —
 
 *Ten things every authentic stream of a tradition carries, whatever its vocabulary — and the falsification rule that comes with them: a stream missing one has drifted, however prestigious its lineage.*
 
-The streams are many and the water in them is one. Every continent has produced lineages with their own forms, founders, vocabularies, and transmissions, and the canon's position is that they are neither interchangeable nor in competition — different windows onto the same reality.
+The streams are many and the water in them is one. Every continent has produced lineages with their own forms, founders, vocabularies, and transmissions, and the position held here is that they are neither interchangeable nor in competition — different windows onto the same reality.
 
 What is claimed to be the same behind the windows:
 
@@ -22,5 +22,4 @@ Beside it stands the second discipline, and it is the harder one: **each stream 
 **Stands on:** [[The Way]] · [[Lineage]] · [[Transmission]] · [[The Architecture Of A Way]]
 **Opens onto:** [[Honoring Lineage Without Lineage-Capture]] · [[Form Practice, And Beyond Form]] · [[Shoshin's Five Signs And Five Disciplines]] · [[Techniques Are Patterns, Forms Are Plays]] · [[Truth To ØNE, Errors To Us]] · [[Cross-Cultural Pattern Translation]] · [[Discernment]] · [[The Threefold Capacity]]
 **In play:** beyond the table — the test applied to any tradition, including this one
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.9 Form And Beyond Form`, §The Universal Principles Across Streams · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The ten are offered as universal and were derived from one family of traditions; no stream outside that family has been tested against them on the page. · The chapter's list of streams is long and names living traditions; whether any of them would accept the reading is unknown and unasked.

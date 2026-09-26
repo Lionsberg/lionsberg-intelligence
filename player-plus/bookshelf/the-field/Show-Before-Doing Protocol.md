@@ -12,7 +12,7 @@ The cheapest moment to catch a misunderstanding is before the work. A proposed o
 
 It is the same discipline that defines quality at the handoff: the one who will receive the work says what makes it acceptable before the work starts. Showing first is that rule applied by the doer rather than waited for by the receiver, and it works in the direction where most effort is actually wasted — long confident work aimed slightly wrong.
 
-The protocol was adopted as a working decision during the great re-weaving of the canon, where the risk was obvious: a sweep applied to hundreds of pages in one pass, in a voice nobody had agreed to, is not correctable afterward at any sane cost. Show one page, agree the shape, then run the sweep.
+The risk it guards against is obvious at scale: a sweep applied to hundreds of pages in one pass, in a voice nobody had agreed to, is not correctable afterward at any sane cost. Show one page, agree the shape, then run the sweep.
 
 The cost of it is a pause, and the pause is the point. A body that cannot bear to show before doing is usually a body moving fast in order not to be corrected.
 
@@ -20,5 +20,4 @@ The cost of it is a pause, and the pause is the point. A body that cannot bear t
 **Stands on:** [[Conditions of satisfaction]] · [[Quality]] · [[Every Defect Is A Gift]]
 **Opens onto:** [[Phase-Gated Architecture]] · [[Disposition Categories]] · [[Second reader]] · [[Proposal]] · [[Soak]] · [[The look-ahead]]
 **In play:** table · Room
-**Sources:** The LIØNSBERG Operating System, quality at the handoff · lionsberg.wiki: *The Great Weaving — Concept Ledger*
-**Open:** named as a working decision of one project; whether it is meant as a general convention for any body doing work at scale, or only for the editing of the canon, is not said.
+**Open:** whether this is meant as a general convention for any body doing work at scale, or a narrower one, is not said.

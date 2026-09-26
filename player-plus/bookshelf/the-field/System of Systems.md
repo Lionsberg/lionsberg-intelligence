@@ -20,5 +20,4 @@ The failure mode it exists to prevent is the one every empire demonstrates: unif
 **Stands on:** [[System]] · [[Holarchy]] · [[Holofractal Omnifederation]] · [[Sovereignty At Every Scale]]
 **Opens onto:** [[Interoperability]] · [[Minimum standards of interoperability]] · [[The Meta Project]] · [[Levels Of Scale]] · [[New Earth Operating System]]
 **In play:** beyond the table
-**Sources:** *The LIØNSBERG Lexicon*, The System section · *The System* and *The LIØNSBERG System And Structure* · *Pass The Flame* Ch10 · the seed's Part IV, the scales. lionsberg.wiki: The LIØNSBERG System And Structure.
 **Open:** "Meta System" and "System of Systems" are used interchangeably across the sources; no page settles whether they are one concept or two.

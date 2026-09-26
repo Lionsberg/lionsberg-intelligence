@@ -20,5 +20,4 @@ In play, distortion is what a Cell is actually looking for when it takes its hon
 **Stands on:** [[Logos]] · [[Alignment]] · [[Pattern]]
 **Opens onto:** [[Inversion]] · [[Semantic Capture]] · [[The Anti-Patterns]] · [[Every Defect Is A Gift]] · [[Conduit]]
 **In play:** Met at the table weekly in Sensemaking, and each season in OmniSpection — the seeing of the drift before it becomes a shape.
-**Sources:** *The LIØNSBERG Lexicon*, Meta Layer ("misalignment or falsification of pattern, purpose, or truth") · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, The Old World · *The Living Gradient* (root page, on the shadow gradient) · lionsberg.wiki: *The LIØNSBERG Lexicon*.
 **Open:** none found.

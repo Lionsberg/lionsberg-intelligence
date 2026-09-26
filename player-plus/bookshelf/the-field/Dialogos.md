@@ -20,5 +20,4 @@ Distinguish it from three neighbours. It is not debate, which selects a winner. 
 **Stands on:** [[Listening]] · [[Sensemaking]] · [[Language]]
 **Opens onto:** [[OmniSpection]] · [[Consent-Based Decision-Making]] · [[Asking Questions]] · [[We Do Not Know]]
 **In play:** table · Room
-**Sources:** *The LIØNSBERG Pattern Language*, Communication And Culture · *The LIØNSBERG Playbook*, Operations · *OmniSpection* (sensemaking in community) · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** Named as a Pattern with no body written. The canon lists it as *Dialogue Circumambulation and Speech* in one place and *Dialogos* in another; the disciplines given here are this page's synthesis from the surrounding practices.

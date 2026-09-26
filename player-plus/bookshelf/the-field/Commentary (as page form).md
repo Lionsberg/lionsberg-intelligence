@@ -16,11 +16,10 @@ The two forms are for different lifetimes, which is why both exist. A [[Comment]
 
 Its risks are ordinary and worth naming. A commentary can become the place where real disagreement is parked so that the main page need never change ([[Drift]] · [[Communication Debt]]). It can drift out of date while looking current ([[The Wiki Reflects the Present]] · [[Prune]]). And a reader who never finds it will read the concept page as though nothing were contested — which is why the concept page's own *Open* line does work the commentary cannot ([[Gaps Not Yet Closed]] · [[Second reader]]).
 
-The form is the canon's own experiment and says so: the one example carries a note that it is a test page, to see whether the form is liked. That honesty is the right status for it.
+The form is its own experiment and says so: the one example carries a note that it is a test page, to see whether the form is liked. That honesty is the right status for it.
 
 **Also called:** a (commentary) page
 **Stands on:** [[Comment]] · [[The LIØNSBERG Book of Conventions]] · [[Language]]
 **Opens onto:** [[The Wiki Reflects the Present]] · [[Second reader]] · [[Meaningful Objection]] · [[Author's Voice Is Sovereign]] · [[Decision Records]] · [[Naming Forms]] · [[One canonical home per concept]] · [[Elision]]
 **In play:** the Workshop — where a reading that will not settle is set down without disturbing the page it is about
-**Sources:** `Commentary/Commentary Pages/Meta Goal (commentary)` · `Comment` (Player+ Modules convention) · lionsberg.wiki: Commentary Pages
 **Open:** One example exists and it declares itself a test; whether the form was adopted is not recorded anywhere. · Nothing says whether a concept page should link to its own commentary, which decides whether readers ever find it. · Inbound links were not counted.

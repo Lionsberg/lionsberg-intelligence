@@ -20,5 +20,4 @@ Kairos is always available, on this reading, to anyone who will perceive and mov
 **Stands on:** [[Time]] · [[ØNE]] · [[Discernment]] · [[Logos]]
 **Opens onto:** [[Chronos]] · [[The compass question]] · [[Spontaneous Wise Right Action]] · [[Just in time]] · [[Critically Effective Time Limit]] · [[Synchronicity As Signal]] · [[The 7 Year Window of Crisis and Opportunity]]
 **In play:** table · Gate · beyond
-**Sources:** `Kairos` (a developed treatment with etymology, characteristics, and the Chronos contrast) · `The LIØNSBERG Lexicon`, Pillar XII term *Kairos* (canon-grade) · `The Little Book of the Great Game — Second Draft`, the one question and the second question · lionsberg.wiki: Kairos
 **Open:** The `Kairos` page links several pages — The Eternal Now, The Turning, Divine Intervention, Time and Eternity — that were not opened here and may not exist. · Nothing joins the metaphysical treatment of kairos to the Game's operational timing disciplines; the connection drawn here is a synthesis.

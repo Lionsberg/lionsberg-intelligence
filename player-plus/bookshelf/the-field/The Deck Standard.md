@@ -14,11 +14,10 @@ It is load-bearing because it is what makes a deck a deck rather than a pile. It
 
 A Player+ meets the standard mostly through its effects: one plain line for every key word at first use, a practice doable from the top card alone, an observable sign that it worked, and a closing section that can never be mistaken for an order from a stranger. A maker meets it directly, and delivers two files — the public page and its keepers' notes.
 
-It also holds one Lexicon for one LIØNSBERG: a word means one thing across the canon, the Game and the deck, and a word used two ways is a defect to repair in one of them.
+It also holds one Lexicon for one LIØNSBERG: a word means one thing across The One Book, the Game and the deck, and a word used two ways is a defect to repair in one of them.
 
 **Also called:** —
 **Stands on:** [[Player+ Modules]] · [[Module]] · [[The LIØNSBERG Voice]] · [[The LIØNSBERG Lexicon]]
 **Opens onto:** [[Top card]] · [[Lesson]] · [[Notebook form]] · [[Keepers' notes]] · [[Second reader]] · [[Attribution]]
 **In play:** beyond
-**Sources:** Player+ Modules, *The Deck Standard* and *How a Module Lives* · The DNA of Heaven, Part VIII · lionsberg.wiki: *The LIØNSBERG Lexicon*, *The LIØNSBERG Book of Conventions*.
-**Open:** the deck standard and the canon's own Book of Conventions overlap on voice and on naming; neither yet points at the other.
+**Open:** the deck standard and the Book of Conventions overlap on voice and on naming; neither yet points at the other.

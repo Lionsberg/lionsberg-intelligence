@@ -22,5 +22,4 @@ The name sounds like *queue* and is unrelated to it: one is a mark meaning *when
 **Stands on:** [[Commander's Intent]] · [[Requests and offers]] · [[Just in time]]
 **Opens onto:** [[The Queue]] · [[The Board]] · [[Condition]] · [[Position]] · [[Wise Right Speech]] · [[Heads-up]] · [[Selectively Permeable Membrane]] · [[Trust]]
 **In play:** the table — whenever ready work reaches a hand
-**Sources:** `Projects/the term pages/Cue.md` (marked a coinage on its own page) · `Commander's Intent` (wiki root) · `The Queue.md` (wiki root; two sentences) · lionsberg.wiki: Commander's Intent
 **Open:** The page proceeds past a gate its own research set — that the naming beside *queue* be settled first — and says so. · The apparatus it assumes around itself was named by a later reading as vendor-shaped and liable to be renamed.

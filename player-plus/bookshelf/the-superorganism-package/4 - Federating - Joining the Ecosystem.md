@@ -35,11 +35,11 @@ In practice this means:
 - **Multi-voice cooperatives, mutuals, and similar bodies are often nearly compatible already** — minor adaptations bring them into FSx compatibility.
 - **Existing FairShares Commons entities are essentially already FSx-compatible** — a Federation Agreement is the formal step.
 
-What this **doesn't** mean:
+What this **does not** mean:
 
-- It doesn't mean traditional legal forms are excluded from Layer II. Anyone can join the Stewardship Agreement and participate in the spiritual association. The Threshold is a Layer III rule.
-- It doesn't mean the Threshold is a vetting process. It is a *structural* test. Either your Articles match the pattern, or they do not. No committee judges your worthiness; the Compatibility Tests at the end of [[VII - The FSx Organism Template]] do the work.
-- It doesn't mean the Threshold is permanent exclusion. An owner-controlled entity can transform at any time and federate then.
+- It does not mean traditional legal forms are excluded from Layer II. Anyone can join the Stewardship Agreement and participate in the spiritual association. The Threshold is a Layer III rule.
+- It does not mean the Threshold is a vetting process. It is a *structural* test. Either your Articles match the pattern, or they do not. No committee judges your worthiness; the Compatibility Tests at the end of [[VII - The FSx Organism Template]] do the work.
+- It does not mean the Threshold is permanent exclusion. An owner-controlled entity can transform at any time and federate then.
 
 The deeper point: the Threshold solves a great many things at once. It bars predators, prevents capture and enclosure, eliminates the need for subjective vetting, ensures continuity beyond mortality, makes coercion-resistant, and embeds developmental accountability into the architecture itself. The pattern is the gateway, doing several things at once.
 

@@ -20,5 +20,4 @@ A Cell need not wait for a planetary one. The small form of it is real: close ea
 **Stands on:** [[Justice]] · [[Forgiveness]] · [[Usury]] · [[Commons]]
 **Opens onto:** [[Abundance]] · [[Liberation and Exodus]] · [[Reconciliation]] · [[Celebrate, Learn, and Improve]] · [[The turnings]]
 **In play:** Gate · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Jubilee* (canon-grade; one line) · *An Alternative to Apocalypse — The New Covenant*, Chapter 12, *The Concept of Jubilee* · *The 144 Gates of Initiation*, Movement 10 (first full naming) · *The LIØNSBERG Guidebook — Walking Movement 10* · *The Greatest Jubilee* (Cards) · *The DNA of Heaven*, Part XI · lionsberg.wiki: Jubilee
 **Open:** The Pattern Language lists *Jubilee* twice — under Specific Sacred Practices and under Operational Economic Mechanics — with no card in either place. The seed dates the Covenant and Jubilee to the winter solstice of 2033 "or the day the last cohort has crossed"; that is a draft timeline, not a fixed date.

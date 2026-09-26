@@ -4,7 +4,7 @@ tier: 1000
 domain: The Operating System and Integrated Delivery
 pillar: —
 ---
-# The Core Group and the Big Room
+# The Core Group and The One Room
 
 *The small body that steers a shared undertaking — four to six equals, deciding by consensus, led by no one — and the one room they work in, where the whole of the work is visible at once.*
 
@@ -16,9 +16,8 @@ The **big room** is where this happens: one room, one wall, one plan that is cur
 
 Two further disciplines travel with the pairing, and they are what make the equality real rather than decorative. **Risk is shared, not shifted** — the parties' relationship is drawn as overlapping circles rather than a three-legged stool, and beyond an agreed contingency the team's own profit stands at risk for errors whether or not anyone was negligent, so that no one profits by protecting their piece. And **learning is coupled tightly to action** — planning reliability assessed weekly with the reasons for each variance, and the root causes of contingency spent reviewed monthly.
 
-**Also called:** the Core Group · the Big Room · obeya · co-located practice
+**Also called:** the Core Group · The One Room · obeya · co-located practice
 **Stands on:** [[Integrated Delivery]] · [[Integrated Project Delivery]] · [[Trust]] · [[Consent]] · [[Cross-Functional Integration]] · [[Room]]
 **Opens onto:** [[LIØNSBERG Mission Control]] · [[Last Planner System]] · [[Pull planning]] · [[Make-Ready Process]] · [[Networks of Commitments]] · [[A word given is a word kept]] · [[Design To The Goal]] · [[Tightly Coupled Learning and Action]] · [[The Board]] · [[The Program Delivery Guide]] · [[Zero Blame Environment]]
 **In play:** the table, at any scale — a Cell's weekly turn is a big room with a core group of one Cell; the shape does not change as the work grows, only the size of the wall
-**Sources:** `LIØNSBERG Wiki Books/The Program Delivery Guide/Original IPD Guide/PDG - The IPD Agreement and Core Group` (the Audit Ledger dates its source material to a 2009 public-programme delivery guide and asks that it be archived with that provenance) · `The Program Delivery Guide` index · `Projects/the term pages/The Big Room`
-**Open:** The reliability finding often quoted with this material — that about half of the assignments made to crews at the start of a week were completed as planned, and that a disciplined planning system drove that to eighty or ninety percent — is a research result from the lean construction literature of the 1990s, carried in a guide written around 2009. It is a measurement in *that* setting, and an estimate anywhere else. · The named precedent, a multi-billion-dollar hospital building programme, is real and is a different kind of work from a Cell's season; what transfers is the structure, not the scale. · The Big Room draft is itself unreviewed, and it proposes that every holon keeps one — a holofractal reading that goes beyond the delivery guide's original claim.
+**Open:** The reliability finding often quoted with this material — that about half of the assignments made to crews at the start of a week were completed as planned, and that a disciplined planning system drove that to eighty or ninety percent — is a research result from the lean construction literature of the 1990s, carried in a guide written around 2009. It is a measurement in *that* setting, and an estimate anywhere else. · The named precedent, a multi-billion-dollar hospital building programme, is real and is a different kind of work from a Cell's season; what transfers is the structure, not the scale. · The One Room draft is itself unreviewed, and it proposes that every holon keeps one — a holofractal reading that goes beyond the delivery guide's original claim.

@@ -20,5 +20,4 @@ In play a player meets remedy at [[Mend a Tension]] — the small, early repair 
 **Stands on:** [[Justice]] · [[Law]] · [[Right Relationship]] · [[Recourse]] · [[Forgiveness]]
 **Opens onto:** [[Conflict Transformation]] · [[Sanction]] · [[Arbitration]] · [[Adjudication]] · [[Reconciliation]] · [[Zero Blame Environment]]
 **In play:** table — first at the table where the harm happened
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Pillar II — Sacred Governance and Stewardship* (thesis 8: justice means restoring right relationship) · *Transforming Conflict* · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Justice, Containment, Mass Healing (named, partial gap) · lionsberg.wiki: The LIØNSBERG Lexicon
 **Open:** One Lexicon row; no page, no procedure. The canon itself flags justice, containment, and mass healing as surfaced but not deeply patterned.

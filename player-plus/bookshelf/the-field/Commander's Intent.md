@@ -19,5 +19,4 @@ The discipline runs upward too. A player who cannot state the intent behind a re
 **Stands on:** [[Intention]] · [[Creator's Intent]] · [[The Goal]]
 **Opens onto:** [[One Purpose Above All]] · [[Subsidiarity]] · [[Sovereignty At Every Scale]] · [[Networks of Commitments]] · [[Commitment]] · [[Guidance]] · [[Prescribed and discretionary trust]]
 **In play:** At the table, in how work is asked for; at Home and Room, as the reason a supercell offers direction rather than orders; beyond, as how a body of bodies stays coherent without a centre.
-**Sources:** `Commander's Intent` (wiki root — a pointer only; the body is at `9.38 Commanders Intent` in The Book of LIØNSBERG) · `Intention` (root, canon-grade) · `One Purpose Above All` (root, canon-grade) · `Pass The Flame`, Ch. 9. lionsberg.wiki: **Commander's Intent**.
 **Open:** The root page is a one-line redirect; the articulation lives inside a numbered book chapter, so the concept has no standing home of its own despite being invoked across the operating layer.

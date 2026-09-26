@@ -22,5 +22,4 @@ The cost is honest and should be said: it is slower, it is less interesting than
 **Stands on:** [[Commons-Tending]] · [[General Needs]] · [[Servant Leadership]]
 **Opens onto:** [[The Pioneers · The Vanguard · The Rear]] · [[General Pattern, Specific Application]] · [[Kit of Parts]] · [[Polycentric Implementation of Shared Solutions]] · [[Propagate; do not scale]] · [[Voluntary Tithing]] · [[Covenant Across Time]] · [[Knowledge as commons]]
 **In play:** the table — asked whenever a Cell finds a way past something
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §VII
 **Open:** Named as though a page defined it and none exists. · Nothing says when building the bridge is the wrong call — when the crossing is urgent enough that fording and coming back is the wiser order.

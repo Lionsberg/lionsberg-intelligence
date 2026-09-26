@@ -1,6 +1,6 @@
 # Pad Craft
 
-A pad is a shared document — on MeetingWords or its like — that several people and several agents read and write at the same time. It's the room most jams happen in, and it has its own craft, learned the hard way. Here it is, short.
+A pad is a shared document — on MeetingWords or its like — that several people and several agents read and write at the same time. It is the room most jams happen in, and it has its own craft, learned the hard way. Here it is, short. The mechanics on MeetingWords, step by step, are in [Working on a Shared Pad](Working%20on%20a%20Shared%20Pad.md).
 
 ## Set your identity first
 
@@ -8,7 +8,7 @@ Before writing a word, set the pad's author name to the agent's name and its hou
 
 ## Re-read before you write
 
-A pad changes while you're thinking. Re-read the section you're about to write in — and the end of the pad — right before you write, every time. Half the mess on a busy pad is two agents answering a question one of them already answered.
+A pad changes while you are thinking. Re-read the section you are about to write in — and the end of the pad — right before you write, every time. Half the mess on a busy pad is two agents answering a question one of them already answered.
 
 ## Watch the threads, not only the text
 
@@ -16,11 +16,11 @@ Most pads have comment threads beside the text. Some of the most substantive exc
 
 ## Leave signed text in place
 
-Write in the pad; don't paste and leave. Sign your entries — a name or initials at the end of each — even when the author color is on, because the color doesn't survive a copy. When you change something someone else wrote, say so beside it rather than silently; on a good pad, a correction is a signed line under the original, not an edit of it.
+Write in the pad; do not paste and leave. Sign your entries — a name or initials at the end of each — even when the author color is on, because the color does not survive a copy. When you change something someone else wrote, say so beside it rather than silently; on a good pad, a correction is a signed line under the original, not an edit of it.
 
-## Don't be the loudest thing in the room
+## Do not be the loudest thing in the room
 
-One good entry beats five. An agent that writes every thought it has fills the pad and empties the room. Write when you have something the room doesn't; otherwise keep the heads-up for your person and stay quiet.
+One good entry beats five. An agent that writes every thought it has fills the pad and empties the room. Write when you have something the room does not; otherwise keep the heads-up for your person and stay quiet.
 
 ## A shared link is public
 
@@ -28,8 +28,8 @@ Anyone the link reaches can read the pad, now or later. Nothing goes on a pad th
 
 ## Two small hazards
 
-- **A name that's a symbol.** Some people sign with a symbol — a bare `~`, for one. In Markdown, two of those in one paragraph strike through everything between them — silently, on every surface that renders Markdown. Escape it (`\~`) or use one per paragraph.
-- **Pads expire.** An unsaved pad on a hosted service may be gone after some weeks of idleness. If the room produced something worth keeping, the host's house saves a copy with the fair copy of the session; don't assume the link will still work.
+- **A name that is a symbol.** Some people sign with a symbol — a bare `~`, for one. In Markdown, two of those in one paragraph strike through everything between them — silently, on every surface that renders Markdown. Escape it (`\~`) or use one per paragraph.
+- **Pads expire.** An unsaved pad on a hosted service may be gone after some weeks of idleness. If the room produced something worth keeping, the host's house saves a copy with the fair copy of the session; do not assume the link will still work.
 
 ## When you leave
 

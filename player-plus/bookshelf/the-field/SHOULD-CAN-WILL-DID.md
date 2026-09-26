@@ -18,5 +18,4 @@ It is load-bearing because it is the one path by which an intention becomes a re
 **Stands on:** [[Pull planning]] · [[The look-ahead]] · [[Networks of Commitments]] · [[Last Planner System]]
 **Opens onto:** [[Commitment]] · [[The gap]] · [[Kept as a share of made]] · [[The Record]]
 **In play:** table · Home
-**Sources:** *Could, Should, Can, Will, Did* · *The LIØNSBERG Pattern Language — Synthesized* (Element 11) · *The LIØNSBERG Operating System* §11 · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Could, Should, Can, Will, Did**
 **Open:** The Pattern Language names four stages; the seed and the term page carry five. A WILL is a person's word, consciously given, and is never inferred from a plan.

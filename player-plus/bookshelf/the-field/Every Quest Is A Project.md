@@ -18,5 +18,4 @@ How it is played, at the smallest honest scale. Write the end state as the *done
 **Stands on:** [[Quest]] · [[Integrated Project Delivery]] · [[Tightly Coupled Learning and Action]]
 **Opens onto:** [[Pull planning]] · [[The look-ahead]] · [[Constraint]] · [[The Questcard]] · [[Do the Work]] · [[The Meta Project]]
 **In play:** table · beyond
-**Sources:** *Everything Is A Project* · *The LIØNSBERG Operating System* §§4–7 · The DNA of Heaven, Part VII · lionsberg.wiki: **Everything Is A Project**
 **Open:** the substance here is drawn from the Operating System and the Questcard. Nothing states how much planning discipline a small Cell should carry — the risk of this page is that it makes a kitchen table feel like a construction programme.

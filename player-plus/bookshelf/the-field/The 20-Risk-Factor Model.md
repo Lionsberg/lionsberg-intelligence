@@ -20,5 +20,4 @@ The arithmetic is where it bites, and it is an illustration rather than a calcul
 **Stands on:** [[The Meta Crisis]] · [[Probability, Severity, and Scope]] · [[Systemic Failure Modes]]
 **Opens onto:** [[The Iron-Manned Opposing Argument]] · [[The Probability Calculation Method]] · [[Confidence Intervals on Collapse]] · [[Normalcy Bias and the Familiarity Trap]] · [[The Endgame Cascade]] · [[Multi-Polar Traps]] · [[The Asymmetry of Consequences]] · [[The Five Collapse Scenarios]]
 **In play:** the table — the starting list, to be edited for one's own time and place
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance…/4.12 The Opposing Argument.md` (a 2023 AI dialogue) — the corpus's own audit lists this as a card to be generated and none exists
 **Open:** The twenty are one 2023 enumeration and are not a settled taxonomy. · The arithmetic assumes independence and says so, which makes the headline figure illustrative only. · Assigning probabilities to civilisational outcomes is not the same act as assigning them to repeatable events, and the source does not address that.

@@ -20,5 +20,4 @@ The everyday form is worth naming too. A Cell holds this test: before accepting 
 **Stands on:** [[Kontrolle]] · [[Money]] · [[Usury]]
 **Opens onto:** [[Abundance]] · [[Tragedy of the Commons]] · [[Commons]] · [[Extraction Of Wealth]] · [[Manufactured Dependency]] · [[Jubilee]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Scarcity* (canon-grade; one line) · *Pillar III — Sacred Economy and CurrentSee*, Thesis 4 and the Overview (canon-grade — "at its root was a lie: that there is not enough for all") · *Tragedy of the Commons* (wiki root; stub, quoted from an outside source) · lionsberg.wiki: Scarcity
 **Open:** The canon calls scarcity flatly an illusion; the seed and the ecological pages assume real planetary limits. Read here as: the limits are real, the lack we live under mostly is not.

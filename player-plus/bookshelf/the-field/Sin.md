@@ -20,5 +20,4 @@ Its operational descendant is one of the most-used disciplines in the Field. [[E
 **Stands on:** [[Right Relationship]] · [[Logos]] · [[Sacred Order]]
 **Opens onto:** [[Redemption]] · [[Atonement]] · [[Every Defect Is A Gift]] · [[Forgiveness]] · [[Evil]]
 **In play:** Met at the table every week, in the gap between what was said and what was done — reported, not confessed.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("'Missing the mark'; Deviation from Right Relationship") · *Zero Blame Environment* (root page) · lionsberg.wiki: *Every Defect Is A Gift*.
 **Open:** No page carries Sin; the concept is one Lexicon line, and its whole operational weight has migrated into the improvement discipline under other names.

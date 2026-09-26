@@ -18,5 +18,4 @@ How it is played. Weekly, inside [[The Turn]]: one line learned, written on [[Th
 **Stands on:** [[Do the Work]] · [[The gap]] · [[Every Defect Is A Gift]] · [[Retrospective]]
 **Opens onto:** [[Share the Stories]] · [[Continuous Improvement]] · [[OmniSpection]] · [[Celebration]] · [[The Season Sheet]] · [[Proposal]]
 **In play:** table · Home
-**Sources:** *The Seven Moves*, move 5 · *The LIØNSBERG Operating System* §13 · Pattern Language, §Continuous Learning · The DNA of Heaven, Parts V and VIII · lionsberg.wiki: **Every Defect Is A Gift**, **OmniSpection**
-**Open:** The five-move form names this *Learn and grow* and drops *Celebrate*, which is the part most likely to be skipped; the seed restores it. · OmniSpection is a draft with no worked example anywhere in the corpus.
+**Open:** The five-move form names this *Learn and grow* and drops *Celebrate*, which is the part most likely to be skipped; the seed restores it. · OmniSpection is a draft with no worked example anywhere yet.

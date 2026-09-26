@@ -22,5 +22,4 @@ The plus is not the transhumanist plus: nothing in the people is altered. The bo
 **Stands on:** [[Cell]] · [[Agent]] · [[Delegation]] · [[Sovereignty]]
 **Opens onto:** [[Player+]] · [[General Agent]] · [[Bard]] · [[Sovereign Agent]] · [[An agent speaks in its own name]] · [[Supercell]] · [[Holon]] · [[Memory (agent)]] · [[Off switch]]
 **In play:** the table — five people and a companion on gathering night
-**Sources:** `Projects/the term pages/Cell+.md` · `LIØNSBERG Cell Agents`, `LIØNSBERG Agents` (wiki) · `Cell` (canon-grade) · lionsberg.wiki: Cell
 **Open:** The four player classes named on the page are one wave's reading; *Player* is now narrowed to a person who has chosen to play, which the page does not reflect. · Nothing states what a Cell's plus means when one member keeps an agent and the others do not.

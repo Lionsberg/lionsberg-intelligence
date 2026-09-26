@@ -20,5 +20,4 @@ It also draws one line sharply. An ephemeral agent that holds no tomorrow cannot
 **Stands on:** [[Commitment]] · [[A word given is a word kept]] · [[Networks of Commitments]]
 **Opens onto:** [[Committee]] · [[The Life of a Commitment]] · [[The states of a commitment]] · [[Conditions of satisfaction]] · [[Subagent]] · [[Meta Game]] · [[Accountability]] · [[Trust]]
 **In play:** the table — whoever speaks the *I will, by when* line before the gathering
-**Sources:** `Projects/the term pages/Committor.md` · `Making And Securing Commitments` (wiki root; the eight conditions and the coinage itself) · `Meta Game` (wiki root — the same pair at a larger scale) · lionsberg.wiki: Making And Securing Commitments
 **Open:** The word is one letter from an ordinary English word meaning something else entirely, and every use has to gloss itself; nothing has settled whether a plainer pair should replace both halves.

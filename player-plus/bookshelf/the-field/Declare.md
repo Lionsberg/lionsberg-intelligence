@@ -20,5 +20,4 @@ Declaring sits beside two neighbours and is not either of them. Attribution name
 **Stands on:** [[The six lines]] · [[Terms]] · [[The door]]
 **Opens onto:** [[Door note]] · [[Attribution]] · [[Lineage]] · [[License]] · [[Elision]] · [[Knowledge as commons]]
 **In play:** door · Room
-**Sources:** Player+ Modules, *Entering the Field*, *Gratitude, Lineage and Licensing* · The DNA of Heaven, Parts IV and VIII.
 **Open:** none found.

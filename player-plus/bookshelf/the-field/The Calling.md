@@ -22,5 +22,4 @@ It is named in the Language among the Sovereign's Path Patterns and among the Wa
 **Stands on:** [[Purpose]] · [[The True Self]] · [[Discernment]] · [[Aligned Will]]
 **Opens onto:** [[Quest]] · [[Choose a Quest]] · [[Genius]] · [[Receiving Transmission]] · [[Initiation]] · [[The Sovereign Path]] · [[Worthy Goal]]
 **In play:** Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.1, backlog) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named with no articulation; nothing states how a calling is tested, or what a Body owes someone whose calling it cannot support.

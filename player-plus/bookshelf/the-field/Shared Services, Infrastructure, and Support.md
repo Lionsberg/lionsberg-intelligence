@@ -18,5 +18,4 @@ It is run as a commons. What is shared is stewarded, its stewards are accountabl
 **Stands on:** [[Commons]] · [[Subsidiarity]] · [[Federation]]
 **Opens onto:** [[Polycentric Implementation of Shared Solutions]] · [[Requests and offers]] · [[Guidance]] · [[Stewardship body]]
 **In play:** Home · beyond
-**Sources:** *The LIØNSBERG Lexicon* §Problems, Needs, and Aspirations, which names this entry · *The LIØNSBERG Operating System* §17 · *The DNA of Heaven*, Part IV — lionsberg.wiki page name: **Shared Services, Infrastructure, and Support**
 **Open:** No page exists at this name; the concept is a Lexicon line, and the articulation above is a synthesis from the federation and commons material.

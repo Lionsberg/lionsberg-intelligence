@@ -18,7 +18,6 @@ The book is small and is meant to stay small. A convention earns its place by be
 
 **Also called:** Book of Conventions, Capitalization & Style Protocol
 **Stands on:** [[Current Best Understanding]] · [[The Language of LIØNSBERG]] · [[The LIØNSBERG Voice]]
-**Opens onto:** [[Link concepts, not coordinates]] · [[Semantic Capture]] · [[The Incipient Link]] · [[Be the canon, don't narrate it]] · [[One canonical home per concept]] · [[We Have Heard]] · [[Everything Is A Project]]
+**Opens onto:** [[Link concepts, not coordinates]] · [[Semantic Capture]] · [[The Incipient Link]] · [[Be the canon, do not narrate it]] · [[One canonical home per concept]] · [[We Have Heard]] · [[Everything Is A Project]]
 **In play:** beyond
-**Sources:** The LIØNSBERG Book of Conventions (canon-grade for its role; the book is an index and its conventions live on their own pages) · Semantic Capture, Link to the Concept Not the Coordinate, Name the Concept in the Singular, The Wiki Reflects the Present, Current Best Practice (drafts) · LIØNSBERG Capitalization & Style Protocol and Our Way of Writing Here (drafts) · lionsberg.wiki: *The LIØNSBERG Book of Conventions*
-**Open:** the book lists *The Incipient Link* but no page stands at that name in the canon yet — the convention that names concepts before writing them has not yet been written itself. The charge is rendered two ways in the books: in full capitals in the Prolegomenon and in ordinary case in the seed text's closing line, and the style protocol does not settle it.
+**Open:** the book lists *The Incipient Link* but no page stands at that name yet — the convention that names concepts before writing them has not yet been written itself. The charge is rendered two ways in the books: in full capitals in the Prolegomenon and in ordinary case in the seed text's closing line, and the style protocol does not settle it.

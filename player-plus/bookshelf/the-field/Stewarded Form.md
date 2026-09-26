@@ -20,5 +20,4 @@ It applies past the physical. A written agreement, a governance arrangement, a c
 **Stands on:** [[Stewardship]] · [[Design]] · [[Regeneration]] · [[Right Relationship]]
 **Opens onto:** [[Object]] · [[Manufactured Dependency]] · [[Commons]] · [[Compost]] · [[Universal-Accessing]] · [[Constitutional Protection Of Purpose]]
 **In play:** the Home · the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table · *Pillar IX — Sacred Architecture and Design*, theses 7 and 12 (canon-grade) · the seed's Part IV, the asset lock and the anti-patterns. lionsberg.wiki: Stewarded Form.
-**Open:** The term has one Lexicon line and no page of its own; nothing else in the corpus links to it, so its load is asserted rather than demonstrated.
+**Open:** The term has one Lexicon line and no page of its own; nothing else links to it, so its load is asserted rather than demonstrated.

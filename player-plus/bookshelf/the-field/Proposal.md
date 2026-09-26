@@ -20,5 +20,4 @@ How it is played, between bodies. Keep it to a sentence or two — a home reads 
 **Stands on:** [[Consent]] · [[Consent-Based Decision-Making]] · [[Meaningful Objection]] · [[The Season Sheet]]
 **Opens onto:** [[The edition]] · [[The Way Up]] · [[Decision Records]] · [[Continuous Improvement]] · [[Range Of Tolerance]] · [[Issue]]
 **In play:** table · Home · beyond
-**Sources:** *The Twelve Words*, word 12 (current best understanding) · *The Way Up*, §The proposal (current best understanding) · *Proposal* (root page, general and older in register) · *The LIØNSBERG Operating System* §15 · lionsberg.wiki: **Proposal**, **The Way Up**
 **Open:** The root page describes proposals as a generic decision instrument; the Little Book describes a specific one-sentence artefact that travels on a sheet. Both are in use and neither refers to the other. · Who decides which gathered proposals "ring true" at the top is not named on any page.

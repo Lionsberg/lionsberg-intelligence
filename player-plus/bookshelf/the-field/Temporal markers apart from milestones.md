@@ -14,11 +14,10 @@ A milestone is a date the work gives: a thing complete, to a stated quality, by 
 
 Treating a turning as a milestone corrupts the calendar — the sky's date becomes a deadline, and a season that was meant to be a rhythm becomes a pressure. Treating a milestone as a turning corrupts the plan — the date drifts to wherever the work happens to land and stops being a commitment at all. Each one loses precisely the property that made it useful.
 
-Kept apart, they work together. The discipline the canon states is to plan to finish one season ahead of each marker, run the critical path to the plan date with no slack in it, and let the season between the plan date and the marker be the contingency. When a marker passes and the work is not done, the body says plainly that it is behind and replans to the milestone before moving it. A missed marker has then done its job: it made reality visible.
+Kept apart, they work together. The discipline is to plan to finish one season ahead of each marker, run the critical path to the plan date with no slack in it, and let the season between the plan date and the marker be the contingency. When a marker passes and the work is not done, the body says plainly that it is behind and replans to the milestone before moving it. A missed marker has then done its job: it made reality visible.
 
 **Also called:** equinox and solstice are not milestones
 **Stands on:** [[The turnings]] · [[Season]] · [[Milestone]]
 **Opens onto:** [[Honesty about time]] · [[The clock is read, never computed]] · [[Critical Path]] · [[Float]] · [[The Season Sheet]] · [[Measure everything, manage to the milestones]]
 **In play:** table · beyond
-**Sources:** The DNA of Heaven, Part VII — *temporal markers are never milestones* · The LIØNSBERG Operating System, honesty about time · The Clock of the Game (canon-grade) · lionsberg.wiki: *The Clock of the Game*
 **Open:** the Calendar names roughly twenty-eight inflection points in a year beyond the four turnings; which of those are markers a body is expected to keep, and which are simply available, has not been said.

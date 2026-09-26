@@ -20,5 +20,4 @@ The cultural half matters as much. Nothing here is fixed or final; every page, t
 **Stands on:** [[Learning]] · [[Retrospective]] · [[Zero Blame Environment]] · [[Current Best Understanding]]
 **Opens onto:** [[Every Defect Is A Gift]] · [[Like Gold Refined Seven Times]] · [[Attend, Plan, Act, Learn, Improve Cycle]] · [[Tightly Coupled Learning and Action]] · [[Knowledge as commons]] · [[Progressive canonization]] · [[Proposal]]
 **In play:** table · Home · beyond
-**Sources:** *Continuous Improvement* (wiki root) · *Continuous Learning And Improvement* (wiki root) · *Attend, Plan, Act, Learn, Improve Cycle* (wiki root) · Player+ Modules *Lexicon* — *continuous improvement*, *continuously improve everything* · *The DNA of Heaven*, Parts VII and VIII · lionsberg.wiki: Continuous Improvement
 **Open:** The canon carries both *Continuous Improvement* and *Continuous Learning And Improvement* as separate root pages saying substantially the same thing in different words; neither points at the other.

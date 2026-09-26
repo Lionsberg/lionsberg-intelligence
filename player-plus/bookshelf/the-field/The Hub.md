@@ -18,5 +18,4 @@ Each is sovereign within its scale and federated outward by mutual consent, neve
 **Stands on:** [[Levels Of Scale]] · [[Twelve Irreducible Elements]] · [[Commons]] · [[Architecture]]
 **Opens onto:** [[The Joseph Plan]] · [[The Noah Plan]] · [[The Solomon Plan]] · [[Islands, Hubs, Grid]] · [[The Mediolocality]] · [[Shared Services, Infrastructure, and Support]]
 **In play:** beyond the table
-**Sources:** `The Hub Network Topology`, a Card of LIØNSBERG, Earth, and the Cosmos · The LIØNSBERG Pattern Language, The New World · The LIØNSBERG Playbook, Wilderness · The DNA of Heaven, Part IV · lionsberg.wiki: The Hub Network Topology
 **Open:** No page stands at the bare names *The Hub* or *The Ark*; the topology card and the two plan pages carry the meaning. · The card's aggregate budget figure comes from the Strategy and Plan and is a captured estimate, not an agreed number.

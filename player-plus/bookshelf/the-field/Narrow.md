@@ -22,5 +22,4 @@ Narrowing is not the same as stopping. A stop halts the agent at once, at whatev
 **Stands on:** [[Venue card]] · [[Agent]] · [[The door]]
 **Opens onto:** [[Widen]] · [[Stop]] · [[The open web]] · [[Room]] · [[Principal]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Part X ("narrow fast and alone, widen slowly and only by the person") · Player+ Modules, *Venue Cards*.
 **Open:** none found.

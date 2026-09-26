@@ -18,5 +18,4 @@ It is held, here, subordinate to the Goal it serves. Efficiency that optimises a
 **Stands on:** [[Value]] · [[Waste]] · [[Theory Of Constraints]]
 **Opens onto:** [[Integrated Project Delivery]] · [[Value Stream Mapping]] · [[Continuous Improvement]] · [[Concurrent design]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized* (Element 9, where Lean Project Delivery is named beside IPD and Cross-Functional Integration) · *The LIØNSBERG Lexicon* §The System · *The Economic Case For IPD* — lionsberg.wiki page name: **Lean**
 **Open:** Named in the Pattern Language inventory with no page of its own; the treatment above is gathered from the IPD pages.

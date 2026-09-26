@@ -22,5 +22,4 @@ What cannot be carried is the measurement. The chapter describes node fields ext
 **Stands on:** [[Islands, Hubs, Grid]] · [[Islands of Coherence]] · [[Coherence]] · [[Levels Of Scale]]
 **Opens onto:** [[The Six Grid Disciplines]] · [[Why The Grid Wins, And What Thins It]] · [[Planetary Light Grid]] · [[The Hub]] · [[The Joseph Plan]] · [[Tipping Point Strategy]] · [[Holofractal Scaling]] · [[Bioregion]]
 **In play:** beyond the table — where the next body should be planted
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.5 Planetary Light Grids`, §The Geometry Of The Grid · `Planetary Light Grid` · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** "Measurable patterns" and assessable strength are asserted with no unit, no instrument, and no procedure, and the assessment is reserved to those who have cultivated the sensing — unfalsifiable as written, and carried here as the book's claim rather than as fact. · The gap-filling programme is the checkable half and is what this page is for.

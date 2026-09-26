@@ -20,5 +20,4 @@ A Player+ holds it before the Circle's weekly Turn, so that what they choose to 
 **Stands on:** [[Retrospective]] · [[Improvement log]] · [[House]]
 **Opens onto:** [[Prune]] · [[Soak]] · [[Charter]] · [[The Turn]] · [[Keepers' notes]] · [[Second reader]]
 **In play:** beyond
-**Sources:** Player+ Modules, *The Agent Improvement Process* · The DNA of Heaven, Parts V and VIII · lionsberg.wiki: *Retrospectives*, *Continuous Improvement*.
 **Open:** none found.

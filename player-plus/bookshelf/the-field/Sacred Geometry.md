@@ -14,11 +14,10 @@ It is load-bearing as the point where [[Beauty]] becomes a design discipline rat
 
 In play it is less exotic than its name. Where does the eye rest; what is the ratio of this to that; how does the light fall; what is the size of a thing relative to a body. A [[Cell]] making anything — a garden bed, a sign, a printed card, a room laid out for [[The Turn]] — is making these decisions whether or not it knows the vocabulary. [[Fibonacci]] gives one well-tested set of answers.
 
-Two cautions, said plainly. The territory attracts claims well past what anyone has established — about frequencies, about ancient measurements, about hidden orders — and the canon marks it as a gap rather than a body of knowledge, listing sacred geometry, sacred mathematics, and the hidden mathematical order of things among the Patterns needed. And geometry is not virtue; beautifully proportioned buildings have housed terrible things. The ratio helps; it decides nothing.
+Two cautions, said plainly. The territory attracts claims well past what anyone has established — about frequencies, about ancient measurements, about hidden orders — and this is marked as a gap rather than a body of knowledge, listing sacred geometry, sacred mathematics, and the hidden mathematical order of things among the Patterns needed. And geometry is not virtue; beautifully proportioned buildings have housed terrible things. The ratio helps; it decides nothing.
 
 **Also called:** Sacred Mathematics · The Hidden Mathematical Order Of Things
 **Stands on:** [[Beauty]] · [[Logos]] · [[Pattern]]
 **Opens onto:** [[Fibonacci]] · [[Architecture]] · [[Sacred spaces]] · [[Art]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX · *The LIØNSBERG Pattern Language*, Voice And Hands, Story, Voice, Culture, Art, and Partial Gaps — Sacred Number And Hidden Order (ore) · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** Named in three places in the Pattern Language and defined in none. The concept field places it under Pillar VII; the Lexicon carries it under Pillar IX. Home unsettled.

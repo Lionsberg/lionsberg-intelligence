@@ -14,11 +14,10 @@ Each part does one job. **The official narrative** stated fairly and in full, be
 
 The seventh part is what makes the whole thing honest, and it is also where such work almost always fails. A form with a place for the unsupported only helps if the unsupported actually goes there ([[We Do Not Know]], [[Provenance]], [[Discernment]], [[Second reader]]).
 
-The form is used by a handful of pages in its source and is documented nowhere; its contents in those pages are the corpus's most contested material and are not carried here. What crosses is the form, emptied.
+The form is used by a handful of pages in its source and is documented nowhere; its contents in those pages are the most contested material and are not carried here. What crosses is the form, emptied.
 
 **Also called:** the seven parts · the unveiling structure
 **Stands on:** [[Navigating Towards Truth]] · [[Provenance]] · [[Discernment]]
 **Opens onto:** [[Guardrails Encountered]] · [[Apocryphal Corridors]] · [[Protected and Distorted Narrative]] · [[The Iron-Manned Opposing Argument]] · [[We Do Not Know]] · [[The Five Verification Filters and the Spectrum of Knowing]] · [[Second reader]] · [[Source Narratives]]
 **In play:** the Workshop — the shape of any examination of a contested account
-**Sources:** `LIØNSBERG Wiki Books/The 66 Most Protected and Distorted Narratives/` — used by the handful of written pages, named and documented nowhere
-**Open:** Never named or described as a form anywhere in the corpus; this page names it. · Its own pages do not keep the separation the form exists to enforce, which is the strongest evidence against it as practised. · Nothing states who checks that material in part seven stayed there.
+**Open:** Never named or described as a form before this page. · Its own pages do not keep the separation the form exists to enforce, which is the strongest evidence against it as practised. · Nothing states who checks that material in part seven stayed there.

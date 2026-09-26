@@ -6,7 +6,7 @@ pillar: —
 ---
 # Curation
 
-*The act that makes a knowledge commons actually work: solve · document · push up · **curate** · pull down · localize · feed back.*
+*The act that makes a knowledge commons actually work: solve · document · push up**curate** · pull down · localize · feed back.*
 
 Six of those seven steps can be described mechanically. The fourth cannot. Curation is a person going back over scattered material — formal pages, informal notes, meeting records, chat threads, half-finished drafts — and pulling together what belongs together, then saying, in their own voice, what they noticed about it and why it matters. It is human pattern-matching, not search ([[Pattern Recognition]], [[Sensemaking]], [[Knowledge as commons]]).
 
@@ -20,7 +20,6 @@ Its discipline is voice and provenance. A curator's reading is *theirs* and is p
 
 **Also called:** curating
 **Stands on:** [[Knowledge as commons]] · [[Sensemaking]] · [[Pattern Recognition]]
-**Opens onto:** [[Linking (as curation)]] · [[The Living Library]] · [[Submittals]] · [[One canonical home per concept]] · [[Weave, don't delete]] · [[Provenance]] · [[The Concept Card]] · [[Prune]] · [[Semantic Capture]]
+**Opens onto:** [[Linking (as curation)]] · [[The Living Library]] · [[Submittals]] · [[One canonical home per concept]] · [[Weave, do not delete]] · [[Provenance]] · [[The Concept Card]] · [[Prune]] · [[Semantic Capture]]
 **In play:** Home · beyond — an afternoon, by whoever noticed the connection
-**Sources:** *The DNA of Heaven*, Part IV, §Knowledge as commons — *solve and document, push it up, curate, pull it down, localize and feed back* · `LIØNSBERG Wiki Blogs/the starter kit's Journal/Curation Example — 'community currency'` (a 2022 journal post that demonstrates the act rather than asserting it; author's voice preserved) · lionsberg.wiki: Knowledge As Commons
 **Open:** Named as one of seven steps and demonstrated once; nothing states who curates, how often, or how a body notices that it has stopped.

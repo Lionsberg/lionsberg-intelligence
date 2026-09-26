@@ -20,5 +20,4 @@ In the Game the three parts give a Circle a way to read its own season honestly:
 **Stands on:** [[The Sacred Arc]] · [[The Story of LIØNSBERG]]
 **Opens onto:** [[The Fall]] · [[Awakening]] · [[The Sacred War]] · [[The Great ReMembering]] · [[The Eternal Divine Play]]
 **In play:** door · table
-**Sources:** *The Story of LIØNSBERG — The Sacred Arc* (canon-grade; the three headings are the page's own structure) — lionsberg.wiki · the seed text *The DNA of Heaven*, Part II.
 **Open:** The three parts are given as headings in the Arc and are nowhere yet articulated as a concept in their own right; this page is the first such articulation and is a draft.

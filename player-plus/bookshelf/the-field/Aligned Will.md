@@ -20,5 +20,4 @@ Aligned will is what makes [[Spontaneous Wise Right Action]] trustworthy rather 
 **Stands on:** [[ØNE]] · [[Right Relationship]] · [[Logos]] · [[Intention]]
 **Opens onto:** [[Spontaneous Wise Right Action]] · [[The Act Of Release]] · [[Conduit]] · [[Co-Creation]] · [[Discernment]] · [[Receiving Transmission]] · [[The Calling]]
 **In play:** Gate
-**Sources:** *Aligned Will* (drafted Pattern Card) · *Surrender To ØNE* · *The Longing For ØNE* · *Direct Relationship With ØNE* (drafted Cards) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Aligned Will
 **Open:** The Card asks the Sovereign to test their own alignment and names no external check, while the transmission Cards insist on company and testing for the same class of judgment.

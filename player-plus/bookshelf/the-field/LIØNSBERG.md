@@ -22,5 +22,4 @@ Its call is four lines: *Come home. Remember who you are. The flame has never le
 **Stands on:** [[ØNE]] · [[The Sacred Mountain]] · [[All]] · [[Love]]
 **Opens onto:** [[The Story of LIØNSBERG]] · [[The Great Game of LIØNSBERG]] · [[The Way]] · [[The Golden Seed]] · [[The Flame]] · [[The instance law]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[The Eternally Nameless]] · [[The Sacred Ascent]] · [[Coming Home]]
 **In play:** the door — the first word
-**Sources:** `LIØNSBERG.md` (wiki root) · `LIØNSBERG Is A Prototype, Not The Eternal Essence` (wiki) · lionsberg.wiki: LIØNSBERG
-**Open:** The root page never states the etymology directly; *lion* and *berg* are read here from the word itself, and no canon page confirms or denies the reading. · The name had no row of its own in the concept field before this page, which is itself the finding.
+**Open:** The root page never states the etymology directly; *lion* and *berg* are read here from the word itself, and no page confirms or denies the reading. · The name had no row of its own in the concept field before this page, which is itself the finding.

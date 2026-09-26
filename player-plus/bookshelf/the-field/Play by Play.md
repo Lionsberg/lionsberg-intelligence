@@ -20,5 +20,4 @@ The keeping of it is a service to the room rather than a claim on it. The agent 
 **Stands on:** [[Room]] · [[Heads-up]] · [[Agent]] · [[Sign]]
 **Opens onto:** [[Live log]] · [[Jam]] · [[Closing question]] · [[Retrospective]] · [[Story]] · [[The Record]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Part X ("the two are different objects") · Player+ Modules, *The Heads-up and the Play by Play*, *Jam Conventions*.
 **Open:** none found.

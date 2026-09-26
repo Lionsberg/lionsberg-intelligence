@@ -20,5 +20,4 @@ Collaboration is not merger. Each Cell keeps its sovereignty, its own [[Field of
 **Stands on:** [[Cell]] · [[Trust]] · [[Field of Agreements]] · [[Reciprocity]]
 **Opens onto:** [[Supercell]] · [[Home Cell]] · [[Stacking Up And Aligning]] · [[Guard the Membrane]] · [[Federation]] · [[Islands of coherence to network]]
 **In play:** beyond the table
-**Sources:** `Connect and Collaborate With Other Cells` · The LIØNSBERG Playbook, Growing and Federation — Play — Connect With Another Circle · The DNA of Heaven, Part V · lionsberg.wiki: Connect and Collaborate With Other Cells
 **Open:** none found.

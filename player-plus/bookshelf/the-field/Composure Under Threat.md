@@ -20,5 +20,4 @@ The discipline is what makes the rest of the Pillar possible. Without it, [[Rest
 **Stands on:** [[Discipline]] · [[Breath]] · [[Fear]] · [[Mastery Of Emotions]]
 **Opens onto:** [[Restraint As The Refusal To Act]] · [[Warrior]] · [[Shield]] · [[Sovereignty In The Populated Field]] · [[Courage]] · [[Boundary]]
 **In play:** the table · the Room · beyond
-**Sources:** *All Patterns — Master Consolidated Inventory* §1 (drafted card) · *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · *The Boundary* · *Pillar X — Sacred Guardianship and Order*, thesis 5 (canon-grade). lionsberg.wiki: Composure Under Threat.
 **Open:** A drafted card with no published body; *Strong Not Safe* appears as a separate name in the same list, and whether they are one pattern or two is unstated.

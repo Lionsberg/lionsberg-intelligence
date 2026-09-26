@@ -19,5 +19,4 @@ Its discipline is the refusal of two easy failures: everyone playing the same no
 **Stands on:** [[ØNE]] · [[All]] · [[Right Relationship]]
 **Opens onto:** [[Higher Order Functional Unity]] · [[Meta Unity of Meta Diversity]] · [[Coherence]] · [[Resonance]] · [[Attunement]] · [[Omniharmonic]] · [[Music]] · [[Notes, Riffs, Songs, And The Symphony]]
 **In play:** At the table, as the picture of why difference in a Circle is an asset rather than a cost; beyond, as the image of what federation is for.
-**Sources:** `2.16 The Divine Symphony` (The LIØNSBERG Elevation Initiative — the fullest articulation found) · `The Great Weaving — Concept Ledger` §A.4 (proposes consolidating the fragments into one Card) · `The Great ReMembering` (symphony imagery threaded) · `Values` (wiki root — the universal symphony). lionsberg.wiki: **2.16 The Divine Symphony**.
 **Open:** The Ledger names four scattered fragments (`5. Symphony of Existence`, `8. Symphony of Energy`, `2.16 Divine Symphony`, and imagery inside `The Great ReMembering`) and proposes a consolidation that has not happened; there is no page at `The Divine Symphony`.

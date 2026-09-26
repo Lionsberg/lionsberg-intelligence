@@ -18,5 +18,4 @@ Called the *City Hub* in the Strategy and Plan, it holds roughly ten Mediolocali
 **Stands on:** [[The Mediolocality]] · [[Levels Of Scale]] · [[Federation]]
 **Opens onto:** [[The Macrocomplex]] · [[The Locality]] · [[Ecoregion]] · [[Integrated Delivery]] · [[The Hub]]
 **In play:** beyond the table
-**Sources:** `Macrolocality`, a Card of LIØNSBERG, Earth, and the Cosmos · `Levels of Scale` (canon-grade) · The Sovereign Path, Holofractal Scaling · The DNA of Heaven, Part IV · lionsberg.wiki: Macrolocality
 **Open:** none found.

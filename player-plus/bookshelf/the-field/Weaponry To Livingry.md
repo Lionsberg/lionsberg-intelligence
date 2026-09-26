@@ -20,5 +20,4 @@ At the size of a table this has an ordinary form. The Cell asks what its capacit
 **Stands on:** [[Technology]] · [[Ethics]] · [[The Sacred Use Of Force]] · [[Ephemeralization]]
 **Opens onto:** [[Guardianship]] · [[The Threefold Capacity]] · [[Peace]] · [[Full Spectrum Dominance]] · [[Trim Tab]]
 **In play:** beyond the table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Technology Assessment And Sovereignty (ore) · *All Patterns — Master Consolidated Inventory*, §2.1 (ore) · *Pillar X — Sacred Guardianship and Order* (canon-grade) · *It Has To Be Utopia Or Oblivion For Us All* · *Ephemeralization*. lionsberg.wiki: Weaponry To Livingry.
-**Open:** Ore — named in two inventories, written in neither. The phrase is Buckminster Fuller's and the canon carries it without saying so on the page itself.
+**Open:** Ore — named in two inventories, written in neither. The phrase is Buckminster Fuller's and it is carried here without saying so on the page itself.

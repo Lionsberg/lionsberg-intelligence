@@ -72,6 +72,14 @@ And above that, **[[Earth]]** itself: one atmosphere, one water cycle, one biosp
 
 The ladder of place, then, from the table outward: a [[Cell]] · its [[Home Cell]] · the watershed it sits in · the ecoregion that watershed belongs to · the bioregion that integrates several ecoregions and the cultures grown on them · the georegion · the planet. Beside it, not above or below it, run the axes that cross all places at once: a [[Guild]] federates by craft, a [[Tribe]] by lineage, a [[Species]] by kind, a [[Voluntary Association]] by chosen purpose. A [[Bioregion]] holds the place-based half of sovereignty and a [[Guild]] the craft-based half. Both are needed; neither is sufficient. This is [[Holofractal Omnifederation]] where it touches actual ground, and it is described more fully in [[09 Pillar II — Sacred Governance and Stewardship]].
 
+### Every holon has its waste and recycling streams
+
+A living system takes in, uses, and returns. A household takes in food, water and materials, uses them, and returns compost, greywater and worn goods to be remade. A [[Cell]] does the same for what its table gathers and its [[Quest]] consumes. A neighbourhood, a community, an ecoregion and the planet itself keep the same three motions, only larger.
+
+None of these streams stands alone. What a household cannot use returns to its Cell's commons; what a Cell cannot use returns to its neighbourhood; what a neighbourhood cannot use returns to its community, its ecoregion, and outward — nesting the same way the hubs nest, and carried in the same buildings ([26 The Body and Its Planning](26%20The%20Body%20and%20Its%20Planning.md), §IV). Nothing is discarded outward and forgotten. It is passed along the same ladder of scale that carries every other request and offer, until it reaches a scale that can use it.
+
+The largest of these streams by far is the old built world itself. Over the one to two centuries the rebuilding takes, deconstructing rather than demolishing what already stands returns more material to the new supply chains than any mine could yield, generation by generation — the largest single recycling stream the body keeps, nested inside the same principle as a household's compost heap ([27 Resourcing and the New Economy](27%20Resourcing%20and%20the%20New%20Economy.md), §VIII). [[Waste]] measured this way is never a moral failing; it is matter and energy not yet returned to a scale that can use them.
+
 ### The seat, and why it is the centre of this Pillar
 
 Every governance system in history has produced its harms the same way: **the affected party was not in the room.** Not through malice, usually. Through absence.
@@ -82,7 +90,7 @@ This is deliberately structural rather than moral, because moral appeals on beha
 
 The canon names this seat in at least five places and has never once said how it works. Making it work is the largest piece of unwritten work in this Pillar, and the specifications below are the first attempt at it.
 
-### Where the sources disagree, and what this Book carries
+### Open questions
 
 Four disagreements are live, and the Book carries them in the open rather than smoothing them.
 
@@ -100,7 +108,7 @@ Four disagreements are live, and the Book carries them in the open rather than s
 
 Set the diagnosis down for a moment and look at the far end, because a people cannot walk toward something it has never seen.
 
-For the span of the industrial age, one species has been the most *degenerative* force this planet has borne — the only one whose ordinary activity, at scale, dismantled the systems that carry all life. There is nothing in human nature that fixes it there. The same hands that can unmake a biosphere can remake one. In the world this Pillar is aimed at, humanity is the most **regenerative** force on Earth: the hands that replant the forests, reopen the rivers, rebuild the soil, restore the wetlands, and tend the return of the creatures. Not human presence erased. Human presence *reversed in sign* — eight billion pairs of hands turned from mining to cultivation, so that every place a person touches is left richer, wilder, and more alive than they found it.
+For the span of the industrial age, one species has been the most *degenerative* force this planet has borne — the only one whose ordinary activity, at scale, dismantled the systems that carry all life. There is nothing in human nature that fixes it there. The same hands that can unmake a biosphere can remake one. In the world this Pillar is aimed at, humanity is the most **regenerative** force on Earth: the hands that replant the forests, reopen the rivers, rebuild the soil, restore the wetlands, and tend the return of the creatures. Not human presence erased. Human presence *reversed in sign* — eight billion pairs of hands turned from mining to cultivation, so that every place a person touches is left richer, wilder, and more alive than they found it. Much of that turn comes from the old built world itself: taken apart rather than demolished, generation by generation, it becomes the mine that ends most new extraction ([27 Resourcing and the New Economy](27%20Resourcing%20and%20the%20New%20Economy.md)).
 
 What it looks like on the ground: rivers running free to their headwaters, the dams that never made sense removed, water flowing as the artery of a body rather than as a metered commodity. Soils deepening year over year under regenerative hands, holding more water, storing more carbon, growing more nourishing food, so that the countdown of remaining harvests reverses into a widening abundance. The old migration paths of herds and birds and fish, cut by fences and dams and sprawl, reopened, and the creatures moving along them again. Forests spreading rather than falling. Insects loud in the hedgerows, and the birds that eat them back, and the whole web thickening toward its full and ancient richness. Children who can name five birds by their song, and know which berry is safe, and know where their water comes from and where it goes.
 
@@ -114,7 +122,7 @@ The culture of [[The Way]] inside this Pillar has a particular texture, and it i
 
 ## The plan
 
-The horizons below are the Pillar's share of the whole plan; the shape of the rest is in [[24 The Plan — the first three percent]]. Each horizon says what the first three percent build, and none of it waits on funding, permission, or anyone's approval.
+The horizons below are the Pillar's share of the whole plan; the shape of the rest is in [[29 The Plan — the first three percent]]. Each horizon says what the first three percent build, and none of it waits on funding, permission, or anyone's approval.
 
 **Season One — to Winter Solstice 2026.** Literacy and the seat. Every Cell can draw its own watershed from memory: where the water arrives, where it goes, what it passes on the way. Every Cell names its ecoregion in one sentence — what grows here, what the year does. Every Cell that has a charter names the seat for living systems in it, and fills it with a person. Every Cell chooses one ecological [[Quest]] with a *done when* line, and takes its first reading of the three measures below — soil, water, and what lives here — so that there is a baseline before any of the work begins. One compost heap per Cell, because it is the plainest teacher in the Pillar and because a group that cannot keep a heap damp and turned is not yet ready to steward a river.
 
@@ -298,6 +306,29 @@ An ecoregional or bioregional body is done for now when Communities sharing one 
 
 Nothing here is ever finished. *Done for now* means the next thing can safely be built on it.
 
+### 9 · The Living Systems Record **
+
+**What it is.** The place where a Cell's readings of its own ground are laid down, season after season, and where Cells sharing one ecoregion lay their readings beside one another. Not a new measurement — the three hand measures already specified are its entire content — but the keeping of them long enough, and in a shape comparable enough, that a direction becomes visible and a Cell's notebook becomes an ecoregion's evidence. It also carries what every holon already tracks apart from the three measures: what came into a place, what was used, and what was returned — the waste and recycling streams a household, a Cell, a neighbourhood, a Community, and an ecoregion each keep at their own scale, nested the way the hubs nest.
+
+**Why a body without it fails.** One season's reading is an anecdote. Three are a pattern. Seven are a record almost no institution anywhere keeps about that particular stretch of ground. Without a place to keep them, each season's hand measure is taken once and forgotten, a Cell cannot show a neighbour its own place's direction, and a body sharing an ecoregion cannot lay its readings beside another's or know whether its own regenerative work is working.
+
+**Who holds it.** The Cell, in its own notebook, at its own table — the same box that holds the Circle Sheet, the Questcard, the Scorecard. An ecoregional or bioregional body holds nothing of its own; it holds only what Cells bring and lay beside one another at a turning. No single seat owns the aggregate. A body that centralizes the record before a Cell agrees to share it has performed the enclosure this Pillar guards against, in the shape of a database rather than a fence.
+
+**What it contains, in one shape everywhere.**
+1. **Line 1** — the Cell's watershed, ecoregion and bioregion, so any reading can be placed before it is read.
+2. **The three measures**, dated, each season: soil (worms, dark-layer depth, smell, water-uptake seconds, texture), water (clarity, smell, colour, speed, what lives under the stones), and what lives here (birds, pollinators, plants, the count).
+3. **The list of what has stopped arriving** — added to, never rewritten, the only record of a loss no instrument can reconstruct afterward.
+4. **The waste and recycling account** — what the place took in this season, what it used, what it returned, and what moved outward to a scale that could use it: the compost that left the kitchen, the greywater returned to the ground, the worn goods passed to the neighbourhood's commons, the share of the old built world deconstructed rather than demolished and fed back into the supply chain. Recorded the same way the measures are — a number and a sentence — so the same three motions any living system keeps, taking in, using, returning, are visible at whatever scale a holon sits.
+5. **The seat's status** — named, filled, and whether it spoke this season.
+
+**How it is kept, by hand.** One notebook page per season, in the same order every time, written even in the season the reading is bad — a record that shows only good seasons is a scrapbook, not a record. Nothing here needs ink beyond a pencil and nothing needs power beyond daylight.
+
+**How it is kept, by machine, where a body chooses one.** The shape does not change; only the copying does. A dated table, one row per Cell per season, columns for the watershed/ecoregion/bioregion line, the three measures, the waste account, and the seat's status — structured so an ecoregional body can lay ten Cells' rows beside each other in an evening, exactly as the Season Sheet is read. Nothing is pooled beyond what a Cell has already sent up its own Season Sheet; the record compares what was voluntarily shared and is never a database a Cell did not choose to be in.
+
+**How it degrades to paper.** It never left paper. The record is what a spade, a jar, a stick, a net, a notebook and a pencil produce when used the same way, in the same place, every season, and kept.
+
+**What it guards against.** A number turned into a target — the fastest way to raise a worm count is to stop looking honestly, and the record's discipline is the measure's own: three readings before a trend is spoken of, seven before confidence, and the bad season written down regardless. A record captured by whoever aggregates it, which is why no single body owns the aggregate and every Cell's row is its own to withhold. And the quiet loss of the list of what has stopped arriving, which a record that only counts what is present will never notice is missing.
+
 ---
 
 ## In every future
@@ -347,3 +378,4 @@ What this Pillar leaves open, each in one line.
 ---
 
 *Read the Story. Play the Game. [[Pass The Flame]].*
+

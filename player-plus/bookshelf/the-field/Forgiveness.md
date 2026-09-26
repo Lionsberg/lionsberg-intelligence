@@ -22,5 +22,4 @@ At the table this is ordinary rather than dramatic. The gap between what was pro
 **Stands on:** [[Love]] · [[Justice]] · [[Right Relationship]] · [[Mastery Of Emotions]]
 **Opens onto:** [[Apologizing]] · [[Reconciliation]] · [[Conflict Transformation]] · [[Jubilee]] · [[Zero Blame Environment]] · [[Remedy]] · [[Anger]] · [[Mend a Tension]]
 **In play:** table
-**Sources:** *Forgiveness* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Parts IV and XI · lionsberg.wiki: Forgiveness
 **Open:** The canon names forgiveness as a cardinal practice and nowhere states its relation to accountability — whether a forgiven steward is still recalled.

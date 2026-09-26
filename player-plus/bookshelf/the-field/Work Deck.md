@@ -22,5 +22,4 @@ There are many decks, and the law is the same for each: a Cell's work, a season'
 **Stands on:** [[Work Card]] · [[Card Types]] · [[The Deck Standard]]
 **Opens onto:** [[The Board]] · [[The look-ahead]] · [[Data Date]] · [[The Game Engine]] · [[Float]] · [[Critical Path]] · [[Work Breakdown Structure]] · [[The plan of the whole]]
 **In play:** Home — held by a Cell, read at the Turn
-**Sources:** `Projects/the term pages/Work Deck.md` · `Card Types.md` · `Projects/the term pages/Work Card.md`, `The Game Engine.md`, `Data Date.md` (drafts) · lionsberg.wiki: Card Types
-**Open:** The page proposes widening the look-ahead's window from the canon's make-ready horizon to six weeks, and marks the widening as a proposal. · Nothing states how two bodies reconcile a card that appears, by address, in both their decks.
+**Open:** The page proposes widening the look-ahead's window from the standard make-ready horizon to six weeks, and marks the widening as a proposal. · Nothing states how two bodies reconcile a card that appears, by address, in both their decks.

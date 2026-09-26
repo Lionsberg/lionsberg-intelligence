@@ -18,5 +18,4 @@ How it is kept. In plain text or on paper that anyone in the Cell can read and c
 **Stands on:** [[Commitment]] · [[The gap]] · [[Zero Blame Environment]]
 **Opens onto:** [[Kept as a share of made]] · [[The Score]] · [[The Circle's Scorecard]] · [[Decision Records]] · [[Every Defect Is A Gift]] · [[Keeper]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §12, Card 6 · The DNA of Heaven, Parts VII and XIII · *The Circle's Scorecard* (current best understanding) · lionsberg.wiki: **The LIØNSBERG Operating System**
 **Open:** The Operating System's Record and the Little Book's Scorecard are two forms of one thing and are not cross-referenced by either page; which is primary at a small table is not stated. · The Operating System is marked a draft (v0) throughout.

@@ -1,6 +1,6 @@
 ---
 name: pull-from-benchmark
-description: Reads a new release of the PKAI benchmark or starter kit — its CHANGES.md and LINEAGE.md — and proposes, item by item, what this house should take, adapt, or decline, with reasons; records the person's decision; then drafts the report back (what we valued, what we thought, where we diverged and did better). Use when a new benchmark or kit release is announced, when the person says "a new version is out", "should we upgrade", "pull from the benchmark", "what's in V3.1", or when this house's LINEAGE.md `pull_from` points at a version newer than `sits_on`.
+description: Reads a new release of the PKAI benchmark or starter kit — its CHANGES.md and LINEAGE.md — and proposes, item by item, what this house should take, adapt, or decline, with reasons; records the person's decision; then drafts the report back (what we valued, what we thought, where we diverged and did better). Use when a new benchmark or kit release is announced, when the person says "a new version is out", "should we upgrade", "pull from the benchmark", "what is in V3.1", or when this house's LINEAGE.md `pull_from` points at a version newer than `sits_on`.
 license: MPL-2.0
 ---
 
@@ -21,10 +21,10 @@ Nothing is ever pushed into a house. A new release is the current best understan
 3. **Propose a disposition for each row** — one of:
    - **take** — copy it in as is, and why it fits;
    - **adapt** — take the idea, in this house's words or shape, and what would change;
-   - **decline** — and the reason (we don't need it; it conflicts with a rule the person set; it costs more than it gives);
+   - **decline** — and the reason (we do not need it; it conflicts with a rule the person set; it costs more than it gives);
    - **already better** — this house does it another way that works better here, and what that way is.
-   Give the reason in one line each. Don't pad. Put the rows the person most needs to decide at the top.
-4. **Show the table and wait.** This is the person's decision. Answer questions; don't argue past one round.
+   Give the reason in one line each. Do not pad. Put the rows the person most needs to decide at the top.
+4. **Show the table and wait.** This is the person's decision. Answer questions; do not argue past one round.
 5. **Apply only what was decided, by copying.**
    - Skills: copy the whole folder into `.claude/skills/`, licence and lineage included.
    - Bookshelf and templates: copy into the HQ's kit folder or wherever this house keeps its reference library.
@@ -42,4 +42,4 @@ Nothing is ever pushed into a house. A new release is the current best understan
 - Overwrite a file in this house with a file from the release.
 - Edit `CLAUDE.md`, settings, or hooks itself.
 - Send the report; the person sends it.
-- Treat a `decline` as something to raise again next release. It's decided; note it in `LINEAGE.md` so future pulls skip it unless the person reopens it.
+- Treat a `decline` as something to raise again next release. It is decided; note it in `LINEAGE.md` so future pulls skip it unless the person reopens it.

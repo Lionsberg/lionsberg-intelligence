@@ -14,7 +14,7 @@ Why it must be read as a chain is the whole point of the page. Broken into separ
 
 Each link has precedent, which is what distinguishes it from prediction: the freezes of 2008 and of the overnight markets in 2019 are the shape at small scale ([[The Bronze Age Parallel]], [[Probability, Severity, and Scope]]).
 
-And the corpus's actual conclusion is not a forecast but a fork: the end of a monetary order produces either something designed in advance by the people it will govern, or something imposed by whoever has been preparing a replacement ([[Programmable Money]], [[The Race Between Liberation and Kontrolle]], [[Underwriting The New Economy]], [[LUV]]).
+And the actual conclusion here is not a forecast but a fork: the end of a monetary order produces either something designed in advance by the people it will govern, or something imposed by whoever has been preparing a replacement ([[Programmable Money]], [[The Race Between Liberation and Kontrolle]], [[Underwriting The New Economy]], [[LUV]]).
 
 **The figures in the source are its own, stated from 2026, and are estimates of a live situation rather than measurements; none is carried here.** The sequence does not depend on any of them.
 
@@ -22,5 +22,4 @@ And the corpus's actual conclusion is not a forecast but a fork: the end of a mo
 **Stands on:** [[Money]] · [[Collapse]] · [[The Meta Crisis]]
 **Opens onto:** [[Programmable Money]] · [[The Race Between Liberation and Kontrolle]] · [[Underwriting The New Economy]] · [[Supply Chains]] · [[Systemic Failure Modes]] · [[Usury]] · [[The Collapse-Ascension Nexus]] · [[Probability, Severity, and Scope]]
 **In play:** beyond — read once, as a chain, by anyone deciding how exposed they are
-**Sources:** `LIØNSBERG Wiki Books/Most People Have No Idea What Is Coming/2.8 The Dominoes and the Endgame.md`
 **Open:** Presented as logic; each link is contestable and the chapter engages no counter-argument. · The chapter's figures are unattributed and are not carried here. · No timeframe is given, and a chain with no clock can be right about mechanism and useless for decisions.

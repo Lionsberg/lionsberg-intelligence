@@ -20,5 +20,4 @@ At a table it shows up as the willingness to ask *why do we do it this way* with
 **Stands on:** [[Wisdom]] · [[Truth]] · [[Logos]]
 **Opens onto:** [[Epistemology]] · [[Ontology]] · [[Axiology]] · [[Teleology]] · [[Dialogos]] · [[Discernment]]
 **In play:** Met at the table when a Cell asks why the form is the way it is; met in the Room, in shared sensemaking.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the love of wisdom and pursuit of ultimate truth, goodness, and beauty") · *Pillar I — Sacred Ontology and Metaphysics*, thesis 7 and Narrative · *Philosophy* (root page) · lionsberg.wiki: *Philosophy*.
 **Open:** none found.

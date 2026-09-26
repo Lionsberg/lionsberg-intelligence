@@ -20,5 +20,4 @@ It is load-bearing because it is where a Movement stops being a network and beco
 **Stands on:** [[The Calling of the Ecclesia]] · [[Consent]] · [[We The People]] · [[Governance]]
 **Opens onto:** [[Council]] · [[Wisdom Council]] · [[Room Types]] · [[Tender]] · [[The LIØNSBERG General Assembly]] · [[Legitimacy]] · [[Celebration]] · [[Covenant]]
 **In play:** Home · beyond — the chamber, and the gathering at the turning
-**Sources:** `Projects/the term pages/Room.md`, the Chamber row — *the Council or the Ecclesia decides by consent* · `Projects/The Guide 2026-09/The Guide — What It Is…` · `LIØNSBERG Ecclesia` (wiki root) · lionsberg.wiki: LIØNSBERG Ecclesia
-**Open:** The Ecclesia is named in several places and has no page of its own in the canon; what it may bind, as against what it merely convenes, is nowhere stated. · Whether the worshipping and deciding forms are one body meeting twice or two bodies sharing a name is undecided.
+**Open:** The Ecclesia is named in several places and had no page of its own before this one; what it may bind, as against what it merely convenes, is nowhere stated. · Whether the worshipping and deciding forms are one body meeting twice or two bodies sharing a name is undecided.

@@ -59,11 +59,11 @@ When two moves both pass, the older players ask a second question: *Is this the 
 
 ## The Five Moves, at the Table
 
-1. **[[Form a Cell]].** Three to thirteen people who choose to walk together, by name, and best at four to seven. Give it a name. Agree, out loud, how you will treat each other. Two of you host each season, and the hosting passes around. A [[Circle (as gathering)|Circle]] is a gathering; a **Cell** is a Circle that plays — a fully functioning part of the whole. At thirteen it divides into two, the way a cell does, and both go on.
+1. **[[Form a Cell]].** Three to thirteen people who choose to walk together, by name, and optimally four to seven. Give it a name. Agree, out loud, how you will treat each other. Two of you host each season, and the hosting passes around. A [[Circle (as gathering)|Circle]] is a gathering; a **Cell** is a Circle that plays — a fully functioning part of the whole. At thirteen it divides into two, the way a cell does, and both go on.
 2. **[[Choose a Quest]].** One real thing, for one season, that your Cell can do together and point to afterward. Real, near, and yours. [[Quest|Quests]] stack up and align to produce throughput of The Goal.
 3. **Learn and grow.** Each week, each of you says what you will do. The next week, each says whether you did it, and what you learned from the difference. That is the whole discipline of the game: *say what you will do; do what you said; learn from the gap.*
 4. **[[Share the Stories|Share your stories]].** Every Quest becomes a [[Story|story]], and the story travels further than you can.
-5. **[[Pass The Flame]].** Each of you carries the game to the two or three people you know are ready, within a week. They form their own Cell, not a branch of yours. Then there are two Cells, and the fire is loose in the world.
+5. **[[Pass The Flame]].** Each of you carries the game to your three — people not already playing, whom you know are ready — within three days. They form their own Cell, not a branch of yours. Then there are two Cells, and the fire is loose in the world.
 
 Those are [[The Five Moves|the five]] anyone can start with tonight.
 
@@ -132,7 +132,7 @@ And beneath all of it, the floor: when a member is in danger, in body or in mind
 
 ## What The Game Asks of You
 
-At the least: come to the table each week; say what you will do and do it, or say why not; put something in the middle; tell one story a season; carry the Flame to two or three.
+At the least: come to the table each week; say what you will do and do it, or say why not; put something in the middle; tell one story a season; carry the Flame to your three.
 
 More is welcome and is never required. Nothing binds without your own word, and your word is the whole game.
 

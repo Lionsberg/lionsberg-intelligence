@@ -18,5 +18,4 @@ How it is used. Open the Play for the moment you are in, run it, and note where 
 **Stands on:** [[Pattern]] · [[Pattern Card]] · [[The LIØNSBERG Pattern Language]]
 **Opens onto:** [[Plays Are Riffs; Patterns Are The Notes]] · [[The Playbook Chart]] · [[The LIØNSBERG Workshop]] · [[General Needs]] · [[The Turn]] · [[The LIØNSBERG Circle Guide]]
 **In play:** table · Room · Home
-**Sources:** *The LIØNSBERG Playbook*, §How to Use and the Play form · the Player+ Modules lexicon, *Play* · lionsberg.wiki: **The LIØNSBERG Playbook**
 **Open:** The Playbook states that Plays live in a Plays folder with a `Play — Title` filename convention;

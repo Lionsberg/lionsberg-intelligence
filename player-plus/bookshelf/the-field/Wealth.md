@@ -20,5 +20,4 @@ The old inversion that must be named: [[Extraction Of Wealth]] is not wealth cre
 **Stands on:** [[Value]] · [[Abundance]] · [[Flow]] · [[Commons]]
 **Opens onto:** [[The waterfall]] · [[Voluntary Tithing]] · [[Fostering Ecosystemic Resource Flows]] · [[Extraction Of Wealth]] · [[Mutual Aid]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III (canon-grade — the definition line) · *Pillar III — Sacred Economy and CurrentSee*, Thesis 3 (canon-grade) · *Where Value Flows* (Community Guidebook Toolkit) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Wealth
-**Open:** The six capitals are named in the seed and in the FSx material but have no page of their own in the canon; the list of six is carried here without a canonical definition of each.
+**Open:** The six capitals are named in the seed and in the FSx material but have no page of their own; the list of six is carried here without a canonical definition of each.

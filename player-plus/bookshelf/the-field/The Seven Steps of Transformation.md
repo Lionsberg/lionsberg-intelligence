@@ -28,5 +28,4 @@ The order carries the teaching. Story before vision, vision before analysis, eng
 **Stands on:** [[The Great Transformation]] · [[Story]] · [[Design]]
 **Opens onto:** [[Attend, Plan, Act, Learn, Improve Cycle]] · [[Observe · Orient · Decide · Act · Learn]] · [[The Seven Moves]] · [[Monitoring, Evaluation, and Continuous Improvement]] · [[Prototype]] · [[The plan of the whole]] · [[Retrospective]]
 **In play:** the Room and the season — the shape a body gives a transformation it has decided to attempt
-**Sources:** `The Seven Steps of Transformation` · lionsberg.wiki: The Seven Steps of Transformation
 **Open:** The canon carries a Card named *The Steps of Transformation* which may be this under a shorter name; both exist and neither points at the other, and whether they are one concept is an open merge question — neither was read in full for this page. · The seven sit beside at least three other named cycles in the Field, and nothing relates them.

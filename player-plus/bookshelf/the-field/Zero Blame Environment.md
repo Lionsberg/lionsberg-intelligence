@@ -20,5 +20,4 @@ In play it is established in the first season or not at all, because it is learn
 **Stands on:** [[Every Defect Is A Gift]] · [[Continuous Improvement]] · [[Trust]] · [[Culture]]
 **Opens onto:** [[Accountability]] · [[Retrospective]] · [[Whistleblower Protection]] · [[Remedy]] · [[The gap]] · [[Forgiveness]] · [[Conflict Transformation]]
 **In play:** table — proved the first week someone misses a commitment
-**Sources:** *Zero Blame Environment* (the culture in which Integrated Delivery can flourish) · *Every Defect Is A Gift* · *Player+ Modules*, Lexicon · *THE DNA OF HEAVEN* Parts V and VII · lionsberg.wiki: Zero Blame Environment
 **Open:** The root page frames it as a precondition for Integrated Delivery; the Game uses it at every table. No page yet states where blamelessness ends — how a body responds to repeated, knowing breach without either blaming or ignoring it.

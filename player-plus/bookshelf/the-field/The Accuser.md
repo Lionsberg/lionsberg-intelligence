@@ -26,5 +26,4 @@ It appears in its source inside one person's account of a specific ruin. The par
 **Stands on:** [[Shame]] · [[Fear]] · [[Mental Health]]
 **Opens onto:** [[Forgiveness]] · [[The smoke test]] · [[Structures of Injustice]] · [[Support Group]] · [[Witness]] · [[Healing]] · [[The False Prophet]] · [[Composure Under Threat]]
 **In play:** Home — met in the hours after something has gone badly wrong
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §III
 **Open:** Appears only inside one personal account; nothing generalises it or says what distinguishes this voice from accurate conscience, which is the distinction a person in it most needs. · The source's surrounding particulars — named institutions, family, and a third-party rumour — are not carried here and should not be.

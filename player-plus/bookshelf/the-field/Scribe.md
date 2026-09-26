@@ -18,5 +18,4 @@ The discipline is plain text a member can read and correct. From every gathering
 **Stands on:** [[Roles]] · [[The Record]] · [[Commitment]]
 **Opens onto:** [[Keeper]] · [[Host]] · [[Decision Records]] · [[The gap]] · [[Issue]] · [[Every Defect Is A Gift]]
 **In play:** the table
-**Sources:** the Player+ Modules Lexicon · The LIØNSBERG Circle Guide · The LIØNSBERG Operating System §11–§12 · The DNA of Heaven, Part VII · lionsberg.wiki: The LIØNSBERG Circle Guide
 **Open:** none found.

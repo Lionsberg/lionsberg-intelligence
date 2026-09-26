@@ -4,7 +4,7 @@ book: The One Book
 chapter: 16
 ---
 
-# 15 Pillar IX — Sacred Architecture and Design
+# Pillar IX — Sacred Architecture and Design
 
 ## The Pillar in one breath
 
@@ -58,7 +58,7 @@ Beauty is **how a pattern travels**. A beautiful thing spreads; a merely correct
 
 [[Human-Scaling]] is the discipline of making things the size people actually are. A doorway a person passes through without shrinking. A street that can be crossed. A room where everyone can hear the quietest person without amplification. A body small enough that each face is known. The failure it names is not ugliness but **overscale** — structures that work on a drawing and reduce whoever stands inside them.
 
-The principle runs past building and the field uses it constantly. A [[Cell]] is three to thirteen, best at four to seven. [[The Village]] is fifty to a hundred and fifty, the last scale where direct knowing alone suffices; above it a body must start cohering by written agreement, representation, [[Ritual]], and story. A [[Community]] is about ten thousand, anchored by [[The 300]]. [[Subsidiarity]] is human-scaling applied to authority. Each is the same claim ([[Levels Of Scale]]).
+The principle runs past building and the field uses it constantly. A [[Cell]] is three to thirteen, optimally four to seven. [[The Village]] is fifty to a hundred and fifty, the last scale where direct knowing alone suffices; above it a body must start cohering by written agreement, representation, [[Ritual]], and story. A [[Community]] is about ten thousand, anchored by [[The 300]]. [[Subsidiarity]] is human-scaling applied to authority. Each is the same claim ([[Levels Of Scale]]).
 
 Its companion is the local material — building from what the place has, its timber, its earth, its stone, its climate. That ties the made thing to its ground, keeps the knowledge of how to repair it nearby, and produces the variety between places that uniformity erases.
 
@@ -90,7 +90,7 @@ The made thing carries its making. Who made it, from what, under what conditions
 
 ### What everything stands on
 
-[[Infrastructure]] is what a body does not think about until it fails: water, waste, energy, transport, shelter, communication, and the arrangements that keep them running. Its defining property is invisibility, and because it is beneath notice it is rarely governed on purpose — which is exactly why whoever controls it holds a claim on everyone above it.
+[[Infrastructure]] is what a body does not think about until it fails: water, waste, energy, transport, shelter, communication, and the arrangements that keep them running. Its defining property is invisibility, and because it is beneath notice it is rarely governed on purpose — which is exactly why whoever controls it holds a claim on everyone above it. Every scale that stands on this infrastructure also keeps its own waste and recycling streams, nested from household to planet ([13 Pillar VI](13%20Pillar%20VI%20%E2%80%94%20Sacred%20Ecology%20and%20Living%20Systems.md)).
 
 It is therefore a [[Commons]] question before it is an engineering question. What is shared and stewarded for the benefit of all within a domain, against what is owned and metered, decides more about a community's freedom than any of its stated politics ([[Air · Water · Soil · Microbiome]], [[Technology Sovereignty]]).
 
@@ -110,7 +110,7 @@ Four disciplines govern the making, and they are the production half of the [[Tw
 
 Above them sits the loop that makes a civilization able to learn: a [[Prototype]] is maintained not as a monument but as a [[Kit of Parts]]; every [[Instantiation]] is honestly compromised by local reality; what returns from those compromises improves the Kit; and the next community begins where the last one arrived ([[The Living System Triple Loop]], [[Tightly Coupled Learning and Action]]). **No hub is designed twice.**
 
-### Where the sources disagree
+### Open questions
 
 Four disagreements are live, and the Book says both sides and which it carries.
 
@@ -150,7 +150,7 @@ Then the turn that makes it true rather than pastoral: none of this begins with 
 
 **To the Winter Solstice of 2033.** The Jubilee. By then this Pillar's question has changed from *can we make a good room* to *what do we build now that we know how*: the first places designed from the ground up by bodies that have already run the loop for seven years, in local material, by local hands, with the cards in their pockets.
 
-**The long now.** The honest horizon for the whole built world is generations — on the order of one to two centuries for the built environment to be wholly remade regeneratively and most of humanity rehoused in dwellings worthy of them. That figure is a reading of the scale of the work, not a measurement. We build to last, not to planned obsolescence; we begin everywhere at once, fractally; and each generation inherits the work further along than it received it.
+**The long now.** The honest horizon for the whole built world is generations — on the order of one to two centuries for the built environment to be wholly remade regeneratively and most of humanity rehoused in dwellings worthy of them. That figure is a reading of the scale of the work, not a measurement. We build to last, not to planned obsolescence; we begin everywhere at once, fractally; and each generation inherits the work further along than it received it. How that old world is taken apart rather than demolished, generation by generation, and how doing so becomes the primary source of the materials the new one needs, is in [27 Resourcing and the New Economy](27%20Resourcing%20and%20the%20New%20Economy.md).
 
 **The numbers behind the hub network**, carried as what they are: design estimates, none of them measured. Roughly two million micro hubs for neighbourhoods and villages at about two million each; a million community hubs at the ten-thousand scale at about three million each; a hundred thousand local hubs for localities of a hundred thousand; a thousand city hubs; then ecoregional, bioregional, georegional tiers, and one core hub. The whole network, addressing every Pillar for every family on Earth, is estimated at ten to twenty trillion — the range turning chiefly on how much existing infrastructure is repurposed rather than built new. Two honest cautions travel with those figures. The tiers **do not reconcile as a partition** — the community and local tiers each reach ten billion people while the city tier reaches one billion — so they are best read as an overlay of services and an estimate still being drawn. And one card elsewhere in the corpus states the aggregate as fifteen to twenty trillion, which appears to have joined this figure to a different one entirely. Neither number is agreed.
 
@@ -357,13 +357,13 @@ The ore beside them — named, load-bearing, and in several cases still unwritte
 
 [[Crafting]] · [[Compost]] · [[Provenance]] · [[Instrument]] · [[Pattern Card]] · [[General Pattern, Specific Application]] · [[The Deck Standard]] · [[Conditions of satisfaction]] · [[Advantage Based Decision Making]] · [[Concurrent design]] · [[The look-ahead]] · [[Constraint]] · [[Quality]] · [[Integrated Delivery]] · [[Integrated Project Delivery]] · [[The Living System Triple Loop]] · [[Every Defect Is A Gift]] · [[Manufactured Dependency]] · [[Rites of Passage]] · [[Temple]] · [[Permaculture]] · [[Regeneration]] · [[Air · Water · Soil · Microbiome]] · [[Technology Sovereignty]] · [[Shared Services, Infrastructure, and Support]] · [[Polycentric Implementation of Shared Solutions]] · [[The Joseph Plan]] · [[The Noah Plan]] · [[Islands, Hubs, Grid]] · [[Holon]] · [[Holofractal Scaling]] · [[Structural Immunity]] · [[The Anti-Patterns]]
 
-The full set of two hundred words at the table is at [[25 The Words]]; the Pattern these serve is at [[05 The Pattern and the Way]]; the way of making anything is at [[22 Building — the Pattern of Production]]; the Game they are played in is at [[THE GAME]].
+The full set of two hundred words at the table is at [[31 The Words]]; the Pattern these serve is at [[04 The Pattern and the Way]]; the way of making anything is at [[23 Building — the Pattern of Production]]; the Game they are played in is at [[THE GAME]].
 
 ---
 
 ## What is not yet settled
 
-*The what waits on an answer, each in one line; the contradictions found; what this chapter is least sure of. The full ledger is at [[27 The Open Questions]].*
+*The what waits on an answer, each in one line; the contradictions found; what this chapter is least sure of. The full ledger is at [[32 The Open Questions]].*
 
 **The chapter's own number.** This chapter was assigned as 15 and written there; the table of contents in [[The One Book]] links this Pillar as **16**, with 15 as Sacred Science and Technology. One of the two must move, and until it does the hub's link to this Pillar does not resolve. **Open question:** renumber this file to 16, or renumber the hub.
 
@@ -415,3 +415,4 @@ The full set of two hundred words at the table is at [[25 The Words]]; the Patte
 ---
 
 *Back: [[15 Pillar VIII — Sacred Science and Technology]] · Forward: [[17 Pillar X — Sacred Guardianship and Order]] · Table of contents: [[The One Book]]*
+

@@ -20,5 +20,4 @@ The canon holds the end without pretending to have arrived: [[Eschatology]] and 
 **Stands on:** [[The Goal]] · [[Creator's Intent]] · [[Purpose]]
 **Opens onto:** [[Eschatology]] · [[Destiny]] · [[Design To The Goal]] · [[One Purpose Above All]] · [[Worthy Goal]]
 **In play:** Met at the table each season, when a Quest is checked against whether it actually stacks up to throughput of the Goal.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the study of purpose, direction, and the intended end... The study of The Goal") · *Pillar I — Sacred Ontology and Metaphysics*, thesis 5 · *Twelve Irreducible Elements* · lionsberg.wiki: *Pillar I — Sacred Ontology and Metaphysics*.
 **Open:** none found.

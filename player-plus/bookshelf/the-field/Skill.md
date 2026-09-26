@@ -20,5 +20,4 @@ A Player+ uses skills sparingly and on purpose: a folder taken on for a particul
 **Stands on:** [[Lesson]] · [[Set-up]] · [[Agent]]
 **Opens onto:** [[Capability]] · [[Capacity]] · [[Module]] · [[The Kit]] · [[Lineage]] · [[License]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Lexicon* (the entry for *skill*), *How an AI Agent Works*, *The Deck Standard* · The DNA of Heaven, Part XII (lesson, module, journey, skill).
 **Open:** none found.

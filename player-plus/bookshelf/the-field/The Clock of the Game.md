@@ -18,5 +18,4 @@ How it is kept. In the week of a turning, gather as always and add the four thin
 **Stands on:** [[The turnings]] · [[Season]] · [[Chronos]]
 **Opens onto:** [[The Turn]] · [[The Heartbeat]] · [[The Season Sheet]] · [[Temporal markers apart from milestones]] · [[The Playcard]]
 **In play:** table · Home · beyond
-**Sources:** *The Clock of the Game*, Little Book chapter (current best understanding · "the shared clock; turning dates are the astronomical solstices and equinoxes") · *The Seasons of the Great Game* · *The LIØNSBERG Operating System* §18.2 · lionsberg.wiki: **The Clock of the Game**
 **Open:** The turning dates printed in the chapter are given to the day; the astronomical moment falls on different local dates in different places, which the chapter acknowledges without resolving for the sheet's line 3.

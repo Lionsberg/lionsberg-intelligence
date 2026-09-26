@@ -20,5 +20,4 @@ No word here is coined and none is clever. That is the point: the list is taught
 **Stands on:** [[The Game Interface]] · [[A Word on Words]] · [[Naming]]
 **Opens onto:** [[Sighting]] · [[The eight kinds of Sighting]] · [[Work Deck]] · [[Card Types]] · [[The HUD]] · [[An address]] · [[The grandmother test]]
 **In play:** Home — the first surface a Player reads alone
-**Sources:** *The Game Interface — The Names of Its Parts* (Projects, term page) · *The Bug Report — Every Defect Is a Gift, as a Sighting* (Projects)
 **Open:** The list is the names one built surface uses today. Whether these are the Game's names or one house's names is not settled anywhere.

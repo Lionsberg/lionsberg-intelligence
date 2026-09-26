@@ -20,5 +20,4 @@ The mirror discipline keeps it from becoming cruelty. Cause is sought in the set
 **Stands on:** [[Accountability]] · [[Requirement Of Transparency]] · [[Consent]] · [[Legitimacy]]
 **Opens onto:** [[Term Limits And Rotation]] · [[Whistleblower Protection]] · [[Impeachment]] · [[Zero Blame Environment]] · [[Structural Immunity]] · [[Centralization Of Power]] · [[The Constitutional Recognitions]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Accountability
 **Open:** Named as a Recognition with no articulation; the process by which authority is actually recalled is named in several places and written in none.

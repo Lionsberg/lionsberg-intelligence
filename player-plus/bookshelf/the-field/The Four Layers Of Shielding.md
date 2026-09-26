@@ -24,5 +24,4 @@ And the governing rule, which is what keeps this from being armour: **a wall blo
 **Stands on:** [[Shield]] · [[Selectively Permeable Membrane]] · [[Boundary]] · [[Sovereignty In The Populated Field]]
 **Opens onto:** [[The Circle's Shared Field, And How Circles Form]] · [[The Six Grid Disciplines]] · [[Planetary Light Grid]] · [[Guard the Membrane]] · [[Composure Under Threat]] · [[The Warrior Is The Instrument]] · [[Exorcism]]
 **In play:** the Room · the table — and any season a body is under sustained pressure
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.5 Interface`, §Shielding · `Shield` · lionsberg.wiki: The Sacred Warrior Guidebook
-**Open:** The canon's [[Shield]] page names shielding and its social form without the stack; the layering, the costs, and the permeability rule are added here. · The energetic articulation of the upper layers sits in a part of the canon whose cards nothing outside that layer depends on; the social and disciplinary sense carries the demonstrated load.
+**Open:** [[Shield]] names shielding and its social form without the stack; the layering, the costs, and the permeability rule are added here. · The energetic articulation of the upper layers sits in a part nothing outside that layer depends on; the social and disciplinary sense carries the demonstrated load.

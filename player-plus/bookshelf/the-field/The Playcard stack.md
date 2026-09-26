@@ -20,5 +20,4 @@ The discipline is that it is filled at the Turn, not reconstructed at the turnin
 **Stands on:** [[The Playcard]] · [[The Turn]] · [[The Record]] · [[The same card shape]]
 **Opens onto:** [[The Season Sheet]] · [[Retrospective]] · [[Look-back]] · [[Kept as a share of made]] · [[The Heartbeat]] · [[Card Types]] · [[The plan of the whole]]
 **In play:** the table · Home — one card taken and filled at every Turn
-**Sources:** *The DNA of Heaven*, Part V · `The LIØNSBERG Operating System` · `Card Types.md` · lionsberg.wiki: The Playcard
 **Open:** The canon holds two Playcards under one name and they are not the same object. Two term pages state flatly that the Playcard is *received with the Flame and never filled in*; the seed and the Operating System describe one filled at every Turn and stacked. This page carries the seed's reading and names the collision: either one reading goes, or the two senses are named as two objects — a card that is received and a card that is kept.

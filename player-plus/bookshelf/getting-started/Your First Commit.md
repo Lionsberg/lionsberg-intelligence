@@ -1,12 +1,12 @@
 # Your First Commit
 
-Git uses three main actions — **commit**, **pull**, and **push** — to save your work and keep it synced with GitHub. You don't need to learn any Git commands. Claude Code handles all of it for you. You just use plain English.
+Git uses three main actions — **commit**, **pull**, and **push** — to save your work and keep it synced with GitHub. You do not need to learn any Git commands. Claude Code handles all of it for you. You just use plain English.
 
 ## The Three Actions
 
 ### Pull — "Grab the latest"
 
-Downloads the latest changes from GitHub (anything that's been pushed since you last checked).
+Downloads the latest changes from GitHub (anything that is been pushed since you last checked).
 
 **When to do it:** Every time you sit down to work. Pull first, then start editing.
 
@@ -18,7 +18,7 @@ Saves a snapshot of your changes on your computer. Think of it as a named save p
 
 ### Push — "Send to GitHub"
 
-Uploads your committed changes to GitHub so they're backed up in the cloud and visible to collaborators.
+Uploads your committed changes to GitHub so they are backed up in the cloud and visible to collaborators.
 
 **When to do it:** After a commit, or after several commits. You can batch up a few commits and push them all at once.
 
@@ -29,11 +29,11 @@ Uploads your committed changes to GitHub so they're backed up in the cloud and v
 | Starting your session | "Pull the latest" |
 | Finished a chunk of work | "Commit and push — updated the project notes" |
 | Taking a break | "Commit and push so nothing is lost" |
-| Not sure what's going on | "What's changed?" |
+| Not sure what is going on | "What is changed?" |
 
 ## Saying It in Plain English
 
-You don't need to memorize specific phrases. Claude Code understands natural language. Here are some examples:
+You do not need to memorize specific phrases. Claude Code understands natural language. Here are some examples:
 
 **Saving your work:**
 - "Commit everything and push"
@@ -46,8 +46,8 @@ You don't need to memorize specific phrases. Claude Code understands natural lan
 - "Is everything synced to GitHub?"
 
 **Checking status:**
-- "What's changed?"
-- "What do we have that isn't pushed?"
+- "What is changed?"
+- "What do we have that is not pushed?"
 - "Anything new from other people?"
 
 > [!tip]
@@ -66,10 +66,10 @@ Claude Code will save your changes and upload them to GitHub. You can verify by 
 
 ## If Something Goes Wrong
 
-Don't panic. Git keeps a complete history of everything, so nothing is truly lost. If you see an error or something looks weird, just describe the problem to Claude Code — it can usually sort it out.
+Do not panic. Git keeps a complete history of everything, so nothing is truly lost. If you see an error or something looks weird, just describe the problem to Claude Code — it can usually sort it out.
 
 Common situations:
 
 - **"Merge conflict"** — Two people edited the same part of the same file. Claude Code can help you resolve it. This is rare in solo work.
-- **"Nothing to commit"** — You haven't made any changes since your last commit. That's fine.
+- **"Nothing to commit"** — You have not made any changes since your last commit. That is fine.
 - **"Push rejected"** — Someone else pushed changes while you were working. Pull first, then push again. (Saying "pull and push" avoids this.)

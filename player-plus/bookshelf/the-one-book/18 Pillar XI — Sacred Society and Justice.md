@@ -4,7 +4,7 @@ book: The One Book
 chapter: 18
 ---
 
-# 18 Pillar XI — Sacred Society and Justice
+# Pillar XI — Sacred Society and Justice
 
 ## The Pillar in one breath
 
@@ -46,7 +46,7 @@ A pattern of death, then, and we can say so plainly, because we are far enough a
 
 You already know. And the ache you feel reading it is not cynicism; it is the accurate reading of a real situation by a sane person. *Something is wrong. Something is insane. It is not you.*
 
-That doesn't happen inside pyramids. It happens in the freedom of ecosystems.
+That does not happen inside pyramids. It happens in the freedom of ecosystems.
 
 ---
 
@@ -54,7 +54,7 @@ That doesn't happen inside pyramids. It happens in the freedom of ecosystems.
 
 A handful of ordinary words carry the rest of this chapter, and each is given here once, plainly, so that nothing after this depends on having read anything else.
 
-A **[[Circle]]** is a few people sitting as equals — three to thirteen, best at four to seven, no head to the table. A **[[Cell]]** is a Circle that has started playing: it has written down how its members will treat one another, chosen something real to do, and begun passing on what it learns. A **[[The Turn|Turn]]** is the Cell's weekly gathering. A **[[Season]]** is about ninety days, one turning of the sun to the next. A **[[Quest]]** is the one real thing a Cell takes on for a season. A Cell's **[[Home]]** is the body that hears its season and helps when something is wrong; three or more Cells that are one another's home make a **[[Supercell]]**. A **[[Community]]** is a place of roughly ten thousand people held by the three hundred who anchor it. A **[[Field of Agreements]]** is the one to three pages in which a body writes what it is for and how its members will treat each other. **[[The Season Sheet]]** is the single numbered page that leaves every table at each turning. That is the vocabulary. The rest is built from it.
+A **[[Circle]]** is a few people sitting as equals — three to thirteen, optimally four to seven, no head to the table. A **[[Cell]]** is a Circle that has started playing: it has written down how its members will treat one another, chosen something real to do, and begun passing on what it learns. A **[[The Turn|Turn]]** is the Cell's weekly gathering. A **[[Season]]** is about ninety days, one turning of the sun to the next. A **[[Quest]]** is the one real thing a Cell takes on for a season. A Cell's **[[Home]]** is the body that hears its season and helps when something is wrong; three or more Cells that are one another's home make a **[[Supercell]]**. A **[[Community]]** is a place of roughly ten thousand people held by the three hundred who anchor it. A **[[Field of Agreements]]** is the one to three pages in which a body writes what it is for and how its members will treat each other. **[[The Season Sheet]]** is the single numbered page that leaves every table at each turning. That is the vocabulary. The rest is built from it.
 
 ### Society is relationships first
 
@@ -150,7 +150,9 @@ The distinguishing move is that **justice restores rather than punishes**. Harm 
 
 It is load-bearing at two scales. Inside a body, justice is what makes consent meaningful: **an agreement freely entered by parties who are not equally protected is not freely entered.** Outside, it is the test of whether what a body builds is worth building — *a system that produces abundance for its members and harm beyond its membrane has not produced justice; it has exported its costs.*
 
-And it has an ordinary weekly shape that has nothing dramatic about it. A body that says out loud what it will do, does it, and names the gap without blame. That distributes what it gathers by an order agreed in advance. That gives everyone at the table the same voice.
+And it has an ordinary weekly shape that has nothing dramatic about it. A body that says out loud what it will do, does it, and names the gap without blame. That distributes what it gathers by an order agreed in advance. That gives everyone at the table the same voice — and keeps a seat, as [[09 Pillar II — Sacred Governance and Stewardship|Pillar II]] already does for the living world and the unborn, for whoever at that table has no voice of their own to bring.
+
+There is no justice to be found by looking backward. The old systems — the caves of extraction, domination, and unaccountable power — do not contain it and cannot be made to yield it by better administration. **Justice lives in what this civilization co-creates, here, and nowhere else.** This holds identically at every scale: two people in a Cell, a Cell and its Home, two federated bodies, two Communities in dispute. The escalation ladder is the shape justice takes at every one of those scales — direct engagement, a trusted elder or mediator, a council of those not involved, arbitration by mutual agreement, and, at the far edge, independent binding arbitration — larger bodies differing only in who sits at each rung ([[09 Pillar II — Sacred Governance and Stewardship|Pillar II]]'s sovereignty of every holon carries the general case; this Pillar is its shape between persons).
 
 **[[Reconciliation]]** is how the restoring actually happens, and it has a shape. The harm is named truthfully by the one who did it and the one who bore it. What can be repaired is repaired. What cannot be repaired is acknowledged rather than argued away. And the relationship is either resumed on new terms or ended cleanly. [[Forgiveness]] may come, and **it belongs to the one harmed alone**: never owed, never scheduled, never a condition of the repair.
 
@@ -168,7 +170,7 @@ Honesty about the state of this Pillar is part of the Pillar. Four things should
 
 **The judicial sketch is four sentences.** A council of seven to twelve wise elders, appointed by a General Assembly, one of them serving as chief, charged with guarding and interpreting the constitutional layer. No procedure by which a matter reaches it, no standard of evidence, no route of appeal, no jurisprudence of any kind, and no stated form for the assembly that would appoint it.
 
-**Containment has a name and no body.** What a body does with someone it cannot allow to continue and will not destroy is named in the corpus — containment, banishment and exile, restitution, truth and reconciliation, mediation — and written nowhere. It is the hardest unwritten thing in this Pillar, and it should be written by people who have actually had to do it.
+**Containment is now written; its neighbors are not.** What a body does with someone it cannot allow to continue and will not destroy is given a full instrument below — the aim, the minimum force, the review, the two absolute protections. Restitution and the order of remedies are specified alongside it. Banishment and exile, truth and reconciliation, and mediation remain named only, and each should be written by people who have actually had to use it.
 
 **Several of this Pillar's named needs are ore.** Difference, migration, the standing of children, sexual sovereignty, hospitality at scale, mass healing. Each is honestly marked as a gap in the field, and none has an instrument. They are named in this chapter where they belong, with the gap said rather than papered over — because a chapter that cannot say *[[We Do Not Know|we do not know]]* in its own domain has not finished thinking.
 
@@ -245,7 +247,7 @@ Concrete, all of it available tonight, none of it requiring anyone's permission:
 
 Each instrument is given as *what it is · who holds it · how it degrades to paper*. Everything in this Pillar is designed to survive the loss of every screen, because the instruments of justice are the first things a frightened world takes away and the last things it gets back.
 
-**A note on what follows.** The corpus names restorative justice as the way forward and has never written the procedure. What is written here — the Naming, the Hearing, the order of remedies, the ladder between bodies, the floor, and the containment frame — is **the first articulation of it**. Nothing in the older writing contradicts it; nothing in the older writing contains it either. It is offered as current best understanding, held loosely, and it should be rewritten within three seasons by the first bodies that actually have to use it, because a justice process designed by people who have never needed one is a draft by definition.
+**A note on what follows.** Restorative justice is the way forward; what follows — the Naming, the Hearing, the order of remedies, the ladder between bodies, the floor, and the containment frame — is how a body actually walks it. Hold it as current best understanding, held loosely, and rewrite it within three seasons from what the first bodies that use it in earnest actually learn, because a justice process designed by people who have never needed one is a draft by definition.
 
 ### The three lines every body writes
 
@@ -366,25 +368,105 @@ The moment of proof is what makes it real. Until a body has had one stop that wa
 
 *And there is no standing force, because there is no standing force anywhere in this Pattern.* What there is: a body of people who have agreed in advance what the floor is; the [[Guardianship|guardians]] of [[17 Pillar X — Sacred Guardianship and Order|Pillar X]], who are the body's own trained members and not a separate caste, called when the minimum that stops the harm exceeds what ordinary people should be asked to do; and the plain fact that a body with no centre offers a predator nothing to capture and nowhere to hide. The protection against the dangerous is not an institution. **It is that everyone is watching, everyone may say stop, and no one has the standing to make it go away.**
 
-### Containment — the hardest unwritten thing
+### Containment — what a body does with someone it cannot allow to continue
 
-*What:* what a body does with someone it cannot allow to continue and will not destroy. *Who holds it:* the supercell, never a Cell alone. *Paper:* the conditions, the names of those holding them, and the date of review — on one page, in the open.
+*What:* the course a body takes with a member whose continued presence causes harm that cannot be stopped any other way, and whom the body will not exile or destroy. *Who holds it:* at Cell scale, the conversation; at supercell scale, a body specifically charged with holding the conditions until trust can be re-established. *Paper:* the conditions named, the people holding them, and the date of review — all on one page, in the open, signed.
 
-The old world answers with cages and erasure. A body that refuses both needs an answer of its own, or it will improvise one under pressure, and improvised answers in that moment are exactly how good communities become cruel ones.
+Every community faces this threshold: a person who harms, will not repair, and cannot be persuaded to leave; a person the body has expelled from other roles and can find no further escalation for; a person whose presence threatens safety and whose removal threatens mercy. The old world answers with cages and erasure. A body that refuses both has one responsibility: to decide in advance what it will do, or it will decide in the worst hour under pressure, and **improvised answers in that moment are exactly how good communities become cruel ones.** This is the hardest measure in this Pillar.
 
-The frame held here, and it is a frame rather than a procedure:
+**The aim.** Restoration toward the person and restoration toward the harmed — the person is confronted, heard in their own defence, and *guided toward repair*. If repair cannot be reached, they are held apart *until trust can be re-established*, which is a condition and not a sentence. What is held here is always revocable on evidence that the condition is met.
 
-The aim is restoration, not punishment — the person is confronted, heard, and guided toward repair, or held apart **until trust can be re-established**, which is a condition and not a term. The force used is the minimum that stops the harm. The judging is local, near and visible rather than distant and procedural. And the person remains a person: **what is put out is the conduct and the access, not the human being.**
+**The minimum force.** The force used is **the minimum that stops the harm**, never more. Exclusion from one gathering is not containment. Containment is exclusion from the body. And containment with excess force is a second harm wearing the body's clothes.
 
-Two protections cut both ways, and both are load-bearing. **Nobody is judged in their absence or without being heard** — the protection that keeps containment from becoming a tool of whoever currently holds the room. And **the harmed are not asked to absorb the harm for the sake of the body's self-image** — the failure mode of communities that prize their own peaceability above the safety of their members.
+**How it is judged.** The judging is local, near and visible rather than distant and procedural. A supercell of three to five people, not a council, not a court. At least one of them is charged specifically with watching the person's road back and working toward it — this is not an enforcer's role; this is a witness and an advocate for the condition's completion.
 
-Three limits, added here because this is the instrument most likely to be abused by good people in a bad week:
+**The person remains a person.** **What is put out is the conduct and the access, never the human being.** The person is named in every place they are not; they are not anonymous targets talked about in whispers. The reason is not sentiment. It is that an invisible containment stops being containment and becomes a different kind of harm.
 
-**Nothing without a date.** No condition stands indefinitely; every one carries the season at which it is looked at again, and the looking is somebody's named job.
-**Nobody holds it alone.** The conditions are held by at least three, and at least one of them is charged specifically with the contained person's road back.
-**It never leaves the record and never leaves the open.** A containment known only to those enforcing it has already become something else.
+**Two absolute protections.**
 
-This is ore, honestly marked. Nothing in the corpus states who decides, by what process, with what appeal, for how long, or what re-establishing trust would consist of, and the frame above is inferred from the surrounding disciplines. It should be written by people who have actually had to do it, and it should replace this section when they have.
+Nobody is judged in their absence or without being heard. The harmed person is not asked to face the person who harmed them if that would compound the harm. But the person held may not be removed in silence. They must hear what they are held for, have the chance to respond, and have that response recorded — the protection that keeps this from becoming whatever the angriest voice says it is.
+
+The harmed are never asked to absorb the harm for the sake of the body's self-image or peaceability. **A body that releases someone to restore its own peace has chosen the wrong priority.** The safety of the harmed is the first measure; the comfort of the body is the last.
+
+**Three structural limits.**
+
+**Nothing without a date.** No condition stands indefinitely; every one carries the precise season at which it is looked at again. That is not mercy; it is memory. At the review date, either the condition is met and the person is released, or it is not, and the body decides whether to hold, modify or release anyway. The looking happens — nobody is held in the space between reviews.
+
+**Nobody holds it alone.** The conditions are held by at least three, named in the open. No person can enforce containment by themselves, which means it cannot become personal, cannot become a grudge, and cannot be secretly extended. If one holder leaves, another is named before they do.
+
+**One of the three is charged with the road back.** This role is not to watch for compliance; it is to work toward re-establishment of trust. What do you need to change? What would show that change? How do you want to know you have changed? This is not a soft role. It is the role that makes containment conditional rather than permanent — and it is the role that gets ignored first under pressure.
+
+**It never leaves the record and never leaves the open.** A containment known only to those enforcing it has already become something else. The facts are spoken aloud to the body; the particular account of harm is the harmed person's to share or withhold, but the fact that a matter of the floor is being held is told. A body that handles these in whispers has taught everyone in it that power is settled in private, which does more damage than the original harm ever could.
+
+**The line that governs containment above all: it excludes, and it does not imprison.** A person held under containment is not confined in body; they are held apart — from the body's roles, its rooms, its access. They may request release; they may petition; and they may, in their own estimation, walk away entirely. If they leave, the conditions go with them: they cannot be brought back on the basis of suspicion or the body's discomfort, and no council may convert exclusion into custody by another name. Stopping a harm already in motion — a hand held, a door closed — is a different act, governed by [[17 Pillar X — Sacred Guardianship and Order|Pillar X]] and the tests of [[The LIØNSBERG Theory of Force]], and this line does not reach it. What this line governs is containment's own temptation: to keep someone captive under the name of care. **Safety is never a reason to hold someone in confinement. It is the most common reason ever given.** The standard is whether the harm itself is being stopped — not whether the conditions are being obeyed, not whether the body feels safe, not whether someone fears they might harm again.
+
+**How it is read in light of the Wise Right Thing.** Everything in this measure reflects [[The LIØNSBERG Theory of Force]] — restraint is real, the minimum that stops harm is real, and there is no neutral. A body that reaches for containment has already decided that lesser measures will not work; a body that extends it beyond what genuinely stops the harm has chosen punishment dressed as protection. The test that keeps it honest: **is any use of it that cannot be read aloud to the whole body, and the reading be met without argument that yes, this is the minimum that stops the harm?** If the reading would be met with silence, shame, or the need to soften the language, the containment has already drifted toward something else.
+
+### Safeguarding — harm to a child originating inside the body
+
+*What:* how a body responds when harm to a child arises within itself — who is told, who decides, what voice the harmed child carries in the response, what is said to the wider body, and what the body owes after. *Who holds it:* at Cell scale, whoever is present; escalated immediately to the supercell; throughout, the harmed child governs their own account. *Paper:* one line in the agreements, read aloud at the door, never softened in the reading.
+
+**A body's real character is legible in how it treats those who have no power to hold it accountable.** Children are the one class of member who arrive without consenting, cannot leave, and are formed by whatever the body happens to be while they are in it. A child is not a lesser voice; they are a voice that requires more careful listening, more space to speak, more time, and more belief. A pattern that holds for adults — sovereignty, consent, the freedom to walk away — is qualified by a child's presence, and the qualification is everything.
+
+Every movement that has failed here failed the same way: **it handled the matter quietly, to protect something it valued more.** More than the child. The body's reputation, the community's peace, the accused's standing, the harmony of the gatherings — in each case, the silence was the choice made consciously or by default, and the children learned what to do with harm when it happened to them: carry it, hide it, trust nobody, never tell. This instrument exists to invert that completely.
+
+**The floor at the child's door is the same floor it is everywhere else.** Harm to a child — force, deception used to obtain access, the violation of consent by anyone, anyone — is on the floor. It is never weighed against the body's convenience, its reputation, its Quest, or its self-image. The moment harm to a child is named, every other priority moves down one rung.
+
+**Whoever is present acts first.** The floor beneath the whole Game already says it: **when a member is in danger, in body or in mind, the Circle acts first and records later.** A child is not moved toward healing through a hearing; they are moved away from harm. If the harmer is present, they are asked to leave or are separated from the child. If the child needs care, they are cared for. If the child needs an adult beside them who is not their family, they have one named immediately. The paperwork follows; the child's safety comes before anyone's process.
+
+**The hearing belongs at the supercell, not at the Cell, because the Cell is too close.** The people who know the accused, who know the family, who know both sides — these are the very people who are most likely to soften what happened, to weigh competing loyalties, to choose silence for the sake of the broader community. The supercell hearing removes that conflict of interest. It is still local — it is not distant police or a court — but it is the smallest body that is not inside the relationships the harm touches.
+
+**The hearing is never secret.** The particulars belong to the harmed child; those details are theirs to share or withhold, and the body honours that completely. But the *fact* that a matter of the floor is being heard, and what was decided, is told — plainly and without euphemism — to the whole body. **A body that handles these in whispers has taught every child in it that power is settled in private, which does more damage than the original harm could have done.** The child watches to see whether the adults will protect themselves or protect the child; the body's response is what the child learns about whether they can trust.
+
+**The harmed child governs their own account.** What is said, to whom, how much, in what words, whether they sit in the hearing or only their account is heard — every one of these is decided by the child, with the support of someone they trust who is not their family of origin. The child is never asked to perform, to forgive, to make the accused feel better, to protect the body's reputation or the accused's feelings. The child is never asked to carry the harm so that the body can be peaceful.
+
+**What the body owes after.** A hearing is not the end of the work; it is the beginning. The body that heard the harm is now responsible for the child's way forward. That may mean therapy, mentorship, a change to how the body meets, a permanent role-limitation for the harmer, or containment if the harmer cannot be trusted. It may mean the child leaves the body entirely, and if they do, they leave knowing that the body heard, that the body chose the child's safety, that the door opens back without the child having to defend or prove or apologise for leaving. **No body that has harmed a child gets to have the harm unsaid and then ask the child to come back and perform healing.** Healing is the child's path to walk or not to walk; the body's job is to get out of the way and to make sure nobody else harms that child.
+
+**This is the one measure every body should write into its own answers this season, before harm arrives.** The instrument given here is the floor and the supercell hearing; it is not a complete instrument because a complete instrument lives in the hands of the people who actually protect children. That is at home, in the kitchen, at the table. If a body with children has not thought through in advance how it will respond when one of them is harmed inside the body's walls — if it has not named who it will call, what it will do first, how it will hold the child, what will never be tolerated — then it has decided in advance to improvise, and **an improvisation in that hour is how a body that meant to be safe becomes a body that enabled harm.** Write your answer. Share it with your neighbours. Be the body a child can tell.
+
+### The recall, the adjudication, and the last resort
+
+*What:* three instruments that sit at the boundary of a body's authority: how a mandate is returned to those who lent it; who holds the judicial function when ordinary process cannot resolve a matter; and what happens when a body has been captured and must be reclaimed by those who built it. *Who holds it:* at each scale, the body that lent the mandate; at the widest scale, the remaining Pattern-conformant bodies. *Paper:* the escalation ladder written in advance, the procedures plain before they are needed, the threshold named beyond which a matter leaves the body entirely.
+
+This is where a federation's immunity is tested — not in the ordinary season when everything is working, but in the season when something has gone wrong with whoever holds the power.
+
+**The recall — returning a mandate to those who lent it.**
+
+A mandate is lent, never given. A person holds a role because a body said yes; that yes is revocable. The hard part is knowing when, and by what standard.
+
+There are two separate conditions, and they are easily confused because they often happen at the same time. The first is **betrayal of mandate** — a matter of fact. The steward did what they were not entrusted to do, or failed what they were. They broke the agreement. The second is **loss of consent** — a matter of standing. The body no longer consents. Whether or not anything was breached, the body has decided it does not want this person holding this role anymore.
+
+The second is the more important and the more easily forgotten. **A body has the right to revoke consent with no cause stated, and that right must be preserved in the charter from the beginning.** Not as a threat; as a baseline fact. A person holds a role by the body's word; when the body's word is withdrawn, the role returns.
+
+What must be protected is that **a removal conducted quietly teaches everyone that power here is settled in private**, which does more damage than any steward ever could. The removal itself is a power move; to conduct it in whispers is to assert that power is invisible, that the body's real decisions happen behind closed doors, and that what you see at the table is a performance. So the recall, when it happens, is spoken aloud. The reason is stated — either breach of mandate or loss of consent — and which one it is matters, because the breach is a question that needs an answer and the loss of consent does not. *You did not do what you agreed; you did not listen when we said what we needed* is a different conversation from *we no longer consent to you holding this role*, and the second one does not require explanation or debate.
+
+**How it is triggered.** At Cell scale, by consensus or by supermajority of the body. At a larger scale, the standard is plain in the charter before anyone is appointed. Some bodies use a supermajority; some use a majority; some require proof of breach, some do not. The standard is the law by which everyone agreed they could be recalled, and that is the law that holds.
+
+**What happens to the work in progress.** A steward's work does not disappear when the steward does. If there is a Quest under way, it continues or it is deliberately laid down by the body, not abandoned. If there is a resource held, it is passed to a named person or returned to the commons. If there is a decision half-made, the body decides whether to complete it without the steward, or to reverse it, or to lay it down. The work is settled before the steward leaves; the role does not become a grief in its own right.
+
+**The adjudication — the judicial function.**
+
+When a matter cannot be resolved by the people closest to it, and the escalation ladder has been climbed without agreement, there is a rung that is not a hearing and not a court. It is an adjudication — a judgment made by wise people who are not involved in the matter, who hear the evidence, who consider the Pattern, and who render a finding that both parties have agreed in advance to accept.
+
+This is not a right in the ordinary season. This is a last resort, and it is always by mutual agreement. Both parties must consent to go to adjudication; if either refuses, the matter goes to arbitration — a binding decision made by a neutral third party chosen by both. And if even arbitration cannot be reached, the matter leaves the body entirely: it goes to the courts of the state, or it remains unresolved, or the parties part in peace.
+
+**Who holds it.** A supercell or Community holds an adjudication panel — ideally three to five people, each one a person of recognized wisdom in their own domain, none of them a party to the matter, and together representing the Pattern's understanding of what has gone wrong. These are not elected officials. They are recognized people who have lived the Pattern well enough and long enough that others trust their judgment. They are held to a standard: no panel that serves more than one season; each person serves once before stepping back; new people are recognized each season from those willing to take the role.
+
+**What governs the finding.** The finding is guided by the three lines in the Hearing, by the order of remedies, by the floor, and by whether the finding is proportional to the harm. It is not governed by precedent, because each body knows its own case best. It is not governed by law, because the body is not a jurisdiction. It is governed by whether what was decided is recognizably rooted in the Pattern, whether both parties can see themselves in the judgment even if they do not agree with it, and whether the finding can be read aloud to the wider body without shame.
+
+The finding carries a date; one revisiting is granted on request to a different panel; there is no further appeal.
+
+**The last resort — when a body has been captured.**
+
+The Pattern everywhere else exists to make this rung unnecessary. A body with transparent records, with rotated roles, with the living systems seat, with the floor kept visible, with the cord always available — that body is remarkably resistant to capture. But capture is possible; it has happened before; it will happen again.
+
+Capture means a body has drifted so far from its own charter that the ordinary discipline no longer works. The decision-makers are no longer making decisions by the body's standards; the records no longer say what actually happened; the complaints are no longer answered; the exit is no longer free. The body sees it and cannot correct it, because the people who would correct it have already drifted. That is the definition, and **it is recognized not by definition but by pattern** — the people of the body notice; they speak; they see that speaking does not change anything; they realize they are no longer inside an agreement they can revoke; they call on the Pattern beyond the body to help them reclaim it.
+
+The rung here is not a court and is not a council. It is the remaining bodies that still hold the Pattern — the other Cells, the Communities nearby, the federation as a whole — exercising their own sovereignty to decline to recognize the captured body as holding the things it claims to hold. The body's records are no longer the record; its findings are no longer binding; its authority to speak for its members no longer stands. The way back is for the captured body to rebuild its integrity where integrity broke, to demonstrate that it holds the charter again, and to petition for re-acceptance by the wider federation — not as a right, but as a question each body must answer for itself.
+
+**This is why every body must know its charter, must keep the record themselves, must practice the instruments year after year, and must have people named in advance who know what to do if power goes sideways.** This rung is not invoked lightly. It is invoked because the captured body's own members have asked for help and the help required is a withdrawal of recognition. That help can be devastating, which is why it is reserved for capture that is real.
+
+**The decision to invoke this rung rests on a clear majority or consensus of the bodies still holding the Pattern.** There is no court. There is only the federation's judgment: yes, this body has drifted so far that it can no longer be counted; or no, this body is struggling but it is still ours, still trying, still answerable to the Pattern, and we will help. That judgment is made visibly, in writing, with reasons; it is not secret and it is not punitive. It is a recognition of reality.
 
 ### Up to speed — the newcomer, and the Cell that fell behind
 
@@ -572,13 +654,13 @@ The ore beside them — named, load-bearing, and in several cases still unwritte
 
 [[Family]] · [[Support Group]] · [[Community of Communities]] · [[Equal Opportunity For All]] · [[None Of Us Until All Of Us]] · [[Welcoming The Stranger]] · [[Welcome a Newcomer]] · [[Migration]] · [[Protection Of Children]] · [[Sexual Sovereignty]] · [[Containment Of The Dangerous Sovereign]] · [[Conflict Transformation]] · [[Mend a Tension]] · [[The Escalation Ladder]] · [[Forgiveness]] · [[Apologizing]] · [[Having Difficult Conversations]] · [[Speaking Truth In Love]] · [[Listening]] · [[Dialogos]] · [[Circle Coherence]] · [[Zero Blame Environment]] · [[Stop]] · [[The Way Out]] · [[Whistleblower Protection]] · [[Remedy]] · [[Recourse]] · [[Sanction]] · [[Arbitration]] · [[Adjudication]] · [[Proportionality]] · [[Accountability]] · [[Legitimacy]] · [[Jurisdiction]] · [[Law]] · [[Council]] · [[Covenant]] · [[Covenant Across Time]] · [[The New Covenant]] · [[Wise Eldership]] · [[Wisdom Council]] · [[Citizenship]] · [[Participation]] · [[Kinship]] · [[Reciprocity]] · [[Mutual Aid]] · [[Gaps Not Yet Closed]] · [[Fraud In The Inception]] · [[Jubilee]] · [[Rites of Passage]] · [[Compressed Pay Ratios]] · [[Universal-Accessing]] · [[Elision]] · [[The Reweaving Web]] · [[Carrier]] · [[Home Cell]] · [[The 300]] · [[Structural Immunity]] · [[The Anti-Patterns]]
 
-The full set of two hundred words at the table is at [[25 The Words]]; the Pattern these all serve is at [[05 The Pattern and the Way]]; the Game they are played in is at [[THE GAME]]; the lineage every one of them came from is at [[The Reweaving Web]].
+The full set of two hundred words at the table is at [[31 The Words]]; the Pattern these all serve is at [[04 The Pattern and the Way]]; the Game they are played in is at [[THE GAME]]; the lineage every one of them came from is at [[The Reweaving Web]].
 
 ---
 
 ## What is not yet settled
 
-*The what waits on an answer, each in one line; the contradictions found; what this chapter is least sure of. The full ledger is at [[27 The Open Questions]].*
+*The what waits on an answer, each in one line; the contradictions found; what this chapter is least sure of. The full ledger is at [[32 The Open Questions]].*
 
 **The justice process itself — the largest ask in this chapter**
 
@@ -638,3 +720,4 @@ The full set of two hundred words at the table is at [[25 The Words]]; the Patte
 ---
 
 *Back: [[17 Pillar X — Sacred Guardianship and Order]] · Forward: [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · Table of contents: [[The One Book]]*
+

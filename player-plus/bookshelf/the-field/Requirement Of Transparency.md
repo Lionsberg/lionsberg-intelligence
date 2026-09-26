@@ -20,5 +20,4 @@ Where the money is concerned the requirement is unqualified. Everything is visib
 **Stands on:** [[Transparency]] · [[Truth]] · [[The Constitutional Recognitions]]
 **Opens onto:** [[Necessity Of Accountability]] · [[Possibility Of Reversal]] · [[Decision Records]] · [[The Record]] · [[Chatham House]] · [[Elision]] · [[Control Of Information]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Parts IV, VII and VIII · lionsberg.wiki: Transparency
 **Open:** The Recognition and the confidentiality practices (Chatham House, Elision) are each stated plainly and nowhere reconciled with each other.

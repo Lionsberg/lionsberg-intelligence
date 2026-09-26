@@ -19,5 +19,4 @@ It is also why this is not a religion of personality, and why authority here flo
 **Stands on:** [[ØNE]] · [[Pattern]] · [[Spirit Precedes Pattern]]
 **Opens onto:** [[Structural Immunity]] · [[Field of Agreements]] · [[Term Limits And Rotation]] · [[Accountability]] · [[Servant Leadership]] · [[Authority]] · [[Institutional Idolatry]] · [[Do Not Concretize the Absolute]]
 **In play:** At the door, in the agreements read before anyone joins; at the table, in rotating the hosting; at Home, Room, and beyond, as why no level commands the one below it.
-**Sources:** `The Pattern Governs, Not People` · `LIØNSBERG 101`, Ring 3 · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Meta-Architecture · `The Great Weaving — Concept Ledger` §A.3 · `The DNA of Heaven`. lionsberg.wiki: **The Pattern Governs, Not People**.
 **Open:** The Card says the Codex is what governs; the Pattern Language says the Pattern governs; the seed says the Purpose governs and the agreements govern. These are compatible readings at different altitudes, but no page says which is the operative one when they are cited against each other.

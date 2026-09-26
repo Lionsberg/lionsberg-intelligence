@@ -18,5 +18,4 @@ How it is played. Ask [[The one question]] before the move and let the answer de
 **Stands on:** [[The Goal]] · [[Heaven On Earth]] · [[The one question]] · [[Right Relationship]]
 **Opens onto:** [[The Score]] · [[Kept as a share of made]] · [[Celebrate, Learn, and Improve]] · [[Covenant Across Time]] · [[Omniconsideration]]
 **In play:** table · beyond
-**Sources:** *The Game at the Table*, §How we win (current best understanding) · *The Circle's Scorecard*, §What the numbers are not (current best understanding) · The DNA of Heaven, Part V · lionsberg.wiki: **The Game at the Table**
-**Open:** The chapter holding this is a working draft with unfinished editorial notes elsewhere in it; this section is short and stable, but it has no page of its own in the canon.
+**Open:** This section is short and stable, but has no page of its own yet.

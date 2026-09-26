@@ -22,5 +22,4 @@ The pattern generalises past guardianship: name the specific way *your* craft go
 **Stands on:** [[Structural Immunity]] · [[The Warrior's Vow]] · [[Guild]] · [[Accountability]]
 **Opens onto:** [[The Community's Three Vulnerabilities]] · [[The Funeral Of Destruction]] · [[Ideological Capture]] · [[Institutional Idolatry]] · [[Term Limits And Rotation]] · [[The Two-Stake Principle]] · [[Honoring Lineage Without Lineage-Capture]] · [[The Dark Initiate Failure Mode]]
 **In play:** beyond the table — read annually by any body that holds a concentrated capacity
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — III.1 The Warriors As Guild`, §Protections Against Capture · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The first mode's threat picture rests on the book's unsourced account of hostile factions; the protections it proposes hold against ordinary infiltration regardless, which is how this page carries them. · No procedure exists for the case where the reviewing body is itself the captured one.

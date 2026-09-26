@@ -19,5 +19,4 @@ In play, *going meta* is an ordinary move: when a disagreement will not resolve 
 **Stands on:** [[ØNE]] · [[The Ineffable]] · [[Holarchy]]
 **Opens onto:** [[The Goal]] · [[Levels of Abstraction]] · [[The Meta Project]] · [[The Meta Crisis]] · [[Meta Opportunity]] · [[Current Best Articulation]] · [[Do Not Concretize the Absolute]]
 **In play:** At the table, as the move when an argument is stuck; at the Room and beyond, as the reason many bodies' aims can be shown to be one aim.
-**Sources:** `Meta` (wiki root, canon-grade) · `Essences, Renderings, And Ineffable Referents` · `The LIØNSBERG Lexicon`, Boundaries · `The Goal` (root). lionsberg.wiki: **Meta**.
-**Open:** none found; the root page is the single mature articulation and the rest of the corpus uses the prefix consistently with it.
+**Open:** none found; this is the single mature articulation and the prefix is used consistently with it elsewhere.

@@ -20,5 +20,4 @@ At the scale of a Cell, this is simply what a Cell is. Three to thirteen people,
 **Stands on:** [[Education As Transformation]] · [[Circle]] · [[Trust]] · [[Belonging]]
 **Opens onto:** [[Apprenticeship]] · [[Learning By Doing]] · [[The Three-Year Formation]] · [[The Movement]] · [[Cell]] · [[We Do Not Know]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Education As Transformation (canon-grade list; *Cohort-Learning* named, no card) · *Second Wave Cohort* (wiki root) · *Pillar IV*, Thesis 10 (canon-grade) · *Education As Transformation* (wiki root; canon-grade — group-based learning, the formation cycle) · lionsberg.wiki: Second Wave Cohort
 **Open:** The ~50 waves and the three-to-six-week spacing come from an early Strategy and Plan and have not been restated in any later document; treat as a historical draft figure, not a live plan.

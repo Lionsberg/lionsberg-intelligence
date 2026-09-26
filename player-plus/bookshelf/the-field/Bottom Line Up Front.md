@@ -18,5 +18,4 @@ It has a natural limit. Leading with the bottom line assumes there is one — an
 **Stands on:** [[Communication Debt]] · [[Wise Right Speech]]
 **Opens onto:** [[Requests and offers]] · [[Sensemaking]] · [[The Record]] · [[Guidance]]
 **In play:** table · Home · Room
-**Sources:** *Bottom Line Up Front* (wiki root page, one line) · *The LIØNSBERG Operating System* §14 · *The DNA of Heaven*, Part VIII (the speech rule of each role) — lionsberg.wiki page name: **Bottom Line Up Front**
-**Open:** The canon page defines the practice and does not place it; its relation to the role-specific speech rule is a synthesis here, not a settled reading.
+**Open:** This page defines the practice and does not place it; its relation to the role-specific speech rule is a synthesis here, not a settled reading.

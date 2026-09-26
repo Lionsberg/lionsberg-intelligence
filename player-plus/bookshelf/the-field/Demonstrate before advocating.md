@@ -22,5 +22,4 @@ What follows the demonstration is not argument either. It is the story of what h
 **Stands on:** [[Prototype]] · [[Learning By Doing]] · [[Truth]]
 **Opens onto:** [[Attraction, not promotion]] · [[Share the Stories]] · [[Islands of Coherence]] · [[Mondragon]] · [[The Plan]] · [[Do the Work]] · [[Storytelling]] · [[Forward-Looking Story]]
 **In play:** Home · beyond — the order of every season's work
-**Sources:** *The DNA of Heaven*, Part XI, §The Strategy · `LIØNSBERG Wiki Blogs`, *Above The Chaos, The LIØNSBERG Strategy and Plan* (a dispatch) · lionsberg.wiki: The First Three Percent
 **Open:** Stated as a strategy line and nowhere elaborated; nothing says what counts as a demonstration sufficient to stop building and start telling.

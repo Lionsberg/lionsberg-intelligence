@@ -22,5 +22,4 @@ A Cell meets this at small scale and constantly: the reply not sent, the correct
 **Stands on:** [[Discipline]] · [[Discernment]] · [[Composure Under Threat]] · [[The Warrior's Vow]]
 **Opens onto:** [[The Sacred Use Of Force]] · [[Guardianship]] · [[The Act Of Release]] · [[Speaking Truth In Love]] · [[Mastery Of Emotions]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain (ore — named, no card) · *Pillar X — Sacred Guardianship and Order*, thesis 6 and the narrative (canon-grade) · the seed's Part X and Part VIII. lionsberg.wiki: Restraint As The Refusal To Act.
 **Open:** Ore. Named once in the Warrior domain list with no body, no test, and no worked case. The distinction between restraint and neglect — when *not* acting is itself the harm — is nowhere addressed.

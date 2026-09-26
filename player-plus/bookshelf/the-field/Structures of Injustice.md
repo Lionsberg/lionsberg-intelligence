@@ -22,5 +22,4 @@ And the same features are worth looking for in one's own body, since nothing her
 **Stands on:** [[Justice]] · [[Power]] · [[Systemic Failure Modes]]
 **Opens onto:** [[The smoke test]] · [[Whistleblower Protection]] · [[The Lahaina Principle]] · [[Separation Of Power]] · [[Oversight]] · [[Recourse]] · [[The Parasite]] · [[Necessity Of Accountability]]
 **In play:** the table — run over any body a Cell is about to depend on, including itself
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §III
 **Open:** Generalised from a single account; the features named here are reconstructed and have not been tested against cases. · The source names specific institutions and accuses them; none of that is carried, and the pattern does not depend on it.

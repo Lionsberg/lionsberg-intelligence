@@ -18,6 +18,5 @@ This framing is openly provisional: it is part of a layered architecture still b
 **Also called:** Layer II · the Eternally Nameless Superorganism · the manifest All
 **Stands on:** [[ØNE]] · [[All]] · [[The Eternally Nameless]]
 **Opens onto:** [[ØNE Body]] · [[One of the Ones of the ØNE]] · [[The Great ReMembering]] · [[InterExistence]] · [[Complex Adaptive Living System]] · [[Cosmos]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]]
-**In play:** Beyond the table — met by those cohering the corpus or explaining how a local body relates to the whole; a player never needs it to play.
-**Sources:** `The Great Weaving — Concept Ledger` §A.2 (canonical home proposed as a companion page, not written) · `ØNE Body` (wiki root, thin stub) · `One of the Ones of the ØNE` · `The Story of LIØNSBERG — The Sacred Arc`, Movement III · `The Sovereign Superorganism` (Card). lionsberg.wiki: **The Great Weaving — Concept Ledger**.
+**In play:** Beyond the table — met by those cohering this material or explaining how a local body relates to the whole; a player never needs it to play.
 **Open:** No page exists at this name. The Ledger leaves unresolved whether this is a companion page to Layer Ø or a section within it, and the root `ØNE Body` page it would draw on is currently a stub.

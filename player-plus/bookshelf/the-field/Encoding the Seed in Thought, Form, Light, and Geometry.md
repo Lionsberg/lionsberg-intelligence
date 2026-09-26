@@ -14,11 +14,10 @@ The practical half is the **translatability requirement**: the registers must be
 
 Why it matters practically is plain even if the metaphysics is left aside. Most people do not receive anything important through prose, and a body that can only be entered by reading has selected its members by literacy and called that selection interest ([[Conditions of Acceptance]], [[The grandmother test]], [[Universal-Accessing]], [[Art]], [[Music]]).
 
-The far end of the list — a field-level or morphic transmission beneath even the geometric — is the corpus's claim and not knowledge; nothing here establishes it, and nothing in the Game depends on it ([[We Do Not Know]], [[Sensing The Field]]).
+The far end of the list — a field-level or morphic transmission beneath even the geometric — is a claim and not knowledge; nothing here establishes it, and nothing in the Game depends on it ([[We Do Not Know]], [[Sensing The Field]]).
 
 **Also called:** the encodings · the seed travels in more than words
 **Stands on:** [[Transmission]] · [[The Golden Seed]] · [[Sacred Geometry]]
 **Opens onto:** [[Embodying the Way]] · [[Storytelling]] · [[Art]] · [[Music]] · [[The Translation Journey]] · [[Universal-Accessing]] · [[Ritual]] · [[Receiving Transmission]] · [[We Do Not Know]]
 **In play:** the Workshop — asked of anything made for a stranger: in how many registers does this arrive?
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Encoding the Seed in Thought, Form, Light, and Geometry.md`
 **Open:** The list of registers is asserted and the later entries are unfalsifiable as stated. · The translatability work is named and does not exist. · Nothing says how a register is checked for fidelity — whether a song carrying the thing badly is caught, and by whom.

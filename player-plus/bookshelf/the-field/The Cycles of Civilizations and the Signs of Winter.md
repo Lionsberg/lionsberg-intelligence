@@ -14,7 +14,7 @@ The ten signs are what make it readable rather than merely descriptive: economic
 
 The discipline to notice is in how the source handles the present. Its reading — that the signs are largely present now — is given as *many argue*, not as a finding. That hedge is the honest part and is easily lost in restatement ([[We Do Not Know]], [[Navigating Towards Truth]], [[Confidence Intervals on Collapse]]).
 
-And a cyclical reading cuts both ways, which the corpus's own frame requires. If decline and fall are natural phases, they are not verdicts on anyone's character, and they are not destiny either — the timing and duration are said to depend on what is done ([[The Collapse-Ascension Nexus]], [[Possibility Of Reversal]], [[Pre-Collapse Proaction vs Post-Collapse Reaction]]).
+And a cyclical reading cuts both ways, which this frame itself requires. If decline and fall are natural phases, they are not verdicts on anyone's character, and they are not destiny either — the timing and duration are said to depend on what is done ([[The Collapse-Ascension Nexus]], [[Possibility Of Reversal]], [[Pre-Collapse Proaction vs Post-Collapse Reaction]]).
 
 **Provenance:** a 2023 transcript of a dialogue between the book's questioner and an AI assistant. The phase durations are broad generalisations offered in that conversation — estimates, not measurements — and the ten signs are a list, not a diagnostic instrument with thresholds.
 
@@ -22,5 +22,4 @@ And a cyclical reading cuts both ways, which the corpus's own frame requires. If
 **Stands on:** [[Cycle]] · [[Decline]] · [[Collapse]]
 **Opens onto:** [[The Three Converging Cycles]] · [[The Bronze Age Parallel]] · [[The Dashboard of Civilization]] · [[The Collapse-Ascension Nexus]] · [[Possibility Of Reversal]] · [[The Meta Crisis]] · [[Generational Time]] · [[New Era]]
 **In play:** beyond — read once, slowly, against where one actually lives
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance…/4.10 The Cycles of Civilizations.md` (a 2023 AI dialogue)
 **Open:** Cyclical models of history are contested as a method and the source does not engage the objection. · The signs are general enough that a determined reader finds them in any period, which is the standard criticism and is unaddressed. · No thresholds are given, so the model describes and does not measure.

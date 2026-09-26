@@ -20,5 +20,4 @@ The word is also a warning. Ecology names interdependence, which means it names 
 **Stands on:** [[Living System]] · [[InterExistence]] · [[Right Relationship]]
 **Opens onto:** [[Permaculture]] · [[Biodiversity]] · [[Watershed]] · [[Ecoregion]] · [[Compost]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VI table (canon-grade) · *Pillar VI — Sacred Ecology and Living Systems*, Theses 2, 5 and 11 · lionsberg.wiki: *Pillar VI — Sacred Ecology and Living Systems*
-**Open:** No canon page stands at *Ecology* itself; the meaning lives in the Lexicon table and the Pillar page.
+**Open:** No page stands at *Ecology* itself; the meaning lives in the Lexicon table and the Pillar page.

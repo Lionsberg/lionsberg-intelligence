@@ -20,5 +20,4 @@ The Calendar does not replace anyone's existing festivals. Easter near the sprin
 **Stands on:** [[Rhythm]] · [[Time]] · [[Cycle]] · [[Earth]] · [[Cosmos]]
 **Opens onto:** [[The turnings]] · [[Season]] · [[The Daily Way]] · [[Festival]] · [[Celebration]] · [[Ritual]] · [[The Time Horizons]] · [[Generational Time]]
 **In play:** Home · table · beyond
-**Sources:** `The LIØNSBERG Calendar` (Card in *LIØNSBERG, Earth, and the Cosmos*; status written, self-described as continuously improving) · `The Sovereign Path`, *The Rhythms That Hold The Walk* · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Calendar, Cycle, Time* (ore) · `The Clock of the Game` (Little Book chapter, current best understanding) · lionsberg.wiki: The LIØNSBERG Calendar
 **Open:** The Card anchors the December 2033 solstice to a Covenant and Jubilee page that was not opened here. · The Card's lunar layer has no counterpart in the Little Book's Clock, which keeps only the four solar turnings; whether the lunar days are practice or standard is unstated. · The cross-quarter ceremonies are listed in the gaps with a note asking what they were for.

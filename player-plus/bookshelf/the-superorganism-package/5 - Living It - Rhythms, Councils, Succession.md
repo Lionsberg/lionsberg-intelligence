@@ -81,7 +81,7 @@ The LIØNSBERG cross-vault tradition holds the operational gameplay loop as **Se
 3. **Choose a Quest.** Discern the work. Bound it (typically ~90 days). Define what would constitute genuine contribution to the Driver.
 4. **Do the Work.** Execute. Keep promises. Track the gap between what we said we would do and what we actually did. Integrity is built in that gap.
 5. **Share Your Stories.** Testimony as the primary carrier of the Pattern. Stories inspire, attract resources, teach systems. Tell what happened — honestly, with the difficulties named, not only the wins.
-6. **Learn and Improve.** Retrospective: *What worked? What's most important to continue? What didn't? What do we change?* Continuous improvement as spiritual practice.
+6. **Learn and Improve.** Retrospective: *What worked? What is most important to continue? What did not? What do we change?* Continuous improvement as spiritual practice.
 7. **Pass the Flame.** Mature Circles identify and form new Circles. Self-replication is encoded in the structure, not external mandate. Then return to Move 1, deeper.
 
 Each Move is a discrete practice. The full cycle is what a Circle holds across a Season. **Every fractal of the body — individual, Circle, operating entity, sub-fund, Federation Node, bioregion, the Holding Company itself — is invited to repeat this rhythm at minimum every Solstice and Equinox**, in the form of omnispection (below). This is what keeps the body coherent across thousands of distributed actions; the Seven Moves are the shared grammar by which any part of the body can be heard by any other part.

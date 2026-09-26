@@ -20,5 +20,4 @@ The tribe is also where the ancestors and the unborn are most naturally seated, 
 **Stands on:** [[Lineage]] · [[Culture]] · [[Federation]] · [[Story]] · [[Covenant Across Time]]
 **Opens onto:** [[Guild]] · [[Voluntary Association]] · [[Community of Communities]] · [[Migration]] · [[Meta Unity of Meta Diversity]] · [[Rites of Passage]]
 **In play:** Home · beyond
-**Sources:** `Tribe` (Card in *LIØNSBERG, Earth, and the Cosmos*) · `The LIØNSBERG Lexicon`, §The Movement · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, §Scales · `The LIØNSBERG Playbook` · lionsberg.wiki: Tribe
-**Open:** No root-level `Tribe` page exists. · *Tribe* is used in two senses across the corpus — a lineage-people, and loosely as a synonym for any small bonded group ("tribe of tribes"); only the first is treated here.
+**Open:** No root-level `Tribe` page exists.*Tribe* is used in two senses — a lineage-people, and loosely as a synonym for any small bonded group ("tribe of tribes"); only the first is treated here.

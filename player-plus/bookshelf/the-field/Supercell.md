@@ -14,11 +14,10 @@ The move composes without limit, and that is the point of the word. Supercells b
 
 What happens at that evening is what a home does, done together. One or two people from each Cell bring the [[The Season Sheet|Season Sheet]]; the one-word line is read aloud first, so the room knows how its Cells *are* before it knows a number; then the stories, then offers against requests, then every proposal gathered onto one page, then the sums of commitments kept, flames passed, and [[The Offering|Offering]] gathered. Then the supercell fills the same lines about itself — Cells counted instead of people — signs with two hands from two Cells, and sends it to its own home ([[The Way Up]]). One page comes back down ([[The Return]]).
 
-The word is new and deliberate. It replaced *[[Ring]]*, which is still live in several canon pages and names two other things besides; *supercell* borrows nothing from either, and says plainly what the body is — cells that have made a larger cell, with the same functions at the larger size.
+The word is new and deliberate. It replaced *[[Ring]]*, which is still live in several pages and names two other things besides; *supercell* borrows nothing from either, and says plainly what the body is — cells that have made a larger cell, with the same functions at the larger size.
 
 **Also called:** was *Ring*
 **Stands on:** [[Cell]] · [[Home Cell]] · [[Consent]] · [[Federation]] · [[Sovereignty At Every Scale]]
 **Opens onto:** [[Cell of Cells]] · [[The Season Sheet]] · [[The Way Up]] · [[The Return]] · [[Levels Of Scale]] · [[Connect and Collaborate With Other Cells]] · [[Holofractal Scaling]]
 **In play:** beyond the table
-**Sources:** `The Twelve Words` 11, in The Little Book of the Great Game (canon-grade; *supercell everywhere*) · `Ring`, the term pages · The LIØNSBERG Operating System §17 · The DNA of Heaven, Part V · lionsberg.wiki: The Twelve Words
-**Open:** No canon page yet stands at the name *supercell*; `OS` §17 and `A Ring of Ten Circles` still say *ring*. Two live words for one body. · *Subcell* is named in the seed and has no page anywhere.
+**Open:** No page yet stands at the name *supercell*; `OS` §17 and `A Ring of Ten Circles` still say *ring*. Two live words for one body.*Subcell* is named in the seed and has no page anywhere.

@@ -18,5 +18,4 @@ A WILL is a person's word, consciously given — never inferred from a plan, nev
 **Stands on:** [[SHOULD-CAN-WILL-DID]] · [[Conditions of satisfaction]] · [[Make-Ready Process]] · [[Sovereignty]]
 **Opens onto:** [[The gap]] · [[The Record]] · [[Kept as a share of made]] · [[Consciously Breaking Commitments]] · [[Requests and offers]]
 **In play:** table · Home · beyond
-**Sources:** *Commitment* (the fullest treatment) · *The LIØNSBERG Operating System* §11 · *Tracking Commitments* (wiki root page, thin) · The Twelve Words, word 3 · *The DNA of Heaven*, Parts VII and XII — lionsberg.wiki page name: **Commitment**
 **Open:** The Twelve Words gloss the Pledge as the first commitment; the delivery sense here is narrower and dated.

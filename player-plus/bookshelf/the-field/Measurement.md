@@ -20,5 +20,4 @@ Two further disciplines hold. Time is read, never computed: a clock is consulted
 **Stands on:** [[Truth]] · [[Science]] · [[Data]] · [[Value]]
 **Opens onto:** [[Kept as a share of made]] · [[The Score]] · [[Milestone]] · [[Honesty about time]] · [[The clock is read, never computed]] · [[Measure everything, manage to the milestones]]
 **In play:** the table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table (stub) · *The LIØNSBERG Operating System v0*, the Record and the milestones · the seed's Part IV and Part VII. lionsberg.wiki: Measurement.
 **Open:** The Lexicon holds one line; every working measure in the field is defined in the Operating System instead, and no page reconciles the two.

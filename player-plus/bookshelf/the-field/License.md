@@ -20,5 +20,4 @@ A licence once given stays given. A maker may stop offering a work; whoever alre
 **Stands on:** [[Knowledge as commons]] · [[Terms]] · [[Consent]]
 **Opens onto:** [[CC BY-SA 4.0]] · [[MIT]] · [[Attribution]] · [[Provenance]] · [[Declare]] · [[The six lines]]
 **In play:** door · Room
-**Sources:** the Player+ Modules' Lexicon and *Entering the Field* · *Gratitude, Lineage and Licensing* · The DNA of Heaven, Part IV · lionsberg.wiki: *Commons*
 **Open:** the wider canon has no licence statement of its own; the terms in use come from the Little Book, the modules and the seed text.

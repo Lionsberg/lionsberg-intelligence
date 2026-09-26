@@ -14,11 +14,10 @@ It is a constraint rather than a value, and constraints cost. The visible cost i
 
 What it buys is the difference between a movement and a club. Any pathway that requires a starting point selects for whoever already has it, and then mistakes that selection for the shape of who is interested. Setting reach as an acceptance condition rather than an aspiration means a design that excludes is simply not finished — it has failed its test, not fallen short of its ideal.
 
-It is also the reason the corpus keeps a small cohered path beside a vast uncohered territory, and the reason its instruments degrade to paper and its language is plain. The same condition, applied to the door, to the tools, and to the words.
+It is also the reason a small cohered path is kept beside a vast uncohered territory, and the reason its instruments degrade to paper and its language is plain. The same condition, applied to the door, to the tools, and to the words.
 
 **Also called:** our Conditions of Acceptance · accessible to all, regardless of previous context
 **Stands on:** [[Conditions of satisfaction]] · [[Equal Opportunity For All]] · [[The Invitation]] · [[Welcoming The Stranger]] · [[Human-Scaling]]
 **Opens onto:** [[One tool, every scale]] · [[Just in time]] · [[The Zone Of Optimum Development]] · [[Orientation and Onboarding Process]] · [[Notebook form]] · [[A Word on Words]] · [[The LIØNSBERG Voice]] · [[Rule Of Three]] · [[None Of Us Until All Of Us]] · [[Universal-Accessing]] · [[The door]]
 **In play:** wherever anything is designed for a stranger to meet
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG Orientation and Training System/Day 1 — The Narrative Structure of LIØNSBERG and Consciousness — The Quest Towards The Goal.md` (ore) · `LIØNSBERG Wiki Blogs/… Above The Chaos, Introducing LIØNSBERG.md` · `The LIØNSBERG Handbook` (migration stub — links the term and does not define it)
-**Open:** The term is linked in at least two places as though a page defined it, and no such page exists anywhere in the corpus; the *conditions*, plural, are never enumerated. Everything above is drawn from the two live uses of the phrase, and the accessibility condition is the only one of them that is actually stated.
+**Open:** The term is linked in at least two places as though a page defined it, and no such page exists anywhere; the *conditions*, plural, are never enumerated. Everything above is drawn from the two live uses of the phrase, and the accessibility condition is the only one of them that is actually stated.

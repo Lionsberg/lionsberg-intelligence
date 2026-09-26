@@ -20,5 +20,4 @@ Two things this page will not claim. Breath is not a substitute for care that a 
 **Stands on:** [[Temple]] · [[Vitality]] · [[Silence And Stillness As The Ground]]
 **Opens onto:** [[The Daily Way]] · [[Composure Under Threat]] · [[Integration]] · [[Rest And Regeneration]]
 **In play:** table · Gate
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table · *The Sovereign's Breath* and the breath Cards (drafted Patterns) · *The Daily Way* (written Card) · lionsberg.wiki: *The Sovereign's Breath*
 **Open:** The Lexicon's term is *Breath*; the Pattern Language's home is *The Sovereign's Breath* with six sub-Cards. One canonical home has not been chosen.

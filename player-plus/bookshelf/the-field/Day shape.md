@@ -20,5 +20,4 @@ The line it must not cross is care becoming management. The steward tends condit
 **Stands on:** [[Consent]] · [[Stewardship]] · [[Wellness]] · [[Agent]]
 **Opens onto:** [[Off switch]] · [[Morning page]] · [[Register]] · [[Hosted service]] · [[Rest And Regeneration]]
 **In play:** beyond
-**Sources:** Player+ Modules, *An Agent That Attends to You*, *Daily Life* · lionsberg.wiki: *Stewardship*, *Wellbeing*, *Voluntary Consent*.
 **Open:** none found.

@@ -18,5 +18,4 @@ How it is played. Keep to the hour; end on time. Name who holds the room this se
 **Stands on:** [[The Turn]] · [[Cell]] · [[Dialogos]]
 **Opens onto:** [[Check In]] · [[Harvest and Close]] · [[The weekly door]] · [[The Board]] · [[Commitment]] · [[Quest]] · [[Lesson]]
 **In play:** table · Room
-**Sources:** the Player+ Modules lexicon, *the eight movements*, and the module *The Weekly Turn* · *The LIØNSBERG Playbook*, Play — Run the Weekly Turn · lionsberg.wiki: **The LIØNSBERG Playbook**
 **Open:** The eight movements come from the module deck and the Playbook's Play; the Little Book's chapter does not mention them. Which form a new Cell should start with is not stated — the field's reading is that the four-part round is the floor and the eight movements the fuller form.

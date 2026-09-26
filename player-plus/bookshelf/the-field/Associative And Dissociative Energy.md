@@ -20,5 +20,4 @@ The subtlety runs both ways, which is why the Pattern insists on reading the sig
 **Stands on:** [[Energy]] · [[Right Relationship]] · [[Sensing The Field]] · [[Discernment]]
 **Opens onto:** [[The Energetic Anatomy]] · [[Sovereignty In The Populated Field]] · [[Coherence]] · [[Inversion]] · [[Evil]] · [[Disbanding]] · [[Circle Coherence]]
 **In play:** Room
-**Sources:** *Associative And Dissociative Energy* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Lexicon* (Pillars I and V) · lionsberg.wiki: Associative And Dissociative Energy
 **Open:** none found

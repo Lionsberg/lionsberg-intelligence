@@ -19,5 +19,4 @@ Absolute Beauty stays beyond full comprehension. The practice is to seek it out,
 **Stands on:** [[Reality]] · [[Right Relationship]] · [[ØNE]]
 **Opens onto:** [[Truth]] · [[Goodness]] · [[Art]] · [[Music]] · [[Sacred Geometry]] · [[Design]] · [[Architecture]] · [[Reverence]]
 **In play:** At the table, as the honest question of whether what we made is something anyone would want to live inside; at Home and Room, as the reason celebration and craft are in the rhythm rather than beside it.
-**Sources:** `Beauty` · `Truth` and `Goodness` (roots — the paired triad) · `The LIØNSBERG Lexicon`, Pillars I and VII · `Pillar IX — Sacred Architecture and Design` · `The DNA of Heaven`. lionsberg.wiki: **Beauty**.
 **Open:** none found; the triad framing is consistent across the root pages, the Lexicon, and the Pillars.

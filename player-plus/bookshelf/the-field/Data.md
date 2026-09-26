@@ -20,5 +20,4 @@ The numbers a Cell actually needs are few and small: commitments made, commitmen
 **Stands on:** [[Measurement]] · [[Science]] · [[Truth]] · [[Provenance]]
 **Opens onto:** [[The Record]] · [[The Score]] · [[Kept as a share of made]] · [[Technology Sovereignty]] · [[Surveillance]]
 **In play:** the table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table (stub) · *The LIØNSBERG Operating System v0*, the Record · the seed's Part VII, the Record, and Part XII, TEA. lionsberg.wiki: Data.
 **Open:** The Lexicon line is a single sentence; the working discipline lives entirely in the Operating System and the seed, under other names.

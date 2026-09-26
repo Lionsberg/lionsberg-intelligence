@@ -1,7 +1,7 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 22
+chapter: 23
 ---
 
 # Building — the Pattern of Production
@@ -28,7 +28,7 @@ That question, asked in week one instead of week nine, is most of the value of t
 
 **They promise only what is ready.** At the table on Sunday, each of them says one sentence: *I will do this, by then.* Nobody says *I'll try to get to the soil thing.* Nobody is assigned anything. Each says what they will do, because they are the one who knows what their week actually holds, and because the promise is going to be answered in front of the others in seven days.
 
-**They answer for it, and they learn from the difference.** The next Sunday each says what they said, whether they did it, and — if not — what actually happened. Not *I'm sorry*. What happened. Three weeks in, the same kind of miss appears twice, and when they follow it down it turns out that the person who owns the truck was never actually asked, because everyone assumed someone else had. That is not a flaw in a person. It is a flaw in how they were working, and it is cheap to fix once it is visible.
+**They answer for it, and they learn from the difference.** The next Sunday each says what they said, whether they did it, and — if not — what actually happened. Not *I am sorry*. What happened. Three weeks in, the same kind of miss appears twice, and when they follow it down it turns out that the person who owns the truck was never actually asked, because everyone assumed someone else had. That is not a flaw in a person. It is a flaw in how they were working, and it is cheap to fix once it is visible.
 
 **They count.** Eleven things promised this month, eight kept. They write the fraction down. It is not a grade and nobody is ranked by it. It is the one thing that tells them, honestly and early, whether they are a group that can be built on — and by the third month it is nine in eleven, not because anyone tried harder but because they stopped promising things that were never ready.
 
@@ -233,7 +233,7 @@ This is the rhythm nested: the day inside the week, the week inside the season, 
 
 There is no separate operating-system book standing beside this one. What follows *is* the system, and it is the mechanism underneath a group's own way of working — not a brand and not a doctrine ([[The LIØNSBERG Operating System]]). A group keeps its name, its culture, its humour, its art. What it takes up is a shape.
 
-The teaching it rests on: **one Book, one Operating System, one Big Room at the top of every holon** — which is a teaching about how a whole establishes functional unity at its own top, offered and never imposed.
+The teaching it rests on: **one Book, one Operating System, one One Room at the top of every holon** — which is a teaching about how a whole establishes functional unity at its own top, offered and never imposed.
 
 ### 3.1 The eight parts
 
@@ -265,7 +265,7 @@ Seven cards, the same shape everywhere, on paper or on a screen. Each is given h
 
 **Card 4 · The constraint log.** Constraint · what it blocks · owner · remove-by · status. *Filled by* whoever names the constraint; the owner is agreed at the table. *When:* at every Turn, as the look-ahead rolls. *On paper:* five columns on the facing page of the same notebook.
 
-**Card 5 · The Quest card.** Our Quest · why · **done when** · our part of the bigger plan · who holds it · this week's commitments ([[The Questcard]]). *Filled by* the whole Cell at the turning, and rewritten weekly with who will do what by when. *When:* chosen at the turning; the *done when* line checked at the next one, instead of the feeling. *On paper:* one card, kept where the Cell gathers.
+**Card 5 · The Quest card.** Our Quest · why**done when** · our part of the bigger plan · who holds it · this week's commitments ([[The Questcard]]). *Filled by* the whole Cell at the turning, and rewritten weekly with who will do what by when. *When:* chosen at the turning; the *done when* line checked at the next one, instead of the feeling. *On paper:* one card, kept where the Cell gathers.
 
 **Card 6 · The Record.** Week · commitment · kept? · gap · learned · story. *Filled by* the [[Keeper]], from what is said at the Turn, in words the person used. *When:* every week, one line per commitment. *On paper:* a bound notebook, so that pages cannot be quietly removed. Nothing in it is secret from the table. Beside it live the decisions with their reasons, and the defect log — every miss written the day it happens, closed only when its fix sits where future work will meet it.
 
@@ -323,7 +323,7 @@ One pattern, at every size. What changes is not the method but the grain.
 
 **A bioregion.** Read by its watershed rather than by anyone's map. Communities coordinate milestones through federated planning; resources flow to where they are needed; and constraints that exceed any single community — infrastructure, specialized knowledge, ecological restoration at watershed scale — are cleared there. Same four levels. Same discipline. Same learning loop. Only the scope changes.
 
-**The total nested holarchy of plans.** There is no master plan in the sense the Old World means — no single document that the rest of us are executing. There is **one shape of plan, written at every size, by the people of that size, and woven rather than overruled.** Each level plans its own work and publishes its milestones; the level above plans over those published milestones; and what comes back down is not an instruction but a picture — the Goal, the Moment, the milestones, this season's plan for the whole, and the stretch of road this player's part touches. The full articulation of that holarchy, with its markers and its arithmetic, is in [[24 The Plan — the first three percent]].
+**The total nested holarchy of plans.** There is no master plan in the sense the Old World means — no single document that the rest of us are executing. There is **one shape of plan, written at every size, by the people of that size, and woven rather than overruled.** Each level plans its own work and publishes its milestones; the level above plans over those published milestones; and what comes back down is not an instruction but a picture — the Goal, the Moment, the milestones, this season's plan for the whole, and the stretch of road this player's part touches. The full articulation of that holarchy, with its markers and its arithmetic, is in [[29 The Plan — the first three percent]].
 
 What federates it, mechanically, is the dependency link. A Cell's activity may have a supercell's milestone as its successor, or another Cell's deliverable as its predecessor. Agreed in both directions, with conditions of satisfaction written by the receiver, **those interface links are how separate plans become one plan without anyone owning all of it.** A body that stops publishing simply stops being woven in. Nobody is in charge of it. Everyone is.
 
@@ -416,7 +416,7 @@ The words of this chapter, each opening onto its page.
 - **Four lists of minimum standards exist under one name** — the seven carried here, a root page's ten, a kit page's ten, and an earlier seven in the seed. The seed now reads the ten as the older floor beneath the seven, which is the reading this chapter carries. **Open question: does that reading stand?**
 - **Standard three says *the same words on line one*; an earlier form fixed the number at twelve.** The number was objected to as artificially constraining. This chapter carries the unnumbered form.
 - **A name for the player's own view of the deck was proposed and set aside** as making the Game unnecessarily more complicated. This chapter therefore describes it plainly and does not name it. Separately, *the Queue* already means something else in this canon — where new participants wait for the conditions and energy for a new cohort to begin — and must not be used for a sort of the work deck.
-- **The Big Room and the Core Group have no page of their own** in the field, though both are load-bearing here and both are named across the delivery books. Named without links; they should be carded.
+- **The One Room and the Core Group have no page of their own** in the field, though both are load-bearing here and both are named across the delivery books. Named without links; they should be carded.
 - **Throughput of the Goal has no page**, though it is the definition Value stands on.
 - **Work Card, work deck, data date, buffer, bottleneck, limiting factor, and resource levelling have no pages in the field**, though the deck section depends on the first three and the planning section on the last four. All exist as unreviewed drafts elsewhere.
 - **The Operating System's later sections still say *ring* where the Game now says *supercell***, and its tier in the field's own key reads backwards against the instruments that stand on it.
@@ -430,3 +430,4 @@ The words of this chapter, each opening onto its page.
 ---
 
 *Say what you will do; do what you said; learn from the gap. Everything else in this chapter is machinery for keeping that possible at scale.*
+

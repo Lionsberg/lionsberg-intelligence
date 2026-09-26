@@ -22,5 +22,4 @@ So the two registers of the Story are not rivals. [[The Great UnVeiling]] is the
 **Stands on:** [[The Meta Crisis]] · [[The Goal]] · [[Heaven On Earth]]
 **Opens onto:** [[The Great UnVeiling]] · [[The Sacred Ascent]] · [[The Invitation]] · [[Awakening]] · [[Fear]] · [[Do the Work]] · [[The Window]]
 **In play:** the door — the shape of any honest telling of where we are
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Meta Crisis as Push, The Goal as Pull.md`
 **Open:** The Card assumes a person needs both in roughly equal measure; nothing addresses the person for whom one is genuinely sufficient, or the season in which one should be led with.

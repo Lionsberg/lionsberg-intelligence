@@ -18,5 +18,4 @@ The canon calls the vector toward the Goal [[Critical Path]] — the same word t
 **Stands on:** [[The Goal]] · [[Value]] · [[Waste]]
 **Opens onto:** [[Vector]] · [[Critical Path]] · [[Throughput]] · [[The Meta Project]] · [[Everything Is A Project]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Lexicon* §The System, lines 64–71 · *The LIØNSBERG Operating System* §6 · *Activity* — lionsberg.wiki page name: **Work**
 **Open:** none found.

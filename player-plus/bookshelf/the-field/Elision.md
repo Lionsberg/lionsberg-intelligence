@@ -20,5 +20,4 @@ Chatham House says what may leave a room; Elision says how a room takes back wha
 **Stands on:** [[Mutual Consent]] · [[Selectively Permeable Membrane]] · [[Chatham House]]
 **Opens onto:** [[Closing question]] · [[Stop]] · [[The six lines]] · [[Terms]] · [[Provenance]] · [[An agent speaks in its own name]]
 **In play:** Room
-**Sources:** Elision · The DNA of Heaven, Part VIII · *Entering the Field* and *Safe Sparring*, Player+ Modules · lionsberg.wiki: *Elision*
-**Open:** the two statements differ on who may ask. The canon page says anyone may ask and the host grants it; the seed text narrows the ask to one's own words or what was said about one, before the record is shared. The seed's narrower form is what stands here, and the wider one is worth an answer.
+**Open:** Two statements differ on who may ask. One says anyone may ask and the host grants it; the narrower form limits the ask to one's own words or what was said about one, before the record is shared. The narrower form is what stands here, and the wider one is worth an answer.

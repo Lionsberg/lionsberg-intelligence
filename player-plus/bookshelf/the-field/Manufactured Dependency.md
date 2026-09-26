@@ -20,5 +20,4 @@ The mirror failure is worth naming so the cure is not worse than the disease: a 
 **Stands on:** [[The Anti-Patterns]] · [[Primacy Of Consent]] · [[Sovereignty]]
 **Opens onto:** [[Withdrawal Of Consent]] · [[The Way Out]] · [[Self-Sustenance and Self-Replication]] · [[Education As Transformation]] · [[Mutual Aid]] · [[Selectively Permeable Membrane]] · [[The Parasite]]
 **In play:** Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Parts IV and V · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as an Anti-Pattern with no articulation; nothing states what a Body owes a member who has become dependent through its own doing.

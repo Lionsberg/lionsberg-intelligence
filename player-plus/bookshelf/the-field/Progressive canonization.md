@@ -20,5 +20,4 @@ The discipline is therefore not a promotion ladder to climb but a form of honest
 **Stands on:** [[Everything Is Current Best Understanding]] · [[Provenance]] · [[The Incipient Link]]
 **Opens onto:** [[Work In Progress]] · [[Disposition Categories]] · [[Phase-Gated Architecture]] · [[Patterns Pending Articulation]] · [[Gaps Not Yet Closed]] · [[One canonical home per concept]]
 **In play:** beyond
-**Sources:** the Wiki Turn's working decisions, *Maturation Framing* · the Pattern Language inventory, epistemic patterns — *Progressive Articulation*, *Progressive Realization* · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** the stage names in use are not one set. The concept field marks pages canon-grade, draft, ore, stub and unmarked; the audit ledger uses fold, canonical, reference, archive; the Pattern Language speaks of schematic and developed. A single vocabulary has not been chosen.

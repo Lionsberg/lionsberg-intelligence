@@ -20,5 +20,4 @@ Its honest counterweight is the other half of the same law: no one is carried wh
 **Stands on:** [[Love]] · [[Heaven On Earth]] · [[Omniconsideration]] · [[ØNE Body]] · [[How we win]]
 **Opens onto:** [[Equal Opportunity For All]] · [[Welcoming The Stranger]] · [[Mutual Aid]] · [[Pass The Flame]] · [[The Way Out]] · [[Covenant Across Time]]
 **In play:** table · door · beyond
-**Sources:** `All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23`, §3.1 Ch1 (inventory, ore) · `Pass The Flame`, Ch 5 (drafted chapter) · `The Little Book of the Great Game — Second Draft`, *How we win* and the floor beneath the Game · lionsberg.wiki: no page stands at this name
 **Open:** No page exists at this name; the phrase lives inside an inventory entry and a book chapter. · The tension between *leave no one behind* and *no one is carried who has not chosen to walk* is stated in the Game but nowhere worked through.

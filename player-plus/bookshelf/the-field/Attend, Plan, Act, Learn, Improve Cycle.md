@@ -16,11 +16,10 @@ The fifth beat is what separates this from a loop that merely repeats. Learning 
 
 The cycle is fractal, like the Element it expresses: a person can run it between two tasks, a Cell runs it weekly at [[The Turn]], a Quest runs it across a season, and a Body runs it at the turning in [[OmniSpection]]. Nothing about the beats changes with scale; only the period does.
 
-It is named in the canon at the root and its page is empty — a title with no body — while the substance lives in [[Tightly Coupled Learning and Action]] and in the continuous-learning sections of the Pattern Language.
+It is named at the root and its page is empty — a title with no body — while the substance lives in [[Tightly Coupled Learning and Action]] and in the continuous-learning sections of the Pattern Language.
 
 **Also called:** APALI · PDCA
 **Stands on:** [[Tightly Coupled Learning and Action]] · [[Continuous Improvement]] · [[Sensemaking]]
 **Opens onto:** [[Observe · Orient · Decide · Act · Learn]] · [[Retrospective]] · [[OmniSpection]] · [[Every Defect Is A Gift]] · [[The Turn]] · [[The Triadic Discipline]]
 **In play:** table
-**Sources:** *Attend, Plan, Act, Learn, Improve Cycle* (root page — title only, no body) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Tightly Coupled Learning and Action* (canon-grade) · lionsberg.wiki: Attend, Plan, Act, Learn, Improve Cycle
-**Open:** The canon page is an empty heading; the five beats are attested only by the page's own title and by the cycle named in Element twelve.
+**Open:** This page is an empty heading; the five beats are attested only by the page's own title and by the cycle named in Element twelve.

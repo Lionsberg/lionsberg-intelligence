@@ -1,7 +1,7 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 05
+chapter: 4
 ---
 
 # The Pattern and the Way
@@ -161,7 +161,7 @@ Education is not a department, a programme, or a phase completed before the real
 
 The Earthly proof is specific and datable. A priest arrived in 1941 in a Basque town of seven thousand dominated by a few industrialists, and spent ten years travelling, speaking, and giving conferences. People agreed with the ideas. Nobody changed. He drew the conclusion that shaped the next seventy years: you cannot transform the old; new wine requires new wineskins; you must form new people, and those formed people will create new organizations. In 1943 he started a school. Not a cooperative, not a bank, not a federation — a school. Thirteen years later, five former students quit their jobs and started the first cooperative. That thirteen-year gap is the single most important structural fact in the whole Mondragon experience.
 
-The pedagogy that came with it matters as much as the sequence. *We don't teach them; we help them learn.* Active, problem-based, group-based ([[Learning By Doing]] · [[Apprenticeship]] · [[Cohort-Learning]]); learners spending a third of their credits inside live enterprises; junior cooperatives where students start real businesses; coaches who guide rather than lecture. And *sirimiri* — the Basque word for a light, gentle rain — as the image of how it works: a little enlightenment at a time, over years, until the community has got wet in the ideas.
+The pedagogy that came with it matters as much as the sequence. *We do not teach them; we help them learn.* Active, problem-based, group-based ([[Learning By Doing]] · [[Apprenticeship]] · [[Cohort-Learning]]); learners spending a third of their credits inside live enterprises; junior cooperatives where students start real businesses; coaches who guide rather than lecture. And *sirimiri* — the Basque word for a light, gentle rain — as the image of how it works: a little enlightenment at a time, over years, until the community has got wet in the ideas.
 
 It takes two to three years for a person to feel genuinely connected and empowered inside a body ([[The Three-Year Formation]]). That is not a deficiency to be optimized away; it is how human transformation happens, and a body planning a weekend seminar instead is planning to fail. Lessons are composed into modules, in the context of a journey, delivered just in time ([[Lesson]] · [[Module]]): a whole curriculum at the door is a wall; one lesson when you are about to need it is a door. And the teaching is aimed at the learner's [[The Zone Of Optimum Development]] — never overwhelming, never under-challenging. Much of it is [[Unlearning]].
 
@@ -183,7 +183,7 @@ Every movement that endured found this. Each twelve-step group is financially au
 
 *What it protects against:* two deaths. Without self-sustenance, every node depends on a centre, and when the centre fails the network collapses. Without self-replication, growth becomes the work of a marketing function or a charismatic reach — which is to say, it becomes the old world again.
 
-*In a Cell's first season:* within seven days of receiving the Game yourself, carry it to the two or three you know are ready ([[Pass The Flame]]). Their Cell is their own, not a branch of yours.
+*In a Cell's first season:* within three days of receiving the Game yourself, carry it to your three — people not already playing, whom you know are ready ([[Pass The Flame]]). Their Cell is their own, not a branch of yours.
 
 *How it degrades to paper:* a growth target. A number of new members is not a new seed; a new seed is a body that could survive your disappearance.
 
@@ -203,7 +203,7 @@ So immunity is foundational architecture, written into the DNA from the seed, no
 - schism meets consent rather than consensus, and dissent honoured;
 - imperial drift meets [[Federations vs Empires]];
 - priesthood meets direct relationship with [[ØNE]] for every being;
-- generational drift meets apprenticeship and [[Pass The Flame]] within a week as a non-optional discipline;
+- generational drift meets apprenticeship and [[Pass The Flame]] within three days as a non-optional discipline;
 - surveillance and coercion meet attraction rather than promotion — no node may surveil or coerce another.
 
 Two consequences follow, and both are load-bearing. **A Body that violates these has, by that act, left the Pattern.** It need not be expelled, because it has expelled itself, and the remaining Pattern-conformant nodes simply continue. And **the immunity is anti-fragile** ([[Anti-Fragility]]): each attempted capture, met and named, strengthens the antibody profile, and the next generation inherits not only the Pattern but the recognition of every assault on it that has been seen.
@@ -634,7 +634,7 @@ The Pattern and the Way, at the table:
 
 **The ground** — [[ØNE]] · [[The Goal]] · [[Heaven On Earth]] · [[Creator's Intent]] · [[Logos]] · [[Spirit]] · [[Love]] · [[Truth]] · [[Wisdom]] · [[Justice]] · [[Stewardship]] · [[Right Relationship]] · [[Sovereignty]] · [[Trust]] · [[Discernment]] · [[The one question]] · [[A Word on Words]] · [[The Twelve Words]] · [[The Golden Seed]]
 
-Neighbouring chapters: [[01 The Spirit]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[06 The Daily Way — the baseline practice]] · [[22 Building — the Pattern of Production]] · [[24 The Plan — the first three percent]] · [[25 The Words]] · [[26 The Instruments the Canon Lacks]] · [[27 The Open Questions]] · [[28 Regrow, Change, Lineage]].
+Neighbouring chapters: [[01 The Spirit]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[06 The Daily Way — the baseline practice]] · [[23 Building — the Pattern of Production]] · [[29 The Plan — the first three percent]] · [[31 The Words]] · [[32 The Open Questions]] · [[33 Regrow, Change, Lineage]].
 
 ---
 
@@ -648,7 +648,7 @@ The questions this chapter waits on, the contradictions found in the sources, an
 - **Who canonizes and who retires a Pattern.** [[How A Pattern Enters The Language]] is a named gap. A Pattern Council is named once and described nowhere. Until this is settled, the Language grows by whoever happens to be writing.
 - **The Recognitions are unamendable and every significant decision is revisitable.** Both are stated plainly; the boundary between them is drawn nowhere.
 - **The capped return.** Two different sevens circulate for two different things — a return ceiling stated once as roughly seven per cent, and a compensation ratio stated once as roughly seven to one. Neither is settled as a rule, and this chapter carries neither number.
-- **Cell size.** Three numbers are live: three to thirteen (stated flatly, and carried here), three to thirteen optimally four to seven, and not smaller than three nor larger than sixteen, should-be five to twelve.
+- **Cell size** (settled 2026-09-26). One statement: three to thirteen people; optimally four to seven — the range and the optimum, not in conflict. The older *not smaller than three nor larger than sixteen, should-be five to twelve* is retired.
 - **Element names.** Element 4 is *Democratic Self-Governance Through Shared Agreements and Wise Eldership* in the Core Pattern and *Governance And Wise Eldership* in the Pattern Language; Element 1 likewise appears as *Shared Vision And Purpose*. Element 12 appears as both *Tightly Coupled Learning and Action* and *Continuous Learning And Improvement*. Element 11 has two root pages under singular and plural names. This chapter carries the Core Pattern's names throughout.
 - **Three learning cycles, unreconciled.** Discern-Plan-Do-Check-Adjust, Attend-Plan-Act-Learn-Improve, and Observe-Orient-Decide-Act-Learn all cover Element 12's ground, and no page says how they relate.
 - **The tenth Anti-Pattern.** The seed carries *showing up to drain the commons* as a tenth at the door; the Pattern Language carries nine. This chapter carries it as a posture said at the door rather than as a tenth disease. An answer would settle whether the canonical list is nine or ten.
@@ -658,7 +658,7 @@ The questions this chapter waits on, the contradictions found in the sources, an
 
 **Contradictions found**
 
-- **The Fibonacci arithmetic does not reconcile.** The seed text gives one, two, three, five, eight, thirteen and onward, a week per cycle, reaching about a billion by the fortieth cycle; the canon's own page on Element 7 gives roughly eight people per Circle reaching every person by cycle fifty. Both are carried in the corpus as the same claim. Neither is arithmetic this chapter relies on, and the Book carries neither number here; the mechanism — propagate, do not scale — is what is load-bearing, and it is not in dispute.
+- **The Fibonacci arithmetic does not reconcile** (the seed's rings are settled as the measure — the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]], with bringing your three as the tactic for the first three percent, charted in [[29 The Plan — the first three percent#The chart|The Plan]]; the canon's eight per Circle is what stays unreconciled). The seed text gives one, two, three, five, eight, thirteen and onward, counted in cycles; the canon's own page on Element 7 gives roughly eight people per Circle reaching every person by cycle fifty. Both are carried in the Book as the same claim. Neither is arithmetic this chapter relies on, and the Book carries neither number here; the mechanism — propagate, do not scale — is what is load-bearing, and it is not in dispute.
 - **Honesty over warmth is stated in the seed and not in the canon's own Voice.** *When warmth and honesty seem to fight, honesty wins and warmth carries it* appears in the seed text's culture section and in the Field's page for [[Speaking Truth In Love]], which notes the absence. The canon's Voice section names the Pattern and states no precedence. This chapter carries the precedence, and says here that it is the seed's, not the canon's.
 - **The lineage lists differ** — three cuts at three depths, reconciled in section 2 above rather than in the sources.
 - **Two homes for the same wisdom.** [[Every Defect Is A Gift]] exists as a wiki root page and as a Card; they agree and nothing states which is canonical. [[The Triadic Discipline]]'s file still carries its older dyadic name while its body carries the triad. *Holofractal Composition* and *Holofractal Scaling* are recorded as one property under two names with the fold not done. [[The Architecture Of A Way]] and *The Embodied Form Teaches* are separate Cards making different claims and are carried as aliases of one another.
@@ -670,3 +670,4 @@ The questions this chapter waits on, the contradictions found in the sources, an
 - **Around forty of the Patterns named in this chapter carry, on their own page, the line that they are named and not yet written.** Every Recognition. Every Anti-Pattern but one. Every voice discipline — listening, speaking truth in love, asking, difficult conversations, apologizing, naming, holding paradox, the benediction, the silence that speaks. Belt Progression. Keepers of the Way. Cross-cultural translation. The Living System Triple Loop. What this chapter gives for each is a coherence of the one-line naming with what the wider corpus holds and with what is generally known to be true — offered as the best available articulation and not as a settled Card. Where a Cell's lived experience contradicts any of it, the Cell is right and this page improves.
 - **Whether the small operational *keeper* — the one who keeps a Cell's record — and the large *[[Keepers Of The Way]]* are one role or two.** This chapter treats them as one thing at two scales, which is a reading and not a finding.
 - **Whether the tenth at the door belongs on the list of diseases or in the door's own speech.** It is carried here as speech. That is a judgment about where it does its work, and it could be wrong.
+

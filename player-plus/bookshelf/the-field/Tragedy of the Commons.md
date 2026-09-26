@@ -20,5 +20,4 @@ The one-line version a Cell can use: a commons without a membrane is not a commo
 **Stands on:** [[Commons]] · [[Scarcity]] · [[Governance]]
 **Opens onto:** [[Fractal Commonsing]] · [[Selectively Permeable Membrane]] · [[Field of Agreements]] · [[Stewardship]] · [[The Parasite]] · [[Subsidiarity]]
 **In play:** Home · beyond
-**Sources:** *Tragedy of the Commons* (wiki root; stub — three lines quoted from Open Civics, summarizing the received argument, with no LIØNSBERG response on the page) · *Voluntary Tithing* and *Commons* (canon-grade — the governed-commons answer) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Tragedy of the Commons
-**Open:** The canon page states the objection and never answers it. The refutation given here is cohered from the commons pages, the membrane, and the general scholarship on governed common-pool resources; no canon page makes the argument directly.
+**Open:** The objection is stated and never answered. The refutation given here is cohered from the commons pages, the membrane, and the general scholarship on governed common-pool resources; no page makes the argument directly.

@@ -24,5 +24,4 @@ To tend Core Ways is to live the whole system in miniature: that [[Everything Is
 **Stands on:** [[Everything Is A Process]] · [[Consent]] · [[Continuous Improvement]] · [[Commons]] · [[Current Best Understanding]]
 **Opens onto:** [[Protocol]] · [[Play]] · [[General Pattern, Specific Application]] · [[Welcome a Newcomer]] · [[Mend a Tension]] · [[The waterfall]] · [[Knowledge as commons]] · [[Improvement log]] · [[The Kit]] · [[Quality]]
 **In play:** table, from the first season on
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/Our Core Ways.md` · `…/Step 4 — Learning to Play The New Game.md` · `LIØNSBERG Wiki Books/The LIØNSBERG System Toolkit/Everything Is A Process.md` (stub — four lines and three template links)
 **Open:** *Five to ten* is the page's own rule of thumb, not a measured finding. · The canon's own process templates are named and not written, so the instrument this concept asks for does not yet exist. · No page says who arbitrates when a body has agreed a Way and one member keeps doing it differently.

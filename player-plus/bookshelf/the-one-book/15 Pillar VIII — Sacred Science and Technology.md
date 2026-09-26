@@ -48,7 +48,15 @@ So the contest of this era is not machines against people. It is what we become 
 
 **The commons.** No one can enclose wisdom or truth. A solution found once anywhere becomes available everywhere: solve, document, push up, curate, pull down, localize, feed back. Credit travels with the work; the work travels without a toll; and the gift stays a gift downstream, so the commons cannot be fenced by whoever improves it last. [[Knowledge as commons]] is the rule, and its honest half is that pushing up is work: a solution used and never written down has not reached the commons, and a body that means this gives the writing a place in its week.
 
-### Where the sources disagree, and what the Book carries
+### The right to refuse a technology
+
+Every [[Holon]] — a person, a Cell, a Supercell, a Community, the instance itself — retains the right to refuse the adoption of any technology it discerns would diminish its own sovereignty, the sovereignty of those in its care, or the integrity of the commons. This is [[Sovereignty At Every Scale|sovereignty]] applied to the one domain most likely to erode it quietly: a body rarely loses its self-governance by vote, and far more often by growing unable to function without a tool it never chose.
+
+The discernment is transparent, never a unilateral fiat. A holon weighing whether to adopt, restrain, or refuse a technology asks aloud, and before anything else it asks, *who is freed by this, and who is bound?* — the same question this Pillar already holds as the test of every new capability, applied here to the decision of adoption itself rather than only to its use.
+
+No federation agreement, standard, or resolution may make participation in this civilization conditional on a Cell's or a body's adoption of a specific technology where a legible alternative exists. Every practice this Book asks of a body can be done with a notebook, a pen, and two witnesses' signatures — [[Notebook form|the floor]] above already says as much. A tool that makes the work faster and wiser is welcome; a tool without which a holon cannot function has quietly become its ruler rather than its instrument. The seven-question test above is where a Cell applies this in practice; this is the sovereignty it is protecting.
+
+### Open questions
 
 *The suppression of knowledge, and the guarded threshold.* The canon holds that hidden, forbidden, or monopolized knowledge that could serve the good of All must be revealed and responsibly released — and, in the same breath, that some findings are genuinely dangerous and need more than one hand to open. Both halves are true and neither is a rule. The Book carries both, and carries the missing piece as an answer still owed: which governs when, and who holds the second key.
 
@@ -248,7 +256,31 @@ The judgments here are preset, said once, and cold on purpose.
 
 **When enclosure comes** — the open thing fenced, the format changed, the licence revised in a body's favour — what was given under share-alike stays given; the copies already made are already yours; the fork is a right and not a rebellion. The body keeps its own copies of everything it depends on, keeps the paper, and treats the enclosure as information about who the party was all along.
 
-In all four: descend a rung, say plainly what was lost, write it in the Record, and keep playing. The whole arrangement was built so that this day would be an inconvenience rather than an ending. The cases in full, with what to open first, are in [[21 In Every Future — what to do in each case]].
+### The wire — radio, mesh, and what may cross them
+
+**What it is.** The specific page on reaching other bodies when the ordinary network is gone: short-range mesh, packet radio over amateur bands, what is lawful where, what equipment, what schedule, and what must never be sent. Not because radio is essential — the floor is a person walking with a letter, and every radio is a convenience above the runner. The failure without it is subtler: a body that has not thought about the wire in advance will reach for one in the hour, badly, and will put on an open channel the names, the stores, and the routes that must never cross one.
+
+**Who holds it.** Whoever in a body actually knows the equipment, and the licence where one is required. This takes an evening's study and cannot be obtained during an emergency. So somebody learns it in the calm, keeps the equipment in their house, and if the network goes dark they are the one who teaches the others.
+
+**On paper, and the three disciplines that matter more than any equipment.** 
+
+*Schedule beats channel.* Before anyone keys a microphone, the body agrees: we will listen on Thursday at noon, every week, on this frequency, for five minutes. Nothing sent unless it is that day at that hour. The frequency itself is almost secondary; what matters is that anyone who needs to reach the body knows when and where to do it.
+
+*Read-back is the whole of the error correction.* The receiver repeats back the numbers and the proper names. You said store-location Charlie, day seventeen, twelve packages. Correct? The sender confirms or corrects. No message that cannot be read back is complete; no number that is not read back is reliable. In the dark, with interference, read-back is the only armour.
+
+*The count is the checksum a person can do.* Every message ends with a count. That was eight lines. If the receiver heard seven, something is missing; they ask for a repeat. Count mismatch before meaning mismatch.
+
+**How it is sent.** The Season Sheet is the message. A Cell sends its account as numbers: line number, colon, value, stop. A whole season in a message a person can key by hand.
+
+**Degradation.** It was always degraded. A radio is not private; assume everything sent is heard by anyone in range. Apply the [[Chatham House]] discipline: use information shared, never use identities. **Never send the names of people who have not consented to be named. Never send the location of stores. Never send the routes runners take or where people shelter.** A message that violates these is not careless; it is violence against the people it names. A body that runs its wire this way has built something the adversary can use to find what the body was trying to protect.
+
+**Fuller form.** [[21 In Every Future — what to do in each case]].
+
+**Status.** The equipment side varies by place and law; what is critical everywhere is operational security — what must never cross an open channel.
+
+**What would show it wrong.** Any version that romanticizes radio as a primary path or encourages casual transmission. Radio *is* heard by anyone in range. Learn the equipment. Learn the discipline. Practice once a season. Know plainly what the wire is and is not for.
+
+In all four cases above — frontier models gone, power out, network firewalled, or enclosure — descend a rung, say plainly what was lost, write it in the Record, and keep playing. The whole arrangement was built so that this day would be an inconvenience rather than an ending. The cases in full, with what to open first, are in [[21 In Every Future — what to do in each case]].
 
 ## The words
 
@@ -304,3 +336,4 @@ This Pillar's words at the table, each opening onto its own page.
 **Held most loosely.** The governance articulation above is new, and the part least tested is the Cell's agent — one agent serving a body of sovereigns is a shape nobody in this canon has run for a season, and the rules written for it are reasoned from the person-and-agent case rather than observed. The second is the ladder's middle rung: whether a small local model can in fact carry the whole practice is asserted here and has not been proved by anyone. The third is the Five Verification Filters, which are carried from a draft volume that marks itself a tenth written, and whose fifth filter — resonance — is the one most easily used to ratify what a room already wanted.
 
 *Read the Story. Play the Game. Pass the Flame.*
+

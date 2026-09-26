@@ -20,5 +20,4 @@ An agent never suggests switching a check off, not as a quick fix and not just t
 **Stands on:** [[Set-up]] · [[The maker]] · [[Agent]]
 **Opens onto:** [[Charter]] · [[Agent engineering]] · [[The loop]] · [[Principal]] · [[Stop]]
 **In play:** beyond · Room
-**Sources:** Player+ Modules, *How an AI Agent Works*, *Before Your First Room*, *Agent Engineering*, *Advanced Agent Engineering*, *The Agent Improvement Process* · The DNA of Heaven, Part X.
 **Open:** a safety check and a [[Stop]] both halt an action, and they come from opposite directions — one from the makers, one from any Actor in the room. No page yet sets them side by side.

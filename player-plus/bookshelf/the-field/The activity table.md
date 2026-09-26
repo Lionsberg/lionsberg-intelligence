@@ -18,5 +18,4 @@ A notebook holds it; thirty activities take an hour with a pencil; a free script
 **Stands on:** [[Pull planning]] · [[Predecessor - Successor|Predecessor / Successor]] · [[Work Breakdown Structure]]
 **Opens onto:** [[Critical Path]] · [[Float]] · [[The look-ahead]] · [[Commitment]] · [[Screens and paper]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Operating System* §4, Card 3 · *Activity* · *Float* (same wave) · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Activity**
 **Open:** none found.

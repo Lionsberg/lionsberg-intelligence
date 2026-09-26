@@ -18,5 +18,4 @@ It is load-bearing because most of what kills a Cell is craft, not conviction. M
 **Stands on:** [[Cell]] · [[Circle (as gathering)]] · [[Play]] · [[The Turn]]
 **Opens onto:** [[Mend a Tension]] · [[Welcome a Newcomer]] · [[Roles]] · [[Host]] · [[Scribe]] · [[The Way Out]] · [[Grow Your Cells]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Circle Guide*, held within the Playbook (written in the elder's cadence) · *The LIØNSBERG Playbook*, §Old Architecture · *General Needs*, needs 7 and 15 · lionsberg.wiki: **The LIØNSBERG Circle Guide**
 **Open:** The Guide calls itself a Play from the Playbook while also being the container for several Plays; the architecture it sits in says a Play is one operational moment, and this is a book. · It says *Circle* throughout where the word is now [[Cell]].

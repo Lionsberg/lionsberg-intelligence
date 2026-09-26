@@ -16,11 +16,10 @@ It is load-bearing because a Body of sovereign beings who cannot apologize has o
 
 The Body's structures are what make apologizing survivable. Cause sought in the set-up rather than the person ([[Zero Blame Environment]]); the gap between promised and done treated as learning rather than fault ([[The gap]]); every defect received as a gift. Where admitting a miss is dangerous, nobody admits one, and the Body loses its ability to see itself.
 
-It is named in the canon in the Voice section and again among the specific practices flagged as gaps — attested twice as needed and written nowhere.
+It is named in the Voice section and again among the specific practices flagged as gaps — attested twice as needed and written nowhere.
 
 **Also called:** Sacred Apology
 **Stands on:** [[Speaking Truth In Love]] · [[Listening]] · [[Right Relationship]] · [[Shame]]
 **Opens onto:** [[Forgiveness]] · [[Reconciliation]] · [[Conflict Transformation]] · [[Zero Blame Environment]] · [[Every Defect Is A Gift]] · [[Mend a Tension]] · [[Remedy]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.3, backlog) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named twice as needed with no articulation; nothing states what a Body does when an apology is offered and not accepted.

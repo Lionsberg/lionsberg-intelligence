@@ -20,5 +20,4 @@ The Plays name it plainly — *Build An Ark* — and pair it with the Wilderness
 **Stands on:** [[The Hub]] · [[Guardianship]] · [[Commons]] · [[The Wilderness]]
 **Opens onto:** [[The Joseph Plan]] · [[The Solomon Plan]] · [[Islands, Hubs, Grid]] · [[The Roving Ark Temple Dojo]] · [[Anti-Fragility]]
 **In play:** beyond the table
-**Sources:** `The Noah Plan` (a redirect) and `The Noah Plan - Building the Network of Arks`, a blog page of the wiki · The LIØNSBERG Playbook, Wilderness — Play — Build An Ark · The DNA of Heaven, Part IV · lionsberg.wiki: The Noah Plan - Building the Network of Arks
 **Open:** The Ark pages are unreviewed blog articulations; the line between sanctuary and enclave is named here rather than in the sources.

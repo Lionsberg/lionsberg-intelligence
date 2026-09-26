@@ -20,5 +20,4 @@ The load-bearing claim is the fulcrum. A conscious being is not a spectator of t
 **Stands on:** [[Spirit]] · [[Consciousness]] · [[Energy]] · [[Creation]] · [[The Divine Symphony]]
 **Opens onto:** [[Coherence]] · [[Regeneration]] · [[The Laws of Harmony]] · [[Higher Order Functional Unity]] · [[Compost]] · [[Anti-Fragility]] · [[Collapse]] · [[Associative And Dissociative Energy]]
 **In play:** beyond the table — read any project, body, or day by which force it is currently amplifying
-**Sources:** `LIØNSBERG Wiki Books/The One/11. The Entropic and Anti-Entropic Forces` · `The One/10. The Laws of Harmony` · lionsberg.wiki: The One
 **Open:** The concept field folds **Anti-Entropic** into [[Anti-Fragility]] as an alias, and the two are not the same thing: anti-fragility is a property of a system that gains from disorder; the anti-entropic force is Spirit as the cosmic organizing counterforce. The fold loses the load-bearing one, and this page carries it instead. · The chapter uses *omniharmonic* in live prose ("omniharmonic Life") while the field's exclusion list judges that word to have no body; the evidence is reported, the judgment left open.

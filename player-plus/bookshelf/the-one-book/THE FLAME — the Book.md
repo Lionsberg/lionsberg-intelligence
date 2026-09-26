@@ -27,21 +27,23 @@ If your [[Cell]] gathers, grows, and serves but never passes the Flame forward, 
 
 Fire has a property nothing else has: when you share it, you do not diminish your own. **The Flame grows by being given away.**
 
-## Within Seven Days
+## Within Three Days
 
-Within seven days of receiving the Seed yourself, pass it forward.
+Within three days of your own yes, pass it forward: your three say yes within three days, and then each of their three-day clocks begins.
 
-Do not wait until your Cell is perfect, or until you feel qualified, or until you have all the answers. The naming begins in your **first gathering**, not later: before that first gathering is over, name your two or three, and write the names down.
+Do not wait until your Cell is perfect, or until you feel qualified, or until you have all the answers. The naming begins in your **first gathering**, not later: before that first gathering is over, name your three, and write the names down.
 
-If the week has already passed — begin where you are. The Gate does not close.
+If the days have already passed — begin where you are. The Gate does not close.
 
-Seven days is not an arbitrary number. It is the natural pace of fire between ready souls, and it is the pace that carries a hundred and forty-four to [[The First Three Percent]] inside a year.
+Three days is not an arbitrary number. It is the natural pace of fire between ready souls. The arithmetic that carries eight Players to [[The First Three Percent]] by the Winter Solstice of 2026 allows about five; three is the target, and it leaves about five weeks of buffer ([[29 The Plan — the first three percent#The chart|the chart by phase]]). The growth itself is measured on the rings of the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]]; three in three days is the tactic that moves the body through them. The imaginal selves pass it; each invites when ready.
 
-## The Two or Three
+## Your Three
+
+Three is the minimum, never a cap. If you know more of the wise right people, keep inviting them. And for the first three percent the first passing is crucial: bringing in your three, people not already playing, is part of what makes you count as a Player.
 
 You are not looking for people to convince. You are looking for people who are **already awake**.
 
-Look around your life. There are two or three — perhaps more — who already sense the urgency of this hour; already feel that something profound is shifting; already search for others who understand; already carry gifts they long to offer in service of something greater.
+Look around your life. There are three — perhaps more — not already playing, who already sense the urgency of this hour; already feel that something profound is shifting; already search for others who understand; already carry gifts they long to offer in service of something greater.
 
 They do not need to be persuaded. They need to be *found*.
 
@@ -74,7 +76,7 @@ Then the two Cells begin to coordinate: sharing what they have learned, pooling 
 
 Here is the sacred pattern.
 
-Every person in a Cell is also part of **a second Cell** — the one they form with the two or three they invite. You are the link between the Cell that received you and the Cell you will birth. You carry the full pattern in both.
+Every person in a Cell is also part of **a second Cell** — the one they form with the three they invite. You are the link between the Cell that received you and the Cell you will birth. You carry the full pattern in both.
 
 That is the **double helix** through which the DNA of the new civilization replicates. It is not delegation. It is not recruitment. It is the oldest pattern of life: a living thing reproducing itself.
 
@@ -84,7 +86,7 @@ The pattern of organic growth follows the old sequence:
 
 **1 · 2 · 3 · 5 · 8 · 13 · 21 · 34 · 55 · 89 · 144 …**
 
-One week per cycle, each Cell passing to two: the count doubles with every cycle, and doubling is patient at first and then not. By the tenth cycle a Cell has become a thousand; by the twentieth, a million; by the thirtieth, a billion. The arithmetic is an assumption, not a measurement, and it says only this: if the Flame is passed faithfully and quickly, nothing else is needed.
+In the first three percent, every new Player bringing their three as their first passing of the Flame: the count triples with every generation, and tripling is patient at first and then not. The measure is the Fibonacci rings of the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]] — each generation of three moves the body about two and a quarter rings, and the ring we stand on is read daily — and the count is charted by phase in The Plan ([[29 The Plan — the first three percent#The chart|the chart by phase]]). The arithmetic is an assumption, not a measurement, and it says only this: if the Flame is passed faithfully and quickly, nothing else is needed.
 
 A hundred and forty-four Cells, passing faithfully, reach two hundred and fifty million within a year. Three in every hundred is enough to turn a people: [[The 300|three hundred]] in every ten thousand; on Earth, about two hundred and fifty million awakened, organized souls forming a plan.
 
@@ -106,7 +108,7 @@ By the time the Old World fully collapses, the New is already functional. That i
 
 ## Your Next Move
 
-You know who they are — the two or three who are ready.
+You know who they are — your three who are ready.
 
 You have the Flame. You have the Seed. You have your own living experience of what a Cell can be.
 
@@ -126,4 +128,5 @@ Hand them the Invitation. Walk beside them as they begin. And watch the ancient 
 
 ---
 
-*The law of the Flame — not optional, the proof of maturity, the fruit of the tree contains new seeds, the double helix, the Fibonacci arithmetic, attraction not promotion, the two or three within a week, the Gate that does not close — is the canon's own text from Pass The Flame, The Flame and the Golden Seed's invitation, with the seed text as arbiter where the two differed. "Here is a story, here is a game, and here is a flame" and the closing three lines are carried as they were first spoken. The arrangement, the joins, the naming of the Carrier and the first Home in this order, and the linking are this weave.*
+*The law of the Flame — not optional, the proof of maturity, the fruit of the tree contains new seeds, the double helix, the Fibonacci arithmetic, attraction not promotion, the three within three days, the Gate that does not close — is the canon's own text from Pass The Flame, The Flame and the Golden Seed's invitation, with the seed text as arbiter where the two differed. "Here is a story, here is a game, and here is a flame" and the closing three lines are carried as they were first spoken. The arrangement, the joins, the naming of the Carrier and the Home Cell in this order, and the linking are this weave.*
+

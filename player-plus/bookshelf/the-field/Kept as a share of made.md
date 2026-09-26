@@ -18,5 +18,4 @@ How it is used, and how it is not. Count only what was said aloud to someone who
 **Stands on:** [[Commitment]] · [[The Record]] · [[The Circle's Scorecard]] · [[Networks of Commitments]]
 **Opens onto:** [[The Score]] · [[The Season Sheet]] · [[The look-ahead]] · [[The gap]] · [[Minimum standards of interoperability]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §12 · *The Circle's Scorecard*, "How to count" (current best understanding) · Pattern Language, §Networks Of Commitments · lionsberg.wiki: **The Circle's Scorecard**
-**Open:** The "about half to eight or nine in ten" figure is stated in the Operating System without a cited study; it is carried here as the canon's claim, not as a verified measurement. · No page says whether commitments made between Cells are counted on both Cells' cards.
+**Open:** The "about half to eight or nine in ten" figure is stated in the Operating System without a cited study; it is carried here as an approximation, not as a verified measurement. · No page says whether commitments made between Cells are counted on both Cells' cards.

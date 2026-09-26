@@ -20,5 +20,4 @@ Around the promise sit the practices that make it keepable. Commitments run Cell
 **Stands on:** [[Twelve Irreducible Elements]] · [[Commitment]] · [[A word given is a word kept]] · [[Trust]]
 **Opens onto:** [[SHOULD-CAN-WILL-DID]] · [[Make-Ready Process]] · [[Last Planner System]] · [[Conditions of satisfaction]] · [[The gap]] · [[The Circle's Scorecard]] · [[Consciously Breaking Commitments]] · [[Tightly Coupled Learning and Action]]
 **In play:** table
-**Sources:** *Networks of Commitments* (canon-grade) · *Network of Commitments* (root page) · *Twelve Irreducible Elements* (canon-grade) · *THE DNA OF HEAVEN* Part VII · lionsberg.wiki: Networks of Commitments
-**Open:** Two root pages carry this Element under singular and plural names, and the Pattern Language cites the singular; the canon has not folded them.
+**Open:** Two root pages carry this Element under singular and plural names, and the Pattern Language cites the singular; they are not yet folded.

@@ -52,7 +52,7 @@ Two things follow, and they pull in opposite directions on purpose. Culture is *
 
 Three things hold both upright. **Stories are updated, not worshipped** — when reality breaks through the telling, the work is to change the telling, and every story is held as [[Current Best Articulation]], including THE STORY, including this page. **Every true story is a prophecy** — one garden in one lot says *then a garden in every lot*, which is how hope circulates on evidence rather than on assertion. And **stories nest** — yours inside your Cell's, inside your people's, inside the greater one, and aligning them is how sovereign lives become one co-creation with nobody overruled.
 
-The instrument itself — how a life is told, how a Quest's story is gathered and sent, who may retell it and on whose word, and how ten trillion tellings are woven back into ONE — lives whole in [[29 The Stories — ten trillion stories woven back into ONE]]. It is the working heart of this Pillar, it is written, and nothing here repeats it.
+The instrument itself — how a life is told, how a Quest's story is gathered and sent, who may retell it and on whose word, and how ten trillion tellings are woven back into ONE — lives whole in [[22 The Stories — ten trillion stories woven back into ONE]]. It is the working heart of this Pillar, it is written, and nothing here repeats it.
 
 ### The chains are made of vocabulary first
 
@@ -94,7 +94,7 @@ Around that sit the older guards. *Truth to ØNE, errors to us.* [[LIØNSBERG Is
 
 The disease this Pillar is nearest to is [[The Golden Calf]] — a visible idol taking the place of the invisible Source. The calf is always made out of something real: a document, a founder's presence, a metric that once measured something true, a name, a number of members. The tell is what happens to the question *why*. A tool points onward; asked why, it names what it serves. An idol terminates the chain; asked why, it names itself, and the question begins to feel improper. When a body cannot ask what a thing is for without discomfort, the thing has become a calf. A corpus written in a scriptural register, which states that it is not scripture and asks to be improved by anyone who plays with it, has to carry that hazard consciously and keep it uncomfortable.
 
-### Where the sources disagree, and what this Book carries
+### Open questions
 
 Five disagreements are live under this Pillar, and they are named here rather than smoothed.
 
@@ -134,7 +134,7 @@ None of this is a golden age recovered. It is what a people looks like when it h
 
 ## The plan
 
-The horizons below are this Pillar's share of the whole; the shape of the rest is in [[24 The Plan — the first three percent]]. None of it waits on funding, permission, or anyone's approval, and that is not a slogan — it is the distinguishing property of this Pillar. Everything specified here can be begun this week by three people with no money.
+The horizons below are this Pillar's share of the whole; the shape of the rest is in [[29 The Plan — the first three percent]]. None of it waits on funding, permission, or anyone's approval, and that is not a slogan — it is the distinguishing property of this Pillar. Everything specified here can be begun this week by three people with no money.
 
 **Season One — to Winter Solstice 2026.** The habit, before anything else. Every Cell tells one story at every [[The Turn]] and marks that it did. Every Cell agrees out loud, in its first hour, how its members will treat one another, and writes it on one page. Every Cell names a [[Bard]] — one person who keeps and tells what happened — and rotates it at the turning. Somebody in every Cell can tell THE STORY at a table in ten minutes without reading it. One song, sung badly, at the open or the close. And one page of the Cell's own words: the terms every member said yes to, including that what is made together is openly licensed and that authors remain authors. The first three percent of this Pillar is a habit, not a project.
 
@@ -155,7 +155,7 @@ Concretely, at one table, with nothing.
 3. **Tell one story at every Turn.** A sentence is enough. Mark on [[The Circle's Scorecard]] that it was told.
 4. **Learn the Story well enough to tell it.** One member, ten minutes, from memory, in their own voice.
 5. **Sing one thing.** At the open or the close. Badly is fine.
-6. **Keep the missing-word list.** One page, added to whenever somebody says *we don't have a word for that*.
+6. **Keep the missing-word list.** One page, added to whenever somebody says *we do not have a word for that*.
 7. **Make one thing that will be seen**, and put its provenance on the back.
 8. **At the turning, hold a festival** rather than a review, and write line 9 of [[The Season Sheet]] — the season's best story, under a hundred and fifty words, written by whoever lived it.
 
@@ -181,7 +181,7 @@ A Quest in this Pillar is tested against one extra question beyond the usual thr
 
 ### 1 · The artists' guild
 
-*First articulation. The seed names the artists' guild among the instruments the canon lacks, and nothing anywhere states how one works. What follows is written here for the first time, from the Pattern's own logic and from how craft bodies have actually held themselves across a long time. It is the most revisable thing in this chapter and is offered so that makers have something to argue with, improve, and replace.*
+*First articulation. The seed names the artists' guild among the instruments still to write, and nothing anywhere states how one works. What follows is written here for the first time, from the Pattern's own logic and from how craft bodies have actually held themselves across a long time. It is the most revisable thing in this chapter and is offered so that makers have something to argue with, improve, and replace.*
 
 **What it is.** A [[Guild]] of makers: a complete body united by a shared craft and an ethical code, federating by craft rather than by place, the way [[Bioregion]] federates by place. Its members sit in many different Cells and meet as a guild on their own rhythm. Its bond is competence and the ethic competence carries; its authority over a member is the authority of a standard, freely accepted and revocable. Like any complete body it has a [[Domain]], a [[Selectively Permeable Membrane]], a [[Field of Agreements]] and a [[Commons]], and it governs itself by [[Consent-Based Decision-Making]] like any other.
 
@@ -379,6 +379,34 @@ A **guild** is done for now when it has a standard its members wrote, an apprent
 
 Nothing here is ever finished. *Done for now* means the next thing can safely be built on it.
 
+### 11 · The story crafting guide — the telling that carries
+
+**What it is.** The craft behind the forms already fixed elsewhere in this Pillar — the hundred and fifty words on line 9, the page or two at the harvest, the full account that travels to the Commons. [[22 The Stories — ten trillion stories woven back into ONE]] holds the mechanism whole; this is its craft manual, how to write the telling itself so a body two thousand miles away, who was not there, can read it and know whether the thing transfers to their own ground. **Witness, not marketing.**
+
+**Why a body without it fails.** One story leaves every table every season, and most people have never been taught to write one. Untaught, the line fills with either a shy blank or a small advertisement, and a body that reads its own advertisements for a year believes its own myth. The habit of telling is easy to keep; the craft that keeps it honest is what this guide carries.
+
+**Who holds it.** The [[Bard]]'s office, which teaches it at the table each season it rotates; and the teller, always, for their own story — the craft belongs to whoever lived what is being told, never only to the office that gathers it.
+
+**The three disciplines, and they are most of the craft.**
+
+1. **Keep the [[Play by Play]].** A running account written while the work happens — what was tried, what it did, what changed — before anybody knows what would make a good ending. A story written after the fact is written by someone who already knows how it turned out, and that knowledge quietly edits every sentence toward it. The record made in the moment is the only defence against the Bard's named fault: a better story than the facts support.
+2. **Carry the conditions.** What was done, where, with how many people, at what cost, and what did not work. A telling without its conditions is an advertisement wearing the shape of a report; a stranger cannot judge whether a thing that took thirteen people, one season and a broken window transfers to their own table of five, and a telling that leaves the broken window out has made the judgment impossible, whether on purpose or by habit. Conditions are what let a story be copied rather than merely admired.
+3. **Let whoever lived it write it.** Not a draft of them, not a summary about them, not a better version of what they said. The moment a Cell's account of a member's transformation is written by somebody else, it has stopped being testimony and become a case study, and the person in it has become material. Where someone else holds the pen — a Bard, a guide, an agent — every line is shown back before it is called finished, and nothing is called finished until the teller says so.
+
+**How the telling is actually written**, once the three disciplines are in hand.
+
+- **Concrete beats general.** *The lot on the corner has garlic in it and a sign that says WATER ME* carries further than *the garden project succeeded.* Name the place, the person, the number, the season. A telling with nothing a stranger could check is not yet a telling.
+- **The gap stays in.** The cost, the failure, the thing that did not work belongs beside the thing that did. A story with no cost in it is a performance, and a body that tells only its triumphs cannot be trusted with its own next season's plan.
+- **Short enough to travel.** The season's story stays under a hundred and fifty words because that is the length at which a home can read ten Cells in an evening. Cut before that limit by cutting explanation, never by cutting the conditions; a shorter telling with the conditions intact beats a longer one with them summarized away.
+- **Plain words, the teller's own.** Not raised into a register that is not theirs. The Voice's own rule holds at ground level too: no hype, no softeners next to hard things, nothing explained after it is said.
+- **Provenance on the back.** Made by, made where and when, grown from, made for, shared under — five lines that hand the next teller a map back to what taught this one, and that let the Commons hold the full account with its lineage intact.
+
+**What this guide is not.** Not a style enforced uniformly — a monoculture of telling is as much a failure as a monoculture of method, and the craft bends to the teller's own voice every time. Not a substitute for the mechanism this Pillar already carries whole, which this guide assumes and does not restate. And not a reason to polish: **keep the teller's own words even when they are awkward — especially then.**
+
+**How it degrades to paper.** Completely, and it never asked for anything else. A person, a notebook kept as the work happens, and a memory of what the conditions actually were. The craft needs no medium; it needs only the discipline to write down the broken window along with the garlic.
+
+**What it guards against.** The advertisement wearing a report's clothes. The better story than the facts support, caught before it forms by the Play-by-Play kept in the moment. The story told about a person rather than by them, caught by the rule that the teller holds the pen or approves every line that speaks for them. And the polished telling that has stopped sounding like anyone in particular, which a body only notices once it can no longer tell one Cell's voice from another's.
+
 ---
 
 ## In every future
@@ -413,7 +441,7 @@ The guards: [[The Anti-Patterns]] · [[The Golden Calf]] · [[The False Prophet]
 
 And the words this Pillar shares with the rest of the Book: [[Cell]] · [[Home Cell]] · [[Supercell]] · [[Community]] · [[Quest]] · [[The Questcard]] · [[Season]] · [[The Turn]] · [[The Season Sheet]] · [[The Circle's Scorecard]] · [[The Offering]] · [[Proposal]] · [[Commitment]] · [[Field of Agreements]] · [[Zero Blame Environment]] · [[Every Defect Is A Gift]] · [[Speaking Truth In Love]] · [[Current Best Understanding]] · [[Current Best Articulation]] · [[Pass The Flame]] · [[The Flame]] · [[The Invitation]] · [[The compass question]] · [[The Seven Moves]].
 
-The whole vocabulary in the order a player meets it is [[25 The Words]]. The storytelling instrument itself is [[29 The Stories — ten trillion stories woven back into ONE]]. The rhythm this Pillar's festivals sit inside is [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]]. The culture of the Way at large is [[05 The Pattern and the Way]]. What is still unwritten across every Pillar is [[26 The Instruments the Canon Lacks]].
+The whole vocabulary in the order a player meets it is [[31 The Words]]. The storytelling instrument itself is [[22 The Stories — ten trillion stories woven back into ONE]]. The rhythm this Pillar's festivals sit inside is [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]]. The culture of the Way at large is [[04 The Pattern and the Way]]. What is still unwritten across every Pillar is .
 
 ---
 
@@ -445,3 +473,4 @@ What this Pillar leaves open, each in one line.
 ---
 
 *Read the Story. Play the Game. [[Pass The Flame]]. And keep your feet on THE PATH.*
+

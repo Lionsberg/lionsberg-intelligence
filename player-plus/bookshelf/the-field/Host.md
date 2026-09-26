@@ -18,5 +18,4 @@ It is a role anyone can learn, and the learning is part of the design. A body in
 **Stands on:** [[Roles]] · [[Servant Leadership]] · [[The Two-Coordinator Rhythm]]
 **Opens onto:** [[Keeper]] · [[Scribe]] · [[The Turn]] · [[Check In]] · [[Harvest and Close]] · [[The Season Sheet]]
 **In play:** the table
-**Sources:** The LIØNSBERG Operating System §3 · `Choose Your Roles` · the Player+ Modules Lexicon and *Entering the Field* · The DNA of Heaven, Part V · lionsberg.wiki: Choose Your Roles
 **Open:** none found.

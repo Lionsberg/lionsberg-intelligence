@@ -18,7 +18,6 @@ Where a text must change substantively, the move is a proposal rather than an ed
 
 **Also called:** Prophetic Passages Are Sacred Ground
 **Stands on:** [[Sovereignty]] · [[Elision]] · [[The LIØNSBERG Voice]]
-**Opens onto:** [[Weave, don't delete]] · [[Proposal]] · [[Attribution]] · [[Provenance]] · [[Be the canon, don't narrate it]] · [[A person's word outranks any room event]]
+**Opens onto:** [[Weave, do not delete]] · [[Proposal]] · [[Attribution]] · [[Provenance]] · [[Be the canon, do not narrate it]] · [[A person's word outranks any room event]]
 **In play:** Room · beyond
-**Sources:** the Wiki Turn's editing principles — *Author's Voice Is Sovereign*, *Prophetic Passages Are Sacred Ground*, *Structure Serves Spirit*, *Completion Over Expansion* · The DNA of Heaven, Part VIII — no one edits another · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** the principle pulls against the consolidation disciplines, which compress many authors' pages into one canonical home. Where the line falls between weaving an insight and overwriting a voice is left to judgment, with no stated test.

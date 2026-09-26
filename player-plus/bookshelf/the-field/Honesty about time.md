@@ -18,5 +18,4 @@ Two habits carry it. Times are read from a clock, never computed, and an estimat
 **Stands on:** [[Milestone]] · [[Float]] · [[The Record]]
 **Opens onto:** [[Measure everything, manage to the milestones]] · [[Temporal markers apart from milestones]] · [[The clock is read, never computed]] · [[Zero Blame Environment]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §5 · *Milestone* and *Float* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Milestones**
 **Open:** none found.

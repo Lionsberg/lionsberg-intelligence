@@ -20,5 +20,4 @@ In the System, the lag is a scheduling fact with teeth. A plan that assumes a pe
 **Stands on:** [[Time]] · [[Education As Transformation]] · [[Becoming]] · [[Healing]]
 **Opens onto:** [[The 10 Year Grand Strategy]] · [[The 7 Year Window of Crisis and Opportunity]] · [[20 Year Generational Contingency]] · [[The Three-Year Formation]] · [[New Era]] · [[Belt Progression]] · [[The Time Horizons]]
 **In play:** Gate · beyond
-**Sources:** `The 3 Year Lag` (states the three-year observation and the phases) · `10 Year Grand Strategy` (root page) · `The Little Book of the Great Game — Second Draft`, the Timeline: *three years of formation for each* · lionsberg.wiki: The 3 Year Lag
 **Open:** The root page labels the phases I, II and III while the `10 Year Grand Strategy` page describes the same structure as two phases; the numbering does not agree between the two pages. · The three-year figure is given as experience, with no account of what it was observed in.

@@ -20,5 +20,4 @@ The register of what technology may be is wider here than in the Old World's acc
 **Stands on:** [[Ethics]] · [[Wisdom]] · [[Science]] · [[Logos]]
 **Opens onto:** [[Instrument]] · [[Interface]] · [[Artificial Intelligence]] · [[Technology Sovereignty]] · [[Weaponry To Livingry]] · [[Surveillance]] · [[Notebook form]]
 **In play:** the table · the Room · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table · *Pillar VIII — Sacred Science and Technology*, theses 5, 6, 10 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Technology Assessment And Sovereignty (named gap, ore) · the seed's Part VII and Part XII. lionsberg.wiki: Technology.
 **Open:** *The Role Of Technology* and *Levels Of Technology* are named in the Pattern Language's gap register with no bodies written. No Play currently invokes them.

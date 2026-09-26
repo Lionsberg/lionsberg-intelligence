@@ -18,5 +18,4 @@ It is also the one value the seed names as making the Game possible at all: noth
 **Stands on:** [[Commitment]] · [[The gap]] · [[Zero Blame Environment]]
 **Opens onto:** [[Kept as a share of made]] · [[The Record]] · [[Minimum standards of interoperability]] · [[Consciously Breaking Commitments]]
 **In play:** door · table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §18.7 · *The DNA of Heaven*, Parts VII and XI (where it is named among the values) · *Commitment* — lionsberg.wiki page name: **Minimum Standards of Interoperability**
 **Open:** none found.

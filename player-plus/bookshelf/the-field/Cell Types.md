@@ -20,5 +20,4 @@ The checking lens is living systems rather than organisation charts. Two questio
 **Stands on:** [[Cell]] · [[Living System]] · [[The Golden Seed]] · [[Holon]]
 **Opens onto:** [[Guide Cells]] · [[The three charts]] · [[Roles]] · [[Guild]] · [[Wisdom Council]] · [[ØNE Body]] · [[Room Types]] · [[Cell of Cells]]
 **In play:** Home — a Cell's type is written on its card beside its Quest, and it is a fact about the season, not a title for life
-**Sources:** `Cell Types.md` (wiki root) · `Guide Cells.md` · `Function Chart.md`, `Role Chart.md` (The LIØNSBERG System Toolkit) · Living Systems Theory is named on the canon's page explicitly as a fingerpost and not as the taxonomy · lionsberg.wiki: Cell Types
 **Open:** Only one type is actually named; the second is described and left unnamed on purpose. · Nothing states who records a Cell's type, or what happens when a Cell and the body around it read its type differently.

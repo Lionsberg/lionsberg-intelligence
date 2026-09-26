@@ -20,5 +20,4 @@ It is also how provenance is kept honest at the smallest scale. A wording carrie
 **Stands on:** [[Charter]] · [[Agent engineering]] · [[Provenance]]
 **Opens onto:** [[Hypothesize]] · [[Soak]] · [[Prune]] · [[Improvement log]] · [[Lineage]] · [[Decision Records]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Agent Engineering*, *Advanced Agent Engineering*, *The Agent Improvement Process* · The DNA of Heaven, Parts VII and XIII ("Version it; keep every prior version").
 **Open:** none found.

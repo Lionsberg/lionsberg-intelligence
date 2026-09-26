@@ -20,5 +20,4 @@ In play, a player is unlikely to meet citizenship in a first season. They meet a
 **Stands on:** [[Covenant]] · [[Consent]] · [[Participation]] · [[Belonging]] · [[Identity]]
 **Opens onto:** [[The New Covenant]] · [[We The People]] · [[The LIØNSBERG Constitution]] · [[Stewardship]] · [[Representation]] · [[The Pledge]]
 **In play:** Gate — entered over years, not at a door
-**Sources:** *Citizens* (citizenship as covenant relationship, eligibility after 2–3 years of membership) · *Levels of Participation* (root page; the six levels) · *The LIØNSBERG Lexicon*, §Key Terms and §Governance · *Pass The Flame* Ch6 · lionsberg.wiki: Citizens
 **Open:** The *Citizens* page opens with a malformed link and mixes an old-world definition with the LIØNSBERG one. The multi-year eligibility model sits unreconciled with the Game's door, where a spoken yes is the whole of entry.

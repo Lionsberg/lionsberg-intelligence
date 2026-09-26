@@ -22,5 +22,4 @@ The inverted form of the disease is worth naming too: surveillance, which is con
 **Stands on:** [[The Anti-Patterns]] · [[Transparency]] · [[Truth]]
 **Opens onto:** [[Requirement Of Transparency]] · [[Decision Records]] · [[The Record]] · [[Chatham House]] · [[Elision]] · [[Surveillance]] · [[Knowledge as commons]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Parts IV and VIII · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as an Anti-Pattern with no articulation; the line between protected confidence and controlled information is drawn in practice and stated in no page.

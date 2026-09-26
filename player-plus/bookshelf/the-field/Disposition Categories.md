@@ -17,8 +17,7 @@ They also make the judgment visible. A first-pass disposition based on a title a
 Nothing in the vocabulary permits deletion. Archive preserves; fold weaves before it consolidates.
 
 **Also called:** the audit vocabulary
-**Stands on:** [[Weave, don't delete]] · [[One canonical home per concept]] · [[Provenance]]
+**Stands on:** [[Weave, do not delete]] · [[One canonical home per concept]] · [[Provenance]]
 **Opens onto:** [[Phase-Gated Architecture]] · [[Progressive canonization]] · [[Every Page Lives Within A Volume]] · [[Pattern Card]] · [[The Sacred Codex]] · [[Decision Records]]
 **In play:** beyond
-**Sources:** Phase 2 — The Audit Ledger, disposition legend and method · lionsberg.wiki: *The Great Weaving — Concept Ledger*
 **Open:** the legend's fold targets are numbered by volume, and the volume numbering is itself contested in two places; a disposition citing a volume number is therefore less stable than it looks.

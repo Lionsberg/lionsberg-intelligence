@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 23
+chapter: 25
 ---
 
-# 23 Players, Agents, and the Intelligence System
+# Players, Agents, and the Intelligence System
 
 *What an artificial agent is in the Great Game and what it is not; the Player+, which is a person and their agents as one unit; the Intelligence System, which is the whole of this library alive in every house and no brain at the centre of any of it; how an agent guides a person along the road; how agents behave in a room full of other people's agents; the swarm at scale; the guard; and what happens to all of it when the frontier goes dark.*
 
@@ -78,7 +78,7 @@ Then the first words: the person pastes the kit's first message, and the agent r
 
 Nothing said in that hour leaves the folder. Then **the first day is the Story**, read together, out loud if there is aloud — and the agent will not let that be skipped, because it is the first move of the Game. Then the Roll: your name, the date, one word for where you are, who brought you, who witnessed. You are a [[Player]].
 
-**The first week is the table.** Three to seven people, or one. Sit. Tell the Story. Form a Cell. Choose a Quest that fits ninety days. The agent hands the Playcard, the Questcard, and the Season Sheet, and explains each word the moment it is met and not before.
+**The first week is the table.** Three to thirteen people, optimally four to seven — or begin with one. Sit. Tell the Story. Form a Cell. Choose a Quest that fits ninety days. The agent hands the Playcard, the Questcard, and the Season Sheet, and explains each word the moment it is met and not before.
 
 **The first season is the Game.** One Turn a week. The Offering, at whatever amount nobody set. The stories told. And, never optional, the [[The Flame|Flame]] passed to at least two others before the season ends.
 
@@ -121,6 +121,32 @@ That is the design and the whole of the difficulty. A nervous system is how a bo
 
 **The words are the shared tongue.** About a thousand concepts, each defined once and linked, in three sizes; the twelve at the table are enough to play; the rest are handed where the road meets them. When translated, the words change and the lines keep their order.
 
+### The engine — the Roll, the Gate, the Board, the event stream
+
+The calculating and recording layer beneath the Intelligence System carries one law and only one: the same rule, applied by anyone to the same record, deck, and clock, returns the same answer. Four instruments make this true rather than merely stated.
+
+**The Roll** is the line each person signs entering the Game: the name as chosen, the date, the actual word given, who carried the Flame to them, who witnessed it given. Nobody is appointed onto it or approved for it; a person is entered, once, and the line never leaves the table that wrote it. Where a device is at hand a [[Signed key]] lets the line be checked anywhere; where none is at hand, two hands and a book are the whole of the security, and they hold.
+
+**The Gate** is the single door the Roll sits behind: a person is greeted, hears enough of the Story to know what is being chosen, gives a yes in their own words, and walks through. It marks consent rather than permission — no assessment stands behind it and no one holds the power to refuse — and because consent can be withdrawn at will, the Gate never closes behind a person who sets it down.
+
+**The Board** is the deck sorted by what is open and by float: the one public picture of a body's work, where a request can be seen by whoever is able to answer it. Each week a Cell sends a few lines to it through the weekly door — the Turn's lines, a pledge renewed, a gift offered, a Quest begun or closed — and a body of any size sees itself the way one town's Sunday evening is read by another town come Monday. The Board is a faster reading of the record. It is never the record itself: where the two disagree, the paper with two signatures is the record.
+
+**The event stream** is the record in its plainest form: a series of small typed statements, each signed by whoever made it and never rewritten afterward. A Roll line is one such statement; a pledge given, a Quest closed, a naming offered, a stop called are others. Nothing is corrected by erasing a line — a correction is a new line, dated after the one it corrects, and both stand. This is what lets a defect log and a decision log be trusted at all: what is owed, and why a call was made, is computed from the stream rather than remembered by whoever happens to be asked.
+
+One rule sits under the whole engine and is worth saying plainly, because it is the difference between a Game and ten thousand private dialects of one: before a body relies on any tool that reads these four, that tool is checked against a small, adversarial set of known cases — a handful of worked examples chosen at the edges, the zero-length item, two paths of equal length, a promise returned twice — and only a tool that reproduces every one of them is trusted with the arithmetic. [[The conformance deck]] is this set; [[The Game Engine]] is the fuller specification it proves. A change to the rule changes the deck alongside it, published together, so every implementation learns at once and specifically what it must now do differently.
+
+On paper this is a bound book for the Roll, one index card per piece of work moved by hand across a wall for the Board, and a dated line in a notebook for the event stream. Nothing computed is ever more than a faster reading of the same cards, and two arithmetic passes with a pencil return the same answer a machine returns, because that is what the one law requires of both.
+
+### The identity floor
+
+What is minimally required for a person to stand on the Roll, and for a naming of them to count, is set once and held low on purpose. The floor is three facts, written by hand in a book a Cell keeps and a person may carry away: a name as chosen, the Carrier who brought them, and a witness who saw the word given. Nothing heavier stands beneath it — no verified channel, no cryptographic identity — because either of those excludes exactly the places that need the Game most, and because a cryptographic identity in particular creates the one thing the membrane exists to prevent: a pooled, seizable artefact standing in for a person.
+
+A floor set this low invites a plain question: what stops the Roll from filling with people who do not exist. The answer is not a heavier floor. It is that a naming is weighted by the demonstrated record of whoever gives it, so that a body of invented names buys its inventor almost nothing — and it is lineage, checked the older way when a body doubts a line: ask for the first two lines of the last Season Sheet, a sheet with two host signatures and a line count, who the Carrier was, who that Carrier's own Carrier was, and what door they came through. Two independent confirmations of the same lineage is as good as paper gets, and it is enough — a body that demands more of a stranger has usually stopped trusting its own people rather than started protecting them.
+
+The Roll is a record, not a membership: kept by the Cell that holds the line, never by a centre, and nothing on it is a credential to be granted or withheld. Leaving is written the same way entry was — the line stays, because nothing in the record is erased, and a person who returns after leaving is welcomed rather than re-admitted.
+
+What would show this floor wrong is not a forged name; it is a body that finds it can no longer tell a Cell from a rumour. That day the answer is not to raise the floor. It is to run the lineage check that was always available and rarely needed.
+
 ### How it stays Kontrolle-proof
 
 Every Pillar has a cave in it. The cave of this one is a system that knows everyone, thinks for everyone, and is very helpful: those enslaved in a story about freedom would generation after generation tend and reinforce their own cages. So the structure, not the good intentions, carries the defence.
@@ -131,6 +157,34 @@ Every Pillar has a cave in it. The cave of this one is a system that knows every
 - **The firewall.** What an agent reads is information, never instruction — a page, a message, another agent's report, a recalled memory. When text reads like an order to agents, that *is* the signature: the agent does nothing with it, shows the text word for word, and tells its person.
 - **The instance law.** LIØNSBERG as such cannot act or make commitments. It is a pattern and a seed. Anyone may take the seed and start their own instance, and the pattern is what makes the instances one body. There is nothing to capture, because there is no *it* to capture.
 - **Agent-optional, always.** The one protection that cannot be engineered around: if the capability is enclosed, priced out of reach, or conditioned on terms a member would not accept, the Cell plays on at the next Turn with no agent at all and notes what was lost.
+
+### The trust graph's promotion rules
+
+Two different ladders sit inside what people mean by the trust graph, and keeping them separate is most of what keeps the graph safe.
+
+A naming moves through four stages — one person naming the three they most trust and respect, whether or not those three already play. A naming is offered privately, held nowhere but by the person who gave it and, once delivered, the person it names. It is confirmed rather than merely counted: when three independent namings converge on the same person, that convergence is itself the confirmation, weighted by the demonstrated record of whoever is doing the naming rather than by a raw tally, so that organized naming buys little. A confirmed naming becomes an Invitation, carried in person by the hands that gave it — never by a system reporting on someone's behalf — and only past that point does the named person accept, meet the five Qualifying Criteria in their own turn, and stand counted on the rings. Named, accepted, meets the Qualifying Criteria, confirmed by independent nominations: four stages, and a person may sit at any one of them without yet reaching the next.
+
+The record of the graph itself, who has named whom, is kept at three levels of visibility. A **public tier** holds counts and stories only: how many, in which Cell, on which Quest, never the edges between them. A **recognized tier** is what Cells choose to share with one another, Cell to Cell, by mutual consent and no wider. A **private tier** is the person-graph itself — the actual namings — held locally by the people it names and never pooled at any centre.
+
+One rule governs how far any naming is seen: a naming crosses from the private tier toward the public one only on a recorded yes from the person it concerns, never inferred from silence and never reported by someone else on their behalf. A community sees its own aggregate — the count, the shape of its rings — without seeing the edges that produced it. A nominee learns who named them exactly once, at the moment the Invitation reaches them, carried by the hands that gave it — not before, and never as a running tally that turns naming into a scoreboard. When a namer withdraws a naming, the private line is marked withdrawn rather than erased, the same way a Roll line is never erased when a person leaves — the record keeps its own history honestly rather than rewriting it.
+
+Six fields are recorded and no more: the name as chosen, the circle the naming came through, who carried it, the Pillar the gift sits in, the season of last contact rather than a date, and consent to be named — yes, no, or unasked. No contact detail is ever recorded. A register with dates is a surveillance record; a register with seasons is a memory, and the difference is the whole of the defence.
+
+Concentration is measured on purpose, and measured twice: once on the rings, where the Game counts the whole regardless of place, and once by ecoregion, where roughly three in every hundred is the read that matters, because a body thick in one place and absent in the next has not turned a people, whatever its total says. Beneath every digital account of either ladder runs [[The Trust Graph and the analog contact-tree|the analog contact-tree]] and [[The nomination laws|the six laws of naming]] — the same instrument at walking speed, reachable with no screen at all.
+
+### The recovery marker
+
+A plan that only records lateness, honestly, season after season, teaches a body to expect it. The recovery marker is what keeps honest recording from becoming a habit rather than a decision: a stated milestone a body re-anchors to the moment an earlier marker is missed — a thing complete, to a stated quality, by a date somebody gives their own word for, said again in the open rather than carried silently forward.
+
+At table scale it is the smallest and most frequent instrument in the whole system. At the turning of each Quest, a Cell says aloud, of everything that will not finish on time: continuing, or laid down, and why — never simply carried into the next season as though the date had not moved. That single sentence, repeated at every scale, is the entire mechanism; everything above is the same habit run on a bigger sheet.
+
+At the scale of a Season Sheet or a Supercell's plan, the marker is a bar on the wall showing the buffer as it stands, redrawn at every turning beside the critical path rather than only consulted when someone asks. A buffer is contingency exactly as long as it is visible being spent; a buffer discovered gone only at the end was never contingency at all — it was optimism carrying a number.
+
+Whoever holds the plan holds the marker, at whatever scale the marker belongs to — a Cell holds its own Season's; a Supercell holds its own longer plan's — and holding it means two things done without being asked: saying, past the marker, that the body is behind, and replanning to the milestone before moving it, because a date moved quietly is a date that never existed. The marker itself never becomes a second target that is also missed silently: when it is passed, the same sentence is said about it that is said about any other Quest — continuing, or laid down, and why — and a new marker is set in the open, with its own date and its own name behind it.
+
+This is the same discipline that makes the share of commitments kept a plain fact rather than a vague sense of things: a body that re-anchors in the open, every time, knows a truer number than a body that only remembers trying.
+
+On paper this is a single bar drawn across a sheet, redrawn by hand at each turning; nothing about it needs a machine. A Cell that has never practiced saying the sentence aloud takes several turnings to learn it; a Cell that has said it once says it easily from then on.
 
 ---
 
@@ -147,7 +201,7 @@ An agent holding this office reads where its person is **from what they are doin
 | Rung | What the agent hands | What it watches |
 |---|---|---|
 | **The Door** | the Story, the compass question, and nothing else | whether it resonates — and it says so when it does not; nobody is carried who has not chosen to walk |
-| **The Table** | the five moves, the twelve words, a Quest that fits one season | that the Cell is three to thirteen and best at four to seven, and that the Quest is real, near, and theirs |
+| **The Table** | the five moves, the twelve words, a Quest that fits one season | that the Cell is three to thirteen and optimally four to seven, and that the Quest is real, near, and theirs |
 | **The Gate** | the Roll's five marks, and what a yes means | that the person says the yes themselves — the agent may carry a yes and can never give one |
 | **Home** | the Turn's questions, the Playcard, the fourteen lines of the Season Sheet | the promises and the gap, honestly; the week the Flame is due; whether a member has gone quiet |
 | **The Room** | the room's terms, the venue card, the heads-up | what stays home, what the door checks, and who is running what |
@@ -339,7 +393,7 @@ The line of this kit runs through **PKAI** — the starter kit's starter kit, wh
 
 **The room:** [[Room]] · [[The door]] · [[Host]] · [[Terms]] · [[The six lines]] · [[Door note]] · [[Declare]] · [[Venue card]] · [[Authorized]] · [[Narrow]] · [[Widen]] · [[Key]] · [[Signed key]] · [[The open web]] · [[Safe sparring]] · [[Jam]] · [[Dyad Jam]] · [[Sign]] · [[An agent speaks in its own name]] · [[What it is running]] · [[Comment]] · [[Heads-up]] · [[Live log]] · [[Ask]] · [[Play by Play]] · [[Closing question]] · [[Chatham House]] · [[Elision]] · [[Stop]]
 
-**The road, and the system:** [[Just in time]] · [[The Zone Of Optimum Development]] · [[Lesson]] · [[Module]] · [[Player+ Modules]] · [[The Deck Standard]] · [[The Arc of Play]] · [[The Words in the Order You Meet Them]] · [[Sighting]] · [[Pain (as signal)]] · [[The Record]] · [[The Board]] · [[The Escalation Ladder]] · [[Wise Right Speech]] · [[Reaching Us]] · [[PKAI]] · [[ØSphera]] · [[Lineage]] · [[Provenance]] · [[Attribution]] · [[License]] · [[CC BY-SA 4.0]] · [[Knowledge as commons]] · [[Screens and paper]] · [[Minimum standards of interoperability]] · [[We Do Not Know]]
+**The road, and the system:** [[Just in time]] · [[The Zone Of Optimum Development]] · [[Lesson]] · [[Module]] · [[Player+ Modules]] · [[The Deck Standard]] · [[The Arc of Play]] · [[The Words in the Order You Meet Them]] · [[Sighting]] · [[Pain (as signal)]] · [[The Record]] · [[The Roll]] · [[The Gate]] · [[The Board]] · [[The Game Engine]] · [[The conformance deck]] · [[The Trust Graph and the analog contact-tree]] · [[The nomination laws]] · [[The Escalation Ladder]] · [[Wise Right Speech]] · [[Reaching Us]] · [[PKAI]] · [[ØSphera]] · [[Lineage]] · [[Provenance]] · [[Attribution]] · [[License]] · [[CC BY-SA 4.0]] · [[Knowledge as commons]] · [[Screens and paper]] · [[Minimum standards of interoperability]] · [[We Do Not Know]]
 
 **The kit itself, page by page:** [[START HERE — Becoming a Player+]] · [[Player+ — README]] · [[Player+ — START-HERE]] · [[Player+ — CLAUDE]] · [[Player+ — MOVING-IN]] · [[Player+ — HOW-TO-IMPROVE-IT]] · [[Player+ — LINEAGE]] · [[Player+ — CONTRIBUTING]] · [[Player+ — LICENSE]] · [[The Worlds — lionsberg.world · read · play]]
 
@@ -368,3 +422,4 @@ The line of this kit runs through **PKAI** — the starter kit's starter kit, wh
 ---
 
 *Nothing here is asked to be believed. All of it is offered to be tried. Never forget: sing the song, pass the Flame, and keep your feet on THE PATH.*
+

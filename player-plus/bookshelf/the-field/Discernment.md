@@ -20,5 +20,4 @@ Discernment is also the body's defence. Against [[Kontrolle]], against the [[The
 **Stands on:** [[Truth]] · [[Wisdom]] · [[Gnosis]] · [[Types Of Knowing]]
 **Opens onto:** [[Unlearning]] · [[Wise Eldership]] · [[The one question]] · [[Meaningful Objection]] · [[The Anti-Patterns]] · [[Advantage Based Decision Making]]
 **In play:** table · Gate · Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IV — *Discernment* (canon-grade; given twice, in near-identical words) · *The LIØNSBERG Pattern Language — Synthesized*, The Sovereign's Mind — *Discernment Between Impulses* (canon-grade list) · *The LIØNSBERG Playbook* (invoked throughout) · *The 144 Gates of Initiation*, Movement 4 · *The DNA of Heaven*, Part I (test what is offered") · lionsberg.wiki: Discernment
 **Open:** *Discernment Between Impulses* is named as a Pattern with no card; the training practices are not written anywhere.

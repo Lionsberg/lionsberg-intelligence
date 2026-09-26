@@ -20,5 +20,4 @@ There is no obligation in it, and no gate. A Cell that cannot come is still a Ce
 **Stands on:** [[Turn the Season]] · [[Season]] · [[The turnings]] · [[Celebration]]
 **Opens onto:** [[Share the Stories]] · [[The Season Sheet]] · [[The Way Up]] · [[The Return]] · [[Home]] · [[Jubilee]] · [[Pass The Flame]] · [[The LIØNSBERG Calendar]]
 **In play:** Home and beyond — four times a year, where the tables meet
-**Sources:** `Play — Join the Seasonal Gathering`, in The LIØNSBERG Playbook's Seasonal Turning · `Play — Turn the Season`, its paired card · lionsberg.wiki: The LIØNSBERG Playbook
 **Open:** The card carries a dated event and an outside subscription link as its announcement channel, which ties a standing Play to one season's arrangements. · Nothing says how a gathering is held once there are more Cells than can be in one room, which is the first scale problem this move will meet.

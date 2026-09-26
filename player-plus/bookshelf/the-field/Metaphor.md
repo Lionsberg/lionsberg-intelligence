@@ -20,5 +20,4 @@ The discipline is the same one that governs every word here: a metaphor is a poi
 **Stands on:** [[Language]] · [[Story]] · [[Word Tools]]
 **Opens onto:** [[Parable]] · [[The True Myth]] · [[The Golden Seed]] · [[Narrative Lens]]
 **In play:** door · table
-**Sources:** *Metaphor* (a written root page) · *The LIØNSBERG Lexicon*, The Metaphors section · *Narrative Structure of LIØNSBERG* · lionsberg.wiki: *Metaphor*
 **Open:** The root page names a set of metaphors and a set of stories without distinguishing the two clearly; *The LIØNSBERG Book of Metaphors* is named as a volume and does not exist as a written body.

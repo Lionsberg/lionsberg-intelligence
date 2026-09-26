@@ -20,5 +20,4 @@ Two disciplines keep processes from becoming bureaucracy. A process is [[Current
 **Stands on:** [[The three charts]] · [[Current Best Understanding]] · [[The Way]]
 **Opens onto:** [[Continuous Improvement]] · [[Every Defect Is A Gift]] · [[The guard]] · [[Request For Guidance]] · [[Submittals]] · [[Issue]] · [[Orientation and Onboarding Process]] · [[Protocol]] · [[Prune]]
 **In play:** Home — kept beside the charts, read when a function changes hands
-**Sources:** `LIØNSBERG Process List.md` (wiki root) · `Cell Types.md`, `Function Chart.md`, `Role Chart.md` · lionsberg.wiki: LIØNSBERG Process List
 **Open:** The list is fifteen lines and several of its entries point at pages with no body; the enumeration is further along than the writing. · Nothing states who may add a process to the list, or how two bodies with different processes for the same function stay interoperable.

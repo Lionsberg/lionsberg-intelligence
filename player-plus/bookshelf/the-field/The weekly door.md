@@ -18,5 +18,4 @@ How it is played. Take the Turn through the door at the close of the gathering, 
 **Stands on:** [[The Turn]] · [[The Board]] · [[Minimum standards of interoperability]]
 **Opens onto:** [[Requests and offers]] · [[The Season Sheet]] · [[Screens and paper]] · [[The Return]] · [[Guard the Membrane]]
 **In play:** table · beyond
-**Sources:** the Player+ Modules lexicon, *the weekly door*, and the module *The Weekly Turn* · *The Return* (current best understanding) · lionsberg.wiki: **The Gameboard**
 **Open:** The door is named in the module deck and in no canon chapter; where it physically is, this season, is not stated on any verified page.

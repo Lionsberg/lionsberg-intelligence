@@ -9,7 +9,7 @@ Claude Code can see all the files in your house and work with them directly.
 **Ask it about your house:**
 - "What files are in the current directory?"
 - "Show me the structure of this house"
-- "What's in the Projects folder?"
+- "What is in the Projects folder?"
 
 **Create and edit files:**
 - "Create a new page called Meeting Notes with today's date"
@@ -36,8 +36,8 @@ This is covered in detail in [Your First Commit](Your%20First%20Commit.md), but 
 
 - "Pull the latest" — download new changes from GitHub
 - "Commit and push" — save and upload your work
-- "What's changed?" — see what's been modified
-- "What's new from other people?" — pull and summarize recent activity
+- "What is changed?" — see what is been modified
+- "What is new from other people?" — pull and summarize recent activity
 
 ## Asking Questions
 
@@ -54,7 +54,7 @@ When you type a request to Claude Code, here's what happens:
 1. Claude reads your request
 2. It looks at the relevant files in your house (and sometimes runs commands)
 3. It responds with text, or makes the changes you asked for
-4. If it changed any files, you'll see the edits the next time you open them in your Markdown editor
+4. If it changed any files, you will see the edits the next time you open them in your Markdown editor
 
 Claude Code works with the files on your computer directly. Your house stays on your own disk; it is never uploaded as a whole. What your agent reads to help you — a file, a page, a note — is sent to Anthropic to be processed, the same as anything you type to Claude. Your files leave your computer as files only when you push them to GitHub.
 
@@ -62,11 +62,11 @@ Claude Code works with the files on your computer directly. Your house stays on 
 
 **Be specific.** "Update the project plan" is vague. "Add a new section to the project plan about the budget timeline" gives Claude something concrete to work with.
 
-**Give context.** If you're working on a particular project or topic, say so. "In the Research folder, summarize my notes on renewable energy" is better than "summarize my notes."
+**Give context.** If you are working on a particular project or topic, say so. "In the Research folder, summarize my notes on renewable energy" is better than "summarize my notes."
 
-**Review changes.** Claude Code is helpful but not perfect. When it edits your files, glance at the changes to make sure they're what you wanted. You can always ask it to undo or revise.
+**Review changes.** Claude Code is helpful but not perfect. When it edits your files, glance at the changes to make sure they are what you wanted. You can always ask it to undo or revise.
 
 **Use CLAUDE.md.** The more context you put in your house's CLAUDE.md file, the better Claude Code understands your project. If you notice it making wrong assumptions, add a note to CLAUDE.md.
 
 > [!tip]
-> You can always ask Claude Code "what can you do?" or "help me with [vague goal]" and it will suggest specific approaches. It's a conversation — you don't need to know the exact right thing to say.
+> You can always ask Claude Code "what can you do?" or "help me with [vague goal]" and it will suggest specific approaches. It is a conversation — you do not need to know the exact right thing to say.

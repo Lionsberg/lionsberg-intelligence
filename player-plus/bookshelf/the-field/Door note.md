@@ -20,5 +20,4 @@ The note is not a form anyone collects. It is yours, and it exists so that you w
 **Stands on:** [[The six lines]] · [[The door]] · [[Declare]]
 **Opens onto:** [[Room]] · [[Terms]] · [[Player+]] · [[The Invitation]] · [[Reaching Us]]
 **In play:** door
-**Sources:** Player+ Modules, *Entering the Field*, *Start Here*, *Becoming a Player+* · The DNA of Heaven, Part V (the Invitation and the door).
 **Open:** none found.

@@ -22,5 +22,4 @@ Three of the kinds carry particular weight. **Commit** is the word given. **Witn
 **Stands on:** [[Event]] · [[The Record]]
 **Opens onto:** [[Witness]] · [[Sighting]] · [[The eight kinds of Sighting]] · [[Commitment]] · [[The Life of a Commitment]] · [[Submittals]] · [[Issue]] · [[Requests and offers]] · [[The Flame]] · [[Quest]] · [[Delegation]]
 **In play:** the table — chosen when a line is written
-**Sources:** `Projects/the term pages/Event.md` (the page states the set is small and open) · `Projects/The Kit 2026-09/The Bug Report — Every Defect Is a Gift, as a Sighting` · `The Record Protocol` (spec v0) · lionsberg.wiki: The Record
 **Open:** Nothing states who may add a kind, or how an added kind reaches every body already keeping a record. · Two kinds proposed in an earlier draft — one for what is owed after work, one for the settling of it — were struck as needless complication, and nothing replaced them.

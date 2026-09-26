@@ -20,5 +20,4 @@ A guard also has a cost, and the cost is honest: every one of them is a small we
 **Stands on:** [[Every Defect Is A Gift]] · [[Continuous Improvement]] · [[Root Causes]] · [[Zero Blame Environment]]
 **Opens onto:** [[Sighting]] · [[The eight kinds of Sighting]] · [[Improvement log]] · [[Retrospective]] · [[Quality]] · [[The Record]] · [[Stop]]
 **In play:** the table — whenever a gift is handed in and answered
-**Sources:** `Projects/The Kit 2026-09/The Bug Report — Every Defect Is a Gift, as a Sighting (Process v0, 2026-09-12)`, practice 5 · `Every Defect Is A Gift` (wiki root; canon-grade) · `Continuous Improvement` (wiki root) · lionsberg.wiki: Every Defect Is A Gift
-**Open:** Nothing in the canon says who judges that a guard is sufficient, or what happens when the reporter and the holder disagree about whether one is needed.
+**Open:** Nothing yet says who judges that a guard is sufficient, or what happens when the reporter and the holder disagree about whether one is needed.

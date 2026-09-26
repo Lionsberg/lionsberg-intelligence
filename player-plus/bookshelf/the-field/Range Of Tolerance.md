@@ -20,5 +20,4 @@ In play, the useful move is to ask it directly rather than infer it: *is this in
 **Stands on:** [[Consent]] · [[Meaningful Objection]] · [[Wisdom]] · [[Discernment]]
 **Opens onto:** [[Consent-Based Decision-Making]] · [[Proposal]] · [[Holding Paradox]] · [[Navigating Difference]] · [[Decision Making]]
 **In play:** table — asked aloud in the deciding round
-**Sources:** *Range of Tolerance* · *Consent* (root page) · *Meaningful Objection* (root page) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Range of Tolerance
 **Open:** The root page defines range of tolerance broadly, as a group's capacity to accept differing ideas, perspectives, and approaches — a diversity posture. *Consent* and the seed use it narrowly, as the band around a single proposal. Both senses are live; this page leads with the deciding sense, which is the one consent depends on.

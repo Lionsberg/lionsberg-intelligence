@@ -18,5 +18,4 @@ How it is filled. The name is yours, so long as no other Cell in your home has i
 **Stands on:** [[Cell]] · [[Carrier]] · [[Home Cell]] · [[Form a Cell]]
 **Opens onto:** [[The Season Sheet]] · [[Host]] · [[The Way Out]] · [[Supercell]] · [[Welcome a Newcomer]] · [[Guard the Membrane]]
 **In play:** table · Home
-**Sources:** *The Circle Sheet*, Little Book chapter (current best understanding · "who the Circle is; the paper form of a Circle's page on the Board") · *The LIØNSBERG Operating System* §1, Card 1 · lionsberg.wiki: **The Circle Sheet**
 **Open:** The chapter still says *Circle* and *ring* throughout where the words are now Cell and Supercell. · The door line asks for a way a stranger can reach the Cell while the Pattern of the membrane asks for visibility decided on purpose; nothing yet says how a table sets both together.

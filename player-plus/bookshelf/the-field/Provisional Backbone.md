@@ -20,5 +20,4 @@ Two disciplines make the word mean something rather than being a comfort. **Name
 **Stands on:** [[Prototype]] · [[Current Best Understanding]] · [[Infrastructure]]
 **Opens onto:** [[Provisional Mind]] · [[Stewardship body]] · [[Structuring and Federating Emergent Opportunities]] · [[Organizations The LIØNSBERG Way]] · [[Technology Sovereignty]] · [[Phase-Gated Architecture]] · [[Shared Services, Infrastructure, and Support]] · [[Sponsorship]]
 **In play:** the Room — the structure a body stands up on its first day, named as temporary on that day
-**Sources:** `Provisional Backbone` (root page, stub — names a technology backbone adopted from an existing platform and a project-management backbone from the Integrated Delivery Guide) · `Provisional Structure` (root page) · lionsberg.wiki: Provisional Backbone
 **Open:** The technology backbone is named by an external link to a third party's platform, with no account of what depends on it or what happens if it goes; that is exactly the dependency the concept exists to make visible. · No successor and no trigger is named for either backbone. · Inbound links were not counted.

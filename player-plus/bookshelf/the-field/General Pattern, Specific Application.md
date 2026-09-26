@@ -22,5 +22,4 @@ Applied to the whole Language, it is also the answer to the inventory of roughly
 **Stands on:** [[Pattern]] · [[The LIØNSBERG Pattern Language]] · [[HoloFractal]]
 **Opens onto:** [[Patterns And Containers]] · [[Holofractal Scaling]] · [[Shoshin]] · [[Patterns Pending Articulation]] · [[Instantiation]]
 **In play:** beyond
-**Sources:** *General Pattern, Specific Application* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: General Pattern, Specific Application
 **Open:** none found

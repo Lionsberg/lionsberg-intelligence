@@ -20,5 +20,4 @@ In the System, it sits as the first of the strategic windows, preceding the wind
 **Stands on:** [[Time]] · [[Learning]] · [[The LIØNSBERG Pattern Language]] · [[Foundational Literature]]
 **Opens onto:** [[The 7 Year Window of Crisis and Opportunity]] · [[The 10 Year Grand Strategy]] · [[Critical Path]] · [[Mondragon]] · [[The Movement]] · [[The First Few]] · [[New Era]]
 **In play:** beyond
-**Sources:** `The 7 Year Window of Preparatory Work and Learning` · `The LIØNSBERG Lexicon`, §Timing · `The 7 Year Window of Crisis and Opportunity` (root page) · `The Little Book of the Great Game — Second Draft`, Mondragon told with its wounds · lionsberg.wiki: The 7 Year Window of Preparatory Work and Learning
 **Open:** The root page dates the window 2017–2024 and says the body began assembling in Spring 2024; other pages date the crisis window from 2024, so the two abut exactly, which is tidier than events usually are. · The page names a person and several instruments — a provisional structure, a new vision and plan — whose own pages were not checked here.

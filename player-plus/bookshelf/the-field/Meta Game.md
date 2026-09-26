@@ -22,5 +22,4 @@ It is also where the pair of facings around every promise is actually written do
 **Stands on:** [[Meta]] · [[The Goal]] · [[Sovereignty]]
 **Opens onto:** [[The Great Game]] · [[The Great Game of LIØNSBERG]] · [[The Meta Project]] · [[Stacking Up And Aligning]] · [[Committor]] · [[Committee]] · [[Do Not Concretize the Absolute]] · [[Meta System]] · [[Meta Unity of Meta Diversity]] · [[Logos]]
 **In play:** beyond — the frame a person's own game is aligned into
-**Sources:** `Meta Game.md` (wiki root) · `Meta`, `The Great Game of LIØNSBERG` (wiki) · lionsberg.wiki: Meta Game
-**Open:** The page's long design half — time currency, a central bank, exchange rates, mergers and acquisitions — is an early proposal whose economics later pages substantially rework, and no page marks which parts still stand. · *The Great Game* and *the Meta Game* are said on the page itself to have been explored as the same concept under two names, and neither has been retired.
+**Open:** The page's long design half — time currency, a central bank, exchange rates, mergers and acquisitions — is an early proposal whose economics later pages substantially rework, and no page marks which parts still stand.*The Great Game* and *the Meta Game* are said on the page itself to have been explored as the same concept under two names, and neither has been retired.

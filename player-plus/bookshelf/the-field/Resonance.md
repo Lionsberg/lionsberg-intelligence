@@ -20,5 +20,4 @@ In the health Pillar, resonance names the harmonic alignment of a living being w
 **Stands on:** [[Coherence]] · [[Vibration]] · [[Truth]]
 **Opens onto:** [[Attunement]] · [[Integration]] · [[Distortion]] · [[Healing]]
 **In play:** table · Room
-**Sources:** *Resonance* (a written root page) · *The LIØNSBERG Lexicon*, Pillar V table · lionsberg.wiki: *Resonance*
 **Open:** The root page leans on *The Living Gradient* and on a named meta-science, both of which the concept field marks as named-but-unarticulated; those supports are not yet load-bearing.

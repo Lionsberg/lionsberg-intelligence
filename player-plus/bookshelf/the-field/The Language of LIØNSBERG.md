@@ -20,5 +20,4 @@ Learning it is not a gate. Nobody is asked to carry a word they have not been ha
 **Stands on:** [[Word Tools]] · [[A Word on Words]] · [[Logos]]
 **Opens onto:** [[The LIØNSBERG Lexicon]] · [[The Twelve Words]] · [[Lexicon · Pattern Language · Playbook]] · [[The Core Concepts]] · [[On translating]] · [[The LIØNSBERG Book of Conventions]]
 **In play:** door · table · beyond
-**Sources:** The Language of LIØNSBERG · The LIØNSBERG Lexicon, header · Word Tool · lionsberg.wiki: *The Language of LIØNSBERG*
 **Open:** the page names a bounded set of first concepts as the heart of the language and points to *The First 999 Concepts*; the relationship between that set, the Lexicon's entries, and this library's field is not yet stated anywhere.

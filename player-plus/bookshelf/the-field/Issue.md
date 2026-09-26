@@ -18,5 +18,4 @@ How it is played. Raise it at [[The Turn]], in the round or when it appears. Wri
 **Stands on:** [[The Turn]] · [[Constraint]] · [[Subsidiarity]]
 **Opens onto:** [[The look-ahead]] · [[Requests and offers]] · [[Proposal]] · [[Guidance]] · [[Mend a Tension]] · [[The Escalation Ladder]] · [[Decision Making]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §14 · *Identifying And Solving Issues* (root page) · *The LIØNSBERG Playbook* · The DNA of Heaven, Part VII · lionsberg.wiki: **Identifying And Solving Issues**
 **Open:** the practice here is drawn from the Operating System. The line between an issue, a request, and a proposal is not drawn anywhere: the field reads them as *what blocks*, *what we ask*, and *what should change*.

@@ -20,5 +20,4 @@ The theses that anchor the sphere: the cosmos is intelligible and ordered by the
 **Stands on:** [[Logos]] · [[Truth]] · [[Wisdom]] · [[Ethics]]
 **Opens onto:** [[Science]] · [[Technology]] · [[Artificial Intelligence]] · [[System]] · [[Interoperability]]
 **In play:** beyond the table — the guild, the Action Domain, the library
-**Sources:** *Pillar VIII — Sacred Science and Technology* (canon-grade) · *The 12 Pillars of LIØNSBERG* hub (canon-grade) · *The LIØNSBERG Lexicon*, Pillar VIII table · the seed's Part III and Part X. lionsberg.wiki: Pillar VIII — Sacred Science and Technology.
 **Open:** The Lexicon and the Pillars book agree on this Pillar's name, unlike Pillars III and V. The sacred governance of AI is named as unwritten in the seed's Part III while the seed's Part X already legislates for agents — the two have not been reconciled.

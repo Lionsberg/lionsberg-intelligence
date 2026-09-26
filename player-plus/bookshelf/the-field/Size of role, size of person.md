@@ -18,5 +18,4 @@ The sizing is inseparable from the currency of the thing. What a role costs is t
 **Stands on:** [[Roles]] · [[TimeEnergy]] · [[Commitment]]
 **Opens onto:** [[Term Limits And Rotation]] · [[Zero Blame Environment]] · [[Host]] · [[The Two-Coordinator Rhythm]] · [[Agency, not ownership]]
 **In play:** the table
-**Sources:** The LIØNSBERG Community Guidebook, Toolkit — `Roles Map` · `Choose Your Roles` · The DNA of Heaven, Part IV · lionsberg.wiki: Roles Map
-**Open:** The concept list cites this to §7.5 of a golden-seed text that has since been superseded by *The DNA of Heaven*; the canon articulation is in the Community Guidebook's Roles Map.
+**Open:** A fuller articulation lives in the Community Guidebook's Roles Map; nothing yet joins it to this page.

@@ -20,5 +20,4 @@ Rest is not idleness and not reward. It is when [[Regeneration]] happens: a rest
 **Stands on:** [[Regeneration]] · [[Rhythm]] · [[Season]]
 **Opens onto:** [[Sleeping]] · [[Fasting]] · [[Jubilee]] · [[OmniSpection]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Pattern Language*, Specific Sacred Practices (marked a partial gap) · *The LIØNSBERG Lexicon*, Pillar XII table (*Sabbath*) · *Seasonal OmniSpection* · *The Daily Way* · lionsberg.wiki: *Seasonal OmniSpection*
 **Open:** The concept field carries *Sabbath* twice — as an alias here and as a concept of its own under Pillar XII. One canonical home has not been chosen. No page stands at *Rest And Regeneration* itself; it is named in a gap list.

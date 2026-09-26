@@ -20,5 +20,4 @@ At a turning, a Cell sends a meaningful share inward to its Home, which does the
 **Stands on:** [[Sovereignty At Every Scale]] · [[Commons]] · [[Consent]] · [[Holofractal Omnifederation]]
 **Opens onto:** [[The Offering]] · [[Fractal Commonsing]] · [[Fostering Ecosystemic Resource Flows]] · [[The waterfall]] · [[Mutual Aid]] · [[The Season Sheet]]
 **In play:** table · Home · beyond
-**Sources:** *Voluntary Tithing* (wiki root; canon-grade — the principle, the levels, the tenth as starting point, the precedents) · *Fostering Ecosystemic Resource Flows* (wiki root) · *The Pattern for Voluntary Tithing and Resource Allocation* (Citizen Led Governance §2.8) · *The DNA of Heaven*, Parts IV and V · lionsberg.wiki: Voluntary Tithing
-**Open:** The canon page frames the tithe as time and resources generally; the seed's Offering frames the weekly act at the table. The relation between the weekly Offering and the seasonal share sent inward is implied everywhere and stated nowhere.
+**Open:** The tithe is framed as time and resources generally; the seed's Offering frames the weekly act at the table. The relation between the weekly Offering and the seasonal share sent inward is implied everywhere and stated nowhere.

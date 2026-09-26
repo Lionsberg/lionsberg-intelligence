@@ -20,5 +20,4 @@ Opportunity is not outcome, and the difference is deliberate: what is owed is th
 **Stands on:** [[Dignity]] · [[Justice]] · [[Commons]] · [[Genius]]
 **Opens onto:** [[Education As Transformation]] · [[Knowledge as commons]] · [[Navigating Difference]] · [[Universal-Accessing]] · [[None Of Us Until All Of Us]] · [[Citizenship]]
 **In play:** door · beyond
-**Sources:** `Equal Opportunity For All` (root page, stub) · `Pillar XI — Sacred Society and Justice` (canon-grade) · `The Little Book of the Great Game — Second Draft`, The Plan and the free-gift framing · lionsberg.wiki: Equal Opportunity For All
 **Open:** The root page is a stub; the substance here is assembled from the Pillar and from the Game's access provisions, none of which cite it. · Nothing states how a body measures whether opportunity is in fact equal, or what it owes when it finds it is not.

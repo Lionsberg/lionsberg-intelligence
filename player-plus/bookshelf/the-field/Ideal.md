@@ -20,5 +20,4 @@ It is load-bearing because it is what lets a body hold a very high standard and 
 **Stands on:** [[Intention]] · [[The Creative Cascade]] · [[Essence]]
 **Opens onto:** [[Archetype]] · [[The Living Gradient]] · [[Value]] · [[Instantiation]]
 **In play:** Met at the table when a Cell describes what *good* would look like before starting, and refuses to use it as a stick afterward.
-**Sources:** *The LIØNSBERG Lexicon*, Meta Layer (the Creative Cascade table) · *The Creative Cascade* (root page, mature) · *Ideal* (root page) · *The Living Gradient* (root page, mature) · lionsberg.wiki: *Ideal*.
 **Open:** none found.

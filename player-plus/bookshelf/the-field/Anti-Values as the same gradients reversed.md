@@ -22,5 +22,4 @@ The canon's own field of anti-values is barely begun — the section says so, an
 **Stands on:** [[Values as Living Gradients]] · [[The Living Gradient]] · [[Values]] · [[Distortion]]
 **Opens onto:** [[Inversion]] · [[Idols Of The Pantheon]] · [[Institutional Idolatry]] · [[Ideological Capture]] · [[Patterns of Life and Patterns of Death]] · [[Zero Blame Environment]] · [[Remedy]] · [[Structure of Value]] · [[Usury]] · [[Gaps Not Yet Closed]]
 **In play:** the table — in how a body names what has gone wrong in it, and whether that naming leaves anyone outside the circle of repair
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG System of Values`, §Values as Living Gradients and §Anti-Values (the anti-values section states it is *just beginning*) · lionsberg.wiki: The LIØNSBERG System of Values
 **Open:** The mechanism is stated once, in a single sentence, and the section that would apply it holds four bare links. · Nothing says what to do when a gradient's reverse is being held by someone as their value, which is the case that actually arises.

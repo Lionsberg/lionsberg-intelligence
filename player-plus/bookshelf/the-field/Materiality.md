@@ -20,5 +20,4 @@ Its discipline is that the threshold is stated. A measure whose materiality is u
 **Stands on:** [[Measurement]] · [[Value]] · [[Boundary]]
 **Opens onto:** [[The six capitals]] · [[Waste]] · [[Living System]] · [[Bioregion]] · [[Regeneration]] · [[Transparency]] · [[Tragedy of the Commons]] · [[Minutes are the one unit]] · [[Measure everything, manage to the milestones]]
 **In play:** Home — set before anything is counted
-**Sources:** `LIØNSBERG Wiki Blogs/Jordan Nicholas/Above The Chaos, Materiality` (a dispatch of two hypotheses; author's voice preserved) · *The DNA of Heaven*, Part IV, §Where value flows · lionsberg.wiki: Measurement
 **Open:** The canon's page is two sentences and states hypotheses rather than a practice; how a body actually sets and revisits its threshold is unwritten. · The accounting sense and the deeper *material basis of existence* sense share the word and are nowhere distinguished.

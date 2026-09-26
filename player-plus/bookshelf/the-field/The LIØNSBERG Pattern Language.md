@@ -20,5 +20,4 @@ The synthesized articulation is a draft, and the root page beneath it is thinner
 **Stands on:** [[ØNE]] · [[Spirit Precedes Pattern]] · [[Logos]] · [[The Way]]
 **Opens onto:** [[Pattern Card]] · [[The Core Pattern]] · [[Plays Are Riffs; Patterns Are The Notes]] · [[Notes, Riffs, Songs, And The Symphony]] · [[The Playbook Chart]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Pattern Language* (the stub root) · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** The root page and the synthesized page describe different structures (Pillar-partitioned vs. vocabulary-grouped) and neither supersedes the other in writing. · The Playbook is named as Vol IV in one place and the Pattern Language as Vol V Part in another.

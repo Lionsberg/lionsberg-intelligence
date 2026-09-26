@@ -20,5 +20,4 @@ In the walking it is the second stage of [[The 12 Stages of the Sovereign's Path
 **Stands on:** [[The Gates of LIØNSBERG]] · [[The Threshold (of the Path)]] · [[Spirit Precedes Pattern]] · [[The Invitation]]
 **Opens onto:** [[The Story of LIØNSBERG]] · [[The Great Game of LIØNSBERG]] · [[The LIØNSBERG Quick Start Guide]] · [[The Decision]] · [[The 12 Stages of the Sovereign's Path]] · [[Guide]]
 **In play:** door
-**Sources:** *Welcome to LIØNSBERG* (in *AURELLIØN's Guide to LIØNSBERG*) · *The Sovereign Path*, §The Threshold (canon-grade) · *The 12 Stages of the Sovereign's Path*, Stage 2 — lionsberg.wiki · the seed text *The DNA of Heaven*, Part I (Spirit precedes pattern) and Part XIII (the reading order).
 **Open:** Stage 2 hands the arriver *The LIØNSBERG Guidebook* as the companion for the walking;

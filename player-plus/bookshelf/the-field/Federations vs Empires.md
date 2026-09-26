@@ -20,5 +20,4 @@ In play, a player meets this at the moment their [[Supercell]] proposes somethin
 **Stands on:** [[Sovereignty At Every Scale]] · [[Federation]] · [[Consent]] · [[Withdrawal Of Consent]] · [[Subsidiarity]]
 **Opens onto:** [[Structural Immunity]] · [[Centralization Of Power]] · [[Total Nested Holarchy Of Sovereignties]] · [[The Two-Stake Principle]] · [[Separation Of Power]]
 **In play:** beyond — the first time a Cell declines something its Home wanted
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Cooperative Architecture (named, no body) · *The LIØNSBERG Playbook*, Play — Federate Across Scales · *Sovereignty At Every Scale* · *Total Nested Holarchy of Sovereignties* · lionsberg.wiki: Sovereignty At Every Scale
 **Open:** Named as a Pattern in two indexes with no card of its own; this page is composed from the surrounding pages, not from a dedicated articulation.

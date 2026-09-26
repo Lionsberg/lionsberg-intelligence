@@ -20,5 +20,4 @@ Its strongest written instruments are the Season Sheet and the seasonal turning;
 **Stands on:** [[Time]] · [[Rhythm]] · [[Logos]] · [[Cycle]] · [[Celebration]]
 **Opens onto:** [[Season]] · [[The turnings]] · [[Sabbath]] · [[Ritual]] · [[The LIØNSBERG Calendar]] · [[Rites of Passage]] · [[Festival]] · [[The Daily Way]]
 **In play:** table · Home · Gate · beyond
-**Sources:** `Pillar XII — Sacred Time, Rhythm, and Celebration` (canon-grade; twelve theses and narrative) · `The LIØNSBERG Lexicon`, Pillar XII table of twelve terms (canon-grade) · `The Clock of the Game` (Little Book chapter, current best understanding) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Calendar, Cycle, Time* and *Initiation And Threshold Rites* (ore) · lionsberg.wiki: Pillar XII — Sacred Time, Rhythm, and Celebration
 **Open:** The Pillar page declares linear time an illusion while the Game runs on a solar clock read from an almanac; the two are reconciled in practice but nowhere in writing. · The rites of the life thresholds are named across the Pillar and the Pattern Language and drafted nowhere.

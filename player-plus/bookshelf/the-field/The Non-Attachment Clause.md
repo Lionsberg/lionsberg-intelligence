@@ -24,5 +24,4 @@ What it does regardless is set the expectation in the open, where anyone can hol
 **Stands on:** [[The Goal]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[The Foundational Truth]]
 **Opens onto:** [[Acceptance Criteria for a New System]] · [[Institutional Idolatry]] · [[Disbanding]] · [[The Act Of Release]] · [[Do Not Concretize the Absolute]] · [[Weaving vs. Starting New]] · [[Dissolution by prior design]] · [[The Test of Belonging]]
 **In play:** the door — said out loud when a stranger asks what this body wants
-**Sources:** `LIØNSBERG Wiki Books/Beyond The Meta Crisis/6.5 Acceptance criteria for the New System and Approach.md`, closing paragraphs
 **Open:** No mechanism, no trigger, and nobody named who could invoke it. · The three conditions attached to it are exactly the conditions an attached body would never find satisfied.

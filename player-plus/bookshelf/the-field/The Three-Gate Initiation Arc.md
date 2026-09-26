@@ -14,7 +14,7 @@ pillar: —
 
 **The seven-year path to mastery.** From there, the long walk toward actual standing in the craft ([[Mastery]], [[Belt Progression]], [[The Seven Phases, And The Pace]]).
 
-**The design feature is the phrase "if mutual consent remains."** Each gate is a place where either party may decline, and neither is required to justify it. That converts a formation from an escalator — where leaving becomes progressively more shameful — into a series of freely renewed agreements. It is the same discipline the canon applies to every binding relationship: consent is not given once, and a commitment with no honourable exit is not a commitment but a trap ([[Consent]], [[Mutual Consent]], [[The Way Out]], [[Range Of Tolerance]]).
+**The design feature is the phrase "if mutual consent remains."** Each gate is a place where either party may decline, and neither is required to justify it. That converts a formation from an escalator — where leaving becomes progressively more shameful — into a series of freely renewed agreements. It is the same discipline applied to every binding relationship: consent is not given once, and a commitment with no honourable exit is not a commitment but a trap ([[Consent]], [[Mutual Consent]], [[The Way Out]], [[Range Of Tolerance]]).
 
 And the shape generalises. Any formation that means to produce depth needs a short trial nobody loses face leaving, a middle season long enough to be real, and a long walk whose end is standing rather than a certificate — with a gate between each, held by both.
 
@@ -22,5 +22,4 @@ And the shape generalises. Any formation that means to produce depth needs a sho
 **Stands on:** [[Consent]] · [[Apprenticeship]] · [[Belt Progression]] · [[Initiation (as stage)]]
 **Opens onto:** [[90 Day Sprint]] · [[The Three-Year Formation]] · [[The Seven Phases, And The Pace]] · [[The Practice Cadence]] · [[Mastery]] · [[The Way Out]] · [[Rites of Passage]] · [[Who Refuses The Call, And Is Honored]]
 **In play:** the Gate — the shape of entering anything worth years
-**Sources:** `LIØNSBERG Wiki Books/Becoming a Warrior of The Way` · lionsberg.wiki: Becoming a Warrior of The Way
 **Open:** This arc and the longer eight-stage, seven-to-ten-year arc of the fuller guidebook describe the same walk in different shapes, and neither acknowledges the other. · The source states the three gates in three lines and says nothing about what is taught in each, what passes a gate, or who decides.

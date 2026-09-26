@@ -22,5 +22,4 @@ The source is candid that this offends whoever holds themselves the only chosen 
 **Stands on:** [[ReHarvesting the Great Traditions]] · [[Wisdom]] · [[Collective Inheritance]]
 **Opens onto:** [[Knowledge as commons]] · [[The Living Library]] · [[Wisdom Council]] · [[Dialogos]] · [[The Translation Journey]] · [[Cross-Cultural Pattern Translation]] · [[We Do Not Know]] · [[The LIØNSBERG Academy]]
 **In play:** beyond — and at the smallest scale, as elders in council deciding for the seventh generation
-**Sources:** `LIØNSBERG Wiki Books/The Book of LIØNSBERG/Chapter 9 - The Quest for Sovereignty/9.16 The House Of Wisdom.md` (the term is a live link on it and no page stands at that name)
 **Open:** Named as an initiative longing to be undertaken; nothing exists, and no page says who would convene it or how the gathered would be chosen. · The precedent is invoked in one sentence and its actual history — including how it ended — is not engaged.

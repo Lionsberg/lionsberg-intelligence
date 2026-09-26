@@ -22,5 +22,4 @@ The source tells this as history, naming actors. The pattern crosses; the accusa
 **Stands on:** [[Kontrolle]] · [[Centralization Of Power]] · [[Power]]
 **Opens onto:** [[Supply Line Supremacy]] · [[Divide and Conquer · Keep Divided To Keep Conquered]] · [[Federations vs Empires]] · [[Power Over]] · [[Extraction Of Wealth]] · [[Structural Immunity]] · [[The Existing Order]] · [[Withdrawal Of Consent]]
 **In play:** beyond — the shape to recognise, in large bodies and in small ones
-**Sources:** `LIØNSBERG Wiki Books/Aliens, Fascists, and Giants`, ch. 23
 **Open:** Told as narrative and never abstracted into a pattern statement in its source; this page does the abstracting. · The source chapter names governments, firms and a dated prediction; none of that is carried, and nothing here rests on it.

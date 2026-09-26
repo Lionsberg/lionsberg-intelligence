@@ -11,6 +11,7 @@ status: current best understanding, loosely held · improved each week
 意味が先、名が後——各語の「一行の意味」こそが根であり、名称はそれを日本語で担うための言い方にすぎない。訳し方の取捨は表末の注に記し、うまく訳せなかった語もそこに挙げる。
 
 *This is the Japanese rendering of the Rosetta Stone: 827 concepts, one line each, one meaning each, numbered exactly as in the English source — line six is line six in every language. Meaning first, name second; the choices are named in the note at the foot.*
+*Row 111 (Pass The Flame) updated 2026-09-26 to the Sprint's rule — your three, within three days; its translation awaits review by native speakers.*
 
 | # | tier | English name | 名称 | 一行の意味 | English meaning |
 |---|---|---|---|---|---|
@@ -124,7 +125,7 @@ status: current best understanding, loosely held · improved each week
 | 108 | 200 | On translating | 翻訳について | 言葉はあなたの卓が話す言語へ訳せ。番号は保て。六行目はどこでも六行目だから。 | Translate the words into whatever your table speaks; keep the numbers, because line six is line six everywhere. |
 | 109 | 200 | One of the Ones of the ØNE | ØNEの一なるものたちの一つ | すべての一つひとつが一であり、一なるものたちの一つであり、ØNEのものである。 | Each of the All is one, and one of the Ones, and of the ØNE. |
 | 110 | 200 | One Purpose Above All | すべてに先立つ一つの目的 | 十二の還元不能な要素の第一——目的が治め、導く者は仕える。 | The first of the Twelve Irreducible Elements: the Purpose governs, and leaders serve. |
-| 111 | 200 | Pass The Flame | 灯を継ぐ | 第七の動き、決して任意ではない——一週間のうちに、用意ができていると分かる二、三人へゲームを運べ。その細胞は彼ら自身のものであり、あなたの枝ではない。 | Move seven, never optional: within a week, carry the Game to the two or three you know are ready. Their Cell is their own, not a branch of yours. |
+| 111 | 200 | Pass The Flame | 灯を継ぐ | 第七の動き、決して任意ではない——三日のうちに、あなたの三人へゲームを運べ。まだ遊んでおらず、用意ができていると分かる人たちへ。その細胞は彼ら自身のものであり、あなたの枝ではない。 | Move seven, never optional: within three days, carry the Game to your three — people not already playing, whom you know are ready. Their Cell is their own, not a branch of yours. |
 | 112 | 200 | Pillar I — Sacred Ontology and Metaphysics | 第一の柱——聖なる存在論と形而上学 | 新しい文明が建てられる十二の球の第一——すべてを大いなる物語と神聖な秩序の中で絶えず整え直し、ロゴスを文明の方位づけの力とすること。 | The first of the twelve spheres in which the new civilization is built: continually realigning All within the Great Story and the Divine Order, with the Logos as the orienting force of civilization. |
 | 113 | 200 | Pillar III — Sacred Economy and CurrentSee | 第三の柱——聖なる経済とCurrentSee | 十二の球の第三——搾取に代えて、再生と豊かさのための聖なるエネルギーとしての価値の流れ。 | The third of the twelve spheres: the flow of value as sacred energy for regeneration and abundance, in place of extraction. |
 | 114 | 200 | Pillar IV — Sacred Learning and Mastery | 第四の柱——聖なる学びと熟達 | 十二の球の第四——幾世にもわたる天分・智慧・目的のひらきとしての、絶えざる学び。 | The fourth of the twelve spheres: continuous learning as the unfoldment of genius, wisdom, and purpose across lifetimes. |
@@ -280,7 +281,7 @@ status: current best understanding, loosely held · improved each week
 | 264 | 1000 | Awe | 畏敬 | 観想の一族——畏敬、驚き、敬虔、静けさ。自らが容れうる大きさを超えたものに出会ったとき、存在が感じるもの。 | The contemplative family: awe, wonder, reverence, tranquility. What a being feels on meeting something larger than their capacity to contain it. |
 | 265 | 1000 | Axiology | 価値論 | 価値の学——何が善く、真で、美しく、追い求め体現するに値するか。価値観の系の下にある地面。 | The study of values — what is good, true, beautiful, and worthy of pursuit or embodiment; the ground under the system of Values. |
 | 266 | 1000 | Bard | 語り部 | 物語の職——物語を保ち、それを語る者。 | The office of story: the one who keeps the stories and tells them. |
-| 267 | 1000 | Be the canon, don't narrate it | 正典であれ、正典を語るな | 頁はそのことを言う。そのことがどこかで言われていると報せるのではない。 | A page says the thing. It does not report that the thing is said somewhere. |
+| 267 | 1000 | Be the canon, do not narrate it | 正典であれ、正典を語るな | 頁はそのことを言う。そのことがどこかで言われていると報せるのではない。 | A page says the thing. It does not report that the thing is said somewhere. |
 | 268 | 1000 | Becoming | 成ること | 在ることの満ちへ向けて育っていく過程——能動の変容であり、道が測られる単位。 | The process of evolving toward fullness of Being — the active transformation, and what the Path is measured in. |
 | 269 | 1000 | Being | 在ること | 存在するもの、あるいは存在に与るもの——存在の純粋な本質。われ在り、現前、永遠の今。 | That which exists or participates in existence — the pure essence of existence: I-Amness, presence, the eternal now. |
 | 270 | 1000 | Belonging | 帰属 | 成員であることの、感じられる側——あなたが待たれている卓があり、あなたの不在が気づかれると知っていること。 | The felt side of membership — knowing there is a table you are expected at, and that your absence would be noticed. |
@@ -726,7 +727,7 @@ status: current best understanding, loosely held · improved each week
 | 710 | 1000 | The LIØNSBERG Operating System | LIØNSBERGのオペレーティング・システム | ある群自身の働き方の下にある仕掛け——どこへ向かうかをどう見て、そこから逆に計画し、律動を保ち、言葉を守り、決め、学ぶか。そして、選んだどの日にも、他のあらゆる群と一つの身体として働くか。 | The mechanism underneath a group's own way of working: how it sees where it is going, plans backward from it, keeps a rhythm, keeps its word, decides, learns — and, on any day it chooses, works as one body with every other group. |
 | 711 | 1000 | The LIØNSBERG Quick Start Guide | LIØNSBERGの手早い始めの手引き | 共に過ごす最初の九十分——何を声に出して読むか、群としてどう意味を成すか、そして最初のクエストをどう選ぶか。 | Your first ninety minutes together: what to read aloud, how to make sense as a group, and how to choose your first Quest. |
 | 712 | 1000 | The LIØNSBERG Toolkit | LIØNSBERGの道具箱 | 手の中の器具——身体が実際に手に取る雛型、記録表、カード。パターンとプレイの下にある、第三の層。 | The instruments in hand: the templates, trackers, and cards a body actually picks up — the third layer beneath the Pattern and the Play. |
-| 713 | 1000 | The LIØNSBERG Voice | LIØNSBERGの声 | これらの頁が書かれている調べであり、どの段落もそれに照らして試される基準——最も詰めて言えば、正典であれ、正典を語るな。 | The register these pages are written in, and the standard every paragraph is tested against — most compactly: be the canon, don't narrate it. |
+| 713 | 1000 | The LIØNSBERG Voice | LIØNSBERGの声 | これらの頁が書かれている調べであり、どの段落もそれに照らして試される基準——最も詰めて言えば、正典であれ、正典を語るな。 | The register these pages are written in, and the standard every paragraph is tested against — most compactly: be the canon, do not narrate it. |
 | 714 | 1000 | The LIØNSBERG Workshop | LIØNSBERGの工房 | 生きた工事現場——まだ証されていないものが正直に保たれ、すべての身体が共に立ち上がれるように器具が良くされていく場所。 | The living construction site: where what is not yet proven is kept honestly, and where an instrument is improved so that all bodies rise together. |
 | 715 | 1000 | The Locality | 土地 | 微小土地と生態地域のあいだの尺度に対する、より古く、より素朴な呼び名——土地と都市。 | The older, plainer name for the scales between the Microlocality and the Ecoregion — the locality and the city. |
 | 716 | 1000 | The Logic Of Love | 愛の論理 | 情としてではなく、秩序づける原理であり決定の枠としての愛——八十億の人が内側にいる方程式を解く論理。 | Love as an ordering principle and decision framework, not a sentiment — the logic that solves the equation eight billion people are inside. |
@@ -821,7 +822,7 @@ status: current best understanding, loosely held · improved each week
 | 805 | 1000 | We The People | 我ら人民は | 新しい身体を構成する主体——民を打ち立てる政府ではなく、自らを構成する民である。地球と、その彼方の、自由で主権ある住まう者たち。 | The constituting subject of the new body: not a government founding a people, but a people constituting itself — the free and sovereign inhabitants of Earth and beyond. |
 | 806 | 1000 | Wealth | 富 | 今と、これから来るすべての世代の生が、備えられ、栄えうるために要されるすべての豊かさ。 | The abundance of all that is needed to provision and enable flourishing for all present and future generations of life. |
 | 807 | 1000 | Weaponry To Livingry | 武器から生器へ | 壊す力を、生に仕える力へ転じること——剣を鋤に、産業文明の規模で。 | The conversion of destructive capacity into life-serving capacity — swords to ploughshares, at the scale of an industrial civilization. |
-| 808 | 1000 | Weave, don't delete | 織れ、消すな | ある出どころが書庫へ入れられる前に、その中で新しかったものは正典の家へ織り込まれる。その形を可能にした歩みは、消されるのではなく、敬われる。 | Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased. |
+| 808 | 1000 | Weave, do not delete | 織れ、消すな | ある出どころが書庫へ入れられる前に、その中で新しかったものは正典の家へ織り込まれる。その形を可能にした歩みは、消されるのではなく、敬われる。 | Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased. |
 | 809 | 1000 | Weaving vs. Starting New | 織ることと、新しく始めること | 百の競い合う超個体からは、神なる調和は生まれない。 | One hundred competing superorganisms does not divine harmony make. |
 | 810 | 1000 | Welcome a Newcomer | 新しく来た人を迎える | すでに結ばれた細胞に、誰かがどう加わるか。 | How someone joins a Cell that has already been sealed. |
 | 811 | 1000 | Welcome to LIØNSBERG | LIØNSBERGへようこそ | 敷居の第二の文——新しく着いた者のまわりで世界がはっと目を覚まし、より深い招きが差し出される、その瞬間。 | The second text of the threshold: the moment the world snaps awake around a new arrival, and the deeper invitation is made. |

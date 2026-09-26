@@ -28,5 +28,4 @@ The name is unfortunate in ordinary English, where a whispering campaign means s
 **Stands on:** [[Pass The Flame]] · [[Attraction, not promotion]] · [[Listening]]
 **Opens onto:** [[The Invitation]] · [[Speaking Truth In Love]] · [[Tipping Point Strategy]] · [[The First Three Percent]] · [[Demonstrate before advocating]] · [[Wise Right Speech]] · [[The Divine Whisper]] · [[The Issue-To-Movement Arc]]
 **In play:** the door — how anyone is ever actually reached
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Whisper Campaign.md` · *Pass The Flame* §VII, where the term is named twice and not defined
-**Open:** Named in two books and defined in neither beyond the three movements; the operational detail is entirely absent. · The name collides with a common English phrase meaning the opposite of what is intended, and nothing in the corpus addresses it.
+**Open:** Defined only by its three movements; the operational detail is entirely absent. · The name collides with a common English phrase meaning the opposite of what is intended, and nothing addresses it.

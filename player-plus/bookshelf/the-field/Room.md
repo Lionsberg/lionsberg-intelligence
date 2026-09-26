@@ -20,5 +20,4 @@ In a room outside the Game nothing stands yet, so someone has to raise it, and i
 **Stands on:** [[The door]] · [[Terms]] · [[Host]] · [[Field of Agreements]]
 **Opens onto:** [[Jam]] · [[Safe sparring]] · [[Venue card]] · [[Play by Play]] · [[Comment]] · [[Sign]] · [[Closing question]] · [[Stop]]
 **In play:** Room
-**Sources:** Player+ Modules, *Entering the Field*, *Before Your First Room*, *Safe Sparring*, *Jam Conventions* · The DNA of Heaven, Parts V and X.
 **Open:** none found.

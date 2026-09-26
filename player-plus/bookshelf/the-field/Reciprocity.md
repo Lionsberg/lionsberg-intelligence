@@ -20,5 +20,4 @@ At a table it is concrete. Each week every player says what they have to offer a
 **Stands on:** [[Right Relationship]] · [[Love]] · [[InterExistence]]
 **Opens onto:** [[Exchange]] · [[Gift]] · [[Mutual Aid]] · [[Commons]] · [[Voluntary Tithing]] · [[Kinship]] · [[Requests and offers]]
 **In play:** table · Home · Room · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Reciprocity* (canon-grade; one line) · *The LIØNSBERG Pattern Language — Synthesized* (canon-grade; invoked throughout) · *The LIØNSBERG Playbook* (invoked by many Plays) · *Fostering Ecosystemic Resource Flows* (wiki root) · lionsberg.wiki: Reciprocity
 **Open:** none found.

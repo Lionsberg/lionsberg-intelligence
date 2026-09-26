@@ -20,5 +20,4 @@ What distinguishes it from a region, a state, or an association of members is th
 **Stands on:** [[Holofractal Omnifederation]] · [[Federation]] · [[Sovereignty At Every Scale]] · [[Community]] · [[Subsidiarity]]
 **Opens onto:** [[Supercell]] · [[Bioregion]] · [[The Locality]] · [[Guild]] · [[Federations vs Empires]] · [[Fractal Commonsing]]
 **In play:** Home · beyond
-**Sources:** `Community of Communities` (root page) · `The LIØNSBERG Lexicon`, §Tribe of Tribes · `Twelve Irreducible Elements`, Element 2 (canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, §Cooperative Architecture and §Scales · lionsberg.wiki: Community of Communities
 **Open:** Whether a community of communities is the same object as a supercell of Cells, or a distinct scale above it, is not settled anywhere; the two vocabularies run in parallel.

@@ -20,5 +20,4 @@ Held alone, immanence would flatten every distinction and leave nothing to corre
 **Stands on:** [[Spirit]] · [[Creation]] · [[ØNE]]
 **Opens onto:** [[Divine Spark]] · [[InterExistence]] · [[Reverence]] · [[Transcendence]] · [[Embodiment]]
 **In play:** Met at the table in how the smallest things are treated; met at the door, in being told that what is offered already lives in you.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I and Boundaries and Limits of Conception ("the presence of the Divine within All things") · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Root And Trunk · *The Living Gradient* (root page) · lionsberg.wiki: *Boundaries and Limits of Conception*.
 **Open:** none found.

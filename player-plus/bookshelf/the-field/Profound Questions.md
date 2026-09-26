@@ -22,5 +22,4 @@ And a body should keep its own list. Not to close it, but so that it can see wha
 **Stands on:** [[Mystery]] · [[Asking Questions]] · [[We Do Not Know]]
 **Opens onto:** [[The one question]] · [[Most Important Things]] · [[Dialogos]] · [[Council]] · [[Mind]] · [[Consciousness]] · [[Philosophy]] · [[Epistemology]] · [[Pillar IV — Sacred Learning and Mastery]]
 **In play:** the Room, after the work — and every season, when a body asks what it has stopped wondering about
-**Sources:** `Profound Questions` (root page, stub — two questions and no answers) · `Most Important Things` (root page, stub, which carries a longer list of great questions) · lionsberg.wiki: Profound Questions
 **Open:** The canon holds two questions here and a much longer list of similar questions under another name, and nothing relates the two pages. · Everything above beyond the two questions is a first articulation. · Inbound links were not counted.

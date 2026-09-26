@@ -6,18 +6,18 @@ Claude is an AI made by Anthropic. Your agent thinks with Claude, through Claude
 
 ## Sign Up for the Pro Plan
 
-1. In your browser, type **claude.ai** yourself. Don't follow a search result or an ad; there are many look-alike sites.
+1. In your browser, type **claude.ai** yourself. Do not follow a search result or an ad; there are many look-alike sites.
 2. Create an account with your email.
 3. Choose the **Pro** plan. It includes everything this path needs, Claude Code among it. (Max works too.)
 
-Don't install the Claude desktop app or phone app yet. You won't need them here.
+Do not install the Claude desktop app or phone app yet. You will not need them here.
 
 > [!tip]
 > Current plans and pricing are always at claude.ai, and you can change plans later. Some plans offer an optional usage top-up as a buffer for heavy days, but most people never need it.
 
 One person, one account: the terms of service say so, and a shared account also means a shared view of everyone's sessions.
 
-## What You're Paying For
+## What You are Paying For
 
 A paid Claude plan gives you:
 
@@ -25,10 +25,10 @@ A paid Claude plan gives you:
 - **Claude in your browser** — conversations at claude.ai
 - **Higher usage limits** than the free tier
 
-You don't need to pay for anything else. No API keys, no separate billing for Claude Code: when Claude Code asks how to sign in, you'll choose your Claude subscription, and it's all included in your plan.
+You do not need to pay for anything else. No API keys, no separate billing for Claude Code: when Claude Code asks how to sign in, you will choose your Claude subscription, and it is all included in your plan.
 
 > [!tip]
-> **If you like, get to know Claude first.** While you're signed in, you can ask Claude questions at claude.ai: have it explain something you're learning, or walk you through anything that's confusing. It's the same AI your agent thinks with. This is optional; the Quest doesn't need it.
+> **If you like, get to know Claude first.** While you are signed in, you can ask Claude questions at claude.ai: have it explain something you are learning, or walk you through anything that is confusing. It is the same AI your agent thinks with. This is optional; the Quest does not need it.
 
 ## Next Step
 

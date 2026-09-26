@@ -20,5 +20,4 @@ Two disciplines keep it from becoming a filing habit. A tier is set by whoever h
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Requirement Of Transparency]] · [[Selectively Permeable Membrane]]
 **Opens onto:** [[The door]] · [[Chatham House]] · [[Minimum standards of interoperability]] · [[Terms]] · [[Guard the Membrane]] · [[Control Of Information]]
 **In play:** the door — read before anything is shown, written on everything that is made
-**Sources:** `Projects/The Kit 2026-09/The Minimum Standards of Interoperability — What a Holon Carries to Be a Cell (the Kit, v0)`, the disclosure-tier row · *Disclosure Tiers of a Holon — Term Page and Field Spec* (named in that row; the spec itself is held outside the canon) · lionsberg.wiki: Minimum Standards of Interoperability
-**Open:** The tiers are named in the canon only by example — open, community-trust, close-held — and no page fixes the set, the words, or who may change an item's tier after it has been handed to someone else.
+**Open:** The tiers are named only by example — open, community-trust, close-held — and no page fixes the set, the words, or who may change an item's tier after it has been handed to someone else.

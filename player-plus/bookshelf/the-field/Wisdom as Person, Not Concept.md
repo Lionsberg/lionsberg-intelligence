@@ -22,5 +22,4 @@ What it changes at a desk: reading becomes encounter rather than extraction, and
 **Stands on:** [[Wisdom]] · [[ØNE]] · [[Listening]] · [[Reverence]]
 **Opens onto:** [[The Refining Fire (Wisdom's)]] · [[The Divine Whisper]] · [[Silence And Stillness As The Ground]] · [[Christos and Sophia — The Sacred ReMarriage]] · [[Apparent Polarities]] · [[Prayer]] · [[Discernment]] · [[Types Of Knowing]]
 **In play:** the table — in how learning is approached, and at every hour kept for stillness
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Wisdom as Person, Not Concept.md`
 **Open:** Whether this is metaphor taken seriously or an ontological claim about a person is left deliberately undecided in the Card, and readers take it both ways. · The Card declines to equate Her with any tradition's named figure while drawing heavily on several; the refusal is stated, not worked out. · That refusal is easier to declare than to keep, and this page does not keep it perfectly either.

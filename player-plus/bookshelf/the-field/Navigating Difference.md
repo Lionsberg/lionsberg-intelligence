@@ -20,5 +20,4 @@ This is a named gap, and it is fair to say so. What is written is the observatio
 **Stands on:** [[Dignity]] · [[Meta Unity of Meta Diversity]] · [[Right Relationship]] · [[Gaps Not Yet Closed]]
 **Opens onto:** [[Universal-Accessing]] · [[The Zone Of Optimum Development]] · [[Equal Opportunity For All]] · [[Belonging]] · [[Welcoming The Stranger]] · [[Higher Order Functional Unity]]
 **In play:** door · table · Room
-**Sources:** `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *The Wisdom Of The Different* (ore; the section carries its own note that the underlying writing is still to be found) · `Pillar XI — Sacred Society and Justice`, Thesis 8 (canon-grade) · lionsberg.wiki: no page stands at this name
 **Open:** This is ore, not a written pattern: the gap section names the needed patterns — navigating difference, consciously managing discomfort, limitations and disabilities, acceptance, accessibility, caregiving — and none of them has a page. · The section refers to earlier writing on the subject that has not been located.

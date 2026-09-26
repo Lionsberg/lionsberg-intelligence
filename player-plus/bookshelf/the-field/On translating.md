@@ -20,5 +20,4 @@ Translation is therefore an act of the commons, not a local convenience. A good 
 **Stands on:** [[The Twelve Words]] · [[Word Tools]] · [[A Word on Words]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[The Season Sheet]] · [[An address]] · [[Proposal]] · [[The edition]] · [[Cross-Cultural Pattern Translation]]
 **In play:** table · beyond
-**Sources:** The Twelve Words, "On translating" (canon-grade) · The LIØNSBERG Operating System, standard 3 · The DNA of Heaven, Parts VII and XII · lionsberg.wiki: *The Twelve Words*
 **Open:** the rule is stated for the twelve words and the Season Sheet's fourteen lines; whether it binds the numbering of any other card is not yet said anywhere.

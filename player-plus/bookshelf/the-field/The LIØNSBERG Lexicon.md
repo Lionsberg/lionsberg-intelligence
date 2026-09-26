@@ -20,5 +20,4 @@ Held honestly, it is unfinished. The page marks itself a work in progress, sever
 **Stands on:** [[The Language of LIØNSBERG]] · [[Word Tools]] · [[A Word on Words]] · [[Essences, Renderings, And Ineffable Referents]]
 **Opens onto:** [[Lexicon · Pattern Language · Playbook]] · [[One canonical home per concept]] · [[The Twelve Words]] · [[Boundaries and Limits of Conception]] · [[Working Exploration of Concepts Missing From English]] · [[Work In Progress]] · [[The Sacred Codex]]
 **In play:** table · beyond
-**Sources:** The LIØNSBERG Lexicon · The Sovereign Path, "Where Each Volume Opens" · The LIØNSBERG Playbook, "Where This Volume Sits" (canon-grade) · lionsberg.wiki: *The LIØNSBERG Lexicon*
 **Open:** the Lexicon numbers its entries in several restarting sequences, so a citation by number is not stable. Its Pillar names differ from the Pillars book in two places (Pillar III, Pillar V).

@@ -20,5 +20,4 @@ The Whisper asks nothing on arrival but to be heard. Most hear it many times bef
 **Stands on:** [[ØNE]] · [[Spirit]] · [[The Caves]] · [[Remembrance]]
 **Opens onto:** [[Awakening]] · [[The Decision]] · [[The Wilderness]] · [[The Invitation]] · [[Listening]]
 **In play:** door · Gate
-**Sources:** *The Whisper* · *The Story of LIØNSBERG — The Sacred Arc*, Movement VI (canon-grade) · *The Decision* · *The 144 Gates of Initiation*, Movement 1 — lionsberg.wiki · the seed text *The DNA of Heaven*, Part II.
 **Open:** The field's row names this *The Divine Whisper*; the wiki page is *The Whisper*, and a kindred Card *The Whisper Within* is named beside it. Three names, one meaning, not yet settled on one home.

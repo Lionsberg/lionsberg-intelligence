@@ -16,11 +16,10 @@ It is load-bearing because it is the hinge between the metaphysics and everythin
 
 It is why the return is described as a remembering rather than an acquisition. Nothing is added at the end; something is recognised that was the case the whole time ([[The Great ReMembering]], [[Coming Home]], [[The Veil of Finitude and Forgetting]], [[The True Self]]).
 
-And it carries a warning. Held carelessly it becomes a reason to override a person for their own good, since *we are all one anyway*. The canon's guard is emphatic and structural: no unity may be used to violate a free will ([[Free Will]], [[Primacy Of Consent]], [[Dignity]]).
+And it carries a warning. Held carelessly it becomes a reason to override a person for their own good, since *we are all one anyway*. The guard is emphatic and structural: no unity may be used to violate a free will ([[Free Will]], [[Primacy Of Consent]], [[Dignity]]).
 
 **Also called:** apparent separateness
 **Stands on:** [[ØNE]] · [[All]] · [[One of the Ones of the ØNE]]
 **Opens onto:** [[The Veil of Finitude and Forgetting]] · [[InterExistence]] · [[Divine Spark]] · [[The True Self]] · [[The Great ReMembering]] · [[Union]] · [[Emanation]] · [[Sachchidananda]] · [[Free Will]] · [[Holding Paradox]]
 **In play:** beyond — the metaphysics beneath every rule about persons
-**Sources:** `One of the Ones of the ØNE`, `The Veil of Finitude and Forgetting` (wiki) · lionsberg.wiki: ØNE
-**Open:** The canon holds only the name; there is no body for it anywhere, and this is a first articulation drawn from the neighbouring pages that do have bodies. · How far the *apparent* is meant to be pressed — whether individuation is provisional, perspectival, or genuinely constitutive — is not stated, and different traditions the canon draws on answer it differently.
+**Open:** Only the name is held; there is no body for it anywhere, and this is a first articulation drawn from the neighbouring pages that do have bodies. · How far the *apparent* is meant to be pressed — whether individuation is provisional, perspectival, or genuinely constitutive — is not stated, and different traditions drawn on here answer it differently.

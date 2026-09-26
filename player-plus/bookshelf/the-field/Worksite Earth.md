@@ -19,5 +19,4 @@ The framing also sets the scope honestly. The transformation required is larger 
 **Stands on:** [[Earth]] · [[Heaven On Earth]] · [[The Goal]]
 **Opens onto:** [[Integrated Delivery]] · [[Design To The Goal]] · [[Networks of Commitments]] · [[Tightly Coupled Learning and Action]] · [[The Meta Project]] · [[The Core Pattern]] · [[Quest]]
 **In play:** At the table, as the reason a Quest is treated as real work with a *done when* line; at the Room and beyond, as the plan of the whole that local work is a stretch of.
-**Sources:** `Worksite Earth` (wiki root, canon-grade) · `Worksite Earth` (Card) · `Twelve Irreducible Elements`, element 9 · `The Core Pattern` · `The Program Delivery Guide` · `Pass The Flame`, Ch. 3. lionsberg.wiki: **Worksite Earth**.
 **Open:** The root page claims these production patterns are universal principles of how intelligent beings coordinate — a cosmological claim resting on the same page as a verifiable research lineage; the two kinds of warrant are not distinguished there.

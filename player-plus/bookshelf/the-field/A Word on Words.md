@@ -20,5 +20,4 @@ And when two of us use a word, we mean the same thing. When we find that we do n
 **Stands on:** [[Word Tools]] · [[The Caves]] · [[Kontrolle]] · [[The Language of LIØNSBERG]]
 **Opens onto:** [[The Twelve Words]] · [[The LIØNSBERG Lexicon]] · [[On translating]] · [[The Incipient Link]] · [[Limit Statement]] · [[Semantic Capture]]
 **In play:** door
-**Sources:** The Little Book of the Great Game — Second Draft, "A Word on Words" · The DNA of Heaven, Part I · Word Tool · lionsberg.wiki: *The Little Book of the Great Game*
 **Open:** the chapter's closing pointer sends the reader to *The Language — 1. Word Tools*, the first chapter of the One Book's Movement on the Language; that chapter is named but not yet written.

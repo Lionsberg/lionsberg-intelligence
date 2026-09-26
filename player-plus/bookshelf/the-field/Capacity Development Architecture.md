@@ -22,5 +22,4 @@ The arcs nest rather than follow: nothing from the first is finished when the se
 **Stands on:** [[The Sovereign Path]] · [[The 144 Gates of Initiation]] · [[Capacity]] · [[ØNE Body]]
 **Opens onto:** [[The Sacred Ascent]] · [[Belt Progression]] · [[The Seven Belts]] · [[The dans, and Mastery at 5th Dan]] · [[The Five Archetypal Ways]] · [[The Three-Year Formation]] · [[The Eternal Divine Play]] · [[Mastery]]
 **In play:** the Path — read when a person asks what the next stretch is actually for
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Capacity Development Architecture.md` (Card, settled) · its companion Card on the capacity axis (settled)
 **Open:** The year figures (three, then seven to ten) are design estimates, not measurements, and the Card says nothing about how they were arrived at. · The belt vocabulary is borrowed from the martial arts and its fit is asserted rather than examined. · Whether the arcs are sequential or genuinely nested is said both ways in the same Card.

@@ -1,7 +1,7 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 07
+chapter: 7
 ---
 
 # ØNE — the Center
@@ -238,3 +238,4 @@ The center's own words, at the table and beyond it.
 **What was overridden, and why.** The prior draft of this ground is carried wherever it is truer or more beautiful: the four sayings and their order, the refusals, the three ways of knowing, the one warning, the inversion test for a false awakening, and the lines on the captured words and the sanctified space between word and thing. Overridden: its bounded-999 claim (answer 4); its framing of the appearance of separation as "sacred veiling", which is carried here as the *two gifts* and the open door, because the freedom is the point and the veil is a later movement; and its placement of this material as an argument about *why* rather than as a Pillar with a plan and specifications, which is what this Book needs it to be.
 
 **Held most loosely.** That the six interoperability standards are the right six. That stating the instance law in binding voice is not itself an absolute minted in heat. And that a chapter can carry the theodicy — the two gifts, love freely withheld — in this compressed form without losing what the telling around the fire does with it; that scene may need to cross whole into the Story rather than be summarized here.
+

@@ -18,5 +18,4 @@ Sealing is a beginning, not a wall. The membrane stays open by consent: newcomer
 **Stands on:** [[Circle (as gathering)]] · [[The Invitation]] · [[The Pledge]] · [[Consent]]
 **Opens onto:** [[Cell]] · [[Field of Agreements]] · [[Quest]] · [[The Two-Coordinator Rhythm]] · [[Welcome a Newcomer]] · [[The Board]]
 **In play:** the door
-**Sources:** `Play — Seal the Circle`, The LIØNSBERG Playbook, Opening Plays · `Play — Gather the Ready`, `Play — Run the First Gathering`, `Play — Name the Circle` · `Form A Cell` · The DNA of Heaven, Part V · lionsberg.wiki: Play — Seal the Circle
 **Open:** none found.

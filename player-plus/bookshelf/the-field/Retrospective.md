@@ -20,5 +20,4 @@ Two disciplines keep it from drifting. Review is not self-evaluation — the hon
 **Stands on:** [[Learning]] · [[Praxis]] · [[Zero Blame Environment]] · [[The Record]]
 **Opens onto:** [[Continuous Improvement]] · [[Every Defect Is A Gift]] · [[OmniSpection]] · [[The Turn]] · [[The gap]] · [[Attend, Plan, Act, Learn, Improve Cycle]] · [[Second reader]]
 **In play:** table · Home
-**Sources:** *Continuous Improvement* (wiki root) · *The LIØNSBERG Pattern Language — Synthesized*, Continuous Learning (canon-grade) · Player+ Modules *Lexicon* — *retrospective*, *look-back* · *The DNA of Heaven*, Part V · lionsberg.wiki: Retrospectives
 **Open:** none found.

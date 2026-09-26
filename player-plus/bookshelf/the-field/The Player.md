@@ -18,5 +18,4 @@ In practice a Player is named on the first card: name, players and roles this se
 **Stands on:** [[Cell]] · [[Player+]] · [[Sovereignty]]
 **Opens onto:** [[An address]] · [[The same card shape]] · [[The plan of the whole]] · [[Commitment]]
 **In play:** door · table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §1 · *Player* and *Person+* · the Player+ Modules Lexicon · *The DNA of Heaven*, Part X — lionsberg.wiki page name: **Player**
 **Open:** The OS says *Person+* where the Modules say *Player+*; the two are the same unit under two names.

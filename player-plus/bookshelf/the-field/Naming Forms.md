@@ -22,5 +22,4 @@ The rule that governs all three is [[Word Tools]]: one working name per wisdom, 
 **Stands on:** [[Word Tools]] · [[The LIØNSBERG Pattern Language]] · [[Language]]
 **Opens onto:** [[Pattern Card]] · [[Naming]] · [[Patterns Pending Articulation]] · [[On translating]] · [[Pattern-Languaging]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Patterns Inventory Review — Naming Discipline And Civilizational Coverage Gaps 2026-05-24* · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** none found

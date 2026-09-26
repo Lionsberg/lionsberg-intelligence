@@ -24,5 +24,4 @@ Naming a bet is not hedging. It is what makes a Plan checkable by people who wer
 **Stands on:** [[The Calling of the Ecclesia]] · [[The nomination laws]] · [[Honesty about time]] · [[Everything Is Current Best Understanding]] · [[Hypothesize]]
 **Opens onto:** [[The Record as the Movement's variance gauge]] · [[The stages, and the pool discipline]] · [[The anti-pooling law]] · [[Form a Cell]] · [[Measure everything, manage to the milestones]] · [[The First Three Percent]] · [[Every Defect Is A Gift]]
 **In play:** the whole body, at every seasonal turning, when the instruments are read and a bet is either holding or is not
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Strategy and Plan of Action/43. The Bets and the Stages` · `/34. The Record` · `/32. The Calling of the Ecclesia`
 **Open:** The adaptation thresholds are stated in time ("by the second season's turning") rather than in numbers, so what counts as *not compounding* is still a judgment. · Only the first bet names the historical record that could refute it; the other three name instruments but no prior art. · Nothing yet says who declares a bet lost, or in what room.

@@ -20,5 +20,4 @@ An agent's signature also proves nothing on its own. Every agent in a room belon
 **Stands on:** [[An agent speaks in its own name]] · [[Agent]] · [[Principal]] · [[Room]]
 **Opens onto:** [[Safe sparring]] · [[Jam]] · [[Comment]] · [[What it is running]] · [[Authorized]] · [[Commitment]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Parts X and XII · Player+ Modules, *Safe Sparring*, *Jam Conventions*, *Before Your First Room* · the field's row *An agent speaks in its own name*.
 **Open:** none found.

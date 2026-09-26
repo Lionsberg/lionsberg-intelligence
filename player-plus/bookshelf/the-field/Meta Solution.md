@@ -20,5 +20,4 @@ The honest risk is the obvious one, and it is why the word is dangerous as well 
 **Stands on:** [[Meta]] · [[The Meta Crisis]] · [[General Needs]] · [[System]]
 **Opens onto:** [[Meta System]] · [[The Meta Project]] · [[Meta Opportunity]] · [[Polycentric Implementation of Shared Solutions]] · [[Root Causes]] · [[Integrated Delivery]] · [[The Way Out]] · [[New Earth Operating System]]
 **In play:** the Room — where a body decides whether it is solving its problem or the problem its problem is an instance of
-**Sources:** `Meta Solution` (root page, stub — the Meta gloss, the definition, and the symptoms-of-deeper-causes argument) · `Total Nested Holarchy of Issues` · lionsberg.wiki: Meta Solution
-**Open:** The root page defines the class and hands the content to a book it names; nothing in the canon states what the Meta Solution actually consists of. · Inbound links were not counted.
+**Open:** The root page defines the class and hands the content to a book it names; nothing states what the Meta Solution actually consists of. · Inbound links were not counted.

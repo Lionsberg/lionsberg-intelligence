@@ -20,5 +20,4 @@ This is written down as a significant gap, and the naming is honest rather than 
 **Stands on:** [[Dignity]] · [[Guardianship]] · [[Education As Transformation]] · [[Family]] · [[Gaps Not Yet Closed]]
 **Opens onto:** [[Genius]] · [[Curriculum]] · [[Rites of Passage]] · [[Sexual Sovereignty]] · [[Containment Of The Dangerous Sovereign]] · [[Covenant Across Time]] · [[Participation]]
 **In play:** table · Home
-**Sources:** `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Children, Childhood, And The Formation Of New Sovereigns* and *Sexuality, Eros, And Intimate Union* (ore) · `Twelve Irreducible Elements`, Element 6 (canon-grade) · `The Little Book of the Great Game — Second Draft`, the floor beneath the Game · lionsberg.wiki: no page stands at this name
 **Open:** Ore only; every named pattern in this area is unwritten. · Safeguarding — what a body does about harm to a child originating inside itself — is not named even as a gap, and is the most consequential absence in this domain.

@@ -19,5 +19,4 @@ In play it is the diagnostic behind most tensions. When something is wrong in a 
 **Stands on:** [[Love]] · [[InterExistence]] · [[ØNE]]
 **Opens onto:** [[Heaven On Earth]] · [[Justice]] · [[Omniconsideration]] · [[Reciprocity]] · [[Kinship]] · [[Stewardship]] · [[Conflict Transformation]]
 **In play:** At the table, in how members agree to treat one another; at Home and Room, in how bodies relate without answer one another; beyond, in how a people relates to land, ancestors, and the unborn.
-**Sources:** `Right Relationship` · `Right Relationship Between One and All` (root) · `Right Relationship and Sacred Reciprocity` (Card) · `Values` (root — the basic statement of right relationship) · `The LIØNSBERG Lexicon`, Pillar I. lionsberg.wiki: **Right Relationship**.
 **Open:** At least three pages carry this concept — the root, `Right Relationship Between One and All`, and the Card — with no stated precedence between them.

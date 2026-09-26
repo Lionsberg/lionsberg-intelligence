@@ -20,5 +20,4 @@ When something truer arrives, it arrives as a change with its why and its source
 **Stands on:** [[The Goal]] · [[Current Best Understanding]] · [[Current Best Articulation]] · [[Spirit Precedes Pattern]]
 **Opens onto:** [[Provenance]] · [[Progressive canonization]] · [[Work In Progress]] · [[Proposal]] · [[Soak]] · [[Every Defect Is A Gift]] · [[Shu-ha-ri]] · [[We Do Not Know]]
 **In play:** table · Room · beyond
-**Sources:** The DNA of Heaven, "How to read this" and Part VIII · Current Best Understanding (canon-grade) · The LIØNSBERG Lexicon, Meta Layer · the Player+ Modules' Lexicon · lionsberg.wiki: *Current Best Understanding*
-**Open:** the canon holds both *Current Best Understanding* and *Current Best Articulation* as separate terms; the second is a stub, and the difference between them — what we grasp versus the words we have for it — is load-bearing enough to deserve a body.
+**Open:** *Current Best Understanding* and *Current Best Articulation* are held as separate terms; the second is a stub, and the difference between them — what we grasp versus the words we have for it — is load-bearing enough to deserve a body.

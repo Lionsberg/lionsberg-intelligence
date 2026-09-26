@@ -20,5 +20,4 @@ A stop is not a verdict. It buys the time to look, and looking is usually short.
 **Stands on:** [[Structural Immunity]] · [[Zero Blame Environment]] · [[Sovereignty]]
 **Opens onto:** [[Every Defect Is A Gift]] · [[Pain (as signal)]] · [[Sighting]] · [[Elision]] · [[Meaningful Objection]] · [[Safe sparring]]
 **In play:** table · Room
-**Sources:** The DNA of Heaven, Parts IV, X and XII · The LIØNSBERG Pattern Language, Structural Immunity · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** the word's reach is not settled. On the production line it stops work; in a room it stops speech or a recording; whether one word should carry both, or whether a Cell needs two, has not been settled.

@@ -11,6 +11,7 @@ status: current best understanding, loosely held · improved each week
 先译意，后定名：每个词的"一句话的意思"是根本，名称只是承载它的中文说法；译法的取舍写在表末的注里，凡未能译好的词也在那里说明。
 
 *This is the Mandarin rendering of the Rosetta Stone: 827 concepts, one line each, one meaning each, numbered exactly as in the English source — line six is line six in every language. Meaning first, name second; the choices are named in the note at the foot.*
+*Row 111 (Pass The Flame) updated 2026-09-26 to the Sprint's rule — your three, within three days; its translation awaits review by native speakers.*
 
 | # | tier | English name | 名称 | 一句话的意思 | English meaning |
 |---|---|---|---|---|---|
@@ -124,7 +125,7 @@ status: current best understanding, loosely held · improved each week
 | 108 | 200 | On translating | 关于翻译 | 把这些词译成你桌上的人所说的语言；保留编号，因为第六行在哪里都是第六行。 | Translate the words into whatever your table speaks; keep the numbers, because line six is line six everywhere. |
 | 109 | 200 | One of the Ones of the ØNE | ØNE 之众一中的一 | 万有中的每一个都是一，是众一之中的一，也属于那个 ØNE。 | Each of the All is one, and one of the Ones, and of the ØNE. |
 | 110 | 200 | One Purpose Above All | 一个宗旨高于一切 | 十二个不可再约元素之一：宗旨统治，领导者服务。 | The first of the Twelve Irreducible Elements: the Purpose governs, and leaders serve. |
-| 111 | 200 | Pass The Flame | 传递火种 | 第七步，永不可选：在一周之内，把这个游戏带给你确知已预备好的那两三个人。他们的细胞是他们自己的，不是你的分支。 | Move seven, never optional: within a week, carry the Game to the two or three you know are ready. Their Cell is their own, not a branch of yours. |
+| 111 | 200 | Pass The Flame | 传递火种 | 第七步，永不可选：在三天之内，把这个游戏带给你的三个人——尚未加入游戏、你确知已预备好的人。他们的细胞是他们自己的，不是你的分支。 | Move seven, never optional: within three days, carry the Game to your three — people not already playing, whom you know are ready. Their Cell is their own, not a branch of yours. |
 | 112 | 200 | Pillar I — Sacred Ontology and Metaphysics | 第一柱——神圣本体论与形而上学 | 新文明得以建立的十二个领域中的第一个：在大故事与神圣秩序之中不断重新校准万有，以逻各斯作为文明的定向之力。 | The first of the twelve spheres in which the new civilization is built: continually realigning All within the Great Story and the Divine Order, with the Logos as the orienting force of civilization. |
 | 113 | 200 | Pillar III — Sacred Economy and CurrentSee | 第三柱——神圣经济与 CurrentSee | 十二个领域中的第三个：价值作为再生与丰盛的神圣能量而流动，取代抽取。 | The third of the twelve spheres: the flow of value as sacred energy for regeneration and abundance, in place of extraction. |
 | 114 | 200 | Pillar IV — Sacred Learning and Mastery | 第四柱——神圣学习与精熟 | 十二个领域中的第四个：持续学习，作为天赋、智慧与宗旨跨越世代的展开。 | The fourth of the twelve spheres: continuous learning as the unfoldment of genius, wisdom, and purpose across lifetimes. |
@@ -280,7 +281,7 @@ status: current best understanding, loosely held · improved each week
 | 264 | 1000 | Awe | 敬畏 | 沉思一族：敬畏、惊奇、崇敬、宁静。一个存在者遇见大过自己容纳能力之物时的感受。 | The contemplative family: awe, wonder, reverence, tranquility. What a being feels on meeting something larger than their capacity to contain it. |
 | 265 | 1000 | Axiology | 价值学 | 对价值的研究——什么是善、真、美，什么值得追求或体现；它是价值观体系底下的地基。 | The study of values — what is good, true, beautiful, and worthy of pursuit or embodiment; the ground under the system of Values. |
 | 266 | 1000 | Bard | 吟游者 | 故事之职：保管故事并讲述故事的那一位。 | The office of story: the one who keeps the stories and tells them. |
-| 267 | 1000 | Be the canon, don't narrate it | 成为正典，不要转述它 | 一页纸要把那件事说出来。它不是报告说那件事在别处被说过。 | A page says the thing. It does not report that the thing is said somewhere. |
+| 267 | 1000 | Be the canon, do not narrate it | 成为正典，不要转述它 | 一页纸要把那件事说出来。它不是报告说那件事在别处被说过。 | A page says the thing. It does not report that the thing is said somewhere. |
 | 268 | 1000 | Becoming | 成为 | 朝存在之丰盛演化的过程——那种主动的转化，也是这条路所用的计量单位。 | The process of evolving toward fullness of Being — the active transformation, and what the Path is measured in. |
 | 269 | 1000 | Being | 存在 | 存在着或参与存在的那个东西——存在的纯粹本质：我—在、在场、永恒的当下。 | That which exists or participates in existence — the pure essence of existence: I-Amness, presence, the eternal now. |
 | 270 | 1000 | Belonging | 归属感 | 成员身份被感受到的那一面——知道有一张桌子在等你，而且你若缺席会被注意到。 | The felt side of membership — knowing there is a table you are expected at, and that your absence would be noticed. |
@@ -726,7 +727,7 @@ status: current best understanding, loosely held · improved each week
 | 710 | 1000 | The LIØNSBERG Operating System | LIØNSBERG 操作系统 | 一个群体自己那套做事方式底下的机制：它如何看清自己要去哪里、从那里倒推计划、守住节律、守住承诺、作决定、学习——并且在它愿意的任何一天，与其他每一个群体作为一个身体一起工作。 | The mechanism underneath a group's own way of working: how it sees where it is going, plans backward from it, keeps a rhythm, keeps its word, decides, learns — and, on any day it chooses, works as one body with every other group. |
 | 711 | 1000 | The LIØNSBERG Quick Start Guide | LIØNSBERG 快速上手指南 | 你们在一起的头九十分钟：要朗读什么、如何作为一个群体生成意义，以及如何选定你们的第一次远征。 | Your first ninety minutes together: what to read aloud, how to make sense as a group, and how to choose your first Quest. |
 | 712 | 1000 | The LIØNSBERG Toolkit | LIØNSBERG 工具箱 | 手里的那些器具：一个身体真正拿起来用的模板、追踪表与卡片——模式与打法之下的第三层。 | The instruments in hand: the templates, trackers, and cards a body actually picks up — the third layer beneath the Pattern and the Play. |
-| 713 | 1000 | The LIØNSBERG Voice | LIØNSBERG 的声音 | 这些页面所用的那个语域，也是每一段文字都要据以检验的标准——最简地说：成为正典，不要转述它。 | The register these pages are written in, and the standard every paragraph is tested against — most compactly: be the canon, don't narrate it. |
+| 713 | 1000 | The LIØNSBERG Voice | LIØNSBERG 的声音 | 这些页面所用的那个语域，也是每一段文字都要据以检验的标准——最简地说：成为正典，不要转述它。 | The register these pages are written in, and the standard every paragraph is tested against — most compactly: be the canon, do not narrate it. |
 | 714 | 1000 | The LIØNSBERG Workshop | LIØNSBERG 工坊 | 那片活的施工现场：尚未被证实的东西在这里被诚实地存放，一件器具也在这里被改进，好让所有身体一同上升。 | The living construction site: where what is not yet proven is kept honestly, and where an instrument is improved so that all bodies rise together. |
 | 715 | 1000 | The Locality | 地方 | 微地方与生态区之间那些尺度的旧称、也是更朴素的称呼——地方与城市。 | The older, plainer name for the scales between the Microlocality and the Ecoregion — the locality and the city. |
 | 716 | 1000 | The Logic Of Love | 爱的逻辑 | 爱作为一种排序原则与决策框架，而不是一种情感——那条解开八十亿人身处其中之方程的逻辑。 | Love as an ordering principle and decision framework, not a sentiment — the logic that solves the equation eight billion people are inside. |
@@ -821,7 +822,7 @@ status: current best understanding, loosely held · improved each week
 | 805 | 1000 | We The People | 我们人民 | 这个新身体的立宪主体：不是一个政府创立一个民族，而是一个民族自己构成自己——地球上以及地球之外那些自由而有主权的居民。 | The constituting subject of the new body: not a government founding a people, but a people constituting itself — the free and sovereign inhabitants of Earth and beyond. |
 | 806 | 1000 | Wealth | 财富 | 供养并使当下与未来一切世代之生命得以繁荣所需之一切的丰盛。 | The abundance of all that is needed to provision and enable flourishing for all present and future generations of life. |
 | 807 | 1000 | Weaponry To Livingry | 化武器为生器 | 把破坏性的能力转化为服务生命的能力——在工业文明的规模上，把刀剑打成犁头。 | The conversion of destructive capacity into life-serving capacity — swords to ploughshares, at the scale of an industrial civilization. |
-| 808 | 1000 | Weave, don't delete | 要织入，不要删除 | 在一份来源被归档之前，先把它里面新的东西织进那个正典之家；使这个形态成为可能的那段来路要被尊重，而不是被抹去。 | Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased. |
+| 808 | 1000 | Weave, do not delete | 要织入，不要删除 | 在一份来源被归档之前，先把它里面新的东西织进那个正典之家；使这个形态成为可能的那段来路要被尊重，而不是被抹去。 | Before a source is archived, what was new in it is woven into the canonical home; the procession that made the form possible is honored, not erased. |
 | 809 | 1000 | Weaving vs. Starting New | 织入还是另起 | 一百个互相竞争的超级有机体，并不构成神圣的和谐。 | One hundred competing superorganisms does not divine harmony make. |
 | 810 | 1000 | Welcome a Newcomer | 迎接新来者 | 一个已经封定的细胞，别人要怎么加入。 | How someone joins a Cell that has already been sealed. |
 | 811 | 1000 | Welcome to LIØNSBERG | 欢迎来到 LIØNSBERG | 门槛上的第二份文本：世界在一位新到者周围骤然醒来的那一刻，以及那份更深的邀请被发出的那一刻。 | The second text of the threshold: the moment the world snaps awake around a new arrival, and the deeper invitation is made. |

@@ -22,5 +22,4 @@ And it carries its own limit. The pattern itself is not the eternal essence eith
 **Stands on:** [[The Golden Seed]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Instantiation]]
 **Opens onto:** [[Propagate; do not scale]] · [[Federations vs Empires]] · [[Structural Immunity]] · [[Do Not Concretize the Absolute]] · [[The Golden Calf]] · [[Everything Is Current Best Understanding]] · [[An agent speaks in its own name]] · [[Cell]] · [[LIØNSBERG]]
 **In play:** beyond — read whenever anyone speaks in the name
-**Sources:** *The DNA of Heaven*, Part IV, §The instance law · `LIØNSBERG Is A Prototype, Not The Eternal Essence` (wiki) · `The Golden Seed` (wiki root) · lionsberg.wiki: The Golden Seed
 **Open:** If no entity can commit, nothing states who holds what the instances share in common — the words, the editions, the name itself — or by what authority an edition is published at all.

@@ -20,5 +20,4 @@ In the Game this movement is not a distant chapter; it is what a [[Quest]] is fo
 **Stands on:** [[Embodying the Way]] · [[Heaven On Earth]] · [[Love]] · [[Right Relationship]] · [[The Goal]]
 **Opens onto:** [[The Eternal Divine Play]] · [[The compass question]] · [[Quest]] · [[Design To The Goal]] · [[The Promised Land]] · [[Reciprocity]]
 **In play:** table · beyond
-**Sources:** *The Story of LIØNSBERG — The Sacred Arc*, Movement XI (canon-grade) · *The Story of LIØNSBERG* (canon-grade) · *The 144 Gates of Initiation*, Movement 11 — lionsberg.wiki · the seed text *The DNA of Heaven*, Parts I, II and V.
 **Open:** The Arc's Movement XI and the initiatory walk's Movement 11 carry the same name at different scales — one cosmic, one a span of millennia after the Jubilee. The field holds one row; the two senses are worth distinguishing before they harden.

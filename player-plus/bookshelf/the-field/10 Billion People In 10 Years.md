@@ -18,5 +18,4 @@ Held wrongly, a figure like this becomes a metric to be gamed, and reach starts 
 **Stands on:** [[The Goal]] · [[The First Three Percent]] · [[Fibonacci Spread]]
 **Opens onto:** [[Tipping Point Strategy]] · [[The Movement]] · [[The 10 Year Grand Strategy]] · [[The Force For Good]]
 **In play:** beyond
-**Sources:** `The 10 Year Grand Strategy` Card · The DNA of Heaven, Part XI · lionsberg.wiki: The 10 Year Grand Strategy
 **Open:** A number rather than a concept; the concept field itself judges it not load-bearing and names `The First Three Percent` and `Tipping Point Strategy` as what carries the meaning.

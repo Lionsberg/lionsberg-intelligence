@@ -22,5 +22,4 @@ And it sets the shape of the ask honestly: what is asked is what you *would* giv
 **Stands on:** [[Sacrifice]] · [[Love]] · [[Courage]] · [[The Warrior's Vow]]
 **Opens onto:** [[Strong, Not Safe]] · [[Tragedy of the Commons]] · [[None Of Us Until All Of Us]] · [[The Three Supreme Agreements]] · [[Guardianship]] · [[Vow-Speaking]] · [[The Pledge]] · [[Integrity]]
 **In play:** the door — the condition said aloud before anyone is asked to enter
-**Sources:** `LIØNSBERG Wiki Books/Martial Arts Guide/1.9 Laying Down Your Life` · `The Warrior's Vow` · lionsberg.wiki: Rediscovering The Way - A Guide For The Warrior Spirit
 **Open:** The inversion is stated with one worked case and no test; whether a willing population actually deters, and at what proportion, is asserted rather than shown. · The canon does not address the obvious risk — that a body which prizes willingness to sacrifice can drift into valuing the sacrifice itself, which is the exact failure its guardianship pages spend most of their length preventing.

@@ -20,5 +20,4 @@ Under active contest, the Movement organized for engagement is named separately 
 **Stands on:** [[The Goal]] · [[The Meta Crisis]] · [[Cell]] · [[Federation]]
 **Opens onto:** [[The Force For Good]] · [[The First Three Percent]] · [[Islands of coherence to network]] · [[Islands, Hubs, Grid]] · [[The Promised Land]] · [[Weaving vs. Starting New]]
 **In play:** beyond
-**Sources:** `The Movement` · `The Rising Movement` Card · The LIØNSBERG Lexicon, The Movement · The LIØNSBERG Pattern Language, The New World · The DNA of Heaven, Part II · lionsberg.wiki: The Movement
-**Open:** Two senses live in one word — the universal drive of all things toward the Goal, and the present global coalition. The canon page holds both without separating them.
+**Open:** Two senses live in one word — the universal drive of all things toward the Goal, and the present global coalition. This page holds both without separating them.

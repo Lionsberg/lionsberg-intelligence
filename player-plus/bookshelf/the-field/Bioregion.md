@@ -20,5 +20,4 @@ The invitation is plain and is the whole practice: return to the land that holds
 **Stands on:** [[Ecology]] · [[Watershed]] · [[Levels Of Scale]]
 **Opens onto:** [[Ecoregion]] · [[Community]] · [[Guild]] · [[Holofractal Omnifederation]] · [[Living Systems Member]]
 **In play:** Home · beyond
-**Sources:** *Bioregion* (a written Card, canon-grade) · *The LIØNSBERG Lexicon*, Pillar VI table · *The LIØNSBERG Pattern Language*, From Circle To Cosmos · *The Sovereign Path* · lionsberg.wiki: *Bioregion*
 **Open:** The Card's federation ladder runs Community → Ecoregion → Bioregion → Georegional; the Pattern Language lists Bioregion, Ecoregion, Georegion, and Watershed side by side without ordering them. The two are compatible but not stated identically.

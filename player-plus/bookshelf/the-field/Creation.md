@@ -20,5 +20,4 @@ In practice this shows up at the smallest scale. The canon's reading is that not
 **Stands on:** [[ØNE]] · [[Source]] · [[Emanation]] · [[Logos]]
 **Opens onto:** [[Co-Creation]] · [[Cosmos]] · [[Universe]] · [[Living System]] · [[Reverence]]
 **In play:** Met at the door, in the Story's first movements; met at the table each season in the choosing of one real thing to make.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the unfolding emanation of Being from the ØNE") · *Creation* (root page) · *The Story of LIØNSBERG — The Sacred Arc*, movements I–III · *Pillar I — Sacred Ontology and Metaphysics* · lionsberg.wiki: *Creation*.
 **Open:** The Lexicon treats Creation, [[Cosmos]], [[Universe]] and [[Reality]] as near-synonyms ("akin to Universe, Creation, and Cosmos") while the root pages give each a distinct sense; the distinctions here are drawn from the root pages.

@@ -20,5 +20,4 @@ And the honest half: pushing up is work. A solution that is used but never writt
 **Stands on:** [[Commons]] · [[Gift]] · [[Reciprocity]]
 **Opens onto:** [[Provenance]] · [[License]] · [[CC BY-SA 4.0]] · [[Attribution]] · [[Chatham House]] · [[Fractal Commonsing]] · [[Polycentric Implementation of Shared Solutions]]
 **In play:** Home · Room · beyond
-**Sources:** The DNA of Heaven, Part IV — knowledge as commons, provenance on everything · *Gratitude, Lineage and Licensing*, Player+ Modules · The LIØNSBERG Playbook, the cycle · lionsberg.wiki: *Commons*
 **Open:** the curate step has no owner. Who decides what rises from many local solutions into the shared one, and by what test, is not stated.

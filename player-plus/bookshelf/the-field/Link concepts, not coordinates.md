@@ -20,5 +20,4 @@ Two small habits follow. Name the concept in the singular, so one page answers t
 **Stands on:** [[The LIØNSBERG Book of Conventions]] · [[The Incipient Link]] · [[Pattern]]
 **Opens onto:** [[Semantic Capture]] · [[One canonical home per concept]] · [[Wiki Is Primary And Standalone]] · [[Every Page Lives Within A Volume]] · [[The LIØNSBERG Lexicon]] · [[An address]]
 **In play:** beyond
-**Sources:** Link to the Concept, Not the Coordinate · The LIØNSBERG Book of Conventions (canon-grade for its role) · Semantic Capture · Name the Concept in the Singular · lionsberg.wiki: *Link to the Concept, Not the Coordinate*
 **Open:** the convention was written for one vault, where a bare link resolves inside it. Nothing yet says how a link should be written when it must reach a concept held in another body's canon.

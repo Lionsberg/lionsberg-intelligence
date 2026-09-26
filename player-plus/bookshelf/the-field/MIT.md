@@ -20,5 +20,4 @@ Where something executable belongs to this body and its licence has not been sta
 **Stands on:** [[License]] · [[Knowledge as commons]]
 **Opens onto:** [[CC BY-SA 4.0]] · [[Attribution]] · [[Provenance]] · [[Interoperability]]
 **In play:** Room · beyond
-**Sources:** the Player+ Modules' Lexicon and *Entering the Field*, line 2 of the six · the seed's lineage note, where MIT for executables is recorded as a proposal, not yet settled · lionsberg.wiki: *The Little Book of the Great Game*
-**Open:** stated for the modules and proposed for the seed's own tooling; no canon page carries it, and no answer has confirmed it.
+**Open:** stated for the modules and proposed for the seed's own tooling; no page carries it yet, and no answer has confirmed it.

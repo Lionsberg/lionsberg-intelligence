@@ -20,5 +20,4 @@ The discipline composes with [[General Pattern, Specific Application]], which ha
 **Stands on:** [[The LIØNSBERG Pattern Language]] · [[Pattern]] · [[General Pattern, Specific Application]]
 **Opens onto:** [[Pattern Card]] · [[Levels Of Scale]] · [[The Turn]] · [[Season]] · [[The 144 Gates of Initiation]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Great Weaving — Concept Ledger* (§Disciplines) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** none found

@@ -20,5 +20,4 @@ In play a [[Cell]] meets it by assent rather than by reading: assent to the gene
 **Stands on:** [[The New Covenant]] · [[ØNE]] · [[Logos]] · [[Sovereignty]] · [[Consent]]
 **Opens onto:** [[Constitutional Protection Of Purpose]] · [[Law]] · [[Citizenship]] · [[We The People]] · [[Federal Governance]] · [[Adjudication]] · [[Separation Of Power]]
 **In play:** Gate — assented to at the threshold, localized later
-**Sources:** *The LIØNSBERG Constitution* (approximately 10% complete) · *Constitution* (universality, durability at an 85% supermajority, localization, and the declaration-then-constitution sequence) · *The LIØNSBERG Lexicon*, §Governance · lionsberg.wiki: The LIØNSBERG Constitution
 **Open:** Two pages, two homes: *Constitution* at the wiki root (process and amendment thresholds) and *The LIØNSBERG Constitution* under Core Documents (preamble and architecture). The root page's 85% supermajority rule and the Core Document's *high-bar evolution* have not been reconciled.

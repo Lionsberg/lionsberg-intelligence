@@ -20,5 +20,4 @@ The Game's own door is a different thing, and gentler: six lines read at the ent
 **Stands on:** [[Room]] · [[Terms]] · [[Host]]
 **Opens onto:** [[Signed key]] · [[The open web]] · [[Venue card]] · [[Door note]] · [[The six lines]] · [[Hosted service]]
 **In play:** door · Room
-**Sources:** The DNA of Heaven, Parts V and X · Player+ Modules, *Before Your First Room*, *Venue Cards*, *Entering the Field*.
 **Open:** two senses stand close: the room's door (what it checks) and the Game's door (the six lines and the yes). The deck uses one word for both.

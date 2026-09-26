@@ -19,5 +19,4 @@ Lived, Truth is a verb — truth-seeking, truth-speaking, truth-receiving. Its s
 **Stands on:** [[ØNE]] · [[Reality]] · [[Love]]
 **Opens onto:** [[Navigating Towards Truth]] · [[Current Best Understanding]] · [[Current Best Articulation]] · [[We Do Not Know]] · [[Epistemology]] · [[Truth To ØNE, Errors To Us]] · [[Speaking Truth In Love]]
 **In play:** At the table, in the honest gap between what was promised and what was done; at the Room, as the reason a record is kept; at the Gate, as what the walk keeps costing and keeps returning.
-**Sources:** `Truth` (wiki root, canon-grade, with a Living Gradient section) · `Navigate Towards Truth` · `Current Best Understanding` (root, canon-grade) · `Goodness` and `Beauty` (roots — the paired triad) · `The LIØNSBERG Lexicon`, Pillars I and IV. lionsberg.wiki: **Truth**.
 **Open:** none found; the root page, the Lexicon, and the Cards agree that Absolute Truth is out of reach and that CBU is the resulting convention.

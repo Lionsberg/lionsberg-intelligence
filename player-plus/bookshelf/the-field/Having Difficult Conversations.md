@@ -22,5 +22,4 @@ And the floor beneath all of it: when a member is in danger, in body or in mind,
 **Stands on:** [[Listening]] · [[Speaking Truth In Love]] · [[Trust]] · [[Right Relationship]]
 **Opens onto:** [[Conflict Transformation]] · [[The Escalation Ladder]] · [[Mend a Tension]] · [[Apologizing]] · [[Forgiveness]] · [[Zero Blame Environment]] · [[Reconciliation]] · [[Dialogos]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Playbook* (§Operations, Play — Hold A Difficult Conversation) · *THE DNA OF HEAVEN* Parts IV and V · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** A Play of this name is charted in the Playbook and the Pattern it would invoke has no Card.

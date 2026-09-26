@@ -18,5 +18,4 @@ How much is needed varies honestly with the body. Experienced, well-oiled teams 
 **Stands on:** [[Work Breakdown Structure]] · [[The activity table]] · [[Everything Is A Project]]
 **Opens onto:** [[Pull planning]] · [[The look-ahead]] · [[Communication Debt]] · [[Retrospective]] · [[Issue]]
 **In play:** table · Home
-**Sources:** *Project Management* (a pointer only) · *Project Management Hygiene* (wiki root page, a checklist) · *3.4 Project Management Foundations* (Program Delivery Guide, fragments for synthesis) · *The LIØNSBERG Lexicon* §Tribe of Tribes — lionsberg.wiki page name: **Project Management Hygiene**
 **Open:** *Project Management Debt* is named in the Lexicon with no page of its own.

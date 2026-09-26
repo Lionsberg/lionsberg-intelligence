@@ -20,5 +20,4 @@ Two things follow. First, culture is sovereign and local: the Pattern is general
 **Stands on:** [[Values]] · [[Story]] · [[Right Relationship]]
 **Opens onto:** [[Festival]] · [[Storytelling]] · [[Language]] · [[Art]] · [[Ritual]]
 **In play:** door · table · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VII table (canon-grade; also carried under Pillar XI) · *Pillar VII — Sacred Culture, Art, and Story*, Theses 3, 6 and 10 · *The LIØNSBERG Pattern Language*, Communication And Culture · lionsberg.wiki: *Pillar VII — Sacred Culture, Art, and Story*
-**Open:** No canon page stands at *Culture*; the meaning lives in the Lexicon table, the Pillar page, and the Pattern Language's seventh element. *Living Culture* is named as a Pattern with no body.
+**Open:** No page stands at *Culture*; the meaning lives in the Lexicon table, the Pillar page, and the Pattern Language's seventh element. *Living Culture* is named as a Pattern with no body.

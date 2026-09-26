@@ -102,7 +102,7 @@ The dojo and safe-sparring practices named at individual scale in [[1 - Becoming
 What this looks like in practice:
 
 - **Weekly Circle gatherings** with structured time for honest reporting, sparring on real tensions, integrating Objections, and collective Working from Beyond on whatever is hardest.
-- **Monthly retrospective** on what worked, what didn't, what the body is being asked to learn.
+- **Monthly retrospective** on what worked, what did not, what the body is being asked to learn.
 - **Quarterly omnispection** at each solar cardinal — see Chapter 5.
 - **Annual** full review of the Functional Accountability Chart, role-fit, developmental progress of each Member, and Driver-alignment.
 

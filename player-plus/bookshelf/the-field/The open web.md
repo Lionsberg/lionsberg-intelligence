@@ -20,5 +20,4 @@ The open web is also where a published thing lands. Work given under a share-ali
 **Stands on:** [[The door]] · [[Agent]] · [[Language model]]
 **Opens onto:** [[Venue card]] · [[Narrow]] · [[Signed key]] · [[License]] · [[Knowledge as commons]] · [[Provenance]]
 **In play:** Room · beyond
-**Sources:** Player+ Modules, *Venue Cards*, *How an AI Agent Works*, *Before Your First Room* · The DNA of Heaven, Part X.
 **Open:** none found.

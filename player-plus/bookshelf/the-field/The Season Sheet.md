@@ -18,5 +18,4 @@ How it is used. Fill it at the table in the week of the turning, with everyone p
 **Stands on:** [[The Circle's Scorecard]] · [[The Circle Sheet]] · [[Season]] · [[On translating]]
 **Opens onto:** [[The Way Up]] · [[The Return]] · [[Proposal]] · [[Requests and offers]] · [[Minimum standards of interoperability]] · [[The Board]] · [[Home Cell]]
 **In play:** table · Home · beyond
-**Sources:** *The Season Sheet*, Little Book chapter (current best understanding · "the one page that crosses between bodies; the minimum standard of interoperability on paper") · *Minimum Standards of Interoperability* · the Player+ Modules lexicon · The DNA of Heaven, Part V · lionsberg.wiki: **The Season Sheet**
 **Open:** Line 2 says *Home*; the words now distinguish [[Home]] (your own place inside your Cell) from [[Home Cell]] (the body that hears your season), so the line's word is now ambiguous on the printed sheet.

@@ -20,5 +20,4 @@ In play, the smallest form is a [[Cell]] reading its own [[The Circle's Scorecar
 **Stands on:** [[Accountability]] · [[Transparency]] · [[Stewardship]] · [[Wise Eldership]]
 **Opens onto:** [[Impeachment]] · [[Recourse]] · [[Structural Immunity]] · [[Wisdom Council]] · [[Retrospective]] · [[OmniSpection]] · [[Whistleblower Protection]]
 **In play:** beyond — on a rhythm, by those the body trusts to look
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Wisdom Council* (root page; review and advise on significant decisions and junctures) · *Pillar II — Sacred Governance and Stewardship* (thesis 9) · *Structural Immunity* (root page; regular evaluation and renewal) · lionsberg.wiki: The LIØNSBERG Lexicon
 **Open:** One Lexicon row; no page. Who performs oversight of the overseers — and at the highest level of a federation, of anyone — is unwritten.

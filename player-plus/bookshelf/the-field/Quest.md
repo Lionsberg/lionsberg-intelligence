@@ -20,5 +20,4 @@ A Cell usually carries one Quest at a time; two is fine if the table can carry t
 **Stands on:** [[The one question]] · [[Cell]] · [[Season]] · [[The Goal]]
 **Opens onto:** [[Choose a Quest]] · [[The Questcard]] · [[Do the Work]] · [[Every Quest Is A Project]] · [[Stacking Up And Aligning]] · [[The Season Sheet]] · [[The Quest (as journey)]]
 **In play:** table · Home
-**Sources:** *Quest* (root page) · *The Questcard* (current best understanding) · *The Twelve Words*, word 2 (current best understanding) · *The LIØNSBERG Operating System* §10 · The DNA of Heaven, Parts V and XII · lionsberg.wiki: **Quest**, **The Quest**
 **Open:** Two pages carry the name — *Quest* at the root and *The Quest* as a card in LIØNSBERG, Earth, and the Cosmos — and the field also holds *The Quest (as journey)* for the lifetime sense. Three senses, one word. · Whether a Quest may cross more than one season, or must be re-chosen at each turning, is read differently by the Questcard and the Season Sheet.

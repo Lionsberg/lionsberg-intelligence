@@ -24,5 +24,4 @@ The source's own readings are its judgments from 2026, supported by cited and un
 **Stands on:** [[Green, yellow, red]] · [[Navigation]] · [[Measurement]]
 **Opens onto:** [[Probability, Severity, and Scope]] · [[The Circle's Scorecard]] · [[The Record]] · [[The Three Converging Cycles]] · [[The Meta Crisis]] · [[Monitoring, Evaluation, and Continuous Improvement]] · [[Andon (the clocked pull)]] · [[The Probability Calculation Method]]
 **In play:** the table — read once a season, by a Cell, on its own six gauges
-**Sources:** `LIØNSBERG Wiki Books/Most People Have No Idea What Is Coming/1.1` and `9.2 All Indicators RED — Simultaneously.md`
-**Open:** No thresholds are defined, so amber and red are judgments rather than readings — which is the main thing standing between this and an instrument. · The six faces are asserted and do not match the corpus's twelve domains anywhere.
+**Open:** No thresholds are defined, so amber and red are judgments rather than readings — which is the main thing standing between this and an instrument. · The six faces are asserted and do not match the twelve domains named elsewhere.

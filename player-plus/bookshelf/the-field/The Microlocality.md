@@ -12,11 +12,10 @@ Above the [[The Village|Village]] and below the [[Community]] lies the scale of 
 
 It matters because it is the first rung where coordination must be deliberate. A Microlocality cannot be run by acquaintance, and it is far too small to need anything heavy: it is where written agreements, a named way of deciding, and a page that travels start to earn their keep ([[Field of Agreements]], [[Consent-Based Decision-Making]], [[The Season Sheet]]). The structures learned here are the ones that scale; skipped here, they are improvised badly at ten thousand.
 
-In the ladder it is one order of magnitude up from the Village and one down from the Community, and it holds, in the canon's phrase, a cluster of Villages in direct relation. Like every rung it is at once a [[Domain]], a body composed of the bodies below it, and a part of the body above ([[The Two-Stake Principle]], [[Holofractal Scaling]]).
+In the ladder it is one order of magnitude up from the Village and one down from the Community, and it holds a cluster of Villages in direct relation. Like every rung it is at once a [[Domain]], a body composed of the bodies below it, and a part of the body above ([[The Two-Stake Principle]], [[Holofractal Scaling]]).
 
 **Also called:** ~1,000
 **Stands on:** [[The Village]] · [[Levels Of Scale]] · [[Federation]]
 **Opens onto:** [[Community]] · [[The Mediolocality]] · [[The Locality]] · [[Supercell]] · [[Subsidiarity]]
 **In play:** beyond the table
-**Sources:** `Microlocality`, a Card of LIØNSBERG, Earth, and the Cosmos · `Levels of Scale` (canon-grade) · The Sovereign Path, Holofractal Scaling · The DNA of Heaven, Part IV · lionsberg.wiki: Microlocality
 **Open:** none found.

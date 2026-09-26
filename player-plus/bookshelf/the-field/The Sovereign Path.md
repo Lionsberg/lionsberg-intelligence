@@ -20,5 +20,4 @@ Three years of formation are named as the container for each who comes. And the 
 **Stands on:** [[The Golden Seed]] · [[Sovereignty]] · [[Becoming]] · [[The Way]] · [[ØNE Body]]
 **Opens onto:** [[The Threshold (of the Path)]] · [[The Awakening (of the Path)]] · [[The 12 Stages of the Sovereign's Path]] · [[The 144 Gates of Initiation]] · [[The Sacred Ascent (as tier)]] · [[The Loop That Has No End]] · [[The Three-Year Formation]] · [[The Walk is permissive]]
 **In play:** door · Gate · beyond
-**Sources:** *The Sovereign Path* (canon-grade) · *The 12 Stages of the Sovereign's Path* · *The LIØNSBERG Pattern Language, synthesized*, §Sovereign And Path · *The LIØNSBERG Lexicon*, §The Path — lionsberg.wiki · the seed text *The DNA of Heaven*, Part IX.
 **Open:** *The Sovereign Path* lists the stages with the Sacred Ascent ninth; *The 12 Stages of the Sovereign's Path* and the seed text both place it eleventh, after Convergence and after Covenant and Jubilee. The seed and the stages page agree, so that order stands here. · The page's nine-layer cosmic model is said to be in refinement on a companion repo and has not been imported.

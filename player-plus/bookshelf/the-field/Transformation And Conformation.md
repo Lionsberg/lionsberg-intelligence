@@ -22,5 +22,4 @@ It is named in the Language among the Sovereign's Path Patterns and among the wi
 **Stands on:** [[Education As Transformation]] · [[The True Self]] · [[Becoming]] · [[Sovereignty]]
 **Opens onto:** [[Genius]] · [[Unlearning]] · [[Ideological Capture]] · [[Coherence]] · [[Learning By Doing]] · [[Navigating Difference]] · [[Apprenticeship]]
 **In play:** Gate
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.1, backlog) · *The Emergence of the Core Pattern* · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named with no articulation; nothing states how a Body tells which of the two it is doing to its members.

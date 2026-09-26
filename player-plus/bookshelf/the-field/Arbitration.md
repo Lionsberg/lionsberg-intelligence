@@ -12,7 +12,7 @@ Arbitration is what two sovereigns choose when they cannot resolve something bet
 
 It is load-bearing because [[Conflict Transformation]] does not always succeed, and the alternatives when it fails are bad: a stalemate that poisons a body, a split that costs both sides more than the dispute was worth, or a slide toward whoever can simply impose. A named, trusted, voluntary third step keeps a disagreement from becoming a schism.
 
-Its discipline follows from its nature. The arbiter must be trusted by both parties and interested in neither outcome — which is why the canon locates it near [[Wise Eldership]] and the [[Wisdom Council]] rather than near any executive. The parties agree in advance what they are submitting and what they will accept. The reasoning is recorded ([[Decision Records]]) so the body learns, and so the same dispute is not run twice.
+Its discipline follows from its nature. The arbiter must be trusted by both parties and interested in neither outcome — which is why it is located near [[Wise Eldership]] and the [[Wisdom Council]] rather than near any executive. The parties agree in advance what they are submitting and what they will accept. The reasoning is recorded ([[Decision Records]]) so the body learns, and so the same dispute is not run twice.
 
 In play it sits on [[The Escalation Ladder]] between mending at the table and anything formal: direct resolution, then an elder's counsel, then a body both sides choose. A [[Cell]] in its first season will rarely need it; two federating bodies eventually will.
 
@@ -20,5 +20,4 @@ In play it sits on [[The Escalation Ladder]] between mending at the table and an
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Conflict Transformation]] · [[Wise Eldership]] · [[Trust]]
 **Opens onto:** [[Adjudication]] · [[Remedy]] · [[Wisdom Council]] · [[Council]] · [[The Escalation Ladder]] · [[Decision Records]]
 **In play:** beyond — the third step, when two tables cannot settle it themselves
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Transforming Conflict* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Justice, Containment, Mass Healing (names Mediation; partial gap) · lionsberg.wiki: The LIØNSBERG Lexicon
-**Open:** One Lexicon row; no page and no procedure. The canon names *Mediation* in a gap list and *Arbitration* in the Lexicon without distinguishing them.
+**Open:** One Lexicon row; no page and no procedure. *Mediation* is named in a gap list and *Arbitration* in the Lexicon, without distinguishing them.

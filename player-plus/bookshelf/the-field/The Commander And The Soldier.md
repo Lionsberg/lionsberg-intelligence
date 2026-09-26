@@ -26,5 +26,4 @@ The parable's hardest clause is the one about cost: be willing to be cast out by
 **Stands on:** [[Commander's Intent]] · [[Means]] · [[Integrity]] · [[Parable]]
 **Opens onto:** [[The Sacred War]] · [[Restraint As The Refusal To Act]] · [[Meaningful Objection]] · [[Courage]] · [[The Warrior's Vow]] · [[Authority]] · [[Non-Violence]] · [[Pillar VII — Sacred Culture, Art, and Story]]
 **In play:** the table and the field — whenever a person is told to do what they know to be against the Intent
-**Sources:** `The Commander And The Soldier` · `Commander's Intent`, `Means` (root pages) · lionsberg.wiki: The Commander And The Soldier
-**Open:** The parable is told in the frame of a battle and a company under a false leader; nothing in it is operational, and it should not be read as guidance about force. · *Fear and obey ØNE* is a strong formulation that sits uneasily beside the canon's insistence that obedience is never owed to a human authority; the canon does not reconcile them.
+**Open:** The parable is told in the frame of a battle and a company under a false leader; nothing in it is operational, and it should not be read as guidance about force.*Fear and obey ØNE* is a strong formulation that sits uneasily beside the insistence elsewhere that obedience is never owed to a human authority; the two are not reconciled.

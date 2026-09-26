@@ -20,5 +20,4 @@ The remedy when it is broken is deliberately blunt: the row is struck, not corre
 **Stands on:** [[Sovereignty]] · [[Consent]] · [[Commitment]] · [[A word given is a word kept]]
 **Opens onto:** [[The Commitment Tracker]] · [[The Candidates table]] · [[The states of a commitment]] · [[The Pledge]] · [[Kept as a share of made]] · [[Mutual Consent]]
 **In play:** the table — every time a promise is written down
-**Sources:** `Projects/The Kit 2026-09/The Commitment Tracker — Could · Should · Can · Will · Did (the Kit, v0)`, §The law · `Making And Securing Commitments` (wiki root) · *The DNA of Heaven*, Part VII · lionsberg.wiki: Commitment
-**Open:** An agent may hold a person's calendar, draft their words, and carry their promise — but nothing in the canon states how an agent records a will on its person's behalf without the recording itself becoming the inference the rule forbids.
+**Open:** An agent may hold a person's calendar, draft their words, and carry their promise — but nothing states how an agent records a will on its person's behalf without the recording itself becoming the inference the rule forbids.

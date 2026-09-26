@@ -22,5 +22,4 @@ Its source names sixty-six such accounts and writes five of them. Those particul
 **Stands on:** [[Distortion]] · [[Control Of Information]] · [[Narrative Lens]]
 **Opens onto:** [[The seven-part UnVeiling form]] · [[Guardrails Encountered]] · [[Apocryphal Corridors]] · [[The Great UnVeiling]] · [[Prevalence Of Deceit And Propaganda]] · [[Overton Window]] · [[Navigating Towards Truth]] · [[We Do Not Know]]
 **In play:** the Workshop — the category, held with its caution
-**Sources:** `LIØNSBERG Wiki Books/The 66 Most Protected and Distorted Narratives/THE 66 MOST PROTECTED AND DISTORTED NARRATIVES.md` (outline — sixty-six named, five written)
 **Open:** Sixty-one of the sixty-six are titles only, and the titles themselves make accusations. · The category is vulnerable to exactly the error it warns against, and its own source commits that error repeatedly. · Nothing states what would take an account *out* of the category.

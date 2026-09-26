@@ -19,5 +19,4 @@ In play it is the widening question, asked when a decision looks good from insid
 **Stands on:** [[ØNE]]
 **Opens onto:** [[One of the Ones of the ØNE]] · [[The Cosmic Body]] · [[ØNE Body]] · [[InterExistence]] · [[Omniconsideration]] · [[Kinship]] · [[Covenant Across Time]] · [[Creation]]
 **In play:** At the door, in the third of the three agreements; at the table, as the widening question before a Proposal; beyond, as the scope every design is checked against.
-**Sources:** `All` (wiki root, canon-grade, short) · `ØNE` · `One of the Ones of the ØNE` · `The LIØNSBERG Lexicon`, Key Terms and Boundaries · `The DNA of Heaven`. lionsberg.wiki: **All**.
 **Open:** The root page is three lines; the operative content — All as ØNE Body, All as the scope of duty — lives in the Cards and in the Sacred Arc without the root page pointing there.

@@ -20,5 +20,4 @@ In play a [[Cell]] federates the ordinary way: it connects with another Cell, th
 **Stands on:** [[Sovereignty At Every Scale]] · [[Holofractal Omnifederation]] · [[Consent]] · [[Field of Agreements]] · [[Higher Order Functional Unity]]
 **Opens onto:** [[Federations vs Empires]] · [[Supercell]] · [[Subsidiarity]] · [[Federal Governance]] · [[Total Nested Holarchy Of Sovereignties]] · [[Stacking Up And Aligning]]
 **In play:** beyond — the second season, when one table meets another
-**Sources:** *Federating* · *The LIØNSBERG Lexicon*, Pillar II table · *Sovereignty At Every Scale* · *The LIØNSBERG Playbook*, Federation plays · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Federating
 **Open:** *Federating* (the verb, root page) and *Federation* (the Lexicon noun) are two pages for one concept; no single canonical home yet.

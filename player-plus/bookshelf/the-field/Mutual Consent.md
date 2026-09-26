@@ -20,5 +20,4 @@ In play, a player meets it at the door: the terms are read, the yes is spoken in
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Field of Agreements]] · [[Selectively Permeable Membrane]]
 **Opens onto:** [[Withdrawal Of Consent]] · [[Agreement]] · [[Welcome a Newcomer]] · [[The Way Out]] · [[Participation]] · [[Covenant]]
 **In play:** door — both directions, every time
-**Sources:** *Mutual Consent* · *Sovereignty At Every Scale* (the membrane crossed on ongoing mutual consent) · *Player+ Modules*, Lexicon and *Entering the Field* · *THE DNA OF HEAVEN* Part V, *The Invitation, and the door* · lionsberg.wiki: Mutual Consent
 **Open:** The root page cites *Rules of Participation*; the newer canon uses [[Field of Agreements]] for the same object. Two names, one thing.

@@ -22,5 +22,4 @@ Its risk is that *endarkenment* explains too easily. Every shortfall in what peo
 **Stands on:** [[Kontrolle]] · [[Control Of Information]] · [[Education As Transformation]]
 **Opens onto:** [[Conditions of Acceptance]] · [[Universal-Accessing]] · [[Narrative Lens]] · [[Encoding the Seed in Thought, Form, Light, and Geometry]] · [[The vocabulary ladder]] · [[Unlearning]] · [[Manufactured Dependency]] · [[The Institutional Control Inventory]]
 **In play:** the Workshop — the constraint on anything written to reach everyone
-**Sources:** `LIØNSBERG Wiki Books/Aliens, Fascists, and Giants/8. Translation Across Languages and Levels of Abstraction.md`
 **Open:** Used once and never defined; this page is reconstruction. · The literacy figures it rests on are stated without a source. · No test distinguishes designed ignorance from ordinary educational failure, and the word is useless without one.

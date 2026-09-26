@@ -20,5 +20,4 @@ In play it is the shape of belonging: your Cell is entirely its own and entirely
 **Stands on:** [[Being]] · [[InterExistence]]
 **Opens onto:** [[Holarchy]] · [[HoloFractal]] · [[Holofractal Omnifederation]] · [[Levels Of Scale]] · [[Complex Adaptive Living System]]
 **In play:** Met at the table the moment a Cell has both a Quest of its own and a Home it answers to.
-**Sources:** *Holon* (root page, mature, no status line) · *The LIØNSBERG Lexicon*, Pillar I (the *Holon* row is present but empty) · *Holarchy* (root page) · lionsberg.wiki: *Holon*.
 **Open:** The Concept Field judged *Holon* not load-bearing on the grounds that its Lexicon row is empty and *Holarchy* carries the meaning. The root page contradicts that judgment: it is developed, quoted elsewhere, and carries the cancer/slave distinction that nothing else states. Recorded as a divergence, not resolved.

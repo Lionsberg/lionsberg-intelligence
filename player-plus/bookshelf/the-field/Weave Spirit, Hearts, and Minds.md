@@ -18,5 +18,4 @@ How it is played. Spirit first: silence together, the Three Supreme Agreements s
 **Stands on:** [[Spirit]] · [[Spirit Precedes Pattern]] · [[Circle Coherence]] · [[Right Relationship]]
 **Opens onto:** [[Choose a Quest]] · [[Check In]] · [[Dialogos]] · [[The Turn]] · [[Vision]]
 **In play:** table
-**Sources:** *The Seven Moves*, move 2 · The DNA of Heaven, Part V — "coherence before action" · *The Game at the Table*, §The Vision and §Sensemaking (current best understanding) · lionsberg.wiki: **The Seven Moves**
-**Open:** The move has no card of its own anywhere in the corpus — it is named in a captured list and nowhere articulated. Its content here is composed from the Vision and Sensemaking sections and from the Patterns it obviously invokes; it should be treated as a proposal until a card exists. · The five-move form has no place for it; whether it is a move or a condition is unsettled.
+**Open:** The move has no card of its own anywhere — it is named in a captured list and nowhere articulated. Its content here is composed from the Vision and Sensemaking sections and from the Patterns it obviously invokes; it should be treated as a proposal until a card exists. · The five-move form has no place for it; whether it is a move or a condition is unsettled.

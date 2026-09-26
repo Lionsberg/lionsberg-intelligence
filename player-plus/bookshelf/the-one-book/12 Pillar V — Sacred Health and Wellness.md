@@ -4,7 +4,7 @@ book: The One Book
 chapter: 12
 ---
 
-# 12 Pillar V — Sacred Health and Wellness
+# Pillar V — Sacred Health and Wellness
 
 *The fifth of twelve spheres, built at the same time as the other eleven. Its work is that the body, the mind, and the life around them are returned to wholeness — so that no one is asked to build Heaven out of a broken instrument.*
 
@@ -97,7 +97,7 @@ The canon treats emotion as information rather than as weather to be endured, an
 
 Run in a Circle, the same practice becomes something no single person can do: many instruments reading one weather, and the reading is truer than any one of them could take alone. This is a real and underused capacity of a Cell and it costs nothing but time and honesty.
 
-### Where the sources disagree, and what this Book carries
+### Open questions
 
 This is the least finished of the twelve Pillars, and its seams are worth naming rather than smoothing.
 
@@ -216,9 +216,9 @@ Concrete, tonight, with a notebook.
 
 The instruments this Pillar needs, the standards that let one Cell's health practice be legible to another, the measures, the guards, and what *done for now* looks like.
 
-Several of these are written here for the first time. The canon names them and has not built them; what follows is this Book's first rendering, held loosely, expecting correction from the first people who use it in earnest. Each is marked where that is so.
+Several of these appear here for the first time, offered as current best understanding, held loosely, and expecting correction from the first people who use them in earnest.
 
-### Instrument 1 — The healers' guild *(first articulation; the canon names it and has never built it)*
+### The healers' guild
 
 **What it is.** A [[Guild]] is a self-organizing body united by a shared craft and an ethic, federating by the same law as every other body — a [[Domain]], a [[Selectively Permeable Membrane]], a [[Field of Agreements]], a [[Commons]]. The healers' guild is that body for the healing crafts: medicine, nursing, midwifery, herbalism, bodywork, mental health, dentistry, rehabilitation, addiction recovery, hospice, the movement and breath disciplines, and the traditional practices of whatever tradition a place actually holds. It exists because place cannot carry a craft alone — a community of ten thousand has too few of any one craft to advance it, and a guild spanning twenty communities does not.
 
@@ -245,7 +245,7 @@ Several of these are written here for the first time. The canon names them and h
 
 **How it degrades to paper.** A guild is, at its floor, **a list**: names, what each person can actually do, who witnessed them doing it, how to reach them, and what they will not take on. Written by hand, kept at each table, read aloud when a new member joins. Every other function of a guild — the guidebook, the apprenticeship, the standard, the commons — is a thicker version of that list. If everything else fails, the list is the guild.
 
-### Instrument 2 — The life-threshold rites *(first articulation of a minimum form; the canon names all five and has written none)*
+### The life-threshold rites
 
 **What they are.** The five crossings a life makes whether or not anyone marks them: **birth · coming of age · marriage · dying · death.** An [[Initiation|initiation]] is a threshold crossed once, in front of others, after which both the person and the body treat them differently — and the change is one of *responsibility* before it is one of privilege, which is why a rite that costs nothing confers nothing.
 
@@ -270,7 +270,7 @@ Cultures that lose their rites do not produce people who never cross thresholds.
 
 **How they degrade to paper.** Entirely. All five are, at their floor, *people in a room, saying true things out loud, and someone writing down that it happened.* No officiant, no building, no power, no network.
 
-### Instrument 3 — The Cell's care for a member in crisis: the andon for a person *(first articulation)*
+### The Cell's care for a member in crisis: the andon for a person
 
 **What it is.** On a good production line there is a cord any worker may pull, and pulling it halts everything. The point is not the stopping; it is that a defect is surfaced at the moment and by the person who saw it, rather than travelling downstream inside the work until it is expensive. [[Whistleblower Protection|The cord]] is already carried up into this body's governance as the word [[Stop]].
 
@@ -302,7 +302,7 @@ This instrument is the same cord for a *person*. A body that will halt its line 
 
 **How it degrades to paper.** One index card, written before it is needed, kept where everyone can find it: *the floor of care in one sentence · three names and three numbers · the seven steps · what we do not do.* That card is the instrument. Everything above is its commentary.
 
-### Instrument 4 — The body as temple, in daily life
+### The body as temple, in daily life
 
 **What it is.** A test, not a decoration. *Would this be done to a temple?* Would this food, this schedule, this silence, this hour, this substance, this room be offered to a dwelling of Spirit? A person can ask it of their own week. A Cell can ask it of the room it meets in. A Community can ask it of the land it sits on.
 
@@ -314,7 +314,7 @@ This instrument is the same cord for a *person*. A body that will halt its line 
 
 **How it degrades to paper.** One question, memorized. It needs nothing.
 
-### Instrument 5 — The temple as a place
+### The temple as a place
 
 **What it is.** A community is not only a set of relationships; it is a set of places where particular things can happen. The canon names them as a family because each does work the others cannot: the **hearth**, where people are warm together and nothing is required of them · the **council space**, where decisions are made among equals with no head of the table · the **healing room** · the **learning space** · the **dojo**, where strength is trained under discipline and witness · the **sanctuary**, where someone in danger may go · the **garden**, which feeds and teaches patience · the **burial ground**, which holds the dead and keeps a people in relation to its own ancestors and its own end.
 
@@ -326,7 +326,7 @@ The claim is that a community missing one of these is missing the *capacity*, no
 
 **How it degrades to paper — and to nothing at all.** Every one of these begins as a practice long before it is a building. The hearth is whoever's kitchen. The council space is a circle of chairs. The healing room is a quiet room with a door that closes and a chair that is comfortable. The sanctuary is a person who will open their door at two in the morning. The garden is a bed. The burial ground is the one thing on the list that eventually needs ground — and the practice it carries, which is remembering the dead by name in company, needs none.
 
-### Instrument 6 — Degradation to paper: the practices need nothing
+### Degradation to paper: the practices need nothing
 
 This is the specification that makes the Pillar durable, and it is short because it is true.
 
@@ -340,6 +340,32 @@ This is the specification that makes the Pillar durable, and it is short because
 **Witness needs two people and no technology at all.**
 
 Nothing in the daily practice of this Pillar requires electricity, a network, a currency, a frontier model, an institution, or a licence. The instruments that *do* need infrastructure — the guild's guidebook, the record, the healing room — each degrade to a hand-written list, and the list is the thing. **Keep a paper copy** of the floor of care, the three names and three numbers, and the practitioner list. [[Screens and paper|The notebook is the floor the whole network stands on.]]
+
+### The health record as the person's own
+
+**What it is.** The record of a person's own body and mind — history, conditions, medications, allergies, what has been tried and what worked, a practitioner's findings in the practitioner's own words, and, where the person chooses, their own wishes for a crisis in which they cannot speak for themselves. It belongs to the person whose body it describes, it is held by them, and it moves nowhere without their word — **per instance, not once and forever.** A yes given last season to one practitioner is not a yes given today to the Cell.
+
+**Why it stands apart from the shared record.** The Cell's record is the table's: what was said, decided, and promised, kept in the Cell's own box in the Cell's own hand, open to anyone at the table to read and correct. A person's health record is a different object entirely, and the difference is the whole of this instrument. **Nothing in the shared record says anything about a member's health that the member did not put there.** Care requires memory, and memory about a body is the most intimate record a body of people keeps; pooled — for efficiency, for research, for safety — it becomes a file about a person that the person cannot read, correct, or take away. Whoever holds a person's record holds the person. The answer is that the person holds it.
+
+**Who holds it.** The person. Nobody else, ever — not the Cell, not a guild, not a practitioner, not an agent. A parent holds a young child's on the child's behalf and hands it over as the child comes of age; nobody else steps into that place for any reason.
+
+**What it contains**, in the person's own words, at whatever depth they choose:
+- What is true of their body and mind now — conditions, medications, allergies, what has helped and what has not.
+- What a practitioner has told them, carried in the practitioner's own words where possible, so the reading does not thin with each retelling.
+- Their own wishes for a crisis they cannot speak through — who to call, what they do and do not want done, and to whom this one page may be shown and when.
+- Nothing about anyone else. A record kept about a person by someone other than that person is not this instrument; it is the thing this instrument exists to prevent.
+
+**How it crosses to the shared record, and only this way.** The bridge is the person's own word, given per instance. Telling the Cell "I am living with this, please know it" makes that one sentence shared; it does not open the rest of the page, and it stays shared no longer than the person wishes it to. A practitioner reads what is shown, asks — [[Consent]], at the level it is given — before writing anything down, and writes nothing back into a shared place without asking again. The floor of care narrows none of this except in the one hour it exists for: when a member is in danger, in body or in mind, the Circle acts first on what it can see and what it is told, and the record is written afterward, never instead of the acting.
+
+**Its emergency page.** One page at the front, separate from the rest, that a person may choose to let their Cell hold or keep entirely to themselves, revisited whenever they wish. Its minimum shape is what a stranger arriving to help would need if the person could not say it themselves: the three names and three numbers the Cell already keeps for its own crisis instrument, any condition that changes what help looks like, and what they do and do not want done. Kept where it can be found, not buried in a drawer.
+
+**By hand.** A notebook, in the person's own hand or dictated to whoever they trust to write it, going nowhere without a spoken yes. This is the whole instrument at its floor and needs nothing more.
+
+**By machine, where a body keeps digital records at all.** The rule carries into the code rather than loosening there: the record lives in the person's own store, never pooled into a Cell's or a guild's database by default; nothing copies out of it without a fresh, per-instance consent; the person can export the whole of it and delete the whole of it at will; and a shared record's health fields hold only what the person put there themselves, in their own words, dated.
+
+**How it degrades to paper.** Completely, and it was never anything else at its floor. A notebook, a pencil, a known place to keep it, and a person who knows it is theirs.
+
+**What it guards against.** The pooled file nobody can correct. The practitioner who assumes instead of asking. A crisis met by strangers who know nothing because nothing was ever told — which the emergency page answers without opening the rest of the record. And a Cell, a guild, or any body that quietly begins keeping health notes on members because it is convenient, which is exactly how every prior enclosure of this kind of record began: for efficiency, for research, for safety, and then for control. **A member's condition is never written into any shared record without their own word.**
 
 ### The minimum standards of interoperability, in this Pillar
 
@@ -438,7 +464,7 @@ This Pillar's vocabulary, each opening onto its page.
 
 **Where it meets the rest.** [[Air · Water · Soil · Microbiome]] · [[Ecology]] · [[Earth]] · [[Compost]] · [[Permaculture]] · [[Reciprocity]] · [[Sabbath]] · [[Jubilee]] · [[Rhythm]] · [[Season]] · [[The Turn]] · [[The Season Sheet]] · [[Kept as a share of made]] · [[OmniSpection]] · [[Harvest and Close]] · [[LUV]] · [[The Offering]] · [[Voluntary Tithing]] · [[Protection Of Children]] · [[Family]] · [[Kinship]] · [[Genius]] · [[The Zone Of Optimum Development]] · [[Wise Eldership]] · [[Remembrance]] · [[Screens and paper]]
 
-**The neighbouring chapters.** [[06 The Daily Way — the baseline practice]] · [[13 Pillar VI — Sacred Ecology and Living Systems]] · [[11 Pillar IV — Sacred Learning and Mastery]] · [[16 Pillar IX — Sacred Architecture and Design]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[26 The Instruments the Canon Lacks]] · [[21 In Every Future — what to do in each case]]
+**The neighbouring chapters.** [[06 The Daily Way — the baseline practice]] · [[13 Pillar VI — Sacred Ecology and Living Systems]] · [[11 Pillar IV — Sacred Learning and Mastery]] · [[16 Pillar IX — Sacred Architecture and Design]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[21 In Every Future — what to do in each case]]
 
 ---
 
@@ -466,3 +492,4 @@ This Pillar's vocabulary, each opening onto its page.
 ---
 
 *Previous: [[11 Pillar IV — Sacred Learning and Mastery]] · Next: [[13 Pillar VI — Sacred Ecology and Living Systems]] · Contents: [[The One Book]]*
+

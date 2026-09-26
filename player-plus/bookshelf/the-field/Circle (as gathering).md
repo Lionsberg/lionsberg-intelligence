@@ -14,11 +14,10 @@ What it is not yet is a functioning part of the whole. When a Circle takes up th
 
 The passage between them is marked. [[Seal the Circle]] is the moment the gathered choose one another and the gathering becomes a body; before that, people are visiting, and after it, they are members with a way out that is also named ([[The Way Out]]). [[Circle Coherence]] is the condition a Circle reaches before it can move as one; a Circle that has not woven coherence will not choose its Quest well.
 
-The word carries an older load across the corpus. The scale ladder in [[Levels Of Scale]] names the three-to-thirteen rung *Circle*, much of the [[The LIØNSBERG Circle Guide|Circle Guide]] and the Plays say *Circle* where they mean a body that plays, and the Little Book's fourteen-line page is still called the Season Sheet of a Circle. Read those as the earlier word for what is now called a Cell; when a text means *not yet a Cell*, it says so.
+The word carries an older load. The scale ladder in [[Levels Of Scale]] names the three-to-thirteen rung *Circle*, much of the [[The LIØNSBERG Circle Guide|Circle Guide]] and the Plays say *Circle* where they mean a body that plays, and the Little Book's fourteen-line page is still called the Season Sheet of a Circle. Read those as the earlier word for what is now called a Cell; when a text means *not yet a Cell*, it says so.
 
 **Also called:** a gathering not yet a Cell · a ring of trust
 **Stands on:** [[Trust]] · [[Belonging]] · [[Listening]] · [[Dialogos]]
 **Opens onto:** [[Cell]] · [[Seal the Circle]] · [[Form a Cell]] · [[Circle Coherence]] · [[Welcome a Newcomer]] · [[Levels Of Scale]]
 **In play:** the table
-**Sources:** `Circle` (canon-grade) · `The Twelve Words` 1, in The Little Book of the Great Game (canon-grade) · `Levels of Scale` (canon-grade) · The DNA of Heaven, Part V · lionsberg.wiki: Circle
 **Open:** Two live senses of one word: the ladder in `Levels of Scale` uses *Circle* for the 3–13 body, while the Little Book reserves it for a gathering that is not yet a Cell.

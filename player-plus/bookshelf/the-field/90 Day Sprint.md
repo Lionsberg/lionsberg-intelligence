@@ -20,5 +20,4 @@ In the System, the sprint vocabulary survives where a specific push is wanted in
 **Stands on:** [[Season]] · [[Time]] · [[Quest]] · [[Rhythm]]
 **Opens onto:** [[The turnings]] · [[The forty-two-day launch sprint]] · [[Pull planning]] · [[Kept as a share of made]] · [[OmniSpection]] · [[The first season]] · [[Milestone]]
 **In play:** table · beyond
-**Sources:** `All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23`, §4.19, where *90 Day Sprint* is listed among the temporal names (inventory, ore) · `Seasonal OmniSpection` (root page): *"Ninety days is the natural unit of transformation"* · `The Clock of the Game` (Little Book chapter, current best understanding) · `Season`: *"A sprint ends; Seasons return"* · lionsberg.wiki: no page stands at this name
 **Open:** The term is ore — a name in an inventory with no body — and is largely superseded at the table by the Season, which is solar rather than chosen; keeping both names risks two calendars. · Whether a 90 Day Sprint may run off the turnings is nowhere stated.

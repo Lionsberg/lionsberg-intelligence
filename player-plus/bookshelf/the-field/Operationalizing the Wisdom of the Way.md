@@ -22,5 +22,4 @@ And it carries the guard that keeps operationalising from becoming its own idol.
 **Stands on:** [[Wisdom]] · [[The Way]] · [[Embodiment]] · [[Spirit Precedes Pattern]]
 **Opens onto:** [[Embodying the Way]] · [[Praxis]] · [[Learning By Doing]] · [[The LIØNSBERG Pattern Language]] · [[Pattern · Play · Tool · Embodiment]] · [[Instrument]] · [[The Daily Way]] · [[The Turn]] · [[Spontaneous Wise Right Action]] · [[Everything Is Current Best Understanding]] · [[The Great Game of LIØNSBERG]]
 **In play:** beyond — the reason anything in this corpus is written as a card rather than as an essay
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/12. Operationalizing the Wisdom of the Way.md` (three traditions quoted) · the same book's chapter 13 · lionsberg.wiki: The Wisdom of the Way
 **Open:** The chapter states the deficit and names no mechanism of its own; what operationalising looks like is supplied entirely by other books. · Its three quotations are given as approximations — *something like* — rather than as texts.

@@ -20,5 +20,4 @@ In play it is the answer to the question a new player eventually asks — *what 
 **Stands on:** [[ØNE]] · [[InterExistence]] · [[Creation]]
 **Opens onto:** [[Holarchy]] · [[Holofractal Omnifederation]] · [[The Great ReMembering]] · [[Supercell]] · [[The Cosmic Body]]
 **In play:** Met at the Home — the moment a Cell learns it is held by another Cell, and that the holding goes all the way up and all the way down.
-**Sources:** *ØNE Body* (root page, mature, no status line) · *The LIØNSBERG Lexicon*, Pillar I ("the totality of the integrated Living System of ØNE and All") · *The Story of LIØNSBERG — The Sacred Arc*, movements III and IX · lionsberg.wiki: *ØNE Body*.
 **Open:** the page as it now stands is substantial, so the ledger entry is stale.

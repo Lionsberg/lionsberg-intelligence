@@ -20,5 +20,4 @@ Two cautions. Vitality is not a virtue and not a ranking — illness, age, [[Dyi
 **Stands on:** [[Energy]] · [[Temple]] · [[Wellness]]
 **Opens onto:** [[Breath]] · [[Rest And Regeneration]] · [[Detoxification]] · [[Healing]]
 **In play:** table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table (the single definition; no page of its own) · *Pillar V — Sacred Health and Wellness*, Thesis 5 · lionsberg.wiki: *Vitality*
-**Open:** The Lexicon defines vitality in terms of *Energy*, which the canon carries in two distinct senses — capacity to effect change, and subtle life-force. Which is meant here is not settled.
+**Open:** The Lexicon defines vitality in terms of *Energy*, carried in two distinct senses — capacity to effect change, and subtle life-force. Which is meant here is not settled.

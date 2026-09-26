@@ -20,5 +20,4 @@ A Cell's first season is a prototype in exactly this sense. One real thing, one 
 **Stands on:** [[Design]] · [[Archetype]] · [[Learning By Doing]] · [[Tightly Coupled Learning and Action]]
 **Opens onto:** [[Prototype]] · [[Kit of Parts]] · [[Instantiation]] · [[Every Defect Is A Gift]] · [[The Living System Triple Loop]] · [[Quest]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table and Meta Layer · *Prototype* and *The Prototype* (root pages, canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Meta-Architecture · the seed's Part V and Part XIII. lionsberg.wiki: Prototyping.
 **Open:** Two root pages exist for the noun (*Prototype*, *The Prototype*); the gerund has only the Lexicon line. Which page is the canonical home is unsettled.

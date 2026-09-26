@@ -20,5 +20,4 @@ And it is the mechanism behind replication. A Cell that can develop itself can f
 **Stands on:** [[Organizations The LIØNSBERG Way]] · [[Learning]] · [[Continuous Improvement]] · [[Governance]]
 **Opens onto:** [[Roles]] · [[Apprenticeship]] · [[Belt Progression]] · [[The Zone Of Optimum Development]] · [[Culture]] · [[Self-Sustenance and Self-Replication]] · [[Stewardship body]] · [[Guild]] · [[The Program Delivery Guide]]
 **In play:** the season — where a body looks at itself rather than at its work
-**Sources:** `Organizational Development System` (root page, stub — marked *coming soon*, pointing at `Organizations The LIØNSBERG Way` and the Handbook) · `Organizations The LIØNSBERG Way` (root page) · lionsberg.wiki: Organizational Development System
-**Open:** First articulation: the canon names this system and has not written it — the root page is a placeholder with one inbound link. Everything above is assembled from the development and replication material around it and should be checked against the Handbook, which was not read for this page.
+**Open:** First articulation: this system is named and has not been written — the root page is a placeholder with one inbound link. Everything above is assembled from the development and replication material around it and should be checked against the Handbook, which was not read for this page.

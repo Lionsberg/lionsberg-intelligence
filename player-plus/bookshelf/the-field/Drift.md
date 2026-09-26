@@ -20,5 +20,4 @@ What must never happen is not left to character at all. It goes into the setting
 **Stands on:** [[Language model]] · [[Charter]] · [[Set-up]]
 **Opens onto:** [[Agent engineering]] · [[Hypothesize]] · [[The maker]] · [[Prune]] · [[Soak]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Advanced Agent Engineering*, *How an AI Agent Works*, *Agent Engineering* · The DNA of Heaven, Part X.
 **Open:** none found.

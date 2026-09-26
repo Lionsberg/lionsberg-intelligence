@@ -18,5 +18,4 @@ It is the first of the [[Minimum standards of interoperability]] because the oth
 **Stands on:** [[The Player]] · [[The Playcard]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[The plan of the whole]] · [[An address]] · [[Screens and paper]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §18.1 · The Little Book of the Great Game, *The Playcard* · *The DNA of Heaven*, Parts V and VII — lionsberg.wiki page name: **The Playcard**
 **Open:** The OS calls the object a card and lists seven of them; the Little Book's Playcard is the one a player holds. They agree on the two halves.

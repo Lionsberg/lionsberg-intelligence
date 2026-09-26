@@ -22,5 +22,4 @@ The wilderness makes it worse, and the wilderness is where we are. Uncertainty i
 **Stands on:** [[The Anti-Patterns]] · [[ØNE]] · [[Inversion]] · [[The Wilderness]]
 **Opens onto:** [[The False Prophet]] · [[Institutional Idolatry]] · [[Word Tools]] · [[Do Not Concretize the Absolute]] · [[The Eternally Nameless]] · [[Spirit Precedes Pattern]] · [[The Pattern Governs, Not People]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
-**Open:** Named as an Anti-Pattern with no articulation; the canon does not distinguish an honored symbol from an idol, which is the judgment the Anti-Pattern actually requires.
+**Open:** Named as an Anti-Pattern with no articulation; nowhere is an honored symbol distinguished from an idol, which is the judgment the Anti-Pattern actually requires.

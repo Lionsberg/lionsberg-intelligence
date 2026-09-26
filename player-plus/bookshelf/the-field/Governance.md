@@ -20,5 +20,4 @@ Sacred Governance is not centralized, imposed, or mechanized. It has neither top
 **Stands on:** [[Sovereignty]] · [[The Goal]] · [[Consent]] · [[Right Relationship]] · [[Wisdom]]
 **Opens onto:** [[Authority]] · [[Field of Agreements]] · [[Subsidiarity]] · [[Consent-Based Decision-Making]] · [[HoloFractal Governance]] · [[Democratic Self-Governance Through Shared Agreements and Wise Eldership]] · [[Stewardship]]
 **In play:** table — the week a Cell writes down how it will decide
-**Sources:** *Governance* · *The Governance System* (root page; a one-line pointer only) · *The LIØNSBERG Lexicon*, Pillar II table · *Pillar II — Sacred Governance and Stewardship* · lionsberg.wiki: Governance
 **Open:** the pointer may be stale.

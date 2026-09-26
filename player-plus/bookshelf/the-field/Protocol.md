@@ -20,5 +20,4 @@ The danger is ossification. A protocol is a tool and not a law; it exists inside
 **Stands on:** [[Field of Agreements]] · [[Agreement]] · [[Order]] · [[Guardianship]]
 **Opens onto:** [[The Escalation Ladder]] · [[Stop]] · [[Mend a Tension]] · [[Conflict Transformation]] · [[Ritual]] · [[Proposal]]
 **In play:** the door · the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *All Patterns — Master Consolidated Inventory* §2.1 (ore) · *The LIØNSBERG Playbook*, Operations and the escalation ladder · the seed's Part X and Part V. lionsberg.wiki: Protocol.
 **Open:** *The Escalation Ladder* is ore — named in the Playbook with no rungs written. No page states the relationship between a protocol, a Play, and an agreement, though all three are patterns of action a body commits to.

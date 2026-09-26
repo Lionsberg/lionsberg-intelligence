@@ -22,5 +22,4 @@ There is a second direction to it, less often used. Asking upward — of elders,
 **Stands on:** [[Requests and offers]] · [[Mutual Aid]] · [[Trust]] · [[Commons]]
 **Opens onto:** [[Resource the Work]] · [[The Board]] · [[Request For Guidance]] · [[Guidance]] · [[Knowledge as commons]] · [[Catalytic Resources]] · [[Fostering Ecosystemic Resource Flows]] · [[Wise Eldership]]
 **In play:** the table and the Room — called whenever the Quest needs what the Cell lacks
-**Sources:** `Play — Ask for Help`, in The LIØNSBERG Playbook's Questing Plays · `The Gameboard` (the instrument the card names) · lionsberg.wiki: The LIØNSBERG Playbook
 **Open:** The card names *the Board* as *the Gameboard*; the Field carries the surface under the first name and the two are not reconciled in writing. · Nothing states what a body does when an ask goes repeatedly unanswered, which is the case a first season is most likely to meet.

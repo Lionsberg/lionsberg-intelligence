@@ -20,5 +20,4 @@ The diagnostics are honest and unflattering: stiffness, narrowed range, slowed t
 **Stands on:** [[Vitality]] · [[Breath]] · [[Discipline]] · [[The Daily Way]]
 **Opens onto:** [[Walking]] · [[Martial Cultivation]] · [[Tending]] · [[Sleeping]] · [[Dance]] · [[Rest And Regeneration]] · [[Pillar V — Sacred Health and Wellness]]
 **In play:** the Gate — one of the first things a Cell can hold together without any instrument at all
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Pattern Language/Patterns/Moving.md` (drafted Pattern Card) · the same Language's *Patterns Pending Articulation* (working document) · lionsberg.wiki: Moving
-**Open:** The card is written for an able body and says nothing about how the Pattern is held by a body that cannot perform its forms; the adaptation is left to the practitioner and their healer. · It names movement as "non-negotiable", which sits uneasily beside the canon's usual refusal of absolutes.
+**Open:** The card is written for an able body and says nothing about how the Pattern is held by a body that cannot perform its forms; the adaptation is left to the practitioner and their healer. · It names movement as "non-negotiable", which sits uneasily beside the usual refusal of absolutes.

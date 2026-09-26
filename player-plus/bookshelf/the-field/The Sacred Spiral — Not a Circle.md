@@ -20,5 +20,4 @@ The corpus reads the shape as the signature of making itself — galaxies, shell
 **Stands on:** [[The Sacred Ascent]] · [[Cycle]] · [[Fractal]]
 **Opens onto:** [[Spiraling Up · Spiraling Down]] · [[Retrospective]] · [[Mastery]] · [[The Loop That Has No End]] · [[Healing]] · [[Belt Progression]] · [[Continuous Improvement]] · [[Shu-ha-ri]]
 **In play:** the table — read at every retrospective, and whenever someone says nothing has changed
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Sacred Spiral — Not a Circle.md`
 **Open:** The Card sets the spiral against the cyclical time of several living traditions and calls theirs a partial seeing; that judgment is asserted, not argued, and is a claim about others' cosmologies. · No test is offered for telling a turn of the spiral from a genuine loop.

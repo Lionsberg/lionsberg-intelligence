@@ -8,7 +8,7 @@ pillar: X
 
 *A protective boundary held on purpose — around a life, an energy, a truth, or a body of people under load.*
 
-A shield is what is placed between something vulnerable and what would reach it. The word covers the physical, the social, and the energetic, and the canon treats them as one family because the discipline is the same: something is deliberately kept out, by someone who has decided to hold the line, for as long as it needs holding.
+A shield is what is placed between something vulnerable and what would reach it. The word covers the physical, the social, and the energetic, treated as one family because the discipline is the same: something is deliberately kept out, by someone who has decided to hold the line, for as long as it needs holding.
 
 Its social form is the plainest. A person under attack, a newcomer who has not yet found their feet, a member in crisis — each is shielded by others standing between them and the pressure. In a body this is shared rather than individual: **shared shielding under load** means the weight of a hard season does not rest on whoever happens to be most exposed. The Cell that has agreed in advance who covers whom does not have to negotiate it in the middle of the emergency.
 
@@ -20,5 +20,4 @@ Two cautions. A shield raised permanently becomes a wall, and a body behind a wa
 **Stands on:** [[Guardianship]] · [[Boundary]] · [[Energy]] · [[Love]]
 **Opens onto:** [[Selectively Permeable Membrane]] · [[Composure Under Threat]] · [[Sovereignty In The Populated Field]] · [[Breath]] · [[Exorcism]] · [[Guard the Membrane]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table · *All Patterns — Master Consolidated Inventory* §1 (drafted cards) · *The LIØNSBERG Pattern Language — Synthesized*, the Energetic layer · the seed's Part V, the floor. lionsberg.wiki: Shield.
 **Open:** The social sense carries the demonstrated load here.

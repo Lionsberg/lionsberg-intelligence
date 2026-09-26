@@ -20,5 +20,4 @@ Its discipline is that it must be transparent. A removal conducted quietly teach
 **Stands on:** [[Consent]] · [[Accountability]] · [[Mandate]] · [[Legitimacy]] · [[Withdrawal Of Consent]]
 **Opens onto:** [[Term Limits And Rotation]] · [[Disbanding]] · [[Oversight]] · [[Recourse]] · [[Structural Immunity]] · [[Transparency]]
 **In play:** beyond — rare, and public when it happens
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Governance and §Operational Governance Mechanics (*Recalling Authority*, named) · Recognition 5, *Necessity Of Accountability* · lionsberg.wiki: The LIØNSBERG Lexicon
 **Open:** Named in three indexes with no page and no procedure: who may initiate, what threshold removes, and what happens to the steward's work in progress are all unwritten.

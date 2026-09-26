@@ -20,5 +20,4 @@ The recurring form matters too. An opening gift establishes reciprocity; a month
 **Stands on:** [[Reciprocity]] · [[Commons]] · [[Consent]] · [[Meaningful Initial Contribution]]
 **Opens onto:** [[Voluntary Tithing]] · [[The Founder's Fund]] · [[Commons-Tending]] · [[Self-Sustenance and Self-Replication]] · [[Underwriting The New Economy]] · [[Economy]] · [[Pillar III — Sacred Economy and CurrentSee]]
 **In play:** the month — the one financial rhythm a member carries between seasons
-**Sources:** `Meaningful Monthly Contribution` (root page, stub, dated on its own second line) · `Meaningful Initial Contribution` (root page, stub) · `The Widow's Mite` (root page, a story) · lionsberg.wiki: Meaningful Monthly Contribution
 **Open:** The root page is four lines and says nothing about how the contribution is sized, where it goes, who decides its use, or how it is accounted for; everything operational about it is unwritten. · Whether it is money, time, or either is never stated, and the surrounding canon treats time as a currency, which makes the question live.

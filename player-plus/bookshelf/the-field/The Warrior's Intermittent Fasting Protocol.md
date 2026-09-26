@@ -20,5 +20,4 @@ Around it sit the ordinary disciplines it belongs to: sleep long enough to resto
 **Stands on:** [[Fasting]] · [[The Daily Way]] · [[Discipline]] · [[Rhythm]]
 **Opens onto:** [[Nutrition]] · [[Rest And Regeneration]] · [[The Practice Cadence]] · [[Season]] · [[The LIØNSBERG Calendar]] · [[Wellness]] · [[The Warrior Is The Instrument]] · [[Sabbath]]
 **In play:** the day · the week · the season
-**Sources:** `LIØNSBERG Wiki Books/Becoming a Warrior of The Way/The Warrior's Intermittent Fasting Protocol` · `Fasting` · lionsberg.wiki: Becoming a Warrior of The Way
 **Open:** The source's longest fasts carry only "with support and guidance where available", which is not a sufficient caution for what is being described; this page states the limit plainly and still cannot substitute for competent care. · The metabolic claims are unsourced and not carried. · The source presents itself as a complete protocol and has no review, no contraindications, and no second reader.

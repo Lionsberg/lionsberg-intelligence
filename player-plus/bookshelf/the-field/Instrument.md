@@ -20,5 +20,4 @@ The word carries its older sense too: a trained human capacity is an instrument.
 **Stands on:** [[Pattern]] · [[Play]] · [[Technology]] · [[Design]]
 **Opens onto:** [[The Playcard]] · [[The Questcard]] · [[The Record]] · [[Notebook form]] · [[Screens and paper]] · [[The LIØNSBERG Toolkit]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table · *The LIØNSBERG Playbook*, How to Use and the three layers · *The LIØNSBERG Operating System v0*, the seven cards · the seed's Part VII and Part XII. lionsberg.wiki: Instrument.
 **Open:** The Lexicon's "calibrated tool" sense and the Playbook's "third layer beside Pattern and Play" sense are close but not identical; neither page names the other.

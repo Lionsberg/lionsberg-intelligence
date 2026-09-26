@@ -16,9 +16,8 @@ That practice is the same instinct as Chatham House pointed at the past instead 
 
 Used well, the book is a practical instrument. A line read at the opening of a gathering does work that an explanation cannot, because it arrives already compressed and leaves room for the room to fill it.
 
-**Also called:** the quote corpus
+**Also called:** the quote collection
 **Stands on:** [[The Living Library]] · [[Scripture]] · [[Culture]]
 **Opens onto:** [[Metaphor]] · [[Parable]] · [[The Watchwords]] · [[Attribution]] · [[Chatham House]] · [[Ritual]] · [[Storytelling]]
 **In play:** table · beyond
-**Sources:** The LIØNSBERG Book of Quotes (substantial and growing) · The LIØNSBERG Lexicon, Quotes section, which is a pointer (stub) · lionsberg.wiki: *The LIØNSBERG Book of Quotes*
-**Open:** the book's unattributed gathering and the canon's discipline that every work carries its lineage are not reconciled anywhere; several lines in it are recognizably from named authors whose licences would ask for attribution if the wording were carried into a new work.
+**Open:** the book's unattributed gathering and the discipline elsewhere that every work carries its lineage are not reconciled anywhere; several lines in it are recognizably from named authors whose licences would ask for attribution if the wording were carried into a new work.

@@ -20,5 +20,4 @@ Neither field is a claim on anybody. A Cell born of your Flame is its own, not a
 **Stands on:** [[The Roll]] · [[Carrier]] · [[The Flame]] · [[Trust]]
 **Opens onto:** [[Witness]] · [[Pass The Flame]] · [[The Gate]] · [[Home Cell]] · [[Attraction, not promotion]] · [[The Season Sheet]]
 **In play:** Gate · table
-**Sources:** *The Minimum Standards of Interoperability — What a Holon Carries to Be a Cell* (Projects, Kit v0, 2026-09-12) · The DNA of Heaven, Parts VI and XII (the words at the Gate) · *The Twelve Words*, word 9 (current best understanding)
 **Open:** Nothing says what is written when a person arrives with no Carrier — walking in from the open door rather than being handed the Flame.

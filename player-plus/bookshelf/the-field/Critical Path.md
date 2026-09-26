@@ -18,5 +18,4 @@ It is computed, never declared. A body that names its critical path from instinc
 **Stands on:** [[The activity table]] · [[Pull planning]] · [[Predecessor - Successor|Predecessor / Successor]]
 **Opens onto:** [[Float]] · [[Milestone]] · [[Honesty about time]] · [[Theory Of Constraints]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Critical Path* · *The LIØNSBERG Lexicon* §The System and §Orientation and Navigation · *The LIØNSBERG Operating System* §4 · *Float* and *Critical Chain* — lionsberg.wiki page name: **The LIØNSBERG Critical Path**
 **Open:** The root page names the Movement's own chain as of 2017 and is not a definition of the term; the definition lives in the term-page drafts.

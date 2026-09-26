@@ -20,5 +20,4 @@ A Cell runs this at its own scale. Two or three plausible ways to do the [[Quest
 **Stands on:** [[Design To The Goal]] · [[Design]] · [[Possibility Of Reversal]] · [[Tightly Coupled Learning and Action]]
 **Opens onto:** [[Advantage Based Decision Making]] · [[Prototyping]] · [[The look-ahead]] · [[Constraint]] · [[Decision Making]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Design To The Goal (ore — named with Element 10, no card written) · *Twelve Irreducible Elements*, Element 10 (canon-grade) · the seed's Part VII. lionsberg.wiki: Set-Based Design.
-**Open:** Ore. Named once beside Element 10 with no body, no Play invoking it, and no statement of how the "last responsible moment" is judged in practice. The lineage is Lean and Integrated Project Delivery; the canon does not say so on this name.
+**Open:** Ore. Named once beside Element 10 with no body, no Play invoking it, and no statement of how the "last responsible moment" is judged in practice. The lineage is Lean and Integrated Project Delivery, not yet stated under this name.

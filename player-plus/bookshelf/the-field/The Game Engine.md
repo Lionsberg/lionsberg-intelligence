@@ -20,5 +20,4 @@ It is load-bearing because it is the alternative to authority as a tie-breaker. 
 **Stands on:** [[Work Deck]] · [[Data Date]] · [[The Clock of the Game]] · [[The Record]]
 **Opens onto:** [[The conformance deck]] · [[Float]] · [[Critical Path]] · [[Resource Leveling]] · [[Kept as a share of made]] · [[LUV]] · [[Work Card]] · [[Kit of Parts]] · [[Everything Is Current Best Understanding]]
 **In play:** Home — run at the Turn, checkable by hand
-**Sources:** `Projects/the term pages/The Game Engine.md` · `Projects/the term pages/Work Deck.md`, `Data Date.md`, `Resource Leveling.md` (drafts) · lionsberg.wiki: Float
-**Open:** The engine's own page names the specification, the conformance deck and the reference implementations as its three layers, and only fragments of the first exist. · Its value calculation depends on a ledger the canon's own pages warn against ([[TimeEnergy]]).
+**Open:** The engine's own page names the specification, the conformance deck and the reference implementations as its three layers, and only fragments of the first exist. · Its value calculation depends on a ledger warned against elsewhere ([[TimeEnergy]]).

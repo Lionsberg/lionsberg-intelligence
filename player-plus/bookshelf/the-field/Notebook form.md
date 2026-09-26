@@ -20,5 +20,4 @@ It is also the floor beneath a bad month. If an agent fails, a service goes down
 **Stands on:** [[Player]] · [[Screens and paper]] · [[The Solo Sovereign's Grace]]
 **Opens onto:** [[Lesson]] · [[Agent]] · [[The Kit]] · [[Player+]] · [[Pass The Flame]] · [[The Season Sheet]]
 **In play:** table · door
-**Sources:** The DNA of Heaven, Parts X, XI and XIII · Player+ Modules, *Start Here*, *How a Module Lives*, *The Deck Standard* · lionsberg.wiki: *LIØNSBERG Personal Agents*, *The LIØNSBERG Operating System*.
 **Open:** none found.

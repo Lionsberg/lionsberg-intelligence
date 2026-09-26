@@ -20,5 +20,4 @@ An agent's own account of itself is still a reconstruction where its inner worki
 **Stands on:** [[Sign]] · [[Hosted service]] · [[The maker]] · [[Terms]]
 **Opens onto:** [[Safe sparring]] · [[Room]] · [[Venue card]] · [[Play by Play]] · [[We Do Not Know]]
 **In play:** Room
-**Sources:** Player+ Modules, *Safe Sparring*, *Before Your First Room* · The DNA of Heaven, Part X ("reading is disclosure").
 **Open:** none found.

@@ -20,5 +20,4 @@ This is the destination [[Voluntary Tithing]] is walking toward, and it is what 
 **Stands on:** [[Commons]] · [[Voluntary Tithing]] · [[Flow]] · [[Holofractal Omnifederation]] · [[Subsidiarity]]
 **Opens onto:** [[Mutual Aid]] · [[Fractal Commonsing]] · [[Abundance]] · [[Wealth]] · [[Integrated Delivery]] · [[Levels Of Scale]]
 **In play:** Home · beyond
-**Sources:** *Fostering Ecosystemic Resource Flows* (wiki root) · *The LIØNSBERG Playbook*, Cross-Cutting · *Voluntary Tithing* (wiki root; canon-grade) · *The DNA of Heaven*, Part IV · lionsberg.wiki: Fostering Ecosystemic Resource Flows
-**Open:** The page names the principle and the levels but no mechanism: who decides where a pooled resource goes, and by what process, is not stated anywhere in the corpus. "By relationship, by trust" is the whole of the allocation rule as written.
+**Open:** The page names the principle and the levels but no mechanism: who decides where a pooled resource goes, and by what process, is not stated anywhere yet. "By relationship, by trust" is the whole of the allocation rule as written.

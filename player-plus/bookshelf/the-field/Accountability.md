@@ -20,5 +20,4 @@ In play it is weekly and ordinary. At [[The Turn]] each player says what they sa
 **Stands on:** [[Authority]] · [[Consent]] · [[Transparency]] · [[Commitment]] · [[Sacred Trust]]
 **Opens onto:** [[Oversight]] · [[Impeachment]] · [[Recourse]] · [[Term Limits And Rotation]] · [[Zero Blame Environment]] · [[Delegation]] · [[Decision Records]]
 **In play:** table — every week, in the first round of the Turn
-**Sources:** *Accountability* · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Recognition 5 · *Functional Accountability Chart* (root page; states it was renamed and is kept until inbound links are turned) · *The LIØNSBERG Lexicon*, Pillar II table · lionsberg.wiki: Accountability
 **Open:** The *Functional Accountability Chart* page states it has been superseded by *Function Chart* in the Toolkit; a reader following the old name should expect the newer one.

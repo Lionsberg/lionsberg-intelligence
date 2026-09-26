@@ -20,5 +20,4 @@ In the Game at a table, the equivalent is small and unglamorous: the Quest that 
 **Stands on:** [[Honesty about time]] · [[Float]] · [[The 10 Year Grand Strategy]] · [[Generational Time]]
 **Opens onto:** [[Critical Path]] · [[Milestone]] · [[The Meta Project]] · [[The 3 Year Lag]] · [[Measure everything, manage to the milestones]] · [[New Era]]
 **In play:** beyond
-**Sources:** `20 Year Generational Contingency` (root page; states the 200% figure and active monitoring alongside the critical path) · `The LIØNSBERG Lexicon`, §Timing (listed, ore) · `10 Year Grand Strategy` (root page) · `The LIØNSBERG Operating System`, honesty about time · lionsberg.wiki: 20 Year Generational Contingency
 **Open:** The page states the contingency will be carefully and actively monitored; no page says by whom, on what surface, or how the remaining buffer is computed. · Whether the twenty years run from the end of the ten-year strategy or absorb it is not stated, and the two readings differ by a decade.

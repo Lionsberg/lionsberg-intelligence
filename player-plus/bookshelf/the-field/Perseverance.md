@@ -20,5 +20,4 @@ Its long form is the one the Game actually runs on: work whose fruit arrives aft
 **Stands on:** [[Courage]] · [[Discipline]] · [[Faith]] · [[Commitment]]
 **Opens onto:** [[Virtues]] · [[Anti-Fragility]] · [[Continuous Improvement]] · [[Rhythm]] · [[The Turn]] · [[Covenant Across Time]] · [[Composure Under Threat]] · [[Pillar X — Sacred Guardianship and Order]]
 **In play:** the weekly Turn, in the season where nothing visible has changed yet
-**Sources:** `Perseverance` (root page, stub — the values-sheet definition) · `Virtues` (root page, stub, which names it) · lionsberg.wiki: Perseverance
-**Open:** The root page is two sentences of generic values language; the distinction from stubbornness, and the structural supports above, are synthesis and are not stated anywhere in the canon.
+**Open:** The distinction from stubbornness, and the structural supports above, are synthesis and are not yet stated elsewhere.

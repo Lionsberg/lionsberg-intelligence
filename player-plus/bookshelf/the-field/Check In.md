@@ -18,5 +18,4 @@ How it is played. Second of [[The eight movements]], after arriving and opening.
 **Stands on:** [[The Turn]] · [[Weave Spirit, Hearts, and Minds]] · [[Listening]]
 **Opens onto:** [[The eight movements]] · [[Harvest and Close]] · [[Mend a Tension]] · [[The Way Out]] · [[Terms]]
 **In play:** table · Room
-**Sources:** the Player+ Modules lexicon, *check in* (met first in Safe Sparring) · *The LIØNSBERG Playbook*, §Operations and §Caring · *The Way Out* (current best understanding) · lionsberg.wiki: **The LIØNSBERG Playbook**
 **Open:** the practice described is composed from the module lexicon and the Turn. Whether an agent in a room ever speaks in a check-in is settled elsewhere in the negative: the person speaks.

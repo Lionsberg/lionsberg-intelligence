@@ -20,5 +20,4 @@ And it is the place the turn happens. In the Story the Guide appears at the last
 **Stands on:** [[The Story of LIØNSBERG]] · [[Collapse]] · [[The Meta Crisis]]
 **Opens onto:** [[The Train of Civilization]] · [[The Caves]] · [[The Wilderness]] · [[The Promised Land]] · [[EuCatastrophe]] · [[Hell On Earth]] · [[The Way Out]] · [[Liberation and Exodus]] · [[The Final Test]]
 **In play:** the door — met in the Story, before anything is asked of anyone
-**Sources:** `Archive/Archive — Ore Mined Before Deletion.md`, the one-page Story mined 2026-09-09 · lionsberg.wiki: The Caves
 **Open:** The Ledger notes that the Telling does not yet carry the Train-and-Chasm image at all; it survives in mined ore rather than in the Story as told. · Nothing distinguishes the Chasm from Collapse except the image, and no page draws the line.

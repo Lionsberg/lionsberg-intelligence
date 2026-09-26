@@ -19,5 +19,4 @@ Every being can say it, accurately and completely: *I am one. I am one of the On
 **Stands on:** [[ØNE]] · [[All]] · [[InterExistence]]
 **Opens onto:** [[The Sovereign]] · [[Sovereignty]] · [[Sovereignty Of Consciousness]] · [[ØNE Body]] · [[The Cosmic Body]] · [[Divine Spark]] · [[The Great ReMembering]] · [[Dignity]]
 **In play:** At the door, as why no one is turned away and no one is conscripted; at the table, as why one voice per person; beyond, as why sovereign bodies federate instead of merging.
-**Sources:** `One of the Ones of the ØNE` · `200 - Each One of the Ones of the ØNE` (A 200 Page Book) · `The Story of LIØNSBERG — The Sacred Arc`, Movement III · `Act I · Scene 2 — The Ones of the ØNE` (The ØNE Book) · `The Great Weaving — Concept Ledger` §A.2. lionsberg.wiki: **One of the Ones of the ØNE**.
 **Open:** The Card points the formula's Pattern home at `Fractal Sovereignty`, a name that does not hold a page; the live page is `Sovereignty At Every Scale`.

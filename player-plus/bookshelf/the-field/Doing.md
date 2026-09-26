@@ -20,5 +20,4 @@ At the table it is the plainest thing in the Game: one sentence, said aloud, abo
 **Stands on:** [[Being]] · [[Intention]] · [[Embodiment]]
 **Opens onto:** [[Becoming]] · [[The Reciprocal Opening of Being and Doing]] · [[Praxis]] · [[Commitment]] · [[Work]]
 **In play:** Met at the table every week, in the commitment said aloud and the gap reported honestly the week after.
-**Sources:** *The LIØNSBERG Lexicon*, Key Terms · *Doing* (root page, five lines, no status) · *Being* (root page, its mirror) · *Twelve Irreducible Elements* · lionsberg.wiki: *Doing*.
 **Open:** The root page is a mirror of *Being* and adds nothing of its own; the operational weight of Doing lives in the Game and Operating System pages rather than under this name.

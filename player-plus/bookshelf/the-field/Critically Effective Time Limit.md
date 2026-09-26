@@ -20,5 +20,4 @@ A limit honestly named is a gift; a limit invented to create pressure is manipul
 **Stands on:** [[Time]] · [[Kairos]] · [[Honesty about time]] · [[Throughput]]
 **Opens onto:** [[Critical Path]] · [[The 7 Year Window of Crisis and Opportunity]] · [[Milestone]] · [[Constraint]] · [[Quest]] · [[Proportionality]] · [[The Meta Crisis]]
 **In play:** table · beyond
-**Sources:** `The LIØNSBERG Lexicon`, §Key Terms (item 52) and §Timing (item 30), where the term is listed · `The 7 Year Window of Crisis and Opportunity` (root page): *"If we fail to capture the opportunity in this window of time, it is not obvious that it will remain open"* · `The LIØNSBERG Operating System`, honesty about time · lionsberg.wiki: no page stands at this name
 **Open:** The term appears twice in the Lexicon's lists and has no page; the treatment here is assembled from the windows and the planning discipline, neither of which cites it. · Nothing states who sets a critically effective time limit, or how one is tested rather than asserted.

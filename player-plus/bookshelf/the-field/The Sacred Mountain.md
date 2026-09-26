@@ -20,5 +20,4 @@ And it carries the one warning any sacred image needs. A mountain is not owned, 
 **Stands on:** [[LIØNSBERG]] · [[The Sacred Ascent]] · [[ØNE]]
 **Opens onto:** [[The Sovereign Path]] · [[Coming Home]] · [[The Flame]] · [[Temple]] · [[Transcendence]] · [[Immanence]] · [[Do Not Concretize the Absolute]] · [[Mythos]] · [[The Great ReMembering]]
 **In play:** the door — the picture behind the name
-**Sources:** `LIØNSBERG.md` (wiki root) · lionsberg.wiki: LIØNSBERG
 **Open:** The Ledger records this as one of the system's own keystones with no page; what exists is a paragraph on the name's page and nothing else. · Whether the mountain, the citadel, and the flame in its heart are three images of one thing or three things is nowhere said.

@@ -20,5 +20,4 @@ The measure of a society is not its output but the integrity of its threads: whe
 **Stands on:** [[Right Relationship]] · [[InterExistence]] · [[Agreement]] · [[Trust]] · [[HoloFractal]]
 **Opens onto:** [[Community]] · [[Family]] · [[Culture]] · [[Justice]] · [[Citizenship]] · [[Higher Order Functional Unity]] · [[Levels Of Scale]]
 **In play:** table · Home · beyond
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XI term *Society* (canon-grade) · `Pillar XI — Sacred Society and Justice`, Thesis 1 (canon-grade) · `Society` (an earlier articulation in the older framing of co-creators and the Manifesto) · lionsberg.wiki: Society
 **Open:** The root `Society` page speaks of society as context-and-beneficiary of a program, while the Lexicon and the Pillar treat it as the fabric itself; the older framing has not been folded into the newer.

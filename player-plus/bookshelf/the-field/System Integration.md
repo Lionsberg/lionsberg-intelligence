@@ -20,5 +20,4 @@ For a Cell in its first season this is smaller than it sounds. It is making sure
 **Stands on:** [[Integrated Delivery]] · [[System]] · [[Design]] · [[Networks of Commitments]]
 **Opens onto:** [[Cross-Functional Integration]] · [[Concurrent design]] · [[Conditions of satisfaction]] · [[Interface]] · [[The look-ahead]] · [[Integrated Project Delivery]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table · *The LIØNSBERG Pattern Language — Synthesized*, Element 9 (canon-grade) · *The LIØNSBERG Operating System v0*, quality at the handoff and commitments between groups · the seed's Part VII. lionsberg.wiki: System Integration.
 **Open:** *System Integration* under Pillar IX and *Cross-Functional Integration* under Element 9 are the same practice named twice in two books; neither page points to the other.

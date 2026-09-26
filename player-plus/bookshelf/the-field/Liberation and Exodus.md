@@ -20,5 +20,4 @@ In the Game it is met as departure at human scale: the first concrete withdrawal
 **Stands on:** [[The Sacred War]] · [[Awakening]] · [[The Caves]] · [[Sovereignty]]
 **Opens onto:** [[The Wilderness]] · [[Withdrawal Of Consent]] · [[Liberation]] · [[The Great ReMembering]] · [[The Promised Land]]
 **In play:** door · Gate
-**Sources:** *The Story of LIØNSBERG — The Sacred Arc*, Movement VIII (canon-grade) · *The Story of LIØNSBERG* (canon-grade) · *The 144 Gates of Initiation*, Movement 4 — lionsberg.wiki · the seed text *The DNA of Heaven*, Part II.
 **Open:** *Walking One Another Høme* is linked from the Arc but has no page. · The relationship between this movement and the Pillar II term [[Withdrawal Of Consent]] (named there with *Exodus Protocols*) is stated in both places and cohered in neither.

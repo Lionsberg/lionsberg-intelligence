@@ -18,5 +18,4 @@ It is also the relation that federates. A Cell's activity may have a supercell's
 **Stands on:** [[The activity table]] · [[Pull planning]]
 **Opens onto:** [[Critical Path]] · [[Float]] · [[Conditions of satisfaction]] · [[The plan of the whole]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Lexicon* §The System, which names Predecessor and Successor beside Network of Commitments and Pull Planning · *The LIØNSBERG Operating System* §4 · *Activity* and *Float* — lionsberg.wiki page name: **Predecessor**
-**Open:** The Lexicon lists the pair without defining it; the definition above is gathered from the planning drafts. · **Name:** the `/` in this concept's name is written as a hyphen in this page's filename.
+**Open:** The Lexicon lists the pair without defining it; the definition above is gathered from the planning drafts.**Name:** the `/` in this concept's name is written as a hyphen in this page's filename.

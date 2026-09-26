@@ -20,5 +20,4 @@ Its weekly anchor is the Circle — the daily practice held in collective accoun
 **Stands on:** [[The Sovereign]] · [[Silence And Stillness As The Ground]] · [[Rhythm]] · [[The Sovereign Path]]
 **Opens onto:** [[The Coherent Divine Intention Wave]] · [[The One Hour A Day Practice]] · [[Breath]] · [[Rest And Regeneration]] · [[The Turn]] · [[The LIØNSBERG Calendar]] · [[The Sacred Ascent]]
 **In play:** Gate
-**Sources:** *The Daily Way* (Card, written; continuously improving) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The Sovereign Path* (§Rhythms) · *THE DNA OF HEAVEN* Part V · lionsberg.wiki: The Daily Way
 **Open:** The Card's Essential tier runs to about thirty minutes while the Pattern Language also names a one-hour-a-day practice; the relation between them is not stated.

@@ -20,5 +20,4 @@ The same discipline is what the trained being is most fundamentally transmitting
 **Stands on:** [[Sovereignty Of Consciousness]] · [[Sovereignty At Every Scale]] · [[Primacy Of Consent]] · [[Sensing The Field]]
 **Opens onto:** [[Selectively Permeable Membrane]] · [[Withdrawal Of Consent]] · [[Boundary]] · [[Shield]] · [[Recognizing Psychic Attack]] · [[Composure Under Threat]] · [[Lineage]]
 **In play:** Room
-**Sources:** *Sovereignty In The Populated Field* (drafted Pattern Card) · *Standing Without Being Captured* (drafted Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Sovereignty In The Populated Field
 **Open:** none found

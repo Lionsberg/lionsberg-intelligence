@@ -20,5 +20,4 @@ The trade is stated plainly. Someone who holds this can sustain engagement acros
 **Stands on:** [[The Threefold Capacity]] · [[Healing]] · [[The Daily Way]] · [[Wellness]]
 **Opens onto:** [[Healing Cannot Be Imposed, And Must Match The Layer]] · [[The Warrior-Healer Pair, And The Deferral]] · [[The Five Warrior-Context Wounds]] · [[The Funeral Of Destruction]] · [[Rest And Regeneration]] · [[Mastery Of Emotions]] · [[Exorcism]] · [[Trauma]]
 **In play:** the day — at the close of it, before anything else
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.7 Healing`, §The Warrior As Restorer and §The First Patient Is The Warrior · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The canon's [[The Threefold Capacity]] holds creation, healing, and destruction as co-equal without saying why the one who ends things must also be the one who mends; this chapter supplies the durability argument that page lacks. · Nothing addresses the person whose work is protective but whose formation in healing is nonexistent — the common case now.

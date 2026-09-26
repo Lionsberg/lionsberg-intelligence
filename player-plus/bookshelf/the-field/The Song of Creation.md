@@ -17,5 +17,4 @@ It is load-bearing for the Story's arc. Without the First Turning there is no Ma
 **Stands on:** [[ØNE]] · [[The Ineffable]] · [[Logos]]
 **Opens onto:** [[The Sacred Arc]] · [[All]] · [[ØNE Body]] · [[One of the Ones of the ØNE]] · [[The Divine Symphony]] · [[Creation]] · [[Emanation]] · [[The Eternal Divine Play]]
 **In play:** At the door, in the Story's opening breath; beyond, as the ground of why beauty and harmony are treated as real rather than decorative.
-**Sources:** `The Story of LIØNSBERG — The Sacred Arc`, Movement II (canon-grade — the twelve movements in one line each) · `200 - The Song of Creation` (A 200 Page Book — four lines, verse form) · `ØNE` · `Pass The Flame`, Ch. 6. lionsberg.wiki: **The Story of LIØNSBERG — The Sacred Arc**.
 **Open:** The Arc names the movement *The First Turning*; the verse and the Concept Field name it *The Song of Creation*. Neither name holds a page of its own, and the ØNE Card points at a third, `The First Pulse — The Word and the Song`, which was not found in the wiki.

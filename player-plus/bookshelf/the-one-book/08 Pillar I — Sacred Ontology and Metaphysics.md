@@ -1,7 +1,7 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 08
+chapter: 8
 ---
 
 # Pillar I — Sacred Ontology and Metaphysics
@@ -178,7 +178,7 @@ The alternative wager is equally unprovable and it changes everything downstream
 
 Between them runs a gradient: [[Alignment]] is conformity with [[Spirit]] and Logos; [[Distortion]] is that conformity bent out of true; [[Inversion]] is the bend carried all the way over, so that a thing now feeds on what it was made to serve, keeping the form and reversing the direction. Most failure is distortion — drift, not betrayal — and distortion is catchable. That is what a Cell is actually looking for in its honest weekly reading, and what [[OmniSpection]] looks for each season.
 
-### Where the sources disagree, and what this Book carries
+### Open questions
 
 **On naming.** Most of the corpus holds that ØNE is known by every true name and present in every genuine tradition, that all true paths carry the same universal wisdom, and that every name for the Absolute is a tool rather than a possession. One strand instead holds that this Codex names directly from the ØNE and does not treat the culture-specific names of Earth's religions as equivalent. This Book carries the first. The second is recorded, and the reconciliation available in the corpus's own words is that the great spirits arise from ØNE, speak to All, and return to ØNE.
 
@@ -362,7 +362,7 @@ The vocabulary of this Pillar, at the table and beyond it. Each opens onto its o
 
 **Carried as names without bodies** — [[Omniharmonic]] · [[OmniIntegration]]
 
-The Pillar's own page is [[Pillar I — Sacred Ontology and Metaphysics]]. Its center is [[07 ØNE — the Center]]; its first neighbour is [[09 Pillar II — Sacred Governance and Stewardship]]; the culture that carries all of it is [[05 The Pattern and the Way]].
+The Pillar's own page is [[Pillar I — Sacred Ontology and Metaphysics]]. Its center is [[07 ØNE — the Center]]; its first neighbour is [[09 Pillar II — Sacred Governance and Stewardship]]; the culture that carries all of it is [[04 The Pattern and the Way]].
 
 ---
 
@@ -398,3 +398,4 @@ The Pillar's own page is [[Pillar I — Sacred Ontology and Metaphysics]]. Its c
 - The Five Verification Filters as written. They are a first articulation from one ledger line and the corpus's disciplines; the third filter especially could be carried by an undisciplined reader into exactly the conspiratorial register this Pillar exists to prevent.
 - The plan's horizons for this Pillar. Nothing in the canon assigns dates to ontological work, and the sequence proposed here is inference from what is missing rather than from any stated schedule.
 - Whether this chapter has correctly weighted the wager. Stating *act as if* honestly is the strongest bridge to a reader who will not grant a Source — and it can read, to a reader who already stands inside a tradition, as though the Absolute were being treated as a hypothesis chosen for its fruits. Both readings are available in the text, and the tension is real rather than a defect of phrasing.
+

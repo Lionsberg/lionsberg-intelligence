@@ -10,7 +10,7 @@ pillar: II
 
 A commons can be tangible — land, tools, buildings, food systems, a hall — or intangible — knowledge, culture, wisdom, shared infrastructure. What makes it a commons is not its substance but its holding: resources recognized as rightly accessible to all members of a body and not exclusively controlled by any person, company, or state.
 
-The deepest insight the canon carries is that **commons are not designed; they emerge.** Wherever sovereigns freely associate, something is pooled — and the moment something is pooled, it must be governed, bounded, and resourced. That is why the commons arrives inseparably with a [[Domain]], a [[Selectively Permeable Membrane]], and a [[Field of Agreements]]. Each commons is governed by its own agreements, protected by its own membrane, and resourced by the voluntary contributions of the sovereigns who sit at that table.
+The deepest insight here is that **commons are not designed; they emerge.** Wherever sovereigns freely associate, something is pooled — and the moment something is pooled, it must be governed, bounded, and resourced. That is why the commons arrives inseparably with a [[Domain]], a [[Selectively Permeable Membrane]], and a [[Field of Agreements]]. Each commons is governed by its own agreements, protected by its own membrane, and resourced by the voluntary contributions of the sovereigns who sit at that table.
 
 Without an explicit commons, shared things are either privatized by whoever moves first or degraded by everyone — the failure the old world names the tragedy of the commons, which is really a tragedy of ungoverned access. With one, a small body gains capacity none of its members could reach alone: tools, spaces, learning, care.
 
@@ -20,5 +20,4 @@ In play a [[Cell]] meets its commons the first week it takes [[The Offering]]: w
 **Stands on:** [[Domain]] · [[Field of Agreements]] · [[Selectively Permeable Membrane]] · [[Stewardship]] · [[Voluntary Tithing]]
 **Opens onto:** [[Fractal Commonsing]] · [[Knowledge as commons]] · [[The Parasite]] · [[Capital Subordinate To Purpose]] · [[Tragedy of the Commons]] · [[Federation]]
 **In play:** table — the middle of the table, every week
-**Sources:** *Commons* (principle, fractal commonsing, seven key principles) · *Holofractal Omnifederation* (the four things every association births) · *The LIØNSBERG Lexicon*, Pillar II and Pillar III tables · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Commons
 **Open:** none found.

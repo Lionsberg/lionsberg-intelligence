@@ -20,5 +20,4 @@ Structurally the refusal is rhythm: deliberate revision, retrospection at the tu
 **Stands on:** [[The Anti-Patterns]] · [[Current Best Understanding]] · [[Distortion]]
 **Opens onto:** [[Shoshin]] · [[Spirit Precedes Pattern]] · [[Institutional Idolatry]] · [[Possibility Of Reversal]] · [[Everything Is Current Best Understanding]] · [[The Triadic Discipline]] · [[Truth To ØNE, Errors To Us]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *Shoshin* (drafted Pattern Card) · *THE DNA OF HEAVEN* Parts I and IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as an Anti-Pattern with no articulation; the boundary between ideological capture and the unamendable Recognitions is not drawn.

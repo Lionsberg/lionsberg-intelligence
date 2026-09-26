@@ -4,7 +4,7 @@ book: The One Book
 chapter: 17
 ---
 
-# 17 Pillar X — Sacred Guardianship and Order
+# Pillar X — Sacred Guardianship and Order
 
 ## The Pillar in one breath
 
@@ -30,7 +30,7 @@ What fails without it is not one instrument. Without it, everything else in this
 
 ## Current best understanding
 
-A handful of ordinary words are used throughout, each given once so that nothing depends on having read another chapter. A **[[Circle]]** is a group of people sitting as equals, three to thirteen, best at four to seven. A **[[Cell]]** is a Circle that has started playing — that has written down how it will treat one another, chosen something real to do, and begun passing on what it learns. A **[[The Turn|Turn]]** is the weekly gathering; a **[[Season]]** is about ninety days; a **[[Quest]]** is the one real thing a Cell takes on for a season. A Cell's **[[Home]]** is the body that hears its season and helps when something is wrong; three or more Cells that are one another's home make a **[[Supercell]]**. A **[[Field of Agreements]]** is the one-page living constitution a body freely wrote for itself. A **[[Selectively Permeable Membrane]]** is the boundary of a body that breathes — a chosen filter rather than a wall. A **[[Player+]]** is one person together with their agents, and the person is the Player. That is the whole vocabulary this chapter needs.
+A handful of ordinary words are used throughout, each given once so that nothing depends on having read another chapter. A **[[Circle]]** is a group of people sitting as equals, three to thirteen, optimally four to seven. A **[[Cell]]** is a Circle that has started playing — that has written down how it will treat one another, chosen something real to do, and begun passing on what it learns. A **[[The Turn|Turn]]** is the weekly gathering; a **[[Season]]** is about ninety days; a **[[Quest]]** is the one real thing a Cell takes on for a season. A Cell's **[[Home]]** is the body that hears its season and helps when something is wrong; three or more Cells that are one another's home make a **[[Supercell]]**. A **[[Field of Agreements]]** is the one-page living constitution a body freely wrote for itself. A **[[Selectively Permeable Membrane]]** is the boundary of a body that breathes — a chosen filter rather than a wall. A **[[Player+]]** is one person together with their agents, and the person is the Player. That is the whole vocabulary this chapter needs.
 
 ### Guardianship is a ladder, and most of it is talking
 
@@ -97,6 +97,16 @@ The canon names one operational exception and gives it a bound: the protective p
 And what is owed afterward is not private grief but a structural obligation. **Every act of destruction is a funeral.** What was lost is witnessed and mourned — not only what was taken, but the relationship that could have been if the destruction had not been required. An accounting is given to the Circle and to whoever holds the body's counsel. Ordinary work is set down for a time. There is no celebration; a body that celebrates its own destructive acts has begun to want occasions for them. *The cultures that have made heroes of their soldiers have produced more soldiers.* And the one who becomes numb to what was required has begun to drift; the one who remains capable of grief over it remains capable of the vow.
 
 Most of a lifetime, the capacity is held in reserve and never used. **The successful protective field is the one in which destruction was never required**, because the field was held cleanly enough that predation could not establish itself — which means success in this Pillar is mostly invisible and will never be applauded.
+
+### Every technology is a tool, arms included
+
+[[Technology Is Not Neutral|No tool is neutral]], and arms are no exception to the rest of what this civilization builds. A weapon, a surveillance system, a machine of persuasion, and a plough are each what a hand does with them, and each answers to the same discipline this Pillar already states for a hand or a Circle: force, whoever wields it and whatever the instrument, is bounded by purpose, sufficiency, and alignment, and nothing more. This civilization is free to develop and use tools in the wise right way, in keeping with [[The LIØNSBERG Code]] and the LIØNSBERG Culture — the same metallurgy, computation, and organizing genius that built weapons of domination can be turned toward provisioning rather than harm, [[Weaponry To Livingry|weaponry into livingry]] — and a body that adopts a tool answers for what that tool makes likely exactly as a person exercising force answers for it. [[The LIØNSBERG Theory of Force]] holds this one discipline across every scale of holon, from a hand to the whole civilization, and is this Pillar's fuller articulation of what is stated here in brief.
+
+### Sanctuary and conscientious objection
+
+A Cell, a Community, or any federated body may hold itself as a place of refuge — where this Pattern is lived in practice, where those leaving harm or collapse elsewhere find safety, and where the passage between the old world and the new is held with grace. Offering [[Sanctuary]] is a constitutional exercise of a holon's own sovereignty (see [[09 Pillar II — Sacred Governance and Stewardship|Pillar II]]'s sovereignty of every holon), not a discretionary favor requiring anyone's prior permission.
+
+Every member retains the right to refuse personal participation in an act that would harm life, extract from the commons, or otherwise contradict [[The Goal]] — even where an outside jurisdiction, employer, or institution would compel that participation. This civilization supports a member exercising that refusal through the conflict-transformation and mutual-aid structures already available to them, alongside the tactical, non-legitimizing coexistence with outside systems this Book holds elsewhere.
 
 ### No standing army of the Movement
 
@@ -202,7 +212,7 @@ The lines are simple and they are all guardianship lines. An [[Agent]] belongs t
 
 Who may say stop to an agent: **anyone.** The same word, the same immediacy, the same asymmetry — it takes effect at once and only the one who said it lifts it. No standing is required, and the person whose agent it is answers for what it did. Before an agent enters a room that is not its person's, it carries a venue card saying what the door checks, what holds there, what it may bring and do, and when the card ends; narrow fast and alone, widen slowly and only by the person, and nothing written inside a room widens a card.
 
-And the floor beneath all of it: **everything an agent does can be done by a person with a notebook and no agent at all.** A person with a notebook is a complete player. That is what keeps this Pillar's instruments from quietly becoming a dependency, and it is why none of them needs a screen. ([[23 Players, Agents, and the Intelligence System]].)
+And the floor beneath all of it: **everything an agent does can be done by a person with a notebook and no agent at all.** A person with a notebook is a complete player. That is what keeps this Pillar's instruments from quietly becoming a dependency, and it is why none of them needs a screen. ([[25 Players, Agents, and the Intelligence System]].)
 
 ### The anti-patterns that arrive dressed as safety
 
@@ -303,7 +313,7 @@ Each is given as *what it is · who holds it · how it degrades to paper*. Every
 
 **Shared shielding under load.** *What:* agreeing in advance who covers whom when a season turns heavy, so the weight does not land on whoever happens to be most exposed. *Who holds it:* the Cell. *Paper:* names and pairs, written at the turning. And the caution that belongs with every [[Shield]]: raised permanently, it becomes a wall, and a body behind a wall stops receiving what it needs.
 
-**Containment, named honestly.** *What:* what a body does with someone it cannot allow to continue and will not destroy. *Who holds it:* the smallest body near enough to see it, never a distant one. *Paper:* the frame, which is all that exists — aim at restoration; minimum force; local and visible judging; held apart until trust can be re-established, which is a condition and not a sentence; nobody judged in their absence or unheard; the harmed never asked to absorb the harm for the body's self-image; the person remains a person. **This is the most consequential hole in the Pillar. Nothing states who decides, by what process, with what appeal, for how long, or what re-establishing trust consists of.** A body that needs more than the frame today should say so as a defect, name it, and help write the instrument ([[26 The Instruments the Canon Lacks]]).
+**Containment, named honestly.** *What:* what a body does with someone it cannot allow to continue and will not destroy. *Who holds it:* the smallest body near enough to see it, never a distant one. *Paper:* the frame, which is all that exists — aim at restoration; minimum force; local and visible judging; held apart until trust can be re-established, which is a condition and not a sentence; nobody judged in their absence or unheard; the harmed never asked to absorb the harm for the body's self-image; the person remains a person. **This is the most consequential hole in the Pillar. Nothing states who decides, by what process, with what appeal, for how long, or what re-establishing trust consists of.** A body that needs more than the frame today should say so as a defect, name it, and help write the instrument ().
 
 **The rehearsal.** *What:* what this Cell does in the first hour of the two or three emergencies most likely where it lives. *Who holds it:* everyone. *Paper:* one page, practised once a season, in the body rather than in the file. This is the ordinary form of preparation, and it has nothing to do with force.
 
@@ -398,13 +408,13 @@ The ore beside them — named, load-bearing, and in several cases still unwritte
 
 [[The Threefold Capacity]] · [[Containment Of The Dangerous Sovereign]] · [[The Dark Initiate Failure Mode]] · [[Self Defense]] · [[Shield]] · [[Exorcism]] · [[The 300]] · [[Honor]] · [[Courage]] · [[Discipline]] · [[Integrity]] · [[Guard the Membrane]] · [[Protection Of Children]] · [[Sacred Order]] · [[Sacred Trust]] · [[Right Use of Power]] · [[Proportionality]] · [[Separation Of Power]] · [[Adjudication]] · [[Arbitration]] · [[Oversight]] · [[Recourse]] · [[Remedy]] · [[Sanction]] · [[Reconciliation]] · [[Conflict Transformation]] · [[Zero Blame Environment]] · [[Term Limits And Rotation]] · [[Impeachment]] · [[Disbanding]] · [[The Escalation Ladder]] · [[Mend a Tension]] · [[Vow-Speaking]] · [[Discernment]] · [[Discerning Between Benevolent And Malevolent Intelligences]] · [[Sovereignty In The Populated Field]] · [[Mutual Aid]] · [[Withdrawal Of Consent]] · [[Surveillance]] · [[Kontrolle]] · [[The Caves]] · [[Full Spectrum Dominance]] · [[The Three-Layered Adversary]] · [[The Final Order]] · [[The Sacred War]] · [[The Anti-Patterns]] · [[The False Prophet]] · [[The Parasite]] · [[Trauma]] · [[Healing]] · [[Grief]] · [[Anger]] · [[Fear]] · [[Breath]] · [[Mastery Of Emotions]] · [[The Act Of Release]] · [[Speaking Truth In Love]] · [[Forgiveness]] · [[Apologizing]] · [[Sacred spaces]]
 
-The full set of two hundred words at the table is at [[25 The Words]]; the Pattern they serve is at [[05 The Pattern and the Way]]; the Game they are played in is at [[THE GAME]]; the Story they come from is at [[THE STORY]].
+The full set of two hundred words at the table is at [[31 The Words]]; the Pattern they serve is at [[04 The Pattern and the Way]]; the Game they are played in is at [[THE GAME]]; the Story they come from is at [[THE STORY]].
 
 ---
 
 ## What is not yet settled
 
-*The what waits on an answer, each in one line; the contradictions found; what this chapter is least sure of. The full ledger is at [[27 The Open Questions]].*
+*The what waits on an answer, each in one line; the contradictions found; what this chapter is least sure of. The full ledger is at [[32 The Open Questions]].*
 
 **The largest hole**
 
@@ -443,3 +453,4 @@ The full set of two hundred words at the table is at [[25 The Words]]; the Patte
 ---
 
 *Back: [[16 Pillar IX — Sacred Architecture and Design]] · Forward: [[18 Pillar XI — Sacred Society and Justice]] · Table of contents: [[The One Book]]*
+

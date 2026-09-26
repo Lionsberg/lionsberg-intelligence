@@ -20,5 +20,4 @@ Attending to a person's state rather than only their task is a further register,
 **Stands on:** [[Charter]] · [[Agent]] · [[Wise Right Speech]]
 **Opens onto:** [[Day shape]] · [[Off switch]] · [[Bottom Line Up Front]] · [[Agent engineering]] · [[Drift]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Advanced Agent Engineering*, *An Agent That Attends to You* · The DNA of Heaven, Part VIII ("the one thing first, depth pullable") · lionsberg.wiki: *Bottom Line Up Front*.
-**Open:** the word also names the canon's registers of need and the Threads register; the senses are unrelated and no page yet disambiguates them.
+**Open:** the word also names the registers of need and the Threads register; the senses are unrelated and no page yet disambiguates them.

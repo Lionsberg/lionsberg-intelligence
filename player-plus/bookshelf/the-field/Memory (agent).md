@@ -20,5 +20,4 @@ What an agent holds about its person goes nowhere else without their word: not t
 **Stands on:** [[Agent]] · [[Set-up]] · [[Charter]] · [[Language model]]
 **Opens onto:** [[Agent engineering]] · [[Prune]] · [[Provenance]] · [[Hosted service]] · [[Improvement log]]
 **In play:** beyond
-**Sources:** Player+ Modules, *How an AI Agent Works*, *Agent Engineering*, *Before Your First Room* · The DNA of Heaven, Part X.
-**Open:** the word carries a great deal elsewhere in the canon (remembrance, the Record, a people's memory); here it names one small technical thing only.
+**Open:** the word carries a great deal elsewhere (remembrance, the Record, a people's memory); here it names one small technical thing only.

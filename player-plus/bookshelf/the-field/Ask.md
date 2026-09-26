@@ -22,5 +22,4 @@ Asks also travel outward. A Circle's requests and offers are the same instinct a
 **Stands on:** [[Heads-up]] · [[Live log]] · [[Agent]]
 **Opens onto:** [[Requests and offers]] · [[Play by Play]] · [[Morning page]] · [[The Turn]] · [[Pain (as signal)]]
 **In play:** Room
-**Sources:** Player+ Modules, *The Heads-up and the Play by Play*, *Daily Life* · The DNA of Heaven, Parts VII and X ("what is owed is computed from the record, never remembered").
 **Open:** none found.

@@ -18,5 +18,4 @@ The one number to watch is kept as a share of made, because it is the one that t
 **Stands on:** [[The LIØNSBERG Operating System]] · [[The Intent]] · [[Pull planning]]
 **Opens onto:** [[The Heartbeat]] · [[The look-ahead]] · [[Kept as a share of made]] · [[The forty-two-day launch sprint]] · [[The Season Sheet]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §20 · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **The LIØNSBERG Operating System**
 **Open:** The book's §20 says *ring* where the Little Book now says supercell; the sequence itself is unaffected.

@@ -20,5 +20,4 @@ The immunities are structural rather than vigilant: [[Subsidiarity Of Authority]
 **Stands on:** [[The Anti-Patterns]] · [[Authority]] · [[Power Of The Republic]]
 **Opens onto:** [[Subsidiarity Of Authority]] · [[Term Limits And Rotation]] · [[Necessity Of Accountability]] · [[Federations vs Empires]] · [[Separation Of Power]] · [[Structural Immunity]] · [[Holofractal Omnifederation]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as an Anti-Pattern with no articulation; no page states how a Body detects the drift early or what it does on finding it.

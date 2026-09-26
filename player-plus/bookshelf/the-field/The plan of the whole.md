@@ -18,5 +18,4 @@ It is also what makes a small body's work legible to itself. Seeing the stretch 
 **Stands on:** [[Milestone]] · [[Pull planning]] · [[The same card shape]] · [[Home Cell]]
 **Opens onto:** [[An address]] · [[Stacking Up And Aligning]] · [[The Season Sheet]] · [[Minimum standards of interoperability]] · [[The Meta Project]]
 **In play:** Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §17 · *Milestone* and *Float* · *The DNA of Heaven*, Parts V and VII — lionsberg.wiki page name: **The LIØNSBERG Operating System**
 **Open:** §17 calls the middle body a *ring*; the Little Book now says supercell. The object is the same.

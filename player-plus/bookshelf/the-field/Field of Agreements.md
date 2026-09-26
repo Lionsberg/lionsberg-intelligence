@@ -20,5 +20,4 @@ In play, it is the first thing a player meets and the thing they keep meeting: r
 **Stands on:** [[Agreement]] · [[Consent]] · [[Sovereignty]] · [[Domain]] · [[Covenant]]
 **Opens onto:** [[Selectively Permeable Membrane]] · [[Commons]] · [[Law]] · [[Consent-Based Decision-Making]] · [[Mutual Consent]] · [[The Three Supreme Agreements]] · [[Roles]]
 **In play:** door, then table — read before entry, lived every week
-**Sources:** *Field of Agreements* (the principle, the anatomy of every domain, what it contains, fractal application) · *Holofractal Omnifederation* (one of the four things every association births) · *The LIØNSBERG Lexicon*, Pillar II table · *The LIØNSBERG Operating System* §2, Card 2 · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Field of Agreements
 **Open:** none found.

@@ -18,6 +18,5 @@ It is not an excuse for vagueness. Articulations still have to be made, sharpene
 **Also called:** the ineffable referent · the unnameable
 **Stands on:** [[ØNE]] · [[Mystery]] · [[Transcendence]]
 **Opens onto:** [[Do Not Concretize the Absolute]] · [[The Eternally Nameless]] · [[Essences, Renderings, And Ineffable Referents]] · [[Current Best Articulation]] · [[Meta]] · [[Boundaries and Limits of Conception]] · [[Limit Statement]]
-**In play:** At the door, in the refusal to hand anyone a final definition of the centre; at the table, as the reason a word can be repaired rather than defended; beyond, as what the whole corpus bows toward.
-**Sources:** `ØNE` · `Essences, Renderings, And Ineffable Referents` · `Meta` (wiki root, canon-grade) · `200 - ØNE Nameless and Ineffable Way` and `200 - Why Our True Story Is Ultimately Ineffable` (A 200 Page Book) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Root And Trunk. lionsberg.wiki: **ØNE**.
-**Open:** No page in the canon stands at this name; the concept is carried inside the ØNE Card, the Meta page, and the rendering architecture. Whether it deserves its own home or should stay a discipline named inside those is unsettled.
+**In play:** At the door, in the refusal to hand anyone a final definition of the centre; at the table, as the reason a word can be repaired rather than defended; beyond, as what everything here bows toward.
+**Open:** No page stands at this name yet; the concept is carried inside the ØNE Card, the Meta page, and the rendering architecture. Whether it deserves its own home or should stay a discipline named inside those is unsettled.

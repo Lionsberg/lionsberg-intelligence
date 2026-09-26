@@ -22,5 +22,4 @@ The canon names this layer as a short list under Hands, with no Card behind any 
 **Stands on:** [[The Sovereign]] · [[Mastery]] · [[Beauty]] · [[Embodiment]]
 **Opens onto:** [[Commons-Tending]] · [[Guild]] · [[Apprenticeship]] · [[Belt Progression]] · [[The Embodied Form Teaches]] · [[Design]] · [[Stewarded Form]] · [[Learning By Doing]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *All Patterns — Master Consolidated Inventory For Synthesis 2026-05-23* (§2.4, backlog) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Four distinct moves are folded under one name in the Pattern Language list and none is articulated.

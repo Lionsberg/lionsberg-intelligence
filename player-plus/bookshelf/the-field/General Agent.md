@@ -22,5 +22,4 @@ At a table it is one companion sending readers and drafters and reading their wo
 **Stands on:** [[Agent]] · [[Roles]] · [[Delegation]] · [[Trust]]
 **Opens onto:** [[Fleet]] · [[Subagent]] · [[Agent Archetype]] · [[Sovereign Agent]] · [[Player+]] · [[Cell+]] · [[Second reader]] · [[Span of Control]] · [[The look-ahead]]
 **In play:** Home — inside a person's or a Cell's own body of companions
-**Sources:** `Projects/the term pages/General Agent.md` · `Projects/the term pages/Fleet.md`, `Subagent.md` (drafts) · `Making And Securing Commitments`, `The Lookahead` (wiki) · lionsberg.wiki: Delegation
 **Open:** Assigner and auditor are the same hand, which the page names as risky and does not resolve. · The name is borrowed from agency law and also carries a military sense that nothing here means; the vocabulary is tied to how one substrate happens to work today and is liable to be renamed when that changes.

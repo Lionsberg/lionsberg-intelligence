@@ -20,5 +20,4 @@ The canon holds two guards on the word. Awakening is not a status to be claimed 
 **Stands on:** [[Consciousness]] · [[Divine Spark]] · [[The Veil of Finitude and Forgetting]]
 **Opens onto:** [[Remembrance]] · [[Becoming]] · [[Liberation]] · [[The First Three Percent]] · [[Awakening (as Pattern)]]
 **In play:** Met at the door, where a player recognises rather than learns what is being offered; met again at every Gate.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the process by which consciousness becomes aware of its true nature and calling") · *The Story of LIØNSBERG — The Sacred Arc*, movement VI · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, The Sovereign And The Path · lionsberg.wiki: *The Story of LIØNSBERG — The Sacred Arc*.
 **Open:** The Field carries Awakening three times — this Pillar I concept, the Story's movement VI, and [[Awakening (as Pattern)]] in the Pattern Language — with no page distinguishing them.

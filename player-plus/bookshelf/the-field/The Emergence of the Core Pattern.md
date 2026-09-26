@@ -20,5 +20,4 @@ The distillation also fixes what the Elements are *for*. They are the regrowth k
 **Stands on:** [[The Core Pattern]] · [[Twelve Irreducible Elements]] · [[Mondragon]] · [[Lineage]]
 **Opens onto:** [[The Seed In One Sentence]] · [[The Golden Seed]] · [[The Rings]] · [[Integrated Delivery]] · [[FSx]] · [[The Pattern of Production]]
 **In play:** beyond
-**Sources:** *The Emergence of the Core Pattern* (LIØNSBERG 101) · *The Core Pattern* (canon-grade) · *LIØNSBERG 101* (§The Rings) · *THE DNA OF HEAVEN* Part XIII · lionsberg.wiki: The Emergence of the Core Pattern
-**Open:** The page names specific living authors and organizations as sources of particular insights; the canon's own voice discipline for Pattern Language work asks that principles be lifted to their universal articulation and attributed in provenance rather than in the body.
+**Open:** The page names specific living authors and organizations as sources of particular insights; the voice discipline for Pattern Language work asks that principles be lifted to their universal articulation and attributed in provenance rather than in the body.

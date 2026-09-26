@@ -20,5 +20,4 @@ Its inverse is the failure the Pattern is most often accused of: many good Cells
 **Stands on:** [[Quest]] · [[Vision]] · [[The Goal]] · [[Networks of Commitments]]
 **Opens onto:** [[The plan of the whole]] · [[Pull planning]] · [[The Season Sheet]] · [[Connect and Collaborate With Other Cells]] · [[Integrated Delivery]] · [[The Way Up]]
 **In play:** beyond the table
-**Sources:** `Stacking Up And Aligning` (`Stack Up And Align` redirects to it) · `Stacking Up and Aligning Quests` · The LIØNSBERG Playbook, Federation · The LIØNSBERG Operating System §17 · The DNA of Heaven, Part V · lionsberg.wiki: Stacking Up And Aligning
 **Open:** none found.

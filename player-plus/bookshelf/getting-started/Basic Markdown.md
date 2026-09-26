@@ -1,6 +1,6 @@
 # Basic Markdown
 
-Markdown is a simple way to format text using plain characters. You don't need to learn much — here's enough to get going.
+Markdown is a simple way to format text using plain characters. You do not need to learn much — here's enough to get going.
 
 ## Headers
 
@@ -70,13 +70,13 @@ Use the file name, with `%20` in place of spaces, the same way this book links b
 Use `>` at the start of a line:
 
 ```markdown
-> This is a blockquote. It's useful for quoting someone
+> This is a blockquote. It is useful for quoting someone
 > or setting text apart from the rest of the page.
 ```
 
 ## Callout Blocks
 
-This book uses callout blocks for tips, warnings, and notes — you'll see them throughout:
+This book uses callout blocks for tips, warnings, and notes — you will see them throughout:
 
 ```markdown
 > [!tip]
@@ -110,9 +110,9 @@ Three dashes on their own line create a divider:
 ---
 ```
 
-## That's It
+## That is It
 
-You now know enough Markdown to write effectively. You'll pick up more tricks over time, but headers, lists, links, and bold/italic cover 90% of what you'll use day to day.
+You now know enough Markdown to write effectively. You will pick up more tricks over time, but headers, lists, links, and bold/italic cover 90% of what you will use day to day.
 
 > [!tip]
 > You can always ask Claude Code "how do I format [something] in Markdown?" and it will show you the syntax.

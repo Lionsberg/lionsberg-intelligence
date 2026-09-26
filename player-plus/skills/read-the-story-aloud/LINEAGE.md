@@ -9,7 +9,7 @@ version: 0.1.0
 sits_on: LIØNSBERG Player+ 3.1.0
 lineage:
   - "THE STORY (the telling itself; ten minutes to read, fifteen to hear; no belief is required at the door; the twelve movements and the Story in a breath)"
-  - "The One Book, 29 The Stories — ten trillion stories woven back into ONE (how a telling is heard: bounded, voluntary, received not fixed, witnessed, not argued with, held afterward; the agent's office and its hard boundary)"
+  - "The One Book, 22 The Stories — ten trillion stories woven back into ONE (how a telling is heard: bounded, voluntary, received not fixed, witnessed, not argued with, held afterward; the agent's office and its hard boundary)"
   - "The One Book, 29 The Stories, VII In every future (tell and do not write; narrow the ring; strip the particulars; the form that outlasts every other)"
   - "Enter The Game (the library's concept field — a whole curriculum at the door is a wall; one lesson when you are about to need it is a door; *just in time*)"
   - "The Gate (the library's concept field — the Gate must not hand a person words they have not been given; each of its terms is owed one plain line at the moment it appears)"

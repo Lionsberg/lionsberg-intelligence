@@ -20,5 +20,4 @@ Soaking also protects against the loudest week winning. The rhythm holds because
 **Stands on:** [[Hypothesize]] · [[Look-back]] · [[Charter]] · [[Current Best Understanding]]
 **Opens onto:** [[Change log]] · [[Prune]] · [[Drift]] · [[Proposal]] · [[Improvement log]]
 **In play:** beyond
-**Sources:** Player+ Modules, *The Agent Improvement Process*, *Agent Engineering* · The DNA of Heaven, Part XIII ("How this text changes").
 **Open:** none found.

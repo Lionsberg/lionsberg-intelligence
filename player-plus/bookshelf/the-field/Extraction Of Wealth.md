@@ -20,5 +20,4 @@ Extraction is also the disease that most often arrives wearing the language of s
 **Stands on:** [[The Anti-Patterns]] · [[Capital Subordinate To Purpose]] · [[Usury]] · [[Value]]
 **Opens onto:** [[The waterfall]] · [[The asset lock]] · [[Compressed Pay Ratios]] · [[Constitutional Protection Of Purpose]] · [[The Parasite]] · [[Requirement Of Transparency]] · [[Proof-of-contribution]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as an Anti-Pattern with no articulation; the pay-ratio bound appears once as roughly seven to one and is stated nowhere as agreed.

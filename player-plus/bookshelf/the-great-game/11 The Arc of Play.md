@@ -8,7 +8,7 @@
 4. **The First Season.** *Ninety days.* Your first Quest. The weekly Turns. The first harvest into a Story at the turning. Somewhere in these ninety days the Game stops being something you read about and becomes something you are playing.
 5. **The Blue Belt Journey.** *Season after season.* Roughly three years, a dozen seasons of questing, mending, harvesting and passing the flame, grows basic fluency in the Way. Beyond it stretches the seven-year journey toward mastery, and deeper paths still being articulated.
 
-At every step two hands hold you: your sponsor, reachable through your orientation, first gathering and first ninety days, as one day you will be for the two or three you invite; and the always-open doors of Reaching Us.
+At every step two hands hold you: your sponsor, reachable through your orientation, first gathering and first ninety days, as one day you will be for the three you invite; and the always-open doors of Reaching Us.
 
 **The heartbeat beneath the Arc.** The weekly gathering of a Circle: the same day, the same hour, the same place or call, an hour or two, honored above other commitments. *Circles that hold the Heartbeat live. Circles that drop the Heartbeat dissolve.* Its eight movements: arrive and open · check in · learn together · weave the dialogue · coordinate the Quest · make commitments · take the Turn on the Board · harvest and close. Two minutes of real arrival beats twenty of drift; end on time, because trust is built at the edges.
 

@@ -20,5 +20,4 @@ Perception grows. It sharpens with honesty, widens with love, and deepens in com
 **Stands on:** [[Reality]] · [[Consciousness]] · [[Truth]] · [[Values]]
 **Opens onto:** [[Mind]] · [[Mapping]] · [[Sensemaking]] · [[Types Of Knowing]] · [[Discernment]] · [[Pattern Recognition]] · [[Distortion]] · [[Sensing comes before understanding]] · [[Focused Attention As Discipline]] · [[Pillar IV — Sacred Learning and Mastery]]
 **In play:** the daily practice, before anything is decided — and at the table, whenever two people report different rooms and the difference is treated as information rather than as error
-**Sources:** `Perception` (root page, canon-grade) · `Mind` (root page, canon-grade) · the chapters its footer names on perception outside the boundary, on perception and Reality, and on how values shape perception · lionsberg.wiki: Perception
 **Open:** The root page names the two hemispheres, a `Map of Reality` page and a `Boundary of Knowing` page as its neighbours; the Field carries those senses under other names, and no page reconciles the two vocabularies.

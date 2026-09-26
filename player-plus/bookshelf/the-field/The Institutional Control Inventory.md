@@ -22,5 +22,4 @@ Its limit belongs on the page. A checklist that scores everything finds capture 
 **Stands on:** [[Kontrolle]] · [[The Existing Order]] · [[Control Of Information]]
 **Opens onto:** [[Hospicing the Old Systems]] · [[Withdrawal Of Consent]] · [[Liberation and Exodus]] · [[Regulatory Capture]] · [[Surveillance]] · [[Manufactured Dependency]] · [[The Hub]] · [[Discernment]]
 **In play:** the table — run by a Cell against its own place, once, before planning
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Institutional Control Inventory.md`
 **Open:** The Card names specific international institutions as instruments of capture; those particulars are the Card's claim and are not carried here. · No scoring method is given, so two people running it on the same place will not get the same reading. · Nothing distinguishes capture from ordinary institutional failure, and the difference decides the right response.

@@ -18,5 +18,4 @@ The fourth motion is the one bodies skip. Finding and joining what already exist
 **Stands on:** [[What LIØNSBERG Is]] · [[The Goal]] · [[Pattern]] · [[The Way]]
 **Opens onto:** [[Transmission]] · [[Initiation]] · [[Co-Creating Heaven]] · [[Federation]] · [[Pass The Flame]] · [[The 144 Gates of Initiation]] · [[Weaving vs. Starting New]] · [[Propagate; do not scale]]
 **In play:** the door — and at every season's close, as four questions
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The LIØNSBERG Function.md` (Card, settled)
 **Open:** The Card calls the function cosmic-grade by design; what that changes about the four motions is not said. · Nothing states what happens when a body already embodying a coherent Way declines to federate.

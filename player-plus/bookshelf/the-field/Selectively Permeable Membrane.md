@@ -22,5 +22,4 @@ A Cell decides its membrane on purpose in its first season: who is in, what is v
 **Stands on:** [[Sovereignty At Every Scale]] · [[Consent]] · [[Boundary]] · [[Holofractal Omnifederation]]
 **Opens onto:** [[Domain]] · [[Field of Agreements]] · [[Commons]] · [[Guard the Membrane]] · [[The door]] · [[Requests and offers]] · [[The Way Out]]
 **In play:** the door · the table · the Room
-**Sources:** *Twelve Irreducible Elements*, Elements 2 and 3 (canon-grade) · *The LIØNSBERG Lexicon*, the header example (canon-grade) · *The LIØNSBERG Playbook*, Cross-Cutting · the seed's Part IV, the four things every association births · the Player+ Modules Lexicon. lionsberg.wiki: Selectively Permeable Membrane.
 **Open:** The canon states the membrane as a structural necessity and nowhere says how a body decides what its membrane filters; *Guard the Membrane* is the Play that would say, and it is a draft.

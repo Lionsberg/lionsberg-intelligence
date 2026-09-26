@@ -8,7 +8,7 @@ pillar: II
 
 *Wielding power solely for the flourishing of the Whole, bound by humility, [[Wisdom]], and [[Logos]] — power in service of all, never in power over any.*
 
-Power in the canon's sense is the rate of doing work: the amount that can be effected in a given time. It is not evil and not optional. As bodies cohere, what they can do in a season rises sharply, and the whole question becomes the gathering and deploying of that capacity — *in service of* all, rather than *in power over* any.
+Power, in this sense, is the rate of doing work: the amount that can be effected in a given time. It is not evil and not optional. As bodies cohere, what they can do in a season rises sharply, and the whole question becomes the gathering and deploying of that capacity — *in service of* all, rather than *in power over* any.
 
 It is load-bearing because the most critical problem the moment a person leaves isolation is how to protect the individual and the local from the power of the whole. A federation that can act is a federation that can overreach; the same coherence that makes good work possible makes capture possible. Right use is the inner discipline that pairs with the outer protections ([[Separation Of Power]] and its vertical protections, [[Structural Immunity]]) — neither is sufficient alone.
 
@@ -20,5 +20,4 @@ In play, most players meet this as a host, a keeper, or an elder: the small dail
 **Stands on:** [[Authority]] · [[Wisdom]] · [[Logos]] · [[Love]] · [[Stewardship]]
 **Opens onto:** [[Separation Of Power]] · [[Power Of The Republic]] · [[Proportionality]] · [[The Sacred Use Of Force]] · [[Servant Leadership]] · [[Accountability]]
 **In play:** table — every time a role could be used for itself
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Power Of The Republic* (power as rate of work, in service of rather than in power over) · *Pillar II — Sacred Governance and Stewardship* (thesis 4) · *All Patterns — Master Consolidated Inventory* §2.19 (named) · lionsberg.wiki: Power Of The Republic
 **Open:** No page of its own. The Guardianship domain (Pillar X) carries force doctrine separately; the two have not been cohered.

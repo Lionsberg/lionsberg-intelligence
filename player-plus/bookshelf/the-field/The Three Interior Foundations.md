@@ -24,5 +24,4 @@ All three want some daily attention through the rest of a life. They open; they 
 **Stands on:** [[Silence And Stillness As The Ground]] · [[The Daily Way]] · [[Embodiment]] · [[Consciousness]] · [[Spirit]]
 **Opens onto:** [[The 72 Gates of the Sacred Ascent]] · [[The Five Archetypal Ways]] · [[The Sacred Ascent]] · [[The Energetic Anatomy]] · [[Aligned Will]] · [[Gnosis]] · [[Breath]] · [[Attunement]] · [[Mastery Of Emotions]] · [[Sovereignty Of Consciousness]] · [[The Reciprocal Opening of Being and Doing]]
 **In play:** alone, daily, for the rest of a life
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Ascent/The Sacred Ascent.md` · `The LIØNSBERG Guidebook — Walking The Sacred Ascent.md` · `Silence And Stillness As The Ground`
 **Open:** The Gate names are stated by their own source as a first-draft naming, provisional, and expected to refine substantially as people actually walk them. · Nothing says how these three relate to the daily disciplines a first-season player already keeps — whether the Daily Way *is* the beginning of Movement 1 or a separate floor beneath it.

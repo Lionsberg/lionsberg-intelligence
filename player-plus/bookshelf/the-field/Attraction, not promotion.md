@@ -22,5 +22,4 @@ Its practical shape is a discipline on the one passing it: tell the truth, give 
 **Stands on:** [[Consent]] · [[The Invitation]] · [[Sovereignty]]
 **Opens onto:** [[Pass The Flame]] · [[The Flame]] · [[Carrier]] · [[Propagate; do not scale]] · [[Demonstrate before advocating]] · [[Welcoming The Stranger]] · [[Structural Immunity]] · [[The door]]
 **In play:** the door — every time the Game is handed to anyone
-**Sources:** *The DNA of Heaven*, Part V, §The Invitation and the door (the twelve-step lineage is named among the eight traditions the Pattern was found in) · *The Invitation* (wiki root) · lionsberg.wiki: The Invitation
 **Open:** Where the line falls between telling people a thing exists and promoting it is nowhere drawn, and a body that publishes anything at all is standing on that line.

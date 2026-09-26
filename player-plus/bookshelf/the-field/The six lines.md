@@ -20,5 +20,4 @@ They are today's terms and they say so: the Game's wider agreements are still be
 **Stands on:** [[Field of Agreements]] · [[Consent]] · [[Mutual Consent]] · [[The door]]
 **Opens onto:** [[Terms]] · [[Declare]] · [[Closing question]] · [[Door note]] · [[Elision]] · [[Attribution]] · [[CC BY-SA 4.0]]
 **In play:** door
-**Sources:** Player+ Modules, *Entering the Field*, *Safe Sparring*, *The Deck Standard* · The DNA of Heaven, Parts V and VIII · lionsberg.wiki: *Field of Agreements*, *Ongoing Mutual Consent*, *Mutual Consent*.
-**Open:** the six lines are stated as today's terms; the canon's fuller Field of Agreements is larger and not yet gathered into them.
+**Open:** the six lines are stated as today's terms; the fuller Field of Agreements is larger and not yet gathered into them.

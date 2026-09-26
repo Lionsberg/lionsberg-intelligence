@@ -20,5 +20,4 @@ In the Game the practical instruction until then is small and real: mark what ha
 **Stands on:** [[Initiation]] · [[Ritual]] · [[Celebration]] · [[The Sovereign Path]]
 **Opens onto:** [[Dying]] · [[Giving Birth]] · [[Belt Progression]] · [[Mental Health]] · [[The LIØNSBERG Calendar]] · [[Proposal]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Lexicon*, §Key Terms · *The LIØNSBERG Pattern Language, synthesized*, §Gaps and §Initiation (ore; named as a gap) — lionsberg.wiki · the seed text *The DNA of Heaven*, Part III (the rites listed among what no one has written yet).
-**Open:** Ore, and named by the corpus itself as unwritten. Nothing here should be read as an existing rite. · *Initiation* (Pillar IV), *Initiation (as stage)* (the Arc of Play), and these life-rites are three different things sharing one root word.
+**The passages in full:** [The Experience — the passages of a life](../the-one-book/20%20The%20Experience%20%E2%80%94%20from%20the%20first%20door%20to%20what%20lies%20beyond.md).*Initiation* (Pillar IV), *Initiation (as stage)* (the Arc of Play), and these life-rites are three different things sharing one root word.

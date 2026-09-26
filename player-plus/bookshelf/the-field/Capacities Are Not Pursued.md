@@ -8,7 +8,7 @@ pillar: X
 
 *Capacity arises from alignment; it is never the aim. Going after the powers for their own sake is a primary drift — and having few of them is not a lesser walk.*
 
-The canon states the causal order and then refuses to let it be reversed. Capacity is a by-product of right alignment: the conduit clears, and what flows through it does more. Which means it cannot be taken. Someone who goes after capability directly is working on the wrong object and, worse, has adopted the aim that turns formation into acquisition — the precise route by which a cultivated person becomes a danger ([[The Dark Initiate Failure Mode]], [[Right Use of Power]]).
+The causal order is stated and then held firm against reversal. Capacity is a by-product of right alignment: the conduit clears, and what flows through it does more. Which means it cannot be taken. Someone who goes after capability directly is working on the wrong object and, worse, has adopted the aim that turns formation into acquisition — the precise route by which a cultivated person becomes a danger ([[The Dark Initiate Failure Mode]], [[Right Use of Power]]).
 
 **Two rules are the portable part of this page.**
 
@@ -18,11 +18,10 @@ The canon states the causal order and then refuses to let it be reversed. Capaci
 
 The same reversal wrecks ordinary things. Study pursued for standing rather than understanding produces neither. Practice done for the state it induces stops producing the state. Service performed to be seen serving is not service ([[Shoshin]], [[Recognitions Are Not Titles To Be Sought]]).
 
-There is also a plain caution the canon gives about forcing inner development faster than the whole person can carry: what is opened ahead of the formation that supports it does harm. This page carries the caution and not the mechanism, which the canon asserts and does not evidence ([[The Zone Of Optimum Development]], [[Pineal Activation]]).
+There is also a plain caution about forcing inner development faster than the whole person can carry: what is opened ahead of the formation that supports it does harm. This page carries the caution and not the mechanism, which is asserted and not evidenced ([[The Zone Of Optimum Development]], [[Pineal Activation]]).
 
 **Also called:** the powers are not the point · non-pursuit
 **Stands on:** [[Aligned Will]] · [[Conduit]] · [[The Realization Arc]] · [[Right Use of Power]]
 **Opens onto:** [[The Standing]] · [[The Dark Initiate Failure Mode]] · [[Shoshin]] · [[Recognitions Are Not Titles To Be Sought]] · [[The Zone Of Optimum Development]] · [[Proportionality]] · [[The Act Of Release]] · [[Pineal Activation]]
 **In play:** the Path — asked of oneself at every threshold
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.5 Interface`, §A Word On Siddhic Capacities and §Pineal Activation · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The chapter lists extraordinary capabilities as real and catalogued across lineages, with no evidence offered and no case named; those claims are not carried here. · The harm claim attached to forcing inner development is likewise asserted without a case. The non-pursuit rule and the proportionality rule stand on their own and are what this page holds.

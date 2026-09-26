@@ -18,5 +18,4 @@ How it is played. Ask what we are learning and take one line. Then each person o
 **Stands on:** [[The Turn]] · [[Celebrate, Learn, and Improve]] · [[Gratitude]]
 **Opens onto:** [[The eight movements]] · [[The Circle's Scorecard]] · [[Story]] · [[Proposal]] · [[Retrospective]] · [[OmniSpection]] · [[Ritual]]
 **In play:** table · Room
-**Sources:** the Player+ Modules lexicon and the module *The Weekly Turn*, movement 8 · *The LIØNSBERG Playbook*, §Story and Flame · *The Game at the Table*, "Close in gratitude" (current best understanding) · lionsberg.wiki: **The LIØNSBERG Playbook**
 **Open:** Nothing states what a table does when the harvest turns up something too large for the closing minutes; the plain reading is that it becomes an [[Issue]] with an owner.

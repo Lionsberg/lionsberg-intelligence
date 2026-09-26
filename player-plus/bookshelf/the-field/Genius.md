@@ -20,5 +20,4 @@ Genius is given to be given. It is the being's contribution to the Whole, not it
 **Stands on:** [[Divine Spark]] · [[Essence]] · [[Purpose]] · [[Creativity]]
 **Opens onto:** [[Mastery]] · [[Apprenticeship]] · [[Learning By Doing]] · [[The Calling]] · [[Belt Progression]] · [[Curriculum]]
 **In play:** table · Gate · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IV — *Genius* (canon-grade; one line) · *Pillar IV — Sacred Learning and Mastery*, Theses 3, 8 and 9 and the narrative (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Gaps (canon-grade list — *The Child's Genius*, *Learner's Genius-Recognizing*, named and unarticulated) · lionsberg.wiki: Genius
 **Open:** The children's curriculum and the practices for recognizing a child's genius are named as a gap in the Pattern Language and written nowhere.

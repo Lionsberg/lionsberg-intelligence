@@ -20,5 +20,4 @@ Its limits are honest ones. Traces coordinate; they do not decide meaning, resol
 **Stands on:** [[System]] · [[Emergence]] · [[The Record]] · [[Living System]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[The Season Sheet]] · [[Decision Records]] · [[Requests and offers]] · [[Knowledge as commons]] · [[Networks of Commitments]] · [[Coherence]]
 **In play:** Home
-**Sources:** *Stigmergy* (root page — a single quoted definition, credited to Open Civics) · *THE DNA OF HEAVEN* Parts VII and VIII · lionsberg.wiki: Stigmergy
-**Open:** The canon page is a borrowed definition with no LIØNSBERG articulation; nothing in the corpus connects the mechanism to the card-and-record practices that rely on it.
+**Open:** This page is a borrowed definition with no LIØNSBERG articulation; nothing yet connects the mechanism to the card-and-record practices that rely on it.

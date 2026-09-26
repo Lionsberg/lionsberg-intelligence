@@ -20,5 +20,4 @@ The mental-health and addiction ground beneath it is honestly named as thin in t
 **Stands on:** [[Voluntary Association]] · [[Circle]] · [[Mutual Aid]] · [[Trust]] · [[Listening]]
 **Opens onto:** [[Mental Health]] · [[Addiction]] · [[Grief]] · [[Sponsorship]] · [[Healing]] · [[Community]] · [[Twelve Irreducible Elements]]
 **In play:** table · Home
-**Sources:** `Support Group` (root page; a practical ten-step guide to forming one) · `Fellowship Meetings` (root page) · `Twelve Irreducible Elements` (canon-grade; the twelve-step rooms named among the lineages) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Madness, Breakdown, And Crazy Wisdom* (ore) · lionsberg.wiki: Support Group · Fellowship Meetings
 **Open:** The root `Support Group` page is generic guidance written in an instructional register and carries no link to the Cell, the Turn, or the Pattern; the relationship drawn here between the two forms is a synthesis, not a stated answer. · Two pages, `Support Group` and `Fellowship Meetings`, cover overlapping ground without referring to one another.

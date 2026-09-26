@@ -22,5 +22,4 @@ The practices around it do most of the work. Listen first, so the truth can be s
 **Stands on:** [[Truth]] · [[Love]] · [[Listening]] · [[Right Relationship]]
 **Opens onto:** [[Having Difficult Conversations]] · [[Meaningful Objection]] · [[Whistleblower Protection]] · [[Apologizing]] · [[Wise Right Speech]] · [[The LIØNSBERG Voice]] · [[Conflict Transformation]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Part VIII · lionsberg.wiki: The LIØNSBERG Pattern Language
-**Open:** Named as a Pattern with no Card; the precedence of honesty over warmth is stated in the seed text and not in the canon's own Voice section.
+**Open:** Named as a Pattern with no Card; the precedence of honesty over warmth is stated in the seed text and not in the Voice section.

@@ -20,5 +20,4 @@ Its paper floor is the date written at the top of the sheet the day the sheet wa
 **Stands on:** [[The Record]] · [[Honesty about time]] · [[The clock is read, never computed]]
 **Opens onto:** [[Float]] · [[Critical Path]] · [[The Game Engine]] · [[Work Deck]] · [[The look-ahead]] · [[Milestone]] · [[The Heartbeat]]
 **In play:** the table — written at the top of every calculated view
-**Sources:** `Projects/the term pages/Data Date.md` (names the scheduling discipline it takes the word from) · `Projects/the term pages/The Game Engine.md`, `Work Deck.md` (drafts) · lionsberg.wiki: Float
 **Open:** Nothing states what a body does when different parts of one plan were last worked on different days — whether the deck carries one Data Date or one per card.

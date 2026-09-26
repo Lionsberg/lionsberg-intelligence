@@ -20,5 +20,4 @@ In play, a [[Cell]] usually does not need one; a [[Supercell]] or a body with mo
 **Stands on:** [[Wise Eldership]] · [[Wisdom]] · [[Domain]] · [[Legitimacy]] · [[Circle]]
 **Opens onto:** [[Council]] · [[Consent-Based Decision-Making]] · [[Stewardship body]] · [[Term Limits And Rotation]] · [[Oversight]] · [[Mend a Tension]]
 **In play:** beyond — when a body outgrows what one table can hold
-**Sources:** *Wisdom Council* (composition, function, selection, sub-councils) · *The LIØNSBERG Lexicon*, Pillar II table · *Pillar II — Sacred Governance and Stewardship* (thesis 7) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Governance · lionsberg.wiki: Wisdom Council
 **Open:** The root page describes the council as a *provisional step* until full self-governance exists; the Lexicon and the Pillar treat it as a permanent organ. Whether a Wisdom Council dissolves at maturity is unresolved.

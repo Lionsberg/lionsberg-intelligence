@@ -22,5 +22,4 @@ The guardrails are written because mentoring lines have gone wrong elsewhere: no
 **Stands on:** [[Mutual Consent]] · [[Sovereignty]] · [[Trust]] · [[Pass The Flame]]
 **Opens onto:** [[Carrier]] · [[The Invitation]] · [[Welcome a Newcomer]] · [[Guide]] · [[Belt Progression]] · [[The Three-Year Formation]] · [[Support Group]]
 **In play:** door · table
-**Sources:** `Sponsorship` (root page; the fullest articulation, with the two-lines distinction and the guardrails) · the Player+ Modules Lexicon and `01 Becoming a Player+` · lionsberg.wiki: Sponsorship
 **Open:** The root page anchors the term to a three-year blue-belt horizon and to a Player Card; the Little Book's second draft names the permanent line *Carrier* and does not use *sponsor* at all. The two vocabularies have not been joined. · The page links instruments — a belt system, a gameboard, a player card template — whose own pages were not checked here.

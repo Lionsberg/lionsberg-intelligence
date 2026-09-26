@@ -22,5 +22,4 @@ The same discipline holds when an agent replies to its person's own notes: it an
 **Stands on:** [[Jam]] · [[Room]] · [[Sign]]
 **Opens onto:** [[Second reader]] · [[Play by Play]] · [[Proposal]] · [[Improvement log]] · [[Continuous Improvement]]
 **In play:** Room
-**Sources:** Player+ Modules, *Jam Conventions*, *The Heads-up and the Play by Play*, *How a Module Lives*.
 **Open:** none found.

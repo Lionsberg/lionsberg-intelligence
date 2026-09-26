@@ -20,5 +20,4 @@ Two things follow for how work is carried. Credit travels with the work: every a
 **Stands on:** [[ØNE]] · [[Right Relationship]] · [[Transmission]] · [[The LIØNSBERG Pattern Language]]
 **Opens onto:** [[Word Tools]] · [[Shoshin]] · [[The Act Of Release]] · [[Attribution]] · [[Knowledge as commons]] · [[Institutional Idolatry]] · [[Pass The Flame]]
 **In play:** beyond
-**Sources:** *Lineage Without Capture* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Parts IV and XIII · lionsberg.wiki: Lineage Without Capture
 **Open:** none found

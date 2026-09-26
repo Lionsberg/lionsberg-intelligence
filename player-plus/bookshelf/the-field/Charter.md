@@ -20,5 +20,4 @@ A charter is kept honest by pruning: once a month, line by line, ask of each why
 **Stands on:** [[Set-up]] · [[Principal]] · [[Agent]]
 **Opens onto:** [[Agent engineering]] · [[Memory (agent)]] · [[Prune]] · [[Change log]] · [[Drift]] · [[Safety check]] · [[Register]]
 **In play:** beyond
-**Sources:** The DNA of Heaven, Part X (the guard) · Player+ Modules, *How an AI Agent Works*, *Agent Engineering*, *Advanced Agent Engineering*, *The Agent Improvement Process* · lionsberg.wiki: *Current Best Understanding*.
-**Open:** the word also names a body's founding document in the canon's governance sense (a Community Company's nine-section charter); the two senses are unrelated and no page yet disambiguates them.
+**Open:** the word also names a body's founding document in the governance sense (a Community Company's nine-section charter); the two senses are unrelated and no page yet disambiguates them.

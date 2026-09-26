@@ -18,7 +18,6 @@ Every surface of the Game is a sort of one underlying set of cards and one under
 
 **Also called:** the surface · the screen of the Game
 **Stands on:** [[Interface]] · [[Screens and paper]] · [[The Record]] · [[The Deck Standard]]
-**Opens onto:** [[The names of the interface's parts]] · [[The HUD]] · [[Sighting]] · [[The eight kinds of Sighting]] · [[Room]] · [[The Big Room]] · [[Notebook form]]
+**Opens onto:** [[The names of the interface's parts]] · [[The HUD]] · [[Sighting]] · [[The eight kinds of Sighting]] · [[Room]] · [[The One Room]] · [[Notebook form]]
 **In play:** table · Home — wherever a Player reads the Game without asking anyone
-**Sources:** *The Game Interface — The Names of Its Parts* (Projects, term page 2026-09-12) · *The Bug Report — Every Defect Is a Gift, as a Sighting* (Projects, process v0, 2026-09-12) · *The HUD* (the term pages) · The DNA of Heaven, Part VII
 **Open:** The Room — the fuller, shared surface the interface is said to become — is named in the drafts and specified nowhere; only the screen exists today.

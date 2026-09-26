@@ -20,5 +20,4 @@ Reading it is a distinct skill. A long Candidates table is not a backlog of fail
 **Stands on:** [[The Commitment Tracker]] · [[A WILL is never inferred]] · [[Sovereignty]]
 **Opens onto:** [[Commitment]] · [[The Board]] · [[Requests and offers]] · [[Pull planning]] · [[Critical Path]] · [[Work In Progress]]
 **In play:** the table — read at the Turn, when the next week's wills are chosen
-**Sources:** `Projects/The Kit 2026-09/The Commitment Tracker — Could · Should · Can · Will · Did (the Kit, v0)`, §The tool · lionsberg.wiki: Commitment
 **Open:** Nothing says who may add a candidate, whether one expires, or how a body keeps the table from becoming the place work goes to be forgotten politely.

@@ -20,5 +20,4 @@ The canon names the disease at two scales: a person or interest feeding on a sha
 **Stands on:** [[The Anti-Patterns]] · [[Commons]] · [[Reciprocity]] · [[Evil]]
 **Opens onto:** [[Proof-of-contribution]] · [[The Offering]] · [[The waterfall]] · [[The asset lock]] · [[Extraction Of Wealth]] · [[Usury]] · [[Tragedy of the Commons]] · [[Guard the Membrane]]
 **In play:** door
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Lexicon* (Pillar I) · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** The canon gives no process for naming a parasite, and none for distinguishing one from a member in a season of receiving — the judgment that decides whether the Anti-Pattern protects a commons or becomes a weapon inside it.

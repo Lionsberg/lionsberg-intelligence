@@ -22,11 +22,10 @@ Different scales, one design, and five laws that do not bend.
 
 **Improving in the giving.** Each agent learns from its own life; general learnings fold up into the shared templates, so every newly equipped person and Cell inherits the wisdom of all who walked before ([[Improvement log]] · [[Lineage]]).
 
-Agents are among the first things a Cell is equipped with, and among the first gifts a mature Cell passes forward with the Flame ([[Pass The Flame]]).
+Agents are among the first things a Cell is equipped with, and among the first gifts a Player passes forward with the Flame ([[Pass The Flame]]).
 
 **Also called:** the agents · LIØNSBERG Personal Agents (the one-person case)
 **Stands on:** [[Agent]] · [[Artificial Intelligence]] · [[Sovereignty]] · [[Technology Sovereignty]] · [[The Lens]]
 **Opens onto:** [[LIØNSBERG Cell Agents]] · [[Player+]] · [[PKAI]] · [[Bard]] · [[Agent engineering]] · [[Memory (agent)]] · [[Charter]] · [[Safety check]] · [[Off switch]] · [[An agent speaks in its own name]] · [[Authorized]] · [[Principal]] · [[Wise Right Speech]] · [[The Kit]] · [[Kit of Parts]] · [[Pass The Flame]] · [[Sovereignty At Every Scale]]
 **In play:** the door — offered at equipping, never required to play
-**Sources:** `LIØNSBERG Agents` · `LIØNSBERG Cell Agents` · `LIØNSBERG Personal Agents` · lionsberg.wiki: LIØNSBERG Agents
 **Open:** The canon's *LIØNSBERG Intelligence System* — the whole this page's agents are said to compose — is named here and articulated nowhere. · The [[Agent]] page states a different and longer list of laws for a single agent; the five here are the system-level laws. Neither page refers to the other's list, and no page says how they relate. · What an agent of a *commons* or an *instrument* would actually be, as against an agent of a person or a Cell, is named and not described.

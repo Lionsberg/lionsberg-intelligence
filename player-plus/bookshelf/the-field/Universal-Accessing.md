@@ -20,5 +20,4 @@ Inside the Game this is ordinary and cheap. Twelve words are enough to play. The
 **Stands on:** [[Dignity]] · [[Design]] · [[Sovereignty Of Consciousness]] · [[Right Relationship]]
 **Opens onto:** [[Navigating Difference]] · [[Human-Scaling]] · [[Stewarded Form]] · [[Notebook form]] · [[The Twelve Words]] · [[Welcome a Newcomer]]
 **In play:** the door · the Home · the table
-**Sources:** *All Patterns — Master Consolidated Inventory*, §2.19 IX (ore) · *The LIØNSBERG Pattern Language — Synthesized*, Gaps (ore) · *Pillar IX — Sacred Architecture and Design*, theses 8 and 9 (canon-grade) · the seed's Part XII and Part VII. lionsberg.wiki: Universal-Accessing.
-**Open:** Ore on both names. *Limitations and Disabilities* appears in the gap register without a card; nothing in the corpus states a standard, and the Pillar's theses come closest without naming access at all.
+**Open:** Ore on both names. *Limitations and Disabilities* appears in the gap register without a card; no standard is stated anywhere, and the Pillar's theses come closest without naming access at all.

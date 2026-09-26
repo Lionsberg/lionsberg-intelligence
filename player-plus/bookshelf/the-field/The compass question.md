@@ -15,9 +15,8 @@ The question is asked before the move, not after. That placement is the load-bea
 
 When two moves both point Heavenward, the older players ask a second question: *is this the highest thing we could do right now, for ourselves and for the whole?* Not every good move is the next move. That second question is where [[Wisdom]], [[Discernment]], and the [[Critical Path]] enter; the first question sorts direction, the second sorts sequence.
 
-**Also called:** the one question · the compass · *Does this make life a little more like Heaven?*
+**Also called:** the one question · the compass*Does this make life a little more like Heaven?*
 **Stands on:** [[Heaven On Earth]] · [[The Goal]] · [[Hell On Earth]]
 **Opens onto:** [[Wisdom]] · [[Discernment]] · [[Value]] · [[Waste]] · [[The Lens]] · [[Design To The Goal]] · [[Play]]
 **In play:** At the door, as the first thing handed to a newcomer that they can use the same hour; at the table, before every [[Commitment]]; at every rung beyond, unchanged in wording.
-**Sources:** `The DNA of Heaven` · `The Little Book of the Great Game — Second Draft` · `Heaven and Hell as Co-Created Trajectories` · the Player+ module lexicon (`Play the Game`). lionsberg.wiki: **The Great Game of LIØNSBERG**.
 **Open:** The canon has no single page at this name; the question lives inside the Little Book, the modules, and the seed. Its wording is stable across all three; its *second* question appears only in the seed's second draft and has not been through a season of use.

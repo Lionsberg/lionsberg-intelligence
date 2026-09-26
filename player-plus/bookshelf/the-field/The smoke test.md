@@ -22,5 +22,4 @@ The numbers are a rule of thumb and nothing more — offered by their source as 
 **Stands on:** [[Discernment]] · [[Testimony]] · [[Pattern Recognition]]
 **Opens onto:** [[Structures of Injustice]] · [[The Accuser]] · [[Necessity Of Accountability]] · [[Whistleblower Protection]] · [[The Lahaina Principle]] · [[Navigating Towards Truth]] · [[The Five Verification Filters and the Spectrum of Knowing]] · [[Proportionality]]
 **In play:** the table — when a second account of the same shape arrives
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §III
 **Open:** The counts are not derived and do not scale with the size of the body being judged. · Nothing addresses coordinated or copied accounts, which is the failure mode a count-based test most needs to handle.

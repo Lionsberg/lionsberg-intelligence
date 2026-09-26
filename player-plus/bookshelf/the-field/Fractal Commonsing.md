@@ -20,5 +20,4 @@ In play, a player meets it twice: once when their [[Cell]] realizes [[The Offeri
 **Stands on:** [[Commons]] · [[Voluntary Tithing]] · [[Field of Agreements]] · [[Selectively Permeable Membrane]] · [[Fractal]]
 **Opens onto:** [[Subsidiarity]] · [[Holofractal Omnifederation]] · [[Federation]] · [[Mutual Aid]] · [[Levels Of Scale]]
 **In play:** table, then Home — the Offering, and the share sent inward at each turning
-**Sources:** *Fractal Commonsing* · *Commons* · *Holofractal Omnifederation* · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Economy · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Fractal Commonsing
 **Open:** The root page cites *LIØNSBERG Instantiation Hubs* for the provisioning capacity;

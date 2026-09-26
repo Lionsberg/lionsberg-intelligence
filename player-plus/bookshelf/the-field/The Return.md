@@ -18,5 +18,4 @@ It is also the rule about records. Where there is a wire, someone types the shee
 **Stands on:** [[The Way Up]] · [[The Season Sheet]] · [[Home Cell]]
 **Opens onto:** [[The Board]] · [[The plan of the whole]] · [[The Questcard]] · [[Screens and paper]] · [[The edition]] · [[Share the Stories]]
 **In play:** Home · table
-**Sources:** *The Return*, Little Book chapter (current best understanding · "how paper meets the wire, in both directions") · *The Way Up*, §The plan above (current best understanding) · *The LIØNSBERG Operating System* §17 · lionsberg.wiki: **The Return**
 **Open:** Who composes the page that comes back at each level is not named. · The claim that every level keeps every sheet it received is stated once and has no worked practice behind it.

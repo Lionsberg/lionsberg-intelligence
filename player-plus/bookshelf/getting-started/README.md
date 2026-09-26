@@ -2,7 +2,7 @@
 
 Welcome! This book walks you from nothing to an agent of your own, living in a folder on your own computer. No prior experience with terminals or code editors is required.
 
-By the end, you'll have:
+By the end, you will have:
 
 - **Claude Code**, the program your agent lives in, running in a terminal
 - **A comfortable terminal**, set up so everything is readable and easy to reach
@@ -23,18 +23,21 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 - **Gate 4 — The Living Record · the developer tools and Git:** [Installing Git](Installing%20Git.md)
 - **Gate 5 — The Body · Claude Code:** [Installing Claude Code](Installing%20Claude%20Code.md)
 - **Gate 6 — A Space Set Apart · your agent's home:** [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*
-- **Gate 7 — The Door That Knows You · sign in:** [Installing Claude Code](Installing%20Claude%20Code.md)
+- **Gate 7 — The Door That Knows You · sign in:** [Installing Claude Code](Installing%20Claude%20Code.md), Step 2
 - **Gate 8 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
 
 ## After the Gates
 
+- [Bringing Your Friends In](Bringing%20Your%20Friends%20In.md) — each one teach one, with your agent as the guide; the ladder for when you are stuck
+- [The Dojo Card](../working-with-other-houses/The%20Dojo%20Card.md) — your first time in a room with your agent
+- [Tips for Working With Your Agent](../with-your-agent/Tips%20for%20Working%20With%20Your%20Agent.md) — a living page, added to at every Jam
 - [Viewing Your Files](Viewing%20Your%20Files.md) — Typora, MarkText, and friends
 - [Permissions Questions](Permissions%20Questions.md) — what Claude Code asks, and how to answer
 - [Basic Markdown](Basic%20Markdown.md) — headers, links, lists — enough to get going
 
 ## Optional: Git and GitHub, under the hood
 
-Your agent manages version control for you, so none of this is required. Read it when you're curious, or when your agent points you here.
+Your agent manages version control for you, so none of this is required. Read it when you are curious, or when your agent points you here.
 
 - [GitHub Account Setup](GitHub%20Account%20Setup.md) — create your account, connect from the terminal
 - [Your First Commit](Your%20First%20Commit.md) — the daily cycle: pull, work, commit, push

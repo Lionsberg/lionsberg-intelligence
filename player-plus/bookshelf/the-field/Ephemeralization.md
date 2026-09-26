@@ -20,5 +20,4 @@ At a table the principle appears as a habit rather than a technology. Do the thi
 **Stands on:** [[Work]] · [[Science]] · [[Technology]] · [[Value]]
 **Opens onto:** [[Abundance]] · [[Scarcity]] · [[Waste]] · [[Weaponry To Livingry]] · [[Design To The Goal]] · [[Trim Tab]]
 **In play:** the table · beyond
-**Sources:** *Ephemeralization* · *The LIØNSBERG Lexicon*, The System section on Work (canon-grade) · the seed's Part XI, the Intention's Earthly echo. lionsberg.wiki: Ephemeralization.
 **Open:** The root page is a single definition with no dependents named. The term is Buckminster Fuller's; the page carries the definition without the attribution, while the seed credits him for the related Intention.

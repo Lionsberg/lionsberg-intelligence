@@ -8,7 +8,7 @@ pillar: I
 
 *The vibrational quality or signature of a being, place, or act — the note it is sounding.*
 
-Frequency belongs to what the canon calls the native vocabulary of a living Reality. If the universe is made of process rather than things — [[Vibration]] the foundational oscillation, frequency its quality and signature, [[Resonance]] how vibrations answer one another, [[Coherence]] how well the many sing as one, [[Attunement]] the practice of coming into tune — then the right descriptive language is musical rather than mechanical. [[Love]] is named in that vocabulary as a frequency of being.
+Frequency belongs to the native vocabulary of a living Reality. If the universe is made of process rather than things — [[Vibration]] the foundational oscillation, frequency its quality and signature, [[Resonance]] how vibrations answer one another, [[Coherence]] how well the many sing as one, [[Attunement]] the practice of coming into tune — then the right descriptive language is musical rather than mechanical. [[Love]] is named in that vocabulary as a frequency of being.
 
 Its practical edge is discernment. A trained person reads the signature of a room, an institution, an encounter before analysis catches up: associative [[Energy]] enlivens, coheres, and leaves beings free; predatory dissociation diminishes, fragments, and binds. [[Sensing The Field]] is the named practice. That reading is treated as data to be weighed, not as verdict — the same testing discipline that governs [[Transmission]] applies here.
 
@@ -20,5 +20,4 @@ In play the honest form is small: a Cell noticing, out loud, that the room has g
 **Stands on:** [[Vibration]] · [[Energy]]
 **Opens onto:** [[Resonance]] · [[Attunement]] · [[Coherence]] · [[Sensing The Field]]
 **In play:** Met at the table in the Circle's honest read of how it is; met beyond, in the energetic disciplines of the Path.
-**Sources:** *The LIØNSBERG Lexicon*, Meta Layer ("the vibrational quality or resonance of a being, place, or act") · *Frequency* (root page) · *The Living Gradient* (root page, the native vocabulary) · *Energy* (root page) · lionsberg.wiki: *The Living Gradient*.
 **Open:** carried here as vocabulary in use rather than as an articulated concept.

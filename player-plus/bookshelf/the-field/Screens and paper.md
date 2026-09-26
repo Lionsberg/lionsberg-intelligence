@@ -18,5 +18,4 @@ It also sets the honest order of building. Build the paper form first, prove tha
 **Stands on:** [[The same card shape]] · [[Notebook form]]
 **Opens onto:** [[Minimum standards of interoperability]] · [[The activity table]] · [[The Record]] · [[The Season Sheet]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §19 · The Little Book of the Great Game, *The Season Sheet* · the Player+ Modules Lexicon (*notebook form*) · *The DNA of Heaven*, Parts VII and X — lionsberg.wiki page name: **The LIØNSBERG Operating System**
 **Open:** none found.

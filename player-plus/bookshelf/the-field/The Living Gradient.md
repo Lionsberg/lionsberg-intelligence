@@ -20,5 +20,4 @@ It is load-bearing across the whole Field. It is why [[Instantiation]] is honest
 **Stands on:** [[Ideal]] · [[Vibration]] · [[Reality]]
 **Opens onto:** [[Value]] · [[Instantiation]] · [[The compass question]] · [[Word Tools]] · [[Current Best Articulation]]
 **In play:** Met at the table every time a Cell reads where it is rather than grading whether it passed.
-**Sources:** *The Living Gradient* (root page, mature, no status line) · *The LIØNSBERG Lexicon*, Meta Layer (listed as a Root Key with no description) · lionsberg.wiki: *The Living Gradient*.
 **Open:** The Concept Field records that this concept "appears nowhere else in any form" beyond its Root Key listing. That is not correct as the wiki now stands: the root page is one of the more developed articulations in Pillar I's range and is cited by *Energy*, *Embodiment*, and *The Creative Cascade*. Recorded as a divergence.

@@ -20,5 +20,4 @@ Its companion chapter gives the practice, which is why this one can be a single 
 **Stands on:** [[Fear]] · [[Memento Mori]] · [[Courage]] · [[Faith]]
 **Opens onto:** [[Dying]] · [[Composure Under Threat]] · [[Mastery Of Emotions]] · [[The Refining Fire (Wisdom's)]] · [[Sovereignty]] · [[Ideological Capture]] · [[Spontaneous Wise Right Action]] · [[Transcendence]] · [[Coming Home]] · [[The Veil of Finitude and Forgetting]]
 **In play:** the Path — the last thing a way of transformation is asked to reach, and the one that decides how the rest of it holds under pressure
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/16. Fear Not Death.md` (the chapter is one sentence and closes the book) · the same book's chapter 15 · lionsberg.wiki: The Wisdom of the Way
 **Open:** The chapter is a single line and carries no practice, no account of what liberation from fear consists of, and no distinction between the fear that protects a body and the fear that governs it. Everything on this page beyond that line is drawn from its neighbours.

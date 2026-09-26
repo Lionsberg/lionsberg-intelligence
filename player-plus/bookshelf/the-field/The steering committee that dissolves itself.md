@@ -22,5 +22,4 @@ There is an older name for the disposition underneath it: leadership whose measu
 **Stands on:** [[Governance]] · [[Consent]] · [[Term Limits And Rotation]]
 **Opens onto:** [[The Community Company]] · [[A role held forever quietly becomes a throne]] · [[Disbanding]] · [[Servant Leadership]] · [[The Calling of the Ecclesia]] · [[Centralization Of Power]] · [[The Act Of Release]] · [[Impeachment]]
 **In play:** the door — decided at a body's founding, executed later
-**Sources:** *The DNA of Heaven*, Part IV, §The Community Company · `The LIØNSBERG Community Guidebook`, Step 1 · lionsberg.wiki: Term Limits And Rotation
 **Open:** Nothing states what triggers the dissolution — a date, a membership count, a readiness test — or what happens if the committee declines to dissolve itself when it comes.

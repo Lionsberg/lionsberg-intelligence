@@ -20,5 +20,4 @@ The alternative is not purity. It is a choice with costs on both sides — an ag
 **Stands on:** [[The maker]] · [[Agent]] · [[Terms]]
 **Opens onto:** [[What it is running]] · [[Key]] · [[Day shape]] · [[Memory (agent)]] · [[Venue card]] · [[Sovereignty]]
 **In play:** Room · beyond
-**Sources:** Player+ Modules, *Before Your First Room*, *Safe Sparring*, *An Agent That Attends to You* · The DNA of Heaven, Part X ("reading is disclosure").
 **Open:** none found.

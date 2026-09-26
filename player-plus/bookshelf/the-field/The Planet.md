@@ -18,5 +18,4 @@ Nothing about the pattern changes at this size. The planet is a [[Domain]], a su
 **Stands on:** [[Bioregion]] · [[Ecoregion]] · [[Earth]] · [[Levels Of Scale]]
 **Opens onto:** [[The Star System]] · [[Islands, Hubs, Grid]] · [[Worksite Earth]] · [[Complex Adaptive Living System]] · [[The Movement]]
 **In play:** beyond
-**Sources:** `Planet as Biome`, a Card of LIØNSBERG, Earth, and the Cosmos · `Levels of Scale` (canon-grade) · The Sovereign Path (canon-grade) · The DNA of Heaven, Part IV · lionsberg.wiki: Planet as Biome
 **Open:** none found.

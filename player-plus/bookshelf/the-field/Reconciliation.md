@@ -20,5 +20,4 @@ What reconciliation is not: the erasure of the record, the premature declaration
 **Stands on:** [[Justice]] · [[Truth]] · [[Forgiveness]] · [[Right Relationship]] · [[Trust]]
 **Opens onto:** [[Conflict Transformation]] · [[The Escalation Ladder]] · [[Mend a Tension]] · [[Having Difficult Conversations]] · [[Apologizing]] · [[Remedy]] · [[Containment Of The Dangerous Sovereign]]
 **In play:** table · Home · Room
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XI term *Reconciliation* (canon-grade) · `Pillar XI — Sacred Society and Justice`, Theses 3, 9, 10 (canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Justice, Containment, Mass Healing* (ore) · lionsberg.wiki: no page stands at this name
 **Open:** No page named *Reconciliation* exists; truth-and-reconciliation, mediation, restitution and containment are named together as a gap not yet closed. · The escalation ladder is named in the Playbook's plays but its rungs are not written down in one place.

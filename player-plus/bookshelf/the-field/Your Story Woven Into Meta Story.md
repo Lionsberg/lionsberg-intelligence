@@ -20,5 +20,4 @@ In the Game the practical instruction is short. Tell what happened, honestly, so
 **Stands on:** [[The Story of LIØNSBERG]] · [[Story]] · [[Storytelling]] · [[Testimony]]
 **Opens onto:** [[Share the Stories]] · [[The Season Sheet]] · [[Pass The Flame]] · [[Weaving vs. Starting New]] · [[Our Story]] · [[Cross-Cultural Pattern Translation]]
 **In play:** table · Home
-**Sources:** *The Story of LIØNSBERG*, §Weaving Your Stories (canon-grade) · *All Patterns — Master Consolidated Inventory*, §3.1 Ch0 · *The 144 Gates of Initiation* (the Story and the Gates as two faces of one Pattern) — lionsberg.wiki · the seed text *The DNA of Heaven*, Parts II and V.
 **Open:** *Your Story* is also used in the Lexicon as a term in its own right; the field folds it in here as an alias, and the two uses have not been reconciled.

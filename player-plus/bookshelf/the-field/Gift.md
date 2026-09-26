@@ -20,5 +20,4 @@ At a Cell's table, gift has a fixed weekly form: [[The Offering]], where each pe
 **Stands on:** [[Love]] · [[Reciprocity]] · [[Consent]] · [[Abundance]]
 **Opens onto:** [[The Offering]] · [[Voluntary Tithing]] · [[Commons]] · [[Mutual Aid]] · [[Exchange]] · [[The Founder's Fund]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Gift* (canon-grade; one line) · *The LIØNSBERG Pattern Language — Synthesized*, Economy and Stewardship (canon-grade list; *Gift Economy* named, not articulated) · *Where Value Flows* (Community Guidebook Toolkit) · *Pillar III*, narrative (canon-grade — "before markets and money, there was gift") · lionsberg.wiki: Gift
 **Open:** *Gift Economy* and *Gift-Economizing* are named in the Pattern Language inventory with no card or body behind them; the sense here is cohered from the Pillar's narrative and the Guidebook rather than from a dedicated page.

@@ -22,5 +22,4 @@ What is unwritten is large: the artists' guild, and the whole territory of sacre
 **Stands on:** [[Logos]] · [[Beauty]] · [[Truth]] · [[Story]]
 **Opens onto:** [[Culture]] · [[Storytelling]] · [[Art]] · [[Festival]] · [[Language]]
 **In play:** door · table · Home · beyond
-**Sources:** *Pillar VII — Sacred Culture, Art, and Story* · *The 12 Pillars of LIØNSBERG* · *The LIØNSBERG Lexicon*, Pillar VII table · *The Great Weaving — Concept Ledger* · lionsberg.wiki: *Pillar VII — Sacred Culture, Art, and Story*
 **Open:** The Pillar page titles its own theses *Sacred Culture, Art, and Expression* while the hub and the Lexicon title it *Sacred Culture, Art, and Story*.

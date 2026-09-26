@@ -22,5 +22,4 @@ It is also local before it is anything else. A child formed in relationship with
 **Stands on:** [[The LIØNSBERG Educational Model]] · [[The Pedagogy of Trust and Sirimiri]] · [[Pillar IV — Sacred Learning and Mastery]] · [[Cell]]
 **Opens onto:** [[Apprenticeship]] · [[Guild]] · [[Council]] · [[The Three-Year Formation]] · [[Belt Progression]] · [[OmniSpection]] · [[The Roving Ark Temple Dojo]] · [[Citizenship]] · [[The Living Library]]
 **In play:** Home and the Locality — the formation any Cell is already doing, named
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The LIØNSBERG Academy.md`
 **Open:** Written in the voice of something that exists; no Academy operates anywhere, and the Card does not distinguish design from report. · The relation between the Academy, the Guilds and the Councils is asserted and never given a decision rule — who recognises what, and who may refuse a recognition, is unstated.

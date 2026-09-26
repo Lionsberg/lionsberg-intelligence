@@ -8,7 +8,7 @@ pillar: I
 
 *That which goes beyond all categories and forms — the truths that surpass the limitations of the manifest.*
 
-Transcendence and [[Immanence]] are a pair, and the canon refuses to choose between them. ØNE is beyond every category *and* present within all things. Holding both is what keeps the metaphysics from collapsing into either a distant deity who has left the world to itself or a world that is simply identical with the divine and therefore beyond criticism.
+Transcendence and [[Immanence]] are a pair; neither is chosen over the other. ØNE is beyond every category *and* present within all things. Holding both is what keeps the metaphysics from collapsing into either a distant deity who has left the world to itself or a world that is simply identical with the divine and therefore beyond criticism.
 
 The transcendent half does specific work. It is what makes [[Do Not Concretize the Absolute]] a requirement rather than a preference: if ØNE goes beyond all categories, then any category that claims to contain ØNE has already gone wrong. [[The Ineffable]] is the discipline of leaving the silence intact; [[Essences, Renderings, And Ineffable Referents]] is the same discipline applied to every definition in the Lexicon; [[Mystery]] is what remains when the honest limits are respected. Every one of these is a brake on the natural motion of a system with many words — the motion toward believing the words are the thing.
 
@@ -20,5 +20,4 @@ In play it appears as a discipline of speech rather than a doctrine: nothing her
 **Stands on:** [[ØNE]] · [[The Ineffable]] · [[Mystery]]
 **Opens onto:** [[Immanence]] · [[Meta]] · [[Do Not Concretize the Absolute]] · [[Essences, Renderings, And Ineffable Referents]]
 **In play:** Met in the library, in the status line every page carries; met at the table in the refusal to call anything final.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I and Boundaries and Limits of Conception ("that which goes beyond All categories and forms") · *Holarchy* (root page, on the Meta level of every category) · *The Creative Cascade* (root page, on holding the top rung open) · lionsberg.wiki: *Boundaries and Limits of Conception*.
 **Open:** none found.

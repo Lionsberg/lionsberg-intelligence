@@ -20,5 +20,4 @@ Two cautions. *Shu* has an end — a form held forever becomes an idol, which is
 **Stands on:** [[Mastery]] · [[Discipline]] · [[Apprenticeship]] · [[Current Best Understanding]]
 **Opens onto:** [[Belt Progression]] · [[The Zone Of Optimum Development]] · [[Continuous Improvement]] · [[Spirit Precedes Pattern]] · [[Institutional Idolatry]] · [[Proposal]]
 **In play:** table · Gate · Room
-**Sources:** Player+ Modules *Lexicon* — *shu-ha-ri* (canon-grade for the module layer; the three stages and the rule, in the wording carried here) · *How a Module Lives* (Player+ Modules) · *The LIØNSBERG Belt System* (wiki root — degrees of one continuous progression) · *The DNA of Heaven*, Part VIII · lionsberg.wiki: Shu-ha-ri
 **Open:** The concept lives in the Player+ module lexicon and the seed; there is no page for it in the wiki canon, and the belt system does not name it.

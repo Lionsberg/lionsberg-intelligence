@@ -20,5 +20,4 @@ Two honesties. Regeneration takes longer than extraction and is therefore always
 **Stands on:** [[Living System]] · [[Healing]] · [[Right Relationship]]
 **Opens onto:** [[Compost]] · [[Permaculture]] · [[Ecology]] · [[Rest And Regeneration]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V and Pillar VI tables (canon-grade) · *Regenerative* (a short root page, drawn in part from Open Civics) · *Pillar VI — Sacred Ecology and Living Systems*, Thesis 6 · lionsberg.wiki: *Regenerative*
-**Open:** The Lexicon gives the word two slightly different definitions under two Pillars — renewal *into higher-order coherence* (V) and restoration of *vitality, function, and evolutionary potential* (VI). Read as one meaning here; not formally cohered in the canon.
+**Open:** The Lexicon gives the word two slightly different definitions under two Pillars — renewal *into higher-order coherence* (V) and restoration of *vitality, function, and evolutionary potential* (VI). Read as one meaning here; the two have not been formally cohered.

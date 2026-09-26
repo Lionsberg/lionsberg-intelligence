@@ -20,5 +20,4 @@ The risk in the position is the one it should name itself: a body convinced its 
 **Stands on:** [[Values]] · [[ØNE]] · [[Axiology]] · [[Truth]]
 **Opens onto:** [[Virtues]] · [[Beauty]] · [[Justice]] · [[The LIØNSBERG Lexicon]] · [[Full Spectrum Dominance]] · [[ReHarvesting the Great Traditions]] · [[The Foundational Truth]] · [[Do Not Concretize the Absolute]]
 **In play:** the table — when a Circle is deciding whether something is a value or a preference
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Values as Facets of the ØNE.md`
 **Open:** No test is offered for telling a facet from a preference, which is the work the position needs to do. · The Card does not address the history of bodies that held their values as discoveries and compelled others accordingly; the guard against that lives on other pages and is not named on this one.

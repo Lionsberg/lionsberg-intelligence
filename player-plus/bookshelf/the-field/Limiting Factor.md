@@ -22,5 +22,4 @@ The same reading works at every scale. A Cell's limiting factor may be one perso
 **Stands on:** [[Ecology]] · [[Living System]] · [[The Living Gradient]] · [[Throughput]]
 **Opens onto:** [[Bottleneck]] · [[Constraint]] · [[Buffer]] · [[Critical Path]] · [[Range Of Tolerance]] · [[Waste]] · [[Flow]] · [[The Heartbeat]] · [[Requests and offers]]
 **In play:** the table — one line in the record every week
-**Sources:** `Projects/the term pages/Limiting Factor.md` (Liebig, Blackman and Shelford named on the page as its witnesses) · `Projects/the term pages/Bottleneck.md` · lionsberg.wiki: Theory Of Constraints
 **Open:** Where the limiting factor is a person, the page asks that the reading be taken without blame and the elevation be theirs to grow; nothing states how that is done in practice without the reading landing as an accusation.

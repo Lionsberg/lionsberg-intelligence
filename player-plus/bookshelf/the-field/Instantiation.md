@@ -20,5 +20,4 @@ In play it is the most familiar thing in the Game: your Cell, in your place, wit
 **Stands on:** [[Prototype]] · [[Kit of Parts]] · [[Embodiment]]
 **Opens onto:** [[The Living Gradient]] · [[Every Defect Is A Gift]] · [[Proposal]] · [[The Season Sheet]] · [[Holon]]
 **In play:** Met at the table from the first week, and at each turning, when what was changed goes up on the sheet.
-**Sources:** *The LIØNSBERG Lexicon*, Meta Layer and Boundaries and Limits of Conception ("the Prototype embodied on the ground, adapted — and honestly compromised — by local reality") · *The Creative Cascade* (root page, mature) · *Instantiation* (root page) · lionsberg.wiki: *Instantiation*.
 **Open:** none found.

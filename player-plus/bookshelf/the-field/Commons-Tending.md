@@ -12,15 +12,14 @@ A [[Commons]] is not a resource that happens to be unowned. It is something stew
 
 It is the ordinary daily answer to [[The Parasite]]. Structures help — contribution recorded and never retracted, the order of the waterfall, the asset lock, everything visible — but the living answer is simpler: enough people showing up to build it rather than to drain it, and a Body in which tending is seen and honored rather than invisible.
 
-Land-working is the canon's named form of it, and it reaches past the human. Water as commons, forests as elders, the watershed as the circulatory system of a place, the seat held at the table for living systems and for future generations. Tending here means acting as a member of the living system rather than a user of it ([[Kinship]] · [[Watershed]]).
+Land-working is the named form of it, and it reaches past the human. Water as commons, forests as elders, the watershed as the circulatory system of a place, the seat held at the table for living systems and for future generations. Tending here means acting as a member of the living system rather than a user of it ([[Kinship]] · [[Watershed]]).
 
 Commons exist at every scale, and so does the tending: each resourced by its own tenth, none of it flowing to a centre ([[Fractal Commonsing]] · [[Voluntary Tithing]]). A knowledge commons is tended the same way — solved once anywhere and made available everywhere, curated, localized, and fed back ([[Knowledge as commons]]).
 
-The canon names this as a Pattern of the hands with no Card behind it, alongside land-working.
+This stands as a Pattern of the hands with no Card behind it, alongside land-working.
 
 **Also called:** Land-Working
 **Stands on:** [[Commons]] · [[Stewardship]] · [[Crafting]] · [[Right Relationship]]
 **Opens onto:** [[Fractal Commonsing]] · [[Voluntary Tithing]] · [[Watershed]] · [[Kinship]] · [[Knowledge as commons]] · [[The Parasite]] · [[Tragedy of the Commons]] · [[Regeneration]]
 **In play:** Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Parts III and IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named with no articulation; nothing states how tending work is shared within a Body, or what happens when it is not.

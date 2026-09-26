@@ -4,7 +4,7 @@ tier: 1000
 domain: Words and Conventions
 pillar: VII
 ---
-# Be the canon, don't narrate it
+# Be the canon, do not narrate it
 
 *A page says the thing. It does not report that the thing is said somewhere.*
 
@@ -18,7 +18,6 @@ The same posture runs deeper than style. The voice speaks from as close to the v
 
 **Also called:** Voice — Be the Canon
 **Stands on:** [[The LIØNSBERG Voice]] · [[The Posture — Wise Elder At The Fire, General Of Cosmic Armies]] · [[The LIØNSBERG Book of Conventions]]
-**Opens onto:** [[Provenance]] · [[No False-Oppositional Framings]] · [[Author's Voice Is Sovereign]] · [[One canonical home per concept]] · [[Weave, don't delete]] · [[Bottom Line Up Front]]
+**Opens onto:** [[Provenance]] · [[No False-Oppositional Framings]] · [[Author's Voice Is Sovereign]] · [[One canonical home per concept]] · [[Weave, do not delete]] · [[Bottom Line Up Front]]
 **In play:** beyond
-**Sources:** The LIØNSBERG Voice (the posture, the tests, and the refusals) · The Great Weaving — Concept Ledger, the disciplines that hold the weaving · Phase 2 — The Audit Ledger, voice discipline · lionsberg.wiki: *The LIØNSBERG Voice*
 **Open:** the voice page sits in the wiki's administrative section rather than in a volume, and the Pattern Language names *The LIØNSBERG Voice* as a pattern of its own; which of the two is the canonical home has not been settled.

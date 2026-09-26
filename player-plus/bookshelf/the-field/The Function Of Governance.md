@@ -20,5 +20,4 @@ Running through all of it, transparency and accountability by, among and between
 **Stands on:** [[Governance]] · [[The Goal]] · [[Navigation]] · [[Consent]]
 **Opens onto:** [[Federal Governance]] · [[HoloFractal Governance]] · [[Mandala of Governance]] · [[Separation Of Power]] · [[Subsidiarity Of Authority]] · [[Structural Immunity]] · [[Requirement Of Transparency]] · [[Necessity Of Accountability]] · [[Pillar II — Sacred Governance and Stewardship]]
 **In play:** the Room — asked before any body designs how it will decide, and again whenever the structure has started to be defended for its own sake
-**Sources:** `The Function Of Governance` (root page, stub — the steering etymology, the protective-and-purposeful requirement, the simple-yet-robust tension) · `Governance` (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, the governance Recognitions · lionsberg.wiki: The Function Of Governance
-**Open:** The page names the tension between participable simplicity and capture-resistant robustness and does not resolve it; nothing in the canon says how a body should trade them off when it must.
+**Open:** The page names the tension between participable simplicity and capture-resistant robustness and does not resolve it; how a body should trade them off when it must is nowhere said.

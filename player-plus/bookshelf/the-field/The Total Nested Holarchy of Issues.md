@@ -14,11 +14,10 @@ Held as a **nested holarchy**, they become something else: a map. Each issue sit
 
 It is the *pull* side of how the body builds. Needs and ripened opportunities are what call new capabilities into being, and this register is where the felt needs of every member are gathered so the whole can read its own gradients and respond ([[Just In Time Co-Creation]] · [[General Needs]]). Without it, sensing happens and goes nowhere; with it, one person's small persistent trouble can be seen as the eightieth report of the same thing.
 
-It completes a family the canon already keeps: the nested holarchy of visions, of sovereignties, of work — and of issues, which is the one that says where it hurts ([[Total Nested Holarchy Of Sovereignties]] · [[Work Breakdown Structure]]).
+It completes a family already kept: the nested holarchy of visions, of sovereignties, of work — and of issues, which is the one that says where it hurts ([[Total Nested Holarchy Of Sovereignties]] · [[Work Breakdown Structure]]).
 
 **Also called:** the issue holarchy · the nested issue register
 **Stands on:** [[Issue]] · [[Holarchy]] · [[The Living Gradient]] · [[The gap]]
-**Opens onto:** [[Just In Time Co-Creation]] · [[Root Causes]] · [[Theory Of Constraints]] · [[Constraint]] · [[General Needs]] · [[Total Nested Holarchy Of Sovereignties]] · [[Work Breakdown Structure]] · [[Every Defect Is A Gift]] · [[Sighting]] · [[Pattern Recognition]] · [[The Big Room]] · [[Register]]
+**Opens onto:** [[Just In Time Co-Creation]] · [[Root Causes]] · [[Theory Of Constraints]] · [[Constraint]] · [[General Needs]] · [[Total Nested Holarchy Of Sovereignties]] · [[Work Breakdown Structure]] · [[Every Defect Is A Gift]] · [[Sighting]] · [[Pattern Recognition]] · [[The One Room]] · [[Register]]
 **In play:** the table · beyond — a Cell's own issues are a leaf of it
-**Sources:** `Just In Time Co-Creation` §*Needs and Opportunities* (root page, canon-grade — where the term appears) · `Identifying And Solving Issues` · `LIØNSBERG Issue Tracker` · lionsberg.wiki: Just In Time Co-Creation
 **Open:** The term appears in a single clause of one page and is elaborated nowhere; the sibling holarchies of visions, sovereignties, and work each have fuller articulations. · How an issue is actually nested — who decides it belongs inside another, and whether nesting is by scale, by cause, or by owner — is unwritten, and the three would produce three different maps.

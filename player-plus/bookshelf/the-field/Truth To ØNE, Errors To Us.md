@@ -19,5 +19,4 @@ In practice: authorship is acknowledged where it is right to acknowledge; author
 **Stands on:** [[Truth]] · [[ØNE]] · [[Current Best Articulation]]
 **Opens onto:** [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Every Defect Is A Gift]] · [[Spirit Precedes Pattern]] · [[Knowledge as commons]] · [[Attribution]] · [[Provenance]] · [[Zero Blame Environment]]
 **In play:** At the table, in how a mistake is spoken about; at the Room, in how this body credits another house; beyond, as what keeps a corpus correctable.
-**Sources:** `Truth To ØNE, Errors To Us` (Card — the paired epistemic posture; the Concept Ledger marks it Completed) · `The Great Weaving — Concept Ledger`, Disciplines §4 · `LIØNSBERG Is A Prototype, Not The Eternal Essence` (Card, woven 2026-05-22) · `The LIØNSBERG Playbook`. lionsberg.wiki: **Truth To ØNE, Errors To Us**.
 **Open:** none found; the Card and the Ledger discipline state it identically.

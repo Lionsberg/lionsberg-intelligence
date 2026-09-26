@@ -18,5 +18,4 @@ It reaches further than a factory. The same map can be drawn over how a decision
 **Stands on:** [[Value]] · [[Waste]] · [[Lean Project Delivery]] · [[Theory Of Constraints]]
 **Opens onto:** [[Throughput]] · [[Continuous Improvement]] · [[Constraint]] · [[Quality]]
 **In play:** table · beyond
-**Sources:** *Value Stream Mapping* (wiki root page) · *The LIØNSBERG Lexicon* §The System · *The Economic Case For IPD* — lionsberg.wiki page name: **Value Stream Mapping**
 **Open:** none found.

@@ -20,5 +20,4 @@ Two things serve it: each person's stated calendar — the hours actually availa
 **Stands on:** [[The Pledge]] · [[Capacity]] · [[The Game Engine]] · [[Sovereignty]]
 **Opens onto:** [[Load]] · [[Bottleneck]] · [[Limiting Factor]] · [[Level Of Commitment]] · [[Buffer]] · [[Float]] · [[The Heartbeat]] · [[Pull planning]]
 **In play:** the table — at the Turn and at the turning, with the register in front of everyone
-**Sources:** `Projects/the term pages/Resource Leveling.md` · `Projects/the term pages/Load.md`, `The Game Engine.md`, `Bottleneck.md` (drafts) · `Level Of Commitment` (wiki root) · lionsberg.wiki: Theory Of Constraints
 **Open:** Nothing states what a Cell does when levelling has no honest answer — when the work is genuinely necessary, the marker genuinely fixed, and the capacity genuinely absent.

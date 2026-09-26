@@ -20,5 +20,4 @@ What it actually cultivates is broader than technique — conditioning, structur
 **Stands on:** [[The Sacred Use Of Force]] · [[Aligned Will]] · [[Discipline]] · [[Moving]]
 **Opens onto:** [[Composure Under Threat]] · [[Restraint As The Refusal To Act]] · [[Restraint's Two Tells]] · [[Sensing The Field]] · [[Mastery Of Emotions]] · [[Guardianship]] · [[Self Defense]] · [[Warrior]] · [[The 300]] · [[Pillar X — Sacred Guardianship and Order]]
 **In play:** beyond — a lifetime's practice held by those whose role may require it, and a baseline held more widely
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Pattern Language/Patterns/Martial Cultivation.md` (drafted Pattern Card) · the same Language's *Patterns Pending Articulation* (working document) · lionsberg.wiki: Martial Cultivation
 **Open:** The card gives a belt-and-year progression and a weekly training volume, pointing to a Warrior guidebook for the canonical form; that guidebook is named more often than it is written. · It lists specific modern operational training lineages among its sources without saying how those are tested against the same container the rest of the card insists on.

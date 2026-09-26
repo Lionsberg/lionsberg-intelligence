@@ -20,7 +20,6 @@ The last move it asks is the one that makes it a book rather than a document: th
 
 **Also called:** the complete turn · the second of the four things
 **Stands on:** [[The Golden Seed]] · [[The Great Game]] · [[The Language of LIØNSBERG]] · [[Current Best Understanding]]
-**Opens onto:** [[The turn (of a Movement), and its chapters]] · [[The Field (of the Book), and the law of no loss]] · [[The Book Beneath the Book]] · [[The First 999 Concepts]] · [[One Book · One Operating System · One Big Room]] · [[The Five Moves]] · [[The Little Book of the Great Game (the concept)]] · [[Pass The Flame]]
+**Opens onto:** [[The turn (of a Movement), and its chapters]] · [[The Field (of the Book), and the law of no loss]] · [[The Book Beneath the Book]] · [[The First 999 Concepts]] · [[One Book · One Operating System · One Room]] · [[The Five Moves]] · [[The Little Book of the Great Game (the concept)]] · [[Pass The Flame]]
 **In play:** the door — the thing actually handed to someone
-**Sources:** `LIØNSBERG Wiki Books/The One Book/The One Book.md`
 **Open:** The root page does not name the whole-Story telling that sits beside it in the same folder, so a reader arriving at the Book can miss the register most of them would actually want. · Forty-eight of its chapter files exist by name and were not opened in the reading behind this page. · The Movements are said to number nine and possibly twelve; nothing states what would decide.

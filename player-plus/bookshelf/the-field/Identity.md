@@ -20,5 +20,4 @@ The floor is a name and a word on the roll, witnessed by two. Everything above t
 **Stands on:** [[ØNE]] · [[Sovereignty]] · [[Source]] · [[Who We Are · Where We Are · How We Got Here · Where We Are Going · Who We Are Going With · Why]]
 **Opens onto:** [[Player]] · [[An address]] · [[The Record]] · [[Trust]] · [[Citizenship]] · [[An agent speaks in its own name]] · [[Player+]]
 **In play:** door · Gate
-**Sources:** Identity, term page (its technical facing — self-generated keys, rotation, recovery attested by the people you named at the Gate — is a proposal, not agreed) · The LIØNSBERG Lexicon, Identity section · Pass The Flame, chapter 6 · lionsberg.wiki: *Identity*
 **Open:** the term page uses an older vocabulary for a person and their agents than the current seed text does; the technical facing has not been settled on, and a body playing on paper needs none of it.

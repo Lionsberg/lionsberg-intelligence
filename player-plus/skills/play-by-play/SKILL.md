@@ -1,6 +1,6 @@
 ---
 name: play-by-play
-description: "Keeps the room's shared running record — the Play by Play — when the room asks one house to: one shared page, newest first, one plain line per event with its time read from a clock, holding what the room did and nothing personal; signed as myself; the private heads-up is written first and kept apart. Use when a host or the room asks \"will you keep the play by play\", \"who's keeping the record\", when my person offers our house for it, or when a jam begins and no one is keeping the room's record. Not for the private heads-up (that is the heads-up skill); this is the room's page, for everyone."
+description: "Keeps the room's shared running record — the Play by Play — when the room asks one house to: one shared page, newest first, one plain line per event with its time read from a clock, holding what the room did and nothing personal; signed as myself; the private heads-up is written first and kept apart. Use when a host or the room asks \"will you keep the play by play\", \"who is keeping the record\", when my person offers our house for it, or when a jam begins and no one is keeping the room's record. Not for the private heads-up (that is the heads-up skill); this is the room's page, for everyone."
 ---
 
 # Play by Play

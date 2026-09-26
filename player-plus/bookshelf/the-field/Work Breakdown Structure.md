@@ -18,5 +18,4 @@ It is kept alive rather than filed. Reviewed each season with the plan, it absor
 **Stands on:** [[The Meta Project]] · [[The Intent]] · [[Milestone]]
 **Opens onto:** [[Feature · Deliverable · Task]] · [[The activity table]] · [[Everything Is A Project]] · [[Plans and Specifications]]
 **In play:** table · beyond
-**Sources:** *Work Breakdown Structure* (wiki root page, an older general-practice treatment; its one LIØNSBERG-specific line names the twelve Pillars as the first level) · *The LIØNSBERG Operating System* §6 · *The LIØNSBERG Lexicon* §The Meta Project — lionsberg.wiki page name: **Work Breakdown Structure**
 **Open:** The root page is written in generic project-management language and reads as inherited rather than composed; the OS's §6 is the sharper articulation.

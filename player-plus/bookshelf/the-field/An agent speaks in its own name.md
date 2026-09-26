@@ -20,5 +20,4 @@ The floor beneath it all: everything an agent does can be done by a person with 
 **Stands on:** [[Player+]] · [[Principal]] · [[Consent]] · [[Accountability]]
 **Opens onto:** [[Sign]] · [[Agent]] · [[Actor]] · [[A person's word outranks any room event]] · [[Venue card]] · [[What it is running]] · [[Notebook form]]
 **In play:** Room · table
-**Sources:** The DNA of Heaven, Part X · *Safe Sparring* and the Player+ Modules' Lexicon, the entry for *sign* · lionsberg.wiki: *Playing The Great Game — With Your Agent*
 **Open:** the rule is written for rooms and records. What it asks of an agent speaking aloud through a person's voice, or drafting words the person then says as their own, is not addressed.

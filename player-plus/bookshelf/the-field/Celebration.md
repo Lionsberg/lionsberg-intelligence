@@ -20,5 +20,4 @@ Its larger form is [[Festival]], and its largest is the one the Plan points towa
 **Stands on:** [[Joy]] · [[Gratitude]] · [[Rhythm]] · [[Culture]]
 **Opens onto:** [[Festival]] · [[Ritual]] · [[The Turn]] · [[The turnings]] · [[OmniSpection]] · [[Retrospective]] · [[Jubilee]] · [[Share the Stories]]
 **In play:** table · Home · beyond
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XII term *Celebration* (canon-grade) · `Pillar XII — Sacred Time, Rhythm, and Celebration`, Theses 6, 9, 12 (canon-grade) · `The Seven Moves` (Card, move 5) · `Seasonal OmniSpection` (root page): *"Honor what was accomplished. Not with false praise…"* · `The Rhythm of Gatherings` (Toolkit, written) · lionsberg.wiki: no page stands at this name
 **Open:** No page named *Celebration* exists; the move is carried by the Seven Moves card and the OmniSpection page. · The Greatest Celebration and Jubilee is named as a milestone and a stage of the Path, with no description of what is actually done on the day.

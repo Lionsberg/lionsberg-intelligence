@@ -20,5 +20,4 @@ At a Cell's table, exchange looks like offers and requests: this is what we have
 **Stands on:** [[Value]] · [[Right Relationship]] · [[Consent]] · [[Omniconsideration]]
 **Opens onto:** [[Reciprocity]] · [[Gift]] · [[Trade]] · [[Flow]] · [[LUV]] · [[Requests and offers]]
 **In play:** table · Room · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Exchange* (canon-grade; one line) · *Value* (wiki root) · *Pillar III — Sacred Economy and CurrentSee*, Theses 7 and 10 (canon-grade) · *The DNA of Heaven*, Part VII · lionsberg.wiki: Exchange
 **Open:** none found.

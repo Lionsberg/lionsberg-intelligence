@@ -20,5 +20,4 @@ Which is why the signal only works if a red costs nothing. A body that has learn
 **Stands on:** [[The Turn]] · [[The Board]] · [[Circle Coherence]] · [[Transparency]] · [[Zero Blame Environment]]
 **Opens onto:** [[The Circle's Scorecard]] · [[The Score]] · [[The Season Sheet]] · [[The Monthly Synthesis]] · [[Issue]] · [[Ask]] · [[Requests and offers]] · [[Mutual Aid]] · [[Heads-up]] · [[Safety check]] · [[The Escalation Ladder]] · [[Stop]] · [[Sensing The Field]]
 **In play:** the weekly Turn
-**Sources:** `LIØNSBERG Wiki Books/The Great Game of LIØNSBERG/The Great Game of LIØNSBERG.md`, §The Turns · `The Season Sheet` (line 13, *how is the Circle? one word, and a line*) · `The Circle's Scorecard`
 **Open:** The canon gives the three colours a clause and never defines them; what distinguishes yellow from red, and what anyone is obliged to do when a red appears, is unwritten. · The Season Sheet's *one word, and a line* is plainly the same instrument at a different beat, and the two have not been cohered.

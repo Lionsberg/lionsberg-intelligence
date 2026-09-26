@@ -22,5 +22,4 @@ What a Cell can do with it is local and unglamorous: the base of a web is exactl
 **Stands on:** [[Biodiversity]] · [[Living System]] · [[Ecology]]
 **Opens onto:** [[Air · Water · Soil · Microbiome]] · [[Regeneration]] · [[Permaculture]] · [[The Dashboard of Civilization]] · [[Omnicidal]] · [[Systemic Failure Modes]] · [[Watershed]] · [[The Meta Crisis]]
 **In play:** the table — a reading a Cell can take on its own ground
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance…/4.6 Trickle Up Collapse.md` (a 2023 AI dialogue) · restated with different figures in `Most People Have No Idea What Is Coming` 9.2 and 9.3 (2026)
-**Open:** Two sets of figures, from different years and different scopes, are in live use in the corpus and are not distinguished; neither is carried here. · The mechanism is well supported in general and the magnitude is not, and the source does not separate the two.
+**Open:** Two sets of figures, from different years and different scopes, are in live use and are not distinguished; neither is carried here. · The mechanism is well supported in general and the magnitude is not, and the two are not separated.

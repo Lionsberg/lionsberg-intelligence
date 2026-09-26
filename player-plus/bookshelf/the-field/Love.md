@@ -19,5 +19,4 @@ In play, the whole of it fits in three lines a child can hold: Love ØNE. Love O
 **Stands on:** [[ØNE]] · [[Spirit]] · [[Creator's Intent]]
 **Opens onto:** [[The Logic Of Love]] · [[The Goal]] · [[Right Relationship]] · [[Values]] · [[Justice]] · [[Goodness]] · [[The Three Supreme Agreements]]
 **In play:** At the door, in the three lines said aloud; at the table, as what warmth carries when honesty is hard; at every rung beyond, as the ordering principle the structures exist to serve.
-**Sources:** `Love` (wiki root, canon-grade, with a Living Gradient section) · `Values` (root — the Meta Value as unconditional Love) · `Logic of Love` (root) · `The LIØNSBERG Lexicon`, Pillar I · `Spirit Precedes Pattern` (Card) · `The DNA of Heaven`. lionsberg.wiki: **Love**.
 **Open:** The root page's Living Gradient section leans on `The Living Gradient`, which is named as a root key but has no body anywhere; the gradient framing is therefore current best understanding resting on an unwritten page.

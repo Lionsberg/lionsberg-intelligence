@@ -20,5 +20,4 @@ Chaos is the other failure, and it is real. Without order, effort scatters, nobo
 **Stands on:** [[Logos]] · [[Right Relationship]] · [[Sacred Order]] · [[Alignment]]
 **Opens onto:** [[Guardianship]] · [[Peace]] · [[Governance]] · [[Field of Agreements]] · [[The Final Order]] · [[Holarchy]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar X table and Key Terms · *Pillar X — Sacred Guardianship and Order*, thesis 3 and the narrative (canon-grade) · *The Final Order* · the seed's Part IV. lionsberg.wiki: Order.
 **Open:** The canon's counterfeit of this word, *The Final Order*, has a long page while *Order* itself has a Lexicon line; the inversion is better articulated than the thing it inverts.

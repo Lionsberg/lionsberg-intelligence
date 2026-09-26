@@ -20,5 +20,4 @@ In play it is met as the ordinary miracle of a table where what is said is meant
 **Stands on:** [[Logos]] · [[Source]] · [[Creation]]
 **Opens onto:** [[Revelation]] · [[Scripture]] · [[Language]] · [[Word Tools]] · [[A Word on Words]]
 **In play:** Met in the library, in the status line every page carries; met at the table in a word given and kept.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the dynamic, ever-unfolding Logos of Creation, spoken continuously by Source") · *Logos* (root page) · lionsberg.wiki: *Logos*.
 **Open:** No page carries Living Word; it is one Lexicon line, and the *Logos* root page does not mention the continuing-speech sense that distinguishes it.

@@ -20,5 +20,4 @@ Its guard is [[The Dark Initiate Failure Mode]]: capability without alignment, o
 **Stands on:** [[Co-Creation]] · [[Union]] · [[Awakening]]
 **Opens onto:** [[Embodiment]] · [[Mastery]] · [[Conduit]] · [[The Sacred Ascent]] · [[Co-Creating Heaven]]
 **In play:** Met beyond the table, over years — visible as a player whose moves have stopped needing to be argued for.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the state of enlightened co-creation with the ØNE") · *The Story of LIØNSBERG — The Sacred Arc*, movement X · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Cultivation Disciplines · lionsberg.wiki: *Pillar I — Sacred Ontology and Metaphysics*.
 **Open:** The Lexicon row is a single line and no page develops it; everything above is drawn from adjacent pages, and the Concept Field marks it a stub.

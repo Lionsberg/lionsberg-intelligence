@@ -22,5 +22,4 @@ It also answers the ordinary objection to strength. Strength is not suspect here
 **Stands on:** [[Universal Rights, and Universal Aspirations]] · [[Universal Responsibilities]] · [[Love]] · [[Justice]] · [[Dignity]]
 **Opens onto:** [[Right Use of Power]] · [[Inversion]] · [[Protection Of Children]] · [[None Of Us Until All Of Us]] · [[Equal Opportunity For All]] · [[The waterfall]] · [[The asset lock]] · [[Subsidiarity]] · [[Servant Leadership]] · [[Guardianship]] · [[Dangerous But Good]] · [[Accountability]]
 **In play:** door · table · Society
-**Sources:** `Rights and Responsibilities.md` (root page) · `Universal Responsibilities.md` (root page) · `Universal Rights.md` (root page)
 **Open:** The field carries no row for rights and none for responsibilities, so this inversion has been standing on ground the concept list does not name. · Nothing says who decides which members of a body are *the most capable*, which is exactly the judgment the second half requires. · The rule is stated as an ethical imperative and nowhere as a procedure.

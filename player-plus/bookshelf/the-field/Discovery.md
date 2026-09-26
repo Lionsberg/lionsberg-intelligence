@@ -20,5 +20,4 @@ Discovery has a shadow the field names directly: knowledge that was found and th
 **Stands on:** [[Truth]] · [[Mystery]] · [[Science]] · [[Truth To ØNE, Errors To Us]]
 **Opens onto:** [[Innovation]] · [[Pattern Recognition]] · [[Knowledge as commons]] · [[Lineage]] · [[Provenance]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table (stub) · *Pillar VIII — Sacred Science and Technology*, theses 8, 9, 11 (canon-grade) · the seed's Part IV, knowledge as commons. lionsberg.wiki: Discovery.
 **Open:** "The suppression of knowledge must end" and the shadow-archive caution (that some knowledge needs a guarded threshold) sit side by side in the sources without a rule for which governs when.

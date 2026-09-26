@@ -18,5 +18,4 @@ The twelve are a floor, not a fence. Beyond them there is no fixed number: the r
 **Stands on:** [[A Word on Words]] · [[Word Tools]] · [[The Language of LIØNSBERG]]
 **Opens onto:** [[On translating]] · [[The LIØNSBERG Lexicon]] · [[Cell]] · [[Quest]] · [[The Turn]] · [[Season]] · [[The Season Sheet]] · [[Proposal]]
 **In play:** door · table
-**Sources:** The Twelve Words, in The Little Book of the Great Game (canon-grade; the chapter states it is the floor of the lexicon) · The LIØNSBERG Operating System, standard 3 of the minimum standards · The DNA of Heaven, Part XII · lionsberg.wiki: *The Twelve Words*
 **Open:** Word 11 was *Ring* before it became *supercell*; the Operating System and *A Ring of Ten Circles* still read *ring* — two live words for one thing. The Twelve Words chapter sends *Commitment* to **The Pledge** and *Turn* to a template page, so two of the twelve open onto pages whose names differ from the word.

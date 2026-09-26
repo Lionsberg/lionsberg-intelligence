@@ -20,5 +20,4 @@ In play this is rarely felt by a small Cell, and that is precisely the trap: the
 **Stands on:** [[Higher Order Functional Unity]] · [[Right Use of Power]] · [[Sovereignty]] · [[Federation]]
 **Opens onto:** [[Separation Of Power]] · [[Subsidiarity]] · [[Term Limits And Rotation]] · [[Structural Immunity]] · [[Federal Governance]] · [[Centralization Of Power]]
 **In play:** beyond — the question that arrives with every increase in capacity
-**Sources:** *Power Of The Republic* (power as rate of work; in service of rather than in power over) · *Vertical Protections* (root page) · *Pillar II — Sacred Governance and Stewardship* (thesis 4) · lionsberg.wiki: Power Of The Republic
 **Open:** Read the page for its question, which is sound, rather than for its form-word.

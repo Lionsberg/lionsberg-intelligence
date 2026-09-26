@@ -20,5 +20,4 @@ A Cell in its first season holds this lightly and practically: money in the midd
 **Stands on:** [[Value]] · [[Exchange]] · [[TimeEnergy]]
 **Opens onto:** [[Usury]] · [[Scarcity]] · [[LUV]] · [[Gift]] · [[The asset lock]] · [[Extraction Of Wealth]]
 **In play:** table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar III — *Money* (canon-grade; one line) · *Pillar III — Sacred Economy and CurrentSee*, Theses 4–5 (canon-grade) · *LIØNSBERG Currency* (wiki root) · *The DNA of Heaven*, Parts IV and XII · lionsberg.wiki: Money
 **Open:** The Lexicon's flat verdict ("a parasitic form of currency") sits against the Guidebook's practical treatment of money in the waterfall and the Offering. Both are carried; the flat verdict is read as a claim about money-as-measure, not money-as-tool.

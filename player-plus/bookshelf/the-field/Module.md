@@ -20,5 +20,4 @@ Held rightly, a module is current best understanding and deserves refinement rat
 **Stands on:** [[Lesson]] · [[Capability]] · [[Player+ Modules]]
 **Opens onto:** [[The Deck Standard]] · [[Second reader]] · [[Keepers' notes]] · [[Top card]] · [[Shu-ha-ri]] · [[Continuous Improvement]] · [[The LIØNSBERG Workshop]]
 **In play:** door · beyond
-**Sources:** Player+ Modules, *How a Module Lives*, *Start Here*, *The Deck Standard* · The DNA of Heaven, Parts VIII and XII · lionsberg.wiki: *The LIØNSBERG Workshop*, *The LIØNSBERG Playbook*.
 **Open:** none found.

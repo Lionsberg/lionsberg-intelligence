@@ -20,5 +20,4 @@ In play, a player meets it as the simplest of facts: nobody is governed who has 
 **Stands on:** [[Source]] · [[ØNE]] · [[Logos]] · [[Consciousness]] · [[Dignity]]
 **Opens onto:** [[Sovereignty At Every Scale]] · [[Total Nested Holarchy Of Sovereignties]] · [[Consent]] · [[Authority]] · [[Selectively Permeable Membrane]] · [[Withdrawal Of Consent]] · [[Subsidiarity]]
 **In play:** door — the first thing established, and the last thing surrendered
-**Sources:** *Sovereignty* (several cohered articulations) · *The LIØNSBERG Lexicon*, Pillar II table · *Sovereign* (root page) · *THE DNA OF HEAVEN* Parts IV–V · lionsberg.wiki: Sovereignty
 **Open:** The root page mixes a terse definition with two longer inherited articulations and a cosmic-scale section; the seams are visible and the senses are not yet cohered into one.

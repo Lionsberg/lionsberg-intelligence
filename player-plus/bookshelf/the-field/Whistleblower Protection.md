@@ -8,7 +8,7 @@ pillar: II
 
 *Anyone may stop the line without penalty — the andon cord, carried from the factory floor into governance.*
 
-On a line with an andon cord, any worker who sees a defect may halt production, and doing so is honoured rather than punished. The canon carries the instrument up into the body's governance: anyone may say **[[Stop]]**, it takes effect at once, and only the one who said it lifts it. The protection is what makes the cord usable — a cord that costs you your standing is decoration.
+On a line with an andon cord, any worker who sees a defect may halt production, and doing so is honoured rather than punished. The instrument carries up into the body's governance: anyone may say **[[Stop]]**, it takes effect at once, and only the one who said it lifts it. The protection is what makes the cord usable — a cord that costs you your standing is decoration.
 
 It is load-bearing because every one of the predictable diseases is visible to someone before it is visible to everyone. Corruption, drift, and capture are almost always noticed early by a person without the standing to act — and what determines whether a body catches them is not detection but whether that person expects to be thanked or punished. Structural immunity depends on the cheapness of raising the alarm.
 
@@ -20,5 +20,4 @@ In play a [[Cell]] grants itself this in one line of its [[Field of Agreements]]
 **Stands on:** [[Structural Immunity]] · [[Stop]] · [[Transparency]] · [[Courage]] · [[Zero Blame Environment]]
 **Opens onto:** [[Meaningful Objection]] · [[Recourse]] · [[Oversight]] · [[Every Defect Is A Gift]] · [[Impeachment]] · [[Speaking Truth In Love]]
 **In play:** table — available to anyone, any week, without asking
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Structural Immunity (names Whistleblower Protection and The Andon Cord) · *Zero Blame Environment* · *THE DNA OF HEAVEN* Parts X and XII (*anyone may say stop) · lionsberg.wiki: The LIØNSBERG Pattern Language
-**Open:** Named as a Pattern with no card. *The Andon Cord* carries two senses in the corpus — the governance alarm named here, and a harness-operational sense on a separate term page; a prior fleet report flags the collision and does not resolve it. The seed marks the stop convention as a proposal, not an agreed rule.
+**Open:** Named as a Pattern with no card. *The Andon Cord* carries two senses — the governance alarm named here, and a harness-operational sense on a separate term page; the collision between them is unresolved. The stop convention stands as a proposal, not an agreed rule.

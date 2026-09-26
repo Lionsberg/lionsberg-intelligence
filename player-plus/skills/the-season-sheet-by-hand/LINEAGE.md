@@ -11,7 +11,7 @@ lineage:
   - "The Season Sheet (the library's concept field — the fourteen numbered lines; interoperability made of paper; two signatures and a line count are the whole of the paper's security)"
   - "The One Book, 21 In Every Future — what to do in each case, THE PAGE — *The Season Sheet by hand* (the answer copied here exactly, and the notes on lines 3, 4, 5, 7, 9, 11 and 13)"
   - "The One Book, 21 In Every Future — THE PAGE, *Two Cells conferring, by paper or by key* (the short form, the three messages, read-back, the count as the checksum, what is never sent over an open wire)"
-  - "The One Book, 29 The Stories — ten trillion stories woven back into ONE (line 9 under a hundred and fifty words, written by whoever lived it; the Return, the one page that comes back down)"
+  - "The One Book, 22 The Stories — ten trillion stories woven back into ONE (line 9 under a hundred and fifty words, written by whoever lived it; the Return, the one page that comes back down)"
   - "THE GAME — The Season, and The Cards (the four things a Cell does at a turning; nothing typed ever replaces a sheet)"
   - "Player+ Modules, 15 The Weekly Turn (the cards, the one weekly door, and the one page that crosses at the turning)"
   - "Minimum standards of interoperability (the numbering is the standard; the words change and the numbers stay)"

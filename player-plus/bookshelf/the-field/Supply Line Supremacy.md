@@ -24,5 +24,4 @@ The source tells this as narrative history, naming monarchs, firms and battles. 
 **Stands on:** [[Supply Chains]] · [[Power]] · [[The Game of Empire and Oligarchy]]
 **Opens onto:** [[Self-Sustenance and Self-Replication]] · [[Structural Immunity]] · [[Manufactured Dependency]] · [[Centers of Distribution]] · [[Technology Sovereignty]] · [[Bottleneck]] · [[Individual And Local]] · [[Anti-Fragility]]
 **In play:** the table — asked of every line a Cell depends on
-**Sources:** `LIØNSBERG Wiki Books/Aliens, Fascists, and Giants/23. The Corrupt, Fraudulent, and Deceitful Existing Order.md`
 **Open:** The source is a chronology rather than an analysis, and the pattern statement here is reconstruction. · Nothing addresses the obvious counter-case: that lines also carry the goods people actually need, and that refusing dependency has costs of its own.

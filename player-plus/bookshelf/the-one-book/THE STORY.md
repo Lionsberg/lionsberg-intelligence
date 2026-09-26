@@ -281,7 +281,7 @@ A chorus simple enough for any child to sing
 > *PLAY THE GAME*  
 > *PASS THE FLAME*  
 > *Pierce The Darkness*  
-> *And We'll Walk Each Other Home*
+> *And We will Walk Each Other Home*
 
 THE SONG is the WHISPER.  
 You sing it low, under your breath, as you walk out.  
@@ -460,3 +460,4 @@ The shared bones of every telling, at every scale — the cosmos, this world, yo
 ---
 
 *The telling from "Now that we have a quiet moment" to "keep your feet on THE PATH" is carried as it was first spoken, worked line by line and left as it stands. The continuation — the Wilderness, the Boundary, the Great ReMembering, the small blue world, the Promised Land, Co-Creating Heaven, the Eternal Divine Play — is the canon's own language from [[The Story of LIØNSBERG]] and [[The Sacred Arc]], set in the same voice. The arrangement, the joins, the linking, and the breath-and-movements apparatus beneath the rule are this weave.*
+

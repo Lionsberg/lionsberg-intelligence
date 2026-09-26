@@ -20,5 +20,4 @@ In play the test is simple and should be applied often. Which parts of the telli
 **Stands on:** [[Story]] · [[Mythos]] · [[Truth]]
 **Opens onto:** [[The Story of LIØNSBERG]] · [[Narrative Lens]] · [[Truth To ØNE, Errors To Us]] · [[Scripture]]
 **In play:** door · Gate · beyond
-**Sources:** *The Myth Of LIØNSBERG* (a written root page) · *The LIØNSBERG Pattern Language*, Story, Voice, Culture, Art · *LIØNSBERG Narrative Universe* · lionsberg.wiki: *The Myth Of LIØNSBERG*
 **Open:** The root page at *The Myth Of LIØNSBERG* is about why the name and the idea were created as a sovereign, uncapturable layer — a different subject from *The True Myth* as a genre claim. The concept field treats them as one; they may be two.

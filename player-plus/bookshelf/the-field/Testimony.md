@@ -20,5 +20,4 @@ Testimony is also a governance instrument. A body that lets those it has affecte
 **Stands on:** [[Story]] · [[Storytelling]] · [[Truth]]
 **Opens onto:** [[Forward-Looking Story]] · [[Reconciliation]] · [[Speaking Truth In Love]] · [[Pass The Flame]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Pattern Language*, Voice And Hands and Story, Voice, Culture, Art · *The LIØNSBERG Lexicon*, Key Terms · lionsberg.wiki: *The LIØNSBERG Pattern Language*
 **Open:** *Testimony*, *Bearing Witness*, and *Stories Of Transformation* are named as three Patterns in the Pattern Language, none with a body written. Whether they are one Pattern or three is unresolved.

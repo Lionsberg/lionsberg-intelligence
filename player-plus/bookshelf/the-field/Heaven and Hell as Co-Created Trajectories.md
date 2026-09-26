@@ -20,5 +20,4 @@ Held honestly, this is a theological reading and not a settled fact, and it read
 **Stands on:** [[Heaven On Earth]] · [[Hell On Earth]] · [[The compass question]] · [[Co-Creation]]
 **Opens onto:** [[Co-Creating Heaven]] · [[Vector]] · [[Spiraling Up · Spiraling Down]] · [[Patterns of Life and Patterns of Death]] · [[The Goal]] · [[Free Will]] · [[Dying]] · [[Eschatology]]
 **In play:** the table — every move, read against the compass
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Heaven and Hell as Co-Created Trajectories.md`
 **Open:** The Card calls this a correction of the older teaching rather than one reading beside it; that is a claim about living traditions and is not argued. · What happens at death is asserted in one paragraph with nothing behind it; the trajectory reading works without that paragraph.

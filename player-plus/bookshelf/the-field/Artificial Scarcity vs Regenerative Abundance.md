@@ -24,5 +24,4 @@ The source asserts this at length and gives no mechanism a Cell could test. The 
 **Stands on:** [[Scarcity]] · [[Abundance]] · [[Economy]]
 **Opens onto:** [[Regeneration]] · [[Commons]] · [[Knowledge as commons]] · [[Manufactured Dependency]] · [[Ephemeralization]] · [[Permaculture]] · [[Usury]] · [[Underwriting The New Economy]]
 **In play:** the table — run on one scarce thing at a time
-**Sources:** `LIØNSBERG Wiki Books/The Greatest Fraud, Deception, and Existential Threat in History` (no mechanism a Cell could test)
 **Open:** The source asserts suppression of abundance-creating technologies and offers nothing that would establish it; that claim is not carried here. · Genuinely finite goods are not addressed, and they are where the frame most needs to work.

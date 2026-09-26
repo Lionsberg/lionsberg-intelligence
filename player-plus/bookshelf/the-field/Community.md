@@ -20,5 +20,4 @@ A community is not a jurisdiction and does not own the people in it. It is a mem
 **Stands on:** [[Levels Of Scale]] · [[Field of Agreements]] · [[Selectively Permeable Membrane]] · [[Belonging]] · [[Subsidiarity]]
 **Opens onto:** [[The 300]] · [[Community of Communities]] · [[Guild]] · [[Support Group]] · [[Bioregion]] · [[Citizenship]] · [[Covenant Across Time]]
 **In play:** Home · table · beyond
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XI term *Community* (canon-grade) · `The LIØNSBERG Community Guidebook` and its Toolkit, incl. `Seats at the Table` and `The Rhythm of Gatherings` (written) · `The Sovereign Path`, the holofractal scaling · `LIØNSBERG Community` (root page) · `Community` (root page, thin) · lionsberg.wiki: Community · LIØNSBERG Community
 **Open:** The root `Community` page treats community as a value and points onward; the operative treatment lives in the Guidebook. · The Guidebook's Community Company is founded toward three hundred Cell members while the ten-thousand figure names the population served; the two numbers are often read as one.

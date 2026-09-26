@@ -18,5 +18,4 @@ Float consumed is a leading measure. A plan runs with zero float to a milestone'
 **Stands on:** [[The activity table]] · [[Pull planning]] · [[Predecessor - Successor|Predecessor / Successor]]
 **Opens onto:** [[Critical Path]] · [[Milestone]] · [[Honesty about time]] · [[Measure everything, manage to the milestones]]
 **In play:** table · beyond
-**Sources:** *Float* (the fullest treatment) · *The LIØNSBERG Operating System* §4–5 · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Float**
 **Open:** The scheduling literature says *slack* for the same quantity; here *float* names the number and *buffer* names time placed on purpose.

@@ -24,5 +24,4 @@ One thing this word must not swallow. The canon uses *Position* in a far larger 
 **Stands on:** [[Actor]] · [[An address]] · [[Holarchy]] · [[Consent]]
 **Opens onto:** [[Condition]] · [[Requests and offers]] · [[Total Nested Holarchy Of Sovereignties]] · [[Cell]] · [[Roles]] · [[The Locality]] · [[LIØNSBERG Mission Control]]
 **In play:** the table — stated by each Actor, broadcast by each Cell
-**Sources:** `Projects/the term pages/Position.md` (two of its three facets are marked proposals) · `LIØNSBERG Mission Control.md` (wiki root) · `Projects/the term pages/Condition.md` · lionsberg.wiki: LIØNSBERG Mission Control
 **Open:** The *hand* facet pointed to a fuller object that was struck as needless complication; what remains is the plain fact of nearness to the work, and nothing has replaced the fuller reading.

@@ -20,5 +20,4 @@ This sits among the significant gaps, honestly named. As the Old World collapses
 **Stands on:** [[Sovereignty]] · [[Collapse]] · [[The Wilderness]] · [[Gaps Not Yet Closed]]
 **Opens onto:** [[Welcoming The Stranger]] · [[Tribe]] · [[Bioregion]] · [[Mutual Aid]] · [[The Noah Plan]] · [[Islands of Coherence]] · [[Home Cell]]
 **In play:** door · Home · beyond
-**Sources:** `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, Gaps: *Migration, Refuge, The Stranger* — *"As the Old World collapses, millions will move"* (ore) · `The Little Book of the Great Game — Second Draft`, the portability of Cell, Home and Carrier · lionsberg.wiki: no page stands at this name
 **Open:** Ore: migration is listed as a pattern needed, split into voluntary and involuntary, with displacement, diasporas and re-rooting beside it; none is written. · The claim that a Cell survives relocation intact is drawn from the Little Book's definitions rather than from any page about migration.

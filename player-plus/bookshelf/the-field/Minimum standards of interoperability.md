@@ -18,5 +18,4 @@ Beneath the seven stands an older floor, written before them and still held: Lov
 **Stands on:** [[The same card shape]] · [[An address]] · [[A word given is a word kept]] · [[The Twelve Words]]
 **Opens onto:** [[The plan of the whole]] · [[Screens and paper]] · [[Proposal]] · [[Kept as a share of made]] · [[Federation]]
 **In play:** Home · beyond
-**Sources:** *The LIØNSBERG Operating System* §18 (the seven) · *Minimum Standards of Interoperability* (the older ten, and the identity material) · *The LIØNSBERG Lexicon* §Key Terms · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Minimum Standards of Interoperability**
-**Open:** Two lists stand in the canon — the OS's seven and the root page's ten — and neither supersedes the other in writing; the seed reads the ten as the older floor beneath the seven.
+**Open:** Two lists stand — the OS's seven and the root page's ten — and neither supersedes the other in writing; the seed reads the ten as the older floor beneath the seven.

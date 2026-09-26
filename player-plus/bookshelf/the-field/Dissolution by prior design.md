@@ -22,5 +22,4 @@ Its cost belongs on the page. A body with nothing at its centre also has no one 
 **Stands on:** [[Disbanding]] · [[Structural Immunity]] · [[The Act Of Release]]
 **Opens onto:** [[The steering committee that dissolves itself]] · [[The Foundation of Trust (the four promises)]] · [[The anti-pooling law]] · [[The de-concentration of stewardship]] · [[LIØNSBERG Co-Creators]] · [[The asset lock]] · [[Centralization Of Power]] · [[Gift]]
 **In play:** the door — the answer to *who is behind this, and what do they want*
-**Sources:** `LIØNSBERG Wiki Books/The One Book/The One Book — The Trust.md`
 **Open:** The field's [[Disbanding]] row carries the just dissolution of corrupted or obsolete structures and does not carry a sound centre dissolving itself in advance; the two should be read together. · The account of the dissolution is inseparable in the source from one person's death, which is a private particular and is not carried here. · Nothing states what a body does when its own name is used badly and it has no standing to object.

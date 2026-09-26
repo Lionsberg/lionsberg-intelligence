@@ -18,7 +18,6 @@ Two cautions keep it honest. It is not a way to launder an assertion the speaker
 
 **Also called:** as it has been said
 **Stands on:** [[Listening]] · [[Dialogos]] · [[Wise Eldership]]
-**Opens onto:** [[Speaking Truth In Love]] · [[Asking Questions]] · [[Chatham House]] · [[Attribution]] · [[Be the canon, don't narrate it]] · [[Holding Paradox]]
+**Opens onto:** [[Speaking Truth In Love]] · [[Asking Questions]] · [[Chatham House]] · [[Attribution]] · [[Be the canon, do not narrate it]] · [[Holding Paradox]]
 **In play:** table · Room
-**Sources:** We Have Heard · The LIØNSBERG Book of Conventions (canon-grade for its role) · the Pattern Language inventory, convention patterns (ore) · lionsberg.wiki: *We Have Heard*
 **Open:** the convention and the voice discipline pull in opposite directions — one asks a page to say the thing in its own voice, the other asks a speaker to set the thing down unowned. Which applies where, page or room, is not stated.

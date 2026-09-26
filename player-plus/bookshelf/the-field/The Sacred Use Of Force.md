@@ -6,7 +6,7 @@ pillar: X
 ---
 # The Sacred Use Of Force
 
-*Before reading: this page holds a doctrine of last resort, written down so that it can be examined and corrected, not so that it can be acted on. Nothing here is advice, a licence, or a call to act; the law of the place you live governs you; the Game asks nothing of anyone but consent. Read [[05 The Pattern and the Way|The Pattern and the Way]] first.*
+*Before reading: this page holds a doctrine of last resort, written down so that it can be examined and corrected, not so that it can be acted on. Nothing here is advice, a licence, or a call to act; the law of the place you live governs you; the Game asks nothing of anyone but consent. Read [[04 The Pattern and the Way|The Pattern and the Way]] first.*
 
 *When force is permitted, and how little of it — the minimum necessary to restore [[Right Relationship]], and no more.*
 
@@ -22,5 +22,4 @@ And the harder half is the refusal. [[Restraint As The Refusal To Act]] is the d
 **Stands on:** [[Guardianship]] · [[Right Relationship]] · [[Love]] · [[The Warrior's Vow]] · [[Proportionality]]
 **Opens onto:** [[Restraint As The Refusal To Act]] · [[Self Defense]] · [[Right Use of Power]] · [[Justice]] · [[The Threefold Capacity]] · [[Containment Of The Dangerous Sovereign]]
 **In play:** the table · beyond
-**Sources:** *All Patterns — Master Consolidated Inventory* §1 (drafted card) · *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · *Pillar X — Sacred Guardianship and Order*, theses 7 and 8 (canon-grade) · *The LIØNSBERG Lexicon*, The War section · the seed's Part X, the Warrior's ladder. lionsberg.wiki: The Sacred Use Of Force.
 **Open:** Named in three places with no worked example, no test for *sufficiency*, and no statement of who judges it afterward. *Protective Preemption Of Imminent Harm* is listed beside it and is the hardest case; it has no card at all.

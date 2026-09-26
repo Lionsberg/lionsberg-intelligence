@@ -20,5 +20,4 @@ Held well, the driver sits beside the intent on the first card a group writes: w
 **Stands on:** [[One Purpose Above All]] · [[The Intent]] · [[Intention]]
 **Opens onto:** [[Meaningful Objection]] · [[Consent-Based Decision-Making]] · [[Roles]] · [[Disbanding]] · [[The Circle Sheet]] · [[Quest]]
 **In play:** table · Home
-**Sources:** The DNA of Heaven, Part VII (the Operating System's shape: what we are for, in a sentence) · The LIØNSBERG Operating System, the intent · lionsberg.wiki: *The LIØNSBERG Operating System*
-**Open:** the concept field cites *Driver* to a section of an earlier seed text that has since been rewritten; the current seed text carries the idea as *the Intent* and does not use the word *driver*. Whether the canon adopts the word, or keeps *intent*, is unsettled — and it collides with the word's ordinary use in the wider world.
+**Open:** *The Intent* carries the same idea under a different word. Whether *driver* is adopted, or *intent* kept, is unsettled — and it collides with the word's ordinary use in the wider world.

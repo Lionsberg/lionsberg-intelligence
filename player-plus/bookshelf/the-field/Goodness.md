@@ -19,5 +19,4 @@ Absolute Goodness, like Absolute Truth, stays beyond full grasp; the practice is
 **Stands on:** [[ØNE]] · [[Love]] · [[Reality]]
 **Opens onto:** [[Truth]] · [[Beauty]] · [[Justice]] · [[Values]] · [[Evil]] · [[Right Relationship]] · [[Value]]
 **In play:** At the table, in the question of whether a Quest was worth doing; at the Room and beyond, as the test applied to what a body produces for those outside it.
-**Sources:** `Goodness` · `Values` (root — the working definition of Good) · `Truth` and `Beauty` (roots — the paired triad) · `The LIØNSBERG Lexicon`, Pillar I. lionsberg.wiki: **Goodness**.
 **Open:** The root page and the `Values` page give two different definitions — a general moral quality, and the relational helps-and-does-not-harm test. The relational one is the one the system actually runs on; the root page has not been updated to it.

@@ -24,11 +24,10 @@ pillar: —
 
 Why a shape rather than free prose: because roughly a hundred of these pages exist or are wanted, and a spectrum is only navigable if every entry answers the same questions in the same order. A reader comparing dread to foreboding needs the fields to line up ([[The same card shape]], [[Naming Forms]], [[One canonical home per concept]]).
 
-It is load-bearing for a body of work most of which does not yet hold it: the canon names around a hundred and ten bands, three of which exist as worked exemplars ([[Fear]], [[Joy]], [[Grief]]) and the rest of which are names waiting for this shape.
+It is load-bearing for a body of work most of which does not yet hold it: around a hundred and ten bands are named, three of which exist as worked exemplars ([[Fear]], [[Joy]], [[Grief]]) and the rest of which are names waiting for this shape.
 
 **Also called:** the emotion entry pattern
 **Stands on:** [[Emotions Are Information, Gradients, And Never Enemies]] · [[The Living Gradient]] · [[Word Tools]] · [[The same card shape]]
 **Opens onto:** [[Feel → Allow → Read → Name → Ask → Move → Release]] · [[Fear]] · [[Grief]] · [[Joy]] · [[Anger]] · [[Shame]] · [[Interfeeling]] · [[Naming Forms]]
 **In play:** the Workshop — the template for every entry in the spectrum
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Book of Emotions` (the stated template and its three worked exemplars) · `Emotion` (root page) · lionsberg.wiki: The LIØNSBERG Book of Emotions
 **Open:** Three of roughly a hundred and ten entries carry the pattern; the rest are names. · Nothing states who decides a band's gradient neighbours, which is the field most likely to be contested and the one that makes the spectrum navigable.

@@ -24,5 +24,4 @@ What it is for is the failure it prevents. Most bodies do one of the four. A bod
 **Stands on:** [[The Lens]] · [[OmniSpection]] · [[Current Best Understanding]] · [[The Living Library]]
 **Opens onto:** [[MindWeaving]] · [[Progressive Illumination]] · [[Navigating Towards Truth]] · [[Retrospective]] · [[Continuous Improvement]] · [[Improvement log]] · [[Sensemaking]] · [[Knowledge as commons]]
 **In play:** the table — the shape of how a Cell learns anything durable
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Living-Learning Architecture.md` (Card, settled)
-**Open:** The Card names a meta-science as the governing discipline; no page of that name exists in the corpus, so the discipline is invoked and not written. · Nothing states who holds the shared map or how two irreconcilable updates are settled.
+**Open:** The Card names a meta-science as the governing discipline; no page of that name exists yet, so the discipline is invoked and not written. · Nothing states who holds the shared map or how two irreconcilable updates are settled.

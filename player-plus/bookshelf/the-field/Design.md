@@ -20,5 +20,4 @@ And design extends past the physical. The [[Field of Agreements]] is a design. [
 **Stands on:** [[Logos]] · [[Intention]] · [[The Creative Cascade]] · [[System]]
 **Opens onto:** [[Design To The Goal]] · [[Set-Based Design]] · [[Prototyping]] · [[Architecture]] · [[Stewarded Form]] · [[Universal-Accessing]]
 **In play:** the table · the Room · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table · *Whole Systems Design* · *Pillar IX — Sacred Architecture and Design*, thesis 4 and the design-decision line (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Element 10 (canon-grade). lionsberg.wiki: Design · Whole Systems Design.
 **Open:** *Whole Systems Design* is a borrowed paragraph with no LIØNSBERG articulation of its own; *Regenerative-Designing* comes from the inventory's verb sweep and has no body.

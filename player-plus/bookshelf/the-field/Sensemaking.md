@@ -18,5 +18,4 @@ It is shared rather than assigned. Several people see different parts of the sam
 **Stands on:** [[Vision]] · [[Navigation]] · [[The Heartbeat]]
 **Opens onto:** [[The Record]] · [[Issue]] · [[Requests and offers]] · [[Communication Debt]]
 **In play:** table · Home
-**Sources:** The Little Book of the Great Game, *The Game at the Table* §Sensemaking · *The LIØNSBERG Operating System* §8 · *The DNA of Heaven*, Part V — lionsberg.wiki page name: **The Game at the Table**
 **Open:** Named in the Little Book and practised in the Turn; no page of its own carries the craft of it.

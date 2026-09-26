@@ -18,5 +18,4 @@ That last law is what distinguishes this from every platform the word usually na
 **Stands on:** [[The Movement]] · [[Commons]] · [[Interoperability]]
 **Opens onto:** [[Technology Sovereignty]] · [[The open web]] · [[Screens and paper]] · [[Minimum standards of interoperability]] · [[Infrastructure]] · [[Fostering Ecosystemic Resource Flows]] · [[Requests and offers]] · [[Hosted service]] · [[Manufactured Dependency]] · [[The Nets]]
 **In play:** beyond — the backbone beneath many tables, and needed by none of them
-**Sources:** `The Platform.md` (wiki root) · `Projects/the term pages/Platform.md` · lionsberg.wiki: The Platform
 **Open:** Two senses now share one word — this civic backbone, and a later page's sense of what an Actor requires in order to act — and the newer page carries the coinage without the marker its siblings carry. The collision is recorded and unresolved.

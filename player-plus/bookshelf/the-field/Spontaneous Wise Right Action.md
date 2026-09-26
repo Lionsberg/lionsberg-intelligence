@@ -20,5 +20,4 @@ It composes with everything upstream of it. [[Non-Local First, Local Follows]] s
 **Stands on:** [[Aligned Will]] · [[Non-Local First, Local Follows]] · [[Mastery]] · [[Discernment]]
 **Opens onto:** [[The Act Of Release]] · [[Composure Under Threat]] · [[Shoshin]] · [[Gnosis]] · [[The Embodied Form Teaches]] · [[The Dark Initiate Failure Mode]]
 **In play:** Gate
-**Sources:** *Spontaneous Wise Right Action* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Spontaneous Wise Right Action
 **Open:** The canon gives no test by which a being distinguishes this capacity from confident impulse in themselves, which is the discernment the Pattern most needs.

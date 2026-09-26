@@ -24,5 +24,4 @@ At ordinary scale it is the same capacity a person needs in a room where somethi
 **Stands on:** [[Composure Under Threat]] · [[Sovereignty In The Populated Field]] · [[Fear]] · [[Silence And Stillness As The Ground]]
 **Opens onto:** [[Capacities Are Not Pursued]] · [[Sensing The Field]] · [[Receiving Transmission]] · [[Awe]] · [[Holding Paradox]] · [[Mastery Of Emotions]] · [[Discernment]] · [[The Warrior Is The Instrument]]
 **In play:** the Room — anywhere a person has to stay present to something larger than they are
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.5 Interface`, §Standing In The Field Without Being Captured · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The canon describes the accomplished state and the two integrations, and gives no way to tell from inside whether one has them — the failures are all described from the outside. A person's own report of their standing is the least reliable evidence there is.

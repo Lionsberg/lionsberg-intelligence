@@ -16,11 +16,10 @@ The nine sort into families. Three are about what flows — power, wealth, infor
 
 Each Anti-Pattern has its structural answer in [[Structural Immunity]], and its constitutional refusal in [[The Constitutional Recognitions]]. Together they form a diagnostic pair: the Anti-Pattern names the illness, the immunity names the antibody, and the Recognition names the line that, once crossed, means the Body has become something else.
 
-Each of the nine is named in the Pattern Language in a single line and articulated nowhere; the Parasite alone has a fuller treatment elsewhere in the canon.
+Each of the nine is named in the Pattern Language in a single line and articulated nowhere; the Parasite alone has a fuller treatment elsewhere.
 
 **Also called:** The diseases that kill the Pattern
 **Stands on:** [[The Core Pattern]] · [[Structural Immunity]] · [[Kontrolle]] · [[Inversion]]
 **Opens onto:** [[Centralization Of Power]] · [[Extraction Of Wealth]] · [[Control Of Information]] · [[Manufactured Dependency]] · [[Ideological Capture]] · [[Institutional Idolatry]] · [[The Golden Calf]] · [[The False Prophet]] · [[The Parasite]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Structural Immunity* · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** The seed text adds a tenth at the door of the commons (showing up to drain it) that the Pattern Language does not carry as one of the nine.

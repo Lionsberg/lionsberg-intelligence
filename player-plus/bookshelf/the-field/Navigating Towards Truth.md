@@ -18,6 +18,5 @@ In play, it shows up wherever a [[Circle]] weaves perspectives rather than votin
 **Also called:** Navigate Towards Truth · Triangulating Towards Truth
 **Stands on:** [[Truth]] · [[Current Best Understanding]] · [[Reality]]
 **Opens onto:** [[Epistemology]] · [[Discernment]] · [[We Do Not Know]] · [[Retrospective]] · [[Continuous Improvement]] · [[Dialogos]] · [[Types Of Knowing]]
-**In play:** At the table, when the Circle disagrees and nobody is lying; at the Room, as how many houses read one field; beyond, as the method the whole corpus is written in.
-**Sources:** `Navigate Towards Truth` · `Truth` (root, canon-grade) · `Current Best Understanding` (root, canon-grade) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24` · `The LIØNSBERG Lexicon`, Pillar IV. lionsberg.wiki: **Navigate Towards Truth**.
-**Open:** The concept appears under at least three names across the corpus — Navigate Towards Truth, Navigating Towards Truth, Triangulating Towards Truth — with only the first holding a page.
+**In play:** At the table, when the Circle disagrees and nobody is lying; at the Room, as how many houses read one field; beyond, as the method the whole body of work is written in.
+**Open:** The concept appears under at least three names — Navigate Towards Truth, Navigating Towards Truth, Triangulating Towards Truth — with only the first holding a page.

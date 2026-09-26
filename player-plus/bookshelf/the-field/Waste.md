@@ -19,5 +19,4 @@ The discipline attached to it is [[Zero Blame Environment|zero blame]]. Waste is
 **Stands on:** [[Value]] · [[Throughput]] · [[The Goal]]
 **Opens onto:** [[Continuous Improvement]] · [[Every Defect Is A Gift]] · [[Zero Blame Environment]] · [[Theory Of Constraints]] · [[Value Stream Mapping]] · [[Retrospective]]
 **In play:** At the table, in a retrospective that asks what we did that did not matter; at the Room and beyond, in what a body stops doing.
-**Sources:** `Waste` · `Value` (root, canon-grade — the clarity-on-waste section) · `Throughput Of The Goal` (root) · `The LIØNSBERG Lexicon`, the System · `Zero Blame Environment` (root). lionsberg.wiki: **Waste**.
 **Open:** The root page is two lines and carries none of the discipline that makes the concept usable; everything load-bearing about it currently lives inside `Value`.

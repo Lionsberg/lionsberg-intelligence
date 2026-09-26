@@ -19,5 +19,4 @@ In play this is why [[Story]] is one of the twelve words at the table, why every
 **Stands on:** [[ØNE]] · [[All]] · [[The Ineffable]]
 **Opens onto:** [[The Story of LIØNSBERG]] · [[The Sacred Arc]] · [[Story]] · [[Storytelling]] · [[Your Story Woven Into Meta Story]] · [[Culture]] · [[Narrative Lens]] · [[The True Myth]]
 **In play:** At the door, as what a newcomer is welcomed into rather than recruited to; at the table, in the one story told each gathering; beyond, as the frame that lets many traditions be in one body.
-**Sources:** `The Great Story` · `The Story of LIØNSBERG` and `The Story of LIØNSBERG — The Sacred Arc` · `Pillar I — Sacred Ontology and Metaphysics` · `Pass The Flame`, Ch. 5. lionsberg.wiki: **The Great Story**.
-**Open:** `The Great Story`, `Meta Story`, and the Pillar I framing of "the Great Story and the Divine Order" are used interchangeably across the corpus; only the first holds a page.
+**Open:** `The Great Story`, `Meta Story`, and the Pillar I framing of "the Great Story and the Divine Order" are used interchangeably; only the first holds a page.

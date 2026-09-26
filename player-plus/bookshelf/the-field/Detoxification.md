@@ -20,5 +20,4 @@ Two cautions. Detoxification is a practice, not an identity, and a life organize
 **Stands on:** [[Healing]] · [[Vitality]] · [[The Triadic Discipline]]
 **Opens onto:** [[Fasting]] · [[Nutrition]] · [[Air · Water · Soil · Microbiome]] · [[Addiction]]
 **In play:** table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table (the single definition; no page of its own) · *Pillar V — Sacred Health and Wellness*, Theses 7 and 11 · lionsberg.wiki: *Detoxification*
 **Open:** The canon's Pillar V treatment of detoxification includes an energetic and entity-clearing sense (carried in the Pattern Language's energetic layer) that this page does not attempt to cohere with its physical sense.

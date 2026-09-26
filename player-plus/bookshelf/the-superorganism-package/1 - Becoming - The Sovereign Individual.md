@@ -23,7 +23,7 @@ A few honest things to hold about this:
 
 - Size of being is **dynamic**. It moves with practice, attention, mentorship, hardship, grace. It is not a fixed score.
 - It develops **across predictable arcs** — the cognitive-developmental literature (*Robert Kegan*, *Otto Laske*, *Susanne Cook-Greuter* and others) names these. The arcs are real. They are not a hierarchy of human worth.
-- The **upper limit is unknowable**. Pretending we know it is a recipe for arrogance and for premature ceilings on growth. Don't measure yourself or others against a fantasized maximum.
+- The **upper limit is unknowable**. Pretending we know it is a recipe for arrogance and for premature ceilings on growth. Do not measure yourself or others against a fantasized maximum.
 - **Progress is measured against your own past**, not against an idealized future or against another person. The honest question is not "am I enough?" but "have I grown since the last time I checked?"
 
 A central goal of the superorganism is to uplift all members toward their highest potential consciousness and competence — *without pretending to know what that upper limit is*. Mentor relationships, Council of Peers, the Stewardship Constituency, the developmental thresholds for Stewardship — these are all ways of supporting growth across seasons, not gates designed to keep people out.
@@ -123,7 +123,7 @@ The Mentor relationship is sacred precisely because it is so easily corrupted. C
 
 ### When Mentors Are Hard to Find
 
-In contexts where individual Mentors of the right kind are difficult to find — early in the work, in fields that don't yet have the depth, in conditions of displacement or collapse — the Mentor role may be delegated to a **Council of Peers** itself constituted as a 2nd-Order FSx. A council of three to seven peers, each holding a portion of the Mentor function, often able to act together with consensus for the good of all. Akin to a small wise circle.
+In contexts where individual Mentors of the right kind are difficult to find — early in the work, in fields that do not yet have the depth, in conditions of displacement or collapse — the Mentor role may be delegated to a **Council of Peers** itself constituted as a 2nd-Order FSx. A council of three to seven peers, each holding a portion of the Mentor function, often able to act together with consensus for the good of all. Akin to a small wise circle.
 
 ---
 

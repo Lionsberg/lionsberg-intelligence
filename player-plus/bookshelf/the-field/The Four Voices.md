@@ -20,5 +20,4 @@ And the frame voice earns its own register because it does something no preface 
 **Stands on:** [[Storytelling]] · [[The True Myth]] · [[The LIØNSBERG Voice]]
 **Opens onto:** [[The I-discipline]] · [[The Truth law (of a true myth)]] · [[The manifest]] · [[The Divine Whisper]] · [[Parable]] · [[Bard]] · [[Naming Forms]] · [[Wise Right Speech]] · [[The Silence That Speaks]]
 **In play:** beyond — the writing convention of every scene
-**Sources:** `Projects/The Scene Forge 2026-09/The Scene Forge — The Scene Standard` · lionsberg.wiki: The LIØNSBERG Voice
 **Open:** A convention of one workshop's standard; nothing states what happens to the four voices when a scene is heard aloud rather than read, where typography does not exist.

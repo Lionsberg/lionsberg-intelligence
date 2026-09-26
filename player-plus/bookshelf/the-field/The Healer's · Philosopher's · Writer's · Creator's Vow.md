@@ -23,5 +23,4 @@ The vows are spoken, not signed. Speaking one is itself a cultivation of the Way
 **Stands on:** [[The Warrior's Vow]] · [[The Five Archetypal Ways]] · [[Vow-Speaking]] · [[Covenant]] · [[Guild]]
 **Opens onto:** [[The 72 Gates of the Sacred Ascent]] · [[The dans, and Mastery at 5th Dan]] · [[Healing]] · [[Philosophy]] · [[Living Word]] · [[Creativity]] · [[Truth]] · [[Logos]] · [[Mastery]] · [[The Three Supreme Agreements]] · [[A word given is a word kept]]
 **In play:** Gate — the eighth of each Way
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Ascent/The Sacred Ascent.md` (ore — Gates 40, 48, 56 and 64, each a single line) · `The Warrior's Vow` (the one vow with a body and a Card) · `The LIØNSBERG Belt System.md`
 **Open:** Only the Warrior's Vow has a text. Three of the four here are given a phrase of gloss in the Sacred Ascent and the Healer's Vow is given none; nothing has been written that a person could actually speak. · The Guildbooks that would carry them — the Healer's, the Philosopher's, the Word-Keeper's, the Creator's — are all named as *to be written*.

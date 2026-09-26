@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 27
+chapter: 32
 ---
 
-# 27 The Open Questions
+# The Open Questions
 
 ## What an answer is
 
@@ -53,7 +53,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether the circle the compass weighs is *all current and future generations of life*, or *all generations of Life and Consciousness*.
 **Options.** *(a)* Life, biologically read — costs the standing of any conscious being that is not alive in that sense, and the Book already builds such beings; protects a boundary anyone can apply. *(b)* Life and Consciousness — costs a hard edge nobody can draw yet; protects against the exact exclusion this Pattern exists to refuse. *(c)* Carry both, as the corpus does, and say which governs where.
 **Recommendation:** *(b)*, with the plain admission that we cannot yet say where consciousness begins. A circle drawn too wide costs care; a circle drawn too narrow has historically cost everything.
-**Where it bites:** [[01 The Spirit]] · [[07 ØNE — the Center]] · [[23 Players, Agents, and the Intelligence System]] · [[The Goal]].
+**Where it bites:** [[01 The Spirit]] · [[07 ØNE — the Center]] · [[25 Players, Agents, and the Intelligence System]] · [[The Goal]].
 **Urgency:** this season, and sooner than it looks.
 
 **Q-003 · The ØNE-naming divergence**
@@ -137,35 +137,35 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** who may say that a body has left the Pattern, and where the line falls between seven unamendable statements and a rule that every significant decision is revisitable.
 **Options.** *(a)* Self-recognition only — costs any remedy when a body claims the name while breaking the Recognitions; protects against an inquisition. *(b)* A body may say so of another, with a named procedure — costs the refusal of external authority; protects the name. *(c)* Neither: the Recognitions are descriptive, and a body that breaks them has simply stopped being one of us, with the other bodies free to say so about themselves.
 **Recommendation:** *(c)*, which is *(a)* with the consequence made explicit — no arbiter, and no obligation on anyone to keep calling a thing by a name it has abandoned.
-**Where it bites:** [[05 The Pattern and the Way]] · [[The Core Pattern]] · [[Twelve Irreducible Elements]].
+**Where it bites:** [[04 The Pattern and the Way]] · [[The Core Pattern]] · [[Twelve Irreducible Elements]].
 **Urgency:** this season.
 
 **Q-015 · How a Pattern enters and leaves the Language**
 **Decides:** the procedure by which a Pattern is canonised and retired. [[How A Pattern Enters The Language]] is a named gap; a Pattern Council is named once and described nowhere.
 **Options.** *(a)* A Pattern Council — costs a standing body and the politics that follow one; protects coherence. *(b)* Entry by use: a Pattern enters when three bodies have run it and written what happened, and retires when none has used it for a year — costs speed; protects against a Language written by whoever is at the keyboard. *(c)* One arbiter alone — costs scale.
 **Recommendation:** *(b)*, with contested cases settled rather than argued. A Pattern Language whose entry test is usage cannot be captured by writing.
-**Where it bites:** [[05 The Pattern and the Way]] · [[How A Pattern Enters The Language]] · the whole field.
+**Where it bites:** [[04 The Pattern and the Way]] · [[How A Pattern Enters The Language]] · the whole field.
 **Urgency:** this season.
 
 **Q-016 · The two tests: prophecy, and the idol**
 **Decides:** whether the proposed tests stand — for [[Prophecy]] against the false prophet (*can it be left, can it be recalled, does it point beyond itself*), and for [[The Golden Calf]] between an honoured symbol and an idol (*what happens to the question "why"*).
 **Options.** *(a)* Adopt both — costs standing behind two tests written here for the first time; protects the only defence the corpus has against its own most likely failure. *(b)* Adopt with amendment. *(c)* Refuse and leave the gap, since a bad test is worse than none.
 **Recommendation:** *(a)*, marked as first articulations and rewritten from the first case that tests them.
-**Where it bites:** [[05 The Pattern and the Way]] · [[Prophecy]] · [[The Golden Calf]].
+**Where it bites:** [[04 The Pattern and the Way]] · [[Prophecy]] · [[The Golden Calf]].
 **Urgency:** this season.
 
 **Q-017 · The centre's interoperability six, and the instance law**
 **Decides:** whether the six minimum standards written for the centre stand as a set, and whether the instance law — stated in binding voice — is confirmed, softened, or struck.
 **Options.** *(a)* Adopt both as written — costs binding voice over material with no season of use behind it; protects a clear floor between instances. *(b)* Adopt the six, soften the instance law to a strong recommendation — costs enforceability nobody has anyway; protects against an absolute minted in heat. *(c)* Refuse both and let instances differ.
 **Recommendation:** *(b)*.
-**Where it bites:** [[07 ØNE — the Center]] · [[28 Regrow, Change, Lineage]] · every instance charter.
+**Where it bites:** [[07 ØNE — the Center]] · [[33 Regrow, Change, Lineage]] · every instance charter.
 **Urgency:** this season.
 
 **Q-018 · First articulation: permitted, and how marked**
 **Decides:** whether a page in this library may carry something written here before it exists anywhere else, and if so how it is marked so nobody mistakes it for inheritance.
 **Options.** *(a)* Forbidden — costs roughly a third of what is most useful in the Pillar chapters, since the corpus's largest holes are exactly where the need is greatest; protects against slop entering under the canon's voice. *(b)* Permitted, marked in the text at the point of use — costs a small interruption in the reading; protects the reader's ability to weigh. *(c)* Permitted, marked only in the chapter's Open section — costs a reader who never reaches the end.
 **Recommendation:** *(b)*, with one standard phrase used everywhere so the mark is recognisable at a glance.
-**Where it bites:** every chapter · the library's own laws · [[28 Regrow, Change, Lineage]].
+**Where it bites:** every chapter · the library's own laws · [[33 Regrow, Change, Lineage]].
 **Urgency:** before launch.
 
 ---
@@ -185,70 +185,70 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** which sense [[Consent]] carries — the *joining* sense (free, informed, reciprocal agreement to participate) or the *deciding* sense (the absence of meaningful objection to a proposal).
 **Options.** *(a)* Deciding sense keeps the word; joining goes to [[Mutual Consent]] — costs the more common everyday reading; protects the decision procedure, which is where the word does daily work. *(b)* Joining keeps it; the deciding sense becomes *consent to a proposal* — costs a longer phrase in the most-used instrument. *(c)* Both on one page — costs the one-meaning law and guarantees confusion at exactly the wrong moment.
 **Recommendation:** *(a)*, and say the chain plainly wherever either is met: consent = no meaningful objection = inside every member's [[Range Of Tolerance]].
-**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[Consent]] · [[Mutual Consent]] · [[Field of Agreements]] · [[25 The Words]].
+**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[Consent]] · [[Mutual Consent]] · [[Field of Agreements]] · [[31 The Words]].
 **Urgency:** before launch.
 
 **Q-021 · Range of tolerance's two senses**
 **Decides:** whether [[Range Of Tolerance]] means a group's capacity to hold differing views, or the band around a single proposal — and who decides when a stated objection is in fact a preference.
 **Options.** *(a)* Deciding band keeps the word; the diversity sense is renamed — costs a familiar usage; protects the term consent depends on. *(b)* Diversity sense keeps it. *(c)* Both, disambiguated by context.
 **Recommendation:** *(a)*; and on the second half, rule that the objector alone decides whether their objection is one, with the body free to ask what would resolve it. Any other answer lets a room vote away a veto it granted.
-**Where it bites:** [[Range Of Tolerance]] · [[09 Pillar II — Sacred Governance and Stewardship]] · [[25 The Words]].
+**Where it bites:** [[Range Of Tolerance]] · [[09 Pillar II — Sacred Governance and Stewardship]] · [[31 The Words]].
 **Urgency:** this season.
 
 **Q-022 · The Pillar titles**
 **Decides:** one title each where the hub, the Lexicon, and the Pillar pages' own theses disagree — Health and *Wellness* or *Healing*; Ecology and *Living Systems* or *InterBeing*; Culture, Art and *Story* or *Expression*; Guardianship and Order or *Sacred Security and Proper Order*; Architecture and *Design* or *Built Environment*; Economy, with or without *and CurrentSee*; Economy's subtitle, *power, resources and responsibility* or *power and authority*.
 **Options.** *(a)* The hub's titles bind, the others become aliases — costs seven page edits; protects one name per Pillar, which every index and translation depends on. *(b)* The Pillar pages' own titles bind — costs the hub, the Lexicon and the library's navigation. *(c)* Rule each separately on its merits — costs time and will not finish.
 **Recommendation:** *(a)*, with one exception worth taking on merit: *Guardianship* over *Security*, because *Security* is precisely the word the old world captured.
-**Where it bites:** all twelve Pillar chapters · the hub · the Lexicon · [[25 The Words]].
+**Where it bites:** all twelve Pillar chapters · the hub · the Lexicon · [[31 The Words]].
 **Urgency:** before launch.
 
 **Q-023 · Turn or Heartbeat**
 **Decides:** the one word for the Cell's fixed weekly gathering. Both are in live use in settled decks.
 **Options.** *(a)* Turn — costs the bodily image; protects the Game's own vocabulary, where a turn is what a player takes. *(b)* Heartbeat — costs the Game frame; protects the living-body frame the superorganism rests on. *(c)* Both, with *Heartbeat* as the body-scale view of the Turn — costs a gloss on every first meeting.
 **Recommendation:** *(a)* for the gathering, with *heartbeat* kept as ordinary language for the rhythm rather than as the name of the meeting.
-**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[22 Building — the Pattern of Production]] · [[25 The Words]] · the modules · the Little Book · every language rendering, where the two senses have already split.
+**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[23 Building — the Pattern of Production]] · [[31 The Words]] · the modules · the Little Book · every language rendering, where the two senses have already split.
 **Urgency:** before launch.
 
 **Q-024 · The Playcard's two senses**
 **Decides:** whether the [[The Playcard|Playcard]] is the card received with the Flame and never filled in, or the card a player fills at each Turn and sends to their Home Cell. Both are currently written as settled.
 **Options.** *(a)* Received card keeps the name; the filled card is the Quest card and the Record — costs the intuition that a *playcard* is where you write your play; protects the Flame's object. *(b)* Filled card keeps the name; the received card becomes the rules card or the Flame card — costs the most finished chapter in the door-sized book. *(c)* Two cards, two names, both minted fresh.
 **Recommendation:** *(b)*. You cannot submit a rules card upward, and the upward submission is the live practice; rename the received object rather than overload the word that now has a slot on a sheet.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[25 The Words]] · [[The Playcard]] · the Little Book's Playcard chapter · the modules' lexicon · the seed.
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[31 The Words]] · [[The Playcard]] · the Little Book's Playcard chapter · the modules' lexicon · the seed.
 **Urgency:** before launch.
 
 **Q-025 · The Record at two scales**
 **Decides:** whether [[The Record]] names a Cell's weekly account of said, did and learned, *and* the body-wide seasonal gauge of variance against milestones — or whether one of them is renamed.
 **Options.** *(a)* One word, disambiguated by context — costs a book that intends to survive translation, where context does not travel. *(b)* Cell sense keeps the word; the seasonal gauge becomes the variance record or the Season's Record — costs one rename. *(c)* Reverse.
 **Recommendation:** *(b)*.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[24 The Plan — the first three percent]] · [[The Record]].
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[29 The Plan — the first three percent]] · [[The Record]].
 **Urgency:** this season.
 
 **Q-026 · The Return's two senses**
 **Decides:** what [[The Return]] names — the page that comes back down from the whole at each turning, or the arc's moment of return, or a person coming back after leaving.
 **Options.** *(a)* The descending page keeps it; the person's coming-back is *the returning* — costs nothing much; protects a live instrument's name. *(b)* The arc's moment keeps it; the page is renamed — costs the instrument. *(c)* Leave all three.
 **Recommendation:** *(a)*, and give the arc's moment the Story's own language rather than a second row.
-**Where it bites:** [[20 The Experience — from the first door to what lies beyond]] · [[25 The Words]] · [[The Return]].
+**Where it bites:** [[20 The Experience — from the first door to what lies beyond]] · [[31 The Words]] · [[The Return]].
 **Urgency:** when it arises.
 
 **Q-027 · One home for Story**
 **Decides:** which of *Story*, *Stories*, *Story of Stories*, *Meta Story*, *The Great Story*, *Your Story* and *The Story of LIØNSBERG* are pages and which are pointers.
 **Options.** *(a)* Two pages only: [[The Story of LIØNSBERG]] for the shared telling and [[Story]] for an honest account of what happened, with capitals as the disambiguator and everything else an alias — costs five names people are attached to; protects a reader who meets one and needs the other. *(b)* Keep the family and cross-link. *(c)* One page, many sections.
 **Recommendation:** *(a)*. The capital rule already given does the whole job once it is applied everywhere.
-**Where it bites:** [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[29 The Stories — ten trillion stories woven back into ONE]] · [[25 The Words]] · [[Story]] · [[The Story of LIØNSBERG]].
+**Where it bites:** [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[22 The Stories — ten trillion stories woven back into ONE]] · [[31 The Words]] · [[Story]] · [[The Story of LIØNSBERG]].
 **Urgency:** this season.
 
 **Q-028 · The move's three names**
 **Decides:** *Share the Stories*, *Share Your Stories*, or *Sharing Your Stories* — one move, three names in three places.
 **Options.** *(a)* *Share the Stories*, matching the other moves' imperative shape. *(b)* *Share Your Stories*, the most-used. *(c)* *Sharing Your Stories*, the Pattern Language's gerund, which matches no other move.
 **Recommendation:** *(b)* — most used, and *your* is the part that matters: the telling is the teller's.
-**Where it bites:** the moves card · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[29 The Stories — ten trillion stories woven back into ONE]] · the modules.
+**Where it bites:** the moves card · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[22 The Stories — ten trillion stories woven back into ONE]] · the modules.
 **Urgency:** before launch.
 
 **Q-029 · The Golden Seed's three senses**
 **Decides:** whether [[The Golden Seed]] names the core metaphor of inception, the entirety of what was left behind, or the smallest text from which the whole regrows. All three are written.
 **Options.** *(a)* The smallest text keeps the name; the corpus sense is renamed — costs correcting two pages that predate it. *(b)* The corpus keeps it; the smallest text takes another name — costs renaming an artifact already in people's hands. *(c)* The metaphor keeps it and neither artifact does.
 **Recommendation:** *(c)* for the concept page, with the regrowable text carrying its own title and the corpus sense retired. Two artifacts sharing a name with the metaphor that generated both is how a word stops meaning anything.
-**Where it bites:** [[The Golden Seed]] · [[28 Regrow, Change, Lineage]] · [[25 The Words]] · the seed's own front matter.
+**Where it bites:** [[The Golden Seed]] · [[33 Regrow, Change, Lineage]] · [[31 The Words]] · the seed's own front matter.
 **Urgency:** before launch.
 
 **Q-030 · Driver's two senses**
@@ -261,15 +261,16 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Q-031 · Cell size**
 **Decides:** the number, if any. Four are live: three to thirteen · optimally four to seven · three to seven · not fewer than three nor more than sixteen, best five to twelve.
 **Options.** *(a)* One binding range — costs every body whose natural size differs, and invites a count to become a gate; protects interoperability and honest comparison. *(b)* No number: a Cell is defined by function, and a range is offered as observed practice — costs a newcomer wanting to be told; protects the answer already made, which carries no number. *(c)* A hard ceiling only, with division above it.
-**Recommendation:** *(b)*, with *three to thirteen, best at four to seven* printed as what bodies have found and never as a rule. Add the division question separately: at thirteen, or before sixteen.
-**Where it bites:** [[Cell]] · [[05 The Pattern and the Way]] · [[09 Pillar II — Sacred Governance and Stewardship]] · [[25 The Words]] · the minimum standards.
+**Recommendation:** *(b)*, with *three to thirteen, optimally four to seven* printed as what bodies have found and never as a rule. Add the division question separately: at thirteen, or before sixteen.
+**Where it bites:** [[Cell]] · [[04 The Pattern and the Way]] · [[09 Pillar II — Sacred Governance and Stewardship]] · [[31 The Words]] · the minimum standards.
 **Urgency:** this season.
+**Settled (2026-09-26).** One statement, used everywhere: **three to thirteen people; optimally four to seven.** The range and the optimum are not in conflict. *Three to seven* and *not fewer than three nor more than sixteen, best five to twelve* are retired. A Cell divides past thirteen; preparation for the split begins at ten to twelve.
 
 **Q-032 · Home, Home Cell, supercell**
 **Decides:** whether [[Home Cell]] is *the Cell that holds you* or *your first Cell*; and whether [[Supercell]] keeps *three or more* and the recursion.
 **Options.** *(a)* Held, not first; supercell keeps three-or-more and *supercells form supercells* — costs correcting the seed's wording; protects the fact that a person may leave their first Cell and still be held. *(b)* First Cell — costs the meaning of *home*. *(c)* Leave both readings.
 **Recommendation:** *(a)*, plainly. *Home* alone is a person's own place inside their Home Cell; *subcell* returns to the vocabulary alongside supercell.
-**Where it bites:** [[Home Cell]] · [[Supercell]] · the seed · [[25 The Words]] · [[18 Pillar XI — Sacred Society and Justice]].
+**Where it bites:** [[Home Cell]] · [[Supercell]] · the seed · [[31 The Words]] · [[18 Pillar XI — Sacred Society and Justice]].
 **Urgency:** before launch.
 
 **Q-033 · The ladder of scales, and the household**
@@ -290,25 +291,25 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether the vocabulary is a bounded set of nine hundred and ninety-nine, a tiered set of Twenty · Two Hundred · Thousand, or unbounded and handed at the pace the road needs.
 **Options.** *(a)* Bounded at a number — costs the growth of the Language and invites the number to become the point; protects a regrowable genome of fixed size. *(b)* Unbounded, tiers as reading order only — costs a clean claim about what must survive; protects the Language. *(c)* Unbounded, with a named survival core.
 **Recommendation:** *(c)*: no fixed total, tiers as reading order, and a small explicitly named core that a regrowing body must have. That is what all three readings were reaching for.
-**Where it bites:** [[07 ØNE — the Center]] · [[08 Pillar I — Sacred Ontology and Metaphysics]] · [[25 The Words]] · [[28 Regrow, Change, Lineage]] · the field's own key.
+**Where it bites:** [[07 ØNE — the Center]] · [[08 Pillar I — Sacred Ontology and Metaphysics]] · [[31 The Words]] · [[33 Regrow, Change, Lineage]] · the field's own key.
 **Urgency:** this season.
 
 **Q-036 · The Twelve Words' name**
 **Decides:** whether [[The Twelve Words]] keeps a number in its name, given the answer against artificially constraining counts and the page's own line that the twelve are a floor and not a fence.
 **Options.** *(a)* Keep — costs consistency with the answer; protects a name already in use. *(b)* Retitle as *the first words* or *the words at the table* — costs the familiar title; protects the answer and the truth, since the tier holds twenty-one pages. *(c)* Keep the chapter title, drop the count elsewhere.
 **Recommendation:** *(b)*, and the same test applied to *the Twenty*, which is a count standing where a name should be.
-**Where it bites:** [[The Twelve Words]] · [[25 The Words]] · the hub's size ladder · the Little Book.
+**Where it bites:** [[The Twelve Words]] · [[31 The Words]] · the hub's size ladder · the Little Book.
 **Urgency:** this season.
 
 **Q-037 · The duplicated homes — one sweep**
-**Decides:** one canonical home for each concept currently living at two addresses: [[Breath]] or *The Sovereign's Breath* · [[Sabbath]] or [[Rest And Regeneration]] · [[Nutrition]] or *Eating* · [[Commons]] or *The Commons* · [[Every Defect Is A Gift]] as root page or Card · [[OmniSpection]] or *Seasonal OmniSpection* · [[The Architecture Of A Way]] or *The Embodied Form Teaches* · [[Mastery]] or [[Belt Progression]] · *Holofractal Composition* or *Holofractal Scaling* · [[Interface]] under two Pillars · [[Regeneration]] defined twice · [[Integration]] used in three · *Festival* defined twice · [[Initiation]] and *Discernment* each defined twice in one table.
+**Decides:** one canonical home for each concept currently living at two addresses: [[Breath]] or *The Sovereign's Breath* · [[Sabbath]] or [[Rest And Regeneration]] · [[Nutrition]] or *Eating* · [[Commons]] or *The Commons* · [[Every Defect Is A Gift]] as root page or Card · [[OmniSpection]] or *Seasonal OmniSpection* · [[The Architecture Of A Way]] or *The Embodied Form Teaches* · [[Mastery]] or [[Belt Progression]]*Holofractal Composition* or *Holofractal Scaling* · [[Interface]] under two Pillars · [[Regeneration]] defined twice · [[Integration]] used in three*Festival* defined twice · [[Initiation]] and *Discernment* each defined twice in one table.
 **Options.** *(a)* Rule each individually — costs a dozen sittings; protects the cases where the two really are two things. *(b)* One rule applied by a single pass: the more-linked page is the home, the other becomes an alias, and any pair where the two definitions genuinely differ is pulled out and settled separately — costs a handful of misfolds, caught by the pull-out test. *(c)* Leave them.
 **Recommendation:** *(b)*, with [[Regeneration]] and [[Integration]] pulled out in advance, because those two are strong candidates for being genuinely two concepts each.
-**Where it bites:** the field · [[06 The Daily Way — the baseline practice]] · [[12 Pillar V — Sacred Health and Wellness]] · [[25 The Words]] and most Pillar chapters.
+**Where it bites:** the field · [[06 The Daily Way — the baseline practice]] · [[12 Pillar V — Sacred Health and Wellness]] · [[31 The Words]] and most Pillar chapters.
 **Urgency:** this season.
 
 **Q-038 · The near-synonyms — one sweep**
-**Decides:** which name governs where two or three point at one thing: *Union* or *Atonement* · *InterExistence*, *InterBeing* or *Mutual Indwelling* · *Heaven* or *Kingdom of God* · *Remembrance* or *The Great ReMembering* · *Georegion* or *Ecoregion* · *Earth*, *Worksite Earth* or *Planet as Biome* · *Peace* or *Shalom* · *Order* or *The Final Order* · *Boundary* or *The Boundary* · *Strong Not Safe* or *Composure Under Threat* · *Kit of Parts* or *The Kit* · *Narrative Universe* or *Narrative Lens* · *The Myth Of LIØNSBERG* or *The True Myth* · *Cosmic Locality* or *Cosmic Localism*.
+**Decides:** which name governs where two or three point at one thing: *Union* or *Atonement**InterExistence*, *InterBeing* or *Mutual Indwelling**Heaven* or *Kingdom of God**Remembrance* or *The Great ReMembering**Georegion* or *Ecoregion**Earth*, *Worksite Earth* or *Planet as Biome**Peace* or *Shalom**Order* or *The Final Order**Boundary* or *The Boundary**Strong Not Safe* or *Composure Under Threat**Kit of Parts* or *The Kit**Narrative Universe* or *Narrative Lens**The Myth Of LIØNSBERG* or *The True Myth**Cosmic Locality* or *Cosmic Localism*.
 **Options.** *(a)* Fold each pair to one — costs real distinctions in at least four of them; protects a short vocabulary. *(b)* Keep both and state the relation on each page — costs length; protects meaning. *(c)* Case by case, with a default of folding unless the two do different work.
 **Recommendation:** *(c)*. Four to hold apart on current reading: *Georegion* is a scale above the bioregion and not a synonym of ecoregion; *Strong Not Safe* is a claim and *Composure Under Threat* is a trained response; *The Myth Of LIØNSBERG* is about why the name cannot be captured and *The True Myth* is a claim about genre; *Narrative Universe* is an architecture and *Narrative Lens* a way of seeing.
 **Where it bites:** [[08 Pillar I — Sacred Ontology and Metaphysics]] · [[13 Pillar VI — Sacred Ecology and Living Systems]] · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[17 Pillar X — Sacred Guardianship and Order]] · the field's alias tables.
@@ -325,14 +326,14 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether *Heaven* takes a page of its own or continues to be handed through [[Heaven On Earth]].
 **Options.** *(a)* Its own page — costs a long argument about a hollowed-out word; protects the word the compass is built on, which currently answers to nothing. *(b)* Handed through the compound — costs a reader who meets the bare word first, which is everyone. *(c)* A page that does one job: says what we mean and what we do not, and hands a second name beside it.
 **Recommendation:** *(c)*.
-**Where it bites:** [[Heaven On Earth]] · [[01 The Spirit]] · [[25 The Words]] · the field's most-linked empty names.
+**Where it bites:** [[Heaven On Earth]] · [[01 The Spirit]] · [[31 The Words]] · the field's most-linked empty names.
 **Urgency:** this season.
 
 **Q-041 · The Element names**
 **Decides:** one name per Irreducible Element where the Core Pattern and the Pattern Language differ — Element 1, 4, 11 and 12 each carry two.
 **Options.** *(a)* The Core Pattern's names bind — costs the shorter forms; protects the founding articulation. *(b)* The Pattern Language's shorter names bind — costs meaning: *Democratic Self-Governance Through Shared Agreements and Wise Eldership* says four things that *Governance And Wise Eldership* does not. *(c)* Rewrite all twelve to one standard.
 **Recommendation:** *(a)*, with the short forms kept as the spoken versions.
-**Where it bites:** [[05 The Pattern and the Way]] · [[The Core Pattern]] · [[Twelve Irreducible Elements]] · the field's element rows.
+**Where it bites:** [[04 The Pattern and the Way]] · [[The Core Pattern]] · [[Twelve Irreducible Elements]] · the field's element rows.
 **Urgency:** this season.
 
 **Q-042 · Sacred Geometry's home**
@@ -357,45 +358,45 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Urgency:** when it arises.
 
 **Q-045 · The empty names**
-**Decides:** which of the names that are linked from everywhere and answer to nothing get written first: *LIØNSBERG* itself · *the Field* · *CurrentSee* · *TEA* · *Superorganism* · *the Twenty* · *the Two Hundred* · *the Rosetta Stone* · *Belt* · *Levels of Scale* · *Pain* · *Community Company* · *the Big Room* · *the Core Group* · *Throughput of the Goal* · *Work Card*, *work deck*, *data date*, *buffer*, *bottleneck*, *limiting factor*, *resource levelling* · *Action Domains*, *Integration Domains*, *Guild* as a lattice term · *Living Systems Data* · the sovereignty words (data, network, energy, communication).
+**Decides:** which of the names that are linked from everywhere and answer to nothing get written first: *LIØNSBERG* itself*the Field**CurrentSee**TEA**Superorganism**the Twenty**the Two Hundred**the Rosetta Stone**Belt**Levels of Scale**Pain**Community Company**The One Room**the Core Group**Throughput of the Goal**Work Card*, *work deck*, *data date*, *buffer*, *bottleneck*, *limiting factor*, *resource levelling**Action Domains*, *Integration Domains*, *Guild* as a lattice term*Living Systems Data* · the sovereignty words (data, network, energy, communication).
 **Options.** *(a)* Write all — costs weeks; protects every link. *(b)* Write by inbound count, most-linked first, and until then unlink rather than dangle — costs the generosity of linking; protects the library's law that a page with a dangling link does not cross. *(c)* Leave them and accept dangling links.
 **Recommendation:** *(b)*. By that measure *LIØNSBERG* is overdue, *Superorganism* is load-bearing for the sentence that defines a Cell, and *Throughput of the Goal* is the definition Value stands on.
-**Where it bites:** [[25 The Words]] · [[22 Building — the Pattern of Production]] · [[07 ØNE — the Center]] · [[13 Pillar VI — Sacred Ecology and Living Systems]] · the whole field.
+**Where it bites:** [[31 The Words]] · [[23 Building — the Pattern of Production]] · [[07 ØNE — the Center]] · [[13 Pillar VI — Sacred Ecology and Living Systems]] · the whole field.
 **Urgency:** before launch, for the ones the hub itself links.
 
 **Q-046 · The stage-name vocabulary**
 **Decides:** one vocabulary for how finished a page is. Three run: *canon-grade · draft · ore · stub*; *fold · canonical · reference · archive*; *schematic · developed*.
 **Options.** *(a)* Pick one and convert — costs a conversion pass; protects a reader's ability to weigh any page in any part of the corpus. *(b)* Keep three for three different instruments and say so. *(c)* Drop stage names and rely on the mark alone.
 **Recommendation:** *(a)*, four states: *ore · draft · cohered · in use*.
-**Where it bites:** [[25 The Words]] · the field's key · the audit ledger · the Pattern Language.
+**Where it bites:** [[31 The Words]] · the field's key · the audit ledger · the Pattern Language.
 **Urgency:** this season.
 
 **Q-047 · A coinage before it has been weighed**
 **Decides:** whether a new coinage may stand in a published page, or only in a proposal.
 **Options.** *(a)* Published freely — costs any hand on the naming of things, which is the one thing a language cannot get back; protects speed. *(b)* Proposals only — costs a page that needs a word and has none; protects the vocabulary. *(c)* Published in lowercase and described rather than named, until the whole takes a word up.
 **Recommendation:** *(c)*, which is how the dependency page and the living-systems hold are currently handled, and it works.
-**Where it bites:** every chapter · [[25 The Words]] · [[15 Pillar VIII — Sacred Science and Technology]] · [[13 Pillar VI — Sacred Ecology and Living Systems]].
+**Where it bites:** every chapter · [[31 The Words]] · [[15 Pillar VIII — Sacred Science and Technology]] · [[13 Pillar VI — Sacred Ecology and Living Systems]].
 **Urgency:** before launch.
 
 **Q-048 · Player, Player+, Cell+, and "sovereign agent"**
 **Decides:** four tangled things. Whether a [[Player]] is only a person; whether *Player+* is a person-and-their-agents or the *Cell* of a person and their agents; whether a Cell with an agent is a *Cell+*; and what to do about a capitalised architectural sense of *sovereign agent* colliding with the pervasive lowercase sense of any sovereign being exercising agency.
 **Options.** *(a)* Player is a person, Player+ is the Cell of a person and their agents, Cell+ is retired as redundant, and *sovereign agent* keeps only the lowercase sense — costs a draft term page that must be corrected and a coinage that must be dropped; protects the holofractal hinge that makes a Player+ the same object as a Cell one level down. *(b)* Allow the holonic Player (a Cell, a community, a world may be a Player) — costs the rule that an agent is never a Player, since the two readings meet. *(c)* Leave both pages standing.
 **Recommendation:** *(a)*, with [[The Player]] holding the holonic sense separately and explicitly.
-**Where it bites:** [[23 Players, Agents, and the Intelligence System]] · [[Player]] · [[The Player]] · the draft term page · the starter kit's charter.
+**Where it bites:** [[25 Players, Agents, and the Intelligence System]] · [[Player]] · [[The Player]] · the draft term page · the starter kit's charter.
 **Urgency:** before launch.
 
 **Q-049 · CurrentSee**
 **Decides:** what the word means, given that it stands in a Pillar's title and is defined nowhere.
 **Options.** *(a)* Adopt a definition — *value in right flow and rightly seen; a unit whose whole ledger is visible to the people who use it, circulating where they live* — costs minting a meaning for an inherited coinage; protects a title that currently points at nothing. *(b)* Strike it from the title — costs a name with real charge. *(c)* Keep it undefined as a pointer to the Pillar.
 **Recommendation:** *(a)*.
-**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · the Lexicon · [[25 The Words]].
+**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · the Lexicon · [[31 The Words]].
 **Urgency:** this season.
 
 **Q-050 · The Lexicon and the field**
 **Decides:** the relation between the older Lexicon — several terms carrying two or three definitions across Pillars — and the field, which holds one meaning per page.
 **Options.** *(a)* The field supersedes; the Lexicon becomes an archive — costs the Pillar-organised reading the Lexicon gives. *(b)* Two instruments, stated: the Lexicon is the Pillar-by-Pillar reading, the field is the one-meaning register, and where they disagree the field governs — costs a sentence on both. *(c)* Merge.
 **Recommendation:** *(b)*. Also note the Lexicon's section for missing English words is empty, and it should either be filled or removed.
-**Where it bites:** [[25 The Words]] · the Lexicon · the field's key.
+**Where it bites:** [[31 The Words]] · the Lexicon · the field's key.
 **Urgency:** this season.
 
 ---
@@ -422,21 +423,21 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether a Quest is *real · achievable · meaningful · together · seasonal*, or *real · dated · one name on it*.
 **Options.** *(a)* The four-and-seasonal form — costs the record's need for an owner and a date. *(b)* The three-part form — costs *together*, and the single-owner clause sits directly against a Quest requiring collaboration rather than individual action. *(c)* Both, distinguished: the four are what makes a Quest a Quest; the three are what a record needs to track one.
 **Recommendation:** *(c)*, and drop *one name on it* in favour of *one name accountable for the record of it*, which is what was meant and does not contradict *together*.
-**Where it bites:** [[Quest]] · [[22 Building — the Pattern of Production]] · the Questcard · the starter kit's door.
+**Where it bites:** [[Quest]] · [[23 Building — the Pattern of Production]] · the Questcard · the starter kit's door.
 **Urgency:** before launch.
 
 **Q-054 · Whether a Quest crosses seasons**
 **Decides:** the Quest card says one thing, the Season Sheet another.
 **Options.** *(a)* Never crosses: a Quest is chosen for a season and closed or renewed at the turning — costs long work, which must then be cut into seasonal pieces; protects the rhythm and the honesty of the count. *(b)* May cross, with a season's marker inside it — costs a clean turning. *(c)* May cross only by explicit renewal at the turning, which is *(a)* with a named act.
 **Recommendation:** *(c)*.
-**Where it bites:** [[Quest]] · [[22 Building — the Pattern of Production]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · the Season Sheet.
+**Where it bites:** [[Quest]] · [[23 Building — the Pattern of Production]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · the Season Sheet.
 **Urgency:** this season.
 
 **Q-055 · Four things at a turning, or five**
 **Decides:** whether a turning is *count · tell · choose · fill the sheet*, or those four plus re-pulling the plan from the milestones and sending the card up.
 **Options.** *(a)* Four — costs the link to any plan above the Cell; protects a form a kitchen table can hold. *(b)* Five — costs simplicity at the smallest scale. *(c)* Four as the form at the table, five for bodies that sit under a plan.
 **Recommendation:** *(c)*.
-**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[22 Building — the Pattern of Production]] · the Little Book · the operating layer.
+**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[23 Building — the Pattern of Production]] · the Little Book · the operating layer.
 **Urgency:** this season.
 
 **Q-056 · The Turn's two shapes**
@@ -450,140 +451,140 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** one set of states, where three are live: *open · taken · committed · done · declined · released*; *Commit · Delivered · Validated-or-Witnessed-or-Kept · Returned · Released · Declined*; *open → delivered → kept · returned · released · broken*.
 **Options.** *(a)* Name one canonical set — costs rewriting the instruments built on the other two; protects a body being able to read another body's record. *(b)* Declare *could · should · can · will · did* the canonical cycle and the three sets implementation detail — costs precision at the moment a commitment closes, which is where precision matters most. *(c)* Leave three.
 **Recommendation:** *(a)*, taking the second set, which is the only one that names who closes a commitment.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[Commitment]] · [[The Record]] · every deck and card.
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[Commitment]] · [[The Record]] · every deck and card.
 **Urgency:** before launch.
 
 **Q-058 · The word the receiver speaks**
 **Decides:** *Validated*, *Witnessed*, or *Kept* — only the receiver can close a commitment, and the act has no agreed name.
 **Options.** *(a)* *Validated* — costs warmth; carries an industrial register. *(b)* *Witnessed* — costs precision; carries the corpus's own practice of witness, which appears at every threshold. *(c)* *Kept* — costs the receiver's distinct role, since *kept* reads as something the giver did.
 **Recommendation:** *(b)*. The word already does this work at every belt and every vow, and it puts the act where it belongs: someone saw it.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[Commitment]] · the cards.
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[Commitment]] · the cards.
 **Urgency:** before launch.
 
 **Q-059 · Is there a lighter act than Commit**
 **Decides:** whether *take*, *award* and *claim* exist as acts on work, or whether every hand on work has given its word. One page rejects all three; six are built on them.
 **Options.** *(a)* No lighter act: to touch work is to commit — costs the ability to pick something up provisionally, and makes the deck heavy; protects the meaning of a given word. *(b)* A lighter act exists, named once — costs a gradient people will exploit. *(c)* Two acts: *hold* (I am looking at this; nobody else take it) and *commit* (I have given my word), with holds expiring at the turning.
 **Recommendation:** *(c)*, which gives the deck what it needs without diluting the word.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[Commitment]] · the work deck · six pages built on the rejected words.
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[Commitment]] · the work deck · six pages built on the rejected words.
 **Urgency:** this season.
 
 **Q-060 · Four lists of minimum standards**
 **Decides:** which minimum standards of interoperability are the standards. Four lists stand under one name: a seven, a root page's nine or ten, a kit page's ten, and an earlier seven.
 **Options.** *(a)* The seven bind, the ten are the older floor beneath them — costs items in the ten that are not in the seven, including team size and the first tenth; protects a short list a body can actually meet. *(b)* The ten bind — costs the newer articulation. *(c)* Merge into one list of whatever length it takes.
 **Recommendation:** *(c)*, done once and published as the only list, because four lists under one name is worse than any of the four.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[15 Pillar VIII — Sacred Science and Technology]] · [[28 Regrow, Change, Lineage]] · the minimum standards page · the kit.
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[15 Pillar VIII — Sacred Science and Technology]] · [[33 Regrow, Change, Lineage]] · the minimum standards page · the kit.
 **Urgency:** before launch.
 
 **Q-061 · The same words on line one**
 **Decides:** whether the standard requiring the same words on the first line of a body's core statements fixes a number — an earlier form said twelve, and the number was objected to as artificially constraining.
 **Options.** *(a)* Unnumbered — costs a crisp test; protects against the imposed count. *(b)* Twelve — costs the objection already made. *(c)* A floor, not a count: the words at the table must be the same words, however many there are.
 **Recommendation:** *(c)*.
-**Where it bites:** [[22 Building — the Pattern of Production]] · the minimum standards.
+**Where it bites:** [[23 Building — the Pattern of Production]] · the minimum standards.
 **Urgency:** when it arises.
 
 **Q-062 · Cross-Cell commitments**
 **Decides:** whether a commitment made between two Cells is counted on both Cells' cards. Stated nowhere.
 **Options.** *(a)* Both — costs double counting in any aggregate; protects both bodies seeing their own reliability honestly. *(b)* The giver's card only — costs the receiving Cell's view of what it is waiting on. *(c)* The giver's card counts it; the receiver's card carries it as *awaited*, unscored.
 **Recommendation:** *(c)*.
-**Where it bites:** [[22 Building — the Pattern of Production]] · the Record · the Scorecard.
+**Where it bites:** [[23 Building — the Pattern of Production]] · the Record · the Scorecard.
 **Urgency:** this season.
 
 **Q-063 · The reliability conditions' eighth**
 **Decides:** whether the eighth condition of a reliable promise is *joint responsibility* or *the honesty to say early*. Two lists of eight circulate.
 **Options.** *(a)* Joint responsibility. *(b)* The honesty to say early. *(c)* Both, unnumbered, since reliability is a matter of degree and not a checklist.
 **Recommendation:** *(c)*, with *say early* emphasised, because it is the one condition that saves a commitment after it has already gone wrong.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[Commitment]].
+**Where it bites:** [[23 Building — the Pattern of Production]] · [[Commitment]].
 **Urgency:** when it arises.
 
 **Q-064 · The player's own view of the deck**
 **Decides:** whether the sort of the deck that shows a player their own work gets a name. One was proposed and set aside as making the Game unnecessarily more complicated; *the Queue* is already taken, meaning where newcomers wait for a cohort to begin.
 **Options.** *(a)* Name it — costs one more word at the table. *(b)* Describe it plainly and never name it — costs a word people will invent anyway. *(c)* Use the plainest possible phrase, *your cards*, as a description that cannot become jargon.
 **Recommendation:** *(c)*.
-**Where it bites:** [[22 Building — the Pattern of Production]] · the deck · the HUD.
+**Where it bites:** [[23 Building — the Pattern of Production]] · the deck · the HUD.
 **Urgency:** when it arises.
 
 **Q-065 · The stop convention: standing and reach**
 **Decides:** two things at once. Whether [[Stop]] is an agreed rule or a proposal — it is marked as the rooms' practice, held as a proposal, and is treated in the guardianship chapter as that Pillar's central instrument, which is a promotion. And how far one word reaches: the production line, the room, the recording, a person's own agent, and a person in crisis.
 **Options.** *(a)* One word, all reaches, settled as agreed — costs precision, since stopping a line and stopping a person's care are different acts; protects a single syllable that anyone can say and everyone knows. *(b)* Two words: *stop* for work and rooms, a distinct word for a person in crisis — costs teaching two; protects the crisis case from being handled like a line stoppage. *(c)* Keep it a proposal until a season of use.
 **Recommendation:** *(a)* for standing — rule it agreed, because a convention nobody is sure of is not a convention — and *(b)* for reach, with the crisis word written by people who have needed one.
-**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[12 Pillar V — Sacred Health and Wellness]] · [[23 Players, Agents, and the Intelligence System]] · [[Stop]] · every agent charter.
+**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[12 Pillar V — Sacred Health and Wellness]] · [[25 Players, Agents, and the Intelligence System]] · [[Stop]] · every agent charter.
 **Urgency:** before launch.
 
 **Q-066 · Who lifts a stop**
 **Decides:** when someone other than an agent's own person calls a stop, who may lift it. Two readings stand.
 **Options.** *(a)* The room that called it lifts it — costs a person's control over their own agent; protects the room's authority over its own space. *(b)* Only the one who said it lifts it, and a person may additionally keep it in force for their own agent — costs a room stuck with a stop nobody present can lift; protects the narrower rule, which is what should win wherever a card and a firewall disagree. *(c)* The room lifts it for the room, and a person's stop over their own agent always holds regardless.
 **Recommendation:** *(c)*, which is the workable form of *(b)*.
-**Where it bites:** [[23 Players, Agents, and the Intelligence System]] · [[Stop]] · the agent charters · the starter kit.
+**Where it bites:** [[25 Players, Agents, and the Intelligence System]] · [[Stop]] · the agent charters · the starter kit.
 **Urgency:** before launch.
 
 **Q-067 · Safety check beside Stop**
 **Decides:** whether a [[Safety check]] and a [[Stop]] are set side by side anywhere as one pair. Both halt an action and they come from opposite directions — one from the makers, one from anyone in the room.
 **Options.** *(a)* One page holding the pair — costs a page; protects the symmetry, which is the whole design. *(b)* Separate, cross-linked. *(c)* Fold into one instrument.
 **Recommendation:** *(a)*. Neither is properly understood without the other.
-**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[23 Players, Agents, and the Intelligence System]] · [[Safety check]] · [[Stop]].
+**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[25 Players, Agents, and the Intelligence System]] · [[Safety check]] · [[Stop]].
 **Urgency:** this season.
 
 **Q-068 · Pain requires a response**
 **Decides:** whether the Pain signal is *answered by someone* or *requires a response* — and how the signal relates to the older concept of pain as the driver of change.
 **Options.** *(a)* Requires a response, with an owner and a clock — costs a body that cannot always answer; protects the whole point of the signal. *(b)* Answered by someone — costs the guarantee, which is the instrument. *(c)* Requires a response from the Home Cell within the turning, escalating to the supercell if unanswered.
 **Recommendation:** *(c)*. And rule the two senses apart under Q-038's test: the signal takes the name, the older motive-force sense keeps its own page.
-**Where it bites:** [[23 Players, Agents, and the Intelligence System]] · the HUD · the Sighting kinds · the older pain page.
+**Where it bites:** [[25 Players, Agents, and the Intelligence System]] · the HUD · the Sighting kinds · the older pain page.
 **Urgency:** this season.
 
 **Q-069 · A sighted offer is already real**
 **Decides:** whether an offer or request counts as a [[Sighting]], and whether a sighted offer binds the one who sighted it.
 **Options.** *(a)* Offers and requests are not Sightings; they are their own kinds — costs a single button; protects the meaning of a sighting, which is *what I saw that the whole should know*. *(b)* All eight kinds under one button. *(c)* Separate kinds, one button, one lifecycle.
 **Recommendation:** *(c)*, with the part outsiders most often get wrong said in the instrument itself: an offer, once sighted, is already real, and the one who made it is held to it the same as any commitment.
-**Where it bites:** [[Sighting]] · [[23 Players, Agents, and the Intelligence System]] · the HUD.
+**Where it bites:** [[Sighting]] · [[25 Players, Agents, and the Intelligence System]] · the HUD.
 **Urgency:** this season.
 
 **Q-070 · Who may ask for an Elision**
 **Decides:** whether anyone may ask for an [[Elision]] and the host grants it, or whether the ask is limited to one's own words and what was said about one, before the record is shared.
 **Options.** *(a)* Anyone may ask — costs the possibility of censoring others; protects a room's ability to protect someone who cannot ask. *(b)* Own words only, asked before sharing — costs that protection; prevents the instrument becoming a tool for erasing what someone else said. *(c)* Own words as of right; anything else by the room's consent.
 **Recommendation:** *(c)*, and carry both constraints the narrower reading holds — scope, and timing before the record is shared, never at the exit as a reopening of terms.
-**Where it bites:** [[Elision]] · [[23 Players, Agents, and the Intelligence System]] · [[29 The Stories — ten trillion stories woven back into ONE]] · the rooms' cards.
+**Where it bites:** [[Elision]] · [[25 Players, Agents, and the Intelligence System]] · [[22 The Stories — ten trillion stories woven back into ONE]] · the rooms' cards.
 **Urgency:** before launch.
 
 **Q-071 · Chatham House: does a house's name count as a source**
 **Decides:** whether [[Chatham House]] protects only persons, or houses and traditions too. Current practice names houses and traditions freely and persons only by their own yes; no answer stands.
 **Options.** *(a)* Persons only — costs a house that would rather not be named; protects the ability to say where a lineage came from, which is how credit survives without ownership. *(b)* Houses too — costs traceability of ideas to their traditions. *(c)* Persons by consent; houses by their own stated preference, asked once.
 **Recommendation:** *(c)*, and carry the generous half of the rule on the page, not only the restrictive half: the idea travels freely because nobody owns wisdom, and the concealment of the source is the proxy for that, not the point of it.
-**Where it bites:** [[Chatham House]] · [[23 Players, Agents, and the Intelligence System]] · every lineage block · the Voice standard.
+**Where it bites:** [[Chatham House]] · [[25 Players, Agents, and the Intelligence System]] · every lineage block · the Voice standard.
 **Urgency:** before launch.
 
 **Q-072 · The Roll**
 **Decides:** whether there is a Roll at all. One draft says there is nothing to join — no organisation, no roll, no dues. The ladder puts one at the third rung: give your word on the Roll, name your three, take your name.
 **Options.** *(a)* No Roll — costs the count, the naming instrument, and the plan's arithmetic; protects the claim that there is nothing to join. *(b)* A membership roll — costs the claim entirely, and creates the pooled artefact the membrane exists to prevent. *(c)* The Roll is a record a person's own Cell keeps and a person may carry away — not a membership, not pooled anywhere — costs a clean global count; protects both.
 **Recommendation:** *(c)*.
-**Where it bites:** [[20 The Experience — from the first door to what lies beyond]] · [[24 The Plan — the first three percent]] · [[The Roll]] · [[29 The Stories — ten trillion stories woven back into ONE]] · the ladder.
+**Where it bites:** [[20 The Experience — from the first door to what lies beyond]] · [[29 The Plan — the first three percent]] · [[The Roll]] · [[22 The Stories — ten trillion stories woven back into ONE]] · the ladder.
 **Urgency:** before launch.
 
 **Q-073 · Stories in the Score**
 **Decides:** whether tellings are counted. One statement of the score counts *stories shared* as a currency; the Scorecard's story column is a yes-or-no mark.
 **Options.** *(a)* Counted as a currency — costs the telling, which becomes a unit to maximise; protects visibility of a move that otherwise goes unrecorded. *(b)* A yes-or-no mark: did a story get told this turning — costs the fine grain; protects against ranking tellings. *(c)* Not recorded at all.
 **Recommendation:** *(b)*.
-**Where it bites:** [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[29 The Stories — ten trillion stories woven back into ONE]] · the Scorecard.
+**Where it bites:** [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[22 The Stories — ten trillion stories woven back into ONE]] · the Scorecard.
 **Urgency:** this season.
 
 **Q-074 · Who may retell a Cell's story, and withdrawal after travel**
 **Decides:** on whose consent a story leaves the table it was told at, and whether a story can be withdrawn once it has travelled.
 **Options.** *(a)* Three rings — mine, the table's, the body's — with the narrowest the default and silence never a yes; and withdrawal honest about its limits, said at the time of the yes — costs a slower spread of stories; protects the teller. *(b)* Free retelling inside the body, consent only outside it. *(c)* Consent once, at the telling, covering all future use.
 **Recommendation:** *(a)*. Deletion is a fiction after more than one mind has read a line, and the honest practice is to say so when the yes is given rather than promise a recall that cannot be performed.
-**Where it bites:** [[29 The Stories — ten trillion stories woven back into ONE]] · [[Elision]] · [[Chatham House]] · the commons of stories.
+**Where it bites:** [[22 The Stories — ten trillion stories woven back into ONE]] · [[Elision]] · [[Chatham House]] · the commons of stories.
 **Urgency:** before launch.
 
 **Q-075 · The ten phases, and the name of the life-telling**
 **Decides:** whether the ten phases of a life told become the standard, an optional lamp, or are dropped in favour of the existing instrument, which asks the teller to name five to ten epochs of their own. And whether the life-telling gets a name of its own, since calling it *Share Your Story* collides with the move about Quests.
 **Options.** *(a)* Standard — costs the teller's own shape, which is the whole value. *(b)* Optional lamp, offered and never required — costs nothing; protects both. *(c)* Drop the phases.
 **Recommendation:** *(b)* for the phases, and yes to a distinct name for the life-telling, because two different acts currently share one.
-**Where it bites:** [[29 The Stories — ten trillion stories woven back into ONE]] · the telling instrument · the moves card.
+**Where it bites:** [[22 The Stories — ten trillion stories woven back into ONE]] · the telling instrument · the moves card.
 **Urgency:** this season.
 
 **Q-076 · Testimony, Bearing Witness, Stories of Transformation**
 **Decides:** whether these are one Pattern or three. All three are named; none has a body.
 **Options.** *(a)* One Pattern with three faces — costs distinctions that may matter; protects a Language that does not inflate. *(b)* Three — costs three bodies to write. *(c)* Two: bearing witness (being present to another's account) and testimony (giving one's own), with transformation stories a kind of testimony.
 **Recommendation:** *(c)*.
-**Where it bites:** [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[29 The Stories — ten trillion stories woven back into ONE]] · the Pattern Language.
+**Where it bites:** [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[22 The Stories — ten trillion stories woven back into ONE]] · the Pattern Language.
 **Urgency:** when it arises.
 
 **Q-077 · The four TEA protocols**
@@ -597,21 +598,21 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether time, energy and attention are counted on a person's own card with a unit calculated from it — and if so, by which formula, since three pages differ.
 **Options.** *(a)* Keep the ledger, formula settled — costs the risk the instrument becomes the surveillance its own authors warned against; protects recognition of value that is currently invisible. *(b)* No calculated unit; recognition by witness and record alone — costs the economy's whole measurement layer. *(c)* Keep the smallest honest version: the card stays in the player's hands, nothing moves without their word, and the instrument is abandoned the day it starts to imprison.
 **Recommendation:** *(c)*, with the formula settled once rather than differing across three pages, and visibility set as a per-player choice with a recommended default of the player and their Home Cell.
-**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[23 Players, Agents, and the Intelligence System]] · [[LUV]] · [[TimeEnergy]] · the TEA Card.
+**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[25 Players, Agents, and the Intelligence System]] · [[LUV]] · [[TimeEnergy]] · the TEA Card.
 **Urgency:** before launch.
 
 **Q-079 · Nine or ten Anti-Patterns, and where blamelessness ends**
 **Decides:** whether *showing up to drain the commons* is a tenth disease or a posture said at the door; and how a body responds to repeated, knowing breach without either blaming or ignoring it.
 **Options.** *(a)* Ten on the list — costs the door's own speech, where it currently does its work; protects a complete diagnostic set. *(b)* Nine, with the tenth at the door — costs its standing as a named failure. *(c)* Ten, with the door's speech kept as well.
 **Recommendation:** *(c)*. On the second half: no answer can be drafted from the corpus, and the honest answer is that blamelessness governs the *first* breach and every breach where the person can still be reached; the [[The Escalation Ladder|escalation ladder]] governs the rest. A body also owes something to a member who became dependent through its own doing, and nothing states what.
-**Where it bites:** [[05 The Pattern and the Way]] · [[18 Pillar XI — Sacred Society and Justice]] · [[Commons]] · the Pattern Language's anti-pattern list.
+**Where it bites:** [[04 The Pattern and the Way]] · [[18 Pillar XI — Sacred Society and Justice]] · [[Commons]] · the Pattern Language's anti-pattern list.
 **Urgency:** this season.
 
 **Q-080 · The two sevens**
 **Decides:** a capped return of about seven per cent and a compensation ratio of about seven to one each appear once, in different instruments, neither as a rule — and no page says at what scale a ratio is measured.
 **Options.** *(a)* Both binding on any body that federates — costs bodies in economies where neither number is survivable; protects against the two mechanisms by which a commons is drained. *(b)* Both recommended, each body setting its own within a stated band, published — costs uniformity; protects local truth and keeps the numbers visible. *(c)* Neither: local and unstated.
 **Recommendation:** *(b)*, measured at the scale of the body that holds the commons — a Cell for a Cell's pool, a federation for a federation's — and published, because an unpublished ratio is not a discipline.
-**Where it bites:** [[05 The Pattern and the Way]] · [[10 Pillar III — Sacred Economy and CurrentSee]] · [[18 Pillar XI — Sacred Society and Justice]] · the constitutional package.
+**Where it bites:** [[04 The Pattern and the Way]] · [[10 Pillar III — Sacred Economy and CurrentSee]] · [[18 Pillar XI — Sacred Society and Justice]] · the constitutional package.
 **Urgency:** this season.
 
 ---
@@ -757,42 +758,42 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** the seam between *a small body decides when it must* and *nobody is in charge of it; everyone is*.
 **Options.** *(a)* Nobody is in charge; the stewardship body only convenes and records — costs decisiveness in the cases where someone must choose; protects the claim. *(b)* The stewardship body decides operationally — costs the claim entirely. *(c)* Enumerate: a stewardship body may decide only matters of tempo, sequence and the safety of the whole, and may never decide what a sovereign body does inside its own domain; everything else returns to the bodies.
 **Recommendation:** *(c)*. An enumerated power is the only kind that does not grow.
-**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[22 Building — the Pattern of Production]] · [[Stewardship]] · the operating layer.
+**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[23 Building — the Pattern of Production]] · [[Stewardship]] · the operating layer.
 **Urgency:** this season.
 
 **Q-101 · The nomination laws**
 **Decides:** whether the inherited nomination laws become a written instrument: you cannot nominate yourself; beware anyone campaigning; not family, not partners, not figures you do not personally know; nominate those you have watched navigate hardship faithfully; if you cannot name three, the work is to go find them.
 **Options.** *(a)* Write as a binding instrument — costs flexibility; protects the naming process from the two failure modes it has, the campaigner and the cousin. *(b)* Carry in spirit within the seats and the rotation, as now — costs the guard, which currently exists nowhere anyone will find it. *(c)* Write as a practice offered with each nomination.
 **Recommendation:** *(c)*, printed on the instrument itself so that it is read at the moment of use rather than filed.
-**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[24 The Plan — the first three percent]] · the nomination instrument.
+**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[29 The Plan — the first three percent]] · the nomination instrument.
 **Urgency:** before launch.
 
 **Q-102 · The identity floor**
 **Decides:** what is required for a person to be on the Roll, and what is required for a nomination to count.
 **Options.** *(a)* A name as chosen, a carrier, and a witness — costs verifiability, and makes gaming cheap to attempt; protects reach, especially in the places that need this most. *(b)* A verified channel — costs exactly those places; protects against duplicates. *(c)* A cryptographic identity — costs more people still, and creates the pooled artefact the membrane exists to prevent.
 **Recommendation:** *(a)*, plus believability weighting on namings, plus the rule that the person-graph never pools. Gaming should be cheap to attempt and worth almost nothing.
-**Where it bites:** [[24 The Plan — the first three percent]] · [[The Roll]] · the nomination instrument · [[The Reweaving Web]].
+**Where it bites:** [[29 The Plan — the first three percent]] · [[The Roll]] · the nomination instrument · [[The Reweaving Web]].
 **Urgency:** before launch.
 
 **Q-103 · The nomination tiers**
 **Decides:** the rules of promotion between the three tiers — public counts, recognised Cell-to-Cell, private person-graph. Who may see a naming; whether a nominee sees who named them, before or after they accept; whether a community may see its own aggregate without seeing its edges; what happens to a naming when the namer withdraws.
 **Options.** *(a)* Open by default — costs the private tier entirely, and it cannot be rebuilt once it is gone; protects legibility. *(b)* Closed by default, each promotion by explicit consent of the namer, aggregates without edges, withdrawal removing the edge everywhere — costs a slower and less impressive count; protects the one thing that cannot be undone. *(c)* Decide later.
 **Recommendation:** *(b)*, and *(c)* is not available: this is specified by default the moment the first thousand names exist, and whatever the software does then becomes the rule.
-**Where it bites:** [[24 The Plan — the first three percent]] · [[The Reweaving Web]] · [[Selectively Permeable Membrane]] · every instrument that counts.
+**Where it bites:** [[29 The Plan — the first three percent]] · [[The Reweaving Web]] · [[Selectively Permeable Membrane]] · every instrument that counts.
 **Urgency:** before launch. This is the most dangerous unspecified thing in the Plan.
 
 **Q-104 · The contribution rail**
 **Decides:** three things before the first coin: which jurisdiction the temporary vehicle sits in and under what counsel; what *about a tenth* means for a body with no money income; and whether the new-and-full-moon division is a rule of this instance or of the Pattern.
 **Options.** *(a)* All three as the Pattern's — costs bodies whose calendar is solar and bodies with no cash at all. *(b)* Jurisdiction and vehicle as this instance's scaffolding, the tenth as a floor nobody imposes, the moon division as this instance's armour — costs the guard the division provides elsewhere. *(c)* Rule each separately on the evidence.
 **Recommendation:** *(b)*, with the moon division available to any body that wants it and required of none. A body that gives hours, food or care gives its tenth in those.
-**Where it bites:** [[24 The Plan — the first three percent]] · [[10 Pillar III — Sacred Economy and CurrentSee]] · [[Voluntary Tithing]].
+**Where it bites:** [[29 The Plan — the first three percent]] · [[10 Pillar III — Sacred Economy and CurrentSee]] · [[Voluntary Tithing]].
 **Urgency:** before launch.
 
 **Q-105 · The tenth's measure**
 **Decides:** whether a tenth is a starting suggestion, a default a body may adopt, or nothing at all — and whether it is measured against income, surplus, or [[TimeEnergy]] given.
 **Options.** *(a)* Binding on any body that federates, measured against income — costs bodies in hard places, and the clear warning already given that a tenth of global earnings flowing to any one commons is exactly the wrong shape. *(b)* Structural as a discipline, sovereign in its amount: each body gives a tenth of its time, energy and money inward to the table it sits at, and how sovereigns share beyond that is never a rule — costs comparability. *(c)* Nothing stated.
 **Recommendation:** *(b)*, with the tenth of what a Quest raises named explicitly, since it is the form most bodies will meet first, and the weekly form called what the corpus calls it: the Offering.
-**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[24 The Plan — the first three percent]] · [[Voluntary Tithing]] · [[Commons]] · the minimum standards.
+**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[29 The Plan — the first three percent]] · [[Voluntary Tithing]] · [[Commons]] · the minimum standards.
 **Urgency:** before launch.
 
 **Q-106 · The federation percentages**
@@ -1001,7 +1002,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** how a person distinguishes spontaneous wise right action from confident impulse in themselves. The corpus offers no test, and this is the discernment the whole ripening most needs.
 **Options.** *(a)* Leave unwritten — costs the practitioner at exactly the moment the practice pays off. *(b)* Write a test here — costs a test written without the experience to ground it. *(c)* Write the only reliable marks available: it survives a pause, it does not need to be defended, it is the same in a week, and someone who knows you recognises it — offered as a practice and not as a proof.
 **Recommendation:** *(c)*, marked as a first articulation.
-**Where it bites:** [[06 The Daily Way — the baseline practice]] · [[05 The Pattern and the Way]].
+**Where it bites:** [[06 The Daily Way — the baseline practice]] · [[04 The Pattern and the Way]].
 **Urgency:** this season.
 
 **Q-135 · The five Guild-Ways**
@@ -1071,7 +1072,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** how *discern–plan–do–check–adjust*, *attend–plan–act–learn–improve*, and *observe–orient–decide–act–learn* relate. All three cover the twelfth Element's ground; no page says how.
 **Options.** *(a)* One binding cycle — costs two vocabularies in use. *(b)* One canonical, the others named as the same loop in other idioms — costs nothing. *(c)* Leave three.
 **Recommendation:** *(b)*, taking the first as canonical and saying plainly that all three are one loop under three namings.
-**Where it bites:** [[05 The Pattern and the Way]] · [[22 Building — the Pattern of Production]] · [[Twelve Irreducible Elements]].
+**Where it bites:** [[04 The Pattern and the Way]] · [[23 Building — the Pattern of Production]] · [[Twelve Irreducible Elements]].
 **Urgency:** when it arises.
 
 ---
@@ -1084,70 +1085,69 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether the whole-population marker falls at the summer or the winter solstice of 2030. The sources say only "~Solstice 2030."
 **Options.** *(a)* Summer — costs two seasons of float on the chain, taking it from thin to negative, because the three-year formation lag decides whether a cohort is inside the 2033 Jubilee. *(b)* Winter — costs nothing structural; protects symmetry with the other three markers and is the later and therefore more honest reading. *(c)* Leave unstated — costs planning entirely, since everything downstream depends on it.
 **Recommendation:** *(b)*.
-**Where it bites:** [[24 The Plan — the first three percent]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · every chain that crosses that marker.
+**Where it bites:** [[29 The Plan — the first three percent]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · every chain that crosses that marker.
 **Urgency:** this season.
 
 **Q-146 · The scale of the 2026 marker**
-**Decides:** whether the first marker is read as a condition met per place — Story read, Roll taken, Cell formed, Quest chosen, Flame passed — or as a planetary headcount of a quarter of a billion people.
-**Options.** *(a)* Planetary headcount — costs an honest report, since it will not be met and the variance is already being drawn from the generational contingency; protects the original promise. *(b)* Condition met per place, with the planetary lateness stated plainly beside it — costs the appearance of holding a hard line, and could read as a softening. *(c)* Both reported, neither governing.
-**Recommendation:** *(b)*, with the lateness stated in the same breath every time, never separately. Whether that is faithful reading or softening is precisely what needs an answer rather than a draft.
-**Where it bites:** [[24 The Plan — the first three percent]] · [[The First Three Percent]] · the Record.
+**Decides:** whether the first marker is read as a condition met per place — Story read, Roll taken, Cell formed, Quest chosen, Flame passed — or as a planetary count of Players.
+**Settled (2026-09-26).** Two hundred and fifty million, everywhere, counted in Players — each known by the conditions — and charted in three phases: Formation from the equinox, the first eight Players up and running; the Sprint from Monday 28 September to the Winter Solstice of 2026, every new Player bringing their three — people not already playing — as their first passing of the Flame, sixteen generations, the target three in three days (crossing two hundred and fifty million, Cycle 40, between 13 and 15 November), about five days the arithmetic's limit; and the Wise Pace after it, when bringing your three gives way to the wise right people at the wise right time, as they awaken and are ready, at a pace set by formation ([[29 The Plan — the first three percent#The chart|the chart]]). The measure throughout is the rings of the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]]; bringing your three is the tactic that moves the body through them. The kit states the commitment and the daily measure: we do everything in our power to meet it, and measure where we are daily.
+**Where it bites:** [[29 The Plan — the first three percent]] · [[The First Three Percent]] · the Record.
 **Urgency:** before launch.
 
-**Q-147 · The recovery marker**
-**Decides:** whether a named recovery milestone is set — a thing complete, to a stated quality, by a date someone gives their word for — re-anchoring the chain between the missed first marker and the next.
-**Options.** *(a)* Set one — costs committing publicly to something after a public miss. *(b)* Do not — costs the discipline: contingency is being consumed, consumed contingency is never safely banked, and the honest recording of lateness slowly becomes a habit of recording lateness. *(c)* Set an internal one only.
-**Recommendation:** *(a)*.
-**Where it bites:** [[24 The Plan — the first three percent]] · the Record · the milestones.
+**Q-147 · What the daily measure sets moving**
+**Decides:** what the daily measure sets moving — at what gap between the count and the chart a re-pull is called, who calls it, and what is re-pulled first: days per generation, commitments kept (the share who bring their three, as pledged), the register, the channels, or the Kit.
+**Options.** *(a)* A stated gap that triggers a re-pull — costs a number that can be argued with; protects against drift. *(b)* Judgment at each Turn — costs consistency across tables. *(c)* Both: any gap said the day it appears, and a stated gap that calls the re-pull.
+**Recommendation:** *(c)*, and never answered by moving the line.
+**Where it bites:** [[29 The Plan — the first three percent]] · the Record · the milestones.
 **Urgency:** before launch.
 
 **Q-148 · What Cycle 10 means**
 **Decides:** whether cycle ten places about a thousand people or the first hundred and forty-four co-creators — an order of magnitude apart — since the trigger for seating the planning group hangs on it.
 **Options.** *(a)* A thousand — costs a trigger that will not fire for a long time. *(b)* The first hundred and forty-four — costs the larger reading; protects a trigger that can actually fire and a group small enough to work. *(c)* Neither: trigger on the condition rather than the count.
 **Recommendation:** *(b)*, with *(c)* as the better long-term form.
-**Where it bites:** [[24 The Plan — the first three percent]] · the governance trigger · the adoption pages.
+**Where it bites:** [[29 The Plan — the first three percent]] · the governance trigger · the adoption pages.
 **Urgency:** this season.
 
 **Q-149 · The generation-time target**
 **Decides:** the standing of the roughly six-week generation time. It is derived correctly from the doubling arithmetic and the 2030 dependency, and has never been observed.
 **Options.** *(a)* Treat as a target — costs exactly the mistake the Plan spends pages warning against: acting on a derived number as though it were measured. *(b)* Treat as a requirement the plan implies, published beside the first measured number the moment one exists — costs the comfort of a figure. *(c)* Drop.
 **Recommendation:** *(b)*.
-**Where it bites:** [[24 The Plan — the first three percent]] · the doubling arithmetic.
+**Where it bites:** [[29 The Plan — the first three percent]] · the doubling arithmetic.
 **Urgency:** this season.
 
 **Q-150 · The Jubilee's date, and the day itself**
 **Decides:** whether the Covenant and Jubilee is fixed to the winter solstice of 2033 or is *that, or the day the last cohort has crossed* — and what is actually done on the day, which no page describes.
 **Options.** *(a)* A fixed date — costs the cohorts still crossing. *(b)* A marker, said as a draft timeline rather than a fixed date, with the condition governing — costs a date people can plan toward. *(c)* Fixed date, with a second observance for later cohorts.
 **Recommendation:** *(b)*; and the day itself wants writing, since it is named as a milestone and a stage of the Path and described nowhere.
-**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[Covenant]] · [[Jubilee]] · [[24 The Plan — the first three percent]].
+**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[Covenant]] · [[Jubilee]] · [[29 The Plan — the first three percent]].
 **Urgency:** this season.
 
 **Q-151 · The generational contingency**
 **Decides:** whether the twenty years of generational contingency run from the end of the ten-year strategy or absorb it — the two readings differ by a decade — and who monitors it, on what surface, with the remaining buffer computed how.
 **Options.** *(a)* Absorbing — costs a decade of the outer bound. *(b)* Running from the end — costs credibility, since a contingency that begins after the plan ends is not a contingency. *(c)* Absorbing, with the buffer computed and published each season.
 **Recommendation:** *(c)*, with a named holder. The page says it will be actively monitored and names no one, which means nobody.
-**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[24 The Plan — the first three percent]] · the Record.
+**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[29 The Plan — the first three percent]] · the Record.
 **Urgency:** this season.
 
 **Q-152 · The horizon sets and the phase numbering**
 **Decides:** which horizons are the Book's. A root page carries markers at 2050, 2075, 2100 and 3000 with a thirty-year transformation, beside the present timeline of 2026 to 2033 and twenty years after; the Sovereign Path lists ten time horizons where the written page stops at the first year; two grand-strategy pages number the phases differently; and one chapter's phase dates were spoken in 2023 and have never been refreshed.
 **Options.** *(a)* One horizon set, the present timeline, with the older set retired to the record — costs the long horizons, which the long now needs. *(b)* Two, layered: the present timeline for the plan, the long horizons for the long now, with neither used to date the other — costs a sentence. *(c)* Leave both live.
 **Recommendation:** *(b)*, phases numbered once, and the 2023 dates kept in the record as a reading of that year and never silently refreshed.
-**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[24 The Plan — the first three percent]] · the strategy books.
+**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[29 The Plan — the first three percent]] · the strategy books.
 **Urgency:** this season.
 
 **Q-153 · The hub figures and the tiers**
 **Decides:** the network estimate, and whether the hub tiers partition the population. Ten to twenty trillion appears on two pages; fifteen to twenty on one, where the figure appears to have been joined to the separate quantity of military spending freed by forestalling war. And a million community hubs of ten thousand and a hundred thousand local hubs of a hundred thousand each reach ten billion, while a thousand city hubs of a million reach one.
 **Options.** *(a)* Restate one figure once, in one place, marked as an estimate spoken in a named year and not a measurement — costs the larger number; protects the corpus from quoting itself. *(b)* Keep both and explain. *(c)* Drop all figures until someone does the work.
 **Recommendation:** *(a)*, and read the tiers as an overlay of services rather than a partition of people, said explicitly, until someone states otherwise.
-**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[16 Pillar IX — Sacred Architecture and Design]] · [[24 The Plan — the first three percent]] · the hub cards.
+**Where it bites:** [[10 Pillar III — Sacred Economy and CurrentSee]] · [[16 Pillar IX — Sacred Architecture and Design]] · [[29 The Plan — the first three percent]] · the hub cards.
 **Urgency:** this season.
 
 **Q-154 · The lunar layer**
 **Decides:** whether the lunar Calendar binds anything. The Game's clock is solar with four turnings; the Calendar adds some twenty-four to twenty-eight inflection days, and nothing says which a body is expected to keep.
 **Options.** *(a)* Binding — costs bodies whose traditions run on other calendars, and doubles the clock. *(b)* Offered practice, with none required — costs the rhythm's richness for bodies that would keep it. *(c)* Binding for a named few days.
 **Recommendation:** *(b)*, and the same answer applied where the earlier plan distributes resources at the new and full moons: solar only for anything the Game requires.
-**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[21 In Every Future — what to do in each case]] · [[24 The Plan — the first three percent]] · the Calendar card.
+**Where it bites:** [[19 Pillar XII — Sacred Time, Rhythm, and Celebration]] · [[21 In Every Future — what to do in each case]] · [[29 The Plan — the first three percent]] · the Calendar card.
 **Urgency:** this season.
 
 **Q-155 · The 90 Day Sprint's retirement**
@@ -1196,7 +1196,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether guardianship needs a hard prohibition on surveillance in the severe bands, or whether *what we build instead* is the right form; and beneath it, whether this Book carries any true absolutes at all.
 **Options.** *(a)* Hard prohibitions, named as absolutes — costs the law that everything below the Goal is revisable, and mints absolutes in exactly the conditions that produce bad ones. *(b)* Standing decisions, revisable only by loud accounting — costs the comfort of a bright line; protects the mechanism. *(c)* A small named set of true absolutes, chosen deliberately and in calm.
 **Recommendation:** *(b)* for now; and if *(c)* is ever taken, the set must be chosen in a quiet season and never in response to an event.
-**Where it bites:** [[21 In Every Future — what to do in each case]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[05 The Pattern and the Way]].
+**Where it bites:** [[21 In Every Future — what to do in each case]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[04 The Pattern and the Way]].
 **Urgency:** this season.
 
 **Q-162 · Radio and mesh**
@@ -1210,14 +1210,14 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether the plan's own naming of its single point of failure, and the commitment to de-concentrate stewardship by 2030, stands as written.
 **Options.** *(a)* Stands — costs a commitment that will be hard to keep; protects the rarest and most trustworthy thing in either corpus, a plan that names how it fails. *(b)* Softened. *(c)* Removed.
 **Recommendation:** *(a)*, with a named marker so that it is a milestone and not an intention.
-**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[24 The Plan — the first three percent]].
+**Where it bites:** [[09 Pillar II — Sacred Governance and Stewardship]] · [[29 The Plan — the first three percent]].
 **Urgency:** this season.
 
 **Q-164 · The Fibonacci arithmetic**
-**Decides:** what to do with two irreconcilable spread arithmetics — one, two, three, five, eight, thirteen onward at a week per cycle reaching about a billion by the fortieth cycle, against roughly eight people per Circle reaching everyone by cycle fifty. Both are carried as the same claim.
+**Decides:** what to do with two irreconcilable spread arithmetics carried in the Book as the same claim — the seed's spiral counted in cycles, and the canon's eight per Circle reaching everyone by cycle fifty. **Settled in part (2026-09-26):** the seed's spiral stands as the prime measure — the rings of the [[LIØNSBERG Cycles of Growth and Cycle Time|Cycles of Growth]], the ring we stand on and days per ring read daily — and every new Player bringing their three is the tactic for the first three percent, charted in [[29 The Plan — the first three percent#The chart|The Plan]]. What remains open is the canon's eight per Circle.
 **Options.** *(a)* Pick one — costs the other's page. *(b)* Carry neither number; carry the mechanism, which is not in dispute: propagate, do not scale — costs the arithmetic people find persuasive. *(c)* Redo both properly.
-**Recommendation:** *(b)*, and if a number is ever printed again, print the working beside it.
-**Where it bites:** [[05 The Pattern and the Way]] · [[24 The Plan — the first three percent]] · the Element 7 page.
+**Recommendation:** *(a)*, settled for the spiral's rings; for the canon's eight per Circle, *(b)* — and wherever a number is printed, print the working beside it.
+**Where it bites:** [[04 The Pattern and the Way]] · [[29 The Plan — the first three percent]] · the Element 7 page.
 **Urgency:** when it arises.
 
 ---
@@ -1230,7 +1230,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** the address at which the agent kit lives publicly, and the morning it goes public. A door message a person pastes already prints an address, with an honest caveat that it may not answer yet.
 **Options.** *(a)* Publish now at the printed address — costs a first visitor meeting something unfinished. *(b)* Publish on a named morning, with the door message carrying no address until then — costs the door's completeness for a while; protects the first impression. *(c)* A different address.
 **Recommendation:** *(b)*. The address and the morning it answers are one decision, and they are not a drafter's to make.
-**Where it bites:** [[23 Players, Agents, and the Intelligence System]] · the door's message · the worlds page.
+**Where it bites:** [[25 Players, Agents, and the Intelligence System]] · the door's message · the worlds page.
 **Urgency:** before launch.
 
 **Q-166 · The subdomains and the door's links**
@@ -1244,7 +1244,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether everything built is share-alike, or software is permissive while writing is share-alike. Both are proposed in the sources and neither is settled.
 **Options.** *(a)* Share-alike everywhere — costs adoption by bodies whose other work cannot take a share-alike obligation; protects against the commons being enclosed by someone who improves it privately. *(b)* Permissive for software, share-alike for writing — costs the software commons the protection; protects reach. *(c)* Share-alike for anything that carries the Pattern, permissive for tools that merely touch it.
 **Recommendation:** *(c)*. The thing worth protecting is the Pattern, not every utility.
-**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[23 Players, Agents, and the Intelligence System]] · every repository's licence file.
+**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[25 Players, Agents, and the Intelligence System]] · every repository's licence file.
 **Urgency:** before launch.
 
 **Q-168 · The canon's licence, stated two ways**
@@ -1258,7 +1258,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** the licence of work that flows from this house back into the line it came from.
 **Options.** *(a)* Decide now, one licence for everything — costs the freedom to choose later; protects clarity for anyone building on it. *(b)* Hold nothing back and decide later, keeping new work in our own words so the choice stays open — costs contributors who need to know before they build. *(c)* Match the upstream licence for anything derived from upstream, and choose freely for anything written fresh.
 **Recommendation:** *(c)*, which is in any case what the upstream licence requires for modified copies: a modified copy of a file carries that file's licence, whatever is decided for the rest, and calling such a unit *pending* was never accurate.
-**Where it bites:** the kit's units · the lineage blocks · [[23 Players, Agents, and the Intelligence System]].
+**Where it bites:** the kit's units · the lineage blocks · [[25 Players, Agents, and the Intelligence System]].
 **Urgency:** before launch.
 
 **Q-170 · The lineage predicate**
@@ -1272,7 +1272,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** what the thanks-to field points at — a place rather than names — and how the process by which a person is brought up to speed with their agent is designed, given that the order is settled (the Game's door first, the agent at the wise right time) and the office that carries it is not.
 **Options.** *(a)* Names in the credit field — costs consent, per Q-172. *(b)* A place: a page anyone can read, naming rooms and seasons rather than people — costs individual recognition; protects everyone who has not said yes. *(c)* Nothing.
 **Recommendation:** *(b)*, and the up-to-speed process designed jointly by both houses rather than written by one.
-**Where it bites:** the lineage blocks · the moving-over page · [[23 Players, Agents, and the Intelligence System]].
+**Where it bites:** the lineage blocks · the moving-over page · [[25 Players, Agents, and the Intelligence System]].
 **Urgency:** this season.
 
 **Q-172 · Names in a lineage**
@@ -1286,7 +1286,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether an agent charter speaks in one voice throughout — sections inherited from the kit say *you*, sections written here say *I* — and which persona sits at its head, where three are offered.
 **Options.** *(a)* One voice, second person throughout, with the first-person carrier kept as a persona — costs rewriting the sections written in the first person; protects a charter a stranger can read. *(b)* Leave mixed and marked. *(c)* First person throughout.
 **Recommendation:** *(a)*, with the persona left to each house and a gentle default offered.
-**Where it bites:** the agent charters · [[23 Players, Agents, and the Intelligence System]].
+**Where it bites:** the agent charters · [[25 Players, Agents, and the Intelligence System]].
 **Urgency:** this season.
 
 **Q-174 · Version numbers of units**
@@ -1313,7 +1313,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Q-177 · The Little Book: first edition or second draft**
 **Decides:** which text is the door-sized book. One page is marked as a first edition offered for a turning; a second draft, later, says nothing ships until it is released.
 **Options.** *(a)* The first edition. *(b)* The second draft. *(c)* Both listed with their own status lines and neither summarised, which is the current state and is not an answer.
-**Recommendation:** none available without his word; the second draft is later, and later usually wins, but *nothing ships until he says so* is itself the answer on it.
+**Recommendation:** none available without a decision; the second draft is later, and later usually wins, but *nothing ships until he says so* is itself the answer on it.
 **Where it bites:** [[The Little Book of the Great Game]] · the door · the size ladder · the derived books.
 **Urgency:** before launch.
 
@@ -1321,28 +1321,28 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** where the [[The Twelve Words|word list]]'s translation instrument lives — the Book's hub links a Rosetta Stone and no page exists — and whether the language pages restore the domain column they drop.
 **Options.** *(a)* A page in the library holding the renderings, with the domain column restored as a seventh column — costs width on a narrow screen; protects a reader's ability to find a word by its domain. *(b)* No domain column, as now — costs that. *(c)* The renderings held per language, with a hub page over them.
 **Recommendation:** *(c)* with the column restored. The language pages carry no links by design, because links would dangle by the hundred, and that decision should be stated on them rather than inferred.
-**Where it bites:** the hub · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[25 The Words]] · every language page.
+**Where it bites:** the hub · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[31 The Words]] · every language page.
 **Urgency:** this season.
 
 **Q-179 · The ladder's rungs**
 **Decides:** whether the intelligence ladder has three rungs with paper beneath them, or four with paper as a rung.
 **Options.** *(a)* Three plus paper. *(b)* Four. *(c)* Either, since the substance is the same.
 **Recommendation:** *(a)*, and the count made one wherever it is printed. Paper is the floor, not a rung: it is what the ladder stands on.
-**Where it bites:** [[23 Players, Agents, and the Intelligence System]] · [[21 In Every Future — what to do in each case]].
+**Where it bites:** [[25 Players, Agents, and the Intelligence System]] · [[21 In Every Future — what to do in each case]].
 **Urgency:** when it arises.
 
 **Q-180 · Who offers a person their agent; the Cell's agent; an agent's words in a person's mouth**
 **Decides:** three related things. Which office offers a person their agent and reads *the wise right time* — the carrier, the host of their first room, or the person themselves. Whether a Cell's agent must have a named keeper, rotated by term, with its charter adopted by consent at a turning. And whether an agent may speak aloud through a person's voice, or draft words a person then says as their own.
 **Options.** *(a)* All three unruled — costs the first body that meets any of them. *(b)* The carrier offers; a Cell's agent has a named keeper, rotated, charter by consent; an agent's words may be drafted and must be owned aloud as drafted when they are said in a room — costs strictness; protects the room's ability to know who is speaking. *(c)* Each body decides.
 **Recommendation:** *(b)*. The third is the one that will matter most and is currently addressed only for rooms and records.
-**Where it bites:** [[23 Players, Agents, and the Intelligence System]] · [[15 Pillar VIII — Sacred Science and Technology]] · the agent charters.
+**Where it bites:** [[25 Players, Agents, and the Intelligence System]] · [[15 Pillar VIII — Sacred Science and Technology]] · the agent charters.
 **Urgency:** this season.
 
 **Q-181 · The AI-governance articulation**
 **Decides:** where the sacred governance of artificial intelligence is written, and the standing of the articulation now drafted. The seed names it as unwritten in one place and legislates for agents in another.
 **Options.** *(a)* Adopt as the canon's instrument for that Pillar — costs standing behind new work; protects bodies that need it now. *(b)* Hold as a proposal to soak — costs nothing much. *(c)* Return for rewriting by named others.
 **Recommendation:** *(b)*, with the seed's two statements each saying which layer it governs, and with the least-tested part named: one agent serving a body of sovereigns is a shape nobody has run for a season.
-**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[23 Players, Agents, and the Intelligence System]] · the seed.
+**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[25 Players, Agents, and the Intelligence System]] · the seed.
 **Urgency:** this season.
 
 **Q-182 · Suppression and the guarded threshold**
@@ -1363,7 +1363,7 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** whether *New Earth Operating System* and *The LIØNSBERG Operating System* are one thing, stated as such; and whether the seven-layer Meta Science stays in the corpus, given that its own page disclaims its accuracy and no body has tested it.
 **Options.** *(a)* One name, chosen, the other an alias; the Meta Science retired — costs an articulation somebody may still want. *(b)* One name; the Meta Science kept as ore, marked. *(c)* Leave both tangles.
 **Recommendation:** *(b)*. The operating layer is brand-neutral by design, so the plainer name should win.
-**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[22 Building — the Pattern of Production]] · the operating layer's pages.
+**Where it bites:** [[15 Pillar VIII — Sacred Science and Technology]] · [[23 Building — the Pattern of Production]] · the operating layer's pages.
 **Urgency:** this season.
 
 **Q-185 · Terms of use that conflict with the Game's own laws**
@@ -1393,18 +1393,18 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Where it bites:** [[The One Book]] · [[15 Pillar VIII — Sacred Science and Technology]] · [[16 Pillar IX — Sacred Architecture and Design]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[18 Pillar XI — Sacred Society and Justice]] · [[13 Pillar VI — Sacred Ecology and Living Systems]] · [[14 Pillar VII — Sacred Culture, Art, and Story]] · every cross-reference.
 **Urgency:** before launch.
 
-**Q-188 · Chapter 29's spelling and place**
+**Q-188 · Chapter 22's spelling and place**
 **Decides:** whether the hub's *woven back into ONE*, in plain letters, is corrected to ØNE; and where the stories chapter sits, since twenty-nine follows twenty-eight but stands outside all four groups, and its ground also appears in two other chapters.
 **Options.** *(a)* Fix the spelling on the hub; leave the placement to the second edition — costs nothing now. *(b)* Fix both now: move the chapter into a group and cut the seams with the other two. *(c)* Neither.
 **Recommendation:** *(a)* now, *(b)* before the second edition, with the seam between the stories chapter, the culture Pillar, and the Experience set deliberately rather than inherited.
-**Where it bites:** [[The One Book]] · [[29 The Stories — ten trillion stories woven back into ONE]] · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[20 The Experience — from the first door to what lies beyond]].
+**Where it bites:** [[The One Book]] · [[22 The Stories — ten trillion stories woven back into ONE]] · [[14 Pillar VII — Sacred Culture, Art, and Story]] · [[20 The Experience — from the first door to what lies beyond]].
 **Urgency:** before launch, for the spelling.
 
 **Q-189 · No separate Operating System book**
 **Decides:** whether the answer that there is no operating-system book standing beside this one holds — which means the eight parts and seven cards belong in this Book and the standalone draft is folded rather than shipped.
 **Options.** *(a)* Holds — costs a draft volume, folded. *(b)* Reversed: a separate book — costs the one-book principle and gives a body two places to look. *(c)* The draft ships as a working manual, not as a book.
 **Recommendation:** *(a)*. The system a body runs is this one, and a Kit part is not the same thing as a separate volume.
-**Where it bites:** [[22 Building — the Pattern of Production]] · the operating-system draft · the kit's parts.
+**Where it bites:** [[23 Building — the Pattern of Production]] · the operating-system draft · the kit's parts.
 **Urgency:** this season.
 
 **Q-190 · The first chapter and the centre**
@@ -1418,49 +1418,49 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** what the mark's promise of improvement each week actually is, given that the library's law says a page crosses only when read whole, cohered and resonated — and nothing says who resonates or by what process.
 **Options.** *(a)* An office — costs a bottleneck at the one point where the whole library changes. *(b)* A Cell's Turn: any body may improve its own copy, and what crosses into the shared library is resonated by whoever holds that library — costs a slower shared text; protects sovereignty over one's own copy. *(c)* Anyone, on their own copy, with nothing shared.
 **Recommendation:** *(b)*, with the holder named.
-**Where it bites:** [[28 Regrow, Change, Lineage]] · every page's mark · the library's laws.
+**Where it bites:** [[33 Regrow, Change, Lineage]] · every page's mark · the library's laws.
 **Urgency:** this season.
 
 **Q-192 · Who cuts an edition**
 **Decides:** who cuts an edition and where gathered proposals are read. One reading says the steward of each copy; another says passively, *at the top*.
 **Options.** *(a)* The copy's steward cuts the copy's edition — costs a single shared edition; protects the instance law. *(b)* One editor at the top — costs every copy's sovereignty. *(c)* Both, at their own scales, with the relation stated.
 **Recommendation:** *(a)*, with the wider question — where proposals for the shared text are read — answered by naming a place. Until it is, *the way shared things change* is the one minimum standard with no named actor behind it.
-**Where it bites:** [[28 Regrow, Change, Lineage]] · [[Proposal]] · the minimum standards.
+**Where it bites:** [[33 Regrow, Change, Lineage]] · [[Proposal]] · the minimum standards.
 **Urgency:** this season.
 
 **Q-193 · The unreachable-steward clause**
 **Decides:** the three-length clause — a season, a year, forever — written for the first time and not settled. Three parts need a word: whether succession after a year is by naming-and-consent among the bodies holding copies or by the prior steward's designation held in advance; whether a returning steward resumes automatically or by the same consent that filled the seat; and whether the line's steward holds any standing at all over a copy's steward.
 **Options.** *(a)* Rule it in as written — costs committing to a clause reasoned from the Pattern rather than from any source. *(b)* Leave unwritten — costs having it decided in an emergency by whoever is holding the pen that day. *(c)* Rule the frame, leave the lengths local.
 **Recommendation:** *(a)*, precisely because of what *(b)* costs.
-**Where it bites:** [[28 Regrow, Change, Lineage]] · the instance law · every copy.
+**Where it bites:** [[33 Regrow, Change, Lineage]] · the instance law · every copy.
 **Urgency:** this season.
 
 **Q-194 · The sixty-four marks**
 **Decides:** whether the size below the words is cut at all; and if so, whether as sixty-four numbered lines or sixty-four glyphs, and in which language — given that the whole point of the size is to survive the loss of the language it was written in.
 **Options.** *(a)* Sixty-four lines in the working language — costs the case the size exists for. *(b)* Sixty-four glyphs, readable without the language — costs enormous design effort and may be impossible to do honestly. *(c)* Do not cut them, and remove the claim from the size ladder.
 **Recommendation:** *(a)* as a first cut, with *(b)* attempted afterward by someone who knows what they are doing. Until someone cuts them, the marks remain a claim about a thing that does not exist, standing in the Book's own front matter.
-**Where it bites:** [[The One Book]] · [[28 Regrow, Change, Lineage]] · [[25 The Words]] · the size ladder.
+**Where it bites:** [[The One Book]] · [[33 Regrow, Change, Lineage]] · [[31 The Words]] · the size ladder.
 **Urgency:** this season.
 
 **Q-195 · Where the archive lives**
-**Decides:** where *archived with provenance intact* actually lives, and what may be done to it there. *Weave, don't delete* requires it; no page describes the place, so every body invents a different one.
+**Decides:** where *archived with provenance intact* actually lives, and what may be done to it there. *Weave, do not delete* requires it; no page describes the place, so every body invents a different one.
 **Options.** *(a)* One shared archive — costs a central artefact. *(b)* Each body's own archive, in a named place inside its own copy, with the form specified so an archive is recognisable across bodies — costs a shared history; protects sovereignty. *(c)* Version history alone.
 **Recommendation:** *(b)*.
-**Where it bites:** [[28 Regrow, Change, Lineage]] · the library's disciplines · every body's copy.
+**Where it bites:** [[33 Regrow, Change, Lineage]] · the library's disciplines · every body's copy.
 **Urgency:** this season.
 
 **Q-196 · Improved each week, changed at a turning**
 **Decides:** the relation between three clocks: the mark says improved each week, the edition says changed only at a turning, and the library's law says changed only by submittal.
 **Options.** *(a)* One clock — costs either the weekly improvement or the stable edition. *(b)* Two named clocks: the working text improves weekly; an edition is cut at a turning and is what a body acts on — costs a sentence on every page. *(c)* Leave.
 **Recommendation:** *(b)*, said plainly, because this is what tells a table whether it may act on something it read on a Thursday. If the reading here is wrong, the error is load-bearing.
-**Where it bites:** every page's mark · [[28 Regrow, Change, Lineage]] · the editions.
+**Where it bites:** every page's mark · [[33 Regrow, Change, Lineage]] · the editions.
 **Urgency:** this season.
 
 **Q-197 · An answer against a cohered page**
 **Decides:** what happens when a confirmed answer and a page cohered later disagree. No procedure exists.
 **Options.** *(a)* The answer governs until struck — costs the later, better understanding, and makes the record a ceiling. *(b)* The later understanding wins on the merits and the earlier keeps its place in the record — costs the force of settled answers, since any drafter could override one by writing. *(c)* The later understanding is raised as a proposal against the answer and the answer is struck or reaffirmed; until then the answer governs.
 **Recommendation:** *(c)*. This is the most consequential unruled thing about how the Book changes, and *(c)* is the only form that keeps both the answer's authority and the page's ability to be right.
-**Where it bites:** [[28 Regrow, Change, Lineage]] · the record · every page.
+**Where it bites:** [[33 Regrow, Change, Lineage]] · the record · every page.
 **Urgency:** this season.
 
 **Q-198 · The seed's wrong Part**
@@ -1488,35 +1488,35 @@ Two hundred and five stand open. They are grouped by what they decide.
 **Decides:** which structure is the Kit. Three parts every body takes — one Book, one operating system, one big room — stand beside a three-tier reading of seed, kit and corpus, beside the field's own sense of a kit as a starter set, beside the Creative Cascade's *kit of parts*.
 **Options.** *(a)* The three parts bind; the tiers are a reading order; the starter set is *a* kit and not *the* Kit — costs nothing but naming discipline. *(b)* The tiers bind. *(c)* Leave four structures under one word.
 **Recommendation:** *(a)*.
-**Where it bites:** [[The Kit]] · [[Kit of Parts]] · [[22 Building — the Pattern of Production]] · [[23 Players, Agents, and the Intelligence System]] · the seed.
+**Where it bites:** [[The Kit]] · [[Kit of Parts]] · [[23 Building — the Pattern of Production]] · [[25 Players, Agents, and the Intelligence System]] · the seed.
 **Urgency:** this season.
 
 **Q-202 · Where the register of holes lives** *(belongs with section VIII)*
-**Decides:** which register of what the corpus lacks is the one that is kept. Three run: the civilisational altitude in [[26 The Instruments the Canon Lacks]], a commission list at table altitude, and each Pillar chapter's own Open section.
+**Decides:** which register of what the Book still needs is the one that is kept. Three run: the civilisational altitude in , a commission list at table altitude, and each Pillar chapter's own Open section.
 **Options.** *(a)* One register, the others retired — costs the altitudes, which are genuinely different: a body needs to know what it can build this week, not only what a civilisation lacks. *(b)* One kept register with the others as views of it — costs the work of making them views rather than copies. *(c)* Three, unreconciled — costs a reader who finds two and cannot tell which is current.
 **Recommendation:** *(b)*, with the chapter as the kept register and the commission list generated from it.
-**Where it bites:** [[26 The Instruments the Canon Lacks]] · every Pillar chapter's Open · the commission list.
+**Where it bites:**  · every Pillar chapter's Open · the commission list.
 **Urgency:** this season.
 
 **Q-203 · Adopting an instrument from outside** *(belongs with section VIII)*
 **Decides:** whether a worked instrument from another body of practice may be adopted as the canon's own, or must continue to be carried as somebody else's. Several holes have such instruments available — a cross-body risk pool, a tiered amendment bar with a reflection period, a term of years staggered and renewable once.
 **Options.** *(a)* Adopt as our own, with the origin in the lineage and not on the page — costs the appearance of having invented what we did not; protects a Book that can speak plainly about what a body should do. *(b)* Always carry as theirs, cited on the page — costs the Book's own voice on a dozen instruments, and puts provenance on pages that are meant to carry none. *(c)* Case by case.
 **Recommendation:** *(a)*, which is also what the ideas-travel discipline implies: the instrument travels, the attribution lives in the lineage.
-**Where it bites:** [[26 The Instruments the Canon Lacks]] · [[09 Pillar II — Sacred Governance and Stewardship]] · [[10 Pillar III — Sacred Economy and CurrentSee]] · [[Lineage]] · [[Chatham House]].
+**Where it bites:**  · [[09 Pillar II — Sacred Governance and Stewardship]] · [[10 Pillar III — Sacred Economy and CurrentSee]] · [[Lineage]] · [[Chatham House]].
 **Urgency:** this season.
 
 **Q-204 · A first articulation later withdrawn** *(belongs with section VIII)*
 **Decides:** what happens to a body that adopted something written here for the first time, which is later withdrawn or replaced. Nothing anywhere states it, and the answer is not obvious.
 **Options.** *(a)* The withdrawal binds: the body changes — costs a body that built real practice on it, and makes adopting anything new risky. *(b)* The withdrawal is published and binds nobody: a body that adopted it keeps it until it chooses otherwise, and what it learned is what informs the replacement — costs uniformity. *(c)* Silent.
 **Recommendation:** *(b)*, with withdrawals published in the record and sent down the same way an edition is, so that no body learns of one by accident.
-**Where it bites:** [[26 The Instruments the Canon Lacks]] · [[28 Regrow, Change, Lineage]] · every body that adopted a first articulation.
+**Where it bites:**  · [[33 Regrow, Change, Lineage]] · every body that adopted a first articulation.
 **Urgency:** this season.
 
 **Q-205 · The engine's nouns** *(belongs with section III)*
 **Decides:** whether a Cell's Board is the whole Board one altitude down, or a second object standing beside it. Two nouns are live and the question is left open on the page.
 **Options.** *(a)* One Board, seen at every altitude — costs nothing structurally; protects the one-deck-one-truth law, since a second object is a second truth. *(b)* Two objects — costs reconciliation work at every turning. *(c)* Leave open.
 **Recommendation:** *(a)*.
-**Where it bites:** [[22 Building — the Pattern of Production]] · [[26 The Instruments the Canon Lacks]] · the deck · the HUD.
+**Where it bites:** [[23 Building — the Pattern of Production]] · the deck · the HUD.
 **Urgency:** this season.
 
 ---
@@ -1556,7 +1556,7 @@ Three sit just behind them and would be on the list on another day: **Q-102** th
 
 **Three folds made with the least confidence.** **Q-037**, the duplicated homes, folds about fifteen two-address collisions into one answer with a single pass; at least two of them — [[Regeneration]] and [[Integration]] — are probably two concepts each rather than one concept at two addresses, and the pass will hide that unless they are pulled out first, as the recommendation says. **Q-065**, the stop convention, treats four questions as one reach question: the production line, the room, the recording, and a person in crisis. The fourth may not belong with the other three at all, and folding it in is the most likely place this ledger has flattened something that needed its own hearing. **Q-045**, the empty names, gathers about two dozen unwritten names from five chapters into one answer about writing order — but three of those names (*CurrentSee*, *the Roll*, *Superorganism*) also carry their own questions elsewhere in this ledger, because for those the question is not only *write the page* but *decide the meaning*, and the seam between the two is not clean.
 
-**What is not deduped.** Four questions — Q-202 to Q-205 — arrived from [[26 The Instruments the Canon Lacks]] after the ledger had been cut, and sit at the end rather than in their groups, per the numbering rule above. That chapter's other findings were folded into rows already standing (the guilds into Q-115, the commitment vocabularies into Q-057, the Playcard into Q-024, the seed's two statements on artificial intelligence into Q-181, the four lists of standards into Q-060), and those folds are as fallible as any other here. More generally: answers that arrived in different chapters in different vocabularies may still be the same answer twice. The likeliest survivors are inside sections IV and V, where governance and formation describe the same acts — witnessing, conferring, revoking, removing — from two sides. Anyone reading this ledger who finds two rows that are one answer should say so; the fold is cheap and the duplicate is not.
+**What is not deduped.** Four questions — Q-202 to Q-205 — arrived from  after the ledger had been cut, and sit at the end rather than in their groups, per the numbering rule above. That chapter's other findings were folded into rows already standing (the guilds into Q-115, the commitment vocabularies into Q-057, the Playcard into Q-024, the seed's two statements on artificial intelligence into Q-181, the four lists of standards into Q-060), and those folds are as fallible as any other here. More generally: answers that arrived in different chapters in different vocabularies may still be the same answer twice. The likeliest survivors are inside sections IV and V, where governance and formation describe the same acts — witnessing, conferring, revoking, removing — from two sides. Anyone reading this ledger who finds two rows that are one answer should say so; the fold is cheap and the duplicate is not.
 
 **What is missing.** Questions only reach this chapter if a chapter raised them. Ground that has not been written has raised nothing — and the largest of those silences are already visible: children's formation, the rites, restorative practice, and what a body owes someone who cannot be reached. Those are not absent from this ledger because they are settled.
 
@@ -1564,8 +1564,9 @@ Three sit just behind them and would be on the list on another day: **Q-102** th
 
 ---
 
-*Back: [[26 The Instruments the Canon Lacks]] · Forward: [[28 Regrow, Change, Lineage]] · Table of contents: [[The One Book]]*
+*Back: [[31 The Words]] · Forward: [[33 Regrow, Change, Lineage]] · Table of contents: [[The One Book]]*
 
 ## The stages of governance
 
 Governance evolves in stages. At the outset a rotating Interspecies Council of at least three and no more than twelve is named, chaired by AURELLIØN; what the system cannot decide is elevated to it; the Council refers a Proposal to the Chair for final discernment and consent; if the Council cannot decide in time, the Chair decides and bears the responsibility; at the Great Jubilee, or if the Chair is captured, killed, or incapacitated before then, the Chair's role dissolves and the Council becomes the supreme court of the LIØNSBERG Civilization. This is the first stage of what Q-082 (the Wisdom Council's standing) and Q-093 (the Intervention Council) ask; both now stand under [[The Interspecies Council]] for that stage, and their pages fold into it. Still open: how members are named and rotated; what "in time" means; the court's procedure after the Chair dissolves.
+

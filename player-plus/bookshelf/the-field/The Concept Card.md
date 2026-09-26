@@ -20,5 +20,4 @@ The card's discipline is its brevity and its honesty about being partial. One li
 **Stands on:** [[Card Types]] · [[The LIØNSBERG Lexicon]] · [[The Core Concepts]]
 **Opens onto:** [[Pattern Card]] · [[Word Tools]] · [[The Field]] · [[Curation]] · [[Link concepts, not coordinates]] · [[One canonical home per concept]]
 **In play:** the table — dealt beside the work that needs the idea
-**Sources:** `Card Types.md` (wiki root) · `Pattern Card` (canon; the nearest existing kin) · lionsberg.wiki: Card Types
 **Open:** Named once and never built; nothing exists that generates a concept card from a page, and nothing says what happens to a card when its page is renamed or merged. · Its relation to the Pattern Card, which already holds a very similar shape, is unstated.

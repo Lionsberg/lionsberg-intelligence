@@ -22,5 +22,4 @@ The weakness belongs on the page, because it is the same one every receivership 
 **Stands on:** [[The Program Delivery Guide]] · [[The Meta Crisis]] · [[Legitimacy]]
 **Opens onto:** [[Integrated Project Delivery]] · [[Last Planner System]] · [[Networks of Commitments]] · [[The Pattern Governs, Not People]] · [[The steering committee that dissolves itself]] · [[Worksite Earth]] · [[Subsidiarity]] · [[Convergent Streams of Discovery]]
 **In play:** beyond — the answer given when someone asks by what right any of this proceeds
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Receivership Parallel.md`
 **Open:** The Card names the individual practitioners behind the method and a research funding figure; neither is carried here — the method crosses, the roll does not, and the figure is the source's own and unverified. · The legal analogy breaks at the appointing court, which is the load-bearing part of a real receivership; the Card does not address it. · Whether "the Pattern is the receiver" is a genuine answer or a way of not naming who decides is left open.

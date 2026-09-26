@@ -20,5 +20,4 @@ In play, a [[Cell]] runs the whole element with almost nothing: agreements made 
 **Stands on:** [[Sovereignty]] · [[Consent]] · [[Field of Agreements]] · [[Wise Eldership]] · [[One Purpose Above All]]
 **Opens onto:** [[Consent-Based Decision-Making]] · [[Servant Leadership]] · [[Meaningful Objection]] · [[Term Limits And Rotation]] · [[Subsidiarity]] · [[The Two-Coordinator Rhythm]] · [[Participation]]
 **In play:** table — the way a Cell decides, from its first gathering
-**Sources:** *Democratic Self-Governance Through Shared Agreements and Wise Eldership* (root page; states it is the fourth irreducible element) · *Twelve Irreducible Elements* · *The Core Pattern* · *The LIØNSBERG Playbook*, Play — Govern Your Circle · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Democratic Self-Governance Through Shared Agreements and Wise Eldership
 **Open:** The root page's *In LIØNSBERG* section routes governance through *Ecclesia Led Self-Governance* and a *Meta Community*;

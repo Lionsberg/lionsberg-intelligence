@@ -19,5 +19,4 @@ The work, then, is refinement toward more faithful reflection — knowing the re
 **Stands on:** [[The Ineffable]] · [[ØNE]] · [[Current Best Articulation]]
 **Opens onto:** [[Current Best Understanding]] · [[Do Not Concretize the Absolute]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[Meta]] · [[Holarchy]] · [[Word Tools]] · [[On translating]]
 **In play:** At the Room and beyond, in how this corpus describes itself to other houses; at the table, as the permission to say *the word is not the thing* and keep working.
-**Sources:** `Essences, Renderings, And Ineffable Referents` · `Current Best Articulation` · `ØNE` · `Meta` (wiki root, canon-grade) · `The LIØNSBERG Lexicon`, Meta Layer. lionsberg.wiki: **Essences, Renderings, And Ineffable Referents**.
 **Open:** The Card's table names `The Map of LIØNSBERG` and `The LIØNSBERG Meta Science` as live renderings; both are referenced more than they are written, so parts of the architecture point at pages that do not yet carry a body.

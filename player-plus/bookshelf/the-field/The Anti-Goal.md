@@ -20,5 +20,4 @@ It carries one hard warning of its own: opposition is the most common way a body
 **Stands on:** [[The Goal]] · [[The compass question]] · [[Hell On Earth]]
 **Opens onto:** [[The Anti-Patterns]] · [[The Polarity Doctrine]] · [[Kontrolle]] · [[Drift]] · [[Evil]] · [[No False-Oppositional Framings]] · [[Design To The Goal]] · [[Waste]] · [[Demonstrate before advocating]]
 **In play:** beyond — the other end of the compass
-**Sources:** `The Goal`, `The Anti-Patterns` (wiki) · lionsberg.wiki: The Goal
-**Open:** A name in a list with no body anywhere; this is a first articulation and nothing in the canon states what the anti-goal is. · Whether it should be written at all is part of the undecided [[The Polarity Doctrine|polarity question]].
+**Open:** A name in a list with no body anywhere; this is a first articulation and what the anti-goal is remains unstated. · Whether it should be written at all is part of the undecided [[The Polarity Doctrine|polarity question]].

@@ -54,7 +54,7 @@ The six rungs are the ladder of [[The Words in the Order You Meet Them]]: the do
 - **[[09 Agent Engineering]]** · When your agent keeps missing you, find what it read that caused the miss, change that, test the change, and write one dated line in the [[Change log|change log]]. *Handed:* after the third miss of the same kind. *Served by:* `test-a-charter-edit`, `widen-a-boundary`, `review-and-prune`, `check-my-setup`, `foreground-background`.
 - **[[10 Advanced Agent Engineering]]** · Choose who your agent is for you, write it where it will hold, and see with your own eyes whether it took. *Handed:* when the repair of one behavior turns into a question of character. *Served by:* `test-a-charter-edit`, `make-a-skill`, `choose-a-name`.
 - **[[18 Read the Story]]** · Read the Story with someone, aloud, so that what arrives is a telling at a low fire and not a lecture. *Handed:* on a first day, or when a table sets aside ten minutes for the telling. *Served by:* `read-the-story-aloud`.
-- **[[20 Pass the Flame]]** · Hand the whole of it to the two or three you already know are ready, within the week, and press it on nobody. *Handed:* when the two or three are named. *Served by:* `pass-the-flame`.
+- **[[20 Pass the Flame]]** · Hand the whole of it to your three, whom you already know are ready, within three days, and press it on nobody. *Handed:* when the three are named. *Served by:* `pass-the-flame`.
 
 ### Beside every rung
 
@@ -103,7 +103,7 @@ Thirty-two folders. Twenty-two are the [[The Kit|kit]]'s, taken as they are; nin
 | `the-season-sheet-by-hand` | Holds the [[Season]]'s sheet kept by hand first and by the agent second, reading back what the person wrote rather than filling it for them. | 15, 16 | the Game's own |
 | `the-offering` | Keeps the [[The Offering|Offering]] at the weekly Turn without setting an amount, naming a person, or comparing one to another. | 15 | the Game's own |
 | `read-the-story-aloud` | Reads [[THE STORY]] with a person or a table, at the depth they are at, stopping where they stop, handing each word the first time it is met and not before. | 18 | the Game's own |
-| `pass-the-flame` | Helps a person give the whole seed to the two or three they know are ready, within the week, and helps those form a new and complete [[Cell]] that owes this house nothing. Never invites on their behalf. | 20 | the Game's own |
+| `pass-the-flame` | Helps a person give the whole seed to their three who are ready, within three days, and helps those form a new and complete [[Cell]] that owes this house nothing. Never invites on their behalf. | 20 | the Game's own |
 | `the-retrospective` | Drafts the weekly look-back, written about the agent by something other than the agent: what did we do well, what can we do better, and actions with an owner each. | 12, 14, 15 | the Game's own |
 
 ### Memory and records

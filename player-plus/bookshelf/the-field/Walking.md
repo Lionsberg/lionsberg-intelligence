@@ -20,5 +20,4 @@ The tell that the discipline has lapsed is simple enough to check. The legs feel
 **Stands on:** [[Vitality]] · [[Breath]] · [[Discipline]] · [[The Daily Way]]
 **Opens onto:** [[Moving]] · [[Tending]] · [[Focused Attention As Discipline]] · [[Silence And Stillness As The Ground]] · [[Earth]] · [[Right Relationship]] · [[Pillar V — Sacred Health and Wellness]]
 **In play:** the Gate, and every ordinary day after it — a Cell that walks together is also a Cell that talks
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Pattern Language/Patterns/Walking.md` (drafted Pattern Card, ten sections) · the same Language's *Patterns Pending Articulation* (working document, lists it among the drafted) · lionsberg.wiki: Walking
-**Open:** The card composes with a breathing Pattern that has been archived and folded elsewhere, so that link does not resolve in the canon as it stands. · The minimum — thirty minutes — is a reasoned figure offered as a floor, not a measurement.
+**Open:** The card composes with a breathing Pattern that has been archived and folded elsewhere, so that link does not resolve as this stands. · The minimum — thirty minutes — is a reasoned figure offered as a floor, not a measurement.

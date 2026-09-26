@@ -20,5 +20,4 @@ In play, the everyday form is smaller and more usable: the [[Sighting]] — what
 **Stands on:** [[Mystery]] · [[Consciousness]] · [[Source]]
 **Opens onto:** [[Prophecy]] · [[Gnosis]] · [[Transmission]] · [[Scripture]] · [[Living Word]]
 **In play:** Met at the table as a Sighting, weighed by the Cell; met beyond, in the Ascent, where the receiving is trained.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the unveiling of Truth through direct experience, sacred texts, prophetic insight, or spiritual communion") · *Pillar I — Sacred Ontology and Metaphysics*, thesis 6 · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, the Energetic Layer (Receiving Transmission · Testing Transmission Against The Logos) · lionsberg.wiki: *Pillar I — Sacred Ontology and Metaphysics*.
 **Open:** The Lexicon row is one line and there is no page for Revelation anywhere; the testing discipline that makes it safe is named in the Pattern Language but has no body either.

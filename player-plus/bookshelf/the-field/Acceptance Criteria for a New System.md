@@ -22,5 +22,4 @@ A second and different list of acceptance criteria exists elsewhere in the corpu
 **Stands on:** [[Conditions of Acceptance]] · [[Conditions of satisfaction]] · [[Discernment]]
 **Opens onto:** [[The Non-Attachment Clause]] · [[The Test of Belonging]] · [[The Discernment Permission]] · [[Throughput]] · [[Sovereignty At Every Scale]] · [[The Dashboard of Civilization]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]] · [[The forging criterion]]
 **In play:** the door — run by a Cell against anything it is considering joining, this one included
-**Sources:** `LIØNSBERG Wiki Books/Beyond The Meta Crisis/6.5 Acceptance criteria for the New System and Approach.md`
 **Open:** Several criteria are dated to 2023 and to a seven-year window, and the list has not been revised since. · Two different acceptance-criteria lists exist in the corpus and are cross-referenced without being reconciled. · No criterion is falsifiable as written — none says how it would be judged met.

@@ -22,5 +22,4 @@ Used honestly it is a subtraction tool as much as a selection one. Finding the f
 **Stands on:** [[A Few]] · [[Root Causes]] · [[Theory Of Constraints]] · [[Value]]
 **Opens onto:** [[One moves a few, a few moves 3%, 3% moves 20%, 20% moves 80%]] · [[Bottleneck]] · [[Limiting Factor]] · [[Waste]] · [[Meta System]] · [[Our Core Ways]] · [[Continuous Improvement]] · [[Attend To The Most Important Things First]] · [[Design To The Goal]] · [[Maximum reuse]]
 **In play:** the table — in any look-back that asks not *what went wrong* but *what few things decided this*
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/3. The 20%.md` · the same book's chapter 2 · lionsberg.wiki: The Wisdom of the Way
 **Open:** The chapter gives the proportion without a source; it is an inherited rule of thumb, not a finding of this corpus. · The results-conditions-systems-few chain is stated once and used nowhere else in the book.

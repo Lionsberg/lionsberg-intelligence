@@ -18,5 +18,4 @@ It is run inside the ordinary rhythm rather than beside it: the look-ahead rolle
 **Stands on:** [[The look-ahead]] · [[Constraint]]
 **Opens onto:** [[Commitment]] · [[SHOULD-CAN-WILL-DID]] · [[Kept as a share of made]] · [[Requests and offers]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized* (Element 11; *Make-Ready Process* named, body not yet written) · *The LIØNSBERG Operating System* §7 · *Constraint* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Make-Ready Process**
 **Open:** Named in the Pattern Language inventory with no page of its own; the articulation here is drawn from the OS and the constraint draft.

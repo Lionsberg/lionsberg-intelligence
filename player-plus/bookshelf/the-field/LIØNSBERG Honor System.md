@@ -22,5 +22,4 @@ Its paper floor is the oldest instrument there is: slips written at the turning 
 **Stands on:** [[Honor]] · [[Gift]] · [[Attribution]] · [[Gratitude]]
 **Opens onto:** [[LUV]] · [[TimeEnergy]] · [[The Score]] · [[The HUD]] · [[Pass The Flame]] · [[Celebration]] · [[The Offering]] · [[Proof-of-contribution]]
 **In play:** the table — given at the turning, read aloud
-**Sources:** `Projects/the term pages/LIØNSBERG Honor System.md` · `LIØNSBERG Units of Value` (wiki) · lionsberg.wiki: LUV
 **Open:** The size of the allotment is left to the body and nothing proposes a number. · Whether honour may be given to a Cell as a body, or only to people and to work, is unstated. · The everyday lowercase *honour system* — contributions given on trust rather than policed — means something else entirely and shares the words.

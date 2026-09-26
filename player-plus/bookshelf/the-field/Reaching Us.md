@@ -8,7 +8,7 @@ pillar: —
 
 *The short list of ways to reach a person in the Game when you need one.*
 
-No one plays alone, and no one wanders lost. The first door is the hand that reached you: the one who invited you, who will answer anything and who one day you become for the two or three you invite. If you arrived without an inviter, the public letter is your inviter — subscribe, and a reply reaches a person. Beyond those stand the orientation gatherings, which exist precisely for questions, and the shared platform whose link arrives through the doors above rather than by broadcast, with a visible way to ask for help.
+No one plays alone, and no one wanders lost. The first door is the hand that reached you: the one who invited you, who will answer anything and who one day you become for the three you invite. If you arrived without an inviter, the public letter is your inviter — subscribe, and a reply reaches a person. Beyond those stand the orientation gatherings, which exist precisely for questions, and the shared platform whose link arrives through the doors above rather than by broadcast, with a visible way to ask for help.
 
 It is load-bearing because a way that spreads hand to hand can leave someone stranded between hands. A person whose Carrier has gone quiet, or who found the Game on their own, needs a path that is short and written down. Naming it also keeps the membrane honest: the way in opens by invitation and not by broadcast, and the help button is the compensating door so that nobody is shut out by the same membrane that keeps the rooms coherent.
 
@@ -20,5 +20,4 @@ An agent may help a person find the right door and may draft the message. It doe
 **Stands on:** [[The Invitation]] · [[Carrier]] · [[Selectively Permeable Membrane]] · [[Pass The Flame]]
 **Opens onto:** [[Door note]] · [[The Arc of Play]] · [[Pain (as signal)]] · [[Guide]] · [[Welcome a Newcomer]]
 **In play:** door
-**Sources:** Player+ Modules, *Becoming a Player+*, *Lexicon* · lionsberg.wiki: *Reaching Us*, *Sponsorship*, *The LIØNSBERG Workshop* · The DNA of Heaven, Parts V and VI.
-**Open:** the canon page names particular channels that change over time; the doors are named here by kind rather than by address, so this page does not go stale.
+**Open:** particular channels change over time; the doors are named here by kind rather than by address, so this page does not go stale.

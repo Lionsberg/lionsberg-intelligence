@@ -18,5 +18,4 @@ How it is played. When you pass the Flame, say plainly that you are their Carrie
 **Stands on:** [[The Flame]] · [[Pass The Flame]] · [[The Circle Sheet]]
 **Opens onto:** [[Home Cell]] · [[The Season Sheet]] · [[Fibonacci Spread]] · [[Welcome a Newcomer]]
 **In play:** door · table · Home
-**Sources:** *The Twelve Words*, word 9 (current best understanding) · *The Circle Sheet*, "Our carrier never changes" (current best understanding) · *The Season Sheet*, line 2 (current best understanding) · *The LIØNSBERG Operating System* §3 · The DNA of Heaven, Parts V and XII · lionsberg.wiki: **The Circle Sheet**, **The Twelve Words**
 **Open:** Word 9 in the Little Book has no onward link to a page of its own — the Carrier is defined only inside the cards that use it. · Whether a Cell whose Carrier's Cell has dissolved rewrites line 2 or leaves it standing is not stated; the plain reading is that it stands.

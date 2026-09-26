@@ -20,5 +20,4 @@ In play a [[Cell]] meets the principle in miniature: the person who proposes is 
 **Stands on:** [[Right Use of Power]] · [[Sovereignty At Every Scale]] · [[Structural Immunity]] · [[Subsidiarity]]
 **Opens onto:** [[Power Of The Republic]] · [[Adjudication]] · [[Federal Governance]] · [[The LIØNSBERG Constitution]] · [[Centralization Of Power]] · [[Term Limits And Rotation]]
 **In play:** beyond — designed in before it is needed, felt only when it is missing
-**Sources:** *Separation Of Power* (legislative, executive, judiciary, from Mondragon, the United States, Switzerland) · *Vertical Protections* (root page; one line) · *Structural Immunity* (root page) · lionsberg.wiki: Separation Of Power
 **Open:** Two thin root pages carry the two halves, and neither references the other. How the three functions are actually constituted in a Cell, a supercell, or a federation is unwritten; the *Judicial Council* sketch is the only concrete instance found.

@@ -20,5 +20,4 @@ Two other compressions stand beside it and do different work. [[The one question
 **Stands on:** [[The Core Pattern]] · [[Twelve Irreducible Elements]] · [[The Golden Seed]]
 **Opens onto:** [[The one question]] · [[The Three Supreme Agreements]] · [[The Seven Moves]] · [[Receive The Seed]] · [[Pass The Flame]]
 **In play:** door
-**Sources:** *The Core Pattern* (canon-grade, §The Seed In One Sentence) · *THE DNA OF HEAVEN* Parts I and IV · lionsberg.wiki: The Core Pattern
 **Open:** none found

@@ -18,5 +18,4 @@ The phrase is the older, general name for the move; *supercell* is the word now 
 **Stands on:** [[Cell]] · [[Supercell]] · [[Home Cell]] · [[Holofractal Omnifederation]]
 **Opens onto:** [[The Playcard]] · [[The plan of the whole]] · [[Levels Of Scale]] · [[The Two-Stake Principle]] · [[Community of Communities]] · [[The Player]]
 **In play:** beyond the table
-**Sources:** The LIØNSBERG Operating System §1 and §17 · `Superorganism of Cells` · `The Twelve Words` 11 (canon-grade) · The DNA of Heaven, Part V · lionsberg.wiki: The LIØNSBERG Operating System
 **Open:** none found.

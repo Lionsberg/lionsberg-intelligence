@@ -20,5 +20,4 @@ What circulates is the innovation itself, freely. A solution discovered once any
 **Stands on:** [[Creativity]] · [[Discovery]] · [[Design To The Goal]] · [[Shu-ha-ri]]
 **Opens onto:** [[Prototyping]] · [[Proposal]] · [[Continuous Improvement]] · [[Knowledge as commons]] · [[Regeneration]]
 **In play:** the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table · *Pillar VIII — Sacred Science and Technology*, thesis 10 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Element 10 (canon-grade) · the seed's Part V, the proposal and the edition. lionsberg.wiki: Innovation.
 **Open:** *Innovation-In-Tradition* is a Lexicon alias with no page of its own; the "break the form only after you can hold it" discipline is carried under [[Shu-ha-ri]] in a different domain.

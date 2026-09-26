@@ -8,7 +8,7 @@ pillar: —
 
 *The small improvement anyone may make to their own work, reported so others get it too — and the same words name the repair that treats a symptom and hides its cause.*
 
-The canon's sense is the good one, and it is a grant of authority. Everyone doing the work is encouraged to keep looking for better ways to do it, and **every member of every team must be empowered to make the changes required to get a little better every day.** Not propose, not request — make. Then report the result to co-workers and to the wider body, so that a fix found once becomes available everywhere ([[Continuous Improvement]] · [[A Day Well Lived]] · [[Knowledge as commons]] · [[Improvement log]] · [[Learning By Doing]]).
+This sense is the good one, and it is a grant of authority. Everyone doing the work is encouraged to keep looking for better ways to do it, and **every member of every team must be empowered to make the changes required to get a little better every day.** Not propose, not request — make. Then report the result to co-workers and to the wider body, so that a fix found once becomes available everywhere ([[Continuous Improvement]] · [[A Day Well Lived]] · [[Knowledge as commons]] · [[Improvement log]] · [[Learning By Doing]]).
 
 That is load-bearing because the alternative is the ordinary arrangement, in which the people closest to a problem are the ones least permitted to fix it, and improvement has to travel up and back down through people who cannot see it ([[Subsidiarity]] · [[Sovereignty At Every Scale]] · [[Zero Blame Environment]]).
 
@@ -22,5 +22,4 @@ The reporting is what converts one into the other more often than any rule would
 **Stands on:** [[Continuous Improvement]] · [[Learning]] · [[Sovereignty At Every Scale]]
 **Opens onto:** [[Root Causes]] · [[Every Defect Is A Gift]] · [[Improvement log]] · [[The Anti-Patterns]] · [[Knowledge as commons]] · [[Retrospective]] · [[Zero Blame Environment]] · [[Tightly Coupled Learning and Action]]
 **In play:** the table and the daily work — the standing permission to improve what is in front of you, and the check on doing it badly
-**Sources:** `Quick Fixes` (root page, stub — the empowerment clause and the reporting expectation, drawn from the integrated-delivery inheritance) · `Continuous Improvement`, `Root Causes` (root pages) · lionsberg.wiki: Quick Fixes
-**Open:** The canon carries only the positive sense; the symptom-hiding sense is named here because the phrase carries it everywhere else and a reader will arrive with it. · The page mentions incentives for implementing and reporting fixes, and nothing in the canon says what those would be.
+**Open:** Only the positive sense is carried here; the symptom-hiding sense is named here because the phrase carries it everywhere else and a reader will arrive with it. · The page mentions incentives for implementing and reporting fixes, and nothing here says what those would be.

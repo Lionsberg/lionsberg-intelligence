@@ -22,5 +22,4 @@ The Element also carries the honesty that makes the loop work: cause is sought i
 **Stands on:** [[Twelve Irreducible Elements]] · [[Learning]] · [[Current Best Understanding]]
 **Opens onto:** [[Attend, Plan, Act, Learn, Improve Cycle]] · [[Observe · Orient · Decide · Act · Learn]] · [[Retrospective]] · [[Continuous Improvement]] · [[Every Defect Is A Gift]] · [[OmniSpection]] · [[The Living System Triple Loop]] · [[Zero Blame Environment]]
 **In play:** table
-**Sources:** *Tightly Coupled Learning and Action* (canon-grade) · *Twelve Irreducible Elements* (canon-grade) · *THE DNA OF HEAVEN* Parts IV and VII · lionsberg.wiki: Tightly Coupled Learning and Action
 **Open:** Three named cycles cover this ground — Discern-Plan-Do-Check-Adjust, Attend-Plan-Act-Learn-Improve, and Observe-Orient-Decide-Act-Learn — with no page saying how they relate.

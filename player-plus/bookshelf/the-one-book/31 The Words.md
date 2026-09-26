@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 25
+chapter: 31
 ---
 
-# 25 The Words
+# The Words
 
 *A shared language is the cheapest infrastructure a people can build and the first thing taken from a captive one. These are the words this Game is played with — twelve at a table, a few at the door, two hundred across a first season, and a whole field of them for whoever goes further. Each is handed once, in one line, at the moment the road needs it, and never all at once. None of them is asked to be believed. They are tools, and a tool is judged by what it lets you do.*
 
@@ -144,13 +144,13 @@ Two hundred and nine pages carry the second mark. They are grouped here the way 
 
 ### The Game
 - **[[Wake up]]** — the move before the moves: see where you are, and what you are for.
-- **[[Form a Cell]]** — move one: three to thirteen who choose to walk together, best at four to seven.
+- **[[Form a Cell]]** — move one: three to thirteen who choose to walk together, optimally four to seven.
 - **[[Weave Spirit, Hearts, and Minds]]** — move two: coherence before action.
 - **[[Choose a Quest]]** — move three: one real thing, for one season — real, near, and yours.
 - **[[Do the Work]]** — move four: discern, plan, act, keep promises, learn from the gap.
 - **[[Celebrate, Learn, and Improve]]** — move five: retrospect, refine, and mark what was good.
 - **[[Share the Stories]]** — move six: the story travels further than you can.
-- **[[Pass The Flame]]** — move seven, never optional: carry the Game to the two or three who are ready.
+- **[[Pass The Flame]]** — move seven, never optional: carry the Game to your three who are ready, within three days.
 - **[[The Five Moves]]** — the compressed loop, as it is printed on the card.
 - **[[The Seven Moves]]** — the full breath of a Cell.
 - **[[The Invitation]]** — the word from a person that brings someone into the Game; it travels hand to hand.
@@ -388,7 +388,7 @@ The failure to avoid has a name: [[Semantic Capture]]. It happens when a page is
 
 *[[Link concepts, not coordinates]].* A link points at a meaning, not at a place. Link to the concept and the link survives the reorganization; link to the file, the folder, or the section number and you have written a footnote that will quietly rot. And links are made generously: every link asserts that two meanings are related, and the web of those assertions *is* the shape of the knowledge. A page that mentions three related concepts and links none of them has hidden three edges of the map.
 
-*The present, and only the present.* Every page carries the present sense of its concept. No page keeps a history section, a struck draft, or a paragraph about what it used to say. A reader meets the chart of the present course, not the log of the voyage — and the history is kept whole, elsewhere, where a steward can find it. When a page is retired it is mined first: what still lands is carried into its new home with its source, and then the page goes. [[Weave, don't delete]] is the same law said from the other side — nothing of meaning is lost, and nothing dead stays in the reader's way.
+*The present, and only the present.* Every page carries the present sense of its concept. No page keeps a history section, a struck draft, or a paragraph about what it used to say. A reader meets the chart of the present course, not the log of the voyage — and the history is kept whole, elsewhere, where a steward can find it. When a page is retired it is mined first: what still lands is carried into its new home with its source, and then the page goes. [[Weave, do not delete]] is the same law said from the other side — nothing of meaning is lost, and nothing dead stays in the reader's way.
 
 *Provenance, on everything.* Where an understanding came from, and how firm it is, travels with it. A page that cannot say where it got something says so. That is why every page in this library wears the same mark, *current best understanding, loosely held*, and why the library says once, at its door, that it is unreviewed by human or divine consciousness. The mark is not modesty. It is the mechanism that lets a stranger act on the pages without having to trust anyone.
 
@@ -475,7 +475,7 @@ The library is one understanding held at several sizes, so that it survives any 
 
 **Contradictions found, and how this chapter treats them.**
 
-- **Cell size.** Four numbers are live across the sources: three to thirteen · best at four to seven · three to seven · not fewer than three or more than sixteen, best five to twelve. This chapter carries *three to thirteen, best at four to seven*, which is the Cell page's own line, and flags the rest.
+- **Cell size** (settled 2026-09-26). One statement, used everywhere: *three to thirteen people; optimally four to seven* — the range and the optimum, not in conflict. *Three to seven* and *not fewer than three or more than sixteen, best five to twelve* are retired.
 - **Circle.** Two senses stand: the gathering that is not yet a Cell, and the standing governing form of peers with no head of the table. Both have pages; both are needed; the field keeps them apart by qualifying one of the names, and that is the current best answer rather than an answer.
 - **Consent.** The chain *consent = no meaningful objection = inside every member's range of tolerance* is stated consistently, but the three words are defined on three pages and a reader who meets only one of them gets a third of the rule.
 - **The Return.** The word carries two things — what comes back down from the whole to a Cell, and the moment of return in the Story's arc. They are not the same thing and currently share a name.

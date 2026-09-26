@@ -8,7 +8,7 @@ pillar: —
 
 *The Way is not learned new; it is remembered. Which changes what teaching is, what resonance means, and what trauma has actually done.*
 
-The capital in the middle is the whole teaching: to **re-member** is to put the members back together. Recovering memory and reassembling a body are one act, not two. On this reading a person is not acquiring something foreign but recognising something already present — which is coherent with the corpus's claim that each one is [[One of the Ones of the ØNE]], and that the Pattern is already carried in them ([[Remembrance]], [[Divine Spark]]).
+The capital in the middle is the whole teaching: to **re-member** is to put the members back together. Recovering memory and reassembling a body are one act, not two. On this reading a person is not acquiring something foreign but recognising something already present — which is coherent with the claim that each one is [[One of the Ones of the ØNE]], and that the Pattern is already carried in them ([[Remembrance]], [[Divine Spark]]).
 
 Five things follow, and each is practical.
 
@@ -22,7 +22,7 @@ Five things follow, and each is practical.
 
 **Manufactured certainty is counter-remembering** — the active training of people to mis-remember, which is a sharper charge than mere ignorance and a harder one to prove ([[Prevalence Of Deceit And Propaganda]], [[Unlearning]], [[Distortion]]).
 
-The lineage is broad and the corpus names it rather than claiming the idea: several traditions have a word for exactly this recollection, and this is one more naming of it in a new voice ([[Gnosis]], [[Types Of Knowing]]).
+The lineage is broad, and it is named rather than claimed as new: several traditions have a word for exactly this recollection, and this is one more naming of it in a new voice ([[Gnosis]], [[Types Of Knowing]]).
 
 The risk belongs on the page. A stance that says *you already know this* can make any disagreement look like forgetting, and any new thing look like something the hearer failed to recall. The guard is that resonance is evidence about a hearer, not about a claim ([[Discernment]], [[We Do Not Know]], [[Second reader]]).
 
@@ -30,5 +30,4 @@ The risk belongs on the page. A stance that says *you already know this* can mak
 **Stands on:** [[Remembrance]] · [[One of the Ones of the ØNE]] · [[The Great ReMembering]]
 **Opens onto:** [[The Pedagogy of Trust and Sirimiri]] · [[Empirical Resonance]] · [[Unlearning]] · [[Trauma]] · [[ReHarvesting the Great Traditions]] · [[Gnosis]] · [[Types Of Knowing]] · [[Discernment]]
 **In play:** the table — in how anything here is taught, and how a Cell knows a teaching landed
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The ReMembering Stance.md` and its companion Card on the ReMembering Pattern
-**Open:** The sweep that proposed this row names it *The ReMembering Pattern (and Stance)*, treating two Cards as one concept; this page keeps the Card's own name and folds both. · [[The Great ReMembering]] carries the Story's movement of the same name; this page carries only the epistemic posture, and nothing in the corpus states the relation. · The stance makes disagreement hard to distinguish from forgetting, and no test is offered.
+**Open:** The sweep that proposed this row names it *The ReMembering Pattern (and Stance)*, treating two Cards as one concept; this page keeps the Card's own name and folds both. · [[The Great ReMembering]] carries the Story's movement of the same name; this page carries only the epistemic posture, and nothing states the relation. · The stance makes disagreement hard to distinguish from forgetting, and no test is offered.

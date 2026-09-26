@@ -20,5 +20,4 @@ Improvement is structural: a Card is never finished, and the wisdom of a high-re
 **Stands on:** [[The LIØNSBERG Pattern Language]] · [[The Incipient Link]] · [[General Pattern, Specific Application]]
 **Opens onto:** [[Patterns And Containers]] · [[Naming Forms]] · [[The Triadic Discipline]] · [[Patterns Pending Articulation]] · [[Play]]
 **In play:** beyond
-**Sources:** *The Card Method* (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *The LIØNSBERG Playbook* (§Architecture) · lionsberg.wiki: The Card Method
 **Open:** The canonical Card form is stated in the Pattern Language root; the Card Method page states a shorter capture form. Both are live and they are not identical.

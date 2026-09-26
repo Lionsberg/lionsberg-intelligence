@@ -20,5 +20,4 @@ Storytelling is also formation. A person who has told their own story once in fr
 **Stands on:** [[Story]] · [[Culture]] · [[Testimony]]
 **Opens onto:** [[Pass The Flame]] · [[The Season Sheet]] · [[Bard]] · [[Festival]]
 **In play:** table · Home · beyond
-**Sources:** *The Seven Moves* (Card, canon-grade) · *The LIØNSBERG Pattern Language*, Story, Voice, Culture, Art · *The Season Sheet*, line 9 · lionsberg.wiki: *The Seven Moves*
-**Open:** The canon names the move *Share the Stories* in the Seven Moves and *Sharing Your Stories* in the Pattern Language; the five-move telling at the table says *Share your stories*. Same move, three names.
+**Open:** This move is named *Share the Stories* in the Seven Moves and *Sharing Your Stories* in the Pattern Language; the five-move telling at the table says *Share your stories*. Same move, three names.

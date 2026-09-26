@@ -20,5 +20,4 @@ Diverse unity is the same recognition said from the other side: difference is no
 **Stands on:** [[Federation]] · [[Holofractal Omnifederation]] · [[Sovereignty At Every Scale]] · [[Synergy]] · [[Coherence]]
 **Opens onto:** [[Meta Unity of Meta Diversity]] · [[Community of Communities]] · [[Navigating Difference]] · [[Integrated Delivery]] · [[Federations vs Empires]] · [[Emergence]]
 **In play:** Home · beyond · table
-**Sources:** `Higher Order Functional Unity` (root page) and `Higher Order Functional Unity` (Card in *LIØNSBERG, Earth, and the Cosmos*) · `The LIØNSBERG Lexicon`, §Key Terms · `Pass The Flame`, Ch 10 (drafted chapter) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24` · lionsberg.wiki: Higher Order Functional Unity
-**Open:** Two pages stand at this name, a root page and a Card, unreconciled. · *Diverse Unity* appears in the Lexicon's key-term list without a page of its own, and is treated here as the same concept said differently.
+**Open:** Two pages stand at this name, a root page and a Card, unreconciled.*Diverse Unity* appears in the Lexicon's key-term list without a page of its own, and is treated here as the same concept said differently.

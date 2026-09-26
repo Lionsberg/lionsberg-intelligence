@@ -20,5 +20,4 @@ A guild goes wrong in one direction and one only: when the standard becomes a ga
 **Stands on:** [[Mastery]] · [[Apprenticeship]] · [[Federation]] · [[Field of Agreements]] · [[Commons]]
 **Opens onto:** [[Belt Progression]] · [[Quality]] · [[Voluntary Association]] · [[Tribe]] · [[Community of Communities]] · [[Domain]]
 **In play:** beyond · Home · table
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XI term *Guild* (canon-grade) · `Guild` (Card in *LIØNSBERG, Earth, and the Cosmos*) · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`, §Scales · `The LIØNSBERG Playbook`, §Foundation · lionsberg.wiki: Guild
 **Open:** No root-level `Guild` page exists; the Card in the Cosmos book is the only page at this name. · The relation between a guild and an Action Domain — whether a guild *is* the stewarding body of one, or one of several within it — is asserted but not specified.

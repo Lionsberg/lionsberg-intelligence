@@ -20,5 +20,4 @@ In play, this is the deciding movement of the weekly [[The Turn]] and of every [
 **Stands on:** [[Consent]] · [[Meaningful Objection]] · [[Range Of Tolerance]] · [[Proposal]] · [[Circle]]
 **Opens onto:** [[Decision Making]] · [[Decision Records]] · [[Advantage Based Decision Making]] · [[Wise Eldership]] · [[Subsidiarity]] · [[Possibility Of Reversal]] · [[Democratic Self-Governance Through Shared Agreements and Wise Eldership]]
 **In play:** table — every week a proposal is brought
-**Sources:** *Consent* · *Meaningful Objection* (root page) · *The LIØNSBERG Playbook*, Play — Make A Decision and Play — Make A Proposal · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Governance · *THE DNA OF HEAVEN* Part IV · lionsberg.wiki: Consent
 **Open:** The Playbook names both *Consent vs Consensus* and *Integrative Decision-Making* as distinct Patterns invoked by the same Play; neither has a card, and whether they are two methods or one is unresolved.

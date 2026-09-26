@@ -18,5 +18,4 @@ How it is used. Read it once with your people. Copy [[The Playcard]] by hand if 
 **Stands on:** [[The Great Game of LIØNSBERG]] · [[The Twelve Words]] · [[On translating]]
 **Opens onto:** [[The Playcard]] · [[The Questcard]] · [[The Circle Sheet]] · [[The Circle's Scorecard]] · [[The Season Sheet]] · [[The Clock of the Game]] · [[The Way Up]] · [[The Way Out]] · [[The Return]]
 **In play:** door · table
-**Sources:** *The Little Book of the Great Game* and its chapters (each marked current best understanding) · *The Little Book of the Great Game — Second Draft* · lionsberg.wiki: **The Little Book of the Great Game**
 **Open:** Two live texts sit side by side — the chapter set and a second draft — and they differ in places (the second draft carries *A Word on Words*, which the chapter set does not). · The chapter set still says *Circle* and *ring* where the word is now [[Cell]] and [[Supercell]].

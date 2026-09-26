@@ -20,5 +20,4 @@ No being is fully well in a sick society. Clean [[Air · Water · Soil · Microb
 **Stands on:** [[Right Relationship]] · [[Wellness]] · [[Integration]] · [[Temple]]
 **Opens onto:** [[Trauma]] · [[Regeneration]] · [[Mental Health]] · [[Addiction]] · [[Rest And Regeneration]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Lexicon*, Pillar V table (canon-grade) · *Pillar V — Sacred Health and Wellness*, Theses 3 and 10 · *The Way Out* (the floor of care) · lionsberg.wiki: *Healing*
-**Open:** No canon page stands at the name *Healing* itself; the meaning lives in the Lexicon table and the Pillar page. The healers' guidebook is named as unwritten.
+**Open:** No page stands at the name *Healing* itself; the meaning lives in the Lexicon table and the Pillar page. The healers' guidebook is named as unwritten.

@@ -20,5 +20,4 @@ In the Game it is why [[Pass The Flame]] is not optional and why the arithmetic 
 **Stands on:** [[The Wilderness]] · [[Collapse]] · [[The Meta Crisis]]
 **Opens onto:** [[The First Three Percent]] · [[Mutual Aid]] · [[Community]] · [[Pass The Flame]] · [[Guide]] · [[Islands of Coherence]]
 **In play:** table · Home · beyond
-**Sources:** *The LIØNSBERG Pattern Language, synthesized*, §The Wilderness Between (ore — named alongside *Helping Others Through*, no body) — lionsberg.wiki · the seed text *The DNA of Heaven*, Part II (The Moment) and Part VI.
-**Open:** Ore. No body exists; this is a first articulation from the name and its placement. · *Helping Others Through* is named beside it in the Pattern Language and is not carried as its own row in the field.
+**Open:** Ore. No body exists; this is a first articulation from the name and its placement.*Helping Others Through* is named beside it in the Pattern Language and is not carried as its own row in the field.

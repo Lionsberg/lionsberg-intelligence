@@ -20,5 +20,4 @@ Its wider cousins are [[The Anti-Patterns]]: the false prophet who speaks libera
 **Stands on:** [[Warrior]] · [[The Warrior's Vow]] · [[Structural Immunity]] · [[Discernment]]
 **Opens onto:** [[The False Prophet]] · [[The Anti-Patterns]] · [[Accountability]] · [[Term Limits And Rotation]] · [[Containment Of The Dangerous Sovereign]] · [[Impeachment]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain (ore — named, no card) · the Anti-Patterns · *Pillar X — Sacred Guardianship and Order*, the narrative (canon-grade) · the seed's Part IV. lionsberg.wiki: The Dark Initiate Failure Mode.
 **Open:** Ore — a name in a list with no body anywhere. The three tells above are read from the Anti-Patterns and the Structural Immunity set, not quoted from any page. *Engagement Under Witness* and *The Warrior Pair* are listed beside it and are equally unwritten.

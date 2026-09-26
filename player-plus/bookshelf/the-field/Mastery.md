@@ -20,5 +20,4 @@ It does not finish. [[The Sacred Ascent]] has no terminal point; the master cont
 **Stands on:** [[Learning]] · [[Wisdom]] · [[Praxis]] · [[Discipline]] · [[Genius]]
 **Opens onto:** [[Belt Progression]] · [[The 144 Gates of Initiation]] · [[The Sacred Ascent]] · [[Apprenticeship]] · [[Guild]] · [[Shu-ha-ri]] · [[Initiation]]
 **In play:** Gate · Home · beyond
-**Sources:** *The LIØNSBERG Belt System* (wiki root; states itself the current best articulation — the seven belts, the +1 architecture, the dans, how recognition happens) · *The LIØNSBERG Lexicon*, Pillar IV — *Mastery* (canon-grade; one line) · *Pillar IV*, Theses 11–12 and transition 6 (canon-grade) · Player+ Modules *Lexicon* — *belt* · *The DNA of Heaven*, Part VIII · lionsberg.wiki: The LIØNSBERG Belt System
 **Open:** The Belt System page and the concept field both carry *Mastery* and *Belt Progression* as distinct names for one progression; the guild-specific belt systems beyond the five named Ways are explicitly unnamed.

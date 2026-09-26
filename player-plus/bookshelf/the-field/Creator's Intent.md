@@ -19,5 +19,4 @@ In play, it is invoked when a decision is genuinely hard and the nearer tests ha
 **Stands on:** [[ØNE]] · [[Love]] · [[The Ineffable]]
 **Opens onto:** [[The Goal]] · [[Intention]] · [[Commander's Intent]] · [[One Purpose Above All]] · [[Heaven On Earth]] · [[Omniconsideration]]
 **In play:** At the door, as the reason the aim is not up for a vote; at the table, in the hard call the compass alone cannot settle; at every rung beyond, as the thing the whole holarchy is reading.
-**Sources:** `Creator's Intent` · `Designer's Intent` · `Intention` (root, canon-grade) · `The LIØNSBERG Lexicon`, Pillar I · `The DNA of Heaven`. lionsberg.wiki: **Creator's Intent**.
 **Open:** Two root pages, `Creator's Intent` and `Designer's Intent`, carry the same concept under different names; neither points at the other.

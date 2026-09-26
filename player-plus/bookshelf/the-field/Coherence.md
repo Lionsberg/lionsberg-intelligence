@@ -22,5 +22,4 @@ And it is how transformation actually spreads. Small wholes reaching high cohere
 **Stands on:** [[Resonance]] · [[Alignment]] · [[Right Relationship]] · [[Holarchy]]
 **Opens onto:** [[Circle Coherence]] · [[Islands of Coherence]] · [[The Coherent Divine Intention Wave]] · [[Higher Order Functional Unity]] · [[Attunement]] · [[Synergy]] · [[The compass question]]
 **In play:** table
-**Sources:** *Coherence* · *Islands of Coherence* · *The LIØNSBERG Lexicon* (§Key Terms and §Alignment) · lionsberg.wiki: Coherence
-**Open:** The canon page grounds its account of coherence in *The Living Gradient*, which is named as a root key in the Lexicon and appears nowhere else in any form.
+**Open:** This page grounds its account of coherence in *The Living Gradient*, which is named as a root key in the Lexicon and appears nowhere else in any form.

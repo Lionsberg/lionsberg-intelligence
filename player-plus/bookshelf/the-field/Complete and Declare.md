@@ -20,5 +20,4 @@ And a completion is not finished until it is told. The canon is firm on the sequ
 **Stands on:** [[Commitment]] · [[Keep Promises Visible]] · [[Gratitude]] · [[The Record]]
 **Opens onto:** [[Share the Stories]] · [[Turn the Season]] · [[Celebrate, Learn, and Improve]] · [[The states of a commitment]] · [[Consciously Breaking Commitments]] · [[Release]] · [[The Circle's Scorecard]] · [[Resource the Work]]
 **In play:** the table — when the work is done, or when the turning arrives and settles the question
-**Sources:** `Play — Complete and Declare`, in The LIØNSBERG Playbook's Questing Plays · `Play — Harvest the Story` and `Play — Tell the Story`, which the card requires before a Quest counts as finished · lionsberg.wiki: The LIØNSBERG Playbook
 **Open:** The name collides with [[Declare]], which is a different move in a different part of the Field; both are live and neither page renames the other. · The card gives no form for the declaration, so what is actually said and where it is written is left to each body.

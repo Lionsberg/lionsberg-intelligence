@@ -22,5 +22,4 @@ Resource is not only money, and treating it as money is the commonest first mist
 **Stands on:** [[Ask for Help]] · [[Gratitude]] · [[Capital Subordinate To Purpose]] · [[Commons]]
 **Opens onto:** [[Catalytic Resources]] · [[Fostering Ecosystemic Resource Flows]] · [[Voluntary Tithing]] · [[Proof-of-contribution]] · [[Mutual Aid]] · [[The Board]] · [[Complete and Declare]] · [[TimeEnergy]] · [[Economy]]
 **In play:** the table — when the Quest needs more than what already flows
-**Sources:** `Play — Resource the Work`, in The LIØNSBERG Playbook's Questing Plays · the card names a crowdfunding overview and a resource library, and marks a resource-flow ledger as *to forge* · lionsberg.wiki: The LIØNSBERG Playbook
-**Open:** The ledger the card depends on is named as unbuilt, so the third discipline — recording what flows — has no instrument. · Nothing in the canon says who may hold a body's received resource, or on what terms, before it has a legal form.
+**Open:** The ledger the card depends on is named as unbuilt, so the third discipline — recording what flows — has no instrument. · Who may hold a body's received resource, and on what terms, before it has a legal form, is not yet said.

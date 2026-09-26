@@ -22,5 +22,4 @@ One collision is worth naming because both senses live inside the same body of w
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Requests and offers]] · [[Zero Blame Environment]]
 **Opens onto:** [[Release]] · [[The states of a commitment]] · [[Consciously Breaking Commitments]] · [[The Life of a Commitment]] · [[Issue]] · [[Limiting Factor]] · [[Having Difficult Conversations]]
 **In play:** the table — said aloud when the answer is no
-**Sources:** `Projects/the term pages/Decline.md` · `Projects/the term pages/The Life of a Commitment.md` · `Organizations The LIØNSBERG Way` (wiki; the lifecycle sense) · lionsberg.wiki: Consciously Breaking Commitments
-**Open:** The page's own defect: it renders a real canon page as inert text twice instead of linking it, against the convention its siblings follow. · Several of the acts the page positions *Decline* against were struck as needless complication, so its neighbourhood is smaller than the page describes.
+**Open:** The page's own defect: it renders a real page as inert text twice instead of linking it, against the convention its siblings follow. · Several of the acts the page positions *Decline* against were struck as needless complication, so its neighbourhood is smaller than the page describes.

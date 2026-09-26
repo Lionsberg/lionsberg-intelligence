@@ -20,5 +20,4 @@ In the Game its practical use is for whoever is holding the door. Knowing where 
 **Stands on:** [[The Sovereign Path]] · [[Just in time]] · [[Player+ Modules]] · [[The Zone Of Optimum Development]]
 **Opens onto:** [[Initiation (as stage)]] · [[The Pledge]] · [[Player+]] · [[Guide]] · [[Carrier]] · [[Lesson]] · [[Module]]
 **In play:** door · table
-**Sources:** *Player+ Modules Lexicon* and *01 Becoming a Player+* (ØSphera, CC BY-SA 4.0) — the Player+ module deck · *The Sovereign Path* (canon-grade), which the Arc of Play walks a portion of — lionsberg.wiki.
 **Open:** The Arc's stages are referred to as named but are not enumerated in one place in the deck; *welcomed · oriented · initiated · playing · passing* is the reading its pages support and is not a quoted list. · The Arc of Play and the first five stages of the Sovereign's Path overlap heavily and have not been reconciled.

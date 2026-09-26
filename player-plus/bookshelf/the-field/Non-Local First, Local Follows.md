@@ -20,5 +20,4 @@ The forces are honestly stated: local moves are visible, measurable, correctable
 **Stands on:** [[Energy]] · [[Reality]] · [[The Sovereign]] · [[Logos]]
 **Opens onto:** [[Spontaneous Wise Right Action]] · [[Aligned Will]] · [[Sensing The Field]] · [[Composure Under Threat]] · [[Spirit Precedes Pattern]] · [[The Architecture Of A Way]]
 **In play:** Gate
-**Sources:** *Non-Local First, Local Follows* (drafted Pattern Card) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · lionsberg.wiki: Non-Local First, Local Follows
 **Open:** none found

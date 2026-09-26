@@ -20,5 +20,4 @@ A Cell's objects are few and deliberately humble: a notebook, a set of cards, wh
 **Stands on:** [[Intention]] · [[Design]] · [[Embodiment]] · [[Stewarded Form]]
 **Opens onto:** [[Instrument]] · [[Crafting]] · [[Notebook form]] · [[Provenance]] · [[Compost]] · [[Beauty]]
 **In play:** the Home · the table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table · *Pillar IX — Sacred Architecture and Design*, micro-scale tools and artifacts, theses 7 and 12 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Hands and the Sacred Architecture gap (ore) · the seed's Part VII. lionsberg.wiki: Object.
 **Open:** *Sacred Objects*, *Sacred Tools*, and *Sacred Adornment* are named in the Pattern Language's gaps with no cards; the craft of making is ore under *Crafting*.

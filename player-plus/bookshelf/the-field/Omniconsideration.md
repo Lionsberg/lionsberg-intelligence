@@ -19,5 +19,4 @@ In play, Omniconsideration is the method behind [[OmniSpection]] — the seasona
 **Stands on:** [[Right Relationship]] · [[Love]] · [[Wisdom]]
 **Opens onto:** [[OmniSpection]] · [[Covenant Across Time]] · [[Sovereignty At Every Scale]] · [[Stewardship]] · [[The Lens]] · [[Levels Of Scale]]
 **In play:** At the table, before a Proposal is put; at the season's turning, as the shape of the review; at the Room and beyond, as the reason absent parties hold seats.
-**Sources:** `The Law of Omniconsideration` · `16. Omniconsiderate Solutions For the Good of All` (144 Threads) · `The LIØNSBERG Lexicon`, Pillar I · `Seasonal OmniSpection` (root). lionsberg.wiki: **The Law of Omniconsideration**.
 **Open:** The Card names a paired "Law of Right Relationship" and "Principle of Fractal Sovereignty" as its triad partners; neither of those exact names holds a page, so the triad is stated but not navigable.

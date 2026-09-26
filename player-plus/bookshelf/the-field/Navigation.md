@@ -18,5 +18,4 @@ It is done together and often. A dashboard is only as good as the readings put i
 **Stands on:** [[The Goal]] · [[Sensemaking]] · [[Milestone]]
 **Opens onto:** [[Orientation and Onboarding Process]] · [[Critical Path]] · [[The Record]] · [[Measure everything, manage to the milestones]]
 **In play:** table · Home · beyond
-**Sources:** *Navigation* (wiki root page, short; frames navigation as the purpose of the system of governance) · *The LIØNSBERG Lexicon* §Orientation and Navigation · The Little Book of the Great Game, *The Game at the Table* — lionsberg.wiki page name: **Navigation**
 **Open:** *Navigation Dashboard* is named in the Lexicon with no page of its own.

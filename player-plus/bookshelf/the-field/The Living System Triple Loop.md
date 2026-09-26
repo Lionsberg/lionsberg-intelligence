@@ -20,5 +20,4 @@ The loop is named in the Language's meta-architecture and not yet written out an
 **Stands on:** [[Prototype]] · [[Commons]] · [[OmniSpection]] · [[Tightly Coupled Learning and Action]]
 **Opens onto:** [[The Triadic Discipline]] · [[How A Pattern Enters The Language]] · [[Knowledge as commons]] · [[Proposal]] · [[Continuous Improvement]] · [[The edition]]
 **In play:** Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* (named, body not written) · *THE DNA OF HEAVEN* Part IV (knowledge as commons) · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** Named as a loop with five stations and no articulation of how a refinement travels between them.

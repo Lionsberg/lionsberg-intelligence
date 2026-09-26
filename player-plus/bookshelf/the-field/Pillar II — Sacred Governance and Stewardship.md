@@ -20,5 +20,4 @@ The Pillar's canon articulation is strong in vision and thin in mechanics: twelv
 **Stands on:** [[ØNE]] · [[Logos]] · [[Right Relationship]] · [[Sovereignty]] · [[Spirit]]
 **Opens onto:** [[Governance]] · [[Stewardship]] · [[Authority]] · [[Consent]] · [[Field of Agreements]] · [[Subsidiarity]] · [[Structural Immunity]]
 **In play:** beyond — the map of the work; met at the door and at every table where a decision is made
-**Sources:** *Pillar II — Sacred Governance and Stewardship* (canon-grade; summary, overview, twelve theses, narrative) · *The 12 Pillars of LIØNSBERG* (hub) · *The LIØNSBERG Lexicon*, Pillar II table · *THE DNA OF HEAVEN* Part III · lionsberg.wiki: Pillar II — Sacred Governance and Stewardship
 **Open:** The Lexicon subtitles this Pillar *"the Right Stewardship of Power, Resources, and Responsibility"*; the Pillars book reads *"the just stewardship of power and authority."* The Pillar page carries no operational procedure at all — theses and narrative only.

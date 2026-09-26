@@ -24,5 +24,4 @@ The reason this is load-bearing rather than generous is that it removes the two 
 **Stands on:** [[Belonging]] · [[Commons]] · [[Sovereignty]] · [[Consent]] · [[Reciprocity]]
 **Opens onto:** [[Seats at the Table]] · [[The Two-Stake Principle]] · [[Citizenship]] · [[Community Company]] · [[Federation]] · [[Holarchy]] · [[Knowledge as commons]] · [[Withdrawal Of Consent]] · [[Fractal Commonsing]]
 **In play:** door, then table
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG Community Guidebook/Toolkit/Seats at the Table.md`, §The Reciprocal · `…/Toolkit/Member Onboarding Worksheet.md`, §F and §G · `…/The LIØNSBERG Community Guidebook.md`
 **Open:** What the stake actually entitles a member to, in any concrete sense, is nowhere stated — the language is *share in the Commons*, not a claim. · How a member's voice reaches the Whole in practice, through what body and at what cadence, has no page.

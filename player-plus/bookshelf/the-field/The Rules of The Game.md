@@ -18,5 +18,4 @@ How they are held. Read them together at the first gathering, aloud, so that eve
 **Stands on:** [[The Playcard]] · [[The Twelve Words]] · [[Consent]]
 **Opens onto:** [[The Five Moves]] · [[The one question]] · [[What the game asks of you]] · [[Proposal]] · [[The edition]] · [[Field of Agreements]]
 **In play:** door · table
-**Sources:** *The Game at the Table* (current best understanding · "the rules that must be the same at every table") · *The Playcard* (current best understanding) · *The Rules of The Game* and *The Rules* (root pages; the first is a one-line pointer to *The Seven Commitments of Every Co-Creator*) · the Player+ Modules lexicon · lionsberg.wiki: **The Rules of The Game**
 **Open:** The root page by this name is a single line pointing at another page, and does not hold the rules the Little Book prints; the two have not been reconciled. A Cell's own agreements — its [[Field of Agreements]] — and the shared rules are different things, and no page says so plainly.

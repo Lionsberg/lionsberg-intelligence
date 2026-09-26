@@ -20,5 +20,4 @@ Most of it starts small. The first version of any of these rooms is a corner, a 
 **Stands on:** [[The Hub]] · [[Architecture]] · [[Community]] · [[Commons]]
 **Opens onto:** [[The Dojo's Five Disciplines]] · [[Sacred spaces]] · [[The Living Library]] · [[Wisdom Council]] · [[The Joseph Plan]] · [[Human-Scaling]] · [[Design]] · [[Temple]]
 **In play:** beyond the table — the brief for a community's first building
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.3 The Warrior Community`, §The Hub · `The Hub` · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The list is one craft's version of a centre; what a community's centre needs when twelve crafts share it is not addressed anywhere. · No dimensions, no adjacencies, and no sequence of building — it is a programme, not yet a design.

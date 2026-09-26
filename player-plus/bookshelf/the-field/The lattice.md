@@ -18,11 +18,10 @@ A Pillar is never realised in the abstract. It is realised in a place, in a trad
 
 It is load-bearing because it makes the work both divisible and addressable. Anyone can see which cells are occupied, which are empty, and which have never been touched; two groups working the same Pillar in different traditions can find each other; and nothing has to be coordinated from a centre for the grid to be legible ([[The plan of the whole]], [[Stacking Up And Aligning]], [[An address]]).
 
-Its honesty is on its own face: *how to run one such cell is what the Game teaches, and the canon does not yet say more.* Nobody need wait for it to.
+Its honesty is on its own face: *how to run one such cell is what the Game teaches, and nothing yet says more.* Nobody need wait for it to.
 
 **Also called:** Pillars × Action Domains × Integration Domains
 **Stands on:** [[Work Breakdown Structure]] · [[Domain]] · [[ØNE]]
 **Opens onto:** [[Pillar I — Sacred Ontology and Metaphysics]] · [[Pillar II — Sacred Governance and Stewardship]] · [[Pillar III — Sacred Economy and CurrentSee]] · [[Guild]] · [[Cell]] · [[Quest]] · [[Cosmic Locality]] · [[The plan of the whole]] · [[Cross-Cultural Pattern Translation]] · [[Meta Unity of Meta Diversity]]
 **In play:** Home · beyond — the grid a body finds its own work in
-**Sources:** *The DNA of Heaven*, Part III (the page states plainly that the canon does not yet say more about running one cell of the lattice) · `The 12 Pillars of LIØNSBERG`, `Action Domains`, `Integration Domains` (wiki) · lionsberg.wiki: The 12 Pillars of LIØNSBERG
 **Open:** Nothing describes running one cell of the lattice beyond what the Game already teaches, and the source says so. · The two lists of twenty-four overlap in several names and no page reconciles them.

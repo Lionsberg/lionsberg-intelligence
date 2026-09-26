@@ -242,7 +242,7 @@ The whole of the shared calendar, and the shortest specification in the Book.
 
 **The turning dates.** Every edition of the book carries the next eight turnings. When a Cell has fewer than two left on its card it is due a new edition — or it looks at the sky, which will keep turning whether or not the book arrives. The turning is a *moment*, identical everywhere on Earth, and it falls on whatever local date it falls on; the week of the turning is what a Cell actually uses, which removes the whole problem.
 
-**What happens at a turning.** Four things, added to the ordinary gathering: **count** the season on the Scorecard · **tell** the best story · **choose** the next Quest · **fill** the Season Sheet and send it Home. That is the form at the table and it is the form the Book carries. A second form exists in the Operating System with five items, adding *re-pull the plan from the milestones* and saying *send its card* rather than *fill the sheet*; that form assumes a plan above the table and is right for bodies that have one. Both are live; neither has been struck.
+**What happens at a turning.** Four things, added to the ordinary gathering: **count** the season on the Scorecard**tell** the best story**choose** the next Quest**fill** the Season Sheet and send it Home. That is the form at the table and it is the form the Book carries. A second form exists in the Operating System with five items, adding *re-pull the plan from the milestones* and saying *send its card* rather than *fill the sheet*; that form assumes a plan above the table and is right for bodies that have one. Both are live; neither has been struck.
 
 **The four sittings of the year.** The four things are the same at every turning. What differs is the weight, which the year itself supplies, and a body that lets the year lean on its sitting gets four different conversations instead of the same one four times.
 
@@ -287,7 +287,7 @@ This weighting is current best understanding assembled from the Calendar and the
 
 **Who holds it.** The Cell, with its two [[Host|hosts]]. At wider scale, the Home and the supercell do the same thing with the sheets in front of them. Where it can be arranged, the look-back on a person's own work is written by [[Second reader|somebody other than that person]].
 
-**The shape, in order.** Complete the season's Quest and name honestly what remains · **celebrate** what was actually done, with genuine recognition rather than false praise · name what transformed, visibly and invisibly, in the community, in the Cell, in yourselves · retrospect honestly: what worked, what did not, what surprised us, what we would do differently · share the learnings outward to the [[Commons|commons]] · choose the next Quest · set clear commitments — what, by when, how we will know · and [[Pass The Flame|pass the Flame]] to whoever is ready.
+**The shape, in order.** Complete the season's Quest and name honestly what remains**celebrate** what was actually done, with genuine recognition rather than false praise · name what transformed, visibly and invisibly, in the community, in the Cell, in yourselves · retrospect honestly: what worked, what did not, what surprised us, what we would do differently · share the learnings outward to the [[Commons|commons]] · choose the next Quest · set clear commitments — what, by when, how we will know · and [[Pass The Flame|pass the Flame]] to whoever is ready.
 
 Note the order. Celebration comes second and retrospection fourth, and swapping them is the commonest way this instrument is ruined.
 
@@ -463,7 +463,7 @@ This Pillar's words at the table, each opening onto its page.
 
 **What it borrows from elsewhere in the field:** [[Logos]] · [[Living System]] · [[Regeneration]] · [[Compost]] · [[Structural Immunity]] · [[Institutional Idolatry]] · [[Spirit Precedes Pattern]] · [[Term Limits And Rotation]] · [[Semantic Capture]] · [[Screens and paper]] · [[Second reader]] · [[Zero Blame Environment]] · [[Current Best Understanding]] · [[The Walk is permissive]] · [[The Solo Sovereign's Grace]] · [[Usury]] · [[Forgiveness]] · [[Reconciliation]] · [[Commons]] · [[Voluntary Tithing]] · [[TimeEnergy]] · [[LUV]].
 
-**Neighbouring chapters:** [[06 The Daily Way — the baseline practice]] for the day at full length · [[10 Pillar III — Sacred Economy and CurrentSee]] for what a Jubilee actually releases · [[11 Pillar IV — Sacred Learning and Mastery]] for the look-back and the belts · [[12 Pillar V — Sacred Health and Wellness]] for the thresholds of the body and the rites that mark them · [[14 Pillar VII — Sacred Culture, Art, and Story]] for the feast itself · [[20 The Experience — from the first door to what lies beyond]] for the walk and its horizons · [[22 Building — the Pattern of Production]] for the plan the markers are kept apart from · [[24 The Plan — the first three percent]] for the windows and the strategy · [[21 In Every Future — what to do in each case]] for the hard hours.
+**Neighbouring chapters:** [[06 The Daily Way — the baseline practice]] for the day at full length · [[10 Pillar III — Sacred Economy and CurrentSee]] for what a Jubilee actually releases · [[11 Pillar IV — Sacred Learning and Mastery]] for the look-back and the belts · [[12 Pillar V — Sacred Health and Wellness]] for the thresholds of the body and the rites that mark them · [[14 Pillar VII — Sacred Culture, Art, and Story]] for the feast itself · [[20 The Experience — from the first door to what lies beyond]] for the walk and its horizons · [[23 Building — the Pattern of Production]] for the plan the markers are kept apart from · [[29 The Plan — the first three percent]] for the windows and the strategy · [[21 In Every Future — what to do in each case]] for the hard hours.
 
 ## What is not yet settled
 
@@ -505,3 +505,4 @@ This Pillar's words at the table, each opening onto its page.
 ---
 
 *Never forget: sing the song, pass the flame, and keep your feet on the path — this week, and for ten thousand generations.*
+

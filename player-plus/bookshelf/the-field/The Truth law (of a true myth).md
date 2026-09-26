@@ -22,5 +22,4 @@ Two companion disciplines belong with it. **Honest quantifiers, even inside myth
 **Stands on:** [[The True Myth]] · [[Truth]] · [[Storytelling]]
 **Opens onto:** [[The Four Voices]] · [[The manifest]] · [[The I-discipline]] · [[Metaphor]] · [[Limit Statement]] · [[Essences, Renderings, And Ineffable Referents]] · [[Holding Paradox]] · [[Navigating Towards Truth]] · [[Elision]] · [[Mythos]]
 **In play:** beyond — the test every rendered scene must pass
-**Sources:** `Projects/The Scene Forge 2026-09/The Scene Forge — The Scene Standard`, §The Truth law and §The honesty of the myth · lionsberg.wiki: The True Myth
 **Open:** The test asks whether an image holds at every scale it claims, and nothing states who judges that, or what happens when a writer and a reader disagree about what a scene was claiming.

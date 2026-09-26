@@ -18,5 +18,4 @@ It is not a plan held by anyone. No centre writes it; it is populated from the b
 **Stands on:** [[The Goal]] · [[Work]] · [[Work Breakdown Structure]]
 **Opens onto:** [[Meta System]] · [[Everything Is A Project]] · [[Integrated Delivery]] · [[Plans and Specifications]] · [[The plan of the whole]]
 **In play:** beyond
-**Sources:** *The LIØNSBERG Lexicon* §The Meta Project and §The System · *The Project* (wiki root page, one sentence) · *The Meta Project* (wiki book) · *The DNA of Heaven*, Part III — lionsberg.wiki page name: **Meta Project**
 **Open:** none found.

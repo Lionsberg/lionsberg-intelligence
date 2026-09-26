@@ -18,5 +18,4 @@ It sits beside two neighbours. [[Stewardship body]] is where a decision finally 
 **Stands on:** [[Subsidiarity]] · [[Consent-Based Decision-Making]] · [[Consent]]
 **Opens onto:** [[Stewardship body]] · [[Prescribed and discretionary trust]] · [[Decision Records]] · [[The plan of the whole]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Operating System* §15 · *The DNA of Heaven*, Part IV (service downward, authority upward) — lionsberg.wiki page name: **The LIØNSBERG Operating System**
 **Open:** The phrase *one official answer among many* is the OS's; how a body weighs it against its own consent process is not written anywhere.

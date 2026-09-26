@@ -21,11 +21,11 @@ If the way we organize ourselves to build the new civilization is not the way we
 
 ## 4. The Test: Could Billions Voluntarily Join?
 
-The DNA of what we are doing must satisfy this criterion: *if billions of people were to voluntarily agree to join, Earth's new governance and operating system would be fully embodied the way we want it to be.* If yes, it belongs. If no, it doesn't. This is the standing test. Apply it to every Article, every Template, every meeting, every relationship.
+The DNA of what we are doing must satisfy this criterion: *if billions of people were to voluntarily agree to join, Earth's new governance and operating system would be fully embodied the way we want it to be.* If yes, it belongs. If no, it does not. This is the standing test. Apply it to every Article, every Template, every meeting, every relationship.
 
-> *If it belongs in the new paradigm, it belongs here. If it doesn't belong in the new paradigm, it doesn't belong here.*
+> *If it belongs in the new paradigm, it belongs here. If it does not belong in the new paradigm, it does not belong here.*
 
-## 5. Biomimicry: We Discern, We Don't Invent
+## 5. Biomimicry: We Discern, We Do not Invent
 
 The patterns we attempt to articulate are not new constructs. They are localizations and adaptations to Earth — and to the relationships of those of us reading this — of patterns already operating throughout the living universe across countless billions of years. We watch. We learn. We translate. We try. We listen for correction. See [[I - The (Eternally Nameless) Superorganism]].
 
@@ -97,7 +97,7 @@ We are co-creating a flourishing and abundant world that works for All its inhab
 
 ---
 
-> *The Means Are the End. If it belongs in the new paradigm, it belongs here. If it doesn't, it doesn't.*
+> *The Means Are the End. If it belongs in the new paradigm, it belongs here. If it does not, it does not.*
 
 ---
 

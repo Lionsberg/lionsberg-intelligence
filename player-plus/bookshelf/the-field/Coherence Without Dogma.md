@@ -22,5 +22,4 @@ Its limit is honest and worth stating: orientation-based coherence assumes that 
 **Stands on:** [[The Cohering Spirit]] · [[ØNE]] · [[Navigating Towards Truth]] · [[The Lens]]
 **Opens onto:** [[Everything Is Current Best Understanding]] · [[The Foundational Truth]] · [[Meaningful Objection]] · [[Transforming Divergence]] · [[Progressive Illumination]] · [[Idolatry (of the word and of the doctrine)]] · [[Author's Voice Is Sovereign]] · [[The Way Out]]
 **In play:** the table — whenever a Circle is tempted to settle a disagreement by agreeing
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Coherence Without Dogma.md` (Card, settled)
 **Open:** The convergence claim is the load-bearing bet and is asserted rather than evidenced. · The Card names a meta-science as the discipline holding this; no page of that name exists, so the discipline is invoked and not written.

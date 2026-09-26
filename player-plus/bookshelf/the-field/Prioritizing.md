@@ -22,5 +22,4 @@ It is done again every rhythm rather than once. What was most important last sea
 **Stands on:** [[The Goal]] · [[Throughput]] · [[Decision Making]]
 **Opens onto:** [[Most Important Things]] · [[Critical Path]] · [[Constraint]] · [[Theory Of Constraints]] · [[Float]] · [[Top card]] · [[The Board]] · [[Stop]] · [[Pull planning]] · [[The look-ahead]]
 **In play:** the weekly Turn and the seasonal plan — the moment the list becomes an order
-**Sources:** `Prioritizing` (root page, stub — one sentence tying prioritization to allocation and to Throughput of the Goal) · `Critical Path`, `Theory Of Constraints` (root pages) · lionsberg.wiki: Prioritizing
 **Open:** The root page gives the criterion and no method; how a Cell or a body should actually rank competing goods is unwritten. · The canon nowhere addresses what to do when two priorities serve the Goal equally and cannot both be done.

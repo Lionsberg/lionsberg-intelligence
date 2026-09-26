@@ -24,5 +24,4 @@ Its source assigns each variable an extreme value for the present hour, citing p
 **Stands on:** [[Decision Making]] · [[The Meta Crisis]] · [[Omniconsideration]]
 **Opens onto:** [[The Asymmetry of Consequences]] · [[The Probability Calculation Method]] · [[The Bronze Age Parallel]] · [[The Endgame Cascade]] · [[The Window]] · [[Critically Effective Time Limit]] · [[The Five Collapse Scenarios]] · [[Systemic Failure Modes]]
 **In play:** the table — run before a Cell decides whether something is urgent
-**Sources:** `LIØNSBERG Wiki Books/Most People Have No Idea What Is Coming/1.2 Probability, Severity, and Scope.md`
 **Open:** The escalation rule — one, two, three — is asserted and not derived; nothing says what counts as extreme. · The chapter's own assignments of the three values are its judgments, and reasonable readers assign them differently; the frame does not depend on them.

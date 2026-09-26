@@ -18,5 +18,4 @@ The consequence runs all the way up. Because no body is owned, federation can be
 **Stands on:** [[Sovereignty]] · [[Consent]] · [[Field of Agreements]] · [[Capital Subordinate To Purpose]]
 **Opens onto:** [[Organizations The LIØNSBERG Way]] · [[The asset lock]] · [[Constitutional Protection Of Purpose]] · [[FSx]] · [[Structural Immunity]] · [[Holofractal Omnifederation]]
 **In play:** beyond the table
-**Sources:** The LIØNSBERG Community Guidebook — Prolegomenon, `Step 2 — Establishing Legal Agency and Personhood`, Toolkit `Steering Committee Starter Kit` · Phase 2 — The Audit Ledger, *Federation, Not Ownership* (research ledger) · The DNA of Heaven, Part IV · lionsberg.wiki: Step 2 — Establishing Legal Agency and Personhood
 **Open:** The exact legal vehicle was still under counsel's review when the seed was written: the shape is treated as settled, the vehicle as open.

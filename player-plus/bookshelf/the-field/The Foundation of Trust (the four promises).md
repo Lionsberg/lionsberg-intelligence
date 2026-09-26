@@ -26,5 +26,4 @@ The whole set is a second facing of [[Trust]]. Where that row carries trust *bet
 **Stands on:** [[Trust]] · [[Truth]] · [[Transparency]] · [[Sovereignty]] · [[Current Best Understanding]]
 **Opens onto:** [[Discernment]] · [[Provenance]] · [[Lineage]] · [[Change log]] · [[Requirement Of Transparency]] · [[Ideological Capture]] · [[Manufactured Dependency]] · [[Institutional Idolatry]] · [[Voluntary Association]] · [[Withdrawal Of Consent]] · [[The Walk is permissive]] · [[License]] · [[Augmented by AI (the disclosure at the door)]] · [[We Do Not Know]]
 **In play:** door
-**Sources:** `LIØNSBERG Core Documents/LIØNSBERG - History, Inception, and Trust Manifesto.md`, §The Foundation of Trust (canon-grade) · `LIØNSBERG Manifesto` and `LIØNSBERG Summary` (now redirects) · `Provisional Trust Manifesto` (superseded)
 **Open:** The four promises are stated and no page says what a reader does when one of them is broken — to whom a capture is reported, or how *the map proves wrong, say so* is actually said. · The field's [[Trust]] row and this one are two facings of one word and have not been cohered.

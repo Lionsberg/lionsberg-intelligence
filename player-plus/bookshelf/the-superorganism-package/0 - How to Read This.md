@@ -11,7 +11,7 @@ status: current best understanding, loosely held · improved each week
 
 The constitutional package at [[The (Currently Nameless) Superorganism]] tells you what you can agree to. It does not tell you how to actually do this with other humans, at your kitchen table or office, with your particular history, your particular wounds, your particular gifts. That is what this Guidebook is for.
 
-Constitutions are built spare and definitional. They have to be — they are what stays binding when everything else changes. A constitution dense with practical advice would either rot (when the advice goes stale) or freeze (if you couldn't update the advice without amending the constitution).
+Constitutions are built spare and definitional. They have to be — they are what stays binding when everything else changes. A constitution dense with practical advice would either rot (when the advice goes stale) or freeze (if you could not update the advice without amending the constitution).
 
 So we keep them apart. The Articles say *what we agree to*. The Guidebook says *how we actually do it*. The Articles are amendable only by Resolution at the appropriate tier. The Guidebook is amendable by anyone with practice and care to share.
 

@@ -20,5 +20,4 @@ Its own failure mode is visible in its source. The conditions are listed and the
 **Stands on:** [[Navigating Towards Truth]] · [[Meaningful Objection]] · [[Discernment]]
 **Opens onto:** [[The 20-Risk-Factor Model]] · [[Confidence Intervals on Collapse]] · [[The Asymmetry of Consequences]] · [[The Probability Calculation Method]] · [[Second reader]] · [[Hypothesize]] · [[Transforming Divergence]] · [[We Do Not Know]]
 **In play:** the table — written before a Cell commits to a claim about what is coming
-**Sources:** `LIØNSBERG Wiki Books/The Last Chance - A Revolutionary Approach to Averting Global Collapse/4.12 The Opposing Argument.md` — a 2023 transcript of a dialogue between the book's questioner and an AI assistant
 **Open:** The source performs the discipline and then dismisses the conditions in the same passage, which is the failure the term is meant to name. · Nothing says how to tell an iron man from a list of conditions chosen because they are implausible.

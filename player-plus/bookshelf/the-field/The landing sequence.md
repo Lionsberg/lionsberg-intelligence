@@ -18,11 +18,10 @@ Then the familiar four. **Orient** — where am I, what is actually going on ([[
 
 Its distinctive contribution is the first two. The field already carries two cycles for acting well — one that begins with observing, one that begins with attending — and neither has a step for *remember who you are* or *arrive in the present* before the observing starts. That is what this adds, and it is the part most easily skipped by anyone competent ([[Observe · Orient · Decide · Act · Learn]], [[Attend, Plan, Act, Learn, Improve Cycle]], [[The Five Moves]]).
 
-Three named cycles now exist in the corpus, with overlapping steps and different names, and none is reconciled with the others.
+Three named cycles now exist, with overlapping steps and different names, and none is reconciled with the others.
 
 **Also called:** remember, be present, orient, engage, plan, move, learn
 **Stands on:** [[Remembrance]] · [[Here and Nøw]] · [[Navigation]]
 **Opens onto:** [[Observe · Orient · Decide · Act · Learn]] · [[Attend, Plan, Act, Learn, Improve Cycle]] · [[Spacetime User Interface]] · [[Narrative Lens]] · [[Continuous Improvement]] · [[The Five Moves]] · [[Sensemaking]] · [[Do the Work]]
 **In play:** the table — run by a Player joining work already in motion
-**Sources:** `LIØNSBERG Wiki Books/The Book of LIØNSBERG/Chapter 4 - The Quest to Navigate/4.18 Remembering, Perceiving, Orienting, Engaging, Planning, Adapting, Moving, Learning.md`
-**Open:** A third named cycle beside two the field already carries; the corpus does not acknowledge the overlap, and nothing says which a Cell should actually run. · The page's own title lists eight steps and its body gives seven; the discrepancy is in the source.
+**Open:** A third named cycle beside two the field already carries; the overlap is not acknowledged anywhere, and nothing says which a Cell should actually run. · The page's own title lists eight steps and its body gives seven; the discrepancy is unresolved.

@@ -20,5 +20,4 @@ It is the discipline behind [[Current Best Understanding]] as a status, behind [
 **Stands on:** [[Truth]] · [[Epistemology]] · [[Mystery]] · [[Current Best Understanding]]
 **Opens onto:** [[Unlearning]] · [[Discernment]] · [[Types Of Knowing]] · [[We Have Heard]] · [[Asking Questions]] · [[Gnosis]]
 **In play:** table · Room · Gate
-**Sources:** *We Do Not Know* (Cards, LIØNSBERG, Earth, and the Cosmos) · Player+ Modules *Lexicon* — *We Do Not Know* · *Pass The Flame*, Ch4 · lionsberg.wiki: We Do Not Know
-**Open:** Two files carry this name in the corpus — the Card and a root-level page — and the concept field's first pass flagged them as divergent. The Card also speculates that this may be the final Gate of the 144, on a margin note by another hand; that is a guess recorded as a guess.
+**Open:** Two pages carry this name — a card and a root-level page — and they diverge. One margin note speculates that this may be the final Gate of the 144; that is a guess recorded as a guess.

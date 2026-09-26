@@ -22,5 +22,4 @@ What is forged here is also what makes a boundary possible: a body cannot hold a
 **Stands on:** [[Field of Agreements]] · [[Consent]] · [[Trust]] · [[Sovereignty]] · [[Agreement]]
 **Opens onto:** [[Seal the Circle]] · [[Selectively Permeable Membrane]] · [[Rules of Participation]] · [[Turn the Season]] · [[Guard the Membrane]] · [[Mend a Tension]] · [[The Way Out]]
 **In play:** the table — at the sealing, and at every turning
-**Sources:** `Play — Forge Your Agreements`, in The LIØNSBERG Playbook's Opening Plays · the same Playbook's Chart, where an older `Play — Forge Your Field Of Agreements` names the Patterns it invokes · `The LIØNSBERG Circle Guide` · lionsberg.wiki: Field of Agreements
-**Open:** The Playbook holds two vintages of this move under two names — a written card and an older Chart row — and nothing says which supersedes. · The Chart row invokes *The Three Supreme Agreements*, which exists in the corpus only as a held fragment.
+**Open:** Two vintages of this move stand under two names — a written card and an older Chart row — and nothing says which supersedes. · The Chart row invokes *The Three Supreme Agreements*, which exists only as a held fragment.

@@ -24,5 +24,4 @@ The canon's own observation about the ladder is the reassuring one: most engagem
 **Stands on:** [[Levels Of Scale]] · [[Subsidiarity]] · [[Guardianship]] · [[Wisdom Council]]
 **Opens onto:** [[Operate At The Scale You Were Prepared For]] · [[The Escalation Ladder]] · [[Two-Way Flow Across The Scales]] · [[The Two-Stake Principle]] · [[Disbanding]] · [[The Warrior Pair]] · [[The Return]] · [[Stop]]
 **In play:** beyond the table — and at any table where something has grown past the people at it
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — II.7 Coordinating Across Scales` · `Sacred Warrior — II.3 The Warrior Community` · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The canon's other ladder, [[The Escalation Ladder]], routes an *issue* through stewardship bodies at conversational pace; this one routes an *engagement* under time pressure. They are different instruments with the same shape, and no page reconciles them. · Who may refuse an escalation, and what recourse the refused have, is unstated.

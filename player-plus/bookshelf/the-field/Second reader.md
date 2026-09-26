@@ -22,5 +22,4 @@ An agent can serve as a second reader for a page it did not draft, and cannot se
 **Stands on:** [[Module]] · [[The Deck Standard]] · [[Look-back]]
 **Opens onto:** [[Keepers' notes]] · [[Comment]] · [[Player+ Modules]] · [[Retrospective]] · [[The LIØNSBERG Workshop]]
 **In play:** beyond
-**Sources:** Player+ Modules, *How a Module Lives*, *The Agent Improvement Process* · The DNA of Heaven, Part VIII.
 **Open:** none found.

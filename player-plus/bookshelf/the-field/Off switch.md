@@ -22,5 +22,4 @@ The same shape belongs to anything an agent does for a person's sake rather than
 **Stands on:** [[Consent]] · [[Mutual Consent]] · [[Withdrawal Of Consent]] · [[Day shape]]
 **Opens onto:** [[Stop]] · [[Charter]] · [[Memory (agent)]] · [[Register]] · [[Stewardship]]
 **In play:** beyond
-**Sources:** Player+ Modules, *An Agent That Attends to You* · lionsberg.wiki: *Ongoing Mutual Consent*, *Voluntary Consent*, *Stewardship* · The DNA of Heaven, Part V (anyone may leave, in peace, at any time).
 **Open:** none found.

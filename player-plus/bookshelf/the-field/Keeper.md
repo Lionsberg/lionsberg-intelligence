@@ -18,5 +18,4 @@ The floor is paper. A hand copy on any paper counts exactly as much as a printed
 **Stands on:** [[Roles]] · [[The Record]] · [[Cell]]
 **Opens onto:** [[Scribe]] · [[Host]] · [[The Circle's Scorecard]] · [[The Season Sheet]] · [[Screens and paper]] · [[Decision Records]]
 **In play:** the table
-**Sources:** The LIØNSBERG Operating System §3 and §12 · the Player+ Modules Lexicon · `The Record`, the term pages · The DNA of Heaven, Parts V and VII · lionsberg.wiki: The LIØNSBERG Operating System
 **Open:** Distinct from [[Keepers Of The Way]], who hold and repair the form of the Way itself; one word, two offices.

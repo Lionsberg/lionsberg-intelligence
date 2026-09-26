@@ -1,6 +1,6 @@
 # Your First House
 
-A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gates 7 and 8, from the Player+ kit. This page covers the same ground by hand, for when you're curious how a house is built or want to set one up from nothing.
+A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gates 7 and 8, from the Player+ kit. This page covers the same ground by hand, for when you are curious how a house is built or want to set one up from nothing.
 
 ## Step 1: Create a Folder
 
@@ -32,24 +32,24 @@ If you want your house backed up and shareable, connect it to a GitHub repositor
 Claude Code will use the `gh` CLI to create the repository and push your files. Tell it whether you want the repo **private** (only you can see it) or **public** (visible to everyone).
 
 > [!tip]
-> If Claude Code says it can't find `gh`, you may need to install the GitHub CLI first. On Mac: `brew install gh`. On Windows: download from [cli.github.com](https://cli.github.com/).
+> If Claude Code says it cannot find `gh`, you may need to install the GitHub CLI first. On Mac: `brew install gh`. On Windows: download from [cli.github.com](https://cli.github.com/).
 
 ## Step 4: Create a CLAUDE.md
 
 If you walked the Quest, your house already has its CLAUDE.md, your agent's charter from the Player+ kit; skip this step. It is for a house built from nothing.
 
-CLAUDE.md is a special file that tells Claude Code about your house — what it's for, how it's organized, and what conventions to follow. Without it, Claude has no context about your project.
+CLAUDE.md is a special file that tells Claude Code about your house — what it is for, how it is organized, and what conventions to follow. Without it, Claude has no context about your project.
 
 Ask Claude Code:
 
-> Create a CLAUDE.md for this project. It's about [describe your house briefly].
+> Create a CLAUDE.md for this project. It is about [describe your house briefly].
 
 Or write one yourself:
 
 ```markdown
 # CLAUDE.md
 
-This house is [what it is]. It's for [what you use it for].
+This house is [what it is]. It is for [what you use it for].
 
 ## Structure
 
@@ -72,8 +72,8 @@ Test the full loop:
 
 If that works, you have a fully functional house with version control and an AI agent that understands it.
 
-## What's Next
+## What is Next
 
-- **Start writing.** Don't over-organize upfront. Start with a flat folder of notes and add subfolders when you have enough related pages to justify them.
+- **Start writing.** Do not over-organize upfront. Start with a flat folder of notes and add subfolders when you have enough related pages to justify them.
 - **Evolve your CLAUDE.md as you go.** As your house develops conventions, add them so Claude stays current.
-- **Invite collaborators** on GitHub if others will work in your house. They clone the repo, open the folder, and they're in.
+- **Invite collaborators** on GitHub if others will work in your house. They clone the repo, open the folder, and they are in.

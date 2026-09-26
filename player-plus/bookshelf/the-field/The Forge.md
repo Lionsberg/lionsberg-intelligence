@@ -24,5 +24,4 @@ The register's standing answer to anyone who reads it is the Builder's: *perhaps
 **Stands on:** [[General Needs]] · [[The LIØNSBERG Toolkit]] · [[The LIØNSBERG Workshop]] · [[Work In Progress]] · [[Current Best Understanding]]
 **Opens onto:** [[The forging criterion]] · [[One tool, every scale]] · [[Patterns Pending Articulation]] · [[Gaps Not Yet Closed]] · [[The Story of the Builder]] · [[Instrument]] · [[The Kit]] · [[Kit of Parts]] · [[Prototype]] · [[The Commitment Tracker]] · [[Reaching Us]] · [[Every Defect Is A Gift]]
 **In play:** Room — when the tool you reached for is not there
-**Sources:** `LIØNSBERG Wiki Books/The LIØNSBERG System Toolkit/The LIØNSBERG Toolkit.md`, §The Forge · `General Needs` (the register the commissions derive from) · `The LIØNSBERG Workshop` (root page)
 **Open:** Twenty-six instruments are named and none has a maker, a date, or an order of priority. · Several Forge entries duplicate templates already listed on the workbench under other names, so the true gap is smaller than the list and the true workbench smaller than its index — neither has been reconciled.

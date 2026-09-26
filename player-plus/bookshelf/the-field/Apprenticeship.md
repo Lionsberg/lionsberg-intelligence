@@ -20,5 +20,4 @@ In the Game the form is ordinary. Two people host each season and the hosting pa
 **Stands on:** [[Learning By Doing]] · [[Wise Eldership]] · [[Trust]] · [[Praxis]]
 **Opens onto:** [[Mastery]] · [[Guild]] · [[The Zone Of Optimum Development]] · [[Belt Progression]] · [[Cohort-Learning]] · [[Pass The Flame]] · [[Initiation]]
 **In play:** table · Home · Gate
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IV — *Apprenticeship* (canon-grade; one line) · *Pillar IV — Sacred Learning and Mastery*, Thesis 6 and transition 5 (canon-grade) · *The LIØNSBERG Pattern Language — Synthesized*, Education As Transformation (canon-grade list) · *Education As Transformation* (wiki root; canon-grade — the Mondragon pedagogy, coaches guide and do not lecture) · lionsberg.wiki: Apprenticeship
 **Open:** *Apprentice-Pathing* is named in the Pattern Language inventory with no card behind it; the practice's shape here is cohered from the Pillar, the Mondragon material, and the general tradition.

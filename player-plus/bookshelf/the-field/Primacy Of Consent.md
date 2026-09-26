@@ -12,7 +12,7 @@ Three words carry it. *Genuine* — consent given by someone who understood what
 
 In practice consent is the absence of meaningful objection within each member's range of tolerance, and every member carries the obligation to object when they reasonably believe the Body will be unable to achieve its aim ([[Meaningful Objection]] · [[Range Of Tolerance]]). This is not consensus — nobody must be delighted — and it is not majority, which would bind the outvoted without their word.
 
-Consent is also how anything crosses a membrane. What a Body consents to has access; what it refuses does not. The same holds for a person in their own field ([[Sovereignty In The Populated Field]]), which is why the canon treats consent as the universal currency at every density, and why predatory patterns specialize in manufacturing it rather than in overt force.
+Consent is also how anything crosses a membrane. What a Body consents to has access; what it refuses does not. The same holds for a person in their own field ([[Sovereignty In The Populated Field]]), which is why consent is treated as the universal currency at every density, and why predatory patterns specialize in manufacturing it rather than in overt force.
 
 Every decision carries a review date; consent is not forever. And the exit is what keeps the whole honest: anyone may leave at any time, in peace ([[Withdrawal Of Consent]] · [[The Way Out]]). At the door of the Game this becomes one simple move — you say yes, in your own words, where others can hear it.
 
@@ -20,5 +20,4 @@ Every decision carries a review date; consent is not forever. And the exit is wh
 **Stands on:** [[Sovereignty Of Consciousness]] · [[Consent]] · [[Mutual Consent]]
 **Opens onto:** [[Meaningful Objection]] · [[Range Of Tolerance]] · [[Withdrawal Of Consent]] · [[Field of Agreements]] · [[Selectively Permeable Membrane]] · [[The Invitation]] · [[The Constitutional Recognitions]]
 **In play:** door
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *Meaningful Objection* (canon-grade) · *Sovereignty In The Populated Field* (drafted Card) · *THE DNA OF HEAVEN* Parts IV and V · lionsberg.wiki: Consent
 **Open:** none found

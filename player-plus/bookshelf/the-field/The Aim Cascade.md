@@ -24,5 +24,4 @@ And it is revised deliberately — at the close of each quest cycle, at threshol
 **Stands on:** [[Purpose]] · [[Commander's Intent]] · [[Work Breakdown Structure]]
 **Opens onto:** [[Quest]] · [[Milestone]] · [[Feature · Deliverable · Task]] · [[SHOULD-CAN-WILL-DID]] · [[Design To The Goal]] · [[The Season Sheet]] · [[Every Quest Is A Project]] · [[Prioritizing]] · [[Subsidiarity]]
 **In play:** the table — drawn once, checked each season, repaired when the work feels weightless
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Aim Cascade.md`
-**Open:** Seven named tiers, where the corpus's other planning instruments use three or four; nothing reconciles them. · The claim that purpose is discovered rather than chosen is doing a lot of work and is not argued. · Nothing says what to do when a person's own cascade and their Circle's genuinely conflict.
+**Open:** Seven named tiers, where the other planning instruments here use three or four; nothing reconciles them. · The claim that purpose is discovered rather than chosen is doing a lot of work and is not argued. · Nothing says what to do when a person's own cascade and their Circle's genuinely conflict.

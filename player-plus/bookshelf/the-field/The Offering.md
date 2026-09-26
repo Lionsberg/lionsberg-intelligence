@@ -20,5 +20,4 @@ Two disciplines keep it clean. It is **free** — an offering extracted or socia
 **Stands on:** [[Gift]] · [[Commons]] · [[Consent]] · [[Sovereignty]]
 **Opens onto:** [[Voluntary Tithing]] · [[TimeEnergy]] · [[The Turn]] · [[The Season Sheet]] · [[Abundance]] · [[Mutual Aid]]
 **In play:** table · door · Home
-**Sources:** *The Little Book of the Great Game*, second draft — *The Twelve Words* (word 8) and *The Way Up* (canon-grade for the Game's own layer) · *Voluntary Tithing* (wiki root; canon-grade) · *The DNA of Heaven*, Parts V and XII · lionsberg.wiki: The Twelve Words
 **Open:** none found.

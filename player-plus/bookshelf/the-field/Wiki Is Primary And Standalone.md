@@ -20,5 +20,4 @@ Read together with the library's role, the division is clean. The wiki holds the
 **Stands on:** [[Screens and paper]] · [[Knowledge as commons]] · [[Notebook form]]
 **Opens onto:** [[Every Page Lives Within A Volume]] · [[Link concepts, not coordinates]] · [[One canonical home per concept]] · [[The Living Library]] · [[The Sacred Codex]] · [[Interoperability]]
 **In play:** beyond
-**Sources:** The LIØNSBERG Operating System, screens and paper · The DNA of Heaven, Part VII · lionsberg.wiki: *The Great Weaving — Concept Ledger*
-**Open:** the decision was made for the wiki. How it applies to this library, which is generated beside the canon and read as a site, is exactly the question it raises and has not answered.
+**Open:** the decision was made for the wiki. How it applies to this library — generated as a site, rather than read as a wiki directly — is exactly the question it raises and has not answered.

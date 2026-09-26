@@ -20,5 +20,4 @@ In play a [[Cell]] usually has no formal elders in its first season and should n
 **Stands on:** [[Wisdom]] · [[Discernment]] · [[Trust]] · [[Mastery]] · [[Servant Leadership]]
 **Opens onto:** [[Wisdom Council]] · [[Council]] · [[Consent-Based Decision-Making]] · [[Mend a Tension]] · [[Arbitration]] · [[Initiation]] · [[Keepers Of The Way]]
 **In play:** table — called when consent stalls, not seated above it
-**Sources:** *Democratic Self-Governance Through Shared Agreements and Wise Eldership* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, §Governance · *The LIØNSBERG Playbook* (invoked by the deciding, conflict, and council plays) · *THE DNA OF HEAVEN* Part VIII (*eldership is wisdom-based, not age-based, and stalled consent goes to the elders for counsel*) · lionsberg.wiki: Democratic Self-Governance Through Shared Agreements and Wise Eldership
 **Open:** No page of its own, though it is invoked by more Plays than almost any other Pattern. How an elder is recognized — by acclamation, by appointment, by belt, or simply by being asked — is unwritten.

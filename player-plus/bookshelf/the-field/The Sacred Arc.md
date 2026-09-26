@@ -22,5 +22,4 @@ Held as current best articulation, not as scripture. The names may sharpen as mo
 **Stands on:** [[ØNE]] · [[The Song of Creation]] · [[ØNE Body]] · [[The Veil of Finitude and Forgetting]] · [[The Story of LIØNSBERG]]
 **Opens onto:** [[The Fall]] · [[Awakening]] · [[The Sacred War]] · [[Liberation and Exodus]] · [[The Great ReMembering]] · [[Embodying the Way]] · [[Co-Creating Heaven]] · [[The Eternal Divine Play]] · [[The 144 Gates of Initiation]]
 **In play:** door · table
-**Sources:** *The Story of LIØNSBERG — The Sacred Arc* (canon-grade) · *The Story of LIØNSBERG* (canon-grade) · *The 144 Gates of Initiation* (the Gates and the Story named there as two faces of one Pattern) — lionsberg.wiki · the seed text *The DNA of Heaven*, Part II.
 **Open:** The Arc names Movement IV *Finitude and Forgetting*; the concept page for the passage itself is *The Veil of Finitude and Forgetting*. Two names, one movement. · The Arc's Movement XII reads *Eternal Divine Play*; elsewhere *The Eternal Divine Play*. The article is not load-bearing, but the two forms should eventually settle.

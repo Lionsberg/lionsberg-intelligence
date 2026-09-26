@@ -28,5 +28,4 @@ Say it without drama and without panic: clearly, early, with love, and let peopl
 **Stands on:** [[Requirement Of Transparency]] · [[Speaking Truth In Love]] · [[Sovereignty]]
 **Opens onto:** [[Whistleblower Protection]] · [[Control Of Information]] · [[The Asymmetry of Consequences]] · [[Heads-up]] · [[Having Difficult Conversations]] · [[Necessity Of Accountability]] · [[Prevalence Of Deceit And Propaganda]] · [[Guardianship]]
 **In play:** the table — whenever someone knows something the room does not
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/The Lahaina Principle.md`
 **Open:** The Card attributes motives to named classes of officials across several fields and lists what they are said to know and conceal; those particulars are the Card's claim, are not established, and are not carried here — the pattern crosses, the accusation does not. · The death toll and the official reasoning are matters of public record and dispute; no numbers are set down here. · Nothing in the principle addresses the genuine case where a warning would itself cause the harm, which is the only serious argument on the other side.

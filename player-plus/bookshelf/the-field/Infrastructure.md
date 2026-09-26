@@ -20,5 +20,4 @@ In the crossing there is a more urgent form: the hub, the ark, the place with wa
 **Stands on:** [[Commons]] · [[Design]] · [[Living System]] · [[Stewardship]]
 **Opens onto:** [[The Hub]] · [[The Joseph Plan]] · [[Shared Services, Infrastructure, and Support]] · [[Polycentric Implementation of Shared Solutions]] · [[Air · Water · Soil · Microbiome]] · [[Technology Sovereignty]]
 **In play:** the Home · beyond the table
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table and the Problems section · *Pillar IX — Sacred Architecture and Design*, macro-scale civilizational infrastructure (canon-grade) · *Pass The Flame* Ch7 · the seed's Part IV and Part VII. lionsberg.wiki: Infrastructure.
 **Open:** The Lexicon's Pillar IX line and its Problems-section entry treat infrastructure as two different concerns — the built substrate, and what a federation provides — without connecting them.

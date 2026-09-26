@@ -20,5 +20,4 @@ In play, almost no player touches it. Its practical face for a [[Cell]] is the u
 **Stands on:** [[Federation]] · [[Subsidiarity]] · [[Consent]] · [[Sovereignty At Every Scale]] · [[Total Nested Holarchy Of Sovereignties]]
 **Opens onto:** [[Federations vs Empires]] · [[Power Of The Republic]] · [[The LIØNSBERG Constitution]] · [[Separation Of Power]] · [[Stewardship body]] · [[The plan of the whole]]
 **In play:** beyond — met as the upper half of the card, and as proposals travelling up
-**Sources:** *Federal Governance* (three paragraphs of argument, no structure) · *The LIØNSBERG Lexicon*, §Governance · *The LIØNSBERG Operating System* §17 · lionsberg.wiki: Federal Governance
 **Open:** The root page argues that the question must be answered and does not answer it.

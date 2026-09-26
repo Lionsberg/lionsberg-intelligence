@@ -20,5 +20,4 @@ In play it is the standing question behind [[Impeachment]], [[Recourse]], [[With
 **Stands on:** [[Consent]] · [[Sovereignty]] · [[Logos]] · [[Spirit]] · [[Transparency]]
 **Opens onto:** [[Authority]] · [[Accountability]] · [[Impeachment]] · [[Recourse]] · [[Withdrawal Of Consent]] · [[Sacred Trust]]
 **In play:** table — asked whenever something feels permitted but wrong
-**Sources:** *The LIØNSBERG Lexicon*, Pillar II table · *Pillar II — Sacred Governance and Stewardship* (theses 1 and 4; *the time of false authority is over*) · *The LIØNSBERG Constitution* · lionsberg.wiki: Pillar II — Sacred Governance and Stewardship
 **Open:** No page of its own. No procedure exists for establishing that legitimacy has been lost short of [[Impeachment]] — the middle ground between healthy and removable is unwritten.

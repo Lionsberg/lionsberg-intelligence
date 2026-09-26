@@ -22,5 +22,4 @@ The canon applies it in its last line, and the application is the reason the par
 **Stands on:** [[Parable]] · [[Story]] · [[The Window]]
 **Opens onto:** [[The Final Test]] · [[Drift]] · [[Discipline]] · [[Spiraling Up · Spiraling Down]] · [[Trust]] · [[The Dark Initiate Failure Mode]] · [[The Meta Crisis]] · [[Pillar VII — Sacred Culture, Art, and Story]]
 **In play:** the Story, and the late season — told when a body can see the end and starts to relax
-**Sources:** `Odysseus And Adverse Winds` · lionsberg.wiki: Odysseus And Adverse Winds
 **Open:** The closing application names a *corrupt crew* without saying who is meant, and the parable works as well read inwardly — the crew is us — as read as an accusation. The canon does not say which reading it intends.

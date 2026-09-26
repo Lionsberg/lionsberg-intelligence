@@ -22,5 +22,4 @@ Used across two books as a live link with no page behind it.
 **Stands on:** [[Power]] · [[Right Use of Power]] · [[Authority]]
 **Opens onto:** [[The Game of Empire and Oligarchy]] · [[Centralization Of Power]] · [[Authority derived from responsibility]] · [[Separation Of Power]] · [[Withdrawal Of Consent]] · [[Sacred Trust]] · [[Containment Of The Dangerous Sovereign]] · [[Kontrolle]]
 **In play:** the table — the three marks, run over any arrangement a Cell is inside
-**Sources:** `LIØNSBERG Wiki Books/The Greatest Fraud, Deception, and Existential Threat in History` and `Aliens, Fascists, and Giants` ch. 23
 **Open:** Never defined in either source. · Nothing distinguishes it from the ordinary asymmetry present in every relation between the strong and the weak, which is the distinction that decides when it is a wrong.

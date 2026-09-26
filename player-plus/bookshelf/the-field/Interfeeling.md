@@ -22,5 +22,4 @@ It also does the thing a shared practice does that a private one cannot: it make
 **Stands on:** [[Circle]] · [[Emotions Are Information, Gradients, And Never Enemies]] · [[Trust]] · [[Circle Coherence]]
 **Opens onto:** [[Feel → Allow → Read → Name → Ask → Move → Release]] · [[Check In]] · [[Sensemaking]] · [[Zero Blame Environment]] · [[Speaking Truth In Love]] · [[Mend a Tension]] · [[Dyad Jam]] · [[The Seven-Field Emotion Page Pattern]]
 **In play:** the table — the opening round of any gathering
-**Sources:** `Emotion` (root page — the practice held in Circle) · `LIØNSBERG Wiki Books/The LIØNSBERG Book of Emotions` (the book's front matter) · lionsberg.wiki: Emotion
 **Open:** Named in a clause and never given a form: nothing states how a round is held, how long it takes, what is done with what surfaces, or what a body does when one member's weather dominates the room.

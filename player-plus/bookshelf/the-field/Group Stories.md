@@ -22,5 +22,4 @@ No template exists in the source, which is the main thing standing between this 
 **Stands on:** [[Our Story]] · [[Share the Stories]] · [[Who We Are · Where We Are · How We Got Here · Where We Are Going · Who We Are Going With · Why]]
 **Opens onto:** [[The Board]] · [[The Turn]] · [[Forward-Looking Story]] · [[The Golden Thread]] · [[Tribe]] · [[Communication Debt]] · [[The face (a holon's first page)]] · [[Storytelling]]
 **In play:** the table — written by a Cell in its first season, refreshed at every turning
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §VII
 **Open:** No template, no stated cadence for refreshing, and no account of who reads them. · Overlaps the Cell's own season sheet and face page; nothing says whether these are three things or one.

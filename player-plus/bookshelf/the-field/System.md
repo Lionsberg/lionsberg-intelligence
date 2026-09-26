@@ -20,5 +20,4 @@ A Cell is a system in exactly this sense: a few people, the relations between th
 **Stands on:** [[Logos]] · [[Pattern]] · [[Living System]] · [[InterExistence]]
 **Opens onto:** [[System of Systems]] · [[System Integration]] · [[Interface]] · [[Constraint]] · [[Zero Blame Environment]] · [[Levels Of Scale]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table and The System section (canon-grade) · *The System* (root page, brief) · *Systems Thinking* · the seed's Part VII, optimize the Whole. lionsberg.wiki: The System · Systems Thinking.
 **Open:** The root *The System* page points to a "LIØNSBERG System" page name that differs from *The LIØNSBERG System And Structure*; which is the canonical home is unsettled.

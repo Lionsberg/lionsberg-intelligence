@@ -20,5 +20,4 @@ A vow spoken is also a vow that can be kept and broken visibly, which is what ma
 **Stands on:** [[Warrior]] · [[Commitment]] · [[Integrity]] · [[Accountability]] · [[Vow-Speaking]]
 **Opens onto:** [[The Sacred Use Of Force]] · [[Restraint As The Refusal To Act]] · [[The Dark Initiate Failure Mode]] · [[Term Limits And Rotation]] · [[Containment Of The Dangerous Sovereign]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, The Sacred Warrior Domain · *All Patterns — Master Consolidated Inventory* §2.1 (ore) · *Pillar X — Sacred Guardianship and Order*, theses 6 and 8 (canon-grade) · the seed's Part IV, accountability and rotation. lionsberg.wiki: The Warrior's Vow.
-**Open:** No text of the vow exists anywhere in the corpus — only the name and the fact that it has a terminal clause. What it says is unwritten, and the three parts above are read from the surrounding disciplines rather than quoted.
+**Open:** No text of the vow exists anywhere — only the name and the fact that it has a terminal clause. What it says is unwritten, and the three parts above are read from the surrounding disciplines rather than quoted.

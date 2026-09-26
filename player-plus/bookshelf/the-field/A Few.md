@@ -14,11 +14,10 @@ The reason it needs saying is that breadth is what accumulates by default. Every
 
 Quality is the operative word and the one most easily lost. The claim is not that fewer is better; it is that a few *of the highest quality* beat many mediocre ones. A short list of poor choices is simply a small failure. So the rule cannot be followed without the harder discipline that sits under it — the judgment of what is actually good, which is itself something that only deepens with depth ([[Discernment]], [[Quality]], [[Wisdom]]).
 
-Then the chapter turns outward with one line: *a very few things move nearly all things*. That is the leverage claim, and the canon runs it as a chain — [[One moves a few, a few moves 3%, 3% moves 20%, 20% moves 80%]] — while the chapter that follows explains how the few are found ([[The 20%]]). Read together the three make one argument: capacity is finite, effect is wildly uneven, and the whole art is locating the small set that carries the rest.
+Then the chapter turns outward with one line: *a very few things move nearly all things*. That is the leverage claim, and it runs as a chain — [[One moves a few, a few moves 3%, 3% moves 20%, 20% moves 80%]] — while the chapter that follows explains how the few are found ([[The 20%]]). Read together the three make one argument: capacity is finite, effect is wildly uneven, and the whole art is locating the small set that carries the rest.
 
 **Also called:** a few of the highest Quality
 **Stands on:** [[Quality]] · [[One (the One Thing)]] · [[Discernment]] · [[Mastery]]
 **Opens onto:** [[The 20%]] · [[One moves a few, a few moves 3%, 3% moves 20%, 20% moves 80%]] · [[Out of the Antilibrary, a Library]] · [[Attend To The Most Important Things First]] · [[The All (the reconciliation)]] · [[Our Core Ways]] · [[The First Few]] · [[Prune]] · [[Maximum reuse]]
 **In play:** the table and the Path — every time a body is choosing what to take on, and every time a person is choosing what to learn
-**Sources:** `LIØNSBERG Wiki Books/The Wisdom of the Way/2. A Few.md` (four worked examples and the leverage line) · the same book's chapters 3, 4 and 7 · lionsberg.wiki: The Wisdom of the Way
 **Open:** The chapter says nothing about how quality is judged, which is the whole difficulty of applying it. · Its martial-arts and reading examples carry the argument; the delivery example is asserted without one.

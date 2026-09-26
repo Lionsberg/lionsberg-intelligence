@@ -20,5 +20,4 @@ It is load-bearing because it is the humane half of planning, and without it the
 **Stands on:** [[TimeEnergy]] · [[The Pledge]] · [[Capacity]] · [[Condition]]
 **Opens onto:** [[Resource Leveling]] · [[Bottleneck]] · [[Level Of Commitment]] · [[Position]] · [[The HUD]] · [[Rest And Regeneration]] · [[The Living Gradient]] · [[Range Of Tolerance]]
 **In play:** the table — each member says their word aloud at the gathering
-**Sources:** `Projects/the term pages/Load.md` (the page states the word was chosen over *utilization*) · `Projects/the term pages/Resource Leveling.md`, `Condition.md` (drafts) · `Level Of Commitment` (wiki root) · lionsberg.wiki: Level Of Commitment
 **Open:** The hours attached to each word are one body's estimate and not a measurement, and they assume a life shaped like the person who wrote them. · Nothing states what a Cell owes someone who says *redline* three weeks running.

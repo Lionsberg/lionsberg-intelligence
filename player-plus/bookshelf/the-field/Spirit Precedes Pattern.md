@@ -19,5 +19,4 @@ The order to remember is **Spirit → Pattern → practice → outcome.** Each l
 **Stands on:** [[Spirit]] · [[ØNE]] · [[Love]]
 **Opens onto:** [[Pattern]] · [[The LIØNSBERG Pattern Language]] · [[Weave Spirit, Hearts, and Minds]] · [[Institutional Idolatry]] · [[The Golden Calf]] · [[LIØNSBERG Is A Prototype, Not The Eternal Essence]]
 **In play:** At the door, in the invitation's fine print — test everything; at the table, as the move before the plan; at the Room and beyond, as the standing permission to change the Pattern when the Spirit requires it.
-**Sources:** `Spirit Precedes Pattern` · `Ring 0 - ØNE` (LIØNSBERG 101) · `Welcome to LIØNSBERG` · `The LIØNSBERG Playbook`, Disciplines · `The DNA of Heaven`. lionsberg.wiki: **Spirit Precedes Pattern**.
 **Open:** none found — the wording is stable across the Card, Ring 0, and the seed.

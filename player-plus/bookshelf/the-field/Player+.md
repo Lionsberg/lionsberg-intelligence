@@ -18,5 +18,4 @@ A Player+ plays the ordinary Game. It brings itself into a Cell of three to thir
 **Stands on:** [[Player]] · [[Agent]] · [[Sovereignty]] · [[Authorized]] · [[Capacity]]
 **Opens onto:** [[Principal]] · [[Charter]] · [[Venue card]] · [[Heads-up]] · [[The Player]] · [[Cell]]
 **In play:** Gate · table · Room
-**Sources:** The DNA of Heaven, Part X · Player+ Modules, *Becoming a Player+*, *Advanced Agent Engineering*, *Start Here* · lionsberg.wiki: *LIØNSBERG Personal Agents*, *The LIØNSBERG Operating System*.
 **Open:** two wordings stand side by side — the deck's "you, together with any agents that act for you" and the seed's "the Cell of a player and their agents". They are the same unit seen from the person and from the Game; no page yet says so. The Operating System's [[The Player]] lists *Person+* as a synonym of its own holonic sense.

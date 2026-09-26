@@ -22,5 +22,4 @@ The habit generalises. Any living page can carry its open questions beside it wi
 **Stands on:** [[Module]] · [[The Deck Standard]] · [[Keepers Of The Way]]
 **Opens onto:** [[Second reader]] · [[Player+ Modules]] · [[Provenance]] · [[Attribution]] · [[Look-back]] · [[Proposal]]
 **In play:** beyond
-**Sources:** Player+ Modules, *How a Module Lives*, *The Deck Standard* · The DNA of Heaven, Part XIII (provenance never thins).
 **Open:** none found.

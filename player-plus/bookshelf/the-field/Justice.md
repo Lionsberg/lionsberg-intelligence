@@ -19,5 +19,4 @@ Justice also has an ordinary weekly shape. It looks like a body that says out lo
 **Stands on:** [[Love]] · [[Right Relationship]] · [[Goodness]]
 **Opens onto:** [[Pillar XI — Sacred Society and Justice]] · [[Conflict Transformation]] · [[Consent]] · [[Accountability]] · [[Remedy]] · [[Recourse]] · [[Reconciliation]] · [[Dignity]]
 **In play:** At the table, in how a tension is mended; at the Room, in who has a seat; beyond, as the test of what a body exports.
-**Sources:** `Justice` · `Pillar XI — Sacred Society and Justice` (canon-grade — "justice is love in action") · `The LIØNSBERG Lexicon`, Pillars II and XI · `The LIØNSBERG Pattern Language — Synthesized 2026-05-24`. lionsberg.wiki: **Justice**.
 **Open:** both pages are currently live and full, so a reader can meet two articulations without knowing which governs.

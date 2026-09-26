@@ -20,5 +20,4 @@ The canon also holds a gradient: the greater a decision's span of impact, the mo
 **Stands on:** [[Sovereignty]] · [[Range Of Tolerance]] · [[Meaningful Objection]] · [[Proposal]] · [[Dignity]]
 **Opens onto:** [[Consent-Based Decision-Making]] · [[Mutual Consent]] · [[Withdrawal Of Consent]] · [[Authority]] · [[Legitimacy]] · [[Field of Agreements]] · [[Decision Making]]
 **In play:** door, then table — read at the door, given in the room, renewed at each review date
-**Sources:** *Consent* · *Meaningful Objection* (root page) · *Range of Tolerance* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Recognition 3 (*Primacy Of Consent*) · *THE DNA OF HEAVEN* Part IV, *Consent* · lionsberg.wiki: Consent
 **Open:** The Lexicon defines consent as *free, informed, reciprocal agreement to participate* — the joining sense; the root page and the seed define it as *absence of meaningful objection to a proposal* — the deciding sense. Both are live and they are not the same act; this page leads with the deciding sense and treats the joining sense as [[Mutual Consent]].

@@ -22,5 +22,4 @@ What replaces keeping is tending. There is still craft, still formation, still s
 **Stands on:** [[Keepers Of The Way]] · [[The Ineffable]] · [[Knowledge as commons]] · [[Sovereignty]]
 **Opens onto:** [[The Act Of Release]] · [[Commons]] · [[Recognitions Are Not Titles To Be Sought]] · [[Institutional Idolatry]] · [[Pass The Flame]] · [[Welcoming The Stranger]] · [[Servant Leadership]] · [[Transparency]]
 **In play:** the door — and any moment someone in this body is offered standing over others
-**Sources:** `LIØNSBERG Wiki Books/Martial Arts Guide/1.4 Keepers of the Way` · lionsberg.wiki: Rediscovering The Way - A Guide For The Warrior Spirit
 **Open:** The chapter's argument is embedded in a personal account of one practitioner's own titles; the mechanism carries without it and the account stays with its author. · The canon does not reconcile *no one keeps the Way* with the graduated, gated transmission its own formation pages describe — both are held, and the tension is real.

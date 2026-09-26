@@ -26,5 +26,4 @@ Four artefacts are named in the source and none of them exists.
 **Stands on:** [[Share the Stories]] · [[The Board]] · [[The Record]]
 **Opens onto:** [[Forward-Looking Story]] · [[Demonstrate before advocating]] · [[The Offering]] · [[The Plan]] · [[Underwriting The New Economy]] · [[Every Story Is A Prophesy]] · [[Network Effects]] · [[Storytelling]]
 **In play:** the table — at the close of every quest, when the telling is written
-**Sources:** `LIØNSBERG Wiki Books/Pass The Flame…` §VII
 **Open:** No story board exists, and no format for one. · Nothing says how stories become a budget in practice, which is the step that carries the whole claim. · A movement that funds itself on its best stories will select for tellable work, and nothing guards against that.

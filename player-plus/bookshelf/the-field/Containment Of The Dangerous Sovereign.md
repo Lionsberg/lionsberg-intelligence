@@ -20,5 +20,4 @@ This is the hardest unwritten thing in the Pillar, and it should be written by p
 **Stands on:** [[Justice]] · [[Guardianship]] · [[Sovereignty]] · [[The Sacred Use Of Force]]
 **Opens onto:** [[Reconciliation]] · [[Remedy]] · [[Sanction]] · [[Conflict Transformation]] · [[Disbanding]] · [[The Escalation Ladder]] · [[Protection Of Children]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Gaps — Justice, Containment, Mass Healing (ore — five names, no cards) · *Pillar X — Sacred Guardianship and Order*, theses 11 and the narrative (canon-grade) · the seed's Part V, the floor. lionsberg.wiki: Containment Of The Dangerous Sovereign.
 **Open:** Ore, and the most consequential hole in this domain. Nothing states who decides, by what process, with what appeal, for how long, or what re-establishing trust would consist of. The frame above is inferred from the surrounding disciplines and should not be treated as settled.

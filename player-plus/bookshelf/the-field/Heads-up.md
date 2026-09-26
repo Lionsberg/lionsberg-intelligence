@@ -22,5 +22,4 @@ It is private. The page, its link, the agent's advice, and anything personal sta
 **Stands on:** [[Agent]] · [[Room]] · [[The clock is read, never computed]]
 **Opens onto:** [[Play by Play]] · [[Live log]] · [[Ask]] · [[Jam]] · [[Venue card]] · [[Morning page]]
 **In play:** Room
-**Sources:** The DNA of Heaven, Part X · Player+ Modules, *The Heads-up and the Play by Play*, *Daily Life* · lionsberg.wiki: *The LIØNSBERG Circle Guide* (the Scribe).
 **Open:** none found.

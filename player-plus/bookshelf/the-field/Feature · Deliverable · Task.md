@@ -18,5 +18,4 @@ The handoff is where the ladder earns its keep. A deliverable has a receiver, an
 **Stands on:** [[Work Breakdown Structure]] · [[Milestone]]
 **Opens onto:** [[The activity table]] · [[Conditions of satisfaction]] · [[Commitment]] · [[Requests and offers]]
 **In play:** table
-**Sources:** *The LIØNSBERG Operating System* §6 · *Activity* and *Task* · *The DNA of Heaven*, Part VII — lionsberg.wiki page name: **Work Breakdown Structure**
 **Open:** The delivery literature uses *activity* and *task* interchangeably; here an activity is a row in the network and a task is the work inside it.

@@ -20,5 +20,4 @@ Two limits are stated rather than argued. The Recognitions themselves are not am
 **Stands on:** [[Current Best Understanding]] · [[Requirement Of Transparency]] · [[Consent]]
 **Opens onto:** [[Proposal]] · [[The edition]] · [[Decision Records]] · [[Ideological Capture]] · [[Soak]] · [[Constitutional Protection Of Purpose]] · [[The Constitutional Recognitions]]
 **In play:** table
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized 2026-05-24* · *THE DNA OF HEAVEN* Parts IV, V and XIII · lionsberg.wiki: The LIØNSBERG Pattern Language
 **Open:** The Recognitions are declared unamendable while every significant decision is declared revisitable; the boundary between the two is not drawn anywhere.

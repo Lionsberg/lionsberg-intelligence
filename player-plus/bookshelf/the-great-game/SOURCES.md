@@ -12,8 +12,8 @@ The pages a Player+ reads whole, in roughly this order:
 - **The LIØNSBERG Playbook** — the living guide of the Game; each Play its own continuously improving card.
 - **The LIØNSBERG Pattern Language** — the keystone.
 - **The Story of LIØNSBERG** — as faithfully as we can presently tell it.
-- **Pass The Flame** · **The Sovereign Path** · **The Golden Seed** · **The Invitation** · **The Gameboard** · **The LIØNSBERG Quick Start Guide**.
-- **The LIØNSBERG Constitution** (an interim constitution, and it is our job to improve it) · **LIØNSBERG — History, Inception, and Trust Manifesto** · **LIØNSBERG Is A Prototype, Not The Eternal Essence** (what LIØNSBERG claims, and what it does not).
+- **Pass The Flame****The Sovereign Path****The Golden Seed****The Invitation****The Gameboard****The LIØNSBERG Quick Start Guide**.
+- **The LIØNSBERG Constitution** (an interim constitution, and it is our job to improve it)**LIØNSBERG — History, Inception, and Trust Manifesto****LIØNSBERG Is A Prototype, Not The Eternal Essence** (what LIØNSBERG claims, and what it does not).
 
 ## What each chapter draws on
 

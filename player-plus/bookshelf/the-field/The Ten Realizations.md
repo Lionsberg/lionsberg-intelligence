@@ -20,5 +20,4 @@ In the Game these are rarely taught as a list. They arrive as the things a playe
 **Stands on:** [[The Story of LIØNSBERG]] · [[ØNE]] · [[InterExistence]] · [[Forward-Looking Story]]
 **Opens onto:** [[Citizenship]] · [[Identity]] · [[The Goal]] · [[The Quest (as journey)]] · [[The Sacred War]] · [[None Of Us Until All Of Us]]
 **In play:** door · Gate
-**Sources:** *Pass The Flame — Illuminating the Way Beyond the Meta Crisis*, Ch. VI *The Ten Realizations* (canon-grade within that book; the ten headings are the book's own) — lionsberg.wiki.
 **Open:** The ten are held inside one chapter of one book and have no page of their own; several of them (*One Uniting Story*, *One Highest Citizenship*) are also treated as standalone terms elsewhere, with no statement of which home governs.

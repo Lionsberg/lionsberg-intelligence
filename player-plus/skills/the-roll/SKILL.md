@@ -25,11 +25,12 @@ Say this plainly before anyone writes anything, because most people arrive expec
 2. **Read the clock.** Never compute or estimate the date. Read it from a clock or a calendar, or ask; write it as read. A line dated from memory is the first defect in the oldest record the Cell will keep.
 3. **Ask how they wish to be named.** Their own name, a name they choose for the Game, or the least that will do. Nobody is required to be known by more than that. Do not supply a name, shorten one, or tidy a spelling.
 4. **Let them say the word, aloud, where someone can hear it.** Their own sentence, in their own words — not a checkbox that stood in for it, and not a sentence you drafted. A promise heard by no one is a wish.
-5. **Take the five marks.** Name · the date you read · the word verbatim · **brought-by**, the Carrier who handed them the Flame, which never changes · **witnessed-by**, whoever heard the word given. Add one word for where they are, if the Cell's book asks for it.
+5. **Take the five marks.** Name · the date you read · the word verbatim**brought-by**, the Carrier who handed them the Flame, which never changes**witnessed-by**, whoever heard the word given. Add one word for where they are, if the Cell's book asks for it.
 6. **Read the line back** and correct it until it is theirs. Then **write it once.**
 7. **Never edit it after.** If something on the line is wrong, write a new dated line beside it saying what it corrects, and leave the first standing. A reconstructed or corrected record is a real record; one pretending not to be is not.
 8. **Put it where it belongs.** In the Cell's own book, on the Cell's own shelf, and a copy the person can carry away. It goes nowhere else without their own word for that sending.
-9. **What comes next, if they want it.** The naming of their three — theirs to hold, and held at the narrowest ring. The little book and the Playcard. Their first Turn. And, within the week, the Flame passed on (`pass-the-flame`).
+9. **What comes next, if they want it.** The naming of their three — theirs to hold, and held at the narrowest ring. The little book and the Playcard. Their first Turn. And, within three days, the Flame passed on (`pass-the-flame`).
+10. **The Pledge is a commitment, kept or not.** For the first three percent, the word given at the Gate is the Pledge, and it includes the commitment to bring in three people not already playing within three days. Say so before they speak, so the word they give is whole. When the three days have passed, the keeping is written the way every correction is: a new dated line beside the first — *kept*, or *not yet kept*, and who was brought — never an edit. Those lines, gathered, are how the body sees who brought whom and whose word holds; believability grows from commitments kept, never from commitments claimed (say what you will do; do what you said; learn from the gap). Write what your person says happened; never infer it.
 
 ## What this skill never does
 
@@ -39,6 +40,7 @@ Say this plainly before anyone writes anything, because most people arrive expec
 - Edit, tidy, or remove a line once it is written.
 - Send the Roll, or any name on it, to a shared page, a hosted service, another house, or any centre — without the person's own word for that sending, every time.
 - Treat the Roll as a qualification, or withhold anything at all from someone who is not on it.
+- Mark a commitment kept or not kept on anyone's behalf, or from anything but their own account and the Cell's witness.
 - Require a name, a story, a belief, or an explanation as the price of the line.
 - Keep reading, writing, or asking after anyone says **stop**.
 

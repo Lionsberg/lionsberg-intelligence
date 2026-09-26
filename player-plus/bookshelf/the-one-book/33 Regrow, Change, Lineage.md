@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
 book: The One Book
-chapter: 28
+chapter: 33
 ---
 
-# 28 Regrow, Change, Lineage
+# Regrow, Change, Lineage
 
 *Nothing in this Book is finished, and that is the design. What follows is the third thing a living work owes its reader, after the telling and the plan: how to grow the whole thing back from whatever survives, how it changes without anyone owning it, and whose hands it came through. A work that cannot answer these three is not a seed. It is a monument, and monuments do not grow.*
 
@@ -74,7 +74,7 @@ The seed is the smallest text from which the whole can be regrown by a person or
 
 **What is kept:** the Spirit and the Goal; the Story; the Twelve Pillars in one paragraph each; the Pattern, with the [[Twelve Irreducible Elements]] and the Anti-Patterns; the Game, with the five moves, the [[The Turn|Turn]], the [[Season]] and the [[The Season Sheet|Season Sheet]]; the Flame; the Pattern of Production; the Way; the Path; the words; the plan; and the procedure you are reading now.
 
-**What to do first:** the ten steps the seed states, in order, without skipping to step nine because it is the interesting one. Form a Cell of three. Keep the Turn for a season and write, week by week, what a Cell needs to know to do what you just did — that writing is the Playbook, regrown. Tell the Story as you have lived it. Name the patterns you used, the Twelve first, each as context, forces and solution on one card. [[Pass The Flame]] within a week, to two or three. When three Cells are one another's home, write down what they agreed at the door — that is the [[Field of Agreements]], regrown — and the handful of standards you needed in order to read one another's sheets, which is [[The LIØNSBERG Operating System|the Operating System]], regrown. Found the community body when the Cells of a place number toward three hundred. Build. Walk the Path and record the thresholds from what actually happened, not from what the text says. Regrow the Pillars last, by asking of each what instrument the community actually needs.
+**What to do first:** the ten steps the seed states, in order, without skipping to step nine because it is the interesting one. Form a Cell of three. Keep the Turn for a season and write, week by week, what a Cell needs to know to do what you just did — that writing is the Playbook, regrown. Tell the Story as you have lived it. Name the patterns you used, the Twelve first, each as context, forces and solution on one card. [[Pass The Flame]] within three days, to your three. When three Cells are one another's home, write down what they agreed at the door — that is the [[Field of Agreements]], regrown — and the handful of standards you needed in order to read one another's sheets, which is [[The LIØNSBERG Operating System|the Operating System]], regrown. Found the community body when the Cells of a place number toward three hundred. Build. Walk the Path and record the thresholds from what actually happened, not from what the text says. Regrow the Pillars last, by asking of each what instrument the community actually needs.
 
 ### From the Little Book alone
 
@@ -170,7 +170,7 @@ So: pages weekly, rules seasonally. A better way found at your table may be play
 
 Every accepted change carries its date, its why, and its source in the record of the thing it changed. Every prior version is kept. Dates are read from a clock, never computed. [[Provenance]] never thins: a draft cited as a draft stays cited as a draft until the canon says otherwise, and dropping the old lineage when a new version ships is the common failure and the one that costs the most.
 
-And nothing true is discarded to make the structure tidy. **Weave, don't delete.** A concept held in nine places is held nowhere, so consolidation is necessary — but the nine places are rarely nine copies, and one of them contains the sentence nobody else found. Read the scattered sources; find what is genuinely new in each; weave that into the one canonical home; only then archive the source, with its provenance intact. Beyond the last chapter the Book keeps open ground for whatever is wise, right, true or good but has not yet found its home — a thread whose weave has not appeared, a fragment too alive to lose, a question worth keeping precisely because nobody can answer it. Some of what waits there will turn out to be the seed of a whole new chapter. Some will simply live there, feeding the work the way a hedgerow feeds a farm without ever being a crop. Either way it is kept, and so the Book can grow forever without ever growing poorer.
+And nothing true is discarded to make the structure tidy. **Weave, do not delete.** A concept held in nine places is held nowhere, so consolidation is necessary — but the nine places are rarely nine copies, and one of them contains the sentence nobody else found. Read the scattered sources; find what is genuinely new in each; weave that into the one canonical home; only then archive the source, with its provenance intact. Beyond the last chapter the Book keeps open ground for whatever is wise, right, true or good but has not yet found its home — a thread whose weave has not appeared, a fragment too alive to lose, a question worth keeping precisely because nobody can answer it. Some of what waits there will turn out to be the seed of a whole new chapter. Some will simply live there, feeding the work the way a hedgerow feeds a farm without ever being a crop. Either way it is kept, and so the Book can grow forever without ever growing poorer.
 
 ### The steward
 
@@ -284,7 +284,7 @@ Not all of us will make it to the other side. That is said here, at the end, bec
 
 There is nothing left for this chapter to say, and one thing left for you to do, which is the thing every page from the first to this one was written to invite: to stop reading, and begin.
 
-Read the Story. Play the Game. Pass the Flame. Pierce the Darkness. And we'll walk each other home.
+Read the Story. Play the Game. Pass the Flame. Pierce the Darkness. And we will walk each other home.
 
 *Never forget: sing the song, pass the flame, and keep your feet on THE PATH.*
 
@@ -298,7 +298,7 @@ This chapter's words at the table, each opening onto its own page.
 
 **Regrowth and the sizes:** [[The Golden Seed]] · [[The DNA of Heaven]] · [[The three tiers]] · [[The Kit]] · [[Kit of Parts]] · [[The Little Book of the Great Game]] · [[The Twelve Words]] · [[Receive The Seed]] · [[The Charge Of The Receiver]] · [[Notebook form]] · [[Form a Cell]] · [[Cell]] · [[Quest]] · [[The Turn]] · [[Season]] · [[The turnings]] · [[The Season Sheet]] · [[Field of Agreements]] · [[The LIØNSBERG Operating System]] · [[Twelve Irreducible Elements]] · [[The Story of LIØNSBERG]] · [[The Great Game]].
 
-**How it changes:** [[Proposal]] · [[Meaningful Objection]] · [[Consent]] · [[The Way Up]] · [[The Return]] · [[The edition]] · [[The Playcard]] · [[The Rules of The Game]] · [[Decision Records]] · [[Stewardship]] · [[Weave, don't delete]] · [[Change log]] · [[The LIØNSBERG Workshop]] · [[Elision]] · [[Minimum standards of interoperability]] · [[Instantiation]].
+**How it changes:** [[Proposal]] · [[Meaningful Objection]] · [[Consent]] · [[The Way Up]] · [[The Return]] · [[The edition]] · [[The Playcard]] · [[The Rules of The Game]] · [[Decision Records]] · [[Stewardship]] · [[Weave, do not delete]] · [[Change log]] · [[The LIØNSBERG Workshop]] · [[Elision]] · [[Minimum standards of interoperability]] · [[Instantiation]].
 
 **The engines:** [[Every Defect Is A Gift]] · [[Continuous Improvement]] · [[Zero Blame Environment]] · [[Retrospective]] · [[Look-back]] · [[Second reader]] · [[OmniSpection]] · [[The Record]] · [[The gap]] · [[Like Gold Refined Seven Times]] · [[Prototype]] · [[Knowledge as commons]] · [[Sighting]] · [[Stop]] · [[Whistleblower Protection]] · [[Commitment]] · [[Agent]] · [[Charter]] · [[Player+ Modules]].
 
@@ -306,7 +306,7 @@ This chapter's words at the table, each opening onto its own page.
 
 **The handing on:** [[Pass The Flame]] · [[The Flame]] · [[The Invitation]] · [[Story]] · [[Share the Stories]] · [[The Sovereign Path]].
 
-And the pages this chapter stands beside: [[The Reweaving Web]] · [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[24 The Plan — the first three percent]] · [[25 The Words]] · [[26 The Instruments the Canon Lacks]] · [[27 The Open Questions]] · [[21 In Every Future — what to do in each case]] · [[29 The Stories — ten trillion stories woven back into ONE]].
+And the pages this chapter stands beside: [[The Reweaving Web]] · [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[29 The Plan — the first three percent]] · [[31 The Words]] · [[32 The Open Questions]] · [[21 In Every Future — what to do in each case]] · [[22 The Stories — ten trillion stories woven back into ONE]].
 
 ---
 
@@ -322,7 +322,7 @@ And the pages this chapter stands beside: [[The Reweaving Web]] · [[THE STORY]]
 
 **4 · What the weekly improvement of this library actually is.** The mark on every page promises improvement each week, and the laws of the library say a page crosses only when read whole, cohered, and resonated. Who resonates, and by what process, is not written anywhere. An answer would settle whether the weekly turn is an office, a Cell's Turn, or a practice anyone may run on their own copy.
 
-**5 · Whether the archive has a home.** *Weave, don't delete* requires that a source be archived with its provenance intact rather than deleted, and no page describes where archived-with-provenance lives or what may be done to it there. A body following the discipline today has to invent the place, which means every body invents a different one.
+**5 · Whether the archive has a home.** *Weave, do not delete* requires that a source be archived with its provenance intact rather than deleted, and no page describes where archived-with-provenance lives or what may be done to it there. A body following the discipline today has to invent the place, which means every body invents a different one.
 
 **And the contradictions found, recorded rather than repaired:**
 
@@ -333,3 +333,4 @@ And the pages this chapter stands beside: [[The Reweaving Web]] · [[THE STORY]]
 - **A steward's questions and a page's status.** The Book holds that a steward's answer settles what is agreed, and also that everything below the Goal is current best understanding and revisable by proposal. An answer that has been confirmed and a page that has been cohered can therefore disagree, and no procedure exists for that case. This chapter says the later understanding wins on the merits and the earlier one keeps its place in the record; that is the most consequential unruled thing on this page.
 
 **Least sure of, in order:** the unreachable-steward clause, all of it, which is new here and reasons from the Pattern rather than from any source; the shape proposed for the sixty-four marks, which is one drafter's arithmetic and not a decision; and the claim that kinship between instances is a description rather than a status anyone confers, which follows from the instance law but has never been tested against a case where an instance in the Pattern's name is doing real harm.
+

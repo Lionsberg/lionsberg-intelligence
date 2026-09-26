@@ -22,5 +22,4 @@ The sign matters more than it looks. "You will know it worked when you hold a fi
 **Stands on:** [[Lesson]] · [[The Deck Standard]] · [[Notebook form]]
 **Opens onto:** [[Module]] · [[Player+ Modules]] · [[Just in time]] · [[Second reader]]
 **In play:** door
-**Sources:** Player+ Modules, *How a Module Lives*, *The Deck Standard*, and the head of every lesson in the deck.
 **Open:** none found.

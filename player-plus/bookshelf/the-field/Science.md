@@ -20,5 +20,4 @@ The discipline that keeps inquiry from becoming priesthood is the same one that 
 **Stands on:** [[Logos]] · [[Truth]] · [[Epistemology]] · [[Wisdom]]
 **Opens onto:** [[Discovery]] · [[Technology]] · [[Measurement]] · [[Data]] · [[Pattern Recognition]] · [[We Do Not Know]]
 **In play:** the table · beyond
-**Sources:** *The LIØNSBERG Lexicon*, Pillar VIII table · *Pillar VIII — Sacred Science and Technology* (canon-grade) · *The LIØNSBERG Meta Science*. lionsberg.wiki: Science · The LIØNSBERG Meta Science.
 **Open:** The only extended articulation is a page that disclaims its own accuracy. The seven-layer Meta Science it proposes has not been tested by any Cell.

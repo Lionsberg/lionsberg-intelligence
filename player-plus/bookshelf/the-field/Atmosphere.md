@@ -20,5 +20,4 @@ For a Cell this is nearly free and rarely used. Choose the room. Sit in a circle
 **Stands on:** [[Design]] · [[Architecture]] · [[Resonance]] · [[Beauty]]
 **Opens onto:** [[Sacred spaces]] · [[Ritual]] · [[Circle Coherence]] · [[Silence And Stillness As The Ground]] · [[Human-Scaling]]
 **In play:** the Home · the table · the Room
-**Sources:** *The LIØNSBERG Lexicon*, Pillar IX table (stub — a single line) · *Pillar IX — Sacred Architecture and Design*, the ritual, symbolic, and energetic aspects of form (canon-grade) · the seed's Part V, the shape of the Turn. lionsberg.wiki: Atmosphere.
 **Open:** It is carried here because the Pillar names the energetic aspect of designed form as in scope, not because the term has demonstrated load.

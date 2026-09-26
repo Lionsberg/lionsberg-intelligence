@@ -20,11 +20,10 @@ The point of naming pillars is diagnostic. A society is too large to hold in min
 
 The load-bearing claim is that all four must be sound at once. A society can have excellent governance and a hollow inner life, or great wealth and no cohesion, and it will fall down anyway — which is why single-pillar reform movements keep failing and keep being surprised. Repair has to be whole ([[Design]] · [[Integrated Delivery]] · [[The Meta Crisis]]).
 
-This four-part naming is the canon's first pass and its coarsest. The Twelve Pillars are the same instinct worked out further, and a reader who wants the finer grain should go there ([[Pillar I — Sacred Ontology and Metaphysics]] and its eleven siblings).
+This four-part naming is the first pass, and the coarsest. The Twelve Pillars are the same instinct worked out further, and a reader who wants the finer grain should go there ([[Pillar I — Sacred Ontology and Metaphysics]] and its eleven siblings).
 
 **Also called:** the four pillars
 **Stands on:** [[Society]] · [[Governance]] · [[Economy]] · [[Spirit]]
 **Opens onto:** [[Culture]] · [[Theology]] · [[The Meta Crisis]] · [[New Earth Operating System]] · [[Pillar XI — Sacred Society and Justice]] · [[Pillar II — Sacred Governance and Stewardship]] · [[Pillar III — Sacred Economy and CurrentSee]]
 **In play:** the Room and beyond — when a body assesses the place it lives in and decides which pillar it is going to work on
-**Sources:** `Pillars of Society` · lionsberg.wiki: Pillars of Society
-**Open:** The four and the twelve are two live enumerations of the same subject and the canon says only that one "expands into" the other; the mapping between them is not written. · *Society* appears both as the whole and as one of its own four pillars, which is a naming collision the canon has not addressed.
+**Open:** The four and the twelve are two live enumerations of the same subject, and only that one "expands into" the other is said; the mapping between them is not written.*Society* appears both as the whole and as one of its own four pillars, a naming collision not yet addressed.

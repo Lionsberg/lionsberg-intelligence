@@ -20,5 +20,4 @@ The counters are all structural and all ordinary. Decisions and their reasons re
 **Stands on:** [[Governance]] · [[Authority]] · [[Legitimacy]] · [[Power]]
 **Opens onto:** [[Structural Immunity]] · [[Separation Of Power]] · [[Term Limits And Rotation]] · [[Oversight]] · [[Requirement Of Transparency]] · [[Recourse]] · [[Ideological Capture]] · [[Regulatory Branch]] · [[Pillar II — Sacred Governance and Stewardship]]
 **In play:** the Room, whenever a body creates an organ to constrain something it depends on
-**Sources:** `Regulatory Capture` (root page, stub — a bare external law-review link with no body; the name carries meaning the page does not) · `Structural Immunity`, `Separation Of Power` (Pattern Language) · lionsberg.wiki: Regulatory Capture
-**Open:** First articulation: the canon names this and never writes it. Everything above is drawn from general understanding of the mechanism and from the canon's own governance Recognitions, and it should be checked by someone who knows the literature the stub points at.
+**Open:** Named and not yet fully articulated; the treatment above draws on the governance Recognitions elsewhere and merits checking against the wider literature on the mechanism.

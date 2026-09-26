@@ -20,5 +20,4 @@ The failure being guarded against is named exactly: **the corruption of the mast
 **Stands on:** [[Shoshin]] · [[Mastery]] · [[Learning]] · [[Current Best Understanding]]
 **Opens onto:** [[Unlearning]] · [[We Do Not Know]] · [[OmniSpection]] · [[Progressive Illumination]] · [[Honoring Lineage Without Lineage-Capture]] · [[Ideological Capture]] · [[Awe]] · [[Recognitions Are Not Titles To Be Sought]]
 **In play:** the year's review — five signs read, five disciplines checked
-**Sources:** `LIØNSBERG Wiki Books/The Sacred Warrior Guidebook/Sacred Warrior — I.9 Form And Beyond Form`, §Shoshin · `Shoshin` (drafted Pattern Card) · lionsberg.wiki: The Sacred Warrior Guidebook
 **Open:** The signs are observable and self-reported, which is the weak point: the person least able to see them accurately is the person the instrument is aimed at. Nothing says who else should be asked.

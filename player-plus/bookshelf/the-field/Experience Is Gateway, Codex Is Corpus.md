@@ -20,5 +20,4 @@ The rule generalises past books. Any body with a store of knowledge needs both a
 **Stands on:** [[The Sacred Codex]] · [[The Sovereign Path]] · [[Foundational Literature]]
 **Opens onto:** [[Vol I — The LIØNSBERG Experience]] · [[The Living Library]] · [[Curriculum]] · [[Every Page Lives Within A Volume]] · [[Progressive Illumination]] · [[The vocabulary ladder]] · [[Just in time]]
 **In play:** the door — the shape of how anyone is handed all of this
-**Sources:** `LIØNSBERG Wiki Books/LIØNSBERG, Earth, and the Cosmos/Cards/Experience Is Gateway, Codex Is Corpus.md`
-**Open:** The Card names a fixed count of bound volumes; the corpus as it stands does not match that count, and nothing reconciles them. · Who maintains the wayfinding, and by what authority it changes, is unstated.
+**Open:** The named count of bound volumes does not yet match what stands; nothing reconciles them. · Who maintains the wayfinding, and by what authority it changes, is unstated.

@@ -22,5 +22,4 @@ Outline only. The chapters behind it are unwritten, and nothing states how a bod
 **Stands on:** [[The Threshold (of the Path)]] · [[The Wilderness]] · [[Becoming]]
 **Opens onto:** [[The Final Test]] · [[The Promised Land]] · [[The Three-Year Formation]] · [[Embodying the Way]] · [[None Of Us Until All Of Us]] · [[Higher Order Functional Unity]] · [[Cross The Threshold]] · [[The Collapse-Ascension Nexus]]
 **In play:** the Path — the long middle, after the leaving and before the arriving
-**Sources:** `LIØNSBERG Wiki Books/The Great UnVeiling/The Great UnVeiling.md`, chs. 44 and 55 (outline — bullets only)
 **Open:** No test, no marker, and no account of who judges that a body has become what is required — which, unguarded, is the shape of every gate that was ever used to exclude. · The chapters behind the outline do not exist.

@@ -22,5 +22,4 @@ Its office is the office of any keeper: hold the form, repair it, and keep it op
 **Stands on:** [[House]] · [[Stewardship]] · [[Keepers Of The Way]]
 **Opens onto:** [[Player+ Modules]] · [[Keepers' notes]] · [[CC BY-SA 4.0]] · [[Commons]] · [[Lineage]]
 **In play:** beyond
-**Sources:** Player+ Modules, *Lexicon*, *Start Here*, *The Deck Standard* (the closing licence line every lesson carries) · lionsberg.wiki: *Stewardship*.
-**Open:** no canon page yet carries the name.
+**Open:** the name has not yet been given its own page.

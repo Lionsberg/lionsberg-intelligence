@@ -19,5 +19,4 @@ The Lens welcomes other true lights. It is a vantage, not a fence: whatever is [
 **Stands on:** [[ØNE]] · [[The Goal]] · [[Truth To ØNE, Errors To Us]]
 **Opens onto:** [[The compass question]] · [[Omniconsideration]] · [[Wisdom]] · [[Meta]] · [[Levels of Abstraction]] · [[The Posture — Wise Elder At The Fire, General Of Cosmic Armies]]
 **In play:** At the table, as the move before a hard reading; at the Room, as what keeps many houses reading one field; at the door it is implied, not taught.
-**Sources:** `The Great Weaving — Concept Ledger`, Disciplines §2 ("speaks from as close to the view of the ØNE as possible... never claims the throne") — status: project ledger, not a settled page · `Meta Lens` (wiki root, thin) · `The Quest for Wisdom and Truth - The Canonical Lens` (The Way of God) · `The DNA of Heaven`. lionsberg.wiki: **The Great Weaving — Concept Ledger**.
-**Open:** There is no page in the canon at this name. The discipline is stated in a project ledger and in a working charter; a root page is unwritten, and the name "Lens" already carries a second, narrower sense (the Narrative Lens, under Pillar VII).
+**Open:** There is no page at this name yet. The discipline is stated in a project ledger and in a working charter; a root page is unwritten, and the name "Lens" already carries a second, narrower sense (the Narrative Lens, under Pillar VII).

@@ -18,5 +18,4 @@ How it is used. Receive it with [[The Flame]] from your [[Carrier]]. Pin it wher
 **Stands on:** [[The Great Game of LIØNSBERG]] · [[The Twelve Words]] · [[The Five Moves]] · [[The Clock of the Game]]
 **Opens onto:** [[The Questcard]] · [[The Circle Sheet]] · [[The Season Sheet]] · [[The edition]] · [[Notebook form]] · [[Screens and paper]]
 **In play:** door · table · Home
-**Sources:** *The Playcard*, Little Book chapter (current best understanding · "the rules card; the same on every table, changed only by the whole at a turning") · the Player+ Modules lexicon, *Playcard* · The DNA of Heaven, Part V · lionsberg.wiki: **The Playcard**
 **Open:** Two senses are live. The Little Book and the modules say the Playcard is *received* and not filled in; the seed and the Operating System describe a Playcard *filled at each Turn*, one per player, with an upper half arriving from above and a lower half written by the player. Both are in use; the field keeps them under one name and flags the split. · The printed card still says *Circle*, *Home*, and *Ring* where the words are now Cell, Home Cell, and Supercell.

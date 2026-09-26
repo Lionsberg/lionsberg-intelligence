@@ -8,10 +8,10 @@ GitHub is where your files get backed up in the cloud and where you collaborate 
 2. Click **Sign up**
 3. Follow the prompts to create a free account
 
-You don't need to complete any of the onboarding questions (role, what you're using it for, etc.) — just having the account is enough.
+You do not need to complete any of the onboarding questions (role, what you are using it for, etc.) — just having the account is enough.
 
 > [!tip]
-> Remember the email address you used for GitHub. You'll need it in the next step.
+> Remember the email address you used for GitHub. You will need it in the next step.
 
 ## Tell Git Who You Are
 
@@ -48,11 +48,11 @@ It will ask you several questions. Choose these answers:
 3. **Authenticate Git with GitHub credentials?** — Yes
 4. **How would you like to authenticate?** — Login with a web browser
 
-It will show you a code. Press Enter, and your browser will open. Paste the code into the browser, sign in to GitHub, and you're connected.
+It will show you a code. Press Enter, and your browser will open. Paste the code into the browser, sign in to GitHub, and you are connected.
 
 ### Option B: Using HTTPS (works on Mac and Windows)
 
-If you don't have the GitHub CLI, Git will prompt you for credentials the first time you try to push or pull from GitHub. When it does:
+If you do not have the GitHub CLI, Git will prompt you for credentials the first time you try to push or pull from GitHub. When it does:
 
 1. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
 2. Click **Generate new token (classic)**
@@ -60,7 +60,7 @@ If you don't have the GitHub CLI, Git will prompt you for credentials the first 
 4. Set an expiration (90 days is fine to start)
 5. Check the **repo** scope
 6. Click **Generate token**
-7. **Copy the token immediately** — you won't be able to see it again
+7. **Copy the token immediately** — you will not be able to see it again
 
 When Git asks for your password, paste this token instead of your GitHub password. Your computer will remember it for future use.
 
@@ -75,7 +75,7 @@ You can verify everything works after you clone your first repository (covered i
 gh auth status
 ```
 
-(If you used the GitHub CLI method.) You should see your GitHub username and that you're logged in.
+(If you used the GitHub CLI method.) You should see your GitHub username and that you are logged in.
 
 ## Next Step
 

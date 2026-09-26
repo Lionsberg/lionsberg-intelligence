@@ -20,5 +20,4 @@ It is load-bearing because culture is the thing no structure can supply. A body 
 **Stands on:** [[ØNE]] · [[Logos]] · [[Right Relationship]]
 **Opens onto:** [[The Daily Way]] · [[The Sovereign Path]] · [[Wayfaring]] · [[The Sacred Ascent]] · [[Embodying the Way]]
 **In play:** Met everywhere — at the door in how a player is greeted, at the table in how a gap is received, and on the Path as the whole of it.
-**Sources:** *The LIØNSBERG Lexicon*, Pillar I ("the sacred archetypal path of spiritual and embodied transformation") · *The Way* (root page) · *The LIØNSBERG Pattern Language — Synthesized 2026-05-24*, Root And Trunk · lionsberg.wiki: *The Way*.
 **Open:** The root *The Way* page is largely a table of contents whose entries are themselves marked work in progress; the Lexicon's one-line definition is currently the fuller articulation.

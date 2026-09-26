@@ -4,7 +4,7 @@ book: The One Book
 chapter: 21
 ---
 
-# 21 In Every Future — what to do in each case
+# In Every Future — what to do in each case
 
 *The chapter a person opens when nothing else works. One hundred forty-four thousand futures were drawn from nine things that could go differently and banded into twelve families; each was asked one question — what does a [[Cell]] do here? — and the answer came back the same twelve times. What changes across the families is tempo, medium, what must be protected while the work runs, and the one number worth watching. So the figuring-out is done here, in the calm, and what is left for the hour is recognition. **We can plan for an emergent reality we cannot predict.** That sentence is this chapter. If the power is out and nobody can read a computer, go to **THE PAGE**, further down: the protocols written so that a person with a pencil can run them.*
 
@@ -22,13 +22,13 @@ Everything before THE PAGE is why those protocols are shaped the way they are. E
 
 If you have read nothing else, here is the whole of what this chapter assumes, and it is small.
 
-Some people — three of you, or eight, or thirteen; four to seven is usually best — decide to walk together. That group is a **Cell**. You meet once a week, the same day, the same place, for an hour or two. That meeting is the **Turn**. Each person says four things out loud: what I said I would do last week, and whether I did it; the gap, honestly, and what I learned from it; what I will do this week; and what I can offer and what I need. Someone writes it down. Someone tells a story about the week. Each person puts something in the middle of the table — money, food, hours, a tool, a ride, care — and that is the **Offering**, and what gathers there belongs to the group.
+Some people — three to thirteen of you, optimally four to seven — decide to walk together. That group is a **Cell**. You meet once a week, the same day, the same place, for an hour or two. That meeting is the **Turn**. Each person says four things out loud: what I said I would do last week, and whether I did it; the gap, honestly, and what I learned from it; what I will do this week; and what I can offer and what I need. Someone writes it down. Someone tells a story about the week. Each person puts something in the middle of the table — money, food, hours, a tool, a ride, care — and that is the **Offering**, and what gathers there belongs to the group.
 
 You pick one real thing to do over the next three months, something you could point at afterward, and that is a **Quest**. Three months is a **Season**, and it runs from one solstice or equinox to the next, because the sun is a clock nobody owns.
 
 At the end of the season you fill one page: fourteen numbered lines about how your group actually went. That is the **Season Sheet**, and it is the only thing in the whole system that has to look the same everywhere. Two of you sign it, date it, and count the lines of writing. You keep a copy and send the original to the group that is your **Home** — the people who brought you in, or whoever you have chosen to be answerable to.
 
-And within a week of starting, you go to two or three people you trust and you hand them the same thing, so they can start their own group. That is **passing the Flame**. You are their first Home. Their group is their own.
+And within three days of starting, you go to your three — people you trust, not already playing — and you hand them the same thing, so they can start their own group. That is **passing the Flame**. You are their [[Home Cell]]. Their group is their own.
 
 That is it. A notebook, a table, a given word, and someone to hand it to. Everything in this chapter is about what that practice does when the world around it changes — and the finding, which surprised the people who looked for it, is that it barely changes at all.
 
@@ -54,7 +54,7 @@ So the honest posture, in every family below, is the ancients' one: *watchful, a
 
 Whether or not anything bad happens, the response is the same, and that is not a consolation prize. It is the design.
 
-A [[Cell]] of three to thirteen people who keep their word to each other week by week, choose one real [[Quest]] a [[Season]], put something in the middle of the table as the [[The Offering|Offering]], write the fourteen lines of the [[The Season Sheet|Season Sheet]] at each turning and send them to their Home, and [[Pass The Flame|pass the Flame]] to two or three within a week — that body is the thing that survives the hard futures and the thing that composes Heaven in the gentle ones. It needs no permission, no funding, no infrastructure, and no crisis to justify it. It runs on a notebook, a table, and a given word. In a world that holds together it is how a neighbourhood becomes trustworthy. In a world that comes apart it is the organ that keeps functioning when the larger organs do not. Federated into supercells and into a community body, it is how ten thousand people become one body without anyone being in charge of it.
+A [[Cell]] of three to thirteen people who keep their word to each other week by week, choose one real [[Quest]] a [[Season]], put something in the middle of the table as the [[The Offering|Offering]], write the fourteen lines of the [[The Season Sheet|Season Sheet]] at each turning and send them to their Home, and [[Pass The Flame|pass the Flame]] to their three within three days — that body is the thing that survives the hard futures and the thing that composes Heaven in the gentle ones. It needs no permission, no funding, no infrastructure, and no crisis to justify it. It runs on a notebook, a table, and a given word. In a world that holds together it is how a neighbourhood becomes trustworthy. In a world that comes apart it is the organ that keeps functioning when the larger organs do not. Federated into supercells and into a community body, it is how ten thousand people become one body without anyone being in charge of it.
 
 The frame this Book carries is plain: *whether or not anything bad happens, it is the way to co-create Heaven.* That is a frame, not a forecast. The distribution below says nothing about what will happen. It says what shapes of world are worth being ready for, and it shows that the readiness is one readiness.
 
@@ -78,7 +78,7 @@ The checklist a Cell can run this week, in any of the twelve families. Nothing h
 2. **Give and keep your word.** *I will ___ by ___*, said aloud. Kept, or a gap learned from, without blame. Write both in [[The Record]]. [[A word given is a word kept]].
 3. **Put something in the middle.** The [[The Offering|Offering]], each week, freely, whatever is real for you. It becomes the Cell's [[Commons]].
 4. **Hold one [[Quest]].** One real thing, this season, that your Cell can point to afterward, with a *done when* line on its [[The Questcard|Questcard]].
-5. **[[Pass The Flame]].** Two or three you know are ready, within a week; the naming begins at your first gathering. Their Cell is their own; you are their [[Carrier]] and their first Home.
+5. **[[Pass The Flame]].** Your three, people not already playing whom you know are ready, within three days; the naming begins at your first gathering. Their Cell is their own; you are their [[Carrier]] and their [[Home Cell]].
 6. **Fill the [[The Season Sheet|Season Sheet]] at the turning.** Fourteen numbered lines, witnessed by two hosts, dated, with a count of its lines of writing. Send it to your Home.
 7. **Know your Home, and whose Home you are.** Your [[Home Cell]], your [[Carrier]], and the Cells that look to you. Three Cells that have become one another's home are a [[Supercell]].
 8. **Hold the floor of care.** When a member is in danger, in body or in mind, the Circle acts first and records later. No card is more important than the person at the table.
@@ -171,7 +171,7 @@ The old order strains and does not break. Institutions muddle through, some brit
 
 > **Signal.** Two consecutive turnings in which line 7 — flames passed — reads zero.
 > **The first hour.** Fix the day, hour, and place of the [[The Turn|Turn]], and write it where everyone can see it.
-> **The first day.** Each member names, privately, the two or three people they would carry the Flame to.
+> **The first day.** Each member names, privately, the three people they would carry the Flame to.
 > **The first week.** The next Turn is given entirely to those names; each member commits to one conversation before the following Turn. Choose a Quest that is plainly good in an ordinary world — a thing repaired, a neighbour fed, a piece of ground restored. Do not wait for an emergency to justify your existence.
 > **The first season.** Find two other Cells and become one another's Home before there is any pressure to. Write one Season Sheet by hand from the very first turning, so the hand knows how. No community body yet: name the place, and start counting toward [[The 300]].
 > **Who decides what.** Everything at the table. There is no scale above you yet, and inventing one is the characteristic error of this family.
@@ -331,7 +331,7 @@ The rarest family in the draw and in some ways the most consequential: a planet 
 > **Who decides what.** Each instance decides everything. There is no appeal and no permission, and the design anticipated this.
 > **The Intelligence System.** None. The compression ladder is the Intelligence System in this family: the Seed on paper, the Twenty words, and the marks. See *the two ladders* below.
 > **Forbidden.** Waiting. Treating a lost lineage as a lost legitimacy — a Cell that cannot name its Carrier is still a Cell, and writes down what it does know. Letting the regrowth instructions live only in the heads of people over forty.
-> **Recovered when.** Two instances have found each other and exchanged sheets, and the arithmetic of the Flame has resumed: one, two, three, five, eight, thirteen, a week per cycle.
+> **Recovered when.** Two instances have found each other and exchanged sheets, and the arithmetic of the Flame has resumed: every new Player bringing their three ([[29 The Plan — the first three percent#The chart|the chart by phase]]).
 
 ### What each Pillar requires, by band
 
@@ -659,15 +659,15 @@ Two disciplines keep it clean: it is **free** — an offering extracted or socia
 
 ### The Flame passed by hand
 
-1. **Name.** At the table, each person names two or three people they know are ready. Not family by default, not the famous, not the loud: the faithful.
-2. **Go.** Within a week. In person. One conversation, not a campaign.
+1. **Name.** At the table, each person names three people they know are ready. Not family by default, not the famous, not the loud: the faithful.
+2. **Go.** Within three days. In person. One conversation, not a campaign.
 3. **Tell.** The Story, as you have lived it, from memory. It does not need a book and never did.
 4. **Give.** The Seed, on paper if you have paper, whole. If you have no paper, teach the five moves out loud and the twelve words one at a time, and have them say each back to you.
 5. **Write both ends.** They write your name as their [[Carrier]] — which never changes. You write their Cell on your line 7 at the turning, by name. That is the lineage, and it is the only registry the body has or needs.
-6. **Home.** You are their first Home until they have their own. Tell them so, and tell them what that means: they can reach you, and you will answer.
+6. **Home.** You are their [[Home Cell]] until they have their own — where their TEA is witnessed, their questions answered, their wellbeing cared for. Tell them so, and tell them what that means: they can reach you, and you will answer.
 7. **Let go.** Their Cell is their own. You are not their supervisor and there is nothing to approve. An island that does not plant the next island is a curiosity and dies with its founders.
 
-*The arithmetic does not consult the state of the world: one, two, three, five, eight, thirteen, and a week per cycle.*
+*The arithmetic does not consult the state of the world: every new Player brings their three ([[29 The Plan — the first three percent#The chart|the chart by phase]]).*
 
 ### The minimal agent
 
@@ -799,7 +799,7 @@ Thirty-two preset judgments and four degraded protocols are written above. None 
 
 [[Cell]] · [[Supercell]] · [[Home Cell]] · [[Carrier]] · [[Quest]] · [[Season]] · [[The Turn]] · [[The Offering]] · [[The Season Sheet]] · [[The Questcard]] · [[The Record]] · [[The Circle's Scorecard]] · [[Commons]] · [[Pass The Flame]] · [[The Flame]] · [[Proposal]] · [[Requests and offers]] · [[Kept as a share of made]] · [[Sighting]] · [[Field of Agreements]] · [[Selectively Permeable Membrane]] · [[Welcoming The Stranger]] · [[Mutual Aid]] · [[The 300]] · [[The First Three Percent]] · [[Islands of Coherence]] · [[Islands, Hubs, Grid]] · [[Collapse]] · [[The Meta Crisis]] · [[Meta Opportunity]] · [[The 7 Year Window of Crisis and Opportunity]] · [[20 Year Generational Contingency]] · [[Generational Time]] · [[The turnings]] · [[The Heartbeat]] · [[Minimum standards of interoperability]] · [[The same card shape]] · [[An address]] · [[A word given is a word kept]] · [[Screens and paper]] · [[Notebook form]] · [[Keeper]] · [[Host]] · [[Term Limits And Rotation]] · [[Wise Eldership]] · [[Legitimacy]] · [[Subsidiarity]] · [[The Escalation Ladder]] · [[Withdrawal Of Consent]] · [[Consent]] · [[Chatham House]] · [[Surveillance]] · [[Guardianship]] · [[Technology Sovereignty]] · [[Structural Immunity]] · [[Anti-Fragility]] · [[TimeEnergy]] · [[LUV]] · [[Exchange]] · [[Gift]] · [[Usury]] · [[The waterfall]] · [[The asset lock]] · [[Voluntary Tithing]] · [[Proof-of-contribution]] · [[Player+]] · [[Player]] · [[Agent]] · [[An agent speaks in its own name]] · [[The Golden Seed]] · [[The three tiers]] · [[The Kit]] · [[The Twelve Words]] · [[Knowledge as commons]] · [[The Anti-Patterns]] · [[Centralization Of Power]] · [[Institutional Idolatry]] · [[The Golden Calf]] · [[The False Prophet]] · [[The Parasite]] · [[Manufactured Dependency]] · [[Control Of Information]] · [[Watershed]] · [[Bioregion]] · [[Air · Water · Soil · Microbiome]] · [[Protection Of Children]] · [[Mental Health]] · [[Honesty about time]] · [[The look-ahead]] · [[Every Defect Is A Gift]] · [[OmniSpection]] · [[Kit of Parts]] · [[The edition]] · [[Welcome a Newcomer]] · [[We Do Not Know]] · [[The compass question]] · [[Heaven On Earth]] · [[The Goal]] · [[ØNE]]
 
-Elsewhere in this Book: [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[05 The Pattern and the Way]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[20 The Experience — from the first door to what lies beyond]] · [[23 Players, Agents, and the Intelligence System]] · [[24 The Plan — the first three percent]] · [[25 The Words]] · [[28 Regrow, Change, Lineage]]. The page this chapter expands: [[In Every Future]] and [[The Priors and the Method]].
+Elsewhere in this Book: [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Book|THE FLAME]] · [[04 The Pattern and the Way]] · [[17 Pillar X — Sacred Guardianship and Order]] · [[20 The Experience — from the first door to what lies beyond]] · [[25 Players, Agents, and the Intelligence System]] · [[29 The Plan — the first three percent]] · [[31 The Words]] · [[33 Regrow, Change, Lineage]]. The page this chapter expands: [[In Every Future]] and [[The Priors and the Method]].
 
 ---
 
@@ -816,7 +816,7 @@ Elsewhere in this Book: [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Boo
 
 **Against the prior drafts.** This chapter was written first from the seed and the field, then reconciled against the earlier work on the same ground — the prior One Book's nine Movements, the Little Book and its second draft, and the long-form chapters. What was carried, what was lifted, and what was overridden:
 
-- **Carried whole, because they said it better:** *we can plan for an emergent reality we cannot predict* · *a frightened reader is a controllable reader, and we want the opposite — a clear one* · *nothing at the centre to attack; though ninety-nine in a hundred were lost, any surviving Cell could regenerate the whole* · *the sky is the clock, and the sky is beyond capture* · *not a database anyone owns, but the sum of every table's word* · *the old card counts until the new one arrives* · *a Cell never has to read the whole plan; it receives the sentence that concerns it, from a person, at the right time* · *the truest version yet written, and the least true that will ever exist again* · *no community ever starts from zero* · *the law of no loss* · the settled form of the Season Sheet · the Lao Tzu image of crossing a winter river.
+- **Carried whole, because they said it better:** *we can plan for an emergent reality we cannot predict**a frightened reader is a controllable reader, and we want the opposite — a clear one**nothing at the centre to attack; though ninety-nine in a hundred were lost, any surviving Cell could regenerate the whole**the sky is the clock, and the sky is beyond capture**not a database anyone owns, but the sum of every table's word**the old card counts until the new one arrives**a Cell never has to read the whole plan; it receives the sentence that concerns it, from a person, at the right time**the truest version yet written, and the least true that will ever exist again**no community ever starts from zero**the law of no loss* · the settled form of the Season Sheet · the Lao Tzu image of crossing a winter river.
 - **Lifted where the prior work reached and stopped:** the web of names is described there as a treasure and a map of trust; here it is also named as the degraded-case contact-tree, which is what it becomes the day the grids fail. The prior plan's short-cycle distribution is described there as keeping wealth from pooling; here it is also named as a capture and loss ceiling, which is why it belongs in a chapter about hard futures. The Bronze Age comparison is used there to argue that this hour is unprecedented; here it is used to argue for the compression ladder, because the lesson that actually generalizes is that literacy vanished and nobody noticed it going.
 - **Overridden, with the reason.** The prior drafts' vocabulary is *Circle* and *ring*; this chapter uses **Cell** and **supercell**, following the later answer. Both readings are in live use and the two sets of pages have not been reconciled anywhere. The prior Plan distributes resources at the new and full moons; the Game's clock is held here as **solar only** — the four turnings — and the lunar points are not treated as binding. That divergence is real, unresolved, and is not a drafter's to close.
 - **Dropped deliberately.** The prior Moment chapters carry specific figures — debt totals, harvest counts, boundary crossings, mortality bands. None is reproduced here. They age badly, they cannot be verified from inside this Book, and a preset judgment that fires on a number somebody else published is not a preset judgment. Every signal in this chapter fires on something a Cell can observe from its own table.
@@ -825,3 +825,4 @@ Elsewhere in this Book: [[THE STORY]] · [[THE GAME]] · [[THE FLAME — the Boo
 ---
 
 *Read the Story. Play the Game. [[Pass The Flame]].*
+

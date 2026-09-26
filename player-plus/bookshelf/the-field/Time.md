@@ -20,5 +20,4 @@ The older order made time a possession and then a prison: counted, commodified, 
 **Stands on:** [[Logos]] · [[Rhythm]] · [[Creation]] · [[Cycle]]
 **Opens onto:** [[Kairos]] · [[Chronos]] · [[Season]] · [[The turnings]] · [[The Time Horizons]] · [[The clock is read, never computed]] · [[Temporal markers apart from milestones]] · [[TimeEnergy]]
 **In play:** table · Home · beyond
-**Sources:** `The LIØNSBERG Lexicon`, Pillar XII term *Time* (canon-grade) · `Pillar XII — Sacred Time, Rhythm, and Celebration` (canon-grade) · `Time` (an older articulation) · `The Clock of the Game` (Little Book chapter, current best understanding) · `The LIØNSBERG Operating System` §9 and the minimum standards · lionsberg.wiki: Time
 **Open:** The root `Time` page carries an entirely different horizon set — markers at 2050, 2075, 2100 and 3000, with a thirty-year transformation — beside the Game's present Timeline of 2026 to 2033 and twenty years after. Neither supersedes the other in writing. · The root page also points to several pages on space and time that were not opened here.

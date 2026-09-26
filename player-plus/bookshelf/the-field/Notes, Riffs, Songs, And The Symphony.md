@@ -22,5 +22,4 @@ The disciplines follow from the music rather than being imposed on it. Honor the
 **Stands on:** [[The LIØNSBERG Pattern Language]] · [[Pattern Card]] · [[Music]] · [[The Divine Symphony]]
 **Opens onto:** [[Plays Are Riffs; Patterns Are The Notes]] · [[Play]] · [[The Playbook Chart]] · [[Patterns And Containers]] · [[General Pattern, Specific Application]] · [[Naming Forms]] · [[The Architecture Of A Way]]
 **In play:** beyond
-**Sources:** *Notes, Riffs, Songs, And The Symphony* · *The LIØNSBERG Pattern Language* (stub root) · *The LIØNSBERG Playbook* (§Plays Are Riffs) · lionsberg.wiki: Notes, Riffs, Songs, And The Symphony
 **Open:** none found

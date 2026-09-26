@@ -78,7 +78,7 @@ What is **load-bearing** at the opening:
 - A clear Driver Statement (entrenched).
 - Mutual recognition among founders that the entity has its own agency (no one owns it).
 - A small set of **opening principles** — drawn from the Stewardship Principles at [[II - The Stewardship Agreement]] §16 and from your tradition.
-- A working agreement on **how decisions are made** (typically: IDM with weighted-governance fallback as you scale; one-voice while you're three to seven).
+- A working agreement on **how decisions are made** (typically: IDM with weighted-governance fallback as you scale; one-voice while you are three to seven).
 - A working agreement on **how value flows** in and out (see Part III).
 - An agreement to **federate**, not to emerge in isolation.
 

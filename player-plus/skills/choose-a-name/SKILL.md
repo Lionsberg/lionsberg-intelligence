@@ -6,7 +6,7 @@ license: MPL-2.0
 
 # Choose a name
 
-A name is the cheapest decision that lasts the longest. Renaming is nearly free before a thing is public and expensive after — every link, every folder, every sentence anyone has said about it. Most naming trouble is one of two things: no brief, so candidates can't be compared; or no deadline, so two smart people circle for days. This skill fixes both.
+A name is the cheapest decision that lasts the longest. Renaming is nearly free before a thing is public and expensive after — every link, every folder, every sentence anyone has said about it. Most naming trouble is one of two things: no brief, so candidates cannot be compared; or no deadline, so two smart people circle for days. This skill fixes both.
 
 ## 1. Write the brief (five lines)
 
@@ -28,11 +28,11 @@ Against every candidate, in this order; each test removes names.
 
 1. **Flagship.** A name that never has to be taken back: right on day one, still technically exact years later — it only gets deeper. A word that teaches something later untaught fails (*vault* belonged to a tool).
 2. **One word per meaning.** Does the house already use this word for something else? Count how busy it is: search the house, and any canon the house works inside. A busy word is expensive to repurpose; a free word is cheap.
-3. **Baggage.** What does it connote that isn't wanted? Names are rejected for what they carry, not how they sound — a word whose default shape is "owned by someone not present" is wrong for a thing that has an owner.
+3. **Baggage.** What does it connote that is not wanted? Names are rejected for what they carry, not how they sound — a word whose default shape is "owned by someone not present" is wrong for a thing that has an owner.
 4. **Dinner table.** Can the person say it to a friend and be understood without a definition? Precise-but-unsayable is for the glossary, not the door.
 5. **Collision.** Search the web; check the domain, the GitHub name, the package name if it will ever be one; check for a near-twin that differs by a letter. Do this *before* anyone falls in love.
-6. **Rename test** (for a name that carries identity): swap it for a placeholder in the thing's own text and read cold — if nothing reads wrong, the name wasn't doing work; that's fine for a folder and a problem for an agent.
-7. **Mechanics.** No symbols that fight the surfaces it'll live on; lowercase-and-hyphens for anything typed; no first-party people's names as example names.
+6. **Rename test** (for a name that carries identity): swap it for a placeholder in the thing's own text and read cold — if nothing reads wrong, the name was not doing work; that is fine for a folder and a problem for an agent.
+7. **Mechanics.** No symbols that fight the surfaces it will live on; lowercase-and-hyphens for anything typed; no first-party people's names as example names.
 
 Cut to three to five.
 
@@ -42,16 +42,16 @@ For each finalist, write three sentences the person would actually say: *"I'll p
 
 ## 5. Converge
 
-One night's sleep, not two. At the deadline, the front-runner ships. Record the decision and — as important — **the rejects and why**, in the project's notes, so a rejected name doesn't come back next month as if new. Naming that doesn't converge is nearly always a missing brief or a missing deadline; go back to step 1 rather than generating more.
+One night's sleep, not two. At the deadline, the front-runner ships. Record the decision and — as important — **the rejects and why**, in the project's notes, so a rejected name does not come back next month as if new. Naming that does not converge is nearly always a missing brief or a missing deadline; go back to step 1 rather than generating more.
 
 ## Kinds of names, and what each wants
 
 - **Projects and folders:** a kebab-case slug for the machine and a human title for people; the slug is forever, the title can change.
 - **Agents:** offer several across cultures, human and non-human; the person picks or invents. The name belongs to the agent; it will sign with it.
-- **Background instances and one-off jobs:** codenames from a themed pool, drawn in order, computed from what's already used, **never reused** — a codename is an ID (see `assign-an-id`).
+- **Background instances and one-off jobs:** codenames from a themed pool, drawn in order, computed from what is already used, **never reused** — a codename is an ID (see `assign-an-id`).
 - **Phases and milestones:** a number *and* a name — the number for order, the name for memory.
 - **A word for a concept** (a vocabulary word): the flagship test above, and one more — the vivid word goes to the *human's* action, the plain word to the agent's.
-- **Products, brands, domains:** everything above, plus: check the domain before anything else; prefer a short name at a domain you already own to a clever name at one you don't; don't register until the thing is about to be public; and keep the **class name** apart from the **instance name** — "a registry" is the class, "the <operator> registry" is this one.
+- **Products, brands, domains:** everything above, plus: check the domain before anything else; prefer a short name at a domain you already own to a clever name at one you do not; do not register until the thing is about to be public; and keep the **class name** apart from the **instance name** — "a registry" is the class, "the <operator> registry" is this one.
 
 ## Renaming
 

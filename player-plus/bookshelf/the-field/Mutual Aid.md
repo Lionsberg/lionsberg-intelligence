@@ -20,5 +20,4 @@ Beneath it all sits the floor the Game states plainly: when a member is in dange
 **Stands on:** [[Reciprocity]] · [[Commons]] · [[Voluntary Tithing]] · [[Belonging]]
 **Opens onto:** [[The Offering]] · [[Fostering Ecosystemic Resource Flows]] · [[Abundance]] · [[Support Group]] · [[Fractal Commonsing]]
 **In play:** table · Home
-**Sources:** *The LIØNSBERG Pattern Language — Synthesized*, Operational Economic Mechanics (canon-grade list; *Mutual Aid*, *Pooling Risk*, *Pooling Value* named, none articulated — ore) · *The LIØNSBERG Playbook*, Cross-Cutting · *Voluntary Tithing* (wiki root; canon-grade — "mutual aid that no single Circle could provide alone") · *The DNA of Heaven*, Part V · lionsberg.wiki: Mutual Aid
 **Open:** Named in three Pattern Language lists with no card or page behind any of them; the sense here is cohered from Voluntary Tithing, the Playbook's cross-cutting Plays, and the general tradition rather than from a canon articulation. *Ergodic Pooling* appears as an alias with no explanation anywhere.
