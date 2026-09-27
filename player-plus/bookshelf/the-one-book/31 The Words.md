@@ -128,6 +128,7 @@ Two hundred and nine pages carry the second mark. They are grouped here the way 
 - **[[Worksite Earth]]** — not merely a planet in crisis: the active construction site of Heaven.
 - **[[The Great Story]]** — the single weave in which every cosmos, people, and soul is a living thread.
 - **[[Current Best Understanding]]** — the most accurate account available now, held openly, expected to change.
+- **[[Current Best Practice]]** — the way of doing a thing we presently hold to work best, recommended from the top two or three good practices we track; practised by all, improved by anyone, replaced the day a better way is found.
 
 ### The Story
 - **[[The Sacred Arc]]** — the whole Story of ØNE and All in twelve movements, one breath each.
