@@ -111,6 +111,7 @@ What you will see:
 - Before each command it asks your permission, showing the command and one plain line about it. Read the line, then choose **Yes**. You may also say no, or "wait, explain."
 - Windows may ask whether to allow an app to make changes to your device. That is Git installing. Choose **Yes**.
 - Some steps take a minute or two of quiet. It is working.
+- It writes a receipt, `setup-receipt.md` in HQ: everything it changed outside HQ, with the exact line and how to undo it. Your record of what an AI did to your computer.
 - At the end it shows you the files in HQ and tells you to type `/exit`. Type `/exit` and press Enter. Claude Code closes.
 
 **Path B: do it yourself.** First type `/exit` and press Enter, so that you are back at the terminal. Then:

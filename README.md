@@ -6,7 +6,7 @@ LIØNSBERG serves one Goal — *ØNE · Creator's Intent · Heaven on Earth · f
 
 ## Player+ — the agent you take home
 
-`player-plus/` is **Player+ 3.4.0**, the personal LIØNSBERG Agent. It runs in Claude Code (or any harness that reads a `CLAUDE.md`), on a small local model, or not at all: a notebook plays the whole Game.
+`player-plus/` is **Player+ 3.4.1**, the personal LIØNSBERG Agent. It runs in Claude Code (or any harness that reads a `CLAUDE.md`), on a small local model, or not at all: a notebook plays the whole Game.
 
 On its shelf is the whole library of read.lionsberg.world — The One Book, the Field, the Rosetta Stone, the Player+ Modules, the Superorganism package — and the skills for playing: the roll, the Season Sheet, the Offering, the retrospective, reading the Story aloud, passing the Flame, and the starter kit's skills for keeping a house.
 

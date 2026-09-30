@@ -110,6 +110,7 @@ What you will see:
 - Before each command it asks your permission, showing the command and one plain line about it. Read the line, then choose **Yes**. You may also say no, or "wait, explain."
 - The developer-tools window from step 1 may appear now instead, when Claude asks for Git. Same answer: **Install**, then **Agree**; Claude carries on meanwhile.
 - Some steps take a minute or two of quiet. It is working.
+- It writes a receipt, `setup-receipt.md` in HQ: everything it changed outside HQ, with the exact line and how to undo it. Your record of what an AI did to your computer.
 - At the end it shows you the files in HQ and tells you to type `/exit`. Type `/exit` and press Return. Claude Code closes.
 
 **Path B: do it yourself.** First type `/exit` and press Return, so that you are back at the terminal. Then:

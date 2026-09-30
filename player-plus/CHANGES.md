@@ -2,6 +2,17 @@
 
 *Newest first. Each entry says what changed and why, so your agent can read a release and you two can decide what to take. Nothing here installs itself; `skills/pull-a-release` walks you through a pull.*
 
+## 3.4.1 — 2026-09-30 — the installer says its plan, verifies, and leaves a receipt
+
+From Freya's installer study for Pete's kit (9/30), the parts that need no code:
+
+- **`INSTALL.md` says the whole plan first,** five lines and every file outside HQ it will touch, then one line per step.
+- **It looks before it builds:** resumes an interrupted run instead of stopping, warns honestly on a managed machine, and checks `claude auth status` before anything else.
+- **It verifies the PATH in a fresh shell** rather than trusting the edit, and runs `claude doctor` for warnings.
+- **It leaves a receipt,** `HQ/setup-receipt.md`: every file created or changed outside HQ, the exact line, and how to undo it.
+- **Windows Terminal gets a "My Agent" profile** beside the Desktop icon.
+- The Quests' "What you will see" mention the receipt.
+
 ## 3.4.0 — 2026-09-29 — the Quest at five Gates
 
 The first Windows player to walk the Quest with Claude cloning the kit got the whole repository, one folder too deep, and no agent woke. The path is now shorter, and Claude does the hand-work.
