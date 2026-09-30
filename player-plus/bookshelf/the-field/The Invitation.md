@@ -18,5 +18,4 @@ How it is played. Speak to people you actually know, at the pace of trust, and g
 **Stands on:** [[Consent]] · [[Mutual Consent]] · [[The Flame]] · [[Wake up]]
 **Opens onto:** [[The Pledge]] · [[Form a Cell]] · [[Cross The Threshold]] · [[Enter The Game]] · [[Pass The Flame]] · [[The Way Out]]
 **In play:** door
-**Sources:** *The Invitation* and *Accept The Invitation* (root pages) · the Player+ Modules lexicon, *the invitation* · Pattern Language, §Voice · The DNA of Heaven, Part V — the Invitation and the door · lionsberg.wiki: **The Invitation**, **Accept The Invitation**
-**Open:** Two root pages named *The Invitation* exist in the canon — one at the root and one inside the Invitation folder of the Core Documents; which is the home is not stated. · The seed makes the spoken, witnessed yes a requirement; the canon pages read it as a norm.
+**Open:** Two root pages named *The Invitation* exist — one at the root and one inside the Invitation folder of the Core Documents; which is the home is not stated. · The seed makes the spoken, witnessed yes a requirement; the wider pages read it as a norm.

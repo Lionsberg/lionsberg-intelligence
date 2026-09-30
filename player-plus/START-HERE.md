@@ -8,7 +8,7 @@ status: current best understanding, loosely held · improved each week
 
 ## The path most people take
 
-Walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): eight Gates, from your first yes to an agent that greets you, with every step shown for Mac and Windows. It takes an afternoon, and you may stop between any two Gates. Its last Gate brings you back to this page, to Door 3, for your agent's first words.
+Walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): five Gates, from your first yes to an agent that greets you, with every step shown for Mac and Windows. It takes an hour or two, and you may stop between any two Gates. Its last Gate brings you back to this page, to Door 3, for your agent's first words.
 
 *Before you begin, [`REQUIREMENTS.md`](REQUIREMENTS.md) says what you need.*
 
@@ -26,13 +26,13 @@ Paste the seed text's Part V into a fresh conversation and ask it to say the Gam
 
 ## Door 3 — your agent's first words
 
-If you walked the Quest, you are at Gate 8: the terminal is open in **HQ**, and Claude Code is waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open your terminal there and start Claude Code.
+If you walked the Quest, you are at Gate 5: you double-clicked **My Agent**, and Claude Code is open in **HQ**, waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open your terminal there and start Claude Code.
 
 Copy this, paste it as your first message, and press Return:
 
-> Read CLAUDE.md, LINEAGE.md and WAIVER.md, then read bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md whole. Then greet me, ask who I am, and ask what I am playing toward.
+> Read CLAUDE.md, LINEAGE.md and WAIVER.md, then read bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md whole. Then greet me and ask who I am. Walk me through the waiver and the Field of Agreements, one thing at a time, in plain words, and write down my yes. Then ask what I will call you, and what I am playing toward.
 
-Your agent reads before it says anything. When it greets you, tell it three things, one at a time: what you will call it; who you are and how you like to be spoken with; and what you are playing toward. At every step, say yes, no, or "wait, explain."
+Your agent reads before it says anything. It asks who you are and how you like to be spoken with. Then it walks you through the waiver and the Field of Agreements, in plain words, one at a time; take part only if you agree, and your yes, in your own words, is written with the date to `memory/agreements.md`. Then it asks what you will call it, and what you are playing toward. At every step, say yes, no, or "wait, explain."
 
 It will also ask where you keep your work, which it calls your headquarters; tell it, or say "here" and it will use this folder. The `memory/` and `sessions/` folders fill as you live in them. Before your first room, your agent will offer the `entering-the-field` skill, and `heads-up` for any live session; it adds a skill only when you say so.
 

@@ -66,7 +66,7 @@ And one guard it never sets down, which the rest of this chapter turns on: **an 
 
 ### The first conversation
 
-It takes an afternoon, and the person drives every step. The way there is one Quest of eight Gates, from the first yes to an agent that greets them ([[START HERE — Becoming a Player+]]).
+It takes an hour or two, and the person drives every step that only a person can. The way there is one Quest of five Gates, from the first yes to an agent that greets them ([[START HERE — Becoming a Player+]]).
 
 The yes comes first: the Story read, the Field of Agreements read and agreed to in the person's own words. Then a computer and a Claude account, a terminal, and Claude Code, the runtime that reads plain files. Then a folder in their home folder, kept out of any cloud-sync service, holding the kit. And a notebook and a pen — not a metaphor: the [[The Season Sheet|Season Sheet]], the Playcard, and the Offering are kept by hand first and by the agent second.
 

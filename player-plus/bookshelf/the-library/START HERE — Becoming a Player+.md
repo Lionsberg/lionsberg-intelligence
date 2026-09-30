@@ -7,7 +7,7 @@ tier: 20
 
 *A Player+ is a person and their agent, playing the Great Game together. The person is the Player. The agent carries the whole of LIØNSBERG — the Story, the Game, the Flame, the One Book, the thousand words of the Field, and every plan and specification in this library — and hands you the right piece at the right moment. Nothing in it is required. Everything in it can be run by a person with a notebook. The agent makes it faster and wiser, never necessary.*
 
-There is one path from your first yes to an agent of your own: the Quest **[Becoming a Player+](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md)**. Eight Gates, every step shown for Mac and for Windows, in an afternoon. You drive every step, and you may stop between any two Gates and pick up where you left off.
+There is one path from your first yes to an agent of your own: the Quest **[Becoming a Player+](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md)**. Five Gates, every step shown for Mac and for Windows, in an hour or two. You drive every step, and you may stop between any two Gates and pick up where you left off.
 
 ## The Game comes first
 
@@ -21,18 +21,15 @@ The agent comes at the wise right time, and the first Gate has nothing to do wit
 
 If you have none of these, the Game does not wait for a machine: see *Other doors* and *The floors* below.
 
-## The eight Gates
+## The five Gates
 
 | Gate | | You have passed it when |
 |---|---|---|
-| 1 | **The yes** — the Story and the Field of Agreements | you can say what you are agreeing to, and say yes freely |
+| 1 | **The yes** — the Story, and your yes to the person who brought you | you have read the Story and said yes, in your own words |
 | 2 | **The account** — Claude Pro, at claude.ai | you are signed in and your account shows Pro |
-| 3 | **The terminal** — iTerm2 on a Mac; Windows Terminal with PowerShell on Windows | a cursor blinks, waiting for you |
-| 4 | **The developer tools and Git** | `git --version` answers with a version number |
-| 5 | **Claude Code** — the native install, from code.claude.com | `claude --version` answers with a version number |
-| 6 | **Sign in** — with your Claude subscription | you have seen Claude Code waiting, and left it with `/exit` |
-| 7 | **Your agent's home** — a folder called **HQ** in your home folder, holding the Player+ kit | you see `START-HERE.md` and `CLAUDE.md` inside it |
-| 8 | **First words** — Claude Code started in **HQ**, and the first message from the kit's START-HERE, Door 3 | your agent greets you and asks who you are |
+| 3 | **The terminal** — Terminal on a Mac; Windows Terminal with PowerShell on Windows | a cursor blinks, waiting for you |
+| 4 | **Claude Code, sign in, and the house** — one pasted line installs and starts Claude Code; you sign in; then one pasted sentence has Claude make **HQ**, fetch the kit, install Git, and put **My Agent** on your Desktop, saying each step before it takes it, or you do those five things yourself | the icon is on your Desktop, and HQ holds `START-HERE.md` and `CLAUDE.md` |
+| 5 | **First words** — double-click **My Agent**; the first message from the kit's START-HERE, Door 3 | your agent greets you, walks you through the waiver and the Field of Agreements, and asks what you are playing toward |
 
 **[Walk the Quest →](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md)** Each Gate there explains every command before you use it. The kit itself lives at [github.com/Lionsberg/lionsberg-intelligence](https://github.com/Lionsberg/lionsberg-intelligence), in the folder `player-plus/`; if the person who brought you handed you a copy, use theirs. The kit is plain files, and a copy on a thumb drive works exactly as well.
 

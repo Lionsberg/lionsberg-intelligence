@@ -13,18 +13,15 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 
 ## Start with the Quest
 
-[Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) is the one path, walked as eight Gates, in an afternoon. Follow it in order. Each page below goes deeper on one Gate, for when you want more than the Quest says.
+[Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) is the one path, walked as five Gates, in an afternoon. Follow it in order. Each page below goes deeper on one Gate, for when you want more than the Quest says.
 
 ## Deeper, Gate by Gate
 
 - **Before you begin:** [System Requirements](System%20Requirements.md) — the computer, the time, and where your agent's home goes. [Why This Stack](Why%20This%20Stack.md) — what these tools are and why they work together.
 - **Gate 2 — The Lamp · the account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
 - **Gate 3 — The Wizard's Window · the terminal:** [Choosing Your Terminal](Choosing%20Your%20Terminal.md)
-- **Gate 4 — The Living Record · the developer tools and Git:** [Installing Git](Installing%20Git.md)
-- **Gate 5 — The Body · Claude Code:** [Installing Claude Code](Installing%20Claude%20Code.md)
-- **Gate 6 — A Space Set Apart · your agent's home:** [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*
-- **Gate 7 — The Door That Knows You · sign in:** [Installing Claude Code](Installing%20Claude%20Code.md), Step 2
-- **Gate 8 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
+- **Gate 4 — The Body and the Door · Claude Code, sign in, and the house:** [Installing Claude Code](Installing%20Claude%20Code.md) and [Installing Git](Installing%20Git.md) for doing it by hand; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `INSTALL.md` is what Claude follows
+- **Gate 5 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
 
 ## After the Gates
 

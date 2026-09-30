@@ -1,6 +1,6 @@
 # Your First House
 
-A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gates 7 and 8, from the Player+ kit. This page covers the same ground by hand, for when you are curious how a house is built or want to set one up from nothing.
+A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gate 4, from the Player+ kit. This page covers the same ground by hand, for when you are curious how a house is built or want to set one up from nothing.
 
 ## Step 1: Create a Folder
 

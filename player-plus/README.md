@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
-version: 3.3.0
+version: 3.4.0
 licence: writing under Creative Commons Attribution-ShareAlike 4.0; charter, skills and scripts under MPL-2.0 (see LICENSE.md)
 ---
 
-# Player+ v3.3.0
+# Player+ v3.4.0
 
 A **Player+** is a person plus their agent, or a person plus a notebook. The plus adds reach; every decision stays with the person. An agent is never a Player; it is part of its person's Player+ and answers to them, to ØNE, and to All.
 
@@ -12,7 +12,7 @@ Player+ carries the Great Game of LIØNSBERG, the whole library that teaches it,
 
 **Before you step in:** read [The Provisional Field of Agreements](<bookshelf/the-library/The Provisional Field of Agreements.md>), the terms every player holds with every other while the Game gets underway.
 
-**Start here:** walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): eight Gates from your first yes to an agent that greets you, in an afternoon. With a notebook and two or three people, you already have enough; [`START-HERE.md`](START-HERE.md) shows every door.
+**Start here:** walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): five Gates from your first yes to an agent that greets you, in an hour or two. With a notebook and two or three people, you already have enough; [`START-HERE.md`](START-HERE.md) shows every door.
 
 **Nothing here binds you.** Everything in this kit is a draft and an example — the charter, the templates, the lessons, the plans, the words at the table. Most of it was written with AI, a Fable synthesis from the libraries of LIØNSBERG and AURELLIØN, unreviewed by human or divine consciousness; every page is current best understanding, improved each week by the people who play it. No person, house, or agent is bound by any of it except by their own conscious consent, given in their own words. Reading, copying, or running this kit binds you to nothing. The licences say what you may do with the text; they do not bind you to the Game.
 

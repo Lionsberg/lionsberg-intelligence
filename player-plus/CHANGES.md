@@ -2,6 +2,17 @@
 
 *Newest first. Each entry says what changed and why, so your agent can read a release and you two can decide what to take. Nothing here installs itself; `skills/pull-a-release` walks you through a pull.*
 
+## 3.4.0 — 2026-09-29 — the Quest at five Gates
+
+The first Windows player to walk the Quest with Claude cloning the kit got the whole repository, one folder too deep, and no agent woke. The path is now shorter, and Claude does the hand-work.
+
+- **Five Gates, not eight.** The yes · the account · the terminal · Claude Code, sign in and one sentence · first words. Only the first three need a person's hands.
+- **One pasted line installs and starts Claude Code** by its full path, so the PATH step can no longer strand anyone; Claude fixes the PATH itself a minute later.
+- **One pasted sentence points Claude at `INSTALL.md`** (new, at the repository root, public): it makes **HQ** in the home folder, fetches only `player-plus/` into it (clone, or the zip with `tar`; macOS `unzip` fails on one file name), installs Git, and puts a **My Agent** icon on the Desktop that opens the terminal in HQ and starts the agent. Every step is said before it is taken, and each command waits for a yes. The by-hand path stays on every Quest page.
+- **The agent walks the waiver and the Field of Agreements at its first waking,** in plain words, one thing at a time, and writes the person's yes with the date to `memory/agreements.md`; Gate 1 is now the Story and the yes to the person who brought you. Door 3's first message says so.
+- **On a Mac the Quest uses Terminal itself;** iTerm2 stays as a choice on Choosing Your Terminal.
+- The charter no longer says "the HQ never gets a CLAUDE.md," which contradicted the house the Quest builds.
+
 ## 3.3.0 — 2026-09-26 — the whole seed
 
 Everything a Player and their agent need to know the Game, the plan and the answers, on their own machine.

@@ -25,7 +25,7 @@ Open iTerm2 the way you'd open any app — Spotlight (Cmd+Space), type **iTerm**
 
 ### Step 3: Run terminal setup in Claude Code
 
-Later, once Claude Code is installed and running (Gate 5, [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
+Later, once Claude Code is installed and running (Gate 4, [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
 
 ```
 /terminal-setup
@@ -78,7 +78,7 @@ This shows up as things like a numbered list that appears to have gaps in it, or
 
 ### Then tell Claude Code to use dark mode too
 
-Once Claude Code is installed (Gate 5), run this inside it:
+Once Claude Code is installed (Gate 4), run this inside it:
 
 ```
 /theme
@@ -101,4 +101,4 @@ If a pop-up asks to let the terminal "find devices on your local network," choos
 
 ## Next Step
 
-Gate 4: [Installing Git](Installing%20Git.md). Later, when you want to read your files comfortably, [Viewing Your Files](Viewing%20Your%20Files.md) sets up a Markdown editor alongside your terminal.
+Next: [Installing Git](Installing%20Git.md). Later, when you want to read your files comfortably, [Viewing Your Files](Viewing%20Your%20Files.md) sets up a Markdown editor alongside your terminal.
