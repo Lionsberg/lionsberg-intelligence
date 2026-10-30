@@ -1,0 +1,178 @@
+/*
+  print.css: the paper mirror (DESIGN §7). The Deal card first; each view's own section
+  below, headed with its view's name.
+  Every view prints in the paper theme, without motion or chrome, with its holon and
+  "as of" on the page. The Deal card prints at 6 x 4 in, two sides (the
+  Mark alone on the front; the Deal on the back). "Print light" uses paper for both sides.
+*/
+@media print {
+  :root {
+    --ground: var(--paper-print); --ground-top: var(--paper-print); --ground-bottom: var(--paper-print);
+    --surface: var(--paper-print); --text: var(--ink-print); --accent: var(--gold-ink-print);
+    --accent-text: var(--gold-ink-print); --grain: 0; --shadow-raised: none;
+    --ground-frame: none; --ground-grade: none;
+  }
+  html, body { background: var(--paper-print) !important; color: var(--ink-print); }
+  body::before, .skip, .toasts, .scrim, .sheet, .ribbon .chip[aria-pressed="false"], .view-menu-btn,
+  .paper-links, .deal-nav, .time-chip, .link-btn { display: none !important; }
+  .top { position: static; background: none; }
+  * { animation: none !important; transition: none !important; }
+  a { color: inherit; text-decoration: none; }
+  .card, .stack { break-inside: avoid; box-shadow: none; }
+  .layout { display: block; }
+  .print-only { display: none; }
+
+  /* ---- the Deal card: only when asked (html[data-print="deal"]) */
+  html[data-print="deal"] #app > :not(main),
+  html[data-print="deal"] main.views .view:not(.view--deal),
+  html[data-print="deal"] .deal { display: none !important; }
+  html[data-print="deal"] main.views, html[data-print="deal"] .layout, html[data-print="deal"] .layout[data-layout] .col-main { padding: 0; margin: 0; max-width: none; }
+  html[data-print="deal"] body { padding: 0; margin: 0; }
+  html[data-print="deal"] .deal-print { display: block; }
+  .deal-print-face {
+    page: dealcard;
+    width: var(--card-print-w); height: var(--card-print-h);
+    padding: var(--card-print-margin);
+    break-after: page; overflow: hidden;
+    display: grid; align-content: center;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    font-family: var(--f-body); color: var(--ink-print); background: var(--paper-print);
+  }
+  .deal-print-face:last-child { break-after: auto; }
+
+  /* front: the Mark at W = 380 of 576, on the night ground (paper under Print light) */
+  .deal-print-front { background: var(--night-print); color: var(--paper-print); justify-items: center; padding: 0; }
+  html[data-print-light] .deal-print-front { background: var(--paper-print); color: var(--ink-print); }
+  .mark { width: var(--card-print-mark-w); text-align: center; }
+  .mark-name {
+    font-family: var(--f-name); font-weight: var(--w-emphasis); text-transform: uppercase; white-space: nowrap;
+    font-size: calc(var(--card-print-mark-w) * var(--mark-name)); line-height: 1;
+    letter-spacing: var(--track-name); padding-left: var(--track-name);
+  }
+  .mark-narrative {
+    font-family: var(--f-voice); font-style: italic; font-weight: var(--w-regular); white-space: nowrap;
+    font-size: calc(var(--card-print-mark-w) * var(--mark-narrative));
+    margin-top: calc(var(--card-print-mark-w) * var(--mark-name) * var(--mark-gap-1));
+  }
+  .mark-rule {
+    border: 0; height: var(--hairline);
+    background: linear-gradient(90deg, transparent, var(--gold-light-print), transparent);
+    margin: calc(var(--card-print-mark-w) * var(--mark-name) * var(--mark-gap-2)) 0 calc(var(--card-print-mark-w) * var(--mark-name) * var(--mark-gap-3));
+  }
+  html[data-print-light] .mark-rule { background: linear-gradient(90deg, transparent, var(--gold-ink-print), transparent); }
+  .mark-action {
+    display: flex; justify-content: space-between; align-items: center; white-space: nowrap;
+    font-family: var(--f-voice); font-weight: var(--w-emphasis); letter-spacing: var(--track-action);
+    font-size: calc(var(--card-print-mark-w) * var(--mark-action));
+    color: var(--gold-light-print);
+  }
+  html[data-print-light] .mark-action { color: var(--gold-ink-print); }
+  .mark-bar { width: var(--hairline); align-self: stretch; background: currentColor; opacity: var(--p-quiet); }
+
+  /* back: the Deal, to be answered with a pencil */
+  .deal-print-back { align-content: start; gap: var(--s-1); font-size: var(--p-body); line-height: var(--lh-tight); }
+  .dp-opening { font-family: var(--f-voice); font-style: italic; font-size: var(--p-opening); line-height: var(--lh-voice); }
+  .dp-date { color: var(--ink-print); opacity: var(--p-quiet); font-size: var(--p-small); }
+  .dp-cards { margin: var(--s-1) 0 0; padding-left: var(--p-indent); display: grid; gap: var(--s-2); }
+  .dp-q { font-size: var(--p-question); }
+  .dp-options { list-style: none; margin: var(--p-gap) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--p-gap) var(--p-gap-wide); font-size: var(--p-small); }
+  .dp-box { display: inline-block; width: var(--p-box); height: var(--p-box); border: var(--p-rule) solid var(--ink-print); margin-right: var(--p-gap); vertical-align: middle; }
+  .dp-suggested { font-style: italic; color: var(--gold-ink-print); }
+  .dp-fixed { display: grid; gap: var(--p-line); margin-top: var(--s-1); }
+  .dp-rule { display: block; border-bottom: var(--p-rule) solid var(--ink-print); height: var(--p-line); }
+  .dp-rule.short { display: inline-block; width: var(--p-initials); margin-left: var(--p-gap); height: auto; }
+  .dp-foot, .dp-note { font-size: var(--p-micro); opacity: var(--p-quiet); }
+  .dp-witness { font-size: var(--p-micro); margin-top: var(--s-1); }
+}
+@page { margin: var(--p-page-margin, 14mm); }  /* custom properties do not reach @page in every engine; the fallback is the token's value */
+@page dealcard { size: 6in 4in; margin: 0; }
+
+/* ---- the Map's list twin, the Chain's pencil sheet, the Board by stream (add below) */
+@media print {
+  /* the Map: its pencil sheet is in map.css */
+
+  /* the Chain (with the Board folded into it): its paper form is in chain.css */
+}
+
+
+/* ---- the Play by Play's paper floor, the Ledger sheet, the Turn, the Record (add below) */
+@media print {
+  /* the Room's paper Page (DESIGN-ROOM §6.5): purpose, parts, Big ideas, the Play by Play,
+     the commitments as a ruled table, names elided per posture (the screen's own words) */
+  html[data-print="room"] .room-strip, html[data-print="room"] .room-talk, html[data-print="room"] .room-side,
+  html[data-print="room"] .room-tabs, html[data-print="room"] .room-before, html[data-print="room"] .room-after,
+  html[data-print="room"] .view--deal, html[data-print="room"] .view-head, html[data-print="room"] .top,
+  html[data-print="room"] .pbp-axis-btn, html[data-print="room"] .page-foot { display: none !important; }
+  html[data-print="room"] .room-grid { display: block; }
+  html[data-print="room"] .room-page { display: block !important; }
+  .page .print-only, .ledger .print-only, .turn .print-only { display: block; }
+  .page-paper-head h1 { font-size: var(--p-opening); }
+  .pbp-list { display: block; }
+  .pbp-line { break-inside: avoid; border-bottom: var(--p-rule) solid var(--ink-print); padding: var(--p-gap) 0; }
+  .pbp-text, .tline-body { color: var(--ink-print) !important; }
+  .paper-table { width: 100%; border-collapse: collapse; font-size: var(--p-small); margin-top: var(--p-gap); }
+  .paper-table th, .paper-table td { border: var(--p-rule) solid var(--ink-print); padding: var(--p-gap); text-align: left; vertical-align: top; }
+  .paper-table tr.paper-blank td { height: calc(var(--p-line) * 2); }
+
+  /* the Ledger sheet: the season, each holon's entries, and ruled lines to log by hand */
+  .ledger-acts, .ledger-discern, .tenmarks { display: none !important; }
+  .ledger-table th, .ledger-table td { border-bottom: var(--p-rule) solid var(--ink-print); color: var(--ink-print) !important; }
+  .ledger-paper { break-before: page; }
+
+  /* the Turn: the four lines with space to write by hand */
+  .turn-field, .turn-acts, .turn-depth, .turn-discern, .turn-hint { display: none !important; }
+  .turn-text { color: var(--ink-print) !important; font-style: normal; }
+  .turn-line { border: 0; border-bottom: var(--p-rule) solid var(--ink-print); border-radius: 0; background: none; font-style: normal; color: var(--ink-print); resize: none; }
+  .turn-paper-lines { display: block; height: calc(var(--p-line) * 3);
+    background: repeating-linear-gradient(180deg, transparent 0, transparent calc(var(--p-line) - var(--p-rule)), var(--ink-print) calc(var(--p-line) - var(--p-rule)), var(--ink-print) var(--p-line)); }
+
+  /* the Record: the paper floor, one line per event, every field, the raw form left out */
+  .record-foot, .rline-raw { display: none !important; }
+  .rline-btn { min-height: 0; padding: var(--p-gap) 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+  .rline-what { color: var(--ink-print) !important; }
+  .rline { break-inside: avoid; border-bottom: var(--p-rule) solid var(--ink-print); }
+  .record-day { break-after: avoid; }
+}
+
+/* ---- the bodies sheet (DESIGN-BODIES §9.3): one page, paper, no motion; the date
+   and "as of"; one row per body with its state, why, cost, review minutes and handoff; the day's
+   cost by body, by session and by model with the ceiling as a ruled line; a column for initials */
+@media print {
+  .bodies-stage, .bodies-reward, .bodies-actions, .bodies .pill, .top .back { display: none !important; }
+  .bodies-grid { display: block; }
+  .bodies-prime-head { justify-content: flex-start; text-align: left; }
+  .bodies-head, .bodies-prime-head, .bodies-machine, .bodies-cost { color: var(--ink-print); break-inside: avoid; }
+  .bodies-twin { container-type: normal; }
+  .bodies-table { font-size: var(--p-small); }
+  .bodies-table thead { position: static; width: auto; height: auto; overflow: visible; clip: auto; display: table-header-group; }
+  .bodies-table, .bodies-table tbody { display: table; width: 100%; }
+  .bodies-table tbody { display: table-row-group; }
+  .bodies-table tr { display: table-row; break-inside: avoid; }
+  .bodies-table th, .bodies-table td { display: table-cell; border-bottom: var(--p-rule) solid var(--ink-print); padding: var(--p-gap); color: var(--ink-print) !important; }
+  .bodies-table td[data-col]::before { content: none !important; }
+  .bodies-table .link-btn { display: inline !important; min-height: 0; padding: 0; border: 0; background: none; text-decoration: none; color: var(--ink-print); font: inherit; }
+  .bodies-table .bodies-print-only, .bodies-print-only { display: table-cell !important; width: var(--p-initials); }
+  .bodies-archived { display: block; }
+  .bodies-archived > summary { display: none; }
+  .bodies-cost[hidden] { display: grid !important; }
+  .bbar-track { border-bottom: var(--p-rule) solid var(--ink-print); }
+  .bbar-track i { border-color: var(--ink-print); background: none; }
+  .bceil { border-left: var(--p-rule) solid var(--ink-print); }
+}
+
+/* ---- the full card (card-full.js): while it is open, it is what prints, as one sheet; paper
+   colours, no motion, no chrome; its house, its id and the as of per record are on the page */
+@media print {
+  html:has(.sheet--card) #app, html[data-print="card"] #app, html:has(.sheet--card) .scrim { display: none !important; }
+  html:has(.sheet--card) .sheet--card, html[data-print="card"] .sheet--card {
+    display: block !important; position: static; inset: auto; width: auto; max-height: none; overflow: visible;
+    border: 0; border-radius: 0; padding: 0; background: var(--paper-print); color: var(--ink-print);
+  }
+  .sheet--card .sheet-head, .sheet--card .cf-acts, .sheet--card .cf-paper, .sheet--card .cf-copy,
+  .sheet--card .card-open, .sheet--card .dock-answers, .sheet--card .dock-ask-quiet { display: none !important; }
+  .sheet--card .cf-sec { break-inside: avoid; border-top: var(--p-rule) solid var(--ink-print); }
+  .sheet--card .cf-label, .sheet--card .cf-dust, .sheet--card .cf-row-when, .sheet--card .cf-row-sig,
+  .sheet--card .cf-whose, .sheet--card .dust { color: var(--ink-print) !important; }
+  .sheet--card .cf-link { text-decoration: none; color: var(--ink-print); min-height: 0; }
+  .sheet--card .option { border: var(--p-rule) solid var(--ink-print); background: none; }
+}

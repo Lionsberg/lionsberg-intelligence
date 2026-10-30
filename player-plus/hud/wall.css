@@ -1,0 +1,22 @@
+/* wall.css: the Wall (wall.js). Inks from base.css tokens only. */
+.wall-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; }
+.wall-board { position: relative; display: flex; gap: 14px; overflow-x: auto; padding: 4px 4px 160px 18px; }
+.wall-lines { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; }
+.wall-link { fill: none; stroke: var(--ink-dust, currentColor); stroke-width: 1; opacity: .45; }
+.wall-link.is-critical { stroke: var(--ink-warn, currentColor); opacity: .8; stroke-width: 1.5; }
+.wall-col { display: flex; flex-direction: column; gap: 8px; min-width: 190px; max-width: 220px; position: relative; z-index: 1; }
+.wall-note { text-align: left; display: flex; flex-direction: column; gap: 4px; padding: 8px 10px; border-radius: 6px;
+  border: 1px solid var(--line, rgba(127,127,127,.35)); background: var(--paper, transparent); color: inherit; font: inherit; cursor: pointer; }
+.wall-note-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.wall-note.is-late { border-left: 4px solid var(--ink-warn, #b45309); }
+.wall-note.is-critical { border-left: 4px solid var(--ink-strong, currentColor); }
+.wall-note.is-near { border-left: 4px solid var(--ink-dust, #888); }
+.wall-detail { position: absolute; z-index: 3; width: min(320px, calc(100vw - 32px)); box-sizing: border-box; padding: 12px 14px;
+  border-radius: 8px; border: 1px solid var(--line, rgba(127,127,127,.35)); background: var(--paper, Canvas); color: inherit;
+  box-shadow: 0 6px 24px rgba(0,0,0,.18); }
+.wall-x { position: absolute; top: 4px; right: 6px; border: 0; background: none; font-size: 20px; line-height: 1; cursor: pointer; color: inherit; }
+.wall-title { margin: 0 18px 8px 0; font-weight: 600; }
+.wall-row { display: flex; justify-content: space-between; gap: 8px; }
+.wall-say { width: 100%; box-sizing: border-box; margin: 8px 0; font: inherit; }
+.wall-acts { display: flex; flex-wrap: wrap; gap: 6px; }
+.wall-cons { display: inline-flex; gap: 4px; }

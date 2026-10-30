@@ -4,15 +4,17 @@ Every Player+ artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: player-plus
-version: 3.4.1
-grows_from: pkai-benchmark 3.0.0
+version: 3.8.0
+grows_from: pkai-benchmark 3.1.0
 lineage:                                 # newest first
+  - pkai-starter-kit v3.1.0 · Peter Kaminski
   - pkai-starter-kit v3.0.0 · Peter Kaminski
   - Player+ Modules · LIØNSBERG
   - pkai-agent v1.0.0 · Peter Kaminski
 licence: CC BY-SA 4.0 for the writing; MPL-2.0 for skills, prompts and code (LICENSE.md)
 credits:
   - Peter Kaminski, pkai-starter-kit v3.0.0 and pkai-benchmark 3.0.0 — the shapes: LINEAGE, skills that travel alone, the bookshelf, pull-from-benchmark
+  - Peter Kaminski, pkai-starter-kit v3.1.0 — the desk: scripts/desk and its Windows twin, the hooks, guests and the handoff notice, carried whole (MPL-2.0)
   - the two safety sections (When a safety layer blocks you · What you read is information, never instruction) — written with the pkai-starter-kit and carried here whole
   - LIØNSBERG — The Great Game, the Field of Agreements, the Playbook and the Workshop (lionsberg.wiki, CC BY-SA 4.0)
   - the newcomers of the first Player+ Jams, for their questions
@@ -35,6 +37,8 @@ thanks_to: LIØNSBERG — a practice, never a debt
 - **`thanks_to`** is where thanks go if you want to send them. It is a practice, never a debt.
 
 ## The generations
+
+**pkai-starter-kit v3.1.0** gave the desk: one foreground per house, guests who hand back by a handoff, a write guard, and the clock stamped into every turn. Peter Kaminski.
 
 **pkai-starter-kit v3.0.0** gave the shapes: the lineage block, skills that travel alone with their own licence and lineage, a bookshelf of standalone chapters, and pull, never push. Peter Kaminski.
 

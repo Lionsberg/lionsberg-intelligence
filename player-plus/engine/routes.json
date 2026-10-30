@@ -1,0 +1,52 @@
+{
+  "about": "Sample routes for proxy.py. Rules name vendors ONLY by the names in the person's own ~/.config/lionsberg/vendors.json (template: vendors.sample.json); any host, scheme, base_url, port, path, url, headers or key_env here is refused at load. Fields whose names start with 'about' are comments. Rules are tried in order; the first enabled rule whose 'when' holds wins; else 'default'. A rule naming a vendor the person has not defined is skipped and said at start. Copy this file to your holon as routes.json to make it yours.",
+  "anthropic_version": "2026-10-21",
+  "about_anthropic_version": "Used only when the client sends no anthropic-version header; a client's own header always passes through unchanged.",
+  "hash_bodies": "hmac",
+  "about_hash_bodies": "'hmac' records keyed digests (HMAC-SHA256 under the holon's own salt, <holon>/.proxy-salt, kept out of git) of each request body and completion, for later matching; 'none' records no digest. Bodies themselves are never recorded.",
+  "rules": [
+    {
+      "id": "private-local",
+      "about": "A request tagged private (header X-Route-Tag: private) stays on this machine. The proxy refuses to load this rule if 'local' is not on this machine, and refuses any private request that would leave it.",
+      "when": {"tag": "private"},
+      "vendor": "local",
+      "model": "llama3.1"
+    },
+    {
+      "id": "council",
+      "about": "Fusion: the same request to several vendors, every answer returned in the 'council' field for the agent to judge, within deadline_s seconds. Off by default; set enabled to true and send X-Route-Tag: council. Every member of kind anthropic needs its own key_env; the client's credential never fans out.",
+      "enabled": false,
+      "when": {"tag": "council"},
+      "deadline_s": 60,
+      "council": [
+        {"vendor": "anthropic", "model": "claude-opus-5-5"},
+        {"vendor": "router", "model": "z-ai/glm-4.6"},
+        {"vendor": "local", "model": "llama3.1"}
+      ]
+    },
+    {
+      "id": "small-to-router",
+      "about": "Small requests for the fast tier go to the router's open model.",
+      "when": {"model": "claude-haiku-*", "max_bytes": 20000},
+      "vendor": "router",
+      "model": "z-ai/glm-4.6"
+    },
+    {
+      "id": "night-local",
+      "about": "Between 22:00 and 06:00 local time, requests tagged batch run on the local server.",
+      "when": {"tag": "batch", "hours": [22, 6]},
+      "vendor": "local",
+      "model": "llama3.1"
+    },
+    {
+      "id": "claude",
+      "about": "Every Claude model name goes to the Anthropic API unchanged.",
+      "when": {"model": "claude-*"},
+      "vendor": "anthropic"
+    }
+  ],
+  "default": {
+    "vendor": "anthropic",
+    "about": "When no rule matches. No model named here means the model asked for is kept."
+  }
+}

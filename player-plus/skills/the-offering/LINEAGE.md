@@ -1,12 +1,12 @@
 # Lineage — `the-offering`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 
 ```yaml
 name: the-offering
 version: 0.1.0
-sits_on: LIØNSBERG Player+ 3.1.0
+grows_from: LIØNSBERG Player+ 3.1.0
 lineage:
   - "The Offering (the library's concept field — nobody sets your amount; the two disciplines, free and counted honestly; line 8 with its unit)"
   - "The One Book, 21 In Every Future — what to do in each case, THE PAGE — *The Offering by hand* (the box, the slips, the Keeper's in · out · held, the share carried inward by hand)"

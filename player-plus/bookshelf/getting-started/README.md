@@ -30,6 +30,7 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 - [Tips for Working With Your Agent](../with-your-agent/Tips%20for%20Working%20With%20Your%20Agent.md) — a living page, added to at every Jam
 - [Viewing Your Files](Viewing%20Your%20Files.md) — Typora, MarkText, and friends
 - [Permissions Questions](Permissions%20Questions.md) — what Claude Code asks, and how to answer
+- [Output Styles](Output%20Styles.md) — Claude Code's output styles, and why the kit leaves them at Default
 - [Basic Markdown](Basic%20Markdown.md) — headers, links, lists — enough to get going
 
 ## Optional: Git and GitHub, under the hood

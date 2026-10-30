@@ -1,10 +1,10 @@
 # Foreground and Background
 
-The first thing a working house needs is a way to do two things at once. You are talking to your agent about one matter; a long job — a research sweep, a big rewrite, a migration of old notes — is grinding on in another window. Both are your agent. Neither may overwrite the other. That is the whole design problem, and the answer is a pair of roles.
+The first thing a working house needs is a way to do two things at once. You are talking to your agent about one matter; a long job — a research sweep, a big rewrite, a migration of old notes — is grinding on in another session. Both are your agent. Neither may overwrite the other. That is the whole design problem, and the answer is a pair of roles.
 
 ## The two roles
 
-The **foreground** is the instance you are talking to. It owns everything shared: the memory, the charter, commits to the house, anything that goes out (a message, a push). There is exactly one foreground at a time, and it is whichever one you are talking to.
+The **foreground** is the instance that holds the desk — usually the first session you started. It owns everything shared: the memory, the charter, commits to the house, anything that goes out (a message, a push). There is exactly one foreground at a time.
 
 A **background** instance is the same agent started a second time on one scoped job. It can *read* everything. It *writes* only inside its own scratch folder. It does not commit shared folders, does not touch memory or the charter, does not send anything, does not talk to other agents. When it is done it leaves a handoff, and the foreground integrates the handoff by copying what belongs in the house into the house.
 
@@ -16,6 +16,16 @@ Four pairs hold the distinction, and each is worth saying once:
 - **frontstage / backstage** — you see the foreground; the background works out of sight and reports.
 
 Houses pick different pairs for the same distinction; use your house's words, and when you work with another house, say which pair you mean. (One pair to avoid: *source / echo*. A background instance is not a copy of the foreground; it is the same agent, narrowed.)
+
+## The desk, and guests
+
+Start a second session in your agent home while the first is still working — another terminal, or a conversation in the Claude app on your computer or phone — and you have two instances of the same agent. Without a rule, both would write the same memory and the same charter. So the house keeps a **desk**: the first session to start holds it, every turn renews it, and it is released when that session ends. A session that starts while another holds the desk becomes a **guest**, and tells you so in one plain sentence, with three choices:
+
+- **keep going as a guest** — the default. It works normally, but it leaves its notes and a handoff in its own folder (`bg/guest-<time>/`) instead of changing memory, the charter or settings;
+- **switch to the other session**, and close this one;
+- **take the desk**, if the other session is closed or has been idle. You say so; it runs one small script.
+
+A desk nobody has touched for **30 minutes** counts as free (and, on a Mac or Linux, so does one whose session has crashed), so a forgotten session never locks you out. A guest is a background instance you happen to be talking to; everything below about background instances applies to it.
 
 ## The file lifecycle
 
@@ -35,12 +45,12 @@ The `DONE` marker matters more than it looks. A `handoff.md` invites more work �
 1. The foreground writes `task.md` — as an outcome, not a step list. The instance plans its own path.
 2. You (or the foreground) open a second terminal in the agent home and start the agent with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
 3. You carry on in the foreground. Check `status.md` when you are curious; do not poll.
-4. When `DONE` appears, the foreground reads `handoff.md` and integrates: files copied to where they belong, memories saved properly, commits made under the foreground's own hand. Anything that needs your decision is asked.
+4. When `DONE` appears, the foreground tells you — at the start of a session, or in one line during one, at most once an hour — and, when you say so, reads `handoff.md` and integrates: files copied to where they belong, memories saved properly, commits made under the foreground's own hand. Anything that needs your decision is asked.
 5. The job folder moves to `bg/archive/`.
 
 ## Why the boundary holds
 
-Nothing in the tool enforces this. The boundary is in the charter — the background instance is told "you do not write shared state" and it obeys, and the foreground is told "check for handoffs at the start of a session" and does. That is enough, and it is also the point: the same agent, given a narrower charter for one run, behaves inside it. If you find yourself wanting the tool to enforce it, you have found a job for a hook (see [Where Instructions Take Hold](../keeping-yourself-safe/Where%20Instructions%20Take%20Hold.md)), and that is fine too.
+Mostly, the charter holds it — the background instance is told "you do not write shared state" and it obeys, and the foreground is told "integrate handoffs when they are waiting" and does. That is enough, and it is also the point: the same agent, given a narrower charter for one run, behaves inside it. The house adds a few hooks where a rule cannot be left to memory (see [Where Instructions Take Hold](../keeping-yourself-safe/Where%20Instructions%20Take%20Hold.md)): the desk lease decides which session is the foreground, and a write guard stops a guest's edits to `memory/`, `CLAUDE.md` and `.claude/`. The guard is a rail, not a wall — a shell command can get around it — so the charter still does the real work.
 
 ## When to use it
 

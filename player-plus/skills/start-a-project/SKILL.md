@@ -10,21 +10,22 @@ Everything is a project. A project is a folder with a few hats on — a place fo
 
 ## Steps
 
-1. **Get the wish.** Ask the person for a short, plain-language note about what they want and why. A sloppy paragraph beats no paragraph; do not polish it for them. If they have already said it in conversation, write it down as they said it and confirm.
+1. **Get the wish.** Ask the person for a short, plain-language note about what they want and why. A sloppy paragraph beats no paragraph; do not polish it for them. If they have already said it in conversation, write it down as they said it and confirm. Then check it is not already here: look for a project, memory or note that already covers the wish, in `projects/`, `memory/MEMORY.md` and the recent session logs (the `find-it-again` skill does this search, if the house has it). If something plausibly covers it, show the person and ask whether to pick that up instead of starting a second one.
 2. **Ask until it is clear.** Two or three questions at a time, not a form: what does done look like; who is it for; what already exists; what is the deadline, if any; what must it *not* do. Stop when you could explain the project to a stranger in three sentences.
 3. **Pick the container.** Three sizes, from the project-management book:
    - **A folder in the HQ** (`projects/<slug>/`) — most personal work. Version control comes for free from the HQ's own history.
    - **Its own repo** — when the project will be shared with people who should not see the rest of the house, has its own toolchain, or would clutter the HQ's history. Create it outside the HQ; the HQ keeps a pointer and the notes.
    - **Just a note** — when it is not a project yet. Say so; a project that is really a question should not get a folder.
    Say which you'd pick and why; the person decides.
-4. **Make the skeleton.** `README.md` (the wish, verbatim, then the three-sentence version, then where things are) and `<slug>.status.md` (current state, next actions, decisions and their reasons — kept current by you from now on). **Never a `CLAUDE.md` in a project**; you bring yourself along.
-5. **Write the first plan** in the README or a `PLAN.md`: the outcome, the steps as you'd take them, the decision points that are the person's, what you will need from them. Short. Then **stop and show it**: the plan is reviewed and improved *before* execution, every time. That review is where most of the value is.
+4. **Make the skeleton.** `README.md` (the wish, verbatim, then the three-sentence version, then where things are) and `<slug>.status.md` (current state, next actions, decisions and their reasons — kept current by you from now on). **Never a `CLAUDE.md` in a project folder under the HQ**; you bring yourself along. A project in its own repo may carry one for its conventions and for anyone who opens it without you; keep it to the project, never your persona. The README and status file live in the repo; the HQ keeps a one-line pointer in `projects/README.md`.
+5. **Write the first plan** in the README or a `PLAN.md`: the outcome, written as what done looks like in checks that can come back no ("the chapter is drafted and the person has read it", not "make progress on the book"), the steps as you would take them, the decision points that are the person's, what you will need from them. Short. Then **stop and show it**: the plan is reviewed and improved *before* execution, every time. That review is where most of the value is.
 6. **Log it.** A memory (`save-a-memory`, type `project`) with the project's name, where it lives, and the one-line wish — so the next session knows it exists — and a line in the session log.
 
-## Two habits worth building in from day one
+## Three habits worth building in from day one
 
 - **Agree on a destination before walking away.** If you will work on this while the person is elsewhere, say which file the output lands in and what "done" means, so drift would be visible.
 - **The status file is the source of truth for "where does this stand."** Update it when things change, not at the end.
+- **The plan says whether it has been reviewed.** It opens with *Provisional* until the person approves it, then *Approved* with the date, so the state travels with what is being built on. If the person moves on without reviewing it, the plan still reads *Provisional*, and the next session sees that before building on it.
 
 ## What this skill never does
 

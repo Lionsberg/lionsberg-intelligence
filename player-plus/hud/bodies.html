@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Your agents</title>
+  <meta name="description" content="Your agents: which holds the desk, what each is doing, whether each is alive, what each has cost, and what waits on you.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f1e6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a1220" media="(prefers-color-scheme: dark)">
+  <link rel="preload" href="fonts/eb-garamond-v33-latin-400-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="bodies.css">
+  <link rel="stylesheet" href="print.css">
+  <!--
+    The Bodies view's own door, until two lines in shell.js make #/bodies a route of index.html.
+    It hosts bodies.js with the same
+    context the shell gives every view (shell.js header), from the same state.js, so the view
+    moves into the shell unchanged. Open it as bodies.html#/bodies, through serve.py or with
+    ?fixture=<name>.
+  -->
+  <script type="module" src="bodies-door.js"></script>
+</head>
+<body>
+  <div id="app">
+    <noscript><p class="noscript">This page needs JavaScript to read your record. The paper agents sheet works without it.</p></noscript>
+  </div>
+</body>
+</html>

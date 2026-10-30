@@ -38,7 +38,7 @@ Cut to three to five.
 
 ## 4. Say them aloud
 
-For each finalist, write three sentences the person would actually say: *"I'll put it in ~."* *"The ~ post from Tuesday."* *"Have you seen ~?"* Read them. The one that reads as a word rather than a label usually wins here, and this step ends more deadlocks than any test.
+For each finalist, write three sentences the person would actually say: *"I will put it in ~."* *"The ~ post from Tuesday."* *"Have you seen ~?"* Read them. The one that reads as a word rather than a label usually wins here, and this step ends more deadlocks than any test.
 
 ## 5. Converge
 

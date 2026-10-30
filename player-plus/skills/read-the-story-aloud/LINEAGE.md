@@ -1,12 +1,12 @@
 # Lineage — `read-the-story-aloud`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 
 ```yaml
 name: read-the-story-aloud
 version: 0.1.0
-sits_on: LIØNSBERG Player+ 3.1.0
+grows_from: LIØNSBERG Player+ 3.1.0
 lineage:
   - "THE STORY (the telling itself; ten minutes to read, fifteen to hear; no belief is required at the door; the twelve movements and the Story in a breath)"
   - "The One Book, 22 The Stories — ten trillion stories woven back into ONE (how a telling is heard: bounded, voluntary, received not fixed, witnessed, not argued with, held afterward; the agent's office and its hard boundary)"

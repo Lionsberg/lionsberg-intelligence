@@ -16,3 +16,25 @@ poll-*/
 # Sync copies numbered past a real number
 Rule Number [3-9].md
 The 30[1-9].md
+
+# The desk lease (scripts/desk): live session state, never history
+.desk/
+
+# The record
+engine/__pycache__/
+state.json
+cells/*/state.json
+
+# Made frames: masters, logs and prompts stay out of the public kit; share copies and sheets travel
+hud/frames/round-*/*.png
+!hud/frames/round-*/sheet-*.png
+hud/frames/round-*/*.log
+hud/frames/round-*/*.json
+!hud/frames/round-*/register.json
+hud/.hud-token
+engine/.proxy-token
+engine/.person-token
+
+# The phone door (hud/serve.py): its certificates and keys, and the hashes of paired phones
+.phone-door/
+.hud-devices

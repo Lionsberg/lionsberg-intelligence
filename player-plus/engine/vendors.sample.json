@@ -1,0 +1,32 @@
+{
+  "about": "Template for the person's own vendors file. Copy it by hand, never into a holon: install -m 600 vendors.sample.json ~/.config/lionsberg/vendors.json. The proxy refuses a vendors file that is a link, not yours, or readable or writable by others. This file alone decides where requests may go and with which key; routes.json only names these vendors.",
+  "about_rules": "scheme https to a named host; plain http only to an IP that is loopback or this machine's own address (no names). key_env is null or a name starting LIONSBERG_ or ending _API_KEY; a named key that is unset is an error, never a fall-back. Only a vendor of kind anthropic with key_env null passes the client's own key through.",
+  "allowed_origins": [],
+  "about_allowed_origins": "Web origins allowed to call the proxy, e.g. the HUD's own page. Empty: every request carrying an Origin header is refused.",
+  "vendors": {
+    "anthropic": {
+      "kind": "anthropic",
+      "scheme": "https",
+      "host": "api.anthropic.com",
+      "key_env": "ANTHROPIC_API_KEY",
+      "about": "The Anthropic API. Set key_env to null to pass the client's own key (a Claude Code login) through to this host only."
+    },
+    "router": {
+      "kind": "openai",
+      "scheme": "https",
+      "host": "openrouter.ai",
+      "path": "/api/v1",
+      "key_env": "OPENROUTER_API_KEY",
+      "about": "An OpenAI-compatible router; requests go to https://host/path/chat/completions."
+    },
+    "local": {
+      "kind": "openai",
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 11434,
+      "path": "/v1",
+      "key_env": null,
+      "about": "A local OpenAI-compatible server (Ollama-class) on this machine. The only kind of vendor the private tag may use."
+    }
+  }
+}

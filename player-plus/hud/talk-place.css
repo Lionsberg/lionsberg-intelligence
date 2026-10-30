@@ -1,0 +1,191 @@
+/* talk-place.css: the Talk (DESIGN-TALK.md, proposal). The conversation is the page: one column, one
+   scrolling stream at every width, holding the agent's door and the one line at its head, the turns,
+   her latest turn (the question), and any ask of your agent beneath it; the line to speak at the
+   foot, fixed; the frame (Talk · Agents · More) below it. The day's scene is one still frame, dim,
+   behind; it carries no information. Every value from tokens.css. */
+
+/* the frame on the Talk: no top line (the one line is the top), the dock's own pane steps aside
+   (the Talk holds the conversation) */
+html[data-route="talk"] header.top { display: none; }
+html[data-route="talk"] #dock { display: none; }
+html[data-route="talk"] body { padding-right: 0; }
+html[data-route="talk"] main.views { padding: 0; }
+@media (min-width: 1024px) { html[data-route="talk"] #main { padding-bottom: 0; } }
+/* the frame's foot (Talk · Agents · More) on a phone: its own ground, so no line of any place runs
+   under it (the Deal's opener never reads under "Talk"), and every place ends above it */
+@media (max-width: 1023px) {
+  .places { background: linear-gradient(to bottom, color-mix(in srgb, var(--ground) 0%, transparent), var(--ground) 35%); }
+  html:not([data-route="talk"]) #main { padding-bottom: calc(var(--dock-bar-h) + var(--s-4) + env(safe-area-inset-bottom)); }
+}
+/* the ten-minute way: the question and the conversation, nothing else */
+html[data-talk-focus] .places { display: none; }
+
+/* one height, set once: nothing in the Talk changes size when the line to speak takes or loses
+   focus (a Send must never move between the press and the tap) */
+.talk {
+  position: relative; display: flex; flex-direction: column; margin: 0 auto; max-width: calc(var(--measure) + 2 * var(--gutter));
+  height: calc(100dvh - var(--dock-bar-h) - env(safe-area-inset-bottom)); padding: 0 var(--gutter);
+  box-sizing: border-box; overflow: hidden;
+}
+html[data-talk-focus] .talk { height: 100dvh; }
+
+/* the day's scene: one made frame, dim, behind; never lit. While her turn streams it brightens
+   slowly and settles when she stops; when everything is done it dims slowly (reduced motion: still) */
+.talk-scene { position: fixed; inset: 0; margin: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+.talk-scene img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(140vw, 72rem); height: auto; opacity: .22;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 35%, transparent 70%); mask-image: radial-gradient(ellipse at center, #000 35%, transparent 70%); }
+@media (max-width: 599px) { .talk-scene img { width: 150vw; top: 42%; } }
+.talk[data-rest="true"] .talk-scene img { opacity: .3; }
+.talk[data-speaking="true"] .talk-scene img { opacity: .32; }
+.talk[data-done="true"] .talk-scene img { opacity: .12; }
+@media (prefers-reduced-motion: no-preference) {
+  html:not([data-motion="reduce"]) .talk-scene img { transition: opacity 2400ms ease-in-out; }
+  html:not([data-motion="reduce"]) .talk[data-done="true"] .talk-scene img { transition-duration: 9000ms; }
+}
+@media (prefers-reduced-motion: reduce) { .talk[data-speaking="true"] .talk-scene img { opacity: .22; } }
+html[data-motion="reduce"] .talk[data-speaking="true"] .talk-scene img { opacity: .22; }
+:root[data-theme="paper"] .talk-scene img { filter: var(--frame-paper-grade); mix-blend-mode: multiply; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="night"]) .talk-scene img { filter: var(--frame-paper-grade); mix-blend-mode: multiply; } }
+
+/* the head, at the top of the stream: her name once, in small caps, then the one line */
+.talk-head { padding-top: calc(var(--s-3) + env(safe-area-inset-top)); }
+.talk-headrow { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); }
+/* voice mode: one switch, at the head, beside her name */
+.talk-voice { display: flex; }
+.talk-voice[hidden] { display: none; }
+.talk-voice .dock-voice-mode { min-height: 40px; }
+.talk-door { display: inline-flex; align-items: center; gap: var(--s-2); min-height: var(--touch); padding: 0; border: 0; background: transparent; cursor: pointer;
+  font-family: var(--f-name); font-size: var(--t-small); font-variant: all-small-caps; letter-spacing: var(--track-caps); color: var(--dust); }
+.talk-ring { width: var(--mark-ring); height: var(--mark-ring); border-radius: 50%; border: var(--hairline) solid var(--dust); box-sizing: border-box; }
+.talk-line { font-family: var(--f-voice); font-weight: var(--w-regular); font-size: calc(var(--t-voice) * .78); line-height: var(--lh-voice);
+  margin: var(--s-2) 0 var(--s-5); color: var(--text); text-wrap: pretty; overflow-wrap: anywhere; }
+@media (min-width: 600px) { .talk-line { font-size: var(--t-voice); } }
+@media (max-height: 600px), (max-width: 359px) { .talk-line { font-size: var(--t-card); margin-bottom: var(--s-3); } }
+html[data-type="large"] .talk-line { font-size: var(--t-card); }
+/* "When you are ready, one thing waits.": her sentence, and the way in */
+.talk-ready { font: inherit; color: inherit; background: transparent; border: 0; padding: 0; cursor: pointer; text-align: left;
+  text-decoration: underline; text-decoration-thickness: var(--hairline); text-underline-offset: .2em; text-decoration-color: var(--dust); }
+.talk-earlier { align-self: flex-start; color: var(--dust); font-size: var(--t-small); min-height: 32px; padding: 0; }
+.talk-earlier[hidden] { display: none; }
+
+/* the stream is the page: the dock's own component, inline, on the scene's ground; it fills
+   everything between the top and the line to speak, and its top edge fades instead of slicing a line */
+.talk-conv { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+.talk-dock { flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+.talk-dock .dock-bar, .talk-dock .dock-dealline, .talk-dock .dock-head, .talk-dock .dock-rest { display: none !important; }
+.talk-dock .dock-pane { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; background: transparent; }
+.talk-dock .dock-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: 0 0 var(--s-4); overscroll-behavior: contain;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 var(--s-7)); mask-image: linear-gradient(to bottom, transparent 0, #000 var(--s-7)); }
+/* the fade is a line tall, so a line at the edge fades whole and is never sliced (even at 360 with
+   large type); the head starts below it, so at the top of the stream nothing is faded */
+.talk-dock .dock-scroll > .talk-head { padding-top: calc(var(--s-6) + env(safe-area-inset-top)); }
+.talk-dock .dock-turns { display: grid; gap: var(--s-4); }
+.talk-dock .dock-foot { border-top: 0; padding: var(--s-2) 0 var(--s-3); }
+.talk-dock .dock-turn, .talk-dock .dock-letter { max-width: var(--measure); }
+.talk-dock .dock-input { background: var(--surface); }
+/* the asks sit beneath the question, in the stream; they never cover anything and never scroll alone */
+.talk-dock .dock-asks { max-height: none; overflow: visible; margin-top: var(--s-4); }
+
+/* her latest turn: one thing at a time, at the end of the stream */
+.talk-now { display: grid; gap: var(--s-3); padding-top: var(--s-4); }
+.talk-now:empty { display: none; }
+/* every turn keeps its place in the stream while she works: the question never leaves */
+.talk-coming { margin: 0; font-size: var(--t-small); }
+/* the earlier settled lines, folded into one quiet line */
+.talk-marked { margin: 0; font-size: var(--t-small); line-height: var(--lh-body); }
+.talk-marked .link-btn { font-size: inherit; min-height: 32px; padding: 0; }
+/* the open question scrolled away above: one quiet pill, held at the stream's foot until it is in view */
+.talk-above { position: sticky; bottom: var(--s-2); z-index: 1; justify-self: center; align-self: center; margin: var(--s-2) auto 0; display: flex;
+  min-height: 40px; font-size: var(--t-small); background: var(--surface); }
+.talk-above[hidden] { display: none; }
+/* a worker's line: its name in small caps, apart from her words */
+.talk-ask-name { font-family: var(--f-name); font-variant: all-small-caps; letter-spacing: var(--track-caps); color: var(--text); }
+/* a worker's end, as her line, and its draft to read here, as plain lines */
+.dock-done .talk-chips { margin-top: var(--s-2); }
+.dock-draft { margin-top: var(--s-3); padding-left: var(--s-4); border-left: var(--hairline) solid var(--line); display: grid; gap: var(--s-2); }
+.dock-draft[hidden] { display: none; }
+.dock-draft p { margin: 0; font-size: var(--t-body); line-height: var(--lh-body); max-width: var(--measure); }
+/* a worker's ask, in the stream like her own agent's */
+.talk-dock .dock-row--ask { display: block; }
+.talk-ask-from { margin: 0 0 var(--s-2); font-size: var(--t-small); }
+.talk-dock .dock-ask { max-width: var(--measure); }
+/* her latest turn carries the field while she works; a finished turn carries no mark (the bar, line 16) */
+.talk-dock .dock-turn--agent:not(.is-live) .dock-turnmark { display: none; }
+.talk-turn .talk-her-line, .talk-turn p { margin: 0; }
+.talk-q { display: grid; gap: var(--s-2); padding-left: var(--s-4); border-left: calc(var(--hairline) * 2) solid var(--line-strong); }
+/* the one gold on the screen is the owed question's hairline; its chips and its link are in ink */
+.talk-q.owed { border-left-color: var(--owed); --accent: var(--line-strong); --accent-text: var(--text); --gold: var(--text);
+  --pill-suggested: color-mix(in srgb, var(--text) 8%, transparent); }
+.talk-q .talk-chip { border-color: var(--line-strong); color: var(--text); }
+.talk-q .talk-open { color: var(--dust); }
+.talk-q-words, .talk-her-line { margin: 0; font-size: var(--t-card); line-height: var(--lh-tight); color: var(--text); overflow-wrap: anywhere; }
+.talk-q-why { margin: 0; font-size: var(--t-small); line-height: var(--lh-body); }
+.talk-q-foot { margin: 0; }
+/* above the question: her own name for the card, and the one count ("1 of 7"), quiet */
+.talk-q-top { margin: 0; display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-3); font-size: var(--t-small); line-height: var(--lh-body); }
+.talk-q-named { color: var(--text); font-family: var(--f-name); font-variant: all-small-caps; letter-spacing: var(--track-caps); }
+/* an answered question stays as one quiet line above its answer */
+.talk-settled-q { margin: 0; font-size: var(--t-small); line-height: var(--lh-body); }
+/* her name for a card on the Deal's face, above its question */
+.card-named { margin: 0 0 var(--s-1); font-family: var(--f-name); font-size: var(--t-small); font-variant: all-small-caps; letter-spacing: var(--track-caps); color: var(--text); }
+.talk-q-foot .link-btn { font-size: var(--t-micro); min-height: 32px; padding: 0; }
+.talk-chips { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.talk-chip { min-height: var(--touch); max-width: 100%; white-space: normal; text-align: left; }
+.talk-chip.is-suggested { background: var(--pill-suggested); }
+.talk-settled { display: grid; gap: var(--s-1); }
+.talk-settled-line { display: flex; align-items: center; gap: var(--s-2); }
+.talk-settled-acts { display: flex; flex-wrap: wrap; gap: var(--s-4); margin: 0; }
+.talk-settled-acts .link-btn { min-height: var(--touch); padding: 0; }
+.talk-settled-acts:empty { display: none; }
+
+/* a keepsake: one made mark, 24 px, its field centred; kept behind her name */
+.talk-keep { flex: none; display: inline-block; width: 24px; height: 24px; border-radius: 50%; vertical-align: middle;
+  background-size: 260% auto; background-position: 50% 50%; background-repeat: no-repeat; background-color: var(--ground);
+  box-shadow: inset 0 0 0 var(--hairline) var(--line); }
+:root[data-theme="paper"] .talk-keep { filter: var(--frame-paper-grade); }
+.talk-keepsakes { display: flex; flex-wrap: wrap; gap: var(--s-3); margin: 0; }
+.talk-keepsake { margin: 0; display: grid; justify-items: center; gap: var(--s-1); max-width: 6rem; }
+.talk-keepsake figcaption { font-size: var(--t-micro); text-align: center; line-height: var(--lh-tight); }
+/* voice mode inside the Talk: the same stage as the dock's, dimmed to the dark ground when asked */
+.talk-dock.is-voice-mode .dock-voice-speaking, .talk-dock.is-voice-mode .dock-voice-state { display: none; }
+.talk-dock.is-voice-dim .dock-voice-stage { position: fixed; inset: 0; z-index: 60; justify-content: center; background: #000; }
+.talk-dock.is-voice-dim .dock-voice-stage-word { color: var(--dust); font-size: clamp(36px, 11vw, 56px); }
+
+/* the line to speak: one row that never moves; Stop has its own place above it; Send inside the gutter */
+.talk-dock .dock-inputrow { flex-wrap: nowrap; }
+.talk-dock .dock-input { flex: 1 1 0; width: 0; min-width: 0; }
+.talk-dock .dock-foot > * { min-width: 0; }
+.talk-dock .dock-send, .talk-dock .dock-mic { flex: none; }
+
+@media (max-width: 359px), (max-height: 600px) {
+  .talk-q-words, .talk-her-line { font-size: var(--t-body); }
+  .talk-chip { min-height: 44px; font-size: var(--t-small); }
+}
+html[data-type="large"] .talk-q-words, html[data-type="large"] .talk-her-line { font-size: var(--t-card); }
+html[data-type="large"] .talk-chip { min-height: var(--touch-option); }
+@media print { .talk-scene { display: none; } }
+
+/* The Talk draws no cards: the question and every ask are her words,
+   answered by the person's words */
+.talk-word { min-height: var(--touch); padding: 0; margin-right: var(--s-4); }
+.talk-q { border-left-width: var(--hairline); }
+.talk-q .talk-q-words { white-space: normal; }
+.dock-ask-words .talk-her-line, .talk-ask-words .talk-her-line { margin: 0; }
+.talk-settled-acts .talk-undo { color: var(--dust); }
+/* every step her agent takes, a quiet row with the time it took; never hidden */
+.talk-dock .dock-tools { list-style: none; margin: 0 0 var(--s-2); padding: 0; display: grid; gap: 2px; font-size: var(--t-micro); line-height: var(--lh-body); }
+.talk-dock .dock-tool.is-failed { text-decoration: line-through; }
+/* the one status line at the foot, beneath the line to speak (DESIGN-TALK.md, the trust layer): dust, one
+   line (it wraps rather than cut a figure); the line opens every figure, the mode's word opens the modes */
+.talk-status { margin: 0; padding: 0 0 var(--s-2); font-size: var(--t-micro); line-height: var(--lh-body); color: var(--dust); overflow-wrap: anywhere; }
+.talk-status[hidden] { display: none; }
+.talk-status button { all: unset; cursor: pointer; color: inherit; font: inherit; }
+.talk-status button:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: 2px; }
+.talk-status-mode { white-space: nowrap; }
+.talk-status .figures { font-variant-numeric: lining-nums tabular-nums; }
+.talk-status-mode { text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+@media (pointer: coarse) { .talk-status button { min-height: 32px; } }
+/* asked once: her line above already asks it; the row keeps only its step and its answers */
+.dock-ask-words.talk-said-above > .talk-her-line { display: none; }
+.talk-ask-words .dock-ask-step { margin-top: var(--s-2); }
+.talk-ask-answers { display: flex; gap: var(--s-2); justify-content: flex-end; margin-top: var(--s-2); }

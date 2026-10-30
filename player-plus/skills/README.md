@@ -15,7 +15,7 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 | `find-it-again` | Finds something the house already has, searching in the right order, and says where it was and when it was written. |
 | `review-and-prune` | Keeps memory small and true on a rhythm, and drafts the memories that have become rules for the charter. |
 | `wrap-up-this-session` | Closes a session so nothing is lost at `/clear`, and says "safe to clear" only when it is. |
-| `foreground-background` | Runs a second instance on a long job in the background without touching the house's shared state. |
+| `foreground-background` | Runs a second instance on a long job in the background, and the rules for a guest: a second session opened while another holds the desk. |
 | `import-chatgpt-history` | Brings an exported ChatGPT history into the house so it can be learned from and found again. |
 | `send-for-review` | Puts a document where the person can read and mark it up, then reads their changes back. |
 
@@ -49,6 +49,19 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 | `the-retrospective` | Drafts the weekly look-back in its three sections, from the record, by someone who did not do the work. |
 | `the-season-sheet-by-hand` | Holds the fourteen-line Season Sheet at each turning, kept by hand first and by the agent second. |
 
+## The record
+
+| Skill | What it does |
+|---|---|
+| `the-record` | How the agent writes a line: append only, who and for whom, why, how far, the four hard stops, signing and the paper floor; one act at the person's word (their signed line names it in `consent_for` and `consent_v: 2`); letting in the agent and its clones (`holon.py affirm`, `--prime`, `--key-dir`); and its first hour. |
+| `the-deal` | The daily office: a few cards sized to the person's time, from every holon, answered in a line each; the person's own `attention` lines decide what may interrupt them, never what they may read. |
+| `the-turn` | The weekly and seasonal Turn from the record: baseline, commitments kept, four lines to finish. |
+| `join-a-cell` | Joins a cell's record by consent; only faces, milestones, commitments, requests, offers and signals cross. |
+| `witness-a-commitment` | Gathers the evidence for a kept claim; the person witnesses, on their yes. |
+| `a-gathering` | A meeting from the record: the agenda before, silence during, commitments as lines after. |
+| `the-proxy` | The optional local proxy: routes by policy among the person's own vendors (`~/.config/lionsberg/vendors.json`), records where requests went, never a prompt's body; the person's discernment is their own signed line, the agent's a `note`, untrusted. |
+| `a-mail-watch` | Reads and triages the mailboxes inside the private network (`engine/mail.py fetch`, `carry`, `carried`, `badge`, `send`): a mail is data, a carried line is verified by its signature, an address is reach and never an author, an instruction becomes a card, and only the person's own Send sends. |
+
 ## Making and naming
 
 | Skill | What it does |
@@ -63,8 +76,10 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 
 | Skill | What it does |
 |---|---|
-| `pull-a-release` | Reads a new release of any line this house grows from and proposes, item by item, take · adapt · decline · already better; then drafts the report back. |
+| `pull-a-release` | Reads a new release of any line this house grows from, reads the release's moving guide first, and proposes, item by item, take · adapt · decline · already better; then drafts the report back. |
 | `pull-from-benchmark` | The same loop, run against the PKAI benchmark or starter kit. |
+| `the-chief-of-staff` | The agent's office in the Talk: speaks from the record, one question at a time, silence unless something changed, runs the workers with the cost said first, figures only when asked, and offers a ten-minute try of another way when the interface is not serving. |
+| `voice-mode` | Natural ears and a warm mouth on an ordinary computer, set up on the person's yes with the cost said first: the two command contracts the server speaks, a wrapper per model, the earpiece rule, and a test that makes no sound. |
 
 ## What a skill is
 

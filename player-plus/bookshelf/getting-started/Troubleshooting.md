@@ -65,6 +65,18 @@ Ask Claude Code to update your `.gitignore` file:
 
 Common things to exclude: `.DS_Store` (Mac), `Thumbs.db` (Windows), and any files with passwords or API keys.
 
+## Two Windows
+
+### My agent says it is a guest
+
+Another session of the same agent already holds the desk: a terminal you left open, or a conversation in the Claude app. This is normal. Your agent offers three choices: keep going as a guest, switch to the other window, or take the desk. A guest works normally, but it leaves its notes in its own folder under `bg/` and does not change memory, the charter or the settings. A desk nobody has touched for thirty minutes counts as free.
+
+If you are sure the other window is closed, say so:
+
+> The other window is closed. Take the desk.
+
+Your agent runs `sh scripts/desk take` with its session id. To see who holds the desk, ask it to run `sh scripts/desk status`.
+
 ## General Tips
 
 - **When in doubt, describe the problem to Claude Code.** It can read error messages and usually knows what to do.

@@ -1,0 +1,16 @@
+{
+ "v": 1,
+ "working_days": [
+  "mon",
+  "tue",
+  "wed",
+  "thu",
+  "fri",
+  "sat",
+  "sun"
+ ],
+ "holidays": [],
+ "minutes_per_day": 480,
+ "actors": {},
+ "gameclock": {}
+}

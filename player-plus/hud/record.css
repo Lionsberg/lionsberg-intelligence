@@ -1,0 +1,37 @@
+/*
+  record.css: the Record view (DESIGN §4.9; lifted to DESIGN-THE-BAR). Every value
+  from tokens.css. The person's own words lead each line; weight says what was agreed; ink says
+  whether it is signed (full ink signed · paper unsigned · dust a link not yet arrived). No
+  glyph, legend or gold. The raw form in the system monospace, in the fold only.
+*/
+.record { display: grid; gap: var(--s-4); min-width: 0; max-width: var(--measure); }
+.record-head { display: grid; gap: var(--s-1); }
+.record-asof { font-size: var(--t-micro); overflow-wrap: anywhere; }
+.record-error { color: var(--text); }
+.record-day { padding-top: var(--s-3); color: var(--dust); }
+.record-lines { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); }
+.rline-btn {
+  width: 100%; text-align: left; border: 0; background: transparent; padding: var(--s-2) 0; min-height: var(--touch); cursor: pointer;
+  display: grid; gap: 0; font: inherit;
+}
+.rline-meta { font-size: var(--t-micro); overflow-wrap: anywhere; }
+.rline-type { font-size: var(--t-micro); }
+.rline-what { font-size: var(--t-body); line-height: var(--lh-body); overflow-wrap: anywhere; color: var(--ink-agreed); }
+.rline.v-unsigned .rline-what, .rline.v-unknown .rline-what { color: var(--ink-kept); }
+.rline.v-missing .rline-what { color: var(--ink-said); font-style: italic; }
+.rline.is-agreed .rline-what { font-weight: var(--w-emphasis); }
+.rline:not(.is-agreed) .rline-what { font-size: var(--t-small); }
+.rline-about { font-size: var(--t-micro); font-style: italic; overflow-wrap: anywhere; }
+.rline.is-climb .rline-type { color: var(--text); }
+.rline-fold { display: grid; gap: var(--s-2); padding: 0 0 var(--s-3) var(--thread-indent); border-left: var(--hairline) solid var(--line-strong); font-size: var(--t-small); }
+.rline-fold ul { margin: 0; padding-left: var(--s-4); }
+.rline-raw pre { font-family: var(--f-mono); font-size: var(--t-micro); white-space: pre-wrap; overflow-wrap: anywhere; margin: var(--s-2) 0 0; color: var(--dust); }
+.rline-raw summary { cursor: pointer; color: var(--dust); min-height: var(--touch); display: flex; align-items: center; }
+.record-invalid ul { margin: 0; padding-left: var(--s-4); }
+.record-foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-4); padding-top: var(--s-3); border-top: var(--hairline) solid var(--line); }
+.record-filters { display: flex; flex-wrap: wrap; gap: var(--s-2); flex: 1 1 100%; }
+.record-search, .record-filters select {
+  min-height: var(--touch); padding: 0 var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip);
+  background: var(--surface); color: var(--text); min-width: 0; max-width: 100%;
+}
+.record-search { flex: 1 1 var(--col-stream-min); }

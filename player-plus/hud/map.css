@@ -1,0 +1,234 @@
+/*
+  map.css: the Map. One picture: the ØNE
+  the vanishing point, every field on its own ray, Home at the foot. Every value from tokens.css.
+  The fields are made frames cut from their night by their own light; nothing here draws light:
+  no glow, no shadow, no blur. Salience follows what is owed: a field where something waits on
+  the wearer carries its words in gold; the rest stay quiet.
+*/
+.map { display: block; position: relative; }
+.map-empty { font-size: var(--t-body); }
+
+/* ---- the scene */
+.map-stage {
+  position: relative; overflow: hidden; width: 100%;
+  touch-action: manipulation; user-select: none; -webkit-user-select: none;
+}
+.map-camera { position: absolute; inset: 0; transform-origin: 0 0; will-change: transform; }
+.map-art, .map-labels, .map-hits { position: absolute; inset: 0; }
+.map-svg { position: absolute; inset: 0; overflow: visible; pointer-events: none; }
+
+.map-title { position: absolute; left: 0; top: 0; z-index: 2; margin: 0; max-width: min(32rem, 40%); display: grid; gap: var(--s-1); }
+.map-breath { margin: 0; font-size: var(--t-card); line-height: var(--lh-tight); color: var(--text); }
+.map-canon { margin: 0; font-size: var(--t-body); color: var(--dust); }
+.map-stage.is-phone .map-title { max-width: 100%; padding-right: var(--s-2); }
+.map-stage.is-phone .map-breath { font-size: var(--t-body); }
+.map-stage.is-phone .map-canon { font-size: var(--t-small); }
+
+/* ---- a field: the made frame, leaned toward its ray and turning on its own axis */
+.field-group { position: absolute; inset: 0; pointer-events: none; transition: opacity var(--d-settle) var(--e-settle); }
+.field {
+  position: absolute; pointer-events: none;
+  -webkit-mask-image: radial-gradient(closest-side, #000 74%, transparent 100%);
+  mask-image: radial-gradient(closest-side, #000 74%, transparent 100%);
+}
+.field img {
+  position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+  mask-size: 100% 100%; -webkit-mask-size: 100% 100%; mask-repeat: no-repeat; -webkit-mask-repeat: no-repeat;
+}
+.field-static, .field-turn { position: absolute; inset: 0; }
+.field-rot { position: absolute; inset: 0; will-change: transform; }
+/* the axis (the lines gathering above and below the open hole) stays; the ring turns */
+.field-static {
+  -webkit-mask-image: linear-gradient(90deg, transparent 37%, #000 45%, #000 55%, transparent 63%);
+  mask-image: linear-gradient(90deg, transparent 37%, #000 45%, #000 55%, transparent 63%);
+}
+.field-turn {
+  -webkit-mask-image: linear-gradient(90deg, #000 37%, transparent 45%, transparent 55%, #000 63%);
+  mask-image: linear-gradient(90deg, #000 37%, transparent 45%, transparent 55%, #000 63%);
+}
+
+/* depth: near is sharpest, far is faintest toward the ground; freshness: a step per day unheard */
+.field-group.depth-near { opacity: 1; }
+.field-group.depth-middle { opacity: .82; }
+.field-group.depth-far { opacity: .6; }
+.field-group.fresh-1 { filter: saturate(.8); }
+.field-group.depth-middle.fresh-1 { opacity: .66; }
+.field-group.depth-far.fresh-1 { opacity: .46; }
+.field-group.fresh-2 { filter: saturate(.6); }
+.field-group.depth-middle.fresh-2 { opacity: .44; }
+.field-group.depth-far.fresh-2 { opacity: .32; }
+
+/* paper: the same engraved lines, in ink; night: the made gold, a step lifted */
+:root:not([data-theme="night"]) .field img { filter: brightness(0); opacity: .74; }
+:root[data-theme="night"] .field img { filter: brightness(1.35); opacity: 1; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) .field img { filter: brightness(1.35); opacity: 1; }
+}
+
+/* ---- the axes: faint hairlines up each ray, a little stronger as they near the still point */
+.axis { stroke-width: var(--hairline); fill: none; vector-effect: non-scaling-stroke; transition: opacity var(--d-settle) var(--e-settle); }
+.axis-stop-a { stop-color: var(--text); stop-opacity: .03; }
+.axis-stop-b { stop-color: var(--text); stop-opacity: .26; }
+:root:not([data-theme="night"]) .axis-stop-a { stop-opacity: .08; }
+:root:not([data-theme="night"]) .axis-stop-b { stop-opacity: .5; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) .axis-stop-a { stop-opacity: .04; }
+  :root:not([data-theme="paper"]) .axis-stop-b { stop-opacity: .34; }
+}
+.map-stage[data-mode="axes"] .axis-stop-a { stop-opacity: .3; }
+.map-stage[data-mode="axes"] .axis-stop-b { stop-opacity: .85; }
+.axis.is-dim { opacity: .3; }
+
+/* ---- membranes and their seals: hairlines in gold light, engraved, unlit */
+.membrane { fill: none; stroke: var(--field-line); stroke-width: var(--hairline); vector-effect: non-scaling-stroke; }
+.membrane-g.depth-near .membrane { stroke: var(--line-strong); }
+.membrane.is-dashed { stroke-dasharray: 3 5; }
+.membrane.is-unread { stroke: var(--dust); stroke-dasharray: 2 6; }
+.membrane-g.fresh-2 { opacity: .7; }
+.pencil { display: none; }
+.pencil ellipse { fill: none; stroke: var(--ink-print, #1e1b16); stroke-width: .6; vector-effect: non-scaling-stroke; }
+
+.seal-disc { fill: var(--ground); stroke: var(--line-strong); stroke-width: .8; vector-effect: non-scaling-stroke; }
+.seal-line { fill: none; stroke: var(--text); stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.seal.is-elevated .seal-line { stroke: var(--text); stroke-width: 1.7; }
+.seal-word { font-family: var(--f-body); font-size: var(--t-floor); font-style: italic; fill: var(--dust); text-anchor: middle; }
+/* the one lit point: what waits on the wearer first, where it sits. Gold is spent on nothing else. */
+.seal.is-owed .seal-disc { stroke: var(--accent); stroke-width: 1.4; }
+.seal.is-owed .seal-line { stroke: var(--accent); stroke-width: 1.6; }
+.field-lead { font-size: var(--t-body); color: var(--accent-text); }
+.seal.is-held .seal-line { stroke: var(--dust); }
+.seal.is-milestone .seal-line { stroke: var(--dust); }
+/* the chain in the ink's own weight: heavier, filled, numbered; one accent only */
+.seal.is-milestone.is-chain .seal-line { stroke: var(--text); stroke-width: 2; fill: var(--text); fill-opacity: .4; }
+.seal.is-milestone.is-chain .seal-disc { stroke: var(--text); stroke-opacity: .6; }
+.chain-num { font-family: var(--f-body); font-size: var(--t-floor); font-weight: 600; fill: var(--text); text-anchor: middle; }
+
+/* ---- the names, at each field's foot */
+.field-label {
+  position: absolute; transform: translate(-50%, 0); display: grid; justify-items: center; gap: 2px;
+  text-align: center; white-space: nowrap; pointer-events: none; line-height: var(--lh-tight);
+  transition: opacity var(--d-settle) var(--e-settle);
+}
+.field-label .caps { color: var(--text); }
+.field-label.depth-near .caps { font-size: var(--t-small); }
+/* on the phone two names side by side each keep under half the width, and wrap */
+.map-stage.is-phone .field-label:not(.depth-near) { white-space: normal; max-width: 46%; width: max-content; }
+.field-fresh { font-size: var(--t-micro); color: var(--dust); font-style: italic; }
+.field-owed { font-size: var(--t-small); color: var(--text); }
+.field-chain { font-size: var(--t-micro); color: var(--text); font-weight: 600; }
+.field-label.depth-far:not(.is-owed) .caps { color: var(--dust); }
+.field-label.fresh-2:not(.is-owed) { opacity: .75; }
+
+/* ---- what the hand finds */
+.field-hit { position: absolute; border: 0; background: transparent; border-radius: 50%; cursor: pointer; padding: 0; }
+.hole-hit, .mark-hit, .one-hit {
+  position: absolute; width: var(--touch); height: var(--touch); transform: translate(-50%, -50%);
+  border: 0; background: transparent; border-radius: 50%; cursor: pointer; padding: 0; z-index: 1; -webkit-touch-callout: none;
+}
+.mark-hit { z-index: 2; }
+.field-hit:focus-visible, .hole-hit:focus-visible, .mark-hit:focus-visible, .one-hit:focus-visible {
+  outline: var(--focus-ring) solid var(--accent); outline-offset: calc(-1 * var(--focus-ring));
+}
+
+/* ---- the two acts, in the agent's voice, drawn into the scene */
+.map-act {
+  position: absolute; z-index: 3; border: 0; background: transparent; padding: var(--s-2) 0; min-height: var(--touch);
+  color: var(--text); font-size: var(--t-body); text-align: left; cursor: pointer;
+  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .28em; text-decoration-color: var(--line-strong);
+}
+.map-act:hover { text-decoration-color: currentColor; }
+.act-axes { transform: translateY(-50%); }
+.map-acts { display: flex; flex-wrap: wrap; gap: 0 var(--s-4); }
+.map-stage.is-phone .act-axes { position: static; transform: none; font-size: var(--t-small); min-height: var(--touch); padding: 0; }
+.act-chain { right: 0; bottom: var(--s-2); }
+.map-stage.is-phone .act-chain { position: static; font-size: var(--t-small); min-height: var(--touch); padding: 0; justify-self: start; }
+.map-act:focus-visible { outline: var(--focus-ring) solid var(--accent); outline-offset: var(--focus-offset, 2px); }
+.map-say {
+  position: absolute; z-index: 3; left: 0; bottom: var(--s-2); margin: 0; max-width: min(30rem, 52%);
+  font-size: var(--t-body); color: var(--text); min-height: var(--touch); display: flex; align-items: center; flex-wrap: wrap; gap: 0 var(--s-2);
+}
+.map-stage.is-phone .map-say { position: static; max-width: 100%; min-height: 0; font-size: var(--t-small); }
+.map-stage.is-phone .map-say:empty { display: none; }
+.map-say-link { color: var(--text); font-style: normal; font-family: var(--f-body); font-size: var(--t-small); }
+
+/* the acts and the focus: what is not asked for falls back */
+.is-off { opacity: .18 !important; }
+.field-label.is-off { opacity: .3 !important; }
+.map-stage[data-focus] .is-away { opacity: .1; }
+.map-stage[data-focus] .membrane-g.is-away, .map-stage[data-focus] .axis.is-away { opacity: .05; }
+.map-stage[data-focus] .field-label.is-away { opacity: 0; }
+.map-stage.is-phone[data-focus] .field-label { opacity: 0; }
+.map-stage[data-focus] .map-act, .map-stage[data-focus] .map-say { opacity: 0; pointer-events: none; }
+.map-stage[data-focus] .map-title { opacity: .35; }
+
+/* ---- the sheet beside the field (inside the scene) */
+.map-sheet {
+  position: absolute; z-index: 4; top: var(--s-4); right: 0; bottom: var(--s-4);
+  width: min(400px, 34%); overflow-y: auto; overscroll-behavior: contain;
+  background: var(--surface); border: var(--hairline) solid var(--line); border-radius: var(--r-card);
+  padding: var(--s-4) var(--s-5) var(--s-5); display: grid; align-content: start; gap: var(--s-3);
+}
+:root[data-type="large"] .map-sheet { width: min(520px, 42%); }
+.map-sheet[hidden] { display: none; }
+.map-stage.is-phone .map-sheet {
+  top: auto; left: 0; right: 0; bottom: 0; width: auto; max-height: 52%;
+  border-radius: var(--r-sheet) var(--r-sheet) 0 0; padding: var(--s-3) var(--s-4) var(--s-5);
+}
+.map-sheet-close { justify-self: start; padding-left: 0; }
+.map-sheet-name { margin: 0; font-size: var(--t-body); color: var(--text); }
+.map-sheet-meta { margin: 0; font-size: var(--t-small); color: var(--dust); }
+.map-sheet-turn { margin: 0; font-size: var(--t-body); color: var(--text); }
+.map-sheet-part { display: grid; gap: var(--s-1); }
+.map-sheet-part > .eyebrow { margin: 0; }
+.map-sheet-lines, .map-sheet-seen { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; }
+.map-sheet-lines li { display: flex; align-items: center; gap: var(--s-1); }
+.map-sheet-lines .link-btn { text-align: left; padding-left: 0; }
+.map-sheet-diamond { color: var(--text); font-size: var(--t-micro); font-weight: 600; min-width: 2.2em; }
+.map-seen-btn {
+  display: grid; grid-template-columns: 28px 1fr; align-items: start; gap: var(--s-2); width: 100%;
+  border: 0; background: transparent; color: var(--text); text-align: left; cursor: pointer;
+  padding: var(--s-2) 0; min-height: var(--touch); border-bottom: var(--hairline) solid var(--line);
+}
+.map-sheet-seen li.is-chosen .map-seen-btn { border-bottom-color: var(--accent); }
+.map-seen-words { display: grid; gap: 2px; font-size: var(--t-body); line-height: var(--lh-tight); }
+.map-seen-kind { font-size: var(--t-micro); color: var(--dust); }
+.seal-icon { width: 28px; height: 28px; overflow: visible; }
+.seal-icon .seal-line { stroke-width: 1.4; }
+.seal-icon.is-elevated .seal-line { stroke: var(--text); stroke-width: 1.8; }
+.seal-icon.is-held .seal-line { stroke: var(--dust); }
+.map-sight-card { display: grid; gap: var(--s-2); padding-bottom: var(--s-3); border-bottom: var(--hairline) solid var(--line); }
+.map-sight-head { display: flex; align-items: center; gap: var(--s-2); }
+.map-sight-card p { margin: 0; }
+.map-sheet-board { justify-self: start; text-decoration: none; margin-top: var(--s-2); }
+
+/* the paper key is for print only */
+.map-print-key { display: none; }
+
+/* one field's Board, in place */
+.map-close-head { display: grid; gap: var(--s-2); justify-items: start; }
+.map-close-name { font-size: var(--t-body); color: var(--text); }
+.map-board { margin-top: var(--s-4); }
+
+@media (prefers-reduced-motion: reduce) { .field-rot { animation: none !important; } }
+
+/* ---- print: the pencil sheet. The frames give way to drawn outlines; the axes dotted to the
+   still point; the names and seals; beneath, the paper key in words. */
+@media print {
+  .map-stage { break-inside: avoid; overflow: visible; }
+  .map-camera { transform: none !important; }
+  .map-art, .map-hits, .map-act, .map-say, .map-sheet, .map-close-head .pill { display: none !important; }
+  .pencil { display: inline; }
+  .membrane { stroke: var(--ink-print, #1e1b16); stroke-opacity: .8; }
+  .axis { stroke: var(--ink-print, #1e1b16) !important; stroke-dasharray: 2 4; opacity: .6; }
+  .seal-disc { fill: #fff; stroke: var(--ink-print, #1e1b16); }
+  .seal-line { stroke: var(--ink-print, #1e1b16) !important; }
+  .chain-num { fill: var(--ink-print, #1e1b16); }
+  .field-label { color: var(--ink-print, #1e1b16); opacity: 1 !important; }
+  .field-label .caps, .field-owed, .field-chain, .field-fresh, .map-title p, .field-lead { color: var(--ink-print, #1e1b16) !important; }
+  .seal-word { fill: var(--ink-print, #1e1b16); }
+  .map-print-key { display: block; break-before: avoid; margin-top: var(--s-4); }
+  .map-print-key ul { list-style: none; padding-left: var(--s-3); margin: 0 0 var(--s-2); }
+  .map-print-key p { margin: var(--s-2) 0 var(--s-1); }
+  .map-print-key .seal-icon { width: 14px; height: 14px; vertical-align: -2px; }
+  .map-print-key .seal-line { stroke: var(--ink-print, #1e1b16); }
+}

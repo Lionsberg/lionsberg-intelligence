@@ -1,0 +1,2241 @@
+{
+  "v": 1,
+  "about": "The type registry of the Record, schema v1. Data, not code: a new type is a new entry here. Readers keep every line whose type they do not know (it folds into 'unknown'). Each type names its body fields (name, required, kind), the item it folds into, whether it creates that item, where it finds the item it changes (target: paths into the line, tried in order), which item kinds it may act on, and the state transitions it causes. In a transition: 'when' matches body values; 'from' lists the states it may leave (absent means any); 'who' is 'same_for' (the item's own Living Intelligence), 'other' (anyone but the item's own), 'named' (the witness the item names, else anyone but its own) or 'keeper' (the holon's keeper; 'other' when keepers are unknown); 'set' gives new values, where '$actor', '$for' and '$ts' are the line's own and 'body.x' is a body field; 'append_to' adds a short entry for this line to a list on the item. 'human_only' types are a Living Intelligence's own act: an agent's line of that type is valid only at the person's word, either under a live delegate with once: true for that one type and holon (used up by the line) or with the person's consent on the line (body.consent, their words; links.answers to their say line when there is one); the fold marks it signed_for. Without either it is kept and marked invalid. 'also' is a second effect of the same line on another item. A supersede counts only from the same actor, or from a person under a decide line in the same holon; an agent never supersedes another's line; an empty supersede retracts (every item kind has the state 'retracted'). 'home_only' types are written only into the person's own home (a holon whose inception kind is person), never into a cell.",
+  "audiences": [
+    "holon",
+    "members",
+    "commons",
+    "public"
+  ],
+  "reasons": [
+    "human",
+    "delegated",
+    "untrusted"
+  ],
+  "field_kinds": [
+    "text",
+    "string",
+    "actor",
+    "actors",
+    "id",
+    "ids",
+    "minutes",
+    "int",
+    "number",
+    "date",
+    "datetime",
+    "enum",
+    "list",
+    "object",
+    "bool"
+  ],
+  "items": {
+    "card": {
+      "plural": "cards",
+      "initial": "ready",
+      "states": [
+        "ready",
+        "taken",
+        "open",
+        "delivered",
+        "kept",
+        "returned",
+        "released",
+        "declined",
+        "done",
+        "retracted"
+      ]
+    },
+    "commitment": {
+      "plural": "commitments",
+      "initial": "open",
+      "states": [
+        "open",
+        "claimed",
+        "kept",
+        "released",
+        "declined",
+        "retracted"
+      ]
+    },
+    "thread": {
+      "plural": "threads",
+      "initial": "open",
+      "states": [
+        "open",
+        "settled",
+        "closed",
+        "retracted"
+      ]
+    },
+    "delegation": {
+      "plural": "delegations",
+      "initial": "live",
+      "states": [
+        "live",
+        "revoked",
+        "expired",
+        "retracted"
+      ]
+    },
+    "tea": {
+      "plural": "tea",
+      "initial": "claimed",
+      "states": [
+        "claimed",
+        "witnessed",
+        "retracted"
+      ]
+    },
+    "decision": {
+      "plural": "decisions",
+      "initial": "proposed",
+      "states": [
+        "proposed",
+        "decided",
+        "ratified",
+        "retracted"
+      ]
+    },
+    "sighting": {
+      "plural": "sightings",
+      "initial": "seen",
+      "states": [
+        "seen",
+        "settled",
+        "retracted"
+      ]
+    },
+    "turn": {
+      "plural": "turns",
+      "initial": "turned",
+      "states": [
+        "turned",
+        "retracted"
+      ]
+    },
+    "baseline": {
+      "plural": "baselines",
+      "initial": "frozen",
+      "states": [
+        "frozen",
+        "retracted"
+      ]
+    },
+    "discernment": {
+      "plural": "discernments",
+      "initial": "routed",
+      "states": [
+        "routed",
+        "chosen",
+        "corrected",
+        "rated",
+        "retracted"
+      ]
+    },
+    "pledge": {
+      "plural": "pledges",
+      "initial": "committed",
+      "states": [
+        "committed",
+        "released",
+        "kept",
+        "retracted"
+      ]
+    },
+    "constraint": {
+      "plural": "constraints",
+      "initial": "open",
+      "states": [
+        "open",
+        "cleared",
+        "retracted"
+      ]
+    }
+  },
+  "types": {
+    "say": {
+      "about": "A line spoken in a thread, anchored to the thread or to the line or card the thread is about.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        }
+      ],
+      "item": "thread",
+      "creates": "if_no_target",
+      "target": [
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "thread"
+      ],
+      "create_set": {
+        "anchor": "links.anchored_to"
+      },
+      "transitions": [
+        {
+          "append_to": "lines"
+        }
+      ]
+    },
+    "settle": {
+      "about": "A Living Intelligence settles a line: only what is settled enters the record as agreed.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "did",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "thread",
+      "creates": "if_no_target",
+      "target": [
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "thread"
+      ],
+      "human_only": true,
+      "create_set": {
+        "anchor": "links.anchored_to",
+        "state": "settled"
+      },
+      "transitions": [
+        {
+          "append_to": "lines",
+          "set": {
+            "state": "settled",
+            "settled_by": "$for"
+          }
+        }
+      ]
+    },
+    "propose": {
+      "about": "A proposal put before the holon; it becomes a decision when decided.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "options",
+          "required": false,
+          "kind": "list"
+        }
+      ],
+      "item": "decision",
+      "creates": "always",
+      "transitions": []
+    },
+    "card": {
+      "about": "A Work Card is born. Every unit of work is a card and lies within one larger unit (links.within). Size is minutes (the focused estimate, the one scheduled) and, when known, minutes_safe (the safe estimate; their difference is the card's safety, pooled into buffers, never padded onto the card). A milestone names its marker (a calendar marker id), never a date of its own.",
+      "fields": [
+        {
+          "name": "title",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "kind",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "activity",
+            "milestone",
+            "decision",
+            "review",
+            "draft",
+            "research",
+            "birth",
+            "quest",
+            "ask",
+            "spec",
+            "build",
+            "verification",
+            "constraint"
+          ]
+        },
+        {
+          "name": "stream",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "holder",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "minutes",
+          "required": false,
+          "kind": "minutes"
+        },
+        {
+          "name": "dur_days",
+          "required": false,
+          "kind": "number"
+        },
+        {
+          "name": "by",
+          "required": false,
+          "kind": "date"
+        },
+        {
+          "name": "start_no_earlier",
+          "required": false,
+          "kind": "date"
+        },
+        {
+          "name": "codes",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "stage",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "could",
+            "should",
+            "can",
+            "will",
+            "did"
+          ]
+        },
+        {
+          "name": "minutes_safe",
+          "required": false,
+          "kind": "minutes"
+        },
+        {
+          "name": "marker",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "where",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "conditions",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "tea",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "fiat",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "tokens_m",
+          "required": false,
+          "kind": "number"
+        },
+        {
+          "name": "platform",
+          "required": false,
+          "kind": "string"
+        }
+      ],
+      "item": "card",
+      "creates": "always",
+      "create_set": {
+        "stage": "should",
+        "holder": "$actor"
+      },
+      "transitions": []
+    },
+    "commit": {
+      "about": "A Living Intelligence commits: who (the committor, the line's `for`), to whom (the committee), what, by when, its size, the buffer it states, and a witness. The commitment is its own card: it never writes a date onto the Work Card that delivers it; the schedule compares its by-when with that card's computed finish.",
+      "fields": [
+        {
+          "name": "card",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "by",
+          "required": true,
+          "kind": "date"
+        },
+        {
+          "name": "conditions",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "size",
+          "required": false,
+          "kind": "minutes"
+        },
+        {
+          "name": "committee",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "buffer",
+          "required": false,
+          "kind": "minutes"
+        },
+        {
+          "name": "witness",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "commitment",
+      "creates": "always",
+      "human_only": true,
+      "also": {
+        "target": [
+          "body.card"
+        ],
+        "acts_on": [
+          "card"
+        ],
+        "set": {
+          "stage": "will"
+        }
+      },
+      "transitions": []
+    },
+    "claim": {
+      "about": "An actor takes a card: the ball is now in their court.",
+      "fields": [
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "until",
+          "required": false,
+          "kind": "datetime"
+        }
+      ],
+      "item": "card",
+      "creates": "never",
+      "target": [
+        "body.card",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card"
+      ],
+      "transitions": [
+        {
+          "from": [
+            "ready",
+            "open",
+            "released",
+            "returned"
+          ],
+          "set": {
+            "state": "taken",
+            "holder": "$actor"
+          }
+        }
+      ]
+    },
+    "release": {
+      "about": "An actor lets a card go. On a commitment, its committee releases it (with none named, the holon's keeper): the commitment ends, owed by no one.",
+      "fields": [
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "commitment",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "card",
+      "creates": "never",
+      "target": [
+        "body.card",
+        "body.commitment",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card",
+        "commitment"
+      ],
+      "transitions": [
+        {
+          "from": [
+            "taken",
+            "open"
+          ],
+          "set": {
+            "state": "released",
+            "holder": null
+          },
+          "kind": "card"
+        },
+        {
+          "kind": "commitment",
+          "who": "committee",
+          "from": [
+            "open",
+            "claimed"
+          ],
+          "set": {
+            "state": "released",
+            "released_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "hand": {
+      "about": "The ball passes to another actor.",
+      "fields": [
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "to",
+          "required": true,
+          "kind": "actor"
+        }
+      ],
+      "item": "card",
+      "creates": "never",
+      "target": [
+        "body.card",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card"
+      ],
+      "transitions": [
+        {
+          "set": {
+            "holder": "body.to"
+          }
+        }
+      ]
+    },
+    "request": {
+      "about": "An actor asks another to hold a card; a new card is born when none is linked.",
+      "fields": [
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "to",
+          "required": true,
+          "kind": "actor"
+        },
+        {
+          "name": "title",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "by",
+          "required": false,
+          "kind": "date"
+        },
+        {
+          "name": "minutes",
+          "required": false,
+          "kind": "minutes"
+        }
+      ],
+      "item": "card",
+      "creates": "if_no_target",
+      "target": [
+        "body.card",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card"
+      ],
+      "create_set": {
+        "state": "open",
+        "holder": "body.to",
+        "asked": "request",
+        "stage": "should"
+      },
+      "transitions": [
+        {
+          "set": {
+            "state": "open",
+            "holder": "body.to",
+            "asked": "request"
+          }
+        }
+      ]
+    },
+    "offer": {
+      "about": "An actor offers to hold a card, or offers a new one.",
+      "fields": [
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "to",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "title",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "minutes",
+          "required": false,
+          "kind": "minutes"
+        }
+      ],
+      "item": "card",
+      "creates": "if_no_target",
+      "target": [
+        "body.card",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card"
+      ],
+      "create_set": {
+        "state": "open",
+        "holder": "$actor",
+        "asked": "offer",
+        "stage": "can"
+      },
+      "transitions": [
+        {
+          "set": {
+            "state": "open",
+            "offered_by": "$actor",
+            "asked": "offer"
+          }
+        }
+      ]
+    },
+    "answer": {
+      "about": "A Living Intelligence answers a request or an offer: accept or decline.",
+      "fields": [
+        {
+          "name": "answer",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "accept",
+            "decline"
+          ]
+        },
+        {
+          "name": "text",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "commitment",
+          "required": false,
+          "kind": "id"
+        }
+      ],
+      "item": "card",
+      "creates": "never",
+      "target": [
+        "links.answers",
+        "body.card",
+        "body.commitment"
+      ],
+      "acts_on": [
+        "card",
+        "commitment"
+      ],
+      "human_only": false,
+      "transitions": [
+        {
+          "when": {
+            "body.answer": "accept"
+          },
+          "from": [
+            "open"
+          ],
+          "set": {
+            "state": "taken",
+            "holder": "$for"
+          },
+          "kind": "card"
+        },
+        {
+          "when": {
+            "body.answer": "decline"
+          },
+          "from": [
+            "open"
+          ],
+          "set": {
+            "state": "declined"
+          },
+          "kind": "card"
+        },
+        {
+          "kind": "commitment",
+          "when": {
+            "body.answer": "decline"
+          },
+          "who": "committee",
+          "from": [
+            "open"
+          ],
+          "set": {
+            "state": "declined",
+            "declined_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "done": {
+      "about": "The work of a card is done.",
+      "fields": [
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "card",
+      "creates": "never",
+      "target": [
+        "body.card",
+        "links.fulfils",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card"
+      ],
+      "transitions": [
+        {
+          "set": {
+            "state": "done",
+            "stage": "did",
+            "done_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "kept": {
+      "about": "The committor says the commitment is delivered (state `claimed`, the profile's delivered); its committee, or the witness it names, says Kept.",
+      "fields": [
+        {
+          "name": "commitment",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "commitment",
+      "creates": "never",
+      "target": [
+        "body.commitment",
+        "links.fulfils"
+      ],
+      "acts_on": [
+        "commitment"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "who": "same_for",
+          "from": [
+            "open"
+          ],
+          "set": {
+            "state": "claimed",
+            "kept_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "witness": {
+      "about": "A fair witness verifies a kept commitment or spent TEA. The one who assigns never audits: the witness is never the item's own. When a commitment names its witness, only that witness verifies it; a witness line from anyone else folds as a note on the commitment (witness_notes), never a verification, and the commitment stays claimed (kept, unwitnessed).",
+      "fields": [
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [
+        "links.witnesses",
+        "body.commitment",
+        "body.tea"
+      ],
+      "acts_on": [
+        "commitment",
+        "tea"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "kind": "commitment",
+          "who": "named",
+          "from": [
+            "claimed"
+          ],
+          "set": {
+            "state": "kept",
+            "witnessed_by": "$for"
+          }
+        },
+        {
+          "kind": "commitment",
+          "append_to": "witness_notes"
+        },
+        {
+          "kind": "tea",
+          "who": "keeper",
+          "from": [
+            "claimed"
+          ],
+          "set": {
+            "state": "witnessed",
+            "witnessed_by": "$for"
+          }
+        },
+        {
+          "kind": "tea",
+          "append_to": "witness_notes"
+        }
+      ]
+    },
+    "learn": {
+      "about": "What was learned, attached to the commitment or card it came from.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [
+        "links.serves",
+        "links.anchored_to",
+        "body.commitment",
+        "body.card"
+      ],
+      "acts_on": [
+        "commitment",
+        "card"
+      ],
+      "transitions": [
+        {
+          "append_to": "learnings"
+        }
+      ]
+    },
+    "decide": {
+      "about": "A Living Intelligence decides, on a proposal or directly.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "decision",
+      "creates": "if_no_target",
+      "target": [
+        "links.answers",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "decision"
+      ],
+      "human_only": true,
+      "create_set": {
+        "state": "decided",
+        "decided_by": "$for"
+      },
+      "transitions": [
+        {
+          "from": [
+            "proposed"
+          ],
+          "set": {
+            "state": "decided",
+            "decided_by": "$for",
+            "decision": "body.text"
+          }
+        }
+      ]
+    },
+    "ratify": {
+      "about": "The people of a holon ratify a decision.",
+      "fields": [
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "decision",
+      "creates": "never",
+      "target": [
+        "links.answers",
+        "links.anchored_to",
+        "body.decision"
+      ],
+      "acts_on": [
+        "decision"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "from": [
+            "decided"
+          ],
+          "set": {
+            "state": "ratified",
+            "ratified_by": "$for"
+          }
+        }
+      ]
+    },
+    "thread": {
+      "about": "A thread is opened, anchored to a line or a card.",
+      "fields": [
+        {
+          "name": "title",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "thread",
+      "creates": "always",
+      "create_set": {
+        "anchor": "links.anchored_to"
+      },
+      "transitions": []
+    },
+    "sight": {
+      "about": "A sighting: something seen that the holon should know.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "where",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "kind",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "defect",
+            "hazard",
+            "blocked",
+            "wonder",
+            "offer",
+            "request",
+            "question",
+            "witness"
+          ],
+          "about": "the eight kinds of practice; three share a word with an event type and are held open for renaming"
+        },
+        {
+          "name": "travel",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "holon",
+            "members",
+            "commons",
+            "public"
+          ],
+          "about": "the navigator's own limit on how far the Sighting may be elevated"
+        }
+      ],
+      "item": "sighting",
+      "creates": "always",
+      "transitions": []
+    },
+    "delegate": {
+      "about": "A person delegates to an agent: which types, which holons, until when. With once: true and a single type and holon, it lets the agent sign one act in the person's name, and is used up by it. A once-delegation may name body_digest (sha256 of the canonical body the person saw, without its salt); the agent's line must then match it. Without body_digest a once-delegation covers any one line of its type. body.clones names the handle patterns of clones the prime may let in.",
+      "fields": [
+        {
+          "name": "to",
+          "required": true,
+          "kind": "actor"
+        },
+        {
+          "name": "scope",
+          "required": true,
+          "kind": "list"
+        },
+        {
+          "name": "holons",
+          "required": true,
+          "kind": "list"
+        },
+        {
+          "name": "until",
+          "required": true,
+          "kind": "date"
+        },
+        {
+          "name": "once",
+          "required": false,
+          "kind": "bool"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "body_digest",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "clones",
+          "required": false,
+          "kind": "list"
+        }
+      ],
+      "item": "delegation",
+      "creates": "always",
+      "human_only": true,
+      "transitions": []
+    },
+    "revoke": {
+      "about": "A person ends a delegation.",
+      "fields": [
+        {
+          "name": "delegation",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "delegation",
+      "creates": "never",
+      "target": [
+        "body.delegation",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "delegation"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "who": "same_for",
+          "from": [
+            "live"
+          ],
+          "set": {
+            "state": "revoked",
+            "revoked_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "join": {
+      "about": "An actor joins a holon, or a holon is born (the inception line, which carries the keeper's public key and, when the holon has its own key, body.holon_pubkey). A join naming body.who and body.pubkey, by an admitted person, admits a person whose handle is not yet admitted. A key for an admitted handle changes only by a rotation: a join by that handle itself, signed with its current key, or a join by the keeper naming a witness, which takes effect when that witness writes a witness line linking it. body.reach, when given, lists where lines may be carried to this actor, as transport endpoints (mail:<address> inside the private network, hook:<url>, phone:<pairing>); an endpoint says where to carry a line, never who wrote one: authorship is the key, and a From line proves nothing.",
+      "fields": [
+        {
+          "name": "name",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "kind",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "role",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "cell",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "url",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "who",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "pubkey",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "holon_pubkey",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "witness",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "reach",
+          "required": false,
+          "kind": "list"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "transitions": [],
+      "human_only": true
+    },
+    "publish": {
+      "about": "A Living Intelligence publishes chosen lines across a membrane, raising their audience. The only way an audience widens. It carries the copied lines' authors' public keys as admitted at home (body.keys: {actor: public key}), so a reader holding only the receiving holon can check each copy, which is then vouched for by this line.",
+      "fields": [
+        {
+          "name": "lines",
+          "required": true,
+          "kind": "ids"
+        },
+        {
+          "name": "audience",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "holon",
+            "members",
+            "commons",
+            "public"
+          ]
+        },
+        {
+          "name": "to",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "keys",
+          "required": false,
+          "kind": "object"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "human_only": true,
+      "transitions": []
+    },
+    "elide": {
+      "about": "The record of an elision: which fields of which line were hidden, and why (for example a name removed without consent).",
+      "fields": [
+        {
+          "name": "line",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "fields",
+          "required": true,
+          "kind": "list"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "transitions": []
+    },
+    "tea": {
+      "about": "Time, Energy and Attention spent, by the one who spent it.",
+      "fields": [
+        {
+          "name": "minutes",
+          "required": true,
+          "kind": "minutes"
+        },
+        {
+          "name": "energy",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "attention",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "card",
+          "required": false,
+          "kind": "id"
+        }
+      ],
+      "item": "tea",
+      "creates": "always",
+      "transitions": []
+    },
+    "turn": {
+      "about": "The weekly or seasonal turn: a holon's periodic signal.",
+      "fields": [
+        {
+          "name": "span",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "day",
+            "fortnight",
+            "season",
+            "week"
+          ]
+        },
+        {
+          "name": "text",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "depth",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "daily",
+            "lunar",
+            "weekly",
+            "seasonal"
+          ]
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "turn",
+      "creates": "always",
+      "transitions": [],
+      "human_only": true
+    },
+    "baseline": {
+      "about": "A plan version frozen, so later plans can be measured against it.",
+      "fields": [
+        {
+          "name": "n",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "cards",
+          "required": false,
+          "kind": "ids"
+        },
+        {
+          "name": "file",
+          "required": false,
+          "kind": "string"
+        }
+      ],
+      "item": "baseline",
+      "creates": "always",
+      "transitions": []
+    },
+    "supersede": {
+      "about": "A correction: the line it links to (links.supersedes) is replaced by this one's body. Both remain; the latest shows. Only the same Living Intelligence may supersede a line.",
+      "fields": [],
+      "item": "none",
+      "creates": "never",
+      "transitions": []
+    },
+    "flame": {
+      "about": "Passing the flame: what is handed on to the next player.",
+      "fields": [
+        {
+          "name": "text",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "to",
+          "required": false,
+          "kind": "actor"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "card",
+        "thread"
+      ],
+      "transitions": []
+    },
+    "route": {
+      "about": "The proxy's record of where a request went and why. Never the prompt body.",
+      "fields": [
+        {
+          "name": "model",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "policy",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "discernment",
+      "creates": "always",
+      "transitions": []
+    },
+    "discern": {
+      "about": "A Living Intelligence's judgment on an inference or a draft: chosen, corrected or rated, with the route it came by.",
+      "fields": [
+        {
+          "name": "route_id",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "verdict",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "chosen",
+            "corrected",
+            "rated"
+          ]
+        },
+        {
+          "name": "rating",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "discernment",
+      "creates": "if_no_target",
+      "target": [
+        "body.route_id",
+        "links.answers"
+      ],
+      "acts_on": [
+        "discernment"
+      ],
+      "human_only": true,
+      "create_set": {
+        "state": "body.verdict"
+      },
+      "transitions": [
+        {
+          "set": {
+            "state": "body.verdict",
+            "rating": "body.rating",
+            "discerned_by": "$for"
+          }
+        }
+      ]
+    },
+    "posture": {
+      "about": "A room's posture, agreed by a present person, and each person's agreement to it. The posture of export is open, names-hidden or sealed; a participation posture (chatham-house, fishbowl, open, off-the-record, or a named other) leaves the room as names-hidden, open, open and sealed respectively, and a named other as sealed. body.at says when it was agreed: at the room's open (the default) or confirmed again at its close. body.cure_until, on a confirmation at close, is the end of the curing window (a few days after the close). A posture with body.withdraw true, inside the curing window, narrows the person's agreement to the posture it names or, naming none or the room's own, revokes it; it is that person's last word.",
+      "fields": [
+        {
+          "name": "posture",
+          "required": false,
+          "kind": "string",
+          "values": [
+            "open",
+            "names-hidden",
+            "sealed",
+            "chatham-house",
+            "fishbowl",
+            "off-the-record"
+          ],
+          "about": "one of the values, or a named other; required except on a withdrawal that revokes"
+        },
+        {
+          "name": "curing_days",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "at",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "open",
+            "close"
+          ]
+        },
+        {
+          "name": "cure_until",
+          "required": false,
+          "kind": "datetime"
+        },
+        {
+          "name": "withdraw",
+          "required": false,
+          "kind": "bool"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "affirm": {
+      "about": "A present person lets an agent into a room; the agent exists in the room only after this line. It carries the agent's public key (body.pubkey). Only the agent's own person re-affirms it. An agent (a prime) may affirm a clone only under a standing delegate from its person covering affirm and body, whose clones pattern matches the clone's handle. body.reach, when given, lists where lines may be carried to this actor, as transport endpoints (mail:<address> inside the private network, hook:<url>, phone:<pairing>); an endpoint says where to carry a line, never who wrote one: authorship is the key, and a From line proves nothing.",
+      "fields": [
+        {
+          "name": "agent",
+          "required": true,
+          "kind": "actor"
+        },
+        {
+          "name": "room",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "pubkey",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "reach",
+          "required": false,
+          "kind": "list"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "layout": {
+      "about": "A wearer's view preferences for their HUD; held loosely, since a plain file may serve better.",
+      "fields": [
+        {
+          "name": "name",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "views",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "hidden",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "theme",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "density",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "type_size",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "default",
+          "required": false,
+          "kind": "bool"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": [],
+      "home_only": true
+    },
+    "leave": {
+      "about": "A holon leaves a cell, taking everything it wrote.",
+      "fields": [
+        {
+          "name": "cell",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "elevate": {
+      "about": "A holon publishes a Sighting or a decision upward by consent, with its witness and why.",
+      "fields": [
+        {
+          "name": "what",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "to",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "witness",
+          "required": false,
+          "kind": "actor"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "rfg": {
+      "about": "A request for guidance: a question that climbs one level, closed by an answer or a decide at the level able to make it well.",
+      "fields": [
+        {
+          "name": "question",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "about",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "to",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "by",
+          "required": false,
+          "kind": "date"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": false,
+      "transitions": []
+    },
+    "escalate": {
+      "about": "A decision moved up a level because its blast radius exceeds the holon's remit; carries the rung and a time limit.",
+      "fields": [
+        {
+          "name": "about",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "to",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "blast_radius",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "rung",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "by",
+          "required": false,
+          "kind": "date"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "body": {
+      "about": "A body of an agent: the prime or a clone; its lifecycle as lines: claimed · working · handoff · done · archived; the prime affirms each clone as an actor with its own key.",
+      "fields": [
+        {
+          "name": "name",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "state",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "claimed",
+            "working",
+            "hold",
+            "handoff",
+            "done",
+            "archived"
+          ]
+        },
+        {
+          "name": "task",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "brief",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "review_min",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "cost_tokens",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "host",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "desk",
+          "required": false,
+          "kind": "bool"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": false,
+      "transitions": []
+    },
+    "attention": {
+      "about": "The person's attention budget, as their own signed lines: what may interrupt them, when, and how often. Read before every Deal and every ask; governs interruptions only, never what may be read.",
+      "fields": [
+        {
+          "name": "minutes",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "sittings",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "asks_per_hour",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "min_gap_min",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "asks_per_day",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "room_asks_per_hour",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "room_min_gap_min",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "at_once",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "quiet",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "fewer",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "as set",
+            "fewer",
+            "much fewer",
+            "only what always passes"
+          ]
+        },
+        {
+          "name": "leans",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "always_pass",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "closed_until",
+          "required": false,
+          "kind": "datetime"
+        },
+        {
+          "name": "phone",
+          "required": false,
+          "kind": "bool"
+        },
+        {
+          "name": "defer",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": [],
+      "home_only": true
+    },
+    "note": {
+      "about": "An agent's untrusted note about a route or a line: a reading, never a judgment. The proxy writes one per (route, verdict) from any caller; a person's own judgment is a discern line, signed. A note changes nothing, is never counted as a verdict, and leaves the views after the posture's curing period while the record keeps it.",
+      "fields": [
+        {
+          "name": "route",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "verdict",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "text",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": false,
+      "transitions": []
+    },
+    "keepsake": {
+      "about": "A keepsake: one small mark kept when the person finishes a card in the Talk, in the person's own record so it follows them to every device (proposal, DESIGN-TALK.md). Person-only and home-only: it never leaves the holon, is never published, never exported. The Talk's sheet behind the agent's name shows them.",
+      "fields": [
+        {
+          "name": "card",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "title",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "name",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "mark",
+          "required": false,
+          "kind": "string"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "home_only": true,
+      "transitions": []
+    },
+    "study": {
+      "about": "The surface studies itself: one measure of how a view served the person, written on the person's own machine (each view's first act, each undo). Person-only and home-only: it never leaves the holon, is never published, never exported. The daily Turn reads it.",
+      "fields": [
+        {
+          "name": "view",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "measure",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "first_act_ms",
+            "reversals",
+            "attention_switches",
+            "one_breath",
+            "workload_words"
+          ]
+        },
+        {
+          "name": "value",
+          "required": true,
+          "kind": "number"
+        },
+        {
+          "name": "as_of",
+          "required": false,
+          "kind": "datetime"
+        },
+        {
+          "name": "session",
+          "required": false,
+          "kind": "string"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "home_only": true,
+      "transitions": []
+    },
+    "shape": {
+      "about": "The keeper gives a room its one shape: a little language for how the meeting unfolds. body.shape is {name, parts, facilitator, posture, cure_days, rule}: the parts in order (by default the lobby, the great room, the vote, the writing and reflection; a part may be {name, does} with does one of gather, propose, vote, write, reflect), the facilitator (a person) who alone moves the room from part to part, the participation posture the room meets under, the curing days after the close (three by default) and the vote's rule ({choose, advance}: vote for three, the top two go on). A room's inception line may carry body.shape too. A newer shape line by the keeper starts the shape again. Status: proposal.",
+      "fields": [
+        {
+          "name": "shape",
+          "required": true,
+          "kind": "object"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "part": {
+      "about": "The facilitator pulls the switch: the room moves to the part named in body.part (one of the shape's parts, or close when the meeting ends). Opening the vote carries body.opens and body.closes (the vote's window) and body.rule ({choose, advance}); moving away from the vote closes it. The close may carry body.cure_until. Only the facilitator's part line moves the room. Status: proposal.",
+      "fields": [
+        {
+          "name": "part",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "opens",
+          "required": false,
+          "kind": "datetime"
+        },
+        {
+          "name": "closes",
+          "required": false,
+          "kind": "datetime"
+        },
+        {
+          "name": "rule",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "cure_until",
+          "required": false,
+          "kind": "datetime"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "vote": {
+      "about": "A person's vote in the room's vote: body.choices names up to the rule's number of proposals (the propose lines of the great room). One line per person counts; a later vote while the vote is open supersedes the earlier. A vote naming more than the rule allows counts for nothing. Status: proposal.",
+      "fields": [
+        {
+          "name": "choices",
+          "required": true,
+          "kind": "ids"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
+    },
+    "pledge": {
+      "about": "A Living Intelligence pledges TEA (and fiat, and tokens) for a period: to a holon, the season's baseline, or to a Quest or other unit, a share of it. A Pledge is a commitment; capacity and the level of commitment are computed from Pledges across every holon and Quest.",
+      "fields": [
+        {
+          "name": "period",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "to",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "level",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "season",
+            "quest"
+          ]
+        },
+        {
+          "name": "tea_min_week",
+          "required": true,
+          "kind": "minutes"
+        },
+        {
+          "name": "fiat",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "tokens_m",
+          "required": false,
+          "kind": "number"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "pledge",
+      "creates": "always",
+      "human_only": true,
+      "transitions": []
+    },
+    "miss": {
+      "about": "Why a commitment was not kept by its date: one of the eight reason codes, written at the week's close by a party to it (its committor, committee or named witness). The learning follows as a learn line.",
+      "fields": [
+        {
+          "name": "commitment",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "reason",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "prerequisite",
+            "definition",
+            "estimate",
+            "capacity",
+            "priority",
+            "external",
+            "conditions",
+            "other"
+          ]
+        },
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [
+        "body.commitment"
+      ],
+      "acts_on": [
+        "commitment"
+      ],
+      "transitions": [
+        {
+          "kind": "commitment",
+          "append_to": "misses",
+          "who": "party"
+        }
+      ]
+    },
+    "constraint": {
+      "about": "A constraint on a card, raised in the look-ahead so its removal can be assigned before the work arrives: resource, information, agreement or time. The constraint log is these lines.",
+      "fields": [
+        {
+          "name": "card",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "sort",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "resource",
+            "information",
+            "agreement",
+            "time"
+          ]
+        },
+        {
+          "name": "what",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "holder",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "need_by",
+          "required": false,
+          "kind": "date"
+        }
+      ],
+      "item": "constraint",
+      "creates": "always",
+      "create_set": {
+        "holder": "$actor"
+      },
+      "transitions": []
+    },
+    "clear": {
+      "about": "A constraint is removed, by the one who raised it or the one who holds its removal.",
+      "fields": [
+        {
+          "name": "constraint",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "constraint",
+      "creates": "never",
+      "target": [
+        "body.constraint",
+        "links.anchored_to"
+      ],
+      "acts_on": [
+        "constraint"
+      ],
+      "transitions": [
+        {
+          "from": [
+            "open"
+          ],
+          "set": {
+            "state": "cleared",
+            "cleared_ts": "$ts"
+          },
+          "who": "raiser_or_holder"
+        }
+      ]
+    }
+  }
+}

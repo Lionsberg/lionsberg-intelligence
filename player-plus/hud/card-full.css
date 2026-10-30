@@ -1,0 +1,60 @@
+/*
+  card-full.css: the full card (card-full.js), a sheet from the bottom on a phone and from the
+  right on the desk (the shell's .sheet, base.css). Labels in small capitals in the name face;
+  values in the text face; numbers in tabular figures. Gold is nowhere inside the sheet: the owed
+  gold is the Deal's one owed thing, so here every --owed token reads as ink. One column on a
+  phone, no horizontal scroll at 320 px; large type reflows, never clips.
+*/
+.sheet--card {
+  --owed: var(--text); --owed-text: var(--text); --owed-fill: transparent;
+}
+.sheet--card .link-btn { color: var(--text); }
+
+.cf { display: grid; gap: var(--s-6); min-width: 0; overflow-wrap: anywhere; }
+.cf-label {
+  font-family: var(--f-name); font-weight: var(--w-regular); font-variant: small-caps;
+  text-transform: uppercase; letter-spacing: var(--track-caps); font-size: var(--t-micro);
+  line-height: var(--lh-tight); color: var(--dust); margin: 0;
+}
+.cf-value, .cf-facts dd { font-family: var(--f-body); font-size: var(--t-small); line-height: var(--lh-body); color: var(--text); margin: 0; min-width: 0; }
+.cf-dust { color: var(--dust); }
+.cf-unknown { font-size: var(--t-body); color: var(--dust); }
+
+/* 1 · the face: the Deal's large face, with its eyebrow said once above it */
+.cf-face { display: grid; gap: var(--s-3); }
+.cf-face .card--large .option { border-color: var(--line-strong); }
+.cf-face .dock-ask { margin: 0; }
+.cf-acts { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-2); }
+
+/* 2–6 · a section: its label, then its facts as rows */
+.cf-sec { display: grid; gap: var(--s-3); padding-top: var(--s-4); border-top: var(--hairline) solid var(--line); min-width: 0; }
+.cf-facts { display: grid; gap: var(--s-3); margin: 0; }
+.cf-fact { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-1); min-width: 0; }
+@media (min-width: 600px) {
+  .cf-fact { grid-template-columns: 10.5rem minmax(0, 1fr); gap: var(--s-4); align-items: baseline; }
+}
+.cf-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); }
+.cf-link {
+  border: 0; background: transparent; padding: 0; margin: 0; font: inherit; color: var(--text); text-align: left;
+  cursor: pointer; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: .2em;
+  min-height: 1.75em;
+}
+.cf-link:hover { text-decoration-color: var(--text); }
+.cf-whose { color: var(--dust); font-size: var(--t-micro); }
+
+/* 5 · its story: one row per line, oldest first */
+.cf-rows { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.cf-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-1); font-size: var(--t-small); line-height: var(--lh-body); min-width: 0; }
+@media (min-width: 600px) {
+  .cf-row { grid-template-columns: 9rem minmax(0, 1fr) auto; gap: var(--s-4); align-items: baseline; }
+}
+.cf-row-when { color: var(--dust); }
+.cf-row-who { font-weight: var(--w-emphasis); }
+.cf-row-sig { color: var(--dust); font-size: var(--t-micro); white-space: nowrap; }
+
+/* 6 · where it lives: the id in full, breakable, in the text face */
+.cf-id { font-family: var(--f-body); font-size: var(--t-small); word-break: break-all; color: var(--text); background: transparent; }
+.cf-id-acts { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-2); margin-left: var(--s-2); }
+
+/* large type: the facts stack, the rows stack */
+html[data-type="large"] .cf-fact, html[data-type="large"] .cf-row { grid-template-columns: minmax(0, 1fr); }

@@ -1,0 +1,40 @@
+/*
+  ledger.css: the Ledger (DESIGN §4.7). Every value from tokens.css.
+  The witness carries the ink grammar: claimed (said, dust) · by the cell (kept, paper) · beyond
+  (agreed, full ink and weight). No glyphs, no bars, no gold (DESIGN-THE-BAR).
+*/
+.ledger { display: grid; gap: var(--s-4); max-width: var(--deal-wide); min-width: 0; }
+.ledger-season { font-size: var(--t-card); line-height: var(--lh-tight); max-width: var(--measure); }
+.ledger-claimed { font-size: var(--t-body); color: var(--text); }
+.ledger-holon { display: grid; gap: var(--s-2); min-width: 0; }
+.ledger-holon .caps { color: var(--dust); }
+.ledger-scroll { min-width: 0; }
+.ledger-table { width: 100%; border-collapse: collapse; font-size: var(--t-small); }
+.ledger-table th { text-align: left; font-weight: var(--w-regular); color: var(--dust); font-size: var(--t-micro); letter-spacing: var(--track-eyebrow); font-variant: small-caps; padding: var(--s-1) var(--s-2) var(--s-1) 0; border-bottom: var(--hairline) solid var(--line-strong); }
+.ledger-table td { padding: var(--s-2) var(--s-2) var(--s-2) 0; border-bottom: var(--hairline) solid var(--line); vertical-align: baseline; overflow-wrap: anywhere; }
+.ledger-table .num { text-align: right; }
+.ledger-table tr.ink-said td:nth-child(-n+3) { color: var(--ink-said); }
+.ledger-table tr.ink-kept td:nth-child(-n+3) { color: var(--ink-kept); }
+.ledger-table tr.ink-agreed td:nth-child(-n+3) { color: var(--ink-agreed); }
+.ledger-table tr.ink-agreed td:nth-child(2) { font-weight: var(--w-emphasis); }
+.ledger-table td:nth-child(1) { color: var(--dust); }
+.wmark { color: var(--dust); font-size: var(--t-micro); }
+.ledger-acts { display: flex; gap: var(--s-3); }
+.ledger-law { font-size: var(--t-micro); }
+.ledger-discern { display: grid; gap: var(--s-2); padding-top: var(--s-4); border-top: var(--hairline) solid var(--line); }
+.ledger-discern .caps { color: var(--dust); }
+.discern-lines { margin: 0; padding-left: var(--s-4); font-size: var(--t-small); display: grid; gap: var(--s-1); }
+.ledger-form { display: grid; gap: var(--s-3); }
+.ledger-form label { display: grid; gap: var(--s-1); }
+.ledger-form select, .ledger-form input[type="number"] { min-height: var(--touch); padding: 0 var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); background: var(--surface); color: var(--text); }
+/* phone: the table becomes stacked rows, no horizontal scroll */
+@media (max-width: 599px) {
+  .ledger-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .ledger-table, .ledger-table tbody, .ledger-table tr, .ledger-table td { display: block; }
+  .ledger-table tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 var(--s-3); padding: var(--s-2) 0; border-bottom: var(--hairline) solid var(--line); }
+  .ledger-table td { border: 0; padding: 0; }
+  .ledger-table td:nth-child(2) { grid-column: 1; grid-row: 1; }
+  .ledger-table td:nth-child(3) { grid-column: 2; grid-row: 1; text-align: right; white-space: nowrap; }
+  .ledger-table td:nth-child(1) { grid-column: 1; grid-row: 2; font-size: var(--t-micro); }
+  .ledger-table td:nth-child(4) { grid-column: 2; grid-row: 2; text-align: right; }
+}

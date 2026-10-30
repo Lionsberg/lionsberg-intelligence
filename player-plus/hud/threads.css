@@ -1,0 +1,98 @@
+/*
+  threads.css: Threads and Mail. Every value from tokens.css. Type and space carry
+  the hierarchy: no boxes, no rules inside a card, no chips. Gold (.is-owed, base.css) only on
+  the first card that waits on the person; nothing else is lit.
+*/
+.threads2 { display: grid; gap: var(--s-5); max-width: var(--measure); margin: 0 auto; min-width: 0; grid-template-columns: minmax(0, 1fr); padding-bottom: var(--s-6); }
+.threads2-lead { display: grid; gap: var(--s-3); justify-items: start; }
+.threads2.is-rest .threads2-lead { justify-items: center; text-align: center; padding-top: var(--s-6); }
+.threads2-field { width: 112px; height: 112px; border-radius: 50%; overflow: hidden; background: var(--night-print); }
+.threads2-field img { display: block; width: 124%; height: 124%; margin: -12%; object-fit: cover; }
+.threads2-sentence { margin: 0; font-size: var(--t-card); line-height: 1.3; color: var(--text); max-width: var(--measure); }
+.threads2-head { margin: 0 0 var(--s-2); font-size: var(--t-micro); font-weight: 400; letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--dust); }
+.threads2-main, .threads2-aside { display: grid; gap: var(--s-2); min-width: 0; align-content: start; }
+.threads2-cards { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-4); }
+.threads2-cards > li:first-child { margin-bottom: var(--s-3); }
+/* the cards after the first: one line each, headline and by-when, opened by a tap */
+.conv2-fold { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-3); width: 100%; min-height: var(--touch);
+  padding: 0; border: 0; background: transparent; color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+.conv2-fold-q { font-size: var(--t-body); min-width: 0; overflow-wrap: anywhere; }
+.conv2.is-unread .conv2-fold-q { font-weight: 500; }
+.conv2-fold-by { flex: none; font-size: var(--t-small); color: var(--dust); }
+.conv2-ridesfield { display: grid; gap: var(--s-1); }
+
+/* the Conversation Card */
+.conv2 { display: grid; gap: var(--s-2); min-width: 0; }
+.conv2 p { margin: 0; }
+.conv2-from { font-size: var(--t-small); color: var(--dust); }
+.conv2-q { margin: 0; font-size: var(--t-card); font-weight: 400; line-height: 1.25; color: var(--text); overflow-wrap: anywhere; }
+.conv2.is-unread .conv2-q { font-weight: 500; }
+.conv2-q.is-prose { font-style: italic; }
+.conv2-about { font-size: var(--t-small); color: var(--dust); }
+.conv2-rides { font-size: var(--t-body); color: var(--text); }
+.conv2-hope { font-size: var(--t-body); font-style: italic; color: var(--dust); }
+.conv2-cal { font-size: var(--t-small); color: var(--dust); }
+.conv2-sent { font-size: var(--t-body); color: var(--ink-kept); }
+.conv2.is-owed .conv2-q { color: var(--accent-text); }
+.conv2.is-owed .conv2-rides { color: var(--accent-text); }
+
+/* the answer: one line and Send, under the thumb */
+.conv2-act { display: grid; gap: var(--s-2); margin-top: var(--s-2); }
+.conv2-answer { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s-2); align-items: stretch; }
+.conv2-input { min-width: 0; width: 100%; min-height: var(--touch); padding: 0 var(--s-3); font: inherit; font-size: var(--t-body);
+  border: 0; border-bottom: var(--hairline) solid var(--line-strong); border-radius: 0; background: transparent; color: var(--text); }
+.conv2-input:focus { outline: none; border-bottom-color: var(--text); }
+.conv2-input::placeholder { color: var(--dust); }
+.conv2-send { min-height: var(--touch); padding: 0 var(--s-4); }
+.conv2.is-owed .conv2-send { background: var(--pill-suggested); border-color: var(--accent); }
+.conv2-ridesline { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-3); min-width: 0; }
+.conv2-ridesleft { margin: 0; font-size: var(--t-small); color: var(--dust); min-width: 0; flex: 1 1 auto; }
+.conv2-ridesbtn { border: 0; padding: 0; background: transparent; font: inherit; color: var(--text); cursor: text; text-align: left;
+  text-decoration: underline dotted; text-decoration-color: var(--line-strong); text-underline-offset: .2em; }
+.conv2-ridesedit { font: inherit; width: 100%; min-height: var(--touch); padding: 0 var(--s-2); border: 0; border-bottom: var(--hairline) solid var(--text); background: transparent; color: var(--text); }
+.conv2-more { flex: none; color: var(--dust); text-decoration: none; }
+.conv2-foot-acts { flex: none; display: inline-flex; flex-wrap: wrap; gap: var(--s-2); }
+.conv2-open { color: var(--dust); text-decoration: none; }
+.conv2-about-open { padding: 0; min-height: 0; color: inherit; text-align: left; }
+
+/* you are waiting on: one quiet line each */
+.threads2-wait { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.threads2-wait li { display: grid; gap: 2px; color: var(--dust); }
+.threads2-wait-what { font-size: var(--t-body); color: var(--dust); overflow-wrap: anywhere; }
+.threads2-wait-meta { font-size: var(--t-small); color: var(--dust); }
+.threads2-foot { margin: 0; }
+
+/* the sheet behind More */
+.conv2-sheet { display: grid; gap: var(--s-3); }
+.conv2-field { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); font-size: var(--t-body); }
+.push-mark { font-size: var(--t-micro); font-style: italic; color: var(--dust); }
+.push-mark--person { color: var(--text); font-style: normal; }
+.mail-prose { margin: 0; padding-left: var(--s-3); font-style: italic; color: var(--ink-kept); }
+
+/* the desk: the sentence across the top, the cards, and what she waits on beside them */
+@media (min-width: 1024px) {
+  :root:not([data-type="large"]) .threads2 { max-width: calc(var(--measure) + 22rem + var(--s-6)); grid-template-columns: minmax(0, var(--measure)) minmax(0, 22rem); column-gap: var(--s-6); }
+  :root:not([data-type="large"]) .threads2 .threads2-lead,
+  :root:not([data-type="large"]) .threads2 .threads2-foot { grid-column: 1 / -1; }
+  :root:not([data-type="large"]) .threads2 .threads2-aside { grid-column: 2; grid-row: 2; }
+  :root:not([data-type="large"]) .threads2 .threads2-main { grid-column: 1; grid-row: 2; }
+  :root:not([data-type="large"]) .threads2.is-rest .threads2-aside { grid-column: 1 / -1; grid-row: auto; justify-self: center; max-width: var(--measure); }
+}
+
+/* the long form behind More (push.js): the composer of the 14:58 build, unchanged */
+.push-card { display: grid; gap: var(--s-3); }
+.push-stake { display: grid; gap: var(--s-3); padding-top: var(--s-2); }
+.push-field { display: grid; gap: var(--s-1); min-width: 0; }
+.push-field-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-2); }
+.push-field input[type="text"], .push-field input[type="date"], .push-field input[type="number"], .push-field select {
+  min-height: var(--touch); padding: 0 var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip);
+  background: var(--surface); color: var(--text); max-width: 100%; min-width: 0; width: 100%; }
+.push-field .offer-input { width: 100%; padding: var(--s-2) var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-card); background: var(--surface); color: var(--text); }
+.push-check { display: flex; align-items: center; gap: var(--s-2); min-height: var(--touch); font-size: var(--t-small); }
+.push-blocks { display: grid; }
+.push-own { margin-top: var(--s-2); }
+.push-law { font-size: var(--t-micro); }
+.push-card .kind-chips { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.push-card .kind-chips .chip[aria-checked="true"] { border-color: var(--text); background: var(--pill-suggested); }
+.conv2-said { font-size: var(--t-body); color: var(--ink-kept); margin-bottom: var(--s-4); }
+.conv2-said .conv2-undo { min-height: var(--touch); }

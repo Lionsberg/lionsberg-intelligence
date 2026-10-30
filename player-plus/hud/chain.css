@@ -1,0 +1,192 @@
+/*
+  chain.css: the Chain. Every value from
+  tokens.css. One fever chart, one thing, one road. Calm lights nothing; Watch is full ink;
+  Act alone wears the warning gold (--owed). The zone's word is always printed beside it.
+  The road runs left to right on the desk, wrapping; top to bottom on a phone and in large type.
+*/
+.chain { display: grid; gap: var(--s-6); min-width: 0; }
+.chain p { margin: 0; }
+.chain-empty { color: var(--dust); }
+
+/* ---- the one breath */
+.breath { display: grid; gap: var(--s-2); max-width: 44rem; }
+.breath-verdict { font-size: clamp(var(--t-card), 3.2vw, var(--t-voice)); color: var(--text); }
+.breath-eats { font-size: var(--t-body); color: var(--text); }
+.zone-act .breath-eats { color: var(--owed-text); }
+
+/* ---- the top: the fever chart, and beside it (desk) or under it (phone) the one thing */
+.chain-top { display: grid; gap: var(--s-6); align-items: start; }
+@media (min-width: 1024px) {
+  :root:not([data-type="large"]) .chain-top { grid-template-columns: minmax(0, 28rem) minmax(0, 1fr); gap: var(--s-8); }
+  :root:not([data-type="large"]) .chain-top.no-chart { grid-template-columns: minmax(0, 1fr); }
+  :root:not([data-type="large"]) .to-road { display: none; }
+}
+
+/* ---- the fever chart */
+.fever { margin: 0; display: grid; gap: var(--s-3); }
+.fever-plot { width: 100%; max-width: 28rem; }
+@media (max-width: 599px) { .fever-plot { max-width: 17rem; } .fever-word { font-size: var(--t-body); } }
+.fever-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.fever-axis { fill: none; stroke: var(--line-strong); stroke-width: .35; }
+.fever-rule { stroke: var(--line-strong); stroke-width: .3; }
+.fever-region { fill: var(--dust); font-family: var(--f-name); font-size: 3.4px; letter-spacing: .14em; text-transform: uppercase; }
+.fever-tick { fill: var(--dust); font-family: var(--f-body); font-size: 3.4px; }
+:root[data-type="large"] .fever-region, :root[data-type="large"] .fever-tick { font-size: 4.2px; }
+.fever-trail { fill: none; stroke: var(--dust); stroke-width: .45; stroke-dasharray: .9 1.3; stroke-linecap: round; }
+.fever-then { fill: var(--ground); stroke: var(--dust); stroke-width: .45; }
+.fever-other circle { fill: var(--dust); }
+.fever-now { fill: var(--dust); }
+.zone-watch .fever-now { fill: var(--text); stroke: var(--text); stroke-width: 1; }
+.zone-act .fever-now { fill: var(--owed); stroke: var(--owed); stroke-width: 1; }
+.fever-caption { display: grid; gap: var(--s-1); }
+.fever-word { font-family: var(--f-name); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: var(--t-card); color: var(--dust); }
+.zone-watch .fever-word { color: var(--text); font-weight: var(--w-emphasis); }
+.zone-act .fever-word { color: var(--owed-text); font-weight: var(--w-emphasis); }
+.fever-words { font-size: var(--t-body); color: var(--text); }
+
+/* ---- the one thing */
+.chain-side { display: grid; gap: var(--s-4); align-content: start; }
+.one { display: grid; gap: var(--s-3); max-width: 36rem; }
+.one-line { font-size: var(--t-card); color: var(--text); }
+.zone-act .one-line { color: var(--owed-text); }
+.one-whose { font-size: var(--t-body); }
+.one-mine { font-size: var(--t-body); }
+.one-mine.dust { font-size: var(--t-small); }
+.one-act {
+  justify-self: stretch; min-height: var(--touch-option); padding: var(--s-2) var(--s-6);
+  border: var(--hairline) solid var(--accent); border-radius: var(--r-pill); background: var(--pill-fill);
+  color: var(--text); font-size: var(--t-body); cursor: pointer;
+}
+.one-act:hover { background: var(--pill-suggested); }
+.zone-act .one-act { border-color: var(--owed); color: var(--owed-text); background: var(--owed-fill); }
+@media (min-width: 600px) { .one-act { justify-self: start; min-width: 16rem; } }
+.quiet-act {
+  justify-self: start; min-height: var(--touch); padding: 0; border: 0; background: transparent;
+  color: var(--dust); font-size: var(--t-small); cursor: pointer; text-decoration: underline; text-underline-offset: .2em;
+  text-decoration-color: var(--line-strong);
+}
+
+/* ---- the road */
+.road-sec { display: grid; gap: var(--s-4); padding-top: var(--s-5); border-top: var(--hairline) solid var(--line); scroll-margin-top: var(--s-4); }
+.road-sec:focus { outline: none; }
+.road-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--s-2) var(--s-4); }
+.road { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; row-gap: var(--s-6); }
+.road-item { position: relative; flex: 1 1 10rem; min-width: 9rem; padding: var(--s-5) var(--s-4) 0 0; display: grid; gap: var(--s-1); align-content: start; }
+.road-item::before { content: ""; position: absolute; top: 7px; left: 0; right: 0; border-top: var(--hairline) solid var(--line-strong); }
+.road-mark { position: absolute; top: 2px; left: 0; width: 11px; height: 11px; border-radius: 50%; border: var(--hairline) solid var(--text); background: var(--ground); }
+.road-station.is-milestone .road-mark { width: 12px; height: 12px; top: 1px; border-radius: 1px; transform: rotate(45deg); }
+.road-station.is-done .road-mark { background: var(--dust); border-color: var(--dust); }
+.road-station.is-done .road-title { color: var(--dust); }
+.road-stone .road-mark { border-radius: 2px; background: var(--dust); border-color: var(--dust); }
+.road-house { color: var(--dust); }
+.road-title {
+  display: flex; align-items: center; min-height: var(--touch); padding: 0; border: 0; background: transparent;
+  color: var(--text); font-size: var(--t-body); text-align: left; cursor: pointer; line-height: var(--lh-tight);
+}
+p.road-title { min-height: 0; padding-top: var(--s-2); cursor: default; }
+.road-title:hover { text-decoration: underline; text-underline-offset: .2em; text-decoration-color: var(--line-strong); }
+.road-meta { font-size: var(--t-small); }
+.road-pace { font-style: italic; }
+.road-pace-line { max-width: var(--measure); }
+.road-station.is-eating .road-title { font-weight: var(--w-emphasis); }
+.zone-act .road-station.is-eating .road-mark { background: var(--owed); border-color: var(--owed); }
+.zone-act .road-station.is-eating .road-title { color: var(--owed-text); }
+
+/* the buffer on the road: its length its days, its used part filled, its word printed */
+.road-buffer { flex: var(--grow) 1 6rem; min-width: 6rem; }
+.road-buffer::before { display: none; }
+.road-band { position: absolute; top: 2px; left: 0; right: var(--s-4); height: 11px; border: var(--hairline) solid var(--line-strong); border-radius: var(--r-pill); overflow: hidden; background: var(--ground); }
+.road-band-used { position: absolute; left: 0; top: 0; bottom: 0; width: var(--used, 0%); background: var(--dust); opacity: .5; }
+.road-buffer.zone-watch .road-band-used { background: var(--text); opacity: .6; }
+.road-buffer.zone-act .road-band-used { background: var(--owed); opacity: 1; }
+.road-buffer .road-meta { padding-top: var(--s-2); color: var(--dust); }
+.road-buffer.zone-watch .road-meta { color: var(--text); }
+.road-buffer.zone-act .road-meta { color: var(--owed-text); }
+
+/* the fold by stream: the same stations in lanes, the columns kept */
+.fold { display: grid; gap: var(--s-5); }
+.fold-lane { display: grid; gap: var(--s-2); }
+.fold-name { color: var(--text); }
+.fold-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); row-gap: var(--s-4); }
+.fold-row > .road-item { grid-column: var(--col); min-width: 0; }
+.fold-step { display: none; }
+
+/* a phone, or large type: the road runs top to bottom */
+@media (max-width: 1023px) {
+  .road { flex-direction: column; flex-wrap: nowrap; row-gap: 0; }
+  .road-item, .road-buffer { flex: none; min-width: 0; padding: 0 0 var(--s-5) var(--s-6); }
+  .road-item::before { top: 0; bottom: 0; left: 5px; right: auto; border-top: 0; border-left: var(--hairline) solid var(--line-strong); }
+  .road-buffer::before { display: none; }
+  .road-mark { top: var(--s-4); }
+  .road-station.is-milestone .road-mark { top: calc(var(--s-4) + 1px); }
+  .road-band { top: 0; bottom: var(--s-3); left: 0; right: auto; width: 11px; height: auto; min-height: calc(var(--grow) * 1rem); }
+  .road-band-used { right: 0; bottom: auto; height: var(--used, 0%); width: auto; }
+  .road-buffer { min-height: calc(var(--grow) * 1rem + var(--s-7)); }
+  .fold-row { grid-template-columns: minmax(0, 1fr); }
+  .fold-row > .road-item { grid-column: 1; }
+  .fold-step { display: block; font-size: var(--t-micro); }
+}
+:root[data-type="large"] .road { flex-direction: column; flex-wrap: nowrap; row-gap: 0; }
+:root[data-type="large"] .road-item, :root[data-type="large"] .road-buffer { flex: none; min-width: 0; padding: 0 0 var(--s-5) var(--s-6); }
+:root[data-type="large"] .road-item::before { top: 0; bottom: 0; left: 5px; right: auto; border-top: 0; border-left: var(--hairline) solid var(--line-strong); }
+:root[data-type="large"] .road-buffer::before { display: none; }
+:root[data-type="large"] .road-mark { top: var(--s-4); }
+:root[data-type="large"] .road-band { top: 0; bottom: var(--s-3); left: 0; right: auto; width: 11px; height: auto; }
+:root[data-type="large"] .road-band-used { right: 0; bottom: auto; height: var(--used, 0%); width: auto; }
+:root[data-type="large"] .road-buffer { min-height: calc(var(--grow) * 1rem + var(--s-7)); }
+:root[data-type="large"] .fold-row { grid-template-columns: minmax(0, 1fr); }
+:root[data-type="large"] .fold-row > .road-item { grid-column: 1; }
+:root[data-type="large"] .fold-step { display: block; font-size: var(--t-micro); }
+
+/* ---- the aside slice */
+.chain.is-slice { gap: var(--s-2); }
+.chain.is-slice .breath-verdict { font-size: var(--t-body); }
+.slice-zone { font-family: var(--f-name); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: var(--t-micro); color: var(--dust); }
+.zone-watch .slice-zone { color: var(--text); }
+.zone-act .slice-zone { color: var(--owed-text); }
+.one.is-compact .one-line { font-size: var(--t-body); }
+.chain-more { color: var(--dust); font-size: var(--t-small); text-underline-offset: .2em; }
+
+/* ---- the pencil sheet (shown on asking, always printed) */
+.pencil-btn { margin-top: calc(-1 * var(--s-4)); }
+.chain-pencil.is-folded { display: none; }
+.chain-pencil { display: grid; gap: var(--s-3); max-width: 100%; }
+.pencil-verdict { font-size: var(--t-body); }
+.pencil { border-collapse: collapse; width: 100%; font-size: var(--t-small); }
+.pencil caption { text-align: left; color: var(--dust); padding-bottom: var(--s-2); caption-side: top; }
+.pencil th, .pencil td { text-align: left; vertical-align: top; padding: var(--s-1) var(--s-2); border-bottom: var(--hairline) solid var(--line); }
+.pencil thead th { font-size: var(--t-micro); letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--dust); font-weight: var(--w-regular); }
+.pencil tbody th { font-weight: var(--w-regular); }
+.pencil-box { min-width: var(--s-7); }
+.pencil-rule { max-width: var(--measure); }
+@media (max-width: 599px) {
+  .pencil thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .pencil tr { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: var(--s-2) 0; border-bottom: var(--hairline) solid var(--line); }
+  .pencil th, .pencil td { border: 0; padding: var(--s-1) 0; }
+  .pencil tbody th { grid-column: 1 / -1; }
+  .pencil td::before { content: attr(data-label); display: block; font-size: var(--t-micro); color: var(--dust); text-transform: uppercase; letter-spacing: var(--track-eyebrow); }
+}
+
+/* ---- paper: the verdict, the fever chart in ink, the one thing, the pencil sheet */
+@media print {
+  .to-road, .quiet-act, .one-act, .road-sec, .one-mine { display: none !important; }
+  .chain { gap: var(--p-gap-wide); color: var(--ink-print); }
+  .chain-top { grid-template-columns: 9cm minmax(0, 1fr) !important; gap: var(--p-gap-wide) !important; break-inside: avoid; }
+  .breath-verdict, .one-line { font-size: var(--p-opening); color: var(--ink-print) !important; }
+  .breath-eats, .fever-words, .one-whose { font-size: var(--p-body); color: var(--ink-print) !important; }
+  .fever-word { font-size: var(--p-question); color: var(--ink-print) !important; }
+  .fever-axis, .fever-rule { stroke: var(--ink-print); }
+  .fever-region, .fever-tick { fill: var(--ink-print); }
+  .fever-trail { stroke: var(--ink-print); }
+  .fever-then { fill: #fff; stroke: var(--ink-print); }
+  .fever-now, .fever-other circle { fill: var(--ink-print) !important; stroke: var(--ink-print) !important; }
+  .chain-pencil.is-folded { display: grid !important; }
+  .chain-pencil { break-before: page; }
+  .pencil-verdict { font-size: var(--p-question); }
+  .pencil { font-size: var(--p-body); }
+  .pencil thead { position: static !important; width: auto; height: auto; clip: auto; display: table-header-group; }
+  .pencil tr { display: table-row !important; }
+  .pencil th, .pencil td { display: table-cell !important; border: var(--p-rule) solid var(--ink-print) !important; padding: var(--p-gap) !important; color: var(--ink-print); }
+  .pencil td::before { content: none !important; }
+  .pencil-box { min-width: var(--p-initials); }
+}

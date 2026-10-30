@@ -18,7 +18,7 @@ credits:
   - "the watcher rules as ideas (write only what moved; a stopped watch must not look like a quiet room; what is read is data), said here in Player+'s own sentences"
   - "the clock law: the time is read, never computed"
 pull_from: (the Player+ release)
-offered_at: stair 6 — the working path, once a house is keeping heads-ups in rooms
+offered_at: every house; used from stair 6, once a house is keeping heads-ups in rooms
 needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/play-by-play/; pairs with the kit's heads-up; a clock the agent can read
 changes: 0.1.0 — first release
 thanks_to: LIØNSBERG — a practice, never a debt

@@ -1,0 +1,347 @@
+/*
+  room.css: the Room (DESIGN-ROOM §6): the Page, the Talk and the Table over one table, three
+  inks. Every value from tokens.css: the inks (--ink-said, --ink-kept,
+  --ink-agreed), the marks (--initials, --mark-ring), the columns (--col-left, --measure,
+  --col-aside), the motions (--d-*, --e-*). Nothing glows, pulses or bounces;
+  the ink and the position carry the live line.
+*/
+
+/* ---- the frame */
+.room { display: grid; gap: var(--s-4); min-width: 0; }
+.room.is-reading { opacity: var(--dim-loading); }
+.room-strip { display: grid; gap: var(--s-2); min-width: 0; }
+.room-strip-line { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); min-width: 0; }
+.room-name { color: var(--text); font-size: var(--t-small); }
+.room-strip-gap { flex: 1 1 auto; }
+.part-strip { overflow-wrap: anywhere; }
+.posture-chip { min-height: var(--touch); font-size: var(--t-micro); letter-spacing: var(--track-eyebrow); font-variant: small-caps; }
+.posture-chip.posture--names_hidden, .posture-chip.posture--sealed { border-color: var(--accent); color: var(--accent-text); }
+.private-chip { border-color: var(--accent); }
+.room-purpose { font-size: var(--t-card); color: var(--text); max-width: var(--measure); }
+.room-shown-line { color: var(--accent-text); font-size: var(--t-small); }
+.pbp-keeper { font-size: var(--t-micro); }
+.room-offline { color: var(--ember); }
+.room-empty { font-size: var(--t-card); padding: var(--s-6) 0; }
+.room-close-bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3); padding: var(--s-3) 0; border-top: var(--hairline) solid var(--line); }
+.room-close-bar .voice { font-size: var(--t-card); flex: 1 1 var(--col-stream-min); }
+
+/* ---- presence on the desk: one sentence that opens the fold */
+.presence-wrap { display: grid; gap: var(--s-2); }
+.room-count { font-size: var(--t-body); color: var(--text); text-decoration: none; justify-self: start; padding: 0; min-height: var(--touch); text-align: left; }
+.room-fold { display: grid; gap: var(--s-3); }
+.fold-people { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.fold-agent { display: block; font-size: var(--t-small); padding: 0; min-height: var(--touch); text-align: left; }
+
+/* ---- the arrangement: desk three columns · tablet two · phone the Talk as home */
+.room-grid { display: grid; gap: var(--s-6); grid-template-columns: minmax(0, 1fr); align-items: start; }
+.room-col { min-width: 0; }
+.room-side { min-width: 0; display: grid; gap: var(--s-3); align-content: start; }
+.room-seg { display: none; gap: var(--s-2); }
+.room-seg .chip[aria-selected="true"] { border-color: var(--accent); color: var(--accent-text); }
+.room-tabs { display: none; }
+@media (max-width: 599px) {
+  .room-grid > .room-page, .room-grid > .room-side { display: none; }
+  .room-tabs {
+    display: flex; gap: var(--s-2); position: sticky; bottom: calc(var(--s-2) + env(safe-area-inset-bottom));
+    justify-content: center; padding: var(--s-2) 0; background: linear-gradient(0deg, var(--ground) 60%, transparent);
+  }
+  .room-tabs .chip { background: var(--surface); }
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .room-grid { grid-template-columns: minmax(0, 1fr) minmax(0, var(--col-aside)); grid-template-rows: auto 1fr; }
+  .room-grid > .room-talk { grid-column: 1; grid-row: 1 / span 2; }
+  .room-grid > .room-side { grid-column: 2; grid-row: 1; }
+  .room-grid > .room-page { grid-column: 2; grid-row: 2; }
+  .room-seg { display: flex; }
+  .room-grid[data-panel="table"] > .room-page { display: none; }
+  .room-grid[data-panel="page"] > .room-side > .room-table { display: none; }
+}
+@media (min-width: 1024px) {
+  .room-grid { grid-template-columns: var(--col-left) minmax(0, var(--measure)) minmax(0, var(--col-aside)); justify-content: space-between; }
+  .room-talk { position: sticky; top: var(--s-9); }
+  .talk-list { max-height: calc(100vh - 2 * var(--s-9) - var(--s-8)); overflow-y: auto; }
+}
+/* large type: one column on every width; the Page and the Table by the two tabs */
+:root[data-type="large"] .room-grid { grid-template-columns: minmax(0, 1fr); }
+:root[data-type="large"] .room-grid > .room-page, :root[data-type="large"] .room-grid > .room-side { display: none; }
+:root[data-type="large"] .room-grid > .room-talk { grid-column: 1; grid-row: auto; }
+:root[data-type="large"] .room-tabs { display: flex; gap: var(--s-2); justify-content: center; }
+:root[data-type="large"] .talk-list { max-height: none; }
+:root[data-type="large"] .room-talk { position: static; }
+
+/* ---- the three inks (DESIGN-ROOM §1) */
+.tline.ink-said .tline-body { color: var(--ink-said); }
+.tline.ink-kept .tline-body { color: var(--ink-kept); }
+.tline.ink-agreed .tline-body { color: var(--ink-agreed); }
+.agent-text, .tline.is-agent .tline-body { font-style: italic; }
+
+/* ---- the Talk */
+.talk { display: grid; gap: var(--s-3); min-width: 0; }
+.talk-head .caps { color: var(--dust); }
+.talk-away { color: var(--accent-text); font-size: var(--t-small); }
+.talk-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); align-content: start; min-width: 0; }
+.talk-part-btn { border: 0; background: transparent; padding: 0; min-height: var(--touch); text-align: left; cursor: pointer; }
+.talk-part-lines { list-style: none; margin: 0 0 var(--s-2); padding: 0 0 0 var(--thread-indent); border-left: var(--hairline) solid var(--line); display: grid; gap: var(--s-1); font-size: var(--t-small); }
+.talk-room-line { font-size: var(--t-card); color: var(--text); padding: var(--s-2) 0; }
+.talk-empty { padding: var(--s-4) 0; }
+.tline { display: grid; gap: var(--s-1); min-width: 0; }
+.tline-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 var(--s-2); font-size: var(--t-micro); color: var(--dust); }
+.tline-who { font-variant: small-caps; letter-spacing: var(--track-eyebrow); }
+.tline-eyebrow { color: var(--text); }
+.tline.ink-said .tline-eyebrow { color: var(--dust); }
+.tline-time { margin-left: auto; font-size: var(--t-micro); }
+.tline-wait { font-style: italic; }
+.tline-main { display: flex; align-items: baseline; gap: var(--s-2); min-width: 0; }
+.tline-body { flex: 1 1 auto; min-width: 0; text-align: left; border: 0; background: transparent; padding: 0; font-size: var(--t-body); line-height: var(--lh-body); cursor: pointer; overflow-wrap: anywhere; }
+.tline.ink-agreed .tline-body { font-weight: var(--w-emphasis); }
+.star { color: var(--ink-kept); }
+.ring-mark { display: inline-block; width: var(--mark-ring); height: var(--mark-ring); border-radius: 50%; border: var(--hairline) solid var(--accent); margin-right: var(--s-2); vertical-align: middle; flex: none; }
+.untrusted { font-size: var(--t-micro); }
+.tline-acts { display: none; flex-wrap: wrap; gap: 0 var(--s-1); }
+.tline.is-open .tline-acts, .tline:focus-within .tline-acts { display: flex; }
+.tline-acts .link-btn { font-size: var(--t-small); }
+.talk-new { justify-self: center; }
+
+/* threads open under the line they belong to, indented with a hairline at the left */
+.thread { margin-left: var(--thread-indent); padding-left: var(--s-3); border-left: var(--hairline) solid var(--line-strong); }
+.thread-count { font-size: var(--t-small); padding: 0; text-align: left; }
+.thread-lines { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); font-size: var(--t-small); }
+.thread-lines .tline-who { color: var(--dust); }
+.reply-form { display: flex; gap: var(--s-2); align-items: flex-end; margin-left: var(--thread-indent); }
+
+/* the verified mark (the Record's paper sheet and the leaves list; the Talk carries it in ink) */
+.vmark { flex: none; font-size: var(--t-small); }
+.vmark.v-signed { color: var(--dust); }
+.vmark.v-pending { color: var(--dust); }
+.vmark.v-unsigned, .vmark.v-missing { color: var(--dust); }
+
+/* ---- the offered tray: at most three, the count behind */
+.tray { display: grid; gap: var(--s-2); padding-top: var(--s-3); border-top: var(--hairline) solid var(--line); }
+.tray[hidden] { display: none; }
+.tray-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.tray-item { padding: var(--s-3) var(--s-4); border: var(--hairline) dashed var(--line-strong); border-radius: var(--r-chip); display: grid; gap: var(--s-1); }
+.tray-text { color: var(--ink-said); }
+.tray-acts { display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: center; margin-top: var(--s-1); }
+.tray-more { justify-self: start; }
+.tray-law { font-size: var(--t-micro); }
+
+/* ---- the line to offer */
+.offer { display: grid; gap: var(--s-2); }
+.offer-row { display: flex; gap: var(--s-2); align-items: flex-end; }
+.offer-input {
+  flex: 1 1 auto; min-width: 0; min-height: var(--touch); resize: none; overflow: hidden;
+  padding: var(--s-2) var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-card);
+  background: var(--surface); color: var(--text); line-height: var(--lh-body);
+}
+.mic {
+  flex: none; width: var(--touch-option); height: var(--touch-option); border-radius: 50%;
+  border: var(--hairline) solid var(--accent); background: transparent; color: var(--text); display: grid; place-items: center; cursor: pointer;
+}
+.mic[aria-pressed="true"] { background: var(--pill-suggested); }
+.offer-foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); }
+.offer-note, .offer-hint { font-size: var(--t-micro); }
+@media (max-width: 599px) { .offer-row .pill { padding: var(--s-2) var(--s-4); } }
+
+/* ---- the Table */
+.table { display: grid; gap: var(--s-5); min-width: 0; }
+.table-sec { display: grid; gap: var(--s-2); }
+.table-sec-title { color: var(--dust); }
+.table-line { font-size: var(--t-body); }
+.table-cards { display: grid; gap: var(--s-3); }
+.card-chips { display: flex; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-2); align-items: center; }
+.holder-chip {
+  display: inline-flex; align-items: center; min-height: var(--s-6); padding: 0 var(--s-3);
+  border: var(--hairline) solid var(--line-strong); border-radius: var(--r-pill); font-size: var(--t-micro);
+  letter-spacing: var(--track-eyebrow); font-variant: small-caps;
+}
+.holder-chip.is-me { border-color: var(--accent); color: var(--accent-text); }
+.commit-card .card-title, .question-card .card-title, .yes-card .card-title, .draft-card .card-title { font-size: var(--t-body); }
+.commit-card.ink-said .slots dd, .commit-card.ink-said .card-title { color: var(--ink-said); }
+.commit-card.ink-kept .slots dd { color: var(--ink-kept); }
+.commit-card.ink-agreed .slots dd { color: var(--ink-agreed); }
+.slots { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--s-1) var(--s-3); margin: var(--s-3) 0 0; }
+.slots dt { align-self: baseline; }
+.slots dd { margin: 0; font-size: var(--t-small); overflow-wrap: anywhere; }
+.slots .slot-guess { font-style: italic; }
+.slots .slot-unset { font-style: normal; }
+:root[data-type="large"] .slots { grid-template-columns: minmax(0, 1fr); }
+.commit-say { margin-top: var(--s-3); font-size: var(--t-small); }
+.commit-card.is-deferred { opacity: var(--dim-loading); }
+.draft-card { border-style: dashed; border-color: var(--accent); }
+.draft-slots { display: grid; gap: var(--s-2); margin-top: var(--s-3); }
+.draft-slots label { display: grid; gap: var(--s-1); }
+.draft-slots select, .draft-slots input {
+  min-height: var(--touch); padding: 0 var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip);
+  background: var(--surface); color: var(--text); max-width: 100%;
+}
+.kind-chips { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.kind-chips .chip[aria-checked="true"] { border-color: var(--accent); color: var(--accent-text); }
+
+/* ---- the Page and the Play by Play */
+.page { display: grid; gap: var(--s-4); min-width: 0; }
+.page-title { color: var(--dust); }
+.page-sec { display: grid; gap: var(--s-2); }
+.page-purpose { font-size: var(--t-body); }
+.page-parts, .page-big { margin: 0; padding-left: var(--s-5); display: grid; gap: var(--s-1); font-size: var(--t-small); }
+.page-parts li.is-now { color: var(--text); font-weight: var(--w-emphasis); }
+.page-parts li.is-done { color: var(--dust); }
+.page-part-q { display: block; font-style: italic; }
+.page-links { margin: 0; padding-left: var(--s-5); font-size: var(--t-small); }
+.pbp-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.pbp-line { display: grid; gap: var(--s-1); padding-bottom: var(--s-2); border-bottom: var(--hairline) solid var(--line); }
+.pbp-meta { font-size: var(--t-micro); }
+.pbp-main { display: flex; align-items: baseline; gap: var(--s-2); }
+.pbp-text { flex: 1 1 auto; min-width: 0; font-size: var(--t-small); color: var(--ink-agreed); }
+.pbp-axis-btn { justify-self: start; font-size: var(--t-micro); min-height: var(--s-6); padding: 0; }
+.pbp-axis { margin: 0; padding-left: var(--thread-indent); border-left: var(--hairline) solid var(--line-strong); list-style: none; font-size: var(--t-micro); }
+.page-foot { padding-top: var(--s-2); }
+
+/* ---- the private deal, the agent's account, what leaves */
+.room-deal { display: grid; gap: var(--s-3); }
+.deal-opening { font-size: var(--t-voice); }
+.room-deal-card { margin-top: var(--s-2); }
+.account { display: grid; gap: var(--s-4); }
+.account-list { margin: 0; padding-left: var(--s-4); display: grid; gap: var(--s-1); font-size: var(--t-small); }
+.leaves { display: grid; gap: var(--s-3); }
+.leaves-list { margin: 0; padding-left: var(--s-4); display: grid; gap: var(--s-1); font-size: var(--t-small); }
+
+/* ---- the door */
+.room-door { display: grid; gap: var(--s-4); max-width: var(--measure); margin: var(--s-5) auto 0; width: 100%; }
+.door-card .card-title { font-size: var(--t-card); }
+.door-foot { font-size: var(--t-micro); }
+
+/* ---- before and after */
+.room-before, .room-after { display: grid; gap: var(--s-3); max-width: var(--measure); }
+.room-still { font-size: var(--t-voice); }
+.carry ul { margin: 0; padding-left: var(--s-4); }
+.room-talk-still { padding: var(--s-4) 0; }
+
+/* ---- Show to the room: the private things fold away */
+.room.is-shown .private-chip { display: none; }
+
+/* ---- reduced motion: every change an instant swap (the WAAPI calls are already silent) */
+@media (prefers-reduced-motion: reduce) { .tline-acts { transition: none; } }
+.talk-new[hidden], .offer-hint[hidden] { display: none; }
+.room, .talk, .table, .page, .room-side, .tray, .offer, .talk-list { grid-template-columns: minmax(0, 1fr); }
+.tline-due { color: var(--accent-text); font-style: italic; }
+.tline.is-question .tline-body { color: var(--ink-kept); }
+
+/* ---- lit when normal: the newest said line (and, on the phone, the one card); nothing else */
+.tline.ink-said.is-newest .tline-body { color: var(--text); }
+.tline-undo { flex: none; font-size: var(--t-small); padding: 0 var(--s-2); min-height: var(--touch); }
+
+/* ---- the Room on the phone: three fixed places */
+.room--phone { gap: 0; }
+.room-edge {
+  position: sticky; top: 0; z-index: 2; background: var(--ground);
+  display: flex; flex-wrap: nowrap; align-items: center; gap: var(--s-2); padding: var(--s-1) 0;
+  border-bottom: var(--hairline) solid var(--line);
+}
+.ring-btn { flex: none; border: 0; background: transparent; padding: 0; width: var(--touch); height: var(--touch); display: grid; place-items: center; cursor: pointer; }
+.ring { width: var(--touch); height: var(--touch); overflow: visible; }
+.ring-orbit { fill: none; stroke: var(--line); stroke-width: .6; }
+.ring-person, .ring-away { fill: var(--ground); stroke: var(--dust); stroke-width: .9; }
+.ring-away { stroke-dasharray: 1.4 1.4; }
+.ring-speaking { fill: var(--ground); stroke: var(--text); stroke-width: 1.3; }
+.ring-me { fill: var(--text); stroke: var(--text); stroke-width: .9; }
+.ring-tie { stroke: var(--line-strong); stroke-width: .5; }
+.ring-agent { fill: var(--dust); }
+.edge-part { flex: 1 1 auto; min-width: 0; margin: 0; font-size: var(--t-small); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.edge-title { color: var(--text); }
+.edge-table { flex: none; font-size: var(--t-small); padding: 0 var(--s-1); min-height: var(--touch); }
+.talk--phone { gap: 0; }
+.talk--phone .talk-list { max-height: none; overflow: visible; padding: var(--s-3) 0 var(--s-4); }
+.talk-foot {
+  position: sticky; bottom: 0; z-index: 2; display: grid; gap: var(--s-2);
+  background: var(--ground); padding: var(--s-2) 0 calc(var(--s-2) + env(safe-area-inset-bottom)); border-top: var(--hairline) solid var(--line);
+}
+.talk-foot .tray { border-top: 0; padding-top: 0; }
+.one-card { display: grid; gap: var(--s-1); padding: var(--s-3) var(--s-4) var(--s-3); border-radius: var(--r-card); background: var(--surface); border: var(--hairline) solid var(--line-strong); }
+.one-top { display: flex; align-items: baseline; gap: var(--s-3); }
+.one-top .one-eyebrow { flex: 1 1 auto; min-width: 0; }
+.one-card.owed { border-color: var(--accent); }
+.one-card.owed .one-eyebrow { color: var(--accent-text); }
+.one-eyebrow { color: var(--dust); }
+.one-title { font-size: var(--t-card); line-height: var(--lh-tight); color: var(--text); overflow-wrap: anywhere; }
+.one-card.is-agent .one-title { font-style: italic; }
+.one-sub { font-size: var(--t-small); }
+.one-acts { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); margin-top: var(--s-1); }
+.one-act { min-height: var(--touch-option); padding-inline: var(--s-6); font-size: var(--t-body); flex: 1 1 auto; }
+.one-more { flex: none; font-size: var(--t-micro); padding: 0; min-height: var(--s-6); color: var(--dust); }
+html[data-dock] .talk-foot { bottom: calc(var(--dock-bar-h, 56px) + env(safe-area-inset-bottom)); }
+.room-sheet { display: grid; gap: var(--s-6); }
+.room-sheet-part { min-width: 0; }
+.pbp-part { color: var(--dust); margin-top: var(--s-2); }
+.pbp-commit { display: grid; gap: 0; padding-bottom: var(--s-2); border-bottom: var(--hairline) solid var(--line); }
+.pbp-commit.ink-said .pbp-text { color: var(--ink-said); }
+.pbp-commit.ink-kept .pbp-text { color: var(--ink-kept); }
+.pbp-line .pbp-text { border: 0; background: transparent; padding: 0; text-align: left; cursor: pointer; font: inherit; font-size: var(--t-small); color: var(--ink-agreed); min-height: var(--touch); }
+.offered-card .card-title { font-size: var(--t-body); }
+/* the phone's foot rests on the dock's bar at the end of the Talk, as it does in the middle */
+html[data-dock] .room--phone { margin-bottom: calc(-1 * var(--s-8)); }
+@media (max-width: 359px) {
+  .talk--phone .mic { width: var(--touch); height: var(--touch); }
+  .talk--phone .offer-row .pill { padding-inline: var(--s-3); }
+}
+.talk--phone .offer-input::placeholder { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* the foot keeps its place on a short Talk too: the Talk fills the screen above it */
+.talk--phone { display: flex; flex-direction: column; min-height: calc(100dvh - 15rem); }
+.talk--phone .talk-list { flex: 1 1 auto; }
+
+/* ---- the one card is the hero; the Talk is the ground beneath it, dimmer, with only
+   its newest line in full ink; one column at every width, the Table and who is here behind one act */
+.room--phone { width: 100%; max-width: var(--measure); margin-inline: auto; }
+.edge-room { color: var(--dust); font-size: var(--t-micro); margin-right: var(--s-2); }
+.talk--phone > .tray { padding: var(--s-4) 0 var(--s-3); border-top: 0; }
+.talk--phone .one-card { padding: var(--s-4) var(--s-5); gap: var(--s-2); }
+.talk--phone .one-title { font-size: var(--t-card); }
+.talk--phone .tline .tline-body { color: var(--ink-said); font-size: var(--t-small); }
+.talk--phone .tline.ink-agreed .tline-body { color: var(--ink-kept); }
+.talk--phone .tline.is-newest .tline-body { color: var(--text); font-size: var(--t-body); }
+.talk--phone .talk-list { gap: var(--s-2); padding-top: var(--s-2); }
+.talk-earlier { list-style: none; }
+.talk-earlier .link-btn { font-size: var(--t-small); padding: 0; min-height: var(--touch); }
+/* the answered card: gold released, ink deepened, "Yes · Undo" where the hand is */
+.one-card.is-answered { border-color: var(--line-strong); }
+.one-card.is-answered .one-title { color: var(--ink-agreed); font-weight: var(--w-emphasis); }
+.one-said { font-size: var(--t-body); color: var(--ink-agreed); }
+.one-yes-row { gap: 0 var(--s-1); }
+.one-yes { color: var(--text); font-weight: var(--w-emphasis); }
+.one-undo { padding: 0 var(--s-2); min-height: var(--touch); font-size: var(--t-body); }
+.fold-acts { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+
+/* ---- the one shape (DESIGN-ROOM §10, a proposal): one part fills the screen at every width, so a
+   phone has one screen per part. The head says the part in her voice; the one owed thing (the door,
+   her vote, the confirmation at the close) is the only card in gold; the facilitator's switch is a
+   quiet pill only the facilitator sees. Type carries the hierarchy; no box does a heading's work. */
+.room--shape { width: 100%; max-width: var(--measure); margin-inline: auto; gap: var(--s-5); padding-bottom: var(--s-9); }
+.shape-head { display: grid; gap: var(--s-2); min-width: 0; }
+.shape-room-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-1) var(--s-3); margin: 0; }
+.shape-posture { font-size: var(--t-micro); font-variant: small-caps; letter-spacing: var(--track-eyebrow); padding: 0; min-height: var(--touch); color: var(--dust); }
+.shape-part { font-size: var(--t-voice); line-height: 1.1; margin: var(--s-2) 0 0; font-weight: var(--w-regular); }
+.shape-voice { font-size: var(--t-card); margin: 0; color: var(--text); }
+.shape-step { font-size: var(--t-small); margin: 0; }
+.shape-body { display: grid; gap: var(--s-4); min-width: 0; }
+.shape-line { font-size: var(--t-body); margin: 0; }
+.shape-proposals, .shape-chosen, .shape-ticks, .shape-reflections { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.shape-proposal .card-title, .shape-writeup .card-title { font-size: var(--t-body); }
+.shape-acts, .shape-say { display: grid; gap: var(--s-3); justify-items: start; }
+.shape-input { width: 100%; font: inherit; font-size: var(--t-body); color: var(--text); background: var(--surface); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-card); padding: var(--s-3); box-sizing: border-box; resize: vertical; }
+.shape-sheet { display: grid; gap: var(--s-3); }
+.shape-vote { display: grid; gap: var(--s-3); }
+.shape-tick { display: flex; align-items: flex-start; gap: var(--s-3); width: 100%; min-height: var(--touch); text-align: left; font: inherit; font-size: var(--t-body); color: var(--text); background: none; border: 0; border-top: var(--hairline) solid var(--line); padding: var(--s-3) 0; cursor: pointer; }
+.shape-tick:disabled { cursor: default; color: var(--text); }
+.tick-mark { flex: 0 0 auto; width: 1.4em; height: 1.4em; border: var(--hairline) solid var(--line-strong); border-radius: 50%; display: inline-grid; place-items: center; font-size: var(--t-small); }
+.shape-tick.is-on .tick-mark { border-color: var(--text); font-weight: var(--w-emphasis); }
+.shape-tick.is-on .tick-text { font-weight: var(--w-emphasis); }
+.tick-text { min-width: 0; overflow-wrap: anywhere; }
+.shape-tie { color: var(--text); }
+.shape-others summary { cursor: pointer; min-height: var(--touch); display: flex; align-items: center; }
+.shape-others ul { margin: 0; padding-left: var(--s-4); display: grid; gap: var(--s-1); }
+.shape-writeup .card-foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-1); margin: 0; }
+.shape-reflection { font-size: var(--t-body); margin: 0; }
+.shape-reflections li { display: grid; gap: var(--s-1); }
+.shape-switch-wrap { display: grid; gap: var(--s-2); justify-items: start; padding-top: var(--s-3); border-top: var(--hairline) solid var(--line); }
+.shape-pbp { display: grid; gap: var(--s-2); }
+.shape-pbp ol { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); font-size: var(--t-small); }
+.shape-door { margin-top: var(--s-3); }

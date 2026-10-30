@@ -1,0 +1,36 @@
+/*
+  turn.css: the Turn (DESIGN §4.8; lifted to DESIGN-THE-BAR). Every value from
+  tokens.css. The week in one sentence, the four lines set like a letter, one act on the first
+  screen. Type carries the hierarchy: no boxes around the lines, no hero number, no gold. The
+  field is a made frame, shown only as the scene after the act, ending still.
+*/
+.turn { display: grid; gap: var(--s-5); max-width: var(--measure); min-width: 0; }
+.turn-head { display: grid; gap: var(--s-1); }
+.turn-week { font-size: var(--t-card); line-height: var(--lh-tight); color: var(--text); }
+.turn-story { display: grid; gap: var(--s-3); }
+.turn-row { display: grid; gap: 0; }
+.turn-row .eyebrow { color: var(--dust); }
+.turn-text {
+  border: 0; background: transparent; padding: 0; text-align: left; cursor: pointer; min-height: var(--touch);
+  font: inherit; font-size: var(--t-body); line-height: var(--lh-body); color: var(--ink-kept); overflow-wrap: anywhere;
+}
+.turn-row.is-draft .turn-text { font-style: italic; }
+.turn-row.is-mine .turn-text { color: var(--ink-agreed); }
+.turn-text:disabled { cursor: default; color: var(--ink-agreed); font-style: normal; }
+.turn-line {
+  width: 100%; min-height: var(--touch); resize: vertical; padding: var(--s-2) 0; border: 0;
+  border-bottom: var(--hairline) solid var(--line-strong); background: transparent; color: var(--ink-agreed);
+  font: inherit; font-size: var(--t-body); line-height: var(--lh-body);
+}
+.turn-acts { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-4); }
+.turn-act { min-height: var(--touch-option); padding-inline: var(--s-6); font-size: var(--t-body); }
+.turn-hint { font-size: var(--t-micro); flex: 1 1 12rem; }
+.turn-closed { font-size: var(--t-body); color: var(--ink-agreed); }
+.turn-field { margin: 0; width: calc(var(--s-9) * 2); aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: var(--night-print); justify-self: start; }
+.turn-field-img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.turn-gaps { display: grid; gap: var(--s-2); }
+.turn-gaps .eyebrow { color: var(--dust); }
+.turn-gaps ul { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--s-2); font-size: var(--t-small); }
+.turn-learned { display: block; font-style: italic; color: var(--dust); }
+.turn-depth { font-size: var(--t-small); }
+.turn-discern a { color: var(--dust); }

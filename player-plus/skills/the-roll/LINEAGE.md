@@ -1,12 +1,12 @@
 # Lineage — `the-roll`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 
 ```yaml
 name: the-roll
 version: 0.1.0
-sits_on: LIØNSBERG Player+ 3.1.0
+grows_from: LIØNSBERG Player+ 3.1.0
 lineage:
   - "The Roll (the library's concept field — the five marks: name · date · word · brought-by · witnessed-by; the line is written once and leaving is written the same way it was entered)"
   - "The Gate (the library's concept field — a gate and not a filter; consent rather than permission; the Gate does not close behind anyone)"

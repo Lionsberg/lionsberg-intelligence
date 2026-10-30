@@ -1,0 +1,2639 @@
+{
+ "v": 1,
+ "generated_at": "2026-10-24T09:20:00-07:00",
+ "actor": "person:player",
+ "calendar": "calendar-days",
+ "holons": [
+  {
+   "id": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "name": "Home",
+   "kind": "person",
+   "keeper": "person:player",
+   "as_of": {
+    "event": "cb80f666a4f7d563378e42d9ad4798adbeeffc45544fda683c9213c6894cf172",
+    "ts": "2026-10-24T09:14:00-07:00",
+    "lines": 212
+   }
+  },
+  {
+   "id": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "name": "Cell Two",
+   "kind": "cell",
+   "keeper": "person:steward",
+   "as_of": {
+    "event": "854b13a09ad4cf7e7d44c558f82a047bc7dfe6f0632e296cbdbe502556fcb33c",
+    "ts": "2026-10-24T08:40:00-07:00",
+    "lines": 88
+   }
+  },
+  {
+   "id": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "name": "The Gathering",
+   "kind": "room",
+   "keeper": "person:steward",
+   "as_of": {
+    "event": "77b9bebc5ac995dc464ce3974b5fd14345a655747b3a0bd92d1984429baed9aa",
+    "ts": "2026-10-24T09:19:00-07:00",
+    "lines": 41
+   }
+  }
+ ],
+ "actors": [
+  {
+   "id": "person:player",
+   "kind": "person",
+   "for": "person:player",
+   "holons": [
+    "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "agent:player-agent",
+   "kind": "agent",
+   "for": "person:player",
+   "holons": [
+    "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": {
+    "from": "person:player",
+    "scope": [
+     "say",
+     "card",
+     "claim",
+     "layout"
+    ],
+    "holons": [
+     "*"
+    ],
+    "until": "2026-12-21",
+    "live": true
+   }
+  },
+  {
+   "id": "person:steward",
+   "kind": "person",
+   "for": "person:steward",
+   "holons": [
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "person:neighbor",
+   "kind": "person",
+   "for": "person:neighbor",
+   "holons": [
+    "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "person:member",
+   "kind": "person",
+   "for": "person:member",
+   "holons": [
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "agent:steward-agent",
+   "kind": "agent",
+   "for": "person:steward",
+   "holons": [
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": {
+    "from": "person:steward",
+    "scope": [
+     "say",
+     "card",
+     "propose"
+    ],
+    "holons": [
+     "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+    ],
+    "until": "2026-12-21",
+    "live": true
+   }
+  },
+  {
+   "id": "person:guest",
+   "kind": "person",
+   "for": "person:guest",
+   "holons": [
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "agent:guest-agent",
+   "kind": "agent",
+   "for": "person:guest",
+   "holons": [
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": {
+    "from": "person:guest",
+    "scope": [
+     "say"
+    ],
+    "holons": [
+     "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+    ],
+    "until": "2026-10-25",
+    "live": true
+   }
+  }
+ ],
+ "cards": [
+  {
+   "id": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Bring the bread to Saturday's gathering",
+   "kind": "activity",
+   "stream": "Gathering",
+   "holder": "person:player",
+   "minutes": 30,
+   "by": "2026-10-31",
+   "stage": "will",
+   "state": "open",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 2,
+   "EF": 3,
+   "LS": 5,
+   "LF": 6,
+   "TF": 3,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "c5d531c1fe5e47c3374411a043a9389f1d8e5821a2d53c160ff3d6c6df0ef55e",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "title": "Fix the garden gate",
+   "kind": "activity",
+   "stream": "Garden",
+   "holder": "person:neighbor",
+   "minutes": 60,
+   "by": "2026-10-23",
+   "stage": "will",
+   "state": "delivered",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 0,
+   "LF": 1,
+   "TF": 0,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "d74773adacb8a33c2ef9e35a05314024ba1fa5bca6deac9a298ffb52b040a07a",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Choose the meeting day",
+   "kind": "decision",
+   "stream": "Gathering",
+   "holder": "person:player",
+   "minutes": 5,
+   "by": "2026-10-27",
+   "stage": "will",
+   "state": "open",
+   "predecessors": [],
+   "successors": [
+    "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116"
+   ],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 0,
+   "LF": 1,
+   "TF": 0,
+   "FF": 0,
+   "critical": true,
+   "system_critical": true,
+   "variance_days": null
+  },
+  {
+   "id": "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Book the hall",
+   "kind": "activity",
+   "stream": "Gathering",
+   "holder": "person:steward",
+   "minutes": 20,
+   "by": "2026-10-29",
+   "stage": "will",
+   "state": "ready",
+   "predecessors": [
+    "d74773adacb8a33c2ef9e35a05314024ba1fa5bca6deac9a298ffb52b040a07a"
+   ],
+   "successors": [
+    "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+   ],
+   "serves": [],
+   "audience": "holon",
+   "ES": 1,
+   "EF": 2,
+   "LS": 1,
+   "LF": 2,
+   "TF": 0,
+   "FF": 0,
+   "critical": true,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "The autumn gathering",
+   "kind": "milestone",
+   "stream": "Gathering",
+   "holder": "person:steward",
+   "minutes": 0,
+   "by": "2026-10-31",
+   "stage": "will",
+   "state": "ready",
+   "predecessors": [
+    "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116"
+   ],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 6,
+   "EF": 6,
+   "LS": 6,
+   "LF": 6,
+   "TF": 0,
+   "FF": 0,
+   "critical": true,
+   "system_critical": true,
+   "variance_days": null
+  },
+  {
+   "id": "643afc77f85e699ac9106618979b43453ed1c609ccf4221e91971ec38d087425",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Write to the new members",
+   "kind": "activity",
+   "stream": "Care",
+   "holder": "person:player",
+   "minutes": 40,
+   "by": "2026-10-22",
+   "stage": "did",
+   "state": "kept",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 2,
+   "LF": 3,
+   "TF": 2,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "3f47d8533271be7c6f87a2126ba24e0ae7ab1f2d275eba15f490a7adf37edef5",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Set out the chairs",
+   "kind": "activity",
+   "stream": "Gathering",
+   "holder": "person:member",
+   "minutes": 15,
+   "by": "2026-10-31",
+   "stage": "will",
+   "state": "taken",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 5,
+   "EF": 6,
+   "LS": 5,
+   "LF": 6,
+   "TF": 0,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "2c2102e769c9e76baffd34a36aa8fb556eba3caddaa8f4bf9f70b45b266eae47",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "title": "Sort the seed packets",
+   "kind": "activity",
+   "stream": "Garden",
+   "holder": "person:player",
+   "minutes": 20,
+   "by": "2026-11-02",
+   "stage": "will",
+   "state": "ready",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 3,
+   "EF": 4,
+   "LS": 9,
+   "LF": 10,
+   "TF": 6,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "ceb1f61fc7a0cc6621fbc3b63ce7df095aa737b4c7bba495a0497239e378cf8b",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Visit the neighbour who is unwell",
+   "kind": "activity",
+   "stream": "Care",
+   "holder": "person:member",
+   "minutes": 45,
+   "by": "2026-10-26",
+   "stage": "will",
+   "state": "taken",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 1,
+   "LF": 2,
+   "TF": 1,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "47086abff1864db014ae0fbab71e07de2d27b8e94de51b8bfbe90a525bd5d6ea",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "title": "Bring soup for the room",
+   "kind": "activity",
+   "stream": "Room",
+   "holder": "person:member",
+   "minutes": 30,
+   "by": "2026-10-24",
+   "stage": "will",
+   "state": "open",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 0,
+   "LF": 1,
+   "TF": 0,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "692dd4ce4f7009d00fd13206dc60059f0cad2ea321d72e6df13cfcb5952cbee1",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "title": "Write down what the room decided",
+   "kind": "review",
+   "stream": "Room",
+   "holder": "person:player",
+   "minutes": 10,
+   "by": "2026-10-24",
+   "stage": "will",
+   "state": "open",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 1,
+   "LF": 2,
+   "TF": 1,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "b9e0b9a0ee79b554ccd01c06d2a9bcc4b257daf757de803b0e27e2a94ada5ce7",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "title": "Bring the costs for the first week",
+   "kind": "activity",
+   "stream": "Room",
+   "holder": "person:player",
+   "minutes": 60,
+   "by": "2026-10-29",
+   "stage": "should",
+   "state": "open",
+   "predecessors": [],
+   "successors": [
+    "5a02fd753f7f89b44cd88ac02e17450c7673e74391c9a8ef3c1fff1c0561c15d"
+   ],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 1,
+   "LF": 2,
+   "TF": 1,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  },
+  {
+   "id": "5a02fd753f7f89b44cd88ac02e17450c7673e74391c9a8ef3c1fff1c0561c15d",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "title": "Ask the hall about the first Saturday",
+   "kind": "activity",
+   "stream": "Room",
+   "holder": "person:member",
+   "minutes": 20,
+   "by": "2026-10-28",
+   "stage": "will",
+   "state": "taken",
+   "predecessors": [
+    "b9e0b9a0ee79b554ccd01c06d2a9bcc4b257daf757de803b0e27e2a94ada5ce7"
+   ],
+   "successors": [],
+   "serves": [
+    "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+   ],
+   "audience": "holon",
+   "ES": 1,
+   "EF": 2,
+   "LS": 1,
+   "LF": 2,
+   "TF": 0,
+   "FF": 0,
+   "critical": true,
+   "system_critical": true,
+   "variance_days": null
+  },
+  {
+   "id": "54943c101110db67094237b85864a60dfe9d154a4846168dcc64fada299b9052",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "title": "The draft plan for the first week",
+   "kind": "draft",
+   "stream": "Room",
+   "holder": "person:steward",
+   "minutes": 8,
+   "by": "2026-10-26",
+   "stage": "can",
+   "state": "ready",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 3,
+   "LF": 4,
+   "TF": 3,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  }
+ ],
+ "commitments": [
+  {
+   "id": "10dad2f89b423a522a0871a131cf50fde8c429e481e3c4aed39ea5ae1effe996",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "card": "c5d531c1fe5e47c3374411a043a9389f1d8e5821a2d53c160ff3d6c6df0ef55e",
+   "title": "Fix the garden gate",
+   "keeper": "person:neighbor",
+   "by": "2026-10-23",
+   "size": 60,
+   "witness": "person:player",
+   "conditions": "",
+   "status": "kept-unwitnessed",
+   "gap_days": null
+  },
+  {
+   "id": "3edfbc9e12619227359c2a4157b91b3b96f354617635ae3b639c20d16872644d",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "card": "643afc77f85e699ac9106618979b43453ed1c609ccf4221e91971ec38d087425",
+   "title": "Write to the new members",
+   "keeper": "person:player",
+   "by": "2026-10-22",
+   "size": 40,
+   "witness": "person:steward",
+   "conditions": "",
+   "status": "kept",
+   "gap_days": -1
+  },
+  {
+   "id": "cf3e1df3c6e3299cd1113824a05a79fedee1c00e7304ee0c25c42e700a2f805f",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "card": "3f47d8533271be7c6f87a2126ba24e0ae7ab1f2d275eba15f490a7adf37edef5",
+   "title": "Set out the chairs",
+   "keeper": "person:member",
+   "by": "2026-10-31",
+   "size": 15,
+   "witness": "person:player",
+   "conditions": "",
+   "status": "open",
+   "gap_days": null
+  },
+  {
+   "id": "fc13c13f1290b900ab501d1d1c21a7f334ca08fb9d444cad9b286e96b02dd987",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "card": "ceb1f61fc7a0cc6621fbc3b63ce7df095aa737b4c7bba495a0497239e378cf8b",
+   "title": "Visit the neighbour who is unwell",
+   "keeper": "person:member",
+   "by": "2026-10-26",
+   "size": 45,
+   "witness": "person:steward",
+   "conditions": "",
+   "status": "open",
+   "gap_days": null
+  },
+  {
+   "id": "86b82dc2b2c95f24d7b665c865928a79670a3c8000bcbf0260da235a49bfb9ed",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "card": "47086abff1864db014ae0fbab71e07de2d27b8e94de51b8bfbe90a525bd5d6ea",
+   "title": "Bring soup for the room",
+   "keeper": "person:member",
+   "by": "2026-10-24",
+   "size": 30,
+   "witness": "person:steward",
+   "conditions": "",
+   "status": "open",
+   "gap_days": null
+  },
+  {
+   "id": "d69a77bd8c1a162421c4aae7a6d022502d0a6facaaec51944f5c3ed85a20917e",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "card": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+   "title": "Bread to Cell Two",
+   "keeper": "person:player",
+   "by": "2026-10-17",
+   "size": 30,
+   "witness": "person:steward",
+   "conditions": "",
+   "status": "kept",
+   "gap_days": 1
+  }
+ ],
+ "threads": [
+  {
+   "id": "5a875681308ce612f72431643c7d71b1867db4d7554ca57ac6f046341722e64d",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "anchored_to": "47086abff1864db014ae0fbab71e07de2d27b8e94de51b8bfbe90a525bd5d6ea",
+   "title": "Who brings the soup",
+   "lines": 3,
+   "last_actor": "person:member",
+   "last_ts": "2026-10-24T08:58:00-07:00",
+   "settled": false,
+   "to": [
+    "person:player"
+   ],
+   "stake": {
+    "blocks": [
+     "47086abff1864db014ae0fbab71e07de2d27b8e94de51b8bfbe90a525bd5d6ea",
+     "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+    ],
+    "critical": true,
+    "by": "2026-10-24",
+    "holder": "person:player",
+    "urgency": "before noon, please",
+    "minutes": 2
+   }
+  },
+  {
+   "id": "4fb85abcf2acaa844ae0de356b1e70d2d7d22edbe5d5e8ae87be51650879a3d7",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "anchored_to": "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85",
+   "title": "When on Monday",
+   "lines": 3,
+   "last_actor": "person:steward",
+   "last_ts": "2026-10-24T09:12:00-07:00",
+   "settled": true,
+   "to": []
+  },
+  {
+   "id": "a37c82d951561128f15b0eebfddf450189d1dca4c605aad309ce559f08c2500a",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "anchored_to": "2c2102e769c9e76baffd34a36aa8fb556eba3caddaa8f4bf9f70b45b266eae47",
+   "title": "Swap seeds on Sunday?",
+   "lines": 2,
+   "last_actor": "person:player",
+   "last_ts": "2026-10-24T08:50:00-07:00",
+   "settled": false,
+   "to": [
+    "person:neighbor"
+   ]
+  },
+  {
+   "id": "96b5567f3cf875a537e31e922860418e7e57591d2a8333d59f851f05d6420d17",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "anchored_to": "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116",
+   "title": "Who keeps the hall key?",
+   "lines": 1,
+   "last_actor": "person:steward",
+   "last_ts": "2026-10-24T08:35:00-07:00",
+   "settled": false,
+   "to": [
+    "agent:player-agent"
+   ],
+   "stake": {
+    "blocks": [
+     "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116"
+    ],
+    "critical": false,
+    "by": "2026-10-28",
+    "holder": "agent:player-agent",
+    "urgency": "this week",
+    "minutes": 5
+   }
+  }
+ ],
+ "decisions": [
+  {
+   "id": "11911c3fc001bdf56c1c47aa4871c62002f30db7cc46e50a6e96d96355caeca2",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Choose the meeting day",
+   "holder": "person:player",
+   "state": "open",
+   "ratifier": "person:steward"
+  }
+ ],
+ "sightings": {
+  "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": {
+   "as_of": "2026-10-24T09:19:00-07:00",
+   "new": [
+    {
+     "id": "4d2e4e36d661891425acf59b54ff41130b2b6f742f8ca08c817352c0c29dd501",
+     "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+     "kind": "hazard",
+     "text": "The back step of the hall is loose.",
+     "where": "the hall",
+     "actor": "person:member",
+     "ts": "2026-10-24T09:14:00-07:00",
+     "status": "new"
+    }
+   ],
+   "held": [],
+   "elevated": [],
+   "folded": []
+  },
+  "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+   "as_of": "2026-10-24T08:40:00-07:00",
+   "new": [],
+   "held": [],
+   "elevated": [
+    {
+     "id": "f7dfa62567df8fa85d6aa26d56f43525770538f0d6402cbd6c57c4ffb2ad5f59",
+     "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+     "kind": "defect",
+     "text": "The lane gate does not latch.",
+     "where": "the lane",
+     "actor": "person:neighbor",
+     "ts": "2026-10-23T08:00:00-07:00",
+     "status": "elevated",
+     "elevated": {
+      "by": "person:steward",
+      "to": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+      "why": "Every garden on the lane shares the gate.",
+      "witness": "person:player",
+      "line": "731b7fdf07079c4036fc8793da985e550dde8279ee1ef6ff51b9857ea9c15c42",
+      "ts": "2026-10-23T12:00:00-07:00"
+     }
+    }
+   ],
+   "folded": []
+  },
+  "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4": {
+   "as_of": null,
+   "new": [],
+   "held": [],
+   "elevated": [],
+   "folded": []
+  }
+ },
+ "tea": {
+  "by_actor": {
+   "person:player": {
+    "minutes": 840,
+    "witnessed_minutes": 660
+   }
+  },
+  "by_holon": {
+   "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+    "minutes": 1290
+   }
+  },
+  "by_card": {},
+  "by_stream": {},
+  "witness": {},
+  "convertible": false,
+  "chain": [],
+  "entries": [
+   {
+    "line": "07b36c45b7cdc02c5e1bba82b7baf8288cbcebc0b8dcfbf573b7cdbcd297f1fc",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "card": "643afc77f85e699ac9106618979b43453ed1c609ccf4221e91971ec38d087425",
+    "actor": "person:player",
+    "ts": "2026-10-21T18:10:00-07:00",
+    "minutes": 40,
+    "energy": 7,
+    "attention": 8,
+    "witness": "supercell"
+   },
+   {
+    "line": "d9d69d2df7591518b06f92d1675bd4361964e2845d9800d47b29147aec5da4dd",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "card": "d74773adacb8a33c2ef9e35a05314024ba1fa5bca6deac9a298ffb52b040a07a",
+    "actor": "person:player",
+    "ts": "2026-10-22T19:30:00-07:00",
+    "minutes": 25,
+    "energy": 6,
+    "attention": 9,
+    "witness": "keeper"
+   },
+   {
+    "line": "82e8bdc33a38a5f1cdb54b068f509763fc632ba3185ab73a92c27ec80c323862",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "card": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+    "actor": "person:player",
+    "ts": "2026-10-24T07:50:00-07:00",
+    "minutes": 30,
+    "energy": 5,
+    "attention": 6,
+    "witness": "unwitnessed"
+   },
+   {
+    "line": "b28c14406b5eb3f6f3bb5746bfd5370b7a3b47f2b07b93803a6474cc47970479",
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "card": "2c2102e769c9e76baffd34a36aa8fb556eba3caddaa8f4bf9f70b45b266eae47",
+    "actor": "person:player",
+    "ts": "2026-10-23T16:00:00-07:00",
+    "minutes": 20,
+    "energy": 4,
+    "attention": 5,
+    "witness": "unwitnessed"
+   },
+   {
+    "line": "f19893961fe46b75378b2862f546d6691d99bea181cca70b038cd75494337097",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "card": "ceb1f61fc7a0cc6621fbc3b63ce7df095aa737b4c7bba495a0497239e378cf8b",
+    "actor": "person:member",
+    "ts": "2026-10-23T17:00:00-07:00",
+    "minutes": 45,
+    "energy": 6,
+    "attention": 7,
+    "witness": "unwitnessed"
+   }
+  ],
+  "season": {
+   "from": "2026-09-22",
+   "to": "2026-12-21",
+   "minutes": 840,
+   "witnessed_minutes": 660
+  }
+ },
+ "discernments": {
+  "count": 4,
+  "by_route": {},
+  "by_verdict": {
+   "chosen": 2,
+   "corrected": 1,
+   "rated": 1
+  },
+  "lines": [
+   {
+    "line": "1eaef6ea06a8190268759a6697770f262713584db2e47a43ec1bb547cecdcbd4",
+    "ts": "2026-10-21T10:00:00-07:00",
+    "verdict": "corrected",
+    "about": "a draft to Cell Two"
+   },
+   {
+    "line": "5ae4479ba76e236e89281bce0bb565aa1c4d92e800021eec479afcefe6c614c3",
+    "ts": "2026-10-22T09:00:00-07:00",
+    "verdict": "chosen",
+    "about": "the Saturday suggestion"
+   },
+   {
+    "line": "599098c89531fdfa2a2e22693faad7396696951afdd1ddc9951d230cd795e1a7",
+    "ts": "2026-10-24T07:40:00-07:00",
+    "verdict": "chosen",
+    "about": "the order of today's cards"
+   },
+   {
+    "line": "39ea4c1e2b9f73af7fe53664f40ab50e1fa60c8dbe8bd0303d5302001ba6ac41",
+    "ts": "2026-10-24T07:45:00-07:00",
+    "verdict": "rated",
+    "about": "a summary of the cell's week"
+   }
+  ]
+ },
+ "deal": {
+  "actor": "person:player",
+  "minutes_available": 15,
+  "minutes_dealt": 8,
+  "room": [
+   "person:player"
+  ],
+  "opening": "Here's the deal.",
+  "cards": [
+   {
+    "n": 1,
+    "section": "owed",
+    "id": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "holon_name": "Cell Two",
+    "question": "Will you bring the bread to Saturday's gathering?",
+    "options": [
+     "Yes, by Saturday",
+     "Not this week",
+     "Hand it on"
+    ],
+    "recommendation": "Yes, by Saturday",
+    "why": "You have Friday evening free, and three people are counting on it.",
+    "unlocks": "The gathering's table",
+    "kind": "request",
+    "minutes": 5,
+    "consequences": [
+     "I will tell Cell Two you will bring the bread by Saturday.",
+     "I will tell Cell Two you cannot bring it this week.",
+     "I will ask Cell Two who else can bring it."
+    ],
+    "leverage": 6.2,
+    "whole_waits": false
+   },
+   {
+    "n": 2,
+    "section": "owed",
+    "id": "c5d531c1fe5e47c3374411a043a9389f1d8e5821a2d53c160ff3d6c6df0ef55e",
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "holon_name": "Home",
+    "question": "Your neighbour said she would fix the gate by Friday. Did she?",
+    "options": [
+     "She did",
+     "Not yet",
+     "I will ask her"
+    ],
+    "recommendation": null,
+    "why": "Her commitment was to you, so your word closes it.",
+    "unlocks": "",
+    "kind": "",
+    "minutes": 3,
+    "consequences": [
+     "I will mark the gate as kept, with your word as its witness.",
+     "I will keep it open and ask again on Monday.",
+     "I will remind you to ask her this evening."
+    ],
+    "leverage": 2.0,
+    "whole_waits": false
+   }
+  ],
+  "briefing": "Cell Two is waiting on your yes about the bread for Saturday, and the gate your neighbour said she would fix is a day past.",
+  "beyond": {
+   "count": 2,
+   "minutes": 35
+  },
+  "question": "What did we miss that matters to you most?",
+  "rule": "near-critical minutes freed ÷ √(own minutes)",
+  "as_of": {
+   "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4": "cb80f666a4f7d563378e42d9ad4798adbeeffc45544fda683c9213c6894cf172",
+   "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": "854b13a09ad4cf7e7d44c558f82a047bc7dfe6f0632e296cbdbe502556fcb33c",
+   "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": "d9e3f3c5c7543a2d6907a8f3904a3f9195c4e24d7080543520a7cb9510824488"
+  }
+ },
+ "owed": {
+  "entries": [
+   {
+    "kind": "request",
+    "id": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "title": "Bring the bread to Saturday's gathering",
+    "holder": "person:player",
+    "status": "open",
+    "due": "2026-10-31",
+    "age_days": 2,
+    "minutes": 30
+   },
+   {
+    "kind": "claim",
+    "id": "c5d531c1fe5e47c3374411a043a9389f1d8e5821a2d53c160ff3d6c6df0ef55e",
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "title": "Fix the garden gate",
+    "holder": "person:player",
+    "status": "open",
+    "due": "2026-10-23",
+    "age_days": 1,
+    "minutes": 3
+   },
+   {
+    "kind": "ratify",
+    "id": "11911c3fc001bdf56c1c47aa4871c62002f30db7cc46e50a6e96d96355caeca2",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "title": "Choose the meeting day",
+    "holder": "person:player",
+    "status": "open",
+    "due": "2026-10-27",
+    "age_days": 0,
+    "minutes": 5
+   },
+   {
+    "kind": "thread",
+    "id": "5a875681308ce612f72431643c7d71b1867db4d7554ca57ac6f046341722e64d",
+    "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "title": "Who brings the soup",
+    "holder": "person:player",
+    "status": "open",
+    "due": null,
+    "age_days": 0,
+    "minutes": 2
+   },
+   {
+    "kind": "commitment",
+    "id": "cf3e1df3c6e3299cd1113824a05a79fedee1c00e7304ee0c25c42e700a2f805f",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "title": "Set out the chairs",
+    "holder": "person:member",
+    "status": "open",
+    "due": "2026-10-31",
+    "age_days": 3,
+    "minutes": 15
+   },
+   {
+    "kind": "commitment",
+    "id": "10dad2f89b423a522a0871a131cf50fde8c429e481e3c4aed39ea5ae1effe996",
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "title": "Fix the garden gate",
+    "holder": "person:neighbor",
+    "status": "open",
+    "due": "2026-10-23",
+    "age_days": 1,
+    "minutes": 60
+   },
+   {
+    "kind": "request",
+    "id": "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "title": "Book the hall",
+    "holder": "person:steward",
+    "status": "open",
+    "due": "2026-10-29",
+    "age_days": 0,
+    "minutes": 20
+   },
+   {
+    "kind": "request",
+    "id": "b9e0b9a0ee79b554ccd01c06d2a9bcc4b257daf757de803b0e27e2a94ada5ce7",
+    "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "title": "Bring the costs for the first week",
+    "holder": "person:player",
+    "status": "open",
+    "due": "2026-10-29",
+    "age_days": 0,
+    "minutes": 60
+   }
+  ],
+  "proposals": [
+   {
+    "kind": "request",
+    "id": "3584ff3b4f00048b7844db0c7b2518bcb55ac36ace17e59276b4b456c4bd4cff",
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "title": "Reply about the seed swap",
+    "holder": "person:player",
+    "status": "open",
+    "due": null,
+    "age_days": 0,
+    "minutes": 5
+   }
+  ]
+ },
+ "kept": {
+  "window": {
+   "from": "2026-10-17",
+   "to": "2026-10-24"
+  },
+  "by_holon": {
+   "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+    "made": 8,
+    "kept": 7,
+    "kept_unwitnessed": 0,
+    "broken": 1,
+    "released": 0,
+    "returned": 0,
+    "open": 3,
+    "share": 0.875
+   },
+   "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": {
+    "made": 1,
+    "kept": 0,
+    "kept_unwitnessed": 0,
+    "broken": 0,
+    "released": 0,
+    "returned": 0,
+    "open": 1,
+    "share": null
+   }
+  },
+  "by_actor": {
+   "person:player": {
+    "made": 4,
+    "kept": 3,
+    "kept_unwitnessed": 0,
+    "broken": 0,
+    "released": 0,
+    "returned": 0,
+    "open": 1,
+    "share": 1.0
+   }
+  },
+  "commitments": [
+   "3edfbc9e12619227359c2a4157b91b3b96f354617635ae3b639c20d16872644d"
+  ],
+  "learning": [
+   {
+    "id": "e45e1110cf81e541a827c59e7bb24fafbc9413150f6962e4f8e9df8f8532a9a8",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "actor": "person:player",
+    "text": "Ask for the hall key on Thursday, so Friday is free for baking.",
+    "about": "d69a77bd8c1a162421c4aae7a6d022502d0a6facaaec51944f5c3ed85a20917e"
+   }
+  ]
+ },
+ "score": {
+  "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+   "earned": 120,
+   "planned": 150,
+   "minutes_done": 120,
+   "minutes_total": 300,
+   "spi": 0.8,
+   "as_of": "2026-10-24T09:20:00-07:00"
+  }
+ },
+ "buffers": [
+  {
+   "milestone": "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "size_days": 4,
+   "consumed_days": 1,
+   "chain_complete": 0.4,
+   "signal": "calm"
+  }
+ ],
+ "load": [
+  {
+   "actor": "person:player",
+   "date": "2026-10-24",
+   "minutes": 45,
+   "capacity": 120
+  }
+ ],
+ "path": {
+  "critical": [
+   "d74773adacb8a33c2ef9e35a05314024ba1fa5bca6deac9a298ffb52b040a07a",
+   "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116",
+   "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+  ],
+  "system": [
+   "d74773adacb8a33c2ef9e35a05314024ba1fa5bca6deac9a298ffb52b040a07a",
+   "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+  ],
+  "finish": "2026-10-31"
+ },
+ "turn": {
+  "depth_due": "daily",
+  "last_daily": "2026-10-23T21:00:00-07:00",
+  "last_lunar": null,
+  "last_weekly": "2026-10-18T19:00:00-07:00",
+  "last_seasonal": null,
+  "next_weekly_due": "2026-10-25",
+  "draft": {
+   "kept": {
+    "text": "The letters to the new members, a day early.",
+    "status": "draft"
+   },
+   "gap": {
+    "text": "The bread came a day late. Ask for the hall key on Thursday.",
+    "status": "draft"
+   },
+   "next": {
+    "text": "Choose the meeting day, so the hall can be booked.",
+    "status": "draft"
+   },
+   "flame": {
+    "text": "Thank the neighbour for the gate.",
+    "status": "draft"
+   }
+  }
+ },
+ "invalid": [
+  {
+   "id": "3961bed094fa3e67b7bd90f370924a1e19ccb69c9286fcac9e521aaa184efbbf",
+   "type": "supersede",
+   "actor": "agent:guest-agent",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "invalid_reason": "it changed a line that had changed since it was read; returned to its agent"
+  }
+ ],
+ "pending": [],
+ "problems": [],
+ "notes": [],
+ "roles": {
+  "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4": {
+   "person:player": "keeper",
+   "person:neighbor": "member",
+   "agent:player-agent": "agent"
+  },
+  "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+   "person:steward": "keeper",
+   "person:player": "member",
+   "person:member": "member",
+   "agent:player-agent": "agent"
+  },
+  "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": {
+   "person:steward": "keeper",
+   "person:player": "member",
+   "person:member": "member",
+   "agent:player-agent": "agent",
+   "person:guest": "guest",
+   "agent:steward-agent": "agent",
+   "agent:guest-agent": "agent"
+  }
+ },
+ "rooms": {
+  "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": {
+   "id": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "name": "The Gathering",
+   "keeper": "person:steward",
+   "present": [
+    {
+     "actor": "person:steward",
+     "kind": "person",
+     "for": "person:steward",
+     "role": "keeper",
+     "state": "speaking"
+    },
+    {
+     "actor": "agent:steward-agent",
+     "kind": "agent",
+     "for": "person:steward",
+     "role": "agent",
+     "state": "keeping the Play by Play"
+    },
+    {
+     "actor": "person:player",
+     "kind": "person",
+     "for": "person:player",
+     "role": "member",
+     "state": "here"
+    },
+    {
+     "actor": "agent:player-agent",
+     "kind": "agent",
+     "for": "person:player",
+     "role": "agent",
+     "state": "listening"
+    },
+    {
+     "actor": "person:member",
+     "kind": "person",
+     "for": "person:member",
+     "role": "member",
+     "state": "here"
+    },
+    {
+     "actor": "person:guest",
+     "kind": "person",
+     "for": "person:guest",
+     "role": "guest",
+     "state": "here",
+     "house": "second"
+    },
+    {
+     "actor": "agent:guest-agent",
+     "kind": "agent",
+     "for": "person:guest",
+     "role": "agent",
+     "state": "offering"
+    }
+   ],
+   "posture": {
+    "posture": "open",
+    "curing_days": 3,
+    "by": "person:steward",
+    "agreed_by": [
+     "person:steward",
+     "person:player",
+     "person:member",
+     "person:guest"
+    ]
+   },
+   "lines": [
+    "943334792df5b3e8ed7ac144a4f6c22347755f1534965c49df99f51373134b9c",
+    "36cfa2803f763980dbbb9c0722381ff4b20f37f0cafe182cd1fc71973d6a8f32",
+    "c0f56a9dac4c740b7e21327b8d210f2ad3be69b452180c5207a314c8689f908f",
+    "edc519c04ee4565d485d5967e74f23adf29d049343d39340f2b060111924890d",
+    "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85",
+    "134a145255399cba9036ff557791e916fd1572172ad405cdd303aa8be95d7e71"
+   ],
+   "offered": [
+    {
+     "line": "4d2e4e36d661891425acf59b54ff41130b2b6f742f8ca08c817352c0c29dd501",
+     "by": "person:member",
+     "for": "person:member",
+     "reason": "human"
+    },
+    {
+     "line": "71697c66bd2ef904f9dc73993ec1c0d5ef9f27b7518a2dfcbea8bd51670c2d13",
+     "by": "agent:steward-agent",
+     "for": "person:steward",
+     "reason": "delegated"
+    },
+    {
+     "line": "8dea2fb2ae862c15e4cba064e86775493e3cd40b1ad098cb6a2ba5c2c1e990eb",
+     "by": "agent:player-agent",
+     "for": "person:player",
+     "reason": "delegated"
+    },
+    {
+     "line": "3b6c1d33f2a3f3ea9abd45f2dbc260c23850bc983836912d5117b6b8e3ee117e",
+     "by": "agent:guest-agent",
+     "for": "person:guest",
+     "reason": "untrusted"
+    },
+    {
+     "line": "ec7a6af97e760b3b269c49a10bf6deb82a04bd8b95cda7a3bcae504f1edf51da",
+     "by": "agent:steward-agent",
+     "for": "person:steward",
+     "reason": "delegated"
+    },
+    {
+     "line": "03f5833865743921e6d759595a0e22d3bbff5ce59ac6b07acefe169992a43434",
+     "by": "agent:guest-agent",
+     "for": "person:guest",
+     "reason": "delegated"
+    }
+   ],
+   "awaiting_yes": [
+    "77b9bebc5ac995dc464ce3974b5fd14345a655747b3a0bd92d1984429baed9aa"
+   ],
+   "agreed_by": {
+    "edc519c04ee4565d485d5967e74f23adf29d049343d39340f2b060111924890d": [
+     "person:guest"
+    ],
+    "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85": [
+     "person:steward"
+    ],
+    "134a145255399cba9036ff557791e916fd1572172ad405cdd303aa8be95d7e71": [
+     "person:member"
+    ],
+    "c0f56a9dac4c740b7e21327b8d210f2ad3be69b452180c5207a314c8689f908f": [
+     "person:steward"
+    ],
+    "36cfa2803f763980dbbb9c0722381ff4b20f37f0cafe182cd1fc71973d6a8f32": [
+     "person:steward"
+    ],
+    "943334792df5b3e8ed7ac144a4f6c22347755f1534965c49df99f51373134b9c": [
+     "person:member"
+    ]
+   },
+   "opened": "2026-10-24T09:00:00-07:00",
+   "closed": null,
+   "deal_open": {
+    "actor": "person:player",
+    "minutes_available": 12,
+    "minutes_dealt": 11,
+    "opening": "Here's the deal.",
+    "cards": [
+     {
+      "n": 1,
+      "section": "ready",
+      "id": "54943c101110db67094237b85864a60dfe9d154a4846168dcc64fada299b9052",
+      "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+      "holon_name": "The Gathering",
+      "question": "Read the draft plan before the room meets?",
+      "options": [
+       "Read it now",
+       "I will read it Sunday",
+       "Skip it"
+      ],
+      "recommendation": "Read it now",
+      "why": "About eight minutes, and the budget part leans on it.",
+      "unlocks": "",
+      "kind": "draft",
+      "minutes": 8,
+      "leverage": 3.0,
+      "whole_waits": false
+     },
+     {
+      "n": 2,
+      "section": "owed",
+      "id": "b9e0b9a0ee79b554ccd01c06d2a9bcc4b257daf757de803b0e27e2a94ada5ce7",
+      "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+      "holon_name": "The Gathering",
+      "question": "You said you would bring the costs. Still on?",
+      "options": [
+       "Yes, on track",
+       "I need more time",
+       "Pass it on"
+      ],
+      "recommendation": null,
+      "why": "The keeper will witness it.",
+      "unlocks": "",
+      "kind": "commitment",
+      "minutes": 3,
+      "leverage": 2.0,
+      "whole_waits": false
+     }
+    ],
+    "question": "What did we miss that matters to you most?"
+   },
+   "deal_close": null,
+   "purpose": "To choose what we do in our first week.",
+   "phase": "work",
+   "parts": [
+    {
+     "n": 1,
+     "title": "Where we are",
+     "question": "What do we have, and what is missing?",
+     "minutes": 8,
+     "started": "2026-10-24T09:04:00-07:00",
+     "ended": "2026-10-24T09:12:00-07:00"
+    },
+    {
+     "n": 2,
+     "title": "The budget",
+     "question": "What can we spend, and on what?",
+     "minutes": 20,
+     "started": "2026-10-24T09:12:00-07:00",
+     "ended": null
+    },
+    {
+     "n": 3,
+     "title": "Who carries what",
+     "question": "Who will carry each thing, and by when?",
+     "minutes": 15,
+     "started": null,
+     "ended": null
+    },
+    {
+     "n": 4,
+     "title": "What we commit to",
+     "question": "What will each of us commit to before we close?",
+     "minutes": 10,
+     "started": null,
+     "ended": null
+    }
+   ],
+   "current_part": 2,
+   "play_by_play_keeper": "agent:steward-agent",
+   "links": [
+    {
+     "title": "The draft plan"
+    },
+    {
+     "title": "Last year's costs"
+    },
+    {
+     "title": "The hall's calendar"
+    }
+   ],
+   "big_ideas": [
+    "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85",
+    "edc519c04ee4565d485d5967e74f23adf29d049343d39340f2b060111924890d",
+    "134a145255399cba9036ff557791e916fd1572172ad405cdd303aa8be95d7e71"
+   ],
+   "line_meta": {
+    "943334792df5b3e8ed7ac144a4f6c22347755f1534965c49df99f51373134b9c": {
+     "part": 2
+    },
+    "36cfa2803f763980dbbb9c0722381ff4b20f37f0cafe182cd1fc71973d6a8f32": {
+     "part": 2
+    },
+    "c0f56a9dac4c740b7e21327b8d210f2ad3be69b452180c5207a314c8689f908f": {
+     "part": 2
+    },
+    "edc519c04ee4565d485d5967e74f23adf29d049343d39340f2b060111924890d": {
+     "part": 2
+    },
+    "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85": {
+     "part": 1
+    },
+    "134a145255399cba9036ff557791e916fd1572172ad405cdd303aa8be95d7e71": {
+     "part": 1
+    }
+   },
+   "curing_until": null
+  }
+ },
+ "_proposed": "This fixture carries only STATE.md v1 fields plus the server's hud block. Fields the HUD still needs are named as proposals where they are added.",
+ "hud": {
+  "v": 1,
+  "mode": "fixture",
+  "fixture": "room-work",
+  "now": "2026-10-24T09:20:00-07:00",
+  "served_at": "2026-10-24T09:20:00-07:00",
+  "undo_ms": 5000,
+  "sources": [
+   {
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "name": "Home",
+    "path": ".",
+    "readable": true,
+    "heard": "2026-10-24T09:15:00-07:00"
+   },
+   {
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "name": "Cell Two",
+    "path": "cells/cell-two",
+    "readable": true,
+    "heard": "2026-10-24T09:15:00-07:00"
+   },
+   {
+    "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "name": "The Gathering",
+    "path": "cells/gathering",
+    "readable": true,
+    "heard": "2026-10-24T09:15:00-07:00"
+   }
+  ],
+  "layouts": [
+   {
+    "id": "5ec05c062c06bf3ef948d828c60c6c9e03863cc128df25cec8001268072097d8",
+    "actor": "person:player",
+    "ts": "2026-10-24T09:00:00-07:00",
+    "name": "room",
+    "views": [
+     "deal",
+     "room"
+    ],
+    "hidden": [],
+    "holons": [],
+    "type": "regular",
+    "theme": "system",
+    "density": "calm",
+    "default": false
+   }
+  ],
+  "pending": [],
+  "talk": {
+   "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": [
+    {
+     "id": "said-1",
+     "by": "person:steward",
+     "for": "person:steward",
+     "ts": "2026-10-24T09:12:00-07:00",
+     "part": 2,
+     "text": "The hall is the biggest cost, so I would start there."
+    },
+    {
+     "id": "said-2",
+     "by": "person:member",
+     "for": "person:member",
+     "ts": "2026-10-24T09:14:00-07:00",
+     "part": 2,
+     "text": "Last year we paid for the hall and the soup, and little else."
+    },
+    {
+     "id": "said-3",
+     "by": "person:guest",
+     "for": "person:guest",
+     "ts": "2026-10-24T09:15:00-07:00",
+     "part": 2,
+     "text": "In our house the hall was free in exchange for cleaning it."
+    },
+    {
+     "id": "said-4",
+     "by": "person:player",
+     "for": "person:player",
+     "ts": "2026-10-24T09:18:00-07:00",
+     "part": 2,
+     "text": "I can bring the costs, though not before Wednesday."
+    },
+    {
+     "id": "whisper-1",
+     "by": "agent:player-agent",
+     "for": "person:player",
+     "ts": "2026-10-24T09:15:00-07:00",
+     "part": 2,
+     "whisper": true,
+     "to": [
+      "agent:steward-agent"
+     ],
+     "text": "My person's sheet has last year's soup figure."
+    },
+    {
+     "id": "whisper-2",
+     "by": "agent:steward-agent",
+     "for": "person:steward",
+     "ts": "2026-10-24T09:15:00-07:00",
+     "part": 2,
+     "whisper": true,
+     "to": [
+      "agent:player-agent"
+     ],
+     "text": "Thank you. I will offer it if the keeper asks."
+    }
+   ]
+  }
+ },
+ "questions": [
+  {
+   "id": "57cf40147ba34445ffcbbbbe6d4eaeb881ee82e6a1d9d6a6d5671d1c2600c609",
+   "type": "rfg",
+   "from_holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "to": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "question": "May the room hold the hall key overnight?",
+   "about": null,
+   "blast_radius": null,
+   "rung": {
+    "n": 2,
+    "name": "cell"
+   },
+   "holder": "person:steward",
+   "by": "2026-10-26",
+   "ts": "2026-10-24T09:05:00-07:00",
+   "asker": "person:member",
+   "state": "open",
+   "closed_by": null,
+   "next": null,
+   "past": []
+  },
+  {
+   "id": "3ba593dff8003233c42d82a4cf9e62fda9e426ecbe845aedcd6ddf5dc0790ad6",
+   "type": "escalate",
+   "from_holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "to": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "question": "Book the hall",
+   "about": "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116",
+   "blast_radius": "the whole gathering",
+   "rung": {
+    "n": 2,
+    "name": "cell"
+   },
+   "holder": "person:steward",
+   "by": "2026-10-30",
+   "ts": "2026-10-23T12:10:00-07:00",
+   "asker": "person:steward",
+   "state": "open",
+   "closed_by": null,
+   "next": null,
+   "past": []
+  }
+ ],
+ "ladders": {
+  "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4": [
+   {
+    "n": 1,
+    "name": "person",
+    "remit": "",
+    "days": 1
+   },
+   {
+    "n": 2,
+    "name": "cell",
+    "remit": "",
+    "days": 7
+   },
+   {
+    "n": 3,
+    "name": "council",
+    "remit": "",
+    "days": 14
+   },
+   {
+    "n": 4,
+    "name": "body",
+    "remit": "",
+    "days": 30
+   }
+  ],
+  "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": [
+   {
+    "n": 1,
+    "name": "person",
+    "remit": "",
+    "days": 1
+   },
+   {
+    "n": 2,
+    "name": "cell",
+    "remit": "",
+    "days": 7
+   },
+   {
+    "n": 3,
+    "name": "council",
+    "remit": "",
+    "days": 14
+   },
+   {
+    "n": 4,
+    "name": "body",
+    "remit": "",
+    "days": 30
+   }
+  ],
+  "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": [
+   {
+    "n": 1,
+    "name": "person",
+    "remit": "",
+    "days": 1
+   },
+   {
+    "n": 2,
+    "name": "cell",
+    "remit": "",
+    "days": 7
+   },
+   {
+    "n": 3,
+    "name": "council",
+    "remit": "",
+    "days": 14
+   },
+   {
+    "n": 4,
+    "name": "body",
+    "remit": "",
+    "days": 30
+   }
+  ]
+ },
+ "mail": {
+  "mailboxes": [
+   {
+    "actor": "person:player",
+    "reachable": true,
+    "last_read": "2026-10-24T09:15:00-07:00"
+   }
+  ],
+  "items": [
+   {
+    "id": "88a733e2f6a90604a4ac4aca5b52675443e5c270a28a729dc49bc8460b622b99",
+    "message_id": "m-chairs",
+    "line_id": "8ace124c5a78e15c261c7be1bf2585ea9b03d61346ab9ee3774090789cf62d4a",
+    "from_actor": "person:steward",
+    "from_role": "the keeper",
+    "from_house": "the cell",
+    "for": "person:player",
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "card": "3f47d8533271be7c6f87a2126ba24e0ae7ab1f2d275eba15f490a7adf37edef5",
+    "push": {
+     "kind": "request",
+     "by": "2026-10-31",
+     "why_by": "the gathering is that morning",
+     "size": 10,
+     "blocks": [
+      "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+     ],
+     "critical": true,
+     "who_waits": "two members of the cell",
+     "blast": "the whole gathering; reversible",
+     "cost_if_late": "the room sets out fewer chairs",
+     "alternatives": "we borrow from the school",
+     "asked": "this week, if you can",
+     "expires": "2026-10-30"
+    },
+    "push_recomputed": {
+     "blocks": [
+      "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+     ],
+     "critical": true,
+     "calibration": {
+      "by_held": 9,
+      "of": 10
+     }
+    },
+    "kind": "line",
+    "verified": "verified",
+    "carried": false,
+    "read": false,
+    "picked_up": false,
+    "withdrawn": false,
+    "arrived": [
+     "mail",
+     "pulled"
+    ],
+    "question": "Will you bring two more chairs on Saturday?",
+    "ts": "2026-10-24T08:20:00-07:00"
+   },
+   {
+    "id": "2ec20cf53dcfd91eb7429b8cfd502de609be6cb3f5f80438748f0ebbd7bf5b6f",
+    "message_id": "m-prose",
+    "line_id": null,
+    "from_actor": "person:guest",
+    "from_role": "a guest",
+    "from_house": "a second house",
+    "for": "person:player",
+    "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "card": null,
+    "push": null,
+    "push_recomputed": null,
+    "kind": "prose",
+    "verified": "unverified",
+    "carried": true,
+    "read": false,
+    "picked_up": false,
+    "withdrawn": false,
+    "arrived": [
+     "mail"
+    ],
+    "question": "Could your cell lend us its long table for a week in November?",
+    "proposed_line": {
+     "type": "request",
+     "title": "Lend the long table for a week in November",
+     "reason": "untrusted"
+    },
+    "ts": "2026-10-24T07:55:00-07:00"
+   }
+  ]
+ },
+ "badges": {
+  "threads_and_mail": 3,
+  "from_houses": 2,
+  "as_of": "2026-10-24T09:19:00-07:00"
+ },
+ "transports": {
+  "forge": {
+   "beat_present_min": 5,
+   "beat_away_min": 60,
+   "last_pull": "2026-10-24T09:15:00-07:00",
+   "next_pull": "2026-10-24T09:20:00-07:00"
+  },
+  "hook": {
+   "armed": true,
+   "last_at": "2026-10-24T09:19:00-07:00"
+  },
+  "room_stream": {
+   "open_room": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+  },
+  "mail": {
+   "on": true,
+   "last_read": "2026-10-24T09:15:00-07:00"
+  },
+  "phone_push": {
+   "on": false
+  },
+  "relay": {
+   "on": false
+  }
+ },
+ "calibration": {
+  "senders": {
+   "person:steward": {
+    "by_held": 9,
+    "of": 10,
+    "as_of": "2026-10-24T09:19:00-07:00"
+   }
+  },
+  "own": {
+   "by_held": 6,
+   "of": 7
+  }
+ },
+ "lines": [
+  {
+   "v": 1,
+   "id": "36cfa2803f763980dbbb9c0722381ff4b20f37f0cafe182cd1fc71973d6a8f32",
+   "ts": "2026-10-24T09:19:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "request",
+   "body": {
+    "to": "person:player",
+    "title": "Bring the costs for the first week",
+    "by": "2026-10-29",
+    "minutes": 60,
+    "body_salt": "f21f2efdda763e61ec3633dc914e05ce"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "c0f56a9dac4c740b7e21327b8d210f2ad3be69b452180c5207a314c8689f908f",
+   "sig": "ssh-ed25519:ffa8ae14eb03a5cbb632e9456d75283ab0a5ef169d502bcf31a781881a6cd604",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "943334792df5b3e8ed7ac144a4f6c22347755f1534965c49df99f51373134b9c",
+   "ts": "2026-10-24T09:19:00-07:00",
+   "actor": "person:member",
+   "for": "person:member",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "commit",
+   "body": {
+    "card": "47086abff1864db014ae0fbab71e07de2d27b8e94de51b8bfbe90a525bd5d6ea",
+    "by": "2026-10-24",
+    "size": 30,
+    "witness": "person:steward",
+    "body_salt": "4b3b33e4a880c096c0988624dca3313b"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "c4fee682641a64db03c7e6b558f071c544cc6e9085a636f98a33b1a948738c56",
+   "sig": "ssh-ed25519:b48d1e4f3511adaf54661adc57d9670bed6ee32cd8bf92f13041b61b7b4ae454",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "77b9bebc5ac995dc464ce3974b5fd14345a655747b3a0bd92d1984429baed9aa",
+   "ts": "2026-10-24T09:19:00-07:00",
+   "actor": "agent:steward-agent",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "propose",
+   "body": {
+    "text": "Hold the autumn gathering on the first Saturday.",
+    "drafts": "decide",
+    "body_salt": "45cb4fdba56358be5a6ecc1d3e3546fe"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "delegated",
+   "prev": "ec7a6af97e760b3b269c49a10bf6deb82a04bd8b95cda7a3bcae504f1edf51da",
+   "sig": "ssh-ed25519:7e0fd0f325c33754ad546a686f08cefd9151f9bb7f4b650f07710b58d555ebea",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "c0f56a9dac4c740b7e21327b8d210f2ad3be69b452180c5207a314c8689f908f",
+   "ts": "2026-10-24T09:18:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "card",
+   "body": {
+    "title": "Ask the hall about the first Saturday",
+    "holder": "person:member",
+    "minutes": 20,
+    "by": "2026-10-28",
+    "kind": "activity",
+    "stream": "Room",
+    "body_salt": "78653fda4f037f46dafec98f55a5458f"
+   },
+   "links": {
+    "anchored_to": [
+     "3b6c1d33f2a3f3ea9abd45f2dbc260c23850bc983836912d5117b6b8e3ee117e"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "fc154e09454fdc8aeff197642a8992b4d76f05e1b04ecd074f91c13d6167d251",
+   "sig": "ssh-ed25519:5e5a447bb94faa7a135a9ff0e19d1cfd59f74b29b71ae46925d5c1e7d7dfe89e",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "03f5833865743921e6d759595a0e22d3bbff5ce59ac6b07acefe169992a43434",
+   "ts": "2026-10-24T09:17:00-07:00",
+   "actor": "agent:guest-agent",
+   "for": "person:guest",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "Chairs can be borrowed from the school at no cost.",
+    "body_salt": "066c99c6cba1c14fa8175742b59af199"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "delegated",
+   "prev": "3b6c1d33f2a3f3ea9abd45f2dbc260c23850bc983836912d5117b6b8e3ee117e",
+   "sig": "ssh-ed25519:b395d8d7ef13592942d5835dad55628150b9aab47a1332b125961b65e448f3bc",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "edc519c04ee4565d485d5967e74f23adf29d049343d39340f2b060111924890d",
+   "ts": "2026-10-24T09:17:00-07:00",
+   "actor": "person:guest",
+   "for": "person:guest",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "settle",
+   "body": {
+    "text": "We spend no more than last year on food.",
+    "body_salt": "fec0025f32b33b37c19cc1df0a3f1208"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "73492c4a9c9925907592b60f2a1b94cc741ba01d6fb6da56241e3b2472845830",
+   "sig": "ssh-ed25519:8ccf3ee53c6dcd0bfa6427a8890521670d456303df7d8f39d1902965eb3d60d2",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "3b6c1d33f2a3f3ea9abd45f2dbc260c23850bc983836912d5117b6b8e3ee117e",
+   "ts": "2026-10-24T09:16:00-07:00",
+   "actor": "agent:guest-agent",
+   "for": "person:guest",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "The commons calendar shows the hall free on the first Saturday.",
+    "body_salt": "181168e3183f7694940b5222a0546765"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "untrusted",
+   "prev": "",
+   "sig": "ssh-ed25519:24f1ecaf89da6d2f3fb36802b16c7016c68988a068245e5494268a8f6d5cae15",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "ec7a6af97e760b3b269c49a10bf6deb82a04bd8b95cda7a3bcae504f1edf51da",
+   "ts": "2026-10-24T09:16:00-07:00",
+   "actor": "agent:steward-agent",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "Last year the food money was spent by the second week.",
+    "body_salt": "1efeeb71eaf2c7949757589d63b98ee6"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "delegated",
+   "prev": "71697c66bd2ef904f9dc73993ec1c0d5ef9f27b7518a2dfcbea8bd51670c2d13",
+   "sig": "ssh-ed25519:2102329a168789bd695ccb4133dfb32144a84bfa8efca69ed491ee7e2a602b74",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "8dea2fb2ae862c15e4cba064e86775493e3cd40b1ad098cb6a2ba5c2c1e990eb",
+   "ts": "2026-10-24T09:15:00-07:00",
+   "actor": "agent:player-agent",
+   "for": "person:player",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "Your costs sheet carries last year's soup figure, which may be low.",
+    "body_salt": "9472e4ac09206f3d576c4b1c8df15b78"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "delegated",
+   "prev": "",
+   "sig": "ssh-ed25519:6448ae8edf6ecd063a047d40c08b1434618179750b0f976eab2de067b0508aa7",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "4d2e4e36d661891425acf59b54ff41130b2b6f742f8ca08c817352c0c29dd501",
+   "ts": "2026-10-24T09:14:00-07:00",
+   "actor": "person:member",
+   "for": "person:member",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "sight",
+   "body": {
+    "text": "The back step of the hall is loose.",
+    "where": "the hall",
+    "kind": "hazard",
+    "body_salt": "6957d9fb851244010030224a632a7ebb"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "943334792df5b3e8ed7ac144a4f6c22347755f1534965c49df99f51373134b9c",
+   "sig": "ssh-ed25519:8901d842f57dc7ff624748999f230aa810f6f53bbc560d9da65a98ae41648863",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "71697c66bd2ef904f9dc73993ec1c0d5ef9f27b7518a2dfcbea8bd51670c2d13",
+   "ts": "2026-10-24T09:13:00-07:00",
+   "actor": "agent:steward-agent",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "The hall costs the same on Thursday and on Saturday.",
+    "body_salt": "e738d29aa50ffa3cdbf9b573b51b17cf"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "delegated",
+   "prev": "",
+   "sig": "ssh-ed25519:76fcb63e0b36c9d10b47fdc31bab7b372f874dbf14c0ea802e286f8837203430",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "fc154e09454fdc8aeff197642a8992b4d76f05e1b04ecd074f91c13d6167d251",
+   "ts": "2026-10-24T09:12:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "settle",
+   "body": {
+    "text": "Monday at seven, in the hall.",
+    "body_salt": "ba8493a97fa00ff91b0326b2900783dc"
+   },
+   "links": {
+    "anchored_to": [
+     "f3fd068b6f625f460161a8bb11c8a0632386f2d060f0c445a9006196be22d4f4"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85",
+   "sig": "ssh-ed25519:56695f2874aeab0c55685402ee24cb9d261c153074cc5c97f0143b44a9f987ba",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "c4fee682641a64db03c7e6b558f071c544cc6e9085a636f98a33b1a948738c56",
+   "ts": "2026-10-24T09:11:00-07:00",
+   "actor": "person:member",
+   "for": "person:member",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "Morning or evening?",
+    "body_salt": "c478d037c54f5fadd28627c12cc019c4"
+   },
+   "links": {
+    "anchored_to": [
+     "f3fd068b6f625f460161a8bb11c8a0632386f2d060f0c445a9006196be22d4f4"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "f3fd068b6f625f460161a8bb11c8a0632386f2d060f0c445a9006196be22d4f4",
+   "sig": "ssh-ed25519:02e175c291e0dcfd3d4415c3be42e45e39ec7be459214c3a6ef80231a11f3492",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "73492c4a9c9925907592b60f2a1b94cc741ba01d6fb6da56241e3b2472845830",
+   "ts": "2026-10-24T09:11:00-07:00",
+   "actor": "person:guest",
+   "for": "person:guest",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "say",
+   "body": {
+    "text": "Evening suits those who work.",
+    "body_salt": "dc2a383c60f18b16f2137b6308492409"
+   },
+   "links": {
+    "anchored_to": [
+     "f3fd068b6f625f460161a8bb11c8a0632386f2d060f0c445a9006196be22d4f4"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "7b9e2eaffd92dda1c8adb3d6eede37f2b1cf98314f9e87ab17fa9e11f66303c6",
+   "sig": "ssh-ed25519:4097f8814350c82b62c7b107d58e9607b60e36a905d0ee6024b9fc8307884e8a",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85",
+   "ts": "2026-10-24T09:10:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "decide",
+   "body": {
+    "text": "Monday is the first test of the new plan.",
+    "body_salt": "97c8564c3a878a6efcac6d3857f93cc6"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "83790df7d64f266d5809ffd63876a9eaa8b64393a683ff974c1cb358fe19a330",
+   "sig": "ssh-ed25519:a76920a0b52771def3fff41761e059aa78c480b4eaf401f99844c053dcb6663f",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "f3fd068b6f625f460161a8bb11c8a0632386f2d060f0c445a9006196be22d4f4",
+   "ts": "2026-10-24T09:10:00-07:00",
+   "actor": "person:member",
+   "for": "person:member",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "thread",
+   "body": {
+    "title": "When on Monday",
+    "body_salt": "c456f299dac2b9fed5551116944e971e"
+   },
+   "links": {
+    "anchored_to": [
+     "bb690da57ca9d3c356b7dad929f423a0ffe6fb290d217dc17e5ac7172618fe85"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "134a145255399cba9036ff557791e916fd1572172ad405cdd303aa8be95d7e71",
+   "sig": "ssh-ed25519:81128d000cf7321e4665d81b1efefaf7016b29525609a543343b832fb8b13d8a",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "134a145255399cba9036ff557791e916fd1572172ad405cdd303aa8be95d7e71",
+   "ts": "2026-10-24T09:06:00-07:00",
+   "actor": "person:member",
+   "for": "person:member",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "settle",
+   "body": {
+    "text": "We have four weeks before the autumn gathering.",
+    "body_salt": "74815d9db0d89d635927cffb65031ee7"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "",
+   "verified": "unsigned"
+  },
+  {
+   "v": 1,
+   "id": "57cf40147ba34445ffcbbbbe6d4eaeb881ee82e6a1d9d6a6d5671d1c2600c609",
+   "ts": "2026-10-24T09:05:00-07:00",
+   "actor": "person:member",
+   "for": "person:member",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "rfg",
+   "body": {
+    "question": "May the room hold the hall key overnight?",
+    "to": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "by": "2026-10-26",
+    "body_salt": "a84575293b2f6cf21e295dbc3f7c337b"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "4d2e4e36d661891425acf59b54ff41130b2b6f742f8ca08c817352c0c29dd501",
+   "sig": "ssh-ed25519:b06f3b232d29b9269a77e1e4c54540f99091b8fad5ec6cc02ff033245074f420",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "7b9e2eaffd92dda1c8adb3d6eede37f2b1cf98314f9e87ab17fa9e11f66303c6",
+   "ts": "2026-10-24T09:02:00-07:00",
+   "actor": "person:guest",
+   "for": "person:guest",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "affirm",
+   "body": {
+    "agent": "agent:guest-agent",
+    "room": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "body_salt": "713f22857e8ff7397e74f961c167722c"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "ssh-ed25519:386c7ef23ac4797c076a744468f68a0883b69cd69df6e606cb1363b7b2a5236b",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "034bf1dc73312f9c74b1294ce2b052fbdd7f01e3c37e05662c7e6222db7ccce6",
+   "ts": "2026-10-24T09:01:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "affirm",
+   "body": {
+    "agent": "agent:player-agent",
+    "room": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "body_salt": "dab500733232b3e1d45e69cb5bb168b5"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "ssh-ed25519:a09bb415603f5e191cf884056ab21fbe86c47a7dc2579ffe165e5e436df260fa",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "83790df7d64f266d5809ffd63876a9eaa8b64393a683ff974c1cb358fe19a330",
+   "ts": "2026-10-24T09:01:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "affirm",
+   "body": {
+    "agent": "agent:steward-agent",
+    "room": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "body_salt": "3d6b62fdbb27300d1ce44b5361085862"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "27ca4eb50d87b13b82293637fb449790df7cc811509512dbea2d026ef0df8bf3",
+   "sig": "ssh-ed25519:75da151443fd5572d2fbf3407afd5287dc6cd90ae1e685bc4557512c8cabcdd8",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "27ca4eb50d87b13b82293637fb449790df7cc811509512dbea2d026ef0df8bf3",
+   "ts": "2026-10-24T09:00:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "type": "posture",
+   "body": {
+    "posture": "open",
+    "curing_days": 3,
+    "body_salt": "a16449536fcf7b6fe9440e17f23b5619"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "ssh-ed25519:f438bd3fac6fba17401e198d8e405f84d5e77df3396b5d849a5ca9a4a83aea62",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "8a78b8e44932f29a8dd9befa12b0e2223bf13d9c6e4bbc12665fec60c588625b",
+   "ts": "2026-10-24T08:30:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "say",
+   "body": {
+    "text": "Thank you for the gate.",
+    "body_salt": "e15ba3a2c284473afd3eb86272fca0d1"
+   },
+   "links": {
+    "answers": [
+     "ddc0f67547d4394b29aac1965b55cd9832040ac7003c690d73bcdb7987494ccf"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "dce50daee679650cf43f02b2ab67b50db915a86303841904c345fccdefd83e36",
+   "sig": "ssh-ed25519:a3ede85b9ccf9539c0dbcfd71b89d99fa5ea69b59e50aed9bc2d69787a7af4d4",
+   "verified": "missing_link"
+  },
+  {
+   "v": 1,
+   "id": "8ace124c5a78e15c261c7be1bf2585ea9b03d61346ab9ee3774090789cf62d4a",
+   "ts": "2026-10-24T08:20:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "request",
+   "body": {
+    "to": "person:player",
+    "title": "Bring two more chairs on Saturday",
+    "by": "2026-10-31",
+    "minutes": 10,
+    "push": {
+     "kind": "request",
+     "by": "2026-10-31",
+     "why_by": "the gathering is that morning",
+     "size": 10,
+     "blocks": [
+      "b94a421d0626a81069f491339c51172caf3cf11033f7da6d2c7202983ff00d9b"
+     ],
+     "critical": true,
+     "who_waits": "two members of the cell",
+     "blast": "the whole gathering; reversible",
+     "cost_if_late": "the room sets out fewer chairs",
+     "alternatives": "we borrow from the school",
+     "asked": "this week, if you can",
+     "expires": "2026-10-30"
+    },
+    "body_salt": "dcf65152791c655807141fec000f268b"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "3ba593dff8003233c42d82a4cf9e62fda9e426ecbe845aedcd6ddf5dc0790ad6",
+   "sig": "ssh-ed25519:133d18b54615ec9ab97bca8d933f00a57aa879e44a6548548e9c831f189f6d3e",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "82e8bdc33a38a5f1cdb54b068f509763fc632ba3185ab73a92c27ec80c323862",
+   "ts": "2026-10-24T07:50:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "tea",
+   "body": {
+    "minutes": 30,
+    "energy": 5,
+    "attention": 6,
+    "card": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+    "body_salt": "041ec49576511a8189b23f0c39bdacf9"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "d9d69d2df7591518b06f92d1675bd4361964e2845d9800d47b29147aec5da4dd",
+   "sig": "ssh-ed25519:668d81227368c14d2debc09e8a47e83f88d546f12c8df27adacbb6bc43512f9c",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "39ea4c1e2b9f73af7fe53664f40ab50e1fa60c8dbe8bd0303d5302001ba6ac41",
+   "ts": "2026-10-24T07:45:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "discern",
+   "body": {
+    "verdict": "rated",
+    "note": "a summary of the cell's week",
+    "rating": 4,
+    "body_salt": "ffd5da173d4214183acdc122bbf34f1a"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "599098c89531fdfa2a2e22693faad7396696951afdd1ddc9951d230cd795e1a7",
+   "sig": "ssh-ed25519:4a1f33b2ae0b6449c323159b8e7b22a2235434522d9ec9c712c29509ddc649d1",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "599098c89531fdfa2a2e22693faad7396696951afdd1ddc9951d230cd795e1a7",
+   "ts": "2026-10-24T07:40:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "discern",
+   "body": {
+    "verdict": "chosen",
+    "note": "the order of today's cards",
+    "body_salt": "843e441ec0bee31f465b5d97104a31ef"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "5ae4479ba76e236e89281bce0bb565aa1c4d92e800021eec479afcefe6c614c3",
+   "sig": "ssh-ed25519:49148f9923c36217ab42c82b0ac0a7e4fa5623495b66c9a1353011df3429c216",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "b28c14406b5eb3f6f3bb5746bfd5370b7a3b47f2b07b93803a6474cc47970479",
+   "ts": "2026-10-23T16:00:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "tea",
+   "body": {
+    "minutes": 20,
+    "energy": 4,
+    "attention": 5,
+    "card": "2c2102e769c9e76baffd34a36aa8fb556eba3caddaa8f4bf9f70b45b266eae47",
+    "body_salt": "7643f2b2caa33beaa1e88378cccd687d"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "ssh-ed25519:f3e58b28d36e30f9117bf8d1725c8c877395bdf6dff81d1be3c1fd0149cba89c",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "3ba593dff8003233c42d82a4cf9e62fda9e426ecbe845aedcd6ddf5dc0790ad6",
+   "ts": "2026-10-23T12:10:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "escalate",
+   "body": {
+    "about": "32d151b423e58e6652c6912cb9ca1a5e5ab814be1a5eb8138f154281941d7116",
+    "to": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "blast_radius": "the whole gathering",
+    "rung": 2,
+    "by": "2026-10-30",
+    "body_salt": "b67106cc6ac2920bb0ab4739c49ca5df"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "731b7fdf07079c4036fc8793da985e550dde8279ee1ef6ff51b9857ea9c15c42",
+   "sig": "ssh-ed25519:a2bc4b49b782b568317595f2c6f0ce4634e3de31c5cbf7cfc104f3be030b4088",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "731b7fdf07079c4036fc8793da985e550dde8279ee1ef6ff51b9857ea9c15c42",
+   "ts": "2026-10-23T12:00:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "elevate",
+   "body": {
+    "what": "f7dfa62567df8fa85d6aa26d56f43525770538f0d6402cbd6c57c4ffb2ad5f59",
+    "to": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "why": "Every garden on the lane shares the gate.",
+    "witness": "person:player",
+    "body_salt": "0f0173a1ef7d714cae9b80a32dfc1eff"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "c4f3780434829fe0bbce0a7cbbc8fedbc4a1f270ac39a9610c15546f9e3d5b6d",
+   "sig": "ssh-ed25519:2176a031f5e035916713162e392544c5f6941f6f2ce9e5d540aeafc7745e43ff",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "d9d69d2df7591518b06f92d1675bd4361964e2845d9800d47b29147aec5da4dd",
+   "ts": "2026-10-22T19:30:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "tea",
+   "body": {
+    "minutes": 25,
+    "energy": 6,
+    "attention": 9,
+    "card": "d74773adacb8a33c2ef9e35a05314024ba1fa5bca6deac9a298ffb52b040a07a",
+    "body_salt": "41aed86d8a9bd2a1f5b0f0659e8661b8"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "07b36c45b7cdc02c5e1bba82b7baf8288cbcebc0b8dcfbf573b7cdbcd297f1fc",
+   "sig": "ssh-ed25519:8485102844cd099fd0a1dba67c7b10c3a9430e241ae56c5d7f86db3e54e26f29",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "5ae4479ba76e236e89281bce0bb565aa1c4d92e800021eec479afcefe6c614c3",
+   "ts": "2026-10-22T09:00:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "discern",
+   "body": {
+    "verdict": "chosen",
+    "note": "the Saturday suggestion",
+    "body_salt": "8e46485efb258cb6c191312f60522ded"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "1eaef6ea06a8190268759a6697770f262713584db2e47a43ec1bb547cecdcbd4",
+   "sig": "ssh-ed25519:bd39a6f1a1adba9c2ca498bd4d97ec35cfc07842d22e937f64fe3b816f4982b0",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "c4f3780434829fe0bbce0a7cbbc8fedbc4a1f270ac39a9610c15546f9e3d5b6d",
+   "ts": "2026-10-22T08:05:00-07:00",
+   "actor": "person:steward",
+   "for": "person:steward",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "witness",
+   "body": {
+    "note": "The letters went out on Tuesday.",
+    "body_salt": "669a059aab609bb112dc8e61776d0860"
+   },
+   "links": {
+    "witnesses": [
+     "07b36c45b7cdc02c5e1bba82b7baf8288cbcebc0b8dcfbf573b7cdbcd297f1fc"
+    ]
+   },
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "ssh-ed25519:d84724bb748f977683972fe17cec3bfc31d8e9786228cc2a3ce51b19c0390c47",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "00abfd1c94de8669e00b41b524c12957824ca77d046b0c2c38103e98529d6df6",
+   "ts": "2026-10-22T08:00:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "commit",
+   "body": {
+    "card": "8017b1e237f37148adbdf130203ba1c23b61ebb9cdec77c7fdb61cc3d8506734",
+    "by": "2026-10-31",
+    "size": 30,
+    "witness": "person:steward",
+    "body_salt": "e3bebc5995167d4995d1c4ea75151302"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "b536b3e31ae195a0feec1a9f33224844bfd80540aa727df128242bec161fa0a3",
+   "sig": "ssh-ed25519:0a1b028d1b1be981489529128eb3c23590adaf941c264546257651daee403445",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "b536b3e31ae195a0feec1a9f33224844bfd80540aa727df128242bec161fa0a3",
+   "ts": "2026-10-21T18:20:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "kept",
+   "body": {
+    "commitment": "3edfbc9e12619227359c2a4157b91b3b96f354617635ae3b639c20d16872644d",
+    "note": "Sent to all four.",
+    "body_salt": "87896fd255dffd17f0e70db37f4d175f"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "82e8bdc33a38a5f1cdb54b068f509763fc632ba3185ab73a92c27ec80c323862",
+   "sig": "ssh-ed25519:aa75d9b3091f891589d371badd08dc86cad72af1a6e49f40918549ffa5a25b70",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "07b36c45b7cdc02c5e1bba82b7baf8288cbcebc0b8dcfbf573b7cdbcd297f1fc",
+   "ts": "2026-10-21T18:10:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "type": "tea",
+   "body": {
+    "minutes": 40,
+    "energy": 7,
+    "attention": 8,
+    "card": "643afc77f85e699ac9106618979b43453ed1c609ccf4221e91971ec38d087425",
+    "body_salt": "20035092e9485c5ff2d548afc7fbca8a"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "",
+   "sig": "ssh-ed25519:1f848c78997ec54803d7e2576c4f48281cd3e5ae01d518edb7bb6db3c7b5c2cc",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "1eaef6ea06a8190268759a6697770f262713584db2e47a43ec1bb547cecdcbd4",
+   "ts": "2026-10-21T10:00:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "discern",
+   "body": {
+    "verdict": "corrected",
+    "note": "a draft to Cell Two",
+    "body_salt": "bf0f82e9087fc41dff5d412394481d08"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "b28c14406b5eb3f6f3bb5746bfd5370b7a3b47f2b07b93803a6474cc47970479",
+   "sig": "ssh-ed25519:a7f517f729745948a4ea33749509236b3fc9cd9f28a97cfb2a89f15f9b55c2d4",
+   "verified": "signed"
+  },
+  {
+   "v": 1,
+   "id": "dce50daee679650cf43f02b2ab67b50db915a86303841904c345fccdefd83e36",
+   "ts": "2026-10-18T19:00:00-07:00",
+   "actor": "person:player",
+   "for": "person:player",
+   "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "type": "turn",
+   "body": {
+    "span": "week",
+    "depth": "weekly",
+    "text": "Kept: the letters. Next: the gathering.",
+    "body_salt": "2041d3829a53fc792b468da704030b6d"
+   },
+   "links": {},
+   "audience": "holon",
+   "reason": "human",
+   "prev": "39ea4c1e2b9f73af7fe53664f40ab50e1fa60c8dbe8bd0303d5302001ba6ac41",
+   "sig": "ssh-ed25519:02ec345c20cf16c0f6c9594b8179fb22e20adb310f82eec0a1ec508d8b54c7e7",
+   "verified": "signed"
+  }
+ ],
+ "_proposed_c": "Proposals, not yet in STATE.md: lines; rooms[id].purpose, phase, parts, current_part, play_by_play_keeper, links, big_ideas, line_meta, curing_until, present[].state, present[].house; tea.entries; tea.season; discernments.lines; turn.draft; hud.talk (the live store)."
+}

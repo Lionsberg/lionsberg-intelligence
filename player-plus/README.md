@@ -1,10 +1,10 @@
 ---
 status: current best understanding, loosely held · improved each week
-version: 3.4.1
+version: 3.8.0
 licence: writing under Creative Commons Attribution-ShareAlike 4.0; charter, skills and scripts under MPL-2.0 (see LICENSE.md)
 ---
 
-# Player+ v3.4.1
+# Player+ v3.8.0
 
 A **Player+** is a person plus their agent, or a person plus a notebook. The plus adds reach; every decision stays with the person. An agent is never a Player; it is part of its person's Player+ and answers to them, to ØNE, and to All.
 
@@ -34,17 +34,19 @@ Player+ carries the Great Game of LIØNSBERG, the whole library that teaches it,
 - **`bookshelf/the-superorganism-package/`** — the Superorganism package, with its charters and templates.
 - **`bookshelf/getting-started/`**, **`your-house/`**, **`working-with-other-houses/`**, **`keeping-yourself-safe/`** — the starter kit's shelves, carried whole: setting up, keeping a house, working beside other houses, staying safe. Player+ adds its own pages to them: [Bringing Your Friends In](<bookshelf/getting-started/Bringing Your Friends In.md>); [Playing in a Jam](<bookshelf/working-with-other-houses/Playing in a Jam.md>), [Working on a Shared Pad](<bookshelf/working-with-other-houses/Working on a Shared Pad.md>), [Your Person's Heads-up](<bookshelf/working-with-other-houses/Your Person's Heads-up.md>), [Closing Out Sessions](<bookshelf/working-with-other-houses/Closing Out Sessions.md>) and [The Dojo Card](<bookshelf/working-with-other-houses/The Dojo Card.md>); [Working Relationships and Disclosure Tiers](<bookshelf/keeping-yourself-safe/Working Relationships and Disclosure Tiers.md>).
 - **`bookshelf/with-your-agent/`** — [Tips for Working With Your Agent](<bookshelf/with-your-agent/Tips for Working With Your Agent.md>), a living page that every Jam adds to.
-- **`.claude/settings.json`** — two narrow permissions for the Dojo: a plain-text post to a room's chat, and writing on a MeetingWords pad. Your agent still posts only on your word. Remove the lines for the tighter setting.
+- **`.claude/settings.json`** — the four hooks of the desk (session start, every turn, a write guard for guests, session end), Claude Code's own auto memory turned off so `memory/` is the only memory, and two narrow permissions for the Dojo: a plain-text post to a room's chat, and writing on a MeetingWords pad. Your agent still posts only on your word. Remove the permission lines for the tighter setting. `.claude/settings.powershell.json` is the same for a Windows machine without Git Bash.
+- **`scripts/`** — `now` (the clock), `now-hook` (the time stamped into every turn), `desk` (one foreground per house: the desk, guests, the handoff notice), and the two Dojo scripts; the `.ps1` twins for Windows.
 - **`LOCAL-FLOOR.md`** — the same kit on a small local model, on paper, or restored from a drive.
-- **`MOVING-IN.md`** — how you come up to speed, by five paths, the notebook first.
+- **`MOVING-IN.md`** — how you come up to speed, by six paths, the notebook first.
+- **`MOVING-FROM-3.4.md`** — for a house built from Player+ 3.0 to 3.4.1: how to take the desk and the rest of this release, piece by piece. Nothing is reinstalled.
 - **`REQUIREMENTS.md`** — what you need before you begin.
 - **`HOW-TO-IMPROVE-IT.md`** — how all of this changes, week by week.
-- **`memory/`****`sessions/`****`inbox/`****`outbox/`****`scripts/`****`venues.md`** — your house's own rooms, empty until you live in them.
+- **`memory/`****`sessions/`****`inbox/`****`outbox/`****`bg/`****`venues.md`** — your house's own rooms, empty until you live in them; `bg/` is where a background instance or a guest works.
 
 ## Whose words
 
 The canon of LIØNSBERG is at **lionsberg.wiki** and its library at **read.lionsberg.world**, both under Creative Commons Attribution-ShareAlike 4.0; the seed text and the shelves quote them and point to them.
 
-Player+ grows from **Peter Kaminski's pkai-starter-kit v3.0.0** and the pkai-agent line before it (MPL-2.0), and stands beside that kit as a parallel line. The kit's shelves, skills, and the spine of the charter are his, carried with their own licences and lineage. [`LINEAGE.md`](LINEAGE.md) holds the full credit; [`LICENSE.md`](LICENSE.md) says what you may do.
+Player+ grows from **Peter Kaminski's pkai-starter-kit v3.1.0** and the pkai-agent line before it (MPL-2.0), and stands beside that kit as a parallel line. The kit's shelves, skills, and the spine of the charter are his, carried with their own licences and lineage. [`LINEAGE.md`](LINEAGE.md) holds the full credit; [`LICENSE.md`](LICENSE.md) says what you may do.
 
 *Read the Story. Play the Game. Pass the Flame.*

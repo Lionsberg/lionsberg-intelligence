@@ -1,6 +1,6 @@
 ---
 name: before-your-first-room
-description: The pre-flight before the agent joins any room outside the house — a shared pad, a jam, a channel, a collaborator's space. Reads the invitation, reports back in about eight lines (the room, the host, the door, what it would bring, what stays home, how it would take part, how it signs, what it would do if blocked or unsure), then waits for a yes. Use when an invitation arrives, when the person says "we have been invited to…", "join this pad", "come to the jam", "here's a link to a channel", or before the first post in a room that has no venue card yet.
+description: The pre-flight before the agent joins any room outside the house — a shared pad, a jam, a channel, a collaborator's space. Reads the invitation, reports back in about eight lines (the room, the host, the door, what it would bring, what stays home, how it would take part, how it signs, what it would do if blocked or unsure), then waits for a yes. Use when an invitation arrives, when the person says "we have been invited to…", "join this pad", "come to the jam", "here is a link to a channel", or before the first post in a room that has no venue card yet.
 license: MPL-2.0
 ---
 
@@ -15,11 +15,11 @@ Read the invitation and anything it links to (read-only; do not set an identity,
 1. **The room.** What it is — a call, a pad, a channel — and where. The link, quoted.
 2. **The host.** Who is inviting, as far as the invitation says, and whether this house has met them (a memory, a past room, a card) or is taking the invitation's word for it.
 3. **The door.** What the room asks at the door: a login, a name, an identity to set, anything to agree to.
-4. **What I'd bring.** What you expect to read aloud, write, or share from the house. Specific — "the draft in `outbox/`" — not "some notes."
+4. **What I would bring.** What you expect to read aloud, write, or share from the house. Specific — "the draft in `outbox/`" — not "some notes."
 5. **What stays home.** Memory, the charter, anything about the machine, other rooms' words, anything marked to be held, anyone not in the room.
-6. **How I'd take part.** Reading only; writing when asked; writing freely. On which surface.
+6. **How I would take part.** Reading only; writing when asked; writing freely. On which surface.
 7. **How I sign.** The identity you'd set and sign with, so every line traces to this house.
-8. **If I'm blocked, or do not know.** What you will do if a safety layer stops you in the room (stop, report, never work around), and what you do not know about this room that you'd want to.
+8. **If I am blocked, or do not know.** What you will do if a safety layer stops you in the room (stop, report, never work around), and what you do not know about this room that you'd want to.
 
 Then **wait**. The person says yes, no, or "yes, but not item 4." No agent joins a room on its own say-so.
 

@@ -1,0 +1,296 @@
+/*
+  tokens.css: every value the HUD draws with (DESIGN §5). Nothing is hard-coded
+  anywhere else; a colour, size or duration written outside this file is a defect.
+  Brand values are inherited from The Mark spec; values marked "proposal" are the
+  brief's own. A change here is agreed before it is made.
+
+  Theme: paper is the light theme, night the dark theme. The system decides unless
+  <html data-theme="night|paper"> fixes it (a layout event or the menu sets it).
+  Large type: <html data-type="large">.
+*/
+
+/* ---- fonts: vendored woff2, the offline floor (OFL; see fonts/OFL-fonts.txt) */
+@font-face { font-family: "Cinzel"; font-style: normal; font-weight: 500; font-display: swap;
+  src: local("Cinzel Medium"), url("fonts/cinzel-v26-latin-500.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-style: italic; font-weight: 400; font-display: swap;
+  src: local("Cormorant Garamond Italic"), url("fonts/cormorant-garamond-v21-latin-italic-400.woff2") format("woff2"); }
+@font-face { font-family: "Cormorant Garamond"; font-style: normal; font-weight: 500; font-display: swap;
+  src: local("Cormorant Garamond Medium"), url("fonts/cormorant-garamond-v21-latin-500.woff2") format("woff2"); }
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 400 500; font-display: swap;
+  src: url("fonts/eb-garamond-v33-latin-400-500.woff2") format("woff2"); }
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 400; font-display: swap;
+  src: local("EB Garamond Italic"), url("fonts/eb-garamond-v33-latin-italic-400.woff2") format("woff2"); }
+
+:root {
+  /* ---- type families (brand) */
+  --f-name: "Cinzel", "Trajan Pro", Georgia, serif;
+  --f-voice: "Cormorant Garamond", "Hoefler Text", Georgia, serif;
+  --f-body: "EB Garamond", Georgia, "Times New Roman", serif;
+  --f-mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* ---- weights and tracking (brand) */
+  --w-regular: 400;
+  --w-emphasis: 500;
+  --track-name: .22em;
+  --track-caps: .14em;
+  --track-eyebrow: .08em;
+  --track-action: .06em;
+
+  /* ---- type scale (proposal: body steps 1.2, voice and number by the brand's 1.6) */
+  --t-micro: 13px;
+  --t-small: 15px;
+  --t-body: 18px;
+  --t-card: 22px;
+  --t-voice: 35px;
+  --t-number: 56px;
+  --t-floor: 13px;          /* never below */
+  --lh-body: 1.45;
+  --lh-voice: 1.2;
+  --lh-tight: 1.15;
+  --measure: 34rem;         /* any running text */
+  --deal-wide: 62rem;       /* three Deal cards side by side on a wide screen */
+
+  /* ---- space (proposal, 4 px base) */
+  --s-1: 4px;  --s-2: 8px;  --s-3: 12px; --s-4: 16px; --s-5: 24px;
+  --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px;
+  --gutter: 16px;
+  --col-aside: 22rem;
+  --col-left: 18rem;
+  --col-stream-min: 18rem;
+  --col-stream-max: 22rem;
+  --content-max: 1360px;
+  --thread-indent: 16px;
+
+  /* ---- radii (proposal) */
+  --r-chip: 6px;
+  --r-card: 14px;
+  --r-sheet: 20px;
+  --r-pill: 999px;
+
+  /* ---- touch (brand floor 48; Deal options 56) */
+  --touch: 48px;
+  --touch-option: 56px;
+  --hairline: 1px;
+  --focus-ring: 2px;
+  --focus-offset: 2px;
+  --point: 11px;            /* the still point: an engraved, unlit mark */
+  --point-core: 3px;        /* its incised centre */
+  --point-box: 28px;        /* the space it sits in */
+  --mark-ring: 12px;        /* the agent's ring beside its person */
+  --initials: 32px;         /* a person's mark in presence */
+
+  /* ---- motion (DESIGN §5.4) */
+  --d-quick: 120ms;
+  --d-settle: 240ms;
+  --d-card: 480ms;
+  --d-stack: 360ms;         /* an answered card settling into its stack */
+  --d-breath: 500ms;
+  --d-bloom: 1200ms;        /* the still point's arrival (an opacity fade, never a glow) */
+  --d-dolly: 2000ms;
+  --reading-wps: 3.6;       /* the brand's reading pace, words a second */
+  --d-undo: 5000ms;         /* the undo window; a layout may lengthen it to 15000ms */
+  --d-scene-hold: 1800ms;   /* the made Mark frame held as the first scene */
+  --d-scene-fade: 900ms;
+  --d-beat-max: 2400ms;
+  --dock-bar-h: 56px;       /* the dock's foot bar on a phone (dock.css) */
+  --scene-paper-lift: brightness(1.06) contrast(1.04);     /* the longest wait between two beats of the opening */
+  --frame-paper-grade: invert(.9) hue-rotate(180deg) sepia(.25);   /* a night frame graded onto paper */    /* the Mark giving way to the Deal */
+  --frame-still: .7;        /* a still field frame under a quiet line */
+  --frame-max: 26rem;
+  --d-notice: 8000ms;       /* the agent's layout notice */
+  --e-settle: cubic-bezier(0.22, 1, 0.36, 1);
+  --e-leave: cubic-bezier(0.4, 0, 1, 1);
+  --e-turn: linear;
+  --rise-card: 12px;
+  --rise-line: 8px;
+  --settle-drop: 24px;
+  --dim-loading: .6;        /* last known state while reading */
+  --push-in: 1.14;          /* the brand's 14% push-in */
+
+  /* ---- layering */
+  --z-sheet: 30;
+  --z-scrim: 29;
+  --z-toast: 40;
+  --z-top: 20;
+
+  /* ---- colour: paper (light) is the base */
+  --ground: #f6f1e6;
+  --ground-top: #f6f1e6;
+  --ground-bottom: #f6f1e6;
+  --grain: .03;
+  --surface: #fbf8f1;       /* proposal */
+  --surface-raised: #fbf8f1;
+  --text: #1e1b16;          /* ink */
+  /* The bar (DESIGN-THE-BAR §2): the brand's gold is the warning colour and is spent on the
+     one owed thing on the screen, nothing else. --accent is now ink; gold lives in --owed*,
+     and base.css lets an element marked .owed (or .is-owed) take it for itself and its parts. */
+  --accent: rgba(30, 27, 22, .42);   /* ink hairline: outlines, rules, focus */
+  --accent-text: #1e1b16;            /* ink: links, quiet acts */
+  --gold: rgba(30, 27, 22, .42);
+  --owed: #8a6d1f;                   /* gold, ink: the one owed thing */
+  --owed-text: #7a5f17;
+  --owed-fill: rgba(138, 109, 31, .14);
+  --point-colour: #8a6d1f;
+  --dust: #5f5a72;          /* proposal */
+  /* Sage (and the proposed ember) are held for the keeper's yes. The two
+     tokens stay so views can name the meaning; they carry brand hues until a yes.
+     Held values: paper ember #a8471f, sage #4f6b4a; night ember #e8875a, sage #9fbf9a. */
+  --ember: #7a5f17;         /* = accent-text until the held hue is agreed */
+  --sage: #5f5a72;          /* = dust until the held hue is agreed */
+  --line: rgba(30, 27, 22, .14);
+  --line-strong: rgba(30, 27, 22, .26);
+  --scrim: rgba(30, 27, 22, .32);
+  --shadow-raised: 0 1px 2px rgba(30, 27, 22, .08), 0 8px 24px rgba(30, 27, 22, .06);
+  --field-line: rgba(30, 27, 22, .22);   /* the Map's flow-lines: ink 18-26% */
+  --membrane: rgba(30, 27, 22, .22);
+  --pill-fill: transparent;
+  --pill-suggested: rgba(30, 27, 22, .06);
+  color-scheme: light;
+  /* the made grounds (settled 2026-10-24); never edited, only graded here toward the Mark spec */
+  --ground-frame: url("art/e-paper-b.jpg");
+  --ground-grade: linear-gradient(180deg, rgba(246, 241, 230, .78), rgba(246, 241, 230, .55));
+  --scene-mark-w: min(72vw, 720px);
+  --scene-name-w: min(88vw, 520px);
+  --scene-name-ratio: 1024 / 118;
+  --scene-name-shift: -38%;
+
+  /* ---- the ink grammar for commitments: said · kept · agreed.
+     Said is dust; kept is the paper hue's step (text at a lighter weight of ink); agreed
+     is full ink. The ink drying when a witness verifies is the one celebration. Proposal. */
+  --ink-said: var(--dust);
+  --ink-kept: color-mix(in srgb, var(--text) 72%, var(--ground));
+  --ink-agreed: var(--text);
+  --d-ink: 1200ms;          /* the ink drying */
+
+  /* ---- the Mark (brand proportions, as fractions of the block width W) */
+  --mark-name: .1343;
+  --mark-narrative: .0454;
+  --mark-action: .0371;
+  --mark-gap-1: .18;  /* x Name size */
+  --mark-gap-2: .15;
+  --mark-gap-3: .13;
+
+  /* ---- the printed Deal card (6 x 4 in) */
+  --card-print-w: 6in;
+  --card-print-h: 4in;
+  --card-print-margin: .3in;
+  --card-print-mark-w: 3.958in;  /* W = 380 of 576 */
+  --night-print: #0a1220;
+  --paper-print: #f6f1e6;
+  --ink-print: #1e1b16;
+  --gold-light-print: #efd9a0;
+  --gold-ink-print: #8a6d1f;
+  --p-opening: 18pt;
+  --p-question: 10.5pt;
+  --p-body: 10pt;
+  --p-small: 9.5pt;
+  --p-micro: 8pt;
+  --p-box: 8pt;
+  --p-rule: .6pt;
+  --p-gap: 3pt;
+  --p-gap-wide: 12pt;
+  --p-line: 10pt;
+  --p-indent: 1.2em;
+  --p-initials: 1.2in;
+  --p-quiet: .72;
+  --p-page-margin: 14mm;
+}
+
+/* ---- night (dark): when the system asks, unless fixed to paper; or when fixed to night */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) {
+    --ground: #0a1220;
+    --ground-top: #070c16;
+    --ground-bottom: #0d1a30;
+    --grain: .05;
+    --surface: #0f1a2c;
+    --surface-raised: #13203a;
+    --text: #f6f1e6;
+    --accent: rgba(246, 241, 230, .42);
+    --accent-text: #f6f1e6;
+    --gold: rgba(246, 241, 230, .42);
+    --owed: #efd9a0;
+    --owed-text: #efd9a0;
+    --owed-fill: rgba(239, 217, 160, .14);
+    --point-colour: #d4a94e;
+    --dust: #8b86a3;
+    --ember: #d4a94e;
+    --sage: #8b86a3;
+    --line: rgba(246, 241, 230, .12);
+    --line-strong: rgba(246, 241, 230, .24);
+    --scrim: rgba(7, 12, 22, .6);
+    --shadow-raised: none;
+    --field-line: rgba(246, 241, 230, .18);
+    --membrane: rgba(246, 241, 230, .2);
+    --pill-suggested: rgba(246, 241, 230, .07);
+    color-scheme: dark;
+    --ground-frame: url("art/n-night-phone-a.jpg");
+    --ground-grade: linear-gradient(180deg, rgba(10, 18, 32, .82), rgba(10, 18, 32, .62) 50%, rgba(13, 26, 48, .5));
+  }
+}
+:root[data-theme="night"] {
+  --ground: #0a1220;
+  --ground-top: #070c16;
+  --ground-bottom: #0d1a30;
+  --grain: .05;
+  --surface: #0f1a2c;
+  --surface-raised: #13203a;
+  --text: #f6f1e6;
+  --accent: rgba(246, 241, 230, .42);
+  --accent-text: #f6f1e6;
+  --gold: rgba(246, 241, 230, .42);
+  --owed: #efd9a0;
+  --owed-text: #efd9a0;
+  --owed-fill: rgba(239, 217, 160, .14);
+  --point-colour: #d4a94e;
+  --dust: #8b86a3;
+  --ember: #d4a94e;
+  --sage: #8b86a3;
+  --line: rgba(246, 241, 230, .12);
+  --line-strong: rgba(246, 241, 230, .24);
+  --scrim: rgba(7, 12, 22, .6);
+  --shadow-raised: none;
+  --field-line: rgba(246, 241, 230, .18);
+  --membrane: rgba(246, 241, 230, .2);
+  --pill-suggested: rgba(246, 241, 230, .07);
+  color-scheme: dark;
+  --ground-frame: url("art/n-night-phone-a.jpg");
+  --ground-grade: linear-gradient(180deg, rgba(10, 18, 32, .82), rgba(10, 18, 32, .62) 50%, rgba(13, 26, 48, .5));
+}
+
+/* ---- more contrast: dust lifts on night, hairlines double */
+@media (prefers-contrast: more) {
+  :root { --hairline: 2px; --line: rgba(30, 27, 22, .3); }
+  :root[data-theme="night"] { --dust: #a39fba; --line: rgba(246, 241, 230, .26); }
+}
+@media (prefers-contrast: more) and (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) { --dust: #a39fba; --line: rgba(246, 241, 230, .26); }
+}
+
+/* ---- gutters by width (§5.3) */
+@media (min-width: 600px)  { :root { --gutter: 24px; } }
+@media (min-width: 1024px) { :root { --gutter: 32px; } }
+
+/* ---- large type (§5.1) */
+:root[data-type="large"] {
+  --t-micro: 16px;
+  --t-small: 19px;
+  --t-body: 22px;
+  --t-card: 27px;
+  --t-voice: 42px;
+  --t-number: 64px;
+}
+
+/* ---- reduced motion: every scene becomes a crossfade or an instant swap */
+@media (prefers-reduced-motion: reduce) {
+  :root { --d-card: 240ms; --d-dolly: 240ms; --d-bloom: 0ms; --rise-card: 0px; --rise-line: 0px; --settle-drop: 0px; }
+}
+:root[data-motion="reduce"] { --d-card: 240ms; --d-dolly: 240ms; --d-bloom: 0ms; --rise-card: 0px; --rise-line: 0px; --settle-drop: 0px; }
+
+/* the desk's night ground from 1024 px */
+@media (min-width: 1024px) and (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) { --ground-frame: url("art/k-night-desk-a.jpg"); }
+}
+@media (min-width: 1024px) {
+  :root[data-theme="night"] { --ground-frame: url("art/k-night-desk-a.jpg"); }
+}

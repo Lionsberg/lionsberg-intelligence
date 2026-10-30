@@ -48,7 +48,14 @@ When it asks whether to trust this folder, check that it names your HQ, then say
 Open **Windows Terminal** running **PowerShell** (not Command Prompt). Copy the Windows (PowerShell) command as above. Paste it into your PowerShell window, read it through once, then press Enter. The download may take a minute or two.
 
 > [!tip]
-> Windows may also show a setup note after the install finishes, similar to the Mac one above. If you see one, do exactly what it says.
+> **Windows may show a setup note** after the install finishes, saying the install folder is not on your PATH yet. If it does, `claude` will not be found until you add it — the same three steps every time:
+>
+> 1. Press the Windows key, type **environment**, and choose **Edit environment variables for your account**.
+> 2. In the top list (**User variables**), select **Path** → **Edit** → **New**, and enter `%USERPROFILE%\.local\bin`. Click **OK** all the way out.
+> 3. **Close every Windows Terminal window** — tabs opened after the change still have the old PATH — then open a new one and type `claude`.
+
+> [!tip]
+> **A "module is blocked from loading into the Local Security Authority" dialog** may pop up the first time a command reaches the internet, naming `mdnsNSP.dll` under `Program Files\Bonjour`. It is harmless: Windows 11 is refusing to load Apple's Bonjour networking add-on (installed with iTunes, some Adobe installers and some printer software) into its security system, and whatever you were running keeps going. Tick the box that stops the message from appearing again, and click **Cancel**. Do not change LSA protection. If it keeps appearing and you do not use Apple devices, uninstalling **Bonjour** from Settings → Apps makes it go away.
 
 Then close Windows Terminal and open it again. Type `claude --version` and press Enter. If you see a version number, Claude Code is installed. In the Quest, one pasted line does the install and starts Claude Code by its full path, and Claude adds the PATH line itself; this page is the same ground by hand.
 

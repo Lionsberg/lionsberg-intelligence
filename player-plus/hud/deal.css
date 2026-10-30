@@ -1,0 +1,92 @@
+/*
+  deal.css: The Deal, the two stacks, Show me the whole, the Queue.
+  Every value from tokens.css.
+*/
+.deal { display: grid; gap: var(--s-4); padding-top: var(--s-5); }
+.deal-opening { font-size: var(--t-voice); line-height: var(--lh-voice); font-weight: var(--w-regular); }
+.deal-head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); }
+.deal-line { font-size: var(--t-body); }
+.time-chip { min-height: var(--touch); font-size: var(--t-small); color: var(--dust); }
+.deal-note { margin-top: calc(-1 * var(--s-2)); }
+.deal-stage { display: grid; gap: var(--s-4); margin-top: var(--s-2); }
+.deal-cards { display: grid; gap: var(--s-4); }
+.deal-cards.is-wide { grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); align-items: start; }
+.deal-cards.is-wide { gap: var(--s-6); }
+.deal-nav { display: flex; justify-content: space-between; gap: var(--s-3); }
+.deal-empty, .deal-played { font-size: var(--t-card); line-height: var(--lh-tight); }
+.deal-played { font-family: var(--f-voice); font-style: italic; }
+.card--fixed .fixed-input {
+  width: 100%; margin-top: var(--s-3); padding: var(--s-3); min-height: calc(var(--touch) * 2);
+  background: transparent; border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); resize: vertical;
+}
+.deal.is-small { padding-top: 0; }
+.deal-small { text-decoration: none; }
+
+/* the Player layout: the Deal at a reading measure on a phone and a tablet; on wide
+   screens the cards sit side by side (at most three), each card at its own measure */
+.layout[data-layout="player"] .col-main { max-width: var(--measure); }
+@media (min-width: 1024px) {
+  :root:not([data-type="large"]) .layout[data-layout="player"] .col-main { max-width: var(--deal-wide); }
+  :root:not([data-type="large"]) .layout[data-layout="player"] .col-main > .view:not(.view--deal) { max-width: var(--measure); width: 100%; justify-self: start; }
+  :root:not([data-type="large"]) .layout[data-layout="player"] .deal-opening,
+  :root:not([data-type="large"]) .layout[data-layout="player"] .deal-head { max-width: var(--measure); }
+}
+
+/* the two stacks: thin cards settled at the foot */
+.stacks { display: flex; flex-wrap: wrap; gap: 0 var(--s-5); }
+.stack { display: inline-flex; align-items: center; min-height: var(--touch); color: var(--dust); text-decoration: none; font-size: var(--t-small); }
+.stack:hover { color: var(--text); }
+.col-aside .stacks { display: grid; gap: 0; }
+.stacks-week { flex-basis: 100%; }
+
+/* Show me the whole, the privacy line, paper */
+.whole { display: grid; justify-items: center; gap: var(--s-3); padding: var(--s-5) 0; text-align: center; }
+.whole-pill { min-width: 12rem; }
+.privacy { max-width: var(--measure); }
+.paper-links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s-2); font-size: var(--t-small); }
+
+/* the Queue */
+.queue { display: grid; gap: var(--s-4); padding-top: var(--s-4); }
+.segmented { display: grid; grid-template-columns: 1fr 1fr; border: var(--hairline) solid var(--line-strong); border-radius: var(--r-pill); padding: var(--s-1); }
+.seg { min-height: var(--touch); border: 0; border-radius: var(--r-pill); background: transparent; cursor: pointer; font-size: var(--t-small); }
+.seg[aria-selected="true"] { background: var(--pill-suggested); color: var(--text); }
+.queue-tools { display: flex; gap: var(--s-2); }
+.queue-rows { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.queue-rows .card--row { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--s-3); }
+.queue-rows .card--row > :not(.queue-min) { grid-column: 1; }
+.queue-min { grid-column: 2; grid-row: 1 / span 3; align-self: center; font-size: var(--t-small); }
+.queue-past { font-size: var(--t-small); }
+.queue-props-note { margin-top: var(--s-4); }
+.is-proposals .card { border-style: dashed; }
+
+/* ---- the agent's voice first, the settled line with its Undo in the flow */
+.deal-greeting { font-size: var(--t-card); line-height: var(--lh-voice); color: var(--text); max-width: var(--measure); }
+.deal-settled { display: flex; align-items: baseline; gap: var(--s-3); min-height: var(--touch); font-size: var(--t-small); }
+.deal-settled-mark { color: var(--text); }
+.deal-settled-text { flex: 1 1 auto; min-width: 0; }
+.deal-settled-then { color: var(--dust); }
+.deal-settled .link-btn { white-space: nowrap; }
+
+/* ---- lifted to the bar (DESIGN-THE-BAR, 2026-10-24) */
+.deal-cost { justify-self: start; padding: 0; color: var(--dust); font-size: var(--t-small); text-decoration: none; min-height: var(--touch); }
+.deal-cost:hover { text-decoration: underline; }
+.deal-head { display: grid; gap: 0; grid-template-columns: minmax(0, 1fr); }
+.deal-nav { justify-content: space-between; }
+.deal-nav .link-btn { color: var(--dust); text-decoration: none; }
+.deal-nav .link-btn[disabled] { visibility: hidden; }
+.deal-rest-line { font-size: var(--t-card); line-height: var(--lh-voice); max-width: var(--measure); }
+.deal-small { color: var(--dust); font-size: var(--t-small); text-decoration: none; }
+/* the field turning at rest: one revolution in --d-field (a slow breath, never an effect);
+   still under reduced motion, where every scene is its last frame */
+.still-frame.is-turning img { animation: field-turn var(--d-field, 240s) linear infinite; }
+@keyframes field-turn { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .still-frame.is-turning img { animation: none; } }
+:root[data-motion="reduce"] .still-frame.is-turning img { animation: none; }
+/* the rest state: the field, one line, nothing else (the other Player views step back) */
+html[data-rest] .layout[data-layout="player"] .view:not(.view--deal) { display: none; }
+.deal-head .deal-settled { min-height: var(--touch); min-width: 0; }
+.deal-head .deal-settled-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card--large .card-give .link-btn { color: var(--dust); }
+/* the next hand (2026-10-25): one act under the rest line, and what still waits in dust */
+.deal-next { display: flex; }
+.deal-next-rest { margin: 0; max-width: var(--measure); }

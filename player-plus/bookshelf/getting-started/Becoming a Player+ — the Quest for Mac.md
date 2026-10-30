@@ -140,9 +140,9 @@ More: [System Requirements](System%20Requirements.md) · [Your First House](Your
 *You meet your agent. An [Agent](https://read.lionsberg.world/The_Field/Agent) is an AI that works for you and answers to you. You and your agents together are one [Player+](https://read.lionsberg.world/The_Field/Player+). You decide; it carries.*
 
 1. Double-click **My Agent** on your Desktop (or, on Path B, go into HQ in the terminal and type `claude`). If the Mac asks whether Terminal may access files in your Desktop folder, choose **OK**. A dark Terminal window opens in HQ and Claude Code starts, this time reading the instructions the kit placed there: it is your agent now. If its words are hard to read, type `/theme`, press Return, and choose a dark theme. When it asks whether to trust the folder, check that **Accessing workspace:** names your HQ, then choose **Yes, I trust this folder**.
-2. Open [START-HERE](../../START-HERE.md) and follow **Door 3**. It gives your first message word for word; copy it, paste it into Claude Code right where you are, and press Return. Your agent reads its charter, the kit's waiver and the seed before it says anything.
-3. It greets you and asks who you are and how you like to be spoken with. Then it walks you through two things in plain words, one at a time: the **waiver**, which says what you take on by running an AI on your own computer, and **the Field of Agreements**, the terms everyone plays by. Ask anything. Take part only if you agree; say your yes in your own words, and it writes it down, with the date, in your folder.
-4. Then tell it what you will call it, and what you are playing toward.
+2. Type your first message, one sentence with your own name and the name you chose for your agent, and press Return: *Hello, I am Ada. I will call you River. Please wake up and meet me.* ([START-HERE](../../START-HERE.md), Door 3, has it too.) Your agent says at once that it is waking, and within about a minute it greets you by name.
+3. It asks one thing before it keeps anything for you: the **waiver**, in one line, which says what you take on by running an AI on your own computer. One word is enough, if you agree. The whole waiver and **the Field of Agreements**, the terms everyone plays by, are there to read together whenever you like, about ten minutes.
+4. Then it deals you your first cards: what you are playing toward this week, and whom you would pass the flame to when you are ready.
 5. At every step, say yes, no, or "wait, explain."
 
 > [!tip] Naming your agent

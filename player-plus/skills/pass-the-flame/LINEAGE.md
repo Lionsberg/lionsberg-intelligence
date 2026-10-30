@@ -1,12 +1,12 @@
 # Lineage — `pass-the-flame`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 
 ```yaml
 name: pass-the-flame
 version: 0.1.0
-sits_on: LIØNSBERG Player+ 3.1.0
+grows_from: LIØNSBERG Player+ 3.1.0
 lineage:
   - "THE FLAME (the law, the seven days, the two or three — carried here as three days and three, the minimum and never a cap, what you hand them, their Cell is their own, the double helix, the arithmetic of life, attraction not promotion)"
   - "Pass The Flame (the library's concept field — move seven, never optional; the only mechanism of spread the body has; count it on the Scorecard and name the new Cells on line 7)"

@@ -1,0 +1,371 @@
+/* dock.css: the dock, the conversation pane of the ICE (DESIGN-DOCK §2.1, §6).
+   phone 0–599: a foot bar; open, a sheet leaving The Deal's top line in view.
+   tablet 600–1023: the foot bar; open, a right-hand pane of 24rem.
+   desktop 1024+: a rail of 56px at the right edge; open, a third column of 26rem.
+   No drawn light: the ring is a hairline, unlit; nothing glows, pulses or spins. Every value
+   from tokens.css. Linked by shell.js (index.html is not changed). */
+
+.dock { position: fixed; z-index: calc(var(--z-top) + 1); font-family: var(--f-body); color: var(--text); }
+.dock[hidden] { display: none; }
+
+/* the ring joined to your mark by a hairline (DESIGN-ROOM §4.1; an agent is never free-standing) */
+.dock-join { display: inline-flex; align-items: center; flex: none; }
+.dock-mark { width: 6px; height: 6px; border-radius: 50%; background: var(--text); }
+.dock-hair { width: 10px; height: var(--hairline); background: var(--line-strong); }
+.dock-ring, .dock-turnring { width: 14px; height: 14px; border-radius: 50%; border: var(--hairline) solid var(--text); box-sizing: border-box; flex: none; display: inline-block; }
+
+/* ---------------------------------------------------------------- collapsed: bar or rail */
+.dock-bar {
+  display: flex; align-items: center; gap: var(--s-3); width: 100%; min-height: 56px;
+  padding: 0 var(--gutter); padding-bottom: env(safe-area-inset-bottom);
+  background: var(--surface); border: 0; border-top: var(--hairline) solid var(--line); color: var(--text);
+  text-align: left; cursor: pointer; font: inherit;
+}
+.dock-bar .dock-name { font-family: var(--f-name); font-size: var(--t-micro); letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--dust); }
+.dock-bartalk { flex: 1 1 auto; color: var(--dust); }
+.dock-bartalk.is-waiting { color: var(--text); }
+.dock.is-open .dock-bar { display: none; }
+.dock-pane { display: none; }
+.dock.is-open .dock-pane { display: flex; }
+
+/* phone and tablet: the foot bar */
+@media (max-width: 1023px) {
+  .dock { left: 0; right: 0; bottom: 0; }
+  html[data-dock] main.views { padding-bottom: calc(56px + var(--s-8) + env(safe-area-inset-bottom)); }
+  html[data-dock] .toasts { bottom: calc(56px + var(--s-4) + env(safe-area-inset-bottom)); }
+}
+
+/* phone: open is a sheet rising to leave The Deal's top line in view */
+@media (max-width: 599px) {
+  .dock.is-open { top: 0; }
+  .dock.is-open .dock-pane {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 85%; flex-direction: column;
+    background: var(--surface); border-top: var(--hairline) solid var(--line-strong);
+    border-radius: var(--r-sheet) var(--r-sheet) 0 0; padding-bottom: env(safe-area-inset-bottom);
+  }
+  .dock.is-open .dock-dealline {
+    display: block; position: fixed; left: 0; right: 0; top: 0; height: 15%; width: 100%;
+    background: var(--ground); border: 0; border-bottom: var(--hairline) solid var(--line); color: var(--text);
+    font: inherit; font-size: var(--t-card); text-align: left; cursor: pointer;
+    padding: calc(var(--s-4) + env(safe-area-inset-top)) var(--gutter) 0; align-self: start;
+  }
+  .dock.is-open { background: var(--scrim); }
+}
+.dock-dealline { display: none; }
+
+/* tablet: a right-hand pane of 24rem */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .dock.is-open { left: auto; top: 0; width: 24rem; }
+  .dock.is-open .dock-pane { height: 100%; flex-direction: column; background: var(--surface); border-left: var(--hairline) solid var(--line-strong); }
+}
+
+/* desktop and wide: a rail at the right edge; open, a third column of 26rem */
+@media (min-width: 1024px) {
+  .dock { top: 0; right: 0; bottom: 0; width: 56px; }
+  .dock.is-open { width: 26rem; }
+  html[data-dock="collapsed"] body { padding-right: 56px; }
+  html[data-dock="open"] body { padding-right: 26rem; }
+  .dock-bar {
+    flex-direction: column; justify-content: flex-start; height: 100%; width: 56px; min-height: 0;
+    padding: var(--s-5) 0; border-top: 0; border-left: var(--hairline) solid var(--line);
+  }
+  .dock-bar .dock-name { writing-mode: vertical-rl; font-variant: small-caps; }
+  .dock-bartalk { writing-mode: vertical-rl; font-size: var(--t-small); flex: 0 0 auto; }
+  .dock.is-open .dock-pane { height: 100%; flex-direction: column; background: var(--surface); border-left: var(--hairline) solid var(--line-strong); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:not([data-motion="reduce"]) .dock.is-open .dock-pane { animation: dock-rise var(--d-settle) var(--e-settle); }
+}
+@keyframes dock-rise { from { opacity: 0; transform: translateY(var(--rise-card)); } to { opacity: 1; transform: none; } }
+
+/* ---------------------------------------------------------------- the open pane */
+.dock-head { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s-2) var(--s-3); padding: var(--s-3) var(--s-4); border-bottom: var(--hairline) solid var(--line); }
+.dock-who { display: inline-flex; align-items: center; gap: var(--s-2); border: 0; background: transparent; color: var(--text); cursor: pointer; min-height: var(--touch); padding: 0; font: inherit; }
+.dock-who .dock-name { font-family: var(--f-name); letter-spacing: var(--track-caps); text-transform: uppercase; font-size: var(--t-micro); }
+.dock-statewords { flex: 1 1 auto; }
+.dock-headtools { display: flex; flex-wrap: wrap; gap: 0; }
+.dock-headtools .link-btn { font-size: var(--t-small); }
+
+.dock-scroll { flex: 1 1 auto; overflow-y: auto; padding: var(--s-4); overscroll-behavior: contain; }
+.dock-turns { display: grid; gap: var(--s-4); }
+.dock-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-3); align-items: start; }
+.dock-turn { max-width: 34rem; font-size: var(--t-body); line-height: var(--lh-body); }
+.dock-turn--agent { border-top: var(--hairline) solid var(--line); padding-top: var(--s-3); position: relative; }
+.dock-turn--agent:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: var(--focus-offset); }
+.dock-turnring { position: absolute; top: calc(-7px); left: 0; background: var(--surface); }
+.dock-turn--you .dock-words { color: var(--text); }
+.dock-turn.is-sending { opacity: var(--dim-loading); }
+.dock-words { white-space: pre-wrap; overflow-wrap: anywhere; }
+.dock-words[contenteditable="true"] { border-bottom: var(--hairline) dashed var(--line-strong); outline: none; }
+.dock-tool { margin: 0 0 var(--s-1); }
+.dock-plan { list-style: none; padding: 0; margin: 0 0 var(--s-2); font-size: var(--t-small); color: var(--dust); }
+.dock-plan .done { color: var(--text); }
+.dock-note, .dock-empty { text-align: center; }
+.dock-quietfoot { display: flex; flex-wrap: wrap; align-items: center; gap: 0; font-size: var(--t-small); opacity: 0; visibility: hidden; transition: opacity var(--d-quick) var(--e-settle); }
+.dock-quietfoot .link-btn { color: var(--dust); font-size: var(--t-small); min-height: 32px; }
+.dock-turn:hover .dock-quietfoot, .dock-turn:focus-within .dock-quietfoot, .dock-turn:focus .dock-quietfoot, .dock-quietfoot.is-shown { opacity: 1; visibility: visible; }
+.dock-rate { display: inline-flex; align-items: center; flex-wrap: wrap; }
+.dock-rate .link-btn { padding: 0 var(--s-1); text-decoration: none; }
+
+/* the margin: the edge of the dock that faces The Deal */
+.dock-margin { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); font-size: var(--t-small); }
+.dock-mline { display: grid; gap: var(--s-1); }
+.dock-mline.ink-said .dock-mwords { font-style: italic; }
+.dock-mwords { text-align: left; padding: 0; min-height: 0; color: inherit; text-decoration: none; font: inherit; }
+.dock-mline .eyebrow { color: inherit; opacity: .9; }
+.dock-mactions { display: flex; gap: 0; }
+.dock-mactions .link-btn { min-height: 32px; padding-left: 0; font-size: var(--t-small); }
+.dock-mnote { font-size: var(--t-micro); }
+.dock-check { font-style: normal; }
+
+/* the foot: notices, the pinned ask, the line to speak */
+.dock-line:empty { display: none; }
+.dock-line { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; padding: var(--s-3) var(--s-4); gap: var(--s-2); }
+.dock[data-view="line"] .dock-scroll, .dock[data-view="line"] .dock-foot { display: none; }
+.dock-foot { border-top: var(--hairline) solid var(--line); padding: var(--s-3) var(--s-4) var(--s-4); display: grid; gap: var(--s-2); }
+.dock-notices:empty, .dock-asks:empty, .dock-aboutline:empty, .dock-commands:empty, .dock-state:empty { display: none; }
+.dock-notice { font-size: var(--t-small); }
+.dock-notice .link-btn { white-space: nowrap; }
+.dock-notice-acts { display: inline-flex; flex-wrap: nowrap; gap: 0; }
+.dock-asks { display: grid; gap: var(--s-3); max-height: 50vh; overflow-y: auto; }
+.dock-inputrow { display: flex; align-items: flex-end; gap: var(--s-2); }
+.dock-input, .dock-ptyinput {
+  flex: 1 1 auto; min-height: var(--touch); max-height: 200px; resize: none; padding: var(--s-2) var(--s-3);
+  border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); background: var(--ground); color: var(--text);
+  font-family: var(--f-body); font-size: var(--t-body); line-height: var(--lh-tight);
+}
+.dock-ptyinput { font-family: var(--f-mono); font-size: var(--t-small); }
+.dock-input:focus, .dock-ptyinput:focus { outline: var(--hairline) solid var(--focus-ring); outline-offset: 1px; }
+.dock-commands { list-style: none; margin: 0; padding: 0; font-size: var(--t-small); }
+.dock-commands button { border: 0; background: transparent; color: var(--text); cursor: pointer; min-height: 32px; text-align: left; font: inherit; }
+.dock-stop[hidden] { display: none; }
+
+/* the context card (dock-card.js), on card.css's compact face */
+.dock-ask { background: var(--surface-raised); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-card); padding: var(--s-4); display: grid; gap: var(--s-2); }
+.dock-ask .card-title { font-size: var(--t-card); font-weight: var(--w-regular); margin: 0; }
+.dock-ask .actions { margin-top: var(--s-2); gap: var(--s-2); }
+.dock-reach { font-size: var(--t-small); color: var(--dust); }
+.dock-reach--leaves { color: var(--text); }
+.dock-untrusted { color: var(--text); }
+.dock-fold summary { cursor: pointer; }
+.dock-preview { margin: 0; padding: 0 0 0 var(--s-3); border-left: var(--hairline) solid var(--line-strong); font-size: var(--t-body); white-space: pre-wrap; overflow-wrap: anywhere; }
+.dock-raw { font-family: var(--f-mono); font-size: var(--t-micro); white-space: pre-wrap; overflow-wrap: anywhere; margin: var(--s-2) 0 0; padding: var(--s-2); border: var(--hairline) solid var(--line); border-radius: var(--r-chip); }
+
+/* the terminal view and the command line: plain monospace, the same ground, no light */
+.dock-terminal { font-family: var(--f-mono); font-size: var(--t-micro); line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; color: var(--text); }
+.dock-pty { flex: 1 1 auto; overflow-y: auto; min-height: 12rem; padding: var(--s-2); border: var(--hairline) solid var(--line); border-radius: var(--r-chip); background: var(--ground); }
+.dock-line .dock-inputrow { flex-wrap: wrap; }
+.dock-line .dock-ptyinput { flex: 1 1 100%; min-width: 0; }
+.dock-linesaid { font-size: var(--t-small); color: var(--dust); }
+
+/* "Where did that go?", the phone sheet */
+.dock-where-list { padding-left: var(--s-5); }
+.dock-address, .dock-code, .dock-fingerprint { font-family: var(--f-mono); overflow-wrap: anywhere; }
+.dock-fingerprint { word-spacing: .3em; line-height: 1.6; }
+.dock-code { font-size: var(--t-card); letter-spacing: .2em; }
+.dock-steps { padding-left: var(--s-5); display: grid; gap: var(--s-2); }
+.top-wait { font-size: var(--t-small); padding-left: 0; }
+.pairing .pair-code { font-family: var(--f-mono); font-size: var(--t-card); text-align: center; letter-spacing: .3em; width: 10ch; padding: var(--s-2); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); background: var(--surface); color: var(--text); }
+
+/* large type: a full sheet, nothing below 16px, the card's buttons 56px tall */
+html[data-type="large"] .dock.is-open { top: 0; left: 0; right: 0; width: auto; }
+html[data-type="large"] .dock.is-open .dock-pane { height: 85%; }
+html[data-type="large"] .dock-input { font-size: 22px; }
+html[data-type="large"] .dock-ask .pill { min-height: 56px; }
+html[data-type="large"] .dock-quietfoot .link-btn, html[data-type="large"] .dock-margin, html[data-type="large"] .dock-terminal { font-size: max(16px, var(--t-small)); }
+@media (min-width: 1024px) { html[data-type="large"][data-dock="open"] body { padding-right: 56px; } }
+
+@media print { .dock { display: none !important; } html[data-dock] body { padding-right: 0 !important; } }
+
+/* ---------------------------------------------------------------- a letter, not a log
+   The agent's words are the page; hers are the other half of the letter, in dust. The work it did
+   is one line in the margin beneath the turn, in kept ink. The field is the made frame of the
+   person, still at rest, turning (one frame crossing into the next) while the agent is at work. */
+.dock-turns { gap: var(--s-5); }
+.dock-row { grid-template-columns: minmax(0, 1fr); gap: var(--s-2); }
+.dock-margincol { padding-left: var(--s-4); border-left: var(--hairline) solid var(--line); margin-left: var(--s-2); }
+.dock-margincol:empty { display: none; }
+.dock-turn--agent { border-top: 0; padding-top: 0; }
+.dock-turn--you .dock-words { color: var(--dust); }
+.dock-turn--you { padding-top: var(--s-2); }
+.dock-aboutsaid { font-style: italic; }
+.dock-turnmark { height: 32px; display: flex; align-items: center; margin-bottom: var(--s-2); }
+.dock-turnmark .dock-turnring { position: static; }
+.dock-letter { display: grid; gap: var(--s-3); max-width: 34rem; }
+.dock-letter .dock-words { margin: 0; color: var(--text); }
+.dock-letter strong { font-weight: var(--w-emphasis); }
+.dock-h { font-family: var(--f-name); font-size: var(--t-micro); letter-spacing: var(--track-caps); text-transform: uppercase; margin: var(--s-2) 0 0; color: var(--text); }
+.dock-list { margin: 0; padding-left: var(--s-5); display: grid; gap: var(--s-1); }
+.dock-presence { margin: var(--s-2) 0 0; font-style: italic; }
+.dock-more { color: var(--dust); margin-left: var(--s-3); font-size: var(--t-small); text-decoration: underline; text-underline-offset: 3px; }
+.dock-back { font-size: var(--t-small); }
+.dock-statewords:empty { display: none; }
+.dock-head { flex-wrap: nowrap; }
+.dock-who { flex: 1 1 auto; min-width: 0; }
+.dock-close { color: var(--dust); }
+
+@media (prefers-reduced-motion: no-preference) {
+  html:not([data-motion="reduce"]) .dock-letter > * { animation: dock-word var(--d-settle) var(--e-settle); }
+}
+@keyframes dock-word { from { opacity: 0; } to { opacity: 1; } }
+
+/* the field: three made frames stacked in one engraved circle */
+.dock-field { position: relative; display: inline-block; width: 32px; height: 32px; border-radius: 50%; overflow: hidden; background: var(--night-print); flex: none; }
+.dock-field img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+.dock-field img:first-child { opacity: 1; }
+.dock-field--rest { width: 120px; height: 120px; }
+.dock-field--rest img { inset: -12%; width: 124%; height: 124%; }
+.dock-rest { display: grid; justify-items: center; gap: var(--s-5); padding: var(--s-8) 0 var(--s-4); }
+.dock-rest .dock-letter { justify-self: stretch; }
+.dock-field--live { width: 48px; height: 48px; }
+.dock-field:not(.dock-field--rest) img { inset: -18%; width: 136%; height: 136%; filter: brightness(1.7) contrast(1.15); }
+.dock-turnmark:has(.dock-field--live) { height: 48px; }
+@media (prefers-reduced-motion: no-preference) {
+  /* the three frames of the person flowing cross one into the next, so the lines seem to move through the field */
+  html:not([data-motion="reduce"]) .dock-field.is-turning img { animation: dock-turn 3.6s linear infinite; }
+  html:not([data-motion="reduce"]) .dock-field.is-turning img:nth-child(1) { animation-delay: -2.4s; }
+  html:not([data-motion="reduce"]) .dock-field.is-turning img:nth-child(2) { animation-delay: -1.2s; }
+  html:not([data-motion="reduce"]) .dock-field.is-turning img:nth-child(3) { animation-delay: 0s; }
+  html:not([data-motion="reduce"]) .dock-field.is-turning { animation: dock-breathe 7.2s ease-in-out infinite; }
+}
+@keyframes dock-turn { 0% { opacity: 0; } 22% { opacity: 1; } 44% { opacity: 1; } 66% { opacity: 0; } 100% { opacity: 0; } }
+@keyframes dock-breathe { 0%, 100% { transform: rotate(0deg); } 50% { transform: rotate(-8deg); } }
+
+/* what it did: one line in kept ink, the steps folded */
+.dock-work { font-size: var(--t-small); }
+.dock-work summary { cursor: pointer; list-style: none; display: grid; gap: var(--s-1); }
+.dock-work summary::-webkit-details-marker { display: none; }
+.dock-work .eyebrow { color: inherit; }
+.dock-work[open] summary { margin-bottom: var(--s-2); }
+.dock-steps-list { margin: 0; padding-left: var(--s-5); display: grid; gap: var(--s-1); }
+.dock-work-said { font-style: italic; margin: 0 0 var(--s-2); }
+.dock-margincol .dock-margin { margin-top: var(--s-3); }
+.dock-margincol > .dock-margin:first-child { margin-top: 0; }
+
+/* the ask: the question in the agent's voice; No and Yes where the thumb is */
+.dock-ask { gap: var(--s-3); }
+.dock-ask-head { display: flex; align-items: baseline; gap: var(--s-3); }
+.dock-ask-head .dock-ring { transform: translateY(2px); }
+.dock-ask-q { font-size: var(--t-card); line-height: var(--lh-tight); }
+.dock-ask-why { margin: 0; }
+.dock-ask-quiet { display: flex; flex-wrap: wrap; gap: 0 var(--s-3); margin: 0; }
+.dock-ask-quiet .link-btn { color: var(--dust); font-size: var(--t-small); padding-left: 0; }
+.dock-answers { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); }
+.dock-answers .pill { min-height: 48px; justify-content: center; font-size: var(--t-body); }
+@media (max-width: 599px) { .dock-answers .pill { min-height: 56px; } }
+
+/* an ask your agent made, dealt as The Deal's top card too (deal.js); the same card face as the dock's */
+.deal-asks { display: grid; gap: var(--s-3); max-width: 34rem; margin: var(--s-4) 0 var(--s-5); }
+
+/* ---------------------------------------------------------------- the layered voice (DESIGN-DOCK "The layered voice")
+   The microphone sits at the line to speak, 44 px, a hairline ring in the ink of the text. Listening
+   is said in words beside the line and shown by the ring filling with ink: no glow, no pulse, no
+   drawn wave. What is heard and not yet sure is in dust above the line; what is sure is in the line. */
+.dock-mic {
+  flex: 0 0 auto; width: 44px; height: 44px; margin-bottom: 2px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: var(--hairline) solid var(--line-strong); border-radius: var(--r-pill);
+  background: transparent; color: var(--text); cursor: pointer;
+  touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none;
+}
+.dock-mic[hidden] { display: none; }
+.dock-mic:focus-visible { outline: var(--hairline) solid var(--text); outline-offset: 2px; }
+.dock-mic.is-listening { background: var(--text); color: var(--ground); border-color: var(--text); }
+.dock-mic svg { display: block; pointer-events: none; }
+.dock-voice-interim { margin: 0 0 var(--s-1); font-style: italic; overflow-wrap: anywhere; }
+.dock-voice-interim[hidden] { display: none; }
+.dock-voice-state:empty { display: none; }
+.dock-voice-state.is-listening { color: var(--text); }
+.dock-voice-speaking { display: inline-flex; align-items: center; margin-top: var(--s-1); padding: 0; color: var(--dust); font-size: var(--t-small); text-decoration: none; }
+.dock-voice-speaking:hover, .dock-voice-speaking:focus-visible { text-decoration: underline; }
+.dock-voice-which { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.dock-voice-pick { max-width: 100%; min-height: var(--touch); padding: 0 var(--s-3); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); background: var(--ground); color: var(--text); font: inherit; }
+html[data-type="large"] .dock-mic { width: 56px; height: 56px; }
+@media (prefers-reduced-motion: no-preference) { .dock-mic { transition: background-color 120ms linear, color 120ms linear; } }
+
+/* voice mode: one switch in the head; the one state in large dust above the line; dimmed, the
+   dock's ground goes dark and the state stays readable (no light drawn, no motion) */
+.dock-voice-mode { flex: 0 0 auto; min-height: 44px; padding: 0 var(--s-3); font-size: var(--t-small); white-space: nowrap; }
+.dock.is-voice-mode .dock-voice-speaking { display: none; }   /* one state at a time: the stage says it */
+.dock-voice-stage { display: flex; flex-direction: column; align-items: center; gap: var(--s-2); padding: var(--s-3) var(--gutter, 16px); text-align: center; cursor: pointer; }
+.dock-voice-stage[hidden] { display: none; }
+.dock-voice-stage-name { margin: 0; font-family: var(--f-name); font-size: var(--t-small); font-variant: all-small-caps; letter-spacing: var(--track-caps); color: var(--dust); }
+.dock-voice-stage-name:empty { display: none; }
+/* an ask answered stays in its place as one quiet line: what was asked, and the answer */
+.dock-ask-done { margin: 0; font-size: var(--t-small); line-height: var(--lh-body); }
+.dock-voice-stage-word { margin: 0; color: var(--dust); font-family: var(--f-body); font-size: clamp(28px, 8vw, 40px); line-height: 1.15; }
+.dock-voice-leave { color: var(--dust); font-size: var(--t-small); }
+.dock.is-voice-mode .dock-voice-state { display: none; }
+.dock.is-voice-dim .dock-voice-stage { position: fixed; inset: 0; z-index: 60; justify-content: center; background: #000; }
+.dock.is-voice-dim .dock-voice-stage-word { color: var(--dust); font-size: clamp(36px, 11vw, 56px); }
+.dock-voice-slot { display: flex; justify-content: flex-end; margin-top: var(--s-1); }
+.dock-voice-slot[hidden] { display: none; }
+
+/* Stop in its own place, above the line to speak, so the row never changes when it comes and goes */
+.dock-stoprow { display: flex; justify-content: flex-end; }
+.dock-stoprow:not(:has(.dock-stop:not([hidden]))) { display: none; }
+.dock-input { min-width: 0; }
+.dock-send, .dock-mic { flex: none; }
+
+/* every sheet: its head stays at its top edge as the sheet scrolls, and what scrolls under it fades
+   beneath the head instead of being sliced at the edge (never "…thing at a time" cut in half) */
+.sheet > .sheet-head { position: sticky; top: calc(-1 * var(--s-5)); z-index: 1; margin: calc(-1 * var(--s-5)) 0 var(--s-4); padding: var(--s-5) 0 var(--s-2); background: var(--surface); }
+.sheet > .sheet-head::after { content: ""; position: absolute; left: 0; right: 0; top: 100%; height: var(--s-6); background: linear-gradient(var(--surface), transparent); pointer-events: none; }
+@media (min-width: 1024px) { .sheet > .sheet-head { top: calc(-1 * var(--s-5)); } }
+/* the sheet behind her name: a heading never sits flush against the line above it */
+.dock-about-sheet > .eyebrow { margin-top: var(--s-5); }
+.dock-about-sheet > .eyebrow:first-child { margin-top: 0; }
+.settings-agent .actions { margin: var(--s-2) 0 var(--s-3); }
+
+/* the trust layer (DESIGN-TALK.md): her acts as folded rows, the live line, the end line, her
+   workers beneath the stream. All dust; nothing moves but the clocks' figures; no spinner. */
+.dock-acts { list-style: none; margin: 0 0 var(--s-2); padding: 0; display: grid; gap: 2px; font-size: var(--t-micro); line-height: var(--lh-body); }
+.dock-act-fold > summary { list-style: none; cursor: pointer; min-height: 24px; }
+.dock-act-fold > summary::-webkit-details-marker { display: none; }
+.dock-act-fold > summary:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: 2px; }
+.dock-act-hook { display: inline-block; width: 1.6em; color: var(--dust); font-family: var(--f-mono); }
+.dock-act.is-failed .dock-act-words { text-decoration: line-through; }
+.dock-act.is-leaving .dock-act-words, .dock-act-leaves { color: var(--ink-kept); }
+.dock-act-steps { padding-left: 1.6em; }
+.dock-act-raw { max-height: 18em; overflow: auto; }
+.dock-acts--plain .dock-act-line { font-size: var(--t-small); }
+.dock-live { margin: var(--s-2) 0 0; font-variant-numeric: lining-nums tabular-nums; }
+.dock-thought { margin: var(--s-1) 0 0; font-style: italic; font-size: var(--t-micro); }
+.dock-end { margin: 0 0 var(--s-3); font-size: var(--t-micro); font-variant-numeric: lining-nums tabular-nums; }
+.dock-end-left { color: var(--ink-kept); font-size: inherit; min-height: 0; padding: 0; }
+.dock-turn--notice .dock-words { color: var(--ink-kept); }
+.dock-workers { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; font-size: var(--t-micro); }
+.dock-workers[hidden] { display: none; }
+.dock-worker { min-width: 0; display: flex; align-items: baseline; gap: var(--s-2); justify-content: space-between; }
+.dock-worker-line { flex: 1 1 0; min-width: 0; display: flex; white-space: nowrap; }
+.dock-worker-line > * { flex: none; white-space: pre; }
+.dock-worker-line > .dock-worker-task { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.dock-worker-name { font-variant: small-caps; letter-spacing: var(--track-eyebrow); }
+.dock-worker-stop { flex: none; font-size: var(--t-micro); color: var(--dust); }
+.dock-figures { display: grid; grid-template-columns: max-content 1fr; gap: var(--s-1) var(--s-3); margin: 0 0 var(--s-3); font-size: var(--t-small); }
+.dock-figures dt { color: var(--dust); }
+.dock-figures dd { margin: 0; overflow-wrap: anywhere; }
+.dock-figures-raw { max-height: 40vh; overflow: auto; }
+.dock-depth { gap: var(--s-2); }
+
+
+/* the trust layer: the one-time knob hint under the status line; the harness's mode by its own name, its plain words beside */
+.talk-depth-hint { margin: calc(-1 * var(--s-1)) 0 0; padding: 0 0 var(--s-2); font-size: var(--t-micro); line-height: var(--lh-body); color: var(--dust); }
+.dock-mode-name { color: var(--text); }
+.dock-mode-plain { font-size: var(--t-micro); }
+.dock-modes-fixed { margin-top: var(--s-1); }
+.dock-ask-words.is-answered .talk-her-line { color: var(--dust); }
+/* an ask her letter already asked: only its step, set close beneath her letter (panel 4, l) */
+.dock-ask-words.is-said-above { border-top: 0; padding-top: 0; margin-top: calc(-1 * var(--s-2)); }
+.dock-ask-words.is-said-above:empty { margin-top: 0; min-height: 0; }
+.dock-ask-step { margin-top: var(--s-2); }
+.dock-settings-fold { margin: var(--s-1) 0; }
+.dock-settings-fold > summary { cursor: pointer; list-style: none; }
+.dock-settings-fold > summary::-webkit-details-marker { display: none; }
+.dock-settings-fold[open] > summary { margin-bottom: var(--s-1); }
+/* the status line: each segment one unbreakable unit, its separator carried at its end;
+   the line wraps only between segments (beats .talk-status's overflow-wrap and its buttons' all: unset) */
+.talk-status .talk-status-seg { white-space: nowrap; overflow-wrap: normal; }
+.talk-status .talk-status-line[role="button"] { cursor: pointer; }
+.talk-status .talk-status-line[role="button"]:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: 2px; }

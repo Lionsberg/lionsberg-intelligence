@@ -1,12 +1,12 @@
 # Lineage — `the-season-sheet-by-hand`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 
 ```yaml
 name: the-season-sheet-by-hand
 version: 0.1.0
-sits_on: LIØNSBERG Player+ 3.1.0
+grows_from: LIØNSBERG Player+ 3.1.0
 lineage:
   - "The Season Sheet (the library's concept field — the fourteen numbered lines; interoperability made of paper; two signatures and a line count are the whole of the paper's security)"
   - "The One Book, 21 In Every Future — what to do in each case, THE PAGE — *The Season Sheet by hand* (the answer copied here exactly, and the notes on lines 3, 4, 5, 7, 9, 11 and 13)"

@@ -1,0 +1,382 @@
+{
+ "v": 1,
+ "generated_at": "2026-10-24T09:20:00-07:00",
+ "actor": "person:player",
+ "calendar": "calendar-days",
+ "holons": [
+  {
+   "id": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+   "name": "Home",
+   "kind": "person",
+   "keeper": "person:player",
+   "as_of": {
+    "event": "cb80f666a4f7d563378e42d9ad4798adbeeffc45544fda683c9213c6894cf172",
+    "ts": "2026-10-24T09:14:00-07:00",
+    "lines": 212
+   }
+  },
+  {
+   "id": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "name": "Cell Two",
+   "kind": "cell",
+   "keeper": "person:steward",
+   "as_of": {
+    "event": "854b13a09ad4cf7e7d44c558f82a047bc7dfe6f0632e296cbdbe502556fcb33c",
+    "ts": "2026-10-24T08:40:00-07:00",
+    "lines": 88
+   }
+  },
+  {
+   "id": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "name": "The Gathering",
+   "kind": "room",
+   "keeper": "person:steward",
+   "as_of": {
+    "event": "d9e3f3c5c7543a2d6907a8f3904a3f9195c4e24d7080543520a7cb9510824488",
+    "ts": "2026-10-24T09:02:00-07:00",
+    "lines": 41
+   }
+  }
+ ],
+ "actors": [
+  {
+   "id": "person:player",
+   "kind": "person",
+   "for": "person:player",
+   "holons": [
+    "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "agent:player-agent",
+   "kind": "agent",
+   "for": "person:player",
+   "holons": [
+    "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": {
+    "from": "person:player",
+    "scope": [
+     "say",
+     "card",
+     "claim",
+     "layout"
+    ],
+    "holons": [
+     "*"
+    ],
+    "until": "2026-12-21",
+    "live": true
+   }
+  },
+  {
+   "id": "person:steward",
+   "kind": "person",
+   "for": "person:steward",
+   "holons": [
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "person:neighbor",
+   "kind": "person",
+   "for": "person:neighbor",
+   "holons": [
+    "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4"
+   ],
+   "delegation": null
+  },
+  {
+   "id": "person:member",
+   "kind": "person",
+   "for": "person:member",
+   "holons": [
+    "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac"
+   ],
+   "delegation": null
+  }
+ ],
+ "cards": [
+  {
+   "id": "643afc77f85e699ac9106618979b43453ed1c609ccf4221e91971ec38d087425",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "title": "Write to the new members",
+   "kind": "activity",
+   "stream": "Care",
+   "holder": "person:player",
+   "minutes": 40,
+   "by": "2026-10-22",
+   "stage": "did",
+   "state": "kept",
+   "predecessors": [],
+   "successors": [],
+   "serves": [],
+   "audience": "holon",
+   "ES": 0,
+   "EF": 1,
+   "LS": 2,
+   "LF": 3,
+   "TF": 2,
+   "FF": 0,
+   "critical": false,
+   "system_critical": false,
+   "variance_days": null
+  }
+ ],
+ "commitments": [
+  {
+   "id": "3edfbc9e12619227359c2a4157b91b3b96f354617635ae3b639c20d16872644d",
+   "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+   "card": "643afc77f85e699ac9106618979b43453ed1c609ccf4221e91971ec38d087425",
+   "title": "Write to the new members",
+   "keeper": "person:player",
+   "by": "2026-10-22",
+   "size": 40,
+   "witness": "person:steward",
+   "conditions": "",
+   "status": "kept",
+   "gap_days": -1
+  }
+ ],
+ "threads": [],
+ "decisions": [],
+ "sightings": [],
+ "tea": {
+  "by_actor": {
+   "person:player": {
+    "minutes": 840,
+    "witnessed_minutes": 660
+   }
+  },
+  "by_holon": {
+   "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+    "minutes": 1290
+   }
+  },
+  "by_card": {},
+  "by_stream": {},
+  "witness": {},
+  "convertible": false,
+  "chain": []
+ },
+ "discernments": {
+  "count": 4,
+  "by_route": {},
+  "by_verdict": {
+   "chosen": 2,
+   "corrected": 1,
+   "rated": 1
+  }
+ },
+ "deal": {
+  "actor": "person:player",
+  "minutes_available": 15,
+  "minutes_dealt": 0,
+  "room": [
+   "person:player"
+  ],
+  "opening": "Here's the deal.",
+  "cards": [],
+  "briefing": null,
+  "beyond": {
+   "count": 0,
+   "minutes": 0
+  },
+  "question": "What did we miss that matters to you most?",
+  "rule": "near-critical minutes freed ÷ √(own minutes)",
+  "as_of": {
+   "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4": "cb80f666a4f7d563378e42d9ad4798adbeeffc45544fda683c9213c6894cf172",
+   "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": "854b13a09ad4cf7e7d44c558f82a047bc7dfe6f0632e296cbdbe502556fcb33c",
+   "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": "d9e3f3c5c7543a2d6907a8f3904a3f9195c4e24d7080543520a7cb9510824488"
+  }
+ },
+ "owed": {
+  "entries": [],
+  "proposals": []
+ },
+ "kept": {
+  "window": {
+   "from": "2026-10-17",
+   "to": "2026-10-24"
+  },
+  "by_holon": {
+   "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+    "made": 8,
+    "kept": 7,
+    "kept_unwitnessed": 0,
+    "broken": 1,
+    "released": 0,
+    "returned": 0,
+    "open": 3,
+    "share": 0.875
+   }
+  },
+  "by_actor": {
+   "person:player": {
+    "made": 4,
+    "kept": 3,
+    "kept_unwitnessed": 0,
+    "broken": 0,
+    "released": 0,
+    "returned": 0,
+    "open": 1,
+    "share": 1.0
+   }
+  },
+  "commitments": [
+   "3edfbc9e12619227359c2a4157b91b3b96f354617635ae3b639c20d16872644d"
+  ],
+  "learning": []
+ },
+ "score": {
+  "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+   "earned": 120,
+   "planned": 150,
+   "minutes_done": 120,
+   "minutes_total": 300,
+   "spi": 0.8,
+   "as_of": "2026-10-24T09:20:00-07:00"
+  }
+ },
+ "buffers": [],
+ "load": [
+  {
+   "actor": "person:player",
+   "date": "2026-10-24",
+   "minutes": 45,
+   "capacity": 120
+  }
+ ],
+ "path": {
+  "critical": [],
+  "system": [],
+  "finish": null
+ },
+ "turn": {
+  "depth_due": "daily",
+  "last_daily": "2026-10-23T21:00:00-07:00",
+  "last_lunar": null,
+  "last_weekly": "2026-10-18T19:00:00-07:00",
+  "last_seasonal": null,
+  "next_weekly_due": "2026-10-25"
+ },
+ "invalid": [],
+ "pending": [],
+ "problems": [],
+ "notes": [],
+ "roles": {
+  "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4": {
+   "person:player": "keeper",
+   "person:neighbor": "member",
+   "agent:player-agent": "agent"
+  },
+  "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545": {
+   "person:steward": "keeper",
+   "person:player": "member",
+   "person:member": "member",
+   "agent:player-agent": "agent"
+  },
+  "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": {
+   "person:steward": "keeper",
+   "person:player": "member",
+   "person:member": "member",
+   "agent:player-agent": "agent"
+  }
+ },
+ "rooms": {
+  "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac": {
+   "id": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+   "name": "The Gathering",
+   "keeper": "person:steward",
+   "present": [
+    {
+     "actor": "person:steward",
+     "kind": "person",
+     "for": "person:steward",
+     "role": "keeper"
+    },
+    {
+     "actor": "person:player",
+     "kind": "person",
+     "for": "person:player",
+     "role": "member"
+    },
+    {
+     "actor": "agent:player-agent",
+     "kind": "agent",
+     "for": "person:player",
+     "role": "agent"
+    },
+    {
+     "actor": "person:member",
+     "kind": "person",
+     "for": "person:member",
+     "role": "member"
+    }
+   ],
+   "posture": {
+    "posture": "open",
+    "curing_days": 2,
+    "by": "person:steward",
+    "agreed_by": [
+     "person:steward",
+     "person:player",
+     "person:member"
+    ]
+   },
+   "lines": [
+    "d9e3f3c5c7543a2d6907a8f3904a3f9195c4e24d7080543520a7cb9510824488",
+    "5e0d1620eabe787973c997b0a6768d3de5580490fa9b02380a807a471609feef"
+   ],
+   "offered": [],
+   "awaiting_yes": [],
+   "agreed_by": {},
+   "opened": "2026-10-24T08:30:00-07:00",
+   "closed": null,
+   "deal_open": null,
+   "deal_close": null
+  }
+ },
+ "_proposed": "This fixture carries only STATE.md v1 fields plus the server's hud block. Fields the HUD still needs are named as proposals where they are added.",
+ "hud": {
+  "v": 1,
+  "mode": "fixture",
+  "fixture": "empty",
+  "now": "2026-10-24T09:20:00-07:00",
+  "served_at": "2026-10-24T09:20:00-07:00",
+  "undo_ms": 5000,
+  "sources": [
+   {
+    "holon": "c3623b8e1ac6c9ceeef44b4069d1284595fb59b973129dcb5b2a4e6554e962e4",
+    "name": "Home",
+    "path": ".",
+    "readable": true,
+    "heard": "2026-10-24T09:15:00-07:00"
+   },
+   {
+    "holon": "ad4600a1e7422a815998640c2c1b9b2cc94e7acca8409e9c97998a6d413cb545",
+    "name": "Cell Two",
+    "path": "cells/cell-two",
+    "readable": true,
+    "heard": "2026-10-24T09:15:00-07:00"
+   },
+   {
+    "holon": "29508669d8927cfbaa90392689a6d01c113cd0545f34dbf0c5fc3893aea45fac",
+    "name": "The Gathering",
+    "path": "cells/gathering",
+    "readable": true,
+    "heard": "2026-10-24T09:15:00-07:00"
+   }
+  ],
+  "layouts": [],
+  "pending": []
+ }
+}

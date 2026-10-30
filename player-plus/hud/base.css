@@ -1,0 +1,286 @@
+/*
+  base.css: type, ground, layout frame, pills, sheets, the still point, toasts.
+  Every value comes from tokens.css. Views add their own
+  stylesheet beside their module and link it from index.html.
+*/
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; background: var(--ground); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--ground);
+  /* the made ground (hud/art/), graded in CSS to the Mark spec's night or paper */
+  background-image: var(--ground-grade), var(--ground-frame);
+  background-size: cover; background-position: center top;
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--f-body);
+  font-size: var(--t-body);
+  font-weight: var(--w-regular);
+  line-height: var(--lh-body);
+  font-kerning: normal;
+  overflow-x: hidden;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+/* the grain: restraint is the rule (brand: if the ground is noticed, it is too much) */
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  pointer-events: none;
+  opacity: var(--grain);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  z-index: 0;
+}
+#app { position: relative; z-index: 1; }
+
+h1, h2, h3, h4, p { margin: 0; }
+button, input, textarea, select { font: inherit; color: inherit; }
+a { color: var(--accent-text); text-underline-offset: .18em; }
+/* The bar: gold is the warning colour, spent on the one owed thing on the screen. An element
+   marked .owed (or a view's own .is-owed) takes the gold for itself and its parts; nothing
+   else on the screen may. */
+.owed, .is-owed { --accent: var(--owed); --accent-text: var(--owed-text); --pill-suggested: var(--owed-fill); --gold: var(--owed); }
+:focus { outline: none; }
+:focus-visible { outline: var(--focus-ring) solid var(--accent); outline-offset: var(--focus-offset); border-radius: var(--r-chip); }
+
+.figures { font-variant-numeric: lining-nums tabular-nums; }
+.voice { font-family: var(--f-voice); font-style: italic; font-weight: var(--w-regular); line-height: var(--lh-voice); }
+.caps { font-family: var(--f-name); font-weight: var(--w-emphasis); text-transform: uppercase; letter-spacing: var(--track-caps); font-size: max(var(--t-micro), var(--t-floor)); }
+.eyebrow { font-size: var(--t-micro); letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--dust); font-variant: small-caps; }
+.dust { color: var(--dust); font-size: var(--t-small); }
+.ember { color: var(--ember); }
+.sage { color: var(--sage); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.skip { position: absolute; left: var(--gutter); top: calc(-1 * var(--s-9)); z-index: var(--z-toast); background: var(--surface); padding: var(--s-2) var(--s-4); border-radius: var(--r-pill); }
+.skip:focus { top: var(--s-2); }
+
+/* ---- the frame */
+.top {
+  position: relative; z-index: var(--z-top);   /* never drawn over a card */
+  padding: calc(var(--s-2) + env(safe-area-inset-top)) var(--gutter) var(--s-2);
+  background: none;   /* no band: the top line is type on the ground (it is no longer sticky) */
+  max-width: var(--content-max); margin: 0 auto;
+}
+.top-line { display: flex; align-items: center; gap: var(--s-3); min-height: var(--touch); color: var(--dust); font-size: var(--t-micro); }
+.top-line .wordmark { font-family: var(--f-name); font-weight: var(--w-emphasis); letter-spacing: var(--track-name); padding-left: var(--track-name); font-size: var(--t-micro); color: var(--text); text-transform: uppercase; }
+.top-line .day { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+.top-line .back { margin-right: var(--s-2); }
+@media (max-width: 380px) { .top-line .wordmark { display: none; } }
+
+.ribbon { display: flex; flex-wrap: wrap; gap: var(--s-2); padding: var(--s-1) 0 var(--s-2); }
+.chip {
+  display: inline-flex; align-items: center; gap: var(--s-2);
+  min-height: var(--touch); padding: 0 var(--s-3);
+  border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip);
+  background: transparent; color: var(--text); font-size: var(--t-small); cursor: pointer;
+}
+.chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent-text); }
+.chip .fresh { width: var(--s-2); height: var(--s-2); border-radius: 50%; flex: none; }
+.fresh.hour { background: var(--text); }
+.fresh.today { border: var(--hairline) solid var(--text); }
+.fresh.older { border: var(--hairline) dashed var(--dust); }
+.fresh.unread { width: var(--s-3); height: var(--hairline); background: var(--ember); transform: rotate(-45deg); border-radius: 0; }
+
+main.views { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--gutter) calc(var(--s-8) + env(safe-area-inset-bottom)); }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-6); }
+.layout .col-main { min-width: 0; display: grid; gap: var(--s-6); align-content: start; }
+.layout .col-aside, .layout .col-left { min-width: 0; display: grid; gap: var(--s-5); align-content: start; }
+.layout[data-layout="player"] .col-main { max-width: var(--measure); margin: 0 auto; width: 100%; }
+@media (min-width: 1024px) {
+  .layout.has-aside { grid-template-columns: minmax(0, 1fr) var(--col-aside); }
+  .layout.has-left.has-aside { grid-template-columns: var(--col-left) minmax(0, 1fr) var(--col-aside); }
+  .layout.has-left:not(.has-aside) { grid-template-columns: var(--col-left) minmax(0, 1fr); }
+}
+@media (max-width: 1023px) {
+  .layout .col-aside:empty, .layout .col-left:empty { display: none; }
+  .layout[data-layout="player"] .col-aside { display: none; }  /* the Player aside is for wide screens only (§3.1) */
+}
+:root[data-type="large"] .layout.has-left.has-aside { grid-template-columns: minmax(0, 1fr) var(--col-aside); }
+:root[data-type="large"] .layout .col-left { grid-column: 1 / -1; }
+
+.view { min-width: 0; }
+.view-head { display: flex; align-items: center; gap: var(--s-2); margin-bottom: var(--s-3); }
+.view-head .caps { flex: 1 1 auto; color: var(--dust); }
+.view-menu-btn { min-width: var(--touch); min-height: var(--touch); border: 0; background: transparent; color: var(--dust); cursor: pointer; border-radius: var(--r-pill); }
+.view.loading { opacity: var(--dim-loading); }
+.placeholder { color: var(--dust); font-size: var(--t-small); padding: var(--s-4) 0; }
+
+/* ---- pills: every call to action (brand: the pill outlined in gold) */
+.pill {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--s-2);
+  min-height: var(--touch); padding: var(--s-2) var(--s-5);
+  border: var(--hairline) solid var(--accent); border-radius: var(--r-pill);
+  background: var(--pill-fill); color: var(--text); cursor: pointer; text-decoration: none;
+  transition: background-color var(--d-quick) var(--e-settle), border-color var(--d-quick) var(--e-settle);
+}
+.pill:hover { background: var(--pill-suggested); }
+.pill.quiet { border-color: var(--line-strong); color: var(--dust); }
+.pill.primary { background: var(--pill-suggested); }
+.link-btn { border: 0; background: transparent; color: var(--accent-text); cursor: pointer; min-height: var(--touch); padding: 0 var(--s-2); text-decoration: underline; text-underline-offset: .18em; }
+
+/* ---- the still point (the HUD's own symbol; never the Ø): engraved and
+   unlit. A hairline ring cut into the ground with an incised centre; no glow, no bloom. */
+.still-point { display: grid; place-items: center; height: var(--point-box); }
+.still-point i {
+  display: grid; place-items: center;
+  width: var(--point); height: var(--point); border-radius: 50%;
+  border: var(--hairline) solid var(--accent);
+}
+.still-point i::after {
+  content: ""; width: var(--point-core); height: var(--point-core); border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---- loader: the still point arriving (never a spinner) */
+.loader { min-height: 60vh; display: grid; place-content: center; justify-items: center; gap: var(--s-5); padding-top: 20vh; }
+.loader .reading { color: var(--dust); font-size: var(--t-small); }
+
+/* ---- sheets: from the bottom on a phone, from the right on wide */
+.scrim { position: fixed; inset: 0; background: var(--scrim); z-index: var(--z-scrim); }
+.sheet {
+  position: fixed; z-index: var(--z-sheet);
+  left: 0; right: 0; bottom: 0; max-height: 88vh; overflow-y: auto;
+  background: var(--surface); color: var(--text);
+  border-radius: var(--r-sheet) var(--r-sheet) 0 0;
+  border-top: var(--hairline) solid var(--line-strong);
+  padding: var(--s-5) var(--gutter) calc(var(--s-6) + env(safe-area-inset-bottom));
+}
+@media (min-width: 1024px) {
+  .sheet { left: auto; top: 0; width: calc(var(--measure) + 2 * var(--gutter)); max-height: none; border-radius: var(--r-sheet) 0 0 var(--r-sheet); border-top: 0; border-left: var(--hairline) solid var(--line-strong); }
+}
+.sheet-head { display: flex; align-items: center; gap: var(--s-3); margin-bottom: var(--s-4); }
+.sheet-head h2 { flex: 1 1 auto; font-size: var(--t-card); font-weight: var(--w-regular); }
+.sheet .actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-5); }
+.menu-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); }
+.menu-list button { width: 100%; text-align: left; min-height: var(--touch); padding: 0 var(--s-3); border: 0; border-radius: var(--r-chip); background: transparent; cursor: pointer; }
+.menu-list button:hover, .menu-list button[aria-checked="true"] { background: var(--pill-suggested); }
+.menu-group { margin-top: var(--s-4); }
+.menu-group > .eyebrow { display: block; margin-bottom: var(--s-1); }
+
+/* ---- toasts: the undo, the agent's notice */
+.toasts { max-width: var(--content-max); margin: 0 auto; padding: 0 var(--gutter); display: flex; justify-content: flex-end; min-height: 0; }
+.toast { display: flex; align-items: center; gap: var(--s-3); font-size: var(--t-small); }
+.toast .msg { flex: 1 1 auto; min-width: 0; }
+.toast .link-btn { white-space: nowrap; }
+.notice-line { padding: var(--s-2) 0; color: var(--dust); font-size: var(--t-small); }
+
+/* ---- keys sheet */
+.keys { display: grid; grid-template-columns: auto 1fr; gap: var(--s-2) var(--s-4); }
+.keys kbd { font-family: var(--f-mono); font-size: var(--t-micro); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); padding: 0 var(--s-2); justify-self: start; }
+
+.print-only { display: none; }
+.noscript { padding: var(--gutter); }
+
+/* ---- the ink grammar: every view marks a commitment's words with one of these */
+.ink-said { color: var(--ink-said); }
+.ink-kept { color: var(--ink-kept); }
+.ink-agreed { color: var(--ink-agreed); }
+.ink-said, .ink-kept, .ink-agreed { transition: color var(--d-ink) var(--e-settle); }   /* the ink drying */
+
+/* ---- the first scene: the made Mark frame */
+.scene-loader { position: fixed; inset: 0; z-index: var(--z-toast); display: grid; place-items: center; overflow: hidden;
+  background: var(--ground); background-image: var(--ground-grade), var(--ground-frame); background-size: cover; background-position: center; }
+.scene-mark { position: relative; width: var(--scene-mark-w); aspect-ratio: 1 / 1; overflow: hidden;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 52%, transparent 72%); mask-image: radial-gradient(ellipse at center, #000 52%, transparent 72%); }
+.scene-mark img { position: absolute; inset: 0; width: 100%; height: auto; }
+/* the Name alone: the band of the frame that holds LIØNSBERG */
+.scene-mark.is-name { width: var(--scene-name-w); aspect-ratio: var(--scene-name-ratio);
+  -webkit-mask-image: radial-gradient(ellipse 58% 62% at center, #000 55%, transparent 100%); mask-image: radial-gradient(ellipse 58% 62% at center, #000 55%, transparent 100%); }
+.scene-mark.is-name img { transform: translateY(var(--scene-name-shift)); }
+
+/* ---- a still made frame under a quiet line (never behind a card being read) */
+.still-frame { margin: var(--s-5) auto 0; max-width: var(--frame-max); opacity: var(--frame-still); overflow: hidden;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 45%, transparent 72%); mask-image: radial-gradient(ellipse at center, #000 45%, transparent 72%); }
+.still-frame img { display: block; width: 100%; height: auto; }
+.still-frame.is-wide { max-width: var(--measure); }
+
+/* ---- the top line's one "as of", which opens the records she holds */
+.as-of-btn { flex: 1 1 auto; min-width: 0; text-align: left; background: transparent; border: 0; color: var(--dust); font-size: var(--t-micro); min-height: var(--touch); cursor: pointer; padding: 0; }
+.as-of-btn[aria-expanded="true"] { color: var(--accent-text); }
+.view.is-quiet { display: none; }
+.whole-fallback { display: grid; gap: var(--s-4); padding-top: var(--s-5); max-width: var(--measure); margin: 0 auto; }
+.whole-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.whole-list li { padding: var(--s-2) 0; border-bottom: var(--hairline) solid var(--line); }
+/* on paper, a night frame is graded in CSS to read as an engraving on the page (never edited) */
+:root[data-theme="paper"] .still-frame img { filter: var(--frame-paper-grade); mix-blend-mode: multiply; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="night"]) .still-frame img { filter: var(--frame-paper-grade); mix-blend-mode: multiply; } }
+
+/* ---- the ICE's tabs: words, a quiet numeral, no badge drawn */
+/* The frame (the places stay at the foot at every width, Bodies among them):
+   six places, in the order of use, set once. Type the eye forgets: no pills, no underline; the
+   current one marked by weight only; the Threads numeral the only number. No top row at any width;
+   the six with More sit at the foot, beside the agent's door (the dock's mark, at left). */
+.tabs { display: none; gap: 0 var(--s-4); padding: 0 0 var(--s-2); }
+.tab { flex: none; display: inline-flex; align-items: center; min-height: var(--touch); color: var(--dust); text-decoration: none;
+  font-size: var(--t-small); white-space: nowrap; background: transparent; border: 0; padding: 0; cursor: pointer; font-family: inherit; }
+.tab[aria-current="page"] { color: var(--text); font-weight: var(--w-emphasis); }
+.places { display: flex; position: fixed; right: 0; bottom: 0; z-index: calc(var(--z-top) + 2);
+  left: calc(var(--gutter) + var(--agent-place-w)); justify-content: space-between; gap: var(--s-2);
+  height: var(--dock-bar-h); padding: 0 var(--gutter) env(safe-area-inset-bottom) 0; align-items: center; overflow-x: auto; scrollbar-width: none; }
+.places::-webkit-scrollbar { display: none; }
+.places .tab { font-size: var(--t-micro); min-height: var(--touch); }
+@media (min-width: 1024px) {
+  .places { justify-content: flex-start; gap: var(--s-5); left: var(--gutter); padding-left: calc(var(--agent-place-w) + var(--s-4)); }
+  .places .tab { font-size: var(--t-small); }
+  #main { padding-bottom: calc(var(--dock-bar-h) + var(--s-5)); }
+}
+@media (max-width: 1023px) {
+  html[data-dock="open"] .places { display: none; }
+}
+@media (max-width: 359px) { .places { gap: var(--s-1); } .places .tab { letter-spacing: -.01em; } }
+.card-give { margin-top: var(--s-3); }
+
+/* ---- the dock's bar on a phone: the card column keeps its height free, so no card sits under it */
+@media (max-width: 599px) {
+  html[data-dock] { scroll-padding-bottom: calc(var(--dock-bar-h) + var(--s-4)); }
+  html[data-dock] .deal-stage, html[data-dock] .col-main { padding-bottom: calc(var(--dock-bar-h) + env(safe-area-inset-bottom)); }
+}
+/* ---- the loader on paper: the frame's own paper multiplies into the graded ground, so no edge shows */
+.scene-loader.is-paper .scene-mark img { mix-blend-mode: multiply; filter: var(--scene-paper-lift); }
+
+/* ---- the frame's rail: the agent's
+   rail is presence, never chrome. At rest it carries the agent's small mark and nothing else:
+   no words, no line, no fill. The mark is the door (the whole bar is the button). Words come
+   back only when the agent waits on the person. The dock's own content stays dock.css's. */
+.dock:not(.is-open) .dock-bar { background: var(--ground); border-top-color: transparent; }
+.dock:not(.is-open) .dock-bartalk:not(.is-waiting) { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (min-width: 1024px) {
+  .dock:not(.is-open) .dock-bar { background: transparent; border-left-color: transparent; align-items: center; }
+}
+/* when the agent has something for the person, the rail carries it as one line, and when no card
+   on the screen is owed, that line is the one lit thing (gold); otherwise it waits in ink */
+.dock:not(.is-open) .dock-bartalk.is-waiting { color: var(--text); }
+html:not(:has(#main .owed, #main .is-owed)) .dock:not(.is-open) .dock-bartalk.is-waiting { color: var(--owed-text); }
+@media (max-width: 1023px) { html:has(.dock-bartalk.is-waiting) .places { display: none; } }
+.top-more { color: var(--dust); text-decoration: none; }
+.top-more[aria-current="page"] { color: var(--text); font-weight: var(--w-emphasis); }
+
+/* ---- the agent's door, named (the night test: four taps to find it behind a bare mark). At rest
+   the rail's field carries the words "your agent" beneath it on the desk; on the phone the foot's
+   first place is the agent's, the mark above its word. No bare glyph is the only way in. */
+:root { --agent-place-w: 76px; }
+.dock:not(.is-open) .dock-bar .dock-name { font-family: var(--f-body); font-size: var(--t-micro); letter-spacing: 0; text-transform: none;
+  font-variant: normal; color: var(--text); white-space: nowrap; }
+@media (max-width: 1023px) {
+  .dock:not(.is-open) .dock-bar { flex-direction: column; align-items: flex-start; justify-content: center; gap: var(--s-1); }
+}
+.top-more { display: none; }   /* one More: the foot's, at every width */
+@media (min-width: 1024px) {
+  .dock:not(.is-open) .dock-bar .dock-name { writing-mode: horizontal-tb; white-space: normal; text-align: center; width: 100%; line-height: 1.2; }
+}
+.dock:not(.is-open) .dock-bar .dock-name { display: block; }
+.dock:not(.is-open) .dock-bar .dock-name::first-letter { text-transform: uppercase; }
+.view--bodies .asof-more { display: none; }   /* one as-of on the screen; the rest behind the top line */
+
+/* ---- the foot is the same on every place and at every width (DESIGN-THE-BAR):
+   Talk · Agents · More, centred under the column. The Talk is the agent's door, so the dock's own
+   door leaves the foot; the dock's pane opens beside another view only from its key (T). */
+.dock:not(.is-open) .dock-bar { display: none; }
+@media (min-width: 1024px) { html[data-dock="collapsed"] body { padding-right: env(safe-area-inset-right); } }
+.places, html[data-route] .places { left: 0; right: 0; padding: 0 var(--gutter) env(safe-area-inset-bottom); justify-content: center; gap: var(--s-6); }
+@media (max-width: 359px) { .places, html[data-route] .places { gap: var(--s-4); } }
+@media (max-width: 1023px) { html:has(.dock-bartalk.is-waiting):not([data-dock="open"]) .places { display: flex; } }

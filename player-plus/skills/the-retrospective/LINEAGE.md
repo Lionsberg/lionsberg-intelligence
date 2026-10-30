@@ -1,12 +1,12 @@
 # Lineage — `the-retrospective`
 
-This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `sits_on` to your own and move this one to the top of `lineage`.
+This skill travels alone, so it carries its own lineage, credits and licence. If you copy the folder, copy this file with it; if you make your own version, set `name`, `version` and `grows_from` to your own and move this one to the top of `lineage`.
 
 
 ```yaml
 name: the-retrospective
 version: 0.2.0
-sits_on: LIØNSBERG Player+ 3.3.0
+grows_from: LIØNSBERG Player+ 3.3.0
 lineage:
   - "Retrospective (the library's concept field — the four properties: short, honest, ending in actions with owners, attended by the people who did the work; review is not self-evaluation)"
   - "Every Defect Is A Gift (the library's concept field — a week that surfaced none is more likely to mean nobody looked; a line closes only when its fix sits where the work will meet it)"

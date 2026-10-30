@@ -19,7 +19,7 @@ A skill is a folder an agent can take on: what to do, when it applies, and — b
 ```
 <skill-name>/
   SKILL.md      — front matter + the procedure
-  LINEAGE.md    — name, version, what it sits on, lineage, credits, licence, pull_from, offered_at, needs, changes, thanks_to
+  LINEAGE.md    — name, version, what it grows from, lineage, credits, licence, pull_from, offered_at, needs, changes, thanks_to
   LICENSE.md    — the full licence text; the house's default unless the person says otherwise
   scripts/  references/  assets/   — only if needed; a skill that needs none is lighter to carry
 ```
@@ -30,13 +30,13 @@ The folder name is the skill name: lowercase, hyphens, a verb phrase (`save-a-me
 
 1. **The description does the firing.** Say what the skill does *and when it applies*, with the phrases a person would actually say, the key use case first. Keep it inside the limit. Then read it as the model would: on a random request, would this fire when it should not? Would it miss the obvious case?
 2. **Second person, to the agent.** The person is "your person" or "the person."
-3. **Shape:** one paragraph of purpose · before-you-start · numbered steps · what done looks like*what this skill never does.* Sixty to a hundred and twenty lines. Every step names an output or a check.
+3. **Shape:** one paragraph of purpose · before-you-start · numbered steps · what done looks like · *what this skill never does.* Sixty to a hundred and twenty lines. Every step names an output or a check.
 4. **No internals.** No paths from this house, no hostnames, no script names, no names of people who did not agree to be named. Write it so a stranger's house could run it.
 5. **Include the safety edge.** If the skill can send, post, push, spend, or edit configuration, say plainly that those wait for the person, and what to do when a safety layer blocks a step (stop, show the block, offer the narrowest fix, never suggest turning it off).
 
 ## Writing `LINEAGE.md`
 
-Copy the block from an existing skill and fill it honestly: where the lesson came from (a call, a chapter, a person's correction — whether it was heard or read, and when), what it sits on, where a newer version would be pulled from, which stair it is offered at. Credits are for the pieces that came from somewhere else. Thanks are a practice, never a debt.
+Copy the block from an existing skill and fill it honestly: where the lesson came from (a call, a chapter, a person's correction — whether it was heard or read, and when), what it grows from, where a newer version would be pulled from, which stair it is offered at. Credits are for the pieces that came from somewhere else. Thanks are a practice, never a debt.
 
 ## Install and test
 

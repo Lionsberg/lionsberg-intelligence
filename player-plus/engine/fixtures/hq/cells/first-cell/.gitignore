@@ -1,0 +1,6 @@
+state.json
+cells/
+.sigcache
+.carried/
+.talk/
+.pulled.json

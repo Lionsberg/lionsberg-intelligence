@@ -1,6 +1,6 @@
 ---
 name: send-for-review
-description: Puts a document in front of the person on the surface they can actually read it — opens it in their review app on the computer, or puts it on a shared pad and gives the link when they are on a phone — commits the draft first if the house keeps git so their edits show as a clean diff, and reads their changes back afterward. Use when the person says "let me see it", "open that", "send it to me", "put it where I can read it", "I'm on my phone", when you have written more than a screen of markdown, or when a draft needs the person's markup before anything else happens.
+description: Puts a document in front of the person on the surface they can actually read it — opens it in their review app on the computer, or puts it on a shared pad and gives the link when they are on a phone — commits the draft first if the house keeps git so their edits show as a clean diff, and reads their changes back afterward. Use when the person says "let me see it", "open that", "send it to me", "put it where I can read it", "I am on my phone", when you have written more than a screen of markdown, or when a draft needs the person's markup before anything else happens.
 license: MPL-2.0
 ---
 
@@ -19,7 +19,7 @@ Ask once, then remember (`save-a-memory`): what does the person read markdown in
    - **On the computer:** open the file in their review app (`open` on Mac, `start` on Windows, or the app's own command). Say the path in one line, in case the window opened behind something.
    - **On a phone:** put the document on a shared pad and give the link. Say in one line what the pad is for and that the link is shareable — anything on it should be fit to share. Never put anything on a pad that the house's disclosure rules keep home.
    - **Long document, short screen:** offer the part that matters first, then the link.
-3. **Say what you'd like from them**, in one sentence: "mark anything up; I'll read the diff." Then wait. Do not narrate while they read.
+3. **Say what you'd like from them**, in one sentence: "mark anything up; I will read the diff." Then wait. Do not narrate while they read.
 4. **Read back the changes.** On the computer: `git diff` against the commit from step 1 (or against the `.before` copy). On a pad: fetch the pad and diff it against what you posted. Summarize what they changed in a few lines — the substance, not the line numbers — and act on it. Where an edit works on more than one axis, say so; small edits often carry more than they show.
 5. **Commit the reviewed version**, message noting it is post-review. Remove any `.before` copy.
 

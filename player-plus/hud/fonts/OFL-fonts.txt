@@ -1,0 +1,13 @@
+Fonts vendored here so the HUD reads offline. All three families are under the
+SIL Open Font License 1.1 (https://openfontlicense.org). Latin subsets, fetched
+from Google Fonts (fonts.gstatic.com) on 2026-10-24; the version is in each
+filename.
+
+cinzel-v26-latin-500.woff2                    Cinzel 500 (Copyright 2020 The Cinzel Project Authors)
+cormorant-garamond-v21-latin-italic-400.woff2 Cormorant Garamond 400 italic (Copyright 2015 The Cormorant Project Authors)
+cormorant-garamond-v21-latin-500.woff2        Cormorant Garamond 500 (the printed Mark's Action line)
+eb-garamond-v33-latin-400-500.woff2           EB Garamond, variable weight, 400 and 500 (Copyright 2017 The EB Garamond Project Authors)
+eb-garamond-v33-latin-italic-400.woff2        EB Garamond 400 italic
+
+Glyphs outside the latin subset (the marks ◆ ◇ ✓ ○ ↺ ←) fall back to the
+system's serif, by design.

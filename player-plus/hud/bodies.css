@@ -1,0 +1,317 @@
+/*
+  bodies.css: the Bodies view (DESIGN-THE-BAR §2, the Bodies row; DESIGN-BODIES §9).
+  Fixed places, top to bottom: the health line · the one lit thing (or nothing) · a handoff
+  waiting · the field · the week's usage · two quiet acts. Every value from tokens.css. Nothing
+  draws light: no glow, no shadow, no blur, no pulse. The warning colour is spent only through
+  .is-owed (base.css), on the one fault. Hierarchy by size and space, not boxes.
+*/
+.bodies { display: grid; gap: var(--s-5); min-width: 0; grid-template-columns: minmax(0, 1fr); }
+.bodies-house { grid-area: house; display: grid; gap: var(--s-4); min-width: 0; max-width: var(--measure); }
+.bodies-health { grid-area: health; display: grid; gap: var(--s-1); max-width: var(--measure); }
+.bodies-slot { grid-area: slot; display: grid; gap: var(--s-4); min-width: 0; }
+.bodies-field { grid-area: field; min-width: 0; }
+.bodies-use { grid-area: use; min-width: 0; }
+.bodies-foot { grid-area: foot; display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s-2); }
+.bodies-foot .link-btn { padding: 0; color: var(--dust); }
+.bodies [hidden] { display: none !important; }
+
+/* 1. the health line: the agent's voice, at the size of a card's question */
+.bodies-line { font-size: var(--t-card); color: var(--text); line-height: var(--lh-voice); }
+
+/* 2 and 3. the cards: a hairline and space; the fault takes the gold through .is-owed alone */
+.bodies-card { display: grid; gap: var(--s-2); padding: var(--s-4); border: var(--hairline) solid var(--line-strong); border-radius: var(--r-card); background: var(--surface); }
+.bodies-card.is-owed { border-color: var(--owed); }
+.bodies-card.is-owed .eyebrow { color: var(--owed-text); }
+.bodies-q { font-size: var(--t-body); line-height: var(--lh-body); }
+.bodies-cost-first { font-size: var(--t-body); line-height: var(--lh-body); }
+.bodies-acts { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); margin-top: var(--s-2); }
+.bodies-acts .link-btn { padding: 0; color: var(--dust); text-align: left; }
+.bodies-big { min-height: var(--touch-option); padding-inline: var(--s-6); font-size: var(--t-body); margin-left: auto; }
+.bodies-brief-btn { justify-self: start; padding: 0; font-size: var(--t-small); color: var(--dust); }
+.bodies-brief { margin: 0; padding-left: var(--s-5); display: grid; gap: var(--s-1); font-size: var(--t-small); }
+@media (max-width: 599px) {
+  .bodies-acts { flex-wrap: wrap; }
+  .bodies-big { flex: 1 1 60%; }
+}
+
+/* 3b. the house in words, from this machine: the prime set apart at the top, its bodies beneath */
+.bodies-prime { display: grid; gap: var(--s-1); padding: var(--s-3) 0 var(--s-3) var(--s-4);
+  border-left: var(--hairline) solid var(--text); }
+.bodies-prime.is-gone { border-left-style: dashed; border-left-color: var(--line-strong); }
+.bodies-prime-head { font-size: var(--t-card); line-height: var(--lh-voice); }
+.bodies-prime-head .caps { color: var(--text); }
+.bodies-roster, .bodies-others, .bodies-subs { list-style: none; margin: 0; padding: 0; display: grid; }
+.bodies-roster { gap: var(--s-3); padding-left: var(--s-4); }
+.bodies-row { display: grid; gap: 2px; padding-left: var(--s-3); border-left: var(--hairline) solid var(--membrane); }
+.bodies-row.is-stale { border-left-style: dashed; border-left-color: var(--line-strong); }
+.bodies-row-name { justify-self: start; padding: 0; font-size: var(--t-body); color: var(--text); text-align: left; }
+.bodies-row-task { font-size: var(--t-small); }
+.bodies-row .dust, .bodies-others .dust { font-size: var(--t-small); }
+.bodies-row-said { font-style: italic; overflow-wrap: anywhere; }
+.bodies-subs-box { display: grid; gap: 2px; margin-top: var(--s-1); }
+.bodies-subs-box .eyebrow { font-size: var(--t-micro); color: var(--dust); }
+.bodies-subs { gap: 2px; font-size: var(--t-small); }
+.bodies-subs li::before { content: "– "; color: var(--dust); }
+.bodies-others-box { display: grid; gap: var(--s-1); padding-left: var(--s-4); }
+.bodies-others-box .eyebrow { color: var(--dust); }
+.bodies-others { gap: var(--s-1); font-size: var(--t-small); }
+.bodies-archived { padding-left: var(--s-4); font-size: var(--t-small); color: var(--dust); }
+.bodies-archived summary { cursor: pointer; min-height: var(--touch); display: flex; align-items: center; }
+.bodies-archived p { overflow-wrap: anywhere; }
+
+/* 4. the field */
+.bodies-stage { position: relative; overflow: hidden; width: 100%; touch-action: manipulation; user-select: none; -webkit-user-select: none; }
+.bodies-art, .bodies-labels, .bodies-hits { position: absolute; inset: 0; }
+.bodies-svg { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.bf {
+  position: absolute; pointer-events: none;
+  -webkit-mask-image: radial-gradient(closest-side, #000 74%, transparent 100%);
+  mask-image: radial-gradient(closest-side, #000 74%, transparent 100%);
+}
+.bf img { position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+  -webkit-mask-size: 100% 100%; mask-size: 100% 100%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; }
+.bf-static, .bf-turn { position: absolute; inset: 0; }
+.bf-rot { position: absolute; inset: 0; will-change: transform; }
+.bf-static {
+  -webkit-mask-image: linear-gradient(90deg, transparent 37%, #000 45%, #000 55%, transparent 63%);
+  mask-image: linear-gradient(90deg, transparent 37%, #000 45%, #000 55%, transparent 63%);
+}
+.bf-turn {
+  -webkit-mask-image: linear-gradient(90deg, #000 37%, transparent 45%, transparent 55%, #000 63%);
+  mask-image: linear-gradient(90deg, #000 37%, transparent 45%, transparent 55%, #000 63%);
+}
+.bf-clone { opacity: .9; }
+.bf.is-fallback img { display: none; }
+/* paper: the engraved lines in ink; night: the made frame, a step lifted (map.css's grading) */
+:root:not([data-theme="night"]) .bf img { filter: brightness(0); opacity: .62; }
+:root[data-theme="night"] .bf img { filter: brightness(1.2); opacity: .9; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="paper"]) .bf img { filter: brightness(1.2); opacity: .9; }
+}
+.bm { fill: none; stroke: var(--membrane); stroke-width: var(--hairline); vector-effect: non-scaling-stroke; }
+.bm.is-empty { stroke: var(--line-strong); }
+.bfallback { fill: none; stroke: var(--field-line); stroke-width: var(--hairline); }
+.baxis { stroke: var(--accent); stroke-width: var(--hairline); opacity: .55; fill: none; }
+.bghost { position: absolute; border: var(--hairline) solid var(--membrane); border-radius: 50%; }
+
+.bl.is-above { transform: translate(-50%, -100%); }
+.bl { position: absolute; transform: translate(-50%, 0); display: grid; justify-items: center; text-align: center; pointer-events: none; line-height: var(--lh-tight); gap: 2px; }
+.bl-name { font-size: var(--t-small); color: var(--text); }
+.bl-task { font-size: var(--t-micro); color: var(--text); opacity: .82; }
+.bl .dust { font-size: var(--t-micro); font-style: italic; }
+.bprime { position: absolute; transform: translate(-50%, -50%); display: grid; justify-items: center; text-align: center; pointer-events: none; line-height: var(--lh-tight); gap: 2px; }
+.bprime .caps { color: var(--dust); }
+.bprime .dust { font-size: var(--t-micro); font-style: italic; }
+
+.b-hit { position: absolute; border: 0; background: transparent; border-radius: 50%; cursor: pointer; padding: 0; }
+.b-hole { position: absolute; width: var(--touch); height: var(--touch); transform: translate(-50%, -50%); border: 0; background: transparent; border-radius: 50%; cursor: pointer; padding: 0; z-index: 1; -webkit-touch-callout: none; }
+.bodies-reward { min-height: 0; font-size: var(--t-body); margin: 0; text-align: center; }
+.bodies-reward:empty { display: none; }
+
+/* large type: the field's twin, shown instead of it */
+.bodies-twin-list { list-style: none; margin: 0; padding: 0; display: grid; }
+.bodies-twin-row { display: grid; gap: var(--s-1); width: 100%; text-align: left; padding: var(--s-3) 0; min-height: var(--touch);
+  border: 0; border-bottom: var(--hairline) solid var(--line); background: transparent; cursor: pointer; }
+.bodies-twin-row .bl-name { font-size: var(--t-body); }
+.bodies-twin-row .bl-task { font-size: var(--t-small); }
+.bodies-twin-row .dust { font-size: var(--t-small); font-style: italic; }
+
+/* 5. the week's usage: one quiet bar per window; the earlier days a lighter fill, today in ink,
+   the person's line an upright hairline. Nothing changes colour near it. */
+.bodies-usage { display: grid; gap: var(--s-2); }
+.bu-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.bu { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-1); }
+.bu-name { font-size: var(--t-small); color: var(--text); }
+.bu-track { position: relative; display: block; height: var(--s-2); border-bottom: var(--hairline) solid var(--line-strong); }
+.bu-track i { position: absolute; top: 0; bottom: 0; left: 0; }
+.bu-before { background: var(--line); }
+.bu-fill { background: var(--membrane); border-top: var(--hairline) solid var(--text); }
+.bu-ceil { position: absolute; top: calc(-1 * var(--s-1)); bottom: calc(-1 * var(--s-1)); width: 0; border-left: var(--hairline) solid var(--text); }
+.bu-words { font-size: var(--t-micro); }
+.bodies-pace { font-size: var(--t-small); }
+.bodies-usage > .dust { font-size: var(--t-micro); }
+
+/* the sheets: what each spent; every figure */
+.bodies-sheet { display: grid; gap: var(--s-3); min-width: 0; }
+.bodies-first { font-size: var(--t-card); }
+.bodies-read { display: grid; gap: var(--s-2); justify-items: start; }
+.bodies-spent { display: grid; gap: var(--s-4); }
+.bbars-box { display: grid; gap: var(--s-2); }
+.bbars { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.bbar { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; }
+.bbar-name { font-size: var(--t-small); color: var(--text); overflow-wrap: anywhere; }
+.bbar-track { position: relative; display: block; height: var(--s-2); border-bottom: var(--hairline) solid var(--line-strong); }
+.bbar-track i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--membrane); border-top: var(--hairline) solid var(--text); }
+.bbar-fig { font-size: var(--t-micro); }
+.bodies-twin { container-type: inline-size; min-width: 0; }
+.bodies-table { width: 100%; border-collapse: collapse; font-size: var(--t-small); }
+.bodies-table th, .bodies-table td { text-align: left; vertical-align: top; padding: var(--s-2) var(--s-2) var(--s-2) 0; border-bottom: var(--hairline) solid var(--line); }
+.bodies-table thead th { font-size: var(--t-micro); color: var(--dust); font-weight: var(--w-regular); letter-spacing: var(--track-eyebrow); text-transform: uppercase; font-variant: small-caps; }
+.bt-name { font-size: var(--t-body); color: var(--text); font-weight: var(--w-regular); }
+.bt-sub { display: block; font-size: var(--t-micro); }
+.bodies-print-only { display: none; }
+@container (max-width: 40rem) {
+  .bodies-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .bodies-table, .bodies-table tbody { display: block; width: 100%; }
+  .bodies-table tr { padding: var(--s-3) 0; border-bottom: var(--hairline) solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: var(--s-3); row-gap: var(--s-1); }
+  .bodies-table th, .bodies-table td { display: block; border: 0; padding: 0; min-width: 0; overflow-wrap: anywhere; }
+  .bodies-table th[scope="row"], .bodies-table td:nth-child(2) { grid-column: 1 / -1; }
+  .bodies-table td[data-col]:not(:nth-child(2)):not(:empty)::before { content: attr(data-col); display: block; font-size: var(--t-micro); color: var(--dust); letter-spacing: var(--track-eyebrow); text-transform: uppercase; font-variant: small-caps; }
+  .bodies-table td:empty { display: none; }
+}
+.bodies-machine { display: grid; gap: var(--s-1); }
+.bodies-machine p { font-size: var(--t-small); }
+
+/* the desk: one room, the rail at the left and the chosen body filling the rest (§13 below);
+   the field is the picture "At a glance", in the page */
+.bodies-slot:empty, .bodies-slot[hidden] { display: none; }
+.bodies-page .bodies-field { align-self: stretch; width: 100%; }
+.bodies-page .bodies-health { max-width: 52rem; }
+
+/* reduced motion: nothing turns; the words carry the state */
+@media (prefers-reduced-motion: reduce) { .bf-rot { animation: none !important; } }
+
+/* paper: the bodies sheet (DESIGN-BODIES §9.3). print.css carries the table's rules; this
+   shows the printed form and hides the screen's own parts. */
+@media print {
+  .bodies > :not(.bodies-paper-box) { display: none !important; }
+  .bodies .bodies-paper[hidden] { display: grid !important; gap: var(--p-gap-wide); }
+  .bodies { display: block; }
+  .bodies-line { font-size: var(--p-opening); color: var(--ink-print); }
+  .bu-track, .bbar-track { border-bottom: var(--p-rule) solid var(--ink-print); }
+  .bu-fill, .bbar-track i { background: none; border-top: var(--p-rule) solid var(--ink-print); }
+  .bu-before { background: none; border-top: var(--p-rule) dotted var(--ink-print); }
+  .bu-ceil { border-left: var(--p-rule) solid var(--ink-print); }
+  .bodies-paper .bodies-usage, .bodies-paper .bodies-spent, .bodies-paper .bodies-machine { break-inside: avoid; color: var(--ink-print); }
+}
+
+/* ---------------------------------------------------------------- the room (DESIGN-BODIES §13)
+   The bodies on a rail; the chosen one fills the page as its conversation. On the desk a left
+   rail of 19rem from 760px (a window beside others on the desk is often narrower than a desk); below 760px one strip of chips at the top, the conversation beneath. The
+   chosen entry carries a filled hairline, never a colour fill. The prime is delineated at all
+   times by a hairline on its left. No avatars, no glow; type and space carry the hierarchy. */
+.bodies-room { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s-4); min-width: 0; }
+.bodies-rail { display: flex; flex-direction: column; gap: var(--s-3); min-width: 0; }
+.bodies-rail-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-3); }
+.bodies-rail-head .eyebrow { color: var(--dust); margin: 0; }
+.bodies-glance-link { padding: 0; min-height: 32px; font-size: var(--t-small); color: var(--dust); }
+.bodies-glance-link.is-chosen { color: var(--text); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+/* Give a task: the rail head's one act, beside At a glance */
+.bodies-rail-head .eyebrow { margin-right: auto; }
+.bodies-give-link { padding: 0; min-height: 32px; font-size: var(--t-small); color: var(--text); }
+.bodies-give .bodies-cost-first { margin: 0 0 var(--s-3); }
+.bodies-give-status { min-height: 1.4em; margin: var(--s-2) 0 0; }
+.bodies-rail-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); min-width: 0; }
+.bodies-rail-group { font-family: var(--f-name); font-size: var(--t-micro); letter-spacing: var(--track-caps); text-transform: uppercase;
+  color: var(--dust); padding: var(--s-3) 0 0 var(--s-3); }
+
+.br { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: var(--s-2); row-gap: 2px; width: 100%;
+  text-align: left; font: inherit; color: var(--text); background: transparent; cursor: pointer;
+  border: 0; border-left: 2px solid transparent; padding: var(--s-2) var(--s-2) var(--s-2) var(--s-3); min-height: var(--touch); }
+.br > .br-name { grid-column: 1; font-size: var(--t-body); line-height: 1.25; overflow-wrap: anywhere; }
+.br > .br-n { grid-column: 2; grid-row: 1; color: var(--dust); font-size: var(--t-small); align-self: baseline; }
+.br > .br-task, .br > .br-state, .br > .br-long, .br > .br-short { grid-column: 1 / -1; }
+.br-task { font-size: var(--t-small); color: var(--dust); line-height: 1.35; font-style: italic; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.br-state { font-size: var(--t-micro); color: var(--dust); }
+.br > .br-cost { grid-column: 1 / -1; font-size: var(--t-micro); font-variant-numeric: tabular-nums; }
+.br:hover .br-name { text-decoration: underline; text-decoration-thickness: var(--hairline); text-underline-offset: 3px; }
+.br:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: var(--focus-offset); }
+.br.is-chosen { border-left-color: var(--text); }
+/* the prime: a hairline on its left at all times, the word Prime in small capitals, set apart */
+.br--prime { border-left: var(--hairline) solid var(--text); padding-left: calc(var(--s-3) + 1px); margin-bottom: var(--s-2); }
+.br--prime.is-chosen { border-left-width: 2px; padding-left: var(--s-3); }
+.br--prime .br-name { font-size: var(--t-small); letter-spacing: var(--track-caps); }
+.br--prime .br-task { color: var(--text); }
+/* stopped without closing: dimmed, its edges dashed */
+.br--stopped { border: var(--hairline) dashed var(--line-strong); border-left-width: 2px; border-left-style: dashed; }
+.br--stopped .br-name { color: var(--dust); }
+.br--stopped.is-chosen { border-left-style: solid; border-left-color: var(--text); }
+.br--archive { min-height: 32px; }
+.br--archive .br-long { font-size: var(--t-small); color: var(--dust); }
+.br-short { display: none; }
+.bodies-rail-more { display: none; }
+.bodies-rail-foot { display: grid; gap: var(--s-4); padding-top: var(--s-4); border-top: var(--hairline) solid var(--line); margin-top: auto; }
+.bodies-rail-foot .bodies-usage .bu { grid-template-columns: minmax(0, 1fr); }
+
+.bodies-page { display: flex; flex-direction: column; gap: var(--s-3); min-width: 0; min-height: 0; }
+.bodies-page .bodies-slot { display: grid; gap: var(--s-3); }
+.bodies-page-head { display: grid; gap: var(--s-2); }
+.bodies-room-top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--s-2) var(--s-4); }
+.bodies-room-health { margin: 0; font-size: var(--t-card); line-height: var(--lh-voice); max-width: 46rem; flex: 1 1 24rem; overflow-wrap: anywhere; }
+.bodies-room-acts { display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: center; }
+.bodies-room-acts .bodies-switch { margin-left: auto; }
+.bodies-room-acts .dust { font-size: var(--t-small); }
+.bodies-switch { display: inline-flex; justify-self: start; border: var(--hairline) solid var(--line-strong); border-radius: var(--r-chip); overflow: hidden; }
+.bodies-seg { font: inherit; font-size: var(--t-small); color: var(--dust); background: transparent; border: 0; padding: var(--s-1) var(--s-3); min-height: 32px; cursor: pointer; }
+.bodies-seg + .bodies-seg { border-left: var(--hairline) solid var(--line-strong); }
+.bodies-seg.is-on { color: var(--text); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.bodies-seg:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: -2px; }
+.bodies-conv { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; min-width: 0; }
+.bodies-page[data-chosen="glance"] .bodies-conv, .bodies-page[data-chosen="archive"] .bodies-conv { overflow-y: auto; }
+
+/* the conversation, the dock's own component mounted in place */
+.bodies-talk { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; border-top: var(--hairline) solid var(--line); }
+.bodies-talk .dock-bar, .bodies-talk .dock-dealline { display: none !important; }
+.bodies-talk .dock-pane { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; background: transparent; }
+.bodies-talk .dock-head { padding-inline: 0; }
+.bodies-talk .dock-scroll, .bodies-talk-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; padding: var(--s-4) 0; overscroll-behavior: contain; }
+.bodies-talk .dock-foot { padding-inline: 0; }
+.bodies-talk .dock-line { padding-inline: 0; }
+.bodies-talk[data-view="line"] .dock-scroll, .bodies-talk[data-view="line"] .dock-foot { display: none; }
+.bodies-talk .dock-turn, .bodies-talk .dock-letter { max-width: 40rem; }
+.bodies-talk .dock-row { grid-template-columns: minmax(0, 40rem) minmax(0, 16rem); }
+.bodies-talk .dock-terminal { font-size: var(--t-small); }
+.bodies-talk-foot[hidden] { display: none; }
+.bodies-plain { margin: 0; }
+.bodies-talk .dock-plainstream { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; }
+.bodies-earlier { align-self: center; min-height: 32px; color: var(--dust); }
+.bodies-earlier[hidden], .bodies-talk-empty[hidden] { display: none; }
+/* a body's handoff, read in the page as text in Plain; the review under it */
+.bodies-handoff-head { margin: 0 0 var(--s-3); font-size: var(--t-card); line-height: var(--lh-voice); }
+.bodies-handoff-text { white-space: pre-wrap; overflow-wrap: anywhere; max-width: 46rem; }
+.bodies-handoff-acts { padding: var(--s-3) 0; border-top: var(--hairline) solid var(--line); }
+
+/* a body this computer cannot reach: its task, what it last said, its handoff, plainly */
+.bodies-away { display: grid; gap: var(--s-2); max-width: 40rem; }
+.bodies-away-line { font-size: var(--t-card); line-height: var(--lh-voice); margin: 0 0 var(--s-3); }
+.bodies-away .eyebrow { color: var(--dust); margin: var(--s-3) 0 0; }
+.bodies-away-task { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; }
+.bodies-away-status { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.bodies-away-status li { font-style: italic; overflow-wrap: anywhere; }
+.bodies-archive { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-1); max-width: 40rem; }
+.bodies-archive .link-btn { padding: 0; min-height: 32px; color: var(--text); }
+.bodies-archive .dust { font-size: var(--t-small); }
+.bodies-task-input { width: 100%; box-sizing: border-box; }
+
+@media (min-width: 760px) {
+  .bodies-room { grid-template-columns: 17rem minmax(0, 1fr); gap: var(--s-6); height: var(--room-h, calc(100dvh - 12rem)); }
+  .bodies-rail { overflow-y: auto; padding-right: var(--s-4); padding-bottom: calc(var(--dock-bar-h) + var(--s-4)); border-right: var(--hairline) solid var(--line); }
+  .bodies-page { height: 100%; overflow: hidden; }
+}
+/* the phone and the tablet: a strip of chips at the top, the chosen one underlined */
+@media (max-width: 759px) {
+  .bodies-room { gap: var(--s-3); }
+  .bodies-rail { gap: var(--s-1); }
+  .bodies-rail-list { display: flex; gap: var(--s-1); overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none;
+    padding-bottom: var(--s-1); border-bottom: var(--hairline) solid var(--line); }
+  .bodies-rail-list::-webkit-scrollbar { display: none; }
+  .bodies-rail-list > li { flex: none; }
+  .bodies-rail-group, .br-task, .br-state, .br-cost, .br-long, .bodies-rail-foot { display: none; }
+  .br-short { display: inline; }
+  .bodies-rail-more { display: block; }
+  .br { display: inline-flex; align-items: baseline; gap: var(--s-1); width: auto; white-space: nowrap; border: 0;
+    border-bottom: 2px solid transparent; padding: var(--s-2) var(--s-2); margin: 0; }
+  .br--prime { border: 0; border-left: var(--hairline) solid var(--text); border-bottom: 2px solid transparent; padding-left: var(--s-2); margin: 0; }
+  .br--prime.is-chosen { border-left-width: var(--hairline); padding-left: var(--s-2); }
+  .br.is-chosen { border-bottom-color: var(--text); }
+  .br--stopped { border: var(--hairline) dashed var(--line-strong); border-bottom-width: 2px; }
+  .br--stopped.is-chosen { border-bottom: 2px solid var(--text); }
+  .br > .br-name { font-size: var(--t-small); }
+  .br--archive .br-short, .br--more { color: var(--dust); font-size: var(--t-small); }
+  .bodies-page { height: var(--room-h, 70vh); overflow: hidden; }
+  .bodies-room-health { font-size: var(--t-small); line-height: 1.35; flex-basis: auto; }
+  .bodies-room-acts .pill { min-height: 36px; padding: 0 var(--s-3); font-size: var(--t-small); }
+  .br { padding: var(--s-1) var(--s-2); min-height: 40px; align-items: center; }
+  .br--prime .br-name { font-size: var(--t-micro); }
+}
+html[data-type="large"] .br > .br-name { font-size: var(--t-body); }

@@ -1,0 +1,7 @@
+{
+  "_about": "The stand-in agent for proving the dock's shapes (fixtures/fake_agent.py). Its one argument is the fresh fixture's card for the garden gate, so the commitment it drafts names a real card. A real home's agents file lives at <HQ>/agents.json; the row's command starts the player's own agent over the Agent Client Protocol. A row's `character` is who the agent is here, sent to it as its first system-style context; absent, the kit's default is sent (agent_host.py DEFAULT_CHARACTER).",
+  "agents": [
+    {"id": "yours", "name": null, "of": "person:player", "kind": "harness", "actor": "agent:player-agent",
+     "command": ["python3", "./fake_agent.py", "c5d531c1fe5e47c3374411a043a9389f1d8e5821a2d53c160ff3d6c6df0ef55e"], "cwd": ".", "cli": ["/bin/sh"]}
+  ]
+}
