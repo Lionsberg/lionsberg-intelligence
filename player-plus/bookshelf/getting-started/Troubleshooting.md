@@ -4,6 +4,18 @@ Common problems and how to fix them. If you do not see your issue here, describe
 
 ## Installation Issues
 
+### I do not see Code in the Claude app
+
+The Code tab comes with a paid plan: Pro, Max, Team or Enterprise. On the free plan, clicking it offers an upgrade. If you have a paid plan and still do not see it, update the app: **Claude › Check for Updates…** on a Mac, **Help › Check for Updates…** on Windows.
+
+### The controls are in a different place from the Quest
+
+If where Claude runs, the folder and the mode sit above the box instead of under it, the app is older than the Quest. Update it, as above.
+
+### My agent does not know me
+
+Look under the box: the folder must say **HQ**. Claude wakes as whatever lives in the folder its session is opened on, so a session on any other folder is a stranger. Start a new session and choose HQ.
+
 ### The developer tools window disappeared (Mac)
 
 It is probably behind another window. Check all your displays and use Cmd+Tab to look for a "Software Update" or "Install" window.
@@ -14,9 +26,9 @@ Ignore the initial estimate — it may say 16 hours. The actual install typicall
 
 ### Claude Code says it cannot find Git
 
-**Mac:** Make sure the Command Line Developer Tools have finished installing. In your terminal, run `git --version` to check; if you see an error, run `xcode-select --install` (see [Installing Git](Installing%20Git.md)).
+**Mac:** Make sure the Command Line Developer Tools have finished installing. Ask Claude to run `git --version` (or run it in a terminal) to check; if you see an error, run `xcode-select --install` (see [Installing Git](Installing%20Git.md)).
 
-**Windows:** Install Git for Windows from [git-scm.com](https://git-scm.com/). Verify it in **Windows Terminal**, on a **PowerShell** tab, by running `git --version`.
+**Windows:** Install Git for Windows from [git-scm.com](https://git-scm.com/). Verify it in **Windows Terminal**, on a **PowerShell** tab, by running `git --version`. In the Claude app, quit and reopen the app after Git installs, so that it sees Git.
 
 ### Windows: `git` is not recognized as an internal or external command
 

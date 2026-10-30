@@ -474,9 +474,11 @@ class _Days:
 
 def _pencil(cards, cal, data_date, ext=None):
     """An independent two-pass by pencil over one holon's folded cards, on that holon's own
-    calendar: finish-to-start links within the holon, durations from minutes and the holder's
-    minutes per day, a milestone zero days, `start_no_earlier` as the earliest start, `by` (or
-    `finish_no_later`) as the late finish, the late end the latest of every EF and every by.
+    calendar: finish-to-start links within the holon, durations from minutes over the holder's
+    minutes per day with the fraction kept, a milestone zero days, `start_no_earlier` as the
+    earliest start, a milestone's `by` (or `finish_no_later`) as its late finish, the late end the
+    latest of every EF and every such by. A date on a Work Card is never applied (the engine's
+    contract: reported, never imposed).
     `ext` is the holon's fixed-date externals, exactly as engine.run_schedule hands them to the
     schedule (engine.holon_graph): the other held holons' published milestones and committed
     cards. An external predecessor holds a card's earliest start at the external's date; an
@@ -519,7 +521,7 @@ def _pencil(cards, cal, data_date, ext=None):
         actors = (cal or {}).get('actors') or {}
         mpd = float((actors.get(c.get('holder')) or {}).get('minutes_per_day') or mpd_default)
         m = float(c.get('minutes') or 0)
-        return float(-(-m // mpd)) if m else 0.0
+        return m / mpd if m else 0.0
 
     for c in cards:
         for s_ in ((c.get('links') or {}).get('successor') or []):
@@ -528,7 +530,8 @@ def _pencil(cards, cal, data_date, ext=None):
                 need_by[c['id']] = min(need_by.get(c['id'], d), d)
 
     def by_of(c):
-        cands = [float(days.idx(b)) for b in (c.get('by') or c.get('finish_no_later'),
+        ms = (c.get('body_kind') or c.get('activity_type') or c.get('kind')) == 'milestone'
+        cands = [float(days.idx(b)) for b in ((c.get('by') or c.get('finish_no_later')) if ms else None,
                                                need_by.get(c.get('id'))) if b]
         return min(cands) if cands else None
 

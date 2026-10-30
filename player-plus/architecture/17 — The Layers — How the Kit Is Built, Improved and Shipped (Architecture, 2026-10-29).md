@@ -89,11 +89,12 @@ Every layer with an upstream keeps a **ledger of differences**: each place this 
 Each kit release passes one gate, held at the weekly turn of the seed (HOW-TO-IMPROVE-IT §9). Its steps are not yet settled:
 
 1. **Each layer's own check passes**: the Engine's own gate (its tests, the shadow run, the switch and the two-house test, in [`engine/ENGINE.md`](../engine/ENGINE.md)), the Agent's charter checks, the review of any new writing.
-2. **The checks of §1 pass**: a house that keeps a layer runs only what the layers ship, and each lag behind an upstream has its reason.
-3. **The shadow run.** A house that keeps a layer runs the candidate beside its current release on its own record until every difference is explained.
-4. **The switch.** That house moves to the candidate, and plays on it.
-5. **The two-house test**, once a second house holds the release: one commons repository, one thread settled, and one commitment kept across the two houses, each house's engine computing the same dates for it from its own copy of the record.
-6. **The release is written**: the manifest, the record of changes, the lineage.
+2. **The way in, walked once.** INSTALL's mechanical steps run in a throwaway home on a clean copy of the candidate: the kit fetched and placed, and the conformance sheet reading every scripted check at PASS, signing at the paper floor. A sheet that reads NOT READY stops the release.
+3. **The checks of §1 pass**: a house that keeps a layer runs only what the layers ship, and each lag behind an upstream has its reason.
+4. **The shadow run.** A house that keeps a layer runs the candidate beside its current release on its own record until every difference is explained.
+5. **The switch.** That house moves to the candidate, and plays on it.
+6. **The two-house test**, once a second house holds the release: one commons repository, one thread settled, and one commitment kept across the two houses, each house's engine computing the same dates for it from its own copy of the record.
+7. **The release is written**: the manifest, the record of changes, the lineage.
 
 What improves a layer comes from play: each house's weekly retrospective, the rooms, the reviewers' guild (document 10). Each improvement lands as a proposed change on the layer it belongs to, soaks, and is accepted or refused by that layer's keeper.
 

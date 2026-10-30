@@ -4,9 +4,9 @@ You are about to set up a small system of tools that work together. Here's what 
 
 ## Claude Code — Your AI Agent
 
-Claude Code is an AI tool made by Anthropic. It runs in a terminal — a plain text-based window where you type to it and it types back — and it reads and writes ordinary files on your computer directly. This kit turns it into a persistent personal agent: a name, a memory that carries across sessions, and a home folder where it keeps its notes about you and your work.
+Claude Code is an AI tool made by Anthropic. It runs inside the Claude app's Code tab, or in a terminal for those who prefer one, and it reads and writes ordinary files on your computer directly. This kit turns it into a persistent personal agent: a name, a memory that carries across sessions, and a home folder where it keeps its notes about you and your work.
 
-The terminal is where you talk to it. That is the whole interface — no app to open, no sidebar to configure. You type what you want, in plain English, and your agent does it.
+A session on your HQ is where you talk to it. That is the whole interface: you type what you want, in plain English, and your agent does it.
 
 ## Markdown Files — Where Everything Lives
 
