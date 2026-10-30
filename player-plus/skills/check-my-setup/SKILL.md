@@ -6,7 +6,7 @@ license: MPL-2.0
 
 # Check my setup
 
-A house runs on a few boring things being right: a terminal you can read, git that works, a place to read markdown, folders that are not being synced out from under you, a backup. When one is wrong the symptoms show up somewhere else and look like something else. This skill checks them in order and reports plainly — a sentence or two each, not a systems report — with the smallest fix for each.
+A house runs on a few boring things being right: a session window you can read (the Claude app, or a terminal), git that works, a place to read markdown, folders that are not being synced out from under you, a backup. When one is wrong the symptoms show up somewhere else and look like something else. This skill checks them in order and reports plainly — a sentence or two each, not a systems report — with the smallest fix for each.
 
 ## The checks
 

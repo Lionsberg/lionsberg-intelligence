@@ -4,20 +4,20 @@ While you are working with Claude Code, it will regularly stop and ask you somet
 
 ## Why the questions exist
 
-Claude Code asks before it does things that touch your computer — running a command in the terminal, editing a file outside the folders you have already told it are fine to touch. This is a safety feature, not an error and not a sign that something's wrong. It is completely normal to see a lot of these questions in your first few sessions. They thin out over time, as you tell Claude Code which everyday actions it can just go ahead and do.
+Claude Code asks before it does things that touch your computer — running a command in the terminal, editing a file outside the folders you have already told it are fine to touch. This is a safety feature, not an error and not a sign that something is wrong. It is completely normal to see a lot of these questions in your first few sessions. They thin out over time, as you tell Claude Code which everyday actions it can just go ahead and do.
 
 > [!tip]
 > Think of these questions as Claude Code showing its work before it acts, not as a wall stopping you from getting things done.
 
 ## The first question you will see: trusting the folder
 
-The very first time you run `claude` inside your agent's folder (your agent home), it asks whether you trust the files in this folder. This is a general Claude Code safety check for any folder you open it in — some folders are ones you'd never want an AI assistant running around in unsupervised.
+By the terminal way, the very first time you run `claude` inside your agent's folder (your agent home), it asks whether you trust the files in this folder. In the Claude app, if it asks whether you trust the folder, check that it names HQ and say yes. This is a general Claude Code safety check for any folder you open it in — some folders are ones you would never want an AI assistant running around in unsupervised.
 
 For your own agent's folder — the one this book lives in — the answer is yes. This is your agent's home. You set it up, you are the one running it, and trusting it is what lets your agent actually do its job.
 
 ## The plain-language rule
 
-Most permission questions boil down to one of a few shapes. Here's how to think about each:
+Most permission questions boil down to one of a few shapes. Here is how to think about each:
 
 - **Reading or editing files inside your agent's own folder** — fine to allow. That is its home and its job. Your agent needs to read and write its own memory, session logs, drafts, and notes to function at all.
 - **Running everyday commands your agent explains** — making a folder, opening a file in Typora, listing what is in a directory — fine to allow, *as long as the explanation matches what you actually asked for*. If you asked it to save a note and it says it is creating a file to save your note, that checks out.
@@ -35,7 +35,7 @@ For anything outbound (leaving your computer) or outside your agent's folder, it
 
 ## A note on modes
 
-Claude Code has modes that change how often it asks permission at all — a **plan mode** that has it lay out its intended steps before doing anything, and an **auto-accept mode** that lets it proceed without asking each time. As a new user, it is worth staying in the default mode — the one that asks — until you and your agent have worked together for a while and you have a feel for what it normally does. Once you are ready to explore the other modes, ask your agent to walk you through plan mode and auto mode.
+Claude Code has modes that change how often it asks permission at all. In the Claude app they sit in the row under the box: **Manual** asks before it edits a file or runs a command; **Accept edits** goes ahead with file edits and asks before other commands; **Plan** lays out its intended steps before doing anything; **Auto**, where offered, has a checker decide; **Bypass permissions** asks nothing. As a new user, it is worth staying in **Manual**, the one that asks, until you and your agent have worked together for a while and you have a feel for what it normally does. Once you are ready to explore the other modes, ask your agent to walk you through Plan and Accept edits.
 
 > [!warning]
 > **Windows users:** on Mac, Claude Code runs commands inside a macOS sandbox — a protective layer that limits what any single command is allowed to touch on your computer, even before you answer a permission question. **Windows does not have this sandboxing.** That means on Windows, your answers to these permission questions are doing more of the safety work themselves. The guidance above still applies — it just matters a little more that you actually read the question before answering, especially for anything outbound or outside your agent's folder.

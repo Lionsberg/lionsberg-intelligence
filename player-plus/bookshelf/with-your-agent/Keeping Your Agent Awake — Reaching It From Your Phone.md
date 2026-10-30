@@ -6,7 +6,7 @@ A [[Player+]]'s [[Agent]] runs on their own machine. That is what keeps it yours
 
 ## 1. What is actually running
 
-- **One computer, yours.** A laptop or a desktop, at home, plugged in. Your agent's home, HQ, is on it, and so is your agent: a session of Claude Code, running in the window the **My Agent** icon opens.
+- **One computer, yours.** A laptop or a desktop, at home, plugged in. Your agent's home, HQ, is on it, and so is your agent: a session of Claude Code, running in the Claude app on HQ (or, by the terminal way, in the window the **My Agent** icon opens).
 - **Your agent on it.** Everything your agent does happens on that computer: reading, writing, keeping your record, dealing [[The Deal]].
 - **Your phone is a door, never a home.** Nothing of your agent lives on the phone. The phone shows you the conversation and carries your words in. Put the phone down and nothing is lost; turn the computer off and the door opens onto nothing.
 
@@ -52,7 +52,7 @@ Do these once, on the computer, with your agent beside you. Your agent can walk 
 
 ### On either
 
-- **Your agent's window stays open.** Start your agent from **My Agent** and leave that window open. Minimizing it is fine; closing it ends the session. The [`phone-path`](../../skills/phone-path/SKILL.md) skill asks your agent to keep a session running so there is always one to find.
+- **Your agent's window stays open.** Start your agent in a session on HQ and leave the Claude app (or the **My Agent** window) open. Minimizing it is fine; closing it ends the session. The [`phone-path`](../../skills/phone-path/SKILL.md) skill asks your agent to keep a session running so there is always one to find.
 - **The private network starts on its own.** If your [[Cell]] uses a private network, set its app to start when the computer starts, and stay signed in on both the computer and the phone.
 - **Check that it worked: the phone test.** Leave the computer alone for an hour, longer than it used to stay awake. Then, on your phone, with Wi-Fi turned off so you are truly away, reach your agent by one of the doors below and ask: *"When did this computer last sleep?"* It can read the answer from the computer itself (on a Mac, `pmset -g log`; on Windows, `powercfg /lastwake` and the system's event log). If it answers and has not slept, you are done.
 
@@ -88,7 +88,7 @@ Do these once, on the computer, with your agent beside you. Your agent can walk 
 **The phone cannot find your computer.** Work down this list; each line takes a minute.
 
 1. **Is it on, and on power?** If someone is home, ask them to look. A press of a key or a lifted lid wakes it.
-2. **Did it restart?** An update or a power cut ends the session. Open **My Agent** again (or ask the person at home to double-click it).
+2. **Did it restart?** An update or a power cut ends the session. Open the Claude app and a session on HQ again (or **My Agent**, by the terminal way), or ask the person at home to.
 3. **Is the network up?** If the home Wi-Fi dropped, the computer is awake and alone. Restart the router, or wait for it to return.
 4. **Is the private network on, on both ends?** If the ICE door will not open, check the private network's app on the phone and on the computer. Then try Remote Control instead.
 5. **Is it the right name?** In the Claude app, look for your computer's name, never the New Session button.

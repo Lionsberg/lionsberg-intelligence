@@ -8,9 +8,9 @@ Claude is an AI made by Anthropic. Your agent thinks with Claude, through Claude
 
 1. In your browser, type **claude.ai** yourself. Do not follow a search result or an ad; there are many look-alike sites.
 2. Create an account with your email.
-3. Choose the **Pro** plan. It includes everything this path needs, Claude Code among it. (Max works too.)
+3. Choose the **Pro** plan. It includes everything this path needs, Claude Code among it. (Max, Team and Enterprise work too. The free plan does not include Claude Code.)
 
-Do not install the Claude desktop app or phone app yet. You will not need them here.
+You install the Claude desktop app at the next Gate. The phone app can wait; you will not need it on day one.
 
 > [!tip]
 > Current plans and pricing are always at claude.ai, and you can change plans later. Some plans offer an optional usage top-up as a buffer for heavy days, but most people never need it.
@@ -32,4 +32,4 @@ You do not need to pay for anything else. No API keys, no separate billing for C
 
 ## Next Step
 
-Gate 3: [Choosing Your Terminal](Choosing%20Your%20Terminal.md).
+Gate 3: the Claude app, in the Quest for [Mac](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md) or [Windows](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md).

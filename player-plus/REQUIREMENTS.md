@@ -18,7 +18,7 @@ A **Claude Pro** plan from Anthropic, which includes everything this path needs 
 
 ## Computer intermediate
 
-- You can use a **terminal** — a simple, chat-like program on your computer. If you never have, that is genuinely fine: it is less scary than it looks, and the Quest teaches it from zero.
+- You can install an app and open a folder. The main path needs no terminal. If you would rather use one, the terminal way is beside it, and the Quest teaches it from zero.
 
 ## Git: required
 
@@ -32,9 +32,10 @@ You will work with your agent through two surfaces: a **chat surface** (where yo
 
 ### Chat surfaces
 
-- **A terminal** — the recommended path, and the one the Quest sets up. Mac: **iTerm2** (free and open source; the built-in Terminal works too). Windows: **PowerShell** in **Windows Terminal**.
+- **The Claude app's Code tab** — the recommended path, and the one the Quest sets up: a local session opened on your HQ, on this computer, with your files right there.
+- **A terminal** — the terminal way, for those who prefer it. Mac: **iTerm2** (free and open source; the built-in Terminal works too). Windows: **PowerShell** in **Windows Terminal**.
 - **The Claude app on your phone**, through **Remote Control** (`/rc`) — the same session, continued from your phone. If you will reach your agent mostly from a phone, tell it so at the start: there is a chapter and a skill for that path (`bookshelf/your-house/The Phone Path.md`, `skills/phone-path`).
-- *Other option, not recommended:* Claude Desktop (or Web/Mobile — all the same) natively. The problem is getting files in and out, via clunky git branches.
+- *Other option, not recommended:* the app's ordinary chat, or a cloud session, without your HQ. The problem is getting files in and out, via clunky git branches.
 - *Other option:* skip Claude Code and use Claude Cowork. We think that is harder.
 
 ### Review surfaces

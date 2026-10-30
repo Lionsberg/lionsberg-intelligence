@@ -43,7 +43,7 @@ The `DONE` marker matters more than it looks. A `handoff.md` invites more work �
 ## How it goes
 
 1. The foreground writes `task.md` — as an outcome, not a step list. The instance plans its own path.
-2. You (or the foreground) open a second terminal in the agent home and start the agent with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
+2. You (or the foreground) open a second session on the agent home, a new session in the Claude app's Code tab or a second terminal, and start the agent with one line: *you are a background instance; read `bg/<job>/task.md` and begin.* The `foreground-background` skill carries the instructions it follows.
 3. You carry on in the foreground. Check `status.md` when you are curious; do not poll.
 4. When `DONE` appears, the foreground tells you — at the start of a session, or in one line during one, at most once an hour — and, when you say so, reads `handoff.md` and integrates: files copied to where they belong, memories saved properly, commits made under the foreground's own hand. Anything that needs your decision is asked.
 5. The job folder moves to `bg/archive/`.

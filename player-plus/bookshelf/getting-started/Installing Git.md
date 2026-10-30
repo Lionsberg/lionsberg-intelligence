@@ -14,7 +14,7 @@ On a Mac, Git comes with Apple's **Command Line Developer Tools**. They also bri
 
 ### Step 1: Ask your Mac which Git it has
 
-In your terminal (iTerm2, from Gate 3), type this and press Return:
+In a terminal (or ask Claude in the Code tab to run it for you), type this and press Return:
 
 ```
 git --version
@@ -82,9 +82,9 @@ In your browser, go to **git-scm.com** and download Git for Windows.
 
 Run the downloaded installer. **Accept the default options all the way through** — the defaults are fine.
 
-### Step 3: Close the terminal and open it again
+### Step 3: Close the app or the terminal and open it again
 
-Close Windows Terminal and open it again, so it notices the new tool.
+Quit the Claude app completely and open it again, or, by the terminal way, close Windows Terminal and open it again, so it notices the new tool.
 
 ### Step 4: Verify the installation
 

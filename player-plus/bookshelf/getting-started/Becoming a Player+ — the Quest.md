@@ -2,7 +2,7 @@
 
 *The one path from your first yes to an agent of your own, walked as a Quest of five Gates.*
 
-The terminal is the wizard's interface to your computer. By the last Gate you will have one open, with an agent of your own inside it.
+The Claude app is the wizard's window into your computer. By the last Gate you will have it open on a folder of your own, with an agent of your own inside it.
 
 A [Quest](https://read.lionsberg.world/The_Field/Quest) is one real thing, done together, that you can point to afterward. This is one; here is its card, [The Questcard](https://read.lionsberg.world/The_Field/The_Questcard):
 
@@ -21,7 +21,7 @@ Like every gate in [The Gates of LIØNSBERG](https://read.lionsberg.world/The_Fi
 
 ## Choose your path
 
-The five Gates are the same on every computer; the steps inside them differ. The first three are yours alone; at the fourth you paste two lines and Claude builds the rest in front of you, saying each step before it takes it. Walk the one for the computer in front of you.
+The five Gates are the same on every computer; the steps inside them differ. The first three are yours alone; at the fourth you open a folder in the Claude app, paste one sentence, and Claude builds the rest in front of you, saying each step before it takes it. No terminal is needed; the terminal way is there for those who prefer it. Walk the one for the computer in front of you.
 
 - **[The Quest for Mac](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md)**
 - **[The Quest for Windows](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md)**

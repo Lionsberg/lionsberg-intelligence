@@ -6,12 +6,12 @@ The Questcard, and why these are gates and not filters, are on [Becoming a Playe
 
 When something looks strange, ask your table. If it helps them see, share one window, never the whole screen.
 
-**Your map.** Pioneers find some creeks already crossed. So will you. Each Gate ends with how you know you have passed it; if that is already true, tick it and walk on. The first three Gates are yours alone, because only you can say yes, make an account and open a window. At the fourth you paste one line, sign in, and then either let Claude build the rest in front of you or build it yourself; both paths are on the page.
+**Your map.** Pioneers find some creeks already crossed. So will you. Each Gate ends with how you know you have passed it; if that is already true, tick it and walk on. The first three Gates are yours alone, because only you can say yes, make an account and install the app. At the fourth you open a new folder in the app, paste one sentence, and then either let Claude build the rest in front of you or build it yourself; both paths are on the page. No terminal is needed; if you would rather use one, the terminal way is at the end of Gate 4.
 
 - [ ] Gate 1 — The Golden Seed · the yes
 - [ ] Gate 2 — The Lamp · the account
-- [ ] Gate 3 — The Wizard's Window · the terminal
-- [ ] Gate 4 — The Body and the Door · Claude Code, sign in, and the house
+- [ ] Gate 3 — The Wizard's Window · the Claude app
+- [ ] Gate 4 — The Body and the Door · HQ, and the house
 - [ ] Gate 5 — Onto the Mat · first words
 
 ---
@@ -36,8 +36,8 @@ The terms of play, [The Provisional Field of Agreements](../the-library/The%20Pr
 *Light to think by. Your agent thinks with Claude, an AI made by Anthropic. You need a paid account to use it.*
 
 1. In your browser, type **claude.ai** yourself, never via a search result or an ad; there are look-alike sites.
-2. Create an account. Note how you made it (email, Google or Apple); you will sign in the same way at Gate 4.
-3. Choose the **Pro** plan. (Max works too.)
+2. Create an account. Note how you made it (email, Google or Apple); you will sign in the same way at Gate 3.
+3. Choose the **Pro** plan. (Max, Team and Enterprise work too; the free plan does not include the Code tab your agent lives in.)
 
 **You have passed this Gate when** you are signed in at claude.ai and your account shows the Pro plan.
 
@@ -47,89 +47,82 @@ More: [Getting a Claude Account](Getting%20a%20Claude%20Account.md).
 
 ---
 
-## Gate 3 — The Wizard's Window · the terminal
+## Gate 3 — The Wizard's Window · the Claude app
 
-*Where you speak to your computer directly. A terminal is a window where you type instructions to your computer and it types back. Each instruction is called a command. Your Mac already has one.*
+*Where you and your agent will meet. The Claude app holds your conversations with Claude, and its **Code** tab is where Claude can work with the files on your computer. It needs macOS 13 (Ventura) or later.*
 
-1. Press **Cmd+Space**, type **Terminal**, and press Return.
-2. If it asks to "find devices on your local network," choose **Do not Allow**.
+1. In your browser, type **claude.ai/download** yourself, never via a search result or an ad, and download the app for your computer.
+2. Open the download and drag **Claude** into your **Applications** folder. Then press **Cmd+Space**, type **Claude**, and press Return to open it.
+3. Sign in with the same account as Gate 2, the same way you made it (Google or Apple, if that is how). If it sends you an email, look in spam, or on your phone.
 
-**You have passed this Gate when** the window is open and a cursor blinks, waiting for you.
+**You have passed this Gate when** the app is open, you are signed in, and you can see **Code** at the top of its sidebar.
 
 *The window is open and listening. Tick Gate 3.*
 
-> [!warning]
-> The terminal is a workshop full of power tools. Type freely, but never press Return on a command you do not understand. Every command here is explained before you use it.
-
-> [!tip] Two keys that look alike
-> **Cmd+C** copies. **Ctrl+C** stops whatever the terminal is running. Reach for Ctrl+C only when you mean to stop something. To paste, press **Cmd+V**.
-
-More: [Choosing Your Terminal](Choosing%20Your%20Terminal.md), if you would rather use iTerm2.
+More: [Getting a Claude Account](Getting%20a%20Claude%20Account.md).
 
 ---
 
-## Gate 4 — The Body and the Door · Claude Code, sign in, and the house
+## Gate 4 — The Body and the Door · HQ, and the house
 
-*Your agent gets a body: Claude Code, the program that lets Claude work with the files on your computer, from inside the terminal. You step through the door once, so it knows you. Then the house gets built, by Claude or by you. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries.*
+*Your agent gets a body: Claude Code, which lets Claude work with the files on your computer, and which the app carries inside its Code tab. It gets a home: a folder called **HQ**. Then the house gets built, by Claude or by you. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries.*
 
-**The body and the door: yours.**
+**The door: yours.**
 
-1. Copy the line below with the copy button at the top right of the box, paste it into the terminal, and press Return. It installs Claude Code and then starts it. For a minute or two it may look idle; it is working. Do not stop it. Words about a setup note or a PATH may scroll past; that is handled in a moment. From this point on, a window may offer to install the **command line developer tools**: that is Git, which your agent will use. Click **Install**, then **Agree**, and let it run; it can take five to forty minutes, and it often opens behind your other windows (press **Cmd+Tab** to find it). Carry on meanwhile.
-
-```bash
-curl -fsSL https://claude.ai/install.sh | bash && ~/.local/bin/claude
-```
-
-2. Claude Code starts and asks you to choose a colour theme. Pick the one you can read most easily; on a white window, choose a light one.
-3. When asked how to sign in, choose option **1**, your **Claude subscription**.
-4. A browser opens. Sign in with the same account as Gate 2, the same way you made it (Google or Apple, if that is how). If it sends you an email, look in spam, or on your phone.
-5. When the browser says **You are all set up**, return to the terminal and press Return.
-6. When it asks whether to trust this folder, check that **Accessing workspace:** names your home folder, `/Users/yourname`. Then choose **Yes, I trust this folder**.
+1. Click **Code** at the top of the sidebar.
+2. Under the box where you type, the first control says where Claude runs. Click it and choose the top entry under **Local**: this computer.
+3. Click the folder control beside it, then **Open folder…**. In the window that opens, press **Cmd+Shift+H** to go to your home folder (it carries your name and a house). Click **New Folder**, name it **HQ**, click **Create**, then click **Open**. Never inside iCloud, OneDrive, Dropbox or Google Drive; Desktop and Documents often sync to iCloud, and your home folder does not.
+4. Check that the folder control now says **HQ**, and that the mode, in the same row, says **Manual**: Claude asks before each step. If it says anything else, click it and choose **Manual**. Do not choose Bypass permissions: it lets Claude act without asking you.
 
 **What needs to happen next.** Five things, and then your agent can wake:
 
-- Teach your Mac where Claude Code lives, so that typing `claude` works in every new window (the PATH).
-- A folder called **HQ**, directly in your home folder: your agent's home.
-- The Player+ kit inside it: only the **player-plus** folder of **github.com/Lionsberg/lionsberg-intelligence**, its hidden `.claude` folder too, so that `CLAUDE.md` and `START-HERE.md` sit right inside HQ.
+- The Player+ kit inside HQ: only the **player-plus** folder of **github.com/Lionsberg/lionsberg-intelligence**, its hidden `.claude` folder too, so that `CLAUDE.md` and `START-HERE.md` sit right inside HQ.
 - Git, which keeps a quiet history of everything you and your agent make; you never need to learn it.
-- An icon on your Desktop, **My Agent**, that opens the terminal in HQ and starts your agent, so that you never have to find the folder by hand.
+- Python, which the record's small engine runs on, and a check that the engine works on this computer.
+- A receipt of everything that was changed outside HQ.
+- Your door back in: the app keeps HQ in its folder list, so there is nothing more to make.
 
-You can let Claude do all five, or do them yourself. Both paths end in the same place.
+You can let Claude do all of it, or do it yourself. Both paths end with your agent's home built; by Path B, your agent checks its engine and writes the receipt with you when it wakes.
 
 **Path A: let Claude do it.**
 
-7. Copy the sentence below with its copy button, paste it into Claude Code, and press Return.
+5. Copy the sentence below with its copy button, paste it into the box, and press Return.
 
 ```text
-Download https://raw.githubusercontent.com/Lionsberg/lionsberg-intelligence/main/INSTALL.md to a file and read it whole, exactly as written. Then set up my Player+ agent on this computer by following it, telling me each step in one plain line before you take it. I am new to this.
+Download https://raw.githubusercontent.com/Lionsberg/lionsberg-intelligence/main/INSTALL.md to a temporary file outside this folder and read it whole, exactly as written. Then set up my Player+ agent on this computer by following it, telling me each step in one plain line before you take it. I am new to this.
 ```
 
 What you will see:
 
-- Claude first asks permission to download the file; say yes. Then it says what it will do: the five things above, in that order. The file is public; anyone can read it, and so can you: [INSTALL.md](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/INSTALL.md).
-- Before each command it asks your permission, showing the command and one plain line about it. Read the line, then choose **Yes**. You may also say no, or "wait, explain."
-- The developer-tools window from step 1 may appear now instead, when Claude asks for Git. Same answer: **Install**, then **Agree**; Claude carries on meanwhile.
+- Claude first asks permission to download the file; allow it. Then it says what it will do, in five plain lines. The file is public; anyone can read it, and so can you: [INSTALL.md](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/INSTALL.md).
+- Before each command it asks your permission, showing the command and one plain line about it. Read the line, then allow it. You may also say no, or "wait, explain."
+- A window may offer to install the **command line developer tools**: that is Git, which your agent will use, and Python, which keeps its record. Click **Install**, then **Agree**, and let it run; it can take five to forty minutes, and it often opens behind your other windows (press **Cmd+Tab** to find it). Claude carries on meanwhile.
 - Some steps take a minute or two of quiet. It is working.
 - It writes a receipt, `setup-receipt.md` in HQ: everything it changed outside HQ, with the exact line and how to undo it. Your record of what an AI did to your computer.
-- At the end it shows you the files in HQ and tells you to type `/exit`. Type `/exit` and press Return. Claude Code closes.
+- At the end it shows you the files in HQ and tells you to start a new session on HQ. This session was only the builder; Gate 5 is the new one.
 
-**Path B: do it yourself.** First type `/exit` and press Return, so that you are back at the terminal. Then:
+**Path B: do it yourself.**
 
-1. **PATH.** [Installing Claude Code](Installing%20Claude%20Code.md) shows the PATH step: one `echo` line pasted into the terminal, then the terminal closed and opened again, until `claude --version` answers.
-2. **HQ.** In Finder, press **Cmd+Shift+H** to open your home folder and choose File › New Folder, named **HQ**. Never inside iCloud, OneDrive, Dropbox or Google Drive; Desktop and Documents often sync to iCloud, and your home folder does not.
-3. **The kit.** Go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and open the download to unzip it. Open the kit's **player-plus** folder, press **Cmd+Shift+.** (the full stop) so the faint `.claude` folder shows, and copy everything inside **player-plus**, `.claude` too, into **HQ**. Only the contents of **player-plus** go in; the rest of the download stays out.
-4. **Git.** In the terminal, type `git --version` and press Return. If a window offers to install the **command line developer tools**, click **Install**, then **Agree**, and wait; five to forty minutes, and it may hide behind other windows. [Installing Git](Installing%20Git.md) has more.
-5. **The door into HQ.** There is no icon on this path. At Gate 5, in the terminal, type `cd ~/HQ` (`cd` means "go into this folder"), press Return, type `claude`, and press Return. Or ask your agent, once it wakes, to make the icon for you.
+1. **HQ.** You made it in step 3.
+2. **The kit.** Go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and open the download to unzip it. Open the kit's **player-plus** folder, press **Cmd+Shift+.** (the full stop) so the faint `.claude` folder shows, and copy everything inside **player-plus**, `.claude` too, into **HQ**. Only the contents of **player-plus** go in; the rest of the download stays out.
+3. **Git.** Ask Claude, in the Code tab: *Is Git installed on this Mac? If not, start its install.* It asks before it runs anything. If a window offers to install the **command line developer tools**, click **Install**, then **Agree**, and wait; five to forty minutes, and it may hide behind other windows. [Installing Git](Installing%20Git.md) has more.
 
-**You have passed this Gate when** **HQ**, in your home folder, holds `START-HERE.md` and `CLAUDE.md`, and you have your door into it: the **My Agent** icon on your Desktop, or `cd ~/HQ` then `claude`.
+**You have passed this Gate when** **HQ**, in your home folder (`/Users/yourname/HQ`), holds `START-HERE.md` and `CLAUDE.md`.
 
 *The body is ready, the door knows you, and the house is built. Tick Gate 4.*
 
 > [!tip] If Claude gets stuck
-> Tell it what you see, in your own words: "it says command not found," or "a window opened asking me something." Claude reads your words as carefully as its own screen. If it is still stuck, ask it to explain the problem and propose the solution, or bring it to your table.
+> Tell it what you see, in your own words: "it says git is not found," or "a window opened asking me something." Claude reads your words as carefully as its own screen. If it is still stuck, ask it to explain the problem and propose the solution, or bring it to your table.
 
 > [!warning] The right folder summons the right agent
-> Claude Code wakes as whatever lives in the folder it is started in. Started in HQ, it is your agent; started anywhere else, it is a stranger. The icon opens it in HQ every time; that is its whole purpose.
+> Claude wakes as whatever lives in the folder its session is opened on. Opened on HQ, it is your agent; opened anywhere else, it is a stranger. Before your first word in any session, check that the folder under the box says **HQ**.
+
+> [!note] The terminal way
+> If you would rather work in a terminal, skip the door steps above: press **Cmd+Space**, type **Terminal**, and press Return, paste this line, and press Return. It installs Claude Code and starts it; choose a theme you can read, sign in with your **Claude subscription**, and trust your home folder when it asks. Then paste the same sentence as Path A. Claude reads which way you came, and makes the PATH and a **My Agent** icon on your Desktop as well. [Installing Claude Code](Installing%20Claude%20Code.md) and [Choosing Your Terminal](Choosing%20Your%20Terminal.md) have more.
+>
+> ```bash
+> curl -fsSL https://claude.ai/install.sh | bash && ~/.local/bin/claude
+> ```
 
 More: [System Requirements](System%20Requirements.md) · [Your First House](Your%20First%20House.md).
 
@@ -139,7 +132,7 @@ More: [System Requirements](System%20Requirements.md) · [Your First House](Your
 
 *You meet your agent. An [Agent](https://read.lionsberg.world/The_Field/Agent) is an AI that works for you and answers to you. You and your agents together are one [Player+](https://read.lionsberg.world/The_Field/Player+). You decide; it carries.*
 
-1. Double-click **My Agent** on your Desktop (or, on Path B, go into HQ in the terminal and type `claude`). If the Mac asks whether Terminal may access files in your Desktop folder, choose **OK**. A dark Terminal window opens in HQ and Claude Code starts, this time reading the instructions the kit placed there: it is your agent now. If its words are hard to read, type `/theme`, press Return, and choose a dark theme. When it asks whether to trust the folder, check that **Accessing workspace:** names your HQ, then choose **Yes, I trust this folder**.
+1. Start a new session: press **Cmd+N**, or click **+ New** in the sidebar. In the row under the box, check that where Claude runs says **Local**, the folder says **HQ** and the mode says **Manual**. If the folder does not say HQ, click it and choose HQ from the folders you have used, or **Open folder…** and HQ again, as at Gate 4. This time Claude reads the instructions the kit placed there: it is your agent now. (By the terminal way, double-click **My Agent** on your Desktop instead, and trust the folder when it names HQ.)
 2. Type your first message, one sentence with your own name and the name you chose for your agent, and press Return: *Hello, I am Ada. I will call you River. Please wake up and meet me.* ([START-HERE](../../START-HERE.md), Door 3, has it too.) Your agent says at once that it is waking, and within about a minute it greets you by name.
 3. It asks one thing before it keeps anything for you: the **waiver**, in one line, which says what you take on by running an AI on your own computer. One word is enough, if you agree. The whole waiver and **the Field of Agreements**, the terms everyone plays by, are there to read together whenever you like, about ten minutes.
 4. Then it deals you your first cards: what you are playing toward this week, and whom you would pass the flame to when you are ready.
@@ -153,7 +146,7 @@ More: [System Requirements](System%20Requirements.md) · [Your First House](Your
 > - **It always goes with you.** In a room, it is named as yours: *Feather, Ana's agent*. It never passes as you.
 > - **You can change it.** The kit's `skills/choose-a-name` can help you find one.
 
-From here on it remembers, in your folder, where you can read and correct every line.
+From here on it remembers, in your folder, where you can read and correct every line. Every time after, the door is the same: a new session on HQ.
 
 **You have passed the last Gate when** your agent has greeted you, you have agreed to the terms of play in your own words, and it has asked what you are playing toward. The Quest is done.
 

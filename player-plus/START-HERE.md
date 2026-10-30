@@ -26,7 +26,7 @@ Paste the seed text's Part V into a fresh conversation and ask it to say the Gam
 
 ## Door 3 — your agent's first words
 
-If you walked the Quest, you are at Gate 5: you double-clicked **My Agent**, and Claude Code is open in **HQ**, waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open your terminal there and start Claude Code.
+If you walked the Quest, you are at Gate 5: a new session is open on **HQ** in the Claude app's Code tab (or, by the terminal way, you double-clicked **My Agent**), waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open a session there, in the app's Code tab or in your terminal.
 
 Copy this, paste it as your first message, and press Return:
 

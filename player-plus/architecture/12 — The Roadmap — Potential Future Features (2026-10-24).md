@@ -52,6 +52,8 @@ The views are measured against the bar in `hud/DESIGN-THE-BAR.md` §5.
 
 A player may have only the vendor's desktop app, with no terminal harness.
 
+- **Built in 3.9.0: the way in through the app's Code tab.** The Quest and `INSTALL.md` open HQ in a local session of the desktop app, whose bundled harness reads the house as the terminal's does. What follows is the further step: the ICE as the way in.
+
 - **The ICE needs no terminal harness.** The agent host starts the player's agent through the protocol adapter, and the adapter bundles its own harness for macOS and Windows (x64 and arm64). It needs only Node and the adapter's package, plus the player's sign-in. The day-one path: open the house folder in the desktop app, say the first line, and the agent starts the ICE on this computer; from then on the browser is the way in, Talk first.
 - **Several sessions are the Agents place**, and it is built: the prime and the workers, each with its task, on a rail.
 - **Not yet built: a one-line check early in the way in** for whether a terminal harness is present; if not, the agent says "desktop app only" is the way and never offers the launch word that opens a terminal.

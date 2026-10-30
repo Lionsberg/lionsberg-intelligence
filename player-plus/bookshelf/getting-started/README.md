@@ -1,11 +1,10 @@
 # Getting Started with Claude Code
 
-Welcome! This book walks you from nothing to an agent of your own, living in a folder on your own computer. No prior experience with terminals or code editors is required.
+Welcome! This book walks you from nothing to an agent of your own, living in a folder on your own computer. No prior experience with terminals or code editors is required, and on the main path you never open a terminal.
 
 By the end, you will have:
 
-- **Claude Code**, the program your agent lives in, running in a terminal
-- **A comfortable terminal**, set up so everything is readable and easy to reach
+- **The Claude app**, with Claude Code inside its Code tab: the program your agent lives in
 - **Your agent's home**, a folder called HQ, and an agent that greets you
 - **A Markdown editor**, when you want one, for reading and writing your files alongside your agent
 
@@ -13,14 +12,14 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 
 ## Start with the Quest
 
-[Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) is the one path, walked as five Gates, in an afternoon. Follow it in order. Each page below goes deeper on one Gate, for when you want more than the Quest says.
+[Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) is the one path, walked as five Gates, in an hour or two. Follow it in order. Each page below goes deeper on one Gate, for when you want more than the Quest says.
 
 ## Deeper, Gate by Gate
 
 - **Before you begin:** [System Requirements](System%20Requirements.md) — the computer, the time, and where your agent's home goes. [Why This Stack](Why%20This%20Stack.md) — what these tools are and why they work together.
 - **Gate 2 — The Lamp · the account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
-- **Gate 3 — The Wizard's Window · the terminal:** [Choosing Your Terminal](Choosing%20Your%20Terminal.md)
-- **Gate 4 — The Body and the Door · Claude Code, sign in, and the house:** [Installing Claude Code](Installing%20Claude%20Code.md) and [Installing Git](Installing%20Git.md) for doing it by hand; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `INSTALL.md` is what Claude follows
+- **Gate 3 — The Wizard's Window · the Claude app:** the Quest itself; [Choosing Your Terminal](Choosing%20Your%20Terminal.md) if you would rather walk the terminal way
+- **Gate 4 — The Body and the Door · HQ, and the house:** [Installing Git](Installing%20Git.md) for doing it by hand, and [Installing Claude Code](Installing%20Claude%20Code.md) for the terminal way; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `INSTALL.md` is what Claude follows
 - **Gate 5 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
 
 ## After the Gates

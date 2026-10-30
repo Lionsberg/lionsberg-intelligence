@@ -2,6 +2,22 @@
 
 *Newest first. Each entry says what changed and why, so your agent can read a release and you two can decide what to take. Nothing here installs itself; `skills/pull-a-release` walks you through a pull.*
 
+## 3.9.0 — 2026-11-05 — the way in through the Claude app
+
+A new Player walks in through the Claude desktop app, with no terminal. The app carries Claude Code inside its **Code** tab and reads HQ's `CLAUDE.md` and `.claude/` as the terminal does, so the PATH, the Desktop icon, the Terminal's colours and its request for the Desktop folder fall away. The terminal way stays beside it, for those who prefer it.
+
+- **The Quest, Gates 3 to 5.** Gate 3 installs the Claude app and signs in. Gate 4 opens a new folder, **HQ**, in the Code tab, on this computer, with the mode on Manual, and pastes the one sentence; by hand, the kit is copied in and Git installed. Gate 5 is a new session on HQ. The terminal way is a note at the end of Gate 4.
+- **INSTALL.md** reads which way the person came: a session on HQ is the app way, a terminal in the home folder is the terminal way. The PATH and the icon are made only by the terminal way; by the app way, the door back in is HQ in the app's folder list. The hand-over says to start a new session on HQ.
+- **The entry pages** (the getting-started book, START-HERE, the library's START HERE, System Requirements, REQUIREMENTS, Two Ways In, Getting a Claude Account) name the app as the main path. The app needs macOS 13 or Windows 10; an older Mac walks the terminal way. The free plan does not include the Code tab.
+- **Troubleshooting** gains: no Code tab, controls in another place (update the app), an agent that does not know you (the folder is not HQ); its Git checks no longer need a terminal.
+- **The pages a newcomer meets next** name the app beside the terminal: Why This Stack, Installing Git, Permissions Questions (the app's modes, Manual first), The Dojo Card, Foreground and Background, Keeping Your Agent Awake, and the `check-my-setup` skill. The Quest takes an hour or two, everywhere it is named.
+- **The kit's gate** (architecture 17 §7) gains a step: the way in, walked once in a throwaway home, the conformance sheet at PASS before a release ships.
+- **The roadmap** (architecture 12) marks the way in through the Code tab as built; the ICE as the way in stays a candidate.
+- **A second session** (`skills/foreground-background`) is a new session in the Code tab on the same folder, or a second terminal.
+- **game-engine 1.0.1.** The conformance sheet's pencil pass is brought to the engine's contract (a date on a Work Card is never applied; a duration keeps its fraction), so a new install's sheet reads 5 of 6 with signing at the paper floor instead of NOT READY. A test holds it there.
+- **Architecture 11** brought to the engine: the four triage states the engine computes (accepted stays designed), the four travel values beside the three travel words, the default ladder of four rungs at 1 · 7 · 14 · 30 days, the Deal's cards as dealt, and the functions as shipped.
+- **Not yet settled:** whether a session in the app asks the person to trust the folder; the pages say what to answer if it does. The app's own Claude Code updates itself and cannot be held at a version (architecture 10).
+
 ## 3.8.0 — 2026-10-29 — one Game Engine
 
 Two engines that had grown side by side become one, on the kit's base, so every Player+ calculates the same way. The Game Engine is now release layer 4 (architecture 17), with its own version, **game-engine 1.0.0**, its own card (`engine/ENGINE.md`) and its own record of changes (`engine/CHANGES-ENGINE.md`). Layers in this release: engine 1.0.0 (new); the Record, extended by the lines the Engine asks for; the ICE, extended by the Wall.

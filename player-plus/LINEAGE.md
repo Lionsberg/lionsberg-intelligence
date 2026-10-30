@@ -4,7 +4,7 @@ Every Player+ artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: player-plus
-version: 3.8.0
+version: 3.9.0
 grows_from: pkai-benchmark 3.1.0
 lineage:                                 # newest first
   - pkai-starter-kit v3.1.0 · Peter Kaminski

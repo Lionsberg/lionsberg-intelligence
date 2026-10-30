@@ -2,6 +2,13 @@
 
 *Newest first; each change with its why. This layer's own record of changes (architecture 17 §4). The kit's CHANGES.md names the release that carries it.*
 
+## game-engine 1.0.1 — 2026-11-05 — the conformance sheet keeps the contract
+
+**Why:** the conformance sheet's independent pencil pass still applied a Work Card's `by` as its late finish and rounded each duration up to whole days, so on the kit's own fixtures check (b) read FAIL ("by pencil 12" against the engine's 25.9375) and every new install's sheet read NOT READY. The engine was right; the pencil had not been brought to the contract of 1.0.0.
+
+- **The pencil pass** (`conformance.py`) keeps a duration's fraction and applies a date only to a milestone, as the engine does: a date on a Work Card is reported, never imposed.
+- **A test** (`tests/test_conformance.py`) runs the sheet on the fixtures and holds every scripted check at PASS, signing at the paper floor.
+
 ## game-engine 1.0.0 — 2026-10-29 — the one engine
 
 **Why:** two engines had grown side by side, and the best work lived in two places and drifted apart (architecture 17 §1). The two are now one, on the kit's base, held to one contract on dates, commitments and minutes.

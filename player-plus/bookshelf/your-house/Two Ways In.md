@@ -14,7 +14,7 @@ The point of asking is not the size of the pile. It is that a house with a lot o
 
 ## Mostly a computer, or mostly a phone?
 
-**Mostly a computer.** The default. You will work at a terminal with a review surface beside it, and you can always continue the same session from your phone with Remote Control.
+**Mostly a computer.** The default. You will work in the Claude app's Code tab (or a terminal) with a review surface beside it, and you can always continue the same session from your phone with Remote Control.
 
 **Mostly a phone.** Some people will reach their agent only through the Claude app on a phone. The agent still runs on a computer — yours, kept awake, or one that someone in your network runs for you — but the way it serves you has to change: short replies, nothing that says "open the file", one subject per session, and a warning about one button. The kit's setup adds the `phone-path` skill, which your house already carries, and points at [The Phone Path](The%20Phone%20Path.md). Your first conversation with the agent should happen on the phone, not at the keyboard, so that it learns what you actually see.
 
