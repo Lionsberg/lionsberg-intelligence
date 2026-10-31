@@ -55,7 +55,7 @@ except ImportError:
 
 # The kinds a member rings by joining: the canon's Andon Cord, where anyone on the line may stop
 # it for a pain or a fault. A method constant; a caller may pass its own (andon_kinds=...).
-ANDON_KINDS = ('pain', 'fault')
+ANDON_KINDS = ('pain', 'fault', 'security')   # the Andon permit every member holds by joining (emergency.py agrees)
 LIVE_STATE = 'agreed'
 CADENCE_WORDS = {60: 'every minute', 300: 'every 5 minutes', 3600: 'hourly', 86400: 'daily',
                  7776000: 'each season'}           # 7776000 s = 90 days, a quarter of the year

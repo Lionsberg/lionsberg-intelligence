@@ -9,7 +9,7 @@
 
 Every holon is always awake. A process on some host that never sleeps pulls the holon's
 subscriptions on their cadences, wakes the holon's agent on a request, an emergency or a cadence,
-and lets the agent wake its person at the Wise Right Time. The host is any means: a small server
+and lets the agent wake its person at the right time, by the person's own Subscription Cards and emergency rule. The host is any means: a small server
 per cell, a single-board computer, a laptop that stays on, a VPS, a shared timesliced network.
 The pattern is always awake; the means is whatever the holon has.
 

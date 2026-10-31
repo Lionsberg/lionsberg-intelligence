@@ -631,29 +631,33 @@ class TestStatusAndGuards(Base):
 
     def test_no_clock_is_read_when_the_time_is_given(self):
         reads = []
+        real_dt = dt                      # the real module, held apart: the shim must never wrap itself
 
-        class Clockless(dt.datetime):
+        class Clockless(real_dt.datetime):
             @classmethod
             def now(cls, tz=None):
                 reads.append('datetime.now')
-                return dt.datetime.now(tz)
+                return real_dt.datetime.now(tz)
 
             @classmethod
             def today(cls):
                 reads.append('datetime.today')
-                return dt.datetime.today()
+                return real_dt.datetime.today()
 
-        class Dayless(dt.date):
+        class Dayless(real_dt.date):
             @classmethod
             def today(cls):
                 reads.append('date.today')
-                return dt.date.today()
-        shim = types.SimpleNamespace(**{k: getattr(dt, k) for k in dir(dt) if not k.startswith('__')})
+                return real_dt.date.today()
+        shim = types.SimpleNamespace(**{k: getattr(real_dt, k) for k in dir(real_dt) if not k.startswith('__')})
         shim.datetime, shim.date = Clockless, Dayless
         held = {}
         for name, mod in list(sys.modules.items()):
             f = getattr(mod, '__file__', None) or ''
-            if f.startswith(ENGINE + os.sep) and getattr(mod, 'dt', None) is dt:
+            # only the engine's own modules, never a test module (this one included): a patched test module
+            # would restore the shim as "real" and poison every later fold with a clock that calls itself
+            if f.startswith(ENGINE + os.sep) and not f.startswith(os.path.join(ENGINE, 'tests') + os.sep) \
+                    and getattr(mod, 'dt', None) is real_dt:
                 held[name] = mod
                 mod.dt = shim
         try:
@@ -661,7 +665,7 @@ class TestStatusAndGuards(Base):
             r = heartbeat.beat(self.home, now=at(3600), wake=FakeWake())
         finally:
             for mod in held.values():
-                mod.dt = dt
+                mod.dt = real_dt
         self.assertIn('heartbeat', held)
         self.assertTrue(r['woke'], r['said'])
         self.assertEqual(reads, [])

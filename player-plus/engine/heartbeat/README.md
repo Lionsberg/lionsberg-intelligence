@@ -1,6 +1,6 @@
 # The heartbeat
 
-Every holon is always awake. A process that never sleeps pulls what the holon follows on the cadences its person set, wakes the holon's agent when something is owed, and lets the agent wake its person at the Wise Right Time.
+Every holon is always awake. A process that never sleeps pulls what the holon follows on the cadences its person set, wakes the holon's agent when something is owed, and lets the agent wake its person at the right time, by the person's own Subscription Cards and emergency rule.
 
 ## The pattern and the means
 
