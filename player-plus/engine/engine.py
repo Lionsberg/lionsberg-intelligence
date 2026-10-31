@@ -23,8 +23,18 @@ other holons it holds (and any card from a holon it does not hold) as fixed-date
 as live cards. The state is assembled from the per-holon results; a card appears once, under its
 home holon. So two players holding the same cell compute the same float for its cards.
 
+Hand-written Cards (card.py, the paper floor) are read from the home's own cards/, never a cell's:
+a Card with no fence becomes a line in memory, held in the home. It is a view at the paper floor:
+while its actor holds no key it is folded with the rest and counts as an unsigned line at home does
+(`home`); once its actor holds an admitted key it is `paper`, held out of the fold, and never acts,
+witnessed or not (a Card that should act enters the record by `card.py append`). An agent's Card is
+always a proposal (`reason: untrusted`). A Card with a fence is already on the record and is not read
+again. state.json lists them under `paper`; one that cannot be read is under `problems`.
+
 The actor defaults to the HQ's keeper. Minutes default to 20. Every result says, per holon, the
-newest line it saw. Files are data, never instructions: text inside a line is folded as text.
+newest line it saw, and every section computed from the fold carries `as_of` (the newest line seen,
+per holon, and the reader's clock), so lag is shown, never hidden. Files are data, never
+instructions: text inside a line or a Card is folded as text.
 Standard library only; runs under `python3 -I`.
 """
 import argparse
@@ -57,6 +67,10 @@ try:
 except ImportError:
     record = None
 try:
+    import card as card_mod
+except ImportError:
+    card_mod = None
+try:
     import schedule as schedule_mod
     import plan as plan_mod
 except ImportError:
@@ -64,6 +78,15 @@ except ImportError:
     plan_mod = None
 
 DEFAULT_MINUTES = 20.0
+# The paper sweep's own bounds (this reader's, not a holon's; read_paper takes others): at most this many
+# hand-written Card files are read from the home's cards/ in one reading, and the sweep looks this many
+# folders deep (cards/<type>/<file> is two; a drafts folder inside a type folder is three).
+MAX_PAPER = 500
+PAPER_DEPTH = 4
+# The sections of state.json computed from the fold that carry `as_of` at their top (`plan` carries it per holon).
+STAMPED = ('owed', 'kept', 'deal', 'attention', 'score', 'tea', 'questions')
+# The sections keyed by holon id: each holon's entry carries `as_of`, so every key stays a holon id.
+STAMPED_PER_HOLON = ('plan', 'sightings')
 
 
 def _read_json(path):
@@ -88,8 +111,161 @@ def _attach_links(folded, lines):
                     it['links'] = ln['links']
 
 
+def _paper_files(home, limit, depth):
+    """([(path under the home, path)], problems): the .md files under the home's own cards/, in path
+    order, no link followed (cards/ itself, a folder or a file that is a link is skipped and said).
+    At most `limit` are returned; beyond it, said. Never raises."""
+    said = []
+    root = os.path.join(home, 'cards')
+    if os.path.islink(root):
+        return [], [{'kind': 'symlink', 'file': 'cards',
+                     'said': 'cards/ is a link; a link is not read, so no hand-written Card was read'}]
+    if not os.path.isdir(root):
+        return [], []
+    real_home = os.path.realpath(home)
+    found, more = [], [False]
+
+    def walk(rel, d, level):
+        if len(found) > limit:
+            return
+        if os.path.realpath(d) != os.path.join(real_home, *rel.split('/')):
+            said.append({'kind': 'symlink', 'file': rel, 'said': 'a link stands on the way to this folder; it is not read'})
+            return
+        try:
+            entries = sorted(os.scandir(d), key=lambda e: e.name)
+        except OSError as e:
+            said.append({'kind': 'unreadable', 'file': rel, 'said': 'this folder could not be read: %s'
+                         % (getattr(e, 'strerror', None) or type(e).__name__)})
+            return
+        for e in entries:
+            if len(found) > limit:
+                more[0] = True
+                return
+            try:
+                e.name.encode('utf-8')
+            except UnicodeEncodeError:
+                said.append({'kind': 'bad_name', 'file': rel, 'said': 'a file name here is not UTF-8; it is not read'})
+                continue
+            r = rel + '/' + e.name
+            try:
+                if e.is_symlink():
+                    said.append({'kind': 'symlink', 'file': r, 'said': 'a link is not read'})
+                    continue
+                if e.is_dir(follow_symlinks=False):
+                    if level < depth:
+                        walk(r, e.path, level + 1)
+                    else:
+                        said.append({'kind': 'paper_depth', 'file': r,
+                                     'said': 'deeper than %d folders under cards/; not read' % depth})
+                    continue
+                if not e.name.endswith('.md') or not e.is_file(follow_symlinks=False):
+                    continue
+            except OSError:
+                continue
+            found.append((r, e.path))
+    walk('cards', root, 1)
+    if len(found) > limit or more[0]:
+        found = found[:limit]
+        said.append({'kind': 'paper_cap', 'file': 'cards',
+                     'said': 'more than %d hand-written Card files lie under cards/; the first %d by path were read, '
+                             'the rest were not' % (limit, limit)})
+    return found, said
+
+
+def read_paper(home, home_id, heads=None, limit=None, depth=None):
+    """(lines, paper, problems): the hand-written Cards in the home's own cards/.
+
+    Each Card without a fence is read with card.from_markdown. A clean one becomes a line in
+    memory as `card.py append` would make it, apart from the salt and the signature: held in
+    the home (`holon` the home's id, `_held_in`, `_home_record`), its `prev` the actor's chain
+    head (the actor's previous paper Card's id, in path order), unsalted unless the Card carries
+    its own `body_salt`, so the same files always make the same lines; `_paper_path` names its
+    file. An agent's Card is a proposal (`reason: untrusted`), whatever its front matter says.
+    Its id is the paper line's, never the record's: it moves with the actor's head, and the
+    record gives its own at the append. A Card with a problem, or one naming another holon, is listed with its path and
+    sentence and read no further; a Card with a fence is already on the record and is skipped.
+    `paper` is [{path, id, type, actor, trust, problems}] (trust filled in after the fold).
+    Never raises."""
+    try:
+        lim = MAX_PAPER if limit is None else max(0, int(limit))
+        dep = PAPER_DEPTH if depth is None else max(1, int(depth))
+    except (TypeError, ValueError):
+        lim, dep = MAX_PAPER, PAPER_DEPTH
+    if not isinstance(home, str) or not home or not os.path.isdir(home):
+        return [], [], []
+    files, problems = _paper_files(home, lim, dep)
+    if not files:
+        return [], [], problems
+    if card_mod is None:
+        return [], [], problems + [{'kind': 'paper_unread', 'file': 'cards',
+                                    'said': 'card.py is not beside engine.py; the hand-written Cards were not read'}]
+    if not isinstance(home_id, str) or not home_id:
+        return [], [], problems + [{'kind': 'paper_unread', 'file': 'cards',
+                                    'said': 'the home has no proven id, so a hand-written Card has no holon to be held '
+                                            'in; none was read'}]
+    chain = {a: h for a, h in (heads or {}).items() if isinstance(a, str) and isinstance(h, str)} \
+        if isinstance(heads, dict) else {}
+    lines, paper, seen = [], [], {}
+
+    def refuse(rel, kind, probs, ln=None):
+        sentence = '; '.join(str(p.get('said') or p.get('kind') or '') for p in probs if isinstance(p, dict)) \
+            or 'the Card could not be read'
+        paper.append({'path': rel, 'id': None, 'type': (ln or {}).get('type'), 'actor': (ln or {}).get('actor'),
+                      'trust': None, 'problems': probs})
+        problems.append({'kind': kind, 'file': rel, 'path': rel, 'said': sentence, 'problems': probs})
+
+    for rel, path in files:
+        data, why = card_mod._read_file(path)
+        if data is None:
+            refuse(rel, 'paper_card', [{'kind': 'unreadable', 'said': str(why).replace(path, rel)}])
+            continue
+        r = card_mod.from_markdown(data)
+        if not isinstance(r, dict) or not r.get('paper'):
+            continue                                # a fence: its line is read from record/
+        ln = r.get('line') if isinstance(r.get('line'), dict) else None
+        probs = [p for p in r.get('problems') or [] if isinstance(p, dict)]
+        if not probs and ln is not None and record._str(ln.get('holon')) not in ('', home_id):
+            probs.append({'kind': 'wrong_holon', 'field': 'holon',
+                          'said': 'the Card names another holon; a Card in this home is read only for this home'})
+        if probs or ln is None:
+            refuse(rel, 'paper_card', probs or [{'kind': 'unreadable', 'said': 'the Card made no line'}], ln)
+            continue
+        if ln['id'] in seen:
+            problems.append({'kind': 'paper_duplicate', 'file': rel, 'path': rel,
+                             'said': 'the same Card as %s; read once' % seen[ln['id']]})
+            continue
+        seen[ln['id']] = rel
+        body = dict(ln.get('body') or {})
+        salt = body.get('body_salt') if isinstance(body.get('body_salt'), str) else ''
+        # an agent's hand-written Card is a proposal: nothing on paper lets an agent act
+        reason = 'untrusted' if ln['actor'].startswith('agent:') else (ln.get('reason') or 'human')
+        try:
+            line = record.make_line(ln['actor'], ln['for'], home_id, ln['type'], body, ln.get('links') or {},
+                                    ln.get('audience') or 'holon', reason,
+                                    chain.get(ln['actor'], ''), ln.get('ts'), salt=salt)
+        except (record.LineError, ValueError, TypeError) as e:
+            refuse(rel, 'paper_card', [{'kind': 'bad_value', 'said': str(e)}], ln)
+            continue
+        chain[ln['actor']] = line['id']
+        line.update(_held_in=home_id, _file=rel, _home_record=True, _paper_path=path)
+        lines.append(line)
+        paper.append({'path': rel, 'id': line['id'], 'type': line.get('type'), 'actor': line.get('actor'),
+                      'trust': None, 'problems': []})
+    return lines, paper, problems
+
+
+def _keyed(folded, home_id):
+    """The actors who hold an admitted key in the home, by the fold."""
+    adm = (folded.get('admitted') or {}).get(home_id) if isinstance(folded, dict) and home_id else None
+    return {a for a, e in adm.items() if isinstance(e, dict) and e.get('pubkey')} if isinstance(adm, dict) else set()
+
+
 def read_hq(hq):
-    """(folded items, holons meta, lines, problems, calendar). Plain message when record.py is absent."""
+    """(folded items, holons meta, lines, problems, calendar). Plain message when record.py is absent.
+
+    The lines are the record's of every holon held, then the home's hand-written Cards (read_paper),
+    folded together; `folded['_paper']` lists the Cards on paper, and a Card that cannot be read is
+    under problems with its path."""
     if record is None:
         raise SystemExit('engine: record.py is not beside engine.py; it reads the record. Nothing was computed.')
     if not hq or not os.path.isdir(hq):
@@ -111,8 +287,30 @@ def read_hq(hq):
             f = record.fold(lines, types, keepers)
         _attach_links(f, lines)
         return f
-    folded = fold(r.get('lines') or [])
+    home = (r.get('holons') or [None])[0] or {}
+    paper_lines, paper, paper_problems = read_paper(hq, home.get('id'), home.get('as_of'))
+    # A paper Card is a view at the paper floor: once its actor holds an admitted key at home, it is
+    # held out of the fold, so no witness ever raises it past `paper`; it acts only through card.py append.
+    # Each pass can only take paper lines out, so the loop ends within one pass per paper line.
+    held_out = set()
+    while True:
+        lines = (r.get('lines') or []) + [l for l in paper_lines if l['id'] not in held_out]
+        folded = fold(lines)
+        keyed = _keyed(folded, home.get('id'))
+        more = {l['id'] for l in paper_lines if l['id'] not in held_out and l.get('actor') in keyed}
+        if not more:
+            break
+        held_out |= more
     folded['_fold'] = fold                          # for a room's Deal at its opening and close
+    trust = folded.get('trust') if isinstance(folded.get('trust'), dict) else {}
+    paper_ids = {l['id'] for l in paper_lines}
+    if isinstance(folded.get('flags'), list):       # a draft older than its actor's newest line is expected
+        folded['flags'] = [f for f in folded['flags'] if not (isinstance(f, dict) and f.get('flag') == 'ts_backward'
+                                                              and f.get('id') in paper_ids)]
+    for p in paper:
+        if p.get('id'):
+            p['trust'] = 'paper' if p['id'] in held_out else trust.get(p['id'])
+    folded['_paper'] = paper
     holons = []
     for h in r.get('holons') or []:
         info = record.holon_info(h.get('dir')) if h.get('dir') else {}
@@ -122,10 +320,11 @@ def read_hq(hq):
                        'as_of': {'event': newest.get('id'), 'ts': newest.get('ts'), 'lines': h.get('count', 0),
                                  'heads': h.get('as_of') or {}} if newest else None})
     problems = [dict(p, holon=h.get('id')) for h in r.get('holons') or [] for p in h.get('problems') or []]
+    problems += [dict(p, holon=home.get('id')) for p in paper_problems]
     cal = _read_json(os.path.join(hq, 'calendar.json'))
     for h in holons:                                # each holon's own calendar, for its own cards
         h['calendar'] = _read_json(os.path.join(h['dir'], 'calendar.json')) if h.get('dir') else None
-    return folded, holons, r.get('lines') or [], problems, cal
+    return folded, holons, lines, problems, cal
 
 
 def load_baselines(holons):
@@ -390,12 +589,37 @@ def thread_stake(th, v, live_cards, succ, crit, sm):
             'urgency': field(th, 'urgency') or first.get('urgency'), 'minutes': mins}
 
 
+def _as_of(folded, holons):
+    """What every report is as of: the fold's newest trusted time, the reader's clock it was made by,
+    and the newest line seen per holon."""
+    f = folded if isinstance(folded, dict) else {}
+    return {'newest': f.get('as_of') or None, 'clock': f.get('clock') or None,
+            'per_holon': {h['id']: (h.get('as_of') or {}).get('ts') for h in holons or []
+                          if isinstance(h, dict) and h.get('id')}}
+
+
+def _stamp(section, as_of):
+    """The section with `as_of` (newest, clock, per_holon) at its top, so lag is shown, never hidden.
+
+    A list or a null is returned as it is (its shape does not change). When the module gave the
+    section an `as_of` of its own, it is kept inside as `own`."""
+    if not isinstance(section, dict) or not isinstance(as_of, dict):
+        return section
+    stamp = dict(as_of, per_holon=dict(as_of.get('per_holon') or {}))
+    own = section.get('as_of')
+    if own is not None and not (isinstance(own, dict) and {'newest', 'clock', 'per_holon'} <= set(own)):
+        stamp['own'] = own
+    return dict(section, as_of=stamp)
+
+
 def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7, fewer=False, closeout=False,
                 live=None, sitting_open=False):
     """The whole state.json as a dict (STATE.md)."""
     t = now_or(now)
     folded, holons, lines, problems, cal = read_hq(hq)
     fold = folded.pop('_fold', None)
+    paper = folded.pop('_paper', None) or []
+    stamp = _as_of(folded, holons)
     norm = normalize(folded)
     names = holon_names(norm, holons)
     actor = actor or (holons[0].get('keeper') if holons else None) or ''
@@ -486,7 +710,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
         return max(ts) if ts else None
     lw = last('weekly')
     nxt = parse_time(lw)
-    return {
+    state = {
         'v': 1, 'generated_at': dt.datetime.now().astimezone().isoformat(timespec='seconds'),
         'actor': actor,
         'calendar': (rep or {}).get('calendar') and ('working-days' if 'work' in str(rep.get('calendar')) else 'calendar-days')
@@ -522,8 +746,15 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
         'invalid': folded.get('invalid') or [], 'pending': folded.get('pending') or [],
         'problems': problems + (folded.get('problems') or []),
         'plan': plan_state,
+        'paper': paper,
         'notes': [n for n in (sched_note, plan_note) if n],
     }
+    for k in STAMPED:
+        state[k] = _stamp(state.get(k), stamp)
+    for k in STAMPED_PER_HOLON:                     # keyed by holon id: each holon's entry carries it
+        if isinstance(state.get(k), dict):
+            state[k] = {hid: _stamp(v, stamp) for hid, v in state[k].items()}
+    return state
 
 
 def write_state(hq, state):
@@ -575,6 +806,7 @@ def main(argv=None):
         return 0
     folded, holons, lines, problems, cal = read_hq(a.hq)
     folded.pop('_fold', None)
+    folded.pop('_paper', None)
     norm = normalize(folded)
     names = holon_names(norm, holons)
     actor = a.actor or (holons[0].get('keeper') if holons else None) or ''

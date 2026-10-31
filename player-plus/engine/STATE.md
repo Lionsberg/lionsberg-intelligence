@@ -10,6 +10,7 @@
 - **Every list item carries `holon`**, the id of the holon it lives in, so a view across holons can always say where a card comes from.
 - **Honest-empty:** a value the engine does not know is `null` or omitted, never guessed.
 - **Roles, never names:** actors are `person:<handle>` or `agent:<handle>` exactly as the record has them.
+- **As of, on every report:** every section computed from the fold that is an object (`owed`, `kept`, `deal`, `attention`, `score`, `tea`; in `plan` and `sightings`, which are keyed by holon id, each holon's entry) carries `as_of`: `{newest, clock, per_holon: {holon id: ts}}`, the newest line seen per holon and the reader's clock, so lag is shown, never hidden; a list (`questions`) keeps its shape, and an `as_of` the section already had is kept inside as `own`.
 
 ## Top level
 
@@ -42,6 +43,7 @@
 | `invalid` | list | lines the fold refused (`{id, type, actor, holon, invalid_reason}`), e.g. an agent's line outside its delegation. Shown, never counted. |
 | `pending` | list | lines that link to what is not yet replicated, or were superseded. |
 | `problems` | list | what reading found wrong (bad id, broken chain, fork, `duplicate_holon_id` or `holon_id_unproven` for a refused cell, `contract_unknown` for a holon born under a contract this reader does not know, whose lines are then all unverified), each with its `holon`. |
+| `paper` | list | the hand-written Cards in the home's own `cards/` (never a cell's), read as lines and folded with the rest: `{path, id, type, actor, trust, problems}`. `path` is under the home; `id` is the paper line's (the record gives its own at `card.py append`); `trust` is the fold's: `home` at the paper floor, while the actor holds no key; `paper` once the actor holds an admitted key, and then the Card is held out of the fold and never acts, witnessed or not (a Card that should act enters the record by `card.py append`); `unverified` for an agent not let in. An agent's Card is always a proposal (`reason: untrusted`). A Card with a problem has `id: null` and is also under `problems`; a Card with a fence is on the record and is not listed. |
 | `notes` | list | plain sentences when a part could not run, or ran with less than it should (e.g. no schedule.py; no calendar per holon). |
 | `rooms` | object | per room holon id (a holon of kind `room`, or any with a posture line): `{id, name, keeper, present, posture, lines, offered, awaiting_yes, agreed_by, opened, closed, deal_open, deal_close, shape}` (shape below). |
 | `roles` | object | per holon id: `{actor: role}`. The keeper is `keeper`; a `join` gives its `role` (else `member`, or `guest` when so joined); an affirmed agent is `agent`; a `leave` ends the Role. |
@@ -133,7 +135,8 @@ An agent is present only after a present person's `affirm`, and leaves with its 
              "unlocks": "…", "minutes": 5, "leverage": 12.4, "whole_waits": false} ],
  "beyond": {"count": 3, "minutes": 75, "cards": [ {"n": 4, "section": "…", "id": "…", "…": "…"} ]},
  "question": "What did we miss that matters to you most?",
- "rule": "urgent work moved ÷ own minutes; …", "as_of": {"<holon id>": "<ts of the newest line seen>"}}
+ "rule": "urgent work moved ÷ own minutes; …",
+ "as_of": {"newest": "…", "clock": "…", "per_holon": {"<holon id>": "<ts>"}, "own": {"<holon id>": "<the newest line seen>"}}}
 ```
 
 `minutes_dealt` never exceeds `minutes_available` (first fit, in order). `beyond` counts what was ranked and not dealt, and carries the first twenty of it as `cards`, in the dealer's order, framed as dealt cards are and numbered on after them, so the next hand can be dealt from them without dealing again (an older Deal may carry only `count` and `minutes`). `fewer` names the dial's step (as set · fewer · much fewer · only what always passes); each card also carries `by`, `who_waits`, `always_passes` and `heavy` for the attention gate. The standing question is always present and costs no dealt minutes. Released and declined cards and milestones are never dealt; a decision handed to an agent is dealt to the person it serves. `section` is `owed` · `thread` · `decision` · `ready`; `kind` names the act (`commitment`, `request`, `propose` for an agent drafting a proposal of acceptance, `ratify`, `decide`, or the card's kind).

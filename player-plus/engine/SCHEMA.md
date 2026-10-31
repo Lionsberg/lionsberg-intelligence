@@ -169,7 +169,7 @@ Proposed: a `keepsake` line is one small mark the person keeps when they finish 
 
 **Message.** There is no messaging layer. A message is a `say` both holds hold, with `to`, `intent` (inform · ask · offer · decide · thank), `outcome` (what a good answer looks like) and `urgency` (the sender's own word). The computed stake rides on `body.push` as before; whether it rings is the receiver's rule.
 
-**Concordance.** Between two vocabularies: `term` in `in`, `term_other` in `in_other`, `relation` (same · different · clearer), a `definition`, a `source`. Anyone proposes; a line from the other side that answers it makes it **agreed**. The one lexicon within the Game is what makes concordance possible; concordance is how it meets other traditions without conquering them.
+**Concordance.** Between two vocabularies: `term` in `in`, `term_other` in `in_other`, `relation` (same · different · clearer), a `definition`, a `source`. Anyone proposes; a line from the other side that answers it and restates it as written (the same terms, lexicons and relation) makes it **agreed**; an answer that says otherwise is a disagreement, listed apart. The one lexicon within the Game is what makes concordance possible; concordance is how it meets other traditions without conquering them.
 
 **Correction.** A recall notice: `links.supersedes` names the wrong line, `why` says why, `with` names the line that replaces it when one does. It is read by the supersession rule (the same actor; or a person under a decide; never an agent over another actor's line) and it **retracts**: the item shows `state: retracted`, `retracted_by`, `corrected_why` and `corrected_with`. Both lines remain. It is publishable, so it reaches every holon that pulled the wrong line.
 
@@ -281,6 +281,16 @@ No other line carries it, and the envelope never does. The fold computes the XID
 This differs from the field. BCR-2024-010 gives one XID for life, from the inception key; the kit computes it from the first key admitted in each holon. A person's XID for life is therefore their home's inception key's XID, carried on their `join` lines as `body.xid` (`holon.admit(..., xid=…)`). Where their home is held, that claim is checked; where it disagrees with the first key admitted in a holon (a key rotated before joining), it is flagged there. Recovering a lost key is the cell's work (**Recovery through the cell**).
 
 **The cross-check.** `python3 -I xid.py check PUBKEY XID --tool` runs bc-envelope-cli (`envelope xid new`, released as a preview, not for production) when `ENVELOPE_CLI` names it, and otherwise says it is not on this machine. The tool takes a bare key only as a UR, which needs Bytewords, so for now it is handed the OpenSSH line (`form: ssh-text`). A tool that reads that line in the SSH form makes a different XID by design: the check reports that disagreement as expected, and the kit's XID stands.
+
+## Hand-written Cards and as-of
+
+**Paper Cards are read from the home's own `cards/`**, never from a cell's, at every reading. A Card with no fence is read as the line `card.py append` would make, apart from the salt and the signature: held in the home, its `prev` its actor's chain head, unsalted unless it carries its own `body_salt`, so the same files always make the same lines. Its id is the paper line's, never the record's: it moves with the actor's head, and the record gives its own at the append.
+
+**Read, never trusted past the floor.** This is the difference from the record: a line in `record/` can be signed, witnessed and acted on; a paper Card is a view at the paper floor. While its actor holds no key, it is folded with the record and counts as an unsigned line at home does (`home`). Once its actor holds an admitted key, it is `paper`: shown, held out of the fold, and never acting, whoever witnesses it. A Card that should act enters the record by `card.py append`. An agent's Card is always a proposal (`reason: untrusted`), whatever its front matter says. A draft older than its actor's newest line is expected, and is not flagged `ts_backward`.
+
+**What is not read.** A Card with a fence is already on the record and is not read again. A Card with a problem, or one naming another holon, is listed under `problems` with its path under the home and its sentence, and is never folded. A `cards/` folder, a folder or a file that is a link is skipped and said. The sweep reads at most 500 files, four folders deep (the reader's own bounds, overridable); beyond them it says so.
+
+**As of, on every report.** Every section computed from the fold carries `as_of`: the newest trusted time, the reader's clock, and the newest line seen per holon (in a section keyed by holon id, on each holon's entry). So lag is shown, never hidden: two players whose readings differ can see why. This is the kit's own rule, and it cites no source.
 
 ## The paper floor
 
