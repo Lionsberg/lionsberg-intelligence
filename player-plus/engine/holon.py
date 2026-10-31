@@ -38,7 +38,8 @@ import record  # noqa: E402
 
 KINDS = ('person', 'pair', 'cell', 'room', 'body')
 PUBLISHABLE = ('card', 'commit', 'request', 'offer', 'answer', 'done', 'kept', 'witness',
-               'turn', 'flame', 'hand', 'claim', 'release', 'supersede', 'sight')
+               'turn', 'flame', 'hand', 'claim', 'release', 'supersede', 'sight',
+               'receive', 'agree', 'concord', 'correct', 'wallet')   # the kinds that cross a membrane
 GITIGNORE = 'state.json\ncells/\n.sigcache\n.carried/\n.talk/\n.pulled.json\n'   # .carried/: mail the transport carries; .talk/: a room's said lines, kept only on the machine
 
 

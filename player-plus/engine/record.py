@@ -1715,7 +1715,7 @@ def _matches(when, line, body):
 
 def _entry(line, body):
     e = {'id': line['id'], 'type': line.get('type'), 'actor': line.get('actor'), 'ts': line.get('ts')}
-    for k in ('text', 'did', 'note', 'reason'):     # reason: a miss's coded reason
+    for k in ('text', 'did', 'note', 'reason', 'how', 'why'):     # reason: a miss's coded reason; how: a receipt's transport
         if isinstance(body.get(k), str):
             e[k] = body[k]
     return e
@@ -2071,10 +2071,10 @@ def _supersessions(order, ctx, tdefs, table):
     fork's resolving line to a branch resolves the fork; it is not a correction."""
     replaced, refused = {}, []
     by_id = ctx.by_id
-    sspec = tdefs.get('supersede') or {}
     for s in order:
-        if s.get('type') != 'supersede':
+        if s.get('type') not in ('supersede', 'correct'):
             continue
+        sspec = tdefs.get(s.get('type')) or {}     # a correct is a recall notice: it supersedes by the same rule, and retracts
         for t in [x for x in _as_list((s.get('links') or {}).get('supersedes')) if isinstance(x, str)]:
             old = by_id.get(t)
             if old is None or getattr(ctx, 'resolves', {}).get(s['id']) == t:
@@ -2304,7 +2304,7 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
                                       'for': l.get('for'), 'source': signed_src})
 
         body = dict(l.get('body') or {}) if isinstance(l.get('body'), dict) else {}
-        if typ == 'supersede':
+        if typ in ('supersede', 'correct'):
             if l['id'] in good_supersedes:
                 for tgt in _as_list((l.get('links') or {}).get('supersedes')):
                     key = event_item.get(tgt)
@@ -2317,6 +2317,15 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
         retracted_by = None
         if l['id'] in replaced:
             for s in replaced[l['id']]:
+                if s.get('type') == 'correct':
+                    # a Correction retracts the line it names and keeps its why (and the line that replaces it) on the item
+                    retracted_by = s['id']
+                    cb = s.get('body') if isinstance(s.get('body'), dict) else {}
+                    if isinstance(cb.get('why'), str):
+                        body['corrected_why'] = cb['why']
+                    if isinstance(cb.get('with'), str):
+                        body['corrected_with'] = cb['with']
+                    continue
                 sb = {k: v for k, v in (s.get('body') or {}).items() if k not in SALT_KEYS and not _is_elided(v)}
                 if not sb:
                     retracted_by = s['id']
@@ -2436,6 +2445,9 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
     for d in out.get('delegations', []):
         if d.get('state') == 'live' and _past(d.get('until'), as_of):
             d['state'] = 'expired'
+    for a in out.get('agreements', []):
+        if a.get('state') in ('proposed', 'agreed') and _past(a.get('until'), as_of):
+            a['state'] = 'expired'
     for item in items.values():
         c = item.get('claim')
         if not isinstance(c, dict) or item.get('state') != 'taken' or item.get('holder') != c.get('by'):

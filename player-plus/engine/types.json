@@ -102,6 +102,12 @@
       "initial": "seen",
       "states": [
         "seen",
+        "still_there",
+        "accepted",
+        "picked_up",
+        "fixed",
+        "closed",
+        "responded",
         "settled",
         "retracted"
       ]
@@ -151,15 +157,81 @@
         "cleared",
         "retracted"
       ]
+    },
+    "agreement": {
+      "plural": "agreements",
+      "initial": "proposed",
+      "states": [
+        "proposed",
+        "agreed",
+        "expired",
+        "retracted"
+      ]
+    },
+    "subscription": {
+      "plural": "subscriptions",
+      "initial": "live",
+      "states": [
+        "live",
+        "retracted"
+      ]
+    },
+    "concordance": {
+      "plural": "concordances",
+      "initial": "proposed",
+      "states": [
+        "proposed",
+        "agreed",
+        "retracted"
+      ]
+    },
+    "wallet_entry": {
+      "plural": "wallet",
+      "initial": "offered",
+      "states": [
+        "offered",
+        "accepted",
+        "settled",
+        "given",
+        "witnessed",
+        "retracted"
+      ]
     }
   },
   "types": {
     "say": {
-      "about": "A line spoken in a thread, anchored to the thread or to the line or card the thread is about.",
+      "about": "A line spoken in a thread, anchored to the thread or to the line or card the thread is about. With `to`, `intent`, `outcome` and `urgency` it is a message: whom it is for, what it means to do (inform, ask, offer, decide, thank), what a good answer looks like, and the sender's own word on how soon. There is no messaging layer: a message is a line both holds hold; the computed stake rides on body.push as it does today.",
       "fields": [
         {
           "name": "text",
           "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "to",
+          "required": false,
+          "kind": "actors"
+        },
+        {
+          "name": "intent",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "inform",
+            "ask",
+            "offer",
+            "decide",
+            "thank"
+          ]
+        },
+        {
+          "name": "outcome",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "urgency",
+          "required": false,
           "kind": "text"
         }
       ],
@@ -425,7 +497,7 @@
       "transitions": []
     },
     "claim": {
-      "about": "An actor takes a card: the ball is now in their court.",
+      "about": "An actor takes a card: the ball is now in their court. On a sighting, the actor accepts it: they hold it, and it may become a card.",
       "fields": [
         {
           "name": "card",
@@ -445,7 +517,8 @@
         "links.anchored_to"
       ],
       "acts_on": [
-        "card"
+        "card",
+        "sighting"
       ],
       "transitions": [
         {
@@ -457,6 +530,18 @@
           ],
           "set": {
             "state": "taken",
+            "holder": "$actor"
+          },
+          "kind": "card"
+        },
+        {
+          "kind": "sighting",
+          "from": [
+            "seen",
+            "still_there"
+          ],
+          "set": {
+            "state": "accepted",
             "holder": "$actor"
           }
         }
@@ -730,7 +815,7 @@
       ]
     },
     "done": {
-      "about": "The work of a card is done.",
+      "about": "The work of a card is done. Naming a sighting, it says what was seen is no longer so: the sighting is fixed.",
       "fields": [
         {
           "name": "card",
@@ -751,7 +836,8 @@
         "links.anchored_to"
       ],
       "acts_on": [
-        "card"
+        "card",
+        "sighting"
       ],
       "transitions": [
         {
@@ -759,6 +845,21 @@
             "state": "done",
             "stage": "did",
             "done_ts": "$ts"
+          },
+          "kind": "card"
+        },
+        {
+          "kind": "sighting",
+          "from": [
+            "seen",
+            "still_there",
+            "accepted",
+            "picked_up",
+            "responded"
+          ],
+          "set": {
+            "state": "fixed",
+            "fixed_ts": "$ts"
           }
         }
       ]
@@ -991,7 +1092,7 @@
       "transitions": []
     },
     "sight": {
-      "about": "A sighting: something seen that the holon should know.",
+      "about": "A Sighting: what a player saw on the road, placed in the record of the holon where it was seen. Sightings from every player, re-sighted by others as they pass the same place, compose the living map of reality the Engine reads as the ground the work moves over. Its lifecycle: seen; still there (another sight links to it, each re-sighting adding weight); accepted (a claim); picked up (a commit serving it); fixed (a done naming it); closed (a settle anchored to it, with its consequence); a pain is responded to by any line of another actor anchored to it. The fold sets seen, accepted and fixed; sightings.py computes the rest from the links.",
       "fields": [
         {
           "name": "text",
@@ -1015,9 +1116,10 @@
             "offer",
             "request",
             "question",
-            "witness"
+            "witness",
+            "pain"
           ],
-          "about": "the eight kinds of practice; three share a word with an event type and are held open for renaming"
+          "about": "the nine kinds of what a player sees on the road: defect (something broken or not as it should be), hazard, blocked, wonder, offer and request (seen in the world and sighted so they travel; an offer or request a player makes is its own line), question, witness (someone seen doing a thing worth seeing; apart from the witness line, which attests a claim) and pain (a request for help that requires a response)"
         },
         {
           "name": "travel",
@@ -2236,6 +2338,515 @@
           "who": "raiser_or_holder"
         }
       ]
+    },
+    "receive": {
+      "about": "A Receipt: \"I have it\", naming the line received. Written by the receiver's agent on arrival under a standing delegation, or by the person. It closes the loop of delivery: the fold appends it to the item the received line made or acted on (`receipts`), and owed.py shows what crossed to another holon and has no receipt. It travels back to the sender by publish.",
+      "fields": [
+        {
+          "name": "of",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "from",
+          "required": false,
+          "kind": "actor"
+        },
+        {
+          "name": "how",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "pull",
+            "permitted",
+            "mail",
+            "hand",
+            "room"
+          ]
+        },
+        {
+          "name": "text",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [
+        "body.of",
+        "links.answers"
+      ],
+      "acts_on": [
+        "card",
+        "commitment",
+        "thread",
+        "delegation",
+        "tea",
+        "decision",
+        "sighting",
+        "turn",
+        "baseline",
+        "discernment",
+        "pledge",
+        "constraint",
+        "agreement",
+        "subscription",
+        "concordance",
+        "wallet_entry"
+      ],
+      "transitions": [
+        {
+          "append_to": "receipts"
+        }
+      ]
+    },
+    "agree": {
+      "about": "An Agreement: the standing terms of a relationship between two holons: what crosses (`crosses`, line types), at what cadence each hears the other (`cadence`, seconds per signal), under which permits (`permits`: write into the permitted inbox, bell for which kinds), the face of the outbox it reads (`face`), until when. A person proposes it for their holon in a holon both share; the other holon's person answers it with an `agree` of their own (links.answers) and it is agreed. The commitments between the two are its clauses: a commit names it in links.serves.",
+      "fields": [
+        {
+          "name": "with",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "terms",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "crosses",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "cadence",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "permits",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "face",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "until",
+          "required": false,
+          "kind": "date"
+        },
+        {
+          "name": "agreement",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "agreement",
+      "creates": "if_no_target",
+      "target": [
+        "links.answers",
+        "body.agreement"
+      ],
+      "acts_on": [
+        "agreement"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "who": "other",
+          "from": [
+            "proposed"
+          ],
+          "set": {
+            "state": "agreed",
+            "agreed_by": "$for",
+            "agreed_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "subscribe": {
+      "about": "A Subscription Card: a holon's standing choice of what it hears: the source (a holon id, an actor, or a repository), the signals (line types), the cadence per signal in seconds, the surface it is dealt to, and the bell permit (which kinds may ring). Pull is the default for attention: nothing reaches the person before the cadence they set. Where an Agreement stands with the source, this Card serves it (links.serves) and takes its cadence. A person's own line, in their own home; a later one for the same source supersedes the earlier field by field (attention.py, pull.py).",
+      "fields": [
+        {
+          "name": "source",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "signals",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "cadence",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "surface",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "deal",
+            "wall",
+            "hud",
+            "pad",
+            "margin",
+            "bell"
+          ]
+        },
+        {
+          "name": "bell",
+          "required": false,
+          "kind": "list"
+        },
+        {
+          "name": "agreement",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "subscription",
+      "creates": "always",
+      "human_only": true,
+      "home_only": true,
+      "transitions": []
+    },
+    "concord": {
+      "about": "A Concordance between two vocabularies: this term in this lexicon and that term in that one are the same idea, a different idea, or one is the clearer definition. Anyone may propose one; it is agreed when a line from the other side answers it. Meaning crosses without either side adopting the other's words; the one lexicon within the Game is what makes concordance possible.",
+      "fields": [
+        {
+          "name": "term",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "in",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "term_other",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "in_other",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "relation",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "same",
+            "different",
+            "clearer"
+          ]
+        },
+        {
+          "name": "definition",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "source",
+          "required": false,
+          "kind": "string"
+        }
+      ],
+      "item": "concordance",
+      "creates": "if_no_target",
+      "target": [
+        "links.answers"
+      ],
+      "acts_on": [
+        "concordance"
+      ],
+      "transitions": [
+        {
+          "who": "other",
+          "from": [
+            "proposed"
+          ],
+          "set": {
+            "state": "agreed",
+            "agreed_by": "$for",
+            "agreed_ts": "$ts"
+          }
+        }
+      ]
+    },
+    "correct": {
+      "about": "A Correction: a recall notice that travels to every holon that pulled a wrong line and supersedes it. It links the line in links.supersedes and says why; `with` names the line that replaces it, when one does. Both lines remain; the fold shows the wrong line's item as retracted, with corrected_why and corrected_with. Who may correct is who may supersede: the line's own actor, or a person under a decide; an agent never corrects another actor's line.",
+      "fields": [
+        {
+          "name": "line",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "why",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "with",
+          "required": false,
+          "kind": "id"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "transitions": []
+    },
+    "wallet": {
+      "about": "A Wallet entry: an offer, acceptance, gift, witness or settlement of value, in whole minor units of a named unit (fiat, or the LIØNSBERG Unit of Value once its measure is ruled). An offer stands alone; an accept, a settle or a witness answers an entry (links.answers or body.entry). A person's own act. The wallet folds balances per unit (wallet.py); nothing is ledgered as value until the unit is ruled.",
+      "fields": [
+        {
+          "name": "kind",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "offer",
+            "accept",
+            "gift",
+            "witness",
+            "settle"
+          ]
+        },
+        {
+          "name": "amount",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "unit",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "to",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "for",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "entry",
+          "required": false,
+          "kind": "id"
+        },
+        {
+          "name": "note",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "wallet_entry",
+      "creates": "if_no_target",
+      "target": [
+        "links.answers",
+        "body.entry"
+      ],
+      "acts_on": [
+        "wallet_entry"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "when": {
+            "body.kind": "accept"
+          },
+          "who": "other",
+          "from": [
+            "offered"
+          ],
+          "set": {
+            "state": "accepted",
+            "accepted_by": "$for",
+            "accepted_ts": "$ts"
+          }
+        },
+        {
+          "when": {
+            "body.kind": "settle"
+          },
+          "from": [
+            "offered",
+            "accepted",
+            "given"
+          ],
+          "set": {
+            "state": "settled",
+            "settled_by": "$for",
+            "settled_ts": "$ts"
+          }
+        },
+        {
+          "when": {
+            "body.kind": "witness"
+          },
+          "append_to": "witnesses"
+        },
+        {
+          "when": {
+            "body.kind": "gift"
+          },
+          "from": [
+            "offered"
+          ],
+          "set": {
+            "state": "given"
+          }
+        }
+      ]
+    },
+    "limits": {
+      "about": "The holon's emergency rule, set in advance by its person: the few limits outside which a signal may wake them (special-cause variation, Shewhart's sense), each rule naming the signal, its condition and whether it wakes; `else` is what everything inside the limits does (wait for the cadence). The receiver's rule decides; the sender's urgency is a claim. Read by attention.gate; person-only and home-only.",
+      "fields": [
+        {
+          "name": "rules",
+          "required": true,
+          "kind": "list"
+        },
+        {
+          "name": "else",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "wait",
+            "wake"
+          ]
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "home_only": true,
+      "transitions": []
+    },
+    "share": {
+      "about": "One share of a person's signing key, held by a member of their cell, so that a threshold of members can restore it (BCR-2020-011 SSKR; Shamir as SLIP-39). The record keeps who holds which share and its digest; the share bytes themselves never enter the record. Written by the person, into their own home.",
+      "fields": [
+        {
+          "name": "to",
+          "required": true,
+          "kind": "actor"
+        },
+        {
+          "name": "threshold",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "count",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "index",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "identifier",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "digest",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "pubkey",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "transitions": [],
+      "human_only": true,
+      "home_only": true
+    },
+    "voice": {
+      "about": "The holon's voice is a threshold key: the inception's holon_pubkey (or a later one named here) is a FROST group key held as shares by the members named, with a threshold; a signature in its name is made by the members' ceremony and verifies as an ordinary ed25519 signature (RFC 9591 section 6.1, RFC 8032). Written by the keeper.",
+      "fields": [
+        {
+          "name": "pubkey",
+          "required": true,
+          "kind": "string"
+        },
+        {
+          "name": "members",
+          "required": true,
+          "kind": "actors"
+        },
+        {
+          "name": "threshold",
+          "required": true,
+          "kind": "int"
+        },
+        {
+          "name": "scheme",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "frost-ed25519-sha512"
+          ]
+        },
+        {
+          "name": "ceremony",
+          "required": false,
+          "kind": "string"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "transitions": [],
+      "human_only": true
     }
   }
 }

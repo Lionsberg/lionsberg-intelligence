@@ -322,8 +322,16 @@ class TestFold(Base):
         self.assertEqual((disc['state'], disc['discerned_by']), ('corrected', PLAYER))
         self.assertEqual(self.item(f, 'delegations', 'delegation2')['state'], 'revoked')
         self.assertEqual(self.item(f, 'delegations', 'delegation')['state'], 'live')
-        for coll in ('sightings', 'turns', 'baselines'):
-            self.assertEqual(len(f[coll]), 1)
+        for coll, n in (('sightings', 3), ('turns', 1), ('baselines', 1)):   # three sightings: the aide's, a corrected one, a pain
+            self.assertEqual(len(f[coll]), n)
+        # the Card kinds of the collaboration surface, one of each in the fixtures
+        self.assertEqual(self.item(f, 'sightings', 'wrong_sighting')['state'], 'retracted')
+        self.assertEqual(self.item(f, 'sightings', 'pain')['body_kind'], 'pain')
+        self.assertEqual(self.item(f, 'agreements', 'agreement')['state'], 'agreed')
+        self.assertEqual(self.item(f, 'subscriptions', 'subscription')['state'], 'live')
+        self.assertEqual(self.item(f, 'concordances', 'concordance')['state'], 'proposed')
+        self.assertEqual(self.item(f, 'wallet', 'wallet_offer')['state'], 'accepted')
+        self.assertEqual([x['how'] for x in req['receipts']], ['pull'])
         self.assertEqual(f['problems'], [])
         self.assertEqual(f['unknown'], [])
         for key in ('posture', 'affirm', 'layout', 'leave', 'hq_affirm', 'cell_join'):

@@ -219,6 +219,48 @@ def _build(root, hq, cell, kd):
     put('part', cell, STEWARD, STEWARD, 'part', {'part': 'the vote', 'opens': '2026-10-20T10:30:00-07:00',
         'closes': '2026-10-20T11:30:00-07:00', 'rule': {'choose': 3, 'advance': 2}})
     put('vote', cell, PLAYER, PLAYER, 'vote', {'choices': []})
+    # --- the Card kinds of the collaboration surface: one line of each kind
+    put('surface_delegation', hq, PLAYER, PLAYER, 'delegate',
+        {'to': AIDE, 'scope': ['receive', 'concord'], 'holons': ['*'], 'until': '2026-12-31'})
+    put('receipt', cell, AIDE, PLAYER, 'receive',
+        {'of': ids['request'], 'from': STEWARD, 'how': 'pull', 'text': 'I have it.'}, {'answers': [ids['request']]})
+    put('agreement', cell, PLAYER, PLAYER, 'agree',
+        {'with': cell_id, 'terms': 'what crosses between this home and the cell, and how often each hears the other',
+         'crosses': ['request', 'offer', 'commit', 'kept', 'witness', 'sight', 'receive', 'correct'],
+         'cadence': {'request': 60, 'commit': 300, 'sight': 3600, 'say': 86400},
+         'permits': {'write': True, 'bell': ['pain', 'fault']}, 'face': 'cell', 'until': '2027-03-20'})
+    put('agreed', cell, STEWARD, STEWARD, 'agree', {'with': hq_id}, {'answers': [ids['agreement']]})
+    put('subscription', hq, PLAYER, PLAYER, 'subscribe',
+        {'source': cell_id, 'signals': ['request', 'commit', 'sight', 'say'],
+         'cadence': {'request': 60, 'commit': 300, 'sight': 3600, 'say': 86400}, 'surface': 'deal', 'bell': ['pain', 'fault']},
+        {'serves': [ids['agreement']]})
+    put('message', cell, PLAYER, PLAYER, 'say',
+        {'text': 'When will the venue be found?', 'to': [STEWARD], 'intent': 'ask',
+         'outcome': 'a date, or the reason there cannot be one', 'urgency': 'before the gathering'},
+        {'anchored_to': [ids['venue_card']]})
+    put('concordance', cell, AIDE, PLAYER, 'concord',
+        {'term': 'commitment', 'in': 'the-game', 'term_other': 'promise', 'in_other': 'last-planner', 'relation': 'same',
+         'definition': 'the act by which one party gives their word to another for a result by a date'})
+    put('wrong_sighting', hq, PLAYER, PLAYER, 'sight',
+        {'text': 'The road at the north gate is blocked', 'kind': 'blocked', 'where': 'the north gate'})
+    put('correction', hq, PLAYER, PLAYER, 'correct',
+        {'why': 'the road is not blocked; the sign was moved'}, {'supersedes': [ids['wrong_sighting']]})
+    put('wallet_offer', cell, PLAYER, PLAYER, 'wallet',
+        {'kind': 'offer', 'amount': 12000, 'unit': 'USD-cents', 'to': STEWARD, 'for': ids['request'],
+         'note': 'for the season plan, on its keeping'})
+    put('wallet_accept', cell, STEWARD, STEWARD, 'wallet', {'kind': 'accept', 'amount': 12000, 'unit': 'USD-cents'},
+        {'answers': [ids['wallet_offer']]})
+    put('pain', cell, STEWARD, STEWARD, 'sight',
+        {'text': 'A member cannot reach the cell and has been silent two days', 'kind': 'pain', 'where': 'the north gate',
+         'travel': 'members'})
+    put('limits', hq, PLAYER, PLAYER, 'limits',
+        {'rules': [{'signal': 'commitment', 'when': 'buffer_days < 0', 'on': 'critical', 'wake': True},
+                   {'signal': 'sight', 'kind': ['pain', 'hazard'], 'from': 'members', 'wake': True}], 'else': 'wait'})
+    put('share', hq, PLAYER, PLAYER, 'share',
+        {'to': STEWARD, 'threshold': 2, 'count': 3, 'index': 1, 'identifier': 4660,
+         'digest': hashlib.sha256(b'share-1').hexdigest(), 'pubkey': pub[PLAYER]})
+    put('voice', cell, STEWARD, STEWARD, 'voice',
+        {'pubkey': pub[STEWARD], 'members': [STEWARD, PLAYER], 'threshold': 2, 'scheme': 'frost-ed25519-sha512'})
     put('leave', cell, PLAYER, PLAYER, 'leave', {'role': 'member', 'why': 'the season is over'})
 
     # --- the player publishes the plan milestone and its commitment into the cell
