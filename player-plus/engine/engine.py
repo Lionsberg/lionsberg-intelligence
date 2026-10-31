@@ -63,6 +63,10 @@ import attention as attention_mod  # noqa: E402
 import push as push_mod  # noqa: E402
 import agreement as agreement_mod  # noqa: E402
 import subscriptions as subscriptions_mod  # noqa: E402
+try:
+    import connections as connections_mod  # noqa: E402
+except ImportError:
+    connections_mod = None
 
 try:
     import record
@@ -86,7 +90,8 @@ DEFAULT_MINUTES = 20.0
 MAX_PAPER = 500
 PAPER_DEPTH = 4
 # The sections of state.json computed from the fold that carry `as_of` at their top (`plan` carries it per holon).
-STAMPED = ('owed', 'kept', 'deal', 'attention', 'score', 'tea', 'questions', 'map', 'agreements', 'subscriptions')
+STAMPED = ('owed', 'kept', 'deal', 'attention', 'score', 'tea', 'questions', 'map', 'agreements', 'subscriptions',
+           'connections')
 # The sections keyed by holon id: each holon's entry carries `as_of`, so every key stays a holon id.
 STAMPED_PER_HOLON = ('plan', 'sightings')
 
@@ -666,6 +671,25 @@ def _views(folded, lines, actor, holons, per_holon, t):
     return the_map, ag, subs, notes
 
 
+def _connections(hq, folded, lines, t, rep):
+    """(connections, note) for the state: connections.connections over the home, honest-empty in its own
+    shape on any failure, said in a note, never hidden."""
+    if connections_mod is None:
+        return ({'rows': [], 'summary': {}, 'as_of': None, 'said': []},
+                'connections.py is not beside engine.py; the Connections view is not computed')
+    try:
+        c = connections_mod.connections(hq, now=t, lines=lines, folded=folded, schedule=rep)
+        if isinstance(c, dict):
+            return c, None
+        note = 'connections.py gave no view'
+    except Exception as e:
+        note = f'connections.py could not read the connections: {type(e).__name__}: {e}'
+    try:
+        return connections_mod._empty(note, t), note       # the module's own honest-empty shape
+    except Exception:
+        return {'rows': [], 'summary': {}, 'as_of': None, 'said': [note]}, note
+
+
 def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7, fewer=False, closeout=False,
                 live=None, sitting_open=False):
     """The whole state.json as a dict (STATE.md)."""
@@ -755,6 +779,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
     ow = owed_mod.owed(norm, actor=actor, now=t, holons=holons, questions=qs, bodies=bd['bodies'],
                        receipts=asks, home=home_id, people=people)
     the_map, ags, subs, view_notes = _views(folded, lines, actor, holons, stamp.get('per_holon'), t)
+    conns, conn_note = _connections(hq, folded, lines, t, rep)
     kp = kept_mod.kept(norm, window_days=window_days, now=t)
     led = ledger_mod.ledger(norm, holons=holons, chain=_chain(problems))
     score = {h['id']: turn_mod.score(norm, rep, h['id']) for h in holons}
@@ -779,7 +804,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
         'actors': _actors(norm, lines, t, bd['bodies']),
         'cards': cards, 'commitments': commitments, 'threads': threads, 'decisions': decisions,
         'sightings': sightings_mod.by_holon(triaged, holons),
-        'map': the_map, 'agreements': ags, 'subscriptions': subs,
+        'map': the_map, 'agreements': ags, 'subscriptions': subs, 'connections': conns,
         'questions': qs,
         'bodies': bd['bodies'], 'desk': bd['desk'], 'cost': bd['cost'], 'bodies_closeout': bd.get('closeout'),
         'attention': attention_mod.state(lines, actor, weigh_cards(the_deal['cards'], norm, rep, lines, t, cal_by,
@@ -807,7 +832,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
         'problems': problems + (folded.get('problems') or []),
         'plan': plan_state,
         'paper': paper,
-        'notes': [n for n in (sched_note, plan_note) if n] + view_notes,
+        'notes': [n for n in (sched_note, plan_note, conn_note) if n] + view_notes,
     }
     for k in STAMPED:
         state[k] = _stamp(state.get(k), stamp)
