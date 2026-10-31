@@ -808,7 +808,8 @@ function openCard(id, fromRoute, opts = {}) {
     if (seq !== cardSeq || ui.route.name !== "card") return;
     const ctx = makeCtx({ slot: "sheet", density: "full" });
     const full = renderFullCard(ctx, id, { hint: o.hint || {}, story: store.server ? cardStory : null, acts: {
-      claim: (c) => cardAct("claim", c), done: (c) => cardAct("done", c), ask: (c) => askOnCard(c), answered: () => closeSheet() } });
+      claim: (c) => cardAct("claim", c), done: (c) => cardAct("done", c), say: (c, line) => sayOnCard(c, line),
+      ask: (c, line) => askOnCard(c, line), answered: () => closeSheet() } });
     openSheet({ title: full.title, body: full.el, cls: "sheet--card" });
     Object.assign(ui.sheet, { prevFocus: keep, refind, isCard: true });
     const head = ui.sheet.sheet.querySelector(".sheet-head h2");
@@ -821,13 +822,24 @@ function cardAct(type, c) {
   act(type, { card: c.id }, {}, c.holon, { confirmed: true, label: t("card.act_" + type, { title: c.title }), undo_ms: ctxPrefs().undo_ms });
   closeSheet();
 }
-function askOnCard(c) {
+/** A note or a question on the card: the line the full card made (card-full.js sayLine, a `say`
+    anchored to the card), written as the person's own through the one act path and its undo window.
+    The full card stays open, so the line shows in its story once it lands. */
+function sayOnCard(c, line) {
+  if (!c || !line || line.type !== "say") return null;
+  const ask = !!(line.body && line.body.intent === "ask");
+  return act(line.type, line.body, line.links, c.holon, { confirmed: true, label: t(ask ? "card.act_ask" : "card.say_done"), undo_ms: ctxPrefs().undo_ms });
+}
+/** Ask on the card: with the full card's line, written at once; with none (any other caller), the
+    sheet with its own text box, as before. Either way the say carries `intent: "ask"`. */
+function askOnCard(c, line) {
+  if (line && line.type === "say") return sayOnCard(c, { ...line, body: { ...line.body, intent: "ask" } });
   const area = h("textarea", { class: "fixed-input", rows: "3", placeholder: t("card.ask_placeholder"), "aria-label": t("card.ask_placeholder") });
   const close = openSheet({ title: c.title, body: area, actions: [
     h("button", { class: "pill primary", onclick: () => {
       const text = area.value.trim();
       if (!text) { area.focus(); return; }
-      act("say", { text }, { anchored_to: [c.id] }, c.holon, { confirmed: true, label: t("card.act_ask"), undo_ms: ctxPrefs().undo_ms });
+      act("say", { text, intent: "ask" }, { anchored_to: [c.id] }, c.holon, { confirmed: true, label: t("card.act_ask"), undo_ms: ctxPrefs().undo_ms });
       close();
     } }, t("card.ask_send"))] });
 }

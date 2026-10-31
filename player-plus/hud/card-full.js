@@ -22,7 +22,7 @@
 
 import { h, cardModel, renderCard, spareDays, DONE_STATES } from "./card.js";
 import { actFor } from "./deal.js";
-import { store, markAnswered, unmarkAnswered, agent as AGENT } from "./state.js";
+import { store, subscribe, markAnswered, unmarkAnswered, agent as AGENT } from "./state.js";
 import { renderAsk } from "./dock-card.js";
 import { receiverPush } from "./mail.js";
 import { whoOf, isElided, useStyle } from "./inks.js";
@@ -176,7 +176,8 @@ function didWords(ctx, l, how, id) {
   switch (l.type) {
     case "card": return t("card.full.did.card");
     case "claim": return t("card.full.did.claim");
-    case "say": case "settle": return withText("card.full.did.say");
+    case "say": return b.intent === "ask" && text ? t("card.full.did.ask", { text }) : withText("card.full.did.say");
+    case "settle": return withText("card.full.did.say");
     case "commit": return b.by && dayWords(ctx, b.by) ? t("card.full.did.commit", { by: dayWords(ctx, b.by) }) : t("card.full.did.commit_plain");
     case "kept": return t("card.full.did.kept");
     case "witness": return t("card.full.did.witness");
@@ -200,6 +201,57 @@ function didWords(ctx, l, how, id) {
     default: return how.self || how.direct ? (text ? t("card.full.did.say", { text }) : t("card.full.did.other")) : t("card.full.did.linked");
   }
 }
+
+// whose words a line carries (types.json `say` voice), in words: the person's own line or their
+// agent's, else another's
+const VOICE_KEYS = {
+  "human-words": ["card.full.did.voice_mine_human", "card.full.did.voice_theirs_human"],
+  "agent-drafted": ["card.full.did.voice_mine_drafted", "card.full.did.voice_theirs_drafted"],
+  "agent": ["card.full.did.voice_mine_agent", "card.full.did.voice_theirs_agent"],
+  "under-mandate": ["card.full.did.voice_mine_mandate", "card.full.did.voice_theirs_mandate"],
+};
+/** Whose words one line carries, by the fold's own rule (record.line_voice): a person's stated voice
+    is kept, else a person's line is their words unless its reason says otherwise; an agent's stated
+    voice is kept only where the line supports it (agent always; agent-drafted with the person's word
+    on it), else agent-drafted with that word and agent without. A line stated nowhere is read so only
+    when it is a `say`, the line that is a note or a message; any other reads no voice (null). */
+function lineVoice(l) {
+  const b = l && l.body && typeof l.body === "object" ? l.body : {};
+  const said = typeof b.voice === "string" && Object.hasOwn(VOICE_KEYS, b.voice) ? b.voice : null;
+  if (!l || (!said && l.type !== "say") || typeof l.actor !== "string" || isElided(l.actor)) return null;
+  if (l.actor.startsWith("person:")) return said || (l.reason == null || l.reason === "" || l.reason === "human" ? "human-words" : "agent");
+  if (!l.actor.startsWith("agent:")) return null;
+  const signedFor = l.signed_for === true || !!b.consent;
+  if (said === "agent" || (said === "agent-drafted" && signedFor)) return said;
+  return signedFor ? "agent-drafted" : "agent";
+}
+/** The voice of one line in words, when the line carries one or is a `say`; else null. */
+function voiceWords(ctx, l) {
+  const v = lineVoice(l);
+  const keys = v ? VOICE_KEYS[v] : null;
+  if (!keys) return null;
+  const st = ctx.state || {}, me = st.actor;
+  const a = (st.actors || []).find((y) => y && y.id === l.actor);
+  const mine = !!me && (l.actor === me || !!(a && a.for === me));
+  return ctx.t(keys[mine ? 0 : 1]);
+}
+
+/** The line a note or a question on a card writes: a `say` anchored to the card (a say anchored to
+    a card opens the card's Thread when it has none: types.json `say`), the person's own words, so
+    said (`voice: "human-words"`, which the fold keeps on a person's line); `intent: "ask"` only for a
+    question, so the Deal can tell a question from a note. No card or no words: null, and nothing is
+    written. */
+export function sayLine(card, text, intent = null) {
+  const id = card && typeof card.id === "string" && card.id ? card.id : null;
+  const words = typeof text === "string" ? text.normalize("NFC").trim() : "";
+  if (!id || !words) return null;
+  const body = { text: words, voice: "human-words" };
+  if (intent === "ask") body.intent = "ask";
+  return { type: "say", body, links: { anchored_to: [id] } };
+}
+
+/** A card that is finished or taken back: it allows no act. */
+const isOver = (card) => !!(card && (DONE_STATES.has(card.state) || card.stage === "did" || card.state === "retracted"));
 
 // ------------------------------------------------------------------ building blocks
 
@@ -230,7 +282,9 @@ function list(items) {
 /**
  * renderFullCard(ctx, id, {hint, acts, story, close}) -> {el, title, load()}
  *   hint:  {title, holon} from the opener, when the state may not carry the thing (a mail line)
- *   acts:  {claim(card), done(card), ask(card), answered()} from the shell (each the person's tap)
+ *   acts:  {claim(card), done(card), say(card, line), ask(card, line?), answered()} from the shell
+ *          (each the person's tap); with `say`, one text box serves Say it on the card and Ask, and
+ *          each hands the shell its sayLine(); without it, Ask opens the shell's own sheet
  *   story: (id) -> Promise<{ok, out: {lines}}>   GET /card/<id>, when a server is there
  */
 export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } = {}) {
@@ -279,15 +333,46 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
     face.append(renderCard(ctx, m, { form: "large", inSheet: true, oneTap: true, selected: false,
       onConfirm: (lbl, i) => answer(lbl, i) }));
   }
-  // the acts the card's state allows (take it · done · ask), each the person's own tap
+  // the acts the card's state allows (take it · done · say it on the card · ask), each the person's
+  // own tap; a card that is finished or taken back allows none
   const c = x.card;
-  if (c && (acts.claim || acts.done || acts.ask)) {
-    const row = [];
+  const actEls = [];   // the box, the row and the fold: taken down when a new state says the card is over
+  if (c && !isOver(c) && (acts.claim || acts.done || acts.say || acts.ask)) {
+    const row = [], means = [];
     const can = (s0) => s0.includes(c.state);
-    if (acts.claim && c.holder !== me && can(["ready", "open"])) row.push(h("button", { class: "pill", type: "button", onclick: () => acts.claim(c) }, t("card.claim")));
-    if (acts.done && c.holder === me && can(["ready", "open", "taken"])) row.push(h("button", { class: "pill", type: "button", onclick: () => acts.done(c) }, t("card.done")));
-    if (acts.ask) row.push(h("button", { class: "pill quiet", type: "button", onclick: () => acts.ask(c) }, t("card.ask")));
-    if (row.length) face.append(h("div", { class: "cf-acts actions" }, row));
+    // each act says what it does: on hover (title), and in the fold beside them, since a phone has no hover
+    const pill = (cls, key, meansKey, onclick) => {
+      means.push([key, meansKey]);
+      return h("button", { class: cls, type: "button", title: t(meansKey), onclick }, t(key));
+    };
+    if (acts.claim && c.holder !== me && can(["ready", "open"])) row.push(pill("pill", "card.claim", "card.claim_means", () => acts.claim(c)));
+    if (acts.done && c.holder === me && can(["ready", "open", "taken"])) row.push(pill("pill", "card.done", "card.done_means", () => acts.done(c)));
+    // one text box for a note and a question; the button pressed decides which the line is
+    const box = acts.say ? h("textarea", { class: "fixed-input", rows: "3", placeholder: t("card.say_placeholder"), "aria-label": t("card.say_label") }) : null;
+    let holding = null;   // the pending act of the last tap: the words stay in the box until it is written
+    const send = (fn, intent) => {
+      if (holding) { box.focus(); return; }
+      const line = sayLine(c, box.value, intent);
+      if (!line) { box.focus(); return; }
+      const sent = box.value;
+      const p = fn(c, line);
+      if (!p || !p.done || typeof p.done.then !== "function") { box.value = ""; return; }   // nothing to wait on
+      holding = p;
+      p.done.then((q) => {
+        holding = null;
+        if (q && (q.status === "written" || q.status === "kept-here") && box.value === sent) box.value = "";
+      }, () => { holding = null; });
+    };
+    if (box) row.push(pill("pill primary", "card.say", "card.say_means", () => send(acts.say, null)));
+    // a question is for the one who holds the card: never offered to the holder
+    if (acts.ask && c.holder !== me) row.push(pill("pill quiet", "card.ask", "card.say_ask_means", () => (box ? send(acts.ask, "ask") : acts.ask(c))));
+    if (box) actEls.push(box);
+    if (row.length) {
+      actEls.push(h("div", { class: "cf-acts actions" }, row),
+        h("details", null, h("summary", { class: "cf-label" }, t("card.say_fold_title")),
+          h("ul", { class: "cf-list" }, means.map(([k, mk]) => h("li", null, t("card.say_fold_line", { act: t(k), means: t(mk) }))))));
+    }
+    face.append(...actEls);
   }
   root.append(face);
 
@@ -461,7 +546,8 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
       const who = isElided(l.actor) ? t("record.hidden") : up(whoOf(ctx, l.actor, l.holon) || t("app.a_member"));
       storyList.append(h("li", { class: "cf-row" },
         h("span", { class: "cf-row-when figures" }, when),
-        h("span", { class: "cf-row-what" }, h("span", { class: "cf-row-who" }, who), " ", didWords(ctx, l, how, id)),
+        h("span", { class: "cf-row-what" }, h("span", { class: "cf-row-who" }, who), " ", didWords(ctx, l, how, id),
+          voiceWords(ctx, l) ? h("span", { class: "cf-dust" }, " · " + voiceWords(ctx, l)) : null),
         h("span", { class: `cf-row-sig${signed ? " is-signed" : ""}` }, signed ? "✓ " + t("card.full.signed") : "○ " + t("card.full.paper_floor"))));
     }
     if (!storyPlaced) { provSec.before(storySec); storyPlaced = true; }
@@ -511,17 +597,36 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
     print();
   }
 
-  async function load() {
-    const pool = stateLines(st);
-    placeStory(linesAbout(pool, id));
+  // the story reads again when a new state is served (the stream, once an act lands), so a line the
+  // person just wrote on the card shows here while the card stays open; the record's lines the server
+  // last gave are kept across each read
+  let heard = [], rawSeen = store.raw, off = null, fillSeq = 0;
+  const merged = (from) => {
+    const byId = new Map(stateLines(from || {}).map((l) => [l && l.id, l]));
+    for (const l of heard) if (l && l.id && !byId.has(l.id)) byId.set(l.id, l);
+    return [...byId.values()];
+  };
+  async function fill(from) {
+    const seq = ++fillSeq;   // only the newest read places the story; an older answer arriving late is let go
+    placeStory(linesAbout(merged(from), id));
     if (typeof story !== "function") return;
     let r = null;
     try { r = await story(id); } catch { r = null; }
     const got = r && r.ok && r.out && Array.isArray(r.out.lines) ? r.out.lines : [];
-    if (!got.length || !root.isConnected) return;
-    const byId = new Map(pool.map((l) => [l && l.id, l]));
-    for (const l of got) if (l && l.id && !byId.has(l.id)) byId.set(l.id, l);
-    placeStory(linesAbout([...byId.values()], id));
+    if (seq !== fillSeq || !got.length || !root.isConnected) return;
+    heard = got;
+    placeStory(linesAbout(merged(from), id));
+  }
+  function load() {
+    if (!off) off = subscribe(() => {
+      if (root.isConnected === false) { off(); off = null; return; }   // the sheet closed: stop listening
+      if (store.raw === rawSeen) return;
+      rawSeen = store.raw;
+      // the acts go once the new state says the card is finished or taken back
+      if (actEls.length && c && isOver(R.card(store.state || {}, c.id))) { for (const el of actEls) el.remove(); actEls.length = 0; }
+      fill(store.state);
+    });
+    return fill(st);
   }
 
   return { el: root, title: t("card.full.title"), load };
