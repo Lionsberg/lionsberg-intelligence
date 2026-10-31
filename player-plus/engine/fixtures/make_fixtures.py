@@ -273,6 +273,9 @@ def _build(root, hq, cell, kd):
     put('meet_accept', cell, PLAYER, PLAYER, 'move',
         {'move': 'accept_counter', 'root': ids['meet_ask'], 'terms': {'time': '2026-11-05T18:00'}},
         {'answers': [ids['meet_counter']]})
+    # a stop from any person wins at once; only the stopped agent's own person lifts it
+    put('stop', cell, STEWARD, STEWARD, 'stop', {'agents': [AIDE], 'scope': cell_id, 'why': 'hold every post until the hall is confirmed'})
+    put('lift', cell, PLAYER, PLAYER, 'stop', {'lift': True, 'stop': ids['stop']}, {'answers': [ids['stop']]})
     put('leave', cell, PLAYER, PLAYER, 'leave', {'role': 'member', 'why': 'the season is over'})
 
     # --- the player publishes the plan milestone and its commitment into the cell

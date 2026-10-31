@@ -202,6 +202,15 @@
           "gift": "given"
         }
       }
+    },
+    "stop": {
+      "plural": "stops",
+      "initial": "live",
+      "states": [
+        "live",
+        "lifted",
+        "retracted"
+      ]
     }
   },
   "types": {
@@ -3183,6 +3192,69 @@
       "item": "none",
       "creates": "never",
       "transitions": []
+    },
+    "stop": {
+      "about": "A stop: any person may tell any agent to stop, about a holon, a thread, a line or themselves, and the stop wins at once at the widest reasonable reading of its scope; every agent in scope withholds every act and every delivery until it is lifted. Only the stopped agent's own person lifts it, in person, by a stop line with lift true that names the stop; a lift from anyone else, or carried in a message, counts for nothing. A person's own act; an agent never writes one.",
+      "fields": [
+        {
+          "name": "agents",
+          "required": false,
+          "kind": "actors",
+          "about": "the agents stopped; empty means every agent in the holon"
+        },
+        {
+          "name": "scope",
+          "required": false,
+          "kind": "string",
+          "about": "a holon id, a thread or line id, an actor, or all"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "lift",
+          "required": false,
+          "kind": "bool"
+        },
+        {
+          "name": "stop",
+          "required": false,
+          "kind": "id",
+          "about": "on a lift: the stop it lifts"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "stop",
+      "creates": "if_no_target",
+      "target": [
+        "body.stop",
+        "links.answers"
+      ],
+      "acts_on": [
+        "stop"
+      ],
+      "human_only": true,
+      "transitions": [
+        {
+          "when": {
+            "body.lift": true
+          },
+          "from": [
+            "live"
+          ],
+          "set": {
+            "state": "lifted",
+            "lifted_by": "$for",
+            "lifted_ts": "$ts"
+          }
+        }
+      ]
     }
   }
 }
