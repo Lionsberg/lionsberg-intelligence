@@ -3,8 +3,9 @@
 
     budget(lines, person, now=None) -> the budget, from the person's own `attention` lines
     fewer_step(value) -> 0 · 1 · 2 · 3
-    gate(cards, budget, now=None, asks=None, sitting_open=False, in_room=False) -> decision
-    state(lines, person, cards, now=None, sitting_open=False, in_room=False) -> state.json `attention`
+    gate(cards, budget, now=None, asks=None, sitting_open=False, in_room=False, wake=None) -> decision
+    state(lines, person, cards, now=None, sitting_open=False, in_room=False, fewer=None,
+          signals=None, rule=None, context=None) -> state.json `attention`
 
 Attention belongs to the one who holds it. The budget is the person's own signed `attention` lines
 (a person writing for themselves; never an agent's, never from untrusted text), field by field, the
@@ -33,7 +34,9 @@ The gate, for each card in the Deal's order:
   2. deferred until later                         -> withheld, returns then
   3. a sitting is open                            -> dealt, up to at_once (a heavy card counts two);
                                                      at the last step, only what always passes
-  4. always passes, and nothing is closed         -> interrupt now
+  4. always passes, or the person's own emergency rule wakes it (`wake`, emergency.classify), and
+     nothing is closed                            -> interrupt now, even in quiet hours; the person's
+                                                     closed word outranks every rule
   5. the budget allows an interruption (outside quiet hours; the dial permits it; under the hour's
      and the day's ceilings; the minimum gap kept) AND it merits one (its by-when falls before the
      next sitting, a person waits now, or the receiver's own push weight is 2 or more, push.weigh)
@@ -166,9 +169,12 @@ def _always(card):
                 or card.get('who_waits') == 'now')
 
 
-def gate(cards, b, now=None, asks=None, sitting_open=False, in_room=False):
-    """Which cards interrupt now, which go to the margin, and which wait (with their return time)."""
+def gate(cards, b, now=None, asks=None, sitting_open=False, in_room=False, wake=None):
+    """Which cards interrupt now, which go to the margin, and which wait (with their return time).
+    `wake` is the set of card ids the person's own emergency rule says may wake them now: each passes
+    as what always passes does, never while the person's closed word holds."""
     t = now_or(now)
+    woken = set(x for x in wake if isinstance(x, str)) if isinstance(wake, (list, tuple, set, frozenset)) else set()
     lim = limits(b, in_room)
     asks = sorted(x for x in (parse_time(a) for a in asks or []) if x is not None and x <= t)
     last = asks[-1] if asks else None
@@ -181,9 +187,10 @@ def gate(cards, b, now=None, asks=None, sitting_open=False, in_room=False):
     out = {'deal': [], 'interrupt': [], 'margin': [], 'withheld': [], 'next_sitting': nxt.isoformat(timespec='minutes') if nxt else None,
            'quiet_now': quiet, 'asks_last_hour': hour, 'asks_today': today,
            'last_ask_at': last.isoformat(timespec='minutes') if last else None, 'limits': lim}
-    shown = 0
+    shown, by_rule = 0, []
     for c in cards or []:
         cid = c.get('id')
+        woke = isinstance(cid, str) and cid in woken
         if c.get('needs_person') is False:
             out['margin'].append(cid); continue
         if c.get('retracted'):
@@ -193,15 +200,18 @@ def gate(cards, b, now=None, asks=None, sitting_open=False, in_room=False):
             out['withheld'].append({'id': cid, 'returns_at': until.isoformat(timespec='minutes'), 'why': 'deferred'}); continue
         if sitting_open:
             weight = 2 if c.get('heavy') else 1
-            if lim['step'] == 3 and not _always(c):
+            if lim['step'] == 3 and not (_always(c) or woke):
                 out['withheld'].append({'id': cid, 'returns_at': out['next_sitting'], 'why': 'only what always passes'})
             elif shown + weight <= lim['at_once']:
                 out['deal'].append(cid); shown += weight
             else:
                 out['withheld'].append({'id': cid, 'returns_at': out['next_sitting'], 'why': 'at once is full'})
             continue
-        if _always(c) and not closed:
-            out['interrupt'].append(cid); continue
+        if (_always(c) or woke) and not closed:
+            out['interrupt'].append(cid)
+            if woke and not _always(c):
+                by_rule.append(cid)
+            continue
         why = None
         if closed:
             why = 'closed by the person until ' + str(b.get('closed_until'))
@@ -233,6 +243,8 @@ def gate(cards, b, now=None, asks=None, sitting_open=False, in_room=False):
     qe = _quiet_end(b, t)
     slot = max(x for x in (gap_end, t, qe) if x is not None) if lim['asks_per_hour'] > 0 else nxt
     out['next_slot'] = slot.isoformat(timespec='minutes') if slot else None
+    if wake is not None:
+        out['woken'] = by_rule                      # interrupting by the person's emergency rule alone
     return out
 
 
@@ -250,14 +262,46 @@ def asks_from(lines, person, agents=None):
     return out
 
 
-def state(lines, person, cards, now=None, sitting_open=False, in_room=False, fewer=None):
+def _emergency(lines, person, signals, rule, context, b, t):
+    """The ids the bell rings for now, and what was classified (emergency.py). No permit, no bell:
+    a signal wakes the person only when their own rule wakes them AND its source holds a permit
+    (emergency.bell), never by the rule alone."""
+    try:
+        import emergency
+    except ImportError:
+        return None, {'basis': 'none', 'why': 'The emergency rule reader is not present; nothing is woken.'}
+    rs = rule if rule is not None else emergency.rule(lines, person)
+    ctx = dict(context) if isinstance(context, dict) else {}
+    ctx.setdefault('now', t.isoformat())
+    nxt = next_sitting(b, t)
+    ctx.setdefault('next_sitting', nxt.isoformat() if nxt else None)
+    subs, agreements, members = ctx.get('subscriptions'), ctx.get('agreements'), ctx.get('members')
+    wake, rows = set(), []
+    for s in signals if isinstance(signals, (list, tuple)) else []:
+        r = emergency.bell(s, rs, subs, agreements, members, t.isoformat(), ctx)
+        sid = s.get('id') if isinstance(s, dict) else None
+        rows.append({'id': sid, 'wake': r['wake'], 'ring': r['ring'], 'permit': r['permit'],
+                     'special_cause': r.get('special_cause', False), 'why': r['why'], 'ignored': r.get('ignored', [])})
+        if r['ring'] and isinstance(sid, str) and sid:
+            wake.add(sid)
+    return wake, {'basis': rs.get('basis') if isinstance(rs, dict) else 'default',
+                  'set_by': rs.get('set_by') if isinstance(rs, dict) else None, 'signals': rows}
+
+
+def state(lines, person, cards, now=None, sitting_open=False, in_room=False, fewer=None,
+          signals=None, rule=None, context=None):
     """state.json `attention` for one person. `fewer` is today's word, if any: the dial in force is
-    the stricter of it and the standing line."""
+    the stricter of it and the standing line. Given `signals`, a signal wakes the person only when the
+    bell rings for it: their emergency rule (`rule`, which must be emergency.rule()'s answer; else
+    their own `limits` line; else the default) wakes them AND the source holds a permit. `context`
+    carries `members`, `subscriptions` (Subscription rows), `agreements` (the fold's items) and
+    `bell_permits` (emergency.bell)."""
     t = now_or(now)
     b = budget(lines, person, t)
     if fewer is not None:
         b['fewer'] = FEWER_STEPS[max(fewer_step(b['fewer']), fewer_step(fewer))]
-    g = gate(cards, b, t, asks_from(lines, person), sitting_open, in_room)
+    wake, emerg = (None, None) if signals is None else _emergency(lines, person, signals, rule, context, b, t)
+    g = gate(cards, b, t, asks_from(lines, person), sitting_open, in_room, wake=wake)
     day = WEEKDAYS[t.weekday()]
     return {'budget': {k: b[k] for k in FIELDS}, 'set_by': b['set_by'], 'fewer': b['fewer'],
             'minutes_today': (b['minutes'] or {}).get(day), 'sitting_open': bool(sitting_open),
@@ -266,4 +310,5 @@ def state(lines, person, cards, now=None, sitting_open=False, in_room=False, few
             'interrupt_now': g['interrupt'], 'margin': g['margin'], 'withheld': g['withheld'],
             'withheld_count': len(g['withheld']),
             'deferred': [{'id': k, 'returns_at': v} for k, v in (b['deferred'] or {}).items()],
-            'limits': g['limits'], 'agent_commitments': []}
+            'limits': g['limits'], 'agent_commitments': [],
+            **({'emergency': dict(emerg, woken=g.get('woken', []))} if emerg is not None else {})}

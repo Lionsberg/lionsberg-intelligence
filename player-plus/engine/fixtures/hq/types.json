@@ -2425,7 +2425,7 @@
       ]
     },
     "agree": {
-      "about": "An Agreement: the standing terms of a relationship between two holons: what crosses (`crosses`, line types), at what cadence each hears the other (`cadence`, seconds per signal), under which permits (`permits`: write into the permitted inbox, bell for which kinds), the face of the outbox it reads (`face`), until when. A person proposes it for their holon in a holon both share; the other holon's person answers it with an `agree` of their own (links.answers) and it is agreed. The commitments between the two are its clauses: a commit names it in links.serves.",
+      "about": "An Agreement: the standing terms of a relationship between two holons: what crosses (`crosses`, line types), at what cadence each hears the other (`cadence`, seconds per signal), under which permits (`permits`: `write` into the permitted inbox, `bell` for which kinds, `fields` per line type the face keeps visible, the rest elided), the face of the outbox it reads (`face`), until when. A person proposes it for their holon in a holon both share; the other holon's person answers it with an `agree` of their own (links.answers) and it is agreed. The commitments between the two are its clauses: a commit names it in links.serves.",
       "fields": [
         {
           "name": "with",
