@@ -1333,6 +1333,12 @@
           "name": "keys",
           "required": false,
           "kind": "object"
+        },
+        {
+          "name": "elided",
+          "required": false,
+          "kind": "object",
+          "about": "per copied line, the body fields a face hid (faces.py); absent when every copy is whole"
         }
       ],
       "item": "none",
@@ -2493,7 +2499,7 @@
       ]
     },
     "subscribe": {
-      "about": "A Subscription Card: a holon's standing choice of what it hears: the source (a holon id, an actor, or a repository), the signals (line types), the cadence per signal in seconds, the surface it is dealt to, and the bell permit (which kinds may ring). Pull is the default for attention: nothing reaches the person before the cadence they set. Where an Agreement stands with the source, this Card serves it (links.serves) and takes its cadence. A person's own line, in their own home; a later one for the same source supersedes the earlier field by field (attention.py, pull.py).",
+      "about": "A Subscription Card: a holon's standing choice of what it hears: the source (a holon id, an actor, or a repository), the signals (line types), the cadence per signal in seconds, the surface it is dealt to, and the bell permit (which kinds may ring). Pull is the default for attention: nothing reaches the person before the cadence they set. Where an Agreement stands with the source, this Card serves it (links.serves); the Card's own word wins, and the Agreement fills only what the Card leaves unsaid. A person's own line, in their own home; a later one for the same source supersedes the earlier field by field (attention.py, pull.py).",
       "fields": [
         {
           "name": "source",
