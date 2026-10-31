@@ -48,6 +48,12 @@ The views are measured against the bar in `hud/DESIGN-THE-BAR.md` §5.
 - **Bodies:** the ceiling as a trend, the console words gone.
 - **The Room:** rebuilt on the phone, lifted at the desk.
 
+## The collaboration surface
+
+Every holon's agent points to one surface: the Record each holon writes, the Engine that computes over it, and the views each reads it through.
+
+- **Built in 3.10.0: the surface's Card kinds and the attention that reads them.** Receipt, Agreement, Subscription Card, Message, Concordance, Correction, Wallet entry and the Sighting's nine kinds as lines; the Markdown Card as their face; the XID beside the key and recovery through the cell; the outbox's faces and the permitted inbox; pull at cadence, the emergency rule and the bell by permit; the living map; the heartbeat. What follows: the two-house test (one Agreement, one commitment kept across, Receipts on every crossing), the Club's permits in place of forge permissions, the unit of value, and key shares other libraries can read.
+
 ## The way in with the desktop app only
 
 A player may have only the vendor's desktop app, with no terminal harness.

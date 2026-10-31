@@ -1,3 +1,3 @@
-3.9.0
+3.10.0
 
-Player+ v3.9.0 · 2026-10-30 · the way in through the Claude app: the Quest and INSTALL.md walk the Code tab of the Claude desktop app, no terminal needed, with the terminal way beside it; game-engine 1.0.1, whose conformance sheet now passes on the kit's fixtures. Carries 3.8.0 (one Game Engine), 3.5.0 (the desk), 3.6.0 (the Record) and 3.7.0 (the Talk). Beside pkai-starter-kit v3.1.0. See CHANGES.md.
+Player+ v3.10.0 · 2026-10-31 · the Game Engine as the collaboration surface: the Card kinds every holon's agent reads and writes (Receipt, Agreement, Subscription Card, Message, Concordance, Correction, Wallet entry, the Sighting's nine kinds), the Markdown Card, the XID and recovery through the cell, the outbox's faces and the permitted inbox, pull at cadence with the emergency rule and the bell by permit, the living map, the heartbeat; game-engine 1.1.0. Carries 3.9.0 (the way in through the Claude app), 3.8.0 (one Game Engine), 3.5.0 (the desk), 3.6.0 (the Record) and 3.7.0 (the Talk). Beside pkai-starter-kit v3.1.0. See CHANGES.md.

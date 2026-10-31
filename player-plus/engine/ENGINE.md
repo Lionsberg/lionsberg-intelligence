@@ -2,7 +2,7 @@
 
 *What this layer is, where its boundary runs, and what it carries on its own. Architecture 17 gives the shape: every layer has its own version, lineage, record of changes, contract, tests and keeper.*
 
-- **Version:** game-engine 1.0.1 (1.0.0 set when the one engine landed; `plan.VERSION`)
+- **Version:** game-engine 1.1.0 (1.0.0 set when the one engine landed; 1.1.0 the collaboration surface; `plan.VERSION`)
 - **Lineage:**
   - It grows from the kit's engine of 3.6 (`schedule.py` and its siblings), with the planning modules joined to it under one contract.
   - The changes are pulled from this kit.
@@ -19,8 +19,8 @@
 
 | layer | files |
 |---|---|
-| **The Game Engine (this layer)** | `schedule.py` (the two passes) · `plan.py` (the whole, in one call) · `chain.py` · `resources.py` · `lps.py` · `sbs.py` · `exports.py` · `capture.py` · `gamecore.py` · `deal.py` · `owed.py` · `kept.py` · `turn.py` · `ledger.py` · `ladder.py` · `sightings.py` · `attention.py` · `push.py` · `rooms.py` · `bodies.py` · `engine.py` (the state builder) · `STATE.md` |
-| **The Record** | `record.py` · `holon.py` · `conformance.py` · `types.json` · `SCHEMA.md` · `fixtures/` |
+| **The Game Engine (this layer)** | `schedule.py` (the two passes) · `plan.py` (the whole, in one call) · `chain.py` · `resources.py` · `lps.py` · `sbs.py` · `exports.py` · `capture.py` · `gamecore.py` · `deal.py` · `owed.py` · `kept.py` · `turn.py` · `ledger.py` · `ladder.py` · `sightings.py` · `attention.py` · `emergency.py` · `push.py` · `rooms.py` · `bodies.py` · `agreement.py` · `subscriptions.py` · `receipt.py` · `pull.py` · `heartbeat.py` · `wallet.py` · `concordance.py` · `engine.py` (the state builder) · `STATE.md` |
+| **The Record** | `record.py` · `holon.py` · `card.py` · `xid.py` · `keepsafe.py` · `voice.py` · `faces.py` · `permitted.py` · `conformance.py` · `types.json` · `SCHEMA.md` · `fixtures/` |
 | **The Proxy** | `proxy.py` · `routes.json` · `vendors.sample.json` · `mail.py` (its door to mail) |
 
 **The rule:** an Engine module imports only other Engine modules and the standard library. It reads the Record through the fold's output and `types.json` as data, never through `record.py`'s insides. The exception today is `engine.py`, the state builder, which calls `record.read`/`fold`. That is the one door between the layers.

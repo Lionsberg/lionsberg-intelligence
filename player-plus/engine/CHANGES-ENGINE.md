@@ -2,6 +2,22 @@
 
 *Newest first; each change with its why. This layer's own record of changes (architecture 17 §4). The kit's CHANGES.md names the release that carries it.*
 
+## game-engine 1.1.0 — 2026-10-31 — the collaboration surface
+
+**Why:** every holon's agent is to point to one surface: the Record each holon writes, the Engine that computes over it, the views each reads it through. The Engine gains what that asks of it, and the Record gains the kinds the Engine reads.
+
+- **Attention by pull.** `subscriptions` (the person's Subscription Cards, overlaid by the chain; the Agreement fills what the Card leaves unsaid; what is due; a request rises first), `pull` (one question to the forge per tick; only what changed and is due; as-of per source; the cost line), `emergency` (the person's own limits; special-cause variation; the bell by permit) and `attention.gate(wake=)` (a card wakes only by the bell; the closed word outranks every rule). The Deal surfaces a request addressed to the person above everything, an open pain below it, and a Receipt card to the sender of what has none.
+- **Receipts** (`receipt`): on arrival, where the line lives when covered; what has none is owed; time to Receipt by relationship.
+- **The living map** (`sightings`): the nine kinds, the lifecycle from the links, weight, the map by place and kind, the scoreboard; raw lines count only through the fold's trust.
+- **Agreements** (`agreement`): what a live Agreement grants, between which holons, its clauses; the Andon permit by membership.
+- **The heartbeat** (`heartbeat`): one always-on process per holon; `bodies` shows the cost per wake and per day.
+- **The wallet and Concordances** (`wallet`, `concordance`), each minimal.
+- **Hand-written Cards** are read from the home's `cards/` and shown as paper; every section of the state carries `as_of`.
+
+**What it asks of the Record:** the lines `receive`, `agree`, `subscribe`, `concord`, `correct`, `wallet`, `limits`, `share`, `voice`; the message fields on `say`; the Sighting's nine kinds and lifecycle; `xid` on admission lines; `elided` on `publish`; `seconds` on a `body` line; `when_item` and `initial_by` in the registry's grammar; `permitted/` in the layout; the Markdown Card.
+
+**Tests:** 1217 in the engine (1 skipped); 662 more than 1.0.1.
+
 ## game-engine 1.0.1 — 2026-10-30 — the conformance sheet keeps the contract
 
 **Why:** the conformance sheet's independent pencil pass still applied a Work Card's `by` as its late finish and rounded each duration up to whole days, so on the kit's own fixtures check (b) read FAIL ("by pencil 12" against the engine's 25.9375) and every new install's sheet read NOT READY. The engine was right; the pencil had not been brought to the contract of 1.0.0.
