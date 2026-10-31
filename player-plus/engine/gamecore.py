@@ -55,13 +55,18 @@ ALIASES = {
     'learn': 'learn', 'claim': 'claim', 'turn': 'turn', 'baseline': 'baseline',
     'say': 'say', 'settle': 'settle', 'answer': 'answer', 'ratify': 'ratify', 'witness': 'witness',
     'holon': 'holon', 'join': 'join', 'flame': 'flame', 'untrusted': 'untrusted',
+    'agree': 'agreement', 'agreement': 'agreement', 'subscribe': 'subscription', 'subscription': 'subscription',
+    'concord': 'concordance', 'concordance': 'concordance', 'wallet': 'wallet_entry', 'wallet_entry': 'wallet_entry',
+    'receive': 'receipt', 'receipt': 'receipt', 'correct': 'correction', 'limits': 'limits',
 }
 PLURALS = {'cards': 'card', 'commitments': 'commitment', 'threads': 'thread', 'decisions': 'decision',
            'proposals': 'untrusted', 'requests': 'request', 'offers': 'offer', 'sightings': 'sighting',
            'delegations': 'delegation', 'teas': 'tea', 'discernments': 'discern', 'discerns': 'discern',
            'routes': 'route', 'learns': 'learn', 'learnings': 'learn', 'claims': 'claim', 'turns': 'turn',
            'baselines': 'baseline', 'holons': 'holon', 'revokes': 'revoke', 'ratifies': 'ratify',
-           'witnesses': 'witness', 'answers': 'answer', 'flames': 'flame'}
+           'witnesses': 'witness', 'answers': 'answer', 'flames': 'flame',
+           'agreements': 'agreement', 'subscriptions': 'subscription', 'concordances': 'concordance',
+           'wallet': 'wallet_entry', 'wallet_entries': 'wallet_entry', 'receipts': 'receipt', 'corrections': 'correction'}
 
 STANDING_QUESTION = 'What did we miss that matters to you most?'
 
