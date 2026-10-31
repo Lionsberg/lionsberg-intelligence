@@ -54,6 +54,8 @@
         "claimed",
         "kept",
         "released",
+        "returned",
+        "withdrawn",
         "declined",
         "retracted"
       ]
@@ -634,6 +636,17 @@
           "kind": "card"
         },
         {
+          "kind": "card",
+          "who": "holder",
+          "from": [
+            "taken"
+          ],
+          "set": {
+            "state": "taken",
+            "holder": "$actor"
+          }
+        },
+        {
           "kind": "sighting",
           "from": [
             "seen",
@@ -647,7 +660,7 @@
       ]
     },
     "release": {
-      "about": "An actor lets a card go. On a commitment, its committee releases it (with none named, the holon's keeper): the commitment ends, owed by no one.",
+      "about": "An actor lets a card go: the one who asked for it or the one who holds it. On a commitment, its committee releases it (with none named, the holon's keeper): the commitment ends, owed by no one. Its committor may hand it back instead, with why: returned once the work was begun, withdrawn when the commitment carries the mark that it was not.",
       "fields": [
         {
           "name": "card",
@@ -686,7 +699,8 @@
             "state": "released",
             "holder": null
           },
-          "kind": "card"
+          "kind": "card",
+          "who": "raiser_or_holder"
         },
         {
           "kind": "commitment",
@@ -698,6 +712,31 @@
           "set": {
             "state": "released",
             "released_ts": "$ts"
+          }
+        },
+        {
+          "kind": "commitment",
+          "who": "committor_unbegun",
+          "from": [
+            "open"
+          ],
+          "set": {
+            "state": "withdrawn",
+            "withdrawn_ts": "$ts",
+            "withdrawn_why": "body.why"
+          }
+        },
+        {
+          "kind": "commitment",
+          "who": "committor",
+          "from": [
+            "open",
+            "claimed"
+          ],
+          "set": {
+            "state": "returned",
+            "returned_ts": "$ts",
+            "returned_why": "body.why"
           }
         }
       ]
@@ -729,7 +768,8 @@
         {
           "set": {
             "holder": "body.to"
-          }
+          },
+          "who": "holder"
         }
       ]
     },
@@ -967,7 +1007,8 @@
             "state": "taken",
             "holder": "$for"
           },
-          "kind": "card"
+          "kind": "card",
+          "who": "addressee"
         },
         {
           "when": {
@@ -979,7 +1020,8 @@
           "set": {
             "state": "declined"
           },
-          "kind": "card"
+          "kind": "card",
+          "who": "addressee"
         },
         {
           "kind": "commitment",
@@ -1029,7 +1071,8 @@
             "stage": "did",
             "done_ts": "$ts"
           },
-          "kind": "card"
+          "kind": "card",
+          "who": "holder"
         },
         {
           "kind": "sighting",
@@ -1217,7 +1260,8 @@
             "state": "decided",
             "decided_by": "$for",
             "decision": "body.text"
-          }
+          },
+          "who": "member"
         }
       ]
     },
@@ -1254,7 +1298,8 @@
           "set": {
             "state": "ratified",
             "ratified_by": "$for"
-          }
+          },
+          "who": "member"
         }
       ]
     },

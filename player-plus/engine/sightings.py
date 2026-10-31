@@ -68,7 +68,7 @@ RESPONSE_TYPES = ('say', 'answer', 'claim', 'commit', 'thread', 'settle', 'done'
 # when several states apply, the first wins (the E2 brief)
 PRECEDENCE = ('retracted', 'closed', 'fixed', 'picked_up', 'accepted', 'responded', 'still_there', 'seen')
 ENDED = ('fixed', 'closed', 'retracted')                 # not open on the map
-DROPPED_COMMITMENT = ('released', 'declined', 'retracted')
+DROPPED_COMMITMENT = ('released', 'declined', 'retracted', 'returned', 'withdrawn')
 ENDED_DELEGATION = ('revoked', 'expired')
 TRUSTED = ('signed', 'home', 'vouched')                  # record.TRUSTED
 NOT_COUNTED = ('invalid', 'unverified', 'refused', 'forked', 'proposals')   # the fold's lists of lines that never act

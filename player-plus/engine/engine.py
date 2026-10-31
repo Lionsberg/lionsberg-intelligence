@@ -360,6 +360,7 @@ def load_baselines(holons):
 
 
 DATE_KEYS = ('by', 'date', 'finish', 'at', 'ef')   # the fields an external is dated by (schedule._ext_date)
+DEAD_COMMITMENT = ('released', 'declined', 'retracted', 'returned', 'withdrawn')   # a commitment that dates nothing
 
 
 def _as_external(c, lines_by_id, by=None):
@@ -390,8 +391,9 @@ def holon_graph(folded, lines, holon_id, held_ids):
     by_id = {l.get('id'): l for l in lines or [] if isinstance(l, dict)}
     committed = {}
     for c in folded.get('commitments') or []:
-        # only a live commitment dates another holon's work: a released, declined or retracted one is shown, never used
-        if isinstance(c.get('card'), str) and c.get('by') and c.get('state') not in ('released', 'declined', 'retracted'):
+        # only a live commitment dates another holon's work: a released, declined, retracted, returned or withdrawn one
+        # is shown, never used
+        if isinstance(c.get('card'), str) and c.get('by') and c.get('state') not in DEAD_COMMITMENT:
             # with two live commitments on one card, the earliest due date dates the waiting work (the tightest commitment governs)
             if c['card'] not in committed or str(c['by']) < str(committed[c['card']]):
                 committed[c['card']] = c['by']

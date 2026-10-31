@@ -10,6 +10,7 @@ A commitment counts in the window when it was made in it or fell due in it. Each
   broken            its by-when passed and it was not kept (rendered as "not kept by the by-when")
   released          let go openly, before or after the by-when
   returned          handed back
+  withdrawn         handed back before it was begun
   open              not yet due
 
 The gap per commitment is the keeping time minus the by-when, in days; negative is early. The
@@ -33,7 +34,7 @@ except ImportError:
     from gamecore import (normalize, field, links, parse_time, now_or, item_id, holon_of,
                           commitment_status, keeper_of, holon_names)
 
-KEYS = ('made', 'kept', 'kept_unwitnessed', 'broken', 'released', 'returned', 'open')
+KEYS = ('made', 'kept', 'kept_unwitnessed', 'broken', 'released', 'returned', 'withdrawn', 'open')
 
 
 def _tally():
@@ -111,6 +112,7 @@ def kept(items, holon=None, actor=None, window_days=7, now=None, start=None):
 
 WORDS = {'kept': 'kept, witnessed', 'kept-unwitnessed': 'kept, awaiting a witness',
          'broken': 'not kept by the by-when', 'released': 'released', 'returned': 'returned',
+         'withdrawn': 'withdrawn',
          'open': 'open'}
 
 

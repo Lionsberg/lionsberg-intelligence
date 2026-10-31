@@ -152,6 +152,11 @@ WHY = {
         'raiser_or_holder': 'Only the one who raised it, or who holds it, may do this.',
         'keeper': 'Only the keeper of its group may do this.',
         'stop_person': "Only the stopped agent's own person may do this.",
+        'addressee': 'You answer only an ask made to you, or to a group you belong to.',
+        'holder': 'You do this only while the card is yours: you hold it, or you committed to deliver it.',
+        'member': 'You do this only as a member of the group the decision belongs to.',
+        'committor': 'You hand back only a commitment you made, and you say why.',
+        'committor_unbegun': 'You withdraw only a commitment you made and have not begun, and you say why.',
     },
 }
 SAID_EMPTY = 'Nothing to read here, so nothing is offered.'

@@ -2021,7 +2021,7 @@ def score_lines(commits, teas, sights, data_date):
         h = str(field(c, 'holon') or '')
         k = b(h)
         status = str(field(c, 'status') or field(c, 'state') or '').lower()
-        if status in ('released', 'returned'):
+        if status in ('released', 'returned', 'withdrawn'):
             continue
         k['commitments_made'] += 1
         kept_ts = field(c, 'kept_ts') or field(c, 'kept_at') or field(c, 'done_ts')

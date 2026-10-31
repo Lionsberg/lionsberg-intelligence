@@ -82,7 +82,7 @@ REASONS = ('prerequisite', 'definition', 'estimate', 'capacity', 'priority', 'ex
            'conditions', 'other')
 NOT_GIVEN = 'not yet given'
 
-DEAD = ('released', 'declined', 'retracted')     # a commitment that no longer counts
+DEAD = ('released', 'declined', 'retracted', 'returned', 'withdrawn')     # a commitment that no longer counts
 DELIVERED = ('claimed', 'kept')                  # the committor's word, then the committee's
 OPEN_STATUS = ('not_started', 'in_progress')
 CARD_TYPES = ('activity', 'milestone')

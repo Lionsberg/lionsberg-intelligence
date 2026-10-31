@@ -357,14 +357,14 @@ def sqrt_cost(m):
     return math.sqrt(max(1.0, float(m or 0)))
 
 
-COMMITMENT_STATUSES = ('open', 'kept', 'kept-unwitnessed', 'broken', 'released', 'returned')
+COMMITMENT_STATUSES = ('open', 'kept', 'kept-unwitnessed', 'broken', 'released', 'returned', 'withdrawn')
 
 
 def commitment_status(c, now=None):
     """(status, gap_days) for a commitment item.
 
-    When the fold already computed `status`, it is trusted. Otherwise: released or returned when
-    so marked; kept when a kept/done time is held and a witness verified it; kept-unwitnessed when
+    When the fold already computed `status`, it is trusted. Otherwise: released, withdrawn or returned
+    when so marked; kept when a kept/done time is held and a witness verified it; kept-unwitnessed when
     claimed without a witness yet; broken when the by-when passed with no keeping; else open.
     The gap is the keeping time minus the by-when, in days (negative is early). When the
     commitment names a witness, only that witness verifies it: a witness line by anyone else is
@@ -380,6 +380,8 @@ def commitment_status(c, now=None):
     s = str(field(c, 'state') or '').lower()
     if s in ('released', 'declined') or field(c, 'released_ts'):
         return 'released', None
+    if s == 'withdrawn' or field(c, 'withdrawn_ts'):
+        return 'withdrawn', None
     if s in ('returned',) or field(c, 'returned_ts'):
         return 'returned', None
     witnessed = field(c, 'witnessed')

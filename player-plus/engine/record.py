@@ -1803,6 +1803,9 @@ def _merge_links(item, line):
                 dest.append(x)
 
 
+FOLD_OWNED = ('admitted_here', 'committed_by', 'started')   # fields only the fold writes; a body's copy is kept as body_<name>
+
+
 def _new_item(kind, line, body, holon):
     item = {'id': line['id'], 'kind': kind, 'holon': holon, 'state': None,
             'actor': line.get('actor'), 'for': line.get('for'), 'ts': line.get('ts'),
@@ -1812,7 +1815,7 @@ def _new_item(kind, line, body, holon):
     for k, v in body.items():
         if k in SALT_KEYS or _is_elided(v):
             continue
-        item[k if k not in item else 'body_' + k] = v
+        item[k if k not in item and k not in FOLD_OWNED else 'body_' + k] = v
     return item
 
 
@@ -1850,10 +1853,130 @@ def _mandated(line, table, by_id, ctx=None):
     return isinstance(m, dict) and bool(m)
 
 
+WHO_READS_ADMITTED = ('addressee', 'holder', 'member')   # `who` values that read the actors admitted in the item's holon
+
+
+def admitted_here(admitted, holon):
+    """The actors admitted in a holon, each with the person it answers for: {actor: person}. A person
+    answers for themselves; an agent for the person who let it in (an affirm, a rotation, a clone's prime's
+    person); an ended admission and an actor with no person known are left out. Pure; sorted; null-guarded."""
+    m = (admitted or {}).get(holon) if isinstance(admitted, dict) and isinstance(holon, str) else None
+    out = {}
+    for a, e in sorted((m or {}).items(), key=lambda kv: str(kv[0])) if isinstance(m, dict) else ():
+        if not isinstance(a, str) or not isinstance(e, dict) or e.get('ended'):
+            continue
+        if a.startswith('person:'):
+            out[a] = a
+        elif a.startswith('agent:') and _str(e.get('person')).startswith('person:'):
+            out[a] = e['person']
+    return out
+
+
+def _who_kinds(tdefs):
+    """The item kinds some transition acts on with a `who` that reads the admitted actors."""
+    kinds = set()
+    for spec in (tdefs or {}).values():
+        if not isinstance(spec, dict):
+            continue
+        for t in spec.get('transitions') or ():
+            if isinstance(t, dict) and t.get('who') in WHO_READS_ADMITTED:
+                ks = [t['kind']] if isinstance(t.get('kind'), str) else (spec.get('acts_on') or [])
+                kinds |= {k for k in ks if isinstance(k, str)}
+    return kinds
+
+
+def _here(item):
+    m = item.get('admitted_here')
+    return {a: p for a, p in m.items() if isinstance(a, str) and isinstance(p, str)} if isinstance(m, dict) else {}
+
+
+def _members(item, keepers=None):
+    """The persons admitted in the item's holon (an agent counts through its person). The fold sets
+    `admitted_here` on every item a `who` of this kind reads; an item built by hand without it is read
+    as the two the record admits by construction: the person whose line made it, and the holon's keeper."""
+    if 'admitted_here' in item:
+        return {a for a, p in _here(item).items() if a == p}
+    return {x for x in (item.get('for'), (keepers or {}).get(item.get('holon')))
+            if isinstance(x, str) and x.startswith('person:')}
+
+
+ENDED_COMMITMENT = ('released', 'declined', 'retracted', 'returned', 'withdrawn')   # a commitment that no longer holds a card
+
+
+def _committed_to(item, keepers=None, to=None):
+    """The persons whose commitment to deliver the card is live (its state as the fold has it so far), and,
+    with `to`, made to one of those (its committee; with none named, the holon's keeper speaks for it)."""
+    k = (keepers or {}).get(item.get('holon'))
+    out = set()
+    for r in item.get('committed_by') or ():
+        if not isinstance(r, dict) or not isinstance(r.get('for'), str) or r.get('state') in ENDED_COMMITMENT:
+            continue
+        committee = r.get('committee') if isinstance(r.get('committee'), str) and r.get('committee') else k
+        if to is None or committee in to:
+            out.add(r['for'])
+    return out
+
+
+def _addressees(item):
+    """Whom the card's open ask names: a request names its holder (a request sets it); an offer made on
+    someone's card is answered by that card's own person (the asker takes a counter); else the card's `to`."""
+    h, ob, f = item.get('holder'), item.get('offered_by'), item.get('for')
+    if item.get('asked') == 'request' and isinstance(h, str) and h:
+        return [h]
+    if item.get('asked') == 'offer' and isinstance(ob, str) and ob and isinstance(f, str) and f and ob != f:
+        return [f]
+    return [x for x in _as_list(item.get('to')) if isinstance(x, str) and x]
+
+
+def _gives_why(line):
+    """A line being folded (it has a type) gives its why in words; a reader asking what they may do
+    (no line yet) is not refused for the words it has not written."""
+    if 'type' not in line:
+        return True
+    b = line.get('body') if isinstance(line.get('body'), dict) else {}
+    w = b.get('why')
+    return (isinstance(w, str) and bool(w.strip())) or _is_elided(w)
+
+
 def _who_ok(who, line, item, keepers):
     if not who:
         return True
+    line = line if isinstance(line, dict) else {}
+    item = item if isinstance(item, dict) else {}
     lf = line.get('for')
+    if who == 'addressee':
+        # an answer on a card: one its ask names (or that one's own agent); an ask put to the holon
+        # (no one named, or the holon named) is answered by any admitted member of it
+        names, here = _addressees(item), _here(item)
+        if isinstance(lf, str) and lf and any(n == lf or here.get(n) == lf for n in names
+                                              if n.startswith(('person:', 'agent:'))):
+            return True
+        if not names or item.get('holon') in names:
+            return lf in _members(item, keepers)
+        return False
+    if who == 'holder':
+        # the one who holds the card (with no holder, the card's own person); a person whose agent holds it,
+        # and an agent whose person holds it, act as the holder. So does one whose live commitment to deliver
+        # it was made to its holder (or, while no one holds it, to anyone): committing alone takes no one's card
+        if not isinstance(lf, str) or not lf:
+            return False
+        h, here = item.get('holder'), _here(item)
+        if isinstance(h, str) and h:
+            if lf == h or here.get(h) == lf:
+                return True
+            return lf in _committed_to(item, keepers, {h, here.get(h)})
+        return lf == item.get('for') or lf in _committed_to(item, keepers)
+    if who == 'member':
+        # a decision of a holon: a person admitted to that holon, or an agent through its person
+        return isinstance(lf, str) and lf in _members(item, keepers)
+    if who in ('committor', 'committor_unbegun'):
+        # the committor hands a commitment back, with why: returned once the work was begun, withdrawn
+        # when the commitment carries the mark that it was not (`started` false, and no claim of kept)
+        if not isinstance(lf, str) or not lf or lf != item.get('for') or not _gives_why(line):
+            return False
+        if who == 'committor_unbegun':
+            return item.get('started') is False and not item.get('kept_ts')
+        return True
     if who == 'same_for':
         return lf == item.get('for')
     if who == 'other':
@@ -2667,12 +2790,14 @@ def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
             ib = (idefs.get(kind) or {}).get('initial_by')
             if isinstance(ib, dict) and isinstance(ib.get('map'), dict):
                 item['state'] = ib['map'].get(body.get(ib.get('field')), item['state'])
+            declared = {f.get('name') for f in spec.get('fields') or () if isinstance(f, dict)}
             for k, v in (spec.get('create_set') or {}).items():
                 val = _value(v, l, body)
                 if k == 'state':
                     if val:
                         item['state'] = val
-                elif item.get(k) in (None, '', []):
+                elif item.get(k) in (None, '', []) or k not in declared:
+                    # a body's own field wins over the type's default only where the type declares that field
                     item[k] = val
             if retracted_by:
                 item['state'] = 'retracted'
@@ -2687,6 +2812,13 @@ def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
                     if len(found) == 1:
                         persons |= found
                 item['persons'] = sorted(persons)
+            wk = getattr(ctx, 'who_kinds', None)
+            if wk is None:
+                wk = ctx.who_kinds = _who_kinds(tdefs)
+            if kind in wk:
+                # who is admitted in the item's holon, for the `who` values that read it (record._who_ok);
+                # set by the fold over any field of that name a body carries
+                item['admitted_here'] = admitted_here(ctx.admitted, holon)
             items[l['id']] = item
             event_item[l['id']] = l['id']
             out[plural(kind)].append(item)
@@ -2705,6 +2837,12 @@ def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
                 why = _apply(item, spec.get('transitions'), l, body, keepers)
                 if why:
                     item.setdefault('refused', []).append({'event': l['id'], 'why': why})
+                elif item['kind'] == 'commitment':
+                    # the card it delivers reads the commitment's present state as the fold runs (the `holder` who)
+                    cd = items.get(item.get('card')) if isinstance(item.get('card'), str) else None
+                    for ref in (cd or {}).get('committed_by') or ():
+                        if isinstance(ref, dict) and ref.get('commitment') == item['id']:
+                            ref['state'] = item.get('state')
                 elif typ == 'claim':
                     until = body.get('until') if isinstance(body.get('until'), str) else None
                     if until:
@@ -2738,7 +2876,9 @@ def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
                 # it; the schedule compares the committed date with the card's computed finish (the buffer) and never obeys it.
                 it = items[key]
                 refs = [x for x in (it.get('committed_by') or []) if isinstance(x, dict) and x.get('commitment') != l['id']]
-                refs.append({'commitment': l['id'], 'due_by': body['by'], 'for': l.get('for')})
+                ci = items.get(l['id']) or {}
+                refs.append({'commitment': l['id'], 'due_by': body['by'], 'for': l.get('for'), 'state': ci.get('state'),
+                             'committee': ci.get('committee') if isinstance(ci.get('committee'), str) else None})
                 it['committed_by'] = refs
 
     # each commitment's reference on its Work Card carries its present shape: the committee, the stated buffer, and its state,

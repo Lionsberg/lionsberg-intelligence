@@ -39,13 +39,15 @@ HOLONS = [{'id': A, 'name': 'Home', 'kind': 'person', 'keeper': P},
 REG = record.load_types()
 
 
-def commitment(state='open', committee=P, witness=None, holon=B):
+def commitment(state='open', committee=P, witness=None, holon=B, started=None):
     c = {'id': 'cm1', 'kind': 'commitment', 'holon': holon, 'card': 'k1', 'by': '2026-11-06', 'state': state,
          'for': K, 'actor': K, 'ts': '2026-10-30T07:00:00-07:00'}
     if committee:
         c['committee'] = committee
     if witness:
         c['witness'] = witness
+    if started is not None:
+        c['started'] = started
     return c
 
 
@@ -101,9 +103,14 @@ class TheTwoSidesOfACommitment(unittest.TestCase):
         for state in ('open', 'claimed'):
             r = offered(commitment(state), K)
             self.assertEqual(r['role'], 'committor')
-            self.assertEqual(moves(r), self.expected_moves(state, {None, 'same_for', 'party'}), state)
+            self.assertEqual(moves(r), self.expected_moves(state, {None, 'same_for', 'party', 'committor'}), state)
             self.assertNotIn('act.witness', keys(r))                 # never Kept-as-witness
-            self.assertNotIn('act.release', keys(r))
+            rel = next(a for a in r['acts'] if a['key'] == 'act.release')
+            self.assertEqual(rel['sets'], 'returned', state)          # the committor hands it back, with why
+        unbegun = next(a for a in offered(commitment('open', started=False), K)['acts'] if a['key'] == 'act.release')
+        self.assertEqual(unbegun['sets'], 'withdrawn')                # not begun: withdrawn
+        claimed = offered(commitment('claimed', started=False), K)['acts']
+        self.assertEqual(next(a for a in claimed if a['key'] == 'act.release')['sets'], 'returned')
         self.assertIn('act.kept', keys(offered(commitment('open'), K)))
         kept = next(a for a in offered(commitment('open'), K)['acts'] if a['key'] == 'act.kept')
         self.assertEqual((kept['sets'], kept['primary']), ('claimed', True))
@@ -119,9 +126,13 @@ class TheTwoSidesOfACommitment(unittest.TestCase):
         self.assertEqual((w['sets'], w['label'], w['primary']), ('kept', 'Confirm it was kept', True))
 
     def test_the_two_sides_are_disjoint_on_what_changes_state(self):
+        # they share one act, release, and it moves each to its own state: the committee releases, the committor returns
         for state in ('open', 'claimed'):
             for c in (commitment(state), commitment(state, witness=W)):
-                self.assertFalse(moves(offered(c, K)) & moves(offered(c, P)), state)
+                rk, rp = offered(c, K), offered(c, P)
+                self.assertEqual(moves(rk) & moves(rp), {'act.release'}, state)
+                sets = [next(a['sets'] for a in r['acts'] if a['key'] == 'act.release') for r in (rk, rp)]
+                self.assertEqual(sets, ['returned', 'released'], state)
 
     def test_a_third_person_is_offered_a_say_and_nothing_that_changes_state(self):
         for state in ('open', 'claimed'):
@@ -293,8 +304,9 @@ class TheDealCarriesOffers(unittest.TestCase):
         self.assertEqual([a['key'] for a in r1['offers']['acts'] if a['primary']], [rec['key']])   # primary is the card's
         late = next(c for c in d['cards'] if c['id'] == 'c-late')
         rel = next(o for o in late['offers']['options'] if o['option'].startswith('Release'))
-        self.assertEqual((rel['key'], rel['offered'], rel['writes']), ('act.release', False, None))  # the committee's, not P's
-        self.assertTrue(rel['why'])
+        # P made it: P may hand it back (returned, with why); K, the committee, releases it
+        self.assertEqual((rel['key'], rel['offered'], rel['writes']['type']), ('act.release', True, 'release'))
+        self.assertEqual(next(a['sets'] for a in late['offers']['acts'] if a['key'] == 'act.release'), 'returned')
 
     def test_a_ratify_writes_ratify(self):
         dec = {'id': 'd1', 'kind': 'decision', 'holon': A, 'state': 'decided', 'for': P, 'actor': P,
