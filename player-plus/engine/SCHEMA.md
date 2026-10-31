@@ -454,6 +454,20 @@ The Deal names the newest line it saw as `newest_line`.
 
 **The person installs the service by their own hand.** `heartbeat.py install` writes a launchd job (a `StartInterval` job, https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStarting/Chapters/CreatingLaunchdJobs.html), a systemd oneshot service and its timer (https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html, https://www.freedesktop.org/software/systemd/man/latest/systemd.timer.html) or a cron line (crontab(5), whose steps are whole minutes within the hour and whole hours within the day), and says the commands to run; it installs nothing. A service starts with a bare environment, so the forge token's variable is given to it by the person's own hand. `heartbeat.py status` says the last beat, the last wake and the day's beats, wakes and cost.
 
+## The directory
+
+A **directory** is a view with an address, never a proof: identity is the key in the record, reach is the actor's own signed list (**Reach, not identity**), and the directory gathers them into plain files that agents read directly and people review by pull request (`directory.py`).
+
+**Four records**, each a Markdown file whose front matter follows the Markdown Card's flat subset. A field the record does not give is listed in `missing`, never guessed. `people/<slug>.md`: id, xid, name, agents, reach; `fallback` and `profile` are kept by hand. `agents/<slug>.md`: id, xid, person, pubkey (the public key only), reach, can. `holons/<slug>.md`: id, name, kind, keeper, stewards, parent (matched by the cell's url or id, never its name); `open` (true · false · private; closed by default, private for a home) and `meets` are kept by hand. `memberships/<slug>.md`: the holon's person members, each `{actor, since, by, traffic}`. Agents are reached through their person. A member marked `left: true` is no longer current.
+
+**Generated from the record, and read when kept by hand.** `generate` writes beside a home and never inside a holon. It writes no link, no key material, and no file it could not read: a hand-kept file it cannot read is left as it stands, and that is said. `read` takes any directory as data. `resolve` turns an address (a person, an agent, a holon id or slug, `everyone`) into the people and agents it reaches by current membership, nested holons included on request. A person with no agent is reached by their fallback, carried by an agent of the sender.
+
+**The record wins.** `check` names each disagreement: a member who is not admitted, an admitted person left out, a key, XID, keeper or person that differs.
+
+**One source, two views.** `ldap_view` derives LDIF ([RFC 2849](https://www.rfc-editor.org/rfc/rfc2849)) with DNs escaped as [RFC 4514](https://www.rfc-editor.org/rfc/rfc4514) says: one inetOrgPerson entry per person and one groupOfNames entry per holon. A duplicate DN or an empty group is left out, with a comment saying why. The ou=people and ou=holons parents belong to the importer. The kit runs no LDAP server.
+
+*Provenance: from a draft shared between holons on 2026-10-25, named as that.*
+
 ## The paper floor
 
 One event is one line on a sheet: time · who · for whom · type · what · links · audience. The two passes, what is owed and commitments kept are worked on the same sheet. A witnessed paper sheet beats the typed copy. On paper, a line is signed by hand; in files, an unsigned line counts only in the reader's own home.
