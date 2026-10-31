@@ -1268,6 +1268,12 @@
           "kind": "string"
         },
         {
+          "name": "xid",
+          "required": false,
+          "kind": "string",
+          "about": "the actor's XID, the sha256 of the CBOR of its inception signing key (BCR-2024-010); stable across key rotations"
+        },
+        {
           "name": "holon_pubkey",
           "required": false,
           "kind": "string"
@@ -1631,6 +1637,12 @@
           "name": "pubkey",
           "required": false,
           "kind": "string"
+        },
+        {
+          "name": "xid",
+          "required": false,
+          "kind": "string",
+          "about": "the actor's XID, the sha256 of the CBOR of its inception signing key (BCR-2024-010); stable across key rotations"
         },
         {
           "name": "reach",
@@ -2468,7 +2480,8 @@
           "set": {
             "state": "agreed",
             "agreed_by": "$for",
-            "agreed_ts": "$ts"
+            "agreed_ts": "$ts",
+            "agreed_with": "body.with"
           }
         }
       ]
@@ -2793,6 +2806,11 @@
           "name": "pubkey",
           "required": true,
           "kind": "string"
+        },
+        {
+          "name": "padded",
+          "required": false,
+          "kind": "bool"
         },
         {
           "name": "consent",
