@@ -599,9 +599,19 @@ def render(result, names=None):
     return '\n'.join(out) + '\n'
 
 
-def render_waiting(w):
-    """Waiting on, in a plain voice: each open ask and where each recipient stands."""
-    w = w or {}
+def render_waiting(w, depth='full', names=None, asks=None):
+    """Waiting on, in a plain voice: each open ask and where each recipient stands. `plain` says it in
+    sentences (plain.waiting_entries): names, never ids, and one state wording per ask, read from the
+    conversation for action (`asks`, negotiation.asks) where the ask has moves. `full` (the default)
+    is the list as it stood."""
+    w = w if isinstance(w, dict) else {}
+    if depth == 'plain':
+        try:
+            import plain as plain_mod
+            rows = plain_mod.waiting_entries(w, asks, w.get('actor'), names)
+            return '\n'.join([x['sentence'] for x in rows] or [plain_mod.EMPTY_WAITING]) + '\n'
+        except Exception:                             # a module mid-repair never stops the list
+            pass
     out = [f"# Waiting on — {w.get('actor') or 'no one named'}", '', f"*As of {w.get('as_of')}. {w.get('basis')}.*", '']
     for a in w.get('asks') or []:
         out.append(f"- **{a['kind']}** · {a['title']}" + (f" · by {a['by']}" if a.get('by') else ''))

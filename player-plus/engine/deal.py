@@ -831,9 +831,21 @@ HEADS = {
 }
 
 
-def render(d):
-    """The Deal in a plain briefing voice."""
-    d = d or {}
+def render(d, depth='full', names=None):
+    """The Deal in a plain briefing voice. It opens on the plain lines of the Hand (plain.hand_lines: each
+    card as a next step, who it concerns, its minutes and how to answer); `plain` is those alone, and
+    `full` (the default) keeps the briefing below a line "More, if you want it", as it stood. When the
+    plain lines cannot be drawn, both depths give the briefing as it stood, never a false empty."""
+    d = d if isinstance(d, dict) else {}
+    try:
+        import plain as plain_mod
+        hand = plain_mod.hand_lines(d, names=names)
+    except Exception:                         # a module mid-repair never stops the Deal
+        plain_mod, hand = None, []
+    if depth == 'plain' and plain_mod is not None and hand:
+        q = d.get('question') or STANDING_QUESTION
+        return '\n'.join(["Here's the deal.", ''] + hand +
+                         ['', f'Last, a question for you: {q} Tell your agent.']) + '\n'
     cards = d.get('cards') or []
     out = ["Here's the deal.", '']
     if not cards:
@@ -881,12 +893,25 @@ def render(d):
                    f"{'wait' if n != 1 else 'waits'} for a person; not dealt.")
     out += ['', f"Last: {d.get('question') or STANDING_QUESTION}", '',
             f"*{hm(d.get('minutes_dealt', 0))} of {hm(d.get('minutes_available', 0))} dealt.*"]
+    if hand and plain_mod is not None and cards:          # one empty wording: an empty Deal says it once
+        out = out[:2] + hand + ['', plain_mod.MORE, ''] + out[2:]
     return '\n'.join(out) + '\n'
 
 
-def render_paper(d):
-    """A printable card: one question per block, a tick box per option, a line to write on."""
-    d = d or {}
+def render_paper(d, depth='full', names=None):
+    """A printable card: one question per block, a tick box per option, a line to write on. It opens on the
+    plain lines of the Hand, said for paper; `plain` is those with a tick box per option and no codes, and
+    `full` (the default) keeps the card below a line "More, if you want it", as it stood. When the plain
+    lines cannot be drawn, both depths give the card as it stood. The plain card has no signature line."""
+    d = d if isinstance(d, dict) else {}
+    try:
+        import plain as plain_mod
+        hand = plain_mod.hand_lines(d, names=names, paper=True)
+        sheet = plain_mod.paper_lines(d, names=names) if depth == 'plain' else None
+    except Exception:                         # a module mid-repair never stops the Deal
+        plain_mod, hand, sheet = None, [], None
+    if depth == 'plain' and sheet:
+        return '\n'.join(sheet) + '\n'
     out = [f"THE DEAL · {str(d.get('generated_at', ''))[:10]} · {d.get('actor', '')} · "
            f"{hm(d.get('minutes_available', 0))}", '=' * 64, '']
     for c in d.get('cards') or []:
@@ -901,6 +926,8 @@ def render_paper(d):
             '    ________________________________________________________',
             '    ________________________________________________________', '',
             'Signed: ________________   Witness: ________________   Date: ________']
+    if hand and plain_mod is not None and d.get('cards'):
+        out = out[:3] + hand + ['', plain_mod.MORE, ''] + out[3:]
     return '\n'.join(out) + '\n'
 
 
@@ -1468,6 +1495,33 @@ def rising(items, actor, lines=None, now=None, holons=None, questions=None, fold
     return out
 
 
+LEVEL_SOURCES = ('card', 'commitment', 'sighting', 'thread', 'decision', 'agreement', 'subscription')
+LEVEL_NONE = 'the level could not be computed'
+
+
+def attach_levels(cands, norm, questions=None):
+    """Each framed card gains `level`: {name, lifts: [the field that would lift it, in words], why}, from
+    level.level_of on the item the card is about (one call per card). Computed and never demanded: it
+    changes no other field and no act. Honest-empty when there is no item or the level cannot be read."""
+    src = {}
+    for k in LEVEL_SOURCES:
+        for it in norm.get(k, []) or []:
+            i = item_id(it)
+            if i and i not in src:
+                src[i] = (it, None)
+    for q in questions or []:
+        if isinstance(q, dict) and isinstance(q.get('id'), str) and q['id'] not in src:
+            src[q['id']] = (q, 'rfg' if q.get('type') == 'rfg' else 'none')
+    for x in cands:
+        try:
+            it, kind = src.get(x.get('id'), (None, None))
+            lv = level_mod.level_of(it, kind=kind)
+            x['level'] = {'name': lv.get('name'), 'lifts': [l['words'] for l in lv.get('lifts') or []],
+                          'why': lv.get('why') or LEVEL_NONE}
+        except Exception:                 # noqa: BLE001 — honest-empty, never a failed Deal
+            x['level'] = {'name': None, 'lifts': [], 'why': LEVEL_NONE}
+
+
 def _load(p):
     if os.path.islink(p):
         raise OSError(f'{p} is a symlink; a file is read only where it stands')
@@ -1509,33 +1563,6 @@ def _main(argv=None):
     a = ap.parse_args(argv)
     try:
         items = _load(a.items)
-LEVEL_SOURCES = ('card', 'commitment', 'sighting', 'thread', 'decision', 'agreement', 'subscription')
-LEVEL_NONE = 'the level could not be computed'
-
-
-def attach_levels(cands, norm, questions=None):
-    """Each framed card gains `level`: {name, lifts: [the field that would lift it, in words], why}, from
-    level.level_of on the item the card is about (one call per card). Computed and never demanded: it
-    changes no other field and no act. Honest-empty when there is no item or the level cannot be read."""
-    src = {}
-    for k in LEVEL_SOURCES:
-        for it in norm.get(k, []) or []:
-            i = item_id(it)
-            if i and i not in src:
-                src[i] = (it, None)
-    for q in questions or []:
-        if isinstance(q, dict) and isinstance(q.get('id'), str) and q['id'] not in src:
-            src[q['id']] = (q, 'rfg' if q.get('type') == 'rfg' else 'none')
-    for x in cands:
-        try:
-            it, kind = src.get(x.get('id'), (None, None))
-            lv = level_mod.level_of(it, kind=kind)
-            x['level'] = {'name': lv.get('name'), 'lifts': [l['words'] for l in lv.get('lifts') or []],
-                          'why': lv.get('why') or LEVEL_NONE}
-        except Exception:                 # noqa: BLE001 — honest-empty, never a failed Deal
-            x['level'] = {'name': None, 'lifts': [], 'why': LEVEL_NONE}
-
-
         rep = _load(a.schedule) if a.schedule else None
         lines = _load_lines(a.lines) if a.lines else None
     except (OSError, ValueError) as e:

@@ -541,6 +541,32 @@ In each column the reading is green when every check is inside. It is yellow on 
 
 **Said just in time.** Every dealt card carries `level`: `{name, lifts, why}`, the field that would lift it said in words, never a demand. The agent's office is to draw out of its person the minimum that makes the Game work, and to offer the next depth only when it would change the person's next play. `levels` counts a holon's Cards by level for the Board, with those below the minimum named. The way deeper is the canon's Path; the kit carries pointers to it only.
 
+## The simplest form first
+
+Every person-facing surface opens on three questions, each answered in sentences. The tables come only on a pull, below a line "More, if you want it" (`plain.py`).
+
+- **Who am I connected to, and are we good with each other?** One sentence per connection: its name, the pulse's color with its one plain why, and the holon's own Condition. A connection that is not all well carries its how on the next line ("To look closer, ask your agent what is wrong with first-cell."). When the reader does not keep the home, the sentence names the home ("player-hq is connected to …"), since the connections read are the home's.
+- **What are my wise right next steps?** The Deal's recommendation, in the Deal's own order and fitted to the time the person has. Each step reads "Next: <step>, because <why>; <how to answer>." in the agent's voice ("I would …"), never as an order. The why says what the step unlocks when the card says it ("because then first-cell can move"), else why it is dealt. What is owed sits where the Deal placed it, never first by default, and is counted in the summary. The plain three and the plain Deal list the same steps, in the same order.
+- **What am I waiting on?** One sentence per open ask: whom it went to, when, and its state.
+
+**The laws of a sentence.**
+- A name, never an id. A holon is said by its name from `holon.json` or the directory: "your home" for the reader's own, and "a group" when it has none, which is said. A person is said by their shown name from the directory, else their role word ("the steward"). The reader is "you"; an agent is "your agent" or "their agent", by the directory's word on its person. Titles and names are scrubbed of every id and actor token.
+- A color always with its word: green: all well · yellow: one thing to watch · orange: something is late · red: stop and look · grey: they have not said.
+- One way to answer. By voice it is "tell your agent yes or no"; on the paper card it is "tick one and hand it back", and the plain card carries no signature line. A step agreed and yours to do says "tell your agent when it is done".
+- The kit's words are said once in plain words or not at all: a Receipt is "they have it"; a round, an unsaid effort and a converge are left out.
+- Under 25 words, in the second person. A long title or name is cut, and the how is kept.
+- Honest-empty: "You are not connected to anyone yet.", "Nothing to do.", "Waiting on no one."
+
+**One wording per ask.**
+- An ask's state is read from the conversation for action when the ask has moves, and from waiting on otherwise (`plain.ask_state_words`). An agreed ask says who still has to do it ("agreed; they still have to do it", or "you still have to do it").
+- The plain forms of `owed.render_waiting` and `negotiation.render` use the same wording. So do the Deal's cards: a card asking again for word on an ask already answered, or asking the reader to answer an ask already agreed, is left out and said, and an agreed ask the reader still has to do is said as theirs to do.
+- **The exception, until the Deal's holder repairs it at its root:** the Deal still deals "no word came back" on an ask already agreed, since `owed`'s receipt rows count only `receive` lines. `deal.render(plain)` shows it unless it is given the asks (`plain.three`'s `names` carries them).
+- The Deal's render and its paper card open on these plain lines. With `depth="full"`, each existing render stays whole below them. When the plain lines cannot be drawn, both depths give the render as it stood, never a false empty.
+
+**The check is the cold reader** (the fleet law's section **The cold reader**): an untrained reader, with only the surface and the three questions, tries to use it. Every word they had to guess is a defect, repaired before acceptance.
+
+*Status: from the person's words of 2026-10-31 (the second question amended at 12:19 to the wise right next steps), agreed the same day.*
+
 ## The paper floor
 
 One event is one line on a sheet: time · who · for whom · type · what · links · audience. The two passes, what is owed and commitments kept are worked on the same sheet. A witnessed paper sheet beats the typed copy. On paper, a line is signed by hand; in files, an unsigned line counts only in the reader's own home.

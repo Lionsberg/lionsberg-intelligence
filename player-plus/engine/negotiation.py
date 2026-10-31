@@ -1127,13 +1127,22 @@ def _terms_line(a):
     return ['  - agreed: %s' % _cell(_canon(a['terms']))] if a.get('terms') else []
 
 
-def render(asks_, actor=None):
+def render(asks_, actor=None, depth='full', names=None, waiting=None):
     """Markdown: what each ask waits on, and, for one actor, what is owed by them (to answer, to do).
 
     An ask lands in one place for a reader: under "Owed by you" when they owe its next move, else
-    under "Waiting on" when they are its asker or a party and another owes it."""
+    under "Waiting on" when they are its asker or a party and another owes it. `plain` says the
+    reader's side alone in sentences (plain.negotiation_lines): names, never ids, one state wording
+    per ask (with `waiting`, owed.waiting_on, for an ask with no moves), no round, no effort unsaid.
+    `full` (the default) is the Markdown as it stood."""
     rows = [a for a in (asks_ if isinstance(asks_, list) else []) if isinstance(a, dict)]
     me = _s(actor) or None
+    if depth == 'plain':
+        try:
+            import plain as plain_mod
+            return '\n'.join(plain_mod.negotiation_lines(rows, me, names, waiting)) + '\n'
+        except Exception:                             # a module mid-repair never stops the face
+            pass
     out = ['# The conversations for action', '']
     if me is None:
         out += ['## Waiting on', '']
