@@ -349,6 +349,21 @@ def permits(holon_dir, now=None):
     return dict(sorted(out.items()))
 
 
+def grant_for(fold, holon, now=None):
+    """Who holds a write permit in `holon`, read from a fold the caller already made (one that holds
+    both sides, so the Agreement's admission check can be made): {other holon or the person who
+    answered for it: {"write", "agreement"}}. Pure; honest-empty ({}) when no Agreement stands."""
+    if not isinstance(fold, dict) or not _s(holon):
+        return {}
+    out = {}
+    for other, row in _grants(fold, _s(holon), now):
+        entry = {'write': bool((row.get('permits') or {}).get('write')), 'agreement': row['id']}
+        out[other] = entry
+        party = _party(row, other)
+        if party:
+            out[party] = dict(entry)
+    return dict(sorted(out.items()))
+
 def _lines_of(path):
     """Each line of a JSONL file as raw text, never through a link; (lines, said)."""
     if not isinstance(path, str) or not os.path.isfile(path):

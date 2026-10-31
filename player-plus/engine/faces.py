@@ -462,6 +462,43 @@ def faces(home_dir, now=None):
     return out
 
 
+def face_for(home_dir, read=None, fold=None, now=None):
+    """What a carrier needs of this home's faces, through no private helper of this module.
+
+    `read` and `fold` (record.read_all and record.fold of the home) are reused when given, else made.
+    Returns {"home", "cells": {name: [id, dir]}, "own": [ids of the home's own record lines],
+    "faces": [{"agreement", "row", "cell", "cell_id", "face", "published": [ids already in the cell]}]}
+    for every live Agreement whose cell is joined here; honest-empty when the folder is not a home."""
+    out = {'home': None, 'cells': {}, 'own': [], 'faces': []}
+    if read is None:
+        got, _why = _home(home_dir)
+        if got is None:
+            return out
+        r = got[0]
+    else:
+        r = read
+    hid = r.get('home')
+    if not hid:
+        return out
+    f = fold if isinstance(fold, dict) else _fold(r, now)
+    keeper = (r.get('keepers') or {}).get(hid) or _s(record.holon_info(home_dir).get('keeper'))
+    cells = _cells(r, hid)
+    own = _own_lines(r, home_dir)
+    bad = sorted(_not_acting(f))
+    out.update(home=hid, cells={n: [i, d] for n, (i, d) in sorted(cells[0].items())},
+               own=sorted(l['id'] for l in own if isinstance(l.get('id'), str)))
+    for row in sorted((x for x in _rows(f, hid, now) if x.get('live')), key=lambda x: x['id']):
+        name, _notes = _resolve_cell(row, cells, hid)
+        if not name:
+            continue
+        cell_id = cells[0][name][0]
+        people = _people(row, f, hid, keeper)
+        held, widened = _vouched(r, f, cell_id, name, people)
+        face = face_of(row, own, people, audience=widened, trust=f.get('trust'), invalid=bad)
+        out['faces'].append({'agreement': row['id'], 'row': row, 'cell': name, 'cell_id': cell_id, 'face': face,
+                             'published': sorted(held)})
+    return out
+
 # ---------------------------------------------------------------- the membrane, for now: forge permissions
 
 def _forge_name(v, slot):
