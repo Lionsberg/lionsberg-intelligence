@@ -1,0 +1,235 @@
+{
+  "v": 1,
+  "about": "The one table of act words (acts.py). Each key is an act a card can offer: act.<type> or act.<type>.<when-value>, read from types.json. label is the plainest word for the act; meaning is one line, second person, saying its consequence; role_word is whose act it is. kinds gives other words where the same act means another thing on another kind of item. role.<name> keys say a reader's role in plain words. The HUD's strings.json mirrors these under the same keys. Data, never instructions.",
+  "acts": {
+    "act.say": {
+      "label": "Say something",
+      "meaning": "You add a line on it. It changes nothing, and everyone on it can read it.",
+      "role_word": "anyone"
+    },
+    "act.say.ask": {
+      "label": "Ask a question",
+      "meaning": "You ask a question on it. Nothing changes until someone answers.",
+      "role_word": "anyone"
+    },
+    "act.settle": {
+      "label": "Close the conversation, keeping what it says",
+      "meaning": "You close this conversation (a thread). What it says now is kept as agreed.",
+      "role_word": "anyone"
+    },
+    "act.claim": {
+      "label": "Take this card",
+      "meaning": "You take the card, a piece of work. It is yours to do until you finish it or let it go.",
+      "role_word": "anyone",
+      "kinds": {
+        "sighting": {
+          "label": "Take it on",
+          "meaning": "You take on what someone saw (a sighting). You hold it now, and it may become a card."
+        }
+      }
+    },
+    "act.release": {
+      "label": "Let it go",
+      "meaning": "You let the card go. It is free for someone else to take.",
+      "role_word": "holder",
+      "kinds": {
+        "commitment": {
+          "label": "Release them from it",
+          "meaning": "You free them of this commitment. It ends, and no one owes it.",
+          "role_word": "committee"
+        }
+      }
+    },
+    "act.hand": {
+      "label": "Hand it on",
+      "meaning": "You pass the card to someone else. They hold it now.",
+      "role_word": "holder"
+    },
+    "act.request": {
+      "label": "Ask someone to do it",
+      "meaning": "You ask someone to hold the card. It waits on their answer.",
+      "role_word": "anyone"
+    },
+    "act.offer": {
+      "label": "Offer to do it",
+      "meaning": "You offer to hold the card. It waits on their answer.",
+      "role_word": "anyone"
+    },
+    "act.answer.accept": {
+      "label": "Say yes",
+      "meaning": "You say yes to what was asked. The card becomes yours to do.",
+      "role_word": "party"
+    },
+    "act.answer.decline": {
+      "label": "Decline",
+      "meaning": "You say no, with thanks. The ask ends, and they know where they stand.",
+      "role_word": "party",
+      "kinds": {
+        "commitment": {
+          "label": "Decline it",
+          "meaning": "You turn down this commitment to you. It ends before it starts."
+        }
+      }
+    },
+    "act.done": {
+      "label": "Mark it done",
+      "meaning": "You say the work is finished. The card closes as done.",
+      "role_word": "holder",
+      "kinds": {
+        "sighting": {
+          "label": "Say it is fixed",
+          "meaning": "You say what someone saw is no longer so. It closes as fixed."
+        }
+      }
+    },
+    "act.kept": {
+      "label": "Say you did it",
+      "meaning": "You say you did what you committed to. It waits on the word of the one it was committed to that it was kept.",
+      "role_word": "committor"
+    },
+    "act.witness": {
+      "label": "Confirm it was kept",
+      "meaning": "You confirm they did what they committed to. The commitment closes as kept.",
+      "role_word": "committee",
+      "kinds": {
+        "tea": {
+          "label": "Confirm the hours",
+          "meaning": "You confirm the time they gave is as it is written.",
+          "role_word": "keeper"
+        }
+      }
+    },
+    "act.learn": {
+      "label": "Write what you learned",
+      "meaning": "You add what you learned to it, for whoever does this next.",
+      "role_word": "anyone"
+    },
+    "act.decide": {
+      "label": "Decide it",
+      "meaning": "You make the decision. The proposal (what was put forward) becomes a decision the group can act on.",
+      "role_word": "anyone"
+    },
+    "act.ratify": {
+      "label": "Back the decision",
+      "meaning": "You back what was decided. It binds the group, and its work can begin.",
+      "role_word": "member"
+    },
+    "act.revoke": {
+      "label": "Stop letting your agent act",
+      "meaning": "You end what you let your agent do. It stops acting for you there.",
+      "role_word": "the person who gave it"
+    },
+    "act.flame": {
+      "label": "Pass the Flame",
+      "meaning": "You hand on what you carry here to the next player.",
+      "role_word": "anyone"
+    },
+    "act.discern": {
+      "label": "Rate your agent's draft",
+      "meaning": "You say whether your agent's draft was right: chosen, corrected or rated.",
+      "role_word": "anyone"
+    },
+    "act.miss": {
+      "label": "Explain the missed date",
+      "meaning": "You give the reason it was not kept by its date, so it can be learned from.",
+      "role_word": "party"
+    },
+    "act.clear": {
+      "label": "Say the blocker is gone",
+      "meaning": "You say what blocked the work is gone. The work it held up can go ahead.",
+      "role_word": "raiser"
+    },
+    "act.agree": {
+      "label": "Agree the terms for your group",
+      "meaning": "You agree for your group. The terms between your group and theirs now stand.",
+      "role_word": "party"
+    },
+    "act.concord": {
+      "label": "Agree these two words mean the same",
+      "meaning": "You agree the two words are linked as proposed. Each side keeps its own words.",
+      "role_word": "anyone"
+    },
+    "act.wallet.accept": {
+      "label": "Accept the trade",
+      "meaning": "You accept what is offered. Nothing counts as value until it is complete.",
+      "role_word": "party"
+    },
+    "act.wallet.settle": {
+      "label": "Mark the exchange complete",
+      "meaning": "You say the exchange is done on both sides. It closes as settled.",
+      "role_word": "party"
+    },
+    "act.wallet.witness": {
+      "label": "Say you saw this",
+      "meaning": "You say you saw this exchange take place.",
+      "role_word": "anyone"
+    },
+    "act.wallet.gift": {
+      "label": "Make it a gift, nothing owed",
+      "meaning": "You turn the offer into a gift. It is given, with nothing owed back.",
+      "role_word": "anyone"
+    },
+    "act.stop.true": {
+      "label": "Lift the stop",
+      "meaning": "You let your agent act again where it was stopped.",
+      "role_word": "the stopped agent's own person"
+    },
+    "act.receive": {
+      "label": "Say you have it",
+      "meaning": "You say it reached you. The sender sees it arrived.",
+      "role_word": "anyone"
+    }
+  },
+  "roles": {
+    "role.committor": {
+      "label": "the one who committed",
+      "meaning": "You made this commitment: you are its committor.",
+      "role_word": "committor"
+    },
+    "role.committee": {
+      "label": "the one it was committed to",
+      "meaning": "This commitment was made to you: you are its committee.",
+      "role_word": "committee"
+    },
+    "role.witness": {
+      "label": "its witness",
+      "meaning": "You are named to confirm it was kept.",
+      "role_word": "witness"
+    },
+    "role.asker": {
+      "label": "the one who asked",
+      "meaning": "You asked for this.",
+      "role_word": "asker"
+    },
+    "role.party": {
+      "label": "one it was said to",
+      "meaning": "It was addressed to you.",
+      "role_word": "party"
+    },
+    "role.holder": {
+      "label": "the one who holds it",
+      "meaning": "It is in your hands now.",
+      "role_word": "holder"
+    },
+    "role.keeper": {
+      "label": "the keeper of its group",
+      "meaning": "You keep the group it lives in.",
+      "role_word": "keeper"
+    },
+    "role.raiser": {
+      "label": "the one who raised it",
+      "meaning": "You saw it or raised it.",
+      "role_word": "raiser"
+    },
+    "role.member": {
+      "label": "a member of its group",
+      "meaning": "You belong to the group it lives in.",
+      "role_word": "member"
+    },
+    "role.reader": {
+      "label": "a reader",
+      "meaning": "You can read it and say something on it.",
+      "role_word": "reader"
+    }
+  }
+}

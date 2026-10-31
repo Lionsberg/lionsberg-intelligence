@@ -3,7 +3,7 @@
 
     three(home_dir, actor, now=None, state=None, minutes=None)
         -> {"connected": [{holon, name, sentence, color_word, do}],
-            "next": [{id, sentence, step, why, how, minutes, by, kind, owed}],
+            "next": [{id, sentence, step, why, how, how_act, act, minutes, by, kind, owed}],
             "waiting": [{id, sentence, who, since_words, words}],
             "summary": {connected, next, owed, waiting}, "said", "as_of", "source"}
     render(three_result, depth="plain") -> text: the sentences; "full" adds the tables after them
@@ -65,6 +65,9 @@ HOW_VOICE = 'tell your agent yes or no'        # the one way to answer on every 
 HOW_PAPER = 'tick one and hand it back'         # the one way to answer on the paper card
 HOW_DONE = 'tell your agent when it is done'    # a step agreed and yours to do
 HOW_CONNECTION = 'ask your agent what is wrong'
+HOW_ACT_VOICE = 'tell your agent "%s"'         # a step that is an act: said by its label, from acts.json
+HOW_ACT_PAPER = 'tick "%s" and hand it back'
+HOW_READS_ACT = False   # True: `how` itself says the act's label; off while every plain page keeps one way to answer
 EMPTY_NOTHING_FITS = 'Nothing fits the time you have.'
 EMPTY_CONNECTED = 'You are not connected to anyone yet.'
 EMPTY_NEXT = 'Nothing to do.'
@@ -521,6 +524,23 @@ def _unlocks_why(c, reader, names, said):
     return 'then ' + u[:1].lower() + u[1:]
 
 
+def step_act(c):
+    """The act a dealt card's recommendation writes, with its words from acts.json: {key, label, meaning},
+    or None when the recommendation is no act the reader is offered (the card's `offers.options`)."""
+    o = c.get('offers') if isinstance(c, dict) and isinstance(c.get('offers'), dict) else {}
+    row = next((r for r in o.get('options') or [] if isinstance(r, dict) and r.get('recommended')), None)
+    if not row or not row.get('offered') or not _s(row.get('key')):
+        return None
+    try:
+        import acts as acts_mod
+        w = acts_mod.words(row['key'], _s(o.get('kind')) or None)
+    except Exception:                     # noqa: BLE001 — no words, no act said
+        return None
+    if not _s(w.get('label')):
+        return None
+    return {'key': row['key'], 'label': w['label'], 'meaning': w.get('meaning')}
+
+
 def next_step(c, reader=None, names=None, paper=False, said=None, ask=None):
     """One dealt card as a next step: {id, sentence, step, why, how, minutes, by, kind, owed}. With `ask`
     (the conversation for action the card is about) agreed and the reader's to do, it is worded from
@@ -568,6 +588,10 @@ def next_step(c, reader=None, names=None, paper=False, said=None, ask=None):
         why = 'it was sent to you'
     why = why.replace('{w}', w).replace('{h}', h)
     how = HOW_PAPER if paper else HOW_VOICE
+    act = step_act(c)
+    how_act = ((HOW_ACT_PAPER if paper else HOW_ACT_VOICE) % act['label']) if act else None
+    if HOW_READS_ACT and how_act:
+        how = how_act
     title = scrub(ask.get('title'), reader, names, said) if doing and _s(ask.get('title')) else \
         _card_title(c, reader, names, said)
     body = tpl.replace('{w}', w).replace('{h}', h).replace('{r}', scrub(rec, reader, names, said)).replace('{by}', by)
@@ -597,7 +621,7 @@ def next_step(c, reader=None, names=None, paper=False, said=None, ask=None):
     return {'id': _s(c.get('id')) or None, 'sentence': sentence,
             'step': body.replace('{t}', _title(title)), 'why': why, 'how': how, 'minutes': mins,
             'minutes_words': minutes_words(mins) or None, 'by': _s(c.get('by')) or None, 'kind': kind or None,
-            'owed': sec == 'owed', 'stopped': bool(c.get('stopped'))}
+            'owed': sec == 'owed', 'stopped': bool(c.get('stopped')), 'act': act, 'how_act': how_act}
 
 
 def deal_steps(d, names=None, paper=False, said=None):

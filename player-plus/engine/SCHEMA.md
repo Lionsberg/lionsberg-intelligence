@@ -567,6 +567,35 @@ Every person-facing surface opens on three questions, each answered in sentences
 
 *Status: from the person's words of 2026-10-31 (the second question amended at 12:19 to the wise right next steps), agreed the same day.*
 
+## One card, everywhere: the acts a card offers
+
+*Status: the kit's reading of the person's direction of 2026-10-31: a card behaves the same way wherever it appears. Agreed the same day (`acts.py`, `acts.json`).*
+
+**Computed, never written by a surface.** The acts a card offers come from the registry. For an item of the fold, an act is offered when four things hold:
+
+1. A line type's `acts_on` names the item's kind.
+2. One of its transitions for that kind fits, tried in order as the fold tries them. Its `from` holds the item's state, and its `who` admits the reader. The `who` check is `record._who_ok` itself.
+3. `human_only` holds, and a `home_only` act is offered only in the person's own home.
+4. An agent is offered only what `gamecore.may_act` allows under a live delegation, read with the card's own kind, and never a person's own act.
+
+An agent is read as the person it answers for here. Only delegations that reach the item's holon count. If they name more than one person, the agent is offered nothing that acts.
+
+Each `when` of a type is its own act (answer accept, answer decline). The reader's role comes from `acts.roles`, in a fixed order: committor · committee · witness · asker · party · holder · keeper · raiser · member · reader. The committor's acts go to the committor and the committee's to the committee. On what changes state, the two never overlap.
+
+**Stops.** While a live stop binds an agent on an item (`stops.live`, then `stops.binds`, as the Deal reads them), the agent is offered nothing, the say included. `stopped` names the stop, `why_not` says the agent is stopped, and no option of the card is offered. A stop binds agents, never the person.
+
+**The say is always offered to a person.** A note is never refused. A `say` anchored to the item is offered with its question form, `intent: ask`, beside it. Three readings belong to the module, each a named constant that can be overridden:
+
+- `receive` is written on arrival, never chosen on a card.
+- When a type's move is refused and only its note would fold, the type is not offered; the say is offered instead.
+- A move to the state the item already holds is not offered.
+
+**One table of act words.** `acts.json` keys each act `act.<type>` or `act.<type>.<when-value>`. Each key has a label (the plainest word), a meaning (one line, second person, its consequence, with any rare word defined there once) and a role word. Where an act means something else on another kind of item, the key carries words of its own for that kind. `acts.py check` proves every key the registry can produce has words. Each act carries `writes`, the line it writes: its type, the body fields it needs, and its link to the item.
+
+**The Deal carries `offers`.** Every dealt card carries `offers`: `acts.offered` for the dealt actor, given the card. The primary act is the one the card's recommended option writes, when the reader is offered it; read alone, a fixed table taken from the Deal's frames decides. Beside it sits `offers.options`: what each of the card's options writes, as an act, so a surface sends the line and not the word. A say option carries the option's own words, or `needs_words` when the person's own reply goes there. An option the reader may not take says so. The card's `acts` and options are unchanged.
+
+**One way to answer.** `plain.next_step` reads the recommended act's label from `acts.json` and gives it as `how_act`. Its `how` keeps the one way to answer on every plain page. `plain.HOW_READS_ACT` would put the label into `how` itself; it stays off. Every surface draws the same card from these (Q2b, where the HUD's `strings.json` mirrors the table under the same keys).
+
 ## The paper floor
 
 One event is one line on a sheet: time · who · for whom · type · what · links · audience. The two passes, what is owed and commitments kept are worked on the same sheet. A witnessed paper sheet beats the typed copy. On paper, a line is signed by hand; in files, an unsigned line counts only in the reader's own home.

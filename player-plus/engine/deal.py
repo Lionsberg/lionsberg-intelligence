@@ -77,6 +77,10 @@ about: the level computed from what that Card carries, the field that would lift
 why. It is never a gate and never a demand: it changes no other field and no act. Honest-empty
 (name None) when there is no item to read.
 
+THE OFFERS. Every card carries `offers`: acts.offered for the dealt actor on the item it is about
+(the acts the reader's role may take, computed from types.json, with their words from acts.json),
+and `offers.options`: what each of the card's options writes, as an act. It changes no other field.
+
 STOPS. Any person may stop any agent (a `stop` line). While a live stop binds the actor's agent
 (or the actor, when the actor is an agent) for a card's holon, thread or line, the card is dealt
 with its acts withheld (`acts: []`, `stopped: {stop, by, why}`), and the Deal says so in one line
@@ -130,6 +134,10 @@ try:
     import level as level_mod
 except ImportError:                       # each card's level is then said honest-empty
     level_mod = None
+try:
+    import acts as acts_mod
+except ImportError:                       # each card's offers are then said honest-empty
+    acts_mod = None
 
 HORIZON_D = 14.0       # a successor with more float than this frees nothing yet
 HALF_D = 3.0           # three days of float counts half
@@ -401,6 +409,7 @@ def deal(items, schedule_report, actor, minutes_available, room=None, now=None, 
             _carry_sender(x, sender_word(src, r.get('body'), r.get('from'), x.get('by'), r.get('voice')))
     attach_levels(cands, norm, questions)   # each card's level: computed, never a gate; changes no act
     stopped = apply_stops(cands, items, fold, norm, actor, t, lines)
+    attach_offers(cands, norm, actor, t, holons, items, fold)   # the acts each card offers: computed, never written here
 
     order = {'owed': 0, 'thread': 1, 'decision': 2, 'ready': 3}
     for x in cands:                       # what the attention gate reads on every card
@@ -1520,6 +1529,47 @@ def attach_levels(cands, norm, questions=None):
                           'why': lv.get('why') or LEVEL_NONE}
         except Exception:                 # noqa: BLE001 — honest-empty, never a failed Deal
             x['level'] = {'name': None, 'lifts': [], 'why': LEVEL_NONE}
+
+
+OFFERS_NONE = 'The acts could not be read here, so none are offered.'
+
+
+def acts_context(norm, holons=None, stops=None):
+    """What acts.offered reads beside the item: the normalized items with the holons given (for keepers)
+    and the fold's stop items (for a stopped agent)."""
+    ctx = dict(norm) if isinstance(norm, dict) else {}
+    ctx['holon'] = list(ctx.get('holon') or []) + [h for h in holons or [] if isinstance(h, dict)]
+    ctx['stops'] = [x for x in stops or [] if isinstance(x, dict)]
+    return ctx
+
+
+def attach_offers(cands, norm, actor, now, holons=None, items=None, fold=None):
+    """Each framed card gains `offers`: acts.offered for this actor on the item the card is about (the
+    acts its reader's role may take, computed from the registry, the primary being the one the card
+    recommends), and `offers.options`: what each of the card's options writes, as an act
+    (acts.options_for), so a surface sends the line, not the word. A stopped agent is offered nothing.
+    It changes no other field: the card's `acts` and options stay as they are. Honest-empty when
+    there is no item or acts.py cannot be read."""
+    src = {}
+    for xs in (norm or {}).values():
+        for it in xs or []:
+            i = item_id(it)
+            if i and i not in src:
+                src[i] = it
+    adm = None
+    for f in (fold, items):
+        if isinstance(f, dict) and isinstance(f.get('admitted'), dict):
+            adm = f['admitted']
+            break
+    ctx = acts_context(norm, holons, _stop_items(items, fold, norm))
+    for x in cands:
+        try:
+            o = acts_mod.offered(src.get(x.get('id')), actor, folded=ctx, now=now, admitted=adm, card=x)
+            o['options'] = acts_mod.options_for(x, o)
+        except Exception:                 # noqa: BLE001 — honest-empty, never a failed Deal
+            o = {'acts': [], 'kind': None, 'role': None, 'roles': [], 'for': None, 'stopped': None, 'why_not': [],
+                 'said': OFFERS_NONE, 'options': []}
+        x['offers'] = o
 
 
 def _load(p):
