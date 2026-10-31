@@ -11,7 +11,7 @@
 - **Contract:**
   - **With the ICE above it:** `STATE.md`, chiefly `cards`, `path`, `buffers`, `load` and `plan`.
   - **What it reads below it:** the Record's contract, `SCHEMA.md` (the lines, the types in `types.json`, the fold). It also reads `calendar.json` (`markers` and working days) and `holon.json` (`places`, `periods`, `home_place`, `capacity_assumed`, `targets`, `baseline`).
-- **Tests:** `tests/test_schedule.py`, `test_plan.py`, `test_chain.py`, `test_resources.py`, `test_lps.py`, `test_sbs.py`, `test_exports.py`, `test_capture.py`, `test_two_houses.py` and `test_game.py`. The Record's and the Proxy's tests sit beside them and are theirs.
+- **Tests:** `tests/test_schedule.py`, `test_plan.py`, `test_chain.py`, `test_resources.py`, `test_reliability.py`, `test_sbs.py`, `test_exports.py`, `test_capture.py`, `test_two_houses.py` and `test_game.py`, with a module of its own for each module of the collaboration surface. The Record's and the Proxy's tests sit beside them and are theirs. In all, `engine/tests/` holds 46 test modules and 1595 tests (1 skipped), the three layers' together.
 
 ## The boundary: which files in `engine/` are this layer
 
@@ -19,11 +19,11 @@
 
 | layer | files |
 |---|---|
-| **The Game Engine (this layer)** | `schedule.py` (the two passes) · `plan.py` (the whole, in one call) · `chain.py` · `resources.py` · `lps.py` · `sbs.py` · `exports.py` · `capture.py` · `gamecore.py` · `deal.py` · `owed.py` · `kept.py` · `turn.py` · `ledger.py` · `ladder.py` · `sightings.py` · `attention.py` · `emergency.py` · `push.py` · `rooms.py` · `bodies.py` · `agreement.py` · `subscriptions.py` · `receipt.py` · `pull.py` · `heartbeat.py` · `wallet.py` · `concordance.py` · `engine.py` (the state builder) · `STATE.md` |
+| **The Game Engine (this layer)** | `schedule.py` (the two passes) · `plan.py` (the whole, in one call) · `chain.py` · `resources.py` · `reliability.py` (and `lps.py`, its shim for one release) · `sbs.py` · `exports.py` · `capture.py` · `gamecore.py` · `deal.py` · `owed.py` · `kept.py` · `turn.py` · `ledger.py` · `ladder.py` · `sightings.py` · `attention.py` · `emergency.py` · `push.py` · `rooms.py` · `bodies.py` · `agreement.py` · `subscriptions.py` · `receipt.py` · `pull.py` · `heartbeat.py` · `wallet.py` · `concordance.py` · `negotiation.py` · `directory.py` · `carry.py` · `stops.py` · `connections.py` · `level.py` · `plain.py` · `acts.py` · `acts.json` · `engine.py` (the state builder) · `STATE.md` |
 | **The Record** | `record.py` · `holon.py` · `card.py` · `xid.py` · `keepsafe.py` · `voice.py` · `faces.py` · `permitted.py` · `conformance.py` · `types.json` · `SCHEMA.md` · `fixtures/` |
 | **The Proxy** | `proxy.py` · `routes.json` · `vendors.sample.json` · `mail.py` (its door to mail) |
 
-**The rule:** an Engine module imports only other Engine modules and the standard library. It reads the Record through the fold's output and `types.json` as data, never through `record.py`'s insides. The exception today is `engine.py`, the state builder, which calls `record.read`/`fold`. That is the one door between the layers.
+**The rule:** an Engine module imports only other Engine modules and the standard library. It reads the Record through the fold's output and `types.json` as data, never through `record.py`'s insides. The exception today is `engine.py`, the state builder, which calls `record.read`/`fold`. That is the one door between the layers. The rule is the aim and not yet the fact: of this layer's modules, `acts`, `carry`, `concordance`, `connections`, `deal`, `directory`, `heartbeat`, `ledger`, `negotiation`, `pull`, `receipt`, `rooms`, `sightings`, `stops`, `subscriptions`, `turn` and `wallet` import `record.py` today (`acts` reads who may make an act through `record._who_ok`, so a card offers only what the fold accepts). They are named here so the boundary is drawn true, and they move behind the one door as the layers move apart.
 
 ## The one engine: what it computes
 
@@ -33,7 +33,7 @@
 2. **Resources.** Actors by id; capacity from Pledges, else the assumed number, said as assumed; the level of commitment across every holon and Quest; TEA (the Living's alone), Fiat and Tokens per card and unit.
 3. **The two passes again,** on each Actor's own minutes a day.
 4. **The chain.** The leveled pour, the critical chain traced, root-sum-of-squares project and feeding buffers over the two estimates, the fever chart, release by pull, and the day: Should and Can per Actor, with unsized cards apart. Will is never computed.
-5. **The Last Planner measures.** PPC, PRC, the commitment level, misses with their eight reason codes, the constraint log, make-ready over the six-week look-ahead, red-yellow-green, target value and the weekly work plan.
+5. **How reliably the plan is kept** (`reliability.py`). Commitments kept by week and by committor (`ppc`), and on critical cards (`prc`), the commitment level, misses with their eight reason codes, the constraint log, make-ready over the six-week look-ahead, red-yellow-green, target value and the weekly work plan.
 6. **The SpaceTime Breakdown Structure,** then the exports (MS Project XML, the wall page, CSV), and capture (rows read from a photo become proposals the person confirms).
 
 **Every module keeps:**

@@ -13,10 +13,15 @@
 - **The heartbeat** (`heartbeat`): one always-on process per holon; `bodies` shows the cost per wake and per day.
 - **The wallet and Concordances** (`wallet`, `concordance`), each minimal.
 - **Hand-written Cards** are read from the home's `cards/` and shown as paper; every section of the state carries `as_of`.
+- **The conversation for action** (`negotiation`): the moves folded into an ask's state, the four shapes, mandates and voice; `why` and `effort` in the Deal and owed; the sender's "waiting on". **The directory** (`directory`), **the carriers** (`carry`) and **the stop** (`stops`): a live stop withholds every act and delivery of the agents it binds, until each agent's own person lifts it.
+- **Connections** (`connections`): for each connected holon, its own Condition (never computed), the pulse in two directions from lines both hold, our ear apart, what is between us, and a drafted question on each change of color; an agent's Sighting counts only once its person stands on it.
+- **Levels of play** (`level`, `plain`): the level of a Card from what it carries, one ladder per kind read against the registry, never a gate, and the one field that lifts it on every dealt card; the three answers in sentences, with the tables on a pull.
+- **One card, everywhere** (`acts`, `acts.json`): the acts a card offers, computed from the registry's transitions and who may make them, in the reader's role, under delegations and stops; one table of act words; every dealt card carries `offers` and `level`.
+- **How reliably the plan is kept** (`reliability`, which replaces `lps`; `lps` stays one release as a shim): the plan's output key is `reliability`, and the state's keys are unchanged. The readers of a commitment that no longer counts list `returned` and `withdrawn`.
 
-**What it asks of the Record:** the lines `receive`, `agree`, `subscribe`, `concord`, `correct`, `wallet`, `limits`, `share`, `voice`; the message fields on `say`; the Sighting's nine kinds and lifecycle; `xid` on admission lines; `elided` on `publish`; `seconds` on a `body` line; `when_item` and `initial_by` in the registry's grammar; `permitted/` in the layout; the Markdown Card.
+**What it asks of the Record:** the lines `receive`, `agree`, `subscribe`, `concord`, `correct`, `wallet`, `limits`, `share`, `voice`, `move`; `stop` and `condition`; `why`, `effort`, `shape`, `quorum` and `voice` on an ask; `voice` on a `sight`; `mandate` on a delegation; `who` on the transitions of answer, release, done, hand, ratify, decide, claim from taken and a committor's release, with `admitted_here`, `committed_by` and `started` written only by the fold; the commitment states `returned` and `withdrawn`; the message fields on `say`; the Sighting's nine kinds and lifecycle; `xid` on admission lines; `elided` on `publish`; `seconds` on a `body` line; `when_item` and `initial_by` in the registry's grammar; `permitted/` in the layout; the Markdown Card.
 
-**Tests:** 1217 in the engine (1 skipped); 662 more than 1.0.1.
+**Tests:** 1621 in the engine (1 skipped), in 46 test modules; 1066 more than 1.0.1.
 
 ## game-engine 1.0.1 — 2026-10-30 — the conformance sheet keeps the contract
 
@@ -43,7 +48,7 @@
   - Rows carry their routed `preds`.
 
 **The whole engine** (`plan.py`), with five new modules and capture:
-- `resources`, `chain`, `lps`, `sbs` and `exports`, each with its tests;
+- `resources`, `chain`, `lps` (named `reliability` from 1.1.0), `sbs` and `exports`, each with its tests;
 - `capture`, with its tests;
 - `run_plan` in the state builder and `plan` in STATE.md.
 
