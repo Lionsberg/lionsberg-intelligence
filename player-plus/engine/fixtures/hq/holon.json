@@ -1,8 +1,9 @@
 {
  "v": 1,
- "id": "9792d22ea7e5f860a74d0fbcbfb346bf8cc405e05248b456f57f058fefe21723",
+ "id": "045542d6515e7f307554f7c966d1f6d9da8a0abd22a8d90f03518eaec8774386",
  "name": "player-hq",
  "kind": "person",
  "keeper": "person:player",
- "created": "2026-10-20T09:01:00-07:00"
+ "created": "2026-10-20T09:01:00-07:00",
+ "xid": "b64f3e04a19e4b016078f8d2341de1bd244c5021b859151cf72e0fbef0d35fc7"
 }

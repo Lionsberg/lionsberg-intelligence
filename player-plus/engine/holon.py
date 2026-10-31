@@ -102,6 +102,9 @@ def init(dir, name, kind, keeper, ts=None, salt=None, sign=None, types_path=None
     body = {'name': name, 'kind': kind, 'role': 'inception', 'contract': record.CONTRACT}
     if key:
         body['pubkey'] = record.pubkey_of(key)
+        x = record.xid_for_key(body['pubkey'])
+        if x:
+            body['xid'] = x   # the keeper's XID: the inception key's hash, for life
     hk_tmp, hk_given = None, isinstance(holon_key, str) and os.path.isfile(holon_key)
     if holon_key and sign is not False:
         kd = key_dir or os.environ.get('LIONSBERG_KEY_DIR') or os.path.expanduser('~/.ssh')
@@ -128,6 +131,8 @@ def init(dir, name, kind, keeper, ts=None, salt=None, sign=None, types_path=None
             move(hk_tmp + '.pub', hk + '.pub')
     info = {'v': 1, 'id': line['id'], 'name': name, 'kind': kind, 'keeper': keeper,
             'created': line['ts']}
+    if body.get('xid'):
+        info['xid'] = body['xid']
     _write_json(os.path.join(dir, 'holon.json'), info)
     src = types_path or os.path.join(HERE, 'types.json')
     if os.path.isfile(src) and not os.path.exists(os.path.join(dir, 'types.json')):
@@ -139,16 +144,20 @@ def init(dir, name, kind, keeper, ts=None, salt=None, sign=None, types_path=None
     return {'dir': dir, 'holon': info, 'inception': line, 'key': key, 'holon_key': hk, 'said': said}
 
 
-def admit(dir, admitter, who, pubkey=None, ts=None, salt=None, sign=None, key_dir=None):
+def admit(dir, admitter, who, pubkey=None, ts=None, salt=None, sign=None, key_dir=None, xid=None):
     """Let a person into a holon: a `join` line by an admitted person naming them and their public key.
 
-    The fold admits `who` only when this line is itself trusted (signed by the admitter's
+    `xid`, when given, is the person's XID for life (their home's inception key's), carried as
+    body.xid, a claim the fold checks; else the XID of `pubkey`. The fold admits `who` only when this line is itself trusted (signed by the admitter's
     admitted key, or at the home's paper floor). Returns record.append's result."""
     if not record._str(who).startswith('person:'):
         raise ValueError('admit lets a person in; an agent is let in with affirm')
     body = {'who': who, 'role': 'member'}
     if pubkey:
         body['pubkey'] = pubkey
+        x = record._str(xid).strip().lower() or record.xid_for_key(pubkey)
+        if x:
+            body['xid'] = x
     return record.append(dir, admitter, admitter, 'join', body, ts=ts, salt=salt, sign=sign, key_dir=key_dir)
 
 
@@ -163,6 +172,9 @@ def affirm(dir, person, agent, pubkey=None, ts=None, salt=None, sign=None, key_d
     body = {'agent': agent}
     if pubkey:
         body['pubkey'] = pubkey
+        x = record.xid_for_key(pubkey)
+        if x:
+            body['xid'] = x
     hid = record._str(record.holon_info(dir).get('id'))
     if hid:
         body['room'] = hid

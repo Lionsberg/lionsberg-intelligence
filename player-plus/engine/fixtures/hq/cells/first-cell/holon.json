@@ -1,8 +1,9 @@
 {
  "v": 1,
- "id": "1d0e11c449ca6d949cb898f6c7f67c9c28cc43f8be5e4c1d6e632270e7e50924",
+ "id": "d70e19a136e653a45005ad1d4c46da6a1000eb569159dbd56beb3f8d6d8e3846",
  "name": "first-cell",
  "kind": "cell",
  "keeper": "person:steward",
- "created": "2026-10-20T09:02:00-07:00"
+ "created": "2026-10-20T09:02:00-07:00",
+ "xid": "eaa26e9e28cd370ada4c3368a52eda67d7f42c01db2ed1e6dc26db7ac8a73199"
 }

@@ -372,6 +372,35 @@ def key_id(pubkey):
     return 'SHA256:' + base64.b64encode(hashlib.sha256(blob).digest()).decode('ascii').rstrip('=')
 
 
+_XID_MODULE = []   # the sibling xid.py, loaded once by its path
+
+
+def _xid_module():
+    """The xid.py beside this file, loaded by path (never another `xid` on the path), or None."""
+    if not _XID_MODULE:
+        p = os.path.join(HERE, 'xid.py')
+        try:
+            import importlib.util
+            if not os.path.isfile(p) or os.path.islink(p):
+                return None
+            spec = importlib.util.spec_from_file_location('_lionsberg_xid', p)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+        except Exception:   # a missing or broken xid.py: no XID, said as None
+            return None
+        _XID_MODULE.append(mod)
+    return _XID_MODULE[0]
+
+
+def xid_for_key(pubkey):
+    """The XID of a public key (xid.py: SHA-256 of the key's tagged CBOR), or None when it is not ssh-ed25519."""
+    m = _xid_module() if _str(pubkey) else None
+    try:
+        return m.try_xid(pubkey) if m else None
+    except Exception:
+        return None
+
+
 def body_digest(body):
     """The digest a once-delegation may name: sha256 of the body's canonical JSON, without its salt."""
     b = body if isinstance(body, dict) else {}
@@ -1103,6 +1132,33 @@ def holon_keys(holon_dir, home=False):
     return {a: e.get('pubkey') for a, e in (f.get('admitted') or {}).get(r['holon'], {}).items() if e.get('pubkey')}
 
 
+def actor_by_xid(fold_out, xid, holon_id=None):
+    """The one actor admitted under this XID (in `holon_id`, else in any holon folded), or None. Pure.
+
+    An XID is the hash of a public key, and any admitter can admit anyone's key, so when more
+    than one actor in scope holds it, none is chosen (the fold flags it `xid_shared`)."""
+    want = _str(xid).strip().lower()
+    adm = fold_out.get('admitted') if isinstance(fold_out, dict) else None
+    if not want or not isinstance(adm, dict):
+        return None
+    found = set()
+    for h in adm:
+        room = adm[h] if isinstance(h, str) and isinstance(adm[h], dict) else {}
+        if holon_id is not None and h != holon_id:
+            continue
+        found |= {a for a, e in room.items() if isinstance(a, str) and isinstance(e, dict)
+                  and _str(e.get('xid')).lower() == want}
+    return found.pop() if len(found) == 1 else None
+
+
+def xid_of_actor(fold_out, holon_id, actor):
+    """The XID an actor was admitted under in a holon (its first key's; a rotation keeps it), or None. Pure."""
+    adm = fold_out.get('admitted') if isinstance(fold_out, dict) else None
+    room = adm.get(holon_id) if isinstance(adm, dict) and isinstance(holon_id, str) else None
+    e = room.get(actor) if isinstance(room, dict) and isinstance(actor, str) else None
+    return (_str(e.get('xid')) or None) if isinstance(e, dict) else None
+
+
 def holon_pubkey(holon_dir):
     """The holon's own public key, from its inception line (`body.holon_pubkey`), or ''."""
     r = read(holon_dir)
@@ -1750,6 +1806,56 @@ def _apply(item, spec_list, line, body, keepers, kind_filter=True):
 
 # ---------------------------------------------------------------- the fold: trust
 
+def _xid_flags(order, inceptions, trust, admitted, flags):
+    """Flag an admission's body.xid that disagrees (`xid_mismatch`), and an XID two actors hold (`xid_shared`).
+
+    body.xid is a claim: checked against the XID of the first key admitted for that actor in
+    that holon (else its own body.pubkey's), and, where the actor's home is held, against the
+    home's inception key's. The computed XID is the one kept."""
+    homes = {}
+    for hid in sorted(inceptions):
+        l = inceptions[hid]
+        if (l.get('body') or {}).get('kind') == 'person' and trust.get(hid) in TRUSTED:
+            x = ((admitted.get(hid) or {}).get(l.get('actor')) or {}).get('xid')
+            if x:
+                homes[l.get('actor')] = x
+    for l in order:
+        b = l.get('body') if isinstance(l.get('body'), dict) else {}
+        if l.get('type') not in ('join', 'affirm') or 'xid' not in b:
+            continue
+        inc = l['id'] in inceptions
+        H = l['id'] if inc else _str(l.get('holon'))
+        who = l.get('actor') if inc else b.get('who' if l.get('type') == 'join' else 'agent')
+        claim = _str(b.get('xid')).strip().lower()
+        first = ((admitted.get(H) or {}).get(who) or {}).get('xid') if isinstance(who, str) else None
+        here = first or xid_for_key(_str(b.get('pubkey'))) or ''
+        home = homes.get(who) if isinstance(who, str) else None
+        if claim != here or (home and claim != home):
+            flags.append({'id': l['id'], 'flag': 'xid_mismatch',
+                          'said': ('its body.xid is not the XID of the first key admitted here' if claim != here
+                                   else 'its body.xid is not the XID of the actor\'s home inception key')
+                          + '; the XID computed from the key is kept'})
+    holders = {}
+    for h in sorted(admitted):
+        for a in sorted(admitted[h]):
+            x = admitted[h][a].get('xid')
+            if x:
+                holders.setdefault(x, []).append((h, a, admitted[h][a].get('by')))
+    for x in sorted(holders):
+        actors = sorted({a for _, a, _ in holders[x]})
+        if len(actors) > 1:
+            for h, a, by in holders[x]:
+                flags.append({'id': by, 'flag': 'xid_shared', 'holon': h, 'actor': a, 'actors': actors,
+                              'said': 'this XID is held by more than one actor; no reader finds an actor by it'})
+
+
+def _carry_xid(room):
+    """Give each admitted entry its XID once, from the first key it holds; a rotation keeps it."""
+    for e in (room or {}).values():
+        if not e.get('xid') and e.get('pubkey'):
+            e['xid'] = xid_for_key(e['pubkey'])
+
+
 def _trust_pass(order, inceptions, keepers, ctx):
     """Decide each line's trust: signed · home · unverified · bad_signature · bad_admission · wrong_holon · hidden.
 
@@ -1777,10 +1883,13 @@ def _trust_pass(order, inceptions, keepers, ctx):
     paper = {}     # keyed actors' unsigned lines at home, waiting on a signed witness
     by_id_t = ctx.by_id
     ctx.clone_affirms = set()
+    last_h = None
     for l in order:
+        _carry_xid(admitted.get(last_h))   # the room the previous line may have changed
         lid = l['id']
         a = l.get('actor')
         H = l.get('holon') or (lid if lid in inceptions else '')
+        last_h = H
         sig = _str(l.get('sig'))
         body = l.get('body') if isinstance(l.get('body'), dict) else {}
         if not isinstance(a, str):
@@ -1923,6 +2032,8 @@ def _trust_pass(order, inceptions, keepers, ctx):
                 if pend and pend[0] == H and pend[3] == a and pend[1] in room:
                     room[pend[1]] = dict(room[pend[1]], pubkey=pend[2], by=x, via='rotate')
                     pending.pop(x, None)
+    for room in admitted.values():
+        _carry_xid(room)
     _vouch(order, trust, why, admitted, known, ctx)
     return trust, why, admitted
 
@@ -2229,6 +2340,7 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
     ctx.admitted = admitted
     ctx.keepers = keepers
     out['trust'] = trust
+    _xid_flags(order, inceptions, trust, admitted, out['flags'])
     held_forks, out['forks'], ctx.resolves = _forks(clean, trust)
     ahead = {f['id'] for f in out['flags'] if f['flag'] == 'ts_ahead'}
     if now:
@@ -2468,7 +2580,8 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
             item['vouched_by'] = ctx.vouched[item['id']]
     out['vouched'] = dict(ctx.vouched)
     out['admitted'] = {h: {a: {'pubkey': e.get('pubkey'), 'key_id': key_id(e.get('pubkey')), 'by': e.get('by'),
-                               'via': e.get('via'), 'person': e.get('person')} for a, e in m.items()}
+                               'via': e.get('via'), 'person': e.get('person'), 'xid': e.get('xid'),
+                               'xid_now': xid_for_key(e.get('pubkey'))} for a, e in m.items()}
                        for h, m in admitted.items()}
     out['as_of'] = as_of
     out['clock'] = clock_dt.isoformat(timespec='seconds')   # the reader's clock this fold was made by

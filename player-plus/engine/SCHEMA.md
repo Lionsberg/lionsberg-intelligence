@@ -254,6 +254,34 @@ A retracted concordance is never read. A row that misses a term or a lexicon, or
 
 **The field this reads from.** HyperKnowledge models conversations as event streams of statements. In those streams, a participant may propose new distinctions and sub-variants of a term, may reinterpret a statement, and relates concepts on a concept lattice (hyperknowledge.org, the Approach page: https://hyperknowledge.org/pages/approach.html). The kit's three relations, same · different · clearer, are the kit's own reading of that model, not terms taken from it. Concordances are fetched when they are needed and verified by hash; they are never shipped in the kit. The CLI is `python3 -I concordance.py ITEMS.json [--between A B] [--read TERM FROM TO] [--lines LINES.jsonl] [--json]`.
 
+## The XID: an identifier that outlives its keys
+
+*Placed after the other new sections, before **The paper floor**.*
+
+An actor's identifier and its key are different things. The handle (`person:<handle>`, `agent:<handle>`) names the actor on the line; the key signs; and beside both stands the **XID**, an identifier that stays for life while the keys rotate, are lost and are recovered. Its shape is Blockchain Commons' XID ([BCR-2024-010](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2024-010-xid.md), December 2024, a work in progress): a 32-byte identifier, written here as 64 lowercase hex (`xid.short` shows the first 8), tagged 40024 in CBOR.
+
+**The derivation.** The XID is the SHA-256 of the tagged CBOR of the actor's inception public signing key, as the reference implementation makes it ([`src/id/xid.rs`](https://github.com/BlockchainCommons/bc-components-rust/blob/master/src/id/xid.rs), [`src/signing/signing_public_key.rs`](https://github.com/BlockchainCommons/bc-components-rust/blob/master/src/signing/signing_public_key.rs)). The tag is 40022 (`signing-public-key`, in the [BCR-2020-006](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-006-urtypes.md) registry), around the untagged key. The reference knows two forms of an Ed25519 key, and they hash to different XIDs:
+- the **Ed25519 form**: the array of the integer 2 and the bare 32-byte key;
+- the **SSH form**: the OpenSSH text, under a tag of its own (`TAG_SSH_TEXT_PUBLIC_KEY`).
+
+**The kit always uses the Ed25519 form**, made from the bare key material, and never derives an XID from the OpenSSH text. For a key `K`, the 32 bytes taken from the `ssh-ed25519` line's wire blob (`uint32 len ‖ "ssh-ed25519" ‖ uint32 len ‖ 32 bytes`; any other key is refused), the deterministic CBOR bytes are `image = D9 9C 56 ‖ 82 ‖ 02 ‖ 58 20 ‖ K`, and `xid = sha256(image)`.
+
+The encoder reproduces the reference's own Schnorr test byte for byte: key `e8251dc3…7ef4005a`, CBOR `d99c565820e8251dc3…`, XID `d40e0602674df1b7…dbbdcd47`. The kit holds no published test vector for the Ed25519 form; it follows the reference source as written. The `ur:xid/…` form is not made yet: it needs the Bytewords table, and no encoding is invented in its place.
+
+**Where it appears.** Only admission lines carry the XID in their bodies, and so in their ids:
+- the inception carries the keeper's `body.xid` beside `body.pubkey`, and `holon.json` carries it as `xid`;
+- a `join` or an `affirm` that admits a key carries `body.xid` beside `body.pubkey`.
+
+No other line carries it, and the envelope never does. The fold computes the XID from the admitted key, so an admission written before the field existed still yields one. Each entry of `admitted` carries `xid` (the first key's) and `xid_now` (the current key's hash). Readers find an actor by key or by XID (`record.actor_by_xid`, `record.xid_of_actor`).
+
+**`body.xid` is a claim.** The fold checks it against the XID of the first key admitted for that actor in that holon, and, where the actor's home is held, against the home's inception key's. A disagreement is flagged `xid_mismatch`, and the computed XID is kept. An XID is the hash of a public key, and any admitter can admit anyone's key. So when more than one actor holds one XID, the fold flags each `xid_shared`, and `actor_by_xid` names none of them.
+
+**Rotation keeps it, holon by holon.** In a holon the XID is the hash of the key the actor was first admitted with there, and it does not change when that key rotates (a `join` for an already-admitted handle, as **Keys, signatures and what counts** describes). The current key is what signs; `xid_now` is only that key's hash and names no one.
+
+This differs from the field. BCR-2024-010 gives one XID for life, from the inception key; the kit computes it from the first key admitted in each holon. A person's XID for life is therefore their home's inception key's XID, carried on their `join` lines as `body.xid` (`holon.admit(..., xid=…)`). Where their home is held, that claim is checked; where it disagrees with the first key admitted in a holon (a key rotated before joining), it is flagged there. Recovering a lost key is the cell's work (**Recovery through the cell**).
+
+**The cross-check.** `python3 -I xid.py check PUBKEY XID --tool` runs bc-envelope-cli (`envelope xid new`, released as a preview, not for production) when `ENVELOPE_CLI` names it, and otherwise says it is not on this machine. The tool takes a bare key only as a UR, which needs Bytewords, so for now it is handed the OpenSSH line (`form: ssh-text`). A tool that reads that line in the SSH form makes a different XID by design: the check reports that disagreement as expected, and the kit's XID stands.
+
 ## The paper floor
 
 One event is one line on a sheet: time · who · for whom · type · what · links · audience. The two passes, what is owed and commitments kept are worked on the same sheet. A witnessed paper sheet beats the typed copy. On paper, a line is signed by hand; in files, an unsigned line counts only in the reader's own home.
