@@ -72,6 +72,11 @@ and `missing` (what the line left unsaid; honest-empty, never guessed). The card
 sender's effort when given, else the kit's own estimate, and its question reads the sender's why.
 The card's own `why` stays the dealer's reason (and "asked of you" on a risen card).
 
+THE LEVEL. Every card carries `level`: {name, lifts, why}, from level.level_of on the item it is
+about: the level computed from what that Card carries, the field that would lift it, in words, and
+why. It is never a gate and never a demand: it changes no other field and no act. Honest-empty
+(name None) when there is no item to read.
+
 STOPS. Any person may stop any agent (a `stop` line). While a live stop binds the actor's agent
 (or the actor, when the actor is an agent) for a card's holon, thread or line, the card is dealt
 with its acts withheld (`acts: []`, `stopped: {stop, by, why}`), and the Deal says so in one line
@@ -121,6 +126,10 @@ try:
     import sightings as sightings_mod
 except ImportError:                       # the pain fallback reads the links itself
     sightings_mod = None
+try:
+    import level as level_mod
+except ImportError:                       # each card's level is then said honest-empty
+    level_mod = None
 
 HORIZON_D = 14.0       # a successor with more float than this frees nothing yet
 HALF_D = 3.0           # three days of float counts half
@@ -390,6 +399,7 @@ def deal(items, schedule_report, actor, minutes_available, room=None, now=None, 
             src = cards.get(x['id']) or reqs.get(x['id']) or threads.get(x['id']) or \
                 next((c for c in norm.get('commitment', []) if item_id(c) == x['id']), None) or {}
             _carry_sender(x, sender_word(src, r.get('body'), r.get('from'), x.get('by'), r.get('voice')))
+    attach_levels(cands, norm, questions)   # each card's level: computed, never a gate; changes no act
     stopped = apply_stops(cands, items, fold, norm, actor, t, lines)
 
     order = {'owed': 0, 'thread': 1, 'decision': 2, 'ready': 3}
@@ -1499,6 +1509,33 @@ def _main(argv=None):
     a = ap.parse_args(argv)
     try:
         items = _load(a.items)
+LEVEL_SOURCES = ('card', 'commitment', 'sighting', 'thread', 'decision', 'agreement', 'subscription')
+LEVEL_NONE = 'the level could not be computed'
+
+
+def attach_levels(cands, norm, questions=None):
+    """Each framed card gains `level`: {name, lifts: [the field that would lift it, in words], why}, from
+    level.level_of on the item the card is about (one call per card). Computed and never demanded: it
+    changes no other field and no act. Honest-empty when there is no item or the level cannot be read."""
+    src = {}
+    for k in LEVEL_SOURCES:
+        for it in norm.get(k, []) or []:
+            i = item_id(it)
+            if i and i not in src:
+                src[i] = (it, None)
+    for q in questions or []:
+        if isinstance(q, dict) and isinstance(q.get('id'), str) and q['id'] not in src:
+            src[q['id']] = (q, 'rfg' if q.get('type') == 'rfg' else 'none')
+    for x in cands:
+        try:
+            it, kind = src.get(x.get('id'), (None, None))
+            lv = level_mod.level_of(it, kind=kind)
+            x['level'] = {'name': lv.get('name'), 'lifts': [l['words'] for l in lv.get('lifts') or []],
+                          'why': lv.get('why') or LEVEL_NONE}
+        except Exception:                 # noqa: BLE001 — honest-empty, never a failed Deal
+            x['level'] = {'name': None, 'lifts': [], 'why': LEVEL_NONE}
+
+
         rep = _load(a.schedule) if a.schedule else None
         lines = _load_lines(a.lines) if a.lines else None
     except (OSError, ValueError) as e:
