@@ -201,7 +201,7 @@ An Agreement grants only while it is **agreed**: answered by another person's `a
 
 **What it grants.** `terms_for(holon, source)` is what the Subscription and the pull read: the cadence in seconds per signal (one number reads as the cadence for every signal, and is said), the permits (`write`; `bell`, the kinds that may ring), what crosses, and the Agreement's id; with none standing it is empty and says `basis: none`. A line crosses under an Agreement only when the Agreement names its type and the kit carries that type across a membrane at all (`holon.PUBLISHABLE`); with no Agreement, or one that names nothing, the kit's default holds and is said as `default`.
 
-**The Andon permit.** Within a holon, every member holds the Andon permit by joining, after the canon's Andon Cord: an admitted actor's `pain` or `fault` rings with `basis: andon`, with no Agreement needed. Across holons a bell rings only by an explicit permit: a kind the live Agreement's `permits.bell` names.
+**The Andon permit.** Within a holon, every member holds the Andon permit by joining, after the canon's Andon Cord: an admitted actor's `pain`, `fault` or `security` signal rings with `basis: andon`, with no Agreement needed. Across holons a bell rings only by an explicit permit: a kind the live Agreement's `permits.bell` names.
 
 ## The holon's voice: a threshold key
 
@@ -316,7 +316,7 @@ A **Receipt** is a `receive` line that says "I have it": `body.of` and `links.an
 
 **Requests rise first.** A `request` to the person or their agents, an `rfg` to them or to their holon, a `say` with them in `to`, a `commit` with them as committee, and an `escalate` to their holon still arrive by pull, and rise above everything at the next pull, whatever the cadence. A line of the person's own, their own agent's included, does not rise; the reader passes only lines the fold trusts.
 
-**The bell.** A bell rings by permit: a kind the Card names, or one the Agreement's `permits.bell` adds. Within a holon every member holds the Andon permit by joining, for `pain` and `fault` (basis `andon`); a stranger rings only by an explicit permit.
+**The bell.** A bell rings by permit: a kind the Card names, or one the Agreement's `permits.bell` adds. Within a holon every member holds the Andon permit by joining, for `pain`, `fault` and `security` (basis `andon`); a stranger rings only by an explicit permit.
 
 *Open:* whether a Subscription between two holons that hold an Agreement is, in time, carried as a clause of that Agreement. The Card stands for now.
 
@@ -406,6 +406,35 @@ When `crosses` names nothing, the face takes what `holon.PUBLISHABLE` carries, s
 - **GitHub:** `PUT /repos/{owner}/{repo}/collaborators/{username}`, with `permission` pull or push (https://docs.github.com/en/rest/collaborators/collaborators). On GitHub the PUT makes an invitation the other person accepts (201 Created). `permission` is valid only on a repository an organization owns. Deleting the collaborator does not end an invitation still pending; that takes deleting the invitation itself.
 
 An Agreement that is no longer live plans `DELETE` on the same path. The forge username is the `collaborator` the plan is given. Otherwise the handle of `person:<handle>` is used, which is that person's forge username only when they chose it so; an unnamed owner, repository or collaborator stays a placeholder, said. The plan only plans: the person applies it, and nothing in the kit calls a forge.
+
+## The permitted inbox
+
+A holon's repository has three faces. Its **outbox** is `record/`, where its own people and agents write. Its **pulled inbox** is what it fetched from the holons it follows: today, the cell clones under `cells/`. Its **permitted inbox** is `permitted/<actor-file>.jsonl`, beside `record/` and `published/`. There, the holons it granted a write permit (its cells, its closest relationships) drop lines directly. Each file is named for the actor who writes it. **One actor, one chain:** `record/` and `permitted/` are one chain per actor in a holon. A line in either folder names, as its `prev`, the actor's newest line across both, so an actor who writes in both never forks.
+
+**The permit** is an Agreement's `permits.write`. Today the forge carries it: the other holon may push to this repository. Later, the Club's write permit carries it. **The gate** at join and pull holds `permitted/` the way it holds `published/`. A file there takes only plain appends, and every new line must be written by the actor the file is named for; an agent's line answers for its person. It never takes a change to the home's own file, a changed or deleted line, a link, or a deeper path.
+
+**How a permitted line is trusted.** A signature alone never lets a permitted line in. It counts only when all of these hold:
+- its actor is admitted in this holon, and the line verifies under the admitted key;
+- a live Agreement in this holon grants `permits.write` to the actor's holon, or to the actor. A person counts as themself alone: writing another's name as `for` borrows nothing. An agent counts its person only when it is admitted in this holon for that person;
+- the Agreement is judged at a moment never earlier than the line's own time, nor the fold's `now` or the reader's clock, so an Agreement past its `until` grants nothing, however quiet the rest of the record is;
+- when the Agreement names what crosses, it names the line's type;
+- its audience is no wider than `members`;
+- it is not a line that changes who counts, how far a line reaches, or the permit itself: a `join`, `affirm`, `delegate`, `revoke`, `publish` or `agree`; a `supersede` or `correct` naming an Agreement or an admission; a `witness` of an admission.
+
+The permit is read only from lines outside the inbox, so the inbox can never grant itself one. A line written for another holon is `wrong_holon`. Any other permitted line is `unverified`, with its reason: `no write permit` when no permit stands, or another reason when a rule above refuses it. A trusted permitted line folds like any other line.
+
+**A line held twice is read from its own holon.** When the reader holds a line in two places, the copy it reads is the one held in the line's own holon (its `record/` first). A copy pushed into another holon's `permitted/`, `published/` or `record/` is noted in `_also_in` and never read in its place. Before this, a copy in a folder read earlier could turn the real line `wrong_holon`. `record/` had the same hole, and it is closed.
+
+**The cost.** When the inbox holds a line, the fold folds the lines outside the inbox once more for the permit. That is about 1.5 times the fold at 300 lines. `triage` and `permits` reuse that fold (`record.fold(..., keep=)`), so each costs the same, never a third fold. With no permitted line, nothing extra is folded.
+
+`permitted.py` holds the rule: `allowed`, and `grant`, which the fold consults and which also names the Agreement. It drops a signed line copy without following a link (`drop`). It never drops an unsigned line, a line longer than 64 KiB, or a line into the holon's own file. It lists who holds a permit (`permits`) and says which dropped lines count (`triage`).
+
+## Requests rise first
+
+Pull decides when a person hears; it never buries what is asked of them. At each Deal, before float, stake or groups, an unanswered ask to the person or their agents rises to the top, newest first, with `why: "asked of you"`, `rose: true` and the earlier reason kept as `because`. An ask is a `request` or `rfg` to them, a `say` with them in `to`, a `commit` with them as committee, or an `escalate` or `rfg` to a holon they keep. An ask is answered when its item moves on or a line of their own side links to it; a Receipt never answers one. When the fold's trust map can be reached, only what it marks trusted rises, and a ladder question rises only when its own line is trusted. `risen.lines_basis` says how the lines were gated.
+Just below the asks rises an open pain sighted in a holon they belong to that needs a response. The pain card replaces that pain's triage card and keeps its keeper's "Pass it on". `risen.pain_basis` names whether `sightings.lifecycle` or the fallback decided. Nothing rises in an agent's Deal. A risen card is not an interruption: the attention gate and the emergency rule decide any wake.
+A line that crossed and has had no Receipt is dealt to its sender: "No Receipt yet from <addressee> for <title>, <age>", with "Ask again" (a drafted `say`, sent only by a person) or "Let it go". It is never dealt under `fewer`, and `receipt_cards` counts these cards.
+The Deal names the newest line it saw as `newest_line`.
 
 ## The paper floor
 

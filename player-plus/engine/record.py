@@ -2,7 +2,8 @@
 """record.py — the Record: write, read, verify, fold, elide and export event lines.
 
 A holon keeps its record as plain files: one append-only file of JSON lines per actor
-under `record/`, and what it publishes outward under `published/`. Every line is one
+under `record/`, what it publishes outward under `published/`, and what holons it granted
+a write permit drop into it under `permitted/` (the permitted inbox). Every line is one
 event, identified by the hash of its content, chained to the same actor's previous line,
 and signed with the actor's own key when one is at hand. Items (cards, commitments,
 threads, delegations and the rest) are never stored: `fold` works them out from the
@@ -746,7 +747,7 @@ def is_inception(line):
 
 
 def read(holon_dir):
-    """Every line held in one holon, from record/ and published/, with what is wrong said plainly.
+    """Every line held in one holon, from record/, published/ and permitted/, with what is wrong said plainly.
 
     Returns {"holon", "dir", "lines", "problems", "as_of": {actor: head id}, "heads": {actor:
     [ids]}, "counts": {actor: n}, "newest": {"id", "ts"}, "inception", "keeper"}. Each line
@@ -755,7 +756,9 @@ def read(holon_dir):
     chain: a line's `prev` names an earlier line of the file ('' for the first); a missing
     one is a `broken_chain`, and two lines with the same `prev` are a `fork` (both kept,
     both flagged). The holon's id must be the id of an inception line in its record, and its
-    keeper is that line's actor; holon.json alone proves neither."""
+    keeper is that line's actor; holon.json alone proves neither. A line from permitted/ (the
+    permitted inbox) is read like a published copy and noted `_permitted`; the fold trusts it
+    only under a write permit (permitted.allowed)."""
     out = {'holon': None, 'dir': holon_dir, 'lines': [], 'problems': [], 'as_of': {}, 'heads': {},
            'counts': {}, 'newest': None, 'inception': None, 'keeper': None}
     if not holon_dir or not os.path.isdir(holon_dir):
@@ -766,7 +769,9 @@ def read(holon_dir):
     out['holon'] = hid
     tag = hid or os.path.abspath(holon_dir)
     newest_dt = None
-    for sub in ('record', 'published'):
+    inbox_ids = _inbox_ids(holon_dir)   # one actor's chain runs through record/ and permitted/ alike
+    chains = {}                         # actor -> its record/ and permitted/ lines, for the heads
+    for sub in ('record', 'published', 'permitted'):
         d = os.path.join(holon_dir, sub)
         if not os.path.isdir(d) or os.path.islink(d):
             continue
@@ -796,13 +801,21 @@ def read(holon_dir):
                                                     'the canonical rules; left out'})
                     continue
                 line = dict(obj)
+                if sub == 'permitted':
+                    line['_permitted'] = True
+                    actor = obj.get('actor')
+                    if isinstance(actor, str) and name not in (actor_file(actor), _legacy_actor_file(actor)):
+                        out['problems'].append({'kind': 'actor_mismatch', 'file': rel, 'line_no': n, 'id': obj['id'],
+                                                'said': 'a line by %r sits in another actor\'s file' % actor})
+                    elif isinstance(actor, str):
+                        chains.setdefault(actor, []).append(obj)
                 if sub == 'record':
                     actor = obj.get('actor')
                     if isinstance(actor, str) and name not in (actor_file(actor), _legacy_actor_file(actor)):
                         out['problems'].append({'kind': 'actor_mismatch', 'file': rel, 'line_no': n, 'id': obj['id'],
                                                 'said': 'a line by %r sits in another actor\'s file' % actor})
                     prev = _str(obj.get('prev'))
-                    if prev and prev not in in_file:
+                    if prev and prev not in in_file and prev not in inbox_ids.get(name, ()):
                         out['problems'].append({'kind': 'broken_chain', 'file': rel, 'line_no': n, 'id': obj['id'],
                                                 'found_prev': prev,
                                                 'said': 'the chain is broken here: prev names no earlier line'})
@@ -814,6 +827,8 @@ def read(holon_dir):
                     prev_used.setdefault(prev, obj['id'])
                     in_file.add(obj['id'])
                     file_lines.append(obj)
+                    if isinstance(obj.get('actor'), str):
+                        chains.setdefault(obj['actor'], []).append(obj)
                     if hid and obj['id'] == hid and is_inception(obj):
                         out['inception'] = obj['id']
                         out['keeper'] = obj.get('actor')
@@ -834,6 +849,14 @@ def read(holon_dir):
                     if x['id'] not in used:
                         out['heads'].setdefault(a, []).append(x['id'])
                         out['as_of'][a] = x['id']
+    for a, ls in chains.items():   # an actor who also writes in permitted/: the heads run through both
+        if not any(l['id'] in inbox_ids.get(actor_file(a), ()) for l in ls):
+            continue
+        used = {_str(x.get('prev')) for x in ls}
+        hs = [x['id'] for x in ls if x['id'] not in used]
+        if hs:
+            out['heads'][a] = hs
+            out['as_of'][a] = hs[-1]
     if hid and not out['inception']:
         out['problems'].append({'kind': 'holon_id_unproven',
                                 'said': 'holon.json names an id that no inception line in record/ carries'})
@@ -842,6 +865,44 @@ def read(holon_dir):
                                 'said': 'holon.json names a keeper other than the inception line\'s actor; '
                                         'the inception line holds'})
     return out
+
+
+def _inbox_ids(holon_dir):
+    """{actor file: {line ids}} in the holon's permitted/, read without following a link."""
+    out = {}
+    d = os.path.join(holon_dir or '', 'permitted')
+    if not os.path.isdir(d) or os.path.islink(d):
+        return out
+    for name in sorted(n for n in os.listdir(d) if n.endswith('.jsonl')):
+        path = os.path.join(d, name)
+        if os.path.islink(path):
+            continue
+        out[name] = {obj['id'] for _, obj, _, _ in _read_jsonl(path) if obj is not None and isinstance(obj.get('id'), str)}
+    return out
+
+
+def _chain_head(holon_dir, fname):
+    """The actor's newest line in this holon, across record/<fname> and permitted/<fname>, or None.
+
+    With one file holding lines, its last line (as before). With both, the head of the chain
+    they make together (a line no other names as prev), the newest by time, then the later file."""
+    files = []
+    for sub in ('record', 'permitted'):
+        p = os.path.join(holon_dir, sub, fname)
+        if os.path.isfile(p) and not os.path.islink(p):
+            files.append([obj for _, obj, _, _ in _read_jsonl(p) if obj is not None and isinstance(obj.get('id'), str)])
+        else:
+            files.append([])
+    held = [ls for ls in files if ls]
+    if not held:
+        return None
+    if len(held) == 1:
+        return held[0][-1]
+    every = files[0] + files[1]
+    used = {_str(x.get('prev')) for x in every}
+    heads = [(i, x) for i, x in enumerate(every) if x['id'] not in used] or list(enumerate(every))[-1:]
+    return max(heads, key=lambda ix: (_parse_ts(ix[1].get('ts')) or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
+                                      ix[0]))[1]
 
 
 def hold(hq_dir):
@@ -879,12 +940,20 @@ def read_all(hq_dir):
 
     Returns {"holons", "lines", "keepers", "home"}. Lines in the HQ's own record/ are noted
     `_home_record` (the only place an unsigned line can count). A line held in two holons
-    appears once, with `_also_in` naming the others. Keepers come from inception lines; only
+    appears once, with `_also_in` naming the others: the copy kept is the one held in the
+    line's own holon (its record/ first), never a copy in another holon's published/ or
+    permitted/ read earlier, so a copy pushed into an inbox never turns the real line
+    `wrong_holon`. Keepers come from inception lines; only
     the HQ, the reader's own folder, may fall back to its holon.json. A cell claiming an id
     already held (the home's included), or whose id no inception line proves, is refused:
     reported, and none of its lines read."""
     holons, lines, seen, keepers = [], [], {}, {}
+    where = {}   # line id -> its index in `lines`
     home = None
+
+    def rank(l):
+        return (_str(l.get('holon')) == _str(l.get('_held_in')), _str(l.get('_file')).startswith('record/'))
+
     for i, d in enumerate(hold(hq_dir)):
         r = read(d)
         info = holon_info(d)
@@ -912,9 +981,17 @@ def read_all(hq_dir):
             if i == 0 and line['_file'].startswith('record/'):
                 line['_home_record'] = True
             if line['id'] in seen:
-                seen[line['id']].setdefault('_also_in', []).append(line['_held_in'])
+                old = seen[line['id']]
+                if rank(line) > rank(old):     # this copy is held in the line's own holon: it is the one read
+                    line['_also_in'] = list(old.get('_also_in') or []) + [old['_held_in']]
+                    old.pop('_also_in', None)
+                    seen[line['id']] = line
+                    lines[where[line['id']]] = line
+                else:
+                    old.setdefault('_also_in', []).append(line['_held_in'])
                 continue
             seen[line['id']] = line
+            where[line['id']] = len(lines)
             lines.append(line)
     return {'holons': holons, 'lines': lines, 'keepers': keepers, 'home': home}
 
@@ -992,6 +1069,11 @@ def append(holon_dir, actor, for_, type, body=None, links=None, audience='holon'
            ts=None, salt=None, sign=None, key=None, sub='record', key_dir=None):
     """Append one line to `<holon>/record/<actor>.jsonl`, chained to that actor's last line.
 
+    `sub='published'` writes a copy's file, unchained; `sub='permitted'` writes into the
+    holon's permitted inbox, for a holon that holds a write permit (permitted.py). record/ and
+    permitted/ are one chain per actor: a line in either is chained to the actor's newest line
+    in the holon across both, so writing in both never forks.
+
     Signs with the actor's own key (see find_key: a file named lionsberg-<kind>-<handle>) unless
     sign=False; with no such key the line is written unsigned, at the paper floor, and the
     result says so. A `revoke` that names a delegation gets `body.seen`: the agent's chain
@@ -1006,8 +1088,8 @@ def append(holon_dir, actor, for_, type, body=None, links=None, audience='holon'
         raise ValueError('an actor is person:<handle> or agent:<handle>')
     if not for_.startswith('person:'):
         raise ValueError('for names a Living Intelligence: person:<handle>')
-    if sub not in ('record', 'published'):
-        raise ValueError('lines are written only to record/ or published/')
+    if sub not in ('record', 'published', 'permitted'):
+        raise ValueError('lines are written only to record/, published/ or permitted/')
     spec = (load_types(os.path.join(holon_dir, 'types.json') if os.path.isfile(os.path.join(holon_dir, 'types.json'))
                        else None).get('types') or {}).get(type) or {}
     if spec.get('home_only') and holon_kind(holon_dir) != 'person':
@@ -1024,7 +1106,7 @@ def append(holon_dir, actor, for_, type, body=None, links=None, audience='holon'
     body = dict(body or {}) if isinstance(body, dict) else {}
     if type == 'revoke' and isinstance(body.get('delegation'), str) and 'seen' not in body:
         body['seen'] = _agent_heads(holon_dir, body['delegation']) or ['']
-    last = last_line(path) if sub == 'record' else None
+    last = _chain_head(holon_dir, fname) if sub in ('record', 'permitted') else None
     prev = _str(last.get('id')) if last else ''
     line = make_line(actor, for_, hid, type, body, links, audience, reason, prev, ts, salt)
     said = ''
@@ -1495,6 +1577,10 @@ class _Ctx:
         self.vouched = {}
         self.clone_affirms = set()
         self.clock = None
+        self.types = None       # the registry the fold runs under (for the permit's own fold)
+        self.now_arg = None     # the fold's `now`, when the caller gave one
+        self.permit_fold = None # the fold of every line outside permitted/, made once when a permitted line is met
+        self.permit_by = {}     # permitted line id -> the Agreement whose write permit lets it in
 
     def at_or_before(self, x, head, limit=100000):
         cur, n = head, 0
@@ -1902,7 +1988,7 @@ def _trust_pass(order, inceptions, keepers, ctx):
             trust[lid], why[lid] = 'hidden', 'the actor is hidden'
             continue
         held = l.get('_held_in')
-        if _str(l.get('_file')).startswith('record/') and held in known and held != H:
+        if _str(l.get('_file')).startswith(('record/', 'permitted/')) and held in known and held != H:
             trust[lid], why[lid] = 'wrong_holon', 'a line written for another holon sits in this record; it never acts here'
             continue
         if H in inceptions and (inceptions[H].get('body') or {}).get('contract') != CONTRACT:
@@ -1974,6 +2060,11 @@ def _trust_pass(order, inceptions, keepers, ctx):
         else:
             trust[lid], why[lid] = 'unverified', ('unsigned, and not in the home\'s own record' if entry is not None
                                                   else '%s was never admitted in this holon' % a)
+        if l.get('_permitted') and trust[lid] in TRUSTED:
+            ok_w, why_w = _permit(l, H, order, keepers, ctx)    # a signature alone never lets a permitted line in
+            if not ok_w:
+                trust[lid], why[lid] = 'unverified', why_w
+                continue
         if entry is not None and entry.get('via') == 'clone' and trust[lid] in TRUSTED \
                 and l.get('type') == 'body':
             cs = clones[(H, a)]
@@ -2045,6 +2136,45 @@ def _trust_pass(order, inceptions, keepers, ctx):
         _carry_xid(room)
     _vouch(order, trust, why, admitted, known, ctx)
     return trust, why, admitted
+
+
+_PERMITTED_MODULE = []   # the sibling permitted.py, loaded once by its path
+
+
+def _permit(line, holon, order, keepers, ctx):
+    """(ok, why) for a line in the permitted inbox: permitted.allowed over the fold of every line outside it.
+
+    The permit is read from lines that did not come in by the permitted inbox, so the inbox can
+    never grant itself a permit. permitted.py is loaded beside this file by its path; without it
+    no permitted line is let in, and that is said."""
+    if not _PERMITTED_MODULE:
+        p = os.path.join(HERE, 'permitted.py')
+        try:
+            import importlib.util
+            if not os.path.isfile(p) or os.path.islink(p):
+                return False, 'no write permit: permitted.py is not beside the record, so no permit can be read'
+            spec = importlib.util.spec_from_file_location('_lionsberg_permitted', p)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+        except Exception as e:   # a broken permitted.py lets nothing in
+            return False, 'no write permit: permitted.py could not be loaded (%s)' % str(e)[:80]
+        _PERMITTED_MODULE.append(mod)
+    if ctx.permit_fold is None:
+        rest = [x for x in order if not x.get('_permitted')]
+        ctx.permit_fold = fold(rest, ctx.types, keepers, now=ctx.now_arg,
+                               clock=ctx.clock.isoformat(timespec='seconds') if ctx.clock else None)
+    # the permit is judged at a moment never earlier than the line's own time, nor the fold's now or clock,
+    # so an Agreement past its until grants nothing however quiet the rest of the record is
+    marks = [t for t in (ctx.eff.get(line['id']), _parse_ts(ctx.now_arg) or ctx.clock) if t is not None]
+    moment = max(marks).isoformat(timespec='seconds') if marks else None
+    try:
+        ok, why, agreement_id = _PERMITTED_MODULE[0].grant(
+            line, {'holon': holon, 'items': ctx.permit_fold, 'now': moment, 'by_id': ctx.by_id})
+    except Exception as e:
+        return False, 'no write permit: the permit could not be read (%s)' % str(e)[:80]
+    if ok and agreement_id:
+        ctx.permit_by[line['id']] = agreement_id
+    return bool(ok), _str(why)
 
 
 def _clone_delegation(line, clone, standing, revoked, holon):
@@ -2260,7 +2390,7 @@ def _supersessions(order, ctx, tdefs, table):
 
 # ---------------------------------------------------------------- the fold
 
-def fold(lines, types=None, keepers=None, now=None, clock=None):
+def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
     """Fold lines into items.
 
     Returns {cards, commitments, threads, delegations, tea, decisions, sightings, turns,
@@ -2287,7 +2417,10 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
 
     `now` overrides the fold's time; else it is the newest trusted line's time, never past
     `clock` (the reader's clock, default the machine's). `keepers` gives keepers for holons
-    whose inception line is not held (the reader's own home only)."""
+    whose inception line is not held (the reader's own home only). `keep`, a dict, receives
+    what the fold made on the way and does not return: `permit_fold` (the fold of the lines
+    outside permitted/, or None when none was needed) and `permit_by` ({permitted line id:
+    the Agreement that let it in}), so a reader of the inbox folds once, not twice."""
     types = types if isinstance(types, dict) else load_types()
     tdefs = types.get('types') or {}
     idefs = types.get('items') or {}
@@ -2312,6 +2445,7 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
         clean.append(l)
     ctx = _Ctx()
     ctx.by_id = {l['id']: l for l in clean}
+    ctx.types, ctx.now_arg = types, now
     by_id = ctx.by_id
     inceptions = {l['id']: l for l in clean if is_inception(l)}
     for hid, l in inceptions.items():
@@ -2598,6 +2732,9 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
                        for h, m in admitted.items()}
     out['as_of'] = as_of
     out['clock'] = clock_dt.isoformat(timespec='seconds')   # the reader's clock this fold was made by
+    if isinstance(keep, dict):
+        keep['permit_fold'] = ctx.permit_fold
+        keep['permit_by'] = dict(ctx.permit_by)
     return out
 
 
