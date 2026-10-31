@@ -1275,7 +1275,7 @@
       "transitions": []
     },
     "sight": {
-      "about": "A Sighting: what a player saw on the road, placed in the record of the holon where it was seen. Sightings from every player, re-sighted by others as they pass the same place, compose the living map of reality the Engine reads as the ground the work moves over. Its lifecycle: seen; still there (another sight links to it, each re-sighting adding weight); accepted (a claim); picked up (a commit serving it); fixed (a done naming it); closed (a settle anchored to it, with its consequence); a pain is responded to by any line of another actor anchored to it. The fold sets seen, accepted and fixed; sightings.py computes the rest from the links.",
+      "about": "A Sighting: what a player saw on the road, placed in the record of the holon where it was seen. Sightings from every player, re-sighted by others as they pass the same place, compose the living map of reality the Engine reads as the ground the work moves over. Its lifecycle: seen; still there (another sight links to it, each re-sighting adding weight); accepted (a claim); picked up (a commit serving it); fixed (a done naming it); closed (a settle anchored to it, with its consequence); a pain is responded to by any line of another actor anchored to it. The fold sets seen, accepted and fixed; sightings.py computes the rest from the links. Whose words it carries is said by `voice`: a person's own Sighting stands at once; an agent's is for its person's discernment, and the person accepts it, adds their weight by re-sighting, or retracts it.",
       "fields": [
         {
           "name": "text",
@@ -1315,6 +1315,18 @@
             "public"
           ],
           "about": "the navigator's own limit on how far the Sighting may be elevated"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "under-mandate",
+            "agent"
+          ],
+          "about": "whose words the Sighting carries; the fold fills it. An agent's Sighting (voice agent or agent-drafted) is a proposal for its person's discernment: it counts for nothing in another holon's reading until the person accepts it (their weight is then on it) or retracts it."
         }
       ],
       "item": "sighting",
