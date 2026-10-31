@@ -40,6 +40,10 @@ upper control limit (`emergency.limits_from_history`) once it has enough points;
 kit's default wait (owed.RECEIPT_HOURS), said as the basis. A point past it is a signal, never a
 judgment.
 
+Each row also says what was sent and heard back: `sent`, how many lines of ours asked something
+of them (or were receipted by them), and `heard_by_at`, the time of their newest Receipt on a line of
+ours (`null` when none), both from receipt.time_to_receipt; `null` and `null` when receipt.py is absent.
+
 **Our ear** is one-sided and never mixed into the pulse: our last pull of the cell that carries
 their lines, from pull.py's state and the heartbeat's faults: ok · late · failed · never.
 
@@ -1085,6 +1089,27 @@ def _cadence_words(row):
     return '; '.join(parts)
 
 
+def _sent_heard_by(g, home, X):
+    """(sent, heard_by_at): how many lines of ours asked something of them or were receipted by them, and the
+    time of their newest Receipt on a line of ours, both read from time to Receipt (receipt.time_to_receipt).
+    (None, None) when receipt.py is not beside this file: then nothing is known, and nothing is claimed."""
+    if receipt_mod is None:
+        return None, None
+    x, y = sorted([home, X])
+    sent, newest = set(), None
+    for r in (g.ttr().get('rows') or []):
+        if not isinstance(r, dict):
+            continue
+        l = g.by_id.get(r.get('line'))
+        if l is None or g.side(l.get('actor'), l.get('for'), x, y) != home or g.side_of_to(r.get('to'), x, y) != X:
+            continue
+        sent.add(l['id'])
+        at = _at(r.get('receipt_ts'))
+        if r.get('receipt') is not None and at is not None and (newest is None or (at, str(r.get('receipt'))) > newest[:2]):
+            newest = (at, str(r.get('receipt')), r.get('receipt_ts'))
+    return len(sent), (newest[2] if newest else None)
+
+
 def _row(g, home, X, names, ear_cells, failed, why_connected):
     p = _pulse(g, home, X)
     cond = _condition(g, X)
@@ -1114,6 +1139,7 @@ def _row(g, home, X, names, ear_cells, failed, why_connected):
     ag_row = g.live_agreement(home, X) or (max(_pair_rows(g, x, y), key=lambda r: (
         _at(r.get('agreed_ts')) or float('-inf'), r.get('id') or '')) if _pair_rows(g, x, y) else None)
     x_lines = [l for l in g.lines if g.side(l.get('actor'), l.get('for'), x, y) == X]
+    sent, heard_by_at = _sent_heard_by(g, home, X)
     return {
         'holon': X, 'name': names.get(X), 'connected_by': why_connected.get(X),
         'condition': cond,
@@ -1127,6 +1153,7 @@ def _row(g, home, X, names, ear_cells, failed, why_connected):
                        'until': ag_row.get('until'), 'cadence': _cadence_words(ag_row)} if ag_row else
                       {'id': None, 'state': 'none', 'live': False, 'until': None, 'cadence': 'no Agreement'}),
         'since': first[0].get('ts') if first else None,
+        'sent': sent, 'heard_by_at': heard_by_at,
     }
 
 

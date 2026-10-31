@@ -482,6 +482,43 @@ class TestRow(Base):
         self.assertEqual(res['rows'][0]['since'], first['ts'])
 
 
+class TestSentAndHeardBy(Base):
+    """Each row says how many lines of ours asked something of them, and when they last said one arrived."""
+
+    def row(self):
+        f, lines = self.read()
+        return connections.connections(self.home, now=NOW, lines=lines, folded=f)['rows'][0]
+
+    def test_sent_counts_ours_and_heard_by_is_their_newest_receipt(self):
+        r0 = self.row()
+        self.assertIsInstance(r0['sent'], int)
+        self.assertIsNone(r0['heard_by_at'])
+        a = self.put(self.cell, P, 'say', {'text': 'is the hall free', 'to': [S], 'intent': 'ask'}, ts='2026-10-21T09:00:00-07:00')
+        b = self.put(self.cell, P, 'request', {'to': S, 'title': 'the chairs'}, ts='2026-10-21T10:00:00-07:00')
+        self.put(self.cell, S, 'request', {'to': P, 'title': 'the keys'}, ts='2026-10-21T11:00:00-07:00')   # theirs: not ours
+        r1 = self.row()
+        self.assertEqual(r1['sent'], r0['sent'] + 2)
+        self.assertIsNone(r1['heard_by_at'])                       # sent, and no word back yet
+        self.put(self.cell, S, 'receive', {'of': a['id'], 'from': P, 'how': 'pull'}, {'answers': [a['id']]},
+                 ts='2026-10-22T09:00:00-07:00')
+        last = self.put(self.cell, S, 'receive', {'of': b['id'], 'from': P, 'how': 'pull'}, {'answers': [b['id']]},
+                        ts='2026-10-23T09:00:00-07:00')
+        r2 = self.row()
+        self.assertEqual(r2['sent'], r1['sent'])
+        self.assertEqual(r2['heard_by_at'], last['ts'])           # the newest of their Receipts on ours
+
+    def test_our_own_receipt_is_not_theirs(self):
+        x = self.put(self.cell, S, 'request', {'to': P, 'title': 'the keys'}, ts='2026-10-21T11:00:00-07:00')
+        self.put(self.cell, P, 'receive', {'of': x['id'], 'from': S, 'how': 'pull'}, {'answers': [x['id']]},
+                 ts='2026-10-22T09:00:00-07:00')
+        self.assertIsNone(self.row()['heard_by_at'])
+
+    def test_without_receipt_py_nothing_is_claimed(self):
+        f, lines = self.read()
+        with mock.patch.object(connections, 'receipt_mod', None):
+            r = connections.connections(self.home, now=NOW, lines=lines, folded=f)['rows'][0]
+        self.assertEqual((r['sent'], r['heard_by_at']), (None, None))
+
 class TestRender(Base):
     def test_both_columns_and_the_summary(self):
         f, lines = self.read()

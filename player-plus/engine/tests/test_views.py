@@ -365,9 +365,10 @@ class Served(unittest.TestCase):
     def test_it_is_registered_as_the_wall_is(self):
         s, shell = self.get("/shell.js")
         self.assertEqual(s, 200)
-        self.assertIn('sightings: "./sightings.js" };', shell)          # PLUGINS, at the end
-        self.assertIn('bodies: "bodies", sightings: "sightings" };', shell)   # ROUTE_VIEWS, at the end
-        self.assertIn('["record", "#/record"], ["sightings", "#/sightings"]];', shell)   # MORE_PLACES, at the end
+        # the living map, and after it the Connections view, at the end of each list (M2)
+        self.assertIn('sightings: "./sightings.js", connections: "./connections.js" };', shell)          # PLUGINS
+        self.assertIn('bodies: "bodies", sightings: "sightings", connections: "connections" };', shell)   # ROUTE_VIEWS
+        self.assertIn('["sightings", "#/sightings"], ["connections", "#/connections"]];', shell)   # MORE_PLACES
         for wall in ('wall: "./wall.js"', 'wall: "wall"', '["wall", "#/wall"]'):
             self.assertIn(wall, shell)                                  # nothing else moved
 
@@ -534,6 +535,403 @@ class TheViewDrawn(unittest.TestCase):
         self.assertNotIn("anywhere", rule)
         self.assertIn("min-width", rule)
 
+
+
+# ------------------------------------------------------------------ the Connections view (M2)
+
+CONN_VIEW = HUD / "connections.js"
+CONN_CSS = HUD / "connections.css"
+# Tokens the view compares against the state and never shows (connections.py's own names and states), the
+# view's own form names, and the DOM's words. Every other literal must be a strings.json key, a key family
+# ending in ".", or CSS classes.
+CONN_DATA = {"inside", "green", "yellow", "orange", "grey", "us_to_them", "them_to_us", "receipts", "never", "none",
+             "short", "tiny", "aria-label", "aria-pressed", "aria-expanded", "aria-hidden", "true", "region", "note",
+             "group", "section", "table", "thead", "tbody", "button", "span", "details", "summary", "aside", "small",
+             "object", "string", "number", "connections", ".css", "./card.js", "./views-b.js", "\\u0000", "\\u2026"}
+COLORS5 = ("green", "yellow", "orange", "red", "grey")
+JARGON = ("fold", "stops.live", "XID", "holon", "Sighting", "kit's default", "directory", "Receipt")
+
+# A DOM just large enough for card.js's h() and the view; each named state is drawn, More tapped, a color
+# tapped and tapped again, More tapped again; what each step drew is returned.
+CONN_DOM = """
+class N { constructor(tag) { this.tag = tag; this.kids = []; this.attrs = {}; this.dataset = {}; this.className = ""; this.on = {}; }
+  append(...k) { for (const x of k) { if (x === null || x === undefined) throw new Error("appended " + x); this.kids.push(x); } }
+  setAttribute(k, v) { this.attrs[k] = v; } addEventListener(e, f) { this.on[e] = f; }
+  set textContent(v) { this.kids = v ? [new T(v)] : []; }
+  get text() { return [...Object.values(this.attrs).filter((v) => typeof v === "string"), ...this.kids.map((k) => k.text)].join(" "); }
+  get plain() { return this.kids.map((k) => k.plain).join(" "); } }
+class T { constructor(s) { this.s = String(s); } get text() { return this.s; } get plain() { return this.s; } }
+globalThis.Node = N;
+globalThis.document = { createElement: (t) => new N(t), createTextNode: (s) => new T(s), querySelector: () => ({}), head: { append() {} } };
+const input = await new Promise((ok) => { let s = ""; process.stdin.on("data", (d) => { s += d; }); process.stdin.on("end", () => ok(s)); });
+const [view, states, words] = JSON.parse(input);
+const t = (k, v) => { let s = words[k]; if (s == null) return "[" + k + "]"; if (v && typeof s === "string") s = s.replace(/\\{(\\w+)\\}/g, (m, x) => (v[x] == null ? m : String(v[x]))); return s; };
+const m = await import(view);
+const find = (n, f, out = []) => { if (n instanceof N) { if (f(n)) out.push(n); n.kids.forEach((k) => find(k, f, out)); } return out; };
+const cls = (c) => (n) => n.className.split(" ").includes(c);
+const sp = (s) => s.replace(/\\s+/g, " ").trim();
+const run = (st, slot) => {
+  const el = new N("section"), v = m.default();
+  v.mount(el, { state: st, t, slot, density: "full", read: { holonName: () => "" }, fmt: {} });
+  const all = (c) => find(el, cls(c));
+  const plain = (c) => all(c).map((n) => sp(n.plain));
+  const r = { first: el.text, firstPlain: sp(el.plain), order: el.kids[0].kids.map((k) => k.className), plain: plain("conn-plain"),
+    dos: plain("conn-do"), summary: plain("conn-summary"), play: plain("conn-play"), chips: plain("conn-chips"),
+    key: all("conn-key").flatMap((n) => find(n, (x) => x.tag === "li").map((x) => sp(x.plain))), acts: plain("conn-acts"),
+    marks: all("conn-mark").map((n) => n.className), dots: all("conn-dot").map((n) => n.className), board0: all("conn-board").length };
+  const more = all("conn-more")[0];
+  if (more) {
+    r.moreTitle = more.attrs.title;
+    more.on.click();
+    r.opened = el.text; r.openedPlain = sp(el.plain); r.board1 = all("conn-board").length; r.moreOpen = sp(all("conn-more")[0].plain);
+    r.since = plain("conn-since");
+    const c = all("conn-color")[0];
+    if (c) {
+      r.colorTitle = c.attrs.title;
+      c.on.click(); r.checks = plain("conn-checks"); r.checkItems = all("conn-check").length;
+      r.found = plain("conn-found"); r.how = plain("conn-how");
+      all("conn-color")[0].on.click(); r.checksAfter = all("conn-checks").length;
+    }
+    all("conn-more")[0].on.click();
+    r.board2 = all("conn-board").length; r.closed = el.text;
+  }
+  v.unmount();
+  return r;
+};
+const out = {};
+for (const [k, st] of Object.entries(states)) out[k] = run(st, "full");
+out.aside = run(states.fixture, "aside");
+console.log(JSON.stringify(out));
+"""
+
+
+def _blocks(css, head):
+    """The [start, end) spans of every block whose head is `head` (brace-matched)."""
+    out, i = [], css.find(head)
+    while i != -1:
+        j = css.index("{", i)
+        depth, k = 0, j
+        while True:
+            if css[k] == "{":
+                depth += 1
+            elif css[k] == "}":
+                depth -= 1
+                if depth == 0:
+                    break
+            k += 1
+        out.append((j, k))
+        i = css.find(head, k)
+    return out
+
+
+class TheConnectionsViewDrawn(unittest.TestCase):
+    """hud/connections.js drawn in a stub DOM over the fixtures' state and variations of it: plain lines first,
+    the in-play mark, the board on a pull, every word from strings.json, honest-empty."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.node = shutil.which("node")
+        src = ENGINE / "fixtures" / "hq"
+        if not cls.node or not src.is_dir():
+            raise unittest.SkipTest("no node, or no fixtures/hq beside the engine")
+        tmp = tempfile.mkdtemp(prefix="views-conn-")
+        try:
+            hq = os.path.join(tmp, "hq")
+            shutil.copytree(src, hq, symlinks=True)
+            st = json.loads(json.dumps(engine.build_state(hq, now=NOW), default=str))
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
+        cls.st = st
+        cls.rows = st["connections"]["rows"]
+        assert cls.rows, "the fixtures hold one connection"
+        now = dt.datetime.fromisoformat(NOW)
+
+        def variant(f):
+            x = json.loads(json.dumps(st))
+            f(x, x["connections"]["rows"][0])
+            return x
+
+        def checks(r, d):
+            return {c["check"]: c for c in r["pulse"][d]["checks"]}
+
+        def no_waits(r):
+            checks(r, "them_to_us")["receipts"]["rows"] = []
+
+        def ok(x, r):
+            r["ear"].update(heard="ok", pulled_at=(now - dt.timedelta(seconds=30)).isoformat(), age_s=30, cadence_s=60)
+
+        def failed(x, r):
+            r["ear"].update(heard="failed", pulled_at="2026-10-29T09:00:00-07:00", age_s=172800)
+
+        def none_sent(x, r):
+            no_waits(r)
+            r.update(sent=0, heard_by_at=None)
+
+        def heard_back(x, r):
+            no_waits(r)
+            r.update(sent=3, heard_by_at=(now - dt.timedelta(hours=30)).isoformat())
+
+        def heard_recent(x, r):
+            no_waits(r)
+            r.update(sent=3, heard_by_at=(now - dt.timedelta(hours=1)).isoformat())
+
+        def sent_no_word(x, r):
+            no_waits(r)
+            r.update(sent=2, heard_by_at=None)
+
+        def commit(x, r):
+            for d in ("us_to_them", "them_to_us"):
+                for c in r["pulse"][d]["checks"]:
+                    c["level"], c["rows"] = "inside", []
+            checks(r, "us_to_them")["commitments"].update(level="orange", rows=[{"level": "orange"}])
+            checks(r, "them_to_us")["commitments"].update(level="yellow", rows=[{"level": "yellow"}, {"level": "yellow"}])
+            r["pulse"].update(color="orange")
+            r["pulse"]["us_to_them"]["color"], r["pulse"]["them_to_us"]["color"] = "orange", "yellow"
+            r["with_us"].update(commitments_given=1, commitments_received=2)
+            x["connections"]["summary"].update(not_yellow_or_better=[], ours_not_yellow_or_better=[r["holon"]])
+
+        def named(name, stale=False):
+            def f(x, r):
+                r["name"] = name
+                if stale:
+                    r["condition"].update(stale=True, color="grey")
+            return f
+
+        def no_clock(x, r):
+            x["connections"].pop("as_of", None)
+            x.pop("generated_at", None)
+
+        def odd_values(x, r):
+            r["ear"].update(age_s="30", pulled_at="x")
+            r["pulse"]["cadence_s"] = 1.5
+            r["pulse"]["us_to_them"]["checks"].append(None)
+            r["pulse"]["them_to_us"]["checks"] = "zzz"
+            r["with_us"]["window_s"] = None
+            r["with_us"]["asks_waiting_on_us"] = None
+            r["agreement"].update(cadence="person:x every agent:y", until="soon")
+            r["condition"].update(said="not a time", until=None)
+            x["holons"], x["agreements"] = "notalist", None
+
+        def ids(x, r):
+            checks(r, "us_to_them")["agreement"]["reading"] = "agreed by %s and %s" % (r["holon"][:12].upper(), "a" * 66)
+
+        cls.states = {"fixture": st, "ok": variant(ok), "failed": variant(failed), "none_sent": variant(none_sent),
+                      "heard_back": variant(heard_back), "heard_recent": variant(heard_recent), "sent_no_word": variant(sent_no_word), "commit": variant(commit),
+                      "two_word_stale": variant(named("Second Cell", stale=True)),
+                      "four_word": variant(named("The Northern Valley Cooperative")),
+                      "long": variant(named(" ".join(["Long"] * 30), stale=True)),
+                      "big": variant(named("Café " + "x" * 70000)),
+                      "no_clock": variant(no_clock), "odd_values": variant(odd_values), "ids": variant(ids),
+                      "empty": {},
+                      "no_rows": {"connections": {"rows": [], "summary": {}, "said": ["this home is connected to no other holon yet"]}},
+                      "odd": {"connections": {"rows": [None, 1, [], {"holon": None, "pulse": 3, "ear": "x", "condition": [], "with_us": None}],
+                                              "summary": 5, "as_of": 7}, "holons": [None, {"id": 3}]},
+                      "worse": {"connections": {"rows": "x", "summary": "y"}}}
+        arg = json.dumps([CONN_VIEW.as_uri(), cls.states, _strings()])
+        out = subprocess.run([cls.node, "--input-type=module", "-e", CONN_DOM], input=arg, capture_output=True, text=True, timeout=60)
+        if out.returncode != 0:
+            raise AssertionError(out.stderr)
+        cls.r = json.loads(out.stdout)
+        cls.w = _strings()
+
+    def lead(self, key):
+        return self.w[key].split("{")[0].strip()
+
+    # law 1: plain first, the summary present, names never ids, every color with its meaning, under 25 words
+    def test_plain_lines_come_first(self):
+        f = self.r["fixture"]
+        self.assertEqual(f["order"][:3], ["conn-summary", "conn-key", "conn-list"])
+        self.assertEqual(f["board0"], 0)                              # the board waits for a pull
+        self.assertEqual(len(f["plain"]), len(self.rows))
+        self.assertTrue(f["plain"][0].startswith(self.rows[0]["name"] + ":"), f["plain"][0])
+        self.assertTrue(f["dos"][0].startswith(self.lead("conn.do_line")), f["dos"][0])
+
+    def test_under_25_words_whatever_the_name(self):
+        for k in ("fixture", "two_word_stale", "four_word", "long", "big", "commit", "odd"):
+            for line in self.r[k]["plain"] + self.r[k]["dos"]:
+                self.assertLess(len(line.split()), 25, (k, line[:200]))
+        self.assertTrue(self.r["four_word"]["plain"][0].startswith("The"))
+        self.assertTrue(self.r["long"]["plain"][0].startswith("Long"))
+        self.assertLess(len(self.r["big"]["plain"][0]), 400)          # a name past the bound is cut, with an ellipsis
+
+    def test_the_summary_says_which_and_why(self):
+        s = self.r["fixture"]["summary"][0]
+        name = self.rows[0]["name"]
+        self.assertIn(self.w["conn.sum.not_live"].format(name=name, why="").rstrip("."), s)
+        self.assertIn(self.w["conn.sum.why_ear.never"], s)              # "not fetched yet" is said as the reason
+        self.assertIn(self.w["conn.sum.why_pulse"].split("{")[0], s)
+        self.assertIn(self.w["conn.sum.live_means"], s)
+
+    def test_the_commitments_sentence_both_ways(self):
+        c = self.r["commit"]
+        self.assertIn(self.w["conn.us.commitments"], c["plain"][0].lower())
+        self.assertIn(self.w["conn.them.commitments.yellow_n"].replace("{n}", self.w["conn.num.2"]), c["plain"][0])
+        name = self.rows[0]["name"]
+        self.assertIn(self.w["conn.sum.theirs_ok"], c["summary"][0])
+        self.assertIn(self.w["conn.sum.ours_not"].replace("{names}", name), c["summary"][0])
+        self.assertNotIn(self.lead("conn.sum.theirs_not"), c["summary"][0])
+        self.assertIn(self.w["conn.sum.no_commitments"], self.r["fixture"]["summary"][0])
+
+    def test_no_id_and_no_actor_token(self):
+        for k in ("fixture", "ids", "odd_values"):
+            f = self.r[k]
+            for text in (f["first"], f["opened"], *f.get("checks", [])):
+                self.assertIsNone(re.search(r"\b[0-9a-fA-F]{8,}\b", text), (k, text[:300]))
+                self.assertIsNone(re.search(r"\b(person|agent):", text), (k, text[:300]))
+
+    def test_every_color_word_beside_its_meaning(self):
+        names = [self.w["conn.color_name." + c] for c in COLORS5 + ("amber",)]
+        meanings = [v for k, v in self.w.items() if k.startswith(("conn.color.", "conn.color_tiny.")) and isinstance(v, str)]
+        meanings += [self.w["conn.cond.stale"], self.w["conn.cond.stale_tiny"], self.w["conn.key.amber"]]
+        for k in ("fixture", "ok", "failed", "none_sent", "commit", "two_word_stale", "long"):
+            text = self.r[k]["openedPlain"] + " " + " ".join(self.r[k].get("checks", []))
+            hits = list(re.finditer(r"\b(%s)\b" % "|".join(map(re.escape, names)), text))
+            self.assertTrue(hits)
+            for m_ in hits:
+                after = text[m_.end():]
+                self.assertTrue(any(after.startswith(", " + x) for x in meanings), (k, text[m_.start():m_.start() + 60]))
+
+    def test_the_color_key(self):
+        key = self.r["fixture"]["key"]
+        want = [self.w["conn.cw"].format(color=self.w["conn.color_name." + c], meaning=self.w["conn.color." + c]) for c in COLORS5]
+        want.append(self.w["conn.cw"].format(color=self.w["conn.color_name.amber"], meaning=self.w["conn.key.amber"]))
+        self.assertEqual(key, want)
+
+    # law 2: the in-play mark, its two ages, and a dead ear that never touches the pulse
+    def test_the_mark_shows_both_ages_in_words(self):
+        for k in ("fixture", "ok", "failed", "none_sent", "heard_back", "sent_no_word"):
+            p = self.r[k]["play"][0]
+            self.assertIn(self.lead("conn.play.heard"), p)
+            self.assertIn(self.lead("conn.play.heard_by"), p)
+        f = self.r["fixture"]["play"][0]
+        self.assertIn(self.w["conn.play.by_never"], f)                 # ours were sent; no word back
+        self.assertIn(self.w["conn.play.waiting"].split("{")[1].split("}")[1].split(";")[0].strip(), f)
+        self.assertIn(cap(self.w["conn.num.2"]), f)
+        self.assertRegex(f, r"oldest went \d+ days ago")              # the oldest waiting line's age, in words
+        self.assertIn(self.w["conn.play.by_at"].replace("{when}", self.w["conn.ago.yesterday"]), self.r["heard_back"]["play"][0])
+        self.assertIn(self.w["conn.play.by_none"], self.r["none_sent"]["play"][0])
+        self.assertNotIn(self.w["conn.play.by_none"], self.r["sent_no_word"]["play"][0])   # sent, so never "nothing to receive"
+        self.assertIn(self.w["conn.play.by_never"], self.r["sent_no_word"]["play"][0])
+        self.assertIn(self.w["conn.play.heard_noclock"], self.r["no_clock"]["play"][0])
+
+    def test_it_beats_only_under_the_cadence_and_a_dead_ear_turns_amber(self):
+        ok, failed = self.r["ok"], self.r["failed"]
+        self.assertIn("conn-dot is-beating", ok["dots"][0])               # heard 30 s ago, the Agreement's cadence a day
+        self.assertFalse(any("is-deaf" in m_ for m_ in ok["marks"]))
+        self.assertFalse(any("is-beating" in d for d in failed["dots"]))   # two days ago, past the cadence
+        self.assertIn("is-deaf", failed["marks"][0])
+        self.assertIn(self.w["conn.ear.failed"].lower(), failed["play"][0].lower())
+        self.assertFalse(any("is-beating" in d for d in self.r["fixture"]["dots"]))
+        self.assertIn("is-beating", self.r["heard_recent"]["dots"][1])     # their word an hour ago, under the day
+        self.assertNotIn("is-beating", self.r["heard_back"]["dots"][1])    # 30 hours ago, past it
+        self.assertIn(self.w["conn.ago.hour"], self.r["heard_recent"]["play"][0])
+        for k in ("plain", "chips", "dos"):
+            self.assertEqual(ok[k], failed[k], k)                          # the pulse's words are the ear's to keep apart
+            self.assertEqual(ok[k], self.r["fixture"][k], k)
+
+    def test_motion_is_css_only_and_reduced_motion_is_kept(self):
+        css = re.sub(r"/\*.*?\*/", "", CONN_CSS.read_text(encoding="utf-8"), flags=re.S)
+        safe = _blocks(css, "@media (prefers-reduced-motion: no-preference)")
+        anims = [m_.start() for m_ in re.finditer(r"animation\s*:", css)]
+        self.assertTrue(anims and safe)
+        for a in anims:
+            self.assertTrue(any(s <= a < e for s, e in safe), css[a - 80:a + 40])
+        src = _source(CONN_VIEW)
+        for never in ("setInterval", "setTimeout", "requestAnimationFrame", "Date.now", "new Date("):
+            self.assertNotIn(never, src, never)
+
+    # law 3: More opens the board, the same tap closes it; a color lists its checks
+    def test_more_opens_and_closes_the_board(self):
+        f = self.r["fixture"]
+        self.assertEqual((f["board1"], f["board2"]), (1, 0))
+        self.assertEqual(f["moreOpen"], self.w["conn.more_open"])
+        self.assertNotIn(self.w["conn.col.condition"], f["closed"])
+
+    def test_the_board_cells(self):
+        f, row = self.r["fixture"], self.rows[0]
+        for k in ("holon", "condition", "us", "them", "ear", "with", "agreement", "since"):
+            self.assertIn(self.w["conn.col." + k], f["openedPlain"])
+        w = row["with_us"]
+        self.assertIn(self.w["conn.with.asks"].format(out=w["asks_waiting_on_them"], **{"in": w["asks_waiting_on_us"]}), f["openedPlain"])
+        self.assertIn(self.w["conn.with.commitments"].format(given=w["commitments_given"], received=w["commitments_received"]), f["openedPlain"])
+        self.assertIn(self.w["conn.ear." + row["ear"]["heard"]], f["openedPlain"])
+        self.assertIn(self.w["conn.ag." + row["agreement"]["state"]], f["openedPlain"])
+        self.assertIn(self.w["conn.board.tap"], f["openedPlain"])          # a line says a color can be tapped
+        self.assertEqual(f["since"], [self.w["conn.since"].replace("{when}", "11 days ago")])
+
+    def test_a_color_lists_its_checks_plainly(self):
+        f = self.r["fixture"]
+        cs = self.rows[0]["pulse"]["us_to_them"]["checks"]
+        self.assertEqual(len(f["checks"]), 1)
+        self.assertEqual(f["checkItems"], len(cs))
+        self.assertEqual(len(f["found"]), len(cs))                          # one plain line per check
+        for c in cs:
+            self.assertIn(self.w["conn.check." + c["check"]], f["checks"][0])
+        self.assertIn(self.w["conn.found.us.moved.pain"], f["found"])
+        self.assertIn(self.w["conn.found.us.ok.keys"], f["found"])
+        for text in f["found"] + f["how"]:
+            for j in JARGON:
+                self.assertNotIn(j, text, (j, text))
+        self.assertTrue(all(h_.startswith(self.w["conn.checks.how"]) for h_ in f["how"]))
+        self.assertIn(self.lead("conn.checks.basis"), " ".join(f["how"]))
+        self.assertIn(self.lead("conn.checks.reading"), " ".join(f["how"]))
+        self.assertEqual(f["checksAfter"], 0)                              # the same tap closed it
+
+    def test_every_act_says_what_it_does(self):
+        f = self.r["fixture"]
+        self.assertEqual(f["moreTitle"], self.w["conn.act.more_means"])
+        self.assertEqual(f["colorTitle"], self.w["conn.act.color_means"])
+        self.assertTrue(f["acts"][0].startswith(self.w["conn.acts.title"]))
+        for k in ("conn.act.more", "conn.act.color"):
+            self.assertIn(self.w[k], f["acts"][0])
+
+    # law 4: every word from strings.json; nothing unresolved; honest-empty
+    def test_no_words_in_code(self):
+        keys = {k for k in self.w if isinstance(k, str)}
+        classes = _css_classes()
+        bad = []
+        for lit in sorted(set(_literals(_source(CONN_VIEW)))):
+            if len(lit) <= 3 or lit in keys or lit in CONN_DATA:
+                continue
+            if lit.endswith(".") and any(k.startswith(lit) for k in keys):
+                continue
+            if all(tok in classes for tok in lit.split()):
+                continue
+            bad.append(lit)
+        self.assertEqual(bad, [])
+        for k in re.findall(r'\bt\(\s*"([^"]+)"', _source(CONN_VIEW)):
+            self.assertTrue(k in keys or (k.endswith(".") and any(x.startswith(k) for x in keys)), k)
+        for k in ("places.connections", "tabs.connections", "view.connections"):
+            self.assertEqual(self.w[k], "Connections")
+
+    def test_nothing_unresolved_and_honest_empty(self):
+        for k, r in self.r.items():
+            for text in (r["first"], r.get("opened") or "", r.get("closed") or "", *(r.get("checks") or [])):
+                self.assertIsNone(re.search(r"\[(conn|places|view|tabs)\.", text), (k, text[:200]))
+                self.assertIsNone(re.search(r"\{\w+\}", text), (k, re.search(r".{0,60}\{\w+\}.{0,20}", text)))
+        self.assertIn(self.w["conn.unread"], self.r["empty"]["first"])
+        self.assertIn(self.w["conn.empty"], self.r["no_rows"]["first"])
+        self.assertNotIn("connected to no other holon", self.r["no_rows"]["first"])   # the engine's sentence is not shown
+        self.assertIn(self.w["conn.unread"], self.r["worse"]["first"])               # rows that are not a list: not read
+        self.assertEqual(len(self.r["odd"]["plain"]), 1)                              # the one row that is an object
+        self.assertTrue(self.r["odd"]["plain"][0].startswith(self.w["conn.a_group"]))  # no name: "a group"
+        self.assertIn(self.w["conn.us.unread"], self.r["odd"]["plain"][0].lower())
+        self.assertIn(self.w["conn.see_all"], self.r["aside"]["first"])
+        self.assertNotIn(self.lead("conn.with.crossed"), self.r["odd_values"]["openedPlain"])   # no window: the line is absent
+
+    def test_it_only_reads_and_names_no_one(self):
+        src = _source(CONN_VIEW)
+        for never in ("ctx.act", "fetch(", "XMLHttpRequest", "localStorage", "sessionStorage", "Audio", ".play(",
+                      "speechSynthesis", "<script", "http://", "https://", "ctx.say", "ctx.mail", "openPublish", "import("):
+            self.assertNotIn(never, src, never)
+        for field in ("actor", "proposer", "agreed_by", "committee", "keeper", "by_actor"):
+            self.assertIsNone(re.search(r"\.%s\b" % field, src), field)
+        words = " ".join(v for k, v in self.w.items() if k.startswith("conn.") and isinstance(v, str))
+        self.assertIsNone(re.search(r"person:|agent:", words))
+
+
+def cap(s):
+    return s[:1].upper() + s[1:]
 
 if __name__ == "__main__":
     unittest.main()
