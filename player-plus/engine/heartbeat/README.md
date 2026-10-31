@@ -49,7 +49,7 @@ A beat writes these and nothing else:
 - Receipts and the agent's `body` lines, in the agent's own file under `record/` (the home's, or a cell's);
 - `.heartbeat.json` (what it remembers) and `.heartbeat-log.jsonl`.
 
-All but the record are derived and safe to delete. Add them to the home's `.gitignore`.
+All but the record are derived and safe to delete. Add them to the home's `.gitignore`. The heartbeat is severed by shape: it cannot send outward, it calls no model, and its wake brief carries the reason, the ids, the as-of and the budget, never the bodies of lines; what an agent holds is what it can leak, so the always-on body holds little, and the body it wakes, with the person present, reads the lines.
 
 ## How to stop it
 
@@ -57,7 +57,3 @@ All but the record are derived and safe to delete. Add them to the home's `.giti
 - systemd: `systemctl --user disable --now <label>.timer`
 - cron: `crontab -e`, and remove the line that names the label.
 - `heartbeat.py run`: Ctrl-C, or SIGTERM; it stops cleanly between beats.
-
-## What it holds
-
-The heartbeat is severed by shape: it reads and writes Receipts, it cannot send outward, it calls no model, and its wake brief carries the reason, the ids, the as-of and the budget, never the bodies of lines. What an agent holds is what it can leak, so the always-on body holds little; the body it wakes, with the person present, reads the lines.

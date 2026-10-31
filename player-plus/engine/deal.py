@@ -63,6 +63,22 @@ stale claim that left one), a clone past a day, a clone quiet three hours, close
 the desk, and "give this to a body" for long research or draft work. With `fewer`, handoffs that
 ask for no yes are left to the agent, past-a-day waits for close-out, and nothing is offered to a body.
 
+THE SENDER'S WORD. A risen ask, and every owed request or offer card, carries `sender`: the
+sender's `why` (their one line on why it matters to the one asked), `effort` (the minutes they
+estimate it takes, said in words as `effort_words`: "one minute", "about twenty minutes"), `by`,
+`voice` (whose words the line carries, as the fold filled it, said as `voice_words`: "in their own
+words", "drafted by their agent", "their agent, within a mandate", "their agent's words"), `from`,
+and `missing` (what the line left unsaid; honest-empty, never guessed). The card's `minutes` is the
+sender's effort when given, else the kit's own estimate, and its question reads the sender's why.
+The card's own `why` stays the dealer's reason (and "asked of you" on a risen card).
+
+STOPS. Any person may stop any agent (a `stop` line). While a live stop binds the actor's agent
+(or the actor, when the actor is an agent) for a card's holon, thread or line, the card is dealt
+with its acts withheld (`acts: []`, `stopped: {stop, by, why}`), and the Deal says so in one line
+(`stopped`). A lifted stop frees them. stops.py decides when it is present (`live`, `binds`);
+without it the Deal reads the fold's stop items itself, as stops.py reads them (a stop with no
+scope is `all`; an actor scope covers only that actor's cards), and `stopped.basis` says which.
+
 The dial (`fewer`, the person's word, four steps; True is one step): as set · fewer (at most two
 cards; handoffs that ask for no yes left to the agent; past-a-day at close-out; nothing offered to
 a body) · much fewer (one card) · only what always passes (a person waiting now, an irreversible
@@ -266,8 +282,8 @@ def deal(items, schedule_report, actor, minutes_available, room=None, now=None, 
     fewer = step >= 1
     bl = (bodies or {}).get('bodies') if isinstance(bodies, dict) else (bodies or [])
     ow = owed_mod.owed(norm, actor=actor, now=t, holons=holons, questions=questions, bodies=bl)
-    act_of = {'commitment': 'kept', 'request': 'answer', 'thread': 'say', 'ratify': 'ratify', 'decide': 'decide',
-              'claim': 'claim', 'question': 'decide', 'handoff': 'witness', 'receipt': 'say'}
+    act_of = {'commitment': 'kept', 'request': 'answer', 'offer': 'answer', 'thread': 'say', 'ratify': 'ratify',
+              'decide': 'decide', 'claim': 'claim', 'question': 'decide', 'handoff': 'witness', 'receipt': 'say'}
     for e in ow['entries']:
         if not may_act(norm, actor, act_of.get(e['kind'], e['kind']), e['holon'], t):
             continue
@@ -366,6 +382,16 @@ def deal(items, schedule_report, actor, minutes_available, room=None, now=None, 
         cands.append(x)
         by_id[x['id']] = x
 
+    risen_by = {r['id']: r for r in rs['requests']}
+    reqs = {item_id(r): r for r in norm.get('request', []) if item_id(r)}
+    for x in cands:                       # the sender's word on every ask
+        if x.get('kind') in SENDER_KINDS or x.get('_tier') == 0:
+            r = risen_by.get(x['id']) or {}
+            src = cards.get(x['id']) or reqs.get(x['id']) or threads.get(x['id']) or \
+                next((c for c in norm.get('commitment', []) if item_id(c) == x['id']), None) or {}
+            _carry_sender(x, sender_word(src, r.get('body'), r.get('from'), x.get('by'), r.get('voice')))
+    stopped = apply_stops(cands, items, fold, norm, actor, t, lines)
+
     order = {'owed': 0, 'thread': 1, 'decision': 2, 'ready': 3}
     for x in cands:                       # what the attention gate reads on every card
         x.setdefault('by', field(cards.get(x['id']), 'by') if x['id'] in cards else None)
@@ -431,6 +457,7 @@ def deal(items, schedule_report, actor, minutes_available, room=None, now=None, 
             'question': STANDING_QUESTION, 'rule': RULE, 'as_of': as_of,
             'newest_line': rs['newest_line'],             # the newest line this Deal saw: {id, ts}, or None
             'receipt_cards': n_receipts,
+            'stopped': stopped,
             'risen': {'requests': sum(1 for x in risen if x['why'] == ASKED),
                       'pains': sum(1 for x in risen if x['why'] == PAIN_WHY),
                       'pain_basis': rs['pain_basis'], 'lines_basis': rs['lines_basis']}}
@@ -575,10 +602,18 @@ def _frame_owed(e, norm, cards, succ, nc, threads, room, hname, unlocks):
             ri, why = (0, 'nothing in the record says otherwise; one key confirms it')
         un = unlocks(cid) if cid in cards else 'the witness can verify and the chain holds'
         return _base('owed', e['id'], h, hname, q, opts, ri, why, un, e['minutes'], rank=rank, kind=k)
+    if k == 'offer':
+        c = cards.get(e['id']) or {}
+        offerer = field(c, 'offered_by') or field(c, 'actor') or 'someone'
+        q = f'{offerer} offers: "{title}". Your answer?'
+        opts = ['Accept it', 'Ask for a change', 'Decline, with thanks']
+        why = 'one line tells them where they stand' + ('; they are in the room' if offerer in room else '')
+        return _base('owed', e['id'], h, hname, q, opts, 0, why, 'the one who offered knows where they stand',
+                     e['minutes'], rank=rank, kind=k)
     if k == 'request':
         it = next((r for r in norm.get('request', []) if item_id(r) == e['id']), {})
-        asker = field(it, 'actor') or 'someone'
-        size = minutes_of(it, 0)
+        asker = field(it, 'actor') or 'someone'          # a request card's asker is said on the card's `sender`
+        size = owed_mod.effort_of(it) or owed_mod.effort_of(cards.get(e['id'])) or minutes_of(it, 0)
         q = f'{asker} asks: "{title}". Your answer?'
         opts = ['Accept it: you become its holder', 'Offer something else', 'Decline, with thanks']
         ri, why = (0, f'it asks {hm(size)}, which fits') if 0 < size <= 30 else \
@@ -734,7 +769,7 @@ def _frame_ask(r, norm, cards, succ, nc, threads, room, hname, unlocks, t, quest
         e = {'kind': 'request', 'id': iid, 'holon': holon_of(it) or r.get('holon') or '',
              'title': str(field(it, 'title') or field(it, 'text') or iid[:8])[:120], 'holder': None,
              'status': 'waiting', 'due': field(it, 'by'), 'age_days': days_between(r.get('ts'), t),
-             'minutes': owed_mod.MINUTES['request']}
+             'minutes': owed_mod.ask_minutes(it if owed_mod.effort_of(it) else b, 'request')[0]}
         c = _frame_owed(e, norm, cards, succ, nc, threads, room, hname, unlocks)
         c['by'] = e['due']
         return c
@@ -811,6 +846,10 @@ def render(d):
             because = f"; {c['because']}" if c.get('because') else ''
             out.append(f"   I would choose {letters[ri]}: {c['why']}{because}.")
             out.append(f"   Answering: {c['unlocks']}.")
+            if c.get('sender') and c['sender'].get('said'):
+                out.append(f"   {c['sender']['said']}")
+            if c.get('stopped'):
+                out.append('   Your agent is stopped here; its acts wait for the lift.')
             if c.get('whole_waits'):
                 out.append('   The whole is waiting on this.')
             out.append('')
@@ -820,6 +859,9 @@ def render(d):
                    f"{'it stays' if b['count'] == 1 else 'they stay'} in the list.")
     elif cards:
         out.append('Nothing else needs you.')
+    st = d.get('stopped') or {}
+    if st.get('line'):
+        out.append(st['line'])
     oty = d.get('owed_to_you') or []
     if oty:
         out.append(f"Owed to you: {len(oty)}, the oldest \"{oty[0]['title']}\" from {oty[0]['holder']}.")
@@ -850,6 +892,251 @@ def render_paper(d):
             '    ________________________________________________________', '',
             'Signed: ________________   Witness: ________________   Date: ________']
     return '\n'.join(out) + '\n'
+
+
+# ---------------------------------------------------------------- the sender's word
+
+SENDER_KINDS = ('request', 'offer')          # owed cards that carry the sender's word; every risen ask does too
+WHY_MAX = 200                                # the kit's cut for one line, in characters
+VOICE_WORDS = {'human-words': 'in their own words', 'agent-drafted': 'drafted by their agent',
+               'under-mandate': 'their agent, within a mandate', 'agent': "their agent's words"}
+_ONES = ('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven',
+         'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen')
+_TENS = {2: 'twenty', 3: 'thirty', 4: 'forty', 5: 'fifty', 6: 'sixty', 7: 'seventy', 8: 'eighty', 9: 'ninety'}
+_ENDINGS = (' Your answer?', ' Your line?', ' Your word?', ' Will you respond?')
+
+
+def _words(n):
+    if n < 20:
+        return _ONES[n]
+    if n < 100:
+        t, o = divmod(n, 10)
+        return _TENS[t] + ('-' + _ONES[o] if o else '')
+    return str(n)
+
+
+def effort_words(m):
+    """Minutes said in words: "one minute", "five minutes", "about twenty minutes", "about an hour and
+    a half"; to ten minutes exact, to the hour by fives, beyond by half hours. None for no effort."""
+    if not isinstance(m, int) or isinstance(m, bool) or m <= 0:
+        return None
+    if m == 1:
+        return 'one minute'
+    if m <= 10:
+        return f'{_words(m)} minutes'
+    fives = int(m / 5 + 0.5) * 5
+    if fives < 60:
+        return f'about {_words(fives)} minutes'
+    halves = int(m / 30 + 0.5)
+    if halves <= 2:
+        return 'about an hour'
+    if halves == 3:
+        return 'about an hour and a half'
+    whole, half = divmod(halves, 2)
+    return f'about {_words(whole)}{" and a half" if half else ""} hours'
+
+
+def _one_line(v):
+    """The first line of a text, in NFC and stripped: a why is one line, and a line break never
+    carries more into the card's question."""
+    t = _s(v)
+    return _s(t.splitlines()[0]) if t else ''
+
+
+def _line_voice(line):
+    """The voice record.line_voice reads from a raw line that made no item, else None."""
+    try:
+        import record as record_mod
+        v, _ = record_mod.line_voice(line)
+    except Exception:                         # a module mid-repair never stops the Deal
+        return None
+    return v if v in VOICE_WORDS else None
+
+
+def sender_word(src, body=None, sender=None, by=None, voice=None):
+    """The sender's word on an ask, from the item that carries it, else the line's body: why, effort
+    (whole minutes) and its words, by, voice and its words, from; `missing` names what was not said,
+    and `said` is the one plain sentence the card shows (empty when nothing was said). The why is cut
+    at its first line break. `voice` is the voice read from a raw line, used when the item has none."""
+    b = body if isinstance(body, dict) else {}
+
+    def get(k):
+        v = field(src, k)
+        return b.get(k) if v is None else v
+    why = _one_line(get('why'))[:WHY_MAX].rstrip('.') or None
+    eff = owed_mod.effort_of(src) or owed_mod.effort_of(b)
+    when = get('by') if isinstance(get('by'), str) and get('by') else (by if isinstance(by, str) and by else None)
+    iv = field(src, 'voice')
+    voice = iv if isinstance(iv, str) and iv in VOICE_WORDS else \
+        voice if isinstance(voice, str) and voice in VOICE_WORDS else \
+        b.get('voice') if isinstance(b.get('voice'), str) and b.get('voice') in VOICE_WORDS else None
+    frm = _s(src.get('actor') if isinstance(src, dict) else None) or _s(sender) or None
+    w = {'why': why, 'effort': eff, 'effort_words': effort_words(eff), 'by': when, 'voice': voice,
+         'voice_words': VOICE_WORDS.get(voice), 'from': frm,
+         'missing': [k for k, v in (('why', why), ('effort', eff), ('by', when), ('voice', voice)) if v is None]}
+    parts = [p for p in (w['voice_words'] or '', (f"{w['effort_words']}, as they estimate it") if eff else '',
+                         (f'by {when}') if when else '') if p]
+    w['said'] = (parts[0][0].upper() + '; '.join(parts)[1:] + '.') if parts else ''
+    return w
+
+
+def _with_why(q, why):
+    """The card's question, reading the sender's why before its closing ask."""
+    if not why or why in q:
+        return q
+    for end in _ENDINGS:
+        if q.endswith(end):
+            return f'{q[:-len(end)]} Why: {why}.{end}'
+    return f'{q} Why: {why}.'
+
+
+def _carry_sender(x, w):
+    x['sender'] = w
+    if w['effort']:
+        x['minutes'] = float(w['effort'])         # the sender's effort is the card's size
+    x['question'] = _with_why(x['question'], w['why'])
+
+
+# ---------------------------------------------------------------- stops
+
+STOP_SCOPE_ALL = ('all', '*')
+
+
+def _stop_items(items, fold, norm):
+    """The fold's stop items, wherever the container keeps them (normalize does not read them)."""
+    out = []
+    for src in (fold, items):
+        if isinstance(src, dict):
+            for k in ('stops', 'stop'):
+                v = src.get(k)
+                out += [x for x in (v.values() if isinstance(v, dict) else v if isinstance(v, list) else [])
+                        if isinstance(x, dict)]
+        elif isinstance(src, list):
+            out += [x for x in src if isinstance(x, dict) and x.get('kind') == 'stop']
+    out += [x for x in norm.get('stop', []) if isinstance(x, dict)]
+    seen, keep = set(), []
+    for x in sorted(out, key=lambda x: str(item_id(x))):
+        if item_id(x) and item_id(x) not in seen and not is_untrusted(x):
+            seen.add(item_id(x)); keep.append(x)
+    return keep
+
+
+def _person_of_agent(norm, agent, now):
+    return {_s(field(d, 'for') or field(d, 'actor')) for d in live_delegations(norm, agent, now)} - {''}
+
+
+def _fallback_live(stops, norm, agent, now):
+    """Live stops on this agent: not lifted, or lifted by someone other than the agent's own person."""
+    own = _person_of_agent(norm, agent, now)
+    out = []
+    for s in stops:
+        st = str(field(s, 'state') or 'live').lower()
+        if st == 'retracted' or (st == 'lifted' and _s(field(s, 'lifted_by')) in own):
+            continue
+        ags = {_s(a) for a in (field(s, 'agents') or []) if isinstance(a, str)} if isinstance(field(s, 'agents'), list) else set()
+        if ags and agent not in ags:
+            continue
+        out.append(s)
+    return out
+
+
+def _fallback_binds(stops, agent, holon, line, card=None):
+    """The first stop whose scope covers this card, read as stops.binds reads it: a stop with no scope
+    is `all` (every card, in every holon); a holon scope covers the cards of that holon; an actor
+    scope covers only a card by, for or to that actor (or the stopped agent itself); a card, thread or
+    line scope covers that card and what it links to."""
+    near = {line} | (set(_refs(card)) if isinstance(card, dict) else set())
+    holons = {holon} | ({holon_of(card)} if isinstance(card, dict) else set())
+    people = {agent}
+    if isinstance(card, dict):
+        b = _body(card)
+        people |= {_s(field(card, 'actor')), _s(field(card, 'for'))}
+        people |= {_s(x) for x in _as_strs(b.get('to')) + _as_strs(b.get('committee'))}
+    holons.discard('')
+    people.discard('')
+    for s in stops:
+        sc = _s(field(s, 'scope')) or STOP_SCOPE_ALL[0]
+        if sc in STOP_SCOPE_ALL or sc in holons or sc in people or sc in near:
+            return s
+    return None
+
+
+def _as_strs(v):
+    return [v] if isinstance(v, str) else [x for x in v if isinstance(x, str)] if isinstance(v, (list, tuple)) else []
+
+
+def _call_live(live_fn, src, agent, now, lines):
+    """stops.live, given the lines when its signature takes them (it need not)."""
+    import inspect
+    try:
+        takes = 'lines' in inspect.signature(live_fn).parameters
+    except (TypeError, ValueError):
+        takes = False
+    if takes:
+        return live_fn(src, agent, None, now, lines=lines)
+    return live_fn(src, agent, None, now)
+
+
+def apply_stops(cands, items, fold, norm, actor, now, lines=None):
+    """Withhold the acts of every card a live stop binds for this actor's agent; say it in one line.
+    stops.py decides (live, then binds per card) when it is present; else the fold's items are read here."""
+    person = _s(actor)
+    agents = [person] if actor_kind(person) == 'agent' else sorted(agents_of(norm, person, now))
+    raw = _stop_items(items, fold, norm)
+    out = {'count': 0, 'stops': [], 'line': '', 'basis': 'no stop in the record' if not raw else ''}
+    if not agents or not raw:
+        if raw:
+            out['basis'] = 'no agent of this actor to stop'
+        return out
+    src = fold if isinstance(fold, dict) and isinstance(fold.get('stops'), list) else \
+        {'stops': raw, 'admitted': (fold or {}).get('admitted') if isinstance(fold, dict) else None}
+    adm = src.get('admitted') if isinstance(src.get('admitted'), dict) else None
+    try:
+        import stops as stops_mod
+        live_fn, binds_fn, basis = stops_mod.live, stops_mod.binds, 'stops.py'
+    except (ImportError, AttributeError):
+        live_fn = binds_fn = None
+        basis = 'fallback: stops.py is absent; the fold\'s stop items are read here'
+    by_item = {item_id(c): c for xs in norm.values() for c in xs if isinstance(c, dict) and item_id(c)}
+    hit = set()
+    for ag in agents:
+        rows = None
+        if live_fn is not None:
+            try:
+                rows = _call_live(live_fn, src, ag, now.isoformat(timespec='seconds'),
+                                  lines if isinstance(lines, (list, tuple)) else None)
+            except Exception as ex:               # a module mid-repair never stops the Deal; it is said
+                rows, basis = None, f'fallback: stops.live raised {type(ex).__name__}'
+        fall = not isinstance(rows, list)
+        if fall:
+            rows = _fallback_live(raw, norm, ag, now)
+        for x in cands:
+            if 'stopped' in x:
+                continue
+            about = by_item.get(x['id']) or x['id']
+            s = None
+            for row in sorted((r for r in rows if isinstance(r, dict)), key=lambda r: str(item_id(r))):
+                if fall:
+                    s = _fallback_binds([row], ag, x.get('holon') or '', x['id'], by_item.get(x['id']))
+                else:
+                    try:
+                        got = binds_fn([row], ag, x.get('holon') or None, about, admitted=adm)
+                    except Exception as ex:
+                        got, basis = False, f'stops.binds raised {type(ex).__name__}; nothing withheld by it'
+                    s = row if (got[0] if isinstance(got, tuple) and got else got is True) else None
+                if s is not None:
+                    break
+            if isinstance(s, dict):
+                x['acts'] = []
+                x['stopped'] = {'stop': item_id(s), 'by': _s(s.get('by') or field(s, 'for') or field(s, 'actor')) or None,
+                                'why': _s(field(s, 'why'))[:WHY_MAX] or None}
+                hit.add(item_id(s))
+    n = sum(1 for x in cands if x.get('stopped'))
+    out.update(count=n, stops=sorted(hit), basis=basis)
+    if n:
+        out['line'] = (f'Your agent is stopped on {_num(n)} card{"s" if n != 1 else ""}: '
+                       'its acts wait until the stop is lifted.')
+    return out
 
 
 # ---------------------------------------------------------------- what rises first
@@ -886,37 +1173,10 @@ def _trust_map(src):
 
 
 def trusted_lines(items, lines):
-    """The lines that may raise or answer an ask: each once, by id; when the fold's trust map can be
-    reached, only a line it marks trusted (an id missing from it never passes); never one on its
-    invalid, unverified, refused, forked or proposal lists, nor one from untrusted text. Callers pass
-    trusted lines; this holds the gate again when the fold rides beside them."""
-    if not isinstance(lines, (list, tuple)):
-        return []
-    trust, out_ids = _trust_map(items), set()
-    if isinstance(items, dict):
-        for k in NOT_COUNTED:
-            for x in items.get(k) if isinstance(items.get(k), list) else []:
-                if not isinstance(x, dict):
-                    continue
-                if isinstance(x.get('id'), str):
-                    out_ids.add(x['id'])
-                if isinstance(x.get('lines'), list):                    # a fork: every line but its survivor
-                    out_ids.update(i for i in x['lines'] if isinstance(i, str) and i != x.get('survivor'))
-    seen, out = set(), []
-    for l in lines:
-        if not isinstance(l, dict):
-            continue
-        lid = l.get('id')
-        if not isinstance(lid, str) or not lid or lid in seen or lid in out_ids:
-            continue
-        if (trust is not None and trust.get(lid) not in TRUSTED_LINES) or \
-                ('_trust' in l and l['_trust'] not in TRUSTED_LINES):
-            continue
-        if _s(l.get('reason')).lower() == 'untrusted':
-            continue
-        seen.add(lid)
-        out.append(l)
-    return sorted(out, key=lambda l: (str(l.get('ts') or ''), l['id']))
+    """The lines that may raise or answer an ask: owed.trusted_lines, the one gate the Deal and
+    waiting on share (each once, by id; only what the fold's trust map marks trusted; never a line on
+    its invalid, unverified, refused, forked or proposal lists, nor one from untrusted text)."""
+    return owed_mod.trusted_lines(items, lines)
 
 
 def agents_of(norm, person, now=None):
@@ -1162,7 +1422,8 @@ def rising(items, actor, lines=None, now=None, holons=None, questions=None, fold
         if prev is None or (e is not None and (prev['epoch'] is None or e > prev['epoch'])):
             found[key] = {'id': key, 'kind': kind, 'line': ask['id'], 'ts': ask.get('ts'), 'epoch': e,
                           'type': ask.get('type'), 'from': ask.get('actor'), 'holon': _s(ask.get('holon')) or
-                          (holon_of(item) if isinstance(item, dict) else ''), 'body': _body(ask)}
+                          (holon_of(item) if isinstance(item, dict) else ''), 'body': _body(ask),
+                          'voice': None if isinstance(item, dict) else _line_voice(ask)}
     inf = float('inf')
     out['requests'] = sorted(found.values(), key=lambda r: (-r['epoch'] if r['epoch'] is not None else inf, r['id']))
 

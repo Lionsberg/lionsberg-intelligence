@@ -1816,6 +1816,40 @@ def _new_item(kind, line, body, holon):
     return item
 
 
+VOICES = ('human-words', 'agent-drafted', 'under-mandate', 'agent')   # whose words a line carries (types.json)
+
+
+def line_voice(line, signed_for=False, mandate=False):
+    """(voice, claimed): the voice the record supports, and the voice the line stated when the record
+    does not support it (else None). Computed: human-words for a person's own line (a person's signed
+    line is their words unless its reason says otherwise), agent-drafted for an agent's line signed at
+    the person's word, under-mandate for an agent's move under a delegation that carries a mandate,
+    else agent. A person's stated voice is kept. An agent's stated voice is kept only when the record
+    supports it (agent always; agent-drafted with `signed_for`; under-mandate on a move with a
+    mandate); any other claim reads the computed voice and is returned as `claimed`. Not a dict: None."""
+    if not isinstance(line, dict):
+        return None, None
+    b = line.get('body') if isinstance(line.get('body'), dict) else {}
+    said, person = b.get('voice'), _str(line.get('actor')).startswith('person:')
+    move_mandate = bool(mandate) and line.get('type') == 'move'
+    if person:
+        computed = 'human-words' if _str(line.get('reason')) in ('', 'human') else 'agent'
+        return (said if said in VOICES else computed), None
+    computed = 'agent-drafted' if signed_for else 'under-mandate' if move_mandate else 'agent'
+    if said not in VOICES:
+        return computed, None
+    supported = {'agent'} | ({'agent-drafted'} if signed_for else set()) | \
+        ({'under-mandate'} if move_mandate else set())
+    return (said, None) if said in supported else (computed, said)
+
+
+def _mandated(line, table, by_id, ctx=None):
+    """True when the standing delegation that covers an agent's line carries a mandate."""
+    d, _ = delegation_for(line, table, ctx=ctx)
+    m = (((by_id or {}).get(d['id']) or {}).get('body') or {}).get('mandate') if d else None
+    return isinstance(m, dict) and bool(m)
+
+
 def _who_ok(who, line, item, keepers):
     if not who:
         return True
@@ -1848,6 +1882,16 @@ def _who_ok(who, line, item, keepers):
         if k:
             return lf == k and lf != item.get('for')
         return lf != item.get('for')
+    if who == 'stop_person':
+        # only the stopped agent's own person lifts a stop (the person who affirmed it, read across every holon held;
+        # agents stopped as "every agent" are lifted by the holon's keeper); a disagreement between holons leaves no lifter
+        persons = [x for x in (item.get('persons') or []) if isinstance(x, str)]
+        if persons:
+            return lf in persons
+        if not item.get('agents'):
+            k = (keepers or {}).get(item.get('holon'))
+            return bool(k) and lf == k
+        return False
     return False
 
 
@@ -2614,6 +2658,11 @@ def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
 
         if target is None and (creates == 'always' or (creates == 'if_no_target' and kind != 'none')):
             item = _new_item(kind, l, body, holon)
+            if 'voice' in body or any(isinstance(f, dict) and f.get('name') == 'voice' for f in spec.get('fields') or ()):
+                # a voice the body states is read against the record even on a type that does not register it
+                item['voice'], claimed = line_voice(l, bool(signed_src), typ == 'move' and _mandated(l, table, by_id, ctx))
+                if claimed:
+                    item['voice_claimed'] = claimed           # an agent's claim the record does not support
             item['state'] = (idefs.get(kind) or {}).get('initial')
             ib = (idefs.get(kind) or {}).get('initial_by')
             if isinstance(ib, dict) and isinstance(ib.get('map'), dict):
@@ -2628,6 +2677,16 @@ def fold(lines, types=None, keepers=None, now=None, clock=None, keep=None):
             if retracted_by:
                 item['state'] = 'retracted'
                 item['retracted_by'] = retracted_by
+            if kind == 'stop':
+                # the persons who may lift it: each stopped agent's own person, as its affirm says in every holon held;
+                # two holons that disagree on an agent's person leave no lifter for it
+                persons = set()
+                for ag in _as_list(body.get('agents')):
+                    found = {e.get('person') for m in ctx.admitted.values() for a, e in m.items()
+                             if a == ag and e.get('via') in ('affirm', 'rotate') and isinstance(e.get('person'), str)}
+                    if len(found) == 1:
+                        persons |= found
+                item['persons'] = sorted(persons)
             items[l['id']] = item
             event_item[l['id']] = l['id']
             out[plural(kind)].append(item)

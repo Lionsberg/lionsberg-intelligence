@@ -3252,7 +3252,8 @@
             "state": "lifted",
             "lifted_by": "$for",
             "lifted_ts": "$ts"
-          }
+          },
+          "who": "stop_person"
         }
       ]
     }

@@ -295,6 +295,19 @@ class TestRule(Base):
         bad = self.mk(AIDE, self.H, 'limits', rule)
         self.assertIn(bad['id'], {i['id'] for i in self.fold([bad])['invalid']})
 
+    def test_only_the_stopped_agents_own_person_lifts_a_stop(self):
+        s = self.mk(STEWARD, self.C, 'stop', {'agents': [AIDE], 'scope': self.C, 'why': 'hold'})
+        f = self.fold([s])
+        it = self.item(f, 'stops', s['id'])
+        self.assertEqual((it['state'], it['persons']), ('live', [PLAYER]))
+        stranger = self.mk(STEWARD, self.C, 'stop', {'lift': True, 'stop': s['id']}, {'answers': [s['id']]})
+        it = self.item(self.fold([s, stranger]), 'stops', s['id'])
+        self.assertEqual(it['state'], 'live')
+        self.assertTrue(any('not the right actor' in x['why'] for x in it.get('refused', [])))
+        own = self.mk(PLAYER, self.C, 'stop', {'lift': True, 'stop': s['id']}, {'answers': [s['id']]})
+        it = self.item(self.fold([s, stranger, own]), 'stops', s['id'])
+        self.assertEqual((it['state'], it['lifted_by']), ('lifted', PLAYER))
+
     def test_share_and_voice_are_registered(self):
         for t in ('share', 'voice'):
             self.assertEqual(self.types['types'][t]['item'], 'none')
