@@ -505,7 +505,15 @@ class TheViewDrawn(unittest.TestCase):
             self.assertIn(w[k], opened)
         for text in (opened, closed, *r["aside"], *r["empty"], *r["odd"]):
             self.assertIsNone(re.search(r"\[(smap|sight|places|view)\.", text), text[:200])
-        some = next(rs for kinds in st["map"]["by_place"].values() for rs in kinds.values() if rs)
+        # the cell the stub taps is the first the view draws: places by weight, then count, then name;
+        # kinds in the state's order, then the rest sorted (sightings.js mapModel)
+        def _w(rows):
+            return sum(1 if r.get("weight") is None else r["weight"] for r in rows)
+        places = sorted(((pl, kinds) for pl, kinds in st["map"]["by_place"].items() if pl and any(kinds.values())),
+                        key=lambda pk: (-sum(_w(v) for v in pk[1].values()), -sum(len(v) for v in pk[1].values()), pk[0]))
+        kinds_order = list(st["map"]["kinds"]) + sorted(k for k in st["map"]["by_kind"] if k not in st["map"]["kinds"])
+        first = places[0][1]
+        some = next(first[k] for k in kinds_order if first.get(k))
         self.assertIn(some[0]["text"], opened)           # the tap listed the cell's sightings with their paper line
         self.assertNotIn(some[0]["text"], closed)        # and the same tap closed it
         self.assertIn(w["smap.see_all"], r["aside"][0])
