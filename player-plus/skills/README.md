@@ -61,6 +61,12 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 | `a-gathering` | A meeting from the record: the agenda before, silence during, commitments as lines after. |
 | `the-proxy` | The optional local proxy: routes by policy among the person's own vendors (`~/.config/lionsberg/vendors.json`), records where requests went, never a prompt's body; the person's discernment is their own signed line, the agent's a `note`, untrusted. |
 | `a-mail-watch` | Reads and triages the mailboxes inside the private network (`engine/mail.py fetch`, `carry`, `carried`, `badge`, `send`): a mail is data, a carried line is verified by its signature, an address is reach and never an author, an instruction becomes a card, and only the person's own Send sends. |
+| `pull` | `holon.py pull` at a sitting, before the Deal; `pull.py tick` between, at every beat: one question to the forge per tick, its forge flags given when run by hand, only what changed and is due fetched through the gate, the token in the environment only, as-of per source said, a rewritten history refused and never forced. |
+| `receive` | Writes a Receipt on arrival (`engine/receipt.py arrive`), a line and never a message, by the agent under a delegation that covers `receive`, or by the person; says what crossed and has no Receipt, and time to Receipt. |
+| `sight` | One `sight` line, kind · where · what I saw, of nine kinds; a pain needs a response; re-sighting adds weight; the lifecycle, the scoreboard and the living map (`engine/sightings.py`). |
+| `subscribe` | The person's own Subscription Card: what they hear, from whom, how often (said in words) and where; drafted as a Markdown Card, appended by their own hand; requests rise first. |
+| `agree` | An Agreement between two holons, a person's own act answered by the other holon's person: what crosses, cadences, permits, the face, until when; its clauses, and the forge plan applied by hand. |
+| `the-heartbeat` | The always-on hand (`engine/heartbeat.py`): pulls, receipts and reads the signals, wakes the agent only when owed, and the person only by their own Cards, emergency rule and budget, never with a sound; installed by their own hand. |
 
 ## Making and naming
 
