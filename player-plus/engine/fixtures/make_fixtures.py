@@ -261,6 +261,18 @@ def _build(root, hq, cell, kd):
          'digest': hashlib.sha256(b'share-1').hexdigest(), 'pubkey': pub[PLAYER]})
     put('voice', cell, STEWARD, STEWARD, 'voice',
         {'pubkey': pub[STEWARD], 'members': [STEWARD, PLAYER], 'threshold': 2, 'scheme': 'frost-ed25519-sha512'})
+    # a conversation for action: an ask with its why and effort, a counter, and the asker taking it
+    put('meet_ask', cell, PLAYER, PLAYER, 'request',
+        {'to': STEWARD, 'title': 'Meet this week to settle the venue', 'by': '2026-11-06', 'minutes': 60,
+         'why': 'the hall is held only until Friday', 'effort': 1, 'shape': 'converge', 'quorum': 'everyone',
+         'voice': 'human-words'})
+    put('meet_counter', cell, STEWARD, STEWARD, 'move',
+        {'move': 'counter', 'root': ids['meet_ask'], 'terms': {'times': ['2026-11-05T18:00', '2026-11-06T09:00']},
+         'text': 'None of those; Thursday evening or Friday morning?', 'voice': 'human-words'},
+        {'answers': [ids['meet_ask']]})
+    put('meet_accept', cell, PLAYER, PLAYER, 'move',
+        {'move': 'accept_counter', 'root': ids['meet_ask'], 'terms': {'time': '2026-11-05T18:00'}},
+        {'answers': [ids['meet_counter']]})
     put('leave', cell, PLAYER, PLAYER, 'leave', {'role': 'member', 'why': 'the season is over'})
 
     # --- the player publishes the plan milestone and its commitment into the cell

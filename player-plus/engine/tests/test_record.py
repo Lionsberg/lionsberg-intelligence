@@ -1494,7 +1494,7 @@ class TestCli(Base):
         r = subprocess.run([sys.executable, '-I', os.path.join(ENGINE, 'record.py'), 'fold', self.hq, '--only', 'cards'],
                            capture_output=True, text=True, timeout=60)
         self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertEqual(len(json.loads(r.stdout)), 5)
+        self.assertEqual(len(json.loads(r.stdout)), 6)   # the fixtures' cards: five, and the ask to meet
 
     def test_help(self):
         for script in ('record.py', 'holon.py'):

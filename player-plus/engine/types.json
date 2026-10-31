@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "about": "The type registry of the Record, schema v1. Data, not code: a new type is a new entry here. Readers keep every line whose type they do not know (it folds into 'unknown'). Each type names its body fields (name, required, kind), the item it folds into, whether it creates that item, where it finds the item it changes (target: paths into the line, tried in order), which item kinds it may act on, and the state transitions it causes. In a transition: 'when' matches body values; 'from' lists the states it may leave (absent means any); 'who' is 'same_for' (the item's own Living Intelligence), 'other' (anyone but the item's own), 'named' (the witness the item names, else anyone but its own) or 'keeper' (the holon's keeper; 'other' when keepers are unknown); 'set' gives new values, where '$actor', '$for' and '$ts' are the line's own and 'body.x' is a body field; 'append_to' adds a short entry for this line to a list on the item. 'human_only' types are a Living Intelligence's own act: an agent's line of that type is valid only at the person's word, either under a live delegate with once: true for that one type and holon (used up by the line) or with the person's consent on the line (body.consent, their words; links.answers to their say line when there is one); the fold marks it signed_for. Without either it is kept and marked invalid. 'also' is a second effect of the same line on another item. A supersede counts only from the same actor, or from a person under a decide line in the same holon; an agent never supersedes another's line; an empty supersede retracts (every item kind has the state 'retracted'). 'home_only' types are written only into the person's own home (a holon whose inception kind is person), never into a cell. 'initial_by' on an item sets its first state from a body field ({field, map}): a wallet gift is given. 'when_item' on a transition requires the line to restate fields of the item it answers ({line path: item field}).",
+  "about": "The type registry of the Record, schema v1. Data, not code: a new type is a new entry here. Readers keep every line whose type they do not know (it folds into 'unknown'). Each type names its body fields (name, required, kind), the item it folds into, whether it creates that item, where it finds the item it changes (target: paths into the line, tried in order), which item kinds it may act on, and the state transitions it causes. In a transition: 'when' matches body values; 'from' lists the states it may leave (absent means any); 'who' is 'same_for' (the item's own Living Intelligence), 'other' (anyone but the item's own), 'named' (the witness the item names, else anyone but its own) or 'keeper' (the holon's keeper; 'other' when keepers are unknown); 'set' gives new values, where '$actor', '$for' and '$ts' are the line's own and 'body.x' is a body field; 'append_to' adds a short entry for this line to a list on the item. 'human_only' types are a Living Intelligence's own act: an agent's line of that type is valid only at the person's word, either under a live delegate with once: true for that one type and holon (used up by the line) or with the person's consent on the line (body.consent, their words; links.answers to their say line when there is one); the fold marks it signed_for. Without either it is kept and marked invalid. 'also' is a second effect of the same line on another item. A supersede counts only from the same actor, or from a person under a decide line in the same holon; an agent never supersedes another's line; an empty supersede retracts (every item kind has the state 'retracted'). 'home_only' types are written only into the person's own home (a holon whose inception kind is person), never into a cell. 'initial_by' on an item sets its first state from a body field ({field, map}): a wallet gift is given. 'when_item' on a transition requires the line to restate fields of the item it answers ({line path: item field}). 'voice' on a line says whose words it carries (human-words · agent-drafted · agent · under-mandate); the fold fills it from reason when a line leaves it out.",
   "audiences": [
     "holon",
     "members",
@@ -239,6 +239,48 @@
           "name": "urgency",
           "required": false,
           "kind": "text"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text",
+          "about": "one line on why this matters to the recipient; the sender's own accountability"
+        },
+        {
+          "name": "effort",
+          "required": false,
+          "kind": "minutes",
+          "about": "the sender's estimate of the recipient's time, in minutes: the TEA asked for"
+        },
+        {
+          "name": "shape",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "converge",
+            "call",
+            "consent",
+            "gather"
+          ],
+          "about": "for a holon: converge on one choice · call for takers · consent on a proposal · gather contributions"
+        },
+        {
+          "name": "quorum",
+          "required": false,
+          "kind": "string",
+          "about": "for a holon: everyone · a number · any one · the stewards"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "agent",
+            "under-mandate"
+          ],
+          "about": "whose words these are; the fold fills it from reason when absent"
         }
       ],
       "item": "thread",
@@ -312,6 +354,48 @@
           "name": "options",
           "required": false,
           "kind": "list"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text",
+          "about": "one line on why this matters to the recipient; the sender's own accountability"
+        },
+        {
+          "name": "effort",
+          "required": false,
+          "kind": "minutes",
+          "about": "the sender's estimate of the recipient's time, in minutes: the TEA asked for"
+        },
+        {
+          "name": "shape",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "converge",
+            "call",
+            "consent",
+            "gather"
+          ],
+          "about": "for a holon: converge on one choice · call for takers · consent on a proposal · gather contributions"
+        },
+        {
+          "name": "quorum",
+          "required": false,
+          "kind": "string",
+          "about": "for a holon: everyone · a number · any one · the stewards"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "agent",
+            "under-mandate"
+          ],
+          "about": "whose words these are; the fold fills it from reason when absent"
         }
       ],
       "item": "decision",
@@ -667,6 +751,48 @@
           "name": "minutes",
           "required": false,
           "kind": "minutes"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text",
+          "about": "one line on why this matters to the recipient; the sender's own accountability"
+        },
+        {
+          "name": "effort",
+          "required": false,
+          "kind": "minutes",
+          "about": "the sender's estimate of the recipient's time, in minutes: the TEA asked for"
+        },
+        {
+          "name": "shape",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "converge",
+            "call",
+            "consent",
+            "gather"
+          ],
+          "about": "for a holon: converge on one choice · call for takers · consent on a proposal · gather contributions"
+        },
+        {
+          "name": "quorum",
+          "required": false,
+          "kind": "string",
+          "about": "for a holon: everyone · a number · any one · the stewards"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "agent",
+            "under-mandate"
+          ],
+          "about": "whose words these are; the fold fills it from reason when absent"
         }
       ],
       "item": "card",
@@ -716,6 +842,48 @@
           "name": "minutes",
           "required": false,
           "kind": "minutes"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text",
+          "about": "one line on why this matters to the recipient; the sender's own accountability"
+        },
+        {
+          "name": "effort",
+          "required": false,
+          "kind": "minutes",
+          "about": "the sender's estimate of the recipient's time, in minutes: the TEA asked for"
+        },
+        {
+          "name": "shape",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "converge",
+            "call",
+            "consent",
+            "gather"
+          ],
+          "about": "for a holon: converge on one choice · call for takers · consent on a proposal · gather contributions"
+        },
+        {
+          "name": "quorum",
+          "required": false,
+          "kind": "string",
+          "about": "for a holon: everyone · a number · any one · the stewards"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "agent",
+            "under-mandate"
+          ],
+          "about": "whose words these are; the fold fills it from reason when absent"
         }
       ],
       "item": "card",
@@ -1145,7 +1313,7 @@
       "transitions": []
     },
     "delegate": {
-      "about": "A person delegates to an agent: which types, which holons, until when. With once: true and a single type and holon, it lets the agent sign one act in the person's name, and is used up by it. A once-delegation may name body_digest (sha256 of the canonical body the person saw, without its salt); the agent's line must then match it. Without body_digest a once-delegation covers any one line of its type. body.clones names the handle patterns of clones the prime may let in.",
+      "about": "A person delegates to an agent: which types, which holons, until when. With once: true and a single type and holon, it lets the agent sign one act in the person's name, and is used up by it. A once-delegation may name body_digest (sha256 of the canonical body the person saw, without its salt); the agent's line must then match it. Without body_digest a once-delegation covers any one line of its type. body.clones names the handle patterns of clones the prime may let in. With body.mandate, a standing delegation covering `move` lets the agent make availability moves (accept, decline, counter, conditional, defer) within the limits it states, each marked voice under-mandate; the final agreement still comes to the person.",
       "fields": [
         {
           "name": "to",
@@ -1186,6 +1354,12 @@
           "name": "clones",
           "required": false,
           "kind": "list"
+        },
+        {
+          "name": "mandate",
+          "required": false,
+          "kind": "object",
+          "about": "the limits within which the agent may make availability moves for the person (times, days, lengths), in the person's words and as data; a move made under it carries voice under-mandate; never an acknowledgment, a commit, a consent, a discernment or a share"
         }
       ],
       "item": "delegation",
@@ -1800,6 +1974,48 @@
           "name": "by",
           "required": false,
           "kind": "date"
+        },
+        {
+          "name": "why",
+          "required": false,
+          "kind": "text",
+          "about": "one line on why this matters to the recipient; the sender's own accountability"
+        },
+        {
+          "name": "effort",
+          "required": false,
+          "kind": "minutes",
+          "about": "the sender's estimate of the recipient's time, in minutes: the TEA asked for"
+        },
+        {
+          "name": "shape",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "converge",
+            "call",
+            "consent",
+            "gather"
+          ],
+          "about": "for a holon: converge on one choice · call for takers · consent on a proposal · gather contributions"
+        },
+        {
+          "name": "quorum",
+          "required": false,
+          "kind": "string",
+          "about": "for a holon: everyone · a number · any one · the stewards"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "agent",
+            "under-mandate"
+          ],
+          "about": "whose words these are; the fold fills it from reason when absent"
         }
       ],
       "item": "none",
@@ -2890,6 +3106,83 @@
       "creates": "never",
       "transitions": [],
       "human_only": true
+    },
+    "move": {
+      "about": "A move in a conversation for action: one step between an ask and its resolution, naming the ask it belongs to (`root`) and the move it answers (links.answers). The moves: clarify (either side; changes nothing) · accept · decline (always available) · counter (other terms) · conditional (yes if, no unless) · defer (moves the by-date) · refer (not me; ask another) · amend (the asker revises the ask) · accept_counter · reject_counter · award (in a call for takers: picks and releases the rest) · withdraw (the asker calls it off) · release (a responder backs out of a yes, with notice) · done (the performer) · satisfied · not_yet (the asker). A person's words, or an agent's under a mandate (`voice: under-mandate`), never an agent's on its own for accept, award, satisfied. negotiation.py folds the moves into the ask's state: open · agreed (with terms) · declined · lapsed · withdrawn · performing · satisfied.",
+      "fields": [
+        {
+          "name": "move",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "clarify",
+            "accept",
+            "decline",
+            "counter",
+            "conditional",
+            "defer",
+            "refer",
+            "amend",
+            "accept_counter",
+            "reject_counter",
+            "award",
+            "withdraw",
+            "release",
+            "done",
+            "satisfied",
+            "not_yet"
+          ]
+        },
+        {
+          "name": "root",
+          "required": true,
+          "kind": "id"
+        },
+        {
+          "name": "terms",
+          "required": false,
+          "kind": "object"
+        },
+        {
+          "name": "text",
+          "required": false,
+          "kind": "text"
+        },
+        {
+          "name": "by",
+          "required": false,
+          "kind": "date"
+        },
+        {
+          "name": "round",
+          "required": false,
+          "kind": "int"
+        },
+        {
+          "name": "to",
+          "required": false,
+          "kind": "actors"
+        },
+        {
+          "name": "voice",
+          "required": false,
+          "kind": "enum",
+          "values": [
+            "human-words",
+            "agent-drafted",
+            "agent",
+            "under-mandate"
+          ]
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "transitions": []
     }
   }
 }
