@@ -483,7 +483,7 @@ def run_plan(folded, cal, now, holons=None, hq=None, lines=None):
     (STATE.md, `plan`, keyed by holon id). Returns (plan or None, a plain note or None). A plan that cannot run is
     said, never hidden."""
     if plan_mod is None:
-        return None, 'plan.py is not beside engine.py; the chain, buffers and the Last Planner measures are not computed'
+        return None, 'plan.py is not beside engine.py; the chain, buffers and the measures of how reliably the plan is kept are not computed'
     holons = [h for h in holons or [] if h.get('id')]
     held = {h['id'] for h in holons}
     graphs = []
@@ -503,7 +503,7 @@ def run_plan(folded, cal, now, holons=None, hq=None, lines=None):
         except Exception as e:
             notes.append(f'plan.py could not run for {hid[:8] or "the home"}: {type(e).__name__}: {e}')
             continue
-        ch, lp, rs = p['chain'], p['lps'], p['resources']
+        ch, lp, rs = p['chain'], p['reliability'], p['resources']
         out[hid] = {
             'capacity': rs.get('capacity'), 'level_of_commitment': rs.get('level_of_commitment'),
             'leveled': ch.get('leveled'), 'critical_chain': ch.get('critical_chain'), 'buffers': ch.get('buffers'),

@@ -1,7 +1,7 @@
-"""Tests for lps.py: the Last Planner measures, every number checkable by pencil.
+"""Tests for reliability.py: how reliably the plan is kept, every number checkable by pencil.
 
 Run from the engine folder:
-    python3 -m unittest tests.test_lps
+    python3 -I -m unittest discover -t . -s tests -p test_reliability.py
 The fixture's data date is a Wednesday; its week runs Monday 11-02 to Sunday 11-08, and the week
 before from Monday 10-26. The schedule is on the default calendar (every day works), so a day
 index is a calendar day.
@@ -18,7 +18,7 @@ ENGINE = os.path.dirname(HERE)
 if ENGINE not in sys.path:
     sys.path.insert(0, ENGINE)
 
-import lps as L  # noqa: E402
+import reliability as L  # noqa: E402
 import schedule as S  # noqa: E402
 
 DD = '2026-11-04'   # a Wednesday
@@ -51,7 +51,7 @@ def run(regs=None, chain=None, items=None, **kw):
     items = items if items is not None else cards()
     res = S.run(items, data_date=DD)
     regs = regs if regs is not None else {'commitments': commitments()}
-    return L.lps(res, items, regs, chain=chain, **kw)
+    return L.reliability(res, items, regs, chain=chain, **kw)
 
 
 class PPC(unittest.TestCase):
@@ -168,8 +168,8 @@ class MakeReady(unittest.TestCase):
                  {'id': 'in', 'dur_days': 1, 'conditions': 'ready', 'links': {'predecessor': ['long41']}},
                  {'id': 'out', 'dur_days': 1, 'conditions': 'ready', 'links': {'predecessor': ['long42']}}]
         res = S.run(items, data_date=DD)
-        self.assertEqual([m['id'] for m in L.lps(res, items, {})['make_ready']], ['in'])     # day 41 in, day 42 out
-        self.assertEqual([m['id'] for m in L.lps(res, items, {}, lookahead_days=43)['make_ready']], ['in', 'out'])
+        self.assertEqual([m['id'] for m in L.reliability(res, items, {})['make_ready']], ['in'])     # day 41 in, day 42 out
+        self.assertEqual([m['id'] for m in L.reliability(res, items, {}, lookahead_days=43)['make_ready']], ['in', 'out'])
         self.assertEqual(L.LOOKAHEAD, 42)
 
 
@@ -185,12 +185,12 @@ class RYG(unittest.TestCase):
             {'id': 'a', 'type': 'activity', 'TF': -9, 'status': 'not_started'}]}
 
     def test_thresholds(self):
-        out = {r['id']: r['ryg'] for r in L.lps(self.res(), [], {})['ryg']}
+        out = {r['id']: r['ryg'] for r in L.reliability(self.res(), [], {})['ryg']}
         self.assertEqual(out, {'U1': 'red', 'U2': 'yellow', 'U3': 'yellow', 'U4': 'green', 'U5': 'done',
                                'U6': 'unscheduled'})
 
     def test_thresholds_as_arguments(self):
-        out = {r['id']: r['ryg'] for r in L.lps(self.res(), [], {}, ryg=(1, 3))['ryg']}
+        out = {r['id']: r['ryg'] for r in L.reliability(self.res(), [], {}, ryg=(1, 3))['ryg']}
         self.assertEqual((out['U2'], out['U3'], out['U4']), ('red', 'green', 'green'))
 
 
@@ -199,7 +199,7 @@ class Targets(unittest.TestCase):
         items = [{'id': 'U'}, {'id': 'a', 'within': 'U', 'minutes': 120, 'state': 'done'},
                  {'id': 'b', 'within': 'U', 'minutes': 360, 'links': {'predecessor': ['a']}}]
         res = S.run(items, data_date=DD)
-        t = {r['id']: r for r in L.lps(res, items, {'targets': {'U': 400, 'ghost': 100}})['targets']}
+        t = {r['id']: r for r in L.reliability(res, items, {'targets': {'U': 400, 'ghost': 100}})['targets']}
         self.assertEqual((t['U']['target_min'], t['U']['current_min'], t['U']['variance_min']), (400, 480, 80))
         self.assertIsNone(t['ghost']['variance_min'])
         self.assertTrue(t['ghost']['missing'])
@@ -230,8 +230,8 @@ class Laws(unittest.TestCase):
         items, regs = cards(), {'commitments': commitments(), 'misses': [{'commitment': 'c3', 'reason': 'priority'}]}
         res = S.run(items, data_date=DD)
         before = json.dumps([res, items, regs], sort_keys=True)
-        a = json.dumps(L.lps(res, items, regs), sort_keys=True)
-        b = json.dumps(L.lps(res, copy.deepcopy(items), copy.deepcopy(regs)), sort_keys=True)
+        a = json.dumps(L.reliability(res, items, regs), sort_keys=True)
+        b = json.dumps(L.reliability(res, copy.deepcopy(items), copy.deepcopy(regs)), sort_keys=True)
         self.assertEqual(a, b)
         self.assertEqual(json.dumps([res, items, regs], sort_keys=True), before)
 
@@ -240,7 +240,7 @@ class Laws(unittest.TestCase):
         self.assertIsNone(out['ppc']['all_time']['ppc'])
         self.assertTrue(any('commitments' in m for m in out['missing']))
         self.assertTrue(any('chain' in m for m in out['missing']))
-        none = L.lps({}, [], {})
+        none = L.reliability({}, [], {})
         self.assertIsNone(none['data_date'])
         self.assertTrue(none['missing'])
 
@@ -249,7 +249,7 @@ class Laws(unittest.TestCase):
         self.assertEqual(out['ppc']['all_time']['due'], 4)
 
     def test_no_names_dates_or_actors_in_code(self):
-        with open(os.path.join(ENGINE, 'lps.py'), encoding='utf-8') as f:
+        with open(os.path.join(ENGINE, 'reliability.py'), encoding='utf-8') as f:
             src = f.read()
         self.assertIsNone(re.search(r'\d{4}-\d{2}-\d{2}', src))
         for bad in ('person:', 'agent:', 'A-0', 'datetime.now', 'date.today', 'time.time', 'open('):
@@ -260,15 +260,33 @@ class Laws(unittest.TestCase):
 class ReviewE(unittest.TestCase):
     def test_due_today_is_not_a_miss_in_the_morning(self):
         regs = {'commitments': [{'id': 'k', 'card': 'a', 'by': DD, 'for': 'person:p', 'state': 'open'}]}
-        out = L.lps(S.run([{'id': 'a', 'minutes': 60}], None, DD), [{'id': 'a', 'minutes': 60}], regs, data_date=DD)
+        out = L.reliability(S.run([{'id': 'a', 'minutes': 60}], None, DD), [{'id': 'a', 'minutes': 60}], regs, data_date=DD)
         self.assertEqual((out['ppc']['all_time']['due'], out['misses']), (0, []))
 
     def test_the_last_miss_in_order_wins_never_the_latest_time(self):
         regs = {'commitments': [{'id': 'k', 'card': 'a', 'by': '2026-11-02', 'for': 'person:p', 'state': 'open'}],
                 'misses': [{'commitment': 'k', 'reason': 'external', 'ts': '2099-01-01'},
                            {'commitment': 'k', 'reason': 'capacity', 'ts': '2026-11-03'}]}
-        out = L.lps(S.run([{'id': 'a', 'minutes': 60}], None, DD), [{'id': 'a', 'minutes': 60}], regs, data_date=DD)
+        out = L.reliability(S.run([{'id': 'a', 'minutes': 60}], None, DD), [{'id': 'a', 'minutes': 60}], regs, data_date=DD)
         self.assertEqual(out['misses'][0]['reason'], 'capacity')
+
+
+class TheNameAndTheShim(unittest.TestCase):
+    def test_the_shim_imports_for_callers(self):
+        import lps as old                        # kept one release
+        self.assertIs(old.lps, L.reliability)
+        self.assertIs(old.reliability, L.reliability)
+        self.assertEqual((old.LOOKAHEAD, old.REASONS), (L.LOOKAHEAD, L.REASONS))
+        self.assertEqual(L.reliability({}, [], {})['engine'], 'reliability.py')
+
+    def test_the_pattern_is_ours_and_the_reference_is_cited_once(self):
+        doc = L.__doc__ or ''
+        self.assertNotIn('the Last Planner measures', doc)
+        self.assertNotIn('Last Planner measures', doc)
+        self.assertEqual(doc.count('Reference: the Last Planner System'), 1)
+        for measure in ('commitments kept', 'the reasons', 'the look-ahead', 'make-ready'):
+            self.assertIn(measure, doc)
+
 
 if __name__ == '__main__':
     unittest.main()

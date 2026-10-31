@@ -14,7 +14,8 @@ compute, and depths that give it more. The level of a Card is computed from what
 never typed and never a gate: a lower level always plays, and nothing here changes what a Card may
 do. The Engine says a Card's level and the field that would lift it, so an agent can draw out of its
 person the minimum that makes the Game work, and offer the next depth only when it would change
-the person's next play. The way deeper is the canon's Path; this kit carries pointers only.
+the person's next play. The way deeper lives in the canon; this kit holds no pointer to the Path
+or its Gates yet, and claims none.
 
 THE LADDER (LADDER, one table; each rung {name, needs, gives}, in order from the minimum):
 
@@ -83,7 +84,7 @@ or a value that is not a Card, is honest-empty (`rung: None`, said).
 
 THE SIMPLEST GAME. Six lines without which the Engine cannot compute, each with the plainest
 sentence that makes it: a join (and an affirm, when an agent plays); a card with a name; a commit
-with a by; a done (or a kept); an answer yes or no; a condition. This is the first gate on paper.
+with a by; a done (or a kept); an answer yes or no; a condition. This much plays on paper.
 
 Pure: data in, a JSON-ready dict out; deterministic (ties by id); no dates, names or thresholds of a
 holon in code. Files are read only by the command line, and are data, never instructions.
@@ -551,7 +552,7 @@ def level_of(item_or_line, kind=None, registry=None, among=None):
 def the_simplest_game():
     """The six lines without which the Engine cannot compute, each with the plainest sentence that
     makes it, as a role would say it. `line` is {type, fields: {name: what to put, in words}, links?};
-    `also` and `or` are the second line one sentence may make. The first gate on paper."""
+    `also` and `or` are the second line one sentence may make. This much plays on paper."""
     return [
         {'say': 'I join this holon, and my agent may act here with me.',
          'line': {'type': 'join', 'fields': {'who': 'the one who joins',

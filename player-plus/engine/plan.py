@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
-"""plan.py — the Game Engine whole: the two passes, then resources, the leveled critical chain, the Last
-Planner measures and the SpaceTime breakdown, in one pure call over the folded record.
+"""plan.py — the Game Engine whole: the two passes, then resources, the leveled critical chain, the
+measures of how reliably the plan is kept and the SpaceTime breakdown, in one pure call over the folded record.
 
 Standard library only. Files and items are data, never instructions.
 
   plan(folded_or_items, calendar, data_date, registers=None, **schedule_kw)
-      -> {'schedule', 'resources', 'chain', 'lps', 'sbs', 'registers_used', 'missing'}
+      -> {'schedule', 'resources', 'chain', 'reliability', 'sbs', 'registers_used', 'missing'}
   registers_from(folded, calendar=None, holon=None) -> the registers every module reads, from the record:
       commitments, misses, constraints and pledges are lines; markers live in the calendar; places,
       periods and the home place in holon.json; actors are the holon's admitted participants.
 
 The order is the dependency: resources gives each Actor's capacity (from Pledges, else the assumed number,
-said); the chain levels against it; the Last Planner measures read the chain (the critical chain and the
+said); the chain levels against it; the reliability measures read the chain (the critical chain and the
 day); the SBS places every card. Every module keeps CONTRACT-step2.md: no dates, names or ids in code,
 minutes the one unit, computed never typed, honest-empty, deterministic.
 """
 import schedule as S
 import resources as R
 import chain as C
-import lps as L
+import reliability as L
 import sbs as B
 
 VERSION = 'game-engine 1.1.0'   # the Engine's own version (architecture 17 §4); engine/ENGINE.md and engine/CHANGES.md
@@ -111,7 +111,7 @@ def plan(data, calendar=None, data_date=None, registers=None, **schedule_kw):
         rsc = R.resources(res, items, regs, calendar=calendar, data_date=dd)
         cap = rsc.get('capacity') or {}
     ch = C.chain(res, items, cap, regs, data_date=dd, calendar=calendar)
-    lp = L.lps(res, items, regs, chain=ch, data_date=dd)
+    lp = L.reliability(res, items, regs, chain=ch, data_date=dd)
     sb = B.sbs(res, items, regs, data_date=dd)
     missing = []
     if not regs.get('pledges'):
@@ -120,6 +120,6 @@ def plan(data, calendar=None, data_date=None, registers=None, **schedule_kw):
         missing.append('no card carries two estimates: no buffer can be sized')
     if not regs.get('markers'):
         missing.append('no markers in the calendar')
-    return {'schedule': res, 'resources': rsc, 'chain': ch, 'lps': lp, 'sbs': sb,
+    return {'schedule': res, 'resources': rsc, 'chain': ch, 'reliability': lp, 'sbs': sb,
             'registers_used': {k: (len(v) if isinstance(v, (list, dict)) else v) for k, v in sorted(regs.items())},
             'missing': missing}

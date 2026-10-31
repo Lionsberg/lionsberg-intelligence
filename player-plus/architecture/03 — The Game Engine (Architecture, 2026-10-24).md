@@ -22,7 +22,7 @@ description: The calculating layer of the kit — the schedule, the leveled chai
 
 ### The boundary
 
-`engine/` holds the code of three layers. The Game Engine's files are `schedule.py` (the two passes) · `plan.py` (the whole, in one call) · `chain.py` · `resources.py` · `lps.py` · `sbs.py` · `exports.py` · `capture.py` · `gamecore.py` · `deal.py` · `owed.py` · `kept.py` · `turn.py` · `ledger.py` · `ladder.py` · `sightings.py` · `attention.py` · `push.py` · `rooms.py` · `bodies.py` · `engine.py` (the state builder) · `STATE.md`. The Record's are `record.py`, `holon.py`, `conformance.py`, `types.json`, `SCHEMA.md` and `fixtures/`; the Proxy's are `proxy.py`, `routes.json`, `vendors.sample.json` and `mail.py`.
+`engine/` holds the code of three layers. The Game Engine's files are `schedule.py` (the two passes) · `plan.py` (the whole, in one call) · `chain.py` · `resources.py` · `reliability.py` · `sbs.py` · `exports.py` · `capture.py` · `gamecore.py` · `deal.py` · `owed.py` · `kept.py` · `turn.py` · `ledger.py` · `ladder.py` · `sightings.py` · `attention.py` · `push.py` · `rooms.py` · `bodies.py` · `engine.py` (the state builder) · `STATE.md`. The Record's are `record.py`, `holon.py`, `conformance.py`, `types.json`, `SCHEMA.md` and `fixtures/`; the Proxy's are `proxy.py`, `routes.json`, `vendors.sample.json` and `mail.py`.
 
 **The rule:** an Engine module imports only other Engine modules and the standard library. It reads the Record through the fold's output, and `types.json` as data, never through `record.py`'s insides. The one door between the layers is `engine.py`, the state builder, which calls the Record's read and fold.
 

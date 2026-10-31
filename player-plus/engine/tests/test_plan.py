@@ -30,7 +30,7 @@ class Plan(unittest.TestCase):
         self.out = P.plan(ITEMS, CAL, DD, REGS)
 
     def test_every_part_is_there(self):
-        self.assertEqual(sorted(self.out), ['chain', 'lps', 'missing', 'registers_used', 'resources', 'sbs', 'schedule'])
+        self.assertEqual(sorted(self.out), ['chain', 'missing', 'registers_used', 'reliability', 'resources', 'sbs', 'schedule'])
 
     def test_capacity_reaches_the_chain(self):
         # the join that once failed: resources gives {actor: {min_per_day, source}}, the chain levels against it

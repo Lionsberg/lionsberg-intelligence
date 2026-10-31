@@ -11,6 +11,7 @@ import copy
 import json
 import os
 import random
+import re
 import shutil
 import subprocess
 import sys
@@ -419,6 +420,24 @@ class TestWordsAndCommandLine(unittest.TestCase):
             self.assertNotEqual(self.run_cli(os.path.join(work, 'absent.json')).returncode, 0)
         finally:
             shutil.rmtree(work, ignore_errors=True)
+
+
+class TestNoPointerClaimed(unittest.TestCase):
+    """The kit holds no pointer to the Path or its Gates yet; no surface may claim one."""
+    CLAIM = re.compile(r'pointer|\bPath\b|\bGates?\b|first gate', re.IGNORECASE)
+
+    def test_the_simplest_game_claims_no_pointer(self):
+        said = json.dumps(level_mod.the_simplest_game(), sort_keys=True)
+        self.assertIsNone(self.CLAIM.search(said.replace('mend the gate', '')))
+
+    def test_no_ladder_claims_a_pointer(self):
+        for k in sorted(level_mod.LADDER):
+            said = json.dumps(level_mod.ladder(k), sort_keys=True)
+            self.assertIsNone(self.CLAIM.search(said), k)
+
+    def test_the_module_says_it_holds_none(self):
+        self.assertIn('holds no pointer', level_mod.__doc__)
+        self.assertNotIn('carries pointers', level_mod.__doc__)
 
 
 if __name__ == '__main__':
