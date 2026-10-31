@@ -3256,6 +3256,49 @@
           "who": "stop_person"
         }
       ]
+    },
+    "condition": {
+      "about": "A holon's own word on its Condition, said in advance of anyone asking: `color` (green · yellow · orange · red), `why` (one line, in the holon's own words), and `until` (when it should be said again; past it the Condition is stale and reads grey). It is self-reported, never computed: the newest trusted condition line a holon's person writes for it is its Condition, and what the kit computes about the relationship between two holons is a separate thing with another name. A person's own act, for the holon the line is written in (or the holon `of` names, when they keep it). It travels on the face under the Agreement.",
+      "fields": [
+        {
+          "name": "color",
+          "required": true,
+          "kind": "enum",
+          "values": [
+            "green",
+            "yellow",
+            "orange",
+            "red"
+          ]
+        },
+        {
+          "name": "why",
+          "required": true,
+          "kind": "text"
+        },
+        {
+          "name": "until",
+          "required": false,
+          "kind": "date"
+        },
+        {
+          "name": "of",
+          "required": false,
+          "kind": "string",
+          "about": "the holon this Condition is of, when not the line's own"
+        },
+        {
+          "name": "consent",
+          "required": false,
+          "kind": "text"
+        }
+      ],
+      "item": "none",
+      "creates": "never",
+      "target": [],
+      "acts_on": [],
+      "human_only": true,
+      "transitions": []
     }
   }
 }

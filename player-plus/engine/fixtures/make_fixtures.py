@@ -256,6 +256,8 @@ def _build(root, hq, cell, kd):
     put('limits', hq, PLAYER, PLAYER, 'limits',
         {'rules': [{'signal': 'commitment', 'when': 'buffer_days < 0', 'on': 'critical', 'wake': True},
                    {'signal': 'sight', 'kind': ['pain', 'hazard'], 'from': 'members', 'wake': True}], 'else': 'wait'})
+    put('condition', hq, PLAYER, PLAYER, 'condition',
+        {'color': 'yellow', 'why': 'Two of us are away this week; asks answer slowly.', 'until': '2026-11-09'})
     put('share', hq, PLAYER, PLAYER, 'share',
         {'to': STEWARD, 'threshold': 2, 'count': 3, 'index': 1, 'identifier': 4660,
          'digest': hashlib.sha256(b'share-1').hexdigest(), 'pubkey': pub[PLAYER]})

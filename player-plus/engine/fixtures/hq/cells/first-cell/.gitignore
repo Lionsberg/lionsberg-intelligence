@@ -4,6 +4,7 @@ cells/
 .carried/
 .talk/
 .pulled.json
+.carry-log.jsonl
 .heartbeat.json
 .heartbeat-log.jsonl
 .pull-log.jsonl
