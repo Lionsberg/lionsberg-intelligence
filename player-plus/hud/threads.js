@@ -10,7 +10,8 @@
 // Reads STATE `threads[]` ({.., stake, push}), `questions[]`, `mail.items`, `lines` (when the
 // state carries them), `calibration`. A fact the state does not carry is not said.
 
-import { h } from "./card.js";
+import { h, actWords, actsFold } from "./card.js";
+import { actFor, writeLine } from "./act-map.js";
 import { createComposer } from "./push.js";
 import { arrivedWords, receiverPush } from "./mail.js";
 import { useStyle, local, lineById, lineText, whoOf, isElided } from "./inks.js";
@@ -466,21 +467,27 @@ export default function createThreads() {
     if (Array.isArray(x.suspect)) for (const s of x.suspect) body.append(h("p", { class: "conv2-cal" }, h("q", null, s.quote || ""), s.said ? " " + s.said : ""));
     const actions = [];
     let close = null;
-    if (x.kind === "prose" && x.proposed && x.mailId) actions.push(h("button", { class: "pill", onclick: () => {
+    const means = [];   // what each act here does, on hover and in the fold beside them
+    const settleW = actWords(C, "act.settle", "thread");
+    if (x.kind === "prose" && x.proposed && x.mailId) means.push([t("mail.make_line"), t("mail.make_line_means")]);
+    if (x.kind === "thread" && x.from && x.from !== C.state.actor) means.push([settleW.label, settleW.meaning]);
+    means.push([t("threads.ask_whole"), t("threads.ask_whole_means")]);
+    if (x.kind === "prose" && x.proposed && x.mailId) actions.push(h("button", { class: "pill", title: t("mail.make_line_means"), onclick: () => {
       if (C.mail && typeof C.mail.line === "function") C.mail.line(x.mailId);
       if (close) close();
     } }, t("mail.make_line")));
-    if (x.kind === "thread" && x.from && x.from !== C.state.actor) actions.push(h("button", { class: "pill", onclick: () => {
-      C.act("settle", { text: x.title }, { anchored_to: [x.id] }, x.holon, { confirmed: true, label: t("threads.closed") });
+    // the close is the one act map's (deal.js actFor): a settle, the conversation's own title as what it says
+    if (x.kind === "thread" && x.from && x.from !== C.state.actor) actions.push(h("button", { class: "pill", title: settleW.meaning, onclick: () => {
+      writeLine(C, actFor({ id: x.id, kind: "thread", title: x.title }, "act.settle", x.title, C.state), x.holon, { confirmed: true, label: t("threads.closed") });
       if (close) close();
-    } }, t("threads.close")));
+    } }, settleW.label));
     const compose = h("div", { class: "conv2-compose" });
-    actions.push(h("button", { class: "pill quiet", onclick: () => {
+    actions.push(h("button", { class: "pill quiet", title: t("threads.ask_whole_means"), onclick: () => {
       const comp = createComposer(C, { onDone: () => { if (close) close(); } });
       compose.textContent = ""; compose.append(comp.el);
       if (x.about && C.read.card(C.state, x.about)) comp.set(x.about); else comp.draw();
     } }, t("threads.ask_whole")));
-    body.append(compose);
+    body.append(compose, actsFold(C, means, "conv2-means"));
     close = C.openSheet({ title: x.title || t("threads.untitled"), body, actions });
   }
 

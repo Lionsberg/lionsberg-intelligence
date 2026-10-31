@@ -49,7 +49,7 @@
 //     ctx.openPublish({holon, what, onPublish})            the one route outward (§4.10)
 //     ctx.animate(el, keyframes, options) -> Animation | null   the Web Animations API,
 //          already a no-op under reduced motion (use it for every scene-level motion)
-//     ctx.card: { h, cardModel, renderCard }   the one card face (card.js)
+//     ctx.card: { h, cardModel, renderCard, actsFold }   the one card face (card.js)
 //     ctx.launchBody({card}) opens the Bodies launch sheet (cost first); ({task, from_card,
 //          confirmed: true}) starts the body on the person's yes
 //     ctx.say(room, text, {parent, now, part})   the Talk's say (confirmed: true is sent);
@@ -71,7 +71,7 @@
 
 import { store, load, connect, subscribe, onPending, t, fmt, read, act, setPref, loadStrings,
   latestPending, publishToken, FLAGS, claimPhone, cardStory } from "./state.js";
-import { h, cardModel, renderCard } from "./card.js";
+import { h, cardModel, renderCard, actsFold } from "./card.js";
 import { agentSettings } from "./dock.js";
 
 const BUILTIN = {
@@ -247,7 +247,7 @@ function makeCtx(entry) {
     openSettings: () => openSettings(),
     openPublish,
     animate,
-    card: { h, cardModel, renderCard },
+    card: { h, cardModel, renderCard, actsFold },
     launchBody,
     say,
     mail,
@@ -808,7 +808,7 @@ function openCard(id, fromRoute, opts = {}) {
     if (seq !== cardSeq || ui.route.name !== "card") return;
     const ctx = makeCtx({ slot: "sheet", density: "full" });
     const full = renderFullCard(ctx, id, { hint: o.hint || {}, story: store.server ? cardStory : null, acts: {
-      claim: (c) => cardAct("claim", c), done: (c) => cardAct("done", c), say: (c, line) => sayOnCard(c, line),
+      claim: (c, line) => cardAct("claim", c, line), done: (c, line) => cardAct("done", c, line), say: (c, line) => sayOnCard(c, line),
       ask: (c, line) => askOnCard(c, line), answered: () => closeSheet() } });
     openSheet({ title: full.title, body: full.el, cls: "sheet--card" });
     Object.assign(ui.sheet, { prevFocus: keep, refind, isCard: true });
@@ -818,8 +818,10 @@ function openCard(id, fromRoute, opts = {}) {
     updateAll();
   }).catch((e) => console.error("card:", e));
 }
-function cardAct(type, c) {
-  act(type, { card: c.id }, {}, c.holon, { confirmed: true, label: t("card.act_" + type, { title: c.title }), undo_ms: ctxPrefs().undo_ms });
+/** Take it or Done from the full card: the line the one act map made (deal.js cardActs), as given. */
+function cardAct(type, c, line) {
+  const l = line && line.type === type ? line : { type, body: { card: c.id }, links: {} };
+  act(l.type, l.body, l.links, c.holon, { confirmed: true, label: t("card.act_" + type, { title: c.title }), undo_ms: ctxPrefs().undo_ms });
   closeSheet();
 }
 /** A note or a question on the card: the line the full card made (card-full.js sayLine, a `say`

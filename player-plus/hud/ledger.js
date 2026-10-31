@@ -8,7 +8,8 @@
 // said on its face. Then discernment, lightly, for the wearer only. A keeper sees Witness on a
 // claimed entry.
 
-import { h } from "./card.js";
+import { h, actWords, actsFold } from "./card.js";
+import { actFor, writeLine } from "./deal.js";
 import { useStyle, lineById, whoOf } from "./inks.js";
 
 const WITNESS = { unwitnessed: "claimed", keeper: "cell", supercell: "beyond", claimed: "claimed", cell: "cell", beyond: "beyond" };
@@ -78,7 +79,9 @@ export default function createLedger() {
       const s = sum.claimed === 1 ? t("ledger.claimed_mine_one") : t("ledger.claimed_mine_n", { n: f.number(sum.claimed, true) });
       wrap.append(h("p", { class: "ledger-claimed" }, cap(s)));
     }
-    wrap.append(h("div", { class: "ledger-acts" }, h("button", { class: "pill primary", onclick: addTime }, t("ledger.add"))));
+    const witnessW = actWords(C, "act.witness", "tea");
+    wrap.append(h("div", { class: "ledger-acts" }, h("button", { class: "pill primary", title: t("ledger.add_means"), onclick: addTime }, t("ledger.add"))),
+      actsFold(C, [[t("ledger.add"), t("ledger.add_means")], [t("ledger.witness_btn"), witnessW.meaning], [t("card.open_full"), t("card.open_full_means")]], "ledger-means"));
 
     for (const x of holons) {
       const hh = sum.holons[x.id];
@@ -130,11 +133,17 @@ export default function createLedger() {
     const ink = w === "beyond" ? "ink-agreed" : w === "cell" ? "ink-kept" : "ink-said";
     return h("tr", { class: ink },
       h("td", { class: "figures" }, f.when(e.ts) || ""),
-      h("td", null, card ? card.title : t("ledger.no_card"), e.actor && e.actor !== st.actor ? h("span", { class: "dust" }, " · " + t("ledger.row_theirs", { who: whoOf(C, e.actor, x.id) })) : null),
+      // the card it went to opens the card, here (one tap, one card)
+      h("td", null, card ? h("button", { class: "link-btn ledger-card", type: "button", "aria-haspopup": "dialog", title: t("card.open_full_means"),
+        dataset: { openCard: card.id }, onclick: () => C.openCard && C.openCard(card.id, { from: "ledger" }) }, card.title) : t("ledger.no_card"),
+        e.actor && e.actor !== st.actor ? h("span", { class: "dust" }, " · " + t("ledger.row_theirs", { who: whoOf(C, e.actor, x.id) })) : null),
       h("td", { class: "ledger-time" }, hours(Math.round(e.minutes || 0))),
       h("td", null, h("span", { class: `wmark w-${w}` }, t("ledger.witness." + w)),
-        keeper && w === "claimed" && e.actor !== st.actor && e.line ? h("button", { class: "link-btn", onclick: () =>
-          C.act("witness", { note: t("ledger.witnessed_note") }, { witnesses: [e.line] }, x.id, { confirmed: true, label: t("ledger.witnessed") }) }, t("ledger.witness_btn")) : null));
+        keeper && w === "claimed" && e.actor !== st.actor && e.line ? h("button", { class: "link-btn", title: actWords(C, "act.witness", "tea").meaning, onclick: () => {
+          // the one act map's witness (deal.js actFor) on the time given, with the keeper's note
+          const line = actFor({ id: e.line, kind: "tea" }, "act.witness", null, st);
+          writeLine(C, line && { ...line, body: { ...line.body, note: t("ledger.witnessed_note") } }, x.id, { confirmed: true, label: t("ledger.witnessed") });
+        } }, t("ledger.witness_btn")) : null));
   }
 
   function addTime() {

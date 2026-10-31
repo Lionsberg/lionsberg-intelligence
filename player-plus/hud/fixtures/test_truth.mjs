@@ -136,7 +136,8 @@ for (const fx of ["fresh", "stale", "names-hidden", "deal-chain", "deal-rich", "
   }
   if (fx === "deal-chain") {
     check("deal-chain: the chain-blocking card reads heavier (weight)", await js("(() => { const c = document.querySelector('.card--large.owed'); return c && c.classList.contains('is-path') && getComputedStyle(c.querySelector('.card-title')).fontWeight >= 500 && !!c.querySelector('.card-stake'); })()"));
-    check("deal-chain: the stake says what it blocks and for whom", /waits on this/i.test(await js("(document.querySelector('.card-stake')||{}).innerText||''")));
+    // the stake takes the engine's clause whole (Q2b, the cold read): "Once it is done, for <whom>: <what it frees>."
+    check("deal-chain: the stake says what it blocks and for whom", /(^Once it is done, for .+|Once it is done): .+\.$/i.test(await js("(document.querySelector('.card-stake')||{}).innerText||''")));
   }
 }
 

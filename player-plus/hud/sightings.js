@@ -16,7 +16,7 @@
 //
 // Every word comes from strings.json (keys `smap.*`, `sight.kind.*`); none is written here.
 
-import { h } from "./card.js";
+import { h, actsFold } from "./card.js";
 import { ensureCss, homeId } from "./views-b.js";
 
 const VIEW = "sightings";
@@ -97,7 +97,14 @@ export default function createSightings() {
         r.needs_response === true ? h("span", { class: "smap-wait" }, t("smap.map.needs_response")) : null,
         // the paper line (kind · where · what was seen, sightings.paper), its kind and place in words
         h("span", { class: "smap-paper" }, [kindWord(str(r.kind) || sentinel.kind), placeWord(str(r.where) || sentinel.place),
-          str(r.text)].filter(Boolean).join(t("smap.sep")))))));
+          str(r.text)].filter(Boolean).join(t("smap.sep"))),
+        opener(str(r.id))))),
+      ctx.openCard && cell.rows.some((r) => str(r.id)) ? actsFold(ctx, [[t("card.open_full"), t("card.open_full_means")]], "smap-means") : null);
+  }
+  /** A tap on a sighting, or on a clause of an agreement, opens its card here (one tap, one card). */
+  function opener(id) {
+    if (!id || !ctx.openCard) return null;
+    return h("button", { class: "link-btn smap-open", title: t("card.open_full_means"), onclick: () => ctx.openCard(id, { from: VIEW }) }, t("card.open_full"));
   }
 
   function theMap(m) {
@@ -143,7 +150,7 @@ export default function createSightings() {
         clauses.length
           ? h("ul", { class: "smap-clauses", "aria-label": t("smap.ag.clauses") }, ...clauses.map((c) => h("li", null,
             h("span", null, titleOf(c.card)), h("span", { class: "smap-state" }, (str(c.status) ? word("smap.clause.", str(c.status)) : t("smap.clause.open"))),
-            c.by && ctx.fmt && ctx.fmt.by ? h("span", { class: "dust" }, ctx.fmt.by(c.by)) : null)))
+            c.by && ctx.fmt && ctx.fmt.by ? h("span", { class: "dust" }, ctx.fmt.by(c.by)) : null, opener(str(c.card)))))
           : h("p", { class: "dust" }, t("smap.ag.no_clauses")),
         h("p", { class: "dust smap-note" }, t(r.live === true ? "smap.ag.live" : "smap.ag.not_live")));
     })));

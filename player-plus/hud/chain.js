@@ -12,7 +12,7 @@
 // Salience follows what eats the buffer: Calm lights nothing; Watch sets the point and the one
 // thing in full ink; Act alone spends the warning gold. The zone's word is always printed.
 
-import { h, spareDays } from "./card.js";
+import { h, spareDays, cardModel, renderCard } from "./card.js";
 import { ensureCss, ms, asOfWords, DONE } from "./views-b.js";
 import { store } from "./state.js";
 
@@ -252,7 +252,7 @@ export default function createChain(opts = {}) {
       h("p", { class: "eyebrow one-eyebrow" }, label),
       line,
       h("p", { class: "one-whose" }, whose),
-      h("button", { class: "one-act", onclick: () => open(c.id) }, t("chain.one.open")),
+      h("button", { class: "one-act", title: t("card.open_full_means"), onclick: () => open(c.id) }, t("chain.one.open")),
       mineLine(m));
   }
 
@@ -299,7 +299,8 @@ export default function createChain(opts = {}) {
     return h("li", { class: cls, dataset: { node: c.id, late: String(lateBy) } },
       h("span", { class: "road-mark", "aria-hidden": "true" }),
       c.holon !== prevHouse ? h("p", { class: "road-house eyebrow" }, houseName(c.holon), stale ? h("span", { class: "dust" }, " · " + asOfWords(ctx, x)) : null) : null,
-      h("button", { class: "road-title", onclick: () => open(c.id) }, c.title),
+      // the station wraps the one face (card.js, form station): the card's title, the button that opens it
+      renderCard(ctx, cardModel(ctx, { card: c }), { form: "station", titleClass: "road-title", selected: ctx.selected === c.id, onOpen: () => open(c.id) }),
       h("p", { class: "road-meta dust" }, meta),
       i.pace ? h("p", { class: "road-pace dust" }, t("chain.road.pace")) : null);
   }

@@ -38,3 +38,7 @@
   .ledger-table td:nth-child(1) { grid-column: 1; grid-row: 2; font-size: var(--t-micro); }
   .ledger-table td:nth-child(4) { grid-column: 2; grid-row: 2; text-align: right; }
 }
+
+/* one tap, one card: the card a row of time went to opens it; what the acts here do */
+.ledger-card { text-align: left; }
+.ledger-means { margin-top: var(--s-2); font-size: var(--t-small); }

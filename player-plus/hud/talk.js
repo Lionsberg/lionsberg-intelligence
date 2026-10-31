@@ -12,7 +12,8 @@
 // waiting to send. Nothing said is ever written to the record by the Talk; only a person's
 // Agree writes, as a `settle`.
 
-import { h } from "./card.js";
+import { h, cardModel, renderCard, actWords, actsFold } from "./card.js";
+import { actFor } from "./deal.js";
 import { local, lineById, lineWho, isAgentLine, eyebrow, verifiedMark, agentOf, whoOf, cssMs, cssVar, isElided } from "./inks.js";
 import { yourMove } from "./table.js";
 
@@ -264,16 +265,23 @@ export default function createTalk() {
 
     // actions: Keep · Agree · Reply · Make it a card (· Delete for the sayer's own unsent line)
     const acts = h("div", { class: "tline-acts" });
-    if (it.kind === "said" && !C.shown) acts.append(h("button", { class: "link-btn", "aria-pressed": String(isKept),
+    if (it.kind === "said" && !C.shown) acts.append(h("button", { class: "link-btn", "aria-pressed": String(isKept), title: t("talk.keep_means"),
       onclick: () => { const k = keptSet(); k.has(it.id) ? k.delete(it.id) : k.add(it.id); local.set("kept." + rid, [...k]); render(); } },
       isKept ? t("talk.unkeep") : t("talk.keep")));
-    if (it.kind === "said" && !it.mine && !agentLine) acts.append(h("button", { class: "link-btn", onclick: () => agree(it.id, it.text, null, it.by) }, t("talk.agree")));
+    if (it.kind === "said" && !it.mine && !agentLine) acts.append(h("button", { class: "link-btn", title: t("talk.agree_means"), onclick: () => agree(it.id, it.text, null, it.by) }, t("talk.agree")));
     if (it.kind === "said" && it.mine) acts.append(h("span", { class: "dust" }, t("talk.others_agree")));
-    acts.append(h("button", { class: "link-btn", onclick: () => { toggle(replying, it.id); open.add(it.id); render(); } }, t("talk.reply")));
-    acts.append(h("button", { class: "link-btn", onclick: () => makeCard(it) }, t("talk.make_card")));
-    if (!C.phone && (it.kind === "said" || it.kind === "queued")) acts.append(h("button", { class: "link-btn", onclick: () => makeCard(it, "sight") }, t("talk.make_sight")));
-    if (it.kind === "queued") acts.append(h("button", { class: "link-btn", onclick: () => { local.set("queue." + rid, queue().filter((x) => x.id !== it.id)); render(); } }, t("talk.delete")));
+    acts.append(h("button", { class: "link-btn", title: t("talk.reply_means"), onclick: () => { toggle(replying, it.id); open.add(it.id); render(); } }, t("talk.reply")));
+    acts.append(h("button", { class: "link-btn", title: t("talk.make_card_means"), onclick: () => makeCard(it) }, t("talk.make_card")));
+    if (!C.phone && (it.kind === "said" || it.kind === "queued")) acts.append(h("button", { class: "link-btn", title: t("talk.make_sight_means"), onclick: () => makeCard(it, "sight") }, t("talk.make_sight")));
+    if (it.kind === "queued") acts.append(h("button", { class: "link-btn", title: t("talk.delete_means"), onclick: () => { local.set("queue." + rid, queue().filter((x) => x.id !== it.id)); render(); } }, t("talk.delete")));
     li.append(acts);
+    // what each act here does, beside them (a phone has no hover): the acts this line offers
+    if (open.has(it.id)) li.append(actsFold(C, [
+      it.kind === "said" && !C.shown ? [isKept ? t("talk.unkeep") : t("talk.keep"), t("talk.keep_means")] : null,
+      it.kind === "said" && !it.mine && !agentLine ? [t("talk.agree"), t("talk.agree_means")] : null,
+      [t("talk.reply"), t("talk.reply_means")], [t("talk.make_card"), t("talk.make_card_means")],
+      !C.phone && (it.kind === "said" || it.kind === "queued") ? [t("talk.make_sight"), t("talk.make_sight_means")] : null,
+      it.kind === "queued" ? [t("talk.delete"), t("talk.delete_means")] : null], "tline-means"));
 
     // threads under the line they belong to
     const th = threadsFor(it);
@@ -376,15 +384,20 @@ export default function createTalk() {
         o.reason === "untrusted" ? h("p", { class: "dust untrusted" }, "◇ " + t("talk.untrusted")) : null,
         h("div", { class: "tray-acts" },
           mineAgent ? h("span", { class: "dust" }, t("talk.others_agree"))
-            : h("button", { class: "pill", onclick: () => agree(o.line, textOf(ln), o.line, ln.actor) }, t("talk.agree")),
-          isSight ? h("button", { class: "pill", onclick: () => makeCard({ text: textOf(ln), line: ln, kind: "agreed", id: ln.id }, "sight") }, t("talk.make_sight")) : null,
-          h("button", { class: "pill quiet", onclick: () => { const a = setAside(); a.add(o.line); local.sset("aside." + rid, [...a]); render(); } }, t("talk.not_this"))));
+            : h("button", { class: "pill", title: t("talk.agree_means"), onclick: () => agree(o.line, textOf(ln), o.line, ln.actor) }, t("talk.agree")),
+          isSight ? h("button", { class: "pill", title: t("talk.make_sight_means"), onclick: () => makeCard({ text: textOf(ln), line: ln, kind: "agreed", id: ln.id }, "sight") }, t("talk.make_sight")) : null,
+          h("button", { class: "pill quiet", title: t("talk.not_this_means"), onclick: () => { const a = setAside(); a.add(o.line); local.sset("aside." + rid, [...a]); render(); } }, t("talk.not_this"))));
       ul.append(li);
     }
     $tray.append(ul);
     if (more > 0) $tray.append(h("button", { class: "link-btn tray-more", onclick: () => { offset += 3; renderTray(); } },
       more === 1 ? t("talk.more_one") : t("talk.more_n", { n: C.fmt.number(more, true) })));
-    $tray.append(h("p", { class: "dust tray-law" }, t("talk.tray_law")));
+    // what the acts drawn here do: Agree where another offered the line, Make it a sighting on a sighting
+    const sights = shown.some((o) => { const ln = lineById(st, o.line); return ln && ln.type === "sight"; });
+    const others = shown.some((o) => o.for !== st.actor && lineById(st, o.line));
+    $tray.append(h("p", { class: "dust tray-law" }, t("talk.tray_law")),
+      actsFold(C, [others ? [t("talk.agree"), t("talk.agree_means")] : null, sights ? [t("talk.make_sight"), t("talk.make_sight_means")] : null,
+        [t("talk.not_this"), t("talk.not_this_means")]], "tray-means"));
   }
 
   // ------------------------------------------------------------------ the one card (the phone)
@@ -432,6 +445,23 @@ export default function createTalk() {
     const later = () => { const s = new Set(local.sget("later." + rid, [])); s.add(a.id); local.sset("later." + rid, [...s]); render(); };
     let eyebrowText = "", title = "", sub = null, acts = [];
     const answer = (type, body, links, words, label) => yes(a.id, type, body, links, words, label, { id: a.id, eyebrow: eyebrowText, title, words });
+    // each act is the one act map's line (deal.js actFor) and says what it does, on hover and in the fold
+    const means = [];
+    const pill = (cls, label, meaning, onclick) => { means.push([label, meaning]); return h("button", { class: cls, title: meaning, onclick }, label); };
+    const lineAnswer = (line, words, label) => (line ? answer(line.type, line.body, line.links, words, label) : later());
+    const notYet = () => pill("pill quiet", t("table.not_yet"), t("table.not_yet_means"), later);
+    const dealtCard = a.kind === "asked" ? ((st.deal && st.deal.cards) || []).find((c) => c && c.id === a.e.id) || null : null;
+    if (dealtCard) {
+      // the same card the Deal deals, drawn by the one face: its acts, labels and meanings are the Deal's
+      const m = cardModel(C, { deal: dealtCard });
+      eyebrowText = t("talk.one.asked"); title = m.title;
+      const face = renderCard(C, m, { form: "large", oneTap: true, from: "talk",
+        onConfirm: (option, i, label, words) => lineAnswer(actFor(dealtCard, i, words, st), t("talk.one.done_option", { option: label }), label) });
+      if (!$tray.dataset.shown || $tray.dataset.shown !== a.id) $tray.dataset.shown = a.id;
+      $tray.append(h("div", { class: "one-card one-card--face owed" }, face, h("div", { class: "one-acts" }, notYet()),
+        actsFold(C, means, "one-means")));
+      return;
+    }
     if (a.kind === "asked") {
       const e = a.e, card = C.read.card(st, e.id);
       const req = (st.lines || []).find((l) => l.holon === rid && l.type === "request" && l.body && l.body.title === e.title);
@@ -443,32 +473,36 @@ export default function createTalk() {
         : C.fmt.aboutMinutes(size).toLowerCase();
       sub = [req ? t("talk.one.from", { who: lineWho(C, req, rid) }) : null, sizeWords,
         witness && !isElided(witness) ? t("talk.one.witness", { who: whoOf(C, witness, rid) }) : null].filter(Boolean).join(" · ");
-      acts = [h("button", { class: "pill primary one-act", onclick: () => answer("commit",
-          { card: e.id, by: e.due, size: size || undefined, witness: witness && !isElided(witness) ? witness : undefined }, {},
-          t("talk.one.done_commit", { what: e.title.charAt(0).toLowerCase() + e.title.slice(1), by: C.fmt.by(e.due) || "" }).replace(/, \./, "."), t("table.committed", { what: e.title })) }, t("table.yes_commit")),
-        h("button", { class: "pill quiet", onclick: later }, t("table.not_yet"))];
+      // a request asked of her is answered as the Deal answers it: an answer, accept (the one act map)
+      const yesW = actWords(C, "act.answer.accept", "card");
+      acts = [pill("pill primary one-act", yesW.label, yesW.meaning, () => lineAnswer(actFor({ id: e.id, kind: "request" }, "act.answer.accept", null, st),
+          t("talk.one.done_answered", { what: e.title }), t("talk.one.answered_label", { what: e.title }))),
+        notYet()];
     } else if (a.kind === "yes") {
       const l = a.l;
       eyebrowText = t("talk.one.yes");
       title = (l.body && l.body.text) || "";
       sub = t("table.drafted_by", { who: isAgentLine(C, l) ? agentOf(C, l.actor, rid) : lineWho(C, l, rid) });
-      acts = [h("button", { class: "pill primary one-act", onclick: () => answer("decide", { text: title }, { answers: [l.id] }, t("talk.one.done_decide", { text: title }), t("talk.agree_consequence")) }, t("table.yes_decide")),
-        h("button", { class: "pill quiet", onclick: later }, t("table.not_yet"))];
+      const dw = actWords(C, "act.decide", "decision");
+      acts = [pill("pill primary one-act", dw.label, dw.meaning, () => lineAnswer(actFor({ id: l.id, kind: "decision" }, "act.decide", title, st),
+          t("talk.one.done_decide", { text: title }), t("talk.agree_consequence"))),
+        notYet()];
     } else if (a.kind === "question") {
       const q = a.q;
       eyebrowText = [eyebrow(C, q.type || "rfg"), C.fmt.by(q.by)].filter(Boolean).join(" · ");
       title = isElided(q.question) ? t("record.hidden") : q.question;
       sub = q.asker ? t("table.asked_by", { who: whoOf(C, q.asker, rid) }) : null;
-      acts = [h("button", { class: "pill primary one-act", onclick: () => { const id = "q-" + q.id; replying.add(id); open.add(id); render();
-          const li = $list.querySelector(`[data-id="${CSS.escape(id)}"]`); if (li) li.scrollIntoView({ block: "center" }); } }, t("talk.one.answer")),
-        h("button", { class: "pill quiet", onclick: later }, t("table.not_yet"))];
+      acts = [pill("pill primary one-act", t("talk.one.answer"), t("talk.one.answer_means"), () => { const id = "q-" + q.id; replying.add(id); open.add(id); render();
+          const li = $list.querySelector(`[data-id="${CSS.escape(id)}"]`); if (li) li.scrollIntoView({ block: "center" }); }),
+        notYet()];
     } else {
       const ln = a.ln, agentL = isAgentLine(C, ln);
       eyebrowText = t(ln.type === "sight" ? "talk.sighted_by" : "talk.offered_by", { who: isElided(ln.actor) ? t("app.a_member") : agentL ? agentOf(C, ln.actor, rid) : C.read.who(st, ln.actor, rid) }).replace(/\.$/, "");
       title = textOf(ln);
       sub = a.o.reason === "untrusted" ? t("talk.untrusted") : null;
-      acts = [h("button", { class: "pill primary one-act", onclick: () => answer("settle", { text: textOf(ln) }, { anchored_to: [a.o.line] }, t("talk.one.done_agree", { text: textOf(ln) }), t("talk.agree_consequence")) }, t("talk.agree")),
-        h("button", { class: "pill quiet", onclick: () => { const s = setAside(); s.add(a.o.line); local.sset("aside." + rid, [...s]); render(); } }, t("talk.not_this"))];
+      acts = [pill("pill primary one-act", t("talk.agree"), t("talk.agree_means"), () => lineAnswer(actFor({ id: a.o.line, kind: "thread" }, "act.settle", textOf(ln), st),
+          t("talk.one.done_agree", { text: textOf(ln) }), t("talk.agree_consequence"))),
+        pill("pill quiet", t("talk.not_this"), t("talk.not_this_means"), () => { const s = setAside(); s.add(a.o.line); local.sset("aside." + rid, [...s]); render(); })];
     }
     const card = h("article", { class: `one-card${a.owed ? " owed" : ""}${a.kind === "offer" && isAgentLine(C, a.ln) ? " is-agent" : ""}`, "aria-label": eyebrowText },
       h("div", { class: "one-top" }, h("p", { class: "eyebrow one-eyebrow" }, eyebrowText),
@@ -476,7 +510,7 @@ export default function createTalk() {
           more === 1 ? t("talk.one.more_one") : t("talk.one.more_n", { n: C.fmt.number(more, true) })) : null),
       h("p", { class: "one-title" }, title),
       sub ? h("p", { class: "dust one-sub" }, sub) : null,
-      h("div", { class: "one-acts" }, acts));
+      h("div", { class: "one-acts" }, acts), actsFold(C, means, "one-means"));
     if (!$tray.dataset.shown || $tray.dataset.shown !== a.id) {
       // the card rises from the foot when it is new: what moved (a new ask), from where (below)
       requestAnimationFrame(() => C.animate(card, [{ transform: `translateY(${cssVar("--rise-line")})`, opacity: 0 }, { transform: "none", opacity: 1 }],
@@ -512,7 +546,8 @@ export default function createTalk() {
 
   /** A person's Agree: a `settle` in the room's record (human-only; five seconds of Undo). */
   function agree(key, text, anchor, by) {
-    yes(key, "settle", { text }, anchor ? { anchored_to: [anchor] } : {}, text, C.t("talk.agree_consequence"));
+    const line = actFor({ id: anchor || null, kind: "thread" }, "act.settle", text, C.state);
+    yes(key, line.type, line.body, line.links, text, C.t("talk.agree_consequence"));
   }
 
   /** A person's yes, in the flow: the line drops into the Talk where it belongs, drying to full

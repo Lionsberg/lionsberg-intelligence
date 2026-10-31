@@ -8,7 +8,8 @@
 // Questions that climbed to this room (rfg, escalate; STATE `questions`) sit in the keeper's
 // court with their by-when. A Sighting offered in the room becomes a `sight` here in one gesture.
 
-import { h } from "./card.js";
+import { h, actWords, actsFold } from "./card.js";
+import { actFor, writeLine } from "./act-map.js";
 import { lineById, lineWho, whoOf, agentOf, isElided, cssMs, cssVar, eyebrow, isAgentLine, local } from "./inks.js";
 
 const CLOSED = new Set(["done", "kept", "released", "declined", "delivered"]);
@@ -111,8 +112,10 @@ export default function createTable() {
       o.reason === "untrusted" ? h("p", { class: "dust" }, t("talk.untrusted")) : null,
       h("div", { class: "card-options confirm" },
         o.for === st.actor ? h("p", { class: "dust" }, t("talk.others_agree"))
-          : h("button", { class: "pill", onclick: () => C.act("settle", { text }, { anchored_to: [o.line] }, rid, { confirmed: true, label: t("talk.agree_consequence") }) }, t("talk.agree")),
-        h("button", { class: "pill quiet", onclick: () => { const a = new Set(local.sget("aside." + rid, [])); a.add(o.line); local.sset("aside." + rid, [...a]); render(); } }, t("talk.not_this"))));
+          // Agree is the one act map's settle on the line (act-map.js actFor), as the Talk's
+          : h("button", { class: "pill", title: t("talk.agree_means"), onclick: () => writeLine(C, actFor({ id: o.line, kind: "thread" }, "act.settle", text, st), rid, { confirmed: true, label: t("talk.agree_consequence") }) }, t("talk.agree")),
+        h("button", { class: "pill quiet", title: t("talk.not_this_means"), onclick: () => { const a = new Set(local.sget("aside." + rid, [])); a.add(o.line); local.sset("aside." + rid, [...a]); render(); } }, t("talk.not_this"))),
+      actsFold(C, [o.for === st.actor ? null : [t("talk.agree"), t("talk.agree_means")], [t("talk.not_this"), t("talk.not_this_means")]], "one-means"));
   }
 
   // ------------------------------------------------------------------ faces
@@ -171,12 +174,17 @@ export default function createTable() {
         ["size", size(e.minutes || (card && card.minutes))], ["witness", witness ? whoOf(C, witness, rid) : null]]));
     if (e.holder === me) {
       if (!C.phone) art.append(h("p", { class: "commit-say" }, t("table.commit_say", { what: e.title, by: C.fmt.by(e.due) || t("table.slot_unset") })));
+      // a request asked of her is answered as the Deal answers it (act-map.js actFor, the Deal's offers when
+      // it is dealt): an answer, accept or decline, with the act's own words and meanings
+      const dc = ((st.deal && st.deal.cards) || []).find((c) => c && c.id === e.id) || { id: e.id, kind: "request" };
+      const yesW = actWords(C, "act.answer.accept", "card"), noW = actWords(C, "act.answer.decline", "card");
       art.append(h("div", { class: "card-options confirm" },
-          h("button", { class: "pill primary", onclick: () => C.act("commit", { card: e.id, by: e.due, size: e.minutes || (card && card.minutes) || undefined,
-            witness: witness && !isElided(witness) ? witness : undefined }, {}, rid, { confirmed: true, label: t("table.committed", { what: e.title }) }) }, t("table.yes_commit")),
-          h("button", { class: "pill quiet", onclick: (ev) => { ev.currentTarget.closest("article").classList.add("is-deferred"); } }, t("table.not_yet")),
-          h("button", { class: "pill quiet", onclick: () => C.act("answer", { answer: "decline", text: t("table.pass_on") }, { answers: [e.id] }, rid,
-            { confirmed: true, label: t("table.passed", { what: e.title }) }) }, t("table.pass_on"))));
+          h("button", { class: "pill primary", title: yesW.meaning, onclick: () => writeLine(C, actFor(dc, "act.answer.accept", null, st), rid,
+            { confirmed: true, label: t("talk.one.answered_label", { what: e.title }) }) }, yesW.label),
+          h("button", { class: "pill quiet", title: t("table.not_yet_means"), onclick: (ev) => { ev.currentTarget.closest("article").classList.add("is-deferred"); } }, t("table.not_yet")),
+          h("button", { class: "pill quiet", title: noW.meaning, onclick: () => writeLine(C, actFor(dc, "act.answer.decline", null, st), rid,
+            { confirmed: true, label: t("table.passed", { what: e.title }) }) }, noW.label)),
+        actsFold(C, [[yesW.label, yesW.meaning], [t("table.not_yet"), t("table.not_yet_means")], [noW.label, noW.meaning]], "one-means"));
     } else {
       art.append(h("p", { class: "dust" }, t("table.only_named")));
     }
@@ -216,9 +224,11 @@ export default function createTable() {
       h("p", { class: "eyebrow" }, draftOf),
       h("p", { class: "agent-text card-title" }, h("span", { class: "ring-mark", "aria-hidden": "true" }), (l.body && l.body.text) || ""),
       h("p", { class: "dust" }, t("table.drafted_by", { who: by })),
-      forMe ? h("button", { class: "pill primary", onclick: () => C.act("decide", { text: l.body.text }, { answers: [l.id] }, rid,
-        { confirmed: true, label: t("talk.agree_consequence") }) }, t("table.yes_decide"))
-        : h("p", { class: "dust" }, isElided(l.for) ? t("table.waits_on_person") : t("table.waits_on", { who: whoOf(C, l.for, rid) })));
+      // her yes is the one act map's decision in the draft's own words
+      forMe ? h("button", { class: "pill primary", title: actWords(C, "act.decide", "decision").meaning, onclick: () => writeLine(C, actFor({ id: l.id, kind: "decision" }, "act.decide", (l.body && l.body.text) || "", st), rid,
+        { confirmed: true, label: t("talk.agree_consequence") }) }, actWords(C, "act.decide", "decision").label)
+        : h("p", { class: "dust" }, isElided(l.for) ? t("table.waits_on_person") : t("table.waits_on", { who: whoOf(C, l.for, rid) })),
+      forMe ? actsFold(C, [[actWords(C, "act.decide", "decision").label, actWords(C, "act.decide", "decision").meaning]], "one-means") : null);
   }
 
   // ------------------------------------------------------------------ a card (or a sighting) born from a line

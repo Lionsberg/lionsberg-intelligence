@@ -65,7 +65,8 @@ export default function createQueue() {
         const m = cardModel(ctx, { owed: e });
         if (side === "others") m.reason = t("reason.on_other", { who: ctx.read.who(st, e.holder, e.holon) });
         const row = renderCard(ctx, m, { form: "row", selected: ctx.selected === e.id,
-          onOpen: () => (ctx.read.card(st, e.id) ? ctx.openCard(e.id) : ctx.go("#/deal")) });
+          // the title and the foot go to the same place: the full card, opened here (one tap, one card)
+          onOpen: () => ctx.openCard(e.id, { from: "queue", hint: { title: e.title, holon: e.holon } }) });
         // overdue is said in words in the foot ("one day past"), never in red alone
         if (m.minutes) row.prepend(h("span", { class: "queue-min figures dust" }, t("time.minutes", { n: Math.round(m.minutes) })));
         ul.append(h("li", null, row));
@@ -79,7 +80,7 @@ export default function createQueue() {
       for (const e of props) {
         const m = cardModel(ctx, { owed: e });
         m.reason = t("queue.noticed");
-        ul.append(h("li", null, renderCard(ctx, m, { form: "row" })));
+        ul.append(h("li", null, renderCard(ctx, m, { form: "row", onOpen: () => ctx.openCard(e.id, { from: "queue", hint: { title: e.title, holon: e.holon } }) })));
       }
       root.append(ul);
     }

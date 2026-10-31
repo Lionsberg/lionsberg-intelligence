@@ -24,6 +24,7 @@
 // light: no spinner, no dots, no glow, and none for listening or speaking either.
 
 import { agent as A, discern, phone as P, voice, ON_PHONE, store, setPref } from "./state.js";
+import { offeredLine } from "./act-map.js";
 import { renderAsk, question as askQuestion, plainLines, askWords, actYes, workerYes, noPaths } from "./dock-card.js";
 import { renderMargin } from "./margin.js";
 import { handoffText } from "./bodies-talk.js";
@@ -770,9 +771,10 @@ export default function create(opts = {}) {
     const holon = it.holon || (it.card && ctx.read.card(s, it.card) && ctx.read.card(s, it.card).holon) || ctx.home;
     let p;
     const label = t("dock.margin.agreed_label", { what: it.text });
-    if (it.kind === "commitment" && it.card) p = ctx.act("commit", { card: it.card, by: it.by }, {}, holon, { confirmed: true, label });
-    else if (it.kind === "said_in_room") p = ctx.act("say", { text: it.text }, {}, holon, { confirmed: true, label });
-    else p = ctx.act("card", { title: it.text, holder: s.actor, by: it.by }, {}, holon, { confirmed: true, label });
+    // the line her Agree writes is the one act map's (act-map.js offeredLine)
+    const line = offeredLine(it, s);
+    if (!line) return;
+    p = ctx.act(line.type, line.body, line.links, holon, { confirmed: true, label });
     S.local.set(it.id, "agreeing");
     render();
     p.done.then((r) => {

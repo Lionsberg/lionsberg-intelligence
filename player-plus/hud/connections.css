@@ -80,3 +80,6 @@
 .conn-how summary, .conn-acts summary { cursor: pointer; min-height: var(--touch); display: flex; align-items: center; }
 .conn-acts ul { list-style: none; margin: 0; padding: 0 0 0 var(--s-3); }
 .conn-since { white-space: normal; }
+
+/* one tap, one card: the agreement a row names opens as its card */
+.conn-open { display: block; margin-top: var(--s-1); }

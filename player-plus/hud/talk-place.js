@@ -34,7 +34,8 @@
 
 import createDock, { rememberedName } from "./dock.js";
 import { askWords, noPaths } from "./dock-card.js";
-import { dealt, actFor, owedLine } from "./deal.js";
+import { dealt, actFor, writeLine, owedLine } from "./deal.js";
+import { optionAct } from "./card.js";
 import { store, setPref, setNamed, markAnswered, unmarkAnswered, agent as A } from "./state.js";
 
 // The conversation is kept across leave and return (as the Agents room keeps its lines), so going
@@ -684,7 +685,8 @@ export default function create() {
       words are hers to type or say. No chips, no card, no link. */
   function questionWords(dc) {
     const q = endSentence(dc.question || titleOf(dc));
-    const opts = (dc.options || []).map((o, i) => (i ? inSentence(o, dc.question) : o));
+    // only the reader's choices are said (an option the engine says is the other side's is not hers)
+    const opts = (dc.options || []).filter((o, i) => optionAct(dc, i, ctx.state).offered !== false).map((o, i) => (i ? inSentence(o, dc.question) : o));
     const choices = opts.length > 2 ? opts.slice(0, -1).join(", ") + t("talk_place.q_or_last") + opts[opts.length - 1]
       : opts.join(t("talk_place.q_or"));
     const why = dc.why || (dc.unlocks ? waitsOnIt(t, dc.unlocks) : "");
@@ -928,14 +930,14 @@ export default function create() {
   }
   function answer(dc, label, oi, how, written = false) {
     const t0 = performance.now();
-    const a0 = actFor(dc, label);
+    const a0 = actFor(dc, oi, null, ctx.state);   // the one act map: the line this answer writes, or none
     const kind = dc.kind || "other";
     const what = nameOfCard(dc) || titleOf(dc);
     // an option that leads somewhere ("Read it now" on a worker's handoff) follows it and says
     // nothing about marking: it opens what was found
     const goes = (dc.go && oi === (dc.go_option != null ? dc.go_option : 0)) || (!dc.go && kind === "handoff" && oi === 0);
     let keepP = null, item = null, parts = null;
-    const p = written ? { done: Promise.resolve({ status: "written" }), undo() {} } : ctx.act(a0.type, a0.body, a0.links, dc.holon, {
+    const p = written ? { done: Promise.resolve({ status: "written" }), undo() {} } : writeLine(ctx, a0, dc.holon, {
       confirmed: true, quiet: true, label: t("talk_place.marked_sr", { option: label }),
       onUndo: () => {
         unmarkAnswered(dc.id);

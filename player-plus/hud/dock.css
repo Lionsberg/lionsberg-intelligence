@@ -369,3 +369,6 @@ html[data-type="large"] .dock-mic { width: 56px; height: 56px; }
 .talk-status .talk-status-seg { white-space: nowrap; overflow-wrap: normal; }
 .talk-status .talk-status-line[role="button"] { cursor: pointer; }
 .talk-status .talk-status-line[role="button"]:focus-visible { outline: var(--hairline) solid var(--focus-ring); outline-offset: 2px; }
+
+/* what Agree and Not this do, beneath the margin (card.js actsFold) */
+.dock-mmeans { font-size: var(--t-small); }

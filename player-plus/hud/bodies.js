@@ -27,7 +27,8 @@
 // A line the state cannot support is not shown. Nothing glows, pulses or sounds; the warning colour
 // (.is-owed) is spent only on the one fault.
 
-import { h } from "./card.js";
+import { h, actWords, actsFold } from "./card.js";
+import { actFor, writeLine } from "./deal.js";
 import createDock, { letter } from "./dock.js";
 import { talkTo, openWindow, reach as reachOf, handoffText } from "./bodies-talk.js";
 import { store } from "./state.js";
@@ -963,7 +964,11 @@ export default function createBodies() {
         const note = t(archived ? "bodies.ho.note_archived" : "bodies.ho.note_read", { name: b.name });
         const body = { note, handoff_of: r.folder || b.folder, handoff_bytes: r.bytes, card };
         if (archived) body.archived = true;
-        ctx.act("witness", body, {}, ctx.home, { confirmed: true, label: note });
+        // the one act map's witness (deal.js actFor), carrying the handoff it reviews; it names no item here
+        // one witness line for a handoff, wherever it is read: its body names the folder, its link the handoff
+        const dealt = (((ctx.state && ctx.state.deal && ctx.state.deal.cards) || []).find((c) => c && b.handoff && c.id === b.handoff)) || null;
+        const line = actFor(dealt || { id: b.handoff || null, kind: "handoff" }, "act.witness", null, ctx.state);
+        writeLine(ctx, line && { ...line, body: { ...line.body, ...body } }, ctx.home, { confirmed: true, label: note });
         if (card) localReviewed.set(card, archived ? "archived" : "read");
         said.textContent = t(archived ? "bodies.ho.done_archived" : "bodies.ho.done_read");
         foot.textContent = "";
@@ -972,8 +977,10 @@ export default function createBodies() {
       };
       const done = b.reviewed || (card && localReviewed.has(card));
       if (!done) {
-        foot.append(h("button", { class: "link-btn", type: "button", onclick: review(true) }, t("bodies.ho.archive")),
-          h("button", { class: "pill primary bodies-big", type: "button", onclick: review(false) }, t("bodies.ho.mark_read")));
+        const read = actWords(ctx, "act.witness", "handoff");
+        foot.append(h("button", { class: "link-btn", type: "button", title: t("act.witness.on_handoff_archive_means"), onclick: review(true) }, t("bodies.ho.archive")),
+          h("button", { class: "pill primary bodies-big", type: "button", title: read.meaning, onclick: review(false) }, t("bodies.ho.mark_read")),
+          actsFold(ctx, [[t("bodies.ho.mark_read"), read.meaning], [t("bodies.ho.archive"), t("act.witness.on_handoff_archive_means")]], "bodies-means"));
       } else foot.append(h("button", { class: "link-btn", type: "button", onclick: back }, t("bodies.ho.back")));
       requestAnimationFrame(() => { sc.scrollTop = 0; });
     });
@@ -1595,11 +1602,17 @@ export default function createBodies() {
     const ln = (st.lines || []).find((l) => l.id === b.handoff) || null;
     const minutes = b.review_min != null ? ctx.fmt.aboutMinutes(b.review_min) : "";
     let close = null;
-    const say = (text) => ctx.act("say", { text }, { anchored_to: [b.handoff] }, b.holon || ctx.home, { confirmed: true, label: text });
+    // each line is the one act map's (deal.js actFor): a say on the handoff, or its witness
+    // the Deal's card for this handoff, when dealt: its offers say whether Mark it read is hers (acts.json kinds.handoff)
+    const thing = ((st.deal && st.deal.cards) || []).find((c) => c && c.id === b.handoff) || { id: b.handoff, kind: "handoff" };
+    const say = (text) => writeLine(ctx, actFor(thing, "act.say", text, ctx.state), b.holon || ctx.home, { confirmed: true, label: text });
     const reviewed = () => {
       close && close();
-      ctx.act("witness", {}, { witnesses: [b.handoff] }, b.holon || ctx.home, { confirmed: true, label: t("bodies.reviewed") });
+      const line = actFor(thing, "act.witness", null, ctx.state);   // the same witness line the handoff's own page writes
+      writeLine(ctx, line && { ...line, body: { ...line.body, note: t("bodies.reviewed"), handoff_of: b.folder || b.name, card: b.handoff_card || undefined } },
+        b.holon || ctx.home, { confirmed: true, label: t("bodies.reviewed") });
     };
+    const readW = actWords(ctx, "act.witness", "handoff");
     const body = h("div", { class: "bodies-sheet" },
       h("p", { class: "eyebrow" }, b.handoffDay ? t("bodies.eyebrow_day") : t("bodies.ho.eyebrow")),
       h("p", { class: "bodies-q" }, t("bodies.handoff_q", { name: b.name, task: b.task || t("bodies.ho.its_task") }), " ", minutes ? h("span", { class: "dust" }, minutes + ".") : null),
@@ -1608,15 +1621,18 @@ export default function createBodies() {
       body.append(h("div", { class: "bodies-read" },
         h("p", { class: "ink-said" }, t("bodies.read_said", { task: b.task || t("bodies.ho.its_task") })),
         h("p", { class: "dust" }, t("bodies.read_kept")),
-        h("button", { class: "pill", type: "button", onclick: reviewed }, t("bodies.mark_reviewed"))));
+        h("button", { class: "pill", type: "button", title: readW.meaning, onclick: reviewed }, t("bodies.mark_reviewed"))));
       read.disabled = true;
     } }, t("bodies.opt_read"));
+    read.setAttribute("title", t("bodies.opt_read_means"));
+    body.append(actsFold(ctx, [[t("bodies.opt_read"), t("bodies.opt_read_means")], [t("bodies.mark_reviewed"), readW.meaning],
+      [t("bodies.opt_deal"), t("bodies.opt_deal_means")], [t("bodies.opt_judge"), t("bodies.opt_judge_means")]], "bodies-means"));
     close = ctx.openSheet({
       title: t("bodies.handoff_title"),
       body,
       actions: [read,
-        h("button", { class: "pill quiet", type: "button", onclick: () => { close(); say(t("bodies.opt_deal")); } }, t("bodies.opt_deal")),
-        h("button", { class: "pill quiet", type: "button", onclick: () => { close(); say(t("bodies.opt_judge")); } }, t("bodies.opt_judge"))],
+        h("button", { class: "pill quiet", type: "button", title: t("bodies.opt_deal_means"), onclick: () => { close(); say(t("bodies.opt_deal")); } }, t("bodies.opt_deal")),
+        h("button", { class: "pill quiet", type: "button", title: t("bodies.opt_judge_means"), onclick: () => { close(); say(t("bodies.opt_judge")); } }, t("bodies.opt_judge"))],
     });
   }
 

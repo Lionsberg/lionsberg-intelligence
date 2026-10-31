@@ -90,3 +90,6 @@ html[data-rest] .layout[data-layout="player"] .view:not(.view--deal) { display: 
 /* the next hand (2026-10-25): one act under the rest line, and what still waits in dust */
 .deal-next { display: flex; }
 .deal-next-rest { margin: 0; max-width: var(--measure); }
+
+/* the three answers above the pile: who she is connected to, what she waits on (deal.js threeLines) */
+.deal-three-line { color: var(--dust); margin-top: var(--s-1); }

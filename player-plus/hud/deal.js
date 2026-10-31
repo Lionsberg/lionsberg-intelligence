@@ -9,7 +9,8 @@
 // the one owed card, the rest state the field and one line.
 // The count she consented to never changes under her: "2 of 2" stays "2 of 2".
 
-import { h, cardModel, renderCard } from "./card.js";
+import { h, cardModel, renderCard, optionsOf } from "./card.js";
+import { actFor, writeLine } from "./act-map.js";
 import { store, setPref, markAnswered, unmarkAnswered, byStakeOrder, agent as AGENT } from "./state.js";
 import { renderAsk } from "./dock-card.js";
 
@@ -141,6 +142,39 @@ export function dealt(ctx) {
     says the folding chairs). The first is the one owed list's first (state.js read.firstOwed, as the
     Map reads it); `card` is its card when it is open in the hand she is dealt, else the hand's first.
     -> {count, card, entry, title, due, inHand} */
+/** The pile in the order she meets it: the card the opener names first, then the rest as dealt, so
+    the first card she sees is "1 of" the pile, and the count is the pile's. */
+export function pileOf(ctx, d = dealt(ctx)) {
+  const f = owedLine(ctx, d).card;
+  return f ? [f, ...d.open.filter((c) => c !== f)] : d.open.slice();
+}
+
+/** The three answers above the pile (plain.py's laws): who she is connected to and whether they are
+    good, her next step (the opener), and what she waits on. From the state's own `plain` when the
+    engine sent it; else read here, in sentences, honest-empty. -> {connected, waiting} */
+export function threeLines(ctx) {
+  const t = ctx.t, st = ctx.state || {}, me = st.actor;
+  const first = (xs) => (Array.isArray(xs) && xs[0] && typeof xs[0].sentence === "string" && xs[0].sentence ? xs[0].sentence : null);
+  const p = st.plain && typeof st.plain === "object" ? st.plain : null;
+  if (p && (Array.isArray(p.connected) || Array.isArray(p.waiting)))
+    return { connected: first(p.connected) || t("deal.three.connected_none"), waiting: first(p.waiting) || t("deal.three.waiting_none"),
+      next: first(p.next) };
+  const rows = ((st.connections && Array.isArray(st.connections.rows)) ? st.connections.rows : []).filter((r) => r && typeof r === "object");
+  let connected = t("deal.three.connected_none");
+  if (rows.length) {
+    const r = rows[0], color = (r.pulse && r.pulse.color) || "grey";
+    const vars = { name: (typeof r.name === "string" && r.name) || t("conn.a_group"), color: t("deal.three.color." + color), n: ctx.fmt.number(rows.length - 1) };
+    connected = rows.length === 1 ? t("deal.three.connected_one", vars) : t("deal.three.connected_many", vars);
+  }
+  const theirs = ((st.owed && st.owed.entries) || []).filter((e) => e && e.holder && e.holder !== me && !(ctx.filter && e.holon !== ctx.filter));
+  let waiting = t("deal.three.waiting_none");
+  if (theirs.length) {
+    const e = theirs[0], vars = { who: ctx.read.who(st, e.holder, e.holon), title: e.title || "", n: ctx.fmt.number(theirs.length - 1) };
+    waiting = theirs.length === 1 ? t("deal.three.waiting_one", vars) : t("deal.three.waiting_many", vars);
+  }
+  return { connected, waiting, next: null };
+}
+
 export function owedLine(ctx, d = dealt(ctx)) {
   const st = ctx.state || {};
   const owed = ctx.read.owedByStake(st);
@@ -205,6 +239,9 @@ export default function createDeal() {
     const lower = what ? what.charAt(0).toLowerCase() + what.slice(1) : "";
     const by = ol.due && f.by(ol.due) ? ", " + f.by(ol.due) : "";
     if (!lower) return many === 1 ? t("deal.count_one_plain") : t("deal.count_many_plain", { count: f.number(many) });
+    // the pile's own count, said beside the owed count when the pile holds more (never "3" over "of 5")
+    const pile = ol.count;
+    if (pile > many) return t(many === 1 ? "deal.opener_pile_one" : "deal.opener_pile_many", { count: f.number(many), pile: f.number(pile, true), what: lower, by });
     return many === 1 ? t("deal.opener_one", { what: lower, by })
       : t("deal.opener_many", { count: f.number(many), what: lower, by });
   }
@@ -326,7 +363,10 @@ export default function createDeal() {
 
     const head = h("div", { class: "deal-head" });
     const brief = briefing(d);
-    if (brief) head.append(h("p", { class: "deal-line" }, brief));
+    const three = threeLines(ctx);
+    head.append(h("p", { class: "deal-three-line" }, three.connected));
+    if (three.next || brief) head.append(h("p", { class: "deal-line" }, brief || three.next));
+    head.append(h("p", { class: "deal-three-line" }, three.waiting));
     // the cost line's place holds the latest answer while its Undo holds: one line, so the card
     // below never moves (the bar, line 11), and the Undo stays where the eye already is
     const latest = [...settled.keys()].reverse().find((id) => d.hand.some((c) => c.id === id));   // this hand's own
@@ -343,19 +383,20 @@ export default function createDeal() {
     root.append(stage);
 
     // the card in front of her is the first the owed line names, so the line and the card agree
-    if (!cur || !d.open.some((c) => c.id === cur)) cur = (owedLine(ctx, d).card || d.open[0]).id;
+    const pile = pileOf(ctx, d);
+    if (!cur || !pile.some((c) => c.id === cur)) cur = pile[0].id;
     const wide = matchMedia(WIDE).matches && !ctx.prefs.large;
-    const shown = wide ? d.open.slice(0, 3) : [d.open.find((c) => c.id === cur)];
+    const shown = wide ? pile.slice(0, 3) : [pile.find((c) => c.id === cur)];
     const row = h("div", { class: `deal-cards${wide ? " is-wide" : ""}` });
     shown.forEach((dc, i) => {
       // counted against what she still has (never "1 of 5" beside "Three things"): its place
       // among the open cards, of the one count "what needs me?" says
       const owedCount = owedLine(ctx, d).count;
-      const n = d.open.indexOf(dc) + 1;
+      const n = pile.indexOf(dc) + 1;
       const m = cardModel(ctx, { deal: dc });
       const face = renderCard(ctx, m, {
         form: "large", from: "deal", index: n, total: Math.max(owedCount, d.open.length, n), selected: ctx.selected === dc.id, oneTap: true,
-        onConfirm: (label, oi) => settle(dc, label, oi),
+        onConfirm: (option, oi, label, words) => settle(dc, option, oi, label, words),
         onGive: ctx.longCard && ctx.launchBody && ctx.longCard(m.card)
           ? () => ctx.launchBody({ card: dc.id }) : null,
       });
@@ -368,11 +409,11 @@ export default function createDeal() {
       row.append(face);
     });
     stage.append(row);
-    if (!wide && d.open.length > 1) {
-      const i = d.open.findIndex((c) => c.id === cur);
+    if (!wide && pile.length > 1) {
+      const i = pile.findIndex((c) => c.id === cur);
       stage.append(h("div", { class: "deal-nav" },
-        h("button", { class: "link-btn", onclick: () => step(-1), disabled: i <= 0 }, "← " + t("deal.previous")),
-        h("button", { class: "link-btn", onclick: () => step(1), disabled: i >= d.open.length - 1 }, t("deal.next") + " →")));
+        h("button", { class: "link-btn", title: t("deal.previous_means"), onclick: () => step(-1), disabled: i <= 0 }, "← " + t("deal.previous")),
+        h("button", { class: "link-btn", title: t("deal.next_means"), onclick: () => step(1), disabled: i >= pile.length - 1 }, t("deal.next") + " →")));
     }
     if (animateOpening) playOpening([greeting, opening, head, row]);
   }
@@ -397,11 +438,13 @@ export default function createDeal() {
       line 21). The surface settles at once, optimistically: the settled line and the next
       card are drawn in the same frame as the tap; the record confirms later, and a refusal
       brings the card back. The tap's time to paint is kept on the view for the proof. */
-  function settle(dc, label, oi) {
+  function settle(dc, option, oi, shown, words = null) {
     const t = ctx.t, t0 = performance.now();
-    const a0 = actFor(dc, label);
-    const consequence = Array.isArray(dc.consequences) && dc.consequences[oi] ? dc.consequences[oi] : null;
-    const p = ctx.act(a0.type, a0.body, a0.links, dc.holon, {
+    const label = shown || option;
+    const a0 = actFor(dc, oi, words, ctx.state);   // the one act map: the line this option writes (with her words), or none
+    const consequence = Array.isArray(dc.consequences) && dc.consequences[oi] ? dc.consequences[oi]
+      : (optionsOf(ctx, dc).find((o) => o.i === oi) || {}).meaning || null;
+    const p = writeLine(ctx, a0, dc.holon, {
       confirmed: true, quiet: true,
       label: t("deal.settled_sr", { option: label }),
       onUndo: () => { settled.delete(dc.id); unmarkAnswered(dc.id); },
@@ -427,11 +470,11 @@ export default function createDeal() {
   }
 
   function step(dir) {
-    const d = dealt(ctx);
-    const i = d.open.findIndex((c) => c.id === cur);
-    const j = Math.max(0, Math.min(d.open.length - 1, i + dir));
+    const pile = pileOf(ctx);
+    const i = pile.findIndex((c) => c.id === cur);
+    const j = Math.max(0, Math.min(pile.length - 1, i + dir));
     if (j === i) return;
-    cur = d.open[j].id; draw(false);
+    cur = pile[j].id; draw(false);
     const face = root.querySelector(".card--large");
     if (face) {
       ctx.animate(face, [{ opacity: 0, transform: `translateX(${dir > 0 ? "" : "-"}${css("--rise-card")})` }, { opacity: 1, transform: "none" }],
@@ -494,29 +537,18 @@ export default function createDeal() {
       if (k === "k" || e.key === "ArrowLeft") { step(-1); return true; }
       const dc = d.open.find((c) => c.id === cur) || d.open[0];
       if (/^[1-5]$/.test(e.key) && dc) {
-        const i = Number(e.key) - 1, o = (dc.options || [])[i];
-        if (o != null) { settle(dc, o, i); return true; }
+        const o = optionsOf(ctx, dc)[Number(e.key) - 1];   // the keys count the acts drawn, the reader's own
+        if (o && !o.words) { settle(dc, o.option, o.i, o.label); return true; }   // an act that needs her words waits for them
       }
       return false;
     },
   };
 }
 
-// The event an answer writes (shared with the full card, card-full.js). STATE v1 gives options as words, not acts; until the engine
-// names each option's act (a proposed field: deal.cards[].acts), the HUD writes the
-// typed act only where the registry makes it unambiguous, and otherwise the person's own
-// words as a `say` anchored to the card, for the agent to carry out.
-export function actFor(dc, label) {
-  const i = (dc.options || []).indexOf(label);
-  const anchored = { anchored_to: [dc.id] };
-  if (Array.isArray(dc.acts) && dc.acts[i] && dc.acts[i].type) return dc.acts[i];
-  if (dc.kind === "request" && i === 0) return { type: "answer", body: { answer: "accept" }, links: { answers: [dc.id] } };
-  if (dc.kind === "request" && i === 2) return { type: "answer", body: { answer: "decline" }, links: { answers: [dc.id] } };
-  if (dc.kind === "ratify" && i === 0) return { type: "ratify", body: {}, links: { answers: [dc.id] } };
-  if ((dc.kind === "decide" || dc.section === "decision") && i >= 0 && i < (dc.options || []).length - 1)
-    return { type: "decide", body: { text: label }, links: { answers: [dc.id] } };
-  return { type: "say", body: { text: label }, links: anchored };
-}
+// ============================================================================ one act map
+// The one place an act is turned into a line lives in act-map.js (no browser globals, so a module
+// proof can load it alone); the Deal exports it under its old name for every place that calls it.
+export { actFor, writeLine, cardActs, TAKE_FROM } from "./act-map.js";
 
 // ============================================================================ the printed Deal card (§7)
 // Front: the Mark alone. Back: the Deal: the opener, the date, up to three cards with tick

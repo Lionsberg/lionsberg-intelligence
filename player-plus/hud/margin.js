@@ -24,8 +24,9 @@ const EYEBROW = { commitment: "dock.margin.commitment", card: "dock.margin.card"
  *   items: [{id, kind, text, ink: said|kept|agreed, state?: agreeing|declined, card?, untrusted?}]
  */
 export function renderMargin(ctx, items, { onAgree, onDecline } = {}) {
-  const { h } = ctx.card;
+  const { h, actsFold } = ctx.card;
   const t = ctx.t;
+  let asks = false;   // a line here carries Agree · Not this: their meanings go in one fold beneath
   const shown = (items || []).filter((x) => x && x.text && x.state !== "declined");
   if (!shown.length) return null;
   const list = h("ul", { class: "dock-margin", "aria-label": t("dock.margin.label") });
@@ -42,8 +43,10 @@ export function renderMargin(ctx, items, { onAgree, onDecline } = {}) {
     else if (it.source === "record" && ink === "said") li.append(h("span", { class: "dust dock-mnote" }, t("dock.margin.in_record_note")));
     if (ink === "said" && it.agreeable !== false && onAgree) {
       const row = h("span", { class: "dock-mactions" });
-      const yes = h("button", { class: "link-btn", type: "button", disabled: it.state === "agreeing" }, t("dock.margin.agree"));
-      const no = h("button", { class: "link-btn quiet", type: "button", disabled: it.state === "agreeing" }, t("dock.margin.not_this"));
+      // each act says what it does: on hover, and in the fold beneath the margin (a phone has no hover)
+      const yes = h("button", { class: "link-btn", type: "button", title: t("dock.margin.agree_means"), disabled: it.state === "agreeing" }, t("dock.margin.agree"));
+      const no = h("button", { class: "link-btn quiet", type: "button", title: t("dock.margin.not_this_means"), disabled: it.state === "agreeing" }, t("dock.margin.not_this"));
+      asks = true;
       yes.addEventListener("click", () => onAgree(it));
       no.addEventListener("click", () => onDecline && onDecline(it));
       row.append(yes, no);
@@ -52,5 +55,8 @@ export function renderMargin(ctx, items, { onAgree, onDecline } = {}) {
     }
     list.append(li);
   }
+  const fold = asks && typeof actsFold === "function" ? actsFold(ctx, [[t("dock.margin.agree"), t("dock.margin.agree_means")],
+    [t("dock.margin.not_this"), t("dock.margin.not_this_means")]], "dock-mmeans") : null;
+  if (fold) list.append(h("li", null, fold));
   return list;
 }

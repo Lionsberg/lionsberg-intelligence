@@ -96,3 +96,6 @@
 .push-card .kind-chips .chip[aria-checked="true"] { border-color: var(--text); background: var(--pill-suggested); }
 .conv2-said { font-size: var(--t-body); color: var(--ink-kept); margin-bottom: var(--s-4); }
 .conv2-said .conv2-undo { min-height: var(--touch); }
+
+/* what each act in the conversation sheet does (card.js actsFold) */
+.conv2-means { margin-top: var(--s-3); }

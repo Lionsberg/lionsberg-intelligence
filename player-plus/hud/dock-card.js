@@ -267,7 +267,8 @@ export function actYes(ctx, ask, onRefused = () => {}) {
   const opts = (dc && dc.options) || [];
   const label = opts[ask.option_index] === ask.option ? ask.option : (opts.includes(ask.option) ? ask.option : null);
   if (!dc || !label || typeof ctx.act !== "function") return { ok: false, reason: t("dock.ask_act_gone") };
-  const a0 = actFor(dc, label);
+  const a0 = actFor(dc, label, null, st);   // the one act map
+  if (!a0) return { ok: true };   // the choice writes nothing (a "Not now", or not hers to make): nothing to mark
   const p = ctx.act(a0.type, a0.body, a0.links, dc.holon, { confirmed: true, label: t("dock.ask_act_marked_sr", { option: label }) });
   if (p && p.done && typeof p.done.then === "function") p.done.then((q) => { if (q && q.status === "refused") onRefused(t("dock.ask_act_gone")); });
   return { ok: true };

@@ -45,3 +45,7 @@
   .smap > .smap-line, .smap > p.dust { grid-column: 1 / -1; }
   .smap > .smap-panel:nth-of-type(1) { grid-row: span 2; }
 }
+
+/* one tap, one card: a sighting or a clause opens its card here */
+.smap-open { margin-left: var(--s-2); }
+.smap-means { margin-top: var(--s-2); }

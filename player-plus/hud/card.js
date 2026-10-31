@@ -33,6 +33,147 @@ export function h(tag, attrs, ...kids) {
 
 // A card in one of these states is finished: it has no by-when left to miss and no days to spare.
 export const DONE_STATES = new Set(["done", "kept", "released", "declined", "returned"]);
+/** A card that is finished or taken back: it allows no act. A released or returned card is not over:
+    it is free again for someone to take (types.json claim, from released and returned). */
+const OVER = new Set(["done", "kept", "declined", "retracted"]);
+export const isOver = (card) => !!(card && (OVER.has(card.state) || card.stage === "did"));
+
+// ------------------------------------------------------------------ one card, everywhere: its acts
+
+/** An act's words from strings.json, which mirrors the engine's acts.json under the same keys
+    (act.<type>[.<when>]): the label is the key, its meaning the key with _means, and a kind's own
+    words sit under .on_<kind>, and a role's own under .on_<kind>.as_<role> (the same act read from the
+    other side of a commitment). A key with no words gives nulls, never a guess. */
+export function actWords(ctx, key, kind = null, role = null) {
+  const has = (k) => { const s = ctx.t(k); return typeof s === "string" && s !== "[" + k + "]"; };
+  if (typeof key !== "string" || !key) return { label: null, meaning: null };
+  const byRole = kind && role ? key + ".on_" + kind + ".as_" + role : null;
+  const k0 = byRole && has(byRole) ? byRole : kind && has(key + ".on_" + kind) ? key + ".on_" + kind : key;
+  return { label: has(k0) ? ctx.t(k0) : null, meaning: has(k0 + "_means") ? ctx.t(k0 + "_means") : null };
+}
+
+// What a Deal card's option writes when the engine sent no `offers` (an older Deal, or a fixture): the
+// act key by the card's kind and the option's place, as the engine's own frames place them (deal.py:
+// the option words stay the card's, the line is the act's). null: the option writes nothing.
+const FALLBACK_KEYS = {
+  request: ["act.answer.accept", "act.say", "act.answer.decline"],
+  offer: ["act.answer.accept", "act.say.ask", "act.answer.decline"],
+  ratify: ["act.ratify", null, "act.say.ask"],
+  thread: ["act.say", "act.settle", null],
+  pain: ["act.say", "act.say", null],
+  sighting: ["act.elevate", null, null],
+  receipt: ["act.say", null],
+  claim: ["act.claim", "act.release"],
+  committor: ["act.kept", "act.say.ask", "act.release"],
+  committor_on_track: ["act.say", "act.say.ask", "act.release"],
+  committee: ["act.say", "act.say.ask", "act.answer.decline"],
+  ready: ["act.claim", "act.hand", "act.release"],
+  taken: ["act.done", "act.hand", "act.release"],
+};
+
+/** The fallback act key of a dealt card's option at place i (no `offers`): the engine's old `acts`
+    (a type name per option, the last writing none) first; then the frames above; a kind the frames
+    do not name writes the option's own words as a say. */
+export function fallbackKey(dc, i, st = null) {
+  const opts = (dc && Array.isArray(dc.options)) ? dc.options : [];
+  if (!dc || !Number.isInteger(i) || i < 0 || i >= opts.length) return null;
+  if (Array.isArray(dc.acts) && i < dc.acts.length) {
+    const a = dc.acts[i];
+    if (a === null) return null;
+    if (typeof a === "string") return "act." + a;
+  }
+  const me = st && st.actor;
+  let row = FALLBACK_KEYS[dc.kind] || null;
+  if (dc.kind === "commitment") {
+    const k = ((st && st.commitments) || []).find((x) => x && x.id === dc.id) || {};
+    const owed = ((st && st.owed && st.owed.entries) || []).find((e) => e && e.id === dc.id && e.holder === me) || {};
+    row = k.committee && k.committee === me ? FALLBACK_KEYS.committee
+      : owed.status === "past" ? FALLBACK_KEYS.committor : FALLBACK_KEYS.committor_on_track;
+  } else if (dc.section === "ready") {
+    const c = ((st && st.cards) || []).find((x) => x && x.id === dc.id);
+    row = c && c.state === "taken" && c.holder === me ? FALLBACK_KEYS.taken : FALLBACK_KEYS.ready;
+  } else if (dc.kind === "decide" || dc.section === "decision") {
+    if (!row) return i < opts.length - 1 ? "act.decide" : null;   // each choice is a decision in its words; the last hands it on
+  }
+  if (!row) return "act.say";
+  return i < row.length ? row[i] : null;
+}
+
+// The body fields a person fills with her own words (types.json: a field of kind text); any other field
+// left empty names someone or something she has not named here.
+export const WORD_FIELDS = ["text", "why", "note"];
+
+/** A field the engine leaves for the HUD to name from the state, never asked of her: where a pass goes
+    (elevate's `to`) is the wider circle around the card's group, its holon's parent. null: not known here. */
+export function filledHere(type, field, dc, st) {
+  if (type !== "elevate" || field !== "to") return null;
+  const x = ((st && st.holons) || []).find((y) => y && dc && y.id === dc.holon);
+  return x && typeof x.parent === "string" && x.parent ? x.parent : null;
+}
+
+/** What a dealt card's option at place i does, read from the engine's `offers` first: its act key,
+    whether it is the reader's to take (`offered`), the engine's row, and whether its line carries
+    the option's own words (a say, a decision in its words, or a line the HUD cannot complete). */
+export function optionAct(dc, i, st = null) {
+  const opts = (dc && Array.isArray(dc.options)) ? dc.options : [];
+  const option = Number.isInteger(i) && i >= 0 && i < opts.length ? opts[i] : null;
+  const offers = dc && dc.offers && typeof dc.offers === "object" && Array.isArray(dc.offers.options) ? dc.offers : null;
+  if (option == null) return { option: null, i, key: null, kind: null, row: null, offered: false, own: true };
+  if (!offers) return { option, i, key: fallbackKey(dc, i, st), kind: null, row: null, offered: true, own: true };
+  const rows = offers.options;
+  const row = (rows[i] && rows[i].option === option) ? rows[i] : rows.find((r) => r && r.option === option) || null;
+  const kind = typeof offers.kind === "string" ? offers.kind : null;
+  if (!row || !row.key) return { option, i, key: null, kind, row, offered: true, own: true };
+  if (!row.offered || !row.writes) return { option, i, key: row.key, kind, row, offered: false, own: true };
+  const body = row.writes.body && typeof row.writes.body === "object" ? row.writes.body : {};
+  // a field left for her: her words (text, why, note), or someone she must name (to): then it is asked for
+  const open = Object.entries(body).some(([k, v]) => !WORD_FIELDS.includes(k) && v === null && !filledHere(row.writes.type, k, dc, st));
+  const own = open || row.writes.type === "say" || (row.writes.type === "decide" && body.text === option);
+  return { option, i, key: open ? "act.say" : row.key, kind, role: typeof offers.role === "string" ? offers.role : null, row, offered: true, own, asked: open,
+    words: open || !!row.needs_words || Object.entries(body).some(([k, v]) => WORD_FIELDS.includes(k) && k !== "text" && v === null) };
+}
+
+/** The acts a dealt card's options offer this reader, drawn: the reader's only (an option the
+    engine says is the other side's is not drawn), each with its label (the act's words, or the
+    option's own when its line carries them) and its meaning. */
+export function optionsOf(ctx, dc) {
+  if (!dc || !Array.isArray(dc.options)) return [];
+  const out = [];
+  dc.options.forEach((label, i) => {
+    const o = optionAct(dc, i, ctx.state);
+    if (o.offered === false) return;
+    const w = o.key && !o.asked ? actWords(ctx, o.key, o.kind || dc.kind, o.role) : { label: null, meaning: null };
+    const shown = o.own || !w.label ? label : w.label;
+    out.push({ label: shown, option: label, i, key: o.key, meaning: meaningOf(ctx, o, shown, w.meaning),
+      words: !!o.words, suggested: !!(dc.recommendation && label === dc.recommendation),
+      reason: dc.recommendation && label === dc.recommendation ? dc.why : null });
+  });
+  return out;
+}
+
+/** One meaning per drawn act, never a generic shared by two: the act's own words from acts.json, and
+    where the line carries the option's words (a say, a decision in its words) or asks for hers, those
+    words named in it; a choice that writes nothing says so by its own name. */
+function meaningOf(ctx, o, option, actMeaning) {
+  const t = ctx.t;
+  const type = o.row && o.row.writes ? o.row.writes.type : (o.key || "").split(".")[1];
+  if (o.asked) return t("act.asked_means", { option });
+  if (!o.key) return t("act.none_option_means", { option });
+  if (o.words && o.key === "act.say.ask") return t("act.say.ask.yours_means", { option });
+  if (o.words && type === "say") return t("act.say.yours_means", { option });
+  if (o.words) return t("act.words_means", { option, means: actMeaning || "" }).trim();
+  if (o.own && type === "say") return t("act.say.words_means", { words: option });
+  if (o.own && type === "decide") return t("act.decide.words_means", { words: option });
+  return actMeaning || t("act.none_option_means", { option });
+}
+
+/** "What these mean": the fold beside a row of acts, since a phone has no hover. pairs: [[label, meaning]]. */
+export function actsFold(ctx, pairs, cls = "acts-fold") {
+  const xs = (pairs || []).filter((p) => p && p[0] && p[1]);
+  if (!xs.length) return null;
+  return h("details", { class: cls }, h("summary", { class: "cf-label" }, ctx.t("card.say_fold_title")),
+    h("ul", { class: "cf-list" }, xs.map(([a, m]) => h("li", null, ctx.t("card.say_fold_line", { act: a, means: m })))));
+}
 
 /** Days to spare, computed so the words never contradict each other: a finished card has none
     to show (null); a card past its by-when is late by that many days (negative), whatever its
@@ -81,18 +222,19 @@ export function cardModel(ctx, { card = null, deal = null, owed = null } = {}) {
   // the stake, computed: what it blocks and for whom (the engine's `unlocks`, the holon it serves)
   const unlocks = deal && typeof deal.unlocks === "string" && deal.unlocks.trim() ? deal.unlocks.trim() : null;
   const forWhom = holon && holon === homeId(st) ? t("app.you") : holonName;
-  const stake = unlocks ? t(wholeWaits ? "deal.stake_whole" : "deal.stake",
-    { what: unlocks.charAt(0).toUpperCase() + unlocks.slice(1), what_lower: unlocks.charAt(0).toLowerCase() + unlocks.slice(1), holon: forWhom || "" }) : null;
+  // the stake takes the engine's clause whole: a clause that is itself a sentence ("nothing waits on it
+  // yet") is said as one, never folded into "... waits on this"
+  const stake = !unlocks ? null : /^nothing\b/i.test(unlocks) ? t("deal.stake_none", { what: unlocks.charAt(0).toUpperCase() + unlocks.slice(1) })
+    : t(wholeWaits ? "deal.stake_whole" : "deal.stake",
+      { what: unlocks.charAt(0).toUpperCase() + unlocks.slice(1), what_lower: unlocks.charAt(0).toLowerCase() + unlocks.slice(1), holon: forWhom || "" });
   // the plain reason (the Deal's face, where the stake line already says the whole waits); the
   // other faces keep "the whole is waiting on this" as their reason
   const reasonPlain = t(reasonKey, reasonVars);
   if (wholeWaits) { reasonKey = "reason.system"; reasonVars = null; }
   const kind = (card && card.kind) || (deal && deal.kind && deal.kind !== "decide" ? deal.kind : null) || (deal && deal.section === "decision" ? "decision" : null) || (owed && owed.kind) || null;
 
-  const options = ((deal && deal.options) || []).map((label) => ({
-    label, suggested: !!(deal.recommendation && label === deal.recommendation),
-    reason: deal.recommendation && label === deal.recommendation ? deal.why : null,
-  }));
+  // the acts its options offer this reader, each with its words and meaning (optionsOf, from `offers`)
+  const options = deal ? optionsOf(ctx, deal) : [];
 
   const h0 = R.holon(st, holon);
   const asOfTs = h0 && h0.as_of && h0.as_of.ts;
@@ -129,15 +271,18 @@ export function cardModel(ctx, { card = null, deal = null, owed = null } = {}) {
 
 /**
  * renderCard(ctx, model, opts) -> <article class="card">
- *   form: "large" (The Deal) · "compact" (the Board, the Map, the Chain) · "row" (the Queue)
+ *   form: "large" (The Deal) · "compact" (the Board, the Map) · "row" (the Queue) · "station" (the
+ *         Chain's road) · "sticky" (the Wall): the last two the one face inside a place of another shape
  *   index, total: for "1 of 3"
  *   chosen: the option label chosen (shows the consequence)
- *   onChoose(label, i), onConfirm(label), onNotYet(), onOpen(): the view's handlers
+ *   onChoose(option, i, label), onConfirm(option, i, label), onNotYet(), onOpen(): the view's handlers;
+ *   option is the engine's own word (what actFor reads), label the word drawn, i its place
  *   selected: true when the shell's selected card is this one
  */
 export function renderCard(ctx, m, opts = {}) {
   const t = ctx.t, f = ctx.fmt, st = ctx.state;
   const form = opts.form || "compact";
+  if (form === "station" || form === "sticky") return slimFace(ctx, m, form, opts);
   const large = form === "large";
   const headId = `card-${form}-${m.id ? m.id.slice(0, 12) : Math.random().toString(16).slice(2)}`;
   const el = h("article", { class: `card card--${form}${opts.selected ? " is-selected" : ""}${m.wholeWaits ? " is-whole" : ""}${large && m.onPath ? " is-path" : ""}${large && m.daysPast ? " is-late" : ""}`,
@@ -178,7 +323,7 @@ export function renderCard(ctx, m, opts = {}) {
   const titleTag = form === "row" ? "h3" : "h2";
   const title = h(titleTag, { class: `card-title${m.ink && !large ? " ink-" + m.ink : ""}`, id: headId }, m.title);
   if (form === "row" && opts.onOpen) {
-    el.append(h("button", { class: "card-row-open", onclick: () => opts.onOpen(m) }, title));
+    el.append(h("button", { class: "card-row-open", "aria-haspopup": "dialog", title: t("card.open_full_means"), onclick: () => opts.onOpen(m) }, title));
   } else el.append(title);
 
   // the foot: on the Deal's face a plain line (why · by-when) with "Open the card" beneath it;
@@ -191,12 +336,12 @@ export function renderCard(ctx, m, opts = {}) {
   if (footBits.length && !(large && opts.inSheet)) {
     foot = large || !canOpen
       ? h("p", { class: `card-foot dust figures${large ? " card-why" : ""}` }, footBits.join(" · "))
-      : h("button", { class: "card-foot dust figures", "aria-haspopup": "dialog", title: t("card.open_full"),
+      : h("button", { class: "card-foot dust figures", "aria-haspopup": "dialog", title: t("card.open_full_means"),
         dataset: { openCard: m.id }, onclick: openFull }, footBits.join(" · "));
   }
   if (large && canOpen) {
     opener = h("p", { class: "card-open" }, h("button", { class: "link-btn card-open-btn", type: "button", "aria-haspopup": "dialog",
-      dataset: { openCard: m.id }, onclick: openFull }, t("card.open_full")));
+      title: t("card.open_full_means"), dataset: { openCard: m.id }, onclick: openFull }, t("card.open_full")));
   }
 
   if (large) {
@@ -213,31 +358,77 @@ export function renderCard(ctx, m, opts = {}) {
       // said once: the why line already says "a yes is yours to give" on the Deal's face
       if (m.needsYes && !(large && (m.stake && m.wholeWaits ? m.reasonPlain : m.reason) === t("reason.yes"))) el.append(h("p", { class: "card-yes dust" }, t("deal.yours_to_give")));
       const list = h("div", { class: "card-options", role: "group", "aria-label": m.title });
-      m.options.forEach((o, i) => {
-        const b = h("button", { class: `pill option${o.suggested ? " is-suggested" : ""}`, dataset: { key: String(i + 1) },
-          onclick: () => opts.oneTap ? (opts.onConfirm && opts.onConfirm(o.label, i)) : (opts.onChoose && opts.onChoose(o.label, i)) },
+      // an act whose line carries her own words asks for them first, then writes them (offers' needs_words)
+      let box = null;
+      const ask = (o) => {
+        if (box) box.remove();
+        const area = h("textarea", { class: "fixed-input card-words-input", rows: "2", "aria-label": t("card.words_label", { option: o.label }), placeholder: t("card.words_placeholder") });
+        const send = () => { const w = area.value.trim(); if (!w) { area.focus(); return; } box.remove(); box = null; opts.onConfirm && opts.onConfirm(o.option, o.i, o.label, w); };
+        box = h("div", { class: "card-words" }, h("p", { class: "dust" }, t("card.words_for", { option: o.label })), area,
+          h("div", { class: "card-options confirm" }, h("button", { class: "pill primary", title: o.meaning, onclick: send }, t("card.words_send")),
+            h("button", { class: "pill quiet", title: t("card.words_cancel_means"), onclick: () => { box.remove(); box = null; } }, t("card.words_cancel"))));
+        list.after ? list.after(box) : el.append(box);
+        if (area.focus) area.focus();
+      };
+      // each act says what it does: its meaning on hover, and on the face (the suggested one beneath it,
+      // the rest in the fold beside them), since a phone has no hover
+      m.options.forEach((o, n) => {
+        const b = h("button", { class: `pill option${o.suggested ? " is-suggested" : ""}`, dataset: { key: String(n + 1), act: o.key || "" }, title: o.meaning,
+          onclick: () => opts.oneTap ? (o.words ? ask(o) : opts.onConfirm && opts.onConfirm(o.option, o.i, o.label)) : (opts.onChoose && opts.onChoose(o.option, o.i, o.label)) },
           h("span", { class: "option-label" }, o.label),
           o.suggested ? h("span", { class: "option-suggested" }, t("deal.suggested")) : null);
         list.append(b);
-        if (o.suggested && o.reason) list.append(h("p", { class: "option-reason dust" }, o.reason));
+        if (o.suggested) list.append(h("p", { class: "option-reason dust" }, [o.reason, o.meaning].filter(Boolean).join(". ")));
       });
       el.append(list);
     } else {
-      el.append(h("p", { class: "card-chosen" }, h("span", { class: "pill option is-suggested is-chosen", "aria-hidden": "true" }, opts.chosen)));
-      el.append(h("p", { class: "card-consequence", role: "status" }, opts.consequence ||
+      const ch = m.options.find((o) => o.option === opts.chosen) || { option: opts.chosen, i: -1, label: opts.chosen, meaning: null };
+      el.append(h("p", { class: "card-chosen" }, h("span", { class: "pill option is-suggested is-chosen", "aria-hidden": "true", title: ch.meaning }, ch.label)));
+      el.append(h("p", { class: "card-consequence", role: "status" }, opts.consequence || ch.meaning ||
         (m.holon && m.holon === ctx.home ? t("deal.consequence_home") : t("deal.consequence", { holon: m.holonName || t("app.you") }))));
+      // her words first, where the chosen act carries them; then "Yes, I will" writes them
+      const area = ch.words ? h("textarea", { class: "fixed-input card-words-input", rows: "2", "aria-label": t("card.words_label", { option: ch.label }), placeholder: t("card.words_placeholder") }) : null;
+      if (area) el.append(h("p", { class: "dust" }, t("card.words_for", { option: ch.label })), area);
+      const yes = () => { const w = area ? area.value.trim() : null; if (area && !w) { area.focus(); return; } opts.onConfirm && opts.onConfirm(ch.option, ch.i, ch.label, w); };
       el.append(h("div", { class: "card-options confirm" },
-        h("button", { class: "pill primary", "data-confirm": "", onclick: () => opts.onConfirm && opts.onConfirm(opts.chosen) }, t("deal.confirm_yes")),
-        h("button", { class: "pill quiet", onclick: () => opts.onNotYet && opts.onNotYet() }, t("deal.confirm_not_yet"))));
+        h("button", { class: "pill primary", "data-confirm": "", title: t("deal.confirm_yes_means"), onclick: yes }, t("deal.confirm_yes")),
+        h("button", { class: "pill quiet", title: t("deal.confirm_not_yet_means"), onclick: () => opts.onNotYet && opts.onNotYet() }, t("deal.confirm_not_yet"))),
+        actsFold(ctx, [[t("deal.confirm_yes"), t("deal.confirm_yes_means")], [t("deal.confirm_not_yet"), t("deal.confirm_not_yet_means")]], "card-means"));
     }
   }
 
   // the third act on a long card: give it to a body (DESIGN-BODIES §4.2); the cost is said first there
   if (large && opts.onGive && opts.chosen == null) {
-    el.append(h("p", { class: "card-give" }, h("button", { class: "link-btn", onclick: () => opts.onGive(m) }, t("deal.give_body"))));
+    el.append(h("p", { class: "card-give" }, h("button", { class: "link-btn", title: t("deal.give_body_means"), onclick: () => opts.onGive(m) }, t("deal.give_body"))));
+  }
+  // "What these mean", beside the acts drawn on the face (a phone has no hover)
+  if (large && opts.chosen == null) {
+    // the fold holds only the acts not explained on the face already (the suggested one says its meaning beneath it)
+    const fold = actsFold(ctx, [...m.options.filter((o) => !o.suggested).map((o) => [o.label, o.meaning]), opts.onGive ? [t("deal.give_body"), t("deal.give_body_means")] : null], "card-means");
+    if (fold) el.append(fold);
   }
 
   if (!large && foot) el.append(foot);
+  return el;
+}
+
+/** The one face inside a place of another shape: a station on the Chain's road, a sticky on the
+    Wall. The place wraps it and never redraws it. The face is the card's title (on a station, the
+    button that opens the full card: opts.onOpen) and, on a sticky, its holder and days to spare in
+    the face's own words; a sticky's wrapper is the place's button, so nothing in it is a button. */
+function slimFace(ctx, m, form, opts) {
+  const t = ctx.t, f = ctx.fmt, st = ctx.state;
+  const el = h("article", { class: `card card--${form}${opts.selected ? " is-selected" : ""}`, dataset: { card: m.id || "" } });
+  const cls = ["card-title", opts.titleClass, m.ink ? "ink-" + m.ink : null].filter(Boolean).join(" ");
+  el.append(form === "station" && opts.onOpen
+    ? h("button", { class: cls, type: "button", "aria-haspopup": "dialog", title: t("card.open_full_means"), dataset: { openCard: m.id || "" },
+      onclick: () => opts.onOpen(m) }, m.title)
+    : h("span", { class: cls }, m.title));
+  if (form === "sticky") {
+    const bits = [m.holder ? (m.holder === st.actor ? t("card.holder_you") : t("card.holder", { holder: ctx.read.who(st, m.holder, m.holon) })) : null,
+      m.spare != null ? f.spare(m.spare) : null].filter(Boolean);
+    if (bits.length) el.append(h("span", { class: "card-foot dust figures" }, bits.join(" · ")));
+  }
   return el;
 }
 

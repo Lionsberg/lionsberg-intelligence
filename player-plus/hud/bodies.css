@@ -315,3 +315,6 @@
   .br--prime .br-name { font-size: var(--t-micro); }
 }
 html[data-type="large"] .br > .br-name { font-size: var(--t-body); }
+
+/* what each act on a handoff does (card.js actsFold) */
+.bodies-means { margin-top: var(--s-2); font-size: var(--t-small); }

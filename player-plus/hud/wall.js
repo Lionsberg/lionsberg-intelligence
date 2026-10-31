@@ -12,7 +12,9 @@
 // to the card; done; raise a constraint; claim. A Will is a commitment, a person's own act, so it
 // asks the person's confirmation before it is held.
 
-import { h } from "./card.js";
+import { h, cardModel, renderCard, actsFold } from "./card.js";
+import { cardActs } from "./deal.js";
+import { sayLine } from "./card-full.js";
 import { ensureCss } from "./views-b.js";
 
 const SVGNS = "http://www.w3.org/2000/svg";
@@ -44,7 +46,7 @@ function stateOf(c) {
 
 /** The wall's model, from the state alone: open cards with an early start, by week. */
 export function wallModel(st, filter = {}) {
-  const open = (st.cards || []).filter((c) => !["done", "released", "retracted", "declined"].includes(c.state)
+  const open = (st.cards || []).filter((c) => !["done", "retracted", "declined"].includes(c.state)   // a released card is free to take
     && c.ES != null && c.type !== "unit" && c.type !== "summary");   // a unit's dates are its cards': its cards stand for it
   const holders = [...new Set(open.map((c) => c.holder).filter(Boolean))].sort();
   const streams = [...new Set(open.map((c) => c.stream).filter(Boolean))].sort();
@@ -71,34 +73,38 @@ export default function createWall() {
     return s;
   }
 
-  function act(type, body, links, opts = {}) {
+  function act(type, body, links, holon, opts = {}) {
     if (!ctx.act) return;
-    ctx.act(type, body, links || {}, null, opts);
+    ctx.act(type, body, links || {}, holon || null, { confirmed: true, ...opts });
   }
+  /** The Deal's card for this one, when dealt: its `offers` decide Take it and Done (deal.js cardActs). */
+  const dealtOf = (id) => (((ctx.state && ctx.state.deal && ctx.state.deal.cards) || []).find((x) => x && x.id === id) || null);
 
   function detail(c, note) {
     const box = h("div", { class: "wall-detail", role: "dialog", "aria-label": c.title });
     const close = h("button", { class: "wall-x", "aria-label": t("wall.close"), onclick: (e) => { e.stopPropagation(); openId = null; box.remove(); } }, "×");
     const text = h("textarea", { class: "wall-say", rows: "2", placeholder: t("wall.comment"), oninput: (e) => { draft = e.target.value; } });
     text.value = draft;   // a refresh of the state never wipes what is being typed
-    const me = ctx.state && ctx.state.actor;
-    const mine = !!me && c.holder === me;
-    const free = !c.holder || c.state === "ready";
+    const st = ctx.state || {};
     const sort = h("select", { "aria-label": t("wall.constraint_sort") }, ...SORTS.map((s0) => h("option", { value: s0 }, t("wall.sort." + s0))));
     const row = (k, v) => (v == null || v === "" ? null : h("div", { class: "wall-row" }, h("span", { class: "dust" }, t(k)), h("span", {}, String(v))));
-    box.append(close,
-      h("p", { class: "wall-title" }, c.title),
-      row("wall.f.holder", who(c)), row("wall.f.stage", c.stage), row("wall.f.float", c.TF),
+    // each act says what it does: on hover, and in the fold beside them (a phone has no hover)
+    const means = [];
+    const pill = (key, meansKey, onclick, label) => { const w = label || t(key); means.push([w, t(meansKey)]); return h("button", { title: t(meansKey), onclick }, w); };
+    const say = () => { const line = sayLine(c, text.value); if (line) { act(line.type, line.body, line.links, c.holon, { label: t("card.say_done") }); text.value = draft = ""; } };
+    // the one face (card.js), compact, in place under the sticky: its why, title and foot in the card's own words
+    const face = renderCard(ctx, cardModel(ctx, { card: c, deal: dealtOf(c.id) }), { form: "compact", from: "wall" });
+    box.append(close, face,
       row("wall.f.before", (c.predecessors || []).length), row("wall.f.after", (c.successors || []).length),
       text,
       h("div", { class: "wall-acts" },
-        h("button", { onclick: () => { const s0 = text.value.trim(); if (s0) { act("say", { text: s0 }, { anchored_to: [c.id] }); text.value = draft = ""; } } }, t("wall.act.say")),
-        // done is the holder's own word; taking a card is for one nobody holds (review E, M7)
-        free && !mine ? h("button", { onclick: () => act("claim", { card: c.id }) }, t("wall.act.claim")) : null,
-        mine ? h("button", { onclick: () => act("done", { card: c.id }) }, t("wall.act.done")) : null,
+        pill("card.say", "card.say_means", say),
+        // Take it and Done under the one rule, the full card's (deal.js cardActs)
+        ...cardActs(st, c, dealtOf(c.id)).map((a) => pill(a.key, a.means, () => act(a.line.type, a.line.body, a.line.links, c.holon, { label: t("card.act_" + a.type, { title: c.title }) }))),
         h("span", { class: "wall-cons" }, sort,
-          h("button", { onclick: () => { const w = text.value.trim(); if (w) { act("constraint", { card: c.id, sort: sort.value, what: w }); text.value = draft = ""; } } }, t("wall.act.constraint"))),
-        h("button", { onclick: () => ctx.openCard && ctx.openCard(c.id) }, t("wall.act.full"))));
+          pill("wall.act.constraint", "wall.act.constraint_means", () => { const w = text.value.trim(); if (w) { act("constraint", { card: c.id, sort: sort.value, what: w }, {}, c.holon); text.value = draft = ""; } })),
+        pill("card.open_full", "card.open_full_means", () => ctx.openCard && ctx.openCard(c.id, { from: "wall" }))),
+      actsFold(ctx, means, "wall-means"));
     const col = note.parentElement;   // a note sits in its week's column (positioned); the box sits on the board
     box.style.left = Math.max(4, Math.min(col.offsetLeft + note.offsetLeft, board.scrollWidth - 340)) + "px";
     box.style.top = (col.offsetTop + note.offsetTop + note.offsetHeight + 4) + "px";
@@ -156,8 +162,9 @@ export default function createWall() {
       const col = h("div", { class: "wall-col" }, h("h3", { class: "eyebrow" },
         n0 == null ? t("wall.week.none") : n0 <= 0 ? t("wall.week.this") : t("wall.week.n", { n: n0 })));
       for (const c of cs) {
+        // the sticky wraps the one face (card.js, form sticky): its title, holder and days to spare in the card's words
         const n = h("button", { class: `wall-note is-${stateOf(c)}`, dataset: { id: c.id }, title: c.title },
-          h("span", { class: "wall-note-title" }, c.title), h("span", { class: "dust" }, who(c) + " · " + (c.TF == null ? "" : (ctx.fmt && ctx.fmt.spare ? ctx.fmt.spare(c.TF) : t("wall.float", { d: Math.round(c.TF) })))));
+          renderCard(ctx, cardModel(ctx, { card: c }), { form: "sticky", selected: ctx.selected === c.id }));
         n.addEventListener("click", () => {
           const was = openId === c.id;
           if (!was) draft = "";

@@ -20,8 +20,8 @@
 // Plain words only: no schema word reaches the screen (fixtures/test_strings.py). Data is set
 // as text, never as markup. Gold is nowhere inside the sheet (card-full.css).
 
-import { h, cardModel, renderCard, spareDays, DONE_STATES } from "./card.js";
-import { actFor } from "./deal.js";
+import { h, cardModel, renderCard, spareDays, DONE_STATES, isOver } from "./card.js";
+import { actFor, writeLine, cardActs } from "./deal.js";
 import { store, subscribe, markAnswered, unmarkAnswered, agent as AGENT } from "./state.js";
 import { renderAsk } from "./dock-card.js";
 import { receiverPush } from "./mail.js";
@@ -250,8 +250,6 @@ export function sayLine(card, text, intent = null) {
   return { type: "say", body, links: { anchored_to: [id] } };
 }
 
-/** A card that is finished or taken back: it allows no act. */
-const isOver = (card) => !!(card && (DONE_STATES.has(card.state) || card.stage === "did" || card.state === "retracted"));
 
 // ------------------------------------------------------------------ building blocks
 
@@ -331,7 +329,7 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
     } }));
   } else {
     face.append(renderCard(ctx, m, { form: "large", inSheet: true, oneTap: true, selected: false,
-      onConfirm: (lbl, i) => answer(lbl, i) }));
+      onConfirm: (option, i, lbl, words) => answer(lbl, i, words) }));
   }
   // the acts the card's state allows (take it · done · say it on the card · ask), each the person's
   // own tap; a card that is finished or taken back allows none
@@ -339,14 +337,15 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
   const actEls = [];   // the box, the row and the fold: taken down when a new state says the card is over
   if (c && !isOver(c) && (acts.claim || acts.done || acts.say || acts.ask)) {
     const row = [], means = [];
-    const can = (s0) => s0.includes(c.state);
     // each act says what it does: on hover (title), and in the fold beside them, since a phone has no hover
     const pill = (cls, key, meansKey, onclick) => {
       means.push([key, meansKey]);
       return h("button", { class: cls, type: "button", title: t(meansKey), onclick }, t(key));
     };
-    if (acts.claim && c.holder !== me && can(["ready", "open"])) row.push(pill("pill", "card.claim", "card.claim_means", () => acts.claim(c)));
-    if (acts.done && c.holder === me && can(["ready", "open", "taken"])) row.push(pill("pill", "card.done", "card.done_means", () => acts.done(c)));
+    // Take it and Done under the one rule (deal.js cardActs: the Deal's offers, else the registry's states)
+    // (an act the face above already offers as one of the card's options is not drawn twice)
+    const onFace = new Set(answered ? [] : m.options.map((o) => o.key));
+    for (const a of cardActs(st, c, x.dc)) if (acts[a.type] && !onFace.has(a.key)) row.push(pill("pill", a.key, a.means, () => acts[a.type](c, a.line)));
     // one text box for a note and a question; the button pressed decides which the line is
     const box = acts.say ? h("textarea", { class: "fixed-input", rows: "3", placeholder: t("card.say_placeholder"), "aria-label": t("card.say_label") }) : null;
     let holding = null;   // the pending act of the last tap: the words stay in the box until it is written
@@ -377,11 +376,11 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
   root.append(face);
 
   // the answer from inside the sheet: the same act the Deal writes, held for Undo by the toast
-  function answer(lbl, i) {
+  function answer(lbl, i, words = null) {
     const dc = x.dc;
     if (!dc) return;
-    const a = actFor(dc, lbl);
-    ctx.act(a.type, a.body, a.links, dc.holon, { confirmed: true, label: t("deal.settled_sr", { option: lbl }),
+    const a = actFor(dc, i, words, st);   // the one act map, the same line the Deal writes
+    writeLine(ctx, a, dc.holon, { confirmed: true, label: t("deal.settled_sr", { option: lbl }),
       onUndo: () => unmarkAnswered(dc.id) });
     markAnswered(dc.id);
     if (acts.answered) acts.answered();
@@ -560,7 +559,7 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
   // 7 · on paper
   {
     const sec = section(ctx, "card.full.sec.paper", "cf-paper");
-    sec.append(h("p", { class: "cf-value" }, h("button", { class: "cf-link", type: "button", onclick: printCard }, t("card.full.print")),
+    sec.append(h("p", { class: "cf-value" }, h("button", { class: "cf-link", type: "button", title: t("card.full.print_means"), onclick: printCard }, t("card.full.print")),
       h("span", { class: "cf-dust" }, " " + t("card.full.paper_note"))));
     root.append(sec);
   }
@@ -573,7 +572,7 @@ export function renderFullCard(ctx, id, { hint = {}, acts = {}, story = null } =
       m && m.alsoIn && m.alsoIn.length ? h("span", { class: "cf-dust" }, " · " + t("card.also_in", { holon: m.alsoIn.join(", ") })) : null);
     const said = h("span", { class: "cf-dust cf-copied", role: "status" });
     const idText = h("code", { class: "cf-id figures" }, id);
-    const copy = h("button", { class: "cf-link cf-copy", type: "button", onclick: async () => {
+    const copy = h("button", { class: "cf-link cf-copy", type: "button", title: t("card.full.copy_means"), onclick: async () => {
       try { await navigator.clipboard.writeText(id); said.textContent = " " + t("card.full.copied"); }
       catch { said.textContent = " " + t("card.full.copy_failed"); const r = document.createRange(); r.selectNodeContents(idText); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
     } }, t("card.full.copy"));

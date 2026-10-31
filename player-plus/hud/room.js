@@ -18,6 +18,7 @@
 // ctx.act from a person's own tap.
 
 import { h } from "./card.js";
+import { actFor, writeLine } from "./deal.js";
 import createTalk from "./talk.js";
 import createTable, { yourMove } from "./table.js";
 import { createPage } from "./play.js";
@@ -382,34 +383,6 @@ export default function createRoom() {
     C.openSheet({ title: t("room.your_deal"), body });
   }
 
-  function dealCard(C, dc, n, total) {
-    const host = h("div", { class: "room-deal-card" });
-    let chosen = null;
-    const draw = () => {
-      host.textContent = "";
-      const m = C.card.cardModel(C, { deal: dc });
-      host.append(C.card.renderCard(C, m, { form: "large", index: n, total, chosen,
-        onChoose: (label) => { chosen = label; draw(); },
-        onNotYet: () => { chosen = null; draw(); },
-        onConfirm: (label) => { answerAct(C, dc, label); host.replaceChildren(h("p", { class: "dust" }, C.t("deal.answered_label_home", { option: label }))); } }));
-    };
-    draw();
-    return host;
-  }
-
-  // An answer's event, as The Deal reads it: a commitment's first option is the
-  // person's commitment; a decision's first option her decision; otherwise her words, anchored.
-  function answerAct(C, dc, label) {
-    const i = (dc.options || []).indexOf(label);
-    const card = C.read.card(C.state, dc.id);
-    const opts = { confirmed: true, label: C.t("deal.answered_label", { holon: C.read.holonName(C.state, dc.holon), option: label }) };
-    if ((dc.kind === "commitment" || dc.kind === "request") && i === 0 && card) {
-      return C.act("commit", { card: dc.id, by: card.by, size: card.minutes }, {}, dc.holon, opts);
-    }
-    if (dc.section === "decision" && i === 0) return C.act("decide", { text: label }, { answers: [dc.id] }, dc.holon, opts);
-    return C.act("say", { text: label }, { anchored_to: [dc.id] }, dc.holon, opts);
-  }
-
   // ------------------------------------------------------------------ the door (§2.2)
 
   function renderDoor(C) {
@@ -756,8 +729,8 @@ export default function createRoom() {
         h("p", { class: "card-foot" },
           holder ? h("span", { class: "chip holder-chip" }, t("room.shape.held_by", { who: shapeWho(C, holder) })) : h("span", { class: "dust" }, t("room.shape.unheld")),
           w && w.by ? h("span", { class: "dust" }, " · " + f.by(w.by)) : null),
-        w && !holder ? h("div", { class: "card-options" }, h("button", { class: "pill", onclick: () => {
-          C.act("claim", { card: w.card }, {}, rid, { confirmed: true, label: t("room.shape.held_label") });
+        w && !holder ? h("div", { class: "card-options" }, h("button", { class: "pill", title: t("act.claim_means"), onclick: () => {
+          writeLine(C, actFor({ id: w.card, kind: "card" }, "act.claim", null, C.state), rid, { confirmed: true, label: t("room.shape.held_label") });   // the one act map
           setLocal({ held: [...(loc.held || []), w.card] }); build();
         } }, t("room.shape.hold_it"))) : null)));
     });
@@ -900,4 +873,30 @@ function makeShared() {
     dropDraft(id) { s.drafts = s.drafts.filter((d) => d.id !== id); s.emit(); },
   };
   return s;
+}
+
+// ------------------------------------------------------------------ the Room's deal sheet, a card at a time
+
+/** One card of the Room's "Your deal" sheet: the one face, large, with the Room's two-step gesture
+    (choose, then "Yes, I will"); what the answer writes is the one act map's (answerAct). */
+export function dealCard(C, dc, n, total) {
+  const host = h("div", { class: "room-deal-card" });
+  let chosen = null;
+  const draw = () => {
+    host.textContent = "";
+    const m = C.card.cardModel(C, { deal: dc });
+    host.append(C.card.renderCard(C, m, { form: "large", index: n, total, chosen,
+      onChoose: (label) => { chosen = label; draw(); },
+      onNotYet: () => { chosen = null; draw(); },
+      onConfirm: (option, i, label, words) => { answerAct(C, dc, i, label, words); host.replaceChildren(h("p", { class: "dust" }, C.t("deal.answered_label_home", { option: label }))); } }));
+  };
+  draw();
+  return host;
+}
+
+// An answer's line: the very line the Deal writes for that choice (deal.js actFor, the one act
+// map); the Room keeps its two-step gesture, choose and then "Yes, I will", and no map of its own.
+export function answerAct(C, dc, i, label, words = null) {
+  const opts = { confirmed: true, label: C.t("deal.answered_label", { holon: C.read.holonName(C.state, dc.holon), option: label }) };
+  return writeLine(C, actFor(dc, i, words, C.state), dc.holon, opts);
 }

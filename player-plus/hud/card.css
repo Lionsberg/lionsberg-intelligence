@@ -73,3 +73,17 @@ p.card-foot { cursor: default; display: flex; align-items: center; }
 .card--large.owed .option.is-suggested { border-width: calc(var(--hairline) * 1.5); }
 .card--large .option-reason { margin: calc(-1 * var(--s-1)) 0 0 var(--s-5); }
 .card--large.is-selected { border: 0; }
+
+/* the one face inside a place of another shape (card.js slimFace): the place keeps its own frame */
+.card--station, .card--sticky { background: none; border: 0; padding: 0; margin: 0; box-shadow: none; border-radius: 0; }
+.card--station .card-title, .card--sticky .card-title { margin-top: 0; font-size: inherit; }
+.card--sticky { display: flex; flex-direction: column; gap: 4px; }
+.card--sticky .card-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card-means { margin-top: var(--s-2); }
+
+/* "What these mean": the fold beside a row of acts (card.js actsFold) */
+.acts-fold { margin-top: var(--s-2); }
+
+/* her words, asked for before an act that carries them is written (card.js) */
+.card-words { margin-top: var(--s-3); }
+.card-words-input { width: 100%; margin: var(--s-2) 0; }

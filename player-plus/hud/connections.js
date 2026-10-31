@@ -294,7 +294,11 @@ export default function createConnections() {
         t("conn.cw", { color: t("conn.color_name.amber"), meaning: t("conn.key.amber") }))));
   /** What each act here does (the acts law): the reader's own acts only, both of them reading acts. */
   const theActs = () => h("details", { class: "conn-acts" }, h("summary", null, t("conn.acts.title")),
-    h("ul", null, h("li", null, t("conn.act.more")), h("li", null, t("conn.act.color"))));
+    h("ul", null, h("li", null, t("conn.act.more")), h("li", null, t("conn.act.color")),
+      ctx.openCard ? h("li", null, t("conn.act.open")) : null));
+  /** The agreement a row names opens as its card, here (one tap, one card). */
+  const opener = (id) => (str(id) && ctx.openCard
+    ? h("button", { class: "link-btn conn-open", title: t("conn.act.open_means"), onclick: () => ctx.openCard(str(id), { from: VIEW }) }, t("card.open_full")) : null);
 
   // ---------------------------------------------------------------- the board, on a pull
 
@@ -357,7 +361,7 @@ export default function createConnections() {
           line("dust", "conn.with.crossed", { window: cadence(w.window_s), n: num(w.lines_crossed) })),
         h("td", null, h("p", null, word("conn.ag.", str(ag.state) || AG_NONE)),
           agCad ? line("dust", "conn.ag.cadence", { cadence: agCad }) : null,
-          line("dust", "conn.ag.until", { date: dateWords(ag.until) })),
+          line("dust", "conn.ag.until", { date: dateWords(ag.until) }), opener(ag.id)),
         h("td", { class: "conn-since" }, (str(row.since) && say("conn.since", { when: ago(ageOf(row.since, clock)) })) || t("conn.since_none")));
     });
     return h("section", { class: "conn-board", "aria-label": t("conn.board.title") },
