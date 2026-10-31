@@ -61,6 +61,8 @@ import sightings as sightings_mod  # noqa: E402
 import bodies as bodies_mod  # noqa: E402
 import attention as attention_mod  # noqa: E402
 import push as push_mod  # noqa: E402
+import agreement as agreement_mod  # noqa: E402
+import subscriptions as subscriptions_mod  # noqa: E402
 
 try:
     import record
@@ -84,7 +86,7 @@ DEFAULT_MINUTES = 20.0
 MAX_PAPER = 500
 PAPER_DEPTH = 4
 # The sections of state.json computed from the fold that carry `as_of` at their top (`plan` carries it per holon).
-STAMPED = ('owed', 'kept', 'deal', 'attention', 'score', 'tea', 'questions')
+STAMPED = ('owed', 'kept', 'deal', 'attention', 'score', 'tea', 'questions', 'map', 'agreements', 'subscriptions')
 # The sections keyed by holon id: each holon's entry carries `as_of`, so every key stays a holon id.
 STAMPED_PER_HOLON = ('plan', 'sightings')
 
@@ -612,6 +614,58 @@ def _stamp(section, as_of):
     return dict(section, as_of=stamp)
 
 
+def _members(folded, holon_id):
+    """The actors the fold admits in one holon (their entries in `admitted`)."""
+    adm = folded.get('admitted') if isinstance(folded, dict) and isinstance(folded.get('admitted'), dict) else {}
+    m = adm.get(holon_id) if holon_id else None
+    return {a for a, e in m.items() if isinstance(a, str) and isinstance(e, dict)} if isinstance(m, dict) else set()
+
+
+def _receipt_args(folded, home_id):
+    """(receipts, people) for the state's owed call: `people` is the home's own people (owed.py), and receipts
+    are asked for only when there are some, since an empty `people` would let every sender through."""
+    people = _members(folded, home_id)
+    return bool(people), people
+
+
+def _views(folded, lines, actor, holons, per_holon, t):
+    """(map, agreements, subscriptions, notes) for the state.
+
+    map: sightings.the_map over every holon held, each row with its `paper` line and whether it is still
+    `open`, the nine kinds in order (`kinds`) and sightings.scoreboard. agreements: every Agreement held,
+    with its clauses (agreement.agreements). subscriptions: the actor's rows (subscriptions.subscriptions,
+    the home their own) and what is `due`, against the newest line seen per holon as `last_seen`. A part
+    that cannot run is honest-empty in its own shape and said in a note, never hidden."""
+    notes = []
+    home_id = holons[0].get('id') if holons and isinstance(holons[0], dict) else None
+    try:
+        the_map = sightings_mod.the_map(folded, lines=lines)
+        for kinds in the_map['by_place'].values():
+            for rows in kinds.values():
+                for r in rows:
+                    r['paper'] = sightings_mod.paper(r)
+                    r['open'] = r.get('life') not in sightings_mod.ENDED
+        the_map['scoreboard'] = sightings_mod.scoreboard(folded, lines=lines)
+        the_map['no_place'], the_map['no_kind'] = sightings_mod.NO_PLACE, sightings_mod.NO_KIND
+    except Exception as e:                          # a part that cannot run is said, never hidden
+        the_map = {'by_place': {}, 'by_kind': {}, 'open': 0, 'pains_open': 0, 'retracted': 0, 'as_of': None,
+                   'scoreboard': {}, 'no_place': sightings_mod.NO_PLACE, 'no_kind': sightings_mod.NO_KIND}
+        notes.append(f'sightings.py could not draw the map: {type(e).__name__}: {e}')
+    the_map['kinds'] = list(sightings_mod.NINE)
+    try:
+        ag = {'rows': agreement_mod.agreements(folded, now=t)}
+    except Exception as e:
+        ag = {'rows': []}
+        notes.append(f'agreement.py could not read the Agreements: {type(e).__name__}: {e}')
+    try:
+        rows = subscriptions_mod.subscriptions(lines, actor, items=folded, now=t, home=home_id)
+        subs = {'rows': rows, 'due': subscriptions_mod.due(rows, dict(per_holon or {}), t)}
+    except Exception as e:
+        subs = {'rows': [], 'due': []}
+        notes.append(f'subscriptions.py could not read what is heard: {type(e).__name__}: {e}')
+    return the_map, ag, subs, notes
+
+
 def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7, fewer=False, closeout=False,
                 live=None, sitting_open=False):
     """The whole state.json as a dict (STATE.md)."""
@@ -669,7 +723,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
                   'holder': field(d, 'holder') or field(d, 'to'), 'state': field(d, 'state'),
                   'ratifier': field(d, 'ratifier') or names.get(holon_of(d), {}).get('keeper')}
                  for d in norm.get('decision', [])]
-    triaged = sightings_mod.triage(norm, lines=lines)
+    triaged = sightings_mod.triage(folded, lines=lines)     # the fold whole, so its trust lists reach the gate
     ladders = {h['id']: ladder_mod.load_ladder(h.get('dir')) for h in holons if h.get('id')}
     qs = ladder_mod.questions(lines, holons, t, ladders)
 
@@ -693,9 +747,13 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
                               'cost_if_late': w['cost_if_late'], 'own': w['own'],
                               'calibration': cal_by.get(sender)}
     bd['cost']['limits'] = bodies_mod.limits(cal, (bd['cost'].get('ceiling') or {}).get('seven_day_pct'))
+    home_id = holons[0]['id'] if holons else None
     the_deal = deal_mod.deal(norm, rep, actor, mins, room or [], t, holons, questions=qs, sightings=triaged,
-                             bodies=bd, fewer=fewer, closeout=closeout)
-    ow = owed_mod.owed(norm, actor=actor, now=t, holons=holons, questions=qs, bodies=bd['bodies'])
+                             bodies=bd, fewer=fewer, closeout=closeout, lines=lines, fold=folded, home=home_id)
+    asks, people = _receipt_args(folded, home_id)
+    ow = owed_mod.owed(norm, actor=actor, now=t, holons=holons, questions=qs, bodies=bd['bodies'],
+                       receipts=asks, home=home_id, people=people)
+    the_map, ags, subs, view_notes = _views(folded, lines, actor, holons, stamp.get('per_holon'), t)
     kp = kept_mod.kept(norm, window_days=window_days, now=t)
     led = ledger_mod.ledger(norm, holons=holons, chain=_chain(problems))
     score = {h['id']: turn_mod.score(norm, rep, h['id']) for h in holons}
@@ -720,6 +778,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
         'actors': _actors(norm, lines, t, bd['bodies']),
         'cards': cards, 'commitments': commitments, 'threads': threads, 'decisions': decisions,
         'sightings': sightings_mod.by_holon(triaged, holons),
+        'map': the_map, 'agreements': ags, 'subscriptions': subs,
         'questions': qs,
         'bodies': bd['bodies'], 'desk': bd['desk'], 'cost': bd['cost'], 'bodies_closeout': bd.get('closeout'),
         'attention': attention_mod.state(lines, actor, weigh_cards(the_deal['cards'], norm, rep, lines, t, cal_by,
@@ -747,7 +806,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
         'problems': problems + (folded.get('problems') or []),
         'plan': plan_state,
         'paper': paper,
-        'notes': [n for n in (sched_note, plan_note) if n],
+        'notes': [n for n in (sched_note, plan_note) if n] + view_notes,
     }
     for k in STAMPED:
         state[k] = _stamp(state.get(k), stamp)
@@ -816,8 +875,9 @@ def main(argv=None):
         rep, _ = run_schedule(folded, cal, t, holons, lines)
         qs = ladder_mod.questions(lines, holons, t, {h['id']: ladder_mod.load_ladder(h.get('dir')) for h in holons})
         r = deal_mod.deal(norm, rep, actor, DEFAULT_MINUTES if a.minutes is None else a.minutes, _room(a.room), t, holons,
-                          questions=qs, sightings=sightings_mod.triage(norm, lines=lines),
-                          bodies=bodies_mod.fold(lines, t), fewer=_dial(a.fewer), closeout=a.closeout)
+                          questions=qs, sightings=sightings_mod.triage(folded, lines=lines),
+                          bodies=bodies_mod.fold(lines, t), fewer=_dial(a.fewer), closeout=a.closeout,
+                          lines=lines, fold=folded, home=holons[0]['id'] if holons else None)
         out = json.dumps(r, indent=1, ensure_ascii=False) if a.json else \
             deal_mod.render_paper(r) if a.paper else deal_mod.render(r)
     elif a.cmd == 'owed':

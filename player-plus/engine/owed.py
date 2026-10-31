@@ -17,15 +17,18 @@ Across every holon the items come from, it lists what waits on whom:
               the ball in its keeper's court (from ladder.questions)
   receipt     (with receipts=True) a trusted line by this holon's own people that crossed (its
               audience is members or wider, or it lives in a cell) and asks something of another
-              holon's person, with no Receipt after RECEIPT_HOURS: owed by the addressee, one minute
+              holon's person, with no Receipt after RECEIPT_HOURS: the sender's concern, so its
+              holder is the sender (the person the line was written for, else its actor), and the
+              row names its `addressee`: waiting on a Receipt from them, one minute
 
 Each entry: kind · id · holon · title · holder · status (past | near | waiting) · due · age_days ·
 minutes (an estimate of what answering takes). Lines an agent wrote for a reason that came from
 untrusted text are never owed: they come back under "proposals" for a person to take up or let go.
 A pushed thread or request past its push's `expires` folds as retracted and is not owed.
 
-Receipts are off unless asked for (receipts=True): a Receipt is written by the addressee's agent,
-and the Deal frames no receipt card yet. The receipt row reads the item the line made (a request or
+Receipts are on when the caller asks (receipts=True); the engine's state asks, with the home's own
+people. A Receipt is written by the addressee's agent; the row waits on it, and the Deal frames it
+for the sender as "no Receipt yet from <addressee>". The receipt row reads the item the line made (a request or
 offer card, a commitment, a message's thread, a wallet entry); a receipt on that item by anyone but
 the sender's side counts, and silence never does.
 
@@ -159,11 +162,12 @@ def owed(items, actor=None, holon=None, now=None, horizon_days=2, holons=None, q
     """What is owed, per actor or holon (or everyone, when neither is given). `questions` are
     ladder.questions(): an open one past its by-when is owed by the holon it climbed to. With
     `receipts`, a line that crossed and has had no Receipt for `receipt_hours` (a non-finite or
-    negative value reads as RECEIPT_HOURS) is owed by its addressee. `home` is the home's holon id:
+    negative value reads as RECEIPT_HOURS) waits on its addressee: the row is the sender's (`holder`), naming
+    the `addressee`. `home` is the home's holon id:
     a line in any other holon lives in a cell and so has crossed; without it, a holon crosses when
     `holons` names its kind as other than person, or the line's audience is members or wider.
     `people` is this holon's own people (a set of actor ids): only lines they sent are counted, and
-    an addressee among them owes nothing; without it, every sender counts and only the sender
+    nothing is waited on from an addressee among them; without it, every sender counts and only the sender
     itself is excluded."""
     norm = normalize(items)
     t = now_or(now)
@@ -279,7 +283,9 @@ def owed(items, actor=None, holon=None, now=None, horizon_days=2, holons=None, q
 
     if receipts:
         for it, addressee in _receipts(norm, items, t, names, people, home, receipt_hours):
-            add('receipt', it, addressee, 'waiting', None)
+            f = field(it, 'for')                      # the sender's concern: whose line it is
+            add('receipt', it, f if isinstance(f, str) and f.startswith('person:') else field(it, 'actor'), 'waiting', None)
+            entries[-1]['addressee'] = addressee
 
     if actor:
         entries = [e for e in entries if e['holder'] == actor]

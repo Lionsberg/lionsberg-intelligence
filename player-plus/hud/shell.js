@@ -83,7 +83,7 @@ const BUILTIN = {
 };
 const PLUGINS = { map: "./map.js", chain: "./chain.js", board: "./board.js", wall: "./wall.js", room: "./play.js",
   ledger: "./ledger.js", turn: "./turn.js", record: "./record.js",
-  threads: "./threads.js", bodies: "./bodies.js" };
+  threads: "./threads.js", bodies: "./bodies.js", sightings: "./sightings.js" };
 
 // The three default layouts (DESIGN §3). A `layout` event may reorder or hide; it can never
 // remove "whole" (the privacy line and the way to the whole) nor the Back control.
@@ -95,7 +95,7 @@ const DEFAULT_LAYOUTS = {
 };
 const LOCKED = new Set(["whole"]);
 const ROUTE_VIEWS = { talk: "talk", queue: "queue", map: "map", board: "chain", chain: "chain", wall: "wall", room: "room",
-  ledger: "ledger", turn: "turn", record: "record", threads: "threads", bodies: "bodies" };
+  ledger: "ledger", turn: "turn", record: "record", threads: "threads", bodies: "bodies", sightings: "sightings" };
 
 // The ICE's tabs (DESIGN.md): a few main views, each a sort of one record.
 // The frame: the places stay at the bottom, Bodies among the main ones (never buried in a menu): six
@@ -106,7 +106,7 @@ const ROUTE_VIEWS = { talk: "talk", queue: "queue", map: "map", board: "chain", 
 // the order of use, set once.
 const TABS = [["talk", "#/talk"], ["bodies", "#/bodies"]];
 const MORE_PLACES = [["deal", "#/deal"], ["threads", "#/threads"], ["map", "#/map"], ["chain", "#/chain"], ["wall", "#/wall"], ["room", "#/room"],
-  ["ledger", "#/ledger"], ["record", "#/record"]];
+  ["ledger", "#/ledger"], ["record", "#/record"], ["sightings", "#/sightings"]];
 // The way back to the vendor's own app, behind More, when ours breaks (DESIGN-TALK §7). A home may
 // name another in its layout event (`desktop_app`); the address is never shown on screen.
 const DESKTOP_APP = "claude://";

@@ -1,0 +1,47 @@
+/* sightings.css: the living map (sightings.js). Mobile first: one column, the map's table scrolls inside
+   its own box and never the page. Inks and sizes from tokens.css only. */
+.smap { display: flex; flex-direction: column; gap: var(--s-5); max-width: var(--content-max); }
+.smap-line { margin: 0; max-width: var(--measure); }
+.smap-panel { display: flex; flex-direction: column; gap: var(--s-2); min-width: 0; }
+.smap-panel > .eyebrow { margin: 0; }
+
+/* the map: places as rows, kinds as columns */
+.smap-scroll { overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch; }
+.smap-table { border-collapse: collapse; font-size: var(--t-small); min-width: 100%; }
+.smap-table th, .smap-table td { border-bottom: var(--hairline) solid var(--line); padding: var(--s-1) var(--s-2); text-align: center; }
+.smap-table thead th { font-weight: var(--w-regular); color: var(--dust); font-size: var(--t-micro); white-space: nowrap; }
+.smap-table .smap-place { text-align: left; position: sticky; left: 0; background: var(--ground); min-width: 7rem; max-width: 12rem;
+  overflow-wrap: break-word; word-break: normal; hyphens: auto; font-weight: var(--w-regular); }
+.smap-cell.is-empty { color: var(--dust); }
+.smap-count { min-width: var(--touch); min-height: var(--touch); border: var(--hairline) solid var(--line); border-radius: var(--r-chip);
+  background: none; color: inherit; font: inherit; cursor: pointer; display: inline-flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 0; }
+.smap-count small { font-size: var(--t-micro); color: var(--dust); }
+.smap-cell.is-pain .smap-count { border-color: var(--ember); border-width: 2px; }
+.smap-cell.is-open .smap-count { border-color: var(--line-strong); background: var(--pill-fill); }
+.smap-count:focus-visible { outline: var(--focus-ring) solid var(--accent); outline-offset: var(--focus-offset); }
+
+.smap-list { border-left: 2px solid var(--line-strong); padding-left: var(--s-3); }
+.smap-list-head { margin: 0 0 var(--s-1); font-size: var(--t-small); }
+.smap-list ul, .smap-rows, .smap-clauses { list-style: none; margin: 0; padding: 0; }
+.smap-sighting { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-2); padding: var(--s-1) 0; border-bottom: var(--hairline) solid var(--line); }
+.smap-sighting.is-ended { color: var(--dust); }
+.smap-life, .smap-state { font-size: var(--t-micro); letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--dust); }
+.smap-wait { font-size: var(--t-micro); color: var(--ember); }
+.smap-paper { flex: 1 1 16rem; overflow-wrap: anywhere; }
+
+/* agreements and what I hear: one row each */
+.smap-row { padding: var(--s-2) 0; border-bottom: var(--hairline) solid var(--line); }
+.smap-row p { margin: 0; overflow-wrap: anywhere; }
+.smap-row-head { display: flex; justify-content: space-between; gap: var(--s-2); flex-wrap: wrap; }
+.smap-row.is-live .smap-row-head .smap-state { color: var(--text); }
+.smap-row.is-overdue .smap-row-head .smap-state { color: var(--ember); }
+.smap-row.is-due .smap-row-head .smap-state { color: var(--text); }
+.smap-clauses li { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-2); padding-left: var(--s-3); font-size: var(--t-small); }
+.smap-note { font-style: italic; }
+
+@media (min-width: 1024px) {
+  .smap { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); align-items: start; }
+  .smap > .smap-line, .smap > p.dust { grid-column: 1 / -1; }
+  .smap > .smap-panel:nth-of-type(1) { grid-row: span 2; }
+}

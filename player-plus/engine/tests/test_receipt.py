@@ -354,8 +354,8 @@ class TestOwedReceipt(unittest.TestCase):
         got = self.rows(self.items(), 25)
         self.assertEqual(len(got), 1)
         e = got[0]
-        self.assertEqual((e['id'], e['holder'], e['status'], e['due'], e['minutes'], e['holon']),
-                         ('q1', 'person:p', 'waiting', None, 1, 'cell'))
+        self.assertEqual((e['id'], e['holder'], e['addressee'], e['status'], e['due'], e['minutes'], e['holon']),
+                         ('q1', 'person:k', 'person:p', 'waiting', None, 1, 'cell'))   # the sender waits on the addressee's Receipt
         self.assertEqual(owed_mod.RECEIPT_HOURS, 24)
         self.assertEqual(owed_mod.MINUTES['receipt'], 1)
 
@@ -395,7 +395,7 @@ class TestOwedReceipt(unittest.TestCase):
         self.assertEqual(self.rows(home, 30), [])
         wide = self.items(holon='home', actor='person:p', **{'for': 'person:p'}, to='person:x', holder='person:x',
                           audience='members')
-        self.assertEqual([e['holder'] for e in self.rows(wide, 30)], ['person:x'])
+        self.assertEqual([e['addressee'] for e in self.rows(wide, 30)], ['person:x'])
         self.assertEqual(len(self.rows(self.items(), 30, home='home')), 1)
         self.assertEqual(self.rows(self.items(), 30, people={'person:p'}), [])   # not sent by this holon's people
 
