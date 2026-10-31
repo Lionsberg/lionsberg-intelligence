@@ -68,6 +68,9 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 | `agree` | An Agreement between two holons, a person's own act answered by the other holon's person: what crosses, cadences, permits, the face, until when; its clauses, and the forge plan applied by hand. |
 | `the-heartbeat` | The always-on hand (`engine/heartbeat.py`): pulls, receipts and reads the signals, wakes the agent only when owed, and the person only by their own Cards, emergency rule and budget, never with a sound; installed by their own hand. |
 | `negotiate` | Carries an ask from its sending to its resolution: every ask with its why and effort, the moves in plain words (a counter is not an answer), the four shapes for a circle, "waiting on" and "owed by you" (`engine/negotiation.py`), mandates for availability alone, whose words each line carries, and a stop from any person wins. |
+| `connections` | Whom the person is connected to and whether they are good with each other (`engine/connections.py`): each holon's Condition, its own word and never computed; the pulse, computed both ways; our ear; their own Condition drafted in their words; a change of color met by one drafted question. |
+| `the-simplest-game` | The six lines the Engine needs, each made by one sentence, by voice or on paper; the level of a Card, computed from what it carries and never a gate; the one field that lifts it, offered only when it would change the next play (`engine/level.py`). |
+| `say-it-on-the-card` | A note on a card is a `say` in its Thread, which the say opens; a question is the same say with `intent: ask`; the Thread read back with whose words; what each act a card offers means, only the reader's (`engine/acts.py`, `engine/acts.json`). |
 
 ## Making and naming
 
