@@ -34,6 +34,28 @@
             "onFailure": "continue"
           }
         ]
+      },
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/awaken.sh\" || true",
+            "timeout": 5,
+            "onFailure": "continue"
+          }
+        ]
+      },
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/awaken.sh\" || true",
+            "timeout": 5,
+            "onFailure": "continue"
+          }
+        ]
       }
     ],
     "UserPromptSubmit": [
