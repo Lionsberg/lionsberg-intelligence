@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """holon.py — make a holon, admit people and agents, join a cell, publish to it, pull from it.
 
+`publish` chooses a person's own lines and copies them whole; `publish_face` writes copies already
+chosen (a face of the outbox, possibly with fields elided, as faces.py composes one per Agreement).
+
 A holon is a folder (usually a git repository) laid out as SCHEMA.md says: holon.json,
-record/, published/, plan/, types.json, calendar.json, and a .gitignore that keeps the
+record/, published/, permitted/ (the permitted inbox, where a holon with a write permit drops
+lines; permitted.py), plan/, types.json, calendar.json, and a .gitignore that keeps the
 derived state.json out. A person's home (their HQ) is a holon; each cell they join is a
 clone under `cells/<name>/` inside it.
 
@@ -235,6 +239,18 @@ def join(dir, cell_url, name, actor=None, for_=None, ts=None, salt=None, key_dir
     return {'ok': True, 'said': 'joined; the cell is at cells/%s' % safe, 'path': dest}
 
 
+def _crossing_why(l, who):
+    """Why a line copy may not cross from a person's home into a cell, or '' when it may."""
+    if l.get('for') != who:
+        return 'a person publishes only their own lines'
+    if l.get('type') not in PUBLISHABLE:
+        return 'a %r line is inner work and stays home' % l.get('type')
+    b = l.get('body') or {}
+    if l.get('type') == 'card' and b.get('kind') in (None, 'activity'):
+        return 'an activity card stays home; publish its milestone'
+    return ''
+
+
 def publish(dir, cell_name, line_ids, actor=None, audience='members', ts=None, salt=None, sign=None,
             key_dir=None):
     """Publish chosen lines from the HQ into a joined cell. A person's act only.
@@ -246,6 +262,7 @@ def publish(dir, cell_name, line_ids, actor=None, audience='members', ts=None, s
     and signals: a card of kind activity stays home. An agent never writes into a cell's
     tree. The publish line carries the authors' public keys as admitted at home
     (`body.keys`), so a reader holding only the cell can check each copy. Nothing is pushed.
+    The copying and the publish line are publish_face's; this chooses the lines.
     Returns {"published": [ids], "held_back": [{id, why}], "publish_line": id or None}."""
     cell = os.path.join(dir or '', 'cells', record._str(cell_name))
     if not os.path.isdir(cell):
@@ -256,26 +273,60 @@ def publish(dir, cell_name, line_ids, actor=None, audience='members', ts=None, s
     if not who.startswith('person:'):
         raise ValueError('publish is a person\'s act: give the actor as person:<handle>')
     held = {l['id']: l for l in record.read(dir)['lines']}
-    already = {l['id'] for l in record.read(cell)['lines']}
-    out = {'published': [], 'held_back': [], 'publish_line': None}
+    held_back = []
     chosen = []
     for i in record._as_list(line_ids):
         l = held.get(i)
         if l is None:
-            out['held_back'].append({'id': i, 'why': 'not held in this HQ'})
+            held_back.append({'id': i, 'why': 'not held in this HQ'})
             continue
-        if l.get('for') != who:
-            out['held_back'].append({'id': i, 'why': 'a person publishes only their own lines'})
+        why = _crossing_why(l, who)
+        if why:
+            held_back.append({'id': i, 'why': why})
             continue
-        if l.get('type') not in PUBLISHABLE:
-            out['held_back'].append({'id': i, 'why': 'a %r line is inner work and stays home' % l.get('type')})
+        chosen.append(l)
+    out = publish_face(dir, cell_name, chosen, who, audience, ts=ts, salt=salt, sign=sign, key_dir=key_dir)
+    out['held_back'] = held_back + out['held_back']
+    return out
+
+
+def publish_face(dir, cell_name, lines, actor, audience='members', elided=None, ts=None, salt=None, sign=None,
+                 key_dir=None, serves=None):
+    """Write already-chosen line copies (whole, or with fields elided) into a joined cell. A person's act only.
+
+    Each copy must keep its id (`record.check_id`, so an elided copy still proves its content),
+    answer for the person, be of a kind that crosses a membrane, and not be an activity card;
+    any other is held back with why. Copies not yet held in the cell are appended to
+    `cells/<cell>/published/<actor>.jsonl` without following a link, and one `publish` line by
+    the person, naming every copy and carrying their authors' public keys as admitted at home
+    (`body.keys`), is appended to the cell's `record/`. `elided` ({line id: [fields]}) says which
+    fields a face hides, and goes on the publish line as `body.elided` when any are; `serves`
+    names what the publishing serves (an Agreement) in `links.serves`. Nothing is pushed.
+    Returns {"published": [ids], "held_back": [{id, why}], "publish_line": id or None}."""
+    cell = os.path.join(dir or '', 'cells', record._str(cell_name))
+    if not os.path.isdir(cell):
+        raise ValueError('no joined cell at cells/%s' % cell_name)
+    if audience not in record.AUDIENCES:
+        raise ValueError('audience is one of %s' % ', '.join(record.AUDIENCES))
+    who = record._str(actor)
+    if not who.startswith('person:'):
+        raise ValueError('publish is a person\'s act: give the actor as person:<handle>')
+    out = {'published': [], 'held_back': [], 'publish_line': None}
+    chosen = []
+    for l in record._as_list(lines):
+        if not isinstance(l, dict):
+            out['held_back'].append({'id': None, 'why': 'not a line'})
             continue
-        b = l.get('body') or {}
-        if l.get('type') == 'card' and b.get('kind') in (None, 'activity'):
-            out['held_back'].append({'id': i, 'why': 'an activity card stays home; publish its milestone'})
+        if not record.check_id(l):
+            out['held_back'].append({'id': l.get('id'), 'why': 'its id does not verify against its content'})
+            continue
+        why = _crossing_why(l, who)
+        if why:
+            out['held_back'].append({'id': l['id'], 'why': why})
             continue
         chosen.append(l)
     if chosen:
+        already = {l['id'] for l in record.read(cell)['lines']}
         # every folder from the home down and the file itself are opened without following a link
         with record.open_append_nofollow(dir, 'cells/%s/published' % record._str(cell_name),
                                          record.actor_file(who)) as f:
@@ -285,9 +336,14 @@ def publish(dir, cell_name, line_ids, actor=None, audience='members', ts=None, s
                 out['published'].append(l['id'])
         home_keys = record.holon_keys(dir, home=True)
         keys = {a: home_keys[a] for a in sorted({l.get('actor') for l in chosen}) if a in home_keys}
-        res = record.append(cell, who, who, 'publish',
-                            {'lines': out['published'], 'audience': audience, 'to': record._str(cell_name),
-                             'keys': keys},
+        body = {'lines': out['published'], 'audience': audience, 'to': record._str(cell_name), 'keys': keys}
+        hidden = {i: sorted({record._str(x) for x in record._as_list(fs) if record._str(x)})
+                  for i, fs in (elided.items() if isinstance(elided, dict) else ()) if i in out['published']}
+        hidden = {i: fs for i, fs in sorted(hidden.items()) if fs}
+        if hidden:
+            body['elided'] = hidden
+        links = {'serves': [record._str(s) for s in record._as_list(serves) if record._str(s)]} if serves else None
+        res = record.append(cell, who, who, 'publish', body, links,
                             ts=ts, salt=salt, sign=sign, key_dir=key_dir)
         out['publish_line'] = res['line']['id']
     return out
@@ -297,9 +353,9 @@ def _run(exe, d, args, env=None):
     return subprocess.run([exe, '-C', d] + args, capture_output=True, text=True, timeout=600, env=env)
 
 
-ALLOWED_APPEND = re.compile(r'^(record|published)/[^/]+\.jsonl$')
+ALLOWED_APPEND = re.compile(r'^(record|published|permitted)/[^/]+\.jsonl$')
 ALLOWED_AT_CLONE = re.compile(r'^(holon\.json|types\.json|calendar\.json|\.gitignore|'
-                              r'(record|published)/[^/]+\.jsonl|plan/[^/]+\.json)$')
+                              r'(record|published|permitted)/[^/]+\.jsonl|plan/[^/]+\.json)$')
 
 
 def _state_path(hq):
@@ -369,13 +425,15 @@ def _tree_problems(exe, d, hq):
 
 
 def _incoming_problems(exe, d, old, new, home_files):
-    """Refuse anything in old..new but plain appends to record/*.jsonl and published/*.jsonl by others.
+    """Refuse anything in old..new but plain appends to record/, published/ and permitted/ *.jsonl by others.
 
     Paths are compared case-folded (a case-insensitive disk, as on macOS, would let `Person%3A…`
     replace `person%3A…`): two paths in the new tree that fold to one name are refused, and a
     path whose folded name is the home's own file is refused. A published file is appended
     to only by its own actor: every new line in published/<actor>.jsonl must answer for that
-    actor, and the home's own published files take nothing from others."""
+    actor, and the home's own published files take nothing from others. A permitted file
+    (the permitted inbox) is held the same way: every new line in permitted/<actor>.jsonl must
+    be written by the actor the file is named for, and the home's own file takes nothing."""
     out = []
     folded = {}
     for row in [x for x in _run(exe, d, ['ls-tree', '-r', '-z', '--name-only', new]).stdout.split('\0') if x]:
@@ -396,7 +454,7 @@ def _incoming_problems(exe, d, old, new, home_files):
             continue
         omode, nmode, osha, nsha, status = f[0], f[1], f[2], f[3], f[4]
         if not ALLOWED_APPEND.match(path):
-            out.append('a change outside record/ and published/: %s' % path)
+            out.append('a change outside record/, published/ and permitted/: %s' % path)
             continue
         if nmode != '100644' or status not in ('A', 'M'):
             out.append('not a plain file appended to (%s, mode %s): %s' % (status, nmode, path))
@@ -407,8 +465,9 @@ def _incoming_problems(exe, d, old, new, home_files):
         if status == 'A' and path.casefold() in old_paths and old_paths[path.casefold()] != path:
             out.append('a new path differs only by case from %s: %s' % (old_paths[path.casefold()], path))
             continue
-        if path.startswith('published/'):
+        if path.startswith(('published/', 'permitted/')):
             owner = unquote(os.path.basename(path)[:-len('.jsonl')])
+            who = 'actor' if path.startswith('permitted/') else 'for'   # a permitted file is named for its writer
             a = _run(exe, d, ['cat-file', '-p', osha]).stdout if status == 'M' else ''
             b = _run(exe, d, ['cat-file', '-p', nsha]).stdout
             added = b[len(a):] if b.startswith(a) else b
@@ -417,7 +476,7 @@ def _incoming_problems(exe, d, old, new, home_files):
                     ln = json.loads(raw)
                 except ValueError:
                     ln = {}
-                if not isinstance(ln, dict) or ln.get('for') != owner:
+                if not isinstance(ln, dict) or ln.get(who) != owner:
                     out.append('a line in %s that does not answer for its own actor' % path)
                     break
         if status == 'M':
@@ -432,8 +491,8 @@ def _sync_one(exe, d, hq=None):
     """Bring one clone up to its upstream, through the gate.
 
     Fetch; refuse an upstream that is not a descendant of the last head this home saw (a
-    rewritten history); refuse anything incoming but plain appends to record/*.jsonl and
-    published/*.jsonl by others (a link, a changed or deleted line, a change to the home's
+    rewritten history); refuse anything incoming but plain appends to record/*.jsonl,
+    published/*.jsonl and permitted/*.jsonl by others (a link, a changed or deleted line, a change to the home's
     own files, any other path); then fast-forward, or replay the home's own commits on top.
     Only commits that touch the home's own actor files are replayed; a commit of anyone else
     sitting in the clone stops the replay. A conflict is aborted and said plainly; nothing

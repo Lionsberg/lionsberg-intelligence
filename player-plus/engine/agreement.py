@@ -190,13 +190,38 @@ def _cadence(v, notes):
     return dict(sorted(out.items()))
 
 
+def _fields(v, notes):
+    """permits.fields normalized: {type: [field names kept visible]}; a malformed entry is None, said.
+
+    None for the whole map when it is not a map: what a face may show is then not known, and a
+    reader (faces.py) opens nothing rather than guess."""
+    if not isinstance(v, dict):
+        notes.append('The permits name fields, but not as a map of types; what a face may show is not known.')
+        return None
+    out = {}
+    for t, fs in v.items():
+        key = _s(t)
+        if not key:
+            notes.append('A fields entry names no type; it is left out.')
+            continue
+        if isinstance(fs, (list, tuple)) and all(isinstance(x, str) for x in fs):
+            out[key] = _strs(list(fs))
+        else:
+            out[key] = None
+            notes.append('The fields for %s are not a list of names; what its face may show is not known.' % key)
+    return dict(sorted(out.items()))
+
+
 def _permits(v, notes):
     if v is None:
         return {'write': False, 'bell': []}
     if not isinstance(v, dict):
         notes.append('The permits are not a map; none is read.')
         return {'write': False, 'bell': []}
-    return {'write': v.get('write') is True, 'bell': _strs(v.get('bell'))}
+    out = {'write': v.get('write') is True, 'bell': _strs(v.get('bell'))}
+    if 'fields' in v:                                   # carried only when the Agreement names fields
+        out['fields'] = _fields(v.get('fields'), notes)
+    return out
 
 
 def _clause(c, now):

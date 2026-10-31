@@ -379,6 +379,34 @@ Pull is the default for attention: a holon hears another holon at the cadence it
 
 **The field.** GitHub's REST Events API says its events are optimized for polling with the ETag header, that a 304 does not count against the rate limit, that `X-Poll-Interval` must be obeyed, and that an event may appear 30 seconds to 6 hours late (https://docs.github.com/en/rest/activity/events). Forgejo's API documents `/users/{username}/activities/feeds` with `page` and `limit`, and an Activity whose `op_type` includes `commit_repo`, under a `token` Authorization header (https://forgejo.org/docs/latest/user/api-usage/ ; https://codeberg.org/swagger.v1.json). Notifications were the wrong feed: the swagger's notification `subject-type` values are only issue, pull and repository, and Forgejo raises notifications for issues, pull requests and transfers, never for a push. RFC 9171, the Bundle Protocol, describes store-and-forward over intermittent connectivity, where sender and receiver need not be present at once; that is the pull's tolerance of delay (https://www.rfc-editor.org/rfc/rfc9171.html). The one difference from GitHub's model: the kit polls the repositories a holon follows, not the users it relates to, so a holon's attention cost does not grow with its relationships.
 
+## The outbox's faces
+
+A holon's record is one, and each relationship reads the face of it that their Agreement opens. The outbox is composed as envelopes per relationship: what the relationship may see is readable, the rest is elided, and the whole stays verifiable. This is the Gordian Envelope's shape: an elided element is only the digest of what it replaces, so the digest tree stays valid (draft-mcnally-envelope-12, 10 August 2026, https://datatracker.ietf.org/doc/html/draft-mcnally-envelope). The kit does it line by line, through **Elision** above.
+
+**What a face is.** For one live Agreement, a face holds the lines of this holon's own record that meet five conditions:
+- the home's own fold lets the line act: it is signed or at the home's paper floor, and it is not invalid, unverified, forked or refused;
+- its `for` is the person on this holon's side;
+- the Agreement's `crosses` names its type;
+- its audience is at least `members`;
+- it is neither an activity card nor a line from untrusted text.
+
+When `crosses` names nothing, the face takes what `holon.PUBLISHABLE` carries, said as `default`. It never takes a type the kit keeps inside a membrane. An audience widened by an earlier publish counts only when that publish was into this face's cell: the person's own trusted `publish` line held there, whose `to` is the cell. Each line left out is held back with why (`faces.face_of`, pure; with no trust map, every line is held back).
+
+**Field elision by the Agreement.** An Agreement may carry `permits.fields` = `{type: [fields kept visible]}`. `agreement.py` carries it normalized in the terms, so `terms_for`, `may_cross` and the faces read one set. For a type it names, every other body field is elided with `record.elide`, and the copy's id still verifies. A type the map does not name goes whole. Three cases are held back:
+- a line with no salt, which cannot hide its fields;
+- a line whose type's entry is malformed;
+- every line, when the fields are not a map at all.
+
+`actor`, `for` and `prev` are never elided in a face: a face is not names-hidden, which is export's posture.
+
+**How it is written.** Writing a face is a person's act: the Agreement's proposer, or the person who agreed it, admitted in this home (`faces.write_face`). An agent may dry-run it and propose it, and never writes it. The face goes to the cell `face` names. A `face` that names no joined cell is refused in words and written nowhere else. With no `face`, it goes to the joined cell that is `with`; else to the one that is the other side; else to the holon the Agreement is written in, but only when that holon is a side. The copies go to `cells/<cell>/published/<actor>.jsonl` through `holon.publish_face`, which `holon.publish` also calls. Then one `publish` line names the copies and carries their authors' keys (`body.keys`). It also carries the fields it hides (`body.elided`) and the Agreement it serves (`links.serves`). A line is published again only if the person's trusted publish lines in that cell do not already name it. So a copy written without its publish line is vouched on the next write, and is never copied twice. `faces.faces(home)` gives, per live Agreement, what is due and what is published, as of the fold.
+
+**The membrane, for now.** Until the Gordian Clubs' permits settle, the membrane is the forge's own access. `faces.permissions_plan(row, forge)` names the call that would open this cell's repository to the other holon.
+- **Forgejo:** `PUT /api/v1/repos/{owner}/{repo}/collaborators/{collaborator}`, with `permission` read, or write when `permits.write` (https://forgejo.org/docs/latest/user/api-usage/).
+- **GitHub:** `PUT /repos/{owner}/{repo}/collaborators/{username}`, with `permission` pull or push (https://docs.github.com/en/rest/collaborators/collaborators). On GitHub the PUT makes an invitation the other person accepts (201 Created). `permission` is valid only on a repository an organization owns. Deleting the collaborator does not end an invitation still pending; that takes deleting the invitation itself.
+
+An Agreement that is no longer live plans `DELETE` on the same path. The forge username is the `collaborator` the plan is given. Otherwise the handle of `person:<handle>` is used, which is that person's forge username only when they chose it so; an unnamed owner, repository or collaborator stays a placeholder, said. The plan only plans: the person applies it, and nothing in the kit calls a forge.
+
 ## The paper floor
 
 One event is one line on a sheet: time · who · for whom · type · what · links · audience. The two passes, what is owed and commitments kept are worked on the same sheet. A witnessed paper sheet beats the typed copy. On paper, a line is signed by hand; in files, an unsigned line counts only in the reader's own home.

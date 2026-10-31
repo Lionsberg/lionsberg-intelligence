@@ -406,5 +406,25 @@ class TestOverTheFold(unittest.TestCase):
         self.assertEqual(r['receipts'], [])
 
 
+
+class TestFields(unittest.TestCase):
+    """permits.fields travels in the terms, normalized, so terms_for, may_cross and faces read one set."""
+
+    def test_fields_normalized_in_the_terms(self):
+        f = fold(ag('1' * 64, permits={'write': True, 'bell': ['hazard'],
+                                       'fields': {'sight': ['where', 'kind', 'kind'], 'commit': 'by', '': ['x']}}))
+        t = agreement.terms_for(f, HOME, CELL, NOW)
+        self.assertEqual(t['permits']['fields'], {'commit': None, 'sight': ['kind', 'where']})
+        notes = ' '.join(agreement.agreements(f, now=NOW)[0]['notes'])
+        self.assertIn('fields for commit are not a list of names', notes)
+        self.assertIn('names no type', notes)
+
+    def test_fields_not_a_map_and_absent(self):
+        row = agreement.agreements(fold(ag('1' * 64, permits={'fields': 'kind'})), now=NOW)[0]
+        self.assertIsNone(row['permits']['fields'])
+        self.assertIn('not as a map of types', ' '.join(row['notes']))
+        row = agreement.agreements(fold(ag('1' * 64)), now=NOW)[0]
+        self.assertNotIn('fields', row['permits'])                     # carried only when named
+
 if __name__ == '__main__':
     unittest.main()
