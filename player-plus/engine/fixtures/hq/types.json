@@ -1895,6 +1895,12 @@
           "name": "desk",
           "required": false,
           "kind": "bool"
+        },
+        {
+          "name": "seconds",
+          "required": false,
+          "kind": "int",
+          "about": "on a done line: how long the body ran, in whole seconds (a heartbeat wake stamps both lines at the beat, so the duration is said here)"
         }
       ],
       "item": "none",
