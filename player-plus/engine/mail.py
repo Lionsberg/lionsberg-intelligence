@@ -319,7 +319,7 @@ def attest_one(holon_dir, line, exporter, key_dir=None, ts=None):
         return None
     att['signer'] = 'holon:%s' % r['holon']
     att['key_id'] = record.key_id(record.pubkey_of(hk))
-    att['sig'] = record.sign_text(record._attest_digest(att), hk)
+    att['sig'] = record.sign_text(record.attest_digest(att), hk)
     return att if att['sig'] else None
 
 

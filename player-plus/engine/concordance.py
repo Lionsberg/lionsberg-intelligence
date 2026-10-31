@@ -127,6 +127,14 @@ def concordances(items, holon=None, lines=None):
             why = next((w for w in (_dispute(row, a) for a in found) if w), None)
             if why:
                 row.update(state='disputed', dispute=why)
+        elif state == 'proposed':
+            # the fold refuses an answer that does not restate the proposal as written; such an answer is a dispute
+            refused = [r for r in (c.get('refused') or []) if isinstance(r, dict) and 'restate' in str(r.get('why') or '')]
+            found = _answers(c, lines)
+            row['answer_checked'] = bool(found) or bool(refused)
+            why = next((w for w in (_dispute(row, a) for a in found) if w), None)
+            if refused or why:
+                row.update(state='disputed', dispute=why or 'the answer does not restate the proposal as written')
         out.append(row)
     return sorted(out, key=lambda r: (r['holon'], _instant(r['ts']), r['id']))
 

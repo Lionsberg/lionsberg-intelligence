@@ -324,7 +324,7 @@ class TestAgainstTheFold(unittest.TestCase):
         g = b.mk(tk.PLAYER, b.C, 'wallet', {'kind': 'gift', 'amount': 500, 'unit': 'USD-cents', 'to': tk.STEWARD})
         a = b.mk(tk.STEWARD, b.C, 'wallet', {'kind': 'accept', 'amount': 500, 'unit': 'USD-cents'}, {'answers': [g['id']]})
         f = b.fold([g, a])
-        self.assertEqual(next(i for i in f['wallet'] if i['id'] == g['id'])['state'], 'accepted')   # the fold's reading
+        self.assertEqual(next(i for i in f['wallet'] if i['id'] == g['id'])['state'], 'given')   # a gift is given from birth; an accept does not move it
         r = wallet.balances(f, holon=b.C)
         self.assertEqual(r['by_actor'][tk.STEWARD]['USD-cents']['in'], 500)
         self.assertEqual(r['by_actor'][tk.PLAYER]['USD-cents']['out'], 500)

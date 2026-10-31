@@ -330,7 +330,7 @@ def attest_with_voice(holon_dir, posture='names-hidden', types=None, ts=None, ct
     att = {k: x for k, x in ex['attestation'].items() if k not in ('sig', 'signer', 'key_id')}
     att['signer'] = 'holon:%s' % hid
     att['key_id'] = record.key_id(hp)
-    said = ceremony(record._attest_digest(att), dict(ctx or {}, pubkey=hp))
+    said = ceremony(record.attest_digest(att), dict(ctx or {}, pubkey=hp))
     if not said['ok']:
         return {'ok': False, 'export': ex, 'said': said['said'] + '; the export is as the keeper made it'}
     att['sig'] = compact(said['sig'])

@@ -186,8 +186,12 @@ class TestConcordance(Base):
                                               'in_other': 'last-planner', 'relation': 'same'})
         f = self.fold([d, c])
         self.assertEqual(self.item(f, 'concordances', c['id'])['state'], 'proposed')
-        y = self.mk(STEWARD, self.C, 'concord', {'term': 'promise', 'in': 'last-planner', 'term_other': 'commitment',
+        # an answer agrees only when it restates the proposal as written; a mirrored or different answer does not
+        m = self.mk(STEWARD, self.C, 'concord', {'term': 'promise', 'in': 'last-planner', 'term_other': 'commitment',
                                                  'in_other': 'lionsberg', 'relation': 'same'}, {'answers': [c['id']]})
+        self.assertEqual(self.item(self.fold([d, c, m]), 'concordances', c['id'])['state'], 'proposed')
+        y = self.mk(STEWARD, self.C, 'concord', {'term': 'commitment', 'in': 'lionsberg', 'term_other': 'promise',
+                                                 'in_other': 'last-planner', 'relation': 'same'}, {'answers': [c['id']]})
         it = self.item(self.fold([d, c, y]), 'concordances', c['id'])
         self.assertEqual((it['state'], it['agreed_by']), ('agreed', STEWARD))
 

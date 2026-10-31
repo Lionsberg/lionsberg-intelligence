@@ -253,8 +253,8 @@ class TestAgainstTheFold(unittest.TestCase):
                                              'relation': 'same'})
         r = cc.read_as(b.fold([c]), 'commitment', LB, LP)
         self.assertEqual(r['basis'], 'proposed')
-        y = b.mk(tk.STEWARD, b.C, 'concord', {'term': 'promise', 'in': LP, 'term_other': 'commitment', 'in_other': LB,
-                                              'relation': 'same'}, {'answers': [c['id']]})
+        y = b.mk(tk.STEWARD, b.C, 'concord', {'term': 'commitment', 'in': LB, 'term_other': 'promise', 'in_other': LP,
+                                              'relation': 'same'}, {'answers': [c['id']]})   # restated as written
         f = b.fold([c, y])
         self.assertEqual(cc.read_as(f, 'commitment', LB, LP)['basis'], 'agreed')
         back = cc.read_as(f, 'promise', LP, LB)
@@ -269,7 +269,7 @@ class TestAgainstTheFold(unittest.TestCase):
         y = b.mk(tk.STEWARD, b.C, 'concord', {'term': 'pledge', 'in': 'B', 'term_other': 'commitment', 'in_other': 'A',
                                               'relation': 'different'}, {'answers': [k['id']]})
         f = b.fold([k, y])
-        self.assertEqual(next(i for i in f['concordances'] if i['id'] == k['id'])['state'], 'agreed')   # the fold's reading
+        self.assertEqual(next(i for i in f['concordances'] if i['id'] == k['id'])['state'], 'proposed')   # the fold refuses an answer that does not restate
         r = cc.read_as(f, 'commitment', 'A', 'B', lines=b.r['lines'] + [k, y])
         self.assertEqual((r['basis'], [x['id'] for x in r['disputed']]), ('disputed', [k['id']]))
 

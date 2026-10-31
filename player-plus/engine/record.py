@@ -1115,8 +1115,11 @@ def _names_in(v, handles=()):
 KEY_FIELDS = ('pubkey', 'holon_pubkey', 'keys')   # a public key names its holder as surely as a handle
 
 
-def _attest_digest(att):
+def attest_digest(att):
     return _sha(_cjson({k: v for k, v in att.items() if k != 'sig'}))
+
+
+_attest_digest = attest_digest     # the older private name, kept for readers that used it
 
 
 def holon_keys(holon_dir, home=False):
@@ -1223,7 +1226,7 @@ def verify_attestation(att, lines, pubkey=None, holon_dir=None):
     if _str(att.get('key_id')) != key_id(pk):
         out.update(sig='invalid', said='the attestation names a key other than the one given')
         return out
-    good = verify_text(_attest_digest(att), sig, 'attestation', pk)
+    good = verify_text(attest_digest(att), sig, 'attestation', pk)
     out['sig'] = 'valid' if good else 'invalid'
     return out
 
@@ -1343,7 +1346,7 @@ def export(holon_dir, posture='names-hidden', types=None, exporter=None, key=Non
         att['signer'] = ('holon:%s' % r['holon']) if hk else (
             exporter if posture == 'open' else ('the keeper' if exporter == keeper else 'a member'))
         att['key_id'] = key_id(pubkey_of(k))
-        att['sig'] = sign_text(_attest_digest(att), k)
+        att['sig'] = sign_text(attest_digest(att), k)
         if not hk:
             said.append('the holon has no key of its own here; the attestation is signed with the exporter\'s key')
     else:
@@ -1789,6 +1792,9 @@ def _apply(item, spec_list, line, body, keepers, kind_filter=True):
             continue
         if not _matches(t.get('when'), line, body):
             continue
+        if t.get('when_item') and any(_value(p, line, body) != item.get(f) for p, f in t['when_item'].items()):
+            why = 'the line does not restate what it answers'
+            continue
         frm = t.get('from')
         if frm and item.get('state') not in frm:
             why = 'cannot move from %r' % item.get('state')
@@ -1937,6 +1943,7 @@ def _trust_pass(order, inceptions, keepers, ctx):
             eff = ctx.eff.get(lid)
             is_claim = l.get('type') == 'body' and body.get('state') == 'claimed'
             if cs['ended']:
+                entry['ended'] = True
                 trust[lid], why[lid] = 'unverified', 'the clone\'s body is done or archived; its admission has ended'
                 continue
             if cs['claim'] is None and not is_claim:
@@ -1945,6 +1952,7 @@ def _trust_pass(order, inceptions, keepers, ctx):
             start = cs['claim'] if cs['claim'] is not None else eff
             limit = start + dt.timedelta(hours=CLONE_HOURS) if start else None
             if limit and ((eff and eff > limit) or (getattr(ctx, 'clock', None) and ctx.clock > limit)):
+                entry['ended'] = True
                 trust[lid], why[lid] = 'unverified', ('the clone\'s claim is stale: more than a day and a half old by '
                                                       'its own time or by the reader\'s clock')
                 continue
@@ -1973,6 +1981,7 @@ def _trust_pass(order, inceptions, keepers, ctx):
                 cs['claim'] = ctx.eff.get(lid)
             if body.get('state') in ('done', 'archived'):
                 cs['ended'] = True
+                entry['ended'] = True     # readers of `admitted` (a bell permit, a membership) skip an ended clone
         if trust[lid] in TRUSTED and l.get('reason') != 'untrusted':
             if l.get('type') == 'delegate' and a.startswith('person:') and a == l.get('for'):
                 standing[lid] = l
@@ -2472,6 +2481,9 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
         if target is None and (creates == 'always' or (creates == 'if_no_target' and kind != 'none')):
             item = _new_item(kind, l, body, holon)
             item['state'] = (idefs.get(kind) or {}).get('initial')
+            ib = (idefs.get(kind) or {}).get('initial_by')
+            if isinstance(ib, dict) and isinstance(ib.get('map'), dict):
+                item['state'] = ib['map'].get(body.get(ib.get('field')), item['state'])
             for k, v in (spec.get('create_set') or {}).items():
                 val = _value(v, l, body)
                 if k == 'state':
@@ -2581,7 +2593,8 @@ def fold(lines, types=None, keepers=None, now=None, clock=None):
     out['vouched'] = dict(ctx.vouched)
     out['admitted'] = {h: {a: {'pubkey': e.get('pubkey'), 'key_id': key_id(e.get('pubkey')), 'by': e.get('by'),
                                'via': e.get('via'), 'person': e.get('person'), 'xid': e.get('xid'),
-                               'xid_now': xid_for_key(e.get('pubkey'))} for a, e in m.items()}
+                               'xid_now': xid_for_key(e.get('pubkey')), 'ended': bool(e.get('ended'))}
+                           for a, e in m.items()}
                        for h, m in admitted.items()}
     out['as_of'] = as_of
     out['clock'] = clock_dt.isoformat(timespec='seconds')   # the reader's clock this fold was made by

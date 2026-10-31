@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "about": "The type registry of the Record, schema v1. Data, not code: a new type is a new entry here. Readers keep every line whose type they do not know (it folds into 'unknown'). Each type names its body fields (name, required, kind), the item it folds into, whether it creates that item, where it finds the item it changes (target: paths into the line, tried in order), which item kinds it may act on, and the state transitions it causes. In a transition: 'when' matches body values; 'from' lists the states it may leave (absent means any); 'who' is 'same_for' (the item's own Living Intelligence), 'other' (anyone but the item's own), 'named' (the witness the item names, else anyone but its own) or 'keeper' (the holon's keeper; 'other' when keepers are unknown); 'set' gives new values, where '$actor', '$for' and '$ts' are the line's own and 'body.x' is a body field; 'append_to' adds a short entry for this line to a list on the item. 'human_only' types are a Living Intelligence's own act: an agent's line of that type is valid only at the person's word, either under a live delegate with once: true for that one type and holon (used up by the line) or with the person's consent on the line (body.consent, their words; links.answers to their say line when there is one); the fold marks it signed_for. Without either it is kept and marked invalid. 'also' is a second effect of the same line on another item. A supersede counts only from the same actor, or from a person under a decide line in the same holon; an agent never supersedes another's line; an empty supersede retracts (every item kind has the state 'retracted'). 'home_only' types are written only into the person's own home (a holon whose inception kind is person), never into a cell.",
+  "about": "The type registry of the Record, schema v1. Data, not code: a new type is a new entry here. Readers keep every line whose type they do not know (it folds into 'unknown'). Each type names its body fields (name, required, kind), the item it folds into, whether it creates that item, where it finds the item it changes (target: paths into the line, tried in order), which item kinds it may act on, and the state transitions it causes. In a transition: 'when' matches body values; 'from' lists the states it may leave (absent means any); 'who' is 'same_for' (the item's own Living Intelligence), 'other' (anyone but the item's own), 'named' (the witness the item names, else anyone but its own) or 'keeper' (the holon's keeper; 'other' when keepers are unknown); 'set' gives new values, where '$actor', '$for' and '$ts' are the line's own and 'body.x' is a body field; 'append_to' adds a short entry for this line to a list on the item. 'human_only' types are a Living Intelligence's own act: an agent's line of that type is valid only at the person's word, either under a live delegate with once: true for that one type and holon (used up by the line) or with the person's consent on the line (body.consent, their words; links.answers to their say line when there is one); the fold marks it signed_for. Without either it is kept and marked invalid. 'also' is a second effect of the same line on another item. A supersede counts only from the same actor, or from a person under a decide line in the same holon; an agent never supersedes another's line; an empty supersede retracts (every item kind has the state 'retracted'). 'home_only' types are written only into the person's own home (a holon whose inception kind is person), never into a cell. 'initial_by' on an item sets its first state from a body field ({field, map}): a wallet gift is given. 'when_item' on a transition requires the line to restate fields of the item it answers ({line path: item field}).",
   "audiences": [
     "holon",
     "members",
@@ -195,7 +195,13 @@
         "given",
         "witnessed",
         "retracted"
-      ]
+      ],
+      "initial_by": {
+        "field": "kind",
+        "map": {
+          "gift": "given"
+        }
+      }
     }
   },
   "types": {
@@ -2540,7 +2546,7 @@
       "transitions": []
     },
     "concord": {
-      "about": "A Concordance between two vocabularies: this term in this lexicon and that term in that one are the same idea, a different idea, or one is the clearer definition. Anyone may propose one; it is agreed when a line from the other side answers it. Meaning crosses without either side adopting the other's words; the one lexicon within the Game is what makes concordance possible.",
+      "about": "A Concordance between two vocabularies: this term in this lexicon and that term in that one are the same idea, a different idea, or one is the clearer definition. Anyone may propose one; it is agreed when a line from the other side answers it. Meaning crosses without either side adopting the other's words; the one lexicon within the Game is what makes concordance possible. The answer agrees only when it restates the proposal as written: the same terms, lexicons and relation.",
       "fields": [
         {
           "name": "term",
@@ -2601,6 +2607,13 @@
             "state": "agreed",
             "agreed_by": "$for",
             "agreed_ts": "$ts"
+          },
+          "when_item": {
+            "body.term": "term",
+            "body.in": "in",
+            "body.term_other": "term_other",
+            "body.in_other": "in_other",
+            "body.relation": "relation"
           }
         }
       ]
