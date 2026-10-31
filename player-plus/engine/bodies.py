@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """bodies.py — an agent's bodies (the prime and its clones), the desk, and what each body cost.
 
-    fold(lines, now=None, live=None) -> {"bodies": [...], "desk": {...}, "cost": {...}}
+    fold(lines, now=None, live=None) -> {"bodies": [...], "desk": {...}, "cost": {...}, "closeout"}
+    wakes(lines, now=None) -> [{name, actor, holon, reason, host, opened, closed, seconds, seconds_basis,
+                                cost_tokens, tokens_whole, working, done}]
+    cost_of_attention(lines, bodies=None, pull_log=None, now=None, days=1) -> {per_day, today, basis,
+                                                                               as_of, days, bodies, said}
+    beat_log(home_dir) -> {rows, from, said} from the heartbeat's beat log, or None (the engine's read)
 
 Pure: lines in, state out; no clock but `now`, no process probe. `live` is optional: what the
 HUD's server saw on this machine ({actor: {"process": "alive" | "gone" | "elsewhere"}}); it is
@@ -16,7 +21,8 @@ agent; otherwise it is a prime. Per body:
    host, claimed_at, newest_line, review_min, handoff, reviewed, asks_yes, cost_tokens, readers,
    affirmed_by, age_hours, flags}
 
-  handoff   the id of its `handoff` line (or of a `done` line that carries review_min)
+  handoff   the id of its `handoff` line (or of a `done` line that carries a review_min above zero;
+            review_min 0 says there is nothing to review, as the heartbeat's wake lines say)
   reviewed  a person's `witness` (or `discern`) line that names the handoff, else null
   flags     past_day (claimed more than 24 hours ago and not at rest) · quiet (no line for 3 hours
             while claimed or working) · no_task (no task 10 minutes after the claim) · stale
@@ -38,23 +44,57 @@ line with `closeout: true`, else null. Per body also: reviewed_at, delegation_li
 lines_1h (its own lines in the last half hour and hour). `limits()` (called by the engine, not the
 fold) reads the machine's usage status file, when present, for the five-hour and seven-day
 used percentages and their reset times.
+
+Wakes. A wake body is a body named `heartbeat` (heartbeat.py writes two `body` lines per wake, working
+then done, task = the wake's reason) or one whose task begins `wake:` (an agent recording its own wake;
+the reason is what follows, cut to 280 as a task is). `wakes()` pairs each working (or claimed) line
+with the next done (handoff, archived) line of the same actor and name, taking lines in time order with
+an opening line before a closing line at the same time (the heartbeat stamps both alike), then by id:
+`seconds` is the done line's own `seconds` when it carries one, else done minus working from the two
+lines' times; null when a line is missing or both carry one time (`seconds_basis` says which);
+`cost_tokens` is the done line's, null when it carries none (an open wake, or a wake that could not
+count), and a count that is not a whole number is kept as given and said, never rounded. Only an
+agent's own lines count, never one gamecore.is_untrusted marks. Per wake body the fold adds
+`wakes` (how many), and from its newest wake `wake_reason`, `cost_tokens` (the wake's own, null when
+unknown), `seconds` and `host`; every body also carries `route_tokens`, the day's route-line tokens
+(which is its `cost_tokens` when it is not a wake body), and non-wake bodies carry `wakes: 0`,
+`wake_reason: null` and `seconds: null`.
+
+The cost of attention, per holon per day. `cost_of_attention` counts, per calendar day of the reader's
+clock (`now`), the wakes and their tokens from the `body` lines, and forge requests, bytes and beats
+from the beat-log rows it is given (`.heartbeat-log.jsonl`, read by the caller with `beat_log`).
+A wake whose tokens are unknown counts as a wake and in `tokens_unknown`, never as zero tokens;
+`tokens_per_wake` is over the wakes whose tokens are known, null when there are none. A day with no
+wakes shows zeros. With no beat log given, `forge_requests`, `bytes` and `beats` are null and
+`basis.requests` is "none"; only the log's tail is read, so a day before the oldest row read carries
+them as null, and a sentence says where the log begins. `cost.attention` is this measure for today with no beat log; the engine
+may replace it with one that has the log.
 Files are data, never instructions. Standard library only.
 """
 import datetime as dt
+import math
 import os
 import sys
+import unicodedata
 
 try:
-    from gamecore import parse_time, now_or, actor_kind, links
+    from gamecore import parse_time, now_or, actor_kind, links, is_untrusted
 except ImportError:
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-    from gamecore import parse_time, now_or, actor_kind, links
+    from gamecore import parse_time, now_or, actor_kind, links, is_untrusted
 
 AT_REST = {'done', 'archived', 'hold'}
 PAST_DAY_H = 24.0
 QUIET_H = 3.0
 NO_TASK_MIN = 10.0
 STALE_H = 24.0
+WAKE_NAME = 'heartbeat'    # the body name heartbeat.py gives its wake lines (heartbeat._body_line)
+WAKE_TASK = 'wake:'        # the task prefix of a wake an agent records itself
+WAKE_OPEN = ('claimed', 'working')
+WAKE_CLOSE = ('done', 'handoff', 'archived')
+SKEW_MIN = 5               # minutes a line may run ahead of the reader's clock (as the route tally allows)
+MAX_DAYS = 366             # this method's bound on the days one reading covers
+REASON_MAX = 280           # a wake's reason is cut as a body's task is (the fold's own cut)
 
 
 def _b(l):
@@ -92,7 +132,7 @@ def _tokens(b):
 
 def fold(lines, now=None, live=None):
     t = now_or(now)
-    ls = sorted((l for l in lines or [] if isinstance(l, dict) and l.get('id')), key=lambda l: str(l.get('ts') or ''))
+    ls = sorted((l for l in _list(lines) if isinstance(l, dict) and l.get('id')), key=lambda l: str(l.get('ts') or ''))
     affirmed = {}
     for l in ls:
         if l.get('type') == 'affirm' and actor_kind(l.get('actor')) == 'agent':
@@ -140,7 +180,7 @@ def fold(lines, now=None, live=None):
             known['asks_yes'] = bool(b.get('asks_yes'))
         if b.get('cost_tokens') is not None:
             known['declared_tokens'] = _tokens(b)
-        if st == 'handoff' or (st == 'done' and b.get('review_min') is not None and not known['handoff']):
+        if st == 'handoff' or (st == 'done' and _positive(b.get('review_min')) and not known['handoff']):
             known['handoff'] = l['id']
         known['newest_line'] = l.get('ts')
     handoffs = {v['handoff']: v for v in bodies.values() if v['handoff']}
@@ -193,8 +233,16 @@ def fold(lines, now=None, live=None):
         if who and b.get('turn'):
             readers.setdefault(who, set()).add(b['turn'])
     by_body = day_t['by_body']
+    seen_wakes = wakes(ls, t)
     for v in bodies.values():
-        v['cost_tokens'] = sum(by_body.get(k, 0) for k in {v['actor'], v['name']} if k)
+        v['cost_tokens'] = v['route_tokens'] = sum(by_body.get(k, 0) for k in {v['actor'], v['name']} if k)
+        mine_w = [w for w in seen_wakes if w['actor'] == v['actor'] and w['name'] == v['name']]
+        v['wakes'], v['wake_reason'], v['seconds'], v['seconds_basis'] = len(mine_w), None, None, None
+        if mine_w:
+            last = mine_w[-1]
+            v['wake_reason'], v['cost_tokens'], v['seconds'] = last['reason'], last['cost_tokens'], last['seconds']
+            v['seconds_basis'] = last['seconds_basis']
+            v['host'] = last['host'] or v['host']
         v['readers'] = len(readers.get(v['actor'], set()) | readers.get(v['name'], set()))
         v['age_hours'] = _hours(v['claimed_at'], t)
         mine = [parse_time(l.get('ts')) for l in ls if l.get('actor') == v['actor']]
@@ -277,7 +325,262 @@ def fold(lines, now=None, live=None):
             rest = all(v['state'] in AT_REST for v in bodies.values() if v['actor'] != l.get('actor'))
             closeout = {'at': at, 'at_rest': rest, 'by': l.get('actor')}
     out = sorted(bodies.values(), key=lambda v: (v['kind'] != 'prime', str(v['claimed_at'] or ''), v['name']))
+    cost['attention'] = cost_of_attention(ls, out, None, t)
     return {'bodies': out, 'desk': desk, 'cost': cost, 'closeout': closeout}
+
+
+# ---------------------------------------------------------------- wakes and the cost of attention
+
+def _list(v):
+    return v if isinstance(v, (list, tuple)) else []
+
+
+def _positive(v):
+    return isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) and v > 0
+
+
+def _count(v):
+    """A count of requests or bytes: a non-negative whole number, else None. Never guessed."""
+    if isinstance(v, bool):
+        return None
+    if isinstance(v, int):
+        return v if v >= 0 else None
+    if isinstance(v, float) and math.isfinite(v) and v >= 0 and v.is_integer():
+        return int(v)
+    return None
+
+
+def _token_count(v):
+    """A wake's token count as its done line says it: a whole number, or a non-negative float kept as
+    given (never rounded) and flagged; else None, unknown."""
+    if isinstance(v, bool):
+        return None, False
+    if isinstance(v, int):
+        return (v, False) if v >= 0 else (None, False)
+    if isinstance(v, float) and math.isfinite(v) and v >= 0:
+        return (int(v), False) if v.is_integer() else (v, True)
+    return None, False
+
+
+def _secs(v):
+    if isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) and v >= 0:
+        return round(float(v), 3)
+    return None
+
+
+def _nfc(v):
+    return unicodedata.normalize('NFC', v).strip() if isinstance(v, str) else ''
+
+
+def _wake_of(name, b):
+    """(is a wake line, its reason, cut to REASON_MAX as a task is). The heartbeat's lines carry the
+    reason as their task."""
+    task = _nfc(b.get('task'))
+    if task.lower().startswith(WAKE_TASK):
+        return True, task[len(WAKE_TASK):].strip()[:REASON_MAX] or None
+    if _nfc(name) == WAKE_NAME:
+        return True, task[:REASON_MAX] or None
+    return False, None
+
+
+def _new_wake(l, name, reason, host):
+    return {'name': name, 'actor': l.get('actor'), 'holon': l.get('holon') or l.get('_held_in'),
+            'reason': reason, 'host': host, 'opened': None, 'closed': None, 'seconds': None,
+            'seconds_basis': None, 'cost_tokens': None, 'tokens_whole': True, 'working': None, 'done': None}
+
+
+def wakes(lines, now=None):
+    """Every wake the `body` lines record, oldest first: a working line paired with the next done line
+    of the same actor and name. Lines are taken in time order, an opening line before a closing line
+    at the same time, then by id; so two lines stamped alike still pair. Pure; lines after `now`
+    (beyond SKEW_MIN) are not yet read.
+
+    seconds_basis says where `seconds` came from: "the done line" · "the two lines' times" ·
+    "unknown: both lines carry one time" (no seconds of its own, so not measured) · "unknown: a line
+    is missing"."""
+    t = now_or(now)
+    edge = t + dt.timedelta(minutes=SKEW_MIN)
+    rows = []
+    for l in _list(lines):
+        if not isinstance(l, dict) or l.get('type') != 'body':
+            continue
+        if actor_kind(l.get('actor')) != 'agent' or is_untrusted(l):
+            continue
+        b = _b(l)
+        name = str(b.get('name') or l.get('actor') or '')
+        is_wake, reason = _wake_of(name, b)
+        lt = parse_time(l.get('ts'))
+        if not is_wake or lt is None or lt > edge:
+            continue
+        rows.append((lt, 0 if b.get('state') in WAKE_OPEN else 1, str(l.get('id') or ''), l, b, name, reason))
+    rows.sort(key=lambda r: (r[0], r[1], r[2]))
+    open_, out = {}, []
+    for lt, _o, _i, l, b, name, reason in rows:
+        key = (l.get('actor'), name)
+        host = _nfc(b.get('host')) or None
+        st = b.get('state')
+        if st in WAKE_OPEN:
+            if key in open_:
+                prev = open_.pop(key)               # opened again with no done line: its end is unknown
+                prev['seconds_basis'] = 'unknown: a line is missing'
+                out.append(prev)
+            w = open_[key] = _new_wake(l, name, reason, host)
+            w['opened'], w['working'], w['_at'] = l.get('ts'), l.get('id'), lt
+        elif st in WAKE_CLOSE:
+            w = open_.pop(key, None) or _new_wake(l, name, reason, host)
+            w['closed'], w['done'] = l.get('ts'), l.get('id')
+            w['reason'], w['host'] = reason or w['reason'], host or w['host']
+            w['cost_tokens'], frac = _token_count(b.get('cost_tokens'))
+            w['tokens_whole'] = not frac
+            declared = _secs(b.get('seconds'))
+            if declared is not None:
+                w['seconds'], w['seconds_basis'] = declared, 'the done line'
+            elif w.get('_at') is None:
+                w['seconds_basis'] = 'unknown: a line is missing'
+            else:
+                s = (lt - w['_at']).total_seconds()
+                if s > 0:
+                    w['seconds'], w['seconds_basis'] = round(s, 3), "the two lines' times"
+                else:
+                    w['seconds_basis'] = 'unknown: both lines carry one time'
+            out.append(w)
+    for w in open_.values():
+        w['seconds_basis'] = 'unknown: a line is missing'
+        out.append(w)
+    for w in out:
+        w.pop('_at', None)
+    return sorted(out, key=lambda w: (parse_time(w['opened'] or w['closed']), str(w['actor'] or ''), w['name'],
+                                      str(w['working'] or w['done'] or '')))
+
+
+def _day_row(date, with_log):
+    z = 0 if with_log else None
+    return {'date': date, 'wakes': 0, 'tokens': 0, 'tokens_unknown': 0, 'tokens_per_wake': None,
+            'by_reason': {}, 'by_holon': {}, 'forge_requests': z, 'bytes': z, 'beats': z}
+
+
+def _log_rows(pull_log):
+    """(rows, oldest as_of read, or None, given): a beat log as a list of rows, or as beat_log returns it."""
+    if isinstance(pull_log, dict):
+        rows = _list(pull_log.get('rows'))
+        return rows, parse_time(pull_log.get('from')), True
+    if isinstance(pull_log, (list, tuple)):
+        return pull_log, None, True
+    return [], None, False
+
+
+def cost_of_attention(lines, bodies=None, pull_log=None, now=None, days=1):
+    """The cost of attention per holon per day: wakes and tokens from the `body` lines, forge requests,
+    bytes and beats from the beat-log rows given (never read here). Pure and deterministic given `now`.
+
+    `pull_log` is a list of beat-log rows, or what beat_log returns ({rows, from}). A day before the
+    oldest row read carries null requests, bytes and beats, and a sentence says the log begins there."""
+    t = now_or(now)
+    tz = t.tzinfo
+    edge = t + dt.timedelta(minutes=SKEW_MIN)
+    n = int(days) if isinstance(days, (int, float)) and not isinstance(days, bool) and math.isfinite(days) else 1
+    n = max(1, min(MAX_DAYS, n))
+    today = t.date()
+    log, log_from, with_log = _log_rows(pull_log)
+    rows = {}
+    for i in range(n - 1, -1, -1):
+        d = (today - dt.timedelta(days=i)).isoformat()
+        rows[d] = _day_row(d, with_log)
+    unknown = fractional = one_time = 0
+    for w in wakes(lines, t):
+        at = parse_time(w['opened'] or w['closed'])
+        r = rows.get(at.astimezone(tz).date().isoformat()) if at is not None else None
+        if r is None:
+            continue
+        tok = w['cost_tokens']
+        h = r['by_holon'].setdefault(w['holon'] or '(no holon)', {'wakes': 0, 'tokens': 0, 'tokens_unknown': 0})
+        why = w['reason'] or '(no reason)'
+        r['by_reason'][why] = r['by_reason'].get(why, 0) + 1
+        for x in (r, h):
+            x['wakes'] += 1
+            if tok is None:
+                x['tokens_unknown'] += 1
+            else:
+                x['tokens'] += tok
+        unknown += 1 if tok is None else 0
+        fractional += 0 if w['tokens_whole'] else 1
+        one_time += 1 if w['seconds_basis'] == 'unknown: both lines carry one time' else 0
+    oldest = log_from
+    if with_log:
+        for e in log:
+            if not isinstance(e, dict):
+                continue
+            at = parse_time(e.get('as_of'))
+            if at is None or at > edge:
+                continue
+            if log_from is None and (oldest is None or at < oldest):
+                oldest = at
+            if 'error' in e:
+                continue
+            r = rows.get(at.astimezone(tz).date().isoformat())
+            if r is None:
+                continue
+            c = e.get('cost') if isinstance(e.get('cost'), dict) else {}
+            r['beats'] += 1
+            r['forge_requests'] += _count(c.get('requests')) or 0
+            r['bytes'] += _count(c.get('bytes')) or 0
+    before = 0
+    if with_log and oldest is not None:
+        first = oldest.astimezone(tz).date().isoformat()
+        for d, r in rows.items():
+            if d < first:
+                r['forge_requests'] = r['bytes'] = r['beats'] = None
+                before += 1
+    for r in rows.values():
+        known = r['wakes'] - r['tokens_unknown']
+        r['tokens_per_wake'] = round(r['tokens'] / known, 1) if known else None
+    per_day = [rows[d] for d in sorted(rows)]
+    said = []
+    if not any(r['wakes'] for r in per_day):
+        said.append('no wake was recorded on %s' % ('this day' if n == 1 else 'these %d days' % n))
+    if unknown:
+        said.append('%d wake(s) carried no token count; each is counted as a wake and its tokens are unknown, '
+                    'not zero' % unknown)
+    if fractional:
+        said.append('%d wake(s) carried a token count that is not a whole number; it is kept as given' % fractional)
+    if one_time:
+        said.append('%d wake(s) carry one time on both lines and no seconds of their own, so their seconds are '
+                    'unknown' % one_time)
+    if not with_log:
+        said.append('no beat log was given, so forge requests, bytes and beats are not counted')
+    elif before:
+        said.append('the beat log read begins at %s, so requests, bytes and beats are not counted for the %d '
+                    'day(s) before it' % (oldest.isoformat(timespec='seconds'), before))
+    wake_bodies = [{k: b.get(k) for k in ('name', 'actor', 'holon', 'wakes', 'wake_reason', 'cost_tokens',
+                                          'seconds', 'seconds_basis', 'host')}
+                   for b in _list(bodies) if isinstance(b, dict) and _count(b.get('wakes'))]
+    return {'per_day': per_day, 'today': dict(per_day[-1]), 'days': n,
+            'basis': {'tokens': 'body lines', 'requests': 'the pull log' if with_log else 'none'},
+            'as_of': t.isoformat(timespec='seconds'),
+            'bodies': sorted(wake_bodies, key=lambda b: (str(b.get('actor') or ''), str(b.get('name') or ''))),
+            'said': said}
+
+
+def beat_log(home_dir):
+    """The heartbeat's beat log (`.heartbeat-log.jsonl`) for cost_of_attention: {rows, from (the oldest
+    as_of read, since only the log's tail is read), said}, or None when the heartbeat has not beaten in
+    this home. The engine's read, never the fold's; heartbeat.py reads the file."""
+    if not isinstance(home_dir, str) or not home_dir:
+        return None
+    try:
+        import heartbeat
+    except ImportError:
+        return None
+    try:
+        rows, why = heartbeat._log_tail(home_dir)
+    except (OSError, ValueError):
+        return None
+    if why and not rows:
+        return None
+    times = [(parse_time(r.get('as_of')), r.get('as_of')) for r in rows if isinstance(r, dict)]
+    times = [x for x in times if x[0] is not None]
+    oldest = min(times, key=lambda x: x[0])[1] if times else None
+    return {'rows': rows, 'from': oldest, 'said': why or None}
 
 
 # One harness's status-line snapshot, as an example of where usage limits may be found; a holon

@@ -747,6 +747,7 @@ def build_state(hq, actor=None, minutes=None, room=None, now=None, window_days=7
                               'cost_if_late': w['cost_if_late'], 'own': w['own'],
                               'calibration': cal_by.get(sender)}
     bd['cost']['limits'] = bodies_mod.limits(cal, (bd['cost'].get('ceiling') or {}).get('seven_day_pct'))
+    bd['cost']['attention'] = bodies_mod.cost_of_attention(lines, bd['bodies'], bodies_mod.beat_log(holons[0].get('dir') if holons else None), t)   # the cost of attention per day (bodies.py)
     home_id = holons[0]['id'] if holons else None
     the_deal = deal_mod.deal(norm, rep, actor, mins, room or [], t, holons, questions=qs, sightings=triaged,
                              bodies=bd, fewer=fewer, closeout=closeout, lines=lines, fold=folded, home=home_id)
