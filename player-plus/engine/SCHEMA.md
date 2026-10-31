@@ -320,6 +320,35 @@ A **Receipt** is a `receive` line that says "I have it": `body.of` and `links.an
 
 *Open:* whether a Subscription between two holons that hold an Agreement is, in time, carried as a clause of that Agreement. The Card stands for now.
 
+## The living map: Sightings
+
+*The field here is the canon's own: Navigation of Reality, the Pain Button, the Andon Cord.*
+
+Every player is a navigator. A `sight` line is what one player saw, placed in the holon where it was seen; others re-sight it as they pass the same place, and together the Sightings make the living map of reality. The Engine reads that map as the ground the work moves over. The nine kinds:
+
+- **defect**: something broken, or not as it should be.
+- **hazard**: a danger to whoever passes.
+- **blocked**: the way is shut.
+- **wonder**: something wonderful stands here.
+- **offer** and **request**: an offer or a request seen in the world and sighted so that it travels. An offer or request a player makes is a line of its own.
+- **question**: something in question.
+- **witness**: someone seen doing a thing worth seeing. This is apart from the `witness` line, which attests a claim.
+- **pain**: a request for help that needs a response.
+
+**The lifecycle, and who moves it.** A Sighting starts **seen**. It is **still there** when another player's trusted `sight` links to it (`anchored_to`, `witnesses`, `serves`, `supersedes` or `predecessor`). It is **accepted** when a `claim` names it (its holder holds it), or when a person anchors a thread note to it. It is **picked up** when a trusted `commit` serves it, or names a card that serves it; that card is what it `became`. It is **fixed** when a `done` names it, and **closed** when a trusted `settle` is anchored to it, or to a thread anchored to it; the settle's text is the consequence. A **pain** is **responded** to by any trusted line from another player anchored to it, and until one comes it `needs_response`. It is **retracted** when a Correction recalls it.
+
+The fold sets seen, accepted, fixed and retracted. `sightings.lifecycle` computes the rest from the links. When several states apply, the order of precedence is retracted, then closed, fixed, picked up, accepted, responded, still there, seen. The triage statuses (new · held · elevated · folded) are kept as a separate field.
+
+"Another player" means another Living Intelligence: an agent's line counts as the person it answers for. A line counts only when it is trusted. A line with `reason: untrusted`, one the fold lists as invalid or unverified, an agent's line outside a live delegation, and an agent's line of a person's own act all count for nothing. A line the fold already made into an item is read only through that item, so a released commitment or a retracted card never comes back through its line. The gate holds only when the fold is passed whole, with its trust map and its lists of lines that never act beside the items.
+
+**Weight** is 1 plus the number of distinct players who re-sighted the Sighting. A player re-sighting their own Sighting adds nothing.
+
+**The scoreboard.** `sightings.scoreboard` gives each player their defects sighted, their sightings, their re-sightings of others' Sightings, and the Sightings they fixed. A retracted Sighting counts for nothing. Every defect is a gift.
+
+**The map.** `sightings.the_map` groups every Sighting that is not retracted by place (`where`, else "(no place)", in NFC), then by kind, heaviest first, then by time and id. It counts the Sightings still open (not fixed, closed or retracted) and the pains still open, and it is deterministic. The Engine reads the map as the ground, and the Deal reads `needs_response`.
+
+On paper a Sighting is one line: kind · where · what I saw (`sightings.paper`).
+
 ## The paper floor
 
 One event is one line on a sheet: time · who · for whom · type · what · links · audience. The two passes, what is owed and commitments kept are worked on the same sheet. A witnessed paper sheet beats the typed copy. On paper, a line is signed by hand; in files, an unsigned line counts only in the reader's own home.
