@@ -67,6 +67,7 @@ Each skill's `LINEAGE.md` says where it came from and where newer versions can b
 | `subscribe` | The person's own Subscription Card: what they hear, from whom, how often (said in words) and where; drafted as a Markdown Card, appended by their own hand; requests rise first. |
 | `agree` | An Agreement between two holons, a person's own act answered by the other holon's person: what crosses, cadences, permits, the face, until when; its clauses, and the forge plan applied by hand. |
 | `the-heartbeat` | The always-on hand (`engine/heartbeat.py`): pulls, receipts and reads the signals, wakes the agent only when owed, and the person only by their own Cards, emergency rule and budget, never with a sound; installed by their own hand. |
+| `negotiate` | Carries an ask from its sending to its resolution: every ask with its why and effort, the moves in plain words (a counter is not an answer), the four shapes for a circle, "waiting on" and "owed by you" (`engine/negotiation.py`), mandates for availability alone, whose words each line carries, and a stop from any person wins. |
 
 ## Making and naming
 

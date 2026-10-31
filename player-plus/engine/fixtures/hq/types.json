@@ -1322,7 +1322,7 @@
       "transitions": []
     },
     "delegate": {
-      "about": "A person delegates to an agent: which types, which holons, until when. With once: true and a single type and holon, it lets the agent sign one act in the person's name, and is used up by it. A once-delegation may name body_digest (sha256 of the canonical body the person saw, without its salt); the agent's line must then match it. Without body_digest a once-delegation covers any one line of its type. body.clones names the handle patterns of clones the prime may let in. With body.mandate, a standing delegation covering `move` lets the agent make availability moves (accept, decline, counter, conditional, defer) within the limits it states, each marked voice under-mandate; the final agreement still comes to the person.",
+      "about": "A person delegates to an agent: which types, which holons, until when. With once: true and a single type and holon, it lets the agent sign one act in the person's name, and is used up by it. A once-delegation may name body_digest (sha256 of the canonical body the person saw, without its salt); the agent's line must then match it. Without body_digest a once-delegation covers any one line of its type. body.clones names the handle patterns of clones the prime may let in. With body.mandate, a standing delegation covering `move` lets the agent make availability moves (decline, counter, conditional, defer; never accept) within the limits it states, each marked voice under-mandate; the final agreement still comes to the person.",
       "fields": [
         {
           "name": "to",
@@ -1368,7 +1368,7 @@
           "name": "mandate",
           "required": false,
           "kind": "object",
-          "about": "the limits within which the agent may make availability moves for the person (times, days, lengths), in the person's words and as data; a move made under it carries voice under-mandate; never an acknowledgment, a commit, a consent, a discernment or a share"
+          "about": "the limits within which the agent may make availability moves for the person (times, days, lengths), in the person's words and as data; a move made under it carries voice under-mandate; never an accept, an acknowledgment, a commit, a consent, a discernment or a share: every yes comes to the person"
         }
       ],
       "item": "delegation",
@@ -3117,7 +3117,7 @@
       "human_only": true
     },
     "move": {
-      "about": "A move in a conversation for action: one step between an ask and its resolution, naming the ask it belongs to (`root`) and the move it answers (links.answers). The moves: clarify (either side; changes nothing) · accept · decline (always available) · counter (other terms) · conditional (yes if, no unless) · defer (moves the by-date) · refer (not me; ask another) · amend (the asker revises the ask) · accept_counter · reject_counter · award (in a call for takers: picks and releases the rest) · withdraw (the asker calls it off) · release (a responder backs out of a yes, with notice) · done (the performer) · satisfied · not_yet (the asker). A person's words, or an agent's under a mandate (`voice: under-mandate`), never an agent's on its own for accept, award, satisfied. negotiation.py folds the moves into the ask's state: open · agreed (with terms) · declined · lapsed · withdrawn · performing · satisfied.",
+      "about": "A move in a conversation for action: one step between an ask and its resolution, naming the ask it belongs to (`root`) and the move it answers (links.answers). The moves: clarify (either side; changes nothing) · accept · decline (always available) · counter (other terms) · conditional (yes if, no unless) · defer (asks for a later by-date; it moves when the asker takes it) · refer (not me; ask another) · amend (the asker revises the ask) · accept_counter · reject_counter · award (in a call for takers: picks and releases the rest) · withdraw (the asker calls it off) · release (a responder backs out of a yes, with notice) · done (the performer) · satisfied · not_yet (the asker). A person's words; or an agent's under a mandate (`voice: under-mandate`) for decline, counter, conditional and defer only; never an agent's on its own, and never an agent's accept, award, satisfied, done or amend. negotiation.py folds the moves into the ask's state: open · agreed (with terms) · declined · lapsed · withdrawn · performing · satisfied.",
       "fields": [
         {
           "name": "move",
