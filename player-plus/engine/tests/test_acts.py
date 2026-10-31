@@ -229,8 +229,10 @@ class TheTableOfWords(unittest.TestCase):
     def test_every_offered_act_carries_its_words(self):
         for item, who in ((commitment('open'), K), (commitment('claimed'), P), (card('a1'), P)):
             for a in offered(item, who)['acts']:
-                self.assertEqual((a['label'], a['meaning']),
-                                 (acts.words(a['key'], item['kind'])['label'], acts.words(a['key'], item['kind'])['meaning']))
+                sides = (None, 'committor', 'committor_unbegun')          # a side's own words, where it has them
+                self.assertIn((a['label'], a['meaning']),
+                              [(acts.words(a['key'], item['kind'], s)['label'],
+                                acts.words(a['key'], item['kind'], s)['meaning']) for s in sides])
 
     def test_the_kits_words(self):
         with open(os.path.join(ENGINE, 'acts.json'), encoding='utf-8') as f:
@@ -516,6 +518,190 @@ class TheCommandLine(unittest.TestCase):
             self.assertEqual(self.run_cli(link, 'cm1', P).returncode, 2)
         finally:
             shutil.rmtree(tmp, ignore_errors=True)
+
+
+def sighting(state='seen', holon=B, **kw):
+    s = {'id': 'sg1', 'kind': 'sighting', 'holon': holon, 'state': state, 'text': 'The gate sticks',
+         'for': X, 'actor': X, 'ts': '2026-10-30T07:00:00-07:00'}
+    s.update(kw)
+    return s
+
+
+class TheGapsTheReviewFound(unittest.TestCase):
+    """Repair (Q2b review, items 4, 5 and 8, and the drafter's follow-ups): Pass it on writes an elevate;
+    a handoff is marked read by a witness; the committor's release asks for its why; every option whose
+    line needs words says so and names the field the words fill; the wallet settle's meaning keeps the
+    registry's state word off the screen."""
+    UP = 'holon-circle'
+    HS = HOLONS + [{'id': 'holon-circle', 'name': 'The Circle', 'kind': 'cell', 'keeper': 'person:elder'}]
+
+    def f(self, *items):
+        return dict(folded(*items), sightings=[i for i in items if i['kind'] == 'sighting'],
+                    holons=[dict(h, parent=self.UP) if h['id'] == B else h for h in self.HS])
+
+    # (a) the elevate ------------------------------------------------------------------------------------
+
+    def test_the_keeper_is_offered_pass_it_on_and_it_writes_an_elevate(self):
+        s = sighting()
+        r = offered(s, K, self.f(s))
+        el = next(a for a in r['acts'] if a['key'] == 'act.elevate')
+        self.assertEqual(el['writes'], {'type': 'elevate', 'body': {'what': 'sg1', 'to': self.UP}, 'links': {}})
+        self.assertEqual((el['label'], el['needs_words'], el['fills']), ('Pass it on', False, None))
+        self.assertTrue(el['meaning'].startswith('You '))
+        w = acts.words('act.elevate')
+        self.assertEqual((el['label'], el['meaning']), (w['label'], w['meaning']))
+
+    def test_the_elevate_is_the_keepers_and_a_persons_own(self):
+        s = sighting()
+        f = self.f(s)
+        for who in (X, P):                                           # its raiser, a stranger: not the keeper
+            self.assertNotIn('act.elevate', keys(offered(s, who, f)), who)
+            self.assertIn({'act': 'act.elevate', 'why': acts.WHY['who']['keeper']}, offered(s, who, f)['why_not'])
+        dlg = {'id': 'gk', 'kind': 'delegation', 'actor': K, 'for': K, 'to': AG, 'scope': ['*'], 'holons': ['*'],
+               'ts': '2026-10-01T09:00:00-07:00'}
+        ra = offered(s, AG, dict(f, delegations=[dlg]))
+        self.assertNotIn('act.elevate', keys(ra))                    # an agent never passes it on
+        self.assertIn({'act': 'act.elevate', 'why': acts.WHY['human']}, ra['why_not'])
+
+    def test_no_elevate_once_it_is_ended_or_passed_on(self):
+        for s in (sighting('fixed'), sighting('retracted'), sighting(status='elevated')):
+            self.assertNotIn('act.elevate', keys(offered(s, K, self.f(s))), s)
+        dec = {'id': 'd1', 'kind': 'decision', 'holon': B, 'state': 'proposed', 'for': K, 'actor': K}
+        self.assertNotIn('act.elevate', keys(offered(dec, K, self.f(dec))))
+        made = dict(dec, state='decided')
+        self.assertIn('act.elevate', keys(offered(made, K, self.f(made))))
+
+    def test_with_no_parent_known_the_elevate_says_no_circle(self):
+        s = sighting()
+        el = next(a for a in offered(s, K, folded(s))['acts'] if a['key'] == 'act.elevate')
+        self.assertIsNone(el['writes']['body']['to'])
+
+    def test_the_sightings_and_the_pains_pass_it_on_write_the_elevate(self):
+        s = sighting()
+        r = offered(s, K, self.f(s))
+        for kind, opts in (('sighting', ['Pass it on', 'Keep it here', 'Not yet']),
+                           ('pain', ['Respond now', 'Pass it on', 'Not now'])):
+            rows = acts.options_for({'kind': kind, 'options': opts, 'recommendation': opts[0]}, r)
+            up = next(o for o in rows if o['option'] == 'Pass it on')
+            self.assertEqual((up['key'], up['offered'], up['writes']['type']), ('act.elevate', True, 'elevate'), kind)
+            self.assertEqual(up['writes']['body']['what'], 'sg1')
+
+    def test_the_deal_offers_the_keeper_the_elevate_on_a_sighting(self):
+        its = {'cards': [], 'commitments': [], 'threads': [], 'sightings': [sighting()], 'delegations': []}
+        hs = [dict(h, parent=self.UP) if h['id'] == B else h for h in self.HS]
+        tri = [{'id': 'sg1', 'holon': B, 'status': 'new', 'kind': 'gap', 'text': 'The gate sticks'}]
+        d = deal_mod.deal(its, {}, K, 1000, now=NOW, holons=hs, sightings=tri)
+        c = next((c for c in d['cards'] + d['beyond']['cards'] if c['id'] == 'sg1' and c['kind'] == 'sighting'), None)
+        if c is None:
+            self.skipTest('the Deal deals no triage card for this sighting here')
+        up = next(o for o in c['offers']['options'] if o['option'] == 'Pass it on')
+        self.assertEqual((up['key'], up['offered']), ('act.elevate', True))
+        self.assertEqual(up['writes']['body'], {'what': 'sg1', 'to': self.UP})
+
+    # (b) the witness on a handoff -----------------------------------------------------------------------
+
+    def test_a_handoff_is_marked_read_by_a_witness_naming_it(self):
+        ho = {'id': 'ln-handoff', 'kind': 'handoff', 'holon': A, 'for': P}
+        r = acts.offered(ho, P, now=NOW)
+        w = next(a for a in r['acts'] if a['key'] == 'act.witness')
+        self.assertEqual(w['writes'], {'type': 'witness', 'body': {}, 'links': {'witnesses': ['ln-handoff']}})
+        words = acts.words('act.witness', 'handoff')
+        self.assertEqual((w['label'], w['meaning']), (words['label'], words['meaning']))
+        self.assertNotEqual(w['label'], acts.words('act.witness')['label'])   # never "Confirm it was kept"
+        self.assertTrue(w['primary'])
+        self.assertIn('act.say', keys(r))
+
+    def test_the_handoff_witness_is_its_own_persons_only(self):
+        ho = {'id': 'ln-handoff', 'kind': 'handoff', 'holon': A, 'for': P}
+        self.assertNotIn('act.witness', keys(acts.offered(ho, X, now=NOW)))
+        self.assertIn({'act': 'act.witness', 'why': acts.WHY['handoff_for']}, acts.offered(ho, X, now=NOW)['why_not'])
+        f = {'delegations': [dict(AgentsAndHomes.dlg, scope=['*'], holons=['*'])], 'holons': HOLONS}
+        self.assertNotIn('act.witness', keys(acts.offered(ho, AG, folded=f, now=NOW)))
+        self.assertNotIn('act.witness', keys(acts.offered(dict(ho, reviewed='ln-w'), P, now=NOW)))
+
+    def test_a_dealt_handoff_card_is_offered_the_witness(self):
+        x = {'id': 'ln-handoff', 'kind': 'handoff', 'holon': A, 'section': 'owed',
+             'options': ['Read it now', 'Put it in my Deal'], 'recommendation': 'Read it now'}
+        r = acts.offered(None, P, now=NOW, card=x)                  # a handoff is no item of the fold
+        self.assertIn('act.witness', keys(r))
+        rows = acts.options_for(dict(x, options=['Mark it read', 'Read it now']), r)
+        self.assertEqual((rows[0]['key'], rows[0]['offered'], rows[0]['writes']['links']),
+                         ('act.witness', True, {'witnesses': ['ln-handoff']}))
+        self.assertEqual((rows[1]['key'], rows[1]['writes']), (None, None))   # reading writes nothing
+        self.assertIn(('act.witness', 'handoff'), acts.producible())
+
+    # (c) the committor's release, and the wallet settle's word --------------------------------------------
+
+    def test_the_committors_release_asks_for_its_why(self):
+        for c, sets in ((commitment('open'), 'returned'), (commitment('claimed'), 'returned'),
+                        (commitment('open', started=False), 'withdrawn')):
+            rel = next(a for a in offered(c, K)['acts'] if a['key'] == 'act.release')
+            self.assertEqual(rel['sets'], sets)
+            self.assertEqual((rel['needs_words'], rel['fills']), (True, 'body.why'))
+            self.assertIn('why', rel['writes']['body'])
+            self.assertIsNone(rel['writes']['body']['why'])
+            self.assertIn('why', rel['label'].lower())                # the label says the why goes with it
+            self.assertIn('must', rel['meaning'])                     # and the meaning that it is required
+            self.assertNotEqual(rel['label'], acts.words('act.release', 'commitment')['label'])   # not the committee's
+        committee = next(a for a in offered(commitment('open'), P)['acts'] if a['key'] == 'act.release')
+        self.assertEqual((committee['label'], committee['needs_words'], committee['fills']),
+                         (acts.words('act.release', 'commitment')['label'], False, None))
+        self.assertNotIn('why', committee['writes']['body'])
+
+    def test_the_committors_release_option_needs_its_why(self):
+        r = offered(commitment('open'), K)
+        x = {'kind': 'commitment', 'options': ['Kept: say so, and the witness can verify',
+                                               'Renegotiate: name a new by-when', 'Release it, with one line on why'],
+             'recommendation': 'Kept: say so, and the witness can verify'}
+        rows = {o['option']: o for o in acts.options_for(x, r)}
+        rel = rows['Release it, with one line on why']
+        self.assertEqual((rel['needs_words'], rel['fills'], rel['writes']['body']['why']), (True, 'body.why', None))
+        self.assertEqual((rows['Renegotiate: name a new by-when']['needs_words'],
+                          rows['Renegotiate: name a new by-when']['fills']), (True, 'body.text'))
+        kept = rows['Kept: say so, and the witness can verify']
+        self.assertEqual((kept['needs_words'], kept['fills']), (False, None))
+
+    def test_the_wallet_settle_keeps_the_state_word_off_the_screen(self):
+        states = set(REG['items']['wallet_entry'].get('states') or [])
+        w = acts.words('act.wallet.settle')
+        self.assertIn('settled', states)
+        for word in states:
+            self.assertNotIn(word, w['meaning'].lower().replace('.', ' ').split(), word)
+        self.assertNotIn(w['label'].lower(), states)
+
+    # (d) every option whose line needs words says which field ------------------------------------------------
+
+    def test_every_option_that_needs_words_names_its_field(self):
+        th = {'id': 'th', 'kind': 'thread', 'holon': A, 'state': 'open', 'for': K, 'actor': K}
+        req = card('r1', holon=B, holder=P, state='open', asked='request', to=P, actor=K, **{'for': K})
+        cases = [(th, P, {'kind': 'thread', 'options': ['Reply now', 'Settle it as it stands',
+                                                        'Thank them: no reply needed']}),
+                 (req, P, {'kind': 'request', 'options': ['Accept it: you become its holder', 'Offer something else',
+                                                          'Decline, with thanks']}),
+                 (commitment('open'), K, {'kind': 'commitment', 'options': ['On track', 'Release it',
+                                                                            'Renegotiate now, while there is float']}),
+                 (commitment('claimed'), P, {'kind': 'commitment', 'options': ['Thank them: it stands',
+                                                                               'Ask for a change']})]
+        need = {'Reply now': 'body.text', 'Offer something else': 'body.text', 'Release it': 'body.why',
+                'Renegotiate now, while there is float': 'body.text', 'Ask for a change': 'body.text'}
+        for item, who, x in cases:
+            for o in acts.options_for(x, offered(item, who)):
+                self.assertTrue(o['offered'], o['option'])
+                self.assertEqual(o['fills'], need.get(o['option']), o['option'])
+                self.assertEqual(o['needs_words'], o['option'] in need, o['option'])
+                if o['fills']:
+                    fld = o['fills'].split('.', 1)[1]
+                    self.assertIsNone(o['writes']['body'][fld], o['option'])   # left for the person's words
+                elif o['type'] == 'say':
+                    self.assertEqual(o['writes']['body']['text'], o['option'])  # its own words are the line
+
+    def test_every_act_says_whether_it_needs_words(self):
+        for item, who in ((commitment('open'), K), (commitment('claimed'), P), (card('a1'), P), (sighting(), K)):
+            for a in offered(item, who, self.f(item))['acts']:
+                self.assertIn(a['fills'], (None, 'body.text', 'body.why'), a['key'])
+                self.assertEqual(a['needs_words'], a['fills'] is not None, a['key'])
+                if a['type'] == 'say':
+                    self.assertEqual(a['fills'], 'body.text')
 
 
 if __name__ == '__main__':

@@ -596,6 +596,12 @@ Each `when` of a type is its own act (answer accept, answer decline). The reader
 
 **One way to answer.** `plain.next_step` reads the recommended act's label from `acts.json` and gives it as `how_act`. Its `how` keeps the one way to answer on every plain page. `plain.HOW_READS_ACT` would put the label into `how` itself; it stays off. Every surface draws the same card from these (Q2b, where the HUD's `strings.json` mirrors the table under the same keys).
 
+<!-- To fold into "One card, everywhere" (acts.py repair after the Q2b review, 2026-10-31). -->
+- **Pass it on is an act.** `act.elevate` is offered to the keeper of the holon, a person, on a sighting not fixed, closed or retracted, or on a decision once made, unless it has been passed on already. It writes `elevate {what, to}`, and `to` is the holon's `parent`. The Sighting's and the pain card's "Pass it on" write it.
+- **A handoff is marked read by a witness.** `act.witness` on a handoff (its words: `kinds.handoff`) writes `witness` with `links.witnesses: [handoff]`. It is offered to a person, never to an agent, and only to the person the body answers for. The registry has no witness transition on a handoff, so this follows the reading in `bodies.fold`. A registry that gains that transition is read instead.
+- **The committor hands back with why.** The committor's release takes its words from `kinds.commitment.as.<who>`: Hand it back, or Withdraw it, each with why. It writes `body.why` as null and carries `needs_words: true`, because the fold refuses it without a why. The committee's release needs no words.
+- **Words are asked for by field.** Every act and every `offers.options` row carries `needs_words` and `fills` (`body.text` or `body.why`, else null). An option that needs the person's words leaves that field null for them. A settle needs no words. The wallet settle's meaning says complete and never uses the state word.
+
 ## Who may make an act
 
 *Status: agreed by the registry's keeper on 2026-10-31 (`types.json`, `record._who_ok`, `tests/test_who.py`).*

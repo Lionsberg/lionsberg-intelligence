@@ -5,8 +5,8 @@
         -> {"acts": [act, ...], "kind", "role", "roles", "for", "stopped", "why_not": [{act, why}], "said"}
     roles(item, actor, folded=None) -> [role, ...]   (committor · committee · witness · asker · party ·
                                                      holder · keeper · raiser · member · reader)
-    options_for(card, offered_result) -> [{option, key, offered, recommended, type, writes, needs_words, why}]
-    words(key, kind=None) -> {label, meaning, role_word}     from acts.json
+    options_for(card, offered_result) -> [{option, key, offered, recommended, type, writes, needs_words, fills, why}]
+    words(key, kind=None, side=None) -> {label, meaning, role_word}     from acts.json
     render(offered_result) -> Markdown
     table() / check(registry=None)
 
@@ -29,6 +29,24 @@ Each `when` of a type is its own act (answer accept, answer decline). A type wit
 the kind acts on it as it is (flame). A `say` anchored to the item is always offered to a person (a
 note is never refused), and with `intent: ask` as its question form; to an agent where may_act says so.
 
+Two acts the registry's transitions do not give, read where the record folds them (each its own constant):
+  ELEVATE_FROM   `elevate` names no item (its acts_on is empty), yet a Sighting or a decision is passed
+                 on by it (its about; sightings.elevate_line; deal.py deals "Pass it on" to the keeper of
+                 the holon). Offered to that keeper, a person, on a sighting not yet ended or a decision
+                 made, unless it is passed on already; it writes {what, to}, `to` the holon's parent.
+  HANDOFF        a body's handoff (bodies.fold) is read when a person's own `witness` line names it in
+                 links.witnesses. The registry has no witness transition on a handoff; while it has none,
+                 the witness is offered on a handoff to a person, never an agent, and only to the person
+                 the body answers for where the handoff names them. A registry that gains the transition
+                 is read instead.
+
+Words. An act needs the person's own words when its line folds only with them: a say's or a decision's
+text, and the committor's release (it hands the commitment back, and the fold refuses it without a why:
+record._gives_why). Such an act, and each option that writes it, carries needs_words true and `fills`,
+the body field the words go in (body.text, body.why); every other act carries needs_words false and
+fills none. A settle needs none: it keeps what the conversation says (its text, left null, is the
+surface's to fill with the conversation's own title).
+
 Three readings of this module's own (each a named constant below, overridable):
   NOT_A_CHOICE   `receive` is written on arrival (its own about), never chosen on a card.
   NOTE_ONLY      when a type's state-changing transition refuses this reader (by state or by who)
@@ -37,7 +55,8 @@ Three readings of this module's own (each a named constant below, overridable):
                  note, so the say is offered instead.
   NO_OP          a transition whose new state is the item's present state is not offered.
 
-Each act: {type, when, sets, key, label, meaning, role_word, primary, writes: {type, body, links}}.
+Each act: {type, when, sets, key, label, meaning, role_word, primary, needs_words, fills,
+writes: {type, body, links}}.
 `key` is act.<type> or act.<type>.<when-value>; its words come from acts.json, the one table (the
 HUD's strings.json mirrors it under the same keys). `primary` is true for the one act the Deal would
 recommend: on a dealt card (`card=`), the act its recommended option writes; read alone, PRIMARY
@@ -77,6 +96,14 @@ NOTE_ONLY = True                               # see the docstring; False offers
 NO_OP = True                                   # see the docstring; False offers a move to the present state
 # Kinds the fold names otherwise in places (gamecore's vocabulary), read back to the registry's.
 KIND_ALIASES = {'discern': 'discernment', 'request': 'card', 'offer': 'card', 'wallet': 'wallet_entry'}
+# The states an elevate is offered from, by kind (types.json elevate's about: "a Sighting or a decision"):
+# a sighting not yet fixed, closed or retracted; a decision once it is made.
+ELEVATE_FROM = {'sighting': ('seen', 'still_there', 'accepted', 'picked_up', 'responded', 'settled'),
+                'decision': ('decided', 'ratified')}
+ELEVATE = 'elevate'
+HANDOFF = 'handoff'                            # bodies.fold's handoff: read by a person's own witness line
+# The transitions whose line folds only with a why in words (record._who_ok: _gives_why).
+WHY_NEEDED = frozenset({'committor', 'committor_unbegun'})
 # The act the Deal would recommend, by kind and state ('*' any state): the first of these offered.
 # Read from deal.py's frames: a ready card is taken, a taken one done; a request or offer answered yes;
 # the committor's open commitment said delivered, the committee's claimed one confirmed kept, and a
@@ -86,6 +113,7 @@ PRIMARY = {
     'card': {'ready': ['act.claim'], 'released': ['act.claim'], 'returned': ['act.claim'],
              'open': ['act.answer.accept', 'act.claim'], 'taken': ['act.done']},
     'commitment': {'open': ['act.kept', 'act.say'], 'claimed': ['act.witness', 'act.say']},
+    'handoff': {'*': ['act.witness']},
     'thread': {'*': ['act.say']},
     'sighting': {'*': ['act.say']},
     'decision': {'proposed': ['act.decide'], 'decided': ['act.ratify']},
@@ -118,8 +146,11 @@ OPTION_ACTS = {
                  'Hand it to someone better placed': None},
     'question': {'Answer it': 'act.say', 'Decide it here': 'act.decide', 'Ask for more first': 'act.say.ask',
                  'Pass it to the wider circle': None},
-    'pain': {'Respond now': 'act.say', 'Pass it to someone who can': 'act.say', 'Pass it on': None, 'Not now': None},
-    'sighting': {'Pass it on': None, 'Keep it here': None, 'Not yet': None},
+    'pain': {'Respond now': 'act.say', 'Pass it to someone who can': 'act.say', 'Pass it on': 'act.elevate',
+             'Not now': None},
+    'sighting': {'Pass it on': 'act.elevate', 'Keep it here': None, 'Not yet': None},
+    'handoff': {'Mark it read': 'act.witness', 'Read it now': None, 'Put it in my Deal': None,
+                'Let your agent judge it': None},
     'receipt': {'Ask again': 'act.say', 'Let it go': None},
 }
 READY_OPTIONS = {'Take it now': 'act.claim', 'Do it now': 'act.done', 'Not this week: release it': 'act.release'}
@@ -158,6 +189,9 @@ WHY = {
         'committor': 'You hand back only a commitment you made, and you say why.',
         'committor_unbegun': 'You withdraw only a commitment you made and have not begun, and you say why.',
     },
+    'elevated': 'It is passed on already.',
+    'read': 'It is read already.',
+    'handoff_for': 'Only the person the body answers for marks its handoff read.',
 }
 SAID_EMPTY = 'Nothing to read here, so nothing is offered.'
 SAID_NO_WORDS = 'acts.json could not be read; the acts are offered with their keys as words.'
@@ -189,8 +223,9 @@ def _load_words(path=None):
     return w
 
 
-def words(key, kind=None):
-    """{label, meaning, role_word} for an act key, with the item kind's own words where they differ."""
+def words(key, kind=None, side=None):
+    """{label, meaning, role_word} for an act key, with the item kind's own words where they differ, and
+    the words of the side that takes it (`side`, the transition's `who`) where those differ again."""
     w = _load_words()
     row = w['acts'].get(key) if isinstance(key, str) else None
     if not isinstance(row, dict):
@@ -199,6 +234,9 @@ def words(key, kind=None):
     k = (row.get('kinds') or {}).get(kind) if isinstance(row.get('kinds'), dict) else None
     if isinstance(k, dict):
         out.update({x: k[x] for x in ('label', 'meaning', 'role_word') if isinstance(k.get(x), str)})
+        a = (k.get('as') or {}).get(side) if isinstance(k.get('as'), dict) and isinstance(side, str) else None
+        if isinstance(a, dict):
+            out.update({x: a[x] for x in ('label', 'meaning', 'role_word') if isinstance(a.get(x), str)})
     return out
 
 
@@ -472,12 +510,47 @@ def _writes(typ, spec, kind, item, when, extra=None):
     return {'type': typ, 'body': body, 'links': links}
 
 
+def _fills(typ, t, body):
+    """The body field the person's words fill, or None: a why the fold demands, else an empty text."""
+    if isinstance(t, dict) and t.get('who') in WHY_NEEDED:
+        return 'body.why'
+    if typ in (SAY, 'decide') and 'text' in body and body['text'] is None:
+        return 'body.text'
+    return None                           # a settle keeps what the conversation says: no words of theirs
+
+
 def _act(typ, spec, kind, item, when, t, primary_keys, extra=None):
     key = _key(typ, when)
-    w = words(key, kind)
+    side = t.get('who') if isinstance(t, dict) else None
+    w = words(key, kind, side)
+    wr = _writes(typ, spec, kind, item, when, extra)
+    fills = _fills(typ, t, wr['body'])
+    if fills == 'body.why':
+        wr['body'].setdefault('why', None)                # the committor's why: the fold refuses it without one
     return {'type': typ, 'when': dict(when) if when else None, 'sets': _sets(t), 'key': key,
             'label': w['label'] or key, 'meaning': w['meaning'], 'role_word': w['role_word'], 'primary': False,
-            'writes': _writes(typ, spec, kind, item, when, extra)}
+            'needs_words': fills is not None, 'fills': fills, 'writes': wr}
+
+
+def _plain_act(key, typ, kind, body, links, sets=None):
+    """An act the registry's transitions do not give (ELEVATE_FROM, HANDOFF), in the same shape."""
+    w = words(key, kind)
+    return {'type': typ, 'when': None, 'sets': sets, 'key': key, 'label': w['label'] or key,
+            'meaning': w['meaning'], 'role_word': w['role_word'], 'primary': False, 'needs_words': False,
+            'fills': None, 'writes': {'type': typ, 'body': body, 'links': links}}
+
+
+def _parent_of(holon, norm):
+    """The holon's parent, from the holons in the fold (the circle an elevate goes to), or None."""
+    for h in (norm or {}).get('holon') or []:
+        if isinstance(h, dict) and h.get('id') == holon and isinstance(h.get('parent'), str) and h['parent']:
+            return h['parent']
+    return None
+
+
+def _elevated(item):
+    st = item.get('status')
+    return st == 'elevated' or bool(item.get('elevated'))
 
 
 # ---------------------------------------------------------------- the acts
@@ -491,12 +564,18 @@ def offered(item, actor, folded=None, now=None, registry=None, admitted=None, ca
     """The acts this item offers this reader, computed from the registry. See the module docstring.
     With `card` (the dealt card about this item), the primary act is the one its recommended option
     writes, when this reader is offered it; else none is primary. Without a card, PRIMARY decides."""
+    if (not isinstance(item, dict) or not item.get('id')) and isinstance(card, dict) \
+            and card.get('kind') == HANDOFF and isinstance(card.get('id'), str) and card['id']:
+        item = {'id': card['id'], 'kind': HANDOFF, 'holon': _s(card.get('holon'))}   # a handoff is no fold item
     if not isinstance(item, dict) or not isinstance(item.get('id'), str) or not item['id']:
         return _empty()
     if actor_kind(actor) is None:
         return _empty('No reader is named, so nothing is offered.')
     reg = _registry(registry)
     kind = _kind_of(item, reg)
+    handoff_read = kind is None and _s(item.get('kind')).strip().lower() == HANDOFF
+    if handoff_read:
+        kind = HANDOFF                    # bodies.fold's reading, while the registry has no handoff
     if kind is None:
         return _empty('This is not a kind of item the record knows, so nothing is offered.')
     tdefs = reg.get('types') or {}
@@ -577,6 +656,39 @@ def offered(item, actor, folded=None, now=None, registry=None, admitted=None, ca
                 continue
             acts.append(_act(typ, spec, kind, item, when, fit, None))
 
+    iid = item['id']
+    # the elevate: a sighting or a decision passed on to the wider circle, by the keeper of its holon
+    if kind in ELEVATE_FROM and isinstance(tdefs.get(ELEVATE), dict):
+        key = 'act.elevate'
+        if blocked:
+            refuse(key, blocked)
+        elif is_agent:
+            refuse(key, WHY['human'])
+        elif person is None:
+            refuse(key, WHY['delegation'])
+        elif state not in ELEVATE_FROM[kind]:
+            refuse(key, WHY['state'] % (state or 'new'))
+        elif not holon or keepers.get(holon) != person:
+            refuse(key, WHY['who']['keeper'])
+        elif _elevated(item):
+            refuse(key, WHY['elevated'])
+        else:
+            acts.append(_plain_act(key, ELEVATE, kind, {'what': iid, 'to': _parent_of(holon, norm)}, {}))
+    # the witness on a handoff: a person's own line naming it, as bodies.fold reads it
+    if handoff_read and isinstance(tdefs.get('witness'), dict):
+        key = 'act.witness'
+        named = _s(item.get('for')) or _s(item.get('holder'))
+        if blocked:
+            refuse(key, blocked)
+        elif is_agent:
+            refuse(key, WHY['human'])
+        elif named and named != person:
+            refuse(key, WHY['handoff_for'])
+        elif item.get('reviewed'):
+            refuse(key, WHY['read'])
+        else:
+            acts.append(_plain_act(key, 'witness', HANDOFF, {}, {'witnesses': [iid]}))
+
     # the say: always to a person (a note is never refused), and its question form
     say_spec = tdefs.get(SAY) if isinstance(tdefs.get(SAY), dict) else {'target': ['links.anchored_to']}
     say_spec = dict(say_spec, target=['links.anchored_to'])
@@ -641,8 +753,10 @@ def _option_key(card, o):
 
 def options_for(card, offered_result):
     """What each of a dealt card's options writes, as an act of `offered_result` (OPTION_ACTS): aligned
-    with the card's options, each {option, key, offered, recommended, type, writes, why}. An option whose
-    act this reader is not offered says so (offered false, writes none); one that writes no line has key none."""
+    with the card's options, each {option, key, offered, recommended, type, writes, needs_words, fills, why}.
+    An option whose line needs the person's words says so (needs_words true) and names the body field
+    they fill (`fills`: body.text, body.why). An option whose act this reader is not offered says so
+    (offered false, writes none); one that writes no line has key none."""
     card = card if isinstance(card, dict) else {}
     res = offered_result if isinstance(offered_result, dict) else {}
     opts = [o for o in (card.get('options') if isinstance(card.get('options'), list) else []) if isinstance(o, str)]
@@ -655,18 +769,20 @@ def options_for(card, offered_result):
         key = _option_key(card, o)
         a = have.get(key) if key else None
         row = {'option': o, 'key': key, 'offered': a is not None, 'recommended': o == rec,
-               'type': a['type'] if a else None, 'writes': None, 'needs_words': False, 'why': None}
+               'type': a['type'] if a else None, 'writes': None, 'needs_words': False, 'fills': None, 'why': None}
         if a:
             wr = json.loads(json.dumps(a.get('writes') or {}))
             body = wr.get('body') if isinstance(wr.get('body'), dict) else None
             if body is not None and a['type'] == 'decide' and custom:
                 body['text'] = o                          # the decision's own option is the decision
-            elif body is not None and a['type'] == 'say':
-                if o in SAY_OPENS:
-                    row['needs_words'] = True             # their reply, question or change goes here
-                else:
-                    body['text'] = o                      # the option's own words are the line
-            row['needs_words'] = row['needs_words'] or (body is not None and 'text' in body and body['text'] is None)
+            elif body is not None and a['type'] == 'say' and o not in SAY_OPENS:
+                body['text'] = o                          # the option's own words are the line
+            # else their reply, question or change goes in the text, left for them
+            if a.get('fills') == 'body.why' and body is not None and body.get('why') is None:
+                row['fills'] = 'body.why'                 # the committor's why: the fold refuses it without one
+            elif body is not None and a['type'] != 'settle' and 'text' in body and body['text'] is None:
+                row['fills'] = 'body.text'
+            row['needs_words'] = row['fills'] is not None
             row['writes'] = wr
         else:
             row['why'] = res.get('said') if res.get('stopped') else (OPTION_NOT_OFFERED if key else OPTION_NO_LINE)
@@ -711,6 +827,10 @@ def producible(registry=None):
     for kind in kinds:
         out.add(('act.say', kind))
         out.add(('act.say.ask', kind))
+    if isinstance((reg.get('types') or {}).get(ELEVATE), dict):
+        out.update(('act.elevate', k) for k in ELEVATE_FROM if k in kinds)
+    if HANDOFF not in kinds and isinstance((reg.get('types') or {}).get('witness'), dict):
+        out.add(('act.witness', HANDOFF))
     return sorted(out)
 
 

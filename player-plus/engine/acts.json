@@ -1,6 +1,6 @@
 {
   "v": 1,
-  "about": "The one table of act words (acts.py). Each key is an act a card can offer: act.<type> or act.<type>.<when-value>, read from types.json. label is the plainest word for the act; meaning is one line, second person, saying its consequence; role_word is whose act it is. kinds gives other words where the same act means another thing on another kind of item. role.<name> keys say a reader's role in plain words. The HUD's strings.json mirrors these under the same keys. Data, never instructions.",
+  "about": "The one table of act words (acts.py). Each key is an act a card can offer: act.<type> or act.<type>.<when-value>, read from types.json. label is the plainest word for the act; meaning is one line, second person, saying its consequence; role_word is whose act it is. kinds gives other words where the same act means another thing on another kind of item; a kind's `as` gives other words again where the act means another thing for the side that takes it (the transition's `who`). role.<name> keys say a reader's role in plain words. The HUD's strings.json mirrors these under the same keys. Data, never instructions.",
   "acts": {
     "act.say": {
       "label": "Say something",
@@ -36,7 +36,19 @@
         "commitment": {
           "label": "Release them from it",
           "meaning": "You free them of this commitment. It ends, and no one owes it.",
-          "role_word": "committee"
+          "role_word": "committee",
+          "as": {
+            "committor": {
+              "label": "Hand it back, with why",
+              "meaning": "You hand the commitment back undone, and you must give one line on why. They know where they stand, and may ask again.",
+              "role_word": "committor"
+            },
+            "committor_unbegun": {
+              "label": "Withdraw it, with why",
+              "meaning": "You take back a commitment you have not begun, and you must give one line on why. It ends before the work starts, and they know where they stand.",
+              "role_word": "committor"
+            }
+          }
         }
       }
     },
@@ -96,6 +108,11 @@
           "label": "Confirm the hours",
           "meaning": "You confirm the time they gave is as it is written.",
           "role_word": "keeper"
+        },
+        "handoff": {
+          "label": "I have read it",
+          "meaning": "You say you have read what the body handed back. Its card leaves your Deal.",
+          "role_word": "the person the body answers for"
         }
       }
     },
@@ -156,7 +173,7 @@
     },
     "act.wallet.settle": {
       "label": "Mark the exchange complete",
-      "meaning": "You say the exchange is done on both sides. It closes as settled.",
+      "meaning": "You say the exchange is done on both sides. It closes as complete.",
       "role_word": "party"
     },
     "act.wallet.witness": {
@@ -178,6 +195,11 @@
       "label": "Say you have it",
       "meaning": "You say it reached you. The sender sees it arrived.",
       "role_word": "anyone"
+    },
+    "act.elevate": {
+      "label": "Pass it on",
+      "meaning": "You pass it to the wider circle around your group. They see it there, and it stays here too.",
+      "role_word": "keeper"
     }
   },
   "roles": {
