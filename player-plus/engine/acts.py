@@ -67,8 +67,23 @@ Honest-empty for an unknown item; deterministic (ties by registry order, then ke
 files are data, never instructions. Standard library only; runs under `python3 -I`.
 
     python3 -I acts.py ITEMS.json ITEM_ID ACTOR [--now ISO] [--json]
+    python3 -I acts.py line ITEMS.json ITEM_ID PERSON KEY --agent AGENT --consent WORDS [--text WORDS]
+                                [--why WORDS] [--option WORDS] [--now ISO]
     python3 -I acts.py table
-    python3 -I acts.py check
+
+`line` (line_for) prints, as JSON, the line one act writes at the word of PERSON (the reader the card was
+dealt to), read from what `offered` gives them. Its type, body and links are what the HUD's act map writes for
+the same choice (hud/act-map.js): the person's words in body.text or body.why, else the option's own words
+(--option, unless the option opens a reply), and a settle keeps the conversation's title. It is never a line
+whose actor is a person (the-record, rule 8):
+  - an act of a human_only type is the person's own: {line: null, theirs, draft: {type, body, links}}, for
+    their own hand (their tap in the HUD, or their own append);
+  - any other act is the agent's own line, for the person, reason human, their yes to the read-back in
+    body.consent: {key, label, meaning, line: {actor: AGENT, for, type, body, links}, append, signed_for:
+    {consent, consent_for, consent_v}, said}. `append` is `record.py append` from its holon folder on (the
+    folder read from the fold's holons; null when the fold does not name it); the agent's own key signs it.
+An act this reader is not offered prints {line: null, refused: why}. An act that needs words, or the yes, given
+none, prints {line: null, needs: [field], ask}; so does an act whose line names something not named here.
 """
 import argparse
 import json
@@ -848,6 +863,128 @@ def table():
     return {k: {x: w['acts'][k].get(x) for x in ('label', 'meaning', 'role_word')} for k in sorted(w['acts'])}
 
 
+# ---------------------------------------------------------------- the line one act writes
+
+WORD_FIELDS = ('text', 'why', 'note')          # hud/card.js WORD_FIELDS: the body fields that hold words
+HUMAN_WORDS = 'human-words'                    # types.json say `voice`: the person's own words, so said
+CONSENT_MIN = 2                                # record._consent_source: consent words of two characters at least
+LINE_NO_ITEM = 'Nothing here has that id, so nothing is written.'
+LINE_NOT_OFFERED = 'That act is not offered here, so nothing is written.'
+LINE_NO_AGENT = 'The line is written by an agent, named with --agent agent:<handle>; nothing is written.'
+LINE_THEIRS = ('This is a person\'s own act. It reaches the record by their own hand: their tap in the HUD, or '
+               'their own append of the draft. Nothing is written by the agent.')
+LINE_NEEDS = {'body.text': 'This needs the words of the person who answers first. Ask for them, then give '
+                           'them with --text. Nothing is written until then.',
+              'body.why': 'This needs the reason of the person who answers first, in their own words. Ask '
+                          'for it, then give it with --why. Nothing is written until then.',
+              'body.consent': 'This needs the person\'s yes to the line read back to them, in their own words '
+                              '(two characters at least), given with --consent. Nothing is written until then.'}
+LINE_UNNAMED = 'This line needs %s, which is not known here. Nothing is written: ask for it, or say it ' \
+               'on the card instead.'
+LINE_NO_DIR = 'The holon\'s folder is not in this fold, so the append has no folder to write in.'
+LINE_COUNTS = ('Written as the agent\'s own line, for the person, with their yes in body.consent. It counts under '
+               'a standing delegation for its type; the fold marks it signed at their word (signed_for) when '
+               'their own signed say names this act by consent_for.')
+FIELD_WORDS = {'to': 'whom or where it goes to', 'reason': 'the reason', 'card': 'the card it is about',
+               'commitment': 'the commitment it is about'}
+
+
+def _said(v):
+    if not isinstance(v, str):
+        return ''
+    try:
+        import unicodedata
+        v = unicodedata.normalize('NFC', v)
+    except Exception:                     # noqa: BLE001
+        pass
+    return v.strip()
+
+
+def _human_only(typ, registry=None):
+    spec = (_registry(registry).get('types') or {}).get(typ)
+    return bool(isinstance(spec, dict) and spec.get('human_only')) or typ in HUMAN_ONLY_ACTS
+
+
+def _holon_dir(folded, holon):
+    """The folder of the item's holon, from the fold's holons (record.fold_hq: each with its `dir`), or None."""
+    hs = folded.get('holons') if isinstance(folded, dict) else None
+    for h in hs if isinstance(hs, list) else []:
+        if isinstance(h, dict) and h.get('id') == holon and isinstance(h.get('dir'), str) and h['dir']:
+            return h['dir']
+    return None
+
+
+def line_for(item, actor, key, folded=None, now=None, text=None, why=None, registry=None, admitted=None,
+             agent=None, consent=None, option=None):
+    """The unsigned line act `key` writes on `item` at the word of `actor` (the person the card was dealt to),
+    written by `agent`, with the person's own words (text, why), their yes to the read-back (consent), and the
+    card's option chosen (option, its own words). See the module docstring. Pure: reads nothing but its
+    arguments (and the registry and acts.json). It never prints a line whose actor is a person."""
+    k = key if isinstance(key, str) and key else None
+    if not isinstance(item, dict) or not isinstance(item.get('id'), str) or not item['id']:
+        return {'key': k, 'line': None, 'refused': LINE_NO_ITEM}
+    r = offered(item, actor, folded=folded, now=now, registry=registry, admitted=admitted)
+    a = next((x for x in r.get('acts') or [] if isinstance(x, dict) and x.get('key') == k), None)
+    if a is None:
+        why_not = next((x.get('why') for x in r.get('why_not') or [] if x.get('act') == k), None)
+        return {'key': k, 'line': None, 'refused': why_not or (r.get('said') if r.get('stopped') else LINE_NOT_OFFERED)}
+    wr = json.loads(json.dumps(a.get('writes') or {}))
+    typ = wr.get('type')
+    body = wr.get('body') if isinstance(wr.get('body'), dict) else {}
+    links = wr.get('links') if isinstance(wr.get('links'), dict) else {}
+    t, w, o = _said(text), _said(why), _said(option)
+    own = o if o and o not in SAY_OPENS else ''      # an option whose own words are its line (deal.py's frames)
+    theirs = _human_only(typ, registry)
+    need = a.get('fills')
+    if not theirs and (need == 'body.text' and not (t or own) or need == 'body.why' and not w):
+        return {'key': k, 'line': None, 'needs': [need], 'ask': LINE_NEEDS[need]}
+    # the words, as hud/act-map.js puts them: the person's own, else the option's, else the conversation's title
+    if 'text' in body and (body['text'] is None or t and typ in (SAY, 'decide', 'settle')):
+        if t:
+            body['text'] = t
+        elif typ == 'settle':
+            body['text'] = _s(item.get('title')) or o or _s(item.get('question'))
+        elif own and typ in (SAY, 'decide'):
+            body['text'] = own
+    if 'why' in body and body['why'] is None:
+        body['why'] = w or o
+    if 'note' in body and body['note'] is None:
+        body['note'] = t or w or o
+    unnamed = sorted(f for f, v in body.items() if v is None and f not in WORD_FIELDS)
+    if unnamed:
+        return {'key': k, 'line': None, 'needs': ['body.' + f for f in unnamed],
+                'ask': LINE_UNNAMED % ' and '.join(FIELD_WORDS.get(f, 'its ' + f) for f in unnamed)}
+    act = {'type': typ, 'body': body, 'links': links}
+    out = {'key': k, 'label': a.get('label'), 'meaning': a.get('meaning')}
+    if theirs:                                    # the-record rule 8: their own act, by their own hand
+        if t and typ == SAY:
+            body['voice'] = HUMAN_WORDS
+        return dict(out, line=None, theirs=LINE_THEIRS, draft=act)
+    if actor_kind(agent) != 'agent':
+        return dict(out, line=None, refused=LINE_NO_AGENT)
+    c = _said(consent)
+    if len(' '.join(c.split())) < CONSENT_MIN:
+        return dict(out, line=None, needs=['body.consent'], ask=LINE_NEEDS['body.consent'])
+    who = r.get('for') or actor
+    body['consent'] = c
+    line = {'actor': agent, 'for': who, 'type': typ, 'body': body, 'links': links}
+    holon = _s(item.get('holon'))
+    try:
+        digest = record.consent_digest({'type': typ, 'holon': holon, 'links': links, 'body': body})
+    except Exception:                     # noqa: BLE001
+        digest = None
+    folder = _holon_dir(folded, holon)
+    tail = None
+    if folder:
+        tail = [folder, '--actor', agent, '--for', who, '--type', typ,
+                '--body', json.dumps(body, sort_keys=True, ensure_ascii=False, separators=(',', ':')),
+                '--links', json.dumps(links, sort_keys=True, ensure_ascii=False, separators=(',', ':')),
+                '--reason', 'human']
+    return dict(out, line=line, append=tail, signed_for={'consent': c, 'consent_for': digest,
+                                                         'consent_v': getattr(record, 'CONSENT_V', None)},
+                said=LINE_COUNTS if folder else LINE_COUNTS + ' ' + LINE_NO_DIR)
+
+
 # ---------------------------------------------------------------- CLI
 
 def _load(p):
@@ -874,6 +1011,22 @@ def main(argv=None):
         r = check()
         print(json.dumps(r, indent=2, sort_keys=True))
         return 0 if r['ok'] else 1
+    if argv[:1] == ['line']:
+        lp = argparse.ArgumentParser(prog='acts.py line', description='The unsigned line one act writes.')
+        for x in ('items', 'item_id', 'actor', 'key'):
+            lp.add_argument(x)
+        for x in ('--agent', '--consent', '--text', '--why', '--option', '--now'):
+            lp.add_argument(x)
+        la = lp.parse_args(argv[1:])
+        try:
+            folded = _load(la.items)
+        except (OSError, ValueError) as e:
+            print('acts: %s' % e, file=sys.stderr)
+            return 2
+        r = line_for(_find(folded, la.item_id), la.actor, la.key, folded=folded, now=la.now, text=la.text, why=la.why,
+                     agent=la.agent, consent=la.consent, option=la.option)
+        print(json.dumps(r, indent=2, sort_keys=True, ensure_ascii=False))
+        return 0 if r.get('line') else 1
     ap = argparse.ArgumentParser(description='The acts a card offers this reader, from the registry.')
     ap.add_argument('items')
     ap.add_argument('item_id')
