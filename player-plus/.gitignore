@@ -38,3 +38,4 @@ engine/.person-token
 # The phone door (hud/serve.py): its certificates and keys, and the hashes of paired phones
 .phone-door/
 .hud-devices
+/.hud-token
