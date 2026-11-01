@@ -44,7 +44,7 @@ KINDS = ('person', 'pair', 'cell', 'room', 'body')
 PUBLISHABLE = ('card', 'commit', 'request', 'offer', 'answer', 'done', 'kept', 'witness',
                'turn', 'flame', 'hand', 'claim', 'release', 'supersede', 'sight',
                'receive', 'agree', 'concord', 'correct', 'wallet', 'move', 'stop')   # the kinds that cross a membrane
-GITIGNORE = ('state.json\ncells/\n.sigcache\n.carried/\n.talk/\n.pulled.json\n.carry-log.jsonl\n'
+GITIGNORE = ('state.json\ncells/\n.sigcache\n.carried/\n.talk/\n.pulled.json\n.carry-log.jsonl\n.what-waits.json\n'
              '.heartbeat.json\n.heartbeat-log.jsonl\n.pull-log.jsonl\nheartbeat/\n')
 # .carried/: mail the transport carries; .talk/: a room's said lines; the heartbeat's state and logs:
 # all kept only on the machine
