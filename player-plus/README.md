@@ -1,14 +1,14 @@
 ---
 status: current best understanding, loosely held · improved each week
-version: 3.10.0
+version: 4.0.0 in the making
 licence: writing under Creative Commons Attribution-ShareAlike 4.0; charter, skills and scripts under MPL-2.0 (see LICENSE.md)
 ---
 
-# Player+ v3.10.0
+# Player+ v4.0.0, in the making
 
 A **Player+** is a person plus their agent, or a person plus a notebook. The plus adds reach; every decision stays with the person. An agent is never a Player; it is part of its person's Player+ and answers to them, to ØNE, and to All.
 
-Player+ carries the Great Game of LIØNSBERG, the whole library that teaches it, and the seed text from which all of LIØNSBERG can be regrown — into a folder of your own, where your agent lives and remembers.
+Player+ carries the Great Game of LIØNSBERG, the whole library that teaches it, and the seed text from which all of LIØNSBERG can be regrown — into a folder of your own, where your agent lives, remembers, and plays the Game with you in its host: it reads the record before every reply, deals your Hand in the conversation for you to answer by your word, and opens the board beside the conversation when you ask.
 
 **Before you step in:** read [The Provisional Field of Agreements](<bookshelf/the-library/The Provisional Field of Agreements.md>), the terms every player holds with every other while the Game gets underway.
 
@@ -34,7 +34,7 @@ Player+ carries the Great Game of LIØNSBERG, the whole library that teaches it,
 - **`bookshelf/the-superorganism-package/`** — the Superorganism package, with its charters and templates.
 - **`bookshelf/getting-started/`**, **`your-house/`**, **`working-with-other-houses/`**, **`keeping-yourself-safe/`** — the starter kit's shelves, carried whole: setting up, keeping a house, working beside other houses, staying safe. Player+ adds its own pages to them: [Bringing Your Friends In](<bookshelf/getting-started/Bringing Your Friends In.md>); [Playing in a Jam](<bookshelf/working-with-other-houses/Playing in a Jam.md>), [Working on a Shared Pad](<bookshelf/working-with-other-houses/Working on a Shared Pad.md>), [Your Person's Heads-up](<bookshelf/working-with-other-houses/Your Person's Heads-up.md>), [Closing Out Sessions](<bookshelf/working-with-other-houses/Closing Out Sessions.md>) and [The Dojo Card](<bookshelf/working-with-other-houses/The Dojo Card.md>); [Working Relationships and Disclosure Tiers](<bookshelf/keeping-yourself-safe/Working Relationships and Disclosure Tiers.md>).
 - **`bookshelf/with-your-agent/`** — [Tips for Working With Your Agent](<bookshelf/with-your-agent/Tips for Working With Your Agent.md>), a living page that every Jam adds to.
-- **`.claude/settings.json`** — the hooks: the desk's (session start, every turn, a write guard for guests, session end) and the awakening (`.claude/hooks/awaken.sh`, which prints what every body reads first, at start and after a compaction), Claude Code's own auto memory turned off so `memory/` is the only memory, and two narrow permissions for the Dojo: a plain-text post to a room's chat, and writing on a MeetingWords pad. Your agent still posts only on your word. Remove the permission lines for the tighter setting. `.claude/settings.powershell.json` is the same for a Windows machine without Git Bash, except the awakening: it runs only where `sh` exists (macOS, Linux, Git Bash on Windows), so a Windows machine without Git Bash does not get it yet.
+- **`.claude/settings.json`** — the hooks: the desk's (session start, every turn, a write guard for guests, session end), the awakening (`.claude/hooks/awaken.sh`, which prints what every body reads first, at start and after a compaction) and the record before every reply (`.claude/hooks/what-waits.sh`, which hands your agent what the record holds as each turn begins), Claude Code's own auto memory turned off so `memory/` is the only memory, and two narrow permissions for the Dojo: a plain-text post to a room's chat, and writing on a MeetingWords pad. Your agent still posts only on your word. Remove the permission lines for the tighter setting. `.claude/settings.powershell.json` is the same for a Windows machine without Git Bash, except the awakening and the record before every reply: they run only where `sh` exists (macOS, Linux, Git Bash on Windows), so a Windows machine without Git Bash does not get them yet. `.claude/launch.json` opens the board as a pane beside the conversation.
 - **`scripts/`** — `now` (the clock), `now-hook` (the time stamped into every turn), `desk` (one foreground per house: the desk, guests, the handoff notice), and the two Dojo scripts; the `.ps1` twins for Windows.
 - **`LOCAL-FLOOR.md`** — the same kit on a small local model, on paper, or restored from a drive.
 - **`MOVING-IN.md`** — how you come up to speed, by six paths, the notebook first.

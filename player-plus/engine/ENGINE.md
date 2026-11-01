@@ -11,7 +11,7 @@
 - **Contract:**
   - **With the ICE above it:** `STATE.md`, chiefly `cards`, `path`, `buffers`, `load` and `plan`.
   - **What it reads below it:** the Record's contract, `SCHEMA.md` (the lines, the types in `types.json`, the fold). It also reads `calendar.json` (`markers` and working days) and `holon.json` (`places`, `periods`, `home_place`, `capacity_assumed`, `targets`, `baseline`).
-- **Tests:** `tests/test_schedule.py`, `test_plan.py`, `test_chain.py`, `test_resources.py`, `test_reliability.py`, `test_sbs.py`, `test_exports.py`, `test_capture.py`, `test_two_houses.py` and `test_game.py`, with a module of its own for each module of the collaboration surface. The Record's and the Proxy's tests sit beside them and are theirs. In all, `engine/tests/` holds 46 test modules and 1595 tests (1 skipped), the three layers' together.
+- **Tests:** `tests/test_schedule.py`, `test_plan.py`, `test_chain.py`, `test_resources.py`, `test_reliability.py`, `test_sbs.py`, `test_exports.py`, `test_capture.py`, `test_two_houses.py` and `test_game.py`, with a module of its own for each module of the collaboration surface. The Record's and the Proxy's tests sit beside them and are theirs. In all, `engine/tests/` holds 53 test modules and 1751 tests (1 skipped): the three layers' together, and beside them the tests of the kit's hooks, the Hand in the session, the board as a pane, the way in and the matrix's measure (`test_awakening.py`, `test_awakening_hook.py`, `test_what_waits.py`, `test_hand_in_session.py`, `test_hud_pane.py`, `test_way_in.py`, `test_measure.py`).
 
 ## The boundary: which files in `engine/` are this layer
 
@@ -24,6 +24,19 @@
 | **The Proxy** | `proxy.py` · `routes.json` · `vendors.sample.json` · `mail.py` (its door to mail) |
 
 **The rule:** an Engine module imports only other Engine modules and the standard library. It reads the Record through the fold's output and `types.json` as data, never through `record.py`'s insides. The exception today is `engine.py`, the state builder, which calls `record.read`/`fold`. That is the one door between the layers. The rule is the aim and not yet the fact: of this layer's modules, `acts`, `carry`, `concordance`, `connections`, `deal`, `directory`, `heartbeat`, `ledger`, `negotiation`, `pull`, `receipt`, `rooms`, `sightings`, `stops`, `subscriptions`, `turn` and `wallet` import `record.py` today (`acts` reads who may make an act through `record._who_ok`, so a card offers only what the fold accepts). They are named here so the boundary is drawn true, and they move behind the one door as the layers move apart.
+
+## The hooks beside the modules
+
+The kit's hooks in `.claude/` are not this layer; they are how the agent in its host meets it. Each calls one entry point of this layer, reads, and writes nothing in the record.
+
+| hook | when it runs | what it calls in this layer | what it writes |
+|---|---|---|---|
+| `.claude/hooks/awaken.sh` | every start and every compaction (`SessionStart`, `startup` and `compact`) | `plain.three` and `plain.render`, the three answers for the person | nothing (python runs with `-B`; the signature cache is read, never saved) |
+| `.claude/hooks/what-waits.sh` | before every reply (`UserPromptSubmit`) | `plain.py HOME PERSON --hook`, the three answers and the lines since the last turn, for the agent | only its stamp, `.what-waits.json` in the home, derived and safe to delete |
+| the Hand in the session (`skills/the-deal`) | when the person answers a dealt card by word | `acts.py line`, the line one act writes at the person's word, or why none is written | nothing; the agent appends the line it prints, on the person's yes |
+| the board as a pane (`.claude/launch.json`, `the-board`) | when the person asks for the board | the state builder (`engine.py state`), through `hud/serve.py`, as the HUD has always read it | what the HUD writes for an act, the same line as in the conversation |
+
+Both shell hooks run where `sh` exists (macOS, Linux, Git Bash on Windows), exit 0 whatever they find, and say what they could not read rather than an empty answer.
 
 ## The one engine: what it computes
 

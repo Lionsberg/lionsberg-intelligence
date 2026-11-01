@@ -21,10 +21,10 @@ description: Candidate features for the Player+ Kit, kept so they are neither lo
 | The world's Sightings tonight | The Map's widest view: what every holon elevated today | elevation; the shared map of reality |
 | The paper card that works | A printed Deal answered in pencil, read back by an agent from a photo | the paper mirror; the invitation card |
 | The live arc on a stage | A commitment made, kept and witnessed across two houses in ten minutes, the export verified on screen; a candidate first demonstration | the whole |
-| Conversation first, everywhere | The first screen is the conversation with your own agent; the views of the cards are one tap away behind More and never required. The frame's top level is Agents · Talk · More | the dock; the Talk place |
+| ~~Conversation first, everywhere~~ | ~~The first screen is the conversation with your own agent; the views of the cards are one tap away behind More and never required.~~ Built in 4.0 in the agent's host (below). The ICE's own frame, Agents · Talk · More, stays with the ICE as the way in | the dock; the Talk place |
 | The phone as a first-class surface | Most people meet their agent on a phone. The ICE on the player's own machine, reached from the phone over the private network, is the door that keeps the proxy, so the phone experience has to be world class, never a shrunken desk | the phone door; the Proxy |
 | Other harnesses | The agent host speaks the Agent Client Protocol, so a row in the agents file may start any harness that speaks it. The command-line harness runs through its adapter today; OpenCode, Codex and Gemini are candidates to prove, one row each, with the same dock and the same record | the agent host; the agents file |
-| Discernment in conversation, not dashboards | The few things to discern now, said in conversation, in place of a wall of figures. The Deal and the Talk place carry this; the Ledger and the Chain stay one tap away | the Deal; the Talk place |
+| ~~Discernment in conversation, not dashboards~~ | ~~The few things to discern now, said in conversation, in place of a wall of figures.~~ Built in 4.0 in the agent's host (below) | the Deal; the Talk place |
 
 ## The measure of every surface change
 
@@ -57,7 +57,18 @@ Every holon's agent points to one surface: the Record each holon writes, the Eng
 - **Not yet built: a Receipt time per row.** Every row that carries a line to another holon says when they had it, or that they have not yet.
 - **Not yet built: the training program's tool.** Named here so it is not lost; its shape is to be drawn.
 - **Not yet built: the Path's pointers.** The kit holds no pointer into the Path or its Gates yet (`engine/level.py` says so); the way deeper lives in the canon, and a Card's next depth is to point there.
-- **Not yet built: the first-time player's hour as the real test.** A person who has never played, with no training, plays their first hour on the kit, and that hour is the measure of the surface, beyond every test and every cold read.
+- **Not yet built: the first-time player's hour as the real test.** A person who has never played, with no training, plays their first hour on the kit, and that hour is the measure of the surface, beyond every test and every cold read. 4.0 is called 4.0.0 only after it: one such person, by voice, with their own agent in its host, watched, and every place they stalled repaired.
+
+## The Game played in the agent's host
+
+The person's agent, in its host, is where the Game is played; the board is one pull away.
+
+- **Built in 4.0, in the making: the experience in the session.** The awakening of every body, with the persona's character matrix imported by the charter and the hook on every start and every compaction; the record handed to the agent before every reply, for its eyes; the Hand dealt in the conversation and answered by the person's word, with the read-back as the undo; the board as a pane beside the conversation, on a pull; the way in rewritten with the purpose first; the instrument that measures the matrix's defaults; the skills said as the Game, to a whole agent. What it left open follows.
+- **Not yet built: the measurement run.** The instrument (`personas/measure/`) is built and has not been run. A run plays each scenario with the matrix absent and loaded, at a fresh start and after a long context, rated by an independent reader; until it lands, every default in the matrices is an estimate, said as one.
+- **Not yet built: the carrier's scenarios.** The carrier's matrix has axes of its own (fidelity to the Seed, provenance, scope), and no scenarios are written for them; when they are, they fold the same way as the companion's.
+- **Not yet built: a Windows awakening.** The awakening and the record before every reply are `sh` scripts. A Windows machine without Git Bash, on `.claude/settings.powershell.json`, gets neither; a PowerShell twin of each would close the gap.
+- **Not yet built: a holon's switch to 4.0.** A holon that already runs its own engine and HUD plays on the kit's 4.0 only after the shadow run beside it, until every difference is explained (`engine/ENGINE.md`, the gate), and by its person's word; its own words stay its own.
+- **Not yet built: the first-time player's hour** (above, under the collaboration surface): the test after which 4.0 is called 4.0.0.
 
 ## The way in with the desktop app only
 
