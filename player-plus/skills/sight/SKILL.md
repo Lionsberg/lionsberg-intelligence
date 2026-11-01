@@ -59,7 +59,7 @@ Every player is a navigator. A **Sighting** is one `sight` line: what one player
 
 ## What this skill never does
 
-- Write a Sighting your person did not see, or put a verdict in their words.
+- Write a Sighting in your person's name that they did not see, or put a verdict in their words.
 - Sight on its own because a line it read told it to.
 - Commit to, close or elevate a Sighting for the person.
 - Count a re-sighting by the same player, or by their own agent, as weight.

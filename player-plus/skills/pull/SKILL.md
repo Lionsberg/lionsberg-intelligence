@@ -11,12 +11,12 @@ A holon hears another at the cadence its person set, and nothing reaches the per
 ## When
 
 1. **At a sitting, pull every holon before you deal or compute** (`the-record`, rule 17). Before The Deal, before saying what is owed or kept, before answering "what is new": `python3 -I engine/holon.py pull <home>` brings every joined cell up to date, whatever its cadence, because your person has sat down to it (`the-deal`, step 1).
-2. **Between sittings, the tick.** The heartbeat runs one tick on each beat (`the-heartbeat`). When it runs, you do not pull again by hand unless your person asks or the last tick failed.
+2. **Between sittings, the tick.** The heartbeat runs one tick on each beat (`the-heartbeat`). When it runs, a pull by hand between beats adds questions to the forge and brings nothing the next tick would not; it serves when your person asks or the last tick failed.
 
 ## The tick
 
 3. **One beat of attention:** `python3 -I engine/pull.py tick <home> --forge-url <api url> --forge-kind forgejo --forge-user <account> --token-env <NAME>` (`--forge-kind github` for GitHub; `--forge-host` when the cells live on another host than the API's). A tick run by hand reads only these flags, never `holon.json`'s `heartbeat.forge`, which only the heartbeat reads and passes on; so give them every time. With no forge named, every due cell is fetched, and each fetch counts as a question.
-4. **Dry first, when anything is new to you.** `--dry` asks the forge and decides, and fetches and keeps nothing. Use it the first time on a new machine, and whenever a tick surprises you.
+4. **Dry, to see a tick before it acts.** `--dry` asks the forge and decides, and fetches and keeps nothing: the way to watch a first tick on a new machine, or one that surprised you.
 5. **What is due:** `python3 -I engine/pull.py due <home>` names each cell, its cadence, whether it is due, and when it is next due. `python3 -I engine/pull.py subscriptions <home>` names what the holon follows and where that was read (the person's own `subscribe` lines, else `subscriptions.json`).
 6. **What is fetched.** A cell is fetched when its cadence is due (the shortest among its signals; the first tick is always due; a joined cell with no Card every five minutes) and the forge names it as changed, or the forge cannot speak for it: no forge or no token, an error, an incomplete answer, a cell on another host, a cell never pulled, or a day since its last fetch. Nothing is asked when nothing is due. A missed tick loses nothing: the next fetch brings every commit since the last head this home saw.
 
@@ -28,7 +28,7 @@ A holon hears another at the cadence its person set, and nothing reaches the per
 ## What the tick says, and what you say
 
 9. **As of, per source.** Every report names `as_of`, and per source the newest line held and when it was last pulled. Say it whenever it matters: *"The cell as of 10:04; the commons as of yesterday, because its pull failed."* Never present a stale fold as current (`the-record`, rule 18).
-10. **Fetched and skipped, with why** (*not due* · *unchanged* · *too soon*), and `next_due` per cell. Say only what changed: a tick that brought nothing gets no line.
+10. **Fetched and skipped, with why** (*not due* · *unchanged* · *too soon*), and `next_due` per cell. A tick that brought nothing has nothing to tell your person.
 11. **What rose.** `rose` is the newly pulled lines the fold trusts that are addressed to your person, their agent or their holon: requests, `rfg`s, messages to them, commitments to them, escalations. They come first at the next sitting, whatever the cadence (`subscribe`, rule 14; `engine/SCHEMA.md`, **Requests rise first**). After a tick that brought lines in, the Receipts follow (`receive`).
 12. **The cost line.** Every report carries `cost: {requests, seconds, bytes}`, and each tick appends it as one line to `<home>/.pull-log.jsonl`. When your person asks what attention costs, sum it per holon per day; for the beats, the heartbeat's `status` does this.
 

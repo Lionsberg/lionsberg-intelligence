@@ -12,7 +12,7 @@ Every holon is always awake. A process on some host that never sleeps pulls the 
 
 1. **In order:** pull what is due (`pull`); write Receipts for the home's agent and person when anything is new (`receive`); read the signals (a request that rose, a pain sighted by another, a fault such as a cell that could not be pulled, a commitment on a critical card whose buffer went negative); classify each by the person's own rule, and ring the bell only by permit; wake the agent when it is owed; record.
 2. **What it records.** Two `body` lines by the agent per wake that ran (working, then done, named `heartbeat`, `reason: delegated`, so under a live delegation from your person that covers `body`), never one per beat; a wake that could not start writes no `body` line and is logged `ok: false`; one JSON line per beat in `<home>/.heartbeat-log.jsonl`; what it remembers in `<home>/.heartbeat.json`. Both files are derived and safe to delete.
-3. **One beat by hand:** `python3 -I engine/heartbeat.py beat <home>`. `--dry` asks and decides, and fetches, wakes and keeps nothing. Run a dry beat once before anything is installed, and read its `said` to your person in a line.
+3. **One beat by hand:** `python3 -I engine/heartbeat.py beat <home>`. `--dry` asks and decides, and fetches, wakes and keeps nothing. A dry beat before anything is installed shows what the heartbeat would do, and its `said` is the line for your person.
 
 ## When the agent is woken
 
@@ -50,7 +50,7 @@ reason: human
 ```
 
 13. **Each rule** names its `signal` (commitment · sight · request · say · security · fault) and `wake`, and may name `on: critical`, `kind` (the Sighting kinds it covers), `from` (`members`, or `permit`) and `when`, read in a small fixed grammar and never run as code: `<field> < <number>`, `<field> > <number>`, `<field> == <value>`, `by < next_sitting`, `outside_limits`, `<field> outside_limits`. The first rule that matches decides; with none, `else`. A rule outside the grammar matches nothing and is said under `ignored`. To see how one signal would fall: `python3 -I engine/emergency.py classify <signal.json> --rule <rule.json> --members <person:x …>`, where the rule file is a rule set marked as theirs, `{"rules": [ … ], "else": "wait", "basis": "limits"}`; a bare rule or list is refused and the default answers. Leave out `--rule` to see how the default would fall.
-14. **Inside the limits is the stream's own variation.** Waking a person for it is the costlier mistake. When they ask to be woken for more, say that once, kindly, and then draft what they asked for.
+14. **Inside the limits is the stream's own variation.** Waking a person for it is the costlier mistake. When they ask to be woken for more, that is worth one line, and then the draft of what they asked for: the rule is theirs.
 
 ## Install, by their own hand
 

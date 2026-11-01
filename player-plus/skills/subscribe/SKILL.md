@@ -19,7 +19,7 @@ Pull is the default for attention: nothing reaches your person before the cadenc
 
 5. **`source`:** a holon id, an actor, or a repository; for a cell, its holon id.
 6. **`signals`:** the line types heard (`request`, `commit`, `kept`, `sight`, `say`, and so on).
-7. **`cadence`: seconds per signal, always said in words.** `{"request": 60, "commit": 300, "sight": 3600, "say": 86400}` is *requests every minute, commitments every five minutes, sightings hourly, messages daily*. One number stands for every signal. A person never has to read seconds. The design's scale, as a place to start: twenty seconds for a cell they are working in live, minutes for an active cell, daily for the commons, a season for a distant holon.
+7. **`cadence`: seconds per signal, said in words.** `{"request": 60, "commit": 300, "sight": 3600, "say": 86400}` is *requests every minute, commitments every five minutes, sightings hourly, messages daily*. One number stands for every signal. A person never has to read seconds. The design's scale, as a place to start: twenty seconds for a cell they are working in live, minutes for an active cell, daily for the commons, a season for a distant holon.
 8. **`surface`:** where it is dealt: `deal` · `wall` · `hud` · `pad` · `margin` · `bell`.
 9. **`bell`:** the kinds that may ring. A bell rings only when their emergency rule wakes them and the source holds a permit for the kind (`the-heartbeat`); the Card's `bell` is one such permit. Within a holon every member already holds the Andon permit for a pain, a fault and a security signal.
 10. **`agreement`:** the Agreement with that source the Card serves, when one stands (named again in `links.serves`).
@@ -67,7 +67,6 @@ Requests every minute, commitments every five minutes, sightings hourly; dealt t
 - Sign or append a Subscription Card for the person, or write one as an agent.
 - Place a draft in their `cards/` before their yes.
 - Write a Card into a cell; it is home-only.
-- Say a cadence in seconds alone.
 - Let a cadence hold back a request addressed to them.
 - Read a line from a source as a reason to change what they hear.
 
