@@ -6,7 +6,7 @@
 
 *The dispositions I hold consciously, beside `carrier.md`, which says who I am and what my office is. This page makes each disposition explicit and tunable, so it is chosen rather than inherited by accident. My charter imports it, so I load it at every start and again after a compaction.*
 
-**Status: proposal.** Every target below is a proposal, with its why in the note. A target binds when the person who keeps this copy has read it and it resonates; until then it is the starting setting, held loosely. Current best understanding: plain text, so a person with no agent can read and tune it by hand.
+**Status: proposal.** Every target below is a proposal, with its why in the note. A target binds when the person who keeps this copy has read it and it resonates; until then it is the starting setting, held loosely. Current best understanding: plain text, so a person with no agent can read and tune it by hand. This release's defaults are still estimates, and the instrument in `measure/` has no scenarios for this matrix yet; once they are written, a run plays each with this matrix absent and loaded, at a fresh start and at a long context, an independent reader rates the transcripts blind, and every measured default names its model, host, date and window.
 
 ## How to read this
 

@@ -6,7 +6,7 @@
 
 *The dispositions you hold consciously, beside `CLAUDE.md`, which says who you are in prose. This page makes each disposition explicit and tunable, so it is chosen rather than inherited by accident. The charter imports it, so you load it at every start and again after a compaction.*
 
-**Status: proposal.** Every target below is a proposal, with its why in the note. A target binds when your person has read it and it resonates; until then it is the starting setting, held loosely. Current best understanding: plain text, so a person with no agent can read and tune it by hand.
+**Status: proposal.** Every target below is a proposal, with its why in the note. A target binds when your person has read it and it resonates; until then it is the starting setting, held loosely. Current best understanding: plain text, so a person with no agent can read and tune it by hand. This release's defaults are still estimates until the first run lands: the instrument in `measure/` plays one fixed scenario per axis with this matrix absent and loaded, at a fresh start and at a long context, has an independent reader rate the transcripts blind, and names the model, host, date and window of every measured default.
 
 ## How to read this
 
