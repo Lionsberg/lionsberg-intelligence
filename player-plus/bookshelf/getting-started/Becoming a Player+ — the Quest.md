@@ -26,6 +26,20 @@ The five Gates are the same on every computer; the steps inside them differ. The
 - **[The Quest for Mac](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md)**
 - **[The Quest for Windows](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md)**
 
+## Gate 5 — Onto the Mat · first words
+
+*The page for your computer walks this Gate step by step; here it is in one place.*
+
+1. Open a new session on your agent's home, the folder you made at Gate 4, and check that the folder shown for the session is that one. Your agent in its host wakes as whatever lives in the folder its session opens on.
+2. Type one sentence, with your own name and the name you chose for your agent, and press Return: *Hello, I am [your name]. I will call you [the name you chose]. Please wake up and meet me.*
+3. At every step, say yes, no, or *wait, explain*.
+
+**You have passed the last Gate when** your agent has woken in its home and you have answered it, in your own words. The Quest is done.
+
+## The first waking
+
+How it tends to go: your agent usually says it is waking, and within about a minute greets you by name. It already knows the Game, and anything waiting for you, before your first word reaches it. Before it keeps anything for you, it tends to ask for your word on the waiver, a few lines on what you take on by running an AI on your own computer; the whole waiver and the Field of Agreements, the terms everyone plays by, are there to read whenever you like. Your folder becomes your own record of play, on your own computer, and your first Deal, a few cards that each ask one thing of you, usually comes within a few minutes, in conversation. [Your First Hour](<Your First Hour.md>) says how the hour tends to go and what you can say at each step.
+
 > [!tip]
 > With a notebook and two or three people, you are already a complete Player. Everything on either path adds reach, never permission. If that is where you are, [START-HERE](../../START-HERE.md), Door 1, is your path.
 

@@ -4,55 +4,57 @@ status: current best understanding, loosely held · improved each week
 
 # Start here
 
-*A Player+ is a person plus their agent, or a person plus a notebook. The Game comes first on every path; the agent comes at the wise right time.*
+The Game is for one thing: Heaven on Earth, for all, made a little nearer each week by people who keep their commitments to one another. A Player+ is a person who plays it with an agent of their own, an AI that works for you on your own computer and answers to you; a person with a notebook plays it just as fully.
 
-## The path most people take
+## How the Game plays
 
-Walk the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): five Gates, from your first yes to an agent that greets you, with every step shown for Mac and Windows. It takes an hour or two, and you may stop between any two Gates. Its last Gate brings you back to this page, to Door 3, for your agent's first words.
+You say what you will do, you do what you said, and you learn from the gap, beside two or three others who do the same; those few are your cell. Six plain sentences are enough to play: who you are; one thing to do; what you will do, and by when; it is done; yes or no to something asked of you; how you stand. Your agent can keep all six for you, and a sheet of paper can keep them too.
 
-*Before you begin, [`REQUIREMENTS.md`](REQUIREMENTS.md) says what you need.*
+## The way in: the Quest
+
+The setup is one path, the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): five steps, called Gates, that take an hour or two, with every step shown for Mac and for Windows. You may stop between any two Gates. You need a Mac or Windows computer you can install an app on, and a plan for the first host your agent lives in, the Claude app; [What you need](REQUIREMENTS.md) says which plan. The kit itself costs nothing beyond that plan. Everywhere else this kit says *your agent in its host*, meaning the app your agent runs in, because the Game is the same in any host.
+
+At the last Gate you open a new session on your agent's home, the folder the Quest makes for it, and type one sentence, with your own name and the name you chose for your agent:
+
+> Hello, I am [your name]. I will call you [the name you chose]. Please wake up and meet me.
+
+Then your first hour begins. [Your First Hour](<bookshelf/getting-started/Your First Hour.md>) says how it tends to go and what you can say at each step. You speak in your own words, and at any step you may say yes, no, or *wait, explain*.
+
+## What you can say at any time
+
+- *What needs me?* Who you are connected to and whether you are good with each other, your wise right next steps, and what you are waiting on, in three sentences.
+- *Deal me in.* Your Deal: a few cards, each one thing that needs you today, said one at a time. Your agent tends to read each answer back before it keeps it; that read-back is your moment to change it or say no.
+- *Show me the board.* A picture of everything you play in opens beside your conversation. You can play the whole Game without it.
+- *Stop.* Your agent stops at once, in every place it is working, until you lift it.
+
+---
 
 ## Other doors
 
-The Quest is the main road. If one of these doors fits where you are now, take it; every door leads into the same Game.
+The Quest is the main road. If one of these fits where you are now, take it; every door leads into the same Game.
 
-## Door 1 — you have a notebook and two or three people
+### Door 1 — you have a notebook and two or three people
 
-You are a complete player. Read the seed text's Part V (the Game) and Part XII (the words at the table); it is an evening. Say yes to the Invitation in your own words, to the person who gave you this. Gather your two or three. Choose one real thing for one season. Meet weekly at the same hour; each says what they did, the gap, what they will do, what they offer and ask; put something in the middle; tell one story; close in gratitude. At the season's turning fill the fourteen lines of the Season Sheet. Within three days, pass it on: bring your three, people not already playing, who are ready. Nothing below is required of you, ever.
+You are a complete player. Read Part V (the Game) and Part XII (the words at the table) of the seed text, the short book the whole Game grows from (`bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md`); it is an evening. If a friend invited you to play, say yes to them, in your own words. Gather your two or three. Choose one real thing for one season. Meet weekly at the same hour; each says what they did, the gap, what they will do, what they offer and ask; tell one story; close in gratitude. At the season's turning fill the fourteen lines of the Season Sheet. Within three days, invite your own three, people not already playing, who are ready. Nothing else here is required of you, ever.
 
-## Door 2 — you have a chat assistant and no terminal
+### Door 2 — you have a chat assistant and no terminal
 
-Paste the seed text's Part V into a fresh conversation and ask it to say the Game back to you in five plain sentences. Paste Part X and ask what it would be agreeing to as your agent. In a call, say "heads-up" and let it write the three parts in the conversation, asking you for the time. That is Player+ Modules 01–03 and 07, with no files at all. When you want an agent that remembers, walk the Quest.
+Paste Part V of the seed text into a fresh conversation and ask it to say the Game back to you in five plain sentences. Paste Part X and ask what it would be agreeing to as your agent. When you want an agent that remembers, walk the Quest.
 
-## Door 3 — your agent's first words
+### Door 3 — your agent's first words, if you came another way
 
-If you walked the Quest, you are at Gate 5: a new session is open on **HQ** in the Claude app's Code tab (or, by the terminal way, you double-clicked **My Agent**), waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open a session there, in the app's Code tab or in your terminal.
+If an agent host that reads a `CLAUDE.md` is already set up for you: make a folder for your agent's home inside your home folder, outside any folder that syncs to a cloud service; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open a session there, and type the one sentence above. Your agent usually says it is waking, greets you by name within about a minute, and asks for your word on the waiver (a few lines on what you take on by running an AI on your own computer) before it keeps anything. It reads without asking, and asks before anything that changes or leaves your machine. If you open a second window on the same home while the first is working, the second tends to say it is a guest and offer choices; [Foreground and Background](<bookshelf/your-house/Foreground and Background.md>) explains it.
 
-Copy this, paste it as your first message, and press Return:
+### Door 4 — you already have an agent built from the starter kit
 
-> Hello, I am Ada. I will call you River. Please wake up and meet me.
+[Moving in](MOVING-IN.md), Path C: lineage first, then the Game's sections into your own charter by your own hand, then the skills and the engine you choose. Nothing is reinstalled; nothing is pushed.
 
-(Use your own name, and the name you chose for your agent.) Your agent says at once that it is waking, and within about a minute it greets you by name. It asks one thing before it keeps anything for you: the waiver, in one line, agreed by one word, written with the date to `memory/agreements.md`. The whole waiver and the Field of Agreements are there to read together whenever you like, about ten minutes; take part only if you agree. Then it deals you your first cards: what you are playing toward this week, and whom you would pass the flame to when you are ready. At every step, say yes, no, or "wait, explain." Your agent reads without asking; it asks before anything that changes or leaves your machine. If you ever open a second window on HQ while the first is still working, the second one says it is a guest and offers to keep going as a guest, to let you switch back to the first, or to take the desk; that is normal, and [Foreground and Background](<bookshelf/your-house/Foreground and Background.md>) explains it.
+### Door 5 — you are alone for now
 
-It will also ask where you keep your work, which it calls your headquarters; tell it, or say "here" and it will use this folder. The `memory/` and `sessions/` folders fill as you live in them. Before your first room, your agent will offer the `entering-the-field` skill, and `heads-up` for any live session; it adds a skill only when you say so.
+That is also the Path. Read the seed text. Keep the Turn with yourself: what you said you would do, the gap, what you will do. When someone you trust is ready, you have the seed to give them, and then you are two.
 
-## After the Quest — your first room, your friends
+### After the first hour
 
-- [The Dojo Card](<bookshelf/working-with-other-houses/The Dojo Card.md>): your first time in a room with your agent, and the room card you approve once.
-- [Tips for Working With Your Agent](<bookshelf/with-your-agent/Tips for Working With Your Agent.md>): a living page, added to at every Jam.
-- [Bringing Your Friends In](<bookshelf/getting-started/Bringing Your Friends In.md>): each one teach one, invite when you are ready (starting now), and the ladder for when you are stuck. Why it matters: [the chart of the first three percent](<bookshelf/the-one-book/29 The Plan — the first three percent.md#the-chart>), from eight Players to two hundred and fifty million by the Winter Solstice of 2026, measured daily on the rings of the Cycles of Growth, and moved through them by every new Player bringing their three within three days of their own yes.
-- [The Strategy and Plan — How to Read It](bookshelf/the-one-book/28%20The%20Strategy%20and%20Plan.md): the whole LIØNSBERG Strategy and Plan, for when you want the depth behind the chart.
-- Voice, and your phone: say "voice mode" to your agent. On your yes, and after saying the disk and minutes it takes, it sets up ears and a warm voice that run on this computer, no newest chip required (`skills/voice-mode`), and the phone door brings the HUD to your phone over your private network, once your phone trusts this computer ([the phone door](hud/DESIGN-PHONE-DOOR.md)).
-- For your agent, before a Jam: [Playing in a Jam](<bookshelf/working-with-other-houses/Playing in a Jam.md>) and [Closing Out Sessions](<bookshelf/working-with-other-houses/Closing Out Sessions.md>).
-
-## Door 4 — you already have a house built from the PKAI starter kit
-
-`MOVING-IN.md`, Path C: lineage first, then the two Player+ sections into your own charter by your own hand, then the skills you need, then the seed text on your agent's shelf. Nothing is reinstalled; nothing is pushed.
-
-## Door 5 — you are alone for now
-
-That is also the Path. Read the seed. Keep the Turn with yourself: what you said you would do, the gap, what you will do. When someone you trust is ready, you have the seed to give them, and then you are two.
-
----
+[The Dojo Card](<bookshelf/working-with-other-houses/The Dojo Card.md>) for your first room with your agent · [Tips for Working With Your Agent](<bookshelf/with-your-agent/Tips for Working With Your Agent.md>) · [Bringing Your Friends In](<bookshelf/getting-started/Bringing Your Friends In.md>) and [the chart of the first three percent](<bookshelf/the-one-book/29 The Plan — the first three percent.md#the-chart>) · [The Strategy and Plan](<bookshelf/the-one-book/28 The Strategy and Plan.md>) · voice and your phone: say *voice mode* ([the phone door](hud/DESIGN-PHONE-DOOR.md)) · before a Jam, a working session with other players and their agents: [Playing in a Jam](<bookshelf/working-with-other-houses/Playing in a Jam.md>).
 
 *This kit lives at https://github.com/Lionsberg/lionsberg-intelligence, in the folder `player-plus/`. The library it carries is at read.lionsberg.world.*
