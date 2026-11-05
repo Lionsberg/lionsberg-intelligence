@@ -33,11 +33,11 @@ Then close the terminal and open it again. Type `claude --version` and press Ret
 
 ### Step 2: Sign in (Gate 4)
 
-First make your agent's home, **HQ** ([Your First House](Your%20First%20House.md)), and go into it: type `cd ~/HQ` and press Return. Then type `claude` and press Return. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
+First make your agent's home, a folder named for your agent inside **My Agents** ([Your First House](Your%20First%20House.md)), and go into it: type `cd ~/"My Agents"/River`, with your agent's name for River, and press Return. Then type `claude` and press Return. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
 
 If what you see looks a little different from this description or from any screenshots you have come across, that is normal — setup changes from time to time. Follow along and take the defaults; they are fine.
 
-When it asks whether to trust this folder, check that it names your HQ, then say yes. That is it — Claude Code is installed and signed in on your Mac, and signed in. Stay here; Gate 5 begins in this window.
+When it asks whether to trust this folder, check that it names your agent's folder, then say yes. That is it — Claude Code is installed and signed in on your Mac, and signed in. Stay here; Gate 5 begins in this window.
 
 ---
 
@@ -64,11 +64,11 @@ Then close Windows Terminal and open it again. Type `claude --version` and press
 
 ### Step 2: Sign in (Gate 4)
 
-First make your agent's home, **HQ** ([Your First House](Your%20First%20House.md)), and go into it: in your PowerShell window, type `cd "C:\Users\YourName\HQ"` with your own name, and press Enter. Then type `claude` and press Enter. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
+First make your agent's home, a folder named for your agent inside **My Agents** ([Your First House](Your%20First%20House.md)), and go into it: in your PowerShell window, type `cd "C:\Users\YourName\My Agents\River"` with your own name and your agent's, and press Enter. Then type `claude` and press Enter. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
 
 If what you see looks a little different from this description or from any screenshots you have come across, that is normal — setup changes from time to time. Follow along and take the defaults; they are fine.
 
-When it asks whether to trust this folder, check that it names your HQ, then say yes. That is it — Claude Code is installed and signed in on your Windows machine, and signed in. Stay here; Gate 5 begins in this window.
+When it asks whether to trust this folder, check that it names your agent's folder, then say yes. That is it — Claude Code is installed and signed in on your Windows machine, and signed in. Stay here; Gate 5 begins in this window.
 
 ---
 

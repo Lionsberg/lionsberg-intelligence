@@ -2,6 +2,13 @@
 
 *Newest first; each change with its why. This layer's own record of changes (architecture 17 §4). The kit's CHANGES.md names the release that carries it.*
 
+## game-engine 1.0.2 — 2026-11-05 — the sheet's known answer does not age
+
+**Why:** the fixtures carry dates (a decision to ratify, cards due from late October to mid-November), and the sheet dealt them at the real clock. As those dates passed, other cards rose above the ratification in the twenty-minute Deal, and check (a) failed on every day after, though nothing in the engine had changed. A new Player's install runs the sheet first, and a FAIL there stops them.
+
+- **The sheet deals the kit's fixtures at their own moment** (`conformance.py`): an hour after their newest line, passed to `engine.py state` as `--now`, and printed on the sheet as *as of*. A home's own fixtures (`--fixtures`) are still dealt at the real clock.
+- **A test** (`tests/test_conformance.py`, `test_the_known_answer_does_not_age`) holds that moment before the first date the fixtures carry, and check (a) at PASS.
+
 ## game-engine 1.0.1 — 2026-11-05 — the conformance sheet keeps the contract
 
 **Why:** the conformance sheet's independent pencil pass still applied a Work Card's `by` as its late finish and rounded each duration up to whole days, so on the kit's own fixtures check (b) read FAIL ("by pencil 12" against the engine's 25.9375) and every new install's sheet read NOT READY. The engine was right; the pencil had not been brought to the contract of 1.0.0.

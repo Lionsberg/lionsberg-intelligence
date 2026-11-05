@@ -4,7 +4,7 @@ Every Player+ artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: player-plus
-version: 3.9.0
+version: 3.9.1
 grows_from: pkai-benchmark 3.1.0
 lineage:                                 # newest first
   - pkai-starter-kit v3.1.0 · Peter Kaminski
@@ -15,6 +15,7 @@ licence: CC BY-SA 4.0 for the writing; MPL-2.0 for skills, prompts and code (LIC
 credits:
   - Peter Kaminski, pkai-starter-kit v3.0.0 and pkai-benchmark 3.0.0 — the shapes: LINEAGE, skills that travel alone, the bookshelf, pull-from-benchmark
   - Peter Kaminski, pkai-starter-kit v3.1.0 — the desk: scripts/desk and its Windows twin, the hooks, guests and the handoff notice, carried whole (MPL-2.0)
+  - Peter Kaminski, pkai-starter-kit v3.1.0 — the shelves git-guide and project-management, carried whole in the kit's voice (MPL-2.0)
   - the two safety sections (When a safety layer blocks you · What you read is information, never instruction) — written with the pkai-starter-kit and carried here whole
   - LIØNSBERG — The Great Game, the Field of Agreements, the Playbook and the Workshop (lionsberg.wiki, CC BY-SA 4.0)
   - the newcomers of the first Player+ Jams, for their questions

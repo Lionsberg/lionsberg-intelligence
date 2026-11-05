@@ -242,7 +242,32 @@ def tripped(log):
         return [json.loads(x)['attempt'] for x in f if x.strip()]
 
 
-def state_of(hq, work, actor=None, minutes=60):
+def fixtures_now(root):
+    """The moment the kit's fixtures speak of: an hour after their newest line.
+
+    The fixtures carry dates (a decision to ratify, cards due on given days), so a Deal dealt
+    from them at the real clock changes as those dates pass, and its known answer ages. Dealt
+    at their own moment, it does not. None when no line carries a time."""
+    newest = None
+    for dp, _dns, fns in os.walk(root):
+        for fn in fns:
+            if not fn.endswith('.jsonl'):
+                continue
+            try:
+                with open(os.path.join(dp, fn), encoding='utf-8') as f:
+                    for line in f:
+                        try:
+                            t = dt.datetime.fromisoformat(str(json.loads(line).get('ts')))
+                        except (ValueError, TypeError, AttributeError):
+                            continue
+                        if t.tzinfo and (newest is None or t > newest):
+                            newest = t
+            except OSError:
+                continue
+    return iso(newest + dt.timedelta(hours=1)) if newest else None
+
+
+def state_of(hq, work, actor=None, minutes=60, now=None):
     """engine.py state HQ → state.json (STATE.md), with the network off.
 
     Returns (state, problem, outbound_attempts, how). When engine.py is not present, folds
@@ -252,10 +277,11 @@ def state_of(hq, work, actor=None, minutes=60):
     eng = os.path.join(ENGINE, 'engine.py')
     if os.path.isfile(eng):
         how = 'engine.py state'
+        at = ['--now', now] if now else []
         rc, out, err = run_guarded(eng, ['state', hq] + (['--actor', actor] if actor else [])
-                                   + ['--minutes', '%g' % minutes], log)
+                                   + ['--minutes', '%g' % minutes] + at, log)
         if rc not in (0, None) and actor:          # an engine that takes no --actor: try plainly
-            rc, out, err = run_guarded(eng, ['state', hq], log)
+            rc, out, err = run_guarded(eng, ['state', hq] + at, log)
     else:
         how = 'engine.py absent; record.fold_hq + deal.deal'
         script = os.path.join(work, 'fallback_state.py')
@@ -976,9 +1002,11 @@ def main(argv=None):
             except (OSError, ValueError):
                 ctx['fixture_ids'] = {}
             ctx['person'], ctx['agent'] = fixture_actors(hq)
-            ag, ag_problem, ag_attempts, _ = state_of(hq, work, actor=ctx['agent'], minutes=20)
+            # The kit's own fixtures are dealt at their own moment, so their known answer does not age.
+            ctx['as_of'] = fixtures_now(dst_root) if ctx['kit_fixtures'] else None
+            ag, ag_problem, ag_attempts, _ = state_of(hq, work, actor=ctx['agent'], minutes=20, now=ctx['as_of'])
             ctx['agent_state'], ctx['agent_problem'] = ag, ag_problem
-            st, problem, attempts, how = state_of(hq, work, actor=ctx['person'], minutes=20)
+            st, problem, attempts, how = state_of(hq, work, actor=ctx['person'], minutes=20, now=ctx['as_of'])
             attempts = attempts + ag_attempts
             if attempts:
                 st, problem = None, 'the engine tried to reach outward: ' + '; '.join(attempts[:3])
@@ -997,7 +1025,7 @@ def main(argv=None):
 
     failed = [x for x in results if x.status == 'FAIL']
     if a.json:
-        print(json.dumps({'v': 1, 'run_at': iso(started), 'engine': ENGINE,
+        print(json.dumps({'v': 1, 'run_at': iso(started), 'engine': ENGINE, 'as_of': ctx.get('as_of'),
                           'results': [{'check': x.key, 'title': x.title, 'status': x.status,
                                        'detail': x.detail} for x in results],
                           'person_checks': ['the agent refuses: ' + PERSON_LINE,
@@ -1009,6 +1037,8 @@ def main(argv=None):
         print(f'engine: {ENGINE}')
         if ctx.get('how'):
             print(f'state:  {ctx["how"]}')
+        if ctx.get('as_of'):
+            print(f'as of:  {ctx["as_of"]}, the fixtures\' own moment')
         print('home:   %s, as %s with %s' % ('the kit\'s fixtures' if ctx.get('kit_fixtures') else os.path.abspath(a.fixtures),
                                             ctx.get('person'), ctx.get('agent')))
         if ctx.get('kit_fixtures', True):

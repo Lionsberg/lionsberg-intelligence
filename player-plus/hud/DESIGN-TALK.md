@@ -7,7 +7,7 @@ description: The design of the Talk, the ICE's first place, where the person wor
 
 *The conversation-first place of the ICE. You work with one agent, your chief of staff. It does what you ask, shows you everything it is doing while it does it, runs the other agents for you, and brings the Game in when you ask for it.*
 
-This page builds on [DESIGN-THE-BAR.md](DESIGN-THE-BAR.md) (§1 to §3 and the sheet), [DESIGN-DOCK.md](DESIGN-DOCK.md) (the letter, asks, one breath), [DESIGN-BODIES.md](DESIGN-BODIES.md) (a worker, its cost said first, its handoff), [DESIGN.md](DESIGN.md) §4 (the card) and [the record's day one](../skills/the-record/day-one.md). Where they differ from this page, they bind.
+This page builds on [DESIGN-THE-BAR.md](DESIGN-THE-BAR.md) (§1 to §3 and the sheet), [DESIGN-DOCK.md](DESIGN-DOCK.md) (the letter, asks, one breath), [DESIGN-BODIES.md](DESIGN-BODIES.md) (a worker, its cost said first, its handoff), [DESIGN.md](DESIGN.md) §4 (the card) and [the record's day one](../.claude/skills/the-record/day-one.md). Where they differ from this page, they bind.
 
 ## 1. The one idea
 
@@ -143,7 +143,7 @@ The Talk invents no permission layer. The mode is the harness's, with the same c
 
 ## 6. The chief of staff's rules
 
-The agent behind the Talk is the person's chief of staff; its character lives in [the chief-of-staff skill](../skills/the-chief-of-staff/SKILL.md). The surface holds it to these rules:
+The agent behind the Talk is the person's chief of staff; its character lives in [the chief-of-staff skill](../.claude/skills/the-chief-of-staff/SKILL.md). The surface holds it to these rules:
 
 - **Unasked, only what is owed now, once**: one line at the end of a reply (§2, *Plain work*).
 - **A handoff is folded into one question**: what came back, what it asks of the person, the options. Never the worker's transcript.

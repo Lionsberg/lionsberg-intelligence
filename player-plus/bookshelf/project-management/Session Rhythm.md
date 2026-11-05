@@ -1,0 +1,99 @@
+# Session Rhythm
+
+How long a session should be, when to clear the context window, and why one long daily session did not survive contact with reality.
+
+## The original plan
+
+When Pete and his agent Freya started working together, the design was **one long session per day.** Start in the morning. Work through the day. Each new "wake-up" Freya would read off the state of the world and remember everything from the previous interaction.
+
+It made sense in theory. Persistent identity, persistent context, fewer transitions.
+
+## What actually happened
+
+Pete interrupts a lot. Mid-thought, he wants to fix this thing, build that thing, research the other thing. The long-session model meant the agent's context window was constantly accumulating drift — half-finished tangents, one-off questions, dead ends. By afternoon, the context was murky. By evening, things were getting weird.
+
+The model that survived: **short sessions with frequent `/clear`.** Multiple session logs per day is normal.
+
+## Why short sessions work
+
+- **Context windows stay sharp.** You are not exercising the bot at 700K-out-of-a-million tokens, where the haystack-test decay curve starts hurting you.
+- **Caching still works.** The provider's prefix cache keeps your warm sessions cheap; clearing and starting fresh does not blow up your bill.
+- **Each session has a clear theme.** "Work on the mortgage calculator." "Triage the inbox." "Refactor the auth flow." Easier to remember, easier to log.
+- **Failure is contained.** If a session goes off the rails, you `/clear` and start over. You do not drag bad state through the rest of the day.
+
+## What "clear" means
+
+`/clear` resets Claude Code's working memory. It does *not* delete:
+
+- Files on disk.
+- `CLAUDE.md`.
+- `MEMORY.md` and the memory files it indexes.
+- Project session logs (those are files, not session state).
+- Git history.
+- The shell, your terminal scrollback, your other windows.
+
+What it *does* clear: the in-memory conversation, tool-call history, and the bot's local awareness of what just happened. The next message starts fresh.
+
+Think of `/clear` like the agent going to sleep and waking up — fuzziness gone, persistent memories intact.
+
+## When to clear
+
+A few useful triggers:
+
+- **Topic shift.** You are done with the thing you were working on, and you are about to start a different project. Do not let Project A's context leak into Project B.
+- **Context getting full.** Run `/context`. If the gas gauge is half-full or more, clear soon.
+- **The bot is drifting.** It is getting stuck on stale ideas, repeating itself, or losing the thread. A fresh start usually helps.
+- **End of session.** You are walking away. Always clear before stepping away for an hour or more.
+- **Auto-compact warning.** If Claude Code is about to auto-compact, clear deliberately first so *you* control what gets summarized.
+
+## The "wrap up this session" habit
+
+Do not just hit `/clear`. Tell the agent first:
+
+> Wrap up this session.
+
+The agent should:
+
+1. Note any open threads.
+2. Write a session log (see [Session Logs](Session%20Logs.md)).
+3. Commit work to git.
+4. Update memory if anything important came up.
+5. Report back: "It is now safe to clear or exit."
+
+Then you `/clear`.
+
+This is the habit that makes short sessions work. Without it, you are losing context. With it, you are shedding noise while keeping signal.
+
+## After clear
+
+You can usually pick up by saying something specific:
+
+> Continue working on the mortgage calculator. Read `Projects/MortgageCalc/plan.md` and the most recent session log to catch up.
+
+Or, if you do not have a specific task and want a briefing:
+
+> Good morning. What is the state of things?
+
+A persistent agent (Asimov, Freya) will run a morning routine and tell you. Vanilla Claude Code will read whatever it can find and orient itself.
+
+## Sessions, naps, and `/clear`
+
+Three kinds of breaks worth distinguishing:
+
+- **Quick `/clear`** — the most common. Topic shift, context cleanup, mid-day reset. The agent goes to sleep, wakes up. Memory persists.
+- **Auto-compact** — Claude Code's automatic summarization when the context window is about to hit the wall. Works, but the summary loses texture. Prefer manual `/clear` with a session log.
+- **Quit and restart** — exit Claude Code entirely. Same effect as `/clear` for memory purposes; useful when the session itself is acting up or you want a totally fresh shell.
+
+Do not be afraid of any of these. They are cheap.
+
+## Discipline, not heroism
+
+The temptation, when you are deep in a problem, is to keep going. *I will just figure this one thing out, then I will log.* The session goes long. The context fills. You auto-compact. You lose nuance. Tomorrow you re-read the auto-compact summary and it is not enough to pick up where you were.
+
+The habit pays off because you are not relying on heroism. Short sessions, wrap up this session, session log, commit, push when ready. Repeat.
+
+## See also
+
+- [Session Logs](Session%20Logs.md) — what to write before you clear.
+- [Memory Across Sessions](Memory%20Across%20Sessions.md) — what survives `/clear`.
+- [The Iteration Loop](The%20Iteration%20Loop.md) — sessions are units of execution within the loop.

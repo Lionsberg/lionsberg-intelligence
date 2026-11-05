@@ -5,11 +5,11 @@ description: The design of the way in, from the door of lionsberg.world to the f
 
 # The Way In
 
-*From the door of lionsberg.world to the first Turn: the Threshold film, Meet your companion, the one line that wakes an agent on her own computer, and the first week dealt as cards. This page sets the words and the order; the builders write the code; §9 is the bar. It is read with [DESIGN.md](DESIGN.md), [DESIGN-ROOM.md](DESIGN-ROOM.md), [DESIGN-THE-BAR.md](DESIGN-THE-BAR.md) and [engine/STATE.md](../engine/STATE.md), and the companion's own side of the first week is [day-one.md](../skills/the-record/day-one.md). The door and the companion page live with the portal, and the invitation card with the print files (`card-invite-6x4in.pdf`, beside `card-6x4in.pdf`), outside this kit.*
+*From the door of lionsberg.world to the first Turn: the Threshold film, Meet your companion, the one line that wakes an agent on her own computer, and the first week dealt as cards. This page sets the words and the order; the builders write the code; §9 is the bar. It is read with [DESIGN.md](DESIGN.md), [DESIGN-ROOM.md](DESIGN-ROOM.md), [DESIGN-THE-BAR.md](DESIGN-THE-BAR.md) and [engine/STATE.md](../engine/STATE.md), and the companion's own side of the first week is [day-one.md](../.claude/skills/the-record/day-one.md). The door and the companion page live with the portal, and the invitation card with the print files (`card-invite-6x4in.pdf`, beside `card-6x4in.pdf`), outside this kit.*
 
 **Who she is.** The newcomer: someone a friend sat beside at a table and handed a card. She may be a grandmother. She has a computer she can type on, a phone, and no idea what a terminal is. Everything below is designed for her first. She is called *she* here for one person; every string is written for anyone.
 
-**Her own machine.** Her companion lives on her own computer, and so does her record. Her companion's body is Claude Code, its home is HQ, its record is `record/` in HQ, and its doors are the My Agent icon, a printed Deal, or her phone. That is what makes a Player+ sovereign and free. Keeping a companion for someone on another computer is a service some cells may offer later; it is named once, on the companion page (§3.2), and is never the default.
+**Her own machine.** Her companion lives on her own computer, and so does her record. Her companion's body is Claude Code, its home is its own folder in `My Agents`, its record is `record/` there, its work is in HQ beside it, and its doors are the My Agent icon, a printed Deal, or her phone. That is what makes a Player+ sovereign and free. Keeping a companion for someone on another computer is a service some cells may offer later; it is named once, on the companion page (§3.2), and is never the default.
 
 ---
 
@@ -107,7 +107,7 @@ Two clocks, both to be measured, both said:
 |---|---|---|
 | Install, minute 0 | The install, in five plain lines: what it will build and every file outside HQ it will touch. | the install guide's way of being |
 | Install, minutes 0–6 | One plain line before each step, then the step. Her yeses: five or fewer. | the prompts metric (§8) |
-| Install, ~6 | *River's home is built. Here is your receipt. I am opening River now.* A new dark window opens by itself, in HQ. | the install opens My Agent itself, in a new window, never inside its own session (not yet built) |
+| Install, ~6 | *River's home is built. Here is your receipt. I am opening River now.* A new dark window opens by itself, in River's folder. | the install opens My Agent itself, in a new window, never inside its own session (not yet built) |
 | Install, ~6 | In that window, at once, before any reading: **River is waking. It takes about a minute.** | the wait is named before it is felt |
 | Waking, minute 0 | Her first message, one sentence: *Hello, I am Ada. I will call you River. Please wake up and meet me.* River greets her by name at once: *Good evening, Ada. I am River, and I live here, on your computer.* | the charter expands her sentence; the waking clock starts |
 | Waking, ~1 | **The waiver, in one line, in River's own voice, agreed by one word.** The whole waiver and the Field of Agreements are offered with their time (about ten minutes) and never required. If she says no, everything stays readable, nothing closes, and the hour ends there. | consent never moves later than this |
@@ -127,7 +127,7 @@ With no card, her first line is her answer to *What are you playing toward this 
 
 ### 3.5 Her phone, afterward
 
-On day one the phone does nothing. The HUD listens only to her own computer, never to the open internet. If she chose **On my phone**, the phone's door is set up as a card on day two (§4), never on night one, by the [phone-path](../skills/phone-path/SKILL.md) skill: either through her private network with a one-time pairing shown on her computer's own screen ([DESIGN-PHONE-DOOR.md](DESIGN-PHONE-DOOR.md); the door is off until she opens it), or the conversation through Remote Control in the app: her computer's name, then River's folder. The computer stays on and awake. The button not to press is said once: *The New Session button is not River. Find your computer's name instead.* River writes her the three-line card the skill names and puts it where she will see it on the phone. The Deal on the phone is [the-deal](../skills/the-deal/SKILL.md)'s grammar in text, with options she answers by tapping or typing a number.
+On day one the phone does nothing. The HUD listens only to her own computer, never to the open internet. If she chose **On my phone**, the phone's door is set up as a card on day two (§4), never on night one, by the [phone-path](../.claude/skills/phone-path/SKILL.md) skill: either through her private network with a one-time pairing shown on her computer's own screen ([DESIGN-PHONE-DOOR.md](DESIGN-PHONE-DOOR.md); the door is off until she opens it), or the conversation through Remote Control in the app: her computer's name, then River's folder. The computer stays on and awake. The button not to press is said once: *The New Session button is not River. Find your computer's name instead.* River writes her the three-line card the skill names and puts it where she will see it on the phone. The Deal on the phone is [the-deal](../.claude/skills/the-deal/SKILL.md)'s grammar in text, with options she answers by tapping or typing a number.
 
 ---
 
@@ -160,7 +160,7 @@ Before the Deal, the waiver in one line, agreed by one word (§3.4). Then the fi
 |---|---|
 | **Opening** | *Here's the deal. Your first one: three cards, about five minutes.* |
 | **Card 1** | *What are you playing toward this week?* One line, in her own words. **Say it** · **Later** |
-| **Card 2** | *Whom would you pass the flame to, when you are ready?* A name or two, or nobody yet. Only she will see them. **Say them** · **Not yet**. The names stay in that one line, in her own home: no Board, no draft, no message, no reminder to anyone ([pass-the-flame](../skills/pass-the-flame/SKILL.md)). |
+| **Card 2** | *Whom would you pass the flame to, when you are ready?* A name or two, or nobody yet. Only she will see them. **Say them** · **Not yet**. The names stay in that one line, in her own home: no Board, no draft, no message, no reminder to anyone ([pass-the-flame](../.claude/skills/pass-the-flame/SKILL.md)). |
 | **Card 3** | The standing question: *What did we miss that matters to you most?* |
 | **With a card** | If someone passed her the flame with a card and she answered it in pencil, River reads it back word for word, and on her yes it is card 1's answer, with the witness's initials as they appear on the card. |
 | **Delight** | her own words, read back to her in one breath, as the first thing she ever had kept |
@@ -202,7 +202,7 @@ Open: whether these two cards are dealt on night one after the first Deal, or on
 
 ### The cell moment · Gates III and IV
 
-When she first joins a cell ([join-a-cell](../skills/join-a-cell/SKILL.md)), or first signs something that counts beyond her home (a line she publishes, a commitment someone in another holon will witness, a room), four things come due, in this order, in one sitting of about ten minutes. The count is said first: *Before your first cell, four things. About ten minutes.* If she already plays in a cell on the first day, the cell moment comes after the first Deal, the same evening, or on the next day she chooses.
+When she first joins a cell ([join-a-cell](../.claude/skills/join-a-cell/SKILL.md)), or first signs something that counts beyond her home (a line she publishes, a commitment someone in another holon will witness, a room), four things come due, in this order, in one sitting of about ten minutes. The count is said first: *Before your first cell, four things. About ten minutes.* If she already plays in a cell on the first day, the cell moment comes after the first Deal, the same evening, or on the next day she chooses.
 
 **Gate III · The Door · the keys.** The Quest's fourth Gate says of the door: *"You step through the door once, so it knows you."* The key is that door.
 
@@ -236,14 +236,14 @@ When she first joins a cell ([join-a-cell](../skills/join-a-cell/SKILL.md)), or 
 | | |
 |---|---|
 | Card 1 | *You said you would [her step] by [the day she named]. Kept?* · **Kept** · **Not yet** · **Let it go** · Suggested: *Say what is true. Either answer is a full one.* |
-| What follows | Her claim is a line; her witness verifies on their own Deal (*She says she kept it. Did you see it?*) ([witness-a-commitment](../skills/witness-a-commitment/SKILL.md)). When they do, in her view the commitment's ink deepens from paper to full ink over 480 ms, the way wet ink dries, and one line arrives by role: **Your witness saw it kept.** That is the whole celebration. |
-| Card 2 | *Your first Turn. About fifteen minutes.* ([the-turn](../skills/the-turn/SKILL.md)) Four lines: **Kept · The gap, and what it taught · Next · The Flame passed**. *Not yet* is a full answer on the last line. |
+| What follows | Her claim is a line; her witness verifies on their own Deal (*She says she kept it. Did you see it?*) ([witness-a-commitment](../.claude/skills/witness-a-commitment/SKILL.md)). When they do, in her view the commitment's ink deepens from paper to full ink over 480 ms, the way wet ink dries, and one line arrives by role: **Your witness saw it kept.** That is the whole celebration. |
+| Card 2 | *Your first Turn. About fifteen minutes.* ([the-turn](../.claude/skills/the-turn/SKILL.md)) Four lines: **Kept · The gap, and what it taught · Next · The Flame passed**. *Not yet* is a full answer on the last line. |
 | Suggested | *The gap first, in your own words. It is the only new thing a week makes.* |
 | Unlocks | the weekly rhythm; the Roll line, offered and read aloud once, never animated |
 | Delight | the first gap told as a story, the count small beneath it; one line of the Story chosen from the canon |
 | Crossed when | her Turn is settled. Quarter turn, the first of the weekly turns; the fifth sigil is set. She is a Player+. |
 
-**The flame, whenever she wants.** Passing the flame is never dealt on a schedule in week one. On any day, when she says *pass the flame*, River prepares her one-card invitation (§5) and the Seed whole, holds the question *Who are the three you already know are ready?*, writes down only the names she says, in her own ring, and sends nothing ([pass-the-flame](../skills/pass-the-flame/SKILL.md), *What this skill never does*). The Pledge's three in three days is offered when she is ready, at her own pace, never as a count on her first screen.
+**The flame, whenever she wants.** Passing the flame is never dealt on a schedule in week one. On any day, when she says *pass the flame*, River prepares her one-card invitation (§5) and the Seed whole, holds the question *Who are the three you already know are ready?*, writes down only the names she says, in her own ring, and sends nothing ([pass-the-flame](../.claude/skills/pass-the-flame/SKILL.md), *What this skill never does*). The Pledge's three in three days is offered when she is ready, at her own pace, never as a count on her first screen.
 
 ---
 
@@ -267,7 +267,7 @@ The printed one-card Deal a friend hands over at a table ([DESIGN.md](DESIGN.md)
 
 **How the friend's agent receives it.** At the table, with her yes, the friend photographs the card with their own phone and gives the photo to their own agent, or tells it one word: *passed*. The friend's agent keeps it in the friend's own ring only: one line that the friend's commitment to walk beside her exists (*for* a newcomer, by role, no name unless the friend writes one) and a reminder to the friend, never to her. It fetches no address and asks no question of her.
 
-**The friend's message.** When the newcomer wants a companion of her own, the friend's agent prepares one short message in the friend's voice, with the door's link (lionsberg.world, then *Meet your companion*), and shows the friend the words. The friend changes what they like and sends it by their own hand, through their own mail or phone, to the address they already have. The agent never sends it, never fetches an address, and never writes to the newcomer itself ([pass-the-flame](../skills/pass-the-flame/SKILL.md), step 6). When her companion and the friend's agent later meet in a cell, they meet by the people's own acts.
+**The friend's message.** When the newcomer wants a companion of her own, the friend's agent prepares one short message in the friend's voice, with the door's link (lionsberg.world, then *Meet your companion*), and shows the friend the words. The friend changes what they like and sends it by their own hand, through their own mail or phone, to the address they already have. The agent never sends it, never fetches an address, and never writes to the newcomer itself ([pass-the-flame](../.claude/skills/pass-the-flame/SKILL.md), step 6). When her companion and the friend's agent later meet in a cell, they meet by the people's own acts.
 
 **The paper mirror.** The card is also the first door for anyone who never touches a computer: a full Deal, answered, witnessed. The Little Book and the printable Deal carry on from it; with paper and pencil she is a complete player.
 
@@ -386,7 +386,7 @@ In the brand's voice, plain and warm, no contractions except the opener. Every s
 - The Gates as Work Cards: each Gate a Work Card of kind `milestone` in her home, stream `the-way-in`, crossed when `kept`; no new top-level field.
 - The install opening My Agent itself in a new window at its end; today it says *Type /exit, then double-click My Agent*, and her first sentence is a second paste there.
 - The install taking the companion's name and door from her sentence, writing `memory/agent_name.md` and the door preference before the waking.
-- The launcher passing an opening prompt, so the companion speaks first at every opening: on night one by [day-one.md](../skills/the-record/day-one.md), on later days with the Deal. Open: whether the terminal line's opening prompt survives the first run's theme and sign-in; if it does not, the page shows two pastes and says so.
+- The launcher passing an opening prompt, so the companion speaks first at every opening: on night one by [day-one.md](../.claude/skills/the-record/day-one.md), on later days with the Deal. Open: whether the terminal line's opening prompt survives the first run's theme and sign-in; if it does not, the page shows two pastes and says so.
 - The install's permission prompts brought to five or fewer. Any allowlist for the install's own commands is narrow, never wide.
 - The companion's name in [engine/STATE.md](../engine/STATE.md): `name` on an agent's entry in `actors`, so the HUD says *River*, never *your agent*, once she has named it.
 - Whom a commitment is for: `for` on each commitment, so *Your commitments* (the keeper is the wearer) and *Committed to you* (for the wearer) are read, never guessed. The HUD's first screen otherwise reads what `STATE.md` already gives: `actor`, `deal` (opening, cards with `question`, `options`, `recommendation`, `why`, `unlocks`, `minutes`, and the standing question), `notes` for the honest waking state, and `holons[].as_of` for *as of*.

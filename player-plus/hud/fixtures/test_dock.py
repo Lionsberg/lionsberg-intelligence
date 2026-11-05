@@ -1540,7 +1540,7 @@ class ChainWatch(unittest.TestCase):
             h.stop()
 
     def test_box_on_chain(self):
-        """The box on the chain is small (skills/the-chief-of-staff rule 25): the long box refused and cut
+        """The box on the chain is small (.claude/skills/the-chief-of-staff rule 25): the long box refused and cut
         into stages; a study set off the chain, started, and its silence told once; an hour refused outright."""
         hq = self.tmp / "home-box"            # a house of its own: its bodies and talks never reach the other tests
         shutil.copytree(self.hq, hq, ignore=shutil.ignore_patterns(".agent-host*"))

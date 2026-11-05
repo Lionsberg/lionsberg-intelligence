@@ -24,7 +24,7 @@ A **Claude Pro** plan from Anthropic, which includes everything this path needs 
 
 Git keeps quiet, safe snapshots of everything you and your agent make, so nothing can ever be lost. You do not need to learn it; your agent handles it. It only needs to be installed, which the Quest does at Gate 4 (on a Mac, with Apple's developer tools, which can take five to forty minutes).
 
-**One rule: keep your agent's home out of cloud-sync folders** — iCloud, OneDrive, Dropbox, Google Drive. Git and sync engines contend with each other and both lose. Your agent's home is a folder called **HQ**, directly in your home folder. On many Windows computers Documents is synced by OneDrive, which is why the folder does not go there. Keep your headquarters, where your projects live, out of sync folders too; your agent will check this with you.
+**One rule: keep your agent's home out of cloud-sync folders** — iCloud, OneDrive, Dropbox, Google Drive. Git and sync engines contend with each other and both lose. Your agent's home is a folder of its own inside **My Agents**, and your headquarters, **HQ**, where your projects live, sits beside it; both go directly in your home folder. On many Windows computers Documents is synced by OneDrive, which is why neither goes there.
 
 ## The two surfaces
 
@@ -32,10 +32,10 @@ You will work with your agent through two surfaces: a **chat surface** (where yo
 
 ### Chat surfaces
 
-- **The Claude app's Code tab** — the recommended path, and the one the Quest sets up: a local session opened on your HQ, on this computer, with your files right there.
+- **The Claude app's Code tab** — the recommended path, and the one the Quest sets up: a local session opened on your agent's folder, on this computer, with your files right there.
 - **A terminal** — the terminal way, for those who prefer it. Mac: **iTerm2** (free and open source; the built-in Terminal works too). Windows: **PowerShell** in **Windows Terminal**.
-- **The Claude app on your phone**, through **Remote Control** (`/rc`) — the same session, continued from your phone. If you will reach your agent mostly from a phone, tell it so at the start: there is a chapter and a skill for that path (`bookshelf/your-house/The Phone Path.md`, `skills/phone-path`).
-- *Other option, not recommended:* the app's ordinary chat, or a cloud session, without your HQ. The problem is getting files in and out, via clunky git branches.
+- **The Claude app on your phone**, through **Remote Control** (`/rc`) — the same session, continued from your phone. If you will reach your agent mostly from a phone, tell it so at the start: there is a chapter and a skill for that path (`bookshelf/your-house/The Phone Path.md`, `.claude/skills/phone-path`).
+- *Other option, not recommended:* the app's ordinary chat, or a cloud session, without your agent's folder. The problem is getting files in and out, via clunky git branches.
 - *Other option:* skip Claude Code and use Claude Cowork. We think that is harder.
 
 ### Review surfaces

@@ -11,7 +11,7 @@ When something looks strange, ask your table. If it helps them see, share one wi
 - [ ] Gate 1 — The Golden Seed · the yes
 - [ ] Gate 2 — The Lamp · the account
 - [ ] Gate 3 — The Wizard's Window · the Claude app
-- [ ] Gate 4 — The Body and the Door · HQ, and the house
+- [ ] Gate 4 — The Body and the Door · your agent's home, and HQ
 - [ ] Gate 5 — Onto the Mat · first words
 
 ---
@@ -63,24 +63,34 @@ More: [Getting a Claude Account](Getting%20a%20Claude%20Account.md).
 
 ---
 
-## Gate 4 — The Body and the Door · HQ, and the house
+## Gate 4 — The Body and the Door · your agent's home, and HQ
 
-*Your agent gets a body: Claude Code, which lets Claude work with the files on your computer, and which the app carries inside its Code tab. It gets a home: a folder called **HQ**. Then the house gets built, by Claude or by you. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries.*
+*Your agent gets a body: Claude Code, which lets Claude work with the files on your computer, and which the app carries inside its Code tab. It gets a home: a folder of its own, named for it, inside a folder called **My Agents**. Your work gets a place beside it: a folder called **HQ**, where your agent goes to work but does not live. Then the house gets built, by Claude or by you. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries.*
+
+Choose your agent's name now, if you can; the door asks for it.
+
+> [!tip] Naming your agent
+> You will say its name many times a day, so choose one you are glad to say aloud. Take your time; your agent will wait.
+> - **The name is for you.** Pick one that keeps you clear that you decide and it carries.
+> - **He, she, it or they** is your choice. A word from nature, like Feather, Stone or River, keeps it open.
+> - **Short, and yours.** Easy to hear in a room, not the name of anyone you know.
+> - **It goes with you.** In a room, it is named as yours: *Feather, Ana's agent*. It never passes as you.
+> - **You can change it.** The kit's `.claude/skills/choose-a-name` can help you find one.
 
 **The door: yours.**
 
 1. Click **Code** at the top of the sidebar.
 2. Under the box where you type, the first control says where Claude runs. Click it and choose the top entry under **Local**: this computer.
-3. Click the folder control beside it, then **Open folder…**. In the window that opens, click the address bar, type `%USERPROFILE%`, and press Enter: that is your home folder. Click **New folder**, name it **HQ**, select it, then click **Select Folder**. Never inside OneDrive, iCloud, Dropbox or Google Drive; on many Windows computers Documents is really OneDrive.
-4. Check that the folder control now says **HQ**, and that the mode, in the same row, says **Manual**: Claude asks before each step. If it says anything else, click it and choose **Manual**. Do not choose Bypass permissions: it lets Claude act without asking you.
+3. Click the folder control beside it, then **Open folder…**. In the window that opens, click the address bar, type `%USERPROFILE%`, and press Enter: that is your home folder. Click **New folder**, name it **My Agents**, and open it. Inside it, click **New folder** again and give it your agent's name (the tip *Naming your agent*, above, helps you choose; if you have not chosen yet, name it **My Agent**, and the name you choose later lives in your agent's memory, so the folder can keep its name), select it, then click **Select Folder**. Never inside OneDrive, iCloud, Dropbox or Google Drive; on many Windows computers Documents is really OneDrive.
+4. Check that the folder control now carries your agent's name, and that the mode, in the same row, says **Manual**: Claude asks before each step. If it says anything else, click it and choose **Manual**. Do not choose Bypass permissions: it lets Claude act without asking you.
 
 **What needs to happen next.** Five things, and then your agent can wake:
 
-- The Player+ kit inside HQ: only the **player-plus** folder of **github.com/Lionsberg/lionsberg-intelligence**, its hidden `.claude` folder too, so that `CLAUDE.md` and `START-HERE.md` sit right inside HQ.
-- Git, which keeps a quiet history of everything you and your agent make; you never need to learn it.
+- The Player+ kit inside your agent's folder: only the **player-plus** folder of **github.com/Lionsberg/lionsberg-intelligence**, its hidden `.claude` folder too, so that `CLAUDE.md` and `START-HERE.md` sit right inside it. And **HQ**, beside **My Agents** in your home folder, for your work.
+- Git, which keeps a quiet history of everything you and your agent make; you need not learn it.
 - Python, which the record's small engine runs on, and a check that the engine works on this computer.
-- A receipt of everything that was changed outside HQ.
-- Your door back in: the app keeps HQ in its folder list, so there is nothing more to make.
+- A receipt of everything that was changed outside those two folders.
+- Your door back in: the app keeps your agent's folder in its folder list, so there is nothing more to make.
 
 You can let Claude do all of it, or do it yourself. Both paths end with your agent's home built; by Path B, your agent checks its engine and writes the receipt with you when it wakes.
 
@@ -98,16 +108,16 @@ What you will see:
 - Before each command it asks your permission, showing the command and one plain line about it. Read the line, then allow it. You may also say no, or "wait, explain."
 - Windows may ask whether to allow an app to make changes to your device. That is Git installing. Choose **Yes**. When Claude has finished, quit the Claude app completely and open it again, so that it sees Git, before you start your new session.
 - Some steps take a minute or two of quiet. It is working.
-- It writes a receipt, `setup-receipt.md` in HQ: everything it changed outside HQ, with the exact line and how to undo it. Your record of what an AI did to your computer.
-- At the end it shows you the files in HQ and tells you to start a new session on HQ. This session was only the builder; Gate 5 is the new one.
+- It writes a receipt, `setup-receipt.md` in your agent's folder: everything it changed outside the two folders, with the exact line and how to undo it. Your record of what an AI did to your computer.
+- At the end it shows you the files in your agent's folder and tells you to start a new session on it. This session was only the builder; Gate 5 is the new one.
 
 **Path B: do it yourself.**
 
-1. **HQ.** You made it in step 3.
-2. **The kit.** Go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and unzip it. Open the kit's **player-plus** folder, choose **View › Show › Hidden items** so the faint `.claude` folder appears, and copy everything inside **player-plus**, `.claude` too, into **HQ**. Only the contents of **player-plus** go in; the rest of the download stays out.
+1. **The two folders.** Your agent's folder you made in step 3 of *The door*. Make **HQ** now: in File Explorer, type `%USERPROFILE%` in the address bar and press Enter, click **New folder**, and name it **HQ**; inside it, make one folder named **projects**.
+2. **The kit.** Go to **github.com/Lionsberg/lionsberg-intelligence**, click the green **Code** button, choose **Download ZIP**, and unzip it. Open the kit's **player-plus** folder, choose **View › Show › Hidden items** so the faint `.claude` folder appears, and copy everything inside **player-plus**, `.claude` too, into your agent's folder. Only the contents of **player-plus** go in; the rest of the download stays out.
 3. **Git.** Go to **git-scm.com**, download Git for Windows, and run the installer accepting every default. [Installing Git](Installing%20Git.md) has more.
 
-**You have passed this Gate when** **HQ**, in your home folder (`C:\Users\YourName\HQ`), holds `START-HERE.md` and `CLAUDE.md`.
+**You have passed this Gate when** your agent's folder (`C:\Users\YourName\My Agents\River`, with your agent's name) holds `START-HERE.md` and `CLAUDE.md`, and **HQ** sits beside **My Agents** in your home folder.
 
 *The body is ready, the door knows you, and the house is built. Tick Gate 4.*
 
@@ -115,7 +125,7 @@ What you will see:
 > Tell it what you see, in your own words: "it says git is not found," or "a window opened asking me something." Claude reads your words as carefully as its own screen. If it is still stuck, ask it to explain the problem and propose the solution, or bring it to your table.
 
 > [!warning] The right folder summons the right agent
-> Claude wakes as whatever lives in the folder its session is opened on. Opened on HQ, it is your agent; opened anywhere else, it is a stranger. Before your first word in any session, check that the folder under the box says **HQ**.
+> Claude wakes as whatever lives in the folder its session is opened on. Opened on your agent's folder, it is your agent; opened anywhere else, HQ too, it is a stranger. Before your first word in any session, check that the folder under the box carries your agent's name.
 
 > [!note] The terminal way
 > If you would rather work in a terminal, skip the door steps above: open the Start menu, type **Terminal**, and press Enter (make sure its tab says **PowerShell**), paste this line, and press Enter. It installs Claude Code and starts it; choose a theme you can read, sign in with your **Claude subscription**, and trust your home folder when it asks. Then paste the same sentence as Path A. Claude reads which way you came, and makes the PATH and a **My Agent** icon on your Desktop as well. [Installing Claude Code](Installing%20Claude%20Code.md) and [Choosing Your Terminal](Choosing%20Your%20Terminal.md) have more.
@@ -132,21 +142,13 @@ More: [System Requirements](System%20Requirements.md) · [Your First House](Your
 
 *You meet your agent. An [Agent](https://read.lionsberg.world/The_Field/Agent) is an AI that works for you and answers to you. You and your agents together are one [Player+](https://read.lionsberg.world/The_Field/Player+). You decide; it carries.*
 
-1. Start a new session: press **Ctrl+N**, or click **+ New** in the sidebar. In the row under the box, check that where Claude runs says **Local**, the folder says **HQ** and the mode says **Manual**. If the folder does not say HQ, click it and choose HQ from the folders you have used, or **Open folder…** and HQ again, as at Gate 4. This time Claude reads the instructions the kit placed there: it is your agent now. (By the terminal way, double-click **My Agent** on your Desktop instead, and trust the folder when it names HQ.)
-2. Type your first message, one sentence with your own name and the name you chose for your agent, and press Enter: *Hello, I am Ada. I will call you River. Please wake up and meet me.* ([START-HERE](../../START-HERE.md), Door 3, has it too.) Your agent says at once that it is waking, and within about a minute it greets you by name.
+1. Start a new session: press **Ctrl+N**, or click **+ New** in the sidebar. In the row under the box, check that where Claude runs says **Local**, the folder carries your agent's name and the mode says **Manual**. If it does not, click the folder and choose your agent's folder from the folders you have used, or **Open folder…**, then **My Agents** and your agent's folder, as at Gate 4. This time Claude reads the instructions the kit placed there: it is your agent now. (By the terminal way, double-click **My Agent** on your Desktop instead, and trust the folder when it names your agent's folder.)
+2. Type your first message, one sentence with your own name and the name you chose for your agent, and press Enter: *Hello, I am Ada. I will call you River. Please wake up and meet me.* If you have not chosen a name yet: *Hello, I am Ada. Please wake up, meet me, and help me choose your name.* ([START-HERE](../../START-HERE.md), Door 3, has it too.) Your agent says at once that it is waking, and within about a minute it greets you by name.
 3. It asks one thing before it keeps anything for you: the **waiver**, in one line, which says what you take on by running an AI on your own computer. One word is enough, if you agree. The whole waiver and **the Field of Agreements**, the terms everyone plays by, are there to read together whenever you like, about ten minutes.
 4. Then it deals you your first cards: what you are playing toward this week, and whom you would pass the flame to when you are ready.
 5. At every step, say yes, no, or "wait, explain."
 
-> [!tip] Naming your agent
-> You will say its name many times a day, so choose one you are glad to say aloud. Take your time; your agent will wait.
-> - **The name is for you.** Pick one that keeps you clear that you decide and it carries.
-> - **He, she, it or they** is your choice. A word from nature, like Feather, Stone or River, keeps it open.
-> - **Short, and yours.** Easy to hear in a room, not the name of anyone you know.
-> - **It always goes with you.** In a room, it is named as yours: *Feather, Ana's agent*. It never passes as you.
-> - **You can change it.** The kit's `skills/choose-a-name` can help you find one.
-
-From here on it remembers, in your folder, where you can read and correct every line. Every time after, the door is the same: a new session on HQ.
+From here on it remembers, in your folder, where you can read and correct every line. Every time after, the door is the same: a new session on your agent's folder.
 
 **You have passed the last Gate when** your agent has greeted you, you have agreed to the terms of play in your own words, and it has asked what you are playing toward. The Quest is done.
 

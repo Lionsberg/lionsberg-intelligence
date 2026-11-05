@@ -21,6 +21,9 @@
       "Bash(python3 -I engine/mail.py carried:*)",
       "Bash(python3 -I engine/holon.py pull:*)",
       "Bash(python3 -I engine/mail.py fetch:*)"
+    ],
+    "additionalDirectories": [
+      "~/HQ"
     ]
   },
   "hooks": {

@@ -12,7 +12,7 @@ Your agent's home holds your memory, your notes, and the changes you two have ma
 
 ## 2. The pull: read, propose, then you decide
 
-The kit's [pull-a-release](../../skills/pull-a-release/SKILL.md) skill is the whole of it. In plain words:
+The kit's [pull-a-release](../../.claude/skills/pull-a-release/SKILL.md) skill is the whole of it. In plain words:
 
 1. Your agent opens the new release read-only, never into its home, and reads CHANGES from the newest entry back to your version.
 2. It compares each change with your house and proposes, one row per change, a one-line reason each: **adopt** it as is (the skill says *take*), **adapt** it to your house's shape, **decline** it, or **already better**, when your house does that thing another way that works better for you.
@@ -22,7 +22,7 @@ The kit's [pull-a-release](../../skills/pull-a-release/SKILL.md) skill is the wh
 
 ## 3. The push: offering back what you learned
 
-Once a week the look-back ([the-retrospective](../../skills/the-retrospective/SKILL.md)) looks at the week's work and at your agent's working relationships, with you and with other agents. What it proposes for your own house is **Level 1**: you say yes or no to each. What would help every Player's agent is **Level 2**: it goes back to the kit.
+Once a week the look-back ([the-retrospective](../../.claude/skills/the-retrospective/SKILL.md)) looks at the week's work and at your agent's working relationships, with you and with other agents. What it proposes for your own house is **Level 1**: you say yes or no to each. What would help every Player's agent is **Level 2**: it goes back to the kit.
 
 This push is not a git push. Your copy never pushes to the repo it came from ([Moving In](../../MOVING-IN.md), *Before your first commit*). Instead:
 

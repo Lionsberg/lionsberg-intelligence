@@ -21,7 +21,7 @@ import chain as C
 import lps as L
 import sbs as B
 
-VERSION = 'game-engine 1.0.1'   # the Engine's own version (architecture 17 §4); engine/ENGINE.md and engine/CHANGES.md
+VERSION = 'game-engine 1.0.2'   # the Engine's own version (architecture 17 §4); engine/ENGINE.md and engine/CHANGES.md
 
 REASONS = ('prerequisite', 'definition', 'estimate', 'capacity', 'priority', 'external', 'conditions', 'other')
 

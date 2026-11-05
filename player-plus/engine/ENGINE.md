@@ -2,7 +2,7 @@
 
 *What this layer is, where its boundary runs, and what it carries on its own. Architecture 17 gives the shape: every layer has its own version, lineage, record of changes, contract, tests and keeper.*
 
-- **Version:** game-engine 1.0.1 (1.0.0 set when the one engine landed; `plan.VERSION`)
+- **Version:** game-engine 1.0.2 (1.0.0 set when the one engine landed; 1.0.2 the sheet's known answer pinned to the fixtures' moment; `plan.VERSION`)
 - **Lineage:**
   - It grows from the kit's engine of 3.6 (`schedule.py` and its siblings), with the planning modules joined to it under one contract.
   - The changes are pulled from this kit.

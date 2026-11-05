@@ -5,7 +5,7 @@ description: How the phone door is reached securely: its two addresses, its cert
 
 # The phone door speaks TLS
 
-This page governs one thing about the phone: how its door is reached securely, through two addresses and certificates the phone trusts. On that, it takes precedence over [DESIGN-DOCK.md](DESIGN-DOCK.md) §4. Everything else about the phone (pairing, the device token, the proxy on loopback, voice notes, sleep) stays with DESIGN-DOCK §4. The code lives in [serve.py](serve.py) (`PhoneDoor`, `PhoneTLSServer`, `PhoneTrustHandler`; its header sections THE PHONE DOOR and THE LAYERED VOICE), [phone_cert.py](phone_cert.py) and [phone-trust.html](phone-trust.html). Related: DESIGN-DOCK §7 (voice), §8.3 (the phone binding) and §8.4 (the security rules); [DESIGN-WAY-IN.md](DESIGN-WAY-IN.md) §3.5 (the phone as a day-two card); the [voice-mode skill](../skills/voice-mode/SKILL.md).
+This page governs one thing about the phone: how its door is reached securely, through two addresses and certificates the phone trusts. On that, it takes precedence over [DESIGN-DOCK.md](DESIGN-DOCK.md) §4. Everything else about the phone (pairing, the device token, the proxy on loopback, voice notes, sleep) stays with DESIGN-DOCK §4. The code lives in [serve.py](serve.py) (`PhoneDoor`, `PhoneTLSServer`, `PhoneTrustHandler`; its header sections THE PHONE DOOR and THE LAYERED VOICE), [phone_cert.py](phone_cert.py) and [phone-trust.html](phone-trust.html). Related: DESIGN-DOCK §7 (voice), §8.3 (the phone binding) and §8.4 (the security rules); [DESIGN-WAY-IN.md](DESIGN-WAY-IN.md) §3.5 (the phone as a day-two card); the [voice-mode skill](../.claude/skills/voice-mode/SKILL.md).
 
 ## 1. The one idea
 

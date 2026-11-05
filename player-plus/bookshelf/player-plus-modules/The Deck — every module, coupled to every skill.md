@@ -135,7 +135,7 @@ Thirty-two folders. Twenty-two are the [[The Kit|kit]]'s, taken as they are; nin
 
 ## How to install a skill, how a module lives, how the deck improves
 
-**Installing.** Skills live in your agent's home, in its skills folder (for Claude Code, `.claude/skills/<name>/`). Copy the whole folder, the instructions, the lineage and the license together, and never one file out of it. Your agent may read the kit's `skills/README.md` and suggest which folders to take; it copies one into place only when you say so. Nothing is installed by an agent's own judgment, and a folder taken on is a folder you can delete.
+**Installing.** Skills live in your agent's home, in its skills folder (for Claude Code, `.claude/skills/<name>/`). Copy the whole folder, the instructions, the lineage and the license together, and never one file out of it. Your agent may read the kit's `.claude/skills/README.md` and suggest which folders to take; it copies one into place only when you say so. Nothing is installed by an agent's own judgment, and a folder taken on is a folder you can delete.
 
 **How a module lives** (from [[12 How a Module Lives]]). One hand writes it. A [[Second reader|second reader]], who did not write it, reads it whole. It is repaired. It is tried in a real room. Whoever uses it improves it and passes the improvement back, and then it begins again. Held as current best understanding, a module deserves refinement rather than reverence.
 

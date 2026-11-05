@@ -229,7 +229,7 @@ export function plainStep(step) {
   return s;
 }
 
-/** A mark your agent proposed at your word (skills/the-chief-of-staff §5; the host's ask of kind `act`,
+/** A mark your agent proposed at your word (.claude/skills/the-chief-of-staff §5; the host's ask of kind `act`,
  *  {card_id, option_index, option, question}): "Mark Saturday morning?" over the card's own question,
  *  with **Not that** and **Yes**. Yes writes the very act the Deal writes for that answer (deal.js
  *  `actFor`, through ctx.act, undoable as any act), then answers the ask so your agent hears it; a card
@@ -292,7 +292,7 @@ export function askWords(ctx, ask) {
   return question(ctx, ask);
 }
 
-/** A worker your agent proposed (skills/the-chief-of-staff §4, 9; the host's ask of kind `worker`):
+/** A worker your agent proposed (.claude/skills/the-chief-of-staff §4, 9; the host's ask of kind `worker`):
  *  the task in your words, where it reaches, and two answers. Start the worker is your own tap: it
  *  starts the worker (ctx.launchBody, the same yes as Task a New Worker) and then answers the ask, so
  *  your agent hears it; Not now answers the ask, and nothing is started. The cost was said in your

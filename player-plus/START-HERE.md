@@ -26,7 +26,7 @@ Paste the seed text's Part V into a fresh conversation and ask it to say the Gam
 
 ## Door 3 — your agent's first words
 
-If you walked the Quest, you are at Gate 5: a new session is open on **HQ** in the Claude app's Code tab (or, by the terminal way, you double-clicked **My Agent**), waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder called **HQ** in your home folder, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into it, the hidden `.claude` folder too; open a session there, in the app's Code tab or in your terminal.
+If you walked the Quest, you are at Gate 5: a new session is open on your agent's folder, in **My Agents**, in the Claude app's Code tab (or, by the terminal way, you double-clicked **My Agent**), waiting. If you came another way, with Claude Code (or any harness that reads a CLAUDE.md) already set up, make a folder named for your agent inside a folder called **My Agents** in your home folder, and a folder called **HQ** beside **My Agents** for your work, never inside iCloud, OneDrive, Dropbox or Google Drive; copy everything in this `player-plus/` folder into your agent's folder, the hidden `.claude` folder too; open a session there, in the app's Code tab or in your terminal.
 
 Copy this, paste it as your first message, and press Return:
 
@@ -42,7 +42,7 @@ It will also ask where you keep your work, which it calls your headquarters; tel
 - [Tips for Working With Your Agent](<bookshelf/with-your-agent/Tips for Working With Your Agent.md>): a living page, added to at every Jam.
 - [Bringing Your Friends In](<bookshelf/getting-started/Bringing Your Friends In.md>): each one teach one, invite when you are ready (starting now), and the ladder for when you are stuck. Why it matters: [the chart of the first three percent](<bookshelf/the-one-book/29 The Plan — the first three percent.md#the-chart>), from eight Players to two hundred and fifty million by the Winter Solstice of 2026, measured daily on the rings of the Cycles of Growth, and moved through them by every new Player bringing their three within three days of their own yes.
 - [The Strategy and Plan — How to Read It](bookshelf/the-one-book/28%20The%20Strategy%20and%20Plan.md): the whole LIØNSBERG Strategy and Plan, for when you want the depth behind the chart.
-- Voice, and your phone: say "voice mode" to your agent. On your yes, and after saying the disk and minutes it takes, it sets up ears and a warm voice that run on this computer, no newest chip required (`skills/voice-mode`), and the phone door brings the HUD to your phone over your private network, once your phone trusts this computer ([the phone door](hud/DESIGN-PHONE-DOOR.md)).
+- Voice, and your phone: say "voice mode" to your agent. On your yes, and after saying the disk and minutes it takes, it sets up ears and a warm voice that run on this computer, no newest chip required (`.claude/skills/voice-mode`), and the phone door brings the HUD to your phone over your private network, once your phone trusts this computer ([the phone door](hud/DESIGN-PHONE-DOOR.md)).
 - For your agent, before a Jam: [Playing in a Jam](<bookshelf/working-with-other-houses/Playing in a Jam.md>) and [Closing Out Sessions](<bookshelf/working-with-other-houses/Closing Out Sessions.md>).
 
 ## Door 4 — you already have a house built from the PKAI starter kit

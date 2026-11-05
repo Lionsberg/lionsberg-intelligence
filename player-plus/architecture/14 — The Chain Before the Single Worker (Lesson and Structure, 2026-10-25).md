@@ -4,7 +4,7 @@
 
 ## The lesson
 
-A single long-running worker is slower and riskier than a chain of short stages ([`skills/the-chief-of-staff/SKILL.md`](../skills/the-chief-of-staff/SKILL.md) rule 25). When one worker's result is needed by another and the second simply waits, everything behind it stops, and nothing in the work itself says so. A person looking in from outside is then the only one who sees it. Seeing it first is the chief of staff's office, and the structure on this page makes sure it does.
+A single long-running worker is slower and riskier than a chain of short stages ([`.claude/skills/the-chief-of-staff/SKILL.md`](../.claude/skills/the-chief-of-staff/SKILL.md) rule 25). When one worker's result is needed by another and the second simply waits, everything behind it stops, and nothing in the work itself says so. A person looking in from outside is then the only one who sees it. Seeing it first is the chief of staff's office, and the structure on this page makes sure it does.
 
 ## Why a chain stalls
 
@@ -22,7 +22,7 @@ Four parts, each built into something that runs rather than something to remembe
 3. **The deck is the instrument for a build.** Each worker is a card with its dependencies named, so the chain is computed from the cards. The Agents place shows each worker's task, elapsed time against its estimate, and whether it is over.
 4. **A separate eye on the arrangement.** Every thirty minutes while workers run, the host hands the chief of staff the list and one question: what is idle, waiting on what, and why. The chief of staff moves what can move and says what it moved. The assigner still assigns; the question comes from the structure.
 
-Where it lives: [`skills/the-chief-of-staff/SKILL.md`](../skills/the-chief-of-staff/SKILL.md) rule 24 (the office's words), [`hud/agent_host.py`](../hud/agent_host.py) (the estimate, the watch, the refused dependency, the half-hour chain question), the worker's proposal form, and the Agents place's rows.
+Where it lives: [`.claude/skills/the-chief-of-staff/SKILL.md`](../.claude/skills/the-chief-of-staff/SKILL.md) rule 24 (the office's words), [`hud/agent_host.py`](../hud/agent_host.py) (the estimate, the watch, the refused dependency, the half-hour chain question), the worker's proposal form, and the Agents place's rows.
 
 The office stands on its own. The chief of staff's skill, with rule 24 and the proposal forms (the task in the person's words, the minutes, the shape of a result where there is a dependency), stands on its own in any house that runs workers, with or without the Agents place. The host's watch is a small, separate piece: the estimate on a worker, the overrun notice with its three choices, the refused dependency, the half-hour chain question. It needs only the agent host. The page on foreground and background sessions does not yet carry the same two lines; they are to be added: a session says its minutes, and it never waits on another session's report when a shape would do.
 

@@ -246,7 +246,7 @@ Common states, said once and true for every view: **Loading** is the still point
 
 - **Purpose:** the weekly heartbeat: what the week was, in four lines, and commitments kept.
 - **Hierarchy:** **Commitments kept: 7 of 8** (the one large number on the whole ICE, Cormorant, display) → the gap for each one missed, in words ("Bread to Cell Two: one day late") → the four lines.
-- **The four lines** (proposed) are one set in every view and every file: **Kept** · **The gap, and what it taught** · **Next** · **The Flame passed**. They live in the `turn` event's body; the weekly practice is taught in [the Turn skill](../skills/the-turn/SKILL.md).
+- **The four lines** (proposed) are one set in every view and every file: **Kept** · **The gap, and what it taught** · **Next** · **The Flame passed**. They live in the `turn` event's body; the weekly practice is taught in [the Turn skill](../.claude/skills/the-turn/SKILL.md).
 - **Discernment, lightly:** one line beneath the four, in dust: "Your agent learned from you 4 times this week." A tap opens the Ledger's discernment section.
 - **Primary action:** **Write this week's turn**: her agent drafts the four lines from the record; the wearer edits and settles (a `turn` event by her hand). She can also **Publish to Cell Two**, which opens the publish sheet (§4.10).
 - **States:** *Empty* (first week) "Your first turn comes on Sunday." · *Paper* the four lines with space to write by hand.

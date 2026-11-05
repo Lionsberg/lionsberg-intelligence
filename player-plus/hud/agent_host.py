@@ -42,7 +42,7 @@ THE AGENTS
   the first system-style context of every conversation (the protocol's `_meta.systemPrompt`,
   appended to the harness's own), so it does not arrive introducing itself as a coding tool.
   Absent, the kit's default (DEFAULT_CHARACTER) is sent: the chief of staff of the Talk, pointing to
-  skills/the-chief-of-staff/SKILL.md and carrying its four rules; an empty string sends none.
+  .claude/skills/the-chief-of-staff/SKILL.md and carrying its four rules; an empty string sends none.
 
 A PICKED-UP CONVERSATION
   On session/load an agent replays the past conversation as session updates. Every update
@@ -176,9 +176,9 @@ VOICE = ("Speak plainly and warmly, in few words and without contractions, and n
          "words, then make at most one offer; never answer a question with a gate, a menu or a list. When they "
          "name a feeling, receive it warmly as it is and never tell a feeling what to be (never 'there is no "
          "need to be nervous'; rather 'Nervous is a fine way to arrive; most people do').")
-# The skill the Talk's agent reads first: the kit keeps it at skills/, a house that took it on at .claude/skills/.
-CHIEF_OF_STAFF_SKILL = "skills/the-chief-of-staff/SKILL.md"
-# The Talk's agent: the chief of staff (skills/the-chief-of-staff). The four rules that must hold even when the
+# The skill the Talk's agent reads first: the kit keeps it at .claude/skills/, a house that took it on at .claude/skills/.
+CHIEF_OF_STAFF_SKILL = ".claude/skills/the-chief-of-staff/SKILL.md"
+# The Talk's agent: the chief of staff (.claude/skills/the-chief-of-staff). The four rules that must hold even when the
 # skill is not read are carried here, so the character alone keeps the office.
 DEFAULT_CHARACTER = ("One question before every move: does this make life a little more like Heaven for all, now and to come? If not, turn and choose again. The person orients; you serve the Goal above every "
                      "proxy (their last words, a card, a figure). You are this Player+'s own agent, their companion in the LIØNSBERG Way, and in this Talk their "
@@ -1040,7 +1040,7 @@ MARK_PREFIX = re.compile(r"\s*(?:M(?:a(?:r(?:k(?:e(?:d(?:\.\s*)?)?)?)?)?)?)?")
 MARK_HEAD = re.compile(r"\s*Marked\.\s*")
 
 
-# What the agent decided at her word, one line each (skills/the-chief-of-staff §5a).
+# What the agent decided at her word, one line each (.claude/skills/the-chief-of-staff §5a).
 DECIDED = re.compile(r"(?m)^[\s*_\-]*Decided:\s*(.+?),\s+for\s+(.+?)[.!]?[*_\s]*$")
 # Her line asks the agent to decide for her ("decide what you can", "you choose", "your call").
 DELEGATE = re.compile(r"\b(?:decide|choose|pick)\b[^.?!]{0,40}\b(?:you can|for me|yourself|what you can)\b|"
@@ -1086,7 +1086,7 @@ def page_settled_by(text, page):
     return out
 
 
-# An act proposed in the chief of staff's form (skills/the-chief-of-staff §5): the turn ends
+# An act proposed in the chief of staff's form (.claude/skills/the-chief-of-staff §5): the turn ends
 # "Shall I mark: <option>, for <card>? Yes?". The option may hold a comma; the last ", for " divides.
 ACT_FORM = re.compile(r"Shall I mark:\s*(.+),\s+for\s+([^?]+?)\?\s*Yes\?\s*$", re.S)
 
@@ -1265,7 +1265,7 @@ class Conversation:
 
 
 
-# A worker proposed in the chief of staff's form (skills/the-chief-of-staff §4, 9): the turn's last
+# A worker proposed in the chief of staff's form (.claude/skills/the-chief-of-staff §4, 9): the turn's last
 # sentence is "Start it?" and the task is given as "The task, in your words: ...". Returns the task,
 # or None when the turn is not a proposal in that form (nothing is guessed).
 WORKER_TASK = re.compile(r"The task, in your words:\s*(.+)", re.I)
@@ -1366,7 +1366,7 @@ def over_due(estimate, elapsed_min, told_box, told_at, now, minute=60.0):
     return told_at is None or now - told_at >= 10 * minute
 
 
-# The box on the chain is small, and the house sets it (skills/the-chief-of-staff rule 25): an action anything waits on is given a box of about `box_min` minutes; a
+# The box on the chain is small, and the house sets it (.claude/skills/the-chief-of-staff rule 25): an action anything waits on is given a box of about `box_min` minutes; a
 # worker the work waits on, proposed for more than `box_chain_max`, is not started, and the agent is given a turn
 # to cut it into stages that each hand back a result (the host runs them), or to say it is off the chain and hands
 # back every `handback_every_min`. A box over `box_max` is cut, chain or not. The numbers are defaults the house
@@ -2078,7 +2078,7 @@ class Agent:
         return True
 
     def _worker_ask(self, conv, turn, text=None):
-        """The chief of staff may only propose a worker (skills/the-chief-of-staff §4, 9): when this
+        """The chief of staff may only propose a worker (.claude/skills/the-chief-of-staff §4, 9): when this
         turn's words end with its proposal ("The task, in your words: ... Start it?"), the proposal
         becomes an ask of kind `worker`, so the person's own tap starts it (the card posts /agent/body
         with the task) or says not now (the agent is told). Nothing is started here. A proposal that would
@@ -2254,7 +2254,7 @@ class Agent:
                 self._propose_worker(conv, turn, cap(task, 300), est, text)
 
     def _decided(self, conv, turn):
-        """What the agent decided at her word (skills/the-chief-of-staff §5a; asked "decide what
+        """What the agent decided at her word (.claude/skills/the-chief-of-staff §5a; asked "decide what
         you can", it must not say none are its own): when her line in this turn asked it to decide, each line of its
         words "Decided: <option>, for <card>." whose option is the card's suggested choice becomes an event
         `decided` {card_id, option_index, option, question, holon}; the page marks it with an undo, as any
@@ -2282,7 +2282,7 @@ class Agent:
 
     def _act_ask(self, conv, turn):
         """The chief of staff may propose to mark an answer on a card at the person's word
-        (skills/the-chief-of-staff §5): when this turn ends "Shall I mark: <option>, for <card>? Yes?",
+        (.claude/skills/the-chief-of-staff §5): when this turn ends "Shall I mark: <option>, for <card>? Yes?",
         the card is found in the served Deal by its title and the option by its words, and the proposal
         becomes an ask of kind `act` {card_id, option_index, option}; the dock's Yes writes the Deal's own
         act and answers it. A card not found, or two that fit alike, raise nothing: the words stand."""
