@@ -10,7 +10,7 @@ grows_from: player-plus 3.10.0
 lineage:
   - "the kit's architecture (one card, everywhere: a note on a card is a line in its Thread; every act says what it does) · LIØNSBERG"
   - "engine/acts.py, engine/acts.json and SCHEMA.md (Messaging: lines, not messages; One card, everywhere: the acts a card offers) · LIØNSBERG"
-  - "skills/the-record, skills/negotiate and skills/the-deal (one act at the person's word; an ask with its why and effort; the card's offers) · LIØNSBERG"
+  - ".claude/skills/the-record, .claude/skills/negotiate and .claude/skills/the-deal (one act at the person's word; an ask with its why and effort; the card's offers) · LIØNSBERG"
 licence: MPL-2.0                          # LICENSE.md in this folder
 pull_from: (the Player+ release)
 offered_at: every holon, from the first day

@@ -34,7 +34,7 @@ You will work with your agent through two surfaces: a **chat surface** (where yo
 
 - **The Claude app's Code tab** — the recommended path, and the one the Quest sets up: a local session opened on your agent's folder, on this computer, with your files right there.
 - **A terminal** — the terminal way, for those who prefer it. Mac: **iTerm2** (free and open source; the built-in Terminal works too). Windows: **PowerShell** in **Windows Terminal**.
-- **The Claude app on your phone**, through **Remote Control** (`/rc`) — the same session, continued from your phone. If you will reach your agent mostly from a phone, tell it so at the start: there is a chapter and a skill for that path (`bookshelf/your-house/The Phone Path.md`, `skills/phone-path`).
+- **The Claude app on your phone**, through **Remote Control** (`/rc`) — the same session, continued from your phone. If you will reach your agent mostly from a phone, tell it so at the start: there is a chapter and a skill for that path (`bookshelf/your-house/The Phone Path.md`, `.claude/skills/phone-path`).
 - *Other option, not recommended:* the app's ordinary chat, or a cloud session, without your agent's folder. The problem is getting files in and out, via clunky git branches.
 - *Other option:* skip Claude Code and use Claude Cowork. We think that is harder.
 

@@ -12,7 +12,7 @@ lineage:
   - "hud/DESIGN-DOCK.md (one breath; answer first; one offer at most; asks as cards with their what and why) · LIØNSBERG"
   - "hud/DESIGN-BODIES.md §3–4 and §14 (the cycles of hygiene; the cost said first, then the yes; a handoff is one card; a body asks the prime, never the person) · LIØNSBERG"
   - "engine/deal.py (the dealer's order and its framing: question, options, recommendation, why) · LIØNSBERG"
-  - "skills/the-deal and skills/the-record (never tick their box; speak from every holon; the four hard stops) · LIØNSBERG"
+  - ".claude/skills/the-deal and .claude/skills/the-record (never tick their box; speak from every holon; the four hard stops) · LIØNSBERG"
   - "skills/foreground-background (the background instance's folder, status, handoff and DONE) · pkai-starter-kit v3.1.0"
   - "The practice of Player+s: dashboards do not serve; a few things to discern, asked in conversation, do; watch for interface difficulty and offer a ten-minute try of another way"
 licence: MPL-2.0                          # LICENSE.md in this folder

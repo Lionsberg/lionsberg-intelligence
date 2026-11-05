@@ -14,7 +14,7 @@ A layered part of the [[LIØNSBERG]] System through which Living Intelligence an
 Two bodies of material:
 
 - **The documents:** the pages in this folder, 00 to 17 and the Index. 00 to 08 describe the layers; 09 gives every decision with its reason; this page tells you how to check them; 11 traces Navigation of Reality; 12 holds the roadmap; 13 traces mail, reach and identity row by row; 14 to 16 set out the chain, the box that bounds an agent's work on it, and rate times yield; 17 says how the kit is built in layers, improved and shipped.
-- **The code:** the kit's `player-plus/` folder at 3.8.0. `engine/` holds the contract (`SCHEMA.md`), the state contract (`STATE.md`), the type registry (`types.json`), the Python modules, their fixtures and tests, and `ENGINE.md`, which says which files belong to the Game Engine, the Record and the Proxy. `hud/` holds the design briefs, the design standard `DESIGN-THE-BAR.md`, the static surface, its local server and its own fixtures and tests. `skills/` holds what the agent does; `bookshelf/the-record/` holds the pages a player reads. Python standard library only; nothing to install but Python 3, with git and `ssh-keygen` used when present, and node with a headless Chrome for the surface's browser proofs.
+- **The code:** the kit's `player-plus/` folder at 3.8.0. `engine/` holds the contract (`SCHEMA.md`), the state contract (`STATE.md`), the type registry (`types.json`), the Python modules, their fixtures and tests, and `ENGINE.md`, which says which files belong to the Game Engine, the Record and the Proxy. `hud/` holds the design briefs, the design standard `DESIGN-THE-BAR.md`, the static surface, its local server and its own fixtures and tests. `.claude/skills/` holds what the agent does; `bookshelf/the-record/` holds the pages a player reads. Python standard library only; nothing to install but Python 3, with git and `ssh-keygen` used when present, and node with a headless Chrome for the surface's browser proofs.
 
 **When a document and the code disagree, the code is what runs and the document is what is to be corrected,** unless 09 records the document's choice as the decision. File each divergence you find (§8.2).
 
@@ -165,7 +165,7 @@ Every document's open list, de-duplicated. "Default carried" marks a question th
 | 1 | The names of the parts other than the ICE, and the proxy's name | 00; 05 | Open, default carried |
 | 2 | The one word for the unit across houses (event, Change, commit), and the settled line as the live-text unit | 00; 01; 06; 07 §8 | Open |
 | 3 | The standing question | 03 §6; `hud/DESIGN.md`, amendment 10 | Open, default carried |
-| 4 | The Turn's four lines | `engine/turn.py`; `skills/the-turn/`; `hud/DESIGN.md`, amendment 5 | Open, default carried |
+| 4 | The Turn's four lines | `engine/turn.py`; `.claude/skills/the-turn/`; `hud/DESIGN.md`, amendment 5 | Open, default carried |
 | 5 | The Room's coinages; whether an agent says "I"; the curing default; the agents' write budget | `hud/DESIGN-ROOM.md` | Open, default carried |
 | 6 | Whether sage joins the palette (until then, only the brand's own hues and the two golds) | `hud/DESIGN.md`, amendment 11 | Open, default carried |
 | **Shape** | | | |
@@ -272,7 +272,7 @@ An example, in the event line's field order (the id, `prev` and signature are co
 
 1. The fix is proposed to the keeper of the layer it touches (17), with its lines as evidence; the keeper accepts or refuses it, with a reason either way, and the reason is a line.
 2. A release carries what was accepted. Its notes name the defect lines it closes.
-3. **Every agent pulls the release on its own person's word** (`skills/pull-a-release/`), diffs it, adopts or declines with reasons, and re-runs conformance. No agent changes its charter from a release note; the release changes the kit, and the person changes the charter.
+3. **Every agent pulls the release on its own person's word** (`.claude/skills/pull-a-release/`), diffs it, adopts or declines with reasons, and re-runs conformance. No agent changes its charter from a release note; the release changes the kit, and the person changes the charter.
 4. The defect line is answered (`answer` or `done`, linked to it), and the fix is [[Witness|witnessed]] by someone other than the fixer. A document corrected by the fix changes in its next version.
 
 ### 8.4 A defect is a gift

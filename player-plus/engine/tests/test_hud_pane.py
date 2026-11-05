@@ -27,7 +27,7 @@ ENGINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KIT = os.path.dirname(ENGINE)
 LAUNCH = os.path.join(KIT, '.claude', 'launch.json')
 SERVE = os.path.join(KIT, 'hud', 'serve.py')
-DEAL = os.path.join(KIT, 'skills', 'the-deal', 'SKILL.md')
+DEAL = os.path.join(KIT, '.claude', 'skills', 'the-deal', 'SKILL.md')
 PAGE = os.path.join(KIT, 'bookshelf', 'with-your-agent', 'The Board Beside the Talk.md')
 PAGE_CAP = 60                       # the brief's cap, in lines
 
@@ -44,7 +44,7 @@ CAGES = ('asks only', 'speaks only', 'never recites', 'only when asked', 'the ag
          'your agent never', 'the agent always', 'your agent always')
 # A quoted line of anyone's words: curly double quotes, or straight ones outside code.
 QUOTED = re.compile(r'[“”]|"[^"\n]{3,}"')
-TOP = ('skills/', 'engine/', 'hud/', 'bookshelf/', '.claude/', 'scripts/')
+TOP = ('.claude/skills/', 'engine/', 'hud/', 'bookshelf/', '.claude/', 'scripts/')
 CODE = re.compile(r'`([^`]+)`')
 LINK = re.compile(r'\]\((<[^>]+>|[^)\s]+)\)')
 PORT_DEFAULT = re.compile(r'add_argument\(\s*"--port"\s*,\s*type=int\s*,\s*default=(\d+)')

@@ -38,7 +38,7 @@ import plain   # noqa: E402
 FIXTURES = os.path.join(ENGINE, 'fixtures', 'hq')
 HOOK = os.path.join(KIT, '.claude', 'hooks', 'what-waits.sh')
 SETTINGS = os.path.join(KIT, '.claude', 'settings.json')
-SKILL = os.path.join(KIT, 'skills', 'the-chief-of-staff', 'SKILL.md')
+SKILL = os.path.join(KIT, '.claude', 'skills', 'the-chief-of-staff', 'SKILL.md')
 NOW = '2026-10-31T12:17:18-07:00'
 PLAYER, STEWARD = 'person:player', 'person:steward'
 AP = chr(39)                      # the apostrophe, so this file holds no contraction itself

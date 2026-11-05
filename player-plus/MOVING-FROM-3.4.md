@@ -69,7 +69,7 @@ Install them by hand, then restart.
 
 ### 5. Skills — touches the skill folders
 
-Replace these folders whole, licence and lineage included, wherever your house keeps them: `skills/` as the Quest built it, and `.claude/skills/` for any your agent has taken on there.
+Replace these folders whole, licence and lineage included, wherever your house keeps them: `.claude/skills/` as the Quest built it, and `.claude/skills/` for any your agent has taken on there.
 
 - **`foreground-background`** — it now covers guests and the desk, and the guest message the hooks give points at its *If you are a guest* section.
 - **`pull-a-release`** — it now reads a release's moving guide first, and merges settings instead of overwriting them.

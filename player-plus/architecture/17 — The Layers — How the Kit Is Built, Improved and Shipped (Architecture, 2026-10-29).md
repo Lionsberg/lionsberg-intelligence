@@ -75,7 +75,7 @@ The release's number and each layer's number are kept apart: a layer that did no
 
 *Not yet settled:* `RELEASE.md`, at the top of `player-plus/`, holds the manifest. `VERSION.md` and the version line of `LINEAGE.md` are written from it, so they cannot disagree. `CHANGES.md` stays written by hand, because each change carries its why.
 
-*Not yet settled:* `skills/pull-a-release` reads the manifest, so that a house decides layer by layer what to take and may hold one layer at a known version while it takes another. In 3.8.0 the skill reads a release item by item from `pull_from`.
+*Not yet settled:* `.claude/skills/pull-a-release` reads the manifest, so that a house decides layer by layer what to take and may hold one layer at a known version while it takes another. In 3.8.0 the skill reads a release item by item from `pull_from`.
 
 ## 6. Upstream: pull, never push, with a ledger of differences
 

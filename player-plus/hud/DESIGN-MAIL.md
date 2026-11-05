@@ -385,7 +385,7 @@ Open: whether "carried" is the word on the face for a line that arrived ahead of
 
 ### 10.4 The skills: the mail watch
 
-[skills/a-mail-watch](../skills/a-mail-watch/SKILL.md), written in the kit's own skill form: the office of reading the house's mailboxes under the firewall. What to read and when (the strategy's beat), how to verify, how to turn prose into a proposed line, what a mail may never cause, how to show a likely injection to the person, and what to write at the Turn about what the watch learned. It carries the firewall rules of §7 in full, and it sends nothing.
+[.claude/skills/a-mail-watch](../.claude/skills/a-mail-watch/SKILL.md), written in the kit's own skill form: the office of reading the house's mailboxes under the firewall. What to read and when (the strategy's beat), how to verify, how to turn prose into a proposed line, what a mail may never cause, how to show a likely injection to the person, and what to write at the Turn about what the watch learned. It carries the firewall rules of §7 in full, and it sends nothing.
 
 ### 10.5 The state fields
 

@@ -43,11 +43,11 @@ Everything in your agent's folder and your HQ is plain text. If the AI service i
 
 ## The weekly check
 
-Once a week, at wrap-up ([wrap-up-this-session](../../skills/wrap-up-this-session/SKILL.md)), your agent can ask two questions:
+Once a week, at wrap-up ([wrap-up-this-session](../../.claude/skills/wrap-up-this-session/SKILL.md)), your agent can ask two questions:
 
 - *"Is everything committed and pushed?"*
 - *"When was the last machine backup, and the last drawer copy?"*
 
-Pushing is ask-first in this kit, so it asks, and you say yes. If you'd rather it push to your private HQ repo at every wrap-up without asking, tell it so in your own words; it saves that as a memory of what you said. The [check-my-setup](../../skills/check-my-setup/SKILL.md) skill asks the backup question too, and more.
+Pushing is ask-first in this kit, so it asks, and you say yes. If you'd rather it push to your private HQ repo at every wrap-up without asking, tell it so in your own words; it saves that as a memory of what you said. The [check-my-setup](../../.claude/skills/check-my-setup/SKILL.md) skill asks the backup question too, and more.
 
 *CC BY-SA 4.0 · LIØNSBERG*

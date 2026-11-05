@@ -10,7 +10,7 @@ grows_from: player-plus 3.10.0
 lineage:
   - "the kit's architecture (the Game playable very simply and very deep, by voice or on paper) · LIØNSBERG"
   - "engine/level.py and SCHEMA.md (Levels of play: the simplest Game that works; The paper floor) · LIØNSBERG"
-  - "skills/the-record and skills/the-deal (one act at the person's word; never tick their box; the level said on every dealt card) · LIØNSBERG"
+  - ".claude/skills/the-record and .claude/skills/the-deal (one act at the person's word; never tick their box; the level said on every dealt card) · LIØNSBERG"
 licence: MPL-2.0                          # LICENSE.md in this folder
 pull_from: (the Player+ release)
 offered_at: every holon, from the first day

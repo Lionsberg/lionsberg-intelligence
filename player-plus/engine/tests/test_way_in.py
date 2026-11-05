@@ -42,7 +42,7 @@ UPSTREAM = {'MOVING-FROM-V2.md'}
 # Bare names a page gives inside a sentence that already says where they live.
 BARE = {'SOURCES.md': 'bookshelf/the-great-game/SOURCES.md'}
 # The top folders of the kit; a code span starting with one of these names a path.
-TOP = ('skills/', 'engine/', 'hud/', 'bookshelf/', 'memory/', '.claude/', 'scripts/', 'player-plus/')
+TOP = ('.claude/skills/', 'engine/', 'hud/', 'bookshelf/', 'memory/', '.claude/', 'scripts/', 'player-plus/')
 EXT = ('.md', '.py', '.sh', '.json')
 
 # The host's name, assembled so this file does not itself carry it.
@@ -187,15 +187,15 @@ class TestPathsAndCommands(unittest.TestCase):
             self.assertIn(expect, r.stdout, f'{script} {" ".join(args)} did not print {expect!r}')
 
     def test_every_skill_named_exists(self):
-        skills = set(os.listdir(os.path.join(KIT, 'skills')))
+        skills = set(os.listdir(os.path.join(KIT, '.claude', 'skills')))
         for label, _folder, text in _texts():
             for span in CODE.findall(text):
                 s = span.strip()
                 if re.fullmatch(r'[a-z]+(?:-[a-z]+)+', s):
-                    self.assertIn(s, skills, f'{label}: the skill `{s}` is not in skills/')
-                m = re.fullmatch(r'skills/([a-z-]+)/?(?:SKILL\.md)?', s)
+                    self.assertIn(s, skills, f'{label}: the skill `{s}` is not in .claude/skills/')
+                m = re.fullmatch(r'.claude/skills/([a-z-]+)/?(?:SKILL\.md)?', s)
                 if m:
-                    self.assertIn(m.group(1), skills, f'{label}: the skill `{s}` is not in skills/')
+                    self.assertIn(m.group(1), skills, f'{label}: the skill `{s}` is not in .claude/skills/')
 
     def test_the_commands_run_from_the_kit(self):
         # The one command a page shows a reader running, with the kit's own engine.

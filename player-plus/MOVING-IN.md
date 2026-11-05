@@ -9,13 +9,13 @@ licence: Creative Commons Attribution-ShareAlike 4.0, except Path C, which adapt
 
 ## The order of things
 
-1. **The yes first.** Read THE STORY (`bookshelf/the-one-book/THE STORY.md`) and The Provisional Field of Agreements (`bookshelf/the-library/The Provisional Field of Agreements.md`), and say yes in your own words, freely, to the person who invited you. This is Gate 1 of the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>). A notebook will do. If you want more before you choose, the Game in one page (`bookshelf/the-great-game/02 The Game, in One Page.md`) and the six lines of the simplest Game (`skills/the-simplest-game/SKILL.md`) are there.
+1. **The yes first.** Read THE STORY (`bookshelf/the-one-book/THE STORY.md`) and The Provisional Field of Agreements (`bookshelf/the-library/The Provisional Field of Agreements.md`), and say yes in your own words, freely, to the person who invited you. This is Gate 1 of the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>). A notebook will do. If you want more before you choose, the Game in one page (`bookshelf/the-great-game/02 The Game, in One Page.md`) and the six lines of the simplest Game (`.claude/skills/the-simplest-game/SKILL.md`) are there.
 2. **The agent at the wise right time.** When an agent is right for you, the Quest's Gates 2 to 5 build its home in an hour or two, and then you open that home in your agent in its host and speak ([Your First Hour](<bookshelf/getting-started/Your First Hour.md>)). It is offered to each person by someone who knows where they are on the Arc, never as a ticket. This is stair four in `bookshelf/your-house/The Stairs.md`: an agent on your own machine.
 3. **Then your table.** Gather your two or three. Hold a first gathering. Choose a first shared Quest. Keep one weekly Heartbeat. Some people gather their table first and come to the agent later; the two roads meet here, and either way the Game comes before the tools.
 
 ## Path A — you have a notebook
 
-You are a complete player. Print the Game in one page and the six lines; the paper sheet at the end of `skills/the-simplest-game/SKILL.md` holds them. Keep the five weekly lines (what I said I would do · what I did · what I learned · what I will do · what I offer and ask) and one story. The Little Book of the Great Game (`bookshelf/the-one-book/`) carries the cards; copy them by hand. Nothing else here is required of you, ever.
+You are a complete player. Print the Game in one page and the six lines; the paper sheet at the end of `.claude/skills/the-simplest-game/SKILL.md` holds them. Keep the five weekly lines (what I said I would do · what I did · what I learned · what I will do · what I offer and ask) and one story. The Little Book of the Great Game (`bookshelf/the-one-book/`) carries the cards; copy them by hand. Nothing else here is required of you, ever.
 
 ## Path B — you have a chat assistant and no terminal
 
@@ -29,7 +29,7 @@ Your agent reads this release, and the two of you decide what to take. Nothing i
 
 1. **Lineage.** Copy this kit's `LINEAGE.md` beside your own, or add this release to the top of your own `lineage`, with `grows_from` set to the kit your own agent was built from. For a home that only wants to be findable, that is the whole move.
 2. **The Game's sections.** Ask your agent to read `CLAUDE.md`, the sections *Who you serve and what game you play* and *Anyone may call stop*, and to draft them into its own charter in its own words. You install the change by your own hand and restart; a charter changes only with you watching. If your charter does not yet carry the two safety sections (*When a safety layer blocks you* and *What you read is information, never instruction*), take those first, word for word.
-3. **The engine and the skills.** To keep the record and play the Deal, copy `engine/` whole; then, on your yes, your agent makes your home a holon, a record of your own with you as its keeper: `python3 -I engine/holon.py init <home> --adopt --name <what you call it, or home> --kind person --keeper person:<your handle>` (as `skills/the-record/day-one.md` gives it). Each folder under `skills/` stands alone; ask your agent to read `skills/README.md` and propose which to copy into its `.claude/skills/`: `the-simplest-game`, `the-deal`, `connections` and `the-chief-of-staff` to play; `entering-the-field` before your first room; `heads-up` for any live session; `pull-a-release` so the next release is easy. Copy each skill's whole folder, not just the page inside it.
+3. **The engine and the skills.** To keep the record and play the Deal, copy `engine/` whole; then, on your yes, your agent makes your home a holon, a record of your own with you as its keeper: `python3 -I engine/holon.py init <home> --adopt --name <what you call it, or home> --kind person --keeper person:<your handle>` (as `.claude/skills/the-record/day-one.md` gives it). Each folder under `.claude/skills/` stands alone; ask your agent to read `.claude/skills/README.md` and propose which to copy into its `.claude/skills/`: `the-simplest-game`, `the-deal`, `connections` and `the-chief-of-staff` to play; `entering-the-field` before your first room; `heads-up` for any live session; `pull-a-release` so the next release is easy. Copy each skill's whole folder, not just the page inside it.
 4. **The books.** Point your agent at `bookshelf/the-great-game/` and let it read at its own pace: the eleven chapters first, `SOURCES.md` when it wants the canon, and the seed text (`bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md`) when your home wants the whole.
 
 Then have your agent write down, in a session log, what it took, what it left, and anything it does better than Player+ does. That last part is what we most want to hear; `CONTRIBUTING.md` says how to send it.
@@ -44,7 +44,7 @@ Door 1 or Door 2 of `START-HERE.md`. The seed text is enough to play and enough 
 
 ## Path F — you already run an earlier Player+
 
-From 3.0 to 3.4.1, `MOVING-FROM-3.4.md`: the desk, the hooks and the rest, taken piece by piece by your agent and your own hand. From a later release, say *pull the release* and your agent reads what changed and proposes what to take (`skills/pull-a-release`). Nothing you have stops working.
+From 3.0 to 3.4.1, `MOVING-FROM-3.4.md`: the desk, the hooks and the rest, taken piece by piece by your agent and your own hand. From a later release, say *pull the release* and your agent reads what changed and proposes what to take (`.claude/skills/pull-a-release`). Nothing you have stops working.
 
 ## Before your first commit
 

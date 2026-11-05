@@ -52,7 +52,7 @@ Do these once, on the computer, with your agent beside you. Your agent can walk 
 
 ### On either
 
-- **Your agent's window stays open.** Start your agent in a session on its folder and leave the Claude app (or the **My Agent** window) open. Minimizing it is fine; closing it ends the session. The [`phone-path`](../../skills/phone-path/SKILL.md) skill asks your agent to keep a session running so there is always one to find.
+- **Your agent's window stays open.** Start your agent in a session on its folder and leave the Claude app (or the **My Agent** window) open. Minimizing it is fine; closing it ends the session. The [`phone-path`](../../.claude/skills/phone-path/SKILL.md) skill asks your agent to keep a session running so there is always one to find.
 - **The private network starts on its own.** If your [[Cell]] uses a private network, set its app to start when the computer starts, and stay signed in on both the computer and the phone.
 - **Check that it worked: the phone test.** Leave the computer alone for an hour, longer than it used to stay awake. Then, on your phone, with Wi-Fi turned off so you are truly away, reach your agent by one of the doors below and ask: *"When did this computer last sleep?"* It can read the answer from the computer itself (on a Mac, `pmset -g log`; on Windows, `powercfg /lastwake` and the system's event log). If it answers and has not slept, you are done.
 
@@ -73,7 +73,7 @@ Do these once, on the computer, with your agent beside you. Your agent can walk 
 | **What it is** | Your own computer serves the ICE to your phone's browser, over the private network only. | The Claude app on your phone opens the session running on your computer. |
 | **Where it works** | Wherever your phone is on the private network. | Anywhere your phone has a connection. |
 | **The proxy** | Stays. Your words still go through your own proxy on the computer, which records where each request went. | Lost. Remote Control refuses any proxy, so nothing records where your words go. |
-| **Setting it up** | Once, from the computer: **Let my phone in**, then a one-time code shown on the screen, which your phone presents. The phone gets a pass of its own, and you can **Let it go** at any time. | Once, as the [`phone-path`](../../skills/phone-path/SKILL.md) skill says: find your computer's name, then your agent's folder. |
+| **Setting it up** | Once, from the computer: **Let my phone in**, then a one-time code shown on the screen, which your phone presents. The phone gets a pass of its own, and you can **Let it go** at any time. | Once, as the [`phone-path`](../../.claude/skills/phone-path/SKILL.md) skill says: find your computer's name, then your agent's folder. |
 
 **Use the ICE door when you can.** It keeps everything the computer keeps: the proxy, the record of where your words went, the cards and their asks. It is off until you turn it on, and it listens only on the private network, never on the open internet. If your house does not run the ICE yet, your agent can set it up with you when you are ready.
 

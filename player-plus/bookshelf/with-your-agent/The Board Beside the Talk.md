@@ -36,12 +36,12 @@ A tap on the board and a word in the conversation make the same line in the reco
 
 ## It is never required
 
-Everything the board does can be done in the conversation, and everything in the conversation can be done on paper (the section *How it degrades to paper* in [the Deal](../../skills/the-deal/SKILL.md)). If the server cannot start (the port is taken, or Python is missing), your agent says so in one line and the Deal goes on in words. Open the board when looking helps; leave it closed when talking is enough.
+Everything the board does can be done in the conversation, and everything in the conversation can be done on paper (the section *How it degrades to paper* in [the Deal](../../.claude/skills/the-deal/SKILL.md)). If the server cannot start (the port is taken, or Python is missing), your agent says so in one line and the Deal goes on in words. Open the board when looking helps; leave it closed when talking is enough.
 
 ## Keeping it safe
 
 The server answers only on this computer (`127.0.0.1`), plays no sound and reaches no network. It acts only for its own page, which holds a token no other program on your computer is given, and it refuses anything wider than your home. Reaching the board from your phone is a separate door, opened only when you ask: [Keeping Your Agent Awake — Reaching It From Your Phone](<Keeping Your Agent Awake — Reaching It From Your Phone.md>).
 
-Close by: [Tips for Working With Your Agent](<Tips for Working With Your Agent.md>) · [the Deal](../../skills/the-deal/SKILL.md) · the board's own design, [`hud/DESIGN.md`](../../hud/DESIGN.md).
+Close by: [Tips for Working With Your Agent](<Tips for Working With Your Agent.md>) · [the Deal](../../.claude/skills/the-deal/SKILL.md) · the board's own design, [`hud/DESIGN.md`](../../hud/DESIGN.md).
 
 *CC BY-SA 4.0 · LIØNSBERG*

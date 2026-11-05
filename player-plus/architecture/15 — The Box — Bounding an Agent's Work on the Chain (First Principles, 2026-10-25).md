@@ -25,7 +25,7 @@ An agent's variance grows with each autonomous step, at a rate set by four varia
 - **Reversibility of its acts.** A draft in its own folder can be thrown away; a send cannot be unsent.
 - **The agent's capability.** A stronger model drifts less per step on the same work.
 
-So the box follows the variables. A routine build with tests may run long, because every test is a handback. A novel design judged by taste hands back every few minutes, because only a person can see it. Anything outward or irreversible has a box of zero: it is asked every time, as rule 10 of the [chief of staff's skill](../skills/the-chief-of-staff/SKILL.md) already holds (a worker never acts outward).
+So the box follows the variables. A routine build with tests may run long, because every test is a handback. A novel design judged by taste hands back every few minutes, because only a person can see it. Anything outward or irreversible has a box of zero: it is asked every time, as rule 10 of the [chief of staff's skill](../.claude/skills/the-chief-of-staff/SKILL.md) already holds (a worker never acts outward).
 
 ## 3. Observation replaces check-ins
 

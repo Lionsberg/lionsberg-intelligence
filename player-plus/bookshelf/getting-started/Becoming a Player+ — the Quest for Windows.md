@@ -67,7 +67,7 @@ More: [Getting a Claude Account](Getting%20a%20Claude%20Account.md).
 
 *Your agent gets a body: Claude Code, which lets Claude work with the files on your computer, and which the app carries inside its Code tab. It gets a home: a folder of its own, named for it, inside a folder called **My Agents**. Your work gets a place beside it: a folder called **HQ**, where your agent goes to work but does not live. Then the house gets built, by Claude or by you. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries.*
 
-Choose your agent's name first: the door needs it.
+Choose your agent's name now, if you can; the door asks for it.
 
 > [!tip] Naming your agent
 > You will say its name many times a day, so choose one you are glad to say aloud. Take your time; your agent will wait.
@@ -75,7 +75,7 @@ Choose your agent's name first: the door needs it.
 > - **He, she, it or they** is your choice. A word from nature, like Feather, Stone or River, keeps it open.
 > - **Short, and yours.** Easy to hear in a room, not the name of anyone you know.
 > - **It goes with you.** In a room, it is named as yours: *Feather, Ana's agent*. It never passes as you.
-> - **You can change it.** The kit's `skills/choose-a-name` can help you find one.
+> - **You can change it.** The kit's `.claude/skills/choose-a-name` can help you find one.
 
 **The door: yours.**
 
@@ -87,7 +87,7 @@ Choose your agent's name first: the door needs it.
 **What needs to happen next.** Five things, and then your agent can wake:
 
 - The Player+ kit inside your agent's folder: only the **player-plus** folder of **github.com/Lionsberg/lionsberg-intelligence**, its hidden `.claude` folder too, so that `CLAUDE.md` and `START-HERE.md` sit right inside it. And **HQ**, beside **My Agents** in your home folder, for your work.
-- Git, which keeps a quiet history of everything you and your agent make; you never need to learn it.
+- Git, which keeps a quiet history of everything you and your agent make; you need not learn it.
 - Python, which the record's small engine runs on, and a check that the engine works on this computer.
 - A receipt of everything that was changed outside those two folders.
 - Your door back in: the app keeps your agent's folder in its folder list, so there is nothing more to make.

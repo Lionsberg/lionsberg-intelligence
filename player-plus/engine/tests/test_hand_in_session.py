@@ -298,8 +298,8 @@ class TheHandInTheSession(unittest.TestCase):
     def test_the_words_say_it_plainly(self):
         said = [acts.LINE_NO_ITEM, acts.LINE_NOT_OFFERED, acts.LINE_NO_AGENT, acts.LINE_THEIRS, acts.LINE_UNNAMED,
                 acts.LINE_NO_DIR, acts.LINE_COUNTS] + list(acts.LINE_NEEDS.values()) + list(acts.FIELD_WORDS.values())
-        deal = (KIT / "skills" / "the-deal" / "SKILL.md").read_text(encoding="utf-8")
-        cos = (KIT / "skills" / "the-chief-of-staff" / "SKILL.md").read_text(encoding="utf-8")
+        deal = (KIT / ".claude" / "skills" / "the-deal" / "SKILL.md").read_text(encoding="utf-8")
+        cos = (KIT / ".claude" / "skills" / "the-chief-of-staff" / "SKILL.md").read_text(encoding="utf-8")
         hand = deal.split("## The Hand in the session", 1)
         self.assertEqual(len(hand), 2, "the-deal names its section on the Hand in the session")
         section = hand[1].split("\n## ", 1)[0]

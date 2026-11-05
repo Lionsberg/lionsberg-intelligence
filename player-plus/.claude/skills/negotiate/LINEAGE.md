@@ -15,7 +15,7 @@ lineage:
   - "the call, the bid, the award and the release: Smith, The Contract Net Protocol (IEEE Transactions on Computers, 1980)"
   - "conditional commitments: Singh, An ontology for commitments in multiagent systems (1999); each move naming what it depends on: Singh, BSPL (AAMAS 2011)"
   - "consent decision-making: objections integrated until none remain"
-  - "skills/receive and skills/the-record (a Receipt never answers an ask; one act at the person's word) · LIØNSBERG"
+  - ".claude/skills/receive and .claude/skills/the-record (a Receipt never answers an ask; one act at the person's word) · LIØNSBERG"
 licence: MPL-2.0                          # LICENSE.md in this folder
 pull_from: (the Player+ release)
 offered_at: every holon, once the home is a holon

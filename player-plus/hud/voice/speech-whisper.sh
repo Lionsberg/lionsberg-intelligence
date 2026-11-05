@@ -4,7 +4,7 @@
 # never leaves it. Plays nothing.
 #   serve.py --speech "sh hud/voice/speech-whisper.sh"
 # Engines, in order: whisper.cpp (whisper-cli, with ffmpeg to read what a browser records), then
-# faster-whisper (Python; reads the browser's audio itself). The setup: skills/voice-mode/SKILL.md.
+# faster-whisper (Python; reads the browser's audio itself). The setup: .claude/skills/voice-mode/SKILL.md.
 #   LIONSBERG_VOICE_HOME   where the models live (default ~/.local/share/lionsberg/voice)
 #   WHISPER_MODEL          a whisper.cpp model file (default $LIONSBERG_VOICE_HOME/whisper/ggml-base.en.bin)
 #   WHISPER_CLI            the whisper.cpp program (default: whisper-cli on PATH)
@@ -37,5 +37,5 @@ print(" ".join(s.text.strip() for s in segments).strip())
 PY
 fi
 
-echo "speech-whisper: no ears here yet; install whisper.cpp and ffmpeg with a model at $model (about 150 MB), or python3 -m pip install faster-whisper; see skills/voice-mode/SKILL.md" >&2
+echo "speech-whisper: no ears here yet; install whisper.cpp and ffmpeg with a model at $model (about 150 MB), or python3 -m pip install faster-whisper; see .claude/skills/voice-mode/SKILL.md" >&2
 exit 3

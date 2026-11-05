@@ -137,7 +137,7 @@ THE BODIES' ACTS (DESIGN-BODIES §4, §3.3, §7; 2026-10-25)
                        cost was said. The host starts it over the Agent Client Protocol with no
                        terminal window, from the player's agents file, with the house's home folder
                        (the folder holding --bg and --desk) as its cwd and the kit's background-body
-                       page (skills/foreground-background/SKILL.md) named in its brief. /state lists
+                       page (.claude/skills/foreground-background/SKILL.md) named in its brief. /state lists
                        it among hud.agents with `body: {name, task, started, session, spent_today}`.
   A handoff waiting    each body folder under bg/ with a handoff.md under two days old and no review
                        folds one card into deal.cards ("Read {name}'s handoff", its minutes from the
@@ -4086,7 +4086,7 @@ class Handler(SimpleHTTPRequestHandler):
             bg = hub.bg_dir()
             house = hub.bodies._house(bg, getattr(hub.args, "desk", None))
             kit = HERE.parent
-            page = next((p for p in (kit / "skills" / "foreground-background" / "SKILL.md",
+            page = next((p for p in (kit / ".claude" / "skills" / "foreground-background" / "SKILL.md",
                                      kit / "bookshelf" / "your-house" / "Foreground and Background.md") if p.is_file()), None)
             taken = [str(as_dict(e).get("name") or "") for e in as_list(as_dict(live).get("machine"))]
             body = {"task": task[:4000], "cwd": str(house), "brief_page": str(page) if page else None, "taken": taken,

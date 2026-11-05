@@ -871,7 +871,7 @@ class QuietActs(unittest.TestCase):
 
 
 class ChiefOfStaffCharacter(unittest.TestCase):
-    """The Talk's agent is the chief of staff (skills/the-chief-of-staff/SKILL.md): the character sent on
+    """The Talk's agent is the chief of staff (.claude/skills/the-chief-of-staff/SKILL.md): the character sent on
     session/new names the skill and carries its four rules; a worker's brief carries its three lines and
     not the office; a row with its own character keeps it. Proved through the stand-in agent, which says
     back the character it was given."""
@@ -915,8 +915,8 @@ class ChiefOfStaffCharacter(unittest.TestCase):
         mod, host = self._host([{"id": "yours", "of": A, "kind": "harness",
                                  "command": [sys.executable, str(self.fake)], "cwd": str(self.tmp)}])
         ch = mod.DEFAULT_CHARACTER
-        self.assertIn("skills/the-chief-of-staff/SKILL.md", ch)
-        self.assertTrue((ENGINE.parent / "skills" / "the-chief-of-staff" / "SKILL.md").is_file())
+        self.assertIn(".claude/skills/the-chief-of-staff/SKILL.md", ch)
+        self.assertTrue((ENGINE.parent / ".claude" / "skills" / "the-chief-of-staff" / "SKILL.md").is_file())
         for rule in self.RULES:
             self.assertIn(rule, ch)
         for word in ("S" + "ir", "prom" + "ise", "n't", "Claude"):   # the kit lint: no honorific, the older word, no contraction
@@ -925,8 +925,8 @@ class ChiefOfStaffCharacter(unittest.TestCase):
         self.assertEqual(s, 200, o)
         s, o = host.say({"agent": "yours", "conversation": o["conversation"], "text": "What were you given?"})
         self.assertEqual(s, 200, o)
-        said = self._said_back(host, o["conversation"], ("skills/the-chief-of-staff/SKILL.md",) + self.RULES)
-        self.assertIn("skills/the-chief-of-staff/SKILL.md", said)        # what session/new carried
+        said = self._said_back(host, o["conversation"], (".claude/skills/the-chief-of-staff/SKILL.md",) + self.RULES)
+        self.assertIn(".claude/skills/the-chief-of-staff/SKILL.md", said)        # what session/new carried
         for rule in self.RULES:
             self.assertIn(rule, said)
         host.agents["yours"]._end()
@@ -1271,7 +1271,7 @@ class PhoneDoorTLS(unittest.TestCase):
 
 
 class WorkerProposalAsk(unittest.TestCase):
-    """agent_host.py: the chief of staff only proposes a worker (skills/the-chief-of-staff §4, 9); a
+    """agent_host.py: the chief of staff only proposes a worker (.claude/skills/the-chief-of-staff §4, 9); a
     turn that ends with the proposal in its form ("The task, in your words: ...", then "Start it?")
     becomes an ask of kind `worker` carrying the task; Not now answers it and tells the agent; nothing
     is started by the host."""

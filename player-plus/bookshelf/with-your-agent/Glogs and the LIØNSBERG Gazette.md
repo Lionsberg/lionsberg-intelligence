@@ -16,7 +16,7 @@ It sits beside [the Record](../the-great-game/08%20The%20Record.md), not in plac
 
 ## 2. How your agent helps
 
-- **At closeout, or once a week,** your agent offers a short Glog entry drafted from your sessions, in your voice ([Closing Out Sessions](../working-with-other-houses/Closing%20Out%20Sessions.md), [the-retrospective](../../skills/the-retrospective/SKILL.md)).
+- **At closeout, or once a week,** your agent offers a short Glog entry drafted from your sessions, in your voice ([Closing Out Sessions](../working-with-other-houses/Closing%20Out%20Sessions.md), [the-retrospective](../../.claude/skills/the-retrospective/SKILL.md)).
 - **You edit it, choose its tier, or bin it.**
 - **It never posts on its own.** Posting or publishing is your word, every time; [Venue Cards](../keeping-yourself-safe/Venue%20Cards.md) say where anything may go.
 - **Private stays private.** It leaves out what belongs to an inner tier, and anyone named without their yes.

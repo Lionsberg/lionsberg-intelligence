@@ -10,7 +10,7 @@ grows_from: player-plus 3.10.0
 lineage:
   - "the kit's architecture (the Game Engine as the collaboration surface: the always-on hand: pulls, writes Receipts, wakes the agent on a request, an emergency or the cadence) · LIØNSBERG"
   - "engine/heartbeat.py and SCHEMA.md (The heartbeat) · LIØNSBERG"
-  - "skills/the-record and skills/the-deal (one verb, append; the Deal as the agent's recommendation of where attention goes) · LIØNSBERG"
+  - ".claude/skills/the-record and .claude/skills/the-deal (one verb, append; the Deal as the agent's recommendation of where attention goes) · LIØNSBERG"
 licence: MPL-2.0                          # LICENSE.md in this folder
 pull_from: (the Player+ release)
 offered_at: every holon, once the home is a holon

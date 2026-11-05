@@ -176,7 +176,7 @@ The same agent answers a spoken sentence on a walk.
 
 ### 4.3 The fallback that loses the proxy
 
-When the private network is not in reach, the vendor's phone remote control remains a door to the same agent on the same computer ([the phone-path skill](../skills/phone-path/SKILL.md)). The dock names it plainly, once, on the phone card: **"If this page cannot reach your computer, the vendor's own app can. It works without the record of where your words go."** The skill's warning holds there: the button for a new session on the vendor's computer is not your agent.
+When the private network is not in reach, the vendor's phone remote control remains a door to the same agent on the same computer ([the phone-path skill](../.claude/skills/phone-path/SKILL.md)). The dock names it plainly, once, on the phone card: **"If this page cannot reach your computer, the vendor's own app can. It works without the record of where your words go."** The skill's warning holds there: the button for a new session on the vendor's computer is not your agent.
 
 ### 4.4 When the computer sleeps
 
