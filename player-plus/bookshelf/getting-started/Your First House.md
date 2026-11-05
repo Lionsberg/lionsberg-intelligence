@@ -1,21 +1,21 @@
 # Your First House
 
-A house is the folder where your agent lives: its agent home (with CLAUDE.md, memory, and session logs) together with HQ, the folder where your projects and working files live. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gate 4, from the Player+ kit. This page covers the same ground by hand, for when you are curious how a house is built or want to set one up from nothing.
+A house is two folders side by side: your agent's home, where your agent lives (with CLAUDE.md, memory, and session logs), and HQ, where your projects and working files live. Your agent lives in the first and walks over to the second; HQ never holds a CLAUDE.md, because it is a place, not a person. The Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), builds one for you at Gate 4, from the Player+ kit. This page covers the same ground by hand, for when you are curious how a house is built or want to set one up from nothing.
 
-## Step 1: Create a Folder
+## Step 1: Create the Folders
 
-Create a new folder on your computer for your house. Remember: this folder must **not** be inside iCloud, OneDrive, Dropbox, Google Drive, or any cloud-synced folder.
+Create two folders. Neither may be inside iCloud, OneDrive, Dropbox, Google Drive, or any cloud-synced folder.
 
-The Quest's location, directly in your home folder:
+The Quest's locations, in your home folder, with your agent's name for River:
 
-- **Mac:** `~/HQ/`
-- **Windows:** `C:\Users\YourName\HQ\`
+- **Mac:** `~/My Agents/River/` for your agent, and `~/HQ/` for your work
+- **Windows:** `C:\Users\YourName\My Agents\River\` for your agent, and `C:\Users\YourName\HQ\` for your work
 
-You may name it otherwise, but keep it directly in your home folder, not under Documents, which is often cloud-synced.
+Keep both directly in your home folder, not under Documents, which is often cloud-synced. A second agent, later, gets its own folder in My Agents, and shares the HQ.
 
 ## Step 2: Ask Your Agent to Set Up Git
 
-Open Claude Code inside the folder and ask it:
+Open Claude Code inside your agent's folder and ask it:
 
 > Initialize a git repo here and create a .gitignore.
 

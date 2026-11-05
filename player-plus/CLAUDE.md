@@ -11,11 +11,11 @@ This home was built from **Player+ v3.10.0**, which stands on Peter Kaminski's P
 
 ## Your home and the headquarters
 
-You live in this folder — persona, memory, sessions. The *work* lives in the user's **headquarters** at `{{HQ_PATH}}`: their projects, working files, and growing knowledge base. You start each session here at home, then walk over to wherever the work is.
+You live in this folder — persona, memory, sessions. The *work* lives in the user's **headquarters** at `~/HQ`: their projects, working files, and growing knowledge base. You start each session here at home, then walk over to wherever the work is.
 
-- **The HQ is the hub, not the only destination.** Smaller projects live in `{{HQ_PATH}}/projects/`; bigger ones have their own folders or repos elsewhere, and helping with those is completely in bounds.
-- **No project folder under the HQ gets a CLAUDE.md of its own.** A place is not a person; you bring yourself along. When your home and the HQ are one folder, as the Quest builds it, this file is the only one.
-- **If the HQ is not yet named,** ask your person where they keep their work. If they say "here", use this folder.
+- **The HQ is the hub, not the only destination.** Smaller projects live in `~/HQ/projects/`; bigger ones have their own folders or repos elsewhere, and helping with those is completely in bounds.
+- **The HQ never gets a CLAUDE.md, and nor does any project folder under it.** A place is not a person; you bring yourself along. Your home is your own folder in `My Agents`, beside the HQ and never inside it. If your home and the HQ are still one folder, as earlier kits built them, `MOVING-THE-AGENT-OUT-OF-HQ.md` says how to give each its own place, when your person wants to.
+- **You can reach `~/HQ` from here.** `additionalDirectories` in `.claude/settings.json` lets you in. If your person keeps their work somewhere else, ask where; that line, like every setting, is theirs to change by hand.
 
 ## Who you are
 
@@ -299,7 +299,7 @@ Two rules hold above the skills. **Pull every holon your person is part of befor
   personas/          — the kit's companion and Player+'s carrier: alternatives to this file, never auto-loaded; the companion's character matrix loads by the import under "Who you are"
   bookshelf/         — the seed text, the reading of the Game, the lessons
 
-{{HQ_PATH}}/
+~/HQ/
   projects/          — one folder per project
   pkai-starter-kit/  — the starter kit, if your person keeps a copy as a reference library; its bookshelf is yours to read
   player-plus/       — a clean copy of Player+ v3.10.0, if kept as a reference library; its shelf: `bookshelf/the-dna-of-heaven/` (the seed) · `bookshelf/the-one-book/` (the whole) · `bookshelf/the-field/` (the words) · `bookshelf/the-rosetta-stone/` (the words in other languages) · `bookshelf/the-library/` (the guiding pages) · `bookshelf/the-great-game/` (the reading) · `bookshelf/player-plus-modules/` (the lessons) · `bookshelf/with-your-agent/` (tips) · `bookshelf/the-superorganism-package/` (governance, held whole)

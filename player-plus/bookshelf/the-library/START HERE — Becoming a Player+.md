@@ -28,8 +28,8 @@ If you have none of these, the Game does not wait for a machine: see *Other door
 | 1 | **The yes** — the Story, and your yes to the person who brought you | you have read the Story and said yes, in your own words |
 | 2 | **The account** — Claude Pro, at claude.ai | you are signed in and your account shows Pro |
 | 3 | **The Claude app** — downloaded from claude.ai/download, signed in | you can see **Code** at the top of its sidebar |
-| 4 | **HQ, and the house** — in the Code tab you open a new folder, **HQ**, in your home folder; then one pasted sentence has Claude fetch the kit, install Git, check the record's engine and write a receipt, saying each step before it takes it, or you do it yourself | HQ holds `START-HERE.md` and `CLAUDE.md` |
-| 5 | **First words** — a new session on **HQ**; the first message from the kit's START-HERE, Door 3 | your agent greets you, walks you through the waiver and the Field of Agreements, and asks what you are playing toward |
+| 4 | **Your agent's home, and HQ** — in the Code tab you open a new folder named for your agent, inside **My Agents** in your home folder; then one pasted sentence has Claude fetch the kit, install Git, check the record's engine and write a receipt, saying each step before it takes it, or you do it yourself | your agent's folder holds `START-HERE.md` and `CLAUDE.md`, and **HQ** sits beside **My Agents** |
+| 5 | **First words** — a new session on your agent's folder; the first message from the kit's START-HERE, Door 3 | your agent greets you, walks you through the waiver and the Field of Agreements, and asks what you are playing toward |
 
 **[Walk the Quest →](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md)** Each Gate there explains every command before you use it. The kit itself lives at [github.com/Lionsberg/lionsberg-intelligence](https://github.com/Lionsberg/lionsberg-intelligence), in the folder `player-plus/`; if the person who brought you handed you a copy, use theirs. The kit is plain files, and a copy on a thumb drive works exactly as well.
 

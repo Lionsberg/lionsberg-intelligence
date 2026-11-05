@@ -5,7 +5,7 @@ Welcome! This book walks you from nothing to an agent of your own, living in a f
 By the end, you will have:
 
 - **The Claude app**, with Claude Code inside its Code tab: the program your agent lives in
-- **Your agent's home**, a folder called HQ, and an agent that greets you
+- **Your agent's home**, a folder of its own in My Agents, beside **HQ** for your work, and an agent that greets you
 - **A Markdown editor**, when you want one, for reading and writing your files alongside your agent
 
 Git is installed along the way. Your agent uses it quietly on your behalf to keep a safe history of everything you make; you never need to learn it.
@@ -19,7 +19,7 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 - **Before you begin:** [System Requirements](System%20Requirements.md) — the computer, the time, and where your agent's home goes. [Why This Stack](Why%20This%20Stack.md) — what these tools are and why they work together.
 - **Gate 2 — The Lamp · the account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
 - **Gate 3 — The Wizard's Window · the Claude app:** the Quest itself; [Choosing Your Terminal](Choosing%20Your%20Terminal.md) if you would rather walk the terminal way
-- **Gate 4 — The Body and the Door · HQ, and the house:** [Installing Git](Installing%20Git.md) for doing it by hand, and [Installing Claude Code](Installing%20Claude%20Code.md) for the terminal way; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `INSTALL.md` is what Claude follows
+- **Gate 4 — The Body and the Door · your agent's home, and HQ:** [Installing Git](Installing%20Git.md) for doing it by hand, and [Installing Claude Code](Installing%20Claude%20Code.md) for the terminal way; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `INSTALL.md` is what Claude follows
 - **Gate 5 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
 
 ## After the Gates

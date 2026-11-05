@@ -35,12 +35,12 @@ Allow an hour or two for the whole Quest; you may stop between any two Gates. On
 
 Your agent's folder must **not** be inside iCloud, OneDrive, Dropbox, or any other cloud-synced folder. Your agent keeps its own version history with git, and having two sync systems watching the same folder causes conflicts and data loss.
 
-Your agent's home is a folder called **HQ**, directly in your home folder:
+Your agent's home is a folder of its own inside **My Agents**, and your work lives in **HQ**, beside it. Both go directly in your home folder:
 
-- **Mac:** `~/HQ/`
-- **Windows:** `C:\Users\YourName\HQ\`
+- **Mac:** `~/My Agents/River/` and `~/HQ/`
+- **Windows:** `C:\Users\YourName\My Agents\River\` and `C:\Users\YourName\HQ\`
 
 > [!warning]
-> On many Windows machines, OneDrive syncs your Documents folder by default — which is exactly why the folder goes directly in `C:\Users\YourName\`, not under Documents.
+> On many Windows machines, OneDrive syncs your Documents folder by default — which is exactly why both folders go directly in `C:\Users\YourName\`, not under Documents.
 
-Your headquarters, where your projects and working files live, follows the same rule: keep it out of any cloud-synced folder. Your agent will ask where you keep your work at its first waking, and check this with you.
+Your headquarters follows the same rule. The Quest makes it for you at Gate 4, and your agent checks both folders with you.

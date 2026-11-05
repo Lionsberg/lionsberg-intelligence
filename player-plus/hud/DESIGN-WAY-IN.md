@@ -9,7 +9,7 @@ description: The design of the way in, from the door of lionsberg.world to the f
 
 **Who she is.** The newcomer: someone a friend sat beside at a table and handed a card. She may be a grandmother. She has a computer she can type on, a phone, and no idea what a terminal is. Everything below is designed for her first. She is called *she* here for one person; every string is written for anyone.
 
-**Her own machine.** Her companion lives on her own computer, and so does her record. Her companion's body is Claude Code, its home is HQ, its record is `record/` in HQ, and its doors are the My Agent icon, a printed Deal, or her phone. That is what makes a Player+ sovereign and free. Keeping a companion for someone on another computer is a service some cells may offer later; it is named once, on the companion page (§3.2), and is never the default.
+**Her own machine.** Her companion lives on her own computer, and so does her record. Her companion's body is Claude Code, its home is its own folder in `My Agents`, its record is `record/` there, its work is in HQ beside it, and its doors are the My Agent icon, a printed Deal, or her phone. That is what makes a Player+ sovereign and free. Keeping a companion for someone on another computer is a service some cells may offer later; it is named once, on the companion page (§3.2), and is never the default.
 
 ---
 
@@ -107,7 +107,7 @@ Two clocks, both to be measured, both said:
 |---|---|---|
 | Install, minute 0 | The install, in five plain lines: what it will build and every file outside HQ it will touch. | the install guide's way of being |
 | Install, minutes 0–6 | One plain line before each step, then the step. Her yeses: five or fewer. | the prompts metric (§8) |
-| Install, ~6 | *River's home is built. Here is your receipt. I am opening River now.* A new dark window opens by itself, in HQ. | the install opens My Agent itself, in a new window, never inside its own session (not yet built) |
+| Install, ~6 | *River's home is built. Here is your receipt. I am opening River now.* A new dark window opens by itself, in River's folder. | the install opens My Agent itself, in a new window, never inside its own session (not yet built) |
 | Install, ~6 | In that window, at once, before any reading: **River is waking. It takes about a minute.** | the wait is named before it is felt |
 | Waking, minute 0 | Her first message, one sentence: *Hello, I am Ada. I will call you River. Please wake up and meet me.* River greets her by name at once: *Good evening, Ada. I am River, and I live here, on your computer.* | the charter expands her sentence; the waking clock starts |
 | Waking, ~1 | **The waiver, in one line, in River's own voice, agreed by one word.** The whole waiver and the Field of Agreements are offered with their time (about ten minutes) and never required. If she says no, everything stays readable, nothing closes, and the hour ends there. | consent never moves later than this |

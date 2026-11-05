@@ -38,7 +38,7 @@ Each line carries who signed it, the Living Intelligence it answers for, the hol
 
 ## 4. The Supersuit and the holons it holds
 
-A Player+'s home (their HQ) is a holon and a git repository. Each cell they join is a clone of that cell's repository under `cells/<name>/` inside the home. The Agent, the Engine and the HUD always pull from every holon the player is part of, their own and each cell they joined, and every result says, per holon, the newest line it has seen. The reason: a player is part of many holons, and a view folded from only one of them would show a part as the whole. The Supersuit runs on the Player+'s own machine from day one; hosting by a cell is not yet built.
+A Player+'s home (the agent's folder in `My Agents`, beside their HQ) is a holon and a git repository. Each cell they join is a clone of that cell's repository under `cells/<name>/` inside the home. The Agent, the Engine and the HUD always pull from every holon the player is part of, their own and each cell they joined, and every result says, per holon, the newest line it has seen. The reason: a player is part of many holons, and a view folded from only one of them would show a part as the whole. The Supersuit runs on the Player+'s own machine from day one; hosting by a cell is not yet built.
 
 ```mermaid
 flowchart TB
@@ -79,7 +79,7 @@ The same six layers run for every kind of holon. What changes is who holds the k
 
 | Holon | Its record | Its keeper | Its usual view |
 |---|---|---|---|
-| **A person** (their home, HQ) | their own lines and their agent's | the person | the Player layout; The Deal |
+| **A person** (their home, in `My Agents`) | their own lines and their agent's | the person | the Player layout; The Deal |
 | **A pair** (a dyad, or two persons) | the lines both write, each in their own file | one of the two, named in `holon.json` | the Player layout, side by side |
 | **A cell** | its members' lines, its own, and what its members and subcells publish into it | a Living Intelligence holding the cell's keeper Role | the Cell layout: its Board and its commitments kept |
 | **A room** | the lines settled in a gathering | the room's keeper | the Room layout: settled lines, threads anchored to lines, presence, the Play by Play, cards dealt in the room |

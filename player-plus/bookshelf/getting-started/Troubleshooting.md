@@ -14,7 +14,7 @@ If where Claude runs, the folder and the mode sit above the box instead of under
 
 ### My agent does not know me
 
-Look under the box: the folder must say **HQ**. Claude wakes as whatever lives in the folder its session is opened on, so a session on any other folder is a stranger. Start a new session and choose HQ.
+Look under the box: the folder must carry your agent's name. Claude wakes as whatever lives in the folder its session is opened on, so a session on any other folder, HQ too, is a stranger. Start a new session and choose your agent's folder, inside **My Agents**.
 
 ### The developer tools window disappeared (Mac)
 
