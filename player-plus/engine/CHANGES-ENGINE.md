@@ -2,6 +2,13 @@
 
 *Newest first; each change with its why. This layer's own record of changes (architecture 17 §4). The kit's CHANGES.md names the release that carries it.*
 
+## game-engine 1.1.1 — 2026-11-05 — the sheet's known answer does not age
+
+**Why:** the fixtures carry dates (a decision to ratify, cards due from late October to mid-November), and the sheet dealt them at the real clock. As those dates passed, other cards rose above the ratification in the twenty-minute Deal, and check (a) failed on every day after, though nothing in the engine had changed. A new Player's install runs the sheet first, and a FAIL there stops them.
+
+- **The sheet deals the kit's fixtures at their own moment** (`conformance.py`): an hour after their newest line, passed to `engine.py state` as `--now`, and printed on the sheet as *as of*. A home's own fixtures (`--fixtures`) are still dealt at the real clock.
+- **A test** (`tests/test_conformance.py`, `test_the_known_answer_does_not_age`) holds that moment before the first date the fixtures carry, and check (a) at PASS.
+
 ## game-engine 1.1.0 — 2026-10-31 — the collaboration surface
 
 **Why:** every holon's agent is to point to one surface: the Record each holon writes, the Engine that computes over it, the views each reads it through. The Engine gains what that asks of it, and the Record gains the kinds the Engine reads.

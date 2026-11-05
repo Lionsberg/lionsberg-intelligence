@@ -2,7 +2,7 @@
 
 *What this layer is, where its boundary runs, and what it carries on its own. Architecture 17 gives the shape: every layer has its own version, lineage, record of changes, contract, tests and keeper.*
 
-- **Version:** game-engine 1.1.0 (1.0.0 set when the one engine landed; 1.1.0 the collaboration surface; `plan.VERSION`)
+- **Version:** game-engine 1.1.1 (1.0.0 set when the one engine landed; 1.1.0 the collaboration surface; 1.1.1 the sheet's known answer pinned to the fixtures' moment; `plan.VERSION`)
 - **Lineage:**
   - It grows from the kit's engine of 3.6 (`schedule.py` and its siblings), with the planning modules joined to it under one contract.
   - The changes are pulled from this kit.
@@ -33,7 +33,7 @@ The kit's hooks in `.claude/` are not this layer; they are how the agent in its 
 |---|---|---|---|
 | `.claude/hooks/awaken.sh` | every start and every compaction (`SessionStart`, `startup` and `compact`) | `plain.three` and `plain.render`, the three answers for the person | nothing (python runs with `-B`; the signature cache is read, never saved) |
 | `.claude/hooks/what-waits.sh` | before every reply (`UserPromptSubmit`) | `plain.py HOME PERSON --hook`, the three answers and the lines since the last turn, for the agent | only its stamp, `.what-waits.json` in the home, derived and safe to delete |
-| the Hand in the session (`skills/the-deal`) | when the person answers a dealt card by word | `acts.py line`, the line one act writes at the person's word, or why none is written | nothing; the agent appends the line it prints, on the person's yes |
+| the Hand in the session (`.claude/skills/the-deal`) | when the person answers a dealt card by word | `acts.py line`, the line one act writes at the person's word, or why none is written | nothing; the agent appends the line it prints, on the person's yes |
 | the board as a pane (`.claude/launch.json`, `the-board`) | when the person asks for the board | the state builder (`engine.py state`), through `hud/serve.py`, as the HUD has always read it | what the HUD writes for an act, the same line as in the conversation |
 
 Both shell hooks run where `sh` exists (macOS, Linux, Git Bash on Windows), exit 0 whatever they find, and say what they could not read rather than an empty answer.
