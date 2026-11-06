@@ -1,6 +1,6 @@
 # System Requirements
 
-Here is what you need before you begin the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), and where your agent's home goes at Gate 4.
+Here is what you need before you begin the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), and where your agent's home goes at Gate 3.
 
 ## Your Computer
 
@@ -19,7 +19,7 @@ Here is what you need before you begin the Quest, [Becoming a Player+](Becoming%
 ## Software You will Install
 
 - **The Claude app** — free to download at claude.ai/download; it carries Claude Code inside its Code tab. Only by the terminal way: a terminal, iTerm2 or Terminal on a Mac, Windows Terminal with PowerShell on Windows. See [Choosing Your Terminal](Choosing%20Your%20Terminal.md).
-- **Git** — free; your agent uses it to keep a history of your work, and Claude installs it with you at Gate 4. A Mac gets it with Apple's Command Line Developer Tools, Windows through Git for Windows. See [Installing Git](Installing%20Git.md).
+- **Git** — free; your agent uses it to keep a history of your work, and Claude installs it with you at Gate 3. A Mac gets it with Apple's Command Line Developer Tools, Windows through Git for Windows. See [Installing Git](Installing%20Git.md).
 - **Claude Code** — included with your plan, and inside the Claude app; only the terminal way installs it on its own, as in [Installing Claude Code](Installing%20Claude%20Code.md).
 - **A Markdown editor**, later, when you want one — Typora ($15 one-time), MarkText (free), or [MeetingWords](https://meetingwords.com/); if you already use Obsidian or VS Code, they are fine too. See [Viewing Your Files](Viewing%20Your%20Files.md).
 
@@ -43,4 +43,4 @@ Your agent's home is a folder of its own inside **My Agents**, and your work liv
 > [!warning]
 > On many Windows machines, OneDrive syncs your Documents folder by default — which is exactly why both folders go directly in `C:\Users\YourName\`, not under Documents.
 
-Your headquarters follows the same rule. The Quest makes it for you at Gate 4, and your agent checks both folders with you.
+Your headquarters follows the same rule. The Quest makes it for you at Gate 3, and your agent checks both folders with you.

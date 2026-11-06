@@ -1,6 +1,6 @@
 # Installing Git
 
-*Part of Gate 4 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth. In the Quest, Claude installs Git for you; this page is for doing it by hand.*
+*Part of Gate 3 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth. In the Quest, Claude installs Git for you; this page is for doing it by hand.*
 
 Git keeps a quiet, safe history of every file you and your agent make. It is required, and it only needs to be installed: your agent handles it for you from then on, and you never need to learn it.
 

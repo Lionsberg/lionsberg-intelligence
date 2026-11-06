@@ -21,20 +21,20 @@ Like every gate in [The Gates of LIØNSBERG](https://read.lionsberg.world/The_Fi
 
 ## Choose your path
 
-The five Gates are the same on every computer; the steps inside them differ. The first three are yours alone; at the fourth you open a folder in the Claude app, paste one sentence, and Claude builds the rest in front of you, saying each step before it takes it. No terminal is needed; the terminal way is there for those who prefer it. Walk the one for the computer in front of you.
+The five Gates are the same on every computer; the steps inside them differ: an account, the Claude app, your agent's home, first words, your phone. The first two are yours alone; at the third you open a folder in the Claude app, paste one sentence, and Claude builds the rest in front of you, saying each step before it takes it. The Quest is meant to be walked with the one who invited you, who has an agent of their own. No terminal is needed; the terminal way is there for those who prefer it. Walk the one for the computer in front of you.
 
 - **[The Quest for Mac](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md)**
 - **[The Quest for Windows](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md)**
 
-## Gate 5 — Onto the Mat · first words
+## Gate 4 — First words
 
 *The page for your computer walks this Gate step by step; here it is in one place.*
 
-1. Open a new session on your agent's home, the folder you made at Gate 4, and check that the folder shown for the session is that one. Your agent in its host wakes as whatever lives in the folder its session opens on.
+1. Open a new session on your agent's home, the folder you made at Gate 3, and check that the folder shown for the session is that one. Your agent in its host wakes as whatever lives in the folder its session opens on.
 2. Type one sentence, with your own name and the name you chose for your agent, and press Return: *Hello, I am [your name]. I will call you [the name you chose]. Please wake up and meet me.*
 3. At every step, say yes, no, or *wait, explain*.
 
-**You have passed the last Gate when** your agent has woken in its home and you have answered it, in your own words. The Quest is done.
+**You have passed this Gate when** your agent has woken in its home and you have answered it, in your own words. The last Gate, your phone, is on the page for your computer.
 
 ## The first waking
 

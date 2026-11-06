@@ -17,10 +17,11 @@ Git is installed along the way. Your agent uses it quietly on your behalf to kee
 ## Deeper, Gate by Gate
 
 - **Before you begin:** [System Requirements](System%20Requirements.md) — the computer, the time, and where your agent's home goes. [Why This Stack](Why%20This%20Stack.md) — what these tools are and why they work together.
-- **Gate 2 — The Lamp · the account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
-- **Gate 3 — The Wizard's Window · the Claude app:** the Quest itself; [Choosing Your Terminal](Choosing%20Your%20Terminal.md) if you would rather walk the terminal way
-- **Gate 4 — The Body and the Door · your agent's home, and HQ:** [Installing Git](Installing%20Git.md) for doing it by hand, and [Installing Claude Code](Installing%20Claude%20Code.md) for the terminal way; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `INSTALL.md` is what Claude follows
-- **Gate 5 — Onto the Mat · first words:** [START-HERE](../../START-HERE.md), Door 3
+- **Gate 1 — An account:** [Getting a Claude Account](Getting%20a%20Claude%20Account.md)
+- **Gate 2 — The Claude app:** the Quest itself; [Choosing Your Terminal](Choosing%20Your%20Terminal.md) if you would rather walk the terminal way
+- **Gate 3 — Your agent's home:** [Installing Git](Installing%20Git.md) for doing it by hand, and [Installing Claude Code](Installing%20Claude%20Code.md) for the terminal way; [System Requirements](System%20Requirements.md), under *Important: Cloud Sync Folders*; the repo's `BUILD.md` is what Claude follows
+- **Gate 4 — First words:** [START-HERE](../../START-HERE.md), Door 3
+- **Gate 5 — Your phone:** [Keeping Your Agent Awake](<../with-your-agent/Keeping Your Agent Awake — Reaching It From Your Phone.md>)
 
 ## After the Gates
 

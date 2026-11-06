@@ -1,4 +1,4 @@
-"""test_way_in.py — the way in: START-HERE, MOVING-IN, Your First Hour, and the Quest's Gate 5.
+"""test_way_in.py — the way in: START-HERE, MOVING-IN, Your First Hour, and the Quest's Gate 4.
 
 These pages are read cold by a person with no training, and they leave this home for anyone's.
 This module checks what a script can: every path, command and skill the pages name exists in the
@@ -27,13 +27,13 @@ GETTING_STARTED = os.path.join(KIT, 'bookshelf', 'getting-started')
 QUEST = os.path.join(GETTING_STARTED, 'Becoming a Player+ — the Quest.md')
 
 # Each page and the line count it stays under (the brief's caps; the Quest page is checked only
-# in the part this brief writes, its Gate 5 and first waking).
+# in the part this brief writes, its Gate 4 and first waking).
 PAGES = {
     'START-HERE.md': (os.path.join(KIT, 'START-HERE.md'), 70),
     'MOVING-IN.md': (os.path.join(KIT, 'MOVING-IN.md'), 60),
     'Your First Hour.md': (os.path.join(GETTING_STARTED, 'Your First Hour.md'), 80),
 }
-QUEST_PART = ('## Gate 5', '> [!tip]')   # the Quest page's own part, from this heading to this line
+QUEST_PART = ('## Gate 4', '> [!tip]')   # the Quest page's own part, from this heading to this line
 
 # Paths a page names that live in the reader's own home once it is in use, not in the kit.
 MADE_IN_USE = {'memory/agreements.md', '.claude/skills/'}
@@ -93,7 +93,7 @@ def _quest_part():
 def _texts():
     """(label, folder its links resolve from, text) for every page this brief writes."""
     out = [(label, os.path.dirname(path), _read(path)) for label, (path, _cap) in PAGES.items()]
-    out.append(('the Quest, Gate 5', GETTING_STARTED, _quest_part()))
+    out.append(('the Quest, Gate 4', GETTING_STARTED, _quest_part()))
     return out
 
 
@@ -133,7 +133,7 @@ class TestPagesExist(unittest.TestCase):
     def test_every_page_is_there(self):
         for label, (path, _cap) in PAGES.items():
             self.assertTrue(os.path.isfile(path), label)
-        self.assertTrue(_quest_part(), "the Quest page has its Gate 5 and first waking")
+        self.assertTrue(_quest_part(), "the Quest page has its Gate 4 and first waking")
         self.assertIn('## The first waking', _quest_part())
 
 

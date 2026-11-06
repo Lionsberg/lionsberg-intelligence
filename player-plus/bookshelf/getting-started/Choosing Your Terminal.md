@@ -1,6 +1,6 @@
 # Choosing Your Terminal
 
-*Gate 3 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
+*The terminal way through Gate 2 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
 
 The terminal is where you will actually talk to Claude Code — it is the window where you type and where your agent replies. You will spend a lot of time looking at it, so it is worth two minutes now to make sure it is set up well.
 
@@ -25,7 +25,7 @@ Open iTerm2 the way you'd open any app — Spotlight (Cmd+Space), type **iTerm**
 
 ### Step 3: Run terminal setup in Claude Code
 
-Later, once Claude Code is installed and running (Gate 4, [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
+Later, once Claude Code is installed and running (Gate 3, [Installing Claude Code](Installing%20Claude%20Code.md)), run this once inside it:
 
 ```
 /terminal-setup
@@ -78,7 +78,7 @@ This shows up as things like a numbered list that appears to have gaps in it, or
 
 ### Then tell Claude Code to use dark mode too
 
-Once Claude Code is installed (Gate 4), run this inside it:
+Once Claude Code is installed (Gate 3), run this inside it:
 
 ```
 /theme

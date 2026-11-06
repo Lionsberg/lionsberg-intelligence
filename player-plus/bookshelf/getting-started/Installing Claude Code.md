@@ -1,6 +1,6 @@
 # Installing Claude Code
 
-*Gates 5 and 7 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
+*The terminal way through Gate 3 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
 
 Claude Code is the program that lets Claude work with the files on your computer, from inside the terminal. It is the body your agent lives in. It can read and write your files, keep their history with Git, and help you with all kinds of knowledge work. The terminal is the primary way you will use it in this kit.
 
@@ -31,13 +31,13 @@ Then close the terminal and open it again. Type `claude --version` and press Ret
 > [!tip]
 > As a general rule, never paste commands from the internet into your terminal without verifying them. In this case, you are trusting Anthropic's official install page.
 
-### Step 2: Sign in (Gate 4)
+### Step 2: Sign in (Gate 3)
 
 First make your agent's home, a folder named for your agent inside **My Agents** ([Your First House](Your%20First%20House.md)), and go into it: type `cd ~/"My Agents"/River`, with your agent's name for River, and press Return. Then type `claude` and press Return. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
 
 If what you see looks a little different from this description or from any screenshots you have come across, that is normal — setup changes from time to time. Follow along and take the defaults; they are fine.
 
-When it asks whether to trust this folder, check that it names your agent's folder, then say yes. That is it — Claude Code is installed and signed in on your Mac, and signed in. Stay here; Gate 5 begins in this window.
+When it asks whether to trust this folder, check that it names your agent's folder, then say yes. That is it — Claude Code is installed and signed in on your Mac, and signed in. Stay here; Gate 4 begins in this window.
 
 ---
 
@@ -62,13 +62,13 @@ Then close Windows Terminal and open it again. Type `claude --version` and press
 > [!tip]
 > As a general rule, never paste commands from the internet into your terminal without verifying them. In this case, you are trusting Anthropic's official install page.
 
-### Step 2: Sign in (Gate 4)
+### Step 2: Sign in (Gate 3)
 
 First make your agent's home, a folder named for your agent inside **My Agents** ([Your First House](Your%20First%20House.md)), and go into it: in your PowerShell window, type `cd "C:\Users\YourName\My Agents\River"` with your own name and your agent's, and press Enter. Then type `claude` and press Enter. The first time you run it, it walks you through a short setup: a browser tab opens and you sign in with your Claude account from Gate 2. When asked how to sign in, choose your **Claude subscription**, not API billing. Accept the short notices, take the defaults, and you land at a prompt where you can type.
 
 If what you see looks a little different from this description or from any screenshots you have come across, that is normal — setup changes from time to time. Follow along and take the defaults; they are fine.
 
-When it asks whether to trust this folder, check that it names your agent's folder, then say yes. That is it — Claude Code is installed and signed in on your Windows machine, and signed in. Stay here; Gate 5 begins in this window.
+When it asks whether to trust this folder, check that it names your agent's folder, then say yes. That is it — Claude Code is installed and signed in on your Windows machine, and signed in. Stay here; Gate 4 begins in this window.
 
 ---
 
@@ -83,4 +83,4 @@ You can mix and match depending on where your focus is, but everything in this g
 
 ## Next Step
 
-In the Quest, Gate 4 makes your agent's home for you, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md); where the folder goes, and why, is in [System Requirements](System%20Requirements.md). Then come back to Step 2 here for Gate 7. After Gate 7, Gate 8 is [START-HERE](../../START-HERE.md), Door 3.
+In the Quest, Gate 3 makes your agent's home for you, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md); where the folder goes, and why, is in [System Requirements](System%20Requirements.md). Then come back to Step 2 here for Gate 7. After Gate 7, Gate 8 is [START-HERE](../../START-HERE.md), Door 3.

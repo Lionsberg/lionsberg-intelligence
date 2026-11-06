@@ -100,7 +100,7 @@ What improves a layer comes from play: each house's weekly retrospective, the ro
 
 ## 8. How the folders follow
 
-*Not yet settled.*
+*Not yet settled for the repository. Settled for the installed house in document 18: the layers are placed apart there, and the repository keeps its one folder.*
 
 - **One repository for now.** The layers live as folders of `player-plus/`, each with its own version, lineage and changes, so that shipping stays one pull. A layer moves to a repository of its own only when its keeper is someone other than the kit's keeper.
 - **The PKAI base held as a pinned copy.** The kit carries the pkai-starter-kit's parts it uses, unchanged, at a named version, with the ledger of differences beside them, so the upstream's next version can be compared file by file.

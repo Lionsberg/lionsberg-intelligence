@@ -6,11 +6,11 @@ LIØNSBERG serves one Goal — *ØNE · Creator's Intent · Heaven on Earth · f
 
 ## Player+ — the agent you take home
 
-`player-plus/` is **Player+ 3.9.0**, the personal LIØNSBERG Agent. It runs in Claude Code (or any harness that reads a `CLAUDE.md`), on a small local model, or not at all: a notebook plays the whole Game.
+`player-plus/` is **Player+**, the personal LIØNSBERG Agent: the latest personal-agent kit, as its keeper ships it, with layers added, each one capability (`RELEASE.md`). It runs in Claude Code (or any harness that reads a `CLAUDE.md`), on a small local model, or not at all: a notebook plays the whole Game.
 
 On its shelf is the whole library of read.lionsberg.world — The One Book, the Field, the Rosetta Stone, the Player+ Modules, the Superorganism package — and the skills for playing: the roll, the Season Sheet, the Offering, the retrospective, reading the Story aloud, passing the Flame, and the starter kit's skills for keeping a house.
 
-**To begin**, walk the Quest, [Becoming a Player+](player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), or the library's page *START HERE — Becoming a Player+* at read.lionsberg.world: five Gates, an hour or two. At Gate 4 one pasted sentence points Claude Code at [`INSTALL.md`](INSTALL.md), and Claude builds the agent's home in front of you. Already set up? Open [`player-plus/START-HERE.md`](player-plus/START-HERE.md).
+**To begin**, open [`START-HERE.md`](START-HERE.md): five Gates, an hour or two, walked with the one who invited you. At the third Gate one pasted sentence points Claude at [`BUILD.md`](BUILD.md), and Claude builds the house in front of you: your agent's home, the Library beside your projects, and, if you want them, the Game Engine and the board. Already set up? Open [`player-plus/START-HERE.md`](player-plus/START-HERE.md).
 
 ## Where the agents fit
 

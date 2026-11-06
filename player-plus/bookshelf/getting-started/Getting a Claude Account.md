@@ -1,8 +1,8 @@
 # Getting a Claude Account
 
-*Gate 2 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
+*Gate 1 of the Quest, [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md), in more depth.*
 
-Claude is an AI made by Anthropic. Your agent thinks with Claude, through Claude Code, the program that lets Claude work with the files on your computer. You need a paid account to use it.
+Claude is an AI made by Anthropic. Your agent can think with Claude, which is the default recommendation, through Claude Code, the program that lets Claude work with the files on your computer. You need a paid account to use it.
 
 ## Sign Up for the Pro Plan
 
@@ -32,4 +32,4 @@ You do not need to pay for anything else. No API keys, no separate billing for C
 
 ## Next Step
 
-Gate 3: the Claude app, in the Quest for [Mac](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md) or [Windows](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md).
+Gate 2: the Claude app, in the Quest for [Mac](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md) or [Windows](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md).

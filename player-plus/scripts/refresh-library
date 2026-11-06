@@ -24,7 +24,7 @@
 
 LIB=${1:-"$HOME/HQ/Library/lionsberg-intelligence"}
 HQ=${2:-"$HOME/HQ"}
-BRANCH=${LIBRARY_BRANCH:-release}
+BRANCH=${LIBRARY_BRANCH:-}
 HOME_DIR=${CLAUDE_PROJECT_DIR:-$(pwd)}
 STAMP="$LIB/../.refreshed"
 today=$(date '+%Y-%m-%d')
@@ -49,6 +49,11 @@ if [ -n "$(git -C "$LIB" status --porcelain 2>/dev/null)" ]; then
   exit 0
 fi
 
+# The Library follows the branch it was cloned on (the kit's `release` branch, as the builder clones it).
+if [ -z "$BRANCH" ]; then
+  BRANCH=$(git -C "$LIB" rev-parse --abbrev-ref HEAD 2>/dev/null)
+  [ -n "$BRANCH" ] && [ "$BRANCH" != "HEAD" ] || BRANCH=release
+fi
 before=$(git -C "$LIB" rev-parse HEAD 2>/dev/null)
 if ! git -C "$LIB" fetch --quiet --depth 1 origin "$BRANCH" 2>/dev/null; then
   echo "The Library's source could not be reached. It stays as it was."

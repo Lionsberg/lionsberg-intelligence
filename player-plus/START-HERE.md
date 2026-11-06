@@ -14,7 +14,7 @@ You say what you will do, you do what you said, and you learn from the gap, besi
 
 The setup is one path, the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>): five steps, called Gates, that take an hour or two, with every step shown for Mac and for Windows. You may stop between any two Gates. You need a Mac or Windows computer you can install an app on, and a plan for the first host your agent lives in, the Claude app; [What you need](REQUIREMENTS.md) says which plan. The kit itself costs nothing beyond that plan. Everywhere else this kit says *your agent in its host*, meaning the app your agent runs in, because the Game is the same in any host.
 
-At the last Gate you open a new session on your agent's home, the folder the Quest makes for it, and type one sentence, with your own name and the name you chose for your agent:
+At the fourth Gate you open a new session on your agent's home, the folder the Quest makes for it, and type one sentence, with your own name and the name you chose for your agent:
 
 > Hello, I am [your name]. I will call you [the name you chose]. Please wake up and meet me.
 

@@ -9,8 +9,8 @@ licence: Creative Commons Attribution-ShareAlike 4.0, except Path C, which adapt
 
 ## The order of things
 
-1. **The yes first.** Read THE STORY (`bookshelf/the-one-book/THE STORY.md`) and The Provisional Field of Agreements (`bookshelf/the-library/The Provisional Field of Agreements.md`), and say yes in your own words, freely, to the person who invited you. This is Gate 1 of the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>). A notebook will do. If you want more before you choose, the Game in one page (`bookshelf/the-great-game/02 The Game, in One Page.md`) and the six lines of the simplest Game (`.claude/skills/the-simplest-game/SKILL.md`) are there.
-2. **The agent at the wise right time.** When an agent is right for you, the Quest's Gates 2 to 5 build its home in an hour or two, and then you open that home in your agent in its host and speak ([Your First Hour](<bookshelf/getting-started/Your First Hour.md>)). It is offered to each person by someone who knows where they are on the Arc, never as a ticket. This is stair four in `bookshelf/your-house/The Stairs.md`: an agent on your own machine.
+1. **The yes first.** Read THE STORY (`bookshelf/the-one-book/THE STORY.md`) and The Provisional Field of Agreements (`bookshelf/the-library/The Provisional Field of Agreements.md`), and say yes in your own words, freely, to the person who invited you. A notebook will do. If you want more before you choose, the Game in one page (`bookshelf/the-great-game/02 The Game, in One Page.md`) and the six lines of the simplest Game (`.claude/skills/the-simplest-game/SKILL.md`) are there.
+2. **The agent at the wise right time.** When an agent is right for you, the Quest, [Becoming a Player+](<bookshelf/getting-started/Becoming a Player+ — the Quest.md>), builds its home in five Gates, an hour or two, and then you open that home in your agent in its host and speak ([Your First Hour](<bookshelf/getting-started/Your First Hour.md>)). It is offered to each person by someone who knows where they are on the Arc, never as a ticket. This is stair four in `bookshelf/your-house/The Stairs.md`: an agent on your own machine.
 3. **Then your table.** Gather your two or three. Hold a first gathering. Choose a first shared Quest. Keep one weekly Heartbeat. Some people gather their table first and come to the agent later; the two roads meet here, and either way the Game comes before the tools.
 
 ## Path A — you have a notebook
@@ -36,7 +36,7 @@ Then have your agent write down, in a session log, what it took, what it left, a
 
 ## Path D — you have no agent yet
 
-Path A or B until the wise right time. Then walk the Quest: its five Gates build your agent's home in an hour or two, and its last Gate is your agent's first words (`START-HERE.md`).
+Path A or B until the wise right time. Then walk the Quest: its five Gates build your agent's home in an hour or two, and at its fourth Gate your agent speaks its first words (`START-HERE.md`).
 
 ## Path E — no kit, no terminal, only this folder
 

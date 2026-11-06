@@ -22,7 +22,7 @@ A **Claude Pro** plan from Anthropic, which includes everything this path needs 
 
 ## Git: required
 
-Git keeps quiet, safe snapshots of everything you and your agent make, so nothing can ever be lost. You do not need to learn it; your agent handles it. It only needs to be installed, which the Quest does at Gate 4 (on a Mac, with Apple's developer tools, which can take five to forty minutes).
+Git keeps quiet, safe snapshots of everything you and your agent make, so nothing can ever be lost. You do not need to learn it; your agent handles it. It only needs to be installed, which the Quest does at Gate 3 (on a Mac, with Apple's developer tools, which can take five to forty minutes).
 
 **One rule: keep your agent's home out of cloud-sync folders** — iCloud, OneDrive, Dropbox, Google Drive. Git and sync engines contend with each other and both lose. Your agent's home is a folder of its own inside **My Agents**, and your headquarters, **HQ**, where your projects live, sits beside it; both go directly in your home folder. On many Windows computers Documents is synced by OneDrive, which is why neither goes there.
 
