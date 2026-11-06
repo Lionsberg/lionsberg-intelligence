@@ -4,6 +4,7 @@
     "allow": [
       "Bash(bash scripts/room-post.sh:*)",
       "Bash(bash scripts/pad-write.sh:*)",
+      "Bash(sh scripts/refresh-library:*)",
       "Bash(ls:*)",
       "Bash(cat:*)",
       "Bash(head:*)",

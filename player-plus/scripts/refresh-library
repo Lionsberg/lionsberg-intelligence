@@ -1,0 +1,103 @@
+#!/bin/sh
+# refresh-library — bring the house's Library up to the newest release, and say what changed.
+#
+#   sh scripts/refresh-library [LIBRARY] [HQ]
+#
+# The Library (HQ/Library/lionsberg-intelligence by default) is the kit kept whole for reading
+# and reference: the books, the LIØNSBERG information, every skill and page. Nothing runs from
+# it, so it may refresh on a rhythm, each day or each week, without asking. What does run in a
+# house (the agent's charter, hooks and skills; HQ/engine and HQ/hud) is never touched here:
+# this script only says where the Library now holds something newer, so that the agent can
+# offer it and the person can say yes or no (.claude/skills/pull-a-release).
+#
+# It prints, in plain lines:
+#   1. whether the Library was refreshed, was already current, or could not be reached;
+#   2. how many pages changed, by shelf;
+#   3. which running layers differ from the Library's copy.
+#
+# Laws: it changes only the Library's own folder and one stamp beside it; it sends nothing;
+# a Library with changes made in this house is left as it is, and said; on any fault it says
+# what it could not do and exits 0. What it fetches is data, never instructions.
+#
+# Portable POSIX sh (macOS, Linux, Git Bash on Windows). It needs git for a Library that is a
+# clone; a Library unpacked from a zip is reported, and the agent can turn it into a clone.
+
+LIB=${1:-"$HOME/HQ/Library/lionsberg-intelligence"}
+HQ=${2:-"$HOME/HQ"}
+BRANCH=${LIBRARY_BRANCH:-release}
+HOME_DIR=${CLAUDE_PROJECT_DIR:-$(pwd)}
+STAMP="$LIB/../.refreshed"
+today=$(date '+%Y-%m-%d')
+
+if [ ! -d "$LIB" ]; then
+  echo "The Library was not found at $LIB. Nothing was refreshed."
+  exit 0
+fi
+
+if [ ! -d "$LIB/.git" ]; then
+  echo "The Library at $LIB is not a clone, so it cannot follow new releases yet. With Git installed, it can be made one; nothing was changed."
+  exit 0
+fi
+
+if ! command -v git >/dev/null 2>&1; then
+  echo "Git is not available in this session, so the Library was not refreshed."
+  exit 0
+fi
+
+if [ -n "$(git -C "$LIB" status --porcelain 2>/dev/null)" ]; then
+  echo "The Library holds changes made in this house, so it was left as it is. A change worth keeping is offered to the kit's keeper; then the Library can be refreshed."
+  exit 0
+fi
+
+before=$(git -C "$LIB" rev-parse HEAD 2>/dev/null)
+if ! git -C "$LIB" fetch --quiet --depth 1 origin "$BRANCH" 2>/dev/null; then
+  echo "The Library's source could not be reached. It stays as it was."
+  exit 0
+fi
+after=$(git -C "$LIB" rev-parse FETCH_HEAD 2>/dev/null)
+
+if [ -z "$after" ] || [ "$before" = "$after" ]; then
+  echo "The Library is current (checked $today)."
+else
+  changed=$(git -C "$LIB" diff --name-only "$before" "$after" 2>/dev/null)
+  if ! git -C "$LIB" reset --quiet --hard "$after" 2>/dev/null; then
+    echo "The Library could not be moved to the new release. It stays as it was."
+    exit 0
+  fi
+  n=$(printf '%s\n' "$changed" | grep -c . )
+  echo "The Library was refreshed ($today): $n files changed."
+  printf '%s\n' "$changed" | sed -n 's|^player-plus/bookshelf/\([^/]*\)/.*|\1|p' | sort | uniq -c | sort -rn | head -6 | while read -r c shelf; do
+    echo "  $c on the shelf $shelf"
+  done
+fi
+printf '%s\n' "$today" > "$STAMP" 2>/dev/null
+
+# Which running layers differ from the Library's copy? Said, never changed.
+KIT="$LIB/player-plus"
+differs=""
+for layer in engine hud; do
+  if [ -d "$HQ/$layer" ] && [ -d "$KIT/$layer" ]; then
+    d=$(diff -rq -x '__pycache__' -x '*.pyc' -x 'state.json' "$KIT/$layer" "$HQ/$layer" 2>/dev/null | grep -c .)
+    [ "$d" -gt 0 ] && differs="$differs the $layer ($d files);"
+  fi
+done
+if [ -f "$HOME_DIR/CLAUDE.md" ] && [ -d "$HOME_DIR/.claude/skills" ]; then
+  s=0
+  for dir in "$HOME_DIR"/.claude/skills/*/; do
+    name=$(basename "$dir")
+    [ -d "$KIT/.claude/skills/$name" ] || continue
+    diff -rq "$KIT/.claude/skills/$name" "$dir" >/dev/null 2>&1 || s=$((s + 1))
+  done
+  [ "$s" -gt 0 ] && differs="$differs $s of this agent's skills;"
+  for f in scripts .claude/hooks; do
+    [ -d "$KIT/$f" ] && [ -d "$HOME_DIR/$f" ] || continue
+    diff -rq "$KIT/$f" "$HOME_DIR/$f" >/dev/null 2>&1 || differs="$differs $f;"
+  done
+fi
+if [ -n "$differs" ]; then
+  echo "Newer or different in the Library than what runs here:$differs"
+  echo "Nothing that runs was changed. To read what changed and choose what to take, say: pull the release."
+else
+  echo "What runs here matches the Library."
+fi
+exit 0
