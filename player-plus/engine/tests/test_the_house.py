@@ -279,6 +279,58 @@ class TheRefresh(unittest.TestCase):
         self.assertIn('left as it is', out)
         self.assertTrue(_read(os.path.join(self.lib, 'player-plus', 'bookshelf', 'the-one-book', 'a.md')).endswith(' mine'))
 
+    def test_a_file_the_library_does_not_track_does_not_stall_it(self):
+        with open(os.path.join(self.lib, '.DS_Store'), 'w') as f:
+            f.write('x')
+        os.makedirs(os.path.join(self.lib, 'player-plus', 'bookshelf', '.obsidian'))
+        with open(os.path.join(self.lib, 'player-plus', 'bookshelf', '.obsidian', 'app.json'), 'w') as f:
+            f.write('{}')
+        self.assertIn('The Library is current', self._run())
+
+    def test_a_changed_file_is_named(self):
+        with open(os.path.join(self.lib, 'player-plus', 'bookshelf', 'the-one-book', 'a.md'), 'a') as f:
+            f.write(' mine')
+        self.assertIn('the-one-book/a.md', self._run())
+
+    def test_a_commit_made_in_the_house_is_kept(self):
+        with open(os.path.join(self.lib, 'player-plus', 'bookshelf', 'the-one-book', 'a.md'), 'a') as f:
+            f.write(' mine')
+        self._git(self.lib, 'commit', '-q', '-am', 'mine')
+        with open(os.path.join(self.origin, 'player-plus', 'bookshelf', 'the-one-book', 'b.md'), 'w') as f:
+            f.write('two')
+        self._commit('two')
+        out = self._run()
+        self.assertIn('commits made in this house', out)
+        self.assertTrue(_read(os.path.join(self.lib, 'player-plus', 'bookshelf', 'the-one-book', 'a.md')).endswith(' mine'))
+
+    def test_release_after_release(self):
+        kit = os.path.join(self.origin, 'player-plus')
+        for n in ('two', 'three'):
+            with open(os.path.join(kit, 'bookshelf', 'the-one-book', n + '.md'), 'w') as f:
+                f.write(n)
+            self._commit(n)
+            self.assertIn('The Library was refreshed', self._run())
+            self.assertIn('The Library is current', self._run())
+        self.assertTrue(os.path.isfile(os.path.join(self.lib, 'player-plus', 'bookshelf', 'the-one-book', 'three.md')))
+
+    def test_a_difference_is_raised_once(self):
+        with open(os.path.join(self.house, 'HQ', 'engine', 'x.py'), 'w') as f:
+            f.write('adapted here')
+        first, second = self._run(), self._run()
+        self.assertIn('say: pull the release', first)
+        self.assertNotIn('say: pull the release', second)
+        self.assertIn('nothing new', second)
+
+    def test_a_page_the_agent_acts_from_is_named(self):
+        seed = os.path.join(self.origin, 'player-plus', 'bookshelf', 'the-dna-of-heaven')
+        os.makedirs(seed)
+        with open(os.path.join(seed, 'THE DNA OF HEAVEN.md'), 'w') as f:
+            f.write('the seed')
+        self._commit('the seed')
+        out = self._run()
+        self.assertIn('the seed text', out)
+        self.assertIn('read the change with your person', out)
+
     def test_no_library_says_so(self):
         out = self._run(home=os.path.join(self.tmp, 'nowhere'))
         self.assertIn('was not found', out)

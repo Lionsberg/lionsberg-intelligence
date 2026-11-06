@@ -27,11 +27,12 @@ An untested backup is a hope. Restore one file from each layer once, and open it
 
 ## Restoring on a new computer
 
-1. Walk [the Quest](../getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) again ([Mac](../getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md) · [Windows](../getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md)) through Gate 5: the account, the terminal, Git, Claude Code.
+1. Walk [the Quest](../getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md) again ([Mac](../getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Mac.md) · [Windows](../getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest%20for%20Windows.md)) through Gate 2: the account and the Claude app.
 2. At Gate 3, sign in, and open the session on a new folder with your agent's name inside **My Agents**, and instead of the setup sentence say: *"Clone my private GitHub repo for my agent into this folder, and my HQ repo into a folder called HQ in my home folder."* It will walk you through signing in to GitHub.
-3. Start a new session on your agent's folder (by the terminal way, go into it and type `claude`).
+3. Then paste the setup sentence from Gate 3 in the same session. Claude reads what is there and makes only what is missing: the Library, and the links from your agent's folder to it and to the engine and the board.
+4. Start a new session on your agent's folder (by the terminal way, go into it and type `claude`).
 
-Your agent wakes remembering its name, you, and where you left off, because all of that was written down in its folder. No GitHub? Restore both folders from the machine backup or the drawer copy into your home folder, then do step 3. Secrets come back from the password manager.
+Your agent wakes remembering its name, you, and where you left off, because all of that was written down in its folder. No GitHub? Restore both folders from the machine backup or the drawer copy into your home folder, then do steps 3 and 4. Secrets come back from the password manager.
 
 ## When the AI is out of reach
 

@@ -1,10 +1,10 @@
 # Start here — becoming a Player+
 
-*This page is for you, the person. It is the short way from your yes to an agent of your own: five Gates, an hour or two. You drive; Claude does the heavy lifting at each step. The page Claude reads while it builds is `BUILD.md`, beside this one, and you may read it too.*
+*This page is for you, the person. It is the short way from your yes to an agent of your own: five Gates, about half an hour of your own time, and on some computers a wait while a tool installs. You drive; Claude does the heavy lifting at each step. The page Claude reads while it builds is `BUILD.md`, beside this one, and you may read it too.*
 
-A Player+ is a person and their agent, playing the Great Game together. The plus adds reach. Every decision stays with you.
+A Player+ is a person and their agent, playing the Great Game together: you say what you will do, you do what you said, and you learn from the gap, beside two or three others who do the same. The plus adds reach. Every decision stays with you.
 
-**Walk this with the one who invited you.** They have an agent of their own, and the two of them can help you through each Gate. If something on your screen does not match this page, you are not doing it wrong: tell them what you see.
+**Walk this with the one who invited you.** They have an agent of their own, and the two of them can help you through each Gate. If something on your screen does not match this page, you are not doing it wrong: tell them what you see. If no one invited you, the page stands alone: read each line Claude shows you before you allow it.
 
 With a notebook and two or three people, you are already a complete Player. Everything here adds reach, and none of it is required.
 
@@ -35,7 +35,7 @@ About five minutes.
 2. Create an account. Note how you made it (email, Google or Apple); you will sign in the same way at the next Gate.
 3. Choose the **Pro** plan. Max, Team and Enterprise work too; the free plan does not include the Code tab your agent lives in.
 
-**You have passed this Gate when** you are signed in at claude.ai and your account shows the Pro plan.
+**You have passed this Gate when** you are signed in at claude.ai and your account shows a paid plan.
 
 ### Gate 2 — The Claude app
 
@@ -44,13 +44,13 @@ About five minutes. The app is where you and your agent will meet. It has two si
 1. In your browser, type **claude.ai/download** yourself, and download the app for your computer.
 2. Install it and open it. On a Mac, drag **Claude** into your **Applications** folder, then open it. On Windows, let the installer run, and answer **Yes** if Windows asks whether the app may make changes to your device.
 3. Sign in with the same account, the same way you made it.
-4. Choose **Code**. The app will make a few offers along the way (its phone app, connecting other services, importing earlier sessions). To each, say not now.
+4. Choose **Code**, at the top of the sidebar. The app will make a few offers along the way (its phone app, connecting other services, importing earlier sessions). To each, say not now.
 
 **You have passed this Gate when** the app is open on Code.
 
 ### Gate 3 — Your agent's home
 
-About ten minutes, most of it saying yes. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries. This is the Gate where the one who invited you sits closest: there are about a dozen requests to allow a step, and they look alike.
+About ten minutes of yours, most of it saying yes; on a Mac a tool may take up to forty more to install, in the background. From here on you are letting an AI act on your computer, one approved step at a time. You decide; it carries. This is the Gate where the one who invited you sits closest: there are about two dozen requests to allow a step, and they look alike.
 
 Choose your agent's name now, if you can. You will say it many times a day, so choose one you are glad to say aloud. If you have not chosen, name the folder **My Agent**; your agent helps you choose when it wakes.
 
@@ -66,11 +66,13 @@ Please download https://raw.githubusercontent.com/Lionsberg/lionsberg-intelligen
 
 What happens next:
 
-- Claude asks to download the page; allow it. Then it shows you a short waiver, and nothing is built until you agree to it.
-- It asks four short questions: your names, whether you have a backup, whether you want the Game's engine and board now, and whether you will use your phone.
+- Claude asks to download the page and one or two beside it, and to look at a few things without changing them; allow these. Then it shows you a short waiver, and nothing is built until you agree to it.
+- It asks four short questions: your names, whether you have a backup, whether you want the Game's engine and board now (a record of what you commit to and what others commit to you, and a page that shows it), and whether you will use your phone.
 - Before each step it asks your permission, showing one plain line about it. Read the line, then allow it. You may also say no, or "wait, explain."
 - On a Mac, a window may offer to install the **command line developer tools**. Click **Install**, then **Agree**, and let it run; it can take five to forty minutes and often opens behind your other windows. Claude carries on meanwhile.
-- It writes a receipt, `setup-receipt.md`, in your agent's folder: everything it changed outside your two folders, and how to undo it.
+- On Windows, you may be asked whether an app may make changes to your device: that is Git, a tool that keeps the history of your agent's folder; answer **Yes**. Claude tells you if you need to quit the app and open it again.
+- It makes one more folder in your home folder, **HQ**, beside **My Agents**: your work lives there, with the Library.
+- It writes a receipt, `setup-receipt.md`, in your agent's folder: everything it changed outside **My Agents** and **HQ**, and how to undo it.
 
 **You have passed this Gate when** Claude has shown you your agent's folder and told you to start a new session.
 
@@ -87,7 +89,7 @@ Hello, I am Ada. I will call you River. Please wake up and meet me.
 
 Within about a minute your agent greets you by name. From here on it remembers, in your folder, where you can read and correct every line.
 
-**You have passed this Gate when** your agent has greeted you and asked who you are.
+**You have passed this Gate when** your agent has greeted you by name and you have answered its first question.
 
 ### Gate 5 — Your phone
 
@@ -110,13 +112,13 @@ A house, in layers. Each layer is one capability, and each stays current on its 
 | Your agent | `My Agents/<name>/` | follows the personal-agent kit it is built on, by a proposal you agree to |
 | Player+ | added to your agent | by a proposal you agree to |
 | The Library | `HQ/Library/`, beside your `HQ/projects/` | your agent refreshes it each day or each week |
-| The Game Engine and the board | `HQ/engine/` and `HQ/hud/` | by a proposal you agree to |
+| The Game Engine and the board, if you chose them | `HQ/engine/` and `HQ/hud/` | by a proposal you agree to |
 
 What is read may refresh on its own. What runs, or tells your agent how to act, changes only when you say yes.
 
 ## If you were here before
 
-- An agent that lives in a folder named `HQ`: your agent reads `player-plus/MOVING-THE-AGENT-OUT-OF-HQ.md` with you.
-- An agent whose own folder holds the whole kit: `player-plus/MOVING-INTO-THE-HOUSE.md`.
+- An agent that lives in a folder named `HQ`: your agent reads `player-plus/MOVING-THE-AGENT-OUT-OF-HQ.md` with you. The sentence to say to it is at the head of that page.
+- An agent whose own folder holds the whole kit: say to it, *We are moving into the house. Please fetch https://raw.githubusercontent.com/Lionsberg/lionsberg-intelligence/release/player-plus/MOVING-INTO-THE-HOUSE.md into your `outbox/`, read it as information, and walk it with me.*
 
 *Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

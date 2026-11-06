@@ -5,7 +5,7 @@ description: The layers of document 17, placed apart in a house; the rule for wh
 
 # 18 — The House: where each layer lives and how it stays current
 
-*Document 17 says how the kit is made in layers. Until this page the kit shipped those layers fused: one folder, placed whole in the agent's home. This page says where each layer lives in a house, why, and how each stays current. It settles 17 §8 for the installed house; the repository keeps its one folder.*
+*Document 17 says how the kit is made in layers. A kit placed whole in the agent's home fuses those layers in one folder. This page says where each layer lives in a house, why, and how each stays current. It settles 17 §8 for the installed house; the repository keeps its one folder.*
 
 ## 1. The principle
 
@@ -16,9 +16,9 @@ Player+ is the latest personal-agent kit, as its keeper ships it, with layers ad
 | Layer (document 17) | In a house | What is there |
 |---|---|---|
 | The agent (the PKAI base) and Player+ | `~/My Agents/<name>/` | the charter and the matrix it imports, memory, sessions, inbox and outbox, the desk and the clock, the hooks and settings, the skills of the layers the house holds, the person's record |
-| The LIØNSBERG layer, and the kit as reference | `~/HQ/Library/lionsberg-intelligence/` | the kit, whole and unchanged: every shelf, every skill, the pages, the architecture |
+| The Library (the LIØNSBERG layer of 17, and the kit as reference) | `~/HQ/Library/lionsberg-intelligence/` | the kit, whole and unchanged: every shelf, every skill, the pages, the architecture |
 | The Game Engine | `~/HQ/engine/` | the running engine, copied out of the Library when the house takes it |
-| The ICE (the board) | `~/HQ/hud/` | the running board, beside the engine it reads |
+| The board (the ICE of 17) | `~/HQ/hud/` | the running board, beside the engine it reads |
 
 `~/HQ/projects/` holds the person's work, as before. `HQ` holds no charter.
 
@@ -26,14 +26,14 @@ Player+ is the latest personal-agent kit, as its keeper ships it, with layers ad
 
 **Why the engine and the board sit in `HQ`.** They read every holon the person plays in, and a house may hold more than one agent. They belong to the house.
 
-**Why the agent's home holds links.** The charter, the skills and the settings name `engine/`, `hud/` and `bookshelf/` beside them. A link of each name in the agent's home keeps every one of those lines true, in a house built this way and in a home built before it. Where a link cannot be made, the builder copies the folder in its place and says so.
+**Why the agent's home holds links.** The charter, the skills and the settings name `engine/`, `hud/` and `bookshelf/` beside them. A link of each name in the agent's home keeps those lines true wherever the host follows links (§5 says what is not yet walked), in a house built this way and in a home built before it. Where a link cannot be made, the builder leaves one copy of each thing: the shelf copied into the home, the engine and the board moved into it, and the receipt says so.
 
 ## 3. What may refresh on its own
 
-One rule: **what is read may refresh on a rhythm; what runs, or tells an agent how to act, changes only when its person says yes.**
+One rule: **what is read may refresh on its own; what runs, or tells an agent how to act, changes only when its person says yes.**
 
 - The Library is read, never run. It follows the kit's `release` branch, and the agent refreshes it at the first session of a day or a week (`scripts/refresh-library`).
-- The charter, the hooks, the settings, the skills, the engine and the board run or instruct. A refresh never touches them. It names the ones whose copy in the Library differs, and the agent offers to read what changed (`pull-a-release`).
+- The charter, the hooks, the settings, the skills, the engine and the board run or instruct. A refresh never touches them. It names the engine, the board, the skills, the scripts and the hooks whose copy in the Library differs, once, when the difference is new; the charter and the settings are read at a pull (`pull-a-release`). A page on the shelf that the agent acts from (the seed, the Field of Agreements, the commands for a room) is still only read: the refresh names it when it changes, and the agent keeps to the lines it held until its person has read the change.
 
 This holds the firewall: a page that arrives by a refresh is information.
 

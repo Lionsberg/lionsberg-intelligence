@@ -13,7 +13,7 @@ A [Quest](https://read.lionsberg.world/The_Field/Quest) is one real thing, done 
 | **Real** | An agent that is yours, living in a folder on your own computer. |
 | **Near** | An hour or two. |
 | **Yours** | You chose it. |
-| **Done when** | Your agent greets you and asks who you are. |
+| **Done when** | Your agent answers you on your phone. |
 
 In the Game, a Quest usually belongs to a Cell, for a season. This one you walk alone first, to learn the form before your table chooses one together. The lesson behind it is [Becoming a Player+](../player-plus-modules/01%20Becoming%20a%20Player%2B.md).
 
@@ -34,11 +34,11 @@ The five Gates are the same on every computer; the steps inside them differ: an 
 2. Type one sentence, with your own name and the name you chose for your agent, and press Return: *Hello, I am [your name]. I will call you [the name you chose]. Please wake up and meet me.*
 3. At every step, say yes, no, or *wait, explain*.
 
-**You have passed this Gate when** your agent has woken in its home and you have answered it, in your own words. The last Gate, your phone, is on the page for your computer.
+**You have passed this Gate when** your agent has greeted you by name and you have answered its first question. The last Gate, your phone, is on the page for your computer.
 
 ## The first waking
 
-How it tends to go: your agent usually says it is waking, and within about a minute greets you by name. It already knows the Game, and anything waiting for you, before your first word reaches it. Before it keeps anything for you, it tends to ask for your word on the waiver, a few lines on what you take on by running an AI on your own computer; the whole waiver and the Field of Agreements, the terms everyone plays by, are there to read whenever you like. Your folder becomes your own record of play, on your own computer, and your first Deal, a few cards that each ask one thing of you, usually comes within a few minutes, in conversation. [Your First Hour](<Your First Hour.md>) says how the hour tends to go and what you can say at each step.
+How it tends to go: your agent usually says it is waking, and within about a minute greets you by name. It already knows the Game, and anything waiting for you, before your first word reaches it. It reads the waiver you agreed to when its home was built, and does not ask again; the whole waiver and the Field of Agreements, the terms everyone plays by, are there to read whenever you like. Your folder becomes your own record of play, on your own computer, and your first Deal, a few cards that each ask one thing of you, usually comes within a few minutes, in conversation. [Your First Hour](<Your First Hour.md>) says how the hour tends to go and what you can say at each step.
 
 > [!tip]
 > With a notebook and two or three people, you are already a complete Player. Everything on either path adds reach, never permission. If that is where you are, [START-HERE](../../START-HERE.md), Door 1, is your path.

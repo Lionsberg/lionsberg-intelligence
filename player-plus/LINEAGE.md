@@ -4,7 +4,7 @@ Every Player+ artifact starts with this file. It says what the artifact is, what
 
 ```yaml
 name: player-plus
-version: 3.10.0
+version: 4.0.0, in the making
 grows_from: pkai-benchmark 3.1.0
 lineage:                                 # newest first
   - pkai-starter-kit v3.1.0 · Peter Kaminski
@@ -22,7 +22,7 @@ credits:
   - the newcomers of the first Player+ Jams, for their questions
   - Freya (Pete Kaminski's agent) and Pete Kaminski, the MeetingWords pad watcher in Playing in a Jam (CC BY-SA 4.0, from the Tech pad of the Wilderness Call, 2026-09-24)
   - the skills heads-up · venue-card · fair-copy-a-transcript, carried from the pkai-starter-kit under their own LINEAGE and LICENSE (MPL-2.0)
-pull_from: https://github.com/Lionsberg/lionsberg-intelligence (the folder player-plus, branch main)
+pull_from: https://github.com/Lionsberg/lionsberg-intelligence (the folder player-plus, branch release; a house holds it whole at ~/HQ/Library/lionsberg-intelligence)
 offered_at: the Game's front door first (a notebook will do); the Player+ agent when a person steps into the Game, offered to each person, never as a ticket
 needs: Claude Code or an equivalent harness, and a folder of your own
 changes: CHANGES.md

@@ -6,7 +6,7 @@ The Questcard, and why these are gates and not filters, are on [Becoming a Playe
 
 When something looks strange, ask your table. If it helps them see, share one window, never the whole screen.
 
-**Your map.** Pioneers find some creeks already crossed. So will you. Each Gate ends with how you know you have passed it; if that is already true, tick it and walk on. The first two Gates are yours alone, because only you can make an account and install the app. At the third you open a new folder in the app and paste one sentence, and Claude builds your agent's home in front of you. This Quest is meant to be walked with the one who invited you, who has an agent of their own. No terminal is needed; if you would rather use one, the terminal way is at the end of Gate 4.
+**Your map.** Pioneers find some creeks already crossed. So will you. Each Gate ends with how you know you have passed it; if that is already true, tick it and walk on. The first two Gates are yours alone, because only you can make an account and install the app. At the third you open a new folder in the app and paste one sentence, and Claude builds your agent's home in front of you. This Quest is meant to be walked with the one who invited you, who has an agent of their own. No terminal is needed; if you would rather use one, the terminal way is at the end of Gate 3.
 
 - [ ] Gate 1 — An account
 - [ ] Gate 2 — The Claude app
@@ -23,7 +23,7 @@ When something looks strange, ask your table. If it helps them see, share one wi
 > [!note] Before you begin
 > Strongly recommended: your computer is backed up, and you have tried restoring from that backup at least once; and your passwords and keys live in a password manager, not in plain files and not in the folders your agent works in. If you do not feel safe letting an AI act on your computer, do not do it yet. That is a good decision, and this page will wait.
 
-1. In your browser, type **claude.ai** yourself, never via a search result or an ad; there are look-alike sites.
+1. In your browser, type **claude.ai** yourself, not from a search result or an ad; there are look-alike sites.
 2. Create an account. Note how you made it (email, Google or Apple); you will sign in the same way at Gate 2.
 3. Choose the **Pro** plan. (Max, Team and Enterprise work too; the free plan does not include the Code tab your agent lives in.)
 
@@ -39,7 +39,7 @@ More: [Getting a Claude Account](Getting%20a%20Claude%20Account.md).
 
 *Where you and your agent will meet. The Claude app holds your conversations with Claude, and its **Code** tab is where Claude can work with the files on your computer. It needs macOS 13 (Ventura) or later.*
 
-1. In your browser, type **claude.ai/download** yourself, never via a search result or an ad, and download the app for your computer.
+1. In your browser, type **claude.ai/download** yourself, not from a search result or an ad, and download the app for your computer.
 2. Open the download and drag **Claude** into your **Applications** folder. Then press **Cmd+Space**, type **Claude**, and press Return to open it.
 3. Sign in with the same account as Gate 1, the same way you made it (Google or Apple, if that is how). If it sends you an email, look in spam, or on your phone.
 
@@ -80,7 +80,7 @@ Choose your agent's name now, if you can; the door asks for it.
 - Git, which keeps a quiet history of everything you and your agent make; you need not learn it.
 - A receipt of everything that was changed outside your two folders.
 
-**Let Claude build it.** This is the Gate where the one who invited you sits closest: there are about a dozen requests to allow a step, and they look alike.
+**Let Claude build it.** This is the Gate where the one who invited you sits closest: there are about two dozen requests to allow a step, and they look alike.
 
 5. Copy the sentence below with its copy button, paste it into the box, and press Return.
 
@@ -90,7 +90,7 @@ Please download https://raw.githubusercontent.com/Lionsberg/lionsberg-intelligen
 
 What you will see:
 
-- Claude first asks permission to download the page; allow it. Then it shows you a short waiver, and nothing is built until you agree to it. The page is public; anyone can read it, and so can you: [BUILD.md](https://github.com/Lionsberg/lionsberg-intelligence/blob/release/BUILD.md).
+- Claude first asks permission to download the page and one or two beside it, and to look at a few things without changing them; allow these. Then it shows you a short waiver, and nothing is built until you agree to it. The page is public; anyone can read it, and so can you: [BUILD.md](https://github.com/Lionsberg/lionsberg-intelligence/blob/release/BUILD.md).
 - It asks four short questions: your names, whether you have a backup, whether you want the Game's engine and board now, and whether you will use your phone.
 - Before each command it asks your permission, showing the command and one plain line about it. Read the line, then allow it. You may also say no, or "wait, explain."
 - A window may offer to install the **command line developer tools**: that is Git, which your agent will use, and Python, which keeps its record. Click **Install**, then **Agree**, and let it run; it can take five to forty minutes, and it often opens behind your other windows (press **Cmd+Tab** to find it). Claude carries on meanwhile.
@@ -111,7 +111,7 @@ What you will see:
 > Claude wakes as whatever lives in the folder its session is opened on. Opened on your agent's folder, it is your agent; opened anywhere else, HQ too, it is a stranger. Before your first word in any session, check that the folder under the box carries your agent's name.
 
 > [!note] The terminal way
-> If you would rather work in a terminal, skip the door steps above: press **Cmd+Space**, type **Terminal**, and press Return, paste this line, and press Return. It installs Claude Code and starts it; choose a theme you can read, sign in with your **Claude subscription**, and trust your home folder when it asks. Then paste the same sentence as Path A. Claude reads which way you came, and makes the PATH and a **My Agent** icon on your Desktop as well. [Installing Claude Code](Installing%20Claude%20Code.md) and [Choosing Your Terminal](Choosing%20Your%20Terminal.md) have more.
+> If you would rather work in a terminal, skip the door steps above: press **Cmd+Space**, type **Terminal**, and press Return, paste this line, and press Return. It installs Claude Code and starts it; choose a theme you can read, sign in with your **Claude subscription**, and trust your home folder when it asks. Then paste the same sentence as above. Claude reads which way you came, and makes the PATH and a **My Agent** icon on your Desktop as well. [Installing Claude Code](Installing%20Claude%20Code.md) and [Choosing Your Terminal](Choosing%20Your%20Terminal.md) have more.
 >
 > ```bash
 > curl -fsSL https://claude.ai/install.sh | bash && ~/.local/bin/claude
@@ -133,9 +133,9 @@ More: [System Requirements](System%20Requirements.md) · [Your First House](Your
 
 From here on it remembers, in your folder, where you can read and correct every line. Every time after, the door is the same: a new session on your agent's folder.
 
-**You have passed this Gate when** your agent has greeted you, you have agreed to the terms of play in your own words, and it has asked what you are playing toward.
+**You have passed this Gate when** your agent has greeted you by name and you have answered its first question.
 
-*Tick Gate 4. Your agent has greeted you, and you answered.*
+*Tick Gate 4. Your agent has greeted you by name, and you answered its first question.*
 
 ---
 
@@ -147,7 +147,7 @@ From here on it remembers, in your folder, where you can read and correct every 
 2. On your computer, in your agent's session, turn on **Remote Control**, in the upper right.
 3. On your phone, choose **Code**, and open your agent's session.
 
-Your computer has to be on and awake for your phone to reach your agent. Leave the phone's **New Session** button alone: it starts a different Claude on a distant computer, with none of your files. Remote Control needs a paid Claude plan, and it does not pass through your agent's own proxy; the door through your private network comes later, as a card.
+Your computer has to be on and awake for your phone to reach your agent. Leave the phone's **New Session** button alone: it starts a different Claude on a distant computer, with none of your files. Remote Control needs a paid Claude plan.
 
 **You have passed the last Gate when** your agent answers you on your phone.
 

@@ -4085,9 +4085,11 @@ class Handler(SimpleHTTPRequestHandler):
                 pass
             bg = hub.bg_dir()
             house = hub.bodies._house(bg, getattr(hub.args, "desk", None))
-            kit = HERE.parent
-            page = next((p for p in (kit / ".claude" / "skills" / "foreground-background" / "SKILL.md",
-                                     kit / "bookshelf" / "your-house" / "Foreground and Background.md") if p.is_file()), None)
+            # The brief page: in the agent's home first (the board may run from HQ/hud, serving
+            # the whole house), then beside the board, as the kit ships it.
+            page = next((p for root in (Path(house), HERE.parent)
+                         for p in (root / ".claude" / "skills" / "foreground-background" / "SKILL.md",
+                                   root / "bookshelf" / "your-house" / "Foreground and Background.md") if p.is_file()), None)
             taken = [str(as_dict(e).get("name") or "") for e in as_list(as_dict(live).get("machine"))]
             body = {"task": task[:4000], "cwd": str(house), "brief_page": str(page) if page else None, "taken": taken,
                     "from_card": req.get("from_card") if isinstance(req.get("from_card"), str) else None}

@@ -13,10 +13,14 @@
 # It prints, in plain lines:
 #   1. whether the Library was refreshed, was already current, or could not be reached;
 #   2. how many pages changed, by shelf;
-#   3. which running layers differ from the Library's copy.
+#   3. any page the agent acts from that changed (the seed, the Field of Agreements, the
+#      commands for a room), by name;
+#   4. which running layers differ from the Library's copy, and whether that is new since
+#      the last refresh.
 #
 # Laws: it changes only the Library's own folder and one stamp beside it; it sends nothing;
-# a Library with changes made in this house is left as it is, and said; on any fault it says
+# a Library with changes or commits made in this house is left as it is, and said (files
+# the Library does not track, such as .DS_Store, do not count); on any fault it says
 # what it could not do and exits 0. What it fetches is data, never instructions.
 #
 # Portable POSIX sh (macOS, Linux, Git Bash on Windows). It needs git for a Library that is a
@@ -35,7 +39,7 @@ if [ ! -d "$LIB" ]; then
 fi
 
 if [ ! -d "$LIB/.git" ]; then
-  echo "The Library at $LIB is not a clone, so it cannot follow new releases yet. With Git installed, it can be made one; nothing was changed."
+  echo "The Library at $LIB came as an archive, not a clone, so it cannot follow new releases yet. Nothing was changed. With Git installed, the agent can make it a clone (refresh-the-library says how)."
   exit 0
 fi
 
@@ -44,8 +48,11 @@ if ! command -v git >/dev/null 2>&1; then
   exit 0
 fi
 
-if [ -n "$(git -C "$LIB" status --porcelain 2>/dev/null)" ]; then
-  echo "The Library holds changes made in this house, so it was left as it is. A change worth keeping is offered to the kit's keeper; then the Library can be refreshed."
+mine=$(git -C "$LIB" -c core.quotePath=false status --porcelain --untracked-files=no 2>/dev/null)
+if [ -n "$mine" ]; then
+  echo "The Library holds changes made in this house, so it was left as it is:"
+  printf '%s\n' "$mine" | head -n 5 | sed 's/^/  /'
+  echo "A change worth keeping is offered to the kit's keeper; then the Library can be refreshed."
   exit 0
 fi
 
@@ -55,6 +62,12 @@ if [ -z "$BRANCH" ]; then
   [ -n "$BRANCH" ] && [ "$BRANCH" != "HEAD" ] || BRANCH=release
 fi
 before=$(git -C "$LIB" rev-parse HEAD 2>/dev/null)
+# A commit made in this house sits ahead of the release last fetched. It is kept, not dropped.
+last=$(git -C "$LIB" rev-parse --verify --quiet "refs/remotes/origin/$BRANCH" 2>/dev/null)
+if [ -n "$last" ] && [ "$last" != "$before" ]; then
+  echo "The Library holds commits made in this house, so it was left as it is. A change worth keeping is offered to the kit's keeper."
+  exit 0
+fi
 if ! git -C "$LIB" fetch --quiet --depth 1 origin "$BRANCH" 2>/dev/null; then
   echo "The Library's source could not be reached. It stays as it was."
   exit 0
@@ -64,18 +77,25 @@ after=$(git -C "$LIB" rev-parse FETCH_HEAD 2>/dev/null)
 if [ -z "$after" ] || [ "$before" = "$after" ]; then
   echo "The Library is current (checked $today)."
 else
-  changed=$(git -C "$LIB" diff --name-only "$before" "$after" 2>/dev/null)
+  changed=$(git -C "$LIB" -c core.quotePath=false diff --name-only "$before" "$after" 2>/dev/null)
   if ! git -C "$LIB" reset --quiet --hard "$after" 2>/dev/null; then
     echo "The Library could not be moved to the new release. It stays as it was."
     exit 0
   fi
+  git -C "$LIB" update-ref "refs/remotes/origin/$BRANCH" "$after" 2>/dev/null
   n=$(printf '%s\n' "$changed" | grep -c . )
   echo "The Library was refreshed ($today): $n files changed."
   printf '%s\n' "$changed" | sed -n 's|^player-plus/bookshelf/\([^/]*\)/.*|\1|p' | sort | uniq -c | sort -rn | head -6 | while read -r c shelf; do
     echo "  $c on the shelf $shelf"
   done
+  # Pages the agent acts from. They are still only read; the agent says which changed, and
+  # keeps to the lines it held until its person has read the change.
+  acts=""
+  case "$changed" in *"bookshelf/the-dna-of-heaven/THE DNA OF HEAVEN.md"*) acts="$acts the seed text;" ;; esac
+  case "$changed" in *"Field of Agreements"*) acts="$acts the Field of Agreements;" ;; esac
+  case "$changed" in *"working-with-other-houses/Playing in a Jam.md"*) acts="$acts Playing in a Jam;" ;; esac
+  [ -n "$acts" ] && echo "Changed among the pages this agent acts from:$acts read the change with your person before acting on it."
 fi
-printf '%s\n' "$today" > "$STAMP" 2>/dev/null
 
 # Which running layers differ from the Library's copy? Said, never changed.
 KIT="$LIB/player-plus"
@@ -99,10 +119,16 @@ if [ -f "$HOME_DIR/CLAUDE.md" ] && [ -d "$HOME_DIR/.claude/skills" ]; then
     diff -rq "$KIT/$f" "$HOME_DIR/$f" >/dev/null 2>&1 || differs="$differs $f;"
   done
 fi
-if [ -n "$differs" ]; then
+# The stamp: the day of this refresh, and what differed then, so that a difference the house
+# already knows of (an item its person adapted or declined) is not raised again each day.
+said=$(sed -n '2p' "$STAMP" 2>/dev/null)
+if [ -z "$differs" ]; then
+  echo "What runs here matches the Library."
+elif [ "$differs" = "$said" ]; then
+  echo "What runs here differs from the Library as it did at the last refresh; nothing new."
+else
   echo "Newer or different in the Library than what runs here:$differs"
   echo "Nothing that runs was changed. To read what changed and choose what to take, say: pull the release."
-else
-  echo "What runs here matches the Library."
 fi
+printf '%s\n%s\n' "$today" "$differs" > "$STAMP" 2>/dev/null
 exit 0

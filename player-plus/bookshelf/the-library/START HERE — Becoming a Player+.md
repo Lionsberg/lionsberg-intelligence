@@ -11,12 +11,12 @@ There is one path from your first yes to an agent of your own: the Quest **[Beco
 
 ## The Game comes first
 
-The agent comes at the wise right time, and the first Gate has nothing to do with a computer. Read [[THE STORY]]; it takes about ten minutes, and it is a shared language, not a belief you are asked to hold. Then read [[The Provisional Field of Agreements]] slowly, all the way through: the terms everyone plays by. Take part only if you agree, and say yes in your own words. If you do not, you may still read everything, and come back whenever you are ready.
+The agent comes at the wise right time, and what comes before the first Gate has nothing to do with a computer. Read [[THE STORY]]; it takes about ten minutes, and it is a shared language, not a belief you are asked to hold. Then read [[The Provisional Field of Agreements]] slowly, all the way through: the terms everyone plays by. Take part only if you agree, and say yes in your own words. If you do not, you may still read everything, and come back whenever you are ready.
 
 ## What you need
 
 - **A computer, Mac or Windows,** that you can install things on. A phone is enough to read this library and to play at a table; setting up an agent needs a computer.
-- **A Claude Pro account** from Anthropic, made at claude.ai (Max works too). Your agent thinks with Claude, and Claude Code, the program it lives in, comes with the account.
+- **A Claude Pro account** from Anthropic, made at claude.ai (Max works too). Your agent can think with Claude; that is the default recommendation, and Claude Code, the program it lives in, comes with the account.
 - **An afternoon,** and a notebook and pen. The Season Sheet, the Playcard and the Offering are kept by hand first and by the agent second.
 
 If you have none of these, the Game does not wait for a machine: see *Other doors* and *The floors* below.
@@ -25,11 +25,11 @@ If you have none of these, the Game does not wait for a machine: see *Other door
 
 | Gate | | You have passed it when |
 |---|---|---|
-| 1 | **The yes** — the Story, and your yes to the person who brought you | you have read the Story and said yes, in your own words |
-| 2 | **The account** — Claude Pro, at claude.ai | you are signed in and your account shows Pro |
-| 3 | **The Claude app** — downloaded from claude.ai/download, signed in | you can see **Code** at the top of its sidebar |
-| 4 | **Your agent's home, and HQ** — in the Code tab you open a new folder named for your agent, inside **My Agents** in your home folder; then one pasted sentence has Claude fetch the kit, install Git, check the record's engine and write a receipt, saying each step before it takes it, or you do it yourself | your agent's folder holds `START-HERE.md` and `CLAUDE.md`, and **HQ** sits beside **My Agents** |
-| 5 | **First words** — a new session on your agent's folder; the first message from the kit's START-HERE, Door 3 | your agent greets you, walks you through the waiver and the Field of Agreements, and asks what you are playing toward |
+| 1 | **An account** — a paid Claude plan, made at claude.ai | you are signed in and your account shows a paid plan |
+| 2 | **The Claude app** — downloaded from claude.ai/download, signed in | the app is open on **Code** |
+| 3 | **Your agent's home** — in the Code tab you open a new folder named for your agent, inside **My Agents** in your home folder; then one pasted sentence has Claude show you the waiver, fetch the kit into **HQ/Library**, build your agent's home and write a receipt, saying each step before it takes it | Claude has shown you your agent's folder and told you to start a new session |
+| 4 | **First words** — a new session on your agent's folder, and one sentence with your own names | your agent has greeted you by name and you have answered its first question |
+| 5 | **Your phone** — the Claude app on your phone, and Remote Control turned on in your agent's session | your agent answers you on your phone |
 
 **[Walk the Quest →](https://github.com/Lionsberg/lionsberg-intelligence/blob/main/player-plus/bookshelf/getting-started/Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md)** Each Gate there explains every command before you use it. The kit itself lives at [github.com/Lionsberg/lionsberg-intelligence](https://github.com/Lionsberg/lionsberg-intelligence), in the folder `player-plus/`; if the person who brought you handed you a copy, use theirs. The kit is plain files, and a copy on a thumb drive works exactly as well.
 
