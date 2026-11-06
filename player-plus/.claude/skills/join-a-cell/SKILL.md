@@ -1,6 +1,6 @@
 ---
 name: join-a-cell
-description: Joins a cell's record by consent — the person's yes first, the cell's address from its keeper, the cell held under cells/<name>/ beside the home, pulled and folded with everything else, and from then on only faces, milestones, commitments, requests, offers and signals published into it, each push the person's own act. Includes the minimum the cell may ask (one seasonal signal) and nothing more. Use when the person says "join my cell", "they invited me", "add the cell", "here is the link to our repo", when a keeper gives the person an address, or when the person asks what their cell can see.
+description: Joins a cell's record by consent — the person's yes first, the cell's address from its keeper, and from then on only what they choose to publish into it. Use when they say "join my cell", "they invited me", "here is the link to our repo", or ask what their cell can see.
 license: MPL-2.0
 ---
 

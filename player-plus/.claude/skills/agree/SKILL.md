@@ -1,6 +1,6 @@
 ---
 name: agree
-description: An Agreement with another holon — the person's own act, proposed in a holon both share and answered by the other holon's person; its terms (what crosses, the cadence each hears the other, the write and bell permits, the face of the outbox it opens, until when); the commitments between the two as its clauses; the published face per Agreement, and the forge permissions plan the person applies by hand; the permitted inbox; and how it ends. Use when the person says "let's agree with the cell on…", "what crosses between us", "they may write into our inbox", "what have we agreed with…", "end the agreement", and when another holon's person proposes one to them.
+description: An Agreement with another holon, the person's own act — what crosses, how often each hears the other, what may be written and rung, until when, and how it ends. Use for "let us agree with the cell on…", "what crosses between us", "end the agreement", or when one is proposed to them.
 license: MPL-2.0
 ---
 

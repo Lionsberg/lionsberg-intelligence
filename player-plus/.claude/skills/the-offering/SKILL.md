@@ -1,6 +1,6 @@
 ---
 name: the-offering
-description: Keeps the Offering at the weekly Turn without setting an amount, naming a person, or comparing one to another — the box in the middle, the Keeper's three numbers (in · out · held) with their unit, and line 8 at the turning. Use at the weekly Turn, when your person says "the Offering", "what goes in the middle", "what should I give", when the Keeper is writing the week's numbers, or when line 8 of the Season Sheet is being filled.
+description: Keeps the Offering at the weekly Turn without setting an amount, naming a person or comparing — the box in the middle and the Keeper's three numbers. Use at the weekly Turn, when your person says "the Offering", "what should I give", or when line 8 of the Season Sheet is filled.
 license: MPL-2.0
 ---
 

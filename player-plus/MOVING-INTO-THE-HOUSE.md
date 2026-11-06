@@ -36,7 +36,8 @@ Your agent says each step in one line before it takes it, and you say yes.
    - Mac: `ln -s "$HOME/HQ/Library/lionsberg-intelligence/player-plus/bookshelf" bookshelf`, then `ln -s "$HOME/HQ/engine" engine` and `ln -s "$HOME/HQ/hud" hud`, run in the agent's folder.
    - Windows, in PowerShell: `New-Item -ItemType Junction -Path bookshelf -Target "$HOME\HQ\Library\lionsberg-intelligence\player-plus\bookshelf"`, and the same for `engine` and `hud` with their places in `HQ`.
 5. **The history.** Your agent adds three lines to the `.gitignore` in its folder, `/bookshelf`, `/engine` and `/hud`, and commits the move: the history records that the three folders left, and keeps every earlier version of them.
-6. **The check.** Your agent runs, and says the result of each: `python3 -I engine/record.py verify .` (your record, unchanged); `python3 -I engine/conformance.py` (the engine, from its new place); and the first lines of The Deal. Then `sh scripts/refresh-library`, which says whether what runs here matches the Library.
+6. **The check.** Your agent runs, and says the result of each: `python3 -I engine/record.py verify .` (your record, unchanged); `python3 -I engine/conformance.py` (the engine, from its new place); and the first lines of The Deal.
+7. **The release.** Your agent runs the Library's own refresh, from the agent's folder: `sh "$HOME/HQ/Library/lionsberg-intelligence/player-plus/scripts/refresh-library"`. It changes nothing that runs, and names what the Library holds newer than your house: the engine, the board, skills, scripts. Then say *pull the release*, and your agent reads what changed with you and proposes what to take, item by item. The charter's lines about the house, the Library's refresh and the skill beside it are among them.
 
 The other pages of the kit that sit in your agent's folder may stay. They are in the Library too, and your agent can tidy them with you when you like.
 

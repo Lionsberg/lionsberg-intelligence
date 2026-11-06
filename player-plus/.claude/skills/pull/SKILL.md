@@ -1,6 +1,6 @@
 ---
 name: pull
-description: The pull — at a sitting, `holon.py pull` brings every holon up to date before the Deal or any computing; between sittings, at every beat, `pull.py tick` asks the forge one question about everything the holon follows, fetches only the cells that changed and are due by the person's own cadences, and brings their lines in through the gate; the token lives in the environment only; as-of per source, said; the cost line; what rose; a rewritten history refused, said, and never forced; and mail and the phone as other carriers of the same lines. Use at every sitting, before dealing The Deal, when the person says "what is new", "anything from the cell", "pull", "are we up to date", "why is this stale", and whenever the heartbeat beats.
+description: Brings every holon up to date before the Deal or any computing, and between sittings fetches only what changed and is due. Use at every sitting, at every heartbeat, and when the person says "what is new", "anything from the cell", "are we up to date", "why is this stale".
 license: MPL-2.0
 ---
 

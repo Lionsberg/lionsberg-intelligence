@@ -1,6 +1,6 @@
 ---
 name: sight
-description: Sighting what is seen on the road — one `sight` line, kind · where · what I saw, of nine kinds (defect, hazard, blocked, wonder, offer, request, question, witness, pain), placed in the holon where it was seen; a pain needs a response and rings the members whose own rule wakes for it; re-sighting adds weight; what the agent sights on its own from the record, with its reason said truthfully; the lifecycle and who moves it; defects on the scoreboard; and the living map. Use when the person says "I saw", "note that", "there is a problem with", "this is broken", "someone needs help", "I need help", "that was wonderful", "is anyone else seeing this", "show me the map", and when your own reading of the record finds something broken.
+description: Sights what is seen on the road — one `sight` line (defect, hazard, blocked, wonder, offer, request, question, witness or pain), placed where it was seen. Use for "I saw", "this is broken", "someone needs help", "that was wonderful", "show me the map", or when your own reading finds something broken.
 license: MPL-2.0
 ---
 

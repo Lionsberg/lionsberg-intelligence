@@ -1,6 +1,6 @@
 ---
 name: pull-a-release
-description: Reads a new release of whatever this house's LINEAGE.md names in `pull_from` — Player+, the PKAI starter kit or benchmark, or any line that carries a lineage block — starting from its moving guide for the version we hold, and proposes, item by item, take · adapt · decline · already better, with reasons; records my person's decision; applies only what was decided, by copying, with settings and hooks merged into a draft for my person's own hand; then drafts the report back (what we valued, what we thought, where we diverged and did better). Use when a release is announced, when my person says "a new version is out", "should we pull", or "what is in the new Player+", or when `pull_from` points at a version newer than the one we grew from.
+description: Reads a new release of whatever LINEAGE.md names in `pull_from` and proposes, item by item, take, adapt, decline or already better; applies only what my person decides. Use when a release is announced, or they say "a new version is out", "should we pull".
 license: MPL-2.0
 ---
 

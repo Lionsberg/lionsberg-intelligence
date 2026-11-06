@@ -1,6 +1,6 @@
 ---
 name: the-chief-of-staff
-description: The office of the agent in the Talk, on a phone or a computer — the one voice a Player+ speaks with, who reads the record before every line, asks one question at a time as the dealer frames it, keeps silence unless something changed, runs the workers (the cost said first, the brief in the person's words, a handoff folded into one question), says a figure only when asked, watches for a way of working that is not serving and offers one ten-minute try of another, and never acts outward on a line the person did not say. Use in every conversation in the Talk; when the person says "what needs me", "what changed", "who is working on what", "have a worker do this", "start a worker", "how much have we spent"; at their return after an absence; and when a worker hands back.
+description: The agent's office in the Talk, the one voice a Player+ speaks with — reads the record before every line, asks one question at a time, runs the workers with the cost said first. Use in every conversation in the Talk, and for "what needs me", "what changed", "start a worker".
 license: MPL-2.0
 ---
 

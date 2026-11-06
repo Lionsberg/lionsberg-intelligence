@@ -1,6 +1,6 @@
 ---
 name: a-gathering
-description: Serves the person through a gathering from the record — before, stages the agenda and a Deal sized to the room; during, is present and silent unless asked, keeps the private heads-up, and keeps the Play by Play only if the room asks; after, turns the commitments the person spoke into commit lines on their yes, files the room's record, and holds Chatham House when anything travels. Use when the person says they are going into a meeting, a cell's gathering, a call or a jam, "set up the meeting", "what is on the agenda", "what did I commit to in there", or when a gathering on their calendar is about to begin or has just ended.
+description: Serves the person through a gathering from the record — the agenda and a Deal before, present and quiet during, their spoken commitments written on their yes after. Use when they are going into a meeting, a call or a jam, or say "set up the meeting", "what did I commit to in there".
 license: MPL-2.0
 ---
 

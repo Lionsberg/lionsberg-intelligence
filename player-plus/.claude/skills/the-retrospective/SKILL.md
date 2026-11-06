@@ -1,6 +1,6 @@
 ---
 name: the-retrospective
-description: Drafts the weekly look-back in its three named sections — What Did We Do Well? · What Can We Do Better? · Actions, each with an owner and a due date — read from the record rather than from memory, blamelessly, and written by the person or a reader that had no part in the week, never by the agent being looked at. Use once a week before the Turn, when a Quest completes, at a turning, or when the person says "look-back", "retrospective", "how did the week go" — and only if you did not do the work being reviewed.
+description: Drafts the weekly look-back from the record, blamelessly — What Did We Do Well, What Can We Do Better, Actions with an owner and a date. Use before the Turn, when a Quest completes, or for "retrospective", "how did the week go", and only if you did not do the work reviewed.
 license: MPL-2.0
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: receive
-description: Writing a Receipt on arrival — after every pull, one `receive` line for each trusted line that asks something of the person, naming it by its hash, written by the agent under a standing delegation that covers `receive`, where the received line lives when the agent is let in and signs there, else in the person's home to wait for their publish; idempotent; for lines the agent pulled, and not for the holon's own lines; what crossed and has no Receipt yet; and time to Receipt as a measure. Use after every pull and every heartbeat beat that brought lines in, and when the person says "did you get it", "did they get it", "acknowledge", "tell them I have it", "who has seen this".
+description: Writes a Receipt on arrival — after every pull, one `receive` line for each trusted line that asks something of the person. Use after every pull or beat that brought lines in, and for "did you get it", "did they get it", "tell them I have it", "who has seen this".
 license: MPL-2.0
 ---
 

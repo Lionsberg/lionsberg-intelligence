@@ -1,6 +1,6 @@
 ---
 name: connections
-description: Whom the person is connected to and whether they are good with each other — the Connections view computed at every reading (`engine/connections.py`), not stored, keeping three things apart: each holon's Condition, its own person's word on itself, not computed; the pulse, computed both ways from the lines both holons hold, with the one check that moved its color; and our ear, how recently we pulled; saying the person's own holon's Condition, drafted in their words and made by their own hand; and the change process, where a change of color becomes one drafted question for their word, a return to green closes it, and a red that stays becomes a Work Card. Use when the person says "who am I connected to", "are we good", "how are we with the cell", "how is the cell doing", "why is it red", "what changed between us", "we are green", "we are behind", "tell them how we are", and after each pull, to see what changed.
+description: Whom the person is connected to and whether they are good with each other — each holon's own word on itself, the pulse computed both ways, and how recently we pulled. Use for "who am I connected to", "are we good", "why is it red", "tell them how we are", and after each pull.
 license: MPL-2.0
 ---
 

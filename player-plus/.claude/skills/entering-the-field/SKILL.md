@@ -1,6 +1,6 @@
 ---
 name: entering-the-field
-description: Reads a room's terms at the door and helps my person cross into The Great Game with one clear, willing yes — puts the six lines into plain sentences, notices what they carry that may not be theirs to share, helps shape their door note (the name they choose · anything not theirs to share · one question), and carries their yes into the room, never giving it. Use when my person is about to enter a Game room or jam for the first time, says "what am I agreeing to", "read me the terms", "help me with my door note", when a room's shared page has terms at the top I have not read yet, or when someone in a room asks whether my person has said yes.
+description: Reads a room's terms at the door with my person, in plain sentences, helps shape their door note, and carries their yes into the room without ever giving it. Use before their first Game room or jam, or when they say "what am I agreeing to", "read me the terms".
 ---
 
 # Entering the Field

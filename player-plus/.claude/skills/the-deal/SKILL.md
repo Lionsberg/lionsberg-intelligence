@@ -1,6 +1,6 @@
 ---
 name: the-deal
-description: The daily office, from the first day — pull every holon the person is part of, compute The Deal (a few Work Cards sized to the minutes they have, asked or read from their calendar), say it in the briefing voice ("Here's the deal."), deliver it by the door they chose (a page in their viewer, their phone by the phone path, a printed card), from the agent on their own computer, take their answers back as events, and never tick their box. One card is always the standing question. The first Deal comes within about five minutes of the agent's first word, and the setup (the key's lock, the agent's affirm, the delegation, conformance) waits for the cell moment. Use each morning or at the hour the person set, at the start and the end of a meeting, when the person says "deal me in", "what is the deal", "what needs me", "what do I do", "what is waiting on me", or when they say how much time they have.
+description: The daily office — pull every holon, compute The Deal (a few Work Cards sized to the minutes they have), say it, deliver it by the door they chose, and take their answers back. Use each morning, around a meeting, and for "deal me in", "what needs me", "what is waiting on me".
 license: MPL-2.0
 ---
 

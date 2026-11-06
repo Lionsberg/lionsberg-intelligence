@@ -19,3 +19,9 @@ The skills that play the Game with a notebook, and keep a house current. They wo
 The skills that read or write the record through the engine, or open the board. They are copied only into a house that has `HQ/engine`.
 
 `a-gathering` · `a-mail-watch` · `agree` · `connections` · `join-a-cell` · `negotiate` · `pull` · `receive` · `say-it-on-the-card` · `sight` · `subscribe` · `the-deal` · `the-heartbeat` · `the-proxy` · `the-turn` · `voice-mode`
+
+## The room a description has
+
+The host hands the model each skill's name and description, within a limit: about 24,000 characters for a house's own skills, measured with Claude Code 2.1.317. Past the limit, the skills last in the alphabet are listed by name alone, and the model no longer knows when to reach for them. The skills of this kit take about 22,300.
+
+So a description says what the skill does in one clause, and when to use it in a few of the person's own phrases, in under 300 characters. The rest belongs in the skill's page. A house that adds many skills of its own keeps theirs as short, and a test of the kit (`engine/tests/test_the_house.py`) holds the total.

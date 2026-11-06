@@ -1,6 +1,6 @@
 ---
 name: the-proxy
-description: How the agent runs through the house's local proxy, when the person chooses to — the route delegation it needs, the person's own vendors file (where requests may go and with which key, outside every holon), the routes file that names those vendors and nothing else, the two settings that point the harness at it (base URL and token), what the proxy records (route lines saying where a request went and why; never a prompt's body), how the person's discernment becomes a signed line of their own in the record while the agent's note through the proxy stays untrusted, and that the proxy is optional and the house works the same without it. Use when the person says "start the proxy", "route through the proxy", "which model did that", "why did you use that model", "remember that I corrected that", when setting up the house, or when the proxy stops answering.
+description: How the agent runs through the house's local proxy, when the person chooses to — where requests may go, and a record of where each went and why. Optional. Use for "start the proxy", "which model did that", "why did you use that model", or when the proxy stops answering.
 license: MPL-2.0
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: pass-the-flame
-description: Helps your person give the whole Seed, in person and within three days, to their three (three at the least, never a cap) — people not already playing, whom they already know are ready — and helps those form a new and complete Cell that owes this house nothing. Never invites on their behalf and never supplies the names. Use at a first gathering when the three are named, when your person says "pass the Flame", "who do I give this to", "prepare the Seed", when line 7 of the Season Sheet is being filled, or when three days have gone by and nobody has been carried.
+description: Helps your person give the whole Seed, in person and within three days, to three people they know are ready, who form a new Cell. Never invites on their behalf and never supplies the names. Use when they say "pass the Flame", "who do I give this to", "prepare the Seed".
 license: MPL-2.0
 ---
 

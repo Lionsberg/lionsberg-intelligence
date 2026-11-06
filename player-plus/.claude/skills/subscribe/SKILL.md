@@ -1,6 +1,6 @@
 ---
 name: subscribe
-description: What the person hears, from whom, how often and where — the Subscription Card is the person's own line in their own home (source, signals, cadence in seconds and said in words, the surface it is dealt to, the kinds that may ring); the agent drafts it as a Markdown Card under `cards/subscribe/` and the person appends it by their own hand; an Agreement fills only what the Card leaves unsaid; a joined cell with neither is heard by the default; requests rise first whatever the cadence; and what is due now. Use when the person says "I want to hear from X every…", "too much from…", "less from…", "ring me only for…", "do not ring me for…", "what am I subscribed to", "how often do I hear from the cell", and when they join a cell.
+description: What the person hears, from whom, how often and where — the Subscription Card, drafted by the agent and appended by their own hand. Use for "I want to hear from X every…", "less from…", "ring me only for…", "what am I subscribed to", and when they join a cell.
 license: MPL-2.0
 ---
 

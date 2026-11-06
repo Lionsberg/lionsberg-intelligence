@@ -1,6 +1,6 @@
 ---
 name: the-heartbeat
-description: The always-on hand — one plain process per holon, on any host, that pulls on the person's cadences, writes Receipts, reads the signals, and wakes the agent only on a request, an emergency or a cadence; the agent then wakes the person only through their own Subscription Cards and their emergency rule, within their budget, through the gate, and never with a sound; the emergency rule as the person's own `limits` Card, drafted with the default three rules; installed on any host by the person's own hand; its status, and its cost per wake and per day; and how it stops. Use when the person says "keep this running", "keep watching", "wake me when…", "why did you wake me", "do not wake me for…", "how much is the heartbeat costing", "stop the heartbeat".
+description: The always-on hand — one plain process per holon that pulls, writes Receipts, and wakes the agent only on a request, an emergency or a cadence, without a sound. Use for "keep watching", "wake me when…", "why did you wake me", "how much is the heartbeat costing", "stop the heartbeat".
 license: MPL-2.0
 ---
 

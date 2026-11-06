@@ -1,6 +1,6 @@
 ---
 name: say-it-on-the-card
-description: Working a card by saying things on it — a note on a card is a `say` anchored to the card, which opens the card's Thread when it has none, changes nothing and can be read by everyone on the card; a question is the same `say` with `intent: ask`, so the Deal and the asks can tell a question from a note, and nothing changes until someone answers; whose words each line carries; and what each act a card offers means, in the one table of act words (`engine/acts.json`), offered to the reader whose role it is. Use when the person says "make a note on this card", "add a note", "write on it", "put this on the card", "ask about this card", "ask them on the card", "what does this button do", "what can I do with this card", "what happens if I choose…", "why can I not…".
+description: Works a card by saying things on it — a note or a question anchored to the card, which changes nothing until someone answers — and says what each act a card offers means. Use for "add a note", "ask about this card", "what does this button do", "why can I not…".
 license: MPL-2.0
 ---
 

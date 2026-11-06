@@ -1,6 +1,6 @@
 ---
 name: the-simplest-game
-description: The simplest Game that works — the six lines without which the Engine cannot compute, each made by one plain sentence, by voice with an agent or on paper (I join, and my agent may act with me; here is a piece of work; I will do it by a date; it is done; yes or no; how we are); the level of a Card, computed from what it carries, not typed and not a gate, so a lower level plays; and the one field that would lift a Card, offered just in time, in words, when it would change the person's next play, as an offer and not a demand. Use at a person's first play, and when they say "how do I start", "what is the least I need", "keep it simple", "I just want to play", "can I do this on paper", "why does this card say so little", "what would make this better", and whenever a dealt card's `level` carries a lift that would change what they do next.
+description: The simplest Game that works — six plain sentences, by voice or on paper, and the one field that would lift a Card, offered when it helps. Use at a person's first play, and for "how do I start", "keep it simple", "can I do this on paper", "what would make this better".
 license: MPL-2.0
 ---
 

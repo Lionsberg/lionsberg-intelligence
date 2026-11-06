@@ -1,6 +1,6 @@
 ---
 name: voice-mode
-description: Sets up natural voice with your agent on an ordinary computer (a Mac with Apple silicon or Intel, or Windows; no newest chip required), on the person's yes and after saying what it costs: ears that turn speech into words (whisper.cpp or faster-whisper) and a warm mouth that reads the agent's words aloud (Kokoro first, Piper for a slower machine), both running on this computer's CPU, wired into the HUD with serve.py's --speech and --voice, tested without playing a sound, and reached from a phone through the phone door. Use when the person says "voice mode", "talk to me", "I want to speak with you", "read it aloud", "can I use this on a walk", or asks why the microphone does nothing on the phone.
+description: Sets up natural voice with your agent on an ordinary computer, on the person's yes and after saying what it costs — speech to words and a warm voice reading aloud, both on this computer. Use for "voice mode", "talk to me", "read it aloud", "can I use this on a walk".
 license: MPL-2.0
 ---
 

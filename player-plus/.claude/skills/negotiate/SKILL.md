@@ -1,6 +1,6 @@
 ---
 name: negotiate
-description: Carrying an ask from its sending to its resolution — every ask with its why and its effort, said by the person or drafted and read back; one line of push-back on an ask that does not say what it needs; the moves in plain words (a counter is not an answer, yes-if is a conditional, "I will know by Wednesday" moves the by-date, an award releases the rest); the four shapes for a circle; the state said as "waiting on" to the sender and "owed by you" to the receiver, with tallies for a circle; mandates the person gives in their own words, for availability alone; whose words each line carries; and a stop from any person wins. Use when the person says "ask X to…", "can they meet…", "who can host…", "put it to the circle", "what did they say", "what am I waiting on", "what do I owe", "you can answer for me on times…".
+description: Carries an ask from its sending to its resolution — every ask with its why and its effort, the moves in plain words, and the state as "waiting on" or "owed by you". Use for "ask X to…", "can they meet…", "put it to the circle", "what am I waiting on", "what do I owe".
 license: MPL-2.0
 ---
 

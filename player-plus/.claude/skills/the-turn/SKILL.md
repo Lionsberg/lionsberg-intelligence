@@ -1,6 +1,6 @@
 ---
 name: the-turn
-description: The weekly and seasonal Turn from the record — pull every holon, freeze the plan's baseline, count commitments kept and the gap per commitment, gather the week's learnings, draft the four lines for the person to finish (we set out to · we kept so many of so many · we learned · next we), write the turn event on their word, and propose what to publish to each cell. Use once a week at the hour the person keeps, at a solstice or equinox, when the person says "the Turn", "let us do the week", "how did I do", "what did I commit to", or before a cell's weekly gathering.
+description: The weekly and seasonal Turn from the record — commitments kept and the gap, the week's learnings, four lines drafted for the person to finish, the turn written on their word. Use once a week, at a solstice or equinox, or for "the Turn", "how did I do", "what did I commit to".
 license: MPL-2.0
 ---
 

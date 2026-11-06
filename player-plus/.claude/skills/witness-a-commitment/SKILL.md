@@ -1,6 +1,6 @@
 ---
 name: witness-a-commitment
-description: Helps the person witness someone's commitment — finds the kept claim and the commitment it answers, checks the commitment's conditions and by-when against what the record shows, lays the evidence out plainly, and writes the witness line in the person's name only on their yes. Use when a kept claim names the person as witness, when The Deal deals a witness card, when the person says "did they keep it", "can you check this", "I am their witness", or when a keeper asks the cell to witness time, energy and attention.
+description: Helps the person witness a commitment — finds the kept claim, checks it against the record, lays out the evidence, and writes the witness line only on their yes. Use when a kept claim names them as witness, or they say "did they keep it", "I am their witness".
 license: MPL-2.0
 ---
 

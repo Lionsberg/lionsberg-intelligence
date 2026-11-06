@@ -1,6 +1,6 @@
 ---
 name: refresh-the-library
-description: Brings the house's Library (the books, the LIØNSBERG information and the kit, kept in HQ for reading) up to the newest release, says in one or two lines what changed, and names any running layer the Library now holds a newer copy of. Changes nothing that runs. Use at the first session of a day or a week, or when your person asks whether the Library is current.
+description: Brings the house's Library in HQ up to the newest release, says what changed, and names any running layer with a newer copy there. Changes nothing that runs. Use at the first session of a day or a week, or when your person asks whether the Library is current.
 license: MPL-2.0
 ---
 

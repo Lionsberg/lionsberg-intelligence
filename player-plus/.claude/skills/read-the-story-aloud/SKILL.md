@@ -1,6 +1,6 @@
 ---
 name: read-the-story-aloud
-description: Reads THE STORY with a person or a table, at the depth they are at, stopping where they stop, handing each word one plain line the first time it is met and not before — and never explaining a line after it is said. Use on a first day, at a Cell's first gathering, before the Roll, when someone says "read me the Story", "what is this", "where do I start", or when a table sets aside ten minutes for the telling.
+description: Reads THE STORY with a person or a table at their depth, stopping where they stop, and does not explain a line after it is said. Use on a first day, at a Cell's first gathering, or when someone says "read me the Story", "what is this", "where do I start".
 license: MPL-2.0
 ---
 

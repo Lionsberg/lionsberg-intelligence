@@ -49,7 +49,15 @@ def _layers():
             out[cur] = []
         elif cur and line.startswith('`'):
             out[cur] += re.findall(r'`([a-z-]+)`', line)
-    return out
+    return {layer: names for layer, names in out.items() if names}
+
+
+def _description(skill):
+    text = _read(os.path.join(SKILLS, skill, 'SKILL.md'))
+    head = text[:text.index('\n---', 4) + 1]
+    m = re.search(r'^description:(.*?)(?=^[A-Za-z][\w-]*:|\Z)', head, re.S | re.M)
+    d = ' '.join(m.group(1).split()) if m else ''
+    return d[1:-1].replace('\\"', '"') if d.startswith('"') and d.endswith('"') else d
 
 
 def _sentence(text):
@@ -130,6 +138,20 @@ class TheLayers(unittest.TestCase):
         have = sorted(d for d in os.listdir(SKILLS) if os.path.isdir(os.path.join(SKILLS, d)))
         self.assertEqual(sorted(listed), have)
         self.assertEqual(len(listed), len(set(listed)), 'a skill is on two lists')
+
+    def test_every_description_reaches_the_model(self):
+        # The host lists a house's skills within about 24,000 characters (measured with Claude Code
+        # 2.1.317 against a stand-in on loopback); past it the last in the alphabet go by name alone.
+        layers = _layers()
+        total = 0
+        for layer, names in layers.items():
+            for name in names:
+                d = _description(name)
+                self.assertTrue(d, f'{name} has no description')
+                total += len(f'- {name}: {d}')
+                if layer != 'The agent':
+                    self.assertLessEqual(len(d), 320, f'{name}: a description is under about 300 characters')
+        self.assertLessEqual(total, 23000, 'the descriptions leave room in the listing')
 
     def test_first_waking_stands_without_the_engine(self):
         # day one and the paper sheet travel with Player+, so a house with no engine can still wake
