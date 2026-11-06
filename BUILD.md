@@ -89,7 +89,7 @@ Their home folder is `~` on a Mac and `%USERPROFILE%` (`$HOME` in PowerShell) on
 
 ### 6. The Library
 
-Fetch this kit into `HQ/Library/lionsberg-intelligence/`. It stays there, whole, as the house's library.
+Make `HQ/Library`, and fetch this kit into `HQ/Library/lionsberg-intelligence/`. It stays there, whole, as the house's library.
 
 - If Git is usable, or becomes usable while you work: `git clone --depth 1 --branch release https://github.com/Lionsberg/lionsberg-intelligence.git "$HOME/HQ/Library/lionsberg-intelligence"` (PowerShell: the same, with `"$HOME\HQ\Library\lionsberg-intelligence"`).
 - If it is not: download `https://github.com/Lionsberg/lionsberg-intelligence/archive/refs/heads/release.zip` to a temporary folder, extract it with `tar -xf` (`tar` is on every Mac and on Windows 10 and later; macOS `unzip` fails on one file name in this archive), move the extracted folder to `HQ/Library/lionsberg-intelligence`, and delete the temporary folder. Take this way only when Git cannot be had in this sitting. On a Mac whose developer tools are still installing, do first what does not need Git, then look again (`xcode-select -p`). A Library that came as an archive does not refresh on its own; say so in the receipt, and their agent makes it a clone once Git is there (`refresh-the-library` says how).
@@ -123,7 +123,7 @@ You do not start their agent, and you do not run `git init` in any folder. Their
 
 ### 8. The record's check
 
-If they said yes to the engine, and Python is there, run the conformance sheet: `python3 -I -B "$HOME/HQ/engine/conformance.py"` (Windows: `python -I -B "$HOME\HQ\engine\conformance.py"`). It works in a temporary folder, writes nothing in the house and sends nothing anywhere. Every check should read PASS except signing, which reads PAPER FLOOR because no key exists yet: that is not a failure, and the last line says so. Two more lines read FOR THE PERSON: they are checks the person makes with their agent later, and they are not failures either. If any line reads FAIL, say which, copy the sheet into the receipt, and carry on: their agent will see it.
+If they said yes to the engine, and Python is there, run the conformance sheet: `python3 -I -B "$HOME/HQ/engine/conformance.py"` (Windows: `python -I -B "$HOME\HQ\engine\conformance.py"`). It works in a temporary folder, writes nothing in the house and sends nothing anywhere. Every check should read PASS except signing, which reads PAPER FLOOR because no key exists yet: that is not a failure, and the last line says so. Two more lines read FOR THE PERSON: they are checks the person makes with their agent later, and they are not failures either; leave them for the two of them. If any line reads FAIL, say which, copy the sheet into the receipt, and carry on: their agent will see it.
 
 Make no signing key. The proxy (`engine/proxy.py`) is optional and stays off.
 
@@ -170,7 +170,7 @@ Tell them plainly, in these words or your own:
   - By the app way: *open this session's three-dot menu in the sidebar and choose **Archive**. Archive it; do not delete it. If Git was installed just now on Windows, quit the Claude app completely and open it again. Then start a new session: press Cmd+N on a Mac or Ctrl+N on Windows, or click + New in the sidebar. Under the box, check that it says Local, that the folder has your agent's name, and that the mode says Manual.*
   - By the terminal way: *type `/exit`. Then double-click **My Agent** on your Desktop. When it asks whether to trust the folder, check that it names your agent's folder, and say yes.*
 - **Your first message is one sentence, with your own names:** *Hello, I am Ada. I will call you River. Please wake up and meet me.* Your agent greets you by name, and your work together begins. It will not ask for the waiver again; it reads what you agreed here.
-- **Your phone, if they asked for it.** *Once your agent has greeted you, turn on Remote Control in its session, in the upper right. On your phone, open the official Claude app, sign in with the same account, choose Code, and open your agent's session. This computer has to be on and awake. Leave the phone's New Session button alone: it starts a different Claude on a distant computer, with none of your files. Remote Control needs a paid Claude plan, and it does not pass through your agent's own proxy.*
+- **Your phone, if they asked for it.** *Once your agent has greeted you, turn on Remote Control in its session, in the upper right. On your phone, open the official Claude app, sign in with the same account, choose Code, and open your agent's session. This computer has to be on and awake. Leave the phone's New Session button alone: it starts a different Claude on a distant computer, with none of your files. Remote Control needs a paid Claude plan.*
 
 Then stop. Write nothing more to the agent's folder: its first session may already have begun.
 
