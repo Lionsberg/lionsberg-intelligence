@@ -50,10 +50,18 @@ session=$(printf '%s' "$payload" | sed -n 's/.*"session_id"[ 	]*:[ 	]*"\([A-Za-z
 # --- the reading ----------------------------------------------------------------
 
 text=""
-if ! command -v python3 >/dev/null 2>&1; then
+if [ ! -f "$engine/plain.py" ]; then
+  # A house without the Game Engine is a whole house. Nothing is said each turn unless
+  # something is amiss (a link that points at nothing) or the record is kept on paper.
+  if [ -L "$home/engine" ]; then
+    text="The record was not read before this reply: the link named engine in this home points at nothing."
+  elif [ -f "$home/record/paper.md" ]; then
+    text="This house keeps its record on paper (record/paper.md). It was not read before this reply."
+  else
+    exit 0
+  fi
+elif ! command -v python3 >/dev/null 2>&1; then
   text="The record was not read before this reply: python3 is not on this machine."
-elif [ ! -f "$engine/plain.py" ]; then
-  text="The record was not read before this reply: the engine is not in this home."
 elif [ -L "$holon/holon.json" ] || [ ! -f "$holon/holon.json" ]; then
   text="The record was not read before this reply: this home is not a holon yet (no holon.json)."
 else

@@ -5,7 +5,8 @@ Claude that builds. RELEASE.md names the layers and where each lives in a house 
 This module checks what a script can: the pages are there; everything BUILD.md tells a builder to
 copy exists in the kit; every skill is on exactly one layer's list; the one sentence is the same
 wherever a person meets it, names the builder's page on the release branch and says it is data;
-the two pages hold no contraction; and the Library's refresh says what changed, leaves what runs
+the two pages hold no contraction; every description fits the host's listing; the agent's hooks stand
+in a home with no engine; and the Library's refresh says what changed, leaves what runs
 alone, and leaves a Library with changes of the house's own as it is. Whether a person can follow
 the pages, and whether a host follows a link, is a walk, not this test. Run from engine/:
 
@@ -26,7 +27,7 @@ GETTING_STARTED = os.path.join(KIT, 'bookshelf', 'getting-started')
 REFRESH = os.path.join(KIT, 'scripts', 'refresh-library')
 
 # What step 7 of BUILD.md tells a builder to copy from the kit into the agent's home.
-COPIED_FILES = ['CLAUDE.md', 'LINEAGE.md', 'venues.md', 'WAIVER.md', '.gitignore',
+COPIED_FILES = ['CLAUDE.md', 'LINEAGE.md', 'venues.md', 'WAIVER.md', 'LICENSE.md', 'LICENSE-of-the-kit.md', '.gitignore',
                 'personas/Character-Matrix-companion.md', '.claude/settings.json',
                 '.claude/settings.powershell.json', '.claude/launch.json']
 COPIED_FOLDERS = ['memory', 'sessions', 'inbox', 'outbox', 'bg', 'scripts', '.claude/hooks']
@@ -158,6 +159,49 @@ class TheLayers(unittest.TestCase):
         player = _layers()['Player+']
         for skill in ('the-record', 'the-simplest-game', 'refresh-the-library', 'pull-a-release'):
             self.assertIn(skill, player)
+
+
+@unittest.skipUnless(shutil.which('sh'), 'the hooks need sh')
+class AHouseWithoutTheEngine(unittest.TestCase):
+    """Each layer stands without the ones above it: the agent's hooks in a home that has no engine."""
+
+    def setUp(self):
+        self.tmp = tempfile.mkdtemp()
+        self.home = os.path.join(self.tmp, 'My Agents', 'Sage')
+        shutil.copytree(os.path.join(KIT, '.claude', 'hooks'), os.path.join(self.home, '.claude', 'hooks'))
+        with open(os.path.join(self.home, 'CLAUDE.md'), 'w') as f:
+            f.write('charter')
+
+    def tearDown(self):
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def _hook(self, name):
+        env = dict(os.environ, HOME=self.tmp, CLAUDE_PROJECT_DIR=self.home)
+        r = subprocess.run(['sh', os.path.join(self.home, '.claude', 'hooks', name)], cwd=self.home, env=env,
+                           input='{}', capture_output=True, text=True, timeout=20)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        return r.stdout
+
+    def test_the_record_hook_says_nothing(self):
+        self.assertEqual(self._hook('what-waits.sh').strip(), '')
+
+    def test_a_link_that_points_at_nothing_is_said(self):
+        os.symlink(os.path.join(self.tmp, 'nowhere'), os.path.join(self.home, 'engine'))
+        self.assertIn('points at nothing', self._hook('what-waits.sh'))
+        self.assertIn('points at nothing', self._hook('awaken.sh'))
+
+    def test_a_record_on_paper_is_named(self):
+        os.makedirs(os.path.join(self.home, 'record'))
+        with open(os.path.join(self.home, 'record', 'paper.md'), 'w') as f:
+            f.write('I join.')
+        self.assertIn('record/paper.md', self._hook('what-waits.sh'))
+        self.assertIn('record/paper.md', self._hook('awaken.sh'))
+
+    def test_the_waking_stands(self):
+        out = self._hook('awaken.sh')
+        self.assertIn('AWAKENING', out)
+        self.assertIn('This house has no Game Engine', out)
+        self.assertIn('the rest stands', out)
 
 
 @unittest.skipUnless(shutil.which('git') and shutil.which('sh'), 'the refresh needs git and sh')

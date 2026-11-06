@@ -75,12 +75,18 @@ event=$(printf '%s' "$payload" | sed -n 's/.*"source"[ 	]*:[ 	]*"\([a-z]*\)".*/\
 # holon.json, keeps the engine from writing (no bytecode, the signature cache read
 # but not saved), and stops itself at the deadline.
 awaits() {
-  if ! command -v python3 >/dev/null 2>&1; then
-    echo "  python3 is not on this machine, so what awaits was not read; the rest stands."
+  if [ ! -f "$engine/plain.py" ]; then
+    if [ -L "$home/engine" ]; then
+      echo "  The link named engine in this home points at nothing, so what awaits was not read."
+    elif [ -f "$home/record/paper.md" ]; then
+      echo "  This house keeps its record on paper: record/paper.md."
+    else
+      echo "  This house has no Game Engine. Nothing awaits that an engine would read; the rest stands."
+    fi
     return 0
   fi
-  if [ ! -f "$engine/plain.py" ]; then
-    echo "  The engine is not in this home, so what awaits was not read."
+  if ! command -v python3 >/dev/null 2>&1; then
+    echo "  python3 is not on this machine, so what awaits was not read; the rest stands."
     return 0
   fi
   out=$(python3 -I -B -c '

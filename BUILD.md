@@ -94,34 +94,34 @@ Fetch this kit into `HQ/Library/lionsberg-intelligence/`. It stays there, whole,
 - If Git is usable: `git clone --depth 1 --branch release https://github.com/Lionsberg/lionsberg-intelligence.git "$HOME/HQ/Library/lionsberg-intelligence"` (PowerShell: the same, with `"$HOME\HQ\Library\lionsberg-intelligence"`).
 - If it is not: download `https://github.com/Lionsberg/lionsberg-intelligence/archive/refs/heads/release.zip` to a temporary folder, extract it with `tar -xf` (`tar` is on every Mac and on Windows 10 and later; macOS `unzip` fails on one file name in this archive), move the extracted folder to `HQ/Library/lionsberg-intelligence`, and delete the temporary folder. Their agent turns it into a clone once Git is there.
 
-If this page was downloaded into the agent's folder, delete that copy now. Below, `<kit>` is `HQ/Library/lionsberg-intelligence/player-plus`.
+Delete the temporary copy of this page, and of anything else you downloaded to read, wherever you put it: the Library now holds them. Below, `<kit>` is `HQ/Library/lionsberg-intelligence/player-plus`.
 
 ### 7. The agent's home
 
 Copy from `<kit>` into the agent's folder, and nothing else from it:
 
-- the files `CLAUDE.md`, `LINEAGE.md`, `venues.md`, `WAIVER.md` and `.gitignore`;
+- the files `CLAUDE.md`, `LINEAGE.md`, `venues.md`, `WAIVER.md`, `LICENSE.md`, `LICENSE-of-the-kit.md` (the waiver names both licences) and `.gitignore`;
 - the folders `memory/`, `sessions/`, `inbox/`, `outbox/`, `bg/` and `scripts/`, whole;
 - from `personas/`, the one file `Character-Matrix-companion.md`, into a `personas/` folder of the agent's own (the charter reads it);
 - `.claude/settings.json`, `.claude/settings.powershell.json`, `.claude/launch.json` and the folder `.claude/hooks/`;
-- the skills, each a whole folder, from `<kit>/.claude/skills/` into the agent's `.claude/skills/`: every skill on the list **the agent** and the list **Player+** in `<kit>/.claude/skills/LAYERS.md`, and the list **the Game Engine** only if they said yes at step 2.
+- the skills, each a whole folder, from `<kit>/.claude/skills/` into the agent's `.claude/skills/`: every skill on the list **the agent** and the list **Player+** in `<kit>/.claude/skills/LAYERS.md`, and the list **the Game Engine** only if they said yes at step 2. `LAYERS.md` gives each list as names on one line, and each name is a folder to copy.
 
 Mac, for a folder: `cp -R "<kit>/memory" "$HOME/My Agents/<name>/"`. PowerShell: `Copy-Item "<kit>\memory" -Destination "$HOME\My Agents\<name>" -Recurse -Force`.
 
 Then:
 
-- **The shelf.** Make a link named `bookshelf` in the agent's folder that points at `<kit>/bookshelf`, so that every page of the charter and the skills that names the shelf finds it. Mac: `ln -s "$HOME/HQ/Library/lionsberg-intelligence/player-plus/bookshelf" "$HOME/My Agents/<name>/bookshelf"`. PowerShell: `New-Item -ItemType Junction -Path "$HOME\My Agents\<name>\bookshelf" -Target "$HOME\HQ\Library\lionsberg-intelligence\player-plus\bookshelf"`.
-- **The engine and the board,** if they said yes. Copy `<kit>/engine` to `HQ/engine` and `<kit>/hud` to `HQ/hud`, unless a house already has them there. Then make links named `engine` and `hud` in the agent's folder that point at them, in the same way as the shelf.
+- **The shelf.** Make a link named `bookshelf` in the agent's folder that points at `<kit>/bookshelf`, so that every page of the charter and the skills that names the shelf finds it. Mac, run in the agent's folder: `ln -s "../../HQ/Library/lionsberg-intelligence/player-plus/bookshelf" bookshelf`. The link is relative, so that the house holds together if the home folder is ever moved or renamed. PowerShell, where a junction keeps a full path: `New-Item -ItemType Junction -Path "$HOME\My Agents\<name>\bookshelf" -Target "$HOME\HQ\Library\lionsberg-intelligence\player-plus\bookshelf"`.
+- **The engine and the board,** if they said yes. Copy `<kit>/engine` to `HQ/engine` and `<kit>/hud` to `HQ/hud`, unless a house already has them there. Then make links named `engine` and `hud` in the agent's folder that point at them, in the same way as the shelf. Mac, run in the agent's folder: `ln -s ../../HQ/engine engine` and `ln -s ../../HQ/hud hud`.
 - **If a link cannot be made,** copy the folder into the agent's home in its place, and say so in the receipt. The house works either way.
 - **The links stay out of the agent's history.** Append three lines to the `.gitignore` in the agent's folder: `/bookshelf`, `/engine` and `/hud`.
-- **First memories.** Write `memory/agreements.md` with the waiver's line: that they agreed to `WAIVER.md`, the date, and their exact words from step 1. If they chose a name for their agent, leave it for their first sentence; their agent writes its own name when it wakes.
-- **On a Windows computer without Git Bash,** copy `.claude/settings.powershell.json` over `.claude/settings.json`. Either way, delete `settings.powershell.json` from the agent's `.claude/` afterwards.
+- **First memories.** Write `memory/agreements.md`, in the shape of `memory/agent_name.md` beside it (a `name`, a `type` of `fact`, a one-line `description`), with the waiver's line: that they agreed to `WAIVER.md`, the date, and their exact words from step 1. Add its one line to the index, `memory/MEMORY.md`: `- [Agreements](agreements.md) — what my person has agreed to, and when`. If they chose a name for their agent, leave it for their first sentence; their agent writes its own name when it wakes.
+- **On a Windows computer without Git Bash,** copy `.claude/settings.powershell.json` over `.claude/settings.json`. On every computer, delete `settings.powershell.json` from the agent's `.claude/` afterwards.
 
 You do not start their agent, and you do not run `git init` in any folder. Their agent does that with them when it wakes, in its own session.
 
 ### 8. The record's check
 
-If they said yes to the engine, and Python is there, run the conformance sheet: `python3 -I "$HOME/HQ/engine/conformance.py"` (Windows: `python -I "$HOME\HQ\engine\conformance.py"`). It works in a temporary folder, writes nothing in the house and sends nothing anywhere. Every check should read PASS except signing, which reads PAPER FLOOR because no key exists yet: that is not a failure, and the last line says so. If any line reads FAIL, say which, copy the sheet into the receipt, and carry on: their agent will see it.
+If they said yes to the engine, and Python is there, run the conformance sheet: `python3 -I "$HOME/HQ/engine/conformance.py"` (Windows: `python -I "$HOME\HQ\engine\conformance.py"`). It works in a temporary folder, writes nothing in the house and sends nothing anywhere. Every check should read PASS except signing, which reads PAPER FLOOR because no key exists yet: that is not a failure, and the last line says so. Two more lines read FOR THE PERSON: they are checks the person makes with their agent later, and they are not failures either. If any line reads FAIL, say which, copy the sheet into the receipt, and carry on: their agent will see it.
 
 Make no signing key. The proxy (`engine/proxy.py`) is optional and stays off.
 
