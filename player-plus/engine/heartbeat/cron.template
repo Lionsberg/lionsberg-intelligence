@@ -1,3 +1,0 @@
-# The heartbeat of one holon ({{LABEL}}): on cron's own steps, at most once a minute. Plain code; it spends no model tokens.
-# Written by heartbeat.py install; installed only by the person's own hand.
-{{CRON_SCHEDULE}} {{PYTHON_SH}} -I {{SCRIPT_SH}} beat {{HOME_SH}} >/dev/null 2>&1
