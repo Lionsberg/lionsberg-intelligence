@@ -32,9 +32,10 @@ The step numbers are the starter kit's.
 
 ### Before step 1: where things are
 
-- After the unzip, both `pkai-starter-kit/` and `player-plus-kit/` sit directly in the HQ. If either unzipped under another name or one folder deeper, move it there.
+- After the unzip, both `pkai-starter-kit/` and `player-plus-kit/` sit directly in the HQ. If either unzipped under another name or one folder deeper, move it there. If the unzip reported an error, or stopped partway, remove what it left and extract again with `tar -xf`, which is on every Mac and on Windows 10 and later.
+- The downloaded zip is not part of the house. Once both folders are in place, say so and remove it, with their yes.
 - **An earlier Player+ house.** If their home folder holds a folder named `My Agents`, or a folder named `HQ` with an agent's files in it, an earlier Player+ kit built a house here. Say so, tell them that this release does not change that house and that they can keep using it, and stop. Build nothing over it.
-- Both kits are read-only reference. Edit neither. Push nothing, to any repository.
+- Both kits are reference. Change no file in either, and push nothing, to any repository. The build moves two folders out of them into the house, each kit's library, as the steps say; nothing else leaves them.
 
 ### Step 1, the waiver: two pages, one agreement
 
@@ -67,7 +68,7 @@ Do the starter kit's step 5 in full. Then, before its step 6:
      pull_from: https://github.com/Lionsberg/lionsberg-intelligence   # read its CHANGES.md; the pull-a-release skill
    ```
 
-   The version is the one in `player-plus-kit/VERSION.md`.
+   The version is the one in `player-plus-kit/VERSION.md`, written without its leading `v` after `version:`.
 5. **The memories.** In `memory/waiver_agreed.md`, name both waivers. In `memory/origin.md`, add one or two sentences: that the house carries Player+, with its version; that the Player+ block is in the charter between its two markers; and where the Cards and the LIØNSBERG bookshelf are. Write one more memory, `memory/card_handle.md`, a `user` memory with its line in the index: the short name they sign their Cards with.
 6. **The HQ.** After the starter kit's library move (its step 5.8):
    - Move `player-plus-kit/library/lionsberg/` to `<HQ>/library/lionsberg/`, so that the two bookshelves sit side by side. Move it; do not copy it. Then remove the empty `player-plus-kit/library/` folder.
@@ -81,7 +82,7 @@ Check quietly, and say only what is wrong:
 
 - the agent's `CLAUDE.md` holds the line `<!-- Player+ begins` once and the line `<!-- Player+ ends -->` once, in that order, above `## Things you always do`;
 - neither `CLAUDE.md` nor `PLAYER-PLUS.md` still holds `{{`;
-- `<agent home>/.claude/skills/` holds the starter kit's skills and the sixteen Player+ skills;
+- `<agent home>/.claude/skills/` holds the fourteen skills the starter kit installs and the sixteen Player+ skills, thirty folders in all;
 - `<HQ>/library/pkai/` and `<HQ>/library/lionsberg/` both exist, and `<HQ>/library/lionsberg/reviewed/` holds seven pages;
 - `<HQ>/cards/README.md` exists.
 

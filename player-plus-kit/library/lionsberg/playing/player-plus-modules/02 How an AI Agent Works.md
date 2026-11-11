@@ -54,4 +54,4 @@ To everyone whose writing became the ground these models learned from, most of t
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Becoming a Player+](01%20Becoming%20a%20Player%2B.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Entering the Field](03%20Entering%20the%20Field.md) →
+← [Becoming a Player+](01%20Becoming%20a%20Player%2B.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Entering the Field](03%20Entering%20the%20Field.md) →

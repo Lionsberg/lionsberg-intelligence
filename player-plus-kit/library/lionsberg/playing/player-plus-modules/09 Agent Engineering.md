@@ -106,4 +106,4 @@ Thanks to [the LIØNSBERG canon](Lexicon.md), where the standard is improvement 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Daily Life](16%20Daily%20Life.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md) →
+← [Daily Life](16%20Daily%20Life.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md) →

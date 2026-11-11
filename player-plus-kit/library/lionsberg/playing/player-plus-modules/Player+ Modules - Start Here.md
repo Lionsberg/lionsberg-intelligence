@@ -41,7 +41,7 @@ The rest are here when you need them. Nobody does them all at once.
 - **[Read the Story](18%20Read%20the%20Story.md)**: read the Story aloud with someone, and let it land.
 - **[Play the Game](19%20Play%20the%20Game.md)**: hold the whole Game on one page, and send your first invitation.
 - **[Pass the Flame](20%20Pass%20the%20Flame.md)**: hand the whole of it to your three who are ready.
-- **[Structuring a Cell](17%20Structuring%20a%20Cell%20%E2%80%94%20LI%C3%98NSBERG%20FSx.md)**: know what your Cell already is, and what to put on paper only when the work asks for it.
+- **[Structuring a Cell](17%20Structuring%20a%20Cell%20-%20LI%C3%98NSBERG%20FSx.md)**: know what your Cell already is, and what to put on paper only when the work asks for it.
 - **[The Weekly Turn](15%20The%20Weekly%20Turn.md)**: learn how the Game breathes in and out each week, and what your Circle sends through the one weekly door.
 - **[Daily Life](16%20Daily%20Life.md)**: shape one day so it serves your week, with one small card that stays yours.
 

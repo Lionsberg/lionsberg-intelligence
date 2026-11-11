@@ -80,4 +80,4 @@ The membrane, Trust and [the Field](Lexicon.md) of Agreements come from [the LI�
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Before Your First Room](04%20Before%20Your%20First%20Room.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Safe Sparring](06%20Safe%20Sparring.md) →
+← [Before Your First Room](04%20Before%20Your%20First%20Room.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Safe Sparring](06%20Safe%20Sparring.md) →

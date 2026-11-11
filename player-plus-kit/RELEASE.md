@@ -5,17 +5,17 @@
 | Part | What it adds | Version | Comes from | Lives in a house at | How it stays current |
 |---|---|---|---|---|---|
 | **The agent** | a personal agent that works: a persona, memory, sessions, the desk and the clock, skills that travel alone, a bookshelf | pkai-starter-kit 4.0.0-rc.5 | the PKAI starter kit, carried whole and unchanged in `pkai-starter-kit/` | `~/<AgentName> (agent)/` and the HQ | `pull-from-benchmark`: each release is read, and taken by proposal |
-| **The Player+ block** | The Great Game of LIØNSBERG in the agent's charter: the Goal, the words, the Cards, and where to find the rest | 4.1.0 | `PLAYER-PLUS-BLOCK.md` | the agent's `CLAUDE.md`, between two markers | `pull-a-release`: a change is drafted, and the person installs it |
-| **The longer guide** | how to play: the Cards in full, the six sentences, the Turn, joining a Cell, the belts, Pass the Flame | 4.1.0 | `PLAYER-PLUS.md` | beside the charter | `pull-a-release`, on the person's yes |
+| **The Player+ block** | The Great Game of LIØNSBERG in the agent's charter: the Goal, the words, the Cards, and where to find the rest | 4.1.0-rc.1 | `PLAYER-PLUS-BLOCK.md` | the agent's `CLAUDE.md`, between two markers | `pull-a-release`: a change is drafted, and the person installs it |
+| **The longer guide** | how to play: the Cards in full, the six sentences, the Turn, joining a Cell, the belts, Pass the Flame | 4.1.0-rc.1 | `PLAYER-PLUS.md` | beside the charter | `pull-a-release`, on the person's yes |
 | **The Player+ skills** | sixteen procedures for the Game that need no engine | each its own, in its `LINEAGE.md` | `skills/` | `<agent home>/.claude/skills/` | `pull-a-release`, on the person's yes |
 | **The LIØNSBERG bookshelf** | `reviewed/`, the words reviewed line by line; `playing/`, the practical books, each marked as not yet reviewed that way | follows each release | `library/lionsberg/` | `<HQ>/library/lionsberg/`, beside `<HQ>/library/pkai/` | `refresh-the-library`: reading refreshes, and what changed is said |
-| **The Cards** | a place for play written as plain files, and one example of each kind | 4.1.0 | `template/hq/cards/`, `card-examples/` | `<HQ>/cards/`; a Cell's in its own repository under `<HQ>/cells/` | they are the person's own |
+| **The Cards** | a place for play written as plain files, and one example of each kind | 4.1.0-rc.1 | `template/hq/cards/`, `card-examples/` | `<HQ>/cards/`; a Cell's in its own repository under `<HQ>/cells/` | they are the person's own |
 
 ## The sixteen skills
 
 `a-gathering` · `entering-the-field` · `join-a-cell` · `pass-the-flame` · `play-by-play` · `pull-a-release` · `read-the-story-aloud` · `refresh-the-library` · `safe-sparring` · `the-offering` · `the-retrospective` · `the-roll` · `the-season-sheet-by-hand` · `the-simplest-game` · `the-turn` · `witness-a-commitment`
 
-The host hands the model each skill's name and description within a limit of about 24,000 characters for a whole house. The starter kit's twenty-two skills and these sixteen together take about 18,200, and a test of this kit holds the total. A house that adds skills of its own keeps their descriptions as short.
+The host hands the model each skill's name and description within a limit of about 24,000 characters for a whole house. A house is built with fourteen of the starter kit's twenty-two skills and these sixteen. All thirty-eight together take about 18,200, so a house that takes every one still fits, and a test of this kit holds the total. A house that adds skills of its own keeps their descriptions as short.
 
 ## Three rules the parts keep
 
@@ -33,8 +33,8 @@ The game engine, the board, the daily Deal and the scripts for rooms and pads ar
 release: player-plus-kit 4.1.0-rc.1 on pkai-starter-kit 4.0.0-rc.5
 parts:
   agent:      pkai-starter-kit 4.0.0-rc.5     # carried unchanged; upstream github.com/peterkaminski-ai/pkai-starter-kit
-  block:      PLAYER-PLUS-BLOCK.md 4.1.0
-  guide:      PLAYER-PLUS.md 4.1.0
+  block:      PLAYER-PLUS-BLOCK.md 4.1.0-rc.1
+  guide:      PLAYER-PLUS.md 4.1.0-rc.1
   skills:     16, in skills/
   bookshelf:  library/lionsberg/ (reviewed/, playing/)
   cards:      template/hq/cards/, card-examples/

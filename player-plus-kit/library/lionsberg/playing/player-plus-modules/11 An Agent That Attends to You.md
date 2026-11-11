@@ -67,4 +67,4 @@ To the [LIØNSBERG](Lexicon.md) canon, whose [Stewardship](Lexicon.md) page give
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md) →
+← [Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md) →

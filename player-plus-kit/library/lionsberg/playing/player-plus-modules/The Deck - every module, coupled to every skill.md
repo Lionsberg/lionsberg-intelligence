@@ -40,7 +40,7 @@ The six rungs are the ladder of The Words in the Order You Meet Them: the door �
 
 - **[[07 The Heads-up and the Play by Play]]** · Your private page, kept by your agent during a live session, and the room's shared running record when the room asks your house to keep it. *Handed:* the first busy session where you cannot watch the page and the people at once. *Served by:* `heads-up`, `play-by-play`, `fair-copy-a-transcript`.
 - **[[14 The Agent Improvement Process]]** · A small standing rhythm: a blameless [[Improvement log|log]], a weekly look-back written by someone other than the agent, and what is passed upward because it would serve any house. *Handed:* after the first month of real use. *Served by:* `review-and-prune`, `the-retrospective`, `pull-a-release`, `pull-from-benchmark`, `refresh-the-library`, `test-a-charter-edit`, `make-a-skill`.
-- **[[17 Structuring a Cell — LIØNSBERG FSx]]** · Know what your Cell already is without any paperwork, and what to put on paper only when the work asks for it. *Handed:* when your Cell's work first asks for something a handshake cannot hold.
+- **[[17 Structuring a Cell - LIØNSBERG FSx]]** · Know what your Cell already is without any paperwork, and what to put on paper only when the work asks for it. *Handed:* when your Cell's work first asks for something a handshake cannot hold.
 
 ### Rung 5 — the Room
 
@@ -150,6 +150,6 @@ Thirty-eight folders. Twenty-two are PKAI's and come with the [[The Kit|starter 
 
 ---
 
-*Beside this page:* [[Player+ Modules — Start Here]] · [[The Deck Standard — Player+ Modules v0.1|The Deck Standard]] · START HERE — Becoming a Player+ · The Words in the Order You Meet Them · Player+ Modules · [[The Kit]] · [[Skill]] · [[Module]] · [[Lesson]]
+*Beside this page:* [[Player+ Modules - Start Here]] · [[The Deck Standard - Player+ Modules v0.1|The Deck Standard]] · START HERE — Becoming a Player+ · The Words in the Order You Meet Them · Player+ Modules · [[The Kit]] · [[Skill]] · [[Module]] · [[Lesson]]
 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*

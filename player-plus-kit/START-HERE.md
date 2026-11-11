@@ -101,7 +101,7 @@ About five minutes. Your agent lives on your computer, and your phone can reach 
 
 Your computer has to be on and awake for your phone to reach your agent. Leave the phone's **New Session** button alone: it starts a different Claude on a distant computer, with none of your files.
 
-**You have passed the last Gate when** your agent answers you on your phone. You are a Player+.
+**You have passed the last Gate when** your agent answers you on your phone. You are a Player+. If you will not use your phone, you are one at the fourth Gate, and this one waits for the day you want it.
 
 ## What you now have
 

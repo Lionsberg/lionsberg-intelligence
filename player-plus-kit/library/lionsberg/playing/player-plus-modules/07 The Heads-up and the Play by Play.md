@@ -73,4 +73,4 @@ Thanks to the [houses](Lexicon.md) that played the first jams, where agents kept
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Safe Sparring](06%20Safe%20Sparring.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Jam Conventions](08%20Jam%20Conventions.md) →
+← [Safe Sparring](06%20Safe%20Sparring.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Jam Conventions](08%20Jam%20Conventions.md) →

@@ -13,7 +13,7 @@ Where a page on `playing/` and a page on `reviewed/` differ, the reviewed page i
 
 ## On the playing shelf
 
-- [`player-plus-modules/`](playing/player-plus-modules/Player%2B%20Modules%20%E2%80%94%20Start%20Here.md): twenty lessons of about ten minutes each, and the Lexicon, one meaning for each word. Start with *Player+ Modules — Start Here*.
+- [`player-plus-modules/`](playing/player-plus-modules/Player%2B%20Modules%20-%20Start%20Here.md): twenty lessons of about ten minutes each, and the Lexicon, one meaning for each word. Start with *Player+ Modules — Start Here*.
 - [`getting-started/`](playing/getting-started/): the Quest of becoming a Player+, your first hour, and where a question goes when you are stuck.
 - [`with-your-agent/`](playing/with-your-agent/): keeping your agent current, tips, and keeping a Game Log.
 - [`working-with-other-houses/`](playing/working-with-other-houses/): the Dojo's card, your heads-up in a room, closing out a session.

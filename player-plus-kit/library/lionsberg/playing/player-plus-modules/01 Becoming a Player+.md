@@ -71,4 +71,4 @@ To [the LIØNSBERG canon](Lexicon.md), whose [Arc of Play](Lexicon.md) this page
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-[Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [How an AI Agent Works](02%20How%20an%20AI%20Agent%20Works.md) →
+[Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [How an AI Agent Works](02%20How%20an%20AI%20Agent%20Works.md) →

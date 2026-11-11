@@ -14,7 +14,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 ## A
 
-**agent** — An agent is an AI assistant that works for you and answers to you. It prepares, drafts and carries; you decide. **An agent is one kind of Actor.** The other kind is a living one, and where a page means whoever is responsible for an act, the word is Actor. *Also:* agents, AI agent, AI assistant, assistant, your agent. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* LIØNSBERG Personal Agents.
+**agent** — An agent is an AI assistant that works for you and answers to you. It prepares, drafts and carries; you decide. **An agent is one kind of Actor.** The other kind is a living one, and where a page means whoever is responsible for an act, the word is Actor. *Also:* agents, AI agent, AI assistant, assistant, your agent. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* LIØNSBERG Personal Agents.
 
 **agent engineering** — Finding what your agent read that caused a miss, changing that, and testing the change. Talking your agent round lasts one conversation; a change to what it reads lasts. *Also:* engineering. *Met first in:* [Agent Engineering](09%20Agent%20Engineering.md).
 
@@ -38,15 +38,15 @@ library-status: current best understanding, not yet reviewed line by line
 
 ## C
 
-**the canon** — The body of LIØNSBERG's own writing, kept at lionsberg.wiki, which these lessons stand on. *Also:* canon, the LIØNSBERG canon. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
+**the canon** — The body of LIØNSBERG's own writing, which these lessons stand on. *Also:* canon, the LIØNSBERG canon. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
 
 **capability** — What one party can do: a person, an agent, or a written thing. It sits in one place and can be listed. *Also:* capabilities. *Met first in:* [How a Module Lives](12%20How%20a%20Module%20Lives.md).
 
 **capacity** — The proven ability to do the thing when the moment comes. It belongs to whoever is acting, at any size: one person, a person and their agent together, a Circle, a Cell. A person and their agent have a capacity greater than either one's capability alone, and that is the whole reason for playing as a Player+. *Also:* capacities. *Met first in:* The Deck.
 
-**CC BY-SA 4.0** — A Creative Commons license. Anyone may copy the work, change it, and even sell it, so long as they say where it came from and pass their own version on under the same license. *Also:* CC BY-SA, Creative Commons, Creative Commons license. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**CC BY-SA 4.0** — A Creative Commons license. Anyone may copy the work, change it, and even sell it, so long as they say where it came from and pass their own version on under the same license. *Also:* CC BY-SA, Creative Commons, Creative Commons license. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
-**Cell** — Three to thirteen people who play the Game together and carry the whole of it: they keep their own agreements, choose a Quest each season, tell their stories, and pass the invitation on. *Also:* Cells, a Cell. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Cell.
+**Cell** — Three to thirteen people who play the Game together and carry the whole of it: they keep their own agreements, choose a Quest each season, tell their stories, and pass the invitation on. *Also:* Cells, a Cell. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Cell.
 
 **change log** — One file, or one page of a notebook, where each entry holds the date, the old wording, the new wording, and why it changed. *Also:* change logs. *Met first in:* [Agent Engineering](09%20Agent%20Engineering.md).
 
@@ -54,7 +54,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **check in** — Each person saying, at the start of a gathering, where they are: glad to play, or naming what troubles them, so that it can be settled before the work. *Also:* check-in, checking in, Check In. *Met first in:* [Safe Sparring](06%20Safe%20Sparring.md).
 
-**Choose a Quest** — The second of the Five Moves: a group picks one real, reachable piece of good work for the season ahead. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Quest.
+**Choose a Quest** — The second of the Five Moves: a group picks one real, reachable piece of good work for the season ahead. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Quest.
 
 **Circle** — Three to thirteen people gathered in trust, facing one another, with no head of the table. The Circle is the form of the gathering; a Circle that takes up the whole way of playing is a Cell. *Also:* Circles, circle, your Circle. *Met first in:* [How a Module Lives](12%20How%20a%20Module%20Lives.md). *More:* Circle.
 
@@ -76,23 +76,23 @@ library-status: current best understanding, not yet reviewed line by line
 
 **current best understanding** — The best we can say today, held openly, and expected to change when something truer arrives. *Met first in:* [Agent Engineering](09%20Agent%20Engineering.md). *More:* Current Best Understanding.
 
-**The Commons** — Everything held for all of us rather than owned by one of us: knowledge, tools, water, roads, the living world. It is kept up by the people who depend on it. *Also:* the Commons, Commons. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Commons.
+**The Commons** — Everything held for all of us rather than owned by one of us: knowledge, tools, water, roads, the living world. It is kept up by the people who depend on it. *Also:* the Commons, Commons. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Commons.
 
 ## D
 
 **day shape** — Two or three lines of your own about how your day runs: when you think best, when you need food or a walk, when you should stop. *Also:* day shapes. *Met first in:* [An Agent That Attends to You](11%20An%20Agent%20That%20Attends%20to%20You.md).
 
-**the deck** — The whole set of these lessons, taken one at a time, in any order after the first three. *Also:* deck, Player+ Modules, the modules. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**the deck** — The whole set of these lessons, taken one at a time, in any order after the first three. *Also:* deck, Player+ Modules, the modules. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **declare** — To say, before it comes into a room, what you carry that is not yours to give away, and whose terms apply to it. *Also:* declares, declared, declaring, declaration. *Met first in:* [Entering the Field](03%20Entering%20the%20Field.md).
 
 **the door** — What a room asks of people before they may write in it. How far anyone can rely on what is written there depends on the door. *Also:* door, doors, the door checks. *Met first in:* [Before Your First Room](04%20Before%20Your%20First%20Room.md).
 
-**door note** — Three lines you bring to your first room: the name you choose, anything you carry that is not yours to share, and one question. *Also:* door notes. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**door note** — Three lines you bring to your first room: the name you choose, anything you carry that is not yours to share, and one question. *Also:* door notes. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **drift** — The slide back to trained habit under pressure, whatever the charter says. Tests are repeated because of it. *Met first in:* [Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md).
 
-**Dyad Jam** — A working session where a person and their agent work beside another person and theirs, each pair on their own work, sharing what they learn. *Also:* Dyad Jams, dyad jam. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**Dyad Jam** — A working session where a person and their agent work beside another person and theirs, each pair on their own work, sharing what they learn. *Also:* Dyad Jams, dyad jam. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 ## E
 
@@ -110,25 +110,25 @@ library-status: current best understanding, not yet reviewed line by line
 
 **Field of Agreements** — The principles, commitments and norms a group has freely chosen and lives by, settled before the work rather than during it. *Met first in:* [Entering the Field](03%20Entering%20the%20Field.md). *More:* Field of Agreements.
 
-**the Five Moves** — The five things a group does, in order: form a Cell, choose a Quest, learn and grow, share your stories, pass the Flame. *Also:* Five Moves, the Moves, a Move. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Game on One Page.
+**the Five Moves** — The five things a group does, in order: form a Cell, choose a Quest, learn and grow, share your stories, pass the Flame. *Also:* Five Moves, the Moves, a Move. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Game on One Page.
 
-**the Flame** — What is handed from one player to the next: the invitation, and the way of playing that comes with it. *Also:* Flame, flame, flames. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Flame.
+**the Flame** — What is handed from one player to the next: the invitation, and the way of playing that comes with it. *Also:* Flame, flame, flames. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Flame.
 
-**Form a Cell** — The first of the Five Moves: gather your three to thirteen, by name, at the pace of trust. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Cell.
+**Form a Cell** — The first of the Five Moves: gather your three to thirteen, by name, at the pace of trust. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Cell.
 
 ## G
 
 **the Goal** — The one aim that holds every other: ØNE, Creator's Intent, Heaven, here, now, everywhere, for everyone, forever. *Also:* Goal, the aim. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* The Goal.
 
-**the gratitude close** — The short paragraph at the foot of a work thanking the traditions, houses and works it grew from, in place of an authorship line. *Also:* With gratitude, gratitude close. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Gratitude.
+**the gratitude close** — The short paragraph at the foot of a work thanking the traditions, houses and works it grew from, in place of an authorship line. *Also:* With gratitude, gratitude close. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Gratitude.
 
-**The Great Game** — The Great Game of LIØNSBERG: a way of living played in real life by everyone who chooses. Small groups meet weekly, choose one real act of good work each season, tell what happened, and invite the next people. *Also:* The Great Game of LIØNSBERG, the Game, the Great Game. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
+**The Great Game** — The Great Game of LIØNSBERG: a way of living played in real life by everyone who chooses. Small groups meet weekly, choose one real act of good work each season, tell what happened, and invite the next people. *Also:* The Great Game of LIØNSBERG, the Game, the Great Game. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
 
 ## H
 
 **heads-up** — One private page your agent keeps for you during a session: who is here, what waits on you, and what has happened, with the time. *Also:* heads-ups, the heads-up. *Met first in:* [The Heads-up and the Play by Play](07%20The%20Heads-up%20and%20the%20Play%20by%20Play.md).
 
-**Heaven** — Life as it would be if it went as well as it possibly could, for everyone and for what comes after. In the Game it is a direction to move in, here and now. *Also:* Heaven on Earth. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Heaven.
+**Heaven** — Life as it would be if it went as well as it possibly could, for everyone and for what comes after. In the Game it is a direction to move in, here and now. *Also:* Heaven on Earth. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Heaven.
 
 **home** — The wider body a Circle sends its news to: the nearest group beyond the table, which reads what is sent, keeps a copy, and helps when help is asked for. *Also:* your home, home ring. *Met first in:* [The Weekly Turn](15%20The%20Weekly%20Turn.md).
 
@@ -136,7 +136,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **hosted service** — An assistant that runs on some company's computers rather than your own, so that whatever it reads reaches that company. *Also:* hosted, hosted assistant. *Met first in:* [Before Your First Room](04%20Before%20Your%20First%20Room.md).
 
-**house** — A group of people who play and learn together and pass on what they learn. *Also:* houses, your house. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**house** — A group of people who play and learn together and pass on what they learn. *Also:* houses, your house. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **hypothesize** — To say in advance what you expect a change to do, so that afterwards you can tell whether it did it. *Also:* hypothesis. *Met first in:* [Agent Engineering](09%20Agent%20Engineering.md). *More:* Hypothesize.
 
@@ -150,11 +150,11 @@ library-status: current best understanding, not yet reviewed line by line
 
 **instantiation** — The real one, in one real place, with one real person: your agent, with you, on your own ordinary days. *Also:* instantiations. *Met first in:* [Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md). *More:* Instantiation.
 
-**the invitation** — The word from a person that brings someone into the Game. It travels hand to hand. *Also:* invitation, The Invitation, invited. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Invitation.
+**the invitation** — The word from a person that brings someone into the Game. It travels hand to hand. *Also:* invitation, The Invitation, invited. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Invitation.
 
 ## J
 
-**jam** — A working session where people, and any agents they bring, work on something together for a set time. *Also:* jams, a jam. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**jam** — A working session where people, and any agents they bring, work on something together for a set time. *Also:* jams, a jam. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **journey** — The path a person walks through the lessons, in the order their own play asks for, rather than front to back. The deck is a journey and not a pile. *Also:* the journey, the Shared Journey. *More:* The Arc of Play.
 
@@ -174,9 +174,9 @@ library-status: current best understanding, not yet reviewed line by line
 
 **language model** — The trained machine at the center of an assistant. It predicts what text comes next, and it keeps nothing about you between conversations. *Also:* model, the model, models. *Met first in:* [How an AI Agent Works](02%20How%20an%20AI%20Agent%20Works.md).
 
-**Learn and Grow** — The third of the Five Moves: do the work, week by week. Say what you will do, do what you said, learn from the difference. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Game on One Page.
+**Learn and Grow** — The third of the Five Moves: do the work, week by week. Say what you will do, do what you said, learn from the difference. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Game on One Page.
 
-**lesson** — One thing worth learning, small enough to do in about ten minutes, taught so that someone can correct you while you learn it. The lesson is the thing itself. It can be published in several ways, and a skill is only one of them. *Also:* lessons, a lesson. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**lesson** — One thing worth learning, small enough to do in about ten minutes, taught so that someone can correct you while you learn it. The lesson is the thing itself. It can be published in several ways, and a skill is only one of them. *Also:* lessons, a lesson. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **license** — The short public permission that travels with a work, saying what anyone else may do with it. *Also:* licenses, licensed, licensing, openly licensed. *Met first in:* [Entering the Field](03%20Entering%20the%20Field.md).
 
@@ -186,7 +186,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **live log** — The running list inside a heads-up: one line for each thing that happened, with the time. *Met first in:* [The Heads-up and the Play by Play](07%20The%20Heads-up%20and%20the%20Play%20by%20Play.md).
 
-**LIØNSBERG** — The name of the body of people, practice and writing these lessons come from. Say it "LIONS-berg"; the slashed Ø is only how the name is written. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
+**LIØNSBERG** — The name of the body of people, practice and writing these lessons come from. Say it "LIONS-berg"; the slashed Ø is only how the name is written. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
 
 **look-back** — A short, honest review of how the week with your agent went, written by anyone except the agent being looked at. *Also:* look-backs. *Met first in:* [The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md). *More:* Retrospectives.
 
@@ -200,7 +200,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **MIT** — A very short, very permissive software license: use the code for anything, keep its notice with it, and nothing further is asked. *Met first in:* [Entering the Field](03%20Entering%20the%20Field.md).
 
-**module** — A set of lessons composed together, on one shelf: the lessons that serve one part of the play. A module is made of lessons and is always larger than one. *Also:* modules, a module, Player+ Modules. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**module** — A set of lessons composed together, on one shelf: the lessons that serve one part of the play. A module is made of lessons and is always larger than one. *Also:* modules, a module, Player+ Modules. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **morning page** — The short page your agent prepares to aim a day: what is due today, what waits on you, and what you committed to this week. Nothing longer. *Also:* morning pages. *Met first in:* [Daily Life](16%20Daily%20Life.md).
 
@@ -210,7 +210,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **narrow** — To drop back to the most careful line on a venue card: read and draft only, bring nothing but public knowledge, post nothing until you say so, and say why it narrowed. Narrowing is quick, and your agent does it on its own. *Also:* narrows, narrowing, narrowed. *Met first in:* [Venue Cards](05%20Venue%20Cards.md).
 
-**notebook form** — The way of doing a practice with no agent at all, given on every lesson. A person with a notebook is a complete player. *Also:* with a notebook, the notebook line. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**notebook form** — The way of doing a practice with no agent at all, given on every lesson. A person with a notebook is a complete player. *Also:* with a notebook, the notebook line. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 ## O
 
@@ -222,13 +222,13 @@ library-status: current best understanding, not yet reviewed line by line
 
 **the open web** — Pages that anyone at all can read or write, where nobody was asked who they are. Your agent weighs what it reads there accordingly. *Met first in:* [Venue Cards](05%20Venue%20Cards.md).
 
-**ØSphera** — The house that stewards these lessons: it keeps them in good order, receives corrections, and holds them open to everyone. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**ØSphera** — The house that stewards these lessons: it keeps them in good order, receives corrections, and holds them open to everyone. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 ## P
 
-**Pass the Flame** — The fifth of the Five Moves: share the invitation with your three — people not already playing, whom you know are ready — within three days, so that new groups begin. It is not optional. *Also:* Pass The Flame, passing the flame. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Pass The Flame.
+**Pass the Flame** — The fifth of the Five Moves: share the invitation with your three — people not already playing, whom you know are ready — within three days, so that new groups begin. It is not optional. *Also:* Pass The Flame, passing the flame. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Pass The Flame.
 
-**PKAI** — The group whose people build personal AI assistants that live in ordinary files their owner keeps, and who host the Dyad Jams. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**PKAI** — The group whose people build personal AI assistants that live in ordinary files their owner keeps, and who host the Dyad Jams. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **Play** — A short card in the Game's own book, describing one thing a group does together, open to correction by whoever plays it better. *Also:* Plays, a Play. *Met first in:* [How a Module Lives](12%20How%20a%20Module%20Lives.md). *More:* The LIØNSBERG Playbook.
 
@@ -240,11 +240,11 @@ library-status: current best understanding, not yet reviewed line by line
 
 **player** — A person who has chosen to play the Game. Your agent is not a player. It is part of your Player+ and answers to you. *Also:* players, a player. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md).
 
-**Player+** — You, together with any agents that act for you. The plus adds reach, and every decision stays with you. *Also:* Player+s, a Player+. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**Player+** — You, together with any agents that act for you. The plus adds reach, and every decision stays with you. *Also:* Player+s, a Player+. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **the Pledge** — The first commitment of the Game: the time, energy, attention and contribution you will give for the season ahead. It belongs to the Initiation, and no lesson here asks it of you. *Also:* Pledge, pledged. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* The Pledge.
 
-**Principal** — The person an agent works for and answers to. To your own agent, you are its Principal. *Also:* your Principal, Principals. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**Principal** — The person an agent works for and answers to. To your own agent, you are its Principal. *Also:* your Principal, Principals. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **the program** — The ordinary software you type into, the app or the website. It hands the model the conversation, performs whatever the model proposes, and brings back the result. *Also:* the software, the program around it. *Met first in:* [How an AI Agent Works](02%20How%20an%20AI%20Agent%20Works.md).
 
@@ -254,7 +254,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 ## Q
 
-**Quest** — One real, reachable act of good work a group takes on together for a season, and can point to afterward. *Also:* Quests, a Quest, questing. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Quest.
+**Quest** — One real, reachable act of good work a group takes on together for a season, and can point to afterward. *Also:* Quests, a Quest, questing. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Quest.
 
 **Questcard** — One card for one Quest: the Quest in a sentence, why it matters, when it is done, your part of the bigger plan, and who will do what by when. It is rewritten each week. *Also:* Quest card, Questcards. *Met first in:* [The Weekly Turn](15%20The%20Weekly%20Turn.md). *More:* The Questcard.
 
@@ -272,7 +272,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **room** — Any shared space where a session happens: a call, a video meeting, a group chat, a shared page, a table in a kitchen. *Also:* rooms, the room. *Met first in:* [Entering the Field](03%20Entering%20the%20Field.md).
 
-**rulebook** — The Great Game's own basic text, meant to be read aloud, together, in one sitting. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
+**rulebook** — The Great Game's own basic text, meant to be read aloud, together, in one sitting. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Great Game of LIØNSBERG.
 
 ## S
 
@@ -286,7 +286,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **Season Sheet** — The one page a Circle sends to its home at each turning: members, Quests and how they stand, commitments made and kept, flames passed, the season's story, offers and requests. *Also:* the Season Sheet, Season Sheets. *Met first in:* [The Weekly Turn](15%20The%20Weekly%20Turn.md). *More:* The Season Sheet.
 
-**season** — The ninety or so days between one solstice or equinox and the next. One round of the Game. *Also:* seasons, the season, seasonal. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* The Seasonal Cycle.
+**season** — The ninety or so days between one solstice or equinox and the next. One round of the Game. *Also:* seasons, the season, seasonal. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* The Seasonal Cycle.
 
 **second reader** — Someone who did not write a page and reads it whole. The writer sees what they meant; the second reader sees what the page says. *Also:* second readers. *Met first in:* [How a Module Lives](12%20How%20a%20Module%20Lives.md).
 
@@ -294,7 +294,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **set-up** — Everything around the model that decides how your agent behaves: its instructions, its memory, its tools and its checks. A blocked agent is a set-up problem. *Also:* set up, setup. *Met first in:* [Agent Engineering](09%20Agent%20Engineering.md).
 
-**Share Your Stories** — The fourth of the Five Moves: tell plainly and honestly what your group actually did, so that others can see it and join. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md). *More:* Share Your Stories.
+**Share Your Stories** — The fourth of the Five Moves: tell plainly and honestly what your group actually did, so that others can see it and join. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md). *More:* Share Your Stories.
 
 **share-alike** — The condition that whatever you build on freely given work is itself given as freely, under the same license. *Also:* SA, shared alike. *Met first in:* [Gratitude, Lineage and Licensing](13%20Gratitude%2C%20Lineage%20and%20Licensing.md).
 
@@ -306,7 +306,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 **signed key** — A long secret code that proves someone is who they say they are, the way a house key proves you live there. It is the strongest thing a door can check. *Also:* signed keys. *Met first in:* [Before Your First Room](04%20Before%20Your%20First%20Room.md).
 
-**the six lines** — The six short terms every person in a Game room has said yes to, covering records, licensing, lineage, naming, declaring, and what may be left out. *Also:* six lines. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
+**the six lines** — The six short terms every person in a Game room has said yes to, covering records, licensing, lineage, naming, declaring, and what may be left out. *Also:* six lines. *Met first in:* [Start Here](Player%2B%20Modules%20-%20Start%20Here.md).
 
 **skill** — A folder of instructions in a published standard's shape, which an agent loads when it needs it. The word names that object and nothing else: **if you mean what someone is good at, the word is capability**, and if you mean their proven ability to do it when it counts, the word is capacity. A skill is **one way of publishing a lesson**, and a poor one, because it is fixed and cannot answer back: useful and standard, the way a book on throwing someone is useful, and not the same as a teacher who moves your arm. Never use this word for the lesson itself. *Also:* skills, agent skill. *Met first in:* The Deck.
 
@@ -375,4 +375,4 @@ To the LIØNSBERG canon, whose pages hold most of these words whole, and from wh
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-[Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md)
+[Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md)

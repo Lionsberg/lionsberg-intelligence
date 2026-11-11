@@ -101,4 +101,4 @@ To the [LIØNSBERG](Lexicon.md) canon, for the [Playbook](Lexicon.md)'s continuo
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Gratitude, Lineage and Licensing](13%20Gratitude%2C%20Lineage%20and%20Licensing.md) →
+← [The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Gratitude, Lineage and Licensing](13%20Gratitude%2C%20Lineage%20and%20Licensing.md) →

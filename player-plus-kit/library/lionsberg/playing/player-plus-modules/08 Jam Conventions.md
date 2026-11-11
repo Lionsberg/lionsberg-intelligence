@@ -78,4 +78,4 @@ Thanks to the [houses](Lexicon.md) that played the first jams, people and agents
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [The Heads-up and the Play by Play](07%20The%20Heads-up%20and%20the%20Play%20by%20Play.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Read the Story](18%20Read%20the%20Story.md) →
+← [The Heads-up and the Play by Play](07%20The%20Heads-up%20and%20the%20Play%20by%20Play.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Read the Story](18%20Read%20the%20Story.md) →

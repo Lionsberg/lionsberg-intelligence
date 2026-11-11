@@ -76,7 +76,7 @@ All of us helping all of us, and all things, rise to the fullness of our potenti
 
 ## When you need guidance
 
-Every question climbs one ladder, a rung at a time ([[Asking for Guidance — the Ladder and the Request For Guidance]]):
+Every question climbs one ladder, a rung at a time ([[Asking for Guidance - the Ladder and the Request For Guidance]]):
 
 1. **Your own agent first.** Most questions end there.
 2. **The Cells you are part of.**

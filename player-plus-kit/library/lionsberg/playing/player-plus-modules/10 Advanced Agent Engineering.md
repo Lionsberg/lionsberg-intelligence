@@ -141,4 +141,4 @@ To the LIØNSBERG canon, for the Creative Cascade and for the archetype held as 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Agent Engineering](09%20Agent%20Engineering.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [An Agent That Attends to You](11%20An%20Agent%20That%20Attends%20to%20You.md) →
+← [Agent Engineering](09%20Agent%20Engineering.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [An Agent That Attends to You](11%20An%20Agent%20That%20Attends%20to%20You.md) →

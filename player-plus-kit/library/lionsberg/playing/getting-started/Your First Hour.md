@@ -8,7 +8,7 @@ library-status: current best understanding, not yet reviewed line by line
 
 ## Where you are
 
-You have walked [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md). Your house is built, and your agent has greeted you by name. The app itself (the Code tab, your agent's environment, the permission prompts, your phone) is in [First Day in Desktop](../../../pkai/getting-started/First%20Day%20in%20Desktop.md). This page is about the Game.
+You have walked [Becoming a Player+](Becoming%20a%20Player%2B%20-%20the%20Quest.md). Your house is built, and your agent has greeted you by name. The app itself (the Code tab, your agent's environment, the permission prompts, your phone) is in [First Day in Desktop](../../../pkai/getting-started/First%20Day%20in%20Desktop.md). This page is about the Game.
 
 You speak in your own words. Your agent hears which kind of Card a sentence makes, reads it back to you in one line, and writes it when you say yes. That read-back is your moment to change it or say no. The sentences below are examples, not a script.
 
@@ -76,6 +76,6 @@ A game engine, a board and a daily Deal come in a later release. This house play
 2. **You have heard The Story** from the reviewed shelf, and read the Field of Agreements once.
 3. **You have corrected your agent once,** or know how to, and you know where the fix was written.
 
-The next stretch is in [Player+ Modules — Start Here](../player-plus-modules/Player%2B%20Modules%20%E2%80%94%20Start%20Here.md): ten-minute lessons, one practice at a time.
+The next stretch is in [Player+ Modules — Start Here](../player-plus-modules/Player%2B%20Modules%20-%20Start%20Here.md): ten-minute lessons, one practice at a time.
 
 *Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

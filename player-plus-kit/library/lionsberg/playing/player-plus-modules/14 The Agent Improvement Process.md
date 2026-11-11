@@ -109,4 +109,4 @@ To the LIØNSBERG canon, where the standard of success is improvement rather tha
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [An Agent That Attends to You](11%20An%20Agent%20That%20Attends%20to%20You.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [How a Module Lives](12%20How%20a%20Module%20Lives.md) →
+← [An Agent That Attends to You](11%20An%20Agent%20That%20Attends%20to%20You.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [How a Module Lives](12%20How%20a%20Module%20Lives.md) →

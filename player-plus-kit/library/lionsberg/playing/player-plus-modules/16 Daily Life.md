@@ -84,4 +84,4 @@ To [the LIØNSBERG canon](Lexicon.md), whose Daily Way, Daily Practice, Tending 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [The Weekly Turn](15%20The%20Weekly%20Turn.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md) · [Agent Engineering](09%20Agent%20Engineering.md) →
+← [The Weekly Turn](15%20The%20Weekly%20Turn.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Agent Engineering](09%20Agent%20Engineering.md) →

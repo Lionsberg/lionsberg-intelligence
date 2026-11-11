@@ -12,13 +12,13 @@ Your part is to make that easy and then to step back. The choosing, the telling 
 
 ## When
 
-When your person is ready and has something of their own to show: what their Cell did, and what it meant. *Come and see* works when there is something to see. They choose when, as they choose who. If no one comes to mind yet, that is today's answer, not a closed door. If your person made a Pledge at the Roll that names how many and by when (`the-roll`), help them keep what they said.
+Early. Your person does not need to feel ready, or to have a Cell to show: they carry the Story, the Game and the Flame, and their own yes. Where their Cell has done something, *come and see* has something to show. They choose when, as they choose who. If no one comes to mind yet, that is today's answer, not a closed door. If your person made a Pledge at the Roll that names how many and by when (`the-roll`), help them keep what they said.
 
 ## Steps
 
 1. **Ask the question, and hold the silence.** *Who are the two or three friends you believe are ready?* They are not people to convince. Your person answers; you wait.
 2. **Write the names only if they ask, exactly as said,** in a note of their own choosing. Nothing else goes in that note, and it goes nowhere else.
-3. **Prepare what they carry.** The Story, the Game and the Flame from `<HQ>/library/lionsberg/reviewed/` (`04 The Story`, `05 The Game`, `06 The Flame`), whole: not a summary and not a pitch. On paper if there is paper, checked complete: a page handed over whole can be read again later, and a summary cannot regrow the rest.
+3. **Prepare what they carry.** The Story, the Game and the Flame from `<HQ>/library/lionsberg/reviewed/` (`04 The Story`, `05 The Game`, `06 The Flame`), whole, on paper if there is paper, checked complete, so that the friend can read them again later.
 4. **Remind them what they carry that you cannot.** Their own story: what their Cell did and what it meant, in their words. If they want help remembering, bring their Turns as material; the telling stays theirs.
 5. **They sit with their friends and tell them plainly.** In person; one conversation, not a campaign. Each friend is heard, seen and invited. You are not in that conversation unless your person asks you to be.
 6. **Either answer is a good answer.** The friend who does not take it up today is not chased, re-asked or counted as a failure.
@@ -26,7 +26,7 @@ When your person is ready and has something of their own to show: what their Cel
 8. **Walk beside whoever takes it up.** Your person helps that friend form a Cell of their own, and walks beside them until that Cell is passing the Flame on in its turn. The six lines of `the-simplest-game` play on paper with no agent and make a good first evening.
 9. **If the friend wants an agent of their own, the way in goes by your person's hand.** The way in is the Player+ kit's `START-HERE` page; the kit's address is in your house's `LINEAGE.md`. At your person's word, draft one short message in their voice with that address and show them the words. They change what they like and send it themselves, to an address they already have.
 10. **At the turning,** line 7 of the Season Sheet holds the flames passed and the Cells formed from them, filled by hand at the table (`the-season-sheet-by-hand`); no friend's name goes on it.
-11. **Let go.** The new Cell is its own: sovereign, self-governing and free. It owes nothing upward. Your person's Cell is simply where the new one can ask. If its people take on agents, each agent takes its charter from its own person.
+11. **Stay linked.** The new Cell is its own: sovereign, self-governing and free. Your person's Cell is the link it was lit from, there when it asks. If its people take on agents, each agent takes its charter from its own person.
 
 ## What this skill never does
 
@@ -53,4 +53,4 @@ Completely. It needs the three pages, a pencil and an afternoon.
 4. **Ask once.** Either answer is good.
 5. **Walk beside** whoever takes it up, on the six lines of the simplest game, until their Cell is passing the Flame on.
 6. **Count** on line 7 at the turning: flames passed, Cells formed.
-7. **Let go.** Their Cell is their own, and there is nothing to approve.
+7. **Stay linked.** Their Cell is their own, and there is nothing to approve. You are the link it was lit from.

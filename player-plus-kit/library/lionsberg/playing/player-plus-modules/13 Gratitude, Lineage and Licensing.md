@@ -60,4 +60,4 @@ To the LIØNSBERG canon, for a [Commons](Lexicon.md) that cannot be enclosed, fo
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [How a Module Lives](12%20How%20a%20Module%20Lives.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md)
+← [How a Module Lives](12%20How%20a%20Module%20Lives.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md)

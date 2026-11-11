@@ -38,7 +38,7 @@ Your computer is backed up, and your passwords live in a password manager, out o
 
 ## After the last Gate
 
-[Your First Hour](Your%20First%20Hour.md) is the next page: what to say to your agent to begin playing. Then [the Player+ Modules](../player-plus-modules/Player%2B%20Modules%20%E2%80%94%20Start%20Here.md), one ten-minute lesson at a time.
+[Your First Hour](Your%20First%20Hour.md) is the next page: what to say to your agent to begin playing. Then [the Player+ Modules](../player-plus-modules/Player%2B%20Modules%20-%20Start%20Here.md), one ten-minute lesson at a time.
 
 ## For an agent
 
