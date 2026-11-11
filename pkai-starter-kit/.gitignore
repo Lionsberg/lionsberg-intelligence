@@ -1,0 +1,37 @@
+# Obsidian, if you use it
+.obsidian/
+.trash/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.DocumentRevisions-V100
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+.nfs*
+
+# Editors
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# The desk lease (scripts/desk): live session state, never history
+.desk/

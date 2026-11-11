@@ -1,0 +1,40 @@
+---
+name: check-my-setup
+description: Checks the person's computer for agent work and reports what's ready and what isn't — the Claude Desktop app is reasonably current, sessions are in the Code tab, the agent's environment is on its agent home and holds only that folder, the HQ is reachable, Remote Control is where they want it, the desk is sane, git is present (and finishes git's setup if it was still installing), a review surface for markdown exists, neither folder is cloud-synced, backups and a password manager are in place — with the smallest fix for each gap. Use when the person says "check my setup", "is everything set up right", "something's off", "why can't I see that file", after a new machine, an OS upgrade or an app update, when a memory says git is still installing, or when the agent notices a symptom (a folder the file pane doesn't show, git refusing a commit, a folder inside OneDrive or iCloud).
+license: MPL-2.0
+---
+
+# Check my setup
+
+A house runs on a few boring things being right: the app you talk to your agent in, the right folders open to it, git that works, a place to read markdown, folders that aren't being synced out from under you, a backup. When one is wrong the symptoms show up somewhere else and look like something else. This skill checks them in order and reports plainly — a sentence or two each, not a systems report — with the smallest fix for each.
+
+## The checks
+
+1. **The Desktop app.** Ask which version of the Claude Desktop app they're on, or whether it has offered an update. On a Mac, the **Claude** menu → **About Claude** shows the version and **Claude → Check for Updates** checks for a newer one. Reasonably current is enough; if an update is waiting, say how to take it, and don't push it on them mid-task.
+<!-- VERIFY(cold-start): the Windows equivalent of About / Check for Updates -->
+2. **The Code tab.** Your sessions live in the app's Code tab. Chat is a different thing: outside Code they're talking to a chatbot, not to you. If they've been bringing house work to Chat, say so once, kindly. A Claude app *Project* is a different thing from a project folder in their HQ, too.
+3. **Your environment.** Check where you're running: your working folder should be your agent home, `<AgentName> (agent)`. One environment per agent, on its agent home; keep it selected, and don't make extras. If you're running somewhere else — the HQ, a project folder, a folder you don't recognize — you started without your home around you; say so, and help them start a new session in your own environment.
+4. **The HQ is reachable.** You work in the HQ as well as your home. Your environment holds only your home, so it's always clear which instructions you read; don't add the HQ to it. The app asks the person's permission the first time you work in the HQ, and yes is the answer. If they can't see a file you've named, the file pane only shows your home: use "Show in Finder" (on Windows, open the file's folder in File Explorer).
+5. **Remote Control.** Ask whether they use it, and whether this session has it on. Remote Control is the Desktop app's: the same session, continued from a phone or the web. Quitting the app turns it off. There's a setting to start every session with it on; for a mostly-phone person, it should be on.
+<!-- VERIFY(cold-start): the name and place of the Remote Control toggle, and of the setting that turns it on for every session -->
+6. **The desk.** `sh scripts/desk status` (or `scripts\desk.ps1 status` in PowerShell) runs and names this session or none. If the hooks aren't firing, check `.claude/settings.json` has the four desk hooks; on Windows without Git Bash, the PowerShell variant has to be the one installed. If you're a guest, the `foreground-background` skill says what that means.
+7. **Git.** On a Mac, `xcode-select -p` first (on a Mac without Apple's developer tools, `git --version` can itself pop up the install dialog); then `git --version`. On Windows, `git --version`.
+   - **Present, and a memory says "git: installing":** the install finished, so finish the setup now. First `git config --global user.name` and `user.email`; if either is unset, ask for the name they'd like on their history and an email, and set both. Tell them it stays on this computer; a placeholder name and an email at example.com or example.org are fine. Then, in the agent home and in the HQ, each in turn: if the folder has no `.git` yet, copy the kit's `.gitignore` (`<HQ>/pkai-starter-kit/.gitignore`) to the folder's root, `git init -b main`, add everything, and make one first commit. Then update the memory to say git is set up, and tell the person in one sentence: "Version history is on in both folders now, so nothing we do together can be lost."
+   - **Present, no memory about it:** check the identity as above. Git will refuse the first commit with "please tell me who you are" until it's set.
+   - **Missing, and the memory says it's installing:** say it's still on its way, and carry on without it. On a Mac, if Apple's install dialog was closed before it finished, offer to start it again (`xcode-select --install`); the person clicks Install. It can take minutes, or an hour or more.
+   - **Missing, no memory:** offer to start the install — on a Mac `xcode-select --install`, on Windows `winget install --id Git.Git -e --accept-source-agreements --accept-package-agreements` — then record "git: installing" with `save-a-memory` (a `project` memory) and carry on. On Windows, Git for Windows also brings Git Bash, which the house's hooks use; a freshly installed git usually isn't visible to this session until the app restarts, and that's expected.
+<!-- VERIFY(cold-start): whether xcode-select --install can be started from a Code-tab session, and whether winget is present on a fresh Windows 11 -->
+8. **Cloud sync.** Resolve the agent home's and the HQ's real paths. The HQ usually lives in Documents, which is fine as long as Documents isn't synced. If either folder is inside OneDrive, Dropbox, Google Drive, or iCloud (on Mac, `Library/Mobile Documents` or `com~apple~CloudDocs` in the path, or Documents while iCloud's "Desktop & Documents" is on; on Windows, `OneDrive` — including OneDrive's Documents backup, which can be turned on after setup), say so: git and sync engines contend and both lose. Both folders stay out of synced places. The fix is to move the folder to the top of the home folder — the person moves it, with you coaching. If it was your own home that moved, help them point your environment at the new place. Check this whenever you run, not just after setup: sync is often switched on later, by an OS update or a new-device prompt.
+9. **A review surface.** Ask what they use to read and edit markdown. None: recommend Typora (about $15 after a 15-day free trial; the price varies by country), with TextEdit or Notepad as the free fallback (see the kit's REQUIREMENTS; Obsidian or VS Code are fine if already in use). The conversation isn't meant to be their reading room.
+10. **Backups.** Ask, don't assume: is the computer backed up, automatically, and have they ever restored a file from it? An untested backup is a hope. Local plus off-machine is the standard.
+11. **Secrets.** Ask: do passwords and keys live in a password manager, and none in the folders you work in? If any are in the house, help move them out now; don't read them aloud.
+
+## The report
+
+One short block: ✓ for each thing that's right, and for each gap the one-line fix and who does it (you, or them by hand). Then stop. Apply fixes one at a time, with a yes each, and re-check the one you fixed. Finishing git's setup once git has arrived is the exception: it's yours to do without asking, because setup already planned it. Record anything durable — the review surface they chose, Remote Control on for every session, git installing or set up — with `save-a-memory`.
+
+## What this skill never does
+
+- Change settings files, move folders, or start an install without a yes.
+- Read or display a secret it finds.
+- Turn off a safety layer, or suggest it, to make a check pass.
