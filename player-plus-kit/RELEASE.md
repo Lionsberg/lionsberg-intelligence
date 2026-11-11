@@ -19,7 +19,7 @@ The host hands the model each skill's name and description within a limit of abo
 
 ## Three rules the parts keep
 
-1. **The starter kit is carried, not changed.** No line of `pkai-starter-kit/` differs from what its keeper ships, and a test holds that. In a house, the only lines Player+ adds to the charter sit between its two markers.
+1. **The starter kit is carried, not changed.** No line of `pkai-starter-kit/` differs from what its keeper ships, and a test holds that. A build moves that kit's library into the house, as its own page says, and changes nothing else in it. In a house, the only lines Player+ adds to the charter sit between its two markers.
 2. **What is read may refresh by itself; what tells an agent how to act changes only when its person says yes.** The bookshelf is reading. The block, the guide and the skills change by proposal.
 3. **Each part follows its own source.** The agent follows the PKAI benchmark; the Player+ layer follows this kit. Where a house does a thing its own way and better, that is a finding to send back, not a fault.
 
