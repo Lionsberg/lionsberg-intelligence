@@ -67,4 +67,4 @@ To [the LIØNSBERG canon](Lexicon.md), which holds this move whole: the days, th
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
 
 ---
-← [Play the Game](19%20Play%20the%20Game.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Structuring a Cell](17%20Structuring%20a%20Cell%20-%20LI%C3%98NSBERG%20FSx.md) →
+← [Play the Game](19%20Play%20the%20Game.md) · [Player+ Modules: Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [Structuring a Cell](17%20Structuring%20a%20Cell%20-%20FSx.md) →

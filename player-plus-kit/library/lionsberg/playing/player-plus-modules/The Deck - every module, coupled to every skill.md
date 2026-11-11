@@ -40,7 +40,7 @@ The six rungs are the ladder of The Words in the Order You Meet Them: the door �
 
 - **[07 The Heads-up and the Play by Play](07%20The%20Heads-up%20and%20the%20Play%20by%20Play.md)** · Your private page, kept by your agent during a live session, and the room's shared running record when the room asks your house to keep it. *Handed:* the first busy session where you cannot watch the page and the people at once. *Served by:* `heads-up`, `play-by-play`, `fair-copy-a-transcript`.
 - **[14 The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md)** · A small standing rhythm: a blameless [log](Lexicon.md), a weekly look-back written by someone other than the agent, and what is passed upward because it would serve any house. *Handed:* after the first month of real use. *Served by:* `review-and-prune`, `the-retrospective`, `pull-a-release`, `pull-from-benchmark`, `refresh-the-library`, `test-a-charter-edit`, `make-a-skill`.
-- **[17 Structuring a Cell - LIØNSBERG FSx](17%20Structuring%20a%20Cell%20-%20LI%C3%98NSBERG%20FSx.md)** · Know what your Cell already is without any paperwork, and what to put on paper only when the work asks for it. *Handed:* when your Cell's work first asks for something a handshake cannot hold.
+- **[17 Structuring a Cell - LIØNSBERG FSx](17%20Structuring%20a%20Cell%20-%20FSx.md)** · Know what your Cell already is without any paperwork, and what to put on paper only when the work asks for it. *Handed:* when your Cell's work first asks for something a handshake cannot hold.
 
 ### Rung 5 — the Room
 

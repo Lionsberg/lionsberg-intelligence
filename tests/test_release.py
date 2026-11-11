@@ -434,10 +434,10 @@ class TheDownload(unittest.TestCase):
     """The two folders as one zip: it unzips with the tools a new computer has, and no path is long enough to break Windows."""
 
     def test_no_name_breaks_an_unzip(self):
-        # The unzip on a Mac stops at a file whose name holds a dash that is not a hyphen (seen with an em dash).
+        # The unzip on a Mac can stop at a file whose name holds a character outside plain ASCII (seen with an em dash and with Ø).
         for k in ('pkai-starter-kit', 'player-plus-kit'):
             for f in files(os.path.join(TOP, k)):
-                odd = [c for c in f if ord(c) > 126 and c not in 'Ø']
+                odd = [c for c in f if ord(c) > 126]
                 self.assertEqual(odd, [], '%s/%s' % (k, f))
 
     @unittest.skipUnless(shutil.which('git') and shutil.which('unzip') and os.path.exists(os.path.join(TOP, '.git')), 'needs git and unzip')
@@ -449,9 +449,10 @@ class TheDownload(unittest.TestCase):
         try:
             z = os.path.join(tmp, 'player-plus-kit.zip')
             subprocess.run(['git', '-C', TOP, 'archive', '--format=zip', '-o', z, 'HEAD', 'pkai-starter-kit', 'player-plus-kit'], check=True)
-            r = subprocess.run(['unzip', '-q', z], cwd=tmp, capture_output=True, text=True, input='n\n')
-            self.assertEqual(r.returncode, 0, r.stderr[:300])
-            self.assertNotIn('error', (r.stdout + r.stderr).lower())
+            r = subprocess.run(['unzip', '-q', z], cwd=tmp, capture_output=True, input=b'n\n')
+            said = (r.stdout + r.stderr).decode('utf-8', 'replace')
+            self.assertEqual(r.returncode, 0, said[:300])
+            self.assertNotIn('error', said.lower())
             import unicodedata
             got = sorted(unicodedata.normalize('NFC', f) for f in files(tmp) if f != 'player-plus-kit.zip')
             want = sorted(unicodedata.normalize('NFC', os.path.join(k, f)) for k in ('pkai-starter-kit', 'player-plus-kit') for f in files(os.path.join(TOP, k)))
