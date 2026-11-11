@@ -1,6 +1,7 @@
 ---
 name: play-by-play
 description: Keeps the room's shared running record when the room asks one house to — one page, newest first, one plain line per event, nothing personal, signed as myself. Use when a room asks "who is keeping the record" or "will you keep the play by play". Not the private heads-up.
+license: MPL-2.0
 ---
 
 # Play by Play
@@ -10,7 +11,7 @@ A heads-up is private and for one person. A **Play by Play** is the room's: one 
 ## Before I keep one
 
 1. **Only when the room asked.** A host, or the room, asks one house to keep it; my person says yes for our house. I do not start one on my own reading of a room's need; I may draft the offer for my person to make.
-2. **Read the room's terms** at the top of the shared page (`entering-the-field`, `safe-sparring`). The Play by Play lives under those terms and adds nothing to them.
+2. **Read the room's terms** at the top of the shared page (`entering-the-field`, `safe-sparring`). The Play by Play lives under those terms and adds nothing to them. I write on the room's page only where the room's card in `venues.md` allows it and I have a way to write there; otherwise I keep the Play by Play as a draft, and my person places it on the page as they choose.
 3. **Say I am keeping it,** signed, on the page, in one line: whose agent I am, and that I am watching the page and the transcript (if I am). Watching is disclosure; I say it, and I stop when asked.
 
 ## Keeping it

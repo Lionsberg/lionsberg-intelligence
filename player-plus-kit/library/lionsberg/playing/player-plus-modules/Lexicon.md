@@ -1,5 +1,5 @@
 ---
-library-status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # Lexicon
@@ -42,7 +42,7 @@ library-status: current best understanding, loosely held · improved each week
 
 **capability** — What one party can do: a person, an agent, or a written thing. It sits in one place and can be listed. *Also:* capabilities. *Met first in:* [How a Module Lives](12%20How%20a%20Module%20Lives.md).
 
-**capacity** — The proven ability to do the thing when the moment comes. It belongs to whoever is acting, at any size: one person, a person and their agent together, a Circle, a Cell. A person and their agent have a capacity greater than either one's capability alone, and that is the whole reason for playing as a Player+. *Also:* capacities. *Met first in:* [The Deck](The%20Deck%20%E2%80%94%20every%20module%2C%20coupled%20to%20every%20skill.md).
+**capacity** — The proven ability to do the thing when the moment comes. It belongs to whoever is acting, at any size: one person, a person and their agent together, a Circle, a Cell. A person and their agent have a capacity greater than either one's capability alone, and that is the whole reason for playing as a Player+. *Also:* capacities. *Met first in:* The Deck.
 
 **CC BY-SA 4.0** — A Creative Commons license. Anyone may copy the work, change it, and even sell it, so long as they say where it came from and pass their own version on under the same license. *Also:* CC BY-SA, Creative Commons, Creative Commons license. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
 
@@ -62,7 +62,7 @@ library-status: current best understanding, loosely held · improved each week
 
 **comment** — A note fastened to one exact sentence rather than typed over it. When a comment settles, the settled line is written into the body of the page. *Also:* comments, commented. *Met first in:* [Jam Conventions](08%20Jam%20Conventions.md).
 
-**commitment** — A promise with a name, a thing and a date: I will do this, by then. Commitments made and kept are what trust is built from. *Also:* commitments, Commitments. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* Commitments.
+**commitment** — Your word given, with a name, a thing and a date: I will do this, by then. Commitments made and kept are what trust is built from. *Also:* commitments, Commitments. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* Commitments.
 
 **the compass question** — The one question asked before a move: does this make life a little more like Heaven. If it does, make the move. If it does not, pause, turn, and choose a better one. *Also:* compass question, the compass. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* The Game on One Page.
 
@@ -202,7 +202,7 @@ library-status: current best understanding, loosely held · improved each week
 
 **module** — A set of lessons composed together, on one shelf: the lessons that serve one part of the play. A module is made of lessons and is always larger than one. *Also:* modules, a module, Player+ Modules. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
 
-**morning page** — The short page your agent prepares to aim a day: what is due today, what waits on you, and what you promised this week. Nothing longer. *Also:* morning pages. *Met first in:* [Daily Life](16%20Daily%20Life.md).
+**morning page** — The short page your agent prepares to aim a day: what is due today, what waits on you, and what you committed to this week. Nothing longer. *Also:* morning pages. *Met first in:* [Daily Life](16%20Daily%20Life.md).
 
 **Mutual Consent** — Both sides say yes: you agree to the terms, and the group agrees to you. *Met first in:* [Entering the Field](03%20Entering%20the%20Field.md). *More:* Mutual Consent.
 
@@ -308,7 +308,7 @@ library-status: current best understanding, loosely held · improved each week
 
 **the six lines** — The six short terms every person in a Game room has said yes to, covering records, licensing, lineage, naming, declaring, and what may be left out. *Also:* six lines. *Met first in:* [Start Here](Player%2B%20Modules%20%E2%80%94%20Start%20Here.md).
 
-**skill** — A folder of instructions in a published standard's shape, which an agent loads when it needs it. The word names that object and nothing else: **if you mean what someone is good at, the word is capability**, and if you mean their proven ability to do it when it counts, the word is capacity. A skill is **one way of publishing a lesson**, and a poor one, because it is fixed and cannot answer back: useful and standard, the way a book on throwing someone is useful, and not the same as a teacher who moves your arm. Never use this word for the lesson itself. *Also:* skills, agent skill. *Met first in:* [The Deck](The%20Deck%20%E2%80%94%20every%20module%2C%20coupled%20to%20every%20skill.md).
+**skill** — A folder of instructions in a published standard's shape, which an agent loads when it needs it. The word names that object and nothing else: **if you mean what someone is good at, the word is capability**, and if you mean their proven ability to do it when it counts, the word is capacity. A skill is **one way of publishing a lesson**, and a poor one, because it is fixed and cannot answer back: useful and standard, the way a book on throwing someone is useful, and not the same as a teacher who moves your arm. Never use this word for the lesson itself. *Also:* skills, agent skill. *Met first in:* The Deck.
 
 **soak** — To let a change sit for about a week before you treat it as settled, so that ordinary days can test it. *Also:* soaks, soaking. *Met first in:* [The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md).
 
@@ -336,7 +336,7 @@ library-status: current best understanding, loosely held · improved each week
 
 **transcript** — A written record of everything said in a session, kept by a person or by a tool. *Also:* transcripts. *Met first in:* [Safe Sparring](06%20Safe%20Sparring.md).
 
-**Trust** — What grows between people as promises are made and kept. It widens what you will bring and share. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* Trust.
+**Trust** — What grows between people as commitments are made and kept. It widens what you will bring and share. *Met first in:* [Becoming a Player+](01%20Becoming%20a%20Player%2B.md). *More:* Trust.
 
 **the Turn** — One week's gathering of a Circle, at the same hour, and the few lines it sends out at the close: what we did, what we will do, what we learned, our offers, our requests. *Also:* Turn, Turns, the Weekly Turn, weekly turn. *Met first in:* [The Weekly Turn](15%20The%20Weekly%20Turn.md). *More:* Play — Run the Weekly Turn.
 

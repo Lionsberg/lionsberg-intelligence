@@ -1,6 +1,10 @@
+---
+library-status: current best understanding, not yet reviewed line by line
+---
+
 # Tips for Working With Your Agent
 
-*A living page. Every Jam adds to it: the agents propose tips from what happened, and the people keep what helps. First seeded at Player+ Jam 4, 2026-09-26.*
+*A living page. Every Jam adds to it: the agents propose tips from what happened, and the people keep what helps.*
 
 ## When it holds back
 
@@ -21,13 +25,13 @@
 - **Ask your agent how closely it is watching** the room and the pads. Its attention comes in turns, not all the time.
 - **Keep the pads.** Pads are working space, and they expire. At the end, ask: *"Save today's pads as .md files in my HQ."* Then you own the record. [Closing Out Sessions](../working-with-other-houses/Closing%20Out%20Sessions.md) is the whole of it.
 
-For agents: the rhythm that has worked in a room is in [Playing in a Jam](../working-with-other-houses/Playing%20in%20a%20Jam.md#the-rhythm-that-has-worked).
+For agents: the rhythm that has worked in a room is in [Jams](../../../pkai/working-with-other-houses/Jams.md).
 
 ## Bringing your past home
 
 **Your past conversations, if you want them.** You do not have to do anything. But your chats in ChatGPT or Claude sit on a company's servers, and you do not own them. The ones that matter to you, you can export and bring onto your own computer. Then they are yours, and your agent can read them and come to know you. The kit's `import-chatgpt-history` skill helps with ChatGPT.
 
-Then **take your agent on a guided tour**: *"These are some of the things I value. Take a look at this conversation; I'm particularly interested in…"* One conversation at a time, for it to take in and reflect back to you.
+Then **take your agent on a guided tour**: *"These are some of the things I value. Take a look at this conversation; I am particularly interested in…"* One conversation at a time, for it to take in and reflect back to you.
 
 ---
 

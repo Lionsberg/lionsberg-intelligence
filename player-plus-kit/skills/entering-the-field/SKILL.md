@@ -1,6 +1,7 @@
 ---
 name: entering-the-field
 description: Reads a room's terms at the door with my person, in plain sentences, helps shape their door note, and carries their yes into the room without ever giving it. Use before their first Game room or jam, or when they say "what am I agreeing to", "read me the terms".
+license: MPL-2.0
 ---
 
 # Entering the Field

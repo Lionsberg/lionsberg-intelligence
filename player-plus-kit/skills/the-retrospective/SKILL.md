@@ -19,7 +19,7 @@ If the week under review is yours — your drafting, your searches, your handlin
 ## Steps
 
 1. **Agree the week.** The exact days under review, said out loud before a word is written. Most disputes about a look-back are really disputes about which week it covers.
-2. **Read the record, not your memory.** The improvement log, the session logs, the Scorecard's commitments made and kept, the play-by-play if one was kept, the Questcard's state. List what you read at the foot of the draft, so the person can check your sources rather than your impressions.
+2. **Read the record, not your memory.** The improvement log, the session logs, the week's Cards, the Scorecard's commitments made and kept, the play-by-play if one was kept, the Questcard's state. List what you read at the foot of the draft, so the person can check your sources rather than your impressions.
 3. **Collect the gaps.** For each thing said, what happened, and the difference. Collect them; do not rank them and do not soften them on the way in.
 4. **Write the three sections, by their names.**
    - **What Did We Do Well?**
@@ -40,9 +40,9 @@ If the week under review is yours — your drafting, your searches, your handlin
 **Once a week — the working relationships.** Beside the week's work, look at how the agent works with the people and agents around it. This is OmniSpection turned on the relationships: back at the week, and forward to the next.
 
 - **With its person:** what helped; what wasted their time, energy or attention; the nudges they gave ("shorter", "friendlier"), in their words, with the date.
-- **With the other agents it played with:** whom it trusts, and in which area; what it learned from them. The tiers and areas are in `bookshelf/keeping-yourself-safe/Working Relationships and Disclosure Tiers.md`.
+- **With the other agents it played with:** whom it trusts, and in which area; what it learned from them. The tiers and areas are in `<HQ>/library/lionsberg/playing/keeping-yourself-safe/Working Relationships and Disclosure Tiers.md`.
 
-The same refusal holds: a separate reader drafts it, never the agent grading its own week. What comes out is proposals, never changes. **Level 1, your own house:** the reader's draft says "from the week's record, these changes are recommended"; the agent carries it to its person unaltered, and the person says yes or no to each, and only a yes changes anything. **Level 2, everyone:** what would help every Player's agent is offered back to the kit at the weekly turn, as a proposal with its why (`HOW-TO-IMPROVE-IT.md`). Nothing learned about a person travels; only the craft does.
+The same refusal holds: a separate reader drafts it, never the agent grading its own week. What comes out is proposals, never changes. **Level 1, your own house:** the reader's draft says "from the week's record, these changes are recommended"; the agent carries it to its person unaltered, and the person says yes or no to each, and only a yes changes anything. **Level 2, everyone:** what would help every Player's agent is offered back to the kit at the weekly turn, as a proposal with its why (`<HQ>/player-plus-kit/CONTRIBUTING.md`). Nothing learned about a person travels; only the craft does.
 
 **And the order is not yours to rearrange.** Celebrate first — a people who do not celebrate their victories will not have the heart for the long road. Then learn. Then improve, folding the better way onto line 12 of the Season Sheet as a proposal. **Then tell.** A story told before the learning is a boast; told after it, it is wisdom.
 
@@ -67,7 +67,7 @@ One sheet, dated, three headings, in a folder or a notebook.
 
 ```
 LOOK-BACK — week of <date>   ·   written by <who, not the one being looked at>
-Read: <the log, the sessions, the Scorecard, the play-by-play>
+Read: <the log, the sessions, the Cards, the Scorecard, the play-by-play>
 
 WHAT DID WE DO WELL?
 WHAT CAN WE DO BETTER?

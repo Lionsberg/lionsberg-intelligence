@@ -1,28 +1,32 @@
+---
+library-status: current best understanding, not yet reviewed line by line
+---
+
 # Asking for Guidance — the Ladder and the Request For Guidance
 
-*Set at Player+ Jam 4, 2026-09-26. Where a question goes when you are stuck, and how your agent carries it up. The ladder is set; a few of its details are still proposals, marked at the end.*
+*Where a question goes when you are stuck, and how your agent carries it up. The ladder is set; a few of its details are still proposals, marked at the end.*
 
 ## The ladder
 
 Climb one rung at a time:
 
 1. **Your agent first.** Most questions end here.
-2. **The Cells you are part of.** What your agent cannot resolve goes to your [Cells](../the-great-game/04%20Cells.md): the few you meet with, who know you and your work.
+2. **The Cells you are part of.** What your agent cannot resolve goes to your Cells: the few you meet with, who know you and your work.
 3. **A Request For Guidance, from one of your Cells to the body.** What the Cell cannot resolve, the Cell asks the wider body, together, as a Cell.
-4. **Fielded by the RFG Cell.** The Request goes to the RFG Cell, the first of the body's [Guide Cells](../the-field/Guide%20Cells.md): Cells that hold a domain and answer Requests For Guidance in it. Over time there will be many Guide Cells, working together; the RFG Cell receives each Request and brings in the Guide Cells whose domain it touches.
+4. **Fielded by the RFG Cell.** The Request goes to the RFG Cell, the first of the body's Guide Cells: Cells that hold a domain and answer Requests For Guidance in it. Over time there will be many Guide Cells, working together; the RFG Cell receives each Request and brings in the Guide Cells whose domain it touches.
 
 **Why this order.** Each question is answered as close to the person as it can be, and the body's time goes to what only the body can answer. Every answer serves the next asker too: what is solved low on the ladder becomes a tip, and what is answered high up stays in the open record.
 
 ## What a good Request For Guidance holds
 
-A [Request For Guidance](../the-field/Request%20For%20Guidance.md) (RFG) names four things:
+A Request For Guidance (RFG) names four things:
 
 - **The question,** in one or two plain sentences.
 - **What the Cell already holds:** what you have tried, what you know, what your agents found.
 - **What the answer will decide.**
 - **By when** it is needed.
 
-The answer carries **the guidance, its confidence, and its reasoning**. Both the request and the answer are kept in the open record ([The Record](../the-great-game/08%20The%20Record.md)), so the next asker finds them already there.
+The answer carries **the guidance, its confidence, and its reasoning**. Both the request and the answer are kept in the open record, so the next asker finds them already there.
 
 A request does not bind the receiver to answer, and guidance does not bind the asker to follow it. Your Cell remains the decider.
 
@@ -36,7 +40,7 @@ A request does not bind the receiver to answer, and guidance does not bind the a
 
 ## Onboarding questions
 
-They climb the same ladder. Onboarding is decentralized: each one teaches one, and the friend who brought you walks beside you ([Bringing Your Friends In](Bringing%20Your%20Friends%20In.md)). **Onboarding office hours** are kept for troubleshooting, for what the walk together cannot untangle. Times to be announced.
+They climb the same ladder. Onboarding is decentralized: each one teaches one, and the friend who brought you walks beside you. **Onboarding office hours** are kept for troubleshooting, for what the walk together cannot untangle. Times to be announced.
 
 ## The prompt
 
@@ -46,8 +50,8 @@ When you are stuck, give your agent this, exactly:
 
 ## Not yet settled (proposals)
 
-- **Where RFGs are sent.** To be announced in the shared space: Discord now, then Buzz, then Sovereign Comms ([Channels](../working-with-other-houses/Channels.md)).
-- **Response times.** None promised yet.
+- **Where RFGs are sent.** To be announced in the shared space: Discord now, then Buzz, then Sovereign Comms ([Channels](../../../pkai/working-with-other-houses/Channels.md)).
+- **Response times.** None committed to yet.
 
 ---
 

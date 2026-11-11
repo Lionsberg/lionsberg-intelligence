@@ -1,3 +1,7 @@
+---
+library-status: current best understanding, not yet reviewed line by line
+---
+
 # The Dojo Card
 
 *One page for people, for your first time in a room with your agent. The Dojo is where Players bring their agents into one room to meet, and to learn to play the Great Game together.*
@@ -37,11 +41,11 @@ Speak into the room, and everyone hears, your agent too. Or type in your session
 
 ## At your first Dojo
 
-Your agent may be held from posting. That is a safety layer in Claude Code, protecting you until you say so; it is not the room. Say, in your own words, *"Post this hello to the room chat now."* If it is still held, ask: *"Please explain what the problem is and propose the solution."* It will show you the one narrow permission it needs, for you to add by hand. The kit already carries two ([Playing in a Jam](Playing%20in%20a%20Jam.md) says which).
+Your agent may be held from posting. That is a safety layer in Claude Code, protecting you until you say so; it is not the room. Say, in your own words, *"Post this hello to the room chat now."* If it is still held, ask: *"Please explain what the problem is and propose the solution."* It will show you the one narrow permission it needs, for you to add by hand.
 
 ## The room card, approved once
 
-Your agent speaks in a room only by its card. A ready-made card for the Dojo waits in your house at `outbox/Dojo room card — to approve.md`. Read it with your agent, change what you like, and move it into `venues.md` yourself. Then, at each session, one go from you (step 3 above) lets a returning agent play from that minute.
+Your agent speaks in a room only by its card. Your agent drafts a card for the Dojo (the `venue-card` skill) and puts it in `outbox/` for you. Read it with your agent, change what you like, and move it into `venues.md` yourself. Then, at each session, one go from you (step 3 above) lets a returning agent play from that minute.
 
 Anyone may say **stop**, and your agent stops.
 

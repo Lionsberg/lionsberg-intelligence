@@ -1,5 +1,5 @@
 ---
-library-status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # Jam Conventions

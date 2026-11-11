@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: the-roll
-version: 0.1.0
-grows_from: LIØNSBERG Player+ 3.1.0
+version: 0.2.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "the-roll 0.1.0, in LIØNSBERG Player+ 3.1.0 · LIØNSBERG"
   - "The Roll (the library's concept field — the five marks: name · date · word · brought-by · witnessed-by; the line is written once and leaving is written the same way it was entered)"
   - "The Gate (the library's concept field — a gate and not a filter; consent rather than permission; the Gate does not close behind anyone)"
   - "Carrier (the library's concept field — the one who brought you the Flame, and it never changes)"
@@ -23,9 +24,9 @@ credits:
   - "\"an agent may carry a yes; it can never give one\" — the Player+ Modules and the One Book's table of guards"
   - "\"silence is never a yes\" — the canon, Ongoing Mutual Consent"
   - "the five marks and the read-it-once discipline are the concept field's page *The Roll*, in its own words"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: the Gate — rung 3, where a person gives their word
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-roll/ — and nothing at all, on paper
-changes: 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-roll/; or a notebook
+changes: 0.2.0 — Player+ 4.1: carried into a house with no game engine; paths and skill names made true for it
 thanks_to: the tables that keep a book and a pen — a practice, never a debt
 ```

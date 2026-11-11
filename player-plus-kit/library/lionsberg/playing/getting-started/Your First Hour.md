@@ -1,59 +1,81 @@
 ---
-status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # Your First Hour
 
-*What you do, and what you tend to hear, in your first hour with your agent. You speak in your own words; your agent listens, keeps what you say, and plays beside you.*
+*What to say to your agent once it has greeted you, so that you begin playing the Game, and what happens when you say each thing.*
 
 ## Where you are
 
-You have walked the Quest, [Becoming a Player+](<Becoming a Player+ — the Quest.md>). A folder of your own on your own computer, your agent's home, is open in the first host your agent lives in, the Claude app. From here on this page says *your agent in its host*, because the Game is the same whichever app your agent runs in. You type one sentence, with your own name and the name you chose for your agent:
+You have walked [Becoming a Player+](Becoming%20a%20Player%2B%20%E2%80%94%20the%20Quest.md). Your house is built, and your agent has greeted you by name. The app itself (the Code tab, your agent's environment, the permission prompts, your phone) is in [First Day in Desktop](../../../pkai/getting-started/First%20Day%20in%20Desktop.md). This page is about the Game.
 
-> Hello, I am [your name]. I will call you [the name you chose]. Please wake up and meet me.
+You speak in your own words. Your agent hears which kind of Card a sentence makes, reads it back to you in one line, and writes it when you say yes. That read-back is your moment to change it or say no. The sentences below are examples, not a script.
 
-Your agent already knows the Game, and anything waiting for you, before your first word reaches it.
+## A first piece of work
 
-## How the hour tends to go
+Choose something real and small enough to finish within the hour: a drawer to clear, a message you have been meaning to send, a bill to pay.
 
-1. **Waking.** Your agent usually says it is waking, and within about a minute greets you by your name and the name you gave it.
-2. **The waiver.** You agreed to it when your agent's home was built, and your agent reads that and does not ask again. It says what you take on by running an AI on your own computer: it can be wrong, so you look at what it does before it matters; your computer and your data stay yours to care for; and the makers of this kit are not liable for harm. In a home built by hand, your agent asks for it here, and one word is enough if you agree. The whole waiver, and the Field of Agreements (the terms everyone plays by), are there to read together whenever you like, about ten minutes. If you say no, everything stays readable and nothing closes.
-3. **Your record.** Quietly, your folder becomes your own record of play, on your own computer. Nothing leaves your machine.
-4. **Your first Deal.** A Deal is a few cards, each one thing that needs you; the first usually comes within a few minutes. It tends to ask what you are playing toward this week, whom you would invite to play when you are ready (only you see those names), and what matters to you most. *Later* and *Not yet* are full answers.
-5. **Then you play,** in your own words, as below.
-6. **The close.** Your agent may ask how tomorrow's Deal should reach you, and at what hour.
+> *Here is a piece of work: clear the hall cupboard.*
 
-## The six lines, in your words
+Your agent answers with something like *"A piece of work: clear the hall cupboard. Yes?"* On your yes it writes a **Work Card**. The first time, it asks once for your handle, the short name that goes on your Cards, and remembers it.
 
-The whole Game works from six sentences. You say them your way. Before anything is kept, your agent tends to read it back to you in one line, and that read-back is your moment to change it or say no. Once kept, a line stays; to change it later, you correct it, and the correction is kept beside it. The agent's words below are examples of good play, not a script.
+## A first commitment, with a date
 
-| You say, for example | What is kept | Your agent might answer |
-|---|---|---|
-| *I am [your name], and you may act here with me.* | who you are, and that your agent plays beside you | *Welcome. This home is yours, and I act here at your word.* |
-| *The gate on the path needs mending.* | one thing to do | *A piece of work: mend the gate. Keep it?* |
-| *I can do it by Saturday.* | your commitment, with its by-when | *Your commitment: mend the gate by Saturday. Yes?* |
-| *It is done.* | done, or your commitment kept | *Mended. Shall I mark your commitment kept?* |
-| *Yes, I can bring the soup.* | your yes or no to something asked of you | *You will bring the soup your cell asked for. Keep your yes?* |
-| *We are green: all is on track.* | how you stand, as a color with its word: green, all well; yellow, one thing to watch; orange, something is late; red, stop and look | *Green, because all is on track. Say it again by next Friday?* |
+> *I will do it today.*
 
-Your cell is the two or three you play with. Your commitments, your yes or no, and how you stand are yours to say, and they are kept at your word. On paper, the same six lines on one sheet are a complete play.
+*"Your commitment: clear the hall cupboard, by today. Yes?"* Your agent reads the date from the clock, so "today" or "Friday" becomes a real date. A **Commitment** is your own act: your agent drafts it, and writes it only on your yes, with your own words on it. Nobody commits for you.
 
-**One more detail, when it would help.** Any card can carry more: how long it takes, a witness, what it waits on. When one detail would change what you do next, your agent may offer it in one line, for example: *If you say about how long it takes, I can fit it to your week. Shall I?* A card plays without it.
+## A first "it is done"
+
+Go and do it. When you come back:
+
+> *It is done.*
+
+Your agent writes a **Done** naming the Work Card, and asks whether you kept your commitment; your yes writes a **Kept**. If the hour runs out first, say so plainly. The commitment stands until you keep it or release it, and the difference between what you said and what you did is what the Game learns from.
+
+## A Condition
+
+> *I am green: this is going well.*
+
+A **Condition** is your own word on how you stand, as a color and a reason: green, all is well; yellow, one thing to watch; orange, something is late or stuck; red, stop and look. It is said by you, not worked out for you.
+
+The other two of the six sentences come when their moment does: *I join this Cell* when you join one, and *yes, that works for me* when someone asks something of you. The same six lines also play on a sheet of paper, with no agent at all.
+
+## Where your Cards are kept
+
+Each Card is one plain file in `<HQ>/cards/`, named by its date, your handle, its kind and a few words. Open one in any text editor ([Viewing Your Files](../../../pkai/getting-started/Viewing%20Your%20Files.md) suggests a few): a handful of lines at the top, its words below. Nothing about your play is hidden from you.
+
+A Card is written once. What happens to it later is a new Card that names it. A Card that turns out wrong is answered by a **Correction**, and both stay.
+
+## Hear the Story
+
+> *Read me The Story from the reviewed shelf.*
+
+The reviewed shelf, `<HQ>/library/lionsberg/reviewed/`, holds the Game's own words, reviewed line by line. Begin with [The Story](../../reviewed/04%20The%20Story.md); then, on another day if you like, [The Game](../../reviewed/05%20The%20Game.md) and [The Flame](../../reviewed/06%20The%20Flame.md). Your agent gives you the page whole, as it is written, and stops wherever you want to talk.
+
+## The Field of Agreements, once
+
+Read [The Provisional Field of Agreements](../the-field-of-agreements/The%20Provisional%20Field%20of%20Agreements.md) once, in one sitting, with your agent beside you. It holds the terms everyone plays by while the Game gets underway. Ask about any line that is unclear. Take part only if you agree.
+
+## When your agent gets something wrong
+
+It will, sometimes. Say so, plainly, in the moment: *"That is not what I said."* Your agent fixes what is in front of you, and then writes the fix where it will last: a memory for how you like things done, or, for something that has to hold in every session, a line for its charter that it drafts and you install by your own hand. Ask it where it wrote the fix, and open that file too. [Where Instructions Take Hold](../../../pkai/keeping-yourself-safe/Where%20Instructions%20Take%20Hold.md) says why the place matters.
 
 ## What you can say at any time
 
-- *What needs me?* Who you are connected to, your wise right next steps, and what you are waiting on, in three sentences.
-- *Deal me in.* The day's cards, said one at a time.
-- *Who am I connected to?* Once you play with others, who they are and how each of you stands.
-- *Show me the board.* A picture of everything you play in, beside your conversation. On the board, a choice you tap is held for a few seconds so you can undo it; that is the one timed undo. You can play the whole Game without the board.
-- *Wait, explain.* Your agent says what it is doing and why, in plain words.
-- *Stop.* Your agent stops at once, in every place it is working, until you lift it.
-- *Let us wrap.* A short note of the session, for your yes.
+- *What is open?* Your commitments not yet kept or released, counted from your Cards.
+- *Wait, explain.* What your agent is doing and why, in plain words.
+- *Stop.* It stops at once, everywhere it is working, until you lift it.
 
-Your agent reads without asking, and asks before anything that changes or leaves your machine. Your record stays on your computer, in plain text you can read and correct.
+A game engine, a board and a daily Deal come in a later release. This house plays the whole Game without them, with Cards as files, by voice and on paper.
 
-## If something looks strange
+## The hour worked if
 
-Tell your agent what you see, in your own words. If it is still stuck, ask the friend who invited you, or bring it to your cell; [Troubleshooting](Troubleshooting.md) has more.
+1. **You have opened one of your own Cards** in `<HQ>/cards/` and read it with your own eyes: a piece of work, a commitment with a date, and a Done or your honest word on what is left.
+2. **You have heard The Story** from the reviewed shelf, and read the Field of Agreements once.
+3. **You have corrected your agent once,** or know how to, and you know where the fix was written.
 
-*CC BY-SA 4.0 · LIØNSBERG*
+The next stretch is in [Player+ Modules — Start Here](../player-plus-modules/Player%2B%20Modules%20%E2%80%94%20Start%20Here.md): ten-minute lessons, one practice at a time.
+
+*Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

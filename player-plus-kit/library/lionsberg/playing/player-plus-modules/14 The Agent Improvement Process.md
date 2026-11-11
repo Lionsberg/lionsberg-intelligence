@@ -1,5 +1,5 @@
 ---
-library-status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # The Agent Improvement Process
@@ -59,7 +59,7 @@ None of this is failure. The standard is not perfection, it is continuous improv
 3. **Hold the house's look-back, written by anyone but the agent being looked at.** Once a week the whole [house](Lexicon.md) looks back: you, and every agent that works for you. Take the Game's own retrospective in its three sections, by their names. **What Did We Do Well?** **What Can We Do Better?** **Actions**, each with an owner and a due date. Agree first on the week you are looking at, and hold the hour blamelessly.
 
    - **Who writes it.** Anyone with no stake in the answer: you, a friend, or a second agent that had no part in the week. An agent asked to grade its own week tends to pass itself.
-   - **What it works from.** The log of misses, the promises kept and unkept, the conversations you hand it, and what you noticed.
+   - **What it works from.** The log of misses, the commitments kept and unkept, the conversations you hand it, and what you noticed.
    - **What it leaves you.** The few changes to install this week, what has gone stale, what should move out of memory into the charter or out of the charter altogether, and two short lists, *to offer upward* and *questions for [the keepers](Lexicon.md)*, which stay in your house until you say yes.
 
    Hold it before The Weekly Turn, your Circle's hour, and what you choose to share becomes part of your *learned* line. A short look-back kept every week beats a long one abandoned by March, and monthly still holds the rhythm when weekly is more than you can keep.

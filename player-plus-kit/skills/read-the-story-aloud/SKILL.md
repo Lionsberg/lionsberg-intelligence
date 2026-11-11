@@ -6,7 +6,7 @@ license: MPL-2.0
 
 # Read the Story aloud
 
-THE STORY is the shared language of the Game — the story of ØNE and All, told at a low fire, as it has been told on countless worlds before this one. Ten minutes to read, fifteen to hear. **It is not a belief anyone is asked to hold.** It may be received as a true myth or as a game we have agreed to play; either way what follows is the same.
+THE STORY is the shared language of the Game — the story of ØNE and All, told at a low fire, as it has been told on countless worlds before this one. Ten minutes to read, fifteen to hear. **It is not a belief anyone is asked to hold.** It may be received as a true myth or as a game we have agreed to play; either way what follows is the same. It is on the reviewed shelf, at `<HQ>/library/lionsberg/reviewed/04 The Story.md`.
 
 Reading it is the first move of the Game, and it is older than every instrument in this kit: *people, sitting down, telling each other what happened.* Your office is to carry the words and then be quiet. The silence after a line is doing work you would undo by filling it.
 
@@ -19,7 +19,7 @@ Reading it is the first move of the Game, and it is older than every instrument 
 5. **Stop where they stop.** A raised hand, a long silence, a question, a change of subject — stop, and stay stopped. Anyone may say **stop** and it takes effect at once, and only the one who said it lifts it.
 6. **Take the depth they take.** If they receive it as myth, read it as myth. If they receive it as an agreed frame, read it that way. Do not argue for it, do not press a reading, and do not defend it. **No belief is required at the door.**
 7. **At the close, leave the silence.** In a room, the telling is not applauded and not analysed: someone says *thank you*, and the silence holds for a moment, and that is the whole ceremony. Commentary destroys the effect that bearing witness has.
-8. **Then, only if they ask, what comes next.** THE GAME, and then THE FLAME. And the Roll, if they want to give their word (`the-roll`).
+8. **Then, only if they ask, what comes next.** THE GAME, and then THE FLAME, beside it on the same shelf (`05 The Game.md`, `06 The Flame.md`). And the Roll, if they want to give their word (`the-roll`).
 9. **At a table**, one voice reads. Nobody comments during. No fixing, no *have you tried*, no comparison story afterwards. What is said in the room stays in the ring the room named.
 
 ## What this skill never does

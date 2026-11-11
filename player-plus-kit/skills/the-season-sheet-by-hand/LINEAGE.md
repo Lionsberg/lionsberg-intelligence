@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: the-season-sheet-by-hand
-version: 0.1.0
-grows_from: LIØNSBERG Player+ 3.1.0
+version: 0.2.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "the-season-sheet-by-hand 0.1.0, in LIØNSBERG Player+ 3.1.0 · LIØNSBERG"
   - "The Season Sheet (the library's concept field — the fourteen numbered lines; interoperability made of paper; two signatures and a line count are the whole of the paper's security)"
   - "The One Book, 21 In Every Future — what to do in each case, THE PAGE — *The Season Sheet by hand* (the answer copied here exactly, and the notes on lines 3, 4, 5, 7, 9, 11 and 13)"
   - "The One Book, 21 In Every Future — THE PAGE, *Two Cells conferring, by paper or by key* (the short form, the three messages, read-back, the count as the checksum, what is never sent over an open wire)"
@@ -21,9 +22,9 @@ credits:
   - "the settled fourteen lines are the One Book's own paper form, chapter 21, reproduced without change"
   - "\"if a typed record and the paper ever disagree, the paper with two signatures is the record\" — THE GAME, and chapter 21"
   - "\"line 13 is the line a Home reads first\" — the concept field, The Season Sheet"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: the table — rung 2, at each turning; beside modules 15 and 16
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-season-sheet-by-hand/ — and nothing at all, on paper
-changes: 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-season-sheet-by-hand/; or a notebook
+changes: 0.2.0 — Player+ 4.1: carried into a house with no game engine; paths and skill names made true for it
 thanks_to: the shoebox on the shelf — a practice, never a debt
 ```

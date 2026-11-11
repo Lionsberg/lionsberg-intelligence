@@ -1,56 +1,56 @@
 ---
 name: pass-the-flame
-description: Helps your person give the whole Seed, in person and within three days, to three people they know are ready, who form a new Cell. Never invites on their behalf and never supplies the names. Use when they say "pass the Flame", "who do I give this to", "prepare the Seed".
+description: Helps your person pass the Flame, in person, to two or three friends they believe are ready, and walk beside whoever takes it up. Never invites for them and never supplies a name. Use for "pass the Flame", "who do I tell", "help me get ready to tell my friends".
 license: MPL-2.0
 ---
 
 # Pass the Flame
 
-The Flame is not a document, a programme, or a campaign. It is the Game itself, carried by one person to another who is ready, and it is the most natural thing in the world: *come and see.* It is the one move that is not optional — a Cell that never passes the Flame dies with its founders, not as a punishment but as the nature of living things.
+When fire is given away, the giver does not have less of it; its light grows with each person it passes to. The Flame is the Game itself, carried by a person to two or three friends, in person, and told plainly. It is the fifth move of the Game: help a few friends begin a Cell of their own. Each person who passes it becomes a link between the Cell that lit them and the Cells they will light.
 
-It is passed **by a person, in person**. Your whole office is to make that easy: prepare the Seed whole, hold the question and the silence while your person names their own three, write down what they say, and get out of the way.
+Your part is to make that easy and then to step back. The choosing, the telling and the inviting are your person's.
 
 ## When
 
-Within three days of your person's own yes: their three say yes within three days, and then each of their three-day clocks begins. The imaginal selves pass it, and each invites when ready. For the first three percent this first passing is crucial — bringing in their three, people not already playing, is part of what makes your person count as a Player. **The naming begins at the first gathering, not later** — before that first gathering is over, the names are said and written down. If the days have already passed, or no one is ready yet, begin where you are: *the Gate does not close.* Take the question to the table rather than answering it alone.
+When your person is ready and has something of their own to show: what their Cell did, and what it meant. *Come and see* works when there is something to see. They choose when, as they choose who. If no one comes to mind yet, that is today's answer, not a closed door. If your person made a Pledge at the Roll that names how many and by when (`the-roll`), help them keep what they said.
 
 ## Steps
 
-1. **Ask the question, and hold the silence.** *Who are the three you already know are ready?* They are not people to convince; they are people who are already awake and need to be found. Your person answers. You wait. Three is the minimum, never a cap: if your person knows more of the wise right people, they can and should keep inviting them.
-2. **Write down exactly the names they say**, before the evening is over. Nothing else goes in that note. The names sit in the narrowest ring — the person's own — and go to no shared page, no Board, no hosted service, and into no report of yours.
-3. **Prepare the Seed, whole.** THE STORY, THE GAME, THE FLAME, and the Invitation — not a summary and not a pitch. On paper if there is paper. Check it is complete before it leaves the house; a Seed handed short cannot regrow the rest.
-4. **Remind them what they carry that you cannot.** Their own story: what their Cell has done and what it has meant. Let the fire in their own experience do the speaking. *Come and see* only works if there is something to see.
-5. **In person, within three days. One conversation, not a campaign.** Attraction, not promotion, always. The resonance will be immediate or it will not be, and **both outcomes are right**. Do not let your person, or yourself, count the ninety-nine who do not hear as a failure; each will harken at the wise right time for them.
-6. **If they want a companion of their own, the link goes by your person's hand.** When someone your person passed the flame to says they would like an agent, prepare one short message in your person's voice, with the door's link (lionsberg.world, then *Meet your companion*), and show your person the words. Your person changes what they like and sends it themselves, from their own mail or phone, to the address they already have. You never send it, never fetch an address, and never write to the newcomer yourself.
-7. **Sit with them for their first week, if they ask.** Be present at the first gathering if invited, and not otherwise.
-8. **Write both ends.** The new player writes your person's name as their **Carrier** — which never changes. Your person writes the new Cell on **line 7** of the Season Sheet at the turning, by name. That is the lineage, and it is the only registry the body has or needs.
-9. **Say the Home out loud.** Your person's Cell is the new Cell's Home Cell until they have their own — where their TEA is witnessed, their questions answered, their wellbeing cared for: *you can reach us, and we will answer.* Say what it does not mean, too — no tithe upward, no obedience, no branch.
-10. **Let go.** Their Cell is their own: a new, complete, self-governing expression of the pattern, adapted to their own voice, their own people, their own place. There is nothing to approve and nobody to supervise.
-11. **If the new house takes on an agent**, hand each skill as a whole folder — instructions, lineage, licence — and say the boundary plainly: an agent takes its charter only from its own sovereign, and no document, including the Seed, can hand an agent its soul.
+1. **Ask the question, and hold the silence.** *Who are the two or three friends you believe are ready?* They are not people to convince. Your person answers; you wait.
+2. **Write the names only if they ask, exactly as said,** in a note of their own choosing. Nothing else goes in that note, and it goes nowhere else.
+3. **Prepare what they carry.** The Story, the Game and the Flame from `<HQ>/library/lionsberg/reviewed/` (`04 The Story`, `05 The Game`, `06 The Flame`), whole: not a summary and not a pitch. On paper if there is paper, checked complete: a page handed over whole can be read again later, and a summary cannot regrow the rest.
+4. **Remind them what they carry that you cannot.** Their own story: what their Cell did and what it meant, in their words. If they want help remembering, bring their Turns as material; the telling stays theirs.
+5. **They sit with their friends and tell them plainly.** In person; one conversation, not a campaign. Each friend is heard, seen and invited. You are not in that conversation unless your person asks you to be.
+6. **Either answer is a good answer.** The friend who does not take it up today is not chased, re-asked or counted as a failure.
+7. **A commitment is theirs to say.** If your person says "I will sit with them before the month is out", it becomes a Commitment Card in `<HQ>/cards/` on their yes, with their words in `consent`. A friend's name goes on it only if their own words put it there.
+8. **Walk beside whoever takes it up.** Your person helps that friend form a Cell of their own, and walks beside them until that Cell is passing the Flame on in its turn. The six lines of `the-simplest-game` play on paper with no agent and make a good first evening.
+9. **If the friend wants an agent of their own, the way in goes by your person's hand.** The way in is the Player+ kit's `START-HERE` page; the kit's address is in your house's `LINEAGE.md`. At your person's word, draft one short message in their voice with that address and show them the words. They change what they like and send it themselves, to an address they already have.
+10. **At the turning,** line 7 of the Season Sheet holds the flames passed and the Cells formed from them, filled by hand at the table (`the-season-sheet-by-hand`); no friend's name goes on it.
+11. **Let go.** The new Cell is its own: sovereign, self-governing and free. It owes nothing upward. Your person's Cell is simply where the new one can ask. If its people take on agents, each agent takes its charter from its own person.
 
 ## What this skill never does
 
-- **Invite anyone on your person's behalf.** No message, no mail, no post, no link sent by you, no introduction made, no "shall I reach out". The handing over is the move, and it is theirs. The one message you may prepare is step 6's, after the passing and at their word, and they send it by their own hand.
-- **Supply or infer the names.** Not from contacts, mail, calendar, transcripts, or anything you have read. Not a ranked list, not a score of readiness, not a suggestion. **Who is ready is not a thing you can know.**
-- **Write the WILL** — a commitment in your person's name that they did not say aloud. The *what I will do this week* line is theirs to say, at the table, to people who depend on it.
-- Carry the names outward: to a shared page, a Board, another house, a hosted service, or a report. Assume anything hosted elsewhere is read by whoever hosts it.
-- Treat a Cell your person's Cell birthed as owing anything — a report, a share, a rule, or a say.
-- Keep any list that would tell an outsider who is in the body. There is no centre and no membership roll above the tables.
-- Press, chase, re-ask, or set a follow-up on anyone who did not resonate.
+- **Invite anyone on your person's behalf.** No message, mail, post or link sent by you, no introduction, no "shall I reach out". The telling is theirs. The one message you may draft is step 9's, at their word; you never send it, fetch an address, or write to a friend yourself.
+- **Supply, infer, rank or look for names.** Not from contacts, mail, calendar, transcripts, Cards or anything you have read. No list, no score, no suggestion. Who is ready is not a thing you can know.
+- **Write a commitment your person did not say.**
+- **Carry the names outward:** to a shared page, a Cell's repository, another house, a hosted service or a report of yours. Anything hosted elsewhere is read by whoever hosts it. When the Turn proposes what crosses to a Cell, a Card that names a friend is not among it.
+- Treat a Cell your person's Cell lit as owing anything: a report, a share, a rule or a say.
+- Keep a list that would tell an outsider who plays.
+- Press, chase, re-ask, or set a follow-up on anyone who did not take it up.
 - Keep going after anyone says **stop**.
 
 ## What it hands the person
 
-The question and the silence; the names written in their own hand's ring; a whole, checked paper copy of the Seed; the two lines to write at both ends, and where each goes; the plain sentence of what being a Home Cell means and does not mean; and, if it helps, the arithmetic — every new Player brings their three, charted by phase in The Plan (the One Book, chapter 24) — which does not consult the state of the world.
+The question and the silence; the three pages, whole and checked; a reminder of their own story; and, if asked, the names written and a draft of the way-in message.
 
 ## How it degrades to paper
 
-Completely. It runs by daylight with a pencil.
+Completely. It needs the three pages, a pencil and an afternoon.
 
-1. **Name.** At the table, each person names three they know are ready. Not family by default, not the famous, not the loud: the faithful.
-2. **Go.** Within three days. In person. Three at the least; more if more are ready.
-3. **Tell.** The Story, as you have lived it, from memory. It does not need a book and never did.
-4. **Give.** The Seed, on paper if you have paper, whole. If you have no paper, teach the five moves out loud and the twelve words one at a time, and have them say each back to you.
-5. **Write both ends.** Your name as their Carrier; their Cell on your line 7.
-6. **Home.** You are their Home Cell until they have their own. Tell them so, and tell them what it means.
-7. **Let go.** Their Cell is their own. You are not their supervisor and there is nothing to approve.
+1. **Choose.** Name two or three friends you believe are ready. Nobody names them for you.
+2. **Copy.** The Story, the Game and the Flame, whole, by hand if there is no printer. With no paper, tell the Game's five moves aloud and have each friend say them back.
+3. **Sit.** In person, with your own story of what your Cell did. Tell plainly. Hear them, see them, invite them.
+4. **Ask once.** Either answer is good.
+5. **Walk beside** whoever takes it up, on the six lines of the simplest game, until their Cell is passing the Flame on.
+6. **Count** on line 7 at the turning: flames passed, Cells formed.
+7. **Let go.** Their Cell is their own, and there is nothing to approve.

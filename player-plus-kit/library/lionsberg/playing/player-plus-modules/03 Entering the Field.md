@@ -1,5 +1,5 @@
 ---
-library-status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # Entering the Field
@@ -45,7 +45,7 @@ The Great Game settles them once, at [the door](Lexicon.md). It stands on a Fiel
 
 Leaving is always open, and it ends what you give from then on. What you gave under these terms stays given.
 
-This yes is not The Pledge. The [Pledge](Lexicon.md) is a later and larger thing: a promise of the time, energy and attention you will give to the Game for [the season](Lexicon.md) ahead, made once you have been welcomed, have met others, and have decided for yourself that you want to play. It belongs to the [Initiation](Lexicon.md), which follows being welcomed and oriented. No one asks it of you here.
+This yes is not The Pledge. The [Pledge](Lexicon.md) is a later and larger thing: a commitment of the time, energy and attention you will give to the Game for [the season](Lexicon.md) ahead, made once you have been welcomed, have met others, and have decided for yourself that you want to play. It belongs to the [Initiation](Lexicon.md), which follows being welcomed and oriented. No one asks it of you here.
 
 ## Know it by heart
 

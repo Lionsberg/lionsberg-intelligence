@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: read-the-story-aloud
-version: 0.1.0
-grows_from: LIØNSBERG Player+ 3.1.0
+version: 0.2.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "read-the-story-aloud 0.1.0, in LIØNSBERG Player+ 3.1.0 · LIØNSBERG"
   - "THE STORY (the telling itself; ten minutes to read, fifteen to hear; no belief is required at the door; the twelve movements and the Story in a breath)"
   - "The One Book, 22 The Stories — ten trillion stories woven back into ONE (how a telling is heard: bounded, voluntary, received not fixed, witnessed, not argued with, held afterward; the agent's office and its hard boundary)"
   - "The One Book, 29 The Stories, VII In every future (tell and do not write; narrow the ring; strip the particulars; the form that outlasts every other)"
@@ -22,9 +23,9 @@ credits:
   - "\"it is not a belief you are asked to hold; it is a shared language, and we are acting as if it were true\" — THE STORY"
   - "the listening disciplines — bounded, voluntary, no fixing, a thank-you and silence — are chapter 29's own"
   - "the vocabulary ladder, one plain line at first meeting, is the Gate's rule in the concept field"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: the door — the first day, before the Roll; beside module 18
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/read-the-story-aloud/ — and nothing at all, at a fire
-changes: 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/read-the-story-aloud/; or a notebook
+changes: 0.2.0 — Player+ 4.1: carried into a house with no game engine; paths and skill names made true for it
 thanks_to: the low fire and the quiet moment — a practice, never a debt
 ```

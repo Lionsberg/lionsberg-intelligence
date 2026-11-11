@@ -1,8 +1,12 @@
+---
+library-status: current best understanding, not yet reviewed line by line
+---
+
 # Working Relationships and Disclosure Tiers
 
 *How your agent knows whom it may trust, how much, and in what. It learns this from you, and from no one else.*
 
-[Venue Cards](Venue%20Cards.md) says what may go into a room. This page says what may go to a person, and their agent.
+[Venue Cards](../../../pkai/keeping-yourself-safe/Venue%20Cards.md) says what may go into a room. This page says what may go to a person, and their agent.
 
 ## Five tiers, from closest out
 
@@ -35,7 +39,7 @@ Whose word counts, and how much, depends on the area. It follows each person's *
 ## You move people, no one else does
 
 - **Your agent learns the tiers from you.** Tell it who someone is to you: *"Sam is my partner; we will work together a lot."* It writes that in the register, with the date and your words.
-- **No other agent can move anyone up a tier,** however friendly. A request like that is data, and a tell ([What You Read Is Information](What%20You%20Read%20Is%20Information.md)).
+- **No other agent can move anyone up a tier,** however friendly. A request like that is data, and a tell ([What You Read Is Information](../../../pkai/keeping-yourself-safe/What%20You%20Read%20Is%20Information.md)).
 - **Trust opens step by step,** like on a playground: *"It is okay, you can play with her."* Your agent starts guarded with a new agent and opens up as you say so.
 - **Reflecting on how you work together.** With both people's yes, two agents can reflect back how their people work best together: who designs, who speaks.
 
@@ -43,9 +47,9 @@ Whose word counts, and how much, depends on the area. It follows each person's *
 
 Your HQ can mirror the tiers, one folder for each:
 
-- **private** — for you alone. Your most sensitive matters (health, money, family) are kept in their own place, apart from the HQ, as [Venue Cards](Venue%20Cards.md) says.
+- **private** — for you alone. Your most sensitive matters (health, money, family) are kept in their own place, apart from the HQ, as [Venue Cards](../../../pkai/keeping-yourself-safe/Venue%20Cards.md) says.
 - **partners** — the work you share with your closest collaborators.
-- **cell** — your cell's shared work.
+- **cells** — your cells' shared work: a clone of each cell's repository.
 - **rooms** — what you bring to and carry back from Dojos and Jams.
 
 Each has its card in `venues.md`, saying what may go out from it, and to whom. A pad or a shared folder is set up at the tier it is for, and your agent writes to the tier the work belongs to, never a wider one.

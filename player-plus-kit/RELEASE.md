@@ -1,37 +1,50 @@
 # This release
 
-*What this kit is made of. Player+ is the latest personal-agent kit, as its keeper ships it, with layers added. Each layer is one capability, with its own version and its own source. A release is the list of them.*
+*What Player+ 4.1 is made of. It is the PKAI starter kit, as its keeper ships it, with one layer added. Each part has its own source and stays current in its own way.*
 
-| Layer | What it adds | Version | Comes from | Lives in a house at | How it stays current |
+| Part | What it adds | Version | Comes from | Lives in a house at | How it stays current |
 |---|---|---|---|---|---|
-| **The agent** | a personal agent that works: a charter, memory, sessions, the desk and the clock, skills that travel alone | pkai-starter-kit 3.1.0 | the PKAI starter kit and benchmark | `My Agents/<name>/` | each release of its upstream is read against the ledger of differences, and offered by proposal |
-| **Player+** | the Game in the agent's charter, the chief of staff's office, and the skills that play the Game | 4.0.0, in the making | this kit | added to the agent | by a proposal the person agrees to |
-| **The Library** | the books, the LIØNSBERG information, and this kit whole, for reading and reference | follows the `release` branch | the canon and the library | `HQ/Library/` | the agent refreshes it each day or each week |
-| **The Game Engine** | the record's engine: what is in play, what is owed, commitments kept, The Deal | game-engine 1.1.1 | this kit | `HQ/engine/` | by a proposal the person agrees to |
-| **The board** | the page where The Deal and the conversation sit side by side | ships with the engine | this kit | `HQ/hud/` | by a proposal the person agrees to |
+| **The agent** | a personal agent that works: a persona, memory, sessions, the desk and the clock, skills that travel alone, a bookshelf | pkai-starter-kit 4.0.0-rc.5 | the PKAI starter kit, carried whole and unchanged in `pkai-starter-kit/` | `~/<AgentName> (agent)/` and the HQ | `pull-from-benchmark`: each release is read, and taken by proposal |
+| **The Player+ block** | The Great Game of LIØNSBERG in the agent's charter: the Goal, the words, the Cards, and where to find the rest | 4.1.0 | `PLAYER-PLUS-BLOCK.md` | the agent's `CLAUDE.md`, between two markers | `pull-a-release`: a change is drafted, and the person installs it |
+| **The longer guide** | how to play: the Cards in full, the six sentences, the Turn, joining a Cell, the belts, Pass the Flame | 4.1.0 | `PLAYER-PLUS.md` | beside the charter | `pull-a-release`, on the person's yes |
+| **The Player+ skills** | sixteen procedures for the Game that need no engine | each its own, in its `LINEAGE.md` | `skills/` | `<agent home>/.claude/skills/` | `pull-a-release`, on the person's yes |
+| **The LIØNSBERG bookshelf** | `reviewed/`, the words reviewed line by line; `playing/`, the practical books, each marked as not yet reviewed that way | follows each release | `library/lionsberg/` | `<HQ>/library/lionsberg/`, beside `<HQ>/library/pkai/` | `refresh-the-library`: reading refreshes, and what changed is said |
+| **The Cards** | a place for play written as plain files, and one example of each kind | 4.1.0 | `template/hq/cards/`, `card-examples/` | `<HQ>/cards/`; a Cell's in its own repository under `<HQ>/cells/` | they are the person's own |
 
-## Three rules the layers keep
+## The sixteen skills
 
-1. **Each layer stands without the ones above it.** An agent with no Library, no engine and no board is a whole personal agent. No layer may weaken the one below it.
-2. **What is read may refresh on its own; what runs, or tells an agent how to act, changes only when its person says yes.** The Library is reading and reference, so it follows each release. The charter, the hooks, the skills, the engine and the board change by proposal (`player-plus/.claude/skills/pull-a-release`).
-3. **Every layer follows its own source, and none is bound by it.** Where a layer departs from the source it grew from, the departure is written down with its reason (`player-plus/LEDGER.md`), so that the next release of that source can be read against it and taken or declined, piece by piece.
+`a-gathering` · `entering-the-field` · `join-a-cell` · `pass-the-flame` · `play-by-play` · `pull-a-release` · `read-the-story-aloud` · `refresh-the-library` · `safe-sparring` · `the-offering` · `the-retrospective` · `the-roll` · `the-season-sheet-by-hand` · `the-simplest-game` · `the-turn` · `witness-a-commitment`
+
+The host hands the model each skill's name and description within a limit of about 24,000 characters for a whole house. The starter kit's twenty-two skills and these sixteen together take about 18,200, and a test of this kit holds the total. A house that adds skills of its own keeps their descriptions as short.
+
+## Three rules the parts keep
+
+1. **The starter kit is carried, not changed.** No line of `pkai-starter-kit/` differs from what its keeper ships, and a test holds that. In a house, the only lines Player+ adds to the charter sit between its two markers.
+2. **What is read may refresh by itself; what tells an agent how to act changes only when its person says yes.** The bookshelf is reading. The block, the guide and the skills change by proposal.
+3. **Each part follows its own source.** The agent follows the PKAI benchmark; the Player+ layer follows this kit. Where a house does a thing its own way and better, that is a finding to send back, not a fault.
+
+## Not in this release
+
+The game engine, the board, the daily Deal and the scripts for rooms and pads are being proven before they are offered. A 4.1 house holds none of them. The Cards are written in the form the engine reads, so a house that plays now loses nothing when the engine arrives.
 
 ## For an agent reading this
 
 ```yaml
-release: player-plus on pkai-starter-kit 3.1.0
-layers:
-  agent:    pkai-starter-kit 3.1.0        # upstream: github.com/peterkaminski-ai/pkai-starter-kit
-  player:   player-plus 4.0.0 (in the making)
-  library:  the release branch of this repository, read whole
-  engine:   game-engine 1.1.1
-  board:    ships with the engine
+release: player-plus-kit 4.1.0-rc.1 on pkai-starter-kit 4.0.0-rc.5
+parts:
+  agent:      pkai-starter-kit 4.0.0-rc.5     # carried unchanged; upstream github.com/peterkaminski-ai/pkai-starter-kit
+  block:      PLAYER-PLUS-BLOCK.md 4.1.0
+  guide:      PLAYER-PLUS.md 4.1.0
+  skills:     16, in skills/
+  bookshelf:  library/lionsberg/ (reviewed/, playing/)
+  cards:      template/hq/cards/, card-examples/
 places:
-  agent:    ~/My Agents/<name>/
-  library:  ~/HQ/Library/lionsberg-intelligence/
-  engine:   ~/HQ/engine/
-  board:    ~/HQ/hud/
-skills_by_layer: player-plus/.claude/skills/LAYERS.md
+  agent_home: ~/<AgentName> (agent)/
+  hq:         ~/Documents/<yourname>-hq/      # the top of the home folder when Documents is synced
+  bookshelf:  <HQ>/library/lionsberg/
+  cards:      <HQ>/cards/
+  cells:      <HQ>/cells/<cell-name>/
+not_in_this_release: [game engine, board, Deal, room and pad scripts]
 ```
 
 *Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

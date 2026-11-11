@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: the-retrospective
-version: 0.2.0
-grows_from: LIØNSBERG Player+ 3.3.0
+version: 0.3.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "the-retrospective 0.2.0, in LIØNSBERG Player+ 3.3.0 · LIØNSBERG"
   - "Retrospective (the library's concept field — the four properties: short, honest, ending in actions with owners, attended by the people who did the work; review is not self-evaluation)"
   - "Every Defect Is A Gift (the library's concept field — a week that surfaced none is more likely to mean nobody looked; a line closes only when its fix sits where the work will meet it)"
   - "Zero Blame Environment, by way of Retrospective and Every Defect Is A Gift (cause is sought in the set-up, not in the person)"
@@ -24,9 +25,9 @@ credits:
   - "the three sections by their names — What Did We Do Well? · What Can We Do Better? · Actions — are module 14's carrying of the Game's own retrospective"
   - "\"retrospection alone is not enough\" — the canon, by way of OmniSpection"
   - "\"a story told before the learning is a boast\" — the One Book, chapter 29"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: Home — rung 4, beside modules 12 and 14; and at every turning
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-retrospective/ — and nothing at all, in a notebook
-changes: 0.2.0 — the weekly look at the working relationships, with the person and with other agents, as proposals the person accepts or refuses (Player+ Jam 4, 2026-09-26) · 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-retrospective/; or a notebook
+changes: 0.3.0 — Player+ 4.1: carried into a house with no game engine; paths and skill names made true for it
 thanks_to: the houses that keep a blameless log — a practice, never a debt
 ```

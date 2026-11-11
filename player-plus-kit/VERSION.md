@@ -1,3 +1,3 @@
-4.0.0 in the making
+# Version
 
-Player+ v4.0.0, in the making · 2026-10-31 · the Game played in your agent's host: every body awakens with its character matrix and the desk, at start and after a compaction; the record is handed to the agent before every reply; the Hand is dealt in the conversation and answered by the person's word, with the read-back as the undo; the board opens as a pane beside the conversation; the way in says what the Game is for first; the matrix's defaults are estimates until they are measured; the skills say the Game to a whole agent. Called 4.0.0 only after one person with no training has played a first hour by voice with their agent. Carries 3.10.0 (the collaboration surface; game-engine 1.1.0), 3.9.0 (the way in through the Claude app), 3.8.0 (one Game Engine), 3.5.0 (the desk), 3.6.0 (the Record) and 3.7.0 (the Talk). Beside pkai-starter-kit v3.1.0. See CHANGES.md.
+v4.1.0-rc.1

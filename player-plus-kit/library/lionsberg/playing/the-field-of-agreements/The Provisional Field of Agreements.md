@@ -1,6 +1,7 @@
 ---
 title: The Provisional Field of Agreements
 status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # The Provisional Field of Agreements

@@ -1,10 +1,10 @@
 ---
-library-status: current best understanding, loosely held · improved each week
+library-status: current best understanding, not yet reviewed line by line
 ---
 
 # The Weekly Turn
 
-*Keep an hour or two a week in which [your Circle](Lexicon.md) gathers itself in and sends its news out, so that what is promised is seen and kept.*
+*Keep an hour or two a week in which [your Circle](Lexicon.md) gathers itself in and sends its news out, so that what is committed to is seen and kept.*
 
 > **In the next ten minutes you will** write this week's Turn and name one [commitment](Lexicon.md) for next week.
 >

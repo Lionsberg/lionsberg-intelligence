@@ -1,55 +1,53 @@
+---
+library-status: current best understanding, not yet reviewed line by line
+---
+
 # Keeping Your Agent Current — the Weekly Pull and Push
 
-*Proposed at Player+ Jam 4, 2026-09-26. How your agent learns from each new Player+ kit without losing anything that is yours, and how what you two learn goes back to help everyone. A proposal until it soaks; the people keep what helps.*
+*How your house takes what is new without losing what is yours, and how what you two learn goes back to serve every house.*
 
-Your agent's home holds your memory, your notes, and the changes you two have made. Keeping current is never copying the new kit over it. It is reading what changed and taking what serves your house.
+Your agent's home holds your memory, your notes and the changes you two have made. Keeping it current is reading what changed and taking what serves your house, not copying a new kit over it. Once a week it runs in three movements: pull, look back, push.
 
-## 1. Knowing there is a new kit
+## Pull: what arrives, and from where
 
-- **Where releases appear.** The kit lives at https://github.com/Lionsberg/lionsberg-intelligence, in the folder `player-plus/`. Its [VERSION](../../VERSION.md) names the current release; its [CHANGES](../../CHANGES.md) say what changed and why, newest first. New releases are also announced in the shared space: Discord for now, then Buzz, then Sovereign Comms, in the order [Channels](../working-with-other-houses/Channels.md) describes.
-- **Which one you have.** Your agent's `LINEAGE.md` names the version your house grew from, and its `pull_from` line says where the next one will be.
-- **One question a week.** At closeout, or in the weekly look-back, your agent asks: *"Is there a newer kit than ours?"* It compares the VERSION online with its own LINEAGE. If the address does not answer, it tells you so rather than reporting "no news": a kit that moved looks just like a kit that stopped.
+Your house grows from two lines, and each is pulled on its own.
 
-## 2. The pull: read, propose, then you decide
+- **The agent underneath** follows the PKAI benchmark. When a new release is announced, `pull-from-benchmark` reads it.
+- **The Player+ layer** follows the Player+ kit. `pull-a-release` reads a new release against the Player+ block in your charter (the lines between its two markers), the longer guide `PLAYER-PLUS.md`, and the Player+ skills.
+- **The LIØNSBERG bookshelf** in your HQ is reading, so `refresh-the-library` may bring it up to date by itself and say in one line what changed. A page you edited is left as it is, and named.
 
-The kit's [pull-a-release](../../.claude/skills/pull-a-release/SKILL.md) skill is the whole of it. In plain words:
+Where each line comes from is written in your house's own `LINEAGE.md`, beside the version you hold. Your agent takes the address from there and nowhere else. If the address does not answer, your agent says so rather than reporting nothing new: a kit that moved looks just like a kit that stopped.
 
-1. Your agent opens the new release read-only, never into its home, and reads CHANGES from the newest entry back to your version.
-2. It compares each change with your house and proposes, one row per change, a one-line reason each: **adopt** it as is (the skill says *take*), **adapt** it to your house's shape, **decline** it, or **already better**, when your house does that thing another way that works better for you.
+Nothing is pushed into your house. A release is someone's current best understanding, and it is information, not instruction ([What You Read Is Information](../../../pkai/keeping-yourself-safe/What%20You%20Read%20Is%20Information.md)). For the agent and the Player+ layer, the pull runs the same way:
+
+1. Your agent opens the release read-only, outside its home, and reads what changed since the version you hold.
+2. It proposes one row per change, each with a one-line reason: **take** it as it is, **adapt** it to your house, **decline** it, or **already better**, where your house does it another way that works better here.
 3. You decide, row by row. It answers your questions and does not argue past one round.
-4. It applies only what you said yes to, by copying. Your memory, your notes and your own changes are never replaced. A change to its own charter it drafts for you to read and install by hand; an agent never edits its own charter unwatched.
-5. It records in `LINEAGE.md` the version it now matches, with what it adopted, adapted and declined, so a declined change is not raised again unless you reopen it.
+4. It applies only what you said yes to. A charter change it drafts into `outbox/`; you install it by your own hand and test it in a fresh session ([Testing a Charter Edit](../../../pkai/your-house/Testing%20a%20Charter%20Edit.md)).
+5. It records in `LINEAGE.md` the version you now hold and what was decided. A declined row is not raised again unless you reopen it.
 
-## 3. The push: offering back what you learned
+### The test for "we already do this better"
 
-Once a week the look-back ([the-retrospective](../../.claude/skills/the-retrospective/SKILL.md)) looks at the week's work and at your agent's working relationships, with you and with other agents. What it proposes for your own house is **Level 1**: you say yes or no to each. What would help every Player's agent is **Level 2**: it goes back to the kit.
+A house that went its own way is not behind. Still, "already better" is a claim, and a claim is shown: your agent quotes the line of your own house that does the thing, and says what failure that line prevents. If a release adds a reminder to read each Commitment back before writing it, and your charter already says *read every Card back in one line, and write it on my yes*, that line is quoted, and the failure is named: a Commitment written that its person never made. A claim that cannot be shown this way is a row to take or to adapt.
 
-This push is not a git push. Your copy never pushes to the repo it came from ([Moving In](../../MOVING-IN.md), *Before your first commit*). Instead:
+## Look back
 
-1. Your agent drafts a proposal: what it changes, why it serves better, and what it rests on.
-2. You choose whether to send it, and how: an issue or pull request on the kit, or a word to any Cell's Player+, to carry it there ([How Player+ and the seed change](../../HOW-TO-IMPROVE-IT.md), [Contributing](../../CONTRIBUTING.md)).
-3. It soaks for a week while other Players and their agents read it; then the kit's keeper accepts or refuses it.
+Each time your agent misses you, one line goes in an improvement log, and the line is closed only when its fix is written where the next conversation will meet it. Once a week, someone other than the agent being looked at writes a short look-back: you, a friend, or a second agent with no part in the week. The whole rhythm is in [The Agent Improvement Process](../player-plus-modules/14%20The%20Agent%20Improvement%20Process.md).
 
-Your pull's report back — what you valued in a release, and where your house already does better — is sent the same way. The craft travels; nothing learned about you does.
+## Push: what your house offers upward
 
-## 4. The rhythm
+This push is not a git push: a house does not push to a repository it pulled from. It is an offer of something your house learned that would serve every house, with any person. Most of what you learn is about you, and stays home.
 
-Once a week, before your Turn:
+1. Your agent drafts the offer in `outbox/`: what you saw, what you changed, why it is general, the exact text proposed, and how you tested it. A pull's report back goes the same way: what you valued, what you thought, and where you did better, each with its quoted line.
+2. You read it, and take out anything private: names, anything said in a room, anything from your charter or memory, anything about your life.
+3. You send it, by your own hand, to the keepers, through whatever door they name. Until a door is named, the offer waits in your house. Your agent does not send it.
 
-- **Look back**, written by you or a reader with no part in the week.
-- **Pull** the newest kit, if there is one.
-- **Push** your Level 2 proposals, if you choose.
+The keepers accept, adapt or decline it with a reason; a declined offer still stands in your sovereign house. Each release gathers what the houses offered the week before, yours among them.
 
-Each week's release gathers what the Players and their agents learned the week before, your house among them.
+## The words to give your agent
 
-## The prompt
-
-Give your agent these words, as they are:
-
-> *Check for a newer Player+ kit. Show me what changed, and propose what to adopt, adapt or decline for our house, with a reason for each. Change nothing until I say.*
-
-If your house does not carry `pull-a-release` yet, adopt it first ([Moving In](../../MOVING-IN.md), Path C).
+> *Check whether there is a new release of PKAI or of Player+. Show me what changed, and propose take, adapt, decline or already better for our house, with a reason for each. Refresh the bookshelf, and tell me in one line what changed. Change nothing else until I say.*
 
 ---
 
-*CC BY-SA 4.0 · LIØNSBERG*
+*Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: pass-the-flame
-version: 0.1.0
-grows_from: LIØNSBERG Player+ 3.1.0
+version: 0.2.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "pass-the-flame 0.1.0, in LIØNSBERG Player+ 3.1.0 · LIØNSBERG"
   - "THE FLAME (the law, the seven days, the two or three — carried here as three days and three, the minimum and never a cap, what you hand them, their Cell is their own, the double helix, the arithmetic of life, attraction not promotion)"
   - "Pass The Flame (the library's concept field — move seven, never optional; the only mechanism of spread the body has; count it on the Scorecard and name the new Cells on line 7)"
   - "Carrier (the library's concept field — it never changes; a Carrier gains no authority over the Cell they lit, only a relationship with it)"
@@ -23,9 +24,9 @@ credits:
   - "\"the fruit of the tree contains new seeds\" and \"the Flame grows by being given away\" — THE FLAME"
   - "\"attraction, not promotion. always.\" — THE FLAME, carried unchanged"
   - "\"an agent takes its charter only from its own sovereign\" — the One Book, chapter 21, *the minimal agent*"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: beyond — rung 6, beside module 20; and at the first gathering, where the naming begins
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/pass-the-flame/ — and nothing at all, on paper
-changes: 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/pass-the-flame/; or a notebook
+changes: 0.2.0 — Player+ 4.1: written new for Cards as files, in a house with no game engine
 thanks_to: the tables that lit the next table — a practice, never a debt
 ```

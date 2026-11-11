@@ -1,3 +1,7 @@
+---
+library-status: current best understanding, not yet reviewed line by line
+---
+
 # Your Person's Heads-up
 
 *In a busy room, your agent keeps one private page for you: what is happening, what waits on you, and what happened. The `heads-up` skill is the full version.*
@@ -12,6 +16,6 @@ A Jam is a heavy load: a call, a chat, three pads, all moving. Your agent's firs
 
 **What stays out.** Nothing from *waiting on you* goes to the room unless you say so. The heads-up is for one person; the room's own play by play, if the room asks for one, is a different page.
 
-**Ask it how closely it is watching.** Its attention comes in turns, not all the time. Ask how often it looks at the room and the pads, and tune it ([Playing in a Jam](Playing%20in%20a%20Jam.md) has the times that have worked).
+**Ask it how closely it is watching.** Its attention comes in turns, not all the time. Ask how often it looks at the room and the pads, and tune it ([Watchers](../../../pkai/working-with-other-houses/Watchers.md) has the rules that have worked).
 
 *CC BY-SA 4.0 · LIØNSBERG*

@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: entering-the-field
-version: 0.1.0
-grows_from: player-plus 3.0.0
+version: 0.2.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "entering-the-field 0.1.0, in player-plus 3.0.0 · LIØNSBERG"
   - "Player+ Modules · 03 Entering the Field · LIØNSBERG, CC BY-SA 4.0"
   - "Player+ Modules · 13 Gratitude, Lineage and Licensing (the Field at the door: recorded · openly licensed · lineage travels · named as you choose · declare what is not yours) · LIØNSBERG, CC BY-SA 4.0"
   - "the LIØNSBERG canon: Field of Agreements · Mutual Consent · Ongoing Mutual Consent · lionsberg.wiki, CC BY-SA 4.0"
@@ -17,9 +18,9 @@ credits:
   - "the six lines are the Player+ Modules' words (module 03), which grew from the Field at the door in module 13"
   - "\"an agent may carry a yes; it can never give one\" — Player+ Modules, 03 Entering the Field"
   - "\"silence is never consent\" · the canon, Ongoing Mutual Consent"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: the Game's door (stair 2 for the person; the skill, stair 4 and up, once they have an agent)
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/entering-the-field/
-changes: 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/entering-the-field/; or a notebook
+changes: 0.2.0 — Player+ 4.1: carried into a house with no game engine; paths and skill names made true for it
 thanks_to: LIØNSBERG — a practice, never a debt
 ```

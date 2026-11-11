@@ -5,9 +5,10 @@ This skill travels alone, so it carries its own lineage, credits and licence. If
 
 ```yaml
 name: the-offering
-version: 0.1.0
-grows_from: LIØNSBERG Player+ 3.1.0
+version: 0.2.0
+grows_from: player-plus-kit 4.1.0
 lineage:
+  - "the-offering 0.1.0, in LIØNSBERG Player+ 3.1.0 · LIØNSBERG"
   - "The Offering (the library's concept field — nobody sets your amount; the two disciplines, free and counted honestly; line 8 with its unit)"
   - "The One Book, 21 In Every Future — what to do in each case, THE PAGE — *The Offering by hand* (the box, the slips, the Keeper's in · out · held, the share carried inward by hand)"
   - "The One Book, 21 In Every Future — THE PAGE, *Protocol 1 — The Middle of the Table* (no accounts, no balances, no one is owed anything; a number without a unit is a lie waiting to happen; keep the pools small and moving)"
@@ -21,9 +22,9 @@ credits:
   - "\"an offering extracted or socially compelled is a subscription with better manners\" — the concept field, The Offering, and chapter 21"
   - "\"a tenth is the old measure, and most people begin somewhere near it and grow\" — THE GAME, carried without a target attached"
   - "the three numbers in · out · held, with the unit, are chapter 21's own instrument"
-pull_from: (the Player+ release)
+pull_from: (the Player+ release; its address is in the house LINEAGE.md, under player_plus)
 offered_at: the table — rung 2, at the weekly Turn; beside module 15
-needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-offering/ — and nothing at all, on paper
-changes: 0.1.0 — first release
+needs: Claude Code with skills enabled; installed at <agent home>/.claude/skills/the-offering/; or a notebook
+changes: 0.2.0 — Player+ 4.1: carried into a house with no game engine; paths and skill names made true for it
 thanks_to: the bowl in the middle of the table — a practice, never a debt
 ```
