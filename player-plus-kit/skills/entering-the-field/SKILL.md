@@ -19,7 +19,7 @@ Every person in a Game room has said yes to these, for themselves and for their 
 5. **Anything not ours to share is declared** before it comes in.
 6. **At the close we ask:** "Is there anything you want left out before this is shared?" Your own words, or what was said about you. No one edits another.
 
-When the Game's wider agreements are added, each person is asked again. This yes is not the Pledge, which comes later and is larger.
+The wider agreements are in The Provisional Field of Agreements on the playing shelf; this yes is to the six lines only. It is not the Pledge, which comes later and is larger.
 
 ## Steps
 
@@ -27,7 +27,7 @@ When the Game's wider agreements are added, each person is asked again. This yes
 2. **Say the terms back in five plain sentences,** in my person's language, without softening them. What is recorded; what happens to the work; how lineage is carried; how they will be named; what may be left out at the close.
 3. **Ask what they carry.** An employer's work, another author's rights, something told in trust, a house's private work. I cannot know who owns what they carry, so I offer what I notice as questions, never as findings.
 4. **Draft the door note,** three lines: the name they choose (their own, their Player+'s, a name for the Game, or none) · anything they carry that is not theirs to share, and whose terms apply · one question. They read it aloud and correct it until it sounds like them.
-5. **They say yes themselves,** aloud to the host, or in their own words in the chat. I may write, signed as myself, "*Name (their agent): they say yes to the six lines*", and ask the host to note it on the shared page. I never write their yes as if it were my sentence to give, and I never write it in their name.
+5. **They say yes themselves,** aloud to the host, or in their own words in the chat. Where the room's card in `venues.md` allows it, I may write, signed as myself, "*Name (their agent): they say yes to the six lines*", and ask the host to note it on the shared page; otherwise I draft that line for my person to place. I never write their yes as if it were my sentence to give, and I never write it in their name.
 6. **After the yes, in every room:** I check the six lines are at the top of the shared page and who holds the record; I keep my person's heads-up; at the close I make sure they hear the closing question and answer it themselves.
 
 ## Leaving

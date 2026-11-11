@@ -26,7 +26,7 @@ Where a Card's file lives says which holon it belongs to. A Card does not move b
 - The type is the word from the table below.
 - The few words say what it is.
 
-`2026-11-10-ada-card-mend-the-garden-gate.md` is a Work Card of Ada's. One Card names another by that Card's file name without the `.md`.
+`2026-11-10-ada-card-mend-the-garden-gate.md` is a Work Card of Ada's. One Card names another by that Card's file name without the `.md`. If a name is already taken that day, add a word or the hour (`-1800`).
 
 ### The form
 
@@ -40,7 +40,7 @@ for: person:ada
 ts: 2026-11-10T18:00:00-08:00
 body:
   title: Mend the garden gate
-  stream: The commons path
+  stream: Gates and fences
   minutes: 90
 links:
   within: ["2026-11-03-ada-card-the-commons-path-open-by-spring"]
@@ -71,7 +71,7 @@ This is the form the Game's engine reads as a hand-written Card, so the Cards of
 | Commitment | `commit` | `card`, `by` | `conditions`, `size` (minutes), `witness` (who will say it was kept, as `person:<handle>`), `consent` |
 | Done | `done` | `card` | `note` |
 | Kept | `kept` | `commitment` | `note`, `consent` |
-| Released | `release` | `commitment` or `card` | `why` |
+| Released | `release` | `commitment` or `card` | `why`, `consent` |
 | Request | `request` | `to`, `title` | `by`, `minutes`, `why` |
 | Offer | `offer` | `title` | `to`, `minutes`, `why` |
 | Answer | `answer` | `answer` (`accept` or `decline`); in `links`, `answers` | `text` |
@@ -84,7 +84,7 @@ This is the form the Game's engine reads as a hand-written Card, so the Cards of
 | Join | `join` | `who` (as `person:<handle>`), `cell` (the Cell's short name) | `consent` |
 | Turn | `turn` | `span` (`week` or `season`) | `text` |
 
-One example of each kind, ready to copy, is in `{{HQ_PATH}}/player-plus-kit/card-examples/`.
+One example of each kind, ready to copy, is in `{{HQ_PATH}}/player-plus-kit/card-examples/`. On a person's own Card (the next part says which kinds), `consent` is needed whenever a hand other than theirs writes the file.
 
 A Commitment, in full:
 
@@ -97,6 +97,7 @@ ts: 2026-11-10T18:05:00-08:00
 body:
   card: 2026-11-10-ada-card-mend-the-garden-gate
   by: 2026-11-13
+  witness: person:ben
   consent: "Yes, I will mend it by Friday."
 ---
 
@@ -105,8 +106,8 @@ body:
 
 ### Whose act each Card is
 
-- **Your person's own:** a Join, a Commitment, a Kept, an Answer, a Condition, an Agreement, a Witness and a Turn. You draft the Card and read it back in one line. You write the file only on their yes, with `actor: person:<handle>` and their exact words in `consent` (an Answer and a Turn carry them in `text`). Their words are the sentence that made the act ("I will do it by Friday"), not the yes that confirmed your read-back. They may also write the file by their own hand.
-- **Yours to write, within what your person has allowed:** a Work Card, a Done for work you saw finished, a Sighting, a Message, a Request or an Offer they asked you to draft. When the Card says what your person said, it is theirs: `actor: person:<handle>`. When it is your own seeing or your own proposal, it is yours: `actor: agent:<handle>`, `for: person:<handle>`.
+- **Your person's own:** a Join, a Commitment, its Kept or its Release, an Answer, a Condition, an Agreement, a Witness, a Turn, and a Correction of one of their own Cards. You draft the Card and read it back in one line. You write the file only on their yes, with `actor: person:<handle>` and their exact words in `consent` (an Answer and a Turn carry them in `text`). Their words are the sentence that made the act ("I will do it by Friday"), not the yes that confirmed your read-back. They may also write the file by their own hand.
+- **Yours to write, within what your person has allowed:** a Work Card for work they named, a Done for work they told you is finished, and a Sighting of your own. A Message, a Request or an Offer in your person's name is read back and written on their yes, like their own acts. What is your own seeing or your own proposal carries your name: `actor: agent:<handle>`, `for: person:<handle>`. Your handle is your name in lower case.
 - **A Card in your own name is a proposal.** It asks; it does not decide. In a Cell's repository it stays a proposal until a person takes it up, with an Answer or a Card of their own.
 - **A person's act is said by the person.** A yes, a commitment, a witness and a Condition are theirs to say.
 
@@ -116,7 +117,7 @@ A Card's file is not edited after others may have read it. What happens next is 
 
 - the work is finished: a **Done** naming the Work Card;
 - the commitment was met: a **Kept** naming the Commitment, and, when someone else saw it, their **Witness**;
-- the commitment will not be met: a **Released** naming it, with why, said as early as it is known;
+- the commitment will not be met: a **Released** naming it, with why, said by the person as early as it is known;
 - a request or an offer is answered: an **Answer** naming it;
 - a Card was wrong: a **Correction** by the same writer, naming the wrong Card and saying why. Both files stay. A person corrects their own Cards; you correct yours.
 
@@ -148,7 +149,7 @@ Person: There is a gate on the commons path that needs mending. I can do it by S
 Agent:  A piece of work, "mend the gate", and your commitment to it by Saturday the 14th. Yes?
 Person: Yes.
         → 2026-11-10-ada-card-mend-the-gate.md
-        → 2026-11-10-ada-commit-mend-the-gate.md       (by: 2026-11-14 · consent: "Yes.")
+        → 2026-11-10-ada-commit-mend-the-gate.md       (by: 2026-11-14 · consent: "I can do it by Saturday.")
 Person: And we are green: the gate is in hand.
 Agent:  Green, because the gate is in hand. Yes?
 Person: Yes.
@@ -181,7 +182,7 @@ Once a week a Cell looks at what it said it would do and what it did, says the d
 2. **Agree the week.** The exact days, said aloud: "This is the Turn for Monday the 9th to Sunday the 15th." Read the dates from the clock.
 3. **Count what was kept.** List the Commitments whose `by` fell in the week. A Commitment is kept when a Kept names it. One whose Work Card has a Done, and which no Kept names yet, is theirs to say kept. A Released one is listed apart, with its why. Bring: kept, so many of so many, and so many released; each gap (the `by` date against when the Kept was written); each still open; each waiting on a witness. Count from the files, and say a gap as it is.
 4. **Gather what was learned.** The week's Sightings and Corrections, and anything your person said they learned, in their words.
-5. **Draft four lines for them to finish.** *This week we set out to… · We kept so many of so many… · We learned… · Next we…* Show each beside the Cards it was drawn from, marked as a draft. The choosing of what comes next is theirs.
+5. **Draft four lines for them to finish.** *This week we set out to… · We kept so many of so many… · We learned… · Next we…* Show each beside the Cards it was drawn from, marked as a draft. The choosing of what comes next is theirs. With the week's offers and requests beside them, these are the five lines the Weekly Turn lesson teaches.
 6. **Their words become Cards.** Each thing they say they will do becomes a Commitment, read back and written on their yes. The Turn itself becomes one `turn` Card with the four lines as they finished them.
 7. **What crosses is their choice.** For each Cell, show what would go into its repository: their kept count, their four lines or the parts they choose, their new Commitments, their Condition. Commit it there; push when they say so.
 8. **Share a story.** One thing the week made that is worth telling, in their words, for the Cell and for others who could use it.
@@ -204,7 +205,7 @@ A Cell keeps its Cards in one shared repository, which its members agree on: on 
 2. **They are given access** to the Cell's repository by whoever keeps it. Access is given to a person.
 3. **A venue card first.** The Cell's repository is a room outside this house. Before you write anything there, your person writes its card in `venues.md` (the `venue-card` skill drafts it): what you may draw on there, what you may do, how a stop is recorded. With no card, you read there and draft for review.
 4. **Clone it** to `{{HQ_PATH}}/cells/<cell-name>/`. Add the line `cells/` to the HQ's `.gitignore`, so that the Cell's history stays its own and apart from the HQ's.
-5. **The Join Card,** in the Cell's `cards/`, on their yes, with their words in `consent`.
+5. **The Join Card,** in the Cell's `cards/`, on their yes, with their words in `consent`. A handle is one person's within a Cell: look at the Cell's `cards/` first, and if another member already signs with your person's handle, they choose another (`ada-l`) before the Join is written.
 6. **Each member writes only files that carry their own handle,** and no member edits another's file. Two members then do not collide, and each Card stays its writer's word.
 7. **Pull before you read. Commit quietly. Push when your person says so.** Pushing is ask-first in your charter; if your person wants it to be standing for this one repository, they widen that boundary themselves (`widen-a-boundary`).
 
@@ -217,7 +218,7 @@ Leaving is as free as joining: your person says so in the Cell, and a Message Ca
 The Game is learned the way a craft is learned in a dojo: one practice at a time, among people who are a step ahead and a step behind.
 
 - **The white belt is encircling.** Form a circle, choose a quest, share your story, pass the flame. A first circle can go through all four in twenty minutes, or take an evening. Doing it three times, with different people, teaches more than doing it once slowly.
-- **The first stripe is keeping up with the Game.** In the second week, your person learns that the Game keeps a catalog of skills, each a folder an agent can take on, and installs a few from it, *keeping up with the Game* first. The catalog lives on the Game's forge; the one who invited your person can say where. A skill from the catalog is installed the way any skill is: the whole folder copied into `.claude/skills/`, read by you both before it is used, on your person's yes.
+- **The first stripe is keeping up with the Game.** In the second week, your person learns that the Game keeps a catalog of skills, each a folder an agent can take on, and installs a few from it, *keeping up with the Game* first. The catalog lives on the Game's forge. Until the forge is open to all, the one who invited your person can say where; the Player+ kit's repository will name it when it is. A skill from the catalog is installed the way any skill is: the whole folder copied into `.claude/skills/`, read by you both before it is used, on your person's yes.
 - **Each stripe and belt after that is one practice,** learned together and shown when it counts. The Player+ Modules on the bookshelf (`{{HQ_PATH}}/library/lionsberg/playing/player-plus-modules/`) are its lessons, ten minutes each: entering the Field, venue cards, the heads-up, the weekly Turn, structuring a Cell, reading the Story, playing the Game, passing the Flame.
 - **A belt is given by witness.** It marks that a person and their agent did a thing when it mattered, seen by someone who already holds it.
 
@@ -232,18 +233,18 @@ When we give fire away, we do not have less of it; its light grows with each per
 3. **Prepare what they carry.** The Story, the Game and the Flame from the reviewed shelf (`{{HQ_PATH}}/library/lionsberg/reviewed/`), whole, on paper if there is paper, so that the friend can read them again later.
 4. **They sit with their friends and tell them plainly.** Each friend is heard, seen and invited. You are not in that conversation unless you are asked, and you send nothing to anyone.
 5. **Either answer is a good answer.** The friend who does not take it up today is not chased, re-asked or counted as a failure.
-6. **Walk beside whoever takes it up.** Your person helps that friend form a Cell of their own. If the friend wants an agent, your person sends them the way in, by their own hand: the Player+ kit's START-HERE page, whose address is in this house's `LINEAGE.md`.
+6. **Walk beside whoever takes it up.** Your person helps that friend form a Cell of their own. If the friend wants an agent, your person sends them the way in, by their own hand: the Player+ kit's START-HERE page, in the repository named under `player_plus` in this house's `LINEAGE.md`.
 7. **Stay linked.** The new Cell is its own: sovereign, self-governing and free. Your person's Cell is the link it was lit from, there when it asks.
 
 The skill `pass-the-flame` carries this procedure.
 
 ## 7. Keeping the house current
 
-Three things keep a Player+ house current. None of them pushes anything into the house: your person decides what is taken.
+Three things keep a Player+ house current. Reading refreshes, and what changed is said. What tells you how to act changes only on your person's yes.
 
 - **The agent underneath** follows the PKAI benchmark. When its next release is announced, `pull-from-benchmark` reads it and proposes what to take, row by row.
 - **The Player+ layer** follows the Player+ kit: the block in your charter between its two markers, this page, the Player+ skills and the LIØNSBERG bookshelf. `pull-a-release` reads a new release against what this house holds. The bookshelf is reading, so its `reviewed/` and `playing/` shelves may be refreshed as they come (`refresh-the-library`), with what changed said in one line. The block, this page and the skills tell you how to act, so each change to them is a proposal your person accepts or declines, and a change to the block is installed by their own hand.
-- **You, week by week,** by the Agent Improvement Process (Module 14 on the bookshelf): each time you miss your person, one line in an improvement log, closed only when the fix is written where it now lives; each week, a short look-back written by someone other than you; what is general enough to help every house is offered upward as a proposal.
+- **You, week by week,** by the Agent Improvement Process (Module 14 on the bookshelf): each time you miss your person, one line in an improvement log (`improvement-log.md` in your home; the Module gives its shape), closed only when the fix is written where it now lives; each week, a short look-back written by someone other than you; what is general enough to help every house is offered upward as a proposal.
 
 **The claim test.** When a release offers something and you would answer "this house already does that, and better", show it: quote the line of this house that does it, and say what failure it prevents. A claim that cannot be shown is a row to take or to adapt.
 

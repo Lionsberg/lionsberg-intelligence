@@ -31,9 +31,9 @@ Everything your agent knows is plain text you can read: its memory, its session 
 The Game plays on paper:
 
 - **The six sentences on a sheet:** *I join this Cell · here is a piece of work · I will do it by Friday · it is done · yes, that works for me · we are green.*
-- **The Turn on one page:** what you did and the gap, what you will do, what you learned, what you offer, what you ask ([The Weekly Turn](../player-plus-modules/15%20The%20Weekly%20Turn.md)).
+- **The Turn on one page:** what you set out to do, what you kept, what you learned and what comes next, with the week's offers and requests beside them; these are the five lines [The Weekly Turn](../player-plus-modules/15%20The%20Weekly%20Turn.md) teaches.
 
-When the agent is back, it can copy the paper into Cards, reading each one back to you; the ones that are your own act are written on your yes. Where the paper and the files disagree, the paper is the record.
+When the agent is back, it can copy the paper into Cards, reading each one back to you; the ones that are your own act are written on your yes. Where a Card copied from paper disagrees with the paper, the paper wins; a Correction Card sets it right.
 
 If the account is gone for good, the house still stands. An agent on a new account reads the same folders and picks up where the text leaves off.
 

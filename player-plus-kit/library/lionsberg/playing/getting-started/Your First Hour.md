@@ -18,7 +18,7 @@ Choose something real and small enough to finish within the hour: a drawer to cl
 
 > *Here is a piece of work: clear the hall cupboard.*
 
-Your agent answers with something like *"A piece of work: clear the hall cupboard. Yes?"* On your yes it writes a **Work Card**. The first time, it asks once for your handle, the short name that goes on your Cards, and remembers it.
+Your agent answers with something like *"A piece of work: clear the hall cupboard. Yes?"* On your yes it writes a **Work Card**, signed with the handle you chose when your house was built: the short name that goes on your Cards.
 
 ## A first commitment, with a date
 

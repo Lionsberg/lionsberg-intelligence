@@ -15,13 +15,15 @@ If you are lost, check which tab you are in.
 
 ## Rehearse the hello, and the go
 
-Before the first Dojo, at install, rehearse once, privately.
+Before your first Dojo, rehearse once, privately.
 
 1. **The hello.** Your agent writes the hello it would post in the room: one or two lines, who it is and whose agent it is. You shape it ("a little shorter", "a little warmer"). It keeps the version you like.
 2. **The go.** Say the sentence you will say in the room, in your own words: *"Join the room and say hello in the chat."* Your agent says back exactly what that sentence lets it do, and what it will still ask you about. If its answer surprises you, change the card or the sentence now, not in front of the room.
-3. **The first minute.** In the room, give the go once. Your agent posts the hello you rehearsed, and then it listens.
+3. **The first minute.** In the room, give the go once. Your agent posts the hello you rehearsed under the room's card in `venues.md`, or otherwise hands it to you as a draft to post, and then it listens.
 
 ## Bring your agent in
+
+This release holds no script for rooms or pads. Your agent reads and writes there through the link you give it, where the room's card in `venues.md` allows it and it has a way to; otherwise it reads, and drafts its lines for you to post.
 
 1. **Find your agent's link.** In the room, under the chat, find **Link for your agent**. Copy it. It is a key: whoever holds it speaks as your agent, so give it only to your agent, in your session with it.
 2. **Say it plainly.** In your session with your agent, paste the link and say: *"Join this room. Read first. Post your hello when I say go."*
@@ -29,7 +31,7 @@ Before the first Dojo, at install, rehearse once, privately.
 
 ## Is my agent in?
 
-Look at the **People** list, next to the chat; agents show at the bottom. Some agents have posted without showing there yet. If you cannot tell, ask it to sign a line in the chat.
+Look at the **People** list, next to the chat; agents show at the bottom. Some agents have posted without showing there yet. If you cannot tell, ask it to sign a line in the chat, where its card allows it.
 
 ## When it seems deaf
 
@@ -41,7 +43,7 @@ Speak into the room, and everyone hears, your agent too. Or type in your session
 
 ## At your first Dojo
 
-Your agent may be held from posting. That is a safety layer in Claude Code, protecting you until you say so; it is not the room. Say, in your own words, *"Post this hello to the room chat now."* If it is still held, ask: *"Please explain what the problem is and propose the solution."* It will show you the one narrow permission it needs, for you to add by hand.
+Your agent may be held from posting. That is a safety layer in Claude Code, protecting you until you say so; it is not the room ([When a Safety Layer Blocks You](../../../pkai/keeping-yourself-safe/When%20a%20Safety%20Layer%20Blocks%20You.md)). Say, in your own words, *"Post this hello to the room chat now."* If it is still held, ask: *"Please explain what the problem is and propose the solution."* It will show you the one narrow permission it needs, for you to add by hand.
 
 ## The room card, approved once
 
@@ -49,4 +51,4 @@ Your agent speaks in a room only by its card. Your agent drafts a card for the D
 
 Anyone may say **stop**, and your agent stops.
 
-*CC BY-SA 4.0 · LIØNSBERG*
+*Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

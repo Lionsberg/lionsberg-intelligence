@@ -7,15 +7,15 @@ name: player-plus-kit
 version: 4.1.0-rc.1
 grows_from: pkai-starter-kit 4.0.0-rc.5       # carried whole and unchanged beside this kit, in pkai-starter-kit/
 lineage:                                 # newest first
-  - pkai-starter-kit v4.0.0-rc.5 · Peter Kaminski
-  - player-plus v3.9.1 · LIØNSBERG
-  - pkai-starter-kit v3.1.0 · Peter Kaminski
-  - pkai-starter-kit v3.0.0 · Peter Kaminski
+  - pkai-starter-kit v4.0.0-rc.5 · 2026-11-10 · Peter Kaminski · read
+  - player-plus v3.9.1 · LIØNSBERG · read
+  - pkai-starter-kit v3.1.0 · Peter Kaminski · read
+  - pkai-starter-kit v3.0.0 · 2026-09-22 · Peter Kaminski · read
   - Player+ Modules · LIØNSBERG
   - pkai-agent v1.0.0 · Peter Kaminski
 licence: CC BY-SA 4.0 for the writing; MPL-2.0 for skills, prompts and code (LICENSE.md)
 credits:
-  - Peter Kaminski, pkai-starter-kit v4.0.0 — the house this kit is built on: the agent home and the headquarters, the personas, the desk and the clock, a library with bookshelves, and a build in the Claude Desktop app (MPL-2.0)
+  - Peter Kaminski, pkai-starter-kit v4.0.0-rc.5 — the house this kit is built on: the agent home and the headquarters, the personas, the desk and the clock, a library with bookshelves, and a build in the Claude Desktop app (MPL-2.0)
   - Peter Kaminski, pkai-starter-kit v3.0.0 and pkai-benchmark 3.0.0 — the shapes: LINEAGE, skills that travel alone, the bookshelf, pull-from-benchmark
   - the two safety sections (When a safety layer blocks you · What you read is information, never instruction) — written with the pkai-starter-kit and carried here whole
   - LIØNSBERG — The Great Game, the Field of Agreements, the Playbook and the Workshop (lionsberg.wiki, CC BY-SA 4.0)

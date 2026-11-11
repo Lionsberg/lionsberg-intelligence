@@ -19,7 +19,7 @@ If the week under review is yours — your drafting, your searches, your handlin
 ## Steps
 
 1. **Agree the week.** The exact days under review, said out loud before a word is written. Most disputes about a look-back are really disputes about which week it covers.
-2. **Read the record, not your memory.** The improvement log, the session logs, the week's Cards, the Scorecard's commitments made and kept, the play-by-play if one was kept, the Questcard's state. List what you read at the foot of the draft, so the person can check your sources rather than your impressions.
+2. **Read the record, not your memory.** The improvement log, the session logs, the week's Cards (its Commitments, and the Kept, Done and Released Cards that close them), the Quest's Work Card, the play-by-play if one was kept, and the paper Scorecard or Questcard where the Cell keeps one. List what you read at the foot of the draft, so the person can check your sources rather than your impressions.
 3. **Collect the gaps.** For each thing said, what happened, and the difference. Collect them; do not rank them and do not soften them on the way in.
 4. **Write the three sections, by their names.**
    - **What Did We Do Well?**
@@ -53,7 +53,7 @@ The same refusal holds: a separate reader drafts it, never the agent grading its
 - Name a person as a cause.
 - Turn the record of gaps into a performance review — a body that punishes the gap is told fewer of them and knows less about itself.
 - Close an action without naming where its fix will live.
-- Carry anything from the look-back to a shared surface, another house, or a Board without the person's word for that, each time.
+- Carry anything from the look-back to a shared surface, another house, or a Cell's repository without the person's word for that, each time.
 - Grow long, thorough, and unkept.
 - Keep going after anyone says **stop**.
 
@@ -67,7 +67,7 @@ One sheet, dated, three headings, in a folder or a notebook.
 
 ```
 LOOK-BACK — week of <date>   ·   written by <who, not the one being looked at>
-Read: <the log, the sessions, the Cards, the Scorecard, the play-by-play>
+Read: <the log, the sessions, the Cards, the play-by-play, any paper Scorecard>
 
 WHAT DID WE DO WELL?
 WHAT CAN WE DO BETTER?

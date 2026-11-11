@@ -24,7 +24,7 @@ The download holds two folders, and both stay in the HQ for reference:
 
 ## Read first, build second
 
-Read, in this order: `pkai-starter-kit/BUILD.md` and what it names (`ARCHITECTURE.md`, `REQUIREMENTS.md`, `skills/README.md`, the three personas); then this page whole; then `player-plus-kit/RELEASE.md`.
+Read, in this order: `pkai-starter-kit/BUILD.md` and what it names, each in that kit's folder (`pkai-starter-kit/ARCHITECTURE.md`, `pkai-starter-kit/REQUIREMENTS.md`, `pkai-starter-kit/skills/README.md`, the three personas); then this page whole; then `player-plus-kit/RELEASE.md`.
 
 ## What Player+ adds, step by step
 
@@ -34,6 +34,8 @@ The step numbers are the starter kit's.
 
 - After the unzip, both `pkai-starter-kit/` and `player-plus-kit/` sit directly in the HQ. If either unzipped under another name or one folder deeper, move it there. If the unzip reported an error, or stopped partway, remove what it left and extract again with `tar -xf`, which is on every Mac and on Windows 10 and later.
 - The downloaded zip is not part of the house. Once both folders are in place, say so and remove it, with their yes.
+- **If `pkai-starter-kit/` is not there,** say so and stop. This kit builds on it, and every step below needs its pages.
+- **A house the starter kit already built.** If a `<Name> (agent)` folder is already at the top of their home folder and its `CLAUDE.md` holds no Player+ block, the starter kit's page says how to tell a resumed setup from a second agent or a repair. To add Player+ to that house, with their yes, do only the six additions of step 5 below, the look at what you built, and the breath of orientation; the starter kit's own steps are already done.
 - **An earlier Player+ house.** If their home folder holds a folder named `My Agents`, or a folder named `HQ` with an agent's files in it, an earlier Player+ kit built a house here. Say so, tell them that this release does not change that house and that they can keep using it, and stop. Build nothing over it.
 - Both kits are reference. Change no file in either, and push nothing, to any repository. The build moves two folders out of them into the house, each kit's library, as the steps say; nothing else leaves them.
 
@@ -47,7 +49,7 @@ Keep their exact words and the date for the agent's memory.
 
 The health check, the three names and the persona are the starter kit's, as written. Recommend what that page recommends.
 
-Ask one thing more, after the three names: **the short name they will sign their Cards with.** A handle: lower case, no spaces, usually their first name (`ada`). Offer their first name as the default.
+Ask one thing more, after the three names: **the short name they will sign their Cards with.** Say first what a Card is, in one line: one plain file for each piece of play, such as a piece of work named or a commitment made. A handle is lower case with no spaces, usually their first name (`ada`). Offer their first name as the default. Their agent's handle is its name in lower case (`river`).
 
 ### Step 5, the build: six additions
 
@@ -58,18 +60,18 @@ Do the starter kit's step 5 in full. Then, before its step 6:
 3. **The Player+ skills.** Copy every folder in `player-plus-kit/skills/` into `<agent home>/.claude/skills/`, each one whole, so that its licence and its lineage travel with it. There are sixteen.
 4. **The lineage.** In the agent home's `LINEAGE.md`, after you have made it the house's own as the starter kit says, add one line at the top of its `lineage` list, above the starter kit's entry:
 
-   `  - player-plus-kit v<version> · <today's date> · LIØNSBERG · read`
+   `  - player-plus-kit v<number> · <today's date> · LIØNSBERG · read`
 
    and add these three lines to the block, after the `pull_from` line:
 
    ```yaml
    player_plus:                              # the Player+ layer this house also grows from
-     version: <version>
+     version: <number>
      pull_from: https://github.com/Lionsberg/lionsberg-intelligence   # read its CHANGES.md; the pull-a-release skill
    ```
 
-   The version is the one in `player-plus-kit/VERSION.md`, written without its leading `v` after `version:`.
-5. **The memories.** In `memory/waiver_agreed.md`, name both waivers. In `memory/origin.md`, add one or two sentences: that the house carries Player+, with its version; that the Player+ block is in the charter between its two markers; and where the Cards and the LIØNSBERG bookshelf are. Write one more memory, `memory/card_handle.md`, a `user` memory with its line in the index: the short name they sign their Cards with.
+   `<number>` is the version in `player-plus-kit/VERSION.md` without its leading `v` (`4.1.0-rc.1`), so that the lineage line reads `v4.1.0-rc.1` and the block reads `version: 4.1.0-rc.1`.
+5. **The memories.** In `memory/waiver_agreed.md`, name both waivers. In `memory/origin.md`, add one or two sentences: that the house carries Player+, with its version; that the Player+ block is in the charter between its two markers; and where the Cards and the LIØNSBERG bookshelf are. Write one more memory, `memory/card_handle.md`, a `user` memory with its line in the index: the short name they sign their Cards with, and your own handle beside it.
 6. **The HQ.** After the starter kit's library move (its step 5.8):
    - Move `player-plus-kit/library/lionsberg/` to `<HQ>/library/lionsberg/`, so that the two bookshelves sit side by side. Move it; do not copy it. Then remove the empty `player-plus-kit/library/` folder.
    - Copy `player-plus-kit/template/hq/cards/` to `<HQ>/cards/`. It holds one page, which says what the folder is for.
@@ -113,4 +115,4 @@ The starter kit's page says what to do when a build is interrupted, when an inst
 - You do not start their agent yourself, and you do not write to the agent's home after the hand-over.
 - You do not send anything anywhere, and you push to no repository.
 
-*Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*
+*Current best understanding, loosely held · improved each week. MPL-2.0 · LIØNSBERG*

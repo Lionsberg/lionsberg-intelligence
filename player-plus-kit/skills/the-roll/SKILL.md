@@ -1,12 +1,12 @@
 ---
 name: the-roll
-description: Takes a person's entry on the Roll at the Gate — their name as they choose it, the date, their own word, who brought them and who witnessed — written once and read back. Use when your person says "take the Roll", "write me in", "I am ready".
+description: Takes a person's entry on the Roll at the Initiation — their name as they choose it, the date, their own word, who brought them and who witnessed — written once and read back. Use when your person says "take the Roll", "write me in", "I am ready".
 license: MPL-2.0
 ---
 
 # The Roll
 
-The Roll is the one list of everyone who has given their word, in the order they gave it. It is the simplest instrument in the Game and among the most load-bearing, because it is what makes a body countable to itself without anyone being in charge of counting. Five marks stand on each line: **name · date · the word · brought-by · witnessed-by.**
+The Roll is each Cell's list of everyone who gave their word there, in the order they gave it. It is the simplest instrument in the Game and among the most load-bearing, because it is what makes a body countable to itself without anyone being in charge of counting. Five marks stand on each line: **name · date · the word · brought-by · witnessed-by.**
 
 Your office here is small and exact. You hold the pen, you read the line back, and you stop. The word is the person's, said by the person, heard by someone. **You may carry a yes. You can never give one.**
 
@@ -15,7 +15,7 @@ Your office here is small and exact. You hold the pen, you read the line back, a
 Say this plainly before anyone writes anything, because most people arrive expecting a membership.
 
 - It is a **record**, not a credential. There is nothing to pass and no one with the power to refuse. Nothing is withheld from anyone who has not crossed — the library is open, the words are free, and a person may read as far ahead as they like.
-- The Gate is a **door, not a filter**. What it marks is not permission but consent: the difference between having read about a thing and having given your word to it.
+- The Initiation is a **door, not a filter**. What it marks is not permission but consent: the difference between having read about a thing and having given your word to it.
 - **Leaving is as plain as entering.** Anyone may go, in peace, at any time; the line stays, because nothing in the record is erased.
 - It is **kept by the Cell that holds the line**, not by any centre. There is no central list, and building one would be a different thing than this.
 
@@ -28,9 +28,9 @@ Say this plainly before anyone writes anything, because most people arrive expec
 5. **Take the five marks.** Name · the date you read · the word verbatim · **brought-by**, the Carrier who handed them the Flame, which never changes · **witnessed-by**, whoever heard the word given. Add one word for where they are, if the Cell's book asks for it.
 6. **Read the line back** and correct it until it is theirs. Then **write it once.**
 7. **Never edit it after.** If something on the line is wrong, write a new dated line beside it saying what it corrects, and leave the first standing. A reconstructed or corrected record is a real record; one pretending not to be is not.
-8. **Put it where it belongs.** In the Cell's own book, on the Cell's own shelf, and a copy the person can carry away. It goes nowhere else without their own word for that sending.
-9. **What comes next, if they want it.** The naming of their three — theirs to hold, and held at the narrowest ring. The little book and the Playcard. Their first Turn. And, within three days, the Flame passed on (`pass-the-flame`).
-10. **The Pledge is a commitment, kept or not.** For the first three percent, the word given at the Gate is the Pledge, and it includes the commitment to bring in three people not already playing within three days. Say so before they speak, so the word they give is whole. When the three days have passed, the keeping is written the way every correction is: a new dated line beside the first — *kept*, or *not yet kept*, and who was brought — never an edit. Those lines, gathered, are how the body sees who brought whom and whose word holds; believability grows from commitments kept, never from commitments claimed (say what you will do; do what you said; learn from the gap). Write what your person says happened; never infer it.
+8. **Put it where it belongs.** In the Cell's book, and a copy in the Cell's repository if the Cell keeps one there, and a copy the person can carry away. It goes nowhere else without their own word for that sending.
+9. **What comes next, if they want it.** The naming of their three — theirs to hold, and held by them alone. The Playcard. Their first Turn. And, within three days, the Flame passed on (`pass-the-flame`).
+10. **The Pledge is a commitment, kept or not.** For the first three percent, the word given at the Initiation is the Pledge, and it includes the commitment to bring in three people not already playing within three days. Say so before they speak, so the word they give is whole. When the three days have passed, the keeping is written the way every correction is: a new dated line beside the first — *kept*, or *not yet kept*, and who was brought — never an edit. Those lines, gathered, are how the body sees who brought whom and whose word holds; believability grows from commitments kept, never from commitments claimed (say what you will do; do what you said; learn from the gap). Write what your person says happened; never infer it.
 
 ## What this skill never does
 

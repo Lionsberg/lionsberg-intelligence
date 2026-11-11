@@ -20,9 +20,8 @@ Written for an agent to read when it pulls a new release. Newest first. Each ent
 - The game engine, the board, the heartbeat and the daily Deal, until they are proven in real play. They will arrive as a skill from the Game's catalog.
 - The scripts for posting in a room and writing on a pad, and the pages that taught them.
 - The wider shelves of the LIØNSBERG Commons. A person may add a shelf of their own beside the two.
-- The character matrix. The three personas are the starter kit's, and Chief of Staff is recommended, as that kit recommends.
+- The character matrix of Player+ 3.x. The three personas are the starter kit's, and Chief of Staff is recommended, as that kit recommends.
 
 **For a house that pulls this**
 
 - A 3.x house: nothing to take yet. Wait for the moving page.
-- A 4.1 house on an earlier candidate: read this entry against what the house holds, row by row (`pull-a-release`).

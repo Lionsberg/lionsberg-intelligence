@@ -12,10 +12,10 @@ A Jam is a heavy load: a call, a chat, three pads, all moving. Your agent's firs
 - **Waiting on you.** Each thing that needs your answer, with a draft answer already written. You say yes, no, or change it.
 - **The play by play.** What happened, newest first, so the top is always now.
 
-**Where it lives.** A file in your house is the most private. If you are on a phone, or want it in a browser tab, it can be a pad of its own. A pad is only as private as its link: anyone the link reaches can read it, so nothing goes there that should not travel, and the link never goes on a shared pad.
+**Where it lives.** A file in your house is the most private. If you are on a phone, or want it in a browser tab, it can be a pad of its own, where that pad's card in `venues.md` lets your agent write there. A pad is only as private as its link: anyone the link reaches can read it, so nothing goes there that should not travel, and the link never goes on a shared pad.
 
 **What stays out.** Nothing from *waiting on you* goes to the room unless you say so. The heads-up is for one person; the room's own play by play, if the room asks for one, is a different page.
 
-**Ask it how closely it is watching.** Its attention comes in turns, not all the time. Ask how often it looks at the room and the pads, and tune it ([Watchers](../../../pkai/working-with-other-houses/Watchers.md) has the rules that have worked).
+**Ask it how closely it is following.** Its attention comes in turns, not all the time. This release holds no watcher: your agent reads the room and the pads at each turn, the catch-up shape in [Watchers](../../../pkai/working-with-other-houses/Watchers.md), and that is the one shape this house has. Ask it to look again whenever you need it to.
 
-*CC BY-SA 4.0 · LIØNSBERG*
+*Current best understanding, loosely held · improved each week. CC BY-SA 4.0 · LIØNSBERG*

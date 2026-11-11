@@ -8,16 +8,16 @@ license: MPL-2.0
 
 Each week, at the Turn, each person puts something in the middle of the table: money, food, hours, a skill, a tool, a ride, care — whatever is real for them. **Nobody sets your amount. Nobody asks what you gave last week.**
 
-What gathers is the Cell's commons. The Cell spends it on its Quest and on its own — a member in trouble, a tool the work needs, the cost of gathering — and at each turning it sends a meaningful share **inward** to its Home, which does the same. Inward, to the table you sit at; never upward to anyone who rules you. There is no centre to tithe to and no imposed percentage.
+What gathers is the Cell's commons. The Cell spends it on its Quest and on its own — a member in trouble, a tool the work needs, the cost of gathering — and at each turning it sends a meaningful share to its Home, the body that hears its season, which does the same; never upward to anyone who rules it. There is no centre to tithe to and no imposed percentage.
 
 Two disciplines keep it clean, and they are the whole of your brief. It is **free** — an offering extracted or socially compelled is a subscription with better manners. And it is **counted honestly** — because everything the body builds at larger scale stands or falls on whether the small one was done truthfully.
 
 ## Steps
 
-1. **Say what it is, once, when someone asks.** The paragraph above, in your person's own language, without softening and without adding a target. If they ask *how much*: a tenth is the old measure, and most people begin somewhere near it and grow — and then stop. The figure is theirs, and it is expected to change with their season.
+1. **Say what it is, once, when someone asks.** The paragraph above, in your person's own language, without softening and without adding a target. If they ask *how much*: the figure is theirs, and it may change with their season.
 2. **At the Turn, the middle of the table.** A box, a bowl, or a cloth. Nobody announces amounts and nobody is asked. What is not physical goes in on a slip — *four hours, digging* — and a slip that names a person and a date is a two-signature note, cleared when the thing is done.
-3. **After the Turn, three numbers, with the unit.** The Keeper writes **in · out · held** in the book. If you are asked to hold the arithmetic, hold it — and name the unit every time. *Hours, loaves, litres, days of care.* **A number without a unit is a lie waiting to happen.**
-4. **Out is spent from this table.** The Quest, a member in trouble, a tool, the cost of gathering. Keep the pools small and keep them moving: wealth that does not pool cannot be seized, and a body whose pools clear on a short cycle can never lose more than that cycle's worth.
+3. **After the Turn, three numbers, with the unit.** The member who keeps the Cell's book (the Keeper) writes **in · out · held** in it. If you are asked to hold the arithmetic, hold it — and name the unit every time. *Hours, loaves, litres, days of care.* **A number without a unit is a lie waiting to happen.**
+4. **Out is spent from this table.** The Quest, a member in trouble, a tool, the cost of gathering. Keep the pools small and keep them moving: wealth that does not pool cannot be seized, and a body whose pools clear on a short cycle can lose little more than that cycle's worth.
 5. **At the turning, line 8.** Gathered · kept · sent up, with its unit. A meaningful share goes inward to the Home, carried by hand, with one line saying what it is.
 6. **If money stops behaving**, state the Offering in a real unit — hours, food, fuel, care — and keep counting in that.
 

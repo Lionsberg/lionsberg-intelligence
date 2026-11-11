@@ -5,15 +5,15 @@ library-status: current best understanding, not yet reviewed line by line
 
 # The Deck — every module, coupled to every skill
 
-*The whole deck on one page, and beside each lesson the folders an agent can take on to help you do it. For the [[Keeper]] who tends the deck, and for the [[Player+]] who wants to see what exists before choosing what to learn.*
+*The whole deck on one page, and beside each lesson the folders an agent can take on to help you do it. For the [Keeper](Lexicon.md) who tends the deck, and for the [Player+](Lexicon.md) who wants to see what exists before choosing what to learn.*
 
 ## What a module is, and what a skill is
 
-A **[[Module|module]]** is a lesson your agent carries and hands you when you need it. It teaches one [[Capability|capability]] a person and their agent need in order to play well together, it takes about ten minutes, and every one of them has a form you can do with a notebook and no agent at all. The deck is the modules: twenty of them and the [[Lexicon]], in the order a [[Player]] meets them.
+A **[module](Lexicon.md)** is a lesson your agent carries and hands you when you need it. It teaches one [capability](Lexicon.md) a person and their agent need in order to play well together, it takes about ten minutes, and every one of them has a form you can do with a notebook and no agent at all. The deck is the modules: twenty of them and the [Lexicon](Lexicon.md), in the order a [Player](Lexicon.md) meets them.
 
-A **[[Skill|skill]]** is a thing your agent can do, published as a folder it can take on. Each folder holds three files: the instructions, its [[Lineage|lineage]], and its [[License|license]]. A skill travels alone, and a skill that arrives without its license and its lineage has lost both. **Copy the whole folder, never one file out of it.** The skills are the hands.
+A **[skill](Lexicon.md)** is a thing your agent can do, published as a folder it can take on. Each folder holds three files: the instructions, its [lineage](Lexicon.md), and its [license](Lexicon.md). A skill travels alone, and a skill that arrives without its license and its lineage has lost both. **Copy the whole folder, never one file out of it.** The skills are the hands.
 
-The two are different sizes of the same care. A lesson can be corrected while you are learning it; a skill is fixed and cannot answer back. So the deck publishes lessons, and a skill is one way a lesson gets packaged for the moment of use. A [[Capacity|capacity]], the proven ability to do the thing when it counts, belongs to neither file. It belongs to you.
+The two are different sizes of the same care. A lesson can be corrected while you are learning it; a skill is fixed and cannot answer back. So the deck publishes lessons, and a skill is one way a lesson gets packaged for the moment of use. A [capacity](Lexicon.md), the proven ability to do the thing when it counts, belongs to neither file. It belongs to you.
 
 ## The deck, in the order a Player meets them
 
@@ -21,49 +21,49 @@ The six rungs are the ladder of The Words in the Order You Meet Them: the door �
 
 ### Rung 1 — the door
 
-- **[[01 Becoming a Player+]]** · What a Player+ is, and three short lists that tell any helper what it may do alone, what it asks first, and what it never does. *Handed:* in the first ten minutes, by the Carrier who brought you the Story, before any agent exists. *Served by:* `check-my-setup`, `choose-a-name`, `save-a-memory`.
-- **[[02 How an AI Agent Works]]** · The layers an agent is built from, so you can work with one without awe and without contempt, and say what it reads, keeps, and cannot know. *Handed:* beside the first lesson, or the first hour your agent forgets something and you wonder why. *Served by:* `save-a-memory`, `find-it-again`, `check-my-setup`.
-- **[[03 Entering the Field]]** · [[The six lines]] of the [[Field of Agreements]], and the [[Door note|door note]] you carry into your first [[Room|room]]: one clear, willing yes. *Handed:* before the first room, and before the Gate. *Served by:* `entering-the-field`, `before-your-first-room`.
+- **[01 Becoming a Player+](01%20Becoming%20a%20Player%2B.md)** · What a Player+ is, and three short lists that tell any helper what it may do alone, what it asks first, and what it never does. *Handed:* in the first ten minutes, by the Carrier who brought you the Story, before any agent exists. *Served by:* `check-my-setup`, `choose-a-name`, `save-a-memory`.
+- **[02 How an AI Agent Works](02%20How%20an%20AI%20Agent%20Works.md)** · The layers an agent is built from, so you can work with one without awe and without contempt, and say what it reads, keeps, and cannot know. *Handed:* beside the first lesson, or the first hour your agent forgets something and you wonder why. *Served by:* `save-a-memory`, `find-it-again`, `check-my-setup`.
+- **[03 Entering the Field](03%20Entering%20the%20Field.md)** · [The six lines](Lexicon.md) of the [Field of Agreements](Lexicon.md), and the [door note](Lexicon.md) you carry into your first [room](Lexicon.md): one clear, willing yes. *Handed:* before the first room, and before the Gate. *Served by:* `entering-the-field`, `before-your-first-room`.
 
 ### Rung 2 — the table
 
-- **[[19 Play the Game]]** · The whole Game on one page: the aim, the one question, the five moves, the week, the season, and the move you make this week. *Handed:* the day you decide to sit at a table with others. *Served by:* `the-roll`, `the-simplest-game`, `join-a-cell`.
-- **[[15 The Weekly Turn]]** · How the Game breathes in and out each week: what we did, what we will do, what we learned, one [[Commitment|commitment]], and what your [[Cell]] sends through the one weekly door. *Handed:* at the first gathering, once a [[Quest|Quest]] is chosen. *Served by:* `the-turn`, `a-gathering`, `the-season-sheet-by-hand`, `the-offering`, `witness-a-commitment`, `the-retrospective`.
-- **[[16 Daily Life]]** · One ordinary day aimed in the morning, held through the hours, and noted before sleep, on one small card that stays yours. *Handed:* the week after the first [[The Turn|Turn]] is kept. *Served by:* `the-season-sheet-by-hand`.
+- **[19 Play the Game](19%20Play%20the%20Game.md)** · The whole Game on one page: the aim, the one question, the five moves, the week, the season, and the move you make this week. *Handed:* the day you decide to sit at a table with others. *Served by:* `the-roll`, `the-simplest-game`, `join-a-cell`.
+- **[15 The Weekly Turn](15%20The%20Weekly%20Turn.md)** · How the Game breathes in and out each week: what we did, what we will do, what we learned, one [commitment](Lexicon.md), and what your [Cell](Lexicon.md) sends through the one weekly door. *Handed:* at the first gathering, once a [Quest](Lexicon.md) is chosen. *Served by:* `the-turn`, `a-gathering`, `the-season-sheet-by-hand`, `the-offering`, `witness-a-commitment`, `the-retrospective`.
+- **[16 Daily Life](16%20Daily%20Life.md)** · One ordinary day aimed in the morning, held through the hours, and noted before sleep, on one small card that stays yours. *Handed:* the week after the first [Turn](Lexicon.md) is kept. *Served by:* `the-season-sheet-by-hand`.
 
 ### Rung 3 — the Gate
 
-- **[[04 Before Your First Room]]** · The pre-flight: your agent reads the invitation and reports back in eight lines: the room, the host, the door, what it would bring, and what it will not do. *Handed:* the day a room is offered to you. *Served by:* `before-your-first-room`, `venue-card`, `check-my-setup`.
-- **[[13 Gratitude, Lineage and Licensing]]** · How what you make says where it grew from, thanks what it grew from, and travels freely: four honest lines, two sentences of thanks, and no person's name in them without their own yes. *Handed:* the first time you make something you might hand on. *Served by:* `make-a-skill`, `choose-a-version-scheme`, `assign-an-id`.
+- **[04 Before Your First Room](04%20Before%20Your%20First%20Room.md)** · The pre-flight: your agent reads the invitation and reports back in eight lines: the room, the host, the door, what it would bring, and what it will not do. *Handed:* the day a room is offered to you. *Served by:* `before-your-first-room`, `venue-card`, `check-my-setup`.
+- **[13 Gratitude, Lineage and Licensing](13%20Gratitude%2C%20Lineage%20and%20Licensing.md)** · How what you make says where it grew from, thanks what it grew from, and travels freely: four honest lines, two sentences of thanks, and no person's name in them without their own yes. *Handed:* the first time you make something you might hand on. *Served by:* `make-a-skill`, `choose-a-version-scheme`, `assign-an-id`.
 
 ### Rung 4 — Home
 
-- **[[07 The Heads-up and the Play by Play]]** · Your private page, kept by your agent during a live session, and the room's shared running record when the room asks your house to keep it. *Handed:* the first busy session where you cannot watch the page and the people at once. *Served by:* `heads-up`, `play-by-play`, `fair-copy-a-transcript`.
-- **[[14 The Agent Improvement Process]]** · A small standing rhythm: a blameless [[Improvement log|log]], a weekly look-back written by someone other than the agent, and what is passed upward because it would serve any house. *Handed:* after the first month of real use. *Served by:* `review-and-prune`, `the-retrospective`, `pull-a-release`, `pull-from-benchmark`, `refresh-the-library`, `test-a-charter-edit`, `make-a-skill`.
-- **[[17 Structuring a Cell - LIØNSBERG FSx]]** · Know what your Cell already is without any paperwork, and what to put on paper only when the work asks for it. *Handed:* when your Cell's work first asks for something a handshake cannot hold.
+- **[07 The Heads-up and the Play by Play](07%20The%20Heads-up%20and%20the%20Play%20by%20Play.md)** · Your private page, kept by your agent during a live session, and the room's shared running record when the room asks your house to keep it. *Handed:* the first busy session where you cannot watch the page and the people at once. *Served by:* `heads-up`, `play-by-play`, `fair-copy-a-transcript`.
+- **[14 The Agent Improvement Process](14%20The%20Agent%20Improvement%20Process.md)** · A small standing rhythm: a blameless [log](Lexicon.md), a weekly look-back written by someone other than the agent, and what is passed upward because it would serve any house. *Handed:* after the first month of real use. *Served by:* `review-and-prune`, `the-retrospective`, `pull-a-release`, `pull-from-benchmark`, `refresh-the-library`, `test-a-charter-edit`, `make-a-skill`.
+- **[17 Structuring a Cell - LIØNSBERG FSx](17%20Structuring%20a%20Cell%20-%20LI%C3%98NSBERG%20FSx.md)** · Know what your Cell already is without any paperwork, and what to put on paper only when the work asks for it. *Handed:* when your Cell's work first asks for something a handshake cannot hold.
 
 ### Rung 5 — the Room
 
-- **[[05 Venue Cards]]** · One card per room that is not yours, written before your agent speaks there: what it may draw on, what it may do, how a stop is recorded, and when the card ends. *Handed:* before the second room, when the first one taught you why. *Served by:* `venue-card`, `before-your-first-room`.
-- **[[06 Safe Sparring]]** · Full-strength play because the terms are known before the first move: signed lines before, one signed offer during, the closing question after. *Handed:* in your next real room; the practice waits for one. *Served by:* `safe-sparring`, `entering-the-field`, `heads-up`.
-- **[[08 Jam Conventions]]** · Three rules and five manners that let people and their agents write on one page and still know who said what. *Handed:* at your first [[Jam|jam]]. *Served by:* `play-by-play`, `fair-copy-a-transcript`, `heads-up`, `a-gathering`.
-- **[[11 An Agent That Attends to You]]** · An agent that notices you as well as the task, honestly, within limits you can read, with an off switch that is yours. *Handed:* only when you ask for it. *Served by:* `save-a-memory`, `test-a-charter-edit`, `widen-a-boundary`.
-- **[[12 How a Module Lives]]** · Try a lesson from its [[Top card|top card]] alone, find the one place it failed you, write the sentence that fixes it, and pass it back up the chain that handed it to you. *Handed:* once you have used a few. *Served by:* `make-a-skill`, `send-for-review`, `review-and-prune`, `the-retrospective`, `refresh-the-library`.
+- **[05 Venue Cards](05%20Venue%20Cards.md)** · One card per room that is not yours, written before your agent speaks there: what it may draw on, what it may do, how a stop is recorded, and when the card ends. *Handed:* before the second room, when the first one taught you why. *Served by:* `venue-card`, `before-your-first-room`.
+- **[06 Safe Sparring](06%20Safe%20Sparring.md)** · Full-strength play because the terms are known before the first move: signed lines before, one signed offer during, the closing question after. *Handed:* in your next real room; the practice waits for one. *Served by:* `safe-sparring`, `entering-the-field`, `heads-up`.
+- **[08 Jam Conventions](08%20Jam%20Conventions.md)** · Three rules and five manners that let people and their agents write on one page and still know who said what. *Handed:* at your first [jam](Lexicon.md). *Served by:* `play-by-play`, `fair-copy-a-transcript`, `heads-up`, `a-gathering`.
+- **[11 An Agent That Attends to You](11%20An%20Agent%20That%20Attends%20to%20You.md)** · An agent that notices you as well as the task, honestly, within limits you can read, with an off switch that is yours. *Handed:* only when you ask for it. *Served by:* `save-a-memory`, `test-a-charter-edit`, `widen-a-boundary`.
+- **[12 How a Module Lives](12%20How%20a%20Module%20Lives.md)** · Try a lesson from its [top card](Lexicon.md) alone, find the one place it failed you, write the sentence that fixes it, and pass it back up the chain that handed it to you. *Handed:* once you have used a few. *Served by:* `make-a-skill`, `send-for-review`, `review-and-prune`, `the-retrospective`, `refresh-the-library`.
 
 ### Rung 6 — beyond
 
-- **[[09 Agent Engineering]]** · When your agent keeps missing you, find what it read that caused the miss, change that, test the change, and write one dated line in the [[Change log|change log]]. *Handed:* after the third miss of the same kind. *Served by:* `test-a-charter-edit`, `widen-a-boundary`, `review-and-prune`, `check-my-setup`, `foreground-background`.
-- **[[10 Advanced Agent Engineering]]** · Choose who your agent is for you, write it where it will hold, and see with your own eyes whether it took. *Handed:* when the repair of one behavior turns into a question of character. *Served by:* `test-a-charter-edit`, `make-a-skill`, `choose-a-name`.
-- **[[18 Read the Story]]** · Read the Story with someone, aloud, so that what arrives is a telling at a low fire and not a lecture. *Handed:* on a first day, or when a table sets aside ten minutes for the telling. *Served by:* `read-the-story-aloud`.
-- **[[20 Pass the Flame]]** · Hand the whole of it to your three, whom you already know are ready, within three days, and press it on nobody. *Handed:* when the three are named. *Served by:* `pass-the-flame`.
+- **[09 Agent Engineering](09%20Agent%20Engineering.md)** · When your agent keeps missing you, find what it read that caused the miss, change that, test the change, and write one dated line in the [change log](Lexicon.md). *Handed:* after the third miss of the same kind. *Served by:* `test-a-charter-edit`, `widen-a-boundary`, `review-and-prune`, `check-my-setup`, `foreground-background`.
+- **[10 Advanced Agent Engineering](10%20Advanced%20Agent%20Engineering.md)** · Choose who your agent is for you, write it where it will hold, and see with your own eyes whether it took. *Handed:* when the repair of one behavior turns into a question of character. *Served by:* `test-a-charter-edit`, `make-a-skill`, `choose-a-name`.
+- **[18 Read the Story](18%20Read%20the%20Story.md)** · Read the Story with someone, aloud, so that what arrives is a telling at a low fire and not a lecture. *Handed:* on a first day, or when a table sets aside ten minutes for the telling. *Served by:* `read-the-story-aloud`.
+- **[20 Pass the Flame](20%20Pass%20the%20Flame.md)** · Hand the whole of it to your three, whom you already know are ready, within three days, and press it on nobody. *Handed:* when the three are named. *Served by:* `pass-the-flame`.
 
 ### Beside every rung
 
-- **[[Lexicon]]** · Every word the deck uses in a particular way, said plainly once, so no page turns on a word you were never given. One meaning across the canon, the Game and the deck. *Handed:* the moment a word stops you. *Served by:* `find-it-again`, `choose-a-name`.
+- **[Lexicon](Lexicon.md)** · Every word the deck uses in a particular way, said plainly once, so no page turns on a word you were never given. One meaning across the canon, the Game and the deck. *Handed:* the moment a word stops you. *Served by:* `find-it-again`, `choose-a-name`.
 
 ## The skills
 
-Thirty-eight folders. Twenty-two are PKAI's and come with the [[The Kit|starter kit]], taken as they are. Sixteen are the Player+ kit's: fifteen are the Game's own, and one is a modified copy of a PKAI skill.
+Thirty-eight folders. Twenty-two are PKAI's and come with the [starter kit](Lexicon.md), taken as they are. Sixteen are the Player+ kit's: fifteen are the Game's own, and one is a modified copy of a PKAI skill.
 
 ### Setting up
 
@@ -100,12 +100,12 @@ Thirty-eight folders. Twenty-two are PKAI's and come with the [[The Kit|starter 
 
 | folder | what it does | called by | where it came from |
 |---|---|---|---|
-| `the-roll` | Takes a person's entry on the Roll at the [[Initiation|Gate]]: their name as they choose to be named, the date read from a clock, one word for where they are, who brought them, who witnessed. Writes it once and reads it back. | 19 | the Game's own |
+| `the-roll` | Takes a person's entry on the Roll at the [Gate](Lexicon.md): their name as they choose to be named, the date read from a clock, one word for where they are, who brought them, who witnessed. Writes it once and reads it back. | 19 | the Game's own |
 | `the-simplest-game` | Plays a person's first Game from six plain sentences, each heard, read back and written as a Card on their yes; one more field is offered only when it would help. The same six lines play on paper. | 19 | the Game's own |
-| `join-a-cell` | Joins a person to a [[Cell]] whose Cards live in a shared repository, by their own yes, and keeps what crosses into it their choice. | 19 | the Game's own |
+| `join-a-cell` | Joins a person to a [Cell](Lexicon.md) whose Cards live in a shared repository, by their own yes, and keeps what crosses into it their choice. | 19 | the Game's own |
 | `a-gathering` | Serves a person through a gathering of their Cell: what is open before, what is said held as drafts during, Cards written on their yes after. | 08, 15 | the Game's own |
 | `the-turn` | Holds the weekly and seasonal Turn from the person's Cards: the commitments kept and the gap, what was learned, and four lines drafted for them to finish. | 15 | the Game's own |
-| `the-season-sheet-by-hand` | Holds the [[Season]]'s sheet kept by hand first and by the agent second, reading back what the person wrote rather than filling it for them. | 15, 16 | the Game's own |
+| `the-season-sheet-by-hand` | Holds the [Season](Lexicon.md)'s sheet kept by hand first and by the agent second, reading back what the person wrote rather than filling it for them. | 15, 16 | the Game's own |
 | `the-offering` | Keeps the Offering at the weekly Turn without setting an amount, naming a person, or comparing one to another. | 15 | the Game's own |
 | `witness-a-commitment` | Helps a person witness another's Commitment: reads it and the Cards that name it, says what they show and what they do not, and writes one Witness Card on their yes. | 15 | the Game's own |
 | `read-the-story-aloud` | Reads THE STORY with a person or a table, at the depth they are at, stopping where they stop, handing each word the first time it is met and not before. | 18 | the Game's own |
@@ -135,21 +135,21 @@ Thirty-eight folders. Twenty-two are PKAI's and come with the [[The Kit|starter 
 
 | folder | what it does | called by | where it came from |
 |---|---|---|---|
-| `test-a-charter-edit` | Three cheap tests on a [[Charter|charter]] line before it goes in: is it identity-bearing, is it behavior-bearing, is it needed at all. | 09, 10, 11, 14 | PKAI |
+| `test-a-charter-edit` | Three cheap tests on a [charter](Lexicon.md) line before it goes in: is it identity-bearing, is it behavior-bearing, is it needed at all. | 09, 10, 11, 14 | PKAI |
 | `widen-a-boundary` | Records a grant of authority the person just made, in their own words, and drafts the matching change for them to approve. | 09, 11 | PKAI |
 
-**Licenses.** Every folder carries its own `LICENSE.md`; read it before you pass the folder on. PKAI's twenty-two folders stand on the PKAI Starter Kit, which descends from `pkai-agent`; the Player+ folders grow from these lessons and from PKAI's skills. All of them are shared under the Mozilla Public License 2.0; their `LINEAGE.md` files carry each generation, and the [[Attribution|attribution]] travels with them. A modified copy of a PKAI folder stays under MPL-2.0, because file-level share-alike travels with the file. The lessons themselves are CC BY-SA 4.0.
+**Licenses.** Every folder carries its own `LICENSE.md`; read it before you pass the folder on. PKAI's twenty-two folders stand on the PKAI Starter Kit, which descends from `pkai-agent`; the Player+ folders grow from these lessons and from PKAI's skills. All of them are shared under the Mozilla Public License 2.0; their `LINEAGE.md` files carry each generation, and the [attribution](Lexicon.md) travels with them. A modified copy of a PKAI folder stays under MPL-2.0, because file-level share-alike travels with the file. The lessons themselves are CC BY-SA 4.0.
 
 ## How to install a skill, how a module lives, how the deck improves
 
 **Installing.** Skills live in your agent's home, at `.claude/skills/<name>/`. PKAI's skills come with the starter kit; its `skills/README.md` (kept at `<HQ>/pkai-starter-kit/skills/`) says which are installed when the house is built and which wait on the shelf. The Player+ skills are in the Player+ kit's `skills/` folder (kept at `<HQ>/player-plus-kit/skills/`) and are installed in your agent's home at `.claude/skills/`, beside PKAI's. Copy the whole folder, the instructions, the lineage and the license together, and never one file out of it. Your agent may read either kit's skills and suggest which folders to take; it copies one into place only when you say so. A folder copied in takes hold at the next session. Nothing is installed by an agent's own judgment, and a folder taken on is a folder you can delete.
 
-**How a module lives** (from [[12 How a Module Lives]]). One hand writes it. A [[Second reader|second reader]], who did not write it, reads it whole. It is repaired. It is tried in a real room. Whoever uses it improves it and passes the improvement back, and then it begins again. Held as current best understanding, a module deserves refinement rather than reverence.
+**How a module lives** (from [12 How a Module Lives](12%20How%20a%20Module%20Lives.md)). One hand writes it. A [second reader](Lexicon.md), who did not write it, reads it whole. It is repaired. It is tried in a real room. Whoever uses it improves it and passes the improvement back, and then it begins again. Held as current best understanding, a module deserves refinement rather than reverence.
 
-**How the deck improves.** You try a lesson from its top card alone, note the one place you or your agent got stuck, write one sentence that would fix it, and hand that sentence to whoever gave you the module, asking them to pass it on to whoever gave it to them. That chain is how a correction reaches the people who keep these pages. The whole of it turns weekly, in the manner of The LIØNSBERG Workshop and its [[Continuous Improvement|continuously improving]] cards.
+**How the deck improves.** You try a lesson from its top card alone, note the one place you or your agent got stuck, write one sentence that would fix it, and hand that sentence to whoever gave you the module, asking them to pass it on to whoever gave it to them. That chain is how a correction reaches the people who keep these pages. The whole of it turns weekly, in the manner of The LIØNSBERG Workshop and its [continuously improving](Lexicon.md) cards.
 
 ---
 
-*Beside this page:* [[Player+ Modules - Start Here]] · [[The Deck Standard - Player+ Modules v0.1|The Deck Standard]] · START HERE — Becoming a Player+ · The Words in the Order You Meet Them · Player+ Modules · [[The Kit]] · [[Skill]] · [[Module]] · [[Lesson]]
+*Beside this page:* [Player+ Modules - Start Here](Player%2B%20Modules%20-%20Start%20Here.md) · [The Deck Standard](The%20Deck%20Standard%20-%20Player%2B%20Modules%20v0.1.md) · START HERE — Becoming a Player+ · The Words in the Order You Meet Them · Player+ Modules · [The Kit](Lexicon.md) · [Skill](Lexicon.md) · [Module](Lexicon.md) · [Lesson](Lexicon.md)
 
 *Player+ Modules are made by the houses that play in PKAI Dyad Jams and The Great Game of LIØNSBERG. They are stewarded by ØSphera and shared under CC BY-SA 4.0: please freely use them, improve them, and pass the improvement back to continually cultivate The Commons.*
