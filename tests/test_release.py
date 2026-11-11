@@ -45,7 +45,7 @@ def read(path):
         return f.read()
 
 
-def digest(path):
+def sha(path):
     with open(path, 'rb') as f:
         return hashlib.sha256(f.read()).hexdigest()
 
@@ -77,7 +77,7 @@ class TheStarterKitIsCarriedUnchanged(unittest.TestCase):
         for line in read(os.path.join(TOP, 'tests', 'pkai-starter-kit.sha256')).splitlines():
             digest, name = line.split(None, 1)
             want[name.strip()] = digest
-        have = {f: digest(os.path.join(PKAI, f)) for f in files(PKAI)}
+        have = {f: sha(os.path.join(PKAI, f)) for f in files(PKAI)}
         self.assertEqual(sorted(have), sorted(want), 'a file was added to or taken from pkai-starter-kit/')
         changed = [f for f in want if have[f] != want[f]]
         self.assertEqual(changed, [], 'a line of the starter kit was changed')
