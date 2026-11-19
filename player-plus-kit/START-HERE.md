@@ -97,7 +97,7 @@ Your agent greets you by name and offers one next step. From here on it remember
 
 About ten minutes. Your agent lives on your computer, and your phone can reach it there.
 
-1. On your computer, in the Claude app, open **Settings**, then **Code**, then **Remote Control** (well down the page), and turn on **Connect new sessions to Remote Control**. The page tells you what it sends so that your phone can list your folders; read it before you turn anything on.
+1. On your computer, in the Claude app, open **Settings**, then **Code**, then **Remote Control** (well down the page). Turn on **Connect new sessions to Remote Control**, **Let your phone and Claude.ai start sessions here**, and **Keep this computer awake for Remote Control**. Before the second, know what it sends: your computer's name, and for each folder on the list its name, its path, its git branch and the address of its repository, so that your phone can list them. If you would rather not, leave it off; your phone can then reach only a session you started on the computer.
 2. In the same place, open the list of **Folders**. It holds every folder you have let Claude work in. Remove every one that is not your agent's own folder; your files are untouched.
 3. Choose **Add folder**, pick your agent's own folder (the one with its `CLAUDE.md` in it, not the folder above it), and **pin** it.
 4. Put the official Claude app on your phone, and sign in with the same account.
