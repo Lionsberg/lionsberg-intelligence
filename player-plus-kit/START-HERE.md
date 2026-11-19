@@ -95,15 +95,17 @@ Your agent greets you by name and offers one next step. From here on it remember
 
 ### Gate 5 · Your phone
 
-About five minutes. Your agent lives on your computer, and your phone can reach it there.
+About ten minutes. Your agent lives on your computer, and your phone can reach it there.
 
-1. Put the official Claude app on your phone, and sign in with the same account.
-2. On your computer, in your agent's session, turn on **Remote Control**.
-3. On your phone, choose **Code**, and open your agent's session.
+1. On your computer, in the Claude app, open **Settings**, then **Code**, then **Remote Control** (well down the page), and turn on **Connect new sessions to Remote Control**. The page tells you what it sends so that your phone can list your folders; read it before you turn anything on.
+2. In the same place, open the list of **Folders**. It holds every folder you have let Claude work in. Remove every one that is not your agent's own folder; your files are untouched.
+3. Choose **Add folder**, pick your agent's own folder (the one with its `CLAUDE.md` in it, not the folder above it), and **pin** it.
+4. Put the official Claude app on your phone, and sign in with the same account.
+5. On your phone, choose **Code**, then **New session**, then your computer, then your agent's folder. The same screen also offers **cloud environments**, marked with a small cloud icon and often named **Default**. Never pick one: it runs on a distant computer, with none of your files and without your agent.
 
-Your computer has to be on and awake for your phone to reach your agent, and quitting the Claude app on it turns Remote Control off. Leave the phone's **New Session** button alone: it starts a different Claude on a distant computer, with none of your files.
+Your computer has to be on and awake for your phone to reach your agent. The chapter *Sessions on Desktop and Phone*, in your library, says the rest: the sidebar, quitting the app safely, and how to keep the computer's list and the phone's in step.
 
-**You have passed the last Gate when** your agent answers you on your phone. You are a Player+. If you will not use your phone, you are one at the fourth Gate, and this one waits for the day you want it.
+**You have passed the last Gate when** you start a session from your phone and your agent answers you by name. You are a Player+. If you will not use your phone, you are one at the fourth Gate, and this one waits for the day you want it.
 
 ## What you now have
 

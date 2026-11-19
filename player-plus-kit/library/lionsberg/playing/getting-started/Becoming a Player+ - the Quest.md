@@ -18,7 +18,7 @@ The Quest is walked with the one who invited you, who has an agent of their own 
 | **2 · The Claude app** | The Claude Desktop app, installed and opened on its Code side. | The app is open on Code. |
 | **3 · Your house** | You make a folder for your headquarters and paste one sentence. Claude shows you the waivers, asks your names and a temperament, and builds your agent's home beside your headquarters, one approved step at a time. | Claude tells you the house is built. |
 | **4 · First words** | A new session in your agent's environment. You type hi. | Your agent greets you by name. |
-| **5 · Your phone** | Remote Control, so that your phone reaches your agent on your computer. | Your agent answers you on your phone. |
+| **5 · Your phone** | Remote Control, and your agent's own folder pinned, so that your phone can start your agent on your computer. | Your agent answers you by name on your phone. |
 
 It takes about an hour of your own time, and on some computers a wait while a tool installs. You may stop between any two Gates.
 

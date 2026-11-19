@@ -2,13 +2,13 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so that a house can decide what to take; nothing here installs itself. Releases before 4.1 are in this repository's history.
 
-## 4.1.0-rc.1 — 2026-11-10
+## 4.1.0-rc.1 — 2026-11-19
 
-**Player+ on the PKAI starter kit 4.0, as its keeper ships it.** The first release candidate. It builds a first house in the Claude Desktop app, with no terminal. A house built from Player+ 3.x is not changed by this release and can keep playing as it is; a page for moving such a house will follow once 4.1 is proven. This candidate has passed its suites and two fresh builds by agents; it has not yet been walked by a person on a clean Mac and a clean Windows computer.
+**Player+ on the PKAI starter kit 4.1, as its keeper ships it, with the same number.** The first release candidate. It builds a first house in the Claude Desktop app, with no terminal. A house built from Player+ 3.x is not changed by this release and can keep playing as it is; a page for moving such a house will follow once 4.1 is proven. This candidate has passed its suites and two fresh builds by agents; it has not yet been walked by a person on a clean Mac and a clean Windows computer.
 
 **The shape**
 
-- **The starter kit is carried whole and unchanged** in `pkai-starter-kit/` (4.0.0-rc.5). A house is built by that kit's own `BUILD.md`; this kit's `BUILD.md` says only what Player+ adds and at which step.
+- **The starter kit is carried whole and unchanged** in `pkai-starter-kit/` (4.1.0-rc.1). A house is built by that kit's own `BUILD.md`; this kit's `BUILD.md` says only what Player+ adds and at which step.
 - **The Game lives in the charter as one marked block,** about 1,200 words, between `<!-- Player+ begins` and `<!-- Player+ ends -->`: the Goal and the compass, whom the agent serves, the Field of Agreements, the words, the Cards, whose act each Card is, and where to find more. Every other line of the charter is the starter kit's persona, or the person's own.
 - **`PLAYER-PLUS.md`,** beside the charter, is the longer guide, read when a question needs it.
 - **Play is written as Cards:** plain Markdown files, one per act, in `cards/` in the HQ and in a Cell's shared repository. The form is the one the Game's engine reads as a hand-written Card.

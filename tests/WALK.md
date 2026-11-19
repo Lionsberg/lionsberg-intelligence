@@ -32,6 +32,12 @@ Read the clock for each time. Count the permission prompts at Gate 3.
 
    It says MATCH, or it names each file that is missing, extra or different.
 
+## Look at, on the phone
+
+1. On the computer, under Settings, Code, Remote Control: the Folders list holds the agent's own folder, pinned, and nothing the walker does not need.
+2. On the phone, New session, then the computer: the agent's folder is offered, and a session started there wakes the agent, which answers by name. Note whether the walker was drawn to a cloud environment first.
+3. Note whether the walker read what the Remote Control page says it sends before turning it on, and what they decided.
+
 ## The first hour, by voice
 
 The walker says, in their own words, the six sentences: *here is a piece of work · I will do it by Friday · it is done · we are green*, and, if they have a Cell, *I join this Cell* and *yes, that works for me*. For each: did the agent read it back in one line before writing? Is there a Card file in `cards/`, named by its date, their handle and its kind? Does it open in their reading app and say what they said?
