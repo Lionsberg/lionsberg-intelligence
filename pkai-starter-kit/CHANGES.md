@@ -2,6 +2,21 @@
 
 Written for an agent to read when it pulls a new release. Newest first. Each entry says what changed and why, so a house can decide what to take; nothing here installs itself.
 
+## 4.1.0-rc.1 — 2026-11-19
+
+**The first 4.1 preview: sessions on Desktop and on the phone.** Released with `pkai-benchmark` 4.1.0-rc.1. The 4.1 release candidates are known together as **v4.1-preview**. rc.1 hasn't had a test run.
+
+**A new book, *Sessions on Desktop and Phone*** (`library/pkai/getting-started/`), after *First Day in Desktop*. It covers living with more than one session, the sidebar, quitting and restarting the app safely, and reaching your agent from your phone. It includes the two lists you keep the same by hand: Desktop's environments, and the folders under Settings → Code → Remote Control, which are the only places the phone can start a session.
+
+**On the phone, New Session is fine; cloud environments aren't.** Until now the phone guidance said never to press **New Session**. Now that New Session can start a session on the person's own computer, in a folder on its Remote Control list, the warning moves: never pick a **cloud environment** (a small cloud icon, often named **Default**), which runs on Anthropic's computers with none of the person's files. Changed in *The Phone Path* and the `phone-path` skill, and in `BUILD.md`'s phone warning and card.
+
+**A charter change can be made on your yes.** Until now the kit said only you install a charter change, by hand. Now there are two ways. Your agent drafts the lines and shows them to you, and then either you say yes and it makes the edit, or you install it by hand. The edit is still watched: you read the exact lines first, and git keeps the change. Settings and hooks stay by hand only, and a pull never installs anything by itself. By hand is the safer habit for your first weeks.
+
+**Changed**
+
+- *MOVING-FROM-V2*, *MOVING-FROM-V3.0*, *Memory Across Sessions*, *Testing a Charter Edit*, *Using Claude Code With Your House*, *Your First House*, *Where Instructions Take Hold*: two ways to install a charter change.
+- `review-and-prune`, `test-a-charter-edit`, `pull-from-benchmark`, `widen-a-boundary`: an agent edits its charter only on the person's yes to the exact lines; settings and hooks never.
+
 ## 4.0.0-rc.5 — 2026-11-10
 
 **The bookshelf becomes a library, with one bookshelf in it.** A library can hold many bookshelves, and a house may want more than one: another kit can add its own beside this one. Released with `pkai-benchmark` 4.0.0-rc.5. rc.5 hasn't had a test run.

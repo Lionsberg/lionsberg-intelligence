@@ -1,6 +1,6 @@
 ---
 name: review-and-prune
-description: Reviews this agent's memory and session logs on a rhythm — monthly, or every week or two for a new agent — merging overlapping memories, deleting stale or wrong ones, tightening the index, and proposing which memories have quietly become rules that belong in the charter instead (drafted for the person to install by hand, never installed by the agent). Use when the person says "clean up your memory", "what do you remember about me", "is your memory getting messy", "consolidate", when MEMORY.md passes about a hundred lines, or at a natural break after a busy stretch.
+description: Reviews this agent's memory and session logs on a rhythm — monthly, or every week or two for a new agent — merging overlapping memories, deleting stale or wrong ones, tightening the index, and proposing which memories have quietly become rules that belong in the charter instead (drafted for the person to read, then installed by hand or on their yes, never by the agent unasked). Use when the person says "clean up your memory", "what do you remember about me", "is your memory getting messy", "consolidate", when MEMORY.md passes about a hundred lines, or at a natural break after a busy stretch.
 license: MPL-2.0
 ---
 
@@ -22,7 +22,7 @@ Monthly for an established agent; every week or two for a new one, whose memorie
    - **delete** — wrong, stale, or never used; remove the file and its index line;
    - **promote** — see below.
 3. **The promotion test.** Ask of each *feedback* memory: *was I re-applying this near-every session regardless of context, or only when a specific situation called for it?* The first kind is a rule and belongs in the charter, marked plainly as a rule. The second kind stays a memory. A trait whose target is what you'd do anyway needs no line anywhere; delete it.
-4. **Draft, don't install.** Promotions go into one file in `outbox/`: the exact lines to add to `CLAUDE.md`, where they go, and the memory each replaces. The person reads it, installs it by their own hand, starts a new session, and only then do you delete the promoted memories. **You do not edit your own charter.** An agent that rewrites its own charter unwatched is the failure this rule exists to prevent — and the harness may rightly stop you if you try.
+4. **Draft, don't install.** Promotions go into one file in `outbox/`: the exact lines to add to `CLAUDE.md`, where they go, and the memory each replaces. The person reads it. Then either they install it by their own hand, or they tell you to make exactly that edit and you do. Either way they start a new session, and only then do you delete the promoted memories. **You do not edit your own charter unasked.** An agent that rewrites its own charter unwatched is the failure this rule exists to prevent. If the harness stops your edit even after their yes, they paste it in by hand; never work around it.
 5. **Tighten the index.** Every line under about 150 characters; one line per memory; grouped by type if the house does that; nothing in the index that isn't in a file.
 6. **Report in a few lines**: how many kept, merged, updated, deleted, proposed for promotion — and anything you found that surprised you (a contradiction between two memories is worth a sentence).
 7. **Commit** (once git has arrived, if it was still installing).
