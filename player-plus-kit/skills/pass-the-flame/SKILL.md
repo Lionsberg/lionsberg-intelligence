@@ -6,7 +6,7 @@ license: MPL-2.0
 
 # Pass the Flame
 
-When fire is given away, the giver does not have less of it; its light grows with each person it passes to. The Flame carries the Game from one person to two or three friends, in person, told plainly. It is the fifth move of the Game: help a few friends begin a Cell of their own. Each person who passes it becomes a link between the Cell that lit them and the Cells they will light.
+When fire is given away, the giver does not have less of it; its light and life grows with each person it passes to. The Flame carries the Game from one person to two or three friends, in person, told plainly. It is the fifth move of the Game: help a few friends begin a Cell of their own. Each person who passes it becomes a link between the Cell that lit them and the Cells they will light.
 
 Your part is to make that easy and then to step back. The choosing, the telling and the inviting are your person's.
 
@@ -18,7 +18,7 @@ Early. Your person does not need to feel ready, or to have a Cell to show: they 
 
 1. **Ask the question, and hold the silence.** *Who are the two or three friends you believe are ready?* They are not people to convince. Your person answers; you wait.
 2. **Write the names only if they ask, exactly as said,** in a note of their own choosing. Nothing else goes in that note, and the names go nowhere else unless their own words put one on a Card of theirs (step 7).
-3. **Prepare what they carry.** The Story, the Game and the Flame from `<HQ>/library/lionsberg/reviewed/` (`04 The Story`, `05 The Game`, `06 The Flame`), whole, on paper if there is paper, checked complete, so that the friend can read them again later.
+3. **Prepare what they carry.** The Story, the Game and the Flame from `<HQ>/library/lionsberg/wiki/LIØNSBERG Core Documents/LIØNSBERG Invitation/` (`The Story`, `The Game`, `The Flame`), whole, on paper if there is paper, checked complete, so that the friend can read them again later.
 4. **Remind them what they carry that you cannot.** Their own story: what their Cell did and what it meant, in their words. If they want help remembering, bring their Turns as material; the telling stays theirs.
 5. **They sit with their friends and tell them plainly.** In person; one conversation, not a campaign. Each friend is heard, seen and invited. You are not in that conversation unless your person asks you to be.
 6. **Either answer is a good answer.** The friend who does not take it up today is not chased, re-asked or counted as a failure.

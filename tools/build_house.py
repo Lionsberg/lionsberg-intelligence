@@ -17,9 +17,11 @@ import os
 import re
 import shutil
 import sys
+import tarfile
 
 PKAI = 'pkai-starter-kit'
 PLUS = 'player-plus-kit'
+WIKI_ARCHIVE = 'wiki.tar.gz'      # the bookshelf's wiki shelf, as it travels in the kit (tools/make_wiki_shelf.py)
 BEGIN = '<!-- Player+ begins'
 END = '<!-- Player+ ends -->'
 ANCHOR = '## Things you always do'
@@ -66,6 +68,23 @@ def with_block(charter, block_text):
 
 def memory(path, name, kind, description, body):
     write(path, '---\nname: %s\ntype: %s\ndescription: %s\n---\n\n%s\n' % (name, kind, description, body))
+
+
+def unpack_wiki(shelf):
+    """The wiki travels as one archive (its names are not plain ASCII); unpacked, it is the shelf `wiki/`, and the archive goes."""
+    archive = os.path.join(shelf, WIKI_ARCHIVE)
+    with tarfile.open(archive, 'r:gz') as tar:
+        for m in tar.getmembers():
+            inside = m.name == 'wiki' or m.name.startswith('wiki/')
+            if not inside or '..' in m.name.split('/') or not (m.isfile() or m.isdir()):
+                raise SystemExit('%s holds a member that does not belong on the wiki shelf: %s' % (WIKI_ARCHIVE, m.name))
+        if hasattr(tarfile, 'data_filter'):
+            tar.extractall(shelf, filter='data')
+        else:
+            tar.extractall(shelf)
+    if not os.path.isfile(os.path.join(shelf, 'wiki', 'README.md')):
+        raise SystemExit('the wiki shelf has no README.md after unpacking')
+    os.remove(archive)
 
 
 def build(kit, home, hq_name, person, handle, agent, house, persona, date=None, waiver_words='Yes, I agree.'):
@@ -140,6 +159,7 @@ def build(kit, home, hq_name, person, handle, agent, house, persona, date=None, 
     write(os.path.join(mem, 'MEMORY.md'), index)
     shutil.move(os.path.join(pl, 'library', 'lionsberg'), os.path.join(hq, 'library', 'lionsberg'))
     os.rmdir(os.path.join(pl, 'library'))
+    unpack_wiki(os.path.join(hq, 'library', 'lionsberg'))
     shutil.copytree(os.path.join(pl, 'template', 'hq', 'cards'), os.path.join(hq, 'cards'))
     # the starter kit's step 6, without git itself: its .gitignore at both roots
     for root in (agent_home, hq):

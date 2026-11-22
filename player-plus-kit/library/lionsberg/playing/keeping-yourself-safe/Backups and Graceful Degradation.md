@@ -45,7 +45,7 @@ Keep the phone numbers and addresses of the people in your [Cell](../player-plus
 
 ## When the power or the network is out
 
-Print, while everything works, the reviewed shelf's three pages: [The Story](../../reviewed/04%20The%20Story.md), [The Game](../../reviewed/05%20The%20Game.md) and [The Flame](../../reviewed/06%20The%20Flame.md), whole. Print the six-sentence sheet and the Turn page beside them, and keep a pencil with them. With those and the people of your Cell, the Game plays with no screen at all, and the Flame can still be passed by hand.
+Print, while everything works, three pages from the wiki, whole: The Story, The Game and The Flame (`<HQ>/library/lionsberg/wiki/LIØNSBERG Core Documents/LIØNSBERG Invitation/`). Print the six-sentence sheet and the Turn page beside them, and keep a pencil with them. With those and the people of your Cell, the Game plays with no screen at all, and the Flame can still be passed by hand.
 
 ## Now and then
 

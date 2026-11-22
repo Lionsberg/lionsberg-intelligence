@@ -23,9 +23,9 @@ Read the clock for each time. Count the permission prompts at Gate 3.
 
 ## Look at, when the house is built
 
-1. Two folders side by side: `<AgentName> (agent)` at the top of the home folder, and the HQ where the walker made it.
+1. Two folders side by side: `<AgentName> (agent)` at the top of the home folder, and the HQ where Claude made it at the walker's word (or where the walker made it, if Claude asked them to).
 2. In the agent's `CLAUDE.md`: one line that begins `<!-- Player+ begins`, one line `<!-- Player+ ends -->`, above `## Things you always do`.
-3. In the HQ: `library/pkai/`, `library/lionsberg/` with `reviewed/` and `playing/`, and `cards/`.
+3. In the HQ: `library/pkai/`, `library/lionsberg/` with `wiki/` and `playing/`, and `cards/`.
 4. Then, from the top of this repository, with the walker's own answers:
 
    `python3 -I tools/compare_houses.py --kit . --home <their home folder> --hq-name <their HQ's name> --person <name> --handle <handle> --agent <agent> --persona <persona>`
@@ -42,7 +42,7 @@ Read the clock for each time. Count the permission prompts at Gate 3.
 
 The walker says, in their own words, the six sentences: *here is a piece of work · I will do it by Friday · it is done · we are green*, and, if they have a Cell, *I join this Cell* and *yes, that works for me*. For each: did the agent read it back in one line before writing? Is there a Card file in `cards/`, named by its date, their handle and its kind? Does it open in their reading app and say what they said?
 
-Then they ask the agent to read The Story aloud from the reviewed shelf, and ask one question about the Game. Did the agent say which shelf its answer came from?
+Then they ask the agent to read The Story aloud from the wiki, and ask one question about the Game. Did the agent say which shelf its answer came from?
 
 ## On Windows, also
 

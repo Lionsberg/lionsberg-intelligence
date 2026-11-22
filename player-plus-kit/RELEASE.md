@@ -6,9 +6,9 @@
 |---|---|---|---|---|---|
 | **The agent** | a personal agent that works: a persona, memory, sessions, the desk and the clock, skills that travel alone, a bookshelf | pkai-starter-kit 4.1.0-rc.1 | the PKAI starter kit, carried whole and unchanged in `pkai-starter-kit/` | `~/<AgentName> (agent)/` and the HQ | `pull-from-benchmark`: each release is read, and taken by proposal |
 | **The Player+ block** | The Great Game of LIØNSBERG in the agent's charter: the Goal, the words, the Cards, and where to find the rest | 4.1.0-rc.1 | `PLAYER-PLUS-BLOCK.md` | the agent's `CLAUDE.md`, between two markers | `pull-a-release`: a change is drafted, and the person installs it |
-| **The longer guide** | how to play: the Cards in full, the six sentences, the Turn, joining a Cell, the belts, Pass the Flame | 4.1.0-rc.1 | `PLAYER-PLUS.md` | beside the charter | `pull-a-release`, on the person's yes |
+| **The longer guide** | how to play: the Cards in full, the six sentences, the Turn, joining a Cell, the belts, Pass the Flame, the library and the wiki | 4.1.0-rc.1 | `PLAYER-PLUS.md` | beside the charter | `pull-a-release`, on the person's yes |
 | **The Player+ skills** | sixteen procedures for the Game that need no engine | each its own, in its `LINEAGE.md` | `skills/` | `<agent home>/.claude/skills/` | `pull-a-release`, on the person's yes |
-| **The LIØNSBERG bookshelf** | `reviewed/`, the words reviewed line by line; `playing/`, the practical books, each marked as not yet reviewed that way | follows each release | `library/lionsberg/` | `<HQ>/library/lionsberg/`, beside `<HQ>/library/pkai/` | `refresh-the-library`: reading refreshes, and what changed is said |
+| **The LIØNSBERG bookshelf** | `wiki/`, the LIØNSBERG Wiki, carried as one archive and unpacked at the build, with the seven pages to read first beside The Invitation; `playing/`, the practical books, each marked as not yet reviewed line by line | follows each release | `library/lionsberg/` | `<HQ>/library/lionsberg/`, beside `<HQ>/library/pkai/` | `refresh-the-library`: reading refreshes, and what changed is said |
 | **The Cards** | a place for play written as plain files, and one example of each kind | 4.1.0-rc.1 | `template/hq/cards/`, `card-examples/` | `<HQ>/cards/`; a Cell's in its own repository under `<HQ>/cells/` | they are the person's own |
 
 ## The sixteen skills
@@ -36,7 +36,7 @@ parts:
   block:      PLAYER-PLUS-BLOCK.md 4.1.0-rc.1
   guide:      PLAYER-PLUS.md 4.1.0-rc.1
   skills:     16, in skills/
-  bookshelf:  library/lionsberg/ (reviewed/, playing/)
+  bookshelf:  library/lionsberg/ (wiki/ from wiki.tar.gz, playing/)
   cards:      template/hq/cards/, card-examples/
 places:
   agent_home: ~/<AgentName> (agent)/

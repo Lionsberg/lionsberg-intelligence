@@ -7,8 +7,8 @@ Run from the top of the repository:
 It checks what a script can: the starter kit is carried unchanged; the Player+ block is whole between
 its markers and sits where the build puts it, with every other line of the charter the starter kit's
 own; the skills fit the room a host gives their descriptions; nothing in the kit names the game engine
-by a path, or a house an earlier kit built; the Cards read; the reviewed shelf holds the reviewed
-words; the one sentence is the same wherever a person meets it; and a house built by the scripted
+by a path, or a house an earlier kit built; the Cards read; the seven pages to read first are in the wiki, word for
+word; the one sentence is the same wherever a person meets it; and a house built by the scripted
 build is whole. Whether a person can follow the pages is a walk, not this test.
 """
 import hashlib
@@ -17,6 +17,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tarfile
 import tempfile
 import unittest
 import urllib.parse
@@ -29,12 +30,12 @@ sys.path.insert(0, os.path.join(TOP, 'tools'))
 import build_house  # noqa: E402
 
 BEGIN, END, ANCHOR = build_house.BEGIN, build_house.END, build_house.ANCHOR
+WIKI_ARCHIVE = build_house.WIKI_ARCHIVE
 SKILLS16 = ['a-gathering', 'entering-the-field', 'join-a-cell', 'pass-the-flame', 'play-by-play', 'pull-a-release',
             'read-the-story-aloud', 'refresh-the-library', 'safe-sparring', 'the-offering', 'the-retrospective', 'the-roll',
             'the-season-sheet-by-hand', 'the-simplest-game', 'the-turn', 'witness-a-commitment']
-REVIEWED = {'01 The Hour.md': '9dd86140d043ddeb', '02 The Call.md': '9f7b1f602b2e3aae', '03 The Doorway.md': 'a5d2b5feb10179a4',
-            '04 The Story.md': '6c9a9ade50e2036c', '05 The Game.md': '4418ede0613f25e8', '06 The Flame.md': '406ac0f55ddf7765',
-            '07 The Inheritance.md': '6984abd4e3e283be'}
+SEVEN_PLACE = 'wiki/LIØNSBERG Core Documents/LIØNSBERG Invitation/'      # where the seven pages live, in the wiki shelf
+SEVEN = {'The Hour': '9dd86140d043ddeb', 'The Call': '9f7b1f602b2e3aae', 'The Doorway': 'a5d2b5feb10179a4', 'The Story': 'd12864c48f9023da', 'The Game': '4418ede0613f25e8', 'The Flame': '337fed13bfe77675', 'The Inheritance': '91711e7cd95bfaa4'}
 CONTRACTION = re.compile(r"\b\w+(n't|'re|'ll|'ve|'d|'m)\b|\b(it|that|there|here|what|who|let)'s\b", re.I)
 # The room a host gives a house's skill descriptions: about 24,000 characters (measured with Claude Code 2.1.317).
 BUDGET = 23000
@@ -67,8 +68,19 @@ def description(skill_md):
 
 
 def sentence(text):
-    m = re.search(r'```text\n(Please download [^\n]+)\n```', text)
+    m = re.search(r'```text\n(Please [^\n]+)\n```', text)
     return m.group(1) if m else ''
+
+
+def seven_pages():
+    """The seven pages to read first, read from the wiki archive: {title: text}."""
+    import unicodedata
+    out = {}
+    with tarfile.open(os.path.join(PLUS, 'library', 'lionsberg', WIKI_ARCHIVE), 'r:gz') as tar:
+        members = {unicodedata.normalize('NFC', m.name): m for m in tar.getmembers()}
+        for title in SEVEN:
+            out[title] = tar.extractfile(members[unicodedata.normalize('NFC', SEVEN_PLACE + title + '.md')]).read().decode('utf-8')
+    return out
 
 
 class TheStarterKitIsCarriedUnchanged(unittest.TestCase):
@@ -102,14 +114,66 @@ class ThePlayerPlusBlock(unittest.TestCase):
 
     def test_its_size(self):
         words = len(self.block.split())
-        self.assertTrue(900 <= words <= 1500, 'the block is about 1,200 words; it holds %d' % words)
+        self.assertTrue(2600 <= words <= 3500, 'the block is about 3,100 words, the map of the wiki among them; it holds %d' % words)
 
     def test_it_holds_what_an_agent_must_hold(self):
         for must in ('## The Game you play', 'The Goal and the compass', 'Who you serve', 'The Field of Agreements', 'The words',
-                     'The Cards', 'Whose act each Card is', 'Where to find more', 'The guard', 'PLAYER-PLUS.md',
+                     'The Story you are in', 'The moves', 'The pages to read first', 'The Cards', 'Hearing a Card', 'Where to find more', 'The guard', 'PLAYER-PLUS.md',
                      '{{HQ_PATH}}/cards/', '{{HQ_PATH}}/library/lionsberg/'):
             self.assertIn(must, self.block, must)
         self.assertEqual(set(re.findall(r'\{\{(\w+)\}\}', self.block)), {'HQ_PATH'})
+
+    def test_the_lines_of_the_seed_are_the_seed_s_own(self):
+        """Each line the block quotes stands word for word in the seven pages to read first, except where its
+        author amended the line in the charter itself; those are named here, so that a new difference is seen."""
+        seed = ' '.join(seven_pages().values())
+        flat = lambda x: ' '.join(x.split())
+        seed = flat(seed)
+        amended_by_the_author = {     # 2026-11-22, in the charter section
+            'Yet advancing together as members of ØNE Body, we will exit The Caves, cross The Chasm and realize the promise of the New Civilization we are co-creating.',
+        }
+        quoted = re.findall(r'(?m)^> (.+)$', self.block)
+        self.assertGreaterEqual(len(quoted), 5)
+        for line in quoted:
+            for sentence in re.split(r'(?<=[.:”])\s+(?=[A-Z“])', line):
+                if flat(sentence) not in amended_by_the_author:
+                    self.assertIn(flat(sentence), seed, 'not the seed\'s own words: %s' % sentence)
+        moves = re.findall(r'(?m)^[1-9]\. (Form Cells|Choose a Quest|Share Your Stories|Pass the Flame)\.', self.block)
+        self.assertEqual(moves, ['Form Cells', 'Choose a Quest', 'Share Your Stories', 'Pass the Flame'], 'the moves, as the charter section gives them')
+
+    def test_the_map_names_only_pages_the_wiki_shelf_holds(self):
+        """The map of the wiki is in the block, and every page it names by title is in the archive."""
+        import unicodedata
+        self.assertIn('## The map of the LIØNSBERG Wiki', self.block)
+        the_map = self.block[self.block.index('## The map of the LIØNSBERG Wiki'):]
+        for must in ('How the whole hangs together', 'The regions, and what each answers', 'By the moment', 'How to hold it',
+                     '{{HQ_PATH}}/library/lionsberg/wiki/'):
+            self.assertIn(must, the_map, must)
+        with tarfile.open(os.path.join(PLUS, 'library', 'lionsberg', WIKI_ARCHIVE), 'r:gz') as tar:
+            pages = {unicodedata.normalize('NFC', os.path.basename(m.name)[:-3]) for m in tar.getmembers() if m.name.endswith('.md')}
+        not_titles = set()
+        named = []
+        for bold, italic in re.findall(r'\*\*([^*]+)\*\*|\*([^*]+)\*', the_map):
+            name = (bold or italic).strip()
+            if name.endswith('.') or name.startswith('"'):
+                continue                      # a run-in heading, or the words of a moment
+            name = name.rstrip(':')
+            if name not in not_titles:
+                named.append(name)
+        self.assertGreater(len(named), 40, 'the map names its pages by title')
+        missing = [n for n in named if unicodedata.normalize('NFC', n) not in pages]
+        self.assertEqual(missing, [], 'the map names pages the wiki shelf does not hold: %s' % missing)
+        for path in re.findall(r'`(playing/[^`]+\.md)`', the_map):
+            self.assertTrue(os.path.isfile(os.path.join(PLUS, 'library', 'lionsberg', path)), 'the map names a page the playing shelf does not hold: %s' % path)
+        lacking = re.search(r'no page of their own in this copy yet: ([^.]+)\.', the_map)
+        if lacking:      # the sentence must stay true: when one of these pages arrives on the shelf, take its name out
+            for name in re.split(r',| and ', lacking.group(1)):
+                if name.strip():
+                    self.assertNotIn(unicodedata.normalize('NFC', name.strip()), pages, 'the map says this page is not here yet, and it is: %s' % name)
+        hubs = the_map[the_map.index('The pages most others lead to:'):].split('.')[0].split(':', 1)[1]
+        for hub in re.split(r',| and ', hubs):
+            if hub.strip():
+                self.assertIn(unicodedata.normalize('NFC', hub.strip()), pages, hub)
 
     def test_in_every_persona_it_sits_above_the_anchor_and_changes_nothing_else(self):
         for persona in ('chief-of-staff', 'companion', 'archivist'):
@@ -251,7 +315,8 @@ class ThePages(unittest.TestCase):
 
     def test_commitments_not_promises(self):
         for p in [os.path.join(PLUS, x) for x in self.OURS] + [os.path.join(PLUS, 'skills', s, 'SKILL.md') for s in SKILLS16]:
-            self.assertIsNone(re.search(r'\bpromis', read(p), re.I), os.path.relpath(p, TOP))
+            ours = re.sub(r'(?m)^> .*$', '', read(p))      # a line quoted from the reviewed seed is the seed's own
+            self.assertIsNone(re.search(r'\bpromis', ours, re.I), os.path.relpath(p, TOP))
 
 
 CARD_NEEDS = {
@@ -332,14 +397,12 @@ class TheCards(unittest.TestCase):
 class TheBookshelf(unittest.TestCase):
     SHELF = os.path.join(PLUS, 'library', 'lionsberg')
 
-    def test_the_reviewed_shelf_holds_the_reviewed_words(self):
-        have = sorted(os.listdir(os.path.join(self.SHELF, 'reviewed')))
-        self.assertEqual(have, sorted(REVIEWED))
-        for name, digest in REVIEWED.items():
-            text = read(os.path.join(self.SHELF, 'reviewed', name))
-            title, body = text.split('\n\n', 1)
-            self.assertEqual(title, '# ' + name[3:-3])
-            self.assertEqual(hashlib.sha256(body.rstrip('\n').encode('utf-8')).hexdigest()[:16], digest, '%s was changed' % name)
+    def test_the_seven_pages_are_in_the_wiki_word_for_word(self):
+        self.assertFalse(os.path.exists(os.path.join(self.SHELF, 'reviewed')), 'the seven pages live in the wiki, and nowhere else in the kit')
+        for title, text in seven_pages().items():
+            head, body = text.split('\n\n', 1)
+            self.assertEqual(head, '# ' + title)
+            self.assertEqual(hashlib.sha256(body.rstrip('\n').encode('utf-8')).hexdigest()[:16], SEVEN[title], '%s was changed' % title)
 
     def test_every_playing_page_says_how_to_weigh_it(self):
         n = 0
@@ -349,6 +412,40 @@ class TheBookshelf(unittest.TestCase):
                 self.assertIn('library-status: current best understanding, not yet reviewed line by line', head, rel)
                 n += 1
         self.assertGreaterEqual(n, 30)
+
+    def test_the_wiki_travels_as_one_archive_with_a_plain_name(self):
+        archive = os.path.join(self.SHELF, WIKI_ARCHIVE)
+        self.assertTrue(os.path.isfile(archive), 'the wiki shelf is in the kit as %s' % WIKI_ARCHIVE)
+        self.assertTrue(all(ord(c) <= 126 for c in WIKI_ARCHIVE))
+        self.assertFalse(os.path.exists(os.path.join(self.SHELF, 'wiki')), 'the kit carries the wiki as the archive only')
+        with tarfile.open(archive, 'r:gz') as tar:
+            members = tar.getmembers()
+        names = [m.name for m in members]
+        for m in members:
+            self.assertTrue(m.name == 'wiki' or m.name.startswith('wiki/'), m.name)
+            self.assertNotIn('..', m.name.split('/'), m.name)
+            self.assertTrue(m.isfile() or m.isdir(), '%s: only files and folders' % m.name)
+            self.assertEqual((m.uname, m.gname, m.uid, m.gid), ('', '', 0, 0), '%s: no owner names' % m.name)
+        self.assertEqual(names, sorted(names), 'the names are sorted, so the archive is the same each time it is made')
+        self.assertIn('wiki/README.md', names)
+        self.assertGreaterEqual(sum(1 for n in names if n.endswith('.md')), 1000)
+        for skipped in ('.git', '.obsidian', '.DS_Store'):
+            self.assertFalse([n for n in names if skipped in n.split('/')], skipped)
+
+    @unittest.skipUnless(shutil.which('tar'), 'needs tar')
+    def test_the_wiki_unpacks_with_tar_as_the_builders_page_says(self):
+        self.assertIn('tar -xzf library/lionsberg/wiki.tar.gz -C library/lionsberg', read(os.path.join(PLUS, 'BUILD.md')))
+        self.assertIn('tar -xzf library\\lionsberg\\wiki.tar.gz -C library\\lionsberg', read(os.path.join(PLUS, 'BUILD.md')))
+        tmp = tempfile.mkdtemp()
+        try:
+            shelf = os.path.join(tmp, 'library', 'lionsberg')
+            os.makedirs(shelf)
+            shutil.copyfile(os.path.join(self.SHELF, WIKI_ARCHIVE), os.path.join(shelf, WIKI_ARCHIVE))
+            r = subprocess.run(['tar', '-xzf', 'library/lionsberg/wiki.tar.gz', '-C', 'library/lionsberg'], cwd=tmp, capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr[:300])
+            self.assertTrue(os.path.isfile(os.path.join(shelf, 'wiki', 'README.md')))
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
 
 
 class AHouseBuiltByTheScript(unittest.TestCase):
@@ -402,16 +499,26 @@ class AHouseBuiltByTheScript(unittest.TestCase):
         for rel in ('projects/README.md', 'cards/README.md', 'library/README.md', 'library/pkai/README.md', 'library/lionsberg/README.md',
                     'pkai-starter-kit/BUILD.md', 'player-plus-kit/BUILD.md', 'player-plus-kit/card-examples/README.md'):
             self.assertTrue(os.path.isfile(os.path.join(self.hq, rel)), rel)
-        self.assertEqual(len(os.listdir(os.path.join(self.hq, 'library', 'lionsberg', 'reviewed'))), 7)
+        self.assertFalse(os.path.exists(os.path.join(self.hq, 'library', 'lionsberg', 'reviewed')))
+        for title in SEVEN:
+            self.assertTrue(os.path.isfile(os.path.join(self.hq, 'library', 'lionsberg', *SEVEN_PLACE.rstrip('/').split('/'), title + '.md')), title)
         self.assertFalse(os.path.exists(os.path.join(self.hq, 'player-plus-kit', 'library')), 'one library, in one place')
         self.assertFalse(os.path.exists(os.path.join(self.hq, 'pkai-starter-kit', 'library')))
+
+    def test_the_wiki_shelf_is_unpacked_and_its_archive_is_gone(self):
+        wiki = os.path.join(self.hq, 'library', 'lionsberg', 'wiki')
+        self.assertTrue(os.path.isfile(os.path.join(wiki, 'README.md')))
+        pages = [f for f in files(wiki) if f.endswith('.md')]
+        self.assertGreaterEqual(len(pages), 1000, 'the wiki shelf holds %d pages' % len(pages))
+        left = [os.path.relpath(os.path.join(dp, f), self.hq) for dp, dn, fn in os.walk(self.hq) for f in fn if f == WIKI_ARCHIVE]
+        self.assertEqual(left, [], 'the archive is removed once the shelf is unpacked')
 
     def test_every_link_on_the_bookshelf_leads_somewhere(self):
         dead = []
         for root in (os.path.join(self.hq, 'library', 'lionsberg'), os.path.join(self.hq, 'cards')):
             for rel in files(root):
-                if not rel.endswith('.md'):
-                    continue
+                if not rel.endswith('.md') or rel.startswith('wiki' + os.sep):
+                    continue          # the wiki is carried as it stands; its pages link by [[name]], not by path
                 here = os.path.dirname(os.path.join(root, rel))
                 for m in re.finditer(r'\]\(([^)]+)\)', read(os.path.join(root, rel))):
                     u = m.group(1).split('#')[0].strip('<>')
@@ -439,6 +546,21 @@ class TheDownload(unittest.TestCase):
             for f in files(os.path.join(TOP, k)):
                 odd = [c for c in f if ord(c) > 126]
                 self.assertEqual(odd, [], '%s/%s' % (k, f))
+
+    def test_every_name_in_the_zip_is_plain_ascii_and_the_wiki_is_in_it(self):
+        tmp = tempfile.mkdtemp()
+        try:
+            z = os.path.join(tmp, 'player-plus-kit.zip')
+            with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as zf:
+                for k in ('pkai-starter-kit', 'player-plus-kit'):
+                    for f in files(os.path.join(TOP, k)):
+                        zf.write(os.path.join(TOP, k, f), os.path.join(k, f))
+            with zipfile.ZipFile(z) as zf:
+                names = zf.namelist()
+            self.assertEqual([n for n in names if any(ord(c) > 126 for c in n)], [])
+            self.assertIn('player-plus-kit/library/lionsberg/' + WIKI_ARCHIVE, names)
+        finally:
+            shutil.rmtree(tmp, ignore_errors=True)
 
     @unittest.skipUnless(shutil.which('git') and shutil.which('unzip') and os.path.exists(os.path.join(TOP, '.git')), 'needs git and unzip')
     def test_the_release_zip_unzips_on_a_mac(self):

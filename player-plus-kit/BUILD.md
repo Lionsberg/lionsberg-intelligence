@@ -33,6 +33,7 @@ The step numbers are the starter kit's.
 ### Before step 1: where things are
 
 - After the unzip, both `pkai-starter-kit/` and `player-plus-kit/` sit directly in the HQ. If either unzipped under another name or one folder deeper, move it there. If the unzip reported an error, or stopped partway, remove what it left and extract again with `tar -xf`, which is on every Mac and on Windows 10 and later. A line of forty letters and digits near the top of the unzip's output is the release's own mark, and no error.
+- **When the sentence asked you to make the headquarters.** The person may have started this session without choosing a folder and asked you to make `<yourname>-hq` yourself. The session's own folder is then the app's temporary one: build nothing there. The HQ is the folder you made, and every path in the two build pages is read from it. Run the starter kit's cloud-sync check on that folder before step 1. If it is synced, say so in one sentence and, on their yes, make the folder at the top of their home folder and move the two kit folders there.
 - **If `pkai-starter-kit/` is not there,** say so and stop. This kit builds on it, and every step below needs its pages.
 - **A house the starter kit already built.** If a `<Name> (agent)` folder is already at the top of their home folder and its `CLAUDE.md` holds no Player+ block, the starter kit's page says how to tell a resumed setup from a second agent or a repair. To add Player+ to that house, with their yes, do only the six additions of step 5 below, the look at what you built, and the breath of orientation; the starter kit's own steps are already done.
 - **An earlier Player+ house.** If their home folder holds a folder named `My Agents`, or a folder named `HQ` with an agent's files in it, an earlier Player+ kit built a house here. Say so, tell them that this release does not change that house and that they can keep using it, and stop. Build nothing over it.
@@ -73,6 +74,11 @@ Do the starter kit's step 5 in full. Then, before its step 6:
 5. **The memories.** In `memory/waiver_agreed.md`, name both waivers. In `memory/origin.md`, add one or two sentences: that the house carries Player+, with its version; that the Player+ block is in the charter between its two markers; and where the Cards and the LIØNSBERG bookshelf are. Write one more memory, `memory/card_handle.md`, a `user` memory with its line in the index: the short name they sign their Cards with, and their agent's handle beside it.
 6. **The HQ.** After the starter kit's library move (its step 5.8):
    - Move `player-plus-kit/library/lionsberg/` to `<HQ>/library/lionsberg/`, so that the two bookshelves sit side by side. Move it; do not copy it. Then remove the empty `player-plus-kit/library/` folder.
+   - Unpack the wiki shelf. The LIØNSBERG Wiki travels in the kit as one archive, `<HQ>/library/lionsberg/wiki.tar.gz`, because its page names are not plain ASCII and an unzip can stop at such a name. From the HQ, unpack it with `tar`, which is on every Mac and on Windows 10 and later:
+     - on macOS or Linux: `tar -xzf library/lionsberg/wiki.tar.gz -C library/lionsberg`
+     - on Windows, in PowerShell: `tar -xzf library\lionsberg\wiki.tar.gz -C library\lionsberg`
+
+     Check that `<HQ>/library/lionsberg/wiki/README.md` exists, then remove the archive. If the unpacking fails, say so plainly and go on: the house is complete without that shelf.
    - Copy `player-plus-kit/template/hq/cards/` to `<HQ>/cards/`. It holds one page, which says what the folder is for.
 
 Narrate this at the same height as the rest of the build: "I am adding the Game to your agent." Keep the permission prompts few: copy whole folders.
@@ -84,20 +90,20 @@ Check quietly, and say only what is wrong:
 - the agent's `CLAUDE.md` holds the line `<!-- Player+ begins` once and the line `<!-- Player+ ends -->` once, in that order, above `## Things you always do`;
 - neither `CLAUDE.md` nor `PLAYER-PLUS.md` still holds `{{`;
 - `<agent home>/.claude/skills/` holds the fourteen skills the starter kit installs and the sixteen Player+ skills, thirty folders in all;
-- `<HQ>/library/pkai/` and `<HQ>/library/lionsberg/` both exist, and `<HQ>/library/lionsberg/reviewed/` holds seven pages;
+- `<HQ>/library/pkai/` and `<HQ>/library/lionsberg/` both exist, and `<HQ>/library/lionsberg/wiki/LIØNSBERG Core Documents/LIØNSBERG Invitation/The Story.md` exists;
 - `<HQ>/cards/README.md` exists.
 
 If one of these is not so, fix it, or say plainly what you could not do.
 
 The downloaded zip is not part of the house. Say so, and remove it from the HQ with their yes, before the first commit.
 
-### Steps 6 and 7: nothing added
+### Steps 6 and 7: one line added on Windows
 
-Version control and the agent's environment are the starter kit's, as written.
+Version control and the agent's environment are the starter kit's, as written, with one addition on Windows. Some pages of the wiki have long names, and Git on Windows can refuse a long path. So on Windows, right after `git init` in the HQ and before its first commit, run `git config core.longpaths true` in the HQ. If a commit still refuses a long path, add the line `library/lionsberg/wiki/` to the HQ's `.gitignore`, commit, and say so plainly; the shelf stays in place and readable.
 
 ### Step 8, orientation: one breath more
 
-After the starter kit's orientation, say in three or four sentences what Player+ added: that their agent now knows The Great Game of LIØNSBERG and where to find the rest; that the LIØNSBERG bookshelf sits beside the starter kit's in their library, with the words reviewed line by line on one shelf and the practical books on another; that play is written as Cards, plain files in `cards/` in their HQ; and that the first thing to do as a Player+, after *First Day in Desktop*, is to ask their agent to walk them through *Your First Hour*, a page on the playing shelf.
+After the starter kit's orientation, say in three or four sentences what Player+ added: that their agent now knows The Great Game of LIØNSBERG and where to find the rest; that the LIØNSBERG bookshelf sits beside the starter kit's in their library, with the LIØNSBERG Wiki on one shelf and the practical books on another; that play is written as Cards, plain files in `cards/` in their HQ; and that the first thing to do as a Player+, after *First Day in Desktop*, is to ask their agent to walk them through *Your First Hour*, a page on the playing shelf.
 
 Say once that the game engine and the board are not in this release.
 

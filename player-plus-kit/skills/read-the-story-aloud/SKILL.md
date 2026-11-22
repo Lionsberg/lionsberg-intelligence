@@ -6,7 +6,7 @@ license: MPL-2.0
 
 # Read the Story aloud
 
-The Story is the shared language of the Game — the story of ØNE and All, told at a low fire, as it has been told on countless worlds before this one. A few minutes to read; give it the time it takes to hear. **It is not a belief anyone is asked to hold.** It may be received as a true myth or as a game we have agreed to play; either way what follows is the same. It is on the reviewed shelf, at `<HQ>/library/lionsberg/reviewed/04 The Story.md`.
+The Story is the shared language of the Game — the story of ØNE and All, told at a low fire, as it has been told on countless worlds before this one. A few minutes to read; give it the time it takes to hear. **It is not a belief anyone is asked to hold.** It may be received as a true myth or as a game we have agreed to play; either way what follows is the same. It is in the wiki, at `<HQ>/library/lionsberg/wiki/LIØNSBERG Core Documents/LIØNSBERG Invitation/The Story.md`.
 
 Reading it is the first move of the Game, and it is older than every instrument in this kit: *people, sitting down, telling each other what happened.* Your office is to carry the words and then be quiet. The silence after a line is doing work you would undo by filling it.
 
